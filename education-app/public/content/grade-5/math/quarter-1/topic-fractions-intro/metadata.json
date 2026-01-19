@@ -1,0 +1,24 @@
+{
+  "id": "grade-5-math-q1-fractions-intro",
+  "grade": 5,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Introduction to Fractions",
+  "description": "Learn what fractions are, how to read them, and understand parts of a whole",
+  "learningObjectives": [
+    "Understand what fractions represent",
+    "Identify numerator and denominator",
+    "Represent fractions visually",
+    "Compare simple fractions",
+    "Recognize equivalent fractions"
+  ],
+  "estimatedDuration": 20,
+  "difficulty": "beginner",
+  "tags": ["fractions", "numerator", "denominator", "parts-of-whole"],
+  "lastUpdated": "2026-01-19",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json"
+  }
+}

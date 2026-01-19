@@ -1,0 +1,22 @@
+{
+  "id": "grade-3-math-q1-addition-basics",
+  "grade": 3,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Simple Addition Basics",
+  "description": "Learn to add single-digit numbers and understand what addition means",
+  "learningObjectives": [
+    "Understand what addition means",
+    "Add single-digit numbers accurately",
+    "Use the + symbol correctly",
+    "Solve simple addition word problems"
+  ],
+  "estimatedDuration": 15,
+  "difficulty": "beginner",
+  "tags": ["addition", "basic-math", "single-digit", "arithmetic"],
+  "lastUpdated": "2025-01-19",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md"
+  }
+}

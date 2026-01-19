@@ -1,0 +1,24 @@
+{
+  "id": "grade-8-math-q1-algebra-intro",
+  "grade": 8,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Introduction to Algebra",
+  "description": "Learn about variables, expressions, and solving basic linear equations",
+  "learningObjectives": [
+    "Understand what variables represent",
+    "Write and simplify algebraic expressions",
+    "Solve one-step and two-step equations",
+    "Translate word problems into equations",
+    "Apply the properties of equality"
+  ],
+  "estimatedDuration": 25,
+  "difficulty": "intermediate",
+  "tags": ["algebra", "variables", "equations", "expressions", "solving"],
+  "lastUpdated": "2026-01-19",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json"
+  }
+}

@@ -1,0 +1,225 @@
+.parent-dashboard {
+  min-height: calc(100vh - 80px);
+  padding: 2rem;
+}
+
+/* Authentication */
+.auth-container {
+  max-width: 450px;
+  margin: 4rem auto;
+  background: white;
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.auth-container h1 {
+  color: #24292e;
+  margin-bottom: 0.5rem;
+}
+
+.auth-subtitle {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.auth-form {
+  margin-bottom: 1.5rem;
+}
+
+.auth-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  transition: border-color 0.2s;
+}
+
+.auth-input:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+.auth-error {
+  color: #e74c3c;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.auth-button {
+  width: 100%;
+  padding: 0.875rem 1.5rem;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.auth-button:hover {
+  background: #357abd;
+}
+
+.auth-hint {
+  color: #999;
+  font-size: 0.85rem;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+.back-link {
+  background: none;
+  border: none;
+  color: #4a90e2;
+  cursor: pointer;
+  font-size: 0.95rem;
+  padding: 0.5rem;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/* Dashboard */
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.dashboard-header h1 {
+  color: #24292e;
+  margin: 0;
+}
+
+.back-button {
+  padding: 0.5rem 1rem;
+  background: #f0f0f0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background-color 0.2s;
+}
+
+.back-button:hover {
+  background: #e0e0e0;
+}
+
+/* Child Section */
+.child-section {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.child-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.child-info h2 {
+  margin: 0 0 0.25rem 0;
+  color: #24292e;
+}
+
+.child-grade {
+  color: #666;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.child-stats {
+  display: flex;
+  gap: 2rem;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-value {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #4a90e2;
+}
+
+.stat-label {
+  display: block;
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.25rem;
+}
+
+/* Progress Table */
+.progress-table {
+  overflow-x: auto;
+}
+
+.progress-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.progress-table th {
+  text-align: left;
+  padding: 0.75rem 1rem;
+  background: #f8f9fa;
+  color: #666;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.progress-table td {
+  padding: 1rem;
+  border-top: 1px solid #f0f0f0;
+}
+
+.lesson-name {
+  font-weight: 500;
+  color: #24292e;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.status-completed {
+  background: #d4edda;
+  color: #155724;
+}
+
+.status-in-progress {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.status-not-started {
+  background: #f0f0f0;
+  color: #666;
+}

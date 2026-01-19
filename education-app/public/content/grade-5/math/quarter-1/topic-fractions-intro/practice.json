@@ -1,0 +1,82 @@
+{
+  "examId": "grade-5-math-q1-fractions-intro-practice",
+  "examType": "practice",
+  "title": "Fractions Practice Exam",
+  "description": "Test your understanding of fractions",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "In the fraction $\\frac{3}{4}$, which number is the numerator?",
+      "options": ["3", "4", "7", "12"],
+      "correctAnswer": 0,
+      "explanation": "The numerator is the top number of a fraction. In $\\frac{3}{4}$, the numerator is 3.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "What does the denominator of a fraction tell us?",
+      "options": ["How many parts we have", "How many equal parts the whole is divided into", "The total number", "The sum of the fraction"],
+      "correctAnswer": 1,
+      "explanation": "The denominator (bottom number) tells us how many equal parts the whole is divided into.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which fraction is equivalent to $\\frac{1}{2}$?",
+      "options": ["$\\frac{1}{4}$", "$\\frac{2}{3}$", "$\\frac{2}{4}$", "$\\frac{3}{5}$"],
+      "correctAnswer": 2,
+      "explanation": "To find an equivalent fraction, multiply both numerator and denominator by the same number. $\\frac{1 \\times 2}{2 \\times 2} = \\frac{2}{4}$",
+      "points": 15
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "You have a pizza cut into 8 slices. If you eat 3 slices, what fraction of the pizza did you eat?",
+      "options": ["$\\frac{3}{8}$", "$\\frac{8}{3}$", "$\\frac{5}{8}$", "$\\frac{3}{5}$"],
+      "correctAnswer": 0,
+      "explanation": "You ate 3 slices out of 8 total slices, so you ate $\\frac{3}{8}$ of the pizza.",
+      "points": 15
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which is larger: $\\frac{5}{9}$ or $\\frac{7}{9}$?",
+      "options": ["$\\frac{5}{9}$", "$\\frac{7}{9}$", "They are equal", "Cannot determine"],
+      "correctAnswer": 1,
+      "explanation": "When fractions have the same denominator, compare the numerators. Since 7 > 5, we have $\\frac{7}{9} > \\frac{5}{9}$.",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "What is $\\frac{1}{4}$ of 20?",
+      "options": ["4", "5", "10", "20"],
+      "correctAnswer": 1,
+      "explanation": "To find $\\frac{1}{4}$ of 20, multiply: $\\frac{1 \\times 20}{4} = \\frac{20}{4} = 5$",
+      "points": 15
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which type of fraction is $\\frac{7}{4}$?",
+      "options": ["Proper fraction", "Improper fraction", "Unit fraction", "Mixed number"],
+      "correctAnswer": 1,
+      "explanation": "An improper fraction has a numerator that is larger than or equal to the denominator. Since 7 > 4, this is an improper fraction.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "To create an equivalent fraction, you should:",
+      "options": ["Add the same number to top and bottom", "Multiply the numerator only", "Multiply or divide both numerator and denominator by the same number", "Subtract from the denominator"],
+      "correctAnswer": 2,
+      "explanation": "Equivalent fractions are created by multiplying or dividing both the numerator and denominator by the same number (not zero).",
+      "points": 10
+    }
+  ]
+}

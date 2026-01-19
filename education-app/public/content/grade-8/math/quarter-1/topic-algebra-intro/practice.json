@@ -1,0 +1,82 @@
+{
+  "examId": "grade-8-math-q1-algebra-intro-practice",
+  "examType": "practice",
+  "title": "Algebra Practice Exam",
+  "description": "Test your understanding of algebraic expressions and equations",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "In the expression $5x + 3$, what is the coefficient of $x$?",
+      "options": ["3", "5", "8", "x"],
+      "correctAnswer": 1,
+      "explanation": "The coefficient is the number multiplied by the variable. In $5x + 3$, the coefficient of $x$ is 5.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "What is the constant term in $7y - 4$?",
+      "options": ["7", "-4", "y", "3"],
+      "correctAnswer": 1,
+      "explanation": "A constant is a term without a variable. In $7y - 4$, the constant is -4.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Solve for $x$: $x + 9 = 15$",
+      "options": ["4", "6", "24", "15"],
+      "correctAnswer": 1,
+      "explanation": "Subtract 9 from both sides: $x + 9 - 9 = 15 - 9$, so $x = 6$.",
+      "points": 15
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Solve for $x$: $4x = 28$",
+      "options": ["7", "24", "32", "112"],
+      "correctAnswer": 0,
+      "explanation": "Divide both sides by 4: $\\frac{4x}{4} = \\frac{28}{4}$, so $x = 7$.",
+      "points": 15
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Solve for $x$: $2x + 5 = 15$",
+      "options": ["5", "10", "7.5", "20"],
+      "correctAnswer": 0,
+      "explanation": "First subtract 5: $2x = 10$. Then divide by 2: $x = 5$.",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Which expression represents \"five more than twice a number $n$\"?",
+      "options": ["$5n + 2$", "$2n + 5$", "$5 + 2n$", "$n + 7$"],
+      "correctAnswer": 1,
+      "explanation": "\"Twice a number\" is $2n$, and \"five more than\" means add 5, giving $2n + 5$. Note that $2n + 5$ and $5 + 2n$ are both correct (commutative property), but $2n + 5$ matches the word order.",
+      "points": 15
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "What is the first step in solving $3x - 7 = 11$?",
+      "options": ["Divide both sides by 3", "Add 7 to both sides", "Subtract 11 from both sides", "Multiply both sides by 3"],
+      "correctAnswer": 1,
+      "explanation": "To isolate the term with $x$, first undo the subtraction by adding 7 to both sides.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "If $\\frac{x}{5} = 3$, what is $x$?",
+      "options": ["15", "8", "5/3", "3/5"],
+      "correctAnswer": 0,
+      "explanation": "Multiply both sides by 5: $5 \\times \\frac{x}{5} = 3 \\times 5$, so $x = 15$.",
+      "points": 10
+    }
+  ]
+}

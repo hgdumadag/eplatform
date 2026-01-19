@@ -1,0 +1,24 @@
+{
+  "id": "grade-11-math-q1-trigonometry-intro",
+  "grade": 11,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Introduction to Trigonometry",
+  "description": "Learn about trigonometric ratios, the unit circle, and solving right triangles",
+  "learningObjectives": [
+    "Understand the six trigonometric ratios",
+    "Use SOH-CAH-TOA to find angles and sides",
+    "Apply trigonometry to right triangles",
+    "Understand the unit circle basics",
+    "Solve real-world problems using trigonometry"
+  ],
+  "estimatedDuration": 30,
+  "difficulty": "advanced",
+  "tags": ["trigonometry", "sine", "cosine", "tangent", "right-triangles", "unit-circle"],
+  "lastUpdated": "2026-01-19",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json"
+  }
+}

@@ -1,0 +1,78 @@
+.lesson-list {
+  padding: 2rem 0;
+}
+
+.lesson-list h2 {
+  margin-bottom: 2rem;
+  color: #2c3e50;
+}
+
+.lessons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.lesson-card {
+  background: white;
+  border: 2px solid #e1e4e8;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.lesson-card:hover {
+  border-color: #4a90e2;
+  box-shadow: 0 4px 12px rgba(74, 144, 226, 0.15);
+  transform: translateY(-2px);
+}
+
+.lesson-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.lesson-subject {
+  background: #4a90e2;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.completed-badge {
+  background: #27ae60;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.lesson-card h3 {
+  margin: 0 0 0.75rem 0;
+  color: #2c3e50;
+  font-size: 1.25rem;
+}
+
+.lesson-meta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: #6a737d;
+}
+
+.loading,
+.no-lessons {
+  text-align: center;
+  padding: 3rem;
+  color: #6a737d;
+  font-size: 1.1rem;
+}

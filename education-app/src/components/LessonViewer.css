@@ -1,0 +1,306 @@
+.lesson-viewer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.lesson-header {
+  margin-bottom: 2rem;
+}
+
+.btn-back {
+  background: none;
+  border: none;
+  color: #4a90e2;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-back:hover {
+  text-decoration: underline;
+}
+
+.lesson-info h1 {
+  margin: 0 0 1rem 0;
+  color: #2c3e50;
+  font-size: 2.5rem;
+}
+
+.lesson-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: #6a737d;
+}
+
+.badge {
+  background: #4a90e2;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.badge-success {
+  background: #27ae60;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.lesson-description {
+  color: #6a737d;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.lesson-content {
+  background: white;
+  border: 2px solid #e1e4e8;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Markdown content styling */
+.lesson-content h1 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+  border-bottom: 2px solid #e1e4e8;
+  padding-bottom: 0.5rem;
+}
+
+.lesson-content h1:first-child {
+  margin-top: 0;
+}
+
+.lesson-content h2 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #2c3e50;
+}
+
+.lesson-content p {
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  color: #24292e;
+  font-size: 1.1rem;
+}
+
+.lesson-content ul,
+.lesson-content ol {
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.lesson-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+.lesson-content code {
+  background: #f6f8fa;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.95em;
+}
+
+.lesson-content pre {
+  background: #f6f8fa;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin-bottom: 1rem;
+}
+
+/* LaTeX formula styling */
+.lesson-content .math-inline {
+  font-size: 1.1em;
+}
+
+.lesson-content .math-display {
+  font-size: 1.3em;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+}
+
+.lesson-actions {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+.btn-primary {
+  background: #4a90e2;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  background: #357abd;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3);
+}
+
+.btn-secondary {
+  background: white;
+  color: #4a90e2;
+  border: 2px solid #4a90e2;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-secondary:hover {
+  background: #f0f7ff;
+}
+
+.completed-message {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: #d4edda;
+  color: #155724;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.completed-icon {
+  font-size: 1.5rem;
+}
+
+.loading-state,
+.error-state {
+  text-align: center;
+  padding: 3rem;
+  color: #6a737d;
+  font-size: 1.1rem;
+}
+
+.error-state {
+  color: #e74c3c;
+}
+
+/* Exam Button */
+.btn-exam {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-exam:hover {
+  background: #218838;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+}
+
+/* Exam History */
+.exam-history {
+  background: white;
+  border: 2px solid #e1e4e8;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.exam-history h3 {
+  margin: 0 0 1.5rem 0;
+  color: #2c3e50;
+  font-size: 1.5rem;
+}
+
+.attempt-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.attempt-card {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  border-left: 4px solid #4a90e2;
+}
+
+.attempt-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.attempt-number {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.attempt-score {
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+}
+
+.attempt-score.passed {
+  background: #d4edda;
+  color: #155724;
+}
+
+.attempt-score.failed {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.attempt-details {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.9rem;
+  color: #6a737d;
+}
+
+.best-score {
+  background: #fff9e6;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #856404;
+  border: 2px solid #ffc107;
+}
+
+.best-score strong {
+  color: #664d03;
+  font-size: 1.3rem;
+}

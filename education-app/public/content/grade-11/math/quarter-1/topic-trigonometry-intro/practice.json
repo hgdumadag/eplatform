@@ -1,0 +1,82 @@
+{
+  "examId": "grade-11-math-q1-trigonometry-intro-practice",
+  "examType": "practice",
+  "title": "Trigonometry Practice Exam",
+  "description": "Test your understanding of trigonometric ratios and right triangles",
+  "passingScore": 70,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What does SOH stand for in SOH-CAH-TOA?",
+      "options": ["Sine = Opposite / Hypotenuse", "Sine = Opposite × Hypotenuse", "Sine = Over / Hypotenuse", "Sine = On / Height"],
+      "correctAnswer": 0,
+      "explanation": "SOH stands for Sine = Opposite / Hypotenuse, which is the definition of the sine ratio.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "In a right triangle, what is always true about the hypotenuse?",
+      "options": ["It's the shortest side", "It's opposite the right angle", "It's adjacent to all angles", "It's always 1 unit long"],
+      "correctAnswer": 1,
+      "explanation": "The hypotenuse is always the longest side of a right triangle and is opposite the right angle (90°).",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "If $\\sin(\\theta) = \\frac{3}{5}$ in a right triangle, what is $\\csc(\\theta)$?",
+      "options": ["$\\frac{3}{5}$", "$\\frac{5}{3}$", "$\\frac{4}{5}$", "$\\frac{5}{4}$"],
+      "correctAnswer": 1,
+      "explanation": "Cosecant is the reciprocal of sine: $\\csc(\\theta) = \\frac{1}{\\sin(\\theta)} = \\frac{5}{3}$.",
+      "points": 15
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "In a right triangle with opposite = 4, adjacent = 3, and hypotenuse = 5, what is $\\cos(\\theta)$?",
+      "options": ["$\\frac{3}{5}$", "$\\frac{4}{5}$", "$\\frac{4}{3}$", "$\\frac{5}{3}$"],
+      "correctAnswer": 0,
+      "explanation": "Cosine = Adjacent / Hypotenuse = $\\frac{3}{5}$.",
+      "points": 15
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "What is the value of $\\sin(30°)$?",
+      "options": ["$\\frac{1}{2}$", "$\\frac{\\sqrt{2}}{2}$", "$\\frac{\\sqrt{3}}{2}$", "$1$"],
+      "correctAnswer": 0,
+      "explanation": "From the 30-60-90 special triangle, $\\sin(30°) = \\frac{1}{2}$.",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Which trigonometric identity is always true?",
+      "options": ["$\\sin(\\theta) + \\cos(\\theta) = 1$", "$\\sin^2(\\theta) + \\cos^2(\\theta) = 1$", "$\\tan(\\theta) = \\sin(\\theta) + \\cos(\\theta)$", "$\\sin(\\theta) = \\cos(\\theta)$"],
+      "correctAnswer": 1,
+      "explanation": "The Pythagorean identity states that $\\sin^2(\\theta) + \\cos^2(\\theta) = 1$ for all angles.",
+      "points": 15
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "If $\\tan(\\theta) = \\frac{7}{24}$, what is the relationship between the opposite and adjacent sides?",
+      "options": ["Opposite = 7, Adjacent = 24", "Opposite = 24, Adjacent = 7", "They are equal", "Cannot determine"],
+      "correctAnswer": 0,
+      "explanation": "Tangent = Opposite / Adjacent, so if $\\tan(\\theta) = \\frac{7}{24}$, then opposite = 7 and adjacent = 24.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "In a 45-45-90 triangle, what is $\\tan(45°)$?",
+      "options": ["$0$", "$\\frac{1}{2}$", "$1$", "$\\sqrt{2}$"],
+      "correctAnswer": 2,
+      "explanation": "In a 45-45-90 triangle, the opposite and adjacent sides are equal, so $\\tan(45°) = \\frac{\\text{opposite}}{\\text{adjacent}} = 1$.",
+      "points": 10
+    }
+  ]
+}

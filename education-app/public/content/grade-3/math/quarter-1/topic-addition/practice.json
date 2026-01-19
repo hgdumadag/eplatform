@@ -1,0 +1,82 @@
+{
+  "examId": "grade-3-math-q1-addition-basics-practice",
+  "examType": "practice",
+  "title": "Addition Practice Exam",
+  "description": "Test your understanding of basic addition",
+  "passingScore": 70,
+  "timeLimit": 15,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What is $2 + 3$?",
+      "options": ["4", "5", "6", "7"],
+      "correctAnswer": 1,
+      "explanation": "When you add 2 and 3 together, you get 5. You can count: 3, 4, 5.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "In the problem $4 + 5 = 9$, what is the sum?",
+      "options": ["4", "5", "9", "10"],
+      "correctAnswer": 2,
+      "explanation": "The sum is the answer when you add numbers together. In this problem, 9 is the sum.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which property says that $3 + 5 = 5 + 3$?",
+      "options": ["Commutative Property", "Identity Property", "Adding Property", "Equal Property"],
+      "correctAnswer": 0,
+      "explanation": "The Commutative Property of addition says you can add numbers in any order and get the same answer.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "What is $7 + 0$?",
+      "options": ["0", "1", "7", "70"],
+      "correctAnswer": 2,
+      "explanation": "Adding zero to any number gives you the same number. This is the Identity Property of addition.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Sarah has 3 apples. Her friend gives her 4 more. How many apples does Sarah have now?",
+      "options": ["3", "4", "7", "12"],
+      "correctAnswer": 2,
+      "explanation": "This is an addition problem: 3 + 4 = 7. Sarah has 7 apples in total.",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "What is $6 + 4$?",
+      "options": ["8", "9", "10", "11"],
+      "correctAnswer": 2,
+      "explanation": "6 + 4 = 10. You can count on from 6: 7, 8, 9, 10.",
+      "points": 15
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "In the addition problem $5 + 3 = 8$, what are the addends?",
+      "options": ["Only 5", "Only 3", "5 and 3", "8"],
+      "correctAnswer": 2,
+      "explanation": "The addends are the numbers being added together. In this problem, both 5 and 3 are addends.",
+      "points": 15
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Which addition problem equals 11?",
+      "options": ["5 + 5", "6 + 5", "7 + 3", "8 + 2"],
+      "correctAnswer": 1,
+      "explanation": "6 + 5 = 11. The other options give: 5+5=10, 7+3=10, and 8+2=10.",
+      "points": 15
+    }
+  ]
+}
