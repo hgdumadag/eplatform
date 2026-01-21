@@ -1,0 +1,78 @@
+{
+  "examId": "grade-5-science-q1-energy-forces-practice",
+  "examType": "practice",
+  "title": "Energy & Forces Practice Exam",
+  "description": "Test your understanding of energy types and forces",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What type of energy does a moving bicycle have?",
+      "options": ["Potential energy", "Kinetic energy", "Chemical energy", "Sound energy"],
+      "correctAnswer": 1,
+      "explanation": "Kinetic energy is the energy of motion. A moving bicycle has kinetic energy because it is in motion.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "true-false",
+      "question": "Energy can be created and destroyed.",
+      "correctAnswer": "false",
+      "explanation": "According to the Law of Conservation of Energy, energy cannot be created or destroyed—it can only change from one form to another.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which force pulls objects toward the Earth?",
+      "options": ["Friction", "Magnetism", "Gravity", "Air resistance"],
+      "correctAnswer": 2,
+      "explanation": "Gravity is the force that pulls objects toward the center of the Earth, making things fall down.",
+      "points": 15
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "A ball sitting on top of a hill has _______ energy.",
+      "correctAnswer": "potential",
+      "explanation": "Potential energy is stored energy based on position. The ball has potential energy because of its height on the hill.",
+      "points": 15
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "What happens when two north poles of magnets are brought close together?",
+      "options": ["They attract", "They repel", "They stick together", "Nothing happens"],
+      "correctAnswer": 1,
+      "explanation": "Like poles (north-north or south-south) repel or push away from each other. Opposite poles attract.",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "Friction is a force that helps objects move faster.",
+      "correctAnswer": "false",
+      "explanation": "Friction opposes motion and slows objects down. It acts in the opposite direction of movement.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "When you turn on a flashlight, electrical energy changes into what type of energy?",
+      "options": ["Chemical energy", "Light energy", "Sound energy", "Kinetic energy"],
+      "correctAnswer": 1,
+      "explanation": "A flashlight transforms electrical energy from batteries into light energy (and some heat energy).",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Name one force and describe what it does.",
+      "correctAnswer": "Gravity pulls objects down, Friction slows things down, Magnetism attracts or repels magnets",
+      "explanation": "Accept any correct force with an accurate description: Gravity (pulls down), Friction (slows motion), Magnetism (attracts/repels), Applied force (pushes/pulls objects).",
+      "points": 15
+    }
+  ]
+}

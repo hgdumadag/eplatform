@@ -1,12 +1,18 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Navigate } from 'react-router-dom';
 import { useChildStore } from '../stores/childStore';
 import { useProgressStore } from '../stores/progressStore';
+import { useUserStore } from '../stores/userStore';
 import './ChildSelector.css';
 
 export function ChildSelector() {
   const navigate = useNavigate();
   const { children, selectChild } = useChildStore();
   const setActiveChild = useProgressStore(state => state.setActiveChild);
+  const { currentUser, canSwitchChildren } = useUserStore();
+
+  if (!currentUser || !canSwitchChildren()) {
+    return <Navigate to="/" replace />;
+  }
 
   const handleSelectChild = (childId: string) => {
     selectChild(childId);
@@ -18,8 +24,8 @@ export function ChildSelector() {
   return (
     <div className="child-selector">
       <div className="child-selector-container">
-        <h1>Welcome to Your Learning Portal</h1>
-        <p className="child-selector-subtitle">Select your profile to continue</p>
+        <h1>Welcome, {currentUser.name}! Select a child:</h1>
+        <p className="child-selector-subtitle">Select which child to view</p>
 
         <div className="child-cards">
           {children.map((child) => (

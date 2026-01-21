@@ -1,0 +1,92 @@
+{
+  "examId": "grade-8-english-q1-persuasive-practice",
+  "examType": "practice",
+  "title": "Persuasive Essays Practice Exam",
+  "description": "Test your understanding of persuasive writing techniques",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which of the following is the best position statement for a persuasive essay?",
+      "options": [
+        "Some students like uniforms and some don't.",
+        "School uniforms are a controversial topic.",
+        "Our school should adopt a uniform policy to reduce bullying and improve school pride.",
+        "This essay is about school uniforms."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Option 3 is the strongest position statement because it clearly states an opinion and provides reasons (reduce bullying, improve school pride). The other options are too vague or don't take a clear stance.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "short-answer",
+      "question": "What are the three main appeals used in persuasive writing?",
+      "correctAnswer": "logic (logos), emotion (pathos), and credibility (ethos)",
+      "explanation": "Effective persuasive writing uses logical appeals (facts and reasoning), emotional appeals (connecting with feelings), and credibility appeals (showing trustworthiness and expertise).",
+      "points": 15
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "Acknowledging counterarguments in your essay weakens your position by showing the other side has valid points.",
+      "correctAnswer": "false",
+      "explanation": "Acknowledging counterarguments actually strengthens your essay by showing you've considered other perspectives. It makes you seem more credible and allows you to explain why your position is still better.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Read this sentence: 'How can we expect to protect the environment if we don't even recycle in our own school?' What persuasive technique is being used?",
+      "options": [
+        "Repetition",
+        "Expert opinion",
+        "Rhetorical question",
+        "Personal anecdote"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This is a rhetorical question - a question asked to make readers think rather than to get an answer. It emphasizes the inconsistency between environmental goals and current actions.",
+      "points": 13
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "The section of a persuasive essay where you acknowledge the opposing viewpoint is called the __________.",
+      "correctAnswer": "counterargument",
+      "explanation": "The counterargument section presents the opposing view fairly and then explains why your position is still better. This makes your argument more balanced and credible.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "Why is using specific statistics more effective than saying 'many people' or 'some studies' in persuasive writing?",
+      "correctAnswer": "specific statistics provide concrete evidence and are more credible and convincing than vague statements",
+      "explanation": "Specific numbers and data from named sources can be verified and show you've done research. Vague phrases like 'many people' sound like unsupported opinions and are less persuasive.",
+      "points": 15
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "What should the conclusion of a persuasive essay accomplish?",
+      "options": [
+        "Introduce new evidence that wasn't discussed in the body",
+        "Restate the position, summarize main reasons, and end with a call to action",
+        "Apologize if the reader disagrees with your position",
+        "List every piece of evidence mentioned in the essay"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An effective conclusion restates your position in new words, briefly summarizes your strongest reasons, and ends powerfully with a call to action or final thought. It shouldn't introduce new evidence or apologize.",
+      "points": 12
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain the difference between an emotional appeal and a logical appeal in persuasive writing.",
+      "correctAnswer": "emotional appeals connect with readers' feelings while logical appeals use facts and reasoning",
+      "explanation": "Emotional appeals (pathos) try to make readers feel something - sympathy, anger, pride, etc. Logical appeals (logos) convince through facts, statistics, data, and reasoning. Effective persuasive writing often uses both.",
+      "points": 13
+    }
+  ]
+}

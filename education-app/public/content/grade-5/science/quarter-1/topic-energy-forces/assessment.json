@@ -1,0 +1,78 @@
+{
+  "examId": "grade-5-science-q1-energy-forces-assessment",
+  "examType": "assessment",
+  "title": "Energy & Forces Assessment Exam",
+  "description": "Comprehensive assessment of energy and force concepts",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A book sitting on a high shelf has what type of energy?",
+      "options": ["Kinetic energy", "Sound energy", "Potential energy", "Light energy"],
+      "correctAnswer": 2,
+      "explanation": "The book has potential energy because it is at a height. If it falls, the potential energy will become kinetic energy.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "true-false",
+      "question": "Balanced forces cause objects to change speed or direction.",
+      "correctAnswer": "false",
+      "explanation": "Balanced forces are equal and opposite, so they cancel out and don't cause changes in motion. Unbalanced forces cause changes in speed or direction.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "What energy transformation happens when you eat food and then ride your bike?",
+      "options": ["Light to kinetic", "Chemical to kinetic", "Potential to light", "Sound to heat"],
+      "correctAnswer": 1,
+      "explanation": "Food contains chemical energy, which your body transforms into kinetic energy (motion) when you ride your bike.",
+      "points": 15
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "The force that opposes motion and slows things down is called _______.",
+      "correctAnswer": "friction",
+      "explanation": "Friction is the force that occurs when surfaces rub together, and it always opposes motion.",
+      "points": 15
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which surface would create the MOST friction?",
+      "options": ["Ice", "Smooth tile", "Sandpaper", "Glass"],
+      "correctAnswer": 2,
+      "explanation": "Sandpaper is very rough, so it creates the most friction. Smoother surfaces like ice and glass create less friction.",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "A car moving down the road has both kinetic energy and potential energy.",
+      "correctAnswer": "true",
+      "explanation": "The car has kinetic energy because it's moving. It also has potential energy based on its height above ground level (even if it's small).",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "What must happen for an object at rest to start moving?",
+      "options": ["Balanced forces must act on it", "Unbalanced forces must act on it", "Gravity must stop working", "Friction must increase"],
+      "correctAnswer": 1,
+      "explanation": "An unbalanced force (where one force is stronger than others) is needed to start an object moving or change its motion.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A ball rolls down a ramp. Describe the energy transformation that occurs.",
+      "correctAnswer": "Potential energy changes to kinetic energy",
+      "explanation": "At the top, the ball has potential energy from its height. As it rolls down, the potential energy transforms into kinetic energy (motion).",
+      "points": 15
+    }
+  ]
+}

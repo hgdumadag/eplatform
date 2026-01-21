@@ -1,0 +1,78 @@
+{
+  "examId": "grade-11-science-q1-motion-kinematics-practice",
+  "examType": "practice",
+  "title": "Motion & Kinematics Practice Exam",
+  "description": "Test your understanding of motion and kinematic equations",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A car accelerates from rest at $2 \\text{ m/s}^2$. What is its velocity after 5 seconds?",
+      "options": ["5 m/s", "10 m/s", "15 m/s", "20 m/s"],
+      "correctAnswer": 1,
+      "explanation": "Using $v_f = v_i + at$ where $v_i = 0$: $v_f = 0 + (2)(5) = 10 \\text{ m/s}$",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A ball is thrown upward with an initial velocity of $20 \\text{ m/s}$. Using $g = 10 \\text{ m/s}^2$, what is the maximum height reached?",
+      "options": ["10 m", "20 m", "30 m", "40 m"],
+      "correctAnswer": 1,
+      "explanation": "At maximum height, $v_f = 0$. Using $v_f^2 = v_i^2 + 2a\\Delta x$ with $a = -10 \\text{ m/s}^2$: $0 = (20)^2 + 2(-10)\\Delta x$, so $\\Delta x = \\frac{400}{20} = 20 \\text{ m}$",
+      "points": 15
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "An object with constant velocity has zero acceleration.",
+      "correctAnswer": "true",
+      "explanation": "Acceleration is the rate of change of velocity. If velocity is constant, it doesn't change, so $a = 0$.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A train moving at $15 \\text{ m/s}$ accelerates uniformly to $25 \\text{ m/s}$ over a distance of 100 m. What is the acceleration?",
+      "options": ["1 m/s²", "2 m/s²", "3 m/s²", "4 m/s²"],
+      "correctAnswer": 1,
+      "explanation": "Using $v_f^2 = v_i^2 + 2a\\Delta x$: $(25)^2 = (15)^2 + 2a(100)$, so $625 = 225 + 200a$, giving $a = 2 \\text{ m/s}^2$",
+      "points": 15
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "The slope of a velocity-time graph represents _______.",
+      "correctAnswer": "acceleration",
+      "explanation": "The slope of a velocity-time graph is $\\frac{\\Delta v}{\\Delta t}$, which is the definition of acceleration.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "An object is dropped from rest and falls for 3 seconds. How far does it fall? (Use $g = 10 \\text{ m/s}^2$)",
+      "options": ["30 m", "45 m", "60 m", "90 m"],
+      "correctAnswer": 1,
+      "explanation": "Using $\\Delta x = v_i t + \\frac{1}{2}at^2$ with $v_i = 0$: $\\Delta x = 0 + \\frac{1}{2}(10)(3)^2 = 5(9) = 45 \\text{ m}$",
+      "points": 15
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "Displacement and distance are always equal in magnitude.",
+      "correctAnswer": "false",
+      "explanation": "Displacement is the straight-line distance from start to finish, while distance is the total path length. They are only equal for straight-line motion in one direction.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A cyclist traveling at $12 \\text{ m/s}$ applies brakes with a deceleration of $3 \\text{ m/s}^2$. Calculate the time taken to stop.",
+      "correctAnswer": "4 seconds",
+      "explanation": "Using $v_f = v_i + at$: $0 = 12 + (-3)t$, so $3t = 12$ and $t = 4 \\text{ s}$",
+      "points": 15
+    }
+  ]
+}

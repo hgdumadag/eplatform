@@ -1,0 +1,78 @@
+{
+  "examId": "grade-11-science-q1-genetics-heredity-practice",
+  "examType": "practice",
+  "title": "Genetics & Heredity Practice Exam",
+  "description": "Test your understanding of genetic inheritance and DNA structure",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "In pea plants, tall (T) is dominant over short (t). If a heterozygous tall plant (Tt) is crossed with a short plant (tt), what percentage of offspring will be tall?",
+      "options": ["25%", "50%", "75%", "100%"],
+      "correctAnswer": 1,
+      "explanation": "The cross Tt × tt produces: Tt, Tt, tt, tt. Two out of four (50%) will be tall (Tt).",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "true-false",
+      "question": "A dominant allele is always more common in a population than a recessive allele.",
+      "correctAnswer": "false",
+      "explanation": "Dominance refers to how alleles are expressed in phenotype, not their frequency in a population. Recessive alleles can be more common.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which DNA base pairs with Adenine (A)?",
+      "options": ["Cytosine", "Guanine", "Thymine", "Uracil"],
+      "correctAnswer": 2,
+      "explanation": "In DNA, Adenine (A) always pairs with Thymine (T), and Guanine (G) pairs with Cytosine (C).",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "An organism with two identical alleles for a trait (such as TT or tt) is called _______.",
+      "correctAnswer": "homozygous",
+      "explanation": "Homozygous means having two identical alleles. Heterozygous means having two different alleles.",
+      "points": 15
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Two heterozygous plants for purple flowers (Pp) are crossed. What is the expected phenotypic ratio of the offspring?",
+      "options": ["1 purple : 1 white", "2 purple : 1 white", "3 purple : 1 white", "4 purple : 0 white"],
+      "correctAnswer": 2,
+      "explanation": "Pp × Pp produces PP, Pp, Pp, pp. Three show purple phenotype (PP and Pp) and one shows white (pp), giving a 3:1 ratio.",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "Genotype refers to the physical appearance of an organism.",
+      "correctAnswer": "false",
+      "explanation": "Genotype refers to the genetic makeup (alleles present). Phenotype refers to the physical appearance or observable traits.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "If the DNA sequence on one strand is 5'-GCTA-3', what is the complementary strand?",
+      "options": ["5'-CGAT-3'", "3'-CGAT-5'", "5'-TACG-3'", "3'-TACG-5'"],
+      "correctAnswer": 1,
+      "explanation": "Using base pairing (G-C, C-G, T-A, A-T): G pairs with C, C with G, T with A, A with T. The complementary strand runs antiparallel: 3'-CGAT-5'.",
+      "points": 15
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A heterozygous black cat (Bb) is crossed with a homozygous white cat (bb). What is the probability that a kitten will be white?",
+      "correctAnswer": "50% or 1/2 or 0.5",
+      "explanation": "The cross Bb × bb produces Bb, Bb, bb, bb. Two out of four (50%) are white (bb).",
+      "points": 15
+    }
+  ]
+}

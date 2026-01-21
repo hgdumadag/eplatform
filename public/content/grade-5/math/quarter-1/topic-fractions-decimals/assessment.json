@@ -1,0 +1,92 @@
+{
+  "examId": "grade-5-math-q1-fractions-decimals-assessment",
+  "examType": "assessment",
+  "title": "Fractions & Decimals Assessment Exam",
+  "description": "Demonstrate your mastery of fractions and decimals through this comprehensive assessment.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What decimal is equal to $\\frac{3}{4}$?",
+      "options": [
+        "0.75",
+        "0.34",
+        "0.43",
+        "0.5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To convert $\\frac{3}{4}$ to a decimal, divide 3 by 4: $3 \\div 4 = 0.75$.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "Convert 0.5 to a fraction in simplest form. Write your answer as a fraction with numerator and denominator separated by a slash (e.g., 3/4).",
+      "correctAnswer": "1/2",
+      "explanation": "0.5 means 5 tenths: $\\frac{5}{10}$. Simplifying by dividing both by 5: $\\frac{5}{10} = \\frac{1}{2}$.",
+      "points": 15
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "The decimal 0.7 is greater than 0.65.",
+      "correctAnswer": "true",
+      "explanation": "Comparing 0.70 and 0.65: Both have 6 or 7 in tenths place. 7 tenths > 6 tenths, so 0.7 > 0.65 is true.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Which fraction is equivalent to 0.2?",
+      "options": [
+        "$\\frac{1}{5}$",
+        "$\\frac{2}{100}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{2}{5}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "0.2 means 2 tenths: $\\frac{2}{10}$. Simplifying by dividing both by 2: $\\frac{2}{10} = \\frac{1}{5}$.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "Subtract these fractions: $\\frac{7}{10} - \\frac{3}{10}$. Write your answer as a fraction with numerator and denominator separated by a slash.",
+      "correctAnswer": "4/10",
+      "explanation": "When denominators are the same, subtract the numerators: $\\frac{7-3}{10} = \\frac{4}{10}$ (which can simplify to $\\frac{2}{5}$, but $\\frac{4}{10}$ is also correct).",
+      "points": 13
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "In the fraction $\\frac{7}{12}$, what is the top number called?",
+      "correctAnswer": "numerator",
+      "explanation": "The top number of a fraction is called the numerator. It tells us how many parts we have.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Order these decimals from smallest to largest: 0.9, 0.85, 0.905",
+      "options": [
+        "0.85, 0.9, 0.905",
+        "0.9, 0.905, 0.85",
+        "0.905, 0.9, 0.85",
+        "0.85, 0.905, 0.9"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Comparing: 0.850, 0.900, and 0.905. Looking at tenths: 0.850 has 8 tenths (smallest), 0.900 and 0.905 both have 9 tenths. For those two, 0.900 < 0.905. Order: 0.85, 0.9, 0.905.",
+      "points": 15
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Michael ran $\\frac{2}{5}$ of a mile on Monday and $\\frac{1}{5}$ of a mile on Tuesday. What fraction of a mile did he run in total? Write your answer as a fraction with numerator and denominator separated by a slash.",
+      "correctAnswer": "3/5",
+      "explanation": "Add the fractions with the same denominator: $\\frac{2}{5} + \\frac{1}{5} = \\frac{2+1}{5} = \\frac{3}{5}$ of a mile.",
+      "points": 15
+    }
+  ]
+}

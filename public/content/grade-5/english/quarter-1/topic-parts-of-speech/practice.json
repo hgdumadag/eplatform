@@ -1,0 +1,92 @@
+{
+  "examId": "grade-5-english-q1-parts-of-speech-practice",
+  "examType": "practice",
+  "title": "Parts of Speech Practice Exam",
+  "description": "Test your knowledge of the eight parts of speech",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What part of speech is the word 'quickly' in this sentence? 'The rabbit quickly hopped away.'",
+      "options": [
+        "Verb",
+        "Adjective",
+        "Adverb",
+        "Noun"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Quickly' is an adverb because it describes HOW the rabbit hopped. Adverbs often end in -ly and tell how, when, where, or how often.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "short-answer",
+      "question": "Name three types of nouns.",
+      "correctAnswer": "common nouns, proper nouns, and concrete nouns (or abstract nouns, or collective nouns)",
+      "explanation": "The five types of nouns are: common nouns (general names), proper nouns (specific names with capitals), concrete nouns (things you can touch), abstract nouns (ideas and feelings), and collective nouns (groups).",
+      "points": 15
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A pronoun takes the place of a noun.",
+      "correctAnswer": "true",
+      "explanation": "Pronouns replace nouns so we don't have to repeat the same word. Instead of saying 'Sarah loves Sarah's dog,' we can say 'Sarah loves her dog.'",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "The part of speech that describes a noun is called an __________.",
+      "correctAnswer": "adjective",
+      "explanation": "Adjectives describe or modify nouns. They tell what kind, which one, how many, or whose. Examples: big, blue, three, my.",
+      "points": 11
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "In the sentence 'The cat sat on the chair,' what part of speech is 'on'?",
+      "options": [
+        "Verb",
+        "Preposition",
+        "Conjunction",
+        "Adjective"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'On' is a preposition because it shows the relationship between the cat and the chair. It tells WHERE the cat sat.",
+      "points": 13
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "What is the difference between an action verb and a linking verb?",
+      "correctAnswer": "action verbs show what someone does while linking verbs connect the subject to more information",
+      "explanation": "Action verbs show action (run, jump, think). Linking verbs (am, is, are, was, were) connect the subject to a description or state of being. Example: 'She runs' (action) vs. 'She is happy' (linking).",
+      "points": 15
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "What part of speech is 'Wow!' in the sentence: 'Wow! That's amazing!'?",
+      "options": [
+        "Interjection",
+        "Adverb",
+        "Verb",
+        "Conjunction"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Wow!' is an interjection because it expresses strong emotion or feeling. Interjections are often followed by exclamation points.",
+      "points": 12
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "What do conjunctions do in a sentence? Give one example of a conjunction.",
+      "correctAnswer": "conjunctions connect words, phrases, or sentences together, such as and, but, or, because",
+      "explanation": "Conjunctions are like glue - they join words and ideas. The coordinating conjunctions (FANBOYS) are: for, and, nor, but, or, yet, so. Subordinating conjunctions include because, since, if, when.",
+      "points": 12
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import { type ReactNode, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useChildStore } from '../stores/childStore';
+import { useUserStore } from '../stores/userStore';
 import './Layout.css';
 
 interface LayoutProps {
@@ -9,6 +10,7 @@ interface LayoutProps {
 
 export function Layout({ children }: LayoutProps) {
   const { activeChild } = useChildStore();
+  const { currentUser, canSwitchChildren, logout } = useUserStore();
   const navigate = useNavigate();
   const [showMenu, setShowMenu] = useState(false);
 
@@ -22,6 +24,11 @@ export function Layout({ children }: LayoutProps) {
     setShowMenu(false);
   };
 
+  const handleUploadContent = () => {
+    navigate('/parent/upload');
+    setShowMenu(false);
+  };
+
   return (
     <div className="layout">
       <header className="header">
@@ -30,10 +37,11 @@ export function Layout({ children }: LayoutProps) {
             <h1>📚 Education Platform</h1>
           </Link>
           <div className="header-right">
-            {activeChild && (
+            {currentUser && (
               <>
-                <span className="child-name">
-                  {activeChild.name} (Grade {activeChild.grade})
+                <span className="user-info">
+                  {currentUser.name}
+                  {activeChild && ` → ${activeChild.name} (Grade ${activeChild.grade})`}
                 </span>
                 <button
                   className="menu-button"
@@ -44,8 +52,20 @@ export function Layout({ children }: LayoutProps) {
                 </button>
                 {showMenu && (
                   <div className="dropdown-menu">
-                    <button onClick={handleSwitchChild}>Switch Child</button>
-                    <button onClick={handleParentDashboard}>Parent Dashboard</button>
+                    {canSwitchChildren() && (
+                      <button onClick={handleSwitchChild}>Switch Child</button>
+                    )}
+
+                    {currentUser.role === 'parent' && (
+                      <>
+                        <button onClick={handleParentDashboard}>Parent Dashboard</button>
+                        <button onClick={handleUploadContent}>Upload Content</button>
+                      </>
+                    )}
+
+                    <button onClick={() => { logout(); navigate('/login'); }}>
+                      Logout
+                    </button>
                   </div>
                 )}
               </>

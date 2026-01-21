@@ -1,0 +1,92 @@
+{
+  "examId": "grade-5-math-q1-fractions-decimals-practice",
+  "examType": "practice",
+  "title": "Fractions & Decimals Practice Exam",
+  "description": "Test your understanding of fractions and decimals, including converting, comparing, and applying them to real situations.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What decimal is equal to $\\frac{1}{4}$?",
+      "options": [
+        "0.25",
+        "0.4",
+        "0.5",
+        "0.14"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To convert $\\frac{1}{4}$ to a decimal, divide 1 by 4: $1 \\div 4 = 0.25$.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "true-false",
+      "question": "The fraction $\\frac{3}{5}$ is larger than the fraction $\\frac{1}{2}$.",
+      "correctAnswer": "true",
+      "explanation": "Converting to decimals: $\\frac{3}{5} = 0.6$ and $\\frac{1}{2} = 0.5$. Since 0.6 > 0.5, the statement is true.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "Convert 0.8 to a fraction in simplest form. Write your answer as a fraction with numerator and denominator separated by a slash (e.g., 3/4).",
+      "correctAnswer": "4/5",
+      "explanation": "0.8 means 8 tenths: $\\frac{8}{10}$. Simplifying by dividing both by 2: $\\frac{8}{10} = \\frac{4}{5}$.",
+      "points": 15
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Which decimal is the largest: 0.6, 0.58, or 0.605?",
+      "options": [
+        "0.6",
+        "0.58",
+        "0.605",
+        "They are all equal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Comparing: 0.600, 0.580, and 0.605. Looking at hundredths place: 0.605 has the most (60.5 hundredths), making it the largest.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "Add these fractions: $\\frac{2}{9} + \\frac{4}{9}$. Write your answer as a fraction with numerator and denominator separated by a slash.",
+      "correctAnswer": "6/9",
+      "explanation": "When denominators are the same, add the numerators: $\\frac{2+4}{9} = \\frac{6}{9}$ (which can simplify to $\\frac{2}{3}$, but $\\frac{6}{9}$ is also correct).",
+      "points": 13
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "In the fraction $\\frac{5}{8}$, what is the bottom number called?",
+      "correctAnswer": "denominator",
+      "explanation": "The bottom number of a fraction is called the denominator. It tells us how many equal parts make up the whole.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Emma has $\\$0.75$. What fraction of a dollar does she have?",
+      "options": [
+        "$\\frac{3}{4}$",
+        "$\\frac{1}{2}$",
+        "$\\frac{75}{10}$",
+        "$\\frac{1}{4}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$0.75 = \\frac{75}{100}$. Simplifying by dividing by 25: $\\frac{75}{100} = \\frac{3}{4}$. So Emma has three-quarters of a dollar.",
+      "points": 13
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A pizza is cut into 10 equal slices. If you eat 3 slices, what fraction of the pizza did you eat? Write your answer as a fraction with numerator and denominator separated by a slash.",
+      "correctAnswer": "3/10",
+      "explanation": "You ate 3 slices out of 10 total slices, so the fraction is $\\frac{3}{10}$.",
+      "points": 15
+    }
+  ]
+}

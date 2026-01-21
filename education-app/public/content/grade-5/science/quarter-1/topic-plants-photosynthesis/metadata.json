@@ -1,0 +1,25 @@
+{
+  "id": "grade-5-science-q1-plants-photosynthesis",
+  "grade": 5,
+  "subject": "science",
+  "quarter": 1,
+  "topicName": "Plants & Photosynthesis",
+  "description": "Learn how plants make food using sunlight, water, and air",
+  "learningObjectives": [
+    "Understand the process of photosynthesis",
+    "Identify the parts of a plant and their functions",
+    "Explain what plants need to grow",
+    "Understand the importance of plants for life on Earth",
+    "Describe how plants produce oxygen and food"
+  ],
+  "estimatedDuration": 30,
+  "difficulty": "beginner",
+  "tags": ["biology", "plants", "photosynthesis", "life science", "leaves"],
+  "lastUpdated": "2026-01-19",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "examId": "grade-11-english-q1-argumentative-assessment",
+  "examType": "assessment",
+  "title": "Argumentative Essays Assessment Exam",
+  "description": "Demonstrate your mastery of argumentative writing concepts",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Read this thesis statement: 'Video games are popular among teenagers.' What is the primary weakness of this thesis?",
+      "options": [
+        "It is too specific and narrow",
+        "It makes a claim that cannot be supported with evidence",
+        "It is merely descriptive and does not present a debatable argument",
+        "It addresses counterarguments too early"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This statement simply describes a fact rather than making an arguable claim. A strong thesis must present a position that can be debated and supported with evidence.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "short-answer",
+      "question": "Describe the difference between an argumentative essay and a persuasive essay.",
+      "correctAnswer": "argumentative essays rely on logic and evidence while persuasive essays appeal more to emotions",
+      "explanation": "Argumentative essays build their case through rational reasoning, facts, and credible evidence. Persuasive essays may use more emotional appeals and rhetorical techniques to convince readers.",
+      "points": 15
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "When addressing counterarguments, you should present the strongest opposing viewpoints rather than weak ones that are easy to refute.",
+      "correctAnswer": "true",
+      "explanation": "Addressing strong counterarguments demonstrates intellectual honesty and critical thinking. Refuting only weak opposing arguments makes your essay seem biased and less credible.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Which transition phrase would be MOST appropriate for introducing a counterargument?",
+      "options": [
+        "Furthermore, my research shows that...",
+        "In conclusion, we can see that...",
+        "While critics argue that...",
+        "For example, studies demonstrate that..."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The phrase 'While critics argue that...' clearly signals that you are presenting an opposing viewpoint. The other options are used for supporting evidence, conclusions, or examples.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "short-answer",
+      "question": "Why is it important to analyze evidence rather than simply presenting it?",
+      "correctAnswer": "analysis explains how the evidence supports your claim and shows critical thinking",
+      "explanation": "Simply listing evidence is not enough. Analysis interprets the evidence, explains its significance, and connects it to your thesis. This demonstrates your understanding and makes your argument more persuasive.",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "The three main components of an effective body paragraph are claim, evidence, and __________.",
+      "correctAnswer": "analysis",
+      "explanation": "The formula Claim + Evidence + Analysis ensures that each paragraph makes a point, supports it with facts, and explains why that evidence matters to your argument.",
+      "points": 11
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which of the following is the WEAKEST type of evidence for an academic argumentative essay?",
+      "options": [
+        "Peer-reviewed research studies",
+        "Statistical data from government agencies",
+        "Unsourced personal opinions from social media",
+        "Expert testimony from qualified authorities"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Unsourced personal opinions lack credibility and verification. Academic arguments require evidence from reliable, verifiable sources like peer-reviewed research, official statistics, and expert testimony.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "What should an effective conclusion accomplish in an argumentative essay?",
+      "correctAnswer": "restate the thesis, summarize main points, and present broader implications or call to action",
+      "explanation": "A strong conclusion brings closure to your argument by restating your position in new words, reminding readers of your key evidence, and leaving them with something to think about or act upon.",
+      "points": 15
+    }
+  ]
+}

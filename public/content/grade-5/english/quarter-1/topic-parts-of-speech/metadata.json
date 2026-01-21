@@ -1,0 +1,25 @@
+{
+  "id": "grade-5-english-q1-parts-of-speech",
+  "grade": 5,
+  "subject": "english",
+  "quarter": 1,
+  "topicName": "Parts of Speech",
+  "description": "Master the eight parts of speech and how they work in sentences",
+  "learningObjectives": [
+    "Identify the eight parts of speech in sentences",
+    "Understand the function of each part of speech",
+    "Use parts of speech correctly in writing",
+    "Recognize how words can function as different parts of speech",
+    "Apply grammar knowledge to improve writing and communication"
+  ],
+  "estimatedDuration": 30,
+  "difficulty": "elementary",
+  "tags": ["grammar", "parts of speech", "nouns", "verbs", "adjectives", "language"],
+  "lastUpdated": "2026-01-19",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

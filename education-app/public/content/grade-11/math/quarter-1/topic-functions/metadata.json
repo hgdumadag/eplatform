@@ -1,0 +1,25 @@
+{
+  "id": "grade-11-math-q1-functions",
+  "grade": 11,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Introduction to Functions",
+  "description": "Learn function notation, domain and range, and function operations",
+  "learningObjectives": [
+    "Understand function notation and terminology",
+    "Determine domain and range of functions",
+    "Evaluate functions for given inputs",
+    "Perform operations with functions",
+    "Understand composition of functions"
+  ],
+  "estimatedDuration": 30,
+  "difficulty": "advanced",
+  "tags": ["functions", "domain", "range", "function-notation", "composition"],
+  "lastUpdated": "2026-01-19",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "examId": "grade-5-english-q1-parts-of-speech-assessment",
+  "examType": "assessment",
+  "title": "Parts of Speech Assessment Exam",
+  "description": "Demonstrate your mastery of the eight parts of speech",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "In the sentence 'The happy children played loudly in the park,' which word is an adjective?",
+      "options": [
+        "loudly",
+        "played",
+        "happy",
+        "park"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Happy' is an adjective because it describes the noun 'children.' It tells what kind of children. 'Loudly' is an adverb, 'played' is a verb, and 'park' is a noun.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "short-answer",
+      "question": "What are the three questions you can ask to help identify adverbs?",
+      "correctAnswer": "how, when, and where (or how often)",
+      "explanation": "To find adverbs, ask: How? (quickly, carefully), When? (now, yesterday), Where? (here, there), or How often? (always, never). Adverbs describe verbs, adjectives, or other adverbs.",
+      "points": 14
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "The words 'for, and, nor, but, or, yet, so' are all conjunctions.",
+      "correctAnswer": "true",
+      "explanation": "These seven words are coordinating conjunctions, remembered by the acronym FANBOYS. They connect words, phrases, or sentences of equal importance.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "A word that shows action or state of being is called a __________.",
+      "correctAnswer": "verb",
+      "explanation": "Verbs tell what someone or something does (action verbs like run, jump) or what someone or something is (linking verbs like am, is, are).",
+      "points": 11
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which sentence uses a pronoun correctly?",
+      "options": [
+        "Me went to the store.",
+        "Her is my best friend.",
+        "They finished their homework.",
+        "Him likes to play soccer."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Option 3 is correct: 'They' is a subject pronoun and 'their' is a possessive pronoun. The other sentences use object pronouns (me, her, him) where subject pronouns should be used.",
+      "points": 13
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "What is the difference between a common noun and a proper noun? Give an example of each.",
+      "correctAnswer": "common nouns are general names while proper nouns are specific names that start with capital letters, like dog (common) and Max (proper)",
+      "explanation": "Common nouns name any person, place, or thing (teacher, city, book). Proper nouns name specific people, places, or things and always start with capital letters (Mrs. Smith, Chicago, Harry Potter).",
+      "points": 15
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "In the sentence 'The book is under the table,' what is 'under'?",
+      "options": [
+        "Verb",
+        "Adverb",
+        "Preposition",
+        "Pronoun"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'Under' is a preposition that shows the relationship between the book and the table. It tells WHERE the book is located.",
+      "points": 12
+    },
+    {
+      "id": "q8",
+      "type":="short-answer",
+      "question": "Look at this sentence: 'Ouch! That hurt!' What part of speech is 'Ouch' and why?",
+      "correctAnswer": "Ouch is an interjection because it expresses strong emotion or feeling",
+      "explanation": "Interjections express sudden or strong feelings like surprise, pain, excitement, or joy. They are often followed by exclamation points. Examples include: Wow!, Hey!, Yay!, Oops!",
+      "points": 13
+    }
+  ]
+}

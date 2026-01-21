@@ -1,0 +1,78 @@
+{
+  "examId": "grade-8-science-q1-matter-atoms-assessment",
+  "examType": "assessment",
+  "title": "Matter & Atoms Assessment Exam",
+  "description": "Comprehensive assessment of matter, atoms, and chemical concepts",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which particle has the smallest mass?",
+      "options": ["Proton", "Neutron", "Electron", "All have equal mass"],
+      "correctAnswer": 2,
+      "explanation": "Electrons have approximately 1/2000 the mass of protons and neutrons, making them by far the lightest subatomic particle.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "true-false",
+      "question": "In a neutral atom, the number of protons equals the number of electrons.",
+      "correctAnswer": "true",
+      "explanation": "A neutral atom has no net charge, which requires equal numbers of positive protons and negative electrons.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Sodium has an atomic number of 11 and a mass number of 23. How many neutrons does it have?",
+      "options": ["11", "12", "23", "34"],
+      "correctAnswer": 1,
+      "explanation": "Neutrons = mass number - atomic number = 23 - 11 = 12 neutrons.",
+      "points": 15
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "The state of matter with no definite shape or volume is called a _______.",
+      "correctAnswer": "gas",
+      "explanation": "Gases have particles that are far apart and move freely, so they take the shape and volume of their container.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which of the following is a mixture, not a pure substance?",
+      "options": ["Salt (NaCl)", "Air", "Water (H₂O)", "Iron (Fe)"],
+      "correctAnswer": 1,
+      "explanation": "Air is a mixture of gases (nitrogen, oxygen, carbon dioxide, etc.). The others are pure substances—NaCl and H₂O are compounds, Fe is an element.",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "Metals are found on the right side of the periodic table.",
+      "correctAnswer": "false",
+      "explanation": "Metals are found on the left side and center of the periodic table. Nonmetals are on the right side.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "How many hydrogen atoms are in one molecule of ammonia (NH₃)?",
+      "options": ["1", "2", "3", "4"],
+      "correctAnswer": 2,
+      "explanation": "The subscript 3 in NH₃ indicates there are 3 hydrogen atoms bonded to 1 nitrogen atom.",
+      "points": 15
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "An object has a volume of 25 cm³ and a density of 3 g/cm³. What is its mass?",
+      "correctAnswer": "75 g or 75 grams",
+      "explanation": "Mass = density × volume = 3 g/cm³ × 25 cm³ = 75 g.",
+      "points": 15
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "grade-11-math-q1-quadratic-equations",
+  "grade": 11,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Quadratic Equations",
+  "description": "Master solving quadratic equations using various methods including factoring, completing the square, and the quadratic formula",
+  "learningObjectives": [
+    "Understand the standard form of quadratic equations",
+    "Solve quadratic equations by factoring",
+    "Apply the quadratic formula to find solutions",
+    "Complete the square to solve quadratic equations",
+    "Determine the nature of roots using the discriminant",
+    "Apply quadratic equations to real-world problems"
+  ],
+  "estimatedDuration": 35,
+  "difficulty": "advanced",
+  "tags": ["quadratic-equations", "factoring", "quadratic-formula", "completing-the-square", "discriminant"],
+  "lastUpdated": "2026-01-20",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

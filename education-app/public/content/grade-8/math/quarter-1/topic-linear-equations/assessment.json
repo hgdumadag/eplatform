@@ -1,0 +1,92 @@
+{
+  "examId": "grade-8-math-q1-linear-equations-assessment",
+  "examType": "assessment",
+  "title": "Linear Equations Assessment Exam",
+  "description": "Demonstrate your mastery of linear equations through this comprehensive assessment covering various solution methods and applications.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "fill-in",
+      "question": "Solve: $x - 15 = 32$. What is the value of $x$? (Enter just the number)",
+      "correctAnswer": "47",
+      "explanation": "Add 15 to both sides: $x - 15 + 15 = 32 + 15$, so $x = 47$.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Solve: $\\frac{x}{6} = 8$",
+      "options": [
+        "$x = 48$",
+        "$x = 2$",
+        "$x = 14$",
+        "$x = 6$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiply both sides by 6: $6 \\times \\frac{x}{6} = 8 \\times 6$, so $x = 48$.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "The equation $2x + 3 = 2x + 5$ has a solution.",
+      "correctAnswer": "false",
+      "explanation": "Subtracting $2x$ from both sides gives $3 = 5$, which is false. This equation has no solution because it leads to a contradiction.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Solve: $7x - 4 = 24$",
+      "options": [
+        "$x = 4$",
+        "$x = 20$",
+        "$x = 3$",
+        "$x = 28$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Add 4 to both sides: $7x = 28$. Divide by 7: $x = 4$.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "Solve: $6x + 2 = 4x + 14$. What is the value of $x$? (Enter just the number)",
+      "correctAnswer": "6",
+      "explanation": "Subtract $4x$ from both sides: $2x + 2 = 14$. Subtract 2: $2x = 12$. Divide by 2: $x = 6$.",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Solve: $4(x + 3) = 32$",
+      "options": [
+        "$x = 5$",
+        "$x = 8$",
+        "$x = 11$",
+        "$x = 14$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Distribute: $4x + 12 = 32$. Subtract 12: $4x = 20$. Divide by 4: $x = 5$.",
+      "points": 15
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "In slope-intercept form $y = mx + b$, what does the variable $b$ represent?",
+      "correctAnswer": "y-intercept",
+      "explanation": "The variable $b$ represents the y-intercept, which is the point where the line crosses the y-axis (when $x = 0$).",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A cell phone plan costs \\$25 per month plus \\$0.10 per text message. If the total bill is \\$35, write an equation to find the number of text messages sent (use $t$ for texts).",
+      "correctAnswer": "25 + 0.10t = 35",
+      "explanation": "The fixed cost is \\$25, plus \\$0.10 for each text $t$, equals the total bill of \\$35: $25 + 0.10t = 35$. (Solving gives $t = 100$ texts.)",
+      "points": 18
+    }
+  ]
+}

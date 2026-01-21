@@ -1,0 +1,92 @@
+{
+  "examId": "grade-11-english-q1-literary-analysis-assessment",
+  "examType": "assessment",
+  "title": "Literary Analysis Assessment Exam",
+  "description": "Demonstrate your mastery of critical reading and literary analysis skills",
+  "passingScore": 70,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Read this sentence: 'The assignment was a piece of cake.' What type of figurative language is used?",
+      "options": [
+        "Simile",
+        "Personification",
+        "Metaphor",
+        "Alliteration"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This is a metaphor because it makes a direct comparison (the assignment = a piece of cake) without using 'like' or 'as.' It suggests the assignment was easy, equating it to something simple to consume.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "short-answer",
+      "question": "How does setting function beyond simply providing time and place in a literary work?",
+      "correctAnswer": "setting can establish mood, reflect characters' emotions, symbolize themes, create conflict, and influence character development",
+      "explanation": "Setting is a powerful tool that can enhance atmosphere, mirror internal states, carry symbolic meaning, present obstacles, and shape characters' worldviews and choices. It's an integral part of the story's meaning, not just background.",
+      "points": 15
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "Symbols in literature always have one fixed, universal meaning that readers must identify correctly.",
+      "correctAnswer": "false",
+      "explanation": "Symbols can have multiple layers of meaning and may be interpreted differently based on context and reader perspective. While some symbols have conventional meanings, their significance depends on how they function within the specific work.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "What is foreshadowing in literature?",
+      "options": [
+        "A detailed description of a character's appearance",
+        "Hints or clues about events that will occur later in the story",
+        "The moral lesson at the end of the story",
+        "A flashback to earlier events"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Foreshadowing provides subtle hints or warnings about future events, creating anticipation and tension. It can make later plot developments feel inevitable rather than arbitrary.",
+      "points": 11
+    },
+    {
+      "id": "q5",
+      "type": "short-answer",
+      "question": "What is the difference between direct and indirect characterization?",
+      "correctAnswer": "direct characterization explicitly states character traits, while indirect characterization reveals traits through actions, dialogue, thoughts, and interactions",
+      "explanation": "Direct characterization tells readers about a character (e.g., 'John was brave'). Indirect characterization shows character traits through behavior, speech, and other means, allowing readers to draw their own conclusions (e.g., John running into a burning building).",
+      "points": 14
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Language that appeals to the five senses and creates vivid mental pictures is called __________.",
+      "correctAnswer": "imagery",
+      "explanation": "Imagery uses descriptive language to create sensory experiences for readers, helping them visualize, hear, feel, taste, or smell what is described. It makes abstract ideas concrete and enhances emotional impact.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "When writing a literary analysis essay, what should you avoid?",
+      "options": [
+        "Using quotes from the text as evidence",
+        "Explaining the significance of literary devices",
+        "Writing detailed plot summary without analysis",
+        "Discussing themes and symbolism"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Literary analysis focuses on interpretation and analysis, not retelling the story. While some context is necessary, extensive plot summary without analysis demonstrates poor understanding of the assignment's purpose.",
+      "points": 13
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Why is it important to support your interpretations with specific textual evidence in literary analysis?",
+      "correctAnswer": "textual evidence validates your interpretation and shows it is based on the actual text rather than unsupported opinion",
+      "explanation": "Quoting specific passages demonstrates that your interpretation is grounded in the text itself. It makes your analysis credible and persuasive, showing readers exactly where and how you found meaning in the work.",
+      "points": 15
+    }
+  ]
+}

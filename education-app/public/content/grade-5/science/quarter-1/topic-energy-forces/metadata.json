@@ -1,0 +1,25 @@
+{
+  "id": "grade-5-science-q1-energy-forces",
+  "grade": 5,
+  "subject": "science",
+  "quarter": 1,
+  "topicName": "Energy & Forces",
+  "description": "Discover different types of energy and how forces make things move",
+  "learningObjectives": [
+    "Understand what energy is and identify different forms of energy",
+    "Learn about potential and kinetic energy",
+    "Explain what forces are and how they affect motion",
+    "Understand gravity, friction, and magnetism",
+    "Recognize energy transformations in everyday life"
+  ],
+  "estimatedDuration": 30,
+  "difficulty": "beginner",
+  "tags": ["physics", "energy", "forces", "motion", "gravity", "kinetic energy"],
+  "lastUpdated": "2026-01-19",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

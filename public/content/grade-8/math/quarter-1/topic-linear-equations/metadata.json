@@ -1,0 +1,26 @@
+{
+  "id": "grade-8-math-q1-linear-equations",
+  "grade": 8,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Linear Equations",
+  "description": "Learn to solve one-variable and two-variable linear equations using various methods and apply them to real-world problems",
+  "learningObjectives": [
+    "Understand what linear equations are and their properties",
+    "Solve one-step and multi-step linear equations",
+    "Apply the distributive property and combine like terms",
+    "Solve equations with variables on both sides",
+    "Graph linear equations on the coordinate plane",
+    "Apply linear equations to solve word problems"
+  ],
+  "estimatedDuration": 30,
+  "difficulty": "intermediate",
+  "tags": ["linear-equations", "solving-equations", "variables", "graphing", "word-problems"],
+  "lastUpdated": "2026-01-20",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

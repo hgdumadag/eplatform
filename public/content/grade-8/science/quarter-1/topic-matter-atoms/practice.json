@@ -1,0 +1,78 @@
+{
+  "examId": "grade-8-science-q1-matter-atoms-practice",
+  "examType": "practice",
+  "title": "Matter & Atoms Practice Exam",
+  "description": "Test your knowledge of atoms, matter, and the periodic table",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which subatomic particle has a positive charge?",
+      "options": ["Electron", "Neutron", "Proton", "Nucleus"],
+      "correctAnswer": 2,
+      "explanation": "Protons are positively charged particles located in the nucleus. Electrons are negative, and neutrons have no charge.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "true-false",
+      "question": "The atomic number of an element equals the number of neutrons in its nucleus.",
+      "correctAnswer": "false",
+      "explanation": "The atomic number equals the number of protons, not neutrons. Mass number = protons + neutrons.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "An atom has 17 protons and 18 neutrons. What is its mass number?",
+      "options": ["1", "17", "18", "35"],
+      "correctAnswer": 3,
+      "explanation": "Mass number = protons + neutrons = 17 + 18 = 35.",
+      "points": 15
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "Matter that has a definite shape and volume is in the _______ state.",
+      "correctAnswer": "solid",
+      "explanation": "Solids have both definite shape and volume because particles are tightly packed and only vibrate in place.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which of the following is a compound?",
+      "options": ["Oxygen (O₂)", "Gold (Au)", "Water (H₂O)", "Helium (He)"],
+      "correctAnswer": 2,
+      "explanation": "Water (H₂O) is a compound because it contains two different elements (hydrogen and oxygen) chemically bonded. The others are elements.",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "Electrons are found in the nucleus of an atom.",
+      "correctAnswer": "false",
+      "explanation": "Electrons orbit the nucleus in electron shells or clouds. The nucleus contains only protons and neutrons.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "What is the density of an object with a mass of 80 g and a volume of 20 cm³?",
+      "options": ["2 g/cm³", "4 g/cm³", "60 g/cm³", "100 g/cm³"],
+      "correctAnswer": 1,
+      "explanation": "Density = mass/volume = 80 g ÷ 20 cm³ = 4 g/cm³.",
+      "points": 15
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "How many total atoms are in one molecule of carbon dioxide (CO₂)?",
+      "correctAnswer": "3 or three",
+      "explanation": "CO₂ has 1 carbon atom and 2 oxygen atoms, for a total of 3 atoms.",
+      "points": 15
+    }
+  ]
+}

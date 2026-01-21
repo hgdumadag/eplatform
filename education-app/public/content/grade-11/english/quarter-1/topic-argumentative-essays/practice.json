@@ -1,0 +1,92 @@
+{
+  "examId": "grade-11-english-q1-argumentative-practice",
+  "examType": "practice",
+  "title": "Argumentative Essays Practice Exam",
+  "description": "Test your understanding of argumentative writing",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which of the following is the best thesis statement for an argumentative essay?",
+      "options": [
+        "Climate change is a topic many people discuss.",
+        "Some people believe climate change is real.",
+        "Governments must implement carbon taxes to reduce emissions and combat climate change.",
+        "Climate change has been studied by scientists."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Option 3 is the strongest because it makes a clear, debatable claim and suggests specific action. The other options are too vague, merely descriptive, or lack a clear position.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "short-answer",
+      "question": "What is the purpose of addressing counterarguments in an argumentative essay?",
+      "correctAnswer": "to acknowledge opposing views and strengthen your argument by showing you've considered multiple perspectives",
+      "explanation": "Addressing counterarguments demonstrates critical thinking, builds credibility, and makes your argument more persuasive by showing you understand the complexity of the issue.",
+      "points": 15
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "In the formula 'Claim + Evidence + Analysis,' what does the 'Analysis' component do?",
+      "options": [
+        "Restates the claim in different words",
+        "Provides additional examples unrelated to the evidence",
+        "Explains how the evidence supports the claim",
+        "Introduces a counterargument"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Analysis explains the connection between your evidence and your claim. It's where you interpret the evidence and show why it matters to your argument.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "Argumentative essays should rely primarily on emotional appeals rather than logical reasoning.",
+      "correctAnswer": "false",
+      "explanation": "Argumentative essays rely on logic, facts, and evidence. While some emotional appeal may be present, the foundation should be rational argumentation and credible evidence.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "short-answer",
+      "question": "Identify two characteristics that make a thesis statement strong and effective.",
+      "correctAnswer": "specific and debatable (or supportable, focused)",
+      "explanation": "Strong thesis statements should be specific (clearly state your position), debatable (present an argument others might challenge), supportable (based on available evidence), and focused (narrow enough to cover thoroughly).",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Which type of evidence would be MOST effective for arguing that a school policy should be changed?",
+      "options": [
+        "A personal story about one student's experience",
+        "Statistical data showing the policy's negative impact on student performance",
+        "A general statement that many students dislike the policy",
+        "An emotional appeal about feelings"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Statistical data provides objective, measurable evidence that is more convincing than anecdotal or emotional appeals. While personal stories can support an argument, data is typically more persuasive in formal argumentation.",
+      "points": 13
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "The __________ is the backbone of your argumentative essay and presents your main position on the topic.",
+      "correctAnswer": "thesis statement",
+      "explanation": "The thesis statement is the central argument of your essay. It typically appears in the introduction and guides the entire essay's direction.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain why using credible sources is important in argumentative writing.",
+      "correctAnswer": "credible sources provide reliable evidence that strengthens your argument and builds trust with readers",
+      "explanation": "Credible sources (peer-reviewed research, expert testimony, reputable publications) lend authority to your argument. They demonstrate that your claims are supported by reliable information, which makes your argument more convincing and trustworthy.",
+      "points": 15
+    }
+  ]
+}

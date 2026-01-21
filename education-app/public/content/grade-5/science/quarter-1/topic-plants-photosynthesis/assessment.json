@@ -1,0 +1,78 @@
+{
+  "examId": "grade-5-science-q1-plants-photosynthesis-assessment",
+  "examType": "assessment",
+  "title": "Plants & Photosynthesis Assessment Exam",
+  "description": "Comprehensive assessment of plant parts and photosynthesis",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which plant part transports water from the roots to the leaves?",
+      "options": ["Flowers", "Seeds", "Stem", "Chlorophyll"],
+      "correctAnswer": 2,
+      "explanation": "The stem acts like a straw, carrying water from the roots up to the leaves where it's needed for photosynthesis.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "true-false",
+      "question": "Plants need sunlight, water, and oxygen to perform photosynthesis.",
+      "correctAnswer": "false",
+      "explanation": "Plants need sunlight, water, and carbon dioxide (not oxygen) to perform photosynthesis. They produce oxygen as a result.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "What type of food do plants make during photosynthesis?",
+      "options": ["Protein", "Vitamins", "Sugar (glucose)", "Salt"],
+      "correctAnswer": 2,
+      "explanation": "During photosynthesis, plants make glucose, which is a type of sugar they use for food and energy.",
+      "points": 15
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "The tiny holes in leaves that let gases in and out are called _______.",
+      "correctAnswer": "stomata",
+      "explanation": "Stomata are tiny pores on leaves that allow carbon dioxide to enter and oxygen to exit during photosynthesis.",
+      "points": 15
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A plant placed in a dark room for many days will most likely:",
+      "options": ["Grow taller", "Produce more oxygen", "Become unhealthy", "Make more chlorophyll"],
+      "correctAnswer": 2,
+      "explanation": "Without sunlight, the plant cannot perform photosynthesis to make food, so it will become unhealthy and may die.",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "Flowers help plants reproduce by making seeds.",
+      "correctAnswer": "true",
+      "explanation": "Flowers are the reproductive parts of plants. After pollination, flowers develop into fruits that contain seeds.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Why do leaves appear green?",
+      "options": ["They absorb green light", "They reflect green light", "They produce green oxygen", "They contain green water"],
+      "correctAnswer": 1,
+      "explanation": "Chlorophyll absorbs red and blue light but reflects green light, which is why leaves appear green to our eyes.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "If a plant's leaves turn toward a window, what are they trying to get more of?",
+      "correctAnswer": "sunlight or light",
+      "explanation": "Plants grow toward light sources because they need sunlight for photosynthesis. This movement toward light is called phototropism.",
+      "points": 15
+    }
+  ]
+}

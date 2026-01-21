@@ -13,6 +13,20 @@ In this lesson, you'll learn:
 - The basics of the unit circle
 - Real-world applications of trigonometry
 
+## Video: Introduction to Trigonometry
+
+Watch this video for a visual introduction to trigonometry concepts:
+
+<div class="video-container">
+  <iframe
+    src="https://www.youtube.com/embed/mhd9FXYdf4s"
+    title="Introduction to Trigonometry"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
+
 # Main Content
 
 ## Right Triangles Refresher
@@ -24,6 +38,8 @@ A **right triangle** has:
 - Two **legs** - the sides that form the right angle
 
 The sum of all angles in any triangle is 180°.
+
+![Labeled Right Triangle showing hypotenuse, opposite, and adjacent sides](/content/grade-11/math/quarter-1/topic-trigonometry-intro/images/Labeled%20Right%20Triangle.png)
 
 ## The Three Primary Trigonometric Ratios
 
@@ -54,6 +70,8 @@ This mnemonic helps you remember the three ratios:
 
 This is your most important trigonometry tool!
 
+![SOH-CAH-TOA mnemonic diagram](/content/grade-11/math/quarter-1/topic-trigonometry-intro/images/SOH-CAH-TOA.png)
+
 ## The Three Reciprocal Ratios
 
 For completeness, there are three additional ratios (reciprocals of the primary ones):
@@ -81,6 +99,8 @@ $$\cot(\theta) = \frac{1}{\tan(\theta)} = \frac{\text{adjacent}}{\text{opposite}
 - $\sin(30°) = \frac{1}{2}$, $\cos(30°) = \frac{\sqrt{3}}{2}$
 - $\sin(60°) = \frac{\sqrt{3}}{2}$, $\cos(60°) = \frac{1}{2}$
 
+![Special Right Triangles: 45-45-90 and 30-60-90](/content/grade-11/math/quarter-1/topic-trigonometry-intro/images/Special%20Right%20Triangle.png)
+
 ## The Unit Circle
 
 The **unit circle** is a circle with radius 1 centered at the origin of a coordinate plane.
@@ -90,6 +110,8 @@ For any angle $\theta$ measured from the positive x-axis:
 - The y-coordinate of the point on the circle is $\sin(\theta)$
 
 This powerful connection links trigonometry to the coordinate plane and extends trig functions beyond right triangles!
+
+![Unit Circle showing the connection between angles and coordinates](/content/grade-11/math/quarter-1/topic-trigonometry-intro/images/Unit%20Circle%20Connection.png)
 
 ## Inverse Trigonometric Functions
 

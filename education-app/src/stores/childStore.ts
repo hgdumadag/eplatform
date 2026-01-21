@@ -2,22 +2,22 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { Child, ChildState } from '../types';
 
-// Initial children - Grades 5, 8, 11
+// Initial children - Yanthy (Grade 11), Mateo (Grade 8), Geordan (Grade 5)
 const initialChildren: Child[] = [
   {
     id: 'child-1',
-    name: 'Child 1',
-    grade: 5,
+    name: 'Yanthy',
+    grade: 11,
   },
   {
     id: 'child-2',
-    name: 'Child 2',
+    name: 'Mateo',
     grade: 8,
   },
   {
     id: 'child-3',
-    name: 'Child 3',
-    grade: 11,
+    name: 'Geordan',
+    grade: 5,
   },
 ];
 

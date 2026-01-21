@@ -1,0 +1,78 @@
+{
+  "examId": "grade-5-science-q1-plants-photosynthesis-practice",
+  "examType": "practice",
+  "title": "Plants & Photosynthesis Practice Exam",
+  "description": "Test your knowledge about plants and how they make food",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What is the process called when plants make their own food?",
+      "options": ["Respiration", "Photosynthesis", "Digestion", "Circulation"],
+      "correctAnswer": 1,
+      "explanation": "Photosynthesis is the process plants use to make food using sunlight, water, and carbon dioxide.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "true-false",
+      "question": "Roots help anchor the plant in the ground and absorb water from the soil.",
+      "correctAnswer": "true",
+      "explanation": "Roots have two main jobs: they hold the plant in place and absorb water and nutrients from the soil.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "What gas do plants take in from the air during photosynthesis?",
+      "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Hydrogen"],
+      "correctAnswer": 2,
+      "explanation": "Plants take in carbon dioxide from the air and use it along with water and sunlight to make food.",
+      "points": 15
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "The green substance in leaves that absorbs sunlight is called _______.",
+      "correctAnswer": "chlorophyll",
+      "explanation": "Chlorophyll is the green pigment in leaves that captures sunlight energy for photosynthesis.",
+      "points": 15
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which part of the plant makes food through photosynthesis?",
+      "options": ["Roots", "Stem", "Leaves", "Flowers"],
+      "correctAnswer": 2,
+      "explanation": "Leaves are where photosynthesis happens. They contain chlorophyll that absorbs sunlight to make food.",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "Plants release carbon dioxide during photosynthesis.",
+      "correctAnswer": "false",
+      "explanation": "Plants release oxygen during photosynthesis, not carbon dioxide. They take in carbon dioxide and release oxygen.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "What do plants need from the sun to make food?",
+      "options": ["Heat", "Light energy", "Wind", "Rain"],
+      "correctAnswer": 1,
+      "explanation": "Plants need light energy (sunlight) to power the process of photosynthesis.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Name two reasons why plants are important for life on Earth.",
+      "correctAnswer": "They produce oxygen and provide food",
+      "explanation": "Plants are important because they produce oxygen that we breathe and provide food for humans and animals. Other correct answers include: clean the air, provide homes for animals, or prevent soil erosion.",
+      "points": 15
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "grade-11-english-q1-literary-analysis",
+  "grade": 11,
+  "subject": "english",
+  "quarter": 1,
+  "topicName": "Literary Analysis",
+  "description": "Develop critical reading skills to analyze literature and interpret deeper meanings",
+  "learningObjectives": [
+    "Identify and analyze literary devices and techniques",
+    "Interpret themes and symbolism in literary works",
+    "Evaluate character development and motivation",
+    "Analyze narrative structure and point of view",
+    "Write analytical essays about literature with textual evidence"
+  ],
+  "estimatedDuration": 35,
+  "difficulty": "advanced",
+  "tags": ["reading", "literature", "analysis", "critical thinking", "interpretation"],
+  "lastUpdated": "2026-01-19",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run build:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nImplement Phase 1 MVP: Multi-child homeschool education platform\n\nComplete educational platform with multi-child support, 4 comprehensive math lessons \\(grades 3, 5, 8, 11\\), practice exams with LaTeX rendering, parent dashboard with password protection, and per-child progress tracking. All core features functional including lesson viewing, exam scoring with explanations, and persistent localStorage state management.\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(npm install:*)",
+      "Bash(cat:*)",
+      "Bash(find:*)"
+    ]
+  }
+}

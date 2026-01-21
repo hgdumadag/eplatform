@@ -1,0 +1,24 @@
+{
+  "id": "grade-11-science-q1-motion-kinematics",
+  "grade": 11,
+  "subject": "science",
+  "quarter": 1,
+  "topicName": "Motion & Kinematics",
+  "description": "Learn about velocity, acceleration, and the equations of motion",
+  "learningObjectives": [
+    "Understand displacement, velocity, and acceleration",
+    "Apply kinematic equations to solve problems",
+    "Analyze motion graphs",
+    "Calculate time, distance, and speed"
+  ],
+  "estimatedDuration": 30,
+  "difficulty": "advanced",
+  "tags": ["physics", "motion", "kinematics", "velocity", "acceleration"],
+  "lastUpdated": "2026-01-19",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

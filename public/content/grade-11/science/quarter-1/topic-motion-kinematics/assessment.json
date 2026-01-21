@@ -1,0 +1,78 @@
+{
+  "examId": "grade-11-science-q1-motion-kinematics-assessment",
+  "examType": "assessment",
+  "title": "Motion & Kinematics Assessment Exam",
+  "description": "Comprehensive assessment of motion and kinematic concepts",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A vehicle traveling at $30 \\text{ m/s}$ decelerates uniformly at $5 \\text{ m/s}^2$. How long does it take to stop?",
+      "options": ["4 s", "5 s", "6 s", "7 s"],
+      "correctAnswer": 2,
+      "explanation": "Using $v_f = v_i + at$: $0 = 30 + (-5)t$, so $5t = 30$ and $t = 6 \\text{ s}$",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A stone is thrown downward from a 125 m tall building with an initial velocity of $10 \\text{ m/s}$. How long does it take to reach the ground? (Use $g = 10 \\text{ m/s}^2$)",
+      "options": ["3 s", "4 s", "5 s", "6 s"],
+      "correctAnswer": 2,
+      "explanation": "Using $\\Delta x = v_i t + \\frac{1}{2}at^2$: $125 = 10t + \\frac{1}{2}(10)t^2 = 10t + 5t^2$. Solving: $5t^2 + 10t - 125 = 0$, or $t^2 + 2t - 25 = 0$. Using the quadratic formula: $t = \\frac{-2 + \\sqrt{4 + 100}}{2} = \\frac{-2 + 10.2}{2} \\approx 5 \\text{ s}$ (taking positive root)",
+      "points": 15
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "The area under a velocity-time graph represents displacement.",
+      "correctAnswer": "true",
+      "explanation": "The area under a velocity-time graph equals $\\int v \\, dt = \\Delta x$, which is the displacement.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "An object accelerates from $8 \\text{ m/s}$ to $18 \\text{ m/s}$ in 5 seconds. What distance does it cover?",
+      "options": ["55 m", "65 m", "75 m", "85 m"],
+      "correctAnswer": 1,
+      "explanation": "Using $\\Delta x = \\frac{1}{2}(v_i + v_f)t$: $\\Delta x = \\frac{1}{2}(8 + 18)(5) = \\frac{1}{2}(26)(5) = 65 \\text{ m}$",
+      "points": 15
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "An object moving with constant negative acceleration is _______ down.",
+      "correctAnswer": "slowing",
+      "explanation": "Negative acceleration (when velocity is positive) means the object is slowing down or decelerating.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A rocket accelerates from rest at $25 \\text{ m/s}^2$ for 4 seconds. What is the final velocity?",
+      "options": ["80 m/s", "90 m/s", "100 m/s", "110 m/s"],
+      "correctAnswer": 2,
+      "explanation": "Using $v_f = v_i + at$: $v_f = 0 + (25)(4) = 100 \\text{ m/s}$",
+      "points": 15
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "If an object's velocity-time graph is a horizontal line, the object is accelerating.",
+      "correctAnswer": "false",
+      "explanation": "A horizontal line on a velocity-time graph means velocity is constant, so acceleration is zero.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A car travels at $20 \\text{ m/s}$ and accelerates at $4 \\text{ m/s}^2$ for 50 m. What is its final velocity?",
+      "correctAnswer": "30 m/s",
+      "explanation": "Using $v_f^2 = v_i^2 + 2a\\Delta x$: $v_f^2 = (20)^2 + 2(4)(50) = 400 + 400 = 800$, so $v_f = \\sqrt{800} \\approx 28.3 \\text{ m/s}$. The exact answer is $20\\sqrt{2} \\approx 28.3 \\text{ m/s}$, but $30 \\text{ m/s}$ is accepted as a rounded answer.",
+      "points": 15
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "examId": "grade-5-english-q1-story-elements-assessment",
+  "examType": "assessment",
+  "title": "Story Elements Assessment Exam",
+  "description": "Show what you've learned about story elements",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "If a story takes place in a dark, spooky forest at midnight, how does the setting affect the story?",
+      "options": [
+        "It creates a scary mood",
+        "It tells who the characters are",
+        "It explains what the theme is",
+        "It has no effect on the story"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Setting creates mood and atmosphere. A dark, spooky forest at midnight creates a scary, mysterious feeling that affects how readers experience the story.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "short-answer",
+      "question": "What is conflict and why is it important in a story?",
+      "correctAnswer": "conflict is the problem in the story and it makes the story interesting and exciting",
+      "explanation": "Conflict is the challenge or problem that characters must face. Without conflict, there would be no story because nothing interesting would happen. Conflict creates tension and makes readers want to find out what happens next.",
+      "points": 15
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "The theme of a story is always clearly stated at the beginning.",
+      "correctAnswer": "false",
+      "explanation": "The theme is usually NOT stated directly. Readers must figure out the theme by thinking about what happens in the story, what the characters learn, and what message the author is sharing.",
+      "points": 11
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "The main character in a story is also called the __________.",
+      "correctAnswer": "protagonist",
+      "explanation": "The protagonist is the main character - the person the story is mostly about. This is also sometimes called the hero or heroine of the story.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Read this: 'Tommy argued with his brother about who should get the last cookie. They both wanted it.' What type of conflict is this?",
+      "options": [
+        "Character vs. Self",
+        "Character vs. Character",
+        "Character vs. Nature",
+        "Character vs. Society"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is Character vs. Character because two people (Tommy and his brother) are having a disagreement with each other. The conflict is between two characters.",
+      "points": 13
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "Name the five parts of plot structure in order from beginning to end.",
+      "correctAnswer": "exposition, rising action, climax, falling action, resolution",
+      "explanation": "The five parts of plot are: 1) Exposition (beginning), 2) Rising Action (building excitement), 3) Climax (most exciting part), 4) Falling Action (after the climax), and 5) Resolution (ending).",
+      "points": 14
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A character who changes and learns lessons during the story is called:",
+      "options": [
+        "A static character",
+        "A dynamic character",
+        "An antagonist",
+        "A setting"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A dynamic character is one who changes during the story - they learn, grow, or become different. A static character stays the same throughout the story.",
+      "points": 12
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "How can you figure out the theme of a story?",
+      "correctAnswer": "think about what the main character learns and what message the author wants to share",
+      "explanation": "To find the theme, ask yourself: What does the main character learn? How is the problem solved? What is this story really teaching me? The theme is the big idea or lesson that the author wants readers to understand about life.",
+      "points": 13
+    }
+  ]
+}

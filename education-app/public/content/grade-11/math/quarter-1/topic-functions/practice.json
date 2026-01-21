@@ -1,0 +1,77 @@
+{
+  "examId": "grade-11-math-q1-functions-practice",
+  "examType": "practice",
+  "title": "Functions Practice Exam",
+  "description": "Test your understanding of function notation, domain, range, and operations",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "If $f(x) = 3x - 5$, what is $f(4)$?",
+      "options": ["7", "11", "12", "17"],
+      "correctAnswer": 0,
+      "explanation": "Substitute 4 into the function: $f(4) = 3(4) - 5 = 12 - 5 = 7$",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "true-false",
+      "question": "The domain of $f(x) = \\frac{1}{x-3}$ includes the value $x = 3$.",
+      "correctAnswer": "false",
+      "explanation": "When $x = 3$, the denominator becomes zero, making the function undefined. Therefore, 3 is NOT in the domain.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "If $g(x) = x^2 + 2x$, find $g(-3)$. (Enter just the number)",
+      "correctAnswer": "3",
+      "explanation": "$g(-3) = (-3)^2 + 2(-3) = 9 - 6 = 3$",
+      "points": 15
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "What is the range of $f(x) = x^2$ where $x$ is any real number?",
+      "options": ["All real numbers", "All positive numbers", "All non-negative numbers", "$x \\geq 2$"],
+      "correctAnswer": 2,
+      "explanation": "Since squaring any real number gives a non-negative result, the range is all numbers $y \\geq 0$, which means all non-negative numbers.",
+      "points": 15
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "For functions $f$ and $g$, the composition $(f \\circ g)(x)$ always equals $(g \\circ f)(x)$.",
+      "correctAnswer": "false",
+      "explanation": "Function composition is NOT commutative. The order matters: $(f \\circ g)(x) = f(g(x))$ is generally different from $(g \\circ f)(x) = g(f(x))$.",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "If $f(x) = 2x + 1$ and $g(x) = x - 3$, find $(f + g)(5)$. (Enter just the number)",
+      "correctAnswer": "13",
+      "explanation": "$(f + g)(5) = f(5) + g(5) = (2(5) + 1) + (5 - 3) = 11 + 2 = 13$",
+      "points": 15
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which value is NOT in the domain of $h(x) = \\sqrt{x - 4}$?",
+      "options": ["4", "5", "10", "3"],
+      "correctAnswer": 3,
+      "explanation": "For square roots, we need $x - 4 \\geq 0$, so $x \\geq 4$. The value 3 is less than 4, so it's not in the domain.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain in one sentence what the domain of a function represents.",
+      "correctAnswer": "the set of all possible input values",
+      "explanation": "The domain is the set of all possible input values (x-values) for which the function is defined.",
+      "points": 10
+    }
+  ]
+}

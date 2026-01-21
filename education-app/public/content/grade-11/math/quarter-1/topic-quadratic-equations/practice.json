@@ -1,0 +1,92 @@
+{
+  "examId": "grade-11-math-q1-quadratic-equations-practice",
+  "examType": "practice",
+  "title": "Quadratic Equations Practice Exam",
+  "description": "Test your understanding of quadratic equations, including factoring, the quadratic formula, completing the square, and the discriminant.",
+  "passingScore": 70,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What are the solutions to the equation $x^2 - 9x + 14 = 0$?",
+      "options": [
+        "$x = 2$ or $x = 7$",
+        "$x = -2$ or $x = -7$",
+        "$x = 3$ or $x = 5$",
+        "$x = 1$ or $x = 14$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Factoring the equation: $x^2 - 9x + 14 = (x - 2)(x - 7) = 0$. Using the Zero Product Property: $x - 2 = 0$ or $x - 7 = 0$, giving $x = 2$ or $x = 7$.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Using the quadratic formula, solve $2x^2 + 5x - 3 = 0$.",
+      "options": [
+        "$x = 3$ or $x = -\\frac{1}{2}$",
+        "$x = \\frac{1}{2}$ or $x = -3$",
+        "$x = 2$ or $x = -3$",
+        "$x = 1$ or $x = -\\frac{3}{2}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$ with $a=2, b=5, c=-3$: $x = \\frac{-5 \\pm \\sqrt{25 + 24}}{4} = \\frac{-5 \\pm 7}{4}$. This gives $x = \\frac{2}{4} = \\frac{1}{2}$ or $x = \\frac{-12}{4} = -3$.",
+      "points": 15
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "The equation $x^2 + 6x + 9 = 0$ has two distinct real roots.",
+      "correctAnswer": "false",
+      "explanation": "The discriminant is $\\Delta = 6^2 - 4(1)(9) = 36 - 36 = 0$. When $\\Delta = 0$, there is one repeated root (not two distinct roots). In fact, $(x+3)^2 = 0$ gives $x = -3$ (double root).",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "What is the discriminant of the equation $3x^2 - 7x + 2 = 0$? (Enter just the number)",
+      "correctAnswer": "25",
+      "explanation": "The discriminant is $\\Delta = b^2 - 4ac = (-7)^2 - 4(3)(2) = 49 - 24 = 25$.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "Solve $x^2 - 8x + 16 = 0$. What is the value of $x$? (Enter just the number)",
+      "correctAnswer": "4",
+      "explanation": "This factors as $(x-4)^2 = 0$, giving $x = 4$ as a repeated root. You can also use the quadratic formula: $x = \\frac{8 \\pm \\sqrt{64-64}}{2} = \\frac{8}{2} = 4$.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "What does it mean when the discriminant of a quadratic equation is negative?",
+      "correctAnswer": "no real roots",
+      "explanation": "When $\\Delta = b^2 - 4ac < 0$, the quadratic equation has no real roots (or two complex conjugate roots). This means the parabola does not intersect the x-axis.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Complete the square to solve $x^2 + 4x - 5 = 0$. What are the solutions?",
+      "options": [
+        "$x = 1$ or $x = -5$",
+        "$x = -1$ or $x = 5$",
+        "$x = 2$ or $x = -3$",
+        "$x = -2$ or $x = 3$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rewrite as $x^2 + 4x = 5$. Add $(4/2)^2 = 4$ to both sides: $x^2 + 4x + 4 = 9$, so $(x+2)^2 = 9$. Taking square roots: $x + 2 = \\pm 3$, giving $x = -2 + 3 = 1$ or $x = -2 - 3 = -5$.",
+      "points": 16
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A rectangular garden has a length that is 3 meters more than its width. If the area is 40 square meters, write the quadratic equation in standard form to find the width $w$.",
+      "correctAnswer": "w^2 + 3w - 40 = 0",
+      "explanation": "Let width = $w$, then length = $w + 3$. Area = length × width gives $w(w + 3) = 40$, which expands to $w^2 + 3w = 40$. In standard form: $w^2 + 3w - 40 = 0$.",
+      "points": 15
+    }
+  ]
+}

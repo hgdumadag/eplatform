@@ -139,6 +139,105 @@ export const useProgressStore = create<ProgressState>()(
         const progress = get().getProgress(lessonId);
         return progress?.examAttempts || [];
       },
+
+      releaseAssessmentResults: (childId: string, attemptId: string) => {
+        set((state) => {
+          const childProgress = state.children[childId];
+          if (!childProgress) return state;
+
+          const updatedLessons = { ...childProgress.lessons };
+
+          // Find and update the attempt
+          Object.keys(updatedLessons).forEach(lessonId => {
+            const lesson = updatedLessons[lessonId];
+            const attemptIndex = lesson.examAttempts.findIndex(a => a.attemptId === attemptId);
+
+            if (attemptIndex !== -1) {
+              const updatedAttempts = [...lesson.examAttempts];
+              updatedAttempts[attemptIndex] = {
+                ...updatedAttempts[attemptIndex],
+                released: true,
+                releasedAt: new Date().toISOString(),
+              };
+
+              updatedLessons[lessonId] = {
+                ...lesson,
+                examAttempts: updatedAttempts,
+              };
+            }
+          });
+
+          return {
+            children: {
+              ...state.children,
+              [childId]: {
+                lessons: updatedLessons,
+              },
+            },
+          };
+        });
+      },
+
+      updateLessonTime: (lessonId: string, minutes: number) => {
+        const { activeChildId } = get();
+        if (!activeChildId) return;
+
+        set((state) => {
+          const childProgress = state.children[activeChildId];
+          const existing = childProgress?.lessons[lessonId];
+
+          if (!existing) return state;
+
+          return {
+            children: {
+              ...state.children,
+              [activeChildId]: {
+                lessons: {
+                  ...childProgress?.lessons,
+                  [lessonId]: {
+                    ...existing,
+                    timeSpent: existing.timeSpent + minutes,
+                  },
+                },
+              },
+            },
+          };
+        });
+      },
+
+      exportProgress: () => {
+        const state = get();
+        const exportData = {
+          version: '2.0',
+          exportDate: new Date().toISOString(),
+          children: state.children,
+        };
+        return JSON.stringify(exportData, null, 2);
+      },
+
+      importProgress: (data: string) => {
+        try {
+          const imported = JSON.parse(data);
+
+          // Validate structure
+          if (!imported.children || typeof imported.children !== 'object') {
+            return false;
+          }
+
+          // Merge with existing data
+          set((state) => ({
+            children: {
+              ...state.children,
+              ...imported.children,
+            },
+          }));
+
+          return true;
+        } catch (error) {
+          console.error('Import failed:', error);
+          return false;
+        }
+      },
     }),
     {
       name: 'education-app-progress', // localStorage key

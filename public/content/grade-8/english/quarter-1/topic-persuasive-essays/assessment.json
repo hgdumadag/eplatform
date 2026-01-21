@@ -1,0 +1,92 @@
+{
+  "examId": "grade-8-english-q1-persuasive-assessment",
+  "examType": "assessment",
+  "title": "Persuasive Essays Assessment Exam",
+  "description": "Demonstrate your mastery of persuasive writing concepts",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which piece of evidence would be MOST persuasive in an essay arguing for healthier school lunches?",
+      "options": [
+        "I think the food tastes bad.",
+        "My friend doesn't like the pizza.",
+        "A study by the CDC found that nutritious school meals improve student test scores by 15%.",
+        "Healthy food is important."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Option 3 provides specific, verifiable evidence from a credible source (CDC) with concrete data. Personal opinions and vague statements are much less convincing.",
+      "points": 13
+    },
+    {
+      "id": "q2",
+      "type": "short-answer",
+      "question": "What is a position statement and where should it appear in a persuasive essay?",
+      "correctAnswer": "a position statement is your clear opinion on the topic and it should appear in the introduction",
+      "explanation": "The position statement (also called a thesis statement in persuasive writing) directly states your opinion. It typically appears at the end of the introduction so readers know your stance from the beginning.",
+      "points": 14
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "In persuasive writing, it's best to use only logical appeals and avoid emotional appeals entirely.",
+      "correctAnswer": "false",
+      "explanation": "Effective persuasive writing often combines both logical and emotional appeals. While logic provides the foundation, emotional connections can make your argument more compelling and memorable. The key is using both appropriately.",
+      "points": 11
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "The persuasive technique of asking questions to make readers think is called using __________ questions.",
+      "correctAnswer": "rhetorical",
+      "explanation": "Rhetorical questions are asked for effect rather than to receive an answer. They encourage readers to think about the issue from your perspective.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Read this statement: 'Dr. Jennifer Park, a child development specialist with 20 years of experience, recommends at least 30 minutes of recess daily.' What type of evidence is this?",
+      "options": [
+        "Personal anecdote",
+        "Statistical data",
+        "Expert opinion",
+        "Emotional appeal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This is expert opinion - a statement from a qualified authority in the field. The credentials (child development specialist, 20 years) establish why this person's opinion should be trusted.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "Why is it important to know your audience when writing a persuasive essay?",
+      "correctAnswer": "knowing your audience helps you choose the most effective arguments and evidence to convince them",
+      "explanation": "Different audiences are persuaded by different things. Understanding who you're writing for helps you select appropriate evidence, tone, and appeals that will be most convincing to those specific readers.",
+      "points": 15
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which of these sentences uses repetition as a persuasive technique?",
+      "options": [
+        "The library needs new books, computers, and comfortable seating.",
+        "We need change now. We need action today. We need your support immediately.",
+        "According to research, students benefit from longer library hours.",
+        "Why should we wait when we can make a difference today?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Option 2 uses repetition by starting three consecutive sentences with 'We need,' which emphasizes urgency and importance. This technique makes the message more memorable and powerful.",
+      "points": 12
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Describe what should be included in each body paragraph of a persuasive essay.",
+      "correctAnswer": "a topic sentence with one reason, evidence to support it, explanation of how the evidence connects to your position, and a transition",
+      "explanation": "Each body paragraph should focus on one main reason supporting your position. It needs a clear topic sentence, specific evidence (facts, examples, statistics), analysis explaining why this evidence matters, and smooth transitions to connect ideas.",
+      "points": 13
+    }
+  ]
+}

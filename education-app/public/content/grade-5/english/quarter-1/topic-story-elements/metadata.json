@@ -1,0 +1,25 @@
+{
+  "id": "grade-5-english-q1-story-elements",
+  "grade": 5,
+  "subject": "english",
+  "quarter": 1,
+  "topicName": "Story Elements",
+  "description": "Learn to identify and understand the key elements that make up a story",
+  "learningObjectives": [
+    "Identify the main story elements: character, setting, plot, conflict, and theme",
+    "Understand how characters, setting, and plot work together",
+    "Recognize different types of conflicts in stories",
+    "Determine the theme or lesson of a story",
+    "Apply knowledge of story elements to improve reading comprehension"
+  ],
+  "estimatedDuration": 25,
+  "difficulty": "elementary",
+  "tags": ["reading", "comprehension", "story elements", "characters", "plot", "theme"],
+  "lastUpdated": "2026-01-19",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

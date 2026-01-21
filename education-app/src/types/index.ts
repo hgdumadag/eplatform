@@ -52,6 +52,9 @@ export interface ExamAttempt {
   score?: number;
   totalPoints?: number;
   passed?: boolean;
+  timeSpent?: number; // in minutes
+  released?: boolean; // For assessments - has parent released results?
+  releasedAt?: string; // When parent released results
 }
 
 export interface LessonProgress {
@@ -76,6 +79,10 @@ export interface ProgressState {
   getProgress: (lessonId: string) => LessonProgress | undefined;
   saveExamAttempt: (attempt: ExamAttempt) => void;
   getExamAttempts: (lessonId: string) => ExamAttempt[];
+  releaseAssessmentResults: (childId: string, attemptId: string) => void;
+  updateLessonTime: (lessonId: string, minutes: number) => void;
+  exportProgress: () => string;
+  importProgress: (data: string) => boolean;
 }
 
 // Child management state

@@ -1,11 +1,14 @@
 import { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkMath from 'remark-math';
+import remarkGfm from 'remark-gfm';
 import rehypeKatex from 'rehype-katex';
+import rehypeRaw from 'rehype-raw';
 import 'katex/dist/katex.min.css';
 import { ContentLoader } from '../services/contentLoader';
 import { useProgressStore } from '../stores/progressStore';
+import { checkAnswer } from '../utils/answerChecker';
 import type { ExamQuestion, ExamAttempt } from '../types';
 import './ExamViewer.css';
 
@@ -22,29 +25,39 @@ interface ExamData {
 export function ExamViewer() {
   const { grade, subject, quarter, topicName } = useParams();
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
+  const examType = searchParams.get('type') || 'practice';
   const saveExamAttempt = useProgressStore(state => state.saveExamAttempt);
 
   const [exam, setExam] = useState<ExamData | null>(null);
   const [answers, setAnswers] = useState<Record<string, number | string>>({});
   const [submitted, setSubmitted] = useState(false);
   const [score, setScore] = useState<number | null>(null);
+  const [startTime] = useState<number>(Date.now());
   const [showExplanations, setShowExplanations] = useState(false);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     loadExam();
-  }, [grade, subject, quarter, topicName]);
+  }, [grade, subject, quarter, topicName, examType]);
 
   const loadExam = async () => {
     try {
       setLoading(true);
-      const examData = await ContentLoader.loadPracticeExam(
-        Number(grade),
-        subject!,
-        Number(quarter),
-        topicName!
-      );
+      const examData = examType === 'assessment'
+        ? await ContentLoader.loadAssessmentExam(
+            Number(grade),
+            subject!,
+            Number(quarter),
+            topicName!
+          )
+        : await ContentLoader.loadPracticeExam(
+            Number(grade),
+            subject!,
+            Number(quarter),
+            topicName!
+          );
       setExam(examData);
       setLoading(false);
     } catch (err) {
@@ -67,7 +80,19 @@ export function ExamViewer() {
       totalPoints += question.points;
       const userAnswer = answers[question.id];
 
-      if (userAnswer !== undefined && userAnswer === question.correctAnswer) {
+      if (userAnswer === undefined) return;
+
+      let isCorrect = false;
+
+      // Different comparison logic based on question type
+      if (question.type === 'multiple-choice' || question.type === 'true-false') {
+        isCorrect = userAnswer === question.correctAnswer;
+      } else if (question.type === 'fill-in' || question.type === 'short-answer') {
+        // Use flexible answer checking
+        isCorrect = checkAnswer(String(userAnswer), String(question.correctAnswer), question.type);
+      }
+
+      if (isCorrect) {
         correct += question.points;
       }
     });
@@ -100,16 +125,19 @@ export function ExamViewer() {
       ''
     );
 
+    const timeSpent = Math.round((Date.now() - startTime) / 60000); // minutes
+
     const attempt: ExamAttempt = {
       attemptId: `${exam.examId}-${Date.now()}`,
       lessonId,
       examType: exam.examType,
-      startedAt: new Date().toISOString(),
+      startedAt: new Date(startTime).toISOString(),
       completedAt: new Date().toISOString(),
       answers,
       score: calculatedScore,
       totalPoints: 100,
       passed: calculatedScore >= exam.passingScore,
+      timeSpent: Math.max(1, timeSpent), // At least 1 minute
     };
 
     saveExamAttempt(attempt);
@@ -180,7 +208,18 @@ export function ExamViewer() {
               <h2>Review Questions</h2>
               {exam.questions.map((question, index) => {
                 const userAnswer = answers[question.id];
-                const isCorrect = userAnswer === question.correctAnswer;
+
+                // Calculate if answer is correct based on question type
+                let isCorrect = false;
+                if (userAnswer !== undefined) {
+                  if (question.type === 'multiple-choice' || question.type === 'true-false') {
+                    isCorrect = userAnswer === question.correctAnswer;
+                  } else if (question.type === 'fill-in' || question.type === 'short-answer') {
+                    const userAnswerStr = String(userAnswer).trim().toLowerCase();
+                    const correctAnswerStr = String(question.correctAnswer).trim().toLowerCase();
+                    isCorrect = userAnswerStr === correctAnswerStr;
+                  }
+                }
 
                 return (
                   <div
@@ -196,13 +235,14 @@ export function ExamViewer() {
 
                     <div className="question-text">
                       <ReactMarkdown
-                        remarkPlugins={[remarkMath]}
-                        rehypePlugins={[rehypeKatex]}
+                        remarkPlugins={[remarkGfm, remarkMath]}
+                        rehypePlugins={[rehypeRaw, rehypeKatex]}
                       >
                         {question.question}
                       </ReactMarkdown>
                     </div>
 
+                    {/* Multiple Choice Review */}
                     {question.type === 'multiple-choice' && question.options && (
                       <div className="options-review">
                         {question.options.map((option, optIndex) => {
@@ -220,7 +260,7 @@ export function ExamViewer() {
                               {isUserAnswer && !isCorrectAnswer && <span className="wrong-marker">✗ </span>}
                               <span className="option-text">
                                 <ReactMarkdown
-                                  remarkPlugins={[remarkMath]}
+                                  remarkPlugins={[remarkGfm, remarkMath]}
                                   rehypePlugins={[rehypeKatex]}
                                 >
                                   {option}
@@ -232,11 +272,47 @@ export function ExamViewer() {
                       </div>
                     )}
 
+                    {/* True/False Review */}
+                    {question.type === 'true-false' && (
+                      <div className="answer-review">
+                        <div className="answer-row">
+                          <strong>Your Answer:</strong>{' '}
+                          <span className={isCorrect ? 'correct-text' : 'incorrect-text'}>
+                            {userAnswer ? String(userAnswer) : 'No answer'}
+                          </span>
+                        </div>
+                        {!isCorrect && (
+                          <div className="answer-row">
+                            <strong>Correct Answer:</strong>{' '}
+                            <span className="correct-text">{String(question.correctAnswer)}</span>
+                          </div>
+                        )}
+                      </div>
+                    )}
+
+                    {/* Fill-in and Short Answer Review */}
+                    {(question.type === 'fill-in' || question.type === 'short-answer') && (
+                      <div className="answer-review">
+                        <div className="answer-row">
+                          <strong>Your Answer:</strong>{' '}
+                          <span className={isCorrect ? 'correct-text' : 'incorrect-text'}>
+                            {userAnswer ? String(userAnswer) : 'No answer'}
+                          </span>
+                        </div>
+                        {!isCorrect && (
+                          <div className="answer-row">
+                            <strong>Correct Answer:</strong>{' '}
+                            <span className="correct-text">{String(question.correctAnswer)}</span>
+                          </div>
+                        )}
+                      </div>
+                    )}
+
                     {question.explanation && (
                       <div className="explanation">
                         <strong>Explanation:</strong>{' '}
                         <ReactMarkdown
-                          remarkPlugins={[remarkMath]}
+                          remarkPlugins={[remarkGfm, remarkMath]}
                           rehypePlugins={[rehypeKatex]}
                         >
                           {question.explanation}
@@ -275,13 +351,14 @@ export function ExamViewer() {
 
             <div className="question-text">
               <ReactMarkdown
-                remarkPlugins={[remarkMath]}
+                remarkPlugins={[remarkGfm, remarkMath]}
                 rehypePlugins={[rehypeKatex]}
               >
                 {question.question}
               </ReactMarkdown>
             </div>
 
+            {/* Multiple Choice */}
             {question.type === 'multiple-choice' && question.options && (
               <div className="options">
                 {question.options.map((option, optIndex) => (
@@ -295,14 +372,66 @@ export function ExamViewer() {
                     />
                     <span className="option-text">
                       <ReactMarkdown
-                        remarkPlugins={[remarkMath]}
-                        rehypePlugins={[rehypeKatex]}
+                        remarkPlugins={[remarkGfm, remarkMath]}
+                        rehypePlugins={[rehypeRaw, rehypeKatex]}
                       >
                         {option}
                       </ReactMarkdown>
                     </span>
                   </label>
                 ))}
+              </div>
+            )}
+
+            {/* True/False */}
+            {question.type === 'true-false' && (
+              <div className="options">
+                <label className="option">
+                  <input
+                    type="radio"
+                    name={question.id}
+                    value="true"
+                    checked={answers[question.id] === 'true'}
+                    onChange={() => handleAnswerChange(question.id, 'true')}
+                  />
+                  <span className="option-text">True</span>
+                </label>
+                <label className="option">
+                  <input
+                    type="radio"
+                    name={question.id}
+                    value="false"
+                    checked={answers[question.id] === 'false'}
+                    onChange={() => handleAnswerChange(question.id, 'false')}
+                  />
+                  <span className="option-text">False</span>
+                </label>
+              </div>
+            )}
+
+            {/* Fill in the Blank */}
+            {question.type === 'fill-in' && (
+              <div className="fill-in-container">
+                <input
+                  type="text"
+                  className="fill-in-input"
+                  placeholder="Type your answer here..."
+                  value={(answers[question.id] as string) || ''}
+                  onChange={(e) => handleAnswerChange(question.id, e.target.value)}
+                />
+              </div>
+            )}
+
+            {/* Short Answer */}
+            {question.type === 'short-answer' && (
+              <div className="short-answer-container">
+                <textarea
+                  className="short-answer-input"
+                  placeholder="Type your answer here..."
+                  rows={4}
+                  value={(answers[question.id] as string) || ''}
+                  onChange={(e) => handleAnswerChange(question.id, e.target.value)}
+                />
               </div>
             )}
           </div>

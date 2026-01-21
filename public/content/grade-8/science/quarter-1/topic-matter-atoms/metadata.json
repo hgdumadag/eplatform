@@ -1,0 +1,25 @@
+{
+  "id": "grade-8-science-q1-matter-atoms",
+  "grade": 8,
+  "subject": "science",
+  "quarter": 1,
+  "topicName": "Matter & Atoms",
+  "description": "Discover the structure of atoms and the properties of matter",
+  "learningObjectives": [
+    "Understand the structure of atoms and subatomic particles",
+    "Identify the states of matter and their properties",
+    "Explain the difference between elements, compounds, and mixtures",
+    "Describe the organization of the periodic table",
+    "Understand atomic number and mass number"
+  ],
+  "estimatedDuration": 30,
+  "difficulty": "intermediate",
+  "tags": ["chemistry", "matter", "atoms", "elements", "periodic table"],
+  "lastUpdated": "2026-01-19",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

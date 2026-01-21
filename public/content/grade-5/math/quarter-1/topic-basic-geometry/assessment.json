@@ -1,0 +1,92 @@
+{
+  "examId": "grade-5-math-q1-basic-geometry-assessment",
+  "examType": "assessment",
+  "title": "Basic Geometry Assessment Exam",
+  "description": "Demonstrate your mastery of basic geometry concepts through this comprehensive assessment.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "An angle that measures 45° is called a:",
+      "options": [
+        "Acute angle",
+        "Right angle",
+        "Obtuse angle",
+        "Straight angle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An acute angle is any angle that measures less than 90°. Since 45° < 90°, it is an acute angle.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "What is the perimeter of a square with sides that are 7 cm long? (Enter just the number)",
+      "correctAnswer": "28",
+      "explanation": "Using the formula $P = 4s$: $P = 4 \\times 7 = 28$ cm.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "Parallel lines will eventually meet if extended far enough.",
+      "correctAnswer": "false",
+      "explanation": "Parallel lines never meet, no matter how far they are extended. They always stay the same distance apart, like railroad tracks.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A rectangle has a length of 9 feet and a width of 4 feet. What is the area?",
+      "options": [
+        "36 square feet",
+        "26 square feet",
+        "13 square feet",
+        "72 square feet"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using the formula $A = l \\times w$: $A = 9 \\times 4 = 36$ square feet.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "A rectangular garden is 15 meters long and 8 meters wide. What is the perimeter? (Enter just the number)",
+      "correctAnswer": "46",
+      "explanation": "Using $P = 2l + 2w$: $P = 2(15) + 2(8) = 30 + 16 = 46$ meters.",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "How many sides does a hexagon have? (Enter just the number)",
+      "correctAnswer": "6",
+      "explanation": "A hexagon is a polygon with 6 sides. The prefix 'hex-' means six.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "What is the area of a square with sides that are 8 inches long?",
+      "options": [
+        "64 square inches",
+        "32 square inches",
+        "16 square inches",
+        "8 square inches"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using the formula $A = s^2$: $A = 8 \\times 8 = 64$ square inches.",
+      "points": 16
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Tom wants to put new carpet in his rectangular bedroom that is 10 feet long and 12 feet wide. How many square feet of carpet does he need? (Enter just the number)",
+      "correctAnswer": "120",
+      "explanation": "Carpet covers the area (space inside). Using $A = l \\times w$: $A = 10 \\times 12 = 120$ square feet of carpet needed.",
+      "points": 15
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "examId": "grade-5-english-q1-story-elements-practice",
+  "examType": "practice",
+  "title": "Story Elements Practice Exam",
+  "description": "Test your knowledge of characters, setting, plot, conflict, and theme",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which story element tells you WHO the story is about?",
+      "options": [
+        "Setting",
+        "Characters",
+        "Plot",
+        "Theme"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Characters are the people, animals, or creatures in a story. They are who the story is about.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "short-answer",
+      "question": "What are the two parts of setting?",
+      "correctAnswer": "when and where the story takes place",
+      "explanation": "Setting has two parts: WHERE (the place) and WHEN (the time) the story happens. For example, a story might take place in a castle (where) during medieval times (when).",
+      "points": 15
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "The climax is the most exciting part of the story where the biggest challenge happens.",
+      "correctAnswer": "true",
+      "explanation": "The climax is the turning point and most exciting moment in the plot. It's like reaching the top of a mountain - the highest point of tension and excitement.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Read this sentence: 'Lisa wanted to join the soccer team, but she was afraid she wasn't good enough.' What type of conflict is this?",
+      "options": [
+        "Character vs. Character",
+        "Character vs. Nature",
+        "Character vs. Self",
+        "Character vs. Society"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This is Character vs. Self because Lisa is struggling with her own feelings and doubts. She is battling her fear and lack of confidence inside herself.",
+      "points": 13
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "The lesson or message of a story is called the __________.",
+      "correctAnswer": "theme",
+      "explanation": "The theme is what the author wants you to learn or understand. Common themes include 'friendship is important,' 'be yourself,' or 'never give up.'",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "What is the difference between a main character and a supporting character?",
+      "correctAnswer": "the main character is who the story is mostly about while supporting characters help tell the story",
+      "explanation": "The main character (or protagonist) is the most important person in the story. Supporting characters are other people who interact with the main character and help move the story forward.",
+      "points": 15
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which part of the plot comes RIGHT AFTER the climax?",
+      "options": [
+        "Exposition",
+        "Rising Action",
+        "Falling Action",
+        "Conflict"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Falling Action comes after the climax. This is when things start to calm down and the story moves toward its conclusion. It's like climbing down the mountain after reaching the top.",
+      "points": 13
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "In a story where a girl is trying to save her town from a hurricane, what type of conflict is this?",
+      "correctAnswer": "character vs. nature",
+      "explanation": "This is Character vs. Nature because the character is fighting against a natural force (the hurricane). Weather, storms, wilderness, and natural disasters are all examples of nature conflicts.",
+      "points": 12
+    }
+  ]
+}

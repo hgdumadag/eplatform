@@ -1,0 +1,27 @@
+{
+  "id": "grade-5-math-q1-fractions-decimals",
+  "grade": 5,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Fractions & Decimals",
+  "description": "Learn about fractions and decimals, including converting between them, comparing, and performing basic operations",
+  "learningObjectives": [
+    "Understand fractions and their parts",
+    "Compare and order fractions",
+    "Convert fractions to decimals and vice versa",
+    "Add and subtract fractions with like denominators",
+    "Understand place value in decimals",
+    "Compare and order decimals",
+    "Apply fractions and decimals to real-life situations"
+  ],
+  "estimatedDuration": 30,
+  "difficulty": "beginner",
+  "tags": ["fractions", "decimals", "conversion", "place-value", "comparing"],
+  "lastUpdated": "2026-01-20",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "examId": "grade-8-math-q1-linear-equations-practice",
+  "examType": "practice",
+  "title": "Linear Equations Practice Exam",
+  "description": "Test your understanding of solving linear equations, including one-step, multi-step, and word problems.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "fill-in",
+      "question": "Solve the equation: $x + 12 = 27$. What is the value of $x$? (Enter just the number)",
+      "correctAnswer": "15",
+      "explanation": "Subtract 12 from both sides: $x + 12 - 12 = 27 - 12$, so $x = 15$.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Solve: $4y = 36$",
+      "options": [
+        "$y = 9$",
+        "$y = 32$",
+        "$y = 40$",
+        "$y = 144$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Divide both sides by 4: $\\frac{4y}{4} = \\frac{36}{4}$, so $y = 9$.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Solve the equation: $3x + 5 = 20$",
+      "options": [
+        "$x = 5$",
+        "$x = 8$",
+        "$x = 15$",
+        "$x = 25$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "First subtract 5 from both sides: $3x = 15$. Then divide by 3: $x = 5$.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "When solving the equation $x - 7 = 10$, you should subtract 7 from both sides.",
+      "correctAnswer": "false",
+      "explanation": "You should ADD 7 to both sides to isolate $x$. This gives $x = 17$. Remember to use the inverse operation.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "Solve: $5a - 8 = 2a + 7$. What is the value of $a$? (Enter just the number)",
+      "correctAnswer": "5",
+      "explanation": "Subtract $2a$ from both sides: $3a - 8 = 7$. Add 8 to both sides: $3a = 15$. Divide by 3: $a = 5$.",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "What property of equality states that if $a = b$, then $a + c = b + c$?",
+      "correctAnswer": "addition property",
+      "explanation": "This is the Addition Property of Equality. It states that adding the same number to both sides of an equation maintains equality.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Solve using the distributive property: $3(x - 2) = 21$",
+      "options": [
+        "$x = 9$",
+        "$x = 7$",
+        "$x = 5$",
+        "$x = 11$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Distribute: $3x - 6 = 21$. Add 6 to both sides: $3x = 27$. Divide by 3: $x = 9$.",
+      "points": 15
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Jason has 45 baseball cards. He gives away some cards and has 28 left. Write an equation to find how many cards he gave away (use $c$ for cards given away).",
+      "correctAnswer": "45 - c = 28",
+      "explanation": "Starting with 45 cards and giving away $c$ cards leaves 28 cards: $45 - c = 28$. (Solving this equation gives $c = 17$ cards given away.)",
+      "points": 18
+    }
+  ]
+}

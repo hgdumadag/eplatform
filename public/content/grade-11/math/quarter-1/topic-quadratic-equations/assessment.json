@@ -1,0 +1,92 @@
+{
+  "examId": "grade-11-math-q1-quadratic-equations-assessment",
+  "examType": "assessment",
+  "title": "Quadratic Equations Assessment Exam",
+  "description": "Demonstrate your mastery of quadratic equations through this comprehensive assessment covering all solution methods and applications.",
+  "passingScore": 70,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Solve by factoring: $x^2 + 3x - 18 = 0$",
+      "options": [
+        "$x = 3$ or $x = -6$",
+        "$x = -3$ or $x = 6$",
+        "$x = 2$ or $x = -9$",
+        "$x = 9$ or $x = -2$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Factoring gives $(x + 6)(x - 3) = 0$. Setting each factor to zero: $x + 6 = 0$ gives $x = -6$, and $x - 3 = 0$ gives $x = 3$.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "Calculate the discriminant of $x^2 - 5x + 7 = 0$. (Enter just the number)",
+      "correctAnswer": "-3",
+      "explanation": "Using $\\Delta = b^2 - 4ac$ with $a=1, b=-5, c=7$: $\\Delta = (-5)^2 - 4(1)(7) = 25 - 28 = -3$.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "If the discriminant of a quadratic equation equals zero, the equation has exactly two distinct real roots.",
+      "correctAnswer": "false",
+      "explanation": "When $\\Delta = 0$, the equation has exactly one repeated real root (or we say two equal roots), not two distinct roots. The parabola touches the x-axis at exactly one point.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Using the quadratic formula, solve $x^2 - 6x + 5 = 0$.",
+      "options": [
+        "$x = 5$ or $x = 1$",
+        "$x = -5$ or $x = -1$",
+        "$x = 3$ or $x = 2$",
+        "$x = 6$ or $x = -1$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using the quadratic formula with $a=1, b=-6, c=5$: $x = \\frac{6 \\pm \\sqrt{36-20}}{2} = \\frac{6 \\pm \\sqrt{16}}{2} = \\frac{6 \\pm 4}{2}$. This gives $x = \\frac{10}{2} = 5$ or $x = \\frac{2}{2} = 1$.",
+      "points": 15
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "Solve $x^2 + 10x + 25 = 0$. What is the solution? (Enter just the number)",
+      "correctAnswer": "-5",
+      "explanation": "This is a perfect square: $(x+5)^2 = 0$, which gives $x = -5$ as a repeated root.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "In the quadratic formula $x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$, what is the expression under the square root called?",
+      "correctAnswer": "discriminant",
+      "explanation": "The expression $b^2 - 4ac$ under the square root is called the discriminant. It determines the nature and number of roots of the quadratic equation.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A projectile's height (in meters) is given by $h = -5t^2 + 20t$, where $t$ is time in seconds. When does it hit the ground?",
+      "options": [
+        "$t = 4$ seconds",
+        "$t = 2$ seconds",
+        "$t = 5$ seconds",
+        "$t = 10$ seconds"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The projectile hits the ground when $h = 0$: $-5t^2 + 20t = 0$. Factor: $-5t(t - 4) = 0$. This gives $t = 0$ (launch time) or $t = 4$ seconds (landing time).",
+      "points": 16
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "The equation $2x^2 - 8x + c = 0$ has exactly one real root. What is the value of $c$?",
+      "correctAnswer": "8",
+      "explanation": "For exactly one real root, the discriminant must equal zero: $(-8)^2 - 4(2)(c) = 0$. Solving: $64 - 8c = 0$, so $8c = 64$ and $c = 8$.",
+      "points": 15
+    }
+  ]
+}

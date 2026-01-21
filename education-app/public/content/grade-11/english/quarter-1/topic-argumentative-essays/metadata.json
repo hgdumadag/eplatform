@@ -1,0 +1,25 @@
+{
+  "id": "grade-11-english-q1-argumentative-essays",
+  "grade": 11,
+  "subject": "english",
+  "quarter": 1,
+  "topicName": "Argumentative Essays",
+  "description": "Learn to write persuasive arguments with evidence and reasoning",
+  "learningObjectives": [
+    "Understand the structure of argumentative essays",
+    "Develop strong thesis statements",
+    "Use evidence effectively to support claims",
+    "Address counterarguments",
+    "Write clear and logical arguments"
+  ],
+  "estimatedDuration": 30,
+  "difficulty": "advanced",
+  "tags": ["writing", "argumentative", "essays", "persuasion", "rhetoric"],
+  "lastUpdated": "2026-01-19",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

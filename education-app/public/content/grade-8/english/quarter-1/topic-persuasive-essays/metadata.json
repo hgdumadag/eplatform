@@ -1,0 +1,25 @@
+{
+  "id": "grade-8-english-q1-persuasive-essays",
+  "grade": 8,
+  "subject": "english",
+  "quarter": 1,
+  "topicName": "Persuasive Essays",
+  "description": "Learn to write convincing essays that persuade readers to agree with your position",
+  "learningObjectives": [
+    "Understand the structure and purpose of persuasive writing",
+    "Identify and use persuasive techniques effectively",
+    "Develop clear position statements",
+    "Support opinions with reasons and evidence",
+    "Write organized persuasive essays with strong conclusions"
+  ],
+  "estimatedDuration": 25,
+  "difficulty": "intermediate",
+  "tags": ["writing", "persuasion", "essays", "opinion", "rhetoric"],
+  "lastUpdated": "2026-01-19",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

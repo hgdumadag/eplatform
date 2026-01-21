@@ -1,0 +1,25 @@
+{
+  "id": "grade-11-science-q1-genetics-heredity",
+  "grade": 11,
+  "subject": "science",
+  "quarter": 1,
+  "topicName": "Genetics & Heredity",
+  "description": "Explore the principles of inheritance, DNA structure, and genetic variation",
+  "learningObjectives": [
+    "Understand Mendel's laws of inheritance",
+    "Analyze Punnett squares and predict offspring traits",
+    "Explain DNA structure and replication",
+    "Identify patterns of genetic inheritance",
+    "Understand genotype and phenotype relationships"
+  ],
+  "estimatedDuration": 30,
+  "difficulty": "advanced",
+  "tags": ["biology", "genetics", "heredity", "DNA", "Mendel", "inheritance"],
+  "lastUpdated": "2026-01-19",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

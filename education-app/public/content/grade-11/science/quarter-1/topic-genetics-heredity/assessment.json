@@ -1,0 +1,78 @@
+{
+  "examId": "grade-11-science-q1-genetics-heredity-assessment",
+  "examType": "assessment",
+  "title": "Genetics & Heredity Assessment Exam",
+  "description": "Comprehensive assessment of genetics and inheritance principles",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What is the genotypic ratio of offspring from a cross between two heterozygous individuals (Aa × Aa)?",
+      "options": ["1:1", "1:2:1", "3:1", "9:3:3:1"],
+      "correctAnswer": 1,
+      "explanation": "The cross Aa × Aa produces AA, Aa, Aa, aa, giving a genotypic ratio of 1 AA : 2 Aa : 1 aa.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "true-false",
+      "question": "According to Mendel's Law of Segregation, each parent contributes one allele for each trait to their offspring.",
+      "correctAnswer": "true",
+      "explanation": "The Law of Segregation states that allele pairs separate during gamete formation, so each gamete carries only one allele for each gene.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "In a dihybrid cross between two heterozygous individuals (AaBb × AaBb), what fraction of offspring will be homozygous dominant for both traits (AABB)?",
+      "options": ["1/16", "1/8", "1/4", "1/2"],
+      "correctAnswer": 0,
+      "explanation": "Probability of AA = 1/4, probability of BB = 1/4. For both: (1/4) × (1/4) = 1/16.",
+      "points": 15
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "The observable characteristics or traits of an organism are called its _______.",
+      "correctAnswer": "phenotype",
+      "explanation": "Phenotype refers to the physical expression of genes, while genotype refers to the genetic composition.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A homozygous dominant individual (AA) is crossed with a homozygous recessive individual (aa). What percentage of the F₁ generation will show the dominant phenotype?",
+      "options": ["0%", "25%", "50%", "100%"],
+      "correctAnswer": 3,
+      "explanation": "All offspring will be Aa (heterozygous), and since A is dominant, 100% will show the dominant phenotype.",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "DNA is composed of two complementary strands forming a double helix structure.",
+      "correctAnswer": "true",
+      "explanation": "DNA has a double helix structure with two antiparallel, complementary strands held together by base pairing.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "If a DNA strand has 30% Adenine, what percentage of the strand is Guanine?",
+      "options": ["20%", "30%", "40%", "70%"],
+      "correctAnswer": 0,
+      "explanation": "If A = 30%, then T = 30% (A pairs with T). That leaves 40% for G and C combined. Since G = C, then G = 20%.",
+      "points": 15
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Two plants heterozygous for height (Tt) are crossed. What is the probability that out of three offspring, all three will be tall?",
+      "correctAnswer": "27/64 or 0.421875 or 42.19%",
+      "explanation": "Probability of one tall plant = 3/4. For three independent events: (3/4)³ = 27/64 ≈ 42.19%.",
+      "points": 15
+    }
+  ]
+}

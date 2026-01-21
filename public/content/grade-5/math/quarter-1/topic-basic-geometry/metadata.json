@@ -1,0 +1,27 @@
+{
+  "id": "grade-5-math-q1-basic-geometry",
+  "grade": 5,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Basic Geometry",
+  "description": "Explore fundamental geometric concepts including shapes, angles, perimeter, and area of basic figures",
+  "learningObjectives": [
+    "Identify and classify different types of angles",
+    "Recognize and describe basic 2D shapes and their properties",
+    "Calculate perimeter of polygons",
+    "Calculate area of rectangles and squares",
+    "Understand the relationship between perimeter and area",
+    "Identify parallel and perpendicular lines",
+    "Apply geometric concepts to solve real-world problems"
+  ],
+  "estimatedDuration": 30,
+  "difficulty": "beginner",
+  "tags": ["geometry", "shapes", "angles", "perimeter", "area", "polygons"],
+  "lastUpdated": "2026-01-20",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

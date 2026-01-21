@@ -190,12 +190,12 @@ $$x = 5$$
 
 ## Example 6: Word Problem
 
-**Problem:** Maria has some money. She spent $15 on lunch and has $32 left. How much money did she start with?
+**Problem:** Maria has some money. She spent \$15 on lunch and has \$32 left. How much money did she start with?
 
 **Solution:**
 Let $x$ = money Maria started with
 
-She spent $15, so she has $x - 15$ left:
+She spent \$15, so she has $x - 15$ left:
 $$x - 15 = 32$$
 
 Add 15 to both sides:

@@ -1,0 +1,92 @@
+{
+  "examId": "grade-11-english-q1-literary-analysis-practice",
+  "examType": "practice",
+  "title": "Literary Analysis Practice Exam",
+  "description": "Test your understanding of critical reading and literary analysis",
+  "passingScore": 70,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What is the primary difference between a theme and a topic?",
+      "options": [
+        "A theme is always stated explicitly, while a topic is implied",
+        "A theme is a complete statement about life or human nature, while a topic is a subject",
+        "A theme is found only in poetry, while a topic applies to all literature",
+        "A theme describes characters, while a topic describes setting"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A topic is simply the subject matter (love, war, friendship), while a theme is a complete idea or insight about that subject (e.g., 'True friendship requires sacrifice'). Themes must be inferred from the text.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "short-answer",
+      "question": "Explain what the STEAL method is and why it is useful in character analysis.",
+      "correctAnswer": "STEAL stands for Speech, Thoughts, Effects on others, Actions, and Looks - methods of indirect characterization that reveal character traits",
+      "explanation": "The STEAL method helps analyze how authors reveal character indirectly through what characters say, think, how they affect others, what they do, and how they appear. This is more sophisticated than simple direct characterization.",
+      "points": 15
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Read this passage: 'The old house stood at the end of the street, its broken windows like empty eye sockets staring into the darkness.' What literary device is primarily used here?",
+      "options": [
+        "Alliteration",
+        "Personification and simile",
+        "Hyperbole",
+        "Allusion"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage uses personification (giving the house human qualities of staring) and simile (comparing windows to eye sockets with 'like'). These devices create an eerie, ominous mood.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "When writing literary analysis, you should use past tense to discuss events in the story.",
+      "correctAnswer": "false",
+      "explanation": "Literary analysis uses present tense when discussing literature, even when the story's events happened in the past. This is called the 'literary present tense.' Example: 'Hamlet contemplates revenge' not 'Hamlet contemplated revenge.'",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "short-answer",
+      "question": "What is the difference between a dynamic character and a static character?",
+      "correctAnswer": "a dynamic character changes or develops throughout the story while a static character remains the same",
+      "explanation": "Dynamic characters undergo significant internal change, often learning lessons or evolving in their understanding. Static characters remain essentially unchanged from beginning to end, serving other purposes in the narrative.",
+      "points": 13
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "The contrast between expectation and reality in literature is called __________.",
+      "correctAnswer": "irony",
+      "explanation": "Irony occurs when there is a discrepancy between what is expected and what actually happens (situational), what is said and what is meant (verbal), or what characters know versus what the audience knows (dramatic).",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Why is analyzing how literary devices contribute to meaning more important than simply identifying them?",
+      "options": [
+        "Because identifying devices is too easy for advanced students",
+        "Because teachers prefer longer essays with more analysis",
+        "Because understanding the purpose and effect shows deeper comprehension of the author's craft",
+        "Because there are too many literary devices to memorize"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Literary analysis requires examining not just what techniques the author uses, but why and how they use them. Understanding the purpose and effect of devices demonstrates critical thinking and appreciation of artistic choices.",
+      "points": 13
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain the difference between first-person and third-person omniscient point of view and how each affects the reader's understanding of the story.",
+      "correctAnswer": "first-person provides intimate but limited perspective through one character's eyes, while third-person omniscient offers broader knowledge of all characters' thoughts and motivations",
+      "explanation": "First-person narration creates closeness with the narrator but limits readers to that character's perceptions and potential biases. Third-person omniscient allows readers to understand multiple characters' perspectives and see the bigger picture the individual characters might miss.",
+      "points": 15
+    }
+  ]
+}

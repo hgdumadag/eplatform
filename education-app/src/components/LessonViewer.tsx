@@ -1,8 +1,10 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkMath from 'remark-math';
+import remarkGfm from 'remark-gfm';
 import rehypeKatex from 'rehype-katex';
+import rehypeRaw from 'rehype-raw';
 import 'katex/dist/katex.min.css';
 import { ContentLoader } from '../services/contentLoader';
 import { useProgressStore } from '../stores/progressStore';
@@ -23,11 +25,14 @@ export function LessonViewer() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  const { markStarted, markComplete, getProgress, getExamAttempts } = useProgressStore();
+  const { markStarted, markComplete, getProgress, getExamAttempts, updateLessonTime } = useProgressStore();
 
   const lessonId = `${grade}-${subject}-${quarter}-${topicName}`;
   const progress = getProgress(lessonId);
   const examAttempts = getExamAttempts(lessonId);
+
+  const startTimeRef = useRef<number>(Date.now());
+  const intervalRef = useRef<number | null>(null);
 
   useEffect(() => {
     const loadLesson = async () => {
@@ -64,6 +69,31 @@ export function LessonViewer() {
     loadLesson();
   }, [grade, subject, quarter, topicName, lessonId, markStarted]);
 
+  // Time tracking
+  useEffect(() => {
+    startTimeRef.current = Date.now();
+
+    // Save time every minute
+    intervalRef.current = window.setInterval(() => {
+      const elapsed = Math.round((Date.now() - startTimeRef.current) / 60000); // minutes
+      if (elapsed > 0) {
+        updateLessonTime(lessonId, elapsed);
+        startTimeRef.current = Date.now(); // Reset start time
+      }
+    }, 60000); // Every minute
+
+    // Save time on unmount
+    return () => {
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current);
+      }
+      const elapsed = Math.round((Date.now() - startTimeRef.current) / 60000);
+      if (elapsed > 0) {
+        updateLessonTime(lessonId, elapsed);
+      }
+    };
+  }, [lessonId, updateLessonTime]);
+
   const handleMarkComplete = () => {
     markComplete(lessonId);
   };
@@ -74,6 +104,10 @@ export function LessonViewer() {
 
   const handleTakePracticeExam = () => {
     navigate(`/exam/${grade}/${subject}/${quarter}/${topicName}`);
+  };
+
+  const handleTakeAssessmentExam = () => {
+    navigate(`/exam/${grade}/${subject}/${quarter}/${topicName}?type=assessment`);
   };
 
   if (loading) {
@@ -120,8 +154,8 @@ export function LessonViewer() {
 
       <div className="lesson-content">
         <ReactMarkdown
-          remarkPlugins={[remarkMath]}
-          rehypePlugins={[rehypeKatex]}
+          remarkPlugins={[remarkGfm, remarkMath]}
+          rehypePlugins={[rehypeRaw, rehypeKatex]}
         >
           {content}
         </ReactMarkdown>
@@ -142,6 +176,12 @@ export function LessonViewer() {
         {metadata.resources.practiceExam && (
           <button onClick={handleTakePracticeExam} className="btn-exam">
             📝 Take Practice Exam
+          </button>
+        )}
+
+        {metadata.resources.assessmentExam && (
+          <button onClick={handleTakeAssessmentExam} className="btn-exam assessment">
+            🎯 Take Assessment Exam
           </button>
         )}
 

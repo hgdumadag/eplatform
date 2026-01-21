@@ -1,0 +1,92 @@
+{
+  "examId": "grade-5-math-q1-basic-geometry-practice",
+  "examType": "practice",
+  "title": "Basic Geometry Practice Exam",
+  "description": "Test your understanding of basic geometry including angles, shapes, perimeter, and area.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "An angle that measures exactly 90° is called a:",
+      "options": [
+        "Right angle",
+        "Acute angle",
+        "Obtuse angle",
+        "Straight angle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A right angle measures exactly 90°, like the corner of a square or rectangle.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "true-false",
+      "question": "A square has 4 equal sides and 4 right angles.",
+      "correctAnswer": "true",
+      "explanation": "This is the definition of a square. All four sides are the same length, and all four angles are 90° (right angles).",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "A rectangle has a length of 10 cm and a width of 6 cm. What is the perimeter? (Enter just the number)",
+      "correctAnswer": "32",
+      "explanation": "Using the formula $P = 2l + 2w$: $P = 2(10) + 2(6) = 20 + 12 = 32$ cm.",
+      "points": 15
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "What is the area of a square with sides that are 5 inches long?",
+      "options": [
+        "25 square inches",
+        "20 square inches",
+        "10 square inches",
+        "5 square inches"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using the formula $A = s^2$: $A = 5 \\times 5 = 25$ square inches.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "A rectangular room is 12 feet long and 9 feet wide. What is the area? (Enter just the number)",
+      "correctAnswer": "108",
+      "explanation": "Using the formula $A = l \\times w$: $A = 12 \\times 9 = 108$ square feet.",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "What type of angle is greater than 90° but less than 180°?",
+      "correctAnswer": "obtuse",
+      "explanation": "An obtuse angle is greater than 90° but less than 180°. It's wider than a right angle but not a straight line.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A square has a perimeter of 24 meters. What is the length of one side?",
+      "options": [
+        "6 meters",
+        "4 meters",
+        "8 meters",
+        "12 meters"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using $P = 4s$, we have $24 = 4s$. Dividing both sides by 4: $s = 6$ meters.",
+      "points": 13
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Sarah wants to put a border around a rectangular poster that is 8 inches long and 6 inches wide. How many inches of border does she need? (Enter just the number)",
+      "correctAnswer": "28",
+      "explanation": "The border goes around the perimeter. $P = 2(8) + 2(6) = 16 + 12 = 28$ inches of border needed.",
+      "points": 15
+    }
+  ]
+}
