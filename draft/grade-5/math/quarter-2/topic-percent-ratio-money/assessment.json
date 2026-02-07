@@ -1,0 +1,202 @@
+{
+  "examId": "grade-5-math-q2-percent-ratio-money-assessment",
+  "examType": "assessment",
+  "title": "Percent, Ratio, and Money Assessment",
+  "description": "Assessment including image-based percent, ratio, and money problems",
+  "passingScore": 75,
+  "timeLimit": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Based on the image `ratio-apples-oranges.png`, which statement is correct?",
+      "options": [
+        "There are more oranges than apples",
+        "There are more apples than oranges",
+        "Apples and oranges are equal",
+        "There are 5 oranges"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The image shows 3 apples and 2 oranges.",
+      "points": 5
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "The ratio shown in `ratio-apples-oranges.png` is ______.",
+      "correctAnswer": "3:2",
+      "explanation": "There are 3 apples and 2 oranges.",
+      "points": 5
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "What percent is shown in `percent-hundred-grid.png`?",
+      "options": ["10%", "20%", "25%", "50%"],
+      "correctAnswer": 2,
+      "explanation": "25 shaded squares represent 25%.",
+      "points": 5
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "The image `percent-hundred-grid.png` shows more than half shaded.",
+      "correctAnswer": "false",
+      "explanation": "Only 25% is shaded, which is less than half.",
+      "points": 5
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Using `money-change-example.png`, how much change is given?",
+      "options": ["$20", "$25", "$30", "$50"],
+      "correctAnswer": 1,
+      "explanation": "50 − 25 = 25.",
+      "points": 5
+    },
+
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Which image best helps explain percent?",
+      "options": [
+        "ratio-apples-oranges.png",
+        "money-change-example.png",
+        "percent-hundred-grid.png",
+        "discount-shopping-tag.png"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The hundred grid shows parts out of 100.",
+      "points": 5
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "The image `discount-shopping-tag.png` shows a 20% discount.",
+      "correctAnswer": "true",
+      "explanation": "The tag clearly says 20% OFF.",
+      "points": 5
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "If an item costs $200, how much is the discount shown in `discount-shopping-tag.png`?",
+      "options": ["$20", "$30", "$40", "$50"],
+      "correctAnswer": 2,
+      "explanation": "20% of 200 is 40.",
+      "points": 5
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "question": "After applying the discount in `discount-shopping-tag.png` to a $100 item, the new price is ______.",
+      "correctAnswer": "80",
+      "explanation": "20% of 100 is 20, so 100 − 20 = 80.",
+      "points": 5
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "How does the image `money-change-example.png` help explain subtraction?",
+      "correctAnswer": "It shows money given minus cost equals change.",
+      "explanation": "Change is found by subtracting the cost from the amount paid.",
+      "points": 5
+    },
+
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "question": "Which image best represents a real-life money situation?",
+      "options": [
+        "ratio-apples-oranges.png",
+        "percent-hundred-grid.png",
+        "money-change-example.png",
+        "none of these"
+      ],
+      "correctAnswer": 2,
+      "explanation": "It shows a customer paying and receiving change.",
+      "points": 5
+    },
+    {
+      "id": "q12",
+      "type": "true-false",
+      "question": "The image `ratio-apples-oranges.png` can be used to explain fractions.",
+      "correctAnswer": "true",
+      "explanation": "Ratios can also be written as fractions.",
+      "points": 5
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "question": "Which fraction matches the shaded part in `percent-hundred-grid.png`?",
+      "options": ["1/2", "1/4", "3/4", "1/10"],
+      "correctAnswer": 1,
+      "explanation": "25% equals 1/4.",
+      "points": 5
+    },
+    {
+      "id": "q14",
+      "type": "fill-in",
+      "question": "The discount in `discount-shopping-tag.png` means you pay ______ percent less.",
+      "correctAnswer": "20",
+      "explanation": "The tag says 20% OFF.",
+      "points": 5
+    },
+    {
+      "id": "q15",
+      "type": "short-answer",
+      "question": "Name one thing you could buy where `discount-shopping-tag.png` would be useful.",
+      "correctAnswer": "Clothes",
+      "explanation": "Percent discounts are common when shopping.",
+      "points": 5
+    },
+
+    {
+      "id": "q16",
+      "type": "multiple-choice",
+      "question": "If the apples in `ratio-apples-oranges.png` doubled, how many apples would there be?",
+      "options": ["3", "5", "6", "8"],
+      "correctAnswer": 2,
+      "explanation": "Doubling 3 apples gives 6.",
+      "points": 5
+    },
+    {
+      "id": "q17",
+      "type": "true-false",
+      "question": "The image `money-change-example.png` shows addition.",
+      "correctAnswer": "false",
+      "explanation": "It shows subtraction to find change.",
+      "points": 5
+    },
+    {
+      "id": "q18",
+      "type": "multiple-choice",
+      "question": "Which image helps you understand \"out of 100\"?",
+      "options": [
+        "ratio-apples-oranges.png",
+        "percent-hundred-grid.png",
+        "money-change-example.png",
+        "discount-shopping-tag.png"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Percent means out of 100.",
+      "points": 5
+    },
+    {
+      "id": "q19",
+      "type": "fill-in",
+      "question": "The image `percent-hundred-grid.png` shows ______ shaded squares.",
+      "correctAnswer": "25",
+      "explanation": "There are 25 shaded squares.",
+      "points": 5
+    },
+    {
+      "id": "q20",
+      "type": "short-answer",
+      "question": "Explain how images help you understand math better.",
+      "correctAnswer": "Images show ideas clearly and make problems easier to understand.",
+      "explanation": "Visuals help connect math to real life.",
+      "points": 5
+    }
+  ]
+}

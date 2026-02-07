@@ -1,0 +1,78 @@
+{
+  "examId": "grade-5-math-q2-percent-ratio-money-practice",
+  "examType": "practice",
+  "title": "Percent, Ratio, and Money Practice",
+  "description": "Practice percent, ratio, and money word problems using real-life images",
+  "passingScore": 70,
+  "timeLimit": 30,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Look at the image `ratio-apples-oranges.png`. What is the ratio of apples to oranges?",
+      "options": ["2:3", "3:2", "5:2", "2:5"],
+      "correctAnswer": 1,
+      "explanation": "The image shows 3 apples and 2 oranges, so the ratio is 3:2.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Using the image `percent-hundred-grid.png`, how many squares are shaded?",
+      "options": ["10", "20", "25", "50"],
+      "correctAnswer": 2,
+      "explanation": "The hundred grid shows 25 shaded squares.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "The image `percent-hundred-grid.png` represents 25%.",
+      "correctAnswer": "true",
+      "explanation": "25 shaded squares out of 100 equals 25%.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "In the image `money-change-example.png`, the customer pays $50 for a $25 item. The change is ______.",
+      "correctAnswer": "25",
+      "explanation": "50 minus 25 equals 25.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Look at the image `discount-shopping-tag.png`. What percent discount is shown?",
+      "options": ["10%", "15%", "20%", "25%"],
+      "correctAnswer": 2,
+      "explanation": "The tag clearly shows 20% OFF.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "If an item costs $100 and uses the discount shown in `discount-shopping-tag.png`, what is the discount amount?",
+      "options": ["$10", "$15", "$20", "$25"],
+      "correctAnswer": 2,
+      "explanation": "20% of 100 is 20.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "The ratio shown in `ratio-apples-oranges.png` can be simplified.",
+      "correctAnswer": "false",
+      "explanation": "3:2 is already in simplest form.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain how the image `percent-hundred-grid.png` helps you understand percent.",
+      "correctAnswer": "It shows how many parts out of 100 are shaded.",
+      "explanation": "Percent means out of 100, and the grid visually shows this.",
+      "points": 20
+    }
+  ]
+}

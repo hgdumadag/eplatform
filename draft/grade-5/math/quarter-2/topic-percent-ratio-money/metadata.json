@@ -1,0 +1,24 @@
+{
+  "id": "grade-5-math-q2-percent-ratio-money",
+  "grade": 5,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Percent, Ratio, and Money Problems",
+  "description": "Learn how to understand and solve percent, ratio, and money word problems using real-life examples.",
+  "learningObjectives": [
+    "Understand and use ratios to compare quantities",
+    "Find simple percentages of whole numbers",
+    "Solve real-life money problems involving addition, subtraction, and change",
+    "Apply percent and ratio concepts to everyday situations"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "beginner",
+  "tags": ["percent", "ratio", "money", "word-problems", "grade-5"],
+  "prerequisites": ["Basic multiplication", "Basic division", "Understanding of fractions"],
+  "lastUpdated": "2026-01-20",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json"
+  }
+}
