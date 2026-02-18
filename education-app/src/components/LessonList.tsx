@@ -114,6 +114,8 @@ export function LessonList() {
   };
 
   const activeFilterCount = Object.values(filters).filter((v) => v !== 'all').length;
+  const availableGrades = Array.from(new Set(lessons.map((lesson) => lesson.grade))).sort((a, b) => a - b);
+  const availableSubjects = Array.from(new Set(lessons.map((lesson) => lesson.subject))).sort();
 
   if (lessons.length === 0) {
     return <div className="no-lessons">No lessons available yet.</div>;
@@ -142,9 +144,11 @@ export function LessonList() {
             className="filter-select"
           >
             <option value="all">All Grades</option>
-            <option value="11">Grade 11</option>
-            <option value="8">Grade 8</option>
-            <option value="5">Grade 5</option>
+            {availableGrades.map((grade) => (
+              <option key={grade} value={String(grade)}>
+                Grade {grade}
+              </option>
+            ))}
           </select>
 
           <select
@@ -153,9 +157,11 @@ export function LessonList() {
             className="filter-select"
           >
             <option value="all">All Subjects</option>
-            <option value="math">Math</option>
-            <option value="science">Science</option>
-            <option value="english">English</option>
+            {availableSubjects.map((subject) => (
+              <option key={subject} value={subject}>
+                {subject.charAt(0).toUpperCase() + subject.slice(1)}
+              </option>
+            ))}
           </select>
 
           <select
