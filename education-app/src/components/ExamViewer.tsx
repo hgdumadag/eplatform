@@ -5,11 +5,13 @@ import remarkMath from 'remark-math';
 import remarkGfm from 'remark-gfm';
 import rehypeKatex from 'rehype-katex';
 import rehypeRaw from 'rehype-raw';
+import rehypeSanitize from 'rehype-sanitize';
 import 'katex/dist/katex.min.css';
 import { ContentLoader } from '../services/contentLoader';
 import { useProgressStore } from '../stores/progressStore';
-import { checkAnswer } from '../utils/answerChecker';
+import { isAnswerCorrect } from '../utils/answerChecker';
 import type { ExamQuestion, ExamAttempt } from '../types';
+import { buildLessonKey } from '../utils/lessonKey';
 import './ExamViewer.css';
 
 interface ExamData {
@@ -37,6 +39,14 @@ export function ExamViewer() {
   const [showExplanations, setShowExplanations] = useState(false);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const lessonId = grade && subject && quarter && topicName
+    ? buildLessonKey({
+        grade: Number(grade),
+        subject,
+        quarter: Number(quarter),
+        topicName,
+      })
+    : '';
 
   useEffect(() => {
     loadExam();
@@ -82,15 +92,7 @@ export function ExamViewer() {
 
       if (userAnswer === undefined) return;
 
-      let isCorrect = false;
-
-      // Different comparison logic based on question type
-      if (question.type === 'multiple-choice' || question.type === 'true-false') {
-        isCorrect = userAnswer === question.correctAnswer;
-      } else if (question.type === 'fill-in' || question.type === 'short-answer') {
-        // Use flexible answer checking
-        isCorrect = checkAnswer(String(userAnswer), String(question.correctAnswer), question.type);
-      }
+      const isCorrect = isAnswerCorrect(question, userAnswer);
 
       if (isCorrect) {
         correct += question.points;
@@ -101,7 +103,7 @@ export function ExamViewer() {
   };
 
   const handleSubmit = () => {
-    if (!exam) return;
+    if (!exam || !lessonId) return;
 
     // Check if all questions answered
     const unansweredCount = exam.questions.filter(
@@ -118,12 +120,6 @@ export function ExamViewer() {
     const calculatedScore = calculateScore();
     setScore(calculatedScore);
     setSubmitted(true);
-
-    // Save attempt to progress store
-    const lessonId = `grade-${grade}-${subject}-q${quarter}-${topicName}`.replace(
-      /topic-/,
-      ''
-    );
 
     const timeSpent = Math.round((Date.now() - startTime) / 60000); // minutes
 
@@ -208,18 +204,7 @@ export function ExamViewer() {
               <h2>Review Questions</h2>
               {exam.questions.map((question, index) => {
                 const userAnswer = answers[question.id];
-
-                // Calculate if answer is correct based on question type
-                let isCorrect = false;
-                if (userAnswer !== undefined) {
-                  if (question.type === 'multiple-choice' || question.type === 'true-false') {
-                    isCorrect = userAnswer === question.correctAnswer;
-                  } else if (question.type === 'fill-in' || question.type === 'short-answer') {
-                    const userAnswerStr = String(userAnswer).trim().toLowerCase();
-                    const correctAnswerStr = String(question.correctAnswer).trim().toLowerCase();
-                    isCorrect = userAnswerStr === correctAnswerStr;
-                  }
-                }
+                const isCorrect = isAnswerCorrect(question, userAnswer);
 
                 return (
                   <div
@@ -236,7 +221,7 @@ export function ExamViewer() {
                     <div className="question-text">
                       <ReactMarkdown
                         remarkPlugins={[remarkGfm, remarkMath]}
-                        rehypePlugins={[rehypeRaw, rehypeKatex]}
+                        rehypePlugins={[rehypeRaw, rehypeSanitize, rehypeKatex]}
                       >
                         {question.question}
                       </ReactMarkdown>
@@ -261,7 +246,7 @@ export function ExamViewer() {
                               <span className="option-text">
                                 <ReactMarkdown
                                   remarkPlugins={[remarkGfm, remarkMath]}
-                                  rehypePlugins={[rehypeKatex]}
+                                  rehypePlugins={[rehypeSanitize, rehypeKatex]}
                                 >
                                   {option}
                                 </ReactMarkdown>
@@ -313,7 +298,7 @@ export function ExamViewer() {
                         <strong>Explanation:</strong>{' '}
                         <ReactMarkdown
                           remarkPlugins={[remarkGfm, remarkMath]}
-                          rehypePlugins={[rehypeKatex]}
+                          rehypePlugins={[rehypeSanitize, rehypeKatex]}
                         >
                           {question.explanation}
                         </ReactMarkdown>
@@ -352,7 +337,7 @@ export function ExamViewer() {
             <div className="question-text">
               <ReactMarkdown
                 remarkPlugins={[remarkGfm, remarkMath]}
-                rehypePlugins={[rehypeKatex]}
+                rehypePlugins={[rehypeSanitize, rehypeKatex]}
               >
                 {question.question}
               </ReactMarkdown>
@@ -373,7 +358,7 @@ export function ExamViewer() {
                     <span className="option-text">
                       <ReactMarkdown
                         remarkPlugins={[remarkGfm, remarkMath]}
-                        rehypePlugins={[rehypeRaw, rehypeKatex]}
+                        rehypePlugins={[rehypeRaw, rehypeSanitize, rehypeKatex]}
                       >
                         {option}
                       </ReactMarkdown>

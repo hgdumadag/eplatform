@@ -1,5 +1,62 @@
 import type { TopicMetadata } from '../types';
+import { buildLessonKey } from '../utils/lessonKey';
 import { uploadedContentStore } from './uploadedContentStore';
+
+interface ResolvedContent {
+  content: string;
+  objectUrls: string[];
+}
+
+const MARKDOWN_IMAGE_REGEX = /(!\[[^\]]*]\()([^)]+)(\))/g;
+const HTML_IMAGE_SRC_REGEX = /(<img[^>]*\ssrc=["'])([^"']+)(["'][^>]*>)/gi;
+
+function isExternalOrRootPath(path: string): boolean {
+  return (
+    path.startsWith('http://') ||
+    path.startsWith('https://') ||
+    path.startsWith('data:') ||
+    path.startsWith('blob:') ||
+    path.startsWith('/') ||
+    path.startsWith('#')
+  );
+}
+
+function getAssetPathToken(rawValue: string): string {
+  const trimmed = rawValue.trim().replace(/^<|>$/g, '');
+  const token = trimmed.split(/\s+/)[0] || '';
+  return token.replace(/^['"]|['"]$/g, '');
+}
+
+function replacePathToken(rawValue: string, replacement: string): string {
+  const token = getAssetPathToken(rawValue);
+  return rawValue.replace(token, replacement);
+}
+
+function getMimeTypeFromPath(path: string): string {
+  const ext = path.split('.').pop()?.toLowerCase();
+
+  switch (ext) {
+    case 'png':
+      return 'image/png';
+    case 'jpg':
+    case 'jpeg':
+      return 'image/jpeg';
+    case 'gif':
+      return 'image/gif';
+    case 'webp':
+      return 'image/webp';
+    case 'svg':
+      return 'image/svg+xml';
+    case 'pdf':
+      return 'application/pdf';
+    case 'mp4':
+      return 'video/mp4';
+    case 'webm':
+      return 'video/webm';
+    default:
+      return 'application/octet-stream';
+  }
+}
 
 /**
  * Content loader service for fetching lesson metadata and content
@@ -7,6 +64,98 @@ import { uploadedContentStore } from './uploadedContentStore';
  */
 
 export class ContentLoader {
+  static revokeObjectUrls(objectUrls: string[]): void {
+    objectUrls.forEach((url) => URL.revokeObjectURL(url));
+  }
+
+  private static async resolveUploadedContentAssets(
+    lessonId: string,
+    content: string,
+  ): Promise<ResolvedContent> {
+    const uploadedLesson = await uploadedContentStore.getLesson(lessonId);
+    if (!uploadedLesson) {
+      return { content, objectUrls: [] };
+    }
+
+    const assetPaths = new Set<string>();
+
+    content.replace(MARKDOWN_IMAGE_REGEX, (_, __, rawPath) => {
+      const token = getAssetPathToken(rawPath);
+      if (token && !isExternalOrRootPath(token)) {
+        assetPaths.add(token);
+      }
+      return '';
+    });
+
+    content.replace(HTML_IMAGE_SRC_REGEX, (_, __, rawPath) => {
+      if (rawPath && !isExternalOrRootPath(rawPath)) {
+        assetPaths.add(rawPath);
+      }
+      return '';
+    });
+
+    if (assetPaths.size === 0) {
+      return { content, objectUrls: [] };
+    }
+
+    const pathToUrl = new Map<string, string>();
+    const objectUrls: string[] = [];
+
+    for (const relativePath of assetPaths) {
+      let decodedPath = relativePath;
+      try {
+        decodedPath = decodeURIComponent(relativePath);
+      } catch {
+        decodedPath = relativePath;
+      }
+      const uploadedFile =
+        (await uploadedContentStore.getFile(lessonId, relativePath)) ||
+        (decodedPath !== relativePath
+          ? await uploadedContentStore.getFile(lessonId, decodedPath)
+          : null);
+
+      if (!uploadedFile) {
+        continue;
+      }
+
+      const mimeType = getMimeTypeFromPath(uploadedFile.path);
+      const blob = uploadedFile.type === 'binary'
+        ? new Blob([uploadedFile.content as ArrayBuffer], { type: mimeType })
+        : new Blob([uploadedFile.content as string], { type: mimeType });
+
+      const objectUrl = URL.createObjectURL(blob);
+      objectUrls.push(objectUrl);
+      pathToUrl.set(relativePath, objectUrl);
+      pathToUrl.set(decodedPath, objectUrl);
+    }
+
+    let updatedContent = content;
+
+    updatedContent = updatedContent.replace(MARKDOWN_IMAGE_REGEX, (full, prefix, rawPath, suffix) => {
+      const token = getAssetPathToken(rawPath);
+      const resolvedUrl = pathToUrl.get(token);
+      if (!resolvedUrl) {
+        return full;
+      }
+
+      return `${prefix}${replacePathToken(rawPath, resolvedUrl)}${suffix}`;
+    });
+
+    updatedContent = updatedContent.replace(HTML_IMAGE_SRC_REGEX, (full, prefix, rawPath, suffix) => {
+      const resolvedUrl = pathToUrl.get(rawPath);
+      if (!resolvedUrl) {
+        return full;
+      }
+
+      return `${prefix}${resolvedUrl}${suffix}`;
+    });
+
+    return {
+      content: updatedContent,
+      objectUrls,
+    };
+  }
+
   /**
    * Load metadata for a specific topic
    * Checks uploaded content first, then falls back to public folder
@@ -15,17 +164,15 @@ export class ContentLoader {
     grade: number,
     subject: string,
     quarter: number,
-    topicName: string
+    topicName: string,
   ): Promise<TopicMetadata> {
-    // Try uploaded content first
-    const lessonId = `grade-${grade}-${subject}-q${quarter}-${topicName}`;
+    const lessonId = buildLessonKey({ grade, subject, quarter, topicName });
     const uploadedFile = await uploadedContentStore.getFile(lessonId, 'metadata.json');
 
     if (uploadedFile && uploadedFile.type === 'text') {
       return JSON.parse(uploadedFile.content as string);
     }
 
-    // Fall back to public folder
     const path = `/content/grade-${grade}/${subject}/quarter-${quarter}/${topicName}/metadata.json`;
 
     try {
@@ -48,17 +195,15 @@ export class ContentLoader {
     grade: number,
     subject: string,
     quarter: number,
-    topicName: string
+    topicName: string,
   ): Promise<string> {
-    // Try uploaded content first
-    const lessonId = `grade-${grade}-${subject}-q${quarter}-${topicName}`;
+    const lessonId = buildLessonKey({ grade, subject, quarter, topicName });
     const uploadedFile = await uploadedContentStore.getFile(lessonId, 'content.md');
 
     if (uploadedFile && uploadedFile.type === 'text') {
       return uploadedFile.content as string;
     }
 
-    // Fall back to public folder
     const path = `/content/grade-${grade}/${subject}/quarter-${quarter}/${topicName}/content.md`;
 
     try {
@@ -80,14 +225,25 @@ export class ContentLoader {
     grade: number,
     subject: string,
     quarter: number,
-    topicName: string
-  ): Promise<{ metadata: TopicMetadata; content: string }> {
+    topicName: string,
+  ): Promise<{ metadata: TopicMetadata; content: string; assetObjectUrls: string[] }> {
+    const lessonId = buildLessonKey({ grade, subject, quarter, topicName });
+
     const [metadata, content] = await Promise.all([
       this.loadMetadata(grade, subject, quarter, topicName),
       this.loadContent(grade, subject, quarter, topicName),
     ]);
 
-    return { metadata, content };
+    const { content: resolvedContent, objectUrls } = await this.resolveUploadedContentAssets(
+      lessonId,
+      content,
+    );
+
+    return {
+      metadata,
+      content: resolvedContent,
+      assetObjectUrls: objectUrls,
+    };
   }
 
   /**
@@ -98,17 +254,15 @@ export class ContentLoader {
     grade: number,
     subject: string,
     quarter: number,
-    topicName: string
+    topicName: string,
   ): Promise<any> {
-    // Try uploaded content first
-    const lessonId = `grade-${grade}-${subject}-q${quarter}-${topicName}`;
+    const lessonId = buildLessonKey({ grade, subject, quarter, topicName });
     const uploadedFile = await uploadedContentStore.getFile(lessonId, 'practice.json');
 
     if (uploadedFile && uploadedFile.type === 'text') {
       return JSON.parse(uploadedFile.content as string);
     }
 
-    // Fall back to public folder
     const path = `/content/grade-${grade}/${subject}/quarter-${quarter}/${topicName}/practice.json`;
 
     try {
@@ -131,17 +285,15 @@ export class ContentLoader {
     grade: number,
     subject: string,
     quarter: number,
-    topicName: string
+    topicName: string,
   ): Promise<any> {
-    // Try uploaded content first
-    const lessonId = `grade-${grade}-${subject}-q${quarter}-${topicName}`;
+    const lessonId = buildLessonKey({ grade, subject, quarter, topicName });
     const uploadedFile = await uploadedContentStore.getFile(lessonId, 'assessment.json');
 
     if (uploadedFile && uploadedFile.type === 'text') {
       return JSON.parse(uploadedFile.content as string);
     }
 
-    // Fall back to public folder
     const path = `/content/grade-${grade}/${subject}/quarter-${quarter}/${topicName}/assessment.json`;
 
     try {
@@ -166,9 +318,7 @@ export class ContentLoader {
     topicName: string;
     displayName: string;
   }>> {
-    // Built-in lessons
     const builtInLessons = [
-      // Grade 11 - Math
       {
         grade: 11,
         subject: 'math',
@@ -190,7 +340,6 @@ export class ContentLoader {
         topicName: 'topic-trigonometry-intro',
         displayName: 'Trigonometry Introduction',
       },
-      // Grade 11 - Science
       {
         grade: 11,
         subject: 'science',
@@ -205,7 +354,6 @@ export class ContentLoader {
         topicName: 'topic-genetics-heredity',
         displayName: 'Genetics & Heredity',
       },
-      // Grade 11 - English
       {
         grade: 11,
         subject: 'english',
@@ -220,7 +368,6 @@ export class ContentLoader {
         topicName: 'topic-literary-analysis',
         displayName: 'Literary Analysis',
       },
-      // Grade 8 - Math
       {
         grade: 8,
         subject: 'math',
@@ -235,7 +382,6 @@ export class ContentLoader {
         topicName: 'topic-linear-equations',
         displayName: 'Linear Equations',
       },
-      // Grade 8 - Science
       {
         grade: 8,
         subject: 'science',
@@ -243,7 +389,6 @@ export class ContentLoader {
         topicName: 'topic-matter-atoms',
         displayName: 'Matter & Atoms',
       },
-      // Grade 8 - English
       {
         grade: 8,
         subject: 'english',
@@ -251,7 +396,6 @@ export class ContentLoader {
         topicName: 'topic-persuasive-essays',
         displayName: 'Persuasive Essays',
       },
-      // Grade 5 - Math
       {
         grade: 5,
         subject: 'math',
@@ -273,7 +417,6 @@ export class ContentLoader {
         topicName: 'topic-basic-geometry',
         displayName: 'Basic Geometry',
       },
-      // Grade 5 - Science
       {
         grade: 5,
         subject: 'science',
@@ -288,7 +431,6 @@ export class ContentLoader {
         topicName: 'topic-energy-forces',
         displayName: 'Energy & Forces',
       },
-      // Grade 5 - English
       {
         grade: 5,
         subject: 'english',
@@ -305,9 +447,8 @@ export class ContentLoader {
       },
     ];
 
-    // Get uploaded lessons
     const uploadedLessons = await uploadedContentStore.getAllLessons();
-    const uploadedList = uploadedLessons.map(lesson => ({
+    const uploadedList = uploadedLessons.map((lesson) => ({
       grade: lesson.grade,
       subject: lesson.subject,
       quarter: lesson.quarter,
@@ -315,7 +456,6 @@ export class ContentLoader {
       displayName: lesson.displayName,
     }));
 
-    // Combine both lists
     return [...builtInLessons, ...uploadedList];
   }
 }

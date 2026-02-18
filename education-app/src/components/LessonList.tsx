@@ -5,6 +5,7 @@ import { useProgressStore } from '../stores/progressStore';
 import { useUserStore } from '../stores/userStore';
 import { useAssignmentStore } from '../stores/assignmentStore';
 import { useChildStore } from '../stores/childStore';
+import { buildLessonKey } from '../utils/lessonKey';
 import './LessonList.css';
 
 interface Lesson {
@@ -51,7 +52,12 @@ export function LessonList() {
 
   // Filter lessons based on search and filters
   const filteredLessons = lessons.filter((lesson) => {
-    const lessonId = `${lesson.grade}-${lesson.subject}-${lesson.quarter}-${lesson.topicName}`;
+    const lessonId = buildLessonKey({
+      grade: lesson.grade,
+      subject: lesson.subject,
+      quarter: lesson.quarter,
+      topicName: lesson.topicName,
+    });
     const progress = getProgress(lessonId);
 
     // Search filter
@@ -195,7 +201,12 @@ export function LessonList() {
       ) : (
         <div className="lessons-grid">
           {filteredLessons.map((lesson) => {
-          const lessonId = `${lesson.grade}-${lesson.subject}-${lesson.quarter}-${lesson.topicName}`;
+          const lessonId = buildLessonKey({
+            grade: lesson.grade,
+            subject: lesson.subject,
+            quarter: lesson.quarter,
+            topicName: lesson.topicName,
+          });
           const progress = getProgress(lessonId);
           const isCompleted = progress?.completed || false;
 

@@ -17,13 +17,19 @@ interface SyncStatus {
   error: string | null;
 }
 
+interface PermissionCapableHandle {
+  queryPermission?: (descriptor: { mode: 'read' | 'readwrite' }) => Promise<PermissionState>;
+  requestPermission?: (descriptor: { mode: 'read' | 'readwrite' }) => Promise<PermissionState>;
+}
+
 const SYNC_FILE_NAME = 'education-data-sync.json';
 const SYNC_INTERVAL = 60000; // 1 minute
 const FOLDER_HANDLE_KEY = 'cloudSyncFolderHandle';
+const LOCAL_LAST_SYNC_KEY = 'education-app-last-sync-time';
 
 class CloudSyncService {
   private folderHandle: FileSystemDirectoryHandle | null = null;
-  private syncInterval: NodeJS.Timeout | null = null;
+  private syncInterval: ReturnType<typeof setInterval> | null = null;
   private deviceId: string;
   private listeners: Array<(status: SyncStatus) => void> = [];
   private currentStatus: SyncStatus = {
@@ -35,20 +41,20 @@ class CloudSyncService {
 
   constructor() {
     this.deviceId = this.getOrCreateDeviceId();
+    this.currentStatus.lastSync = this.getLocalLastSync();
     this.loadFolderHandle();
   }
 
-  // Subscribe to sync status changes
   subscribe(callback: (status: SyncStatus) => void) {
     this.listeners.push(callback);
     callback(this.currentStatus);
     return () => {
-      this.listeners = this.listeners.filter(l => l !== callback);
+      this.listeners = this.listeners.filter((listener) => listener !== callback);
     };
   }
 
   private notifyListeners() {
-    this.listeners.forEach(listener => listener(this.currentStatus));
+    this.listeners.forEach((listener) => listener(this.currentStatus));
   }
 
   private updateStatus(updates: Partial<SyncStatus>) {
@@ -56,22 +62,47 @@ class CloudSyncService {
     this.notifyListeners();
   }
 
-  // Get or create a unique device ID
   private getOrCreateDeviceId(): string {
     let deviceId = localStorage.getItem('deviceId');
     if (!deviceId) {
-      deviceId = `device-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+      deviceId = `device-${Date.now()}-${Math.random().toString(36).slice(2, 11)}`;
       localStorage.setItem('deviceId', deviceId);
     }
     return deviceId;
   }
 
-  // Check if File System Access API is supported
+  private getLocalLastSync(): string | null {
+    return localStorage.getItem(LOCAL_LAST_SYNC_KEY);
+  }
+
+  private setLocalLastSync(isoTimestamp: string) {
+    localStorage.setItem(LOCAL_LAST_SYNC_KEY, isoTimestamp);
+  }
+
+  private clearLocalLastSync() {
+    localStorage.removeItem(LOCAL_LAST_SYNC_KEY);
+  }
+
+  private async ensureReadWritePermission(handle: FileSystemDirectoryHandle): Promise<boolean> {
+    const permissionHandle = handle as FileSystemDirectoryHandle & PermissionCapableHandle;
+
+    if (!permissionHandle.queryPermission || !permissionHandle.requestPermission) {
+      return true;
+    }
+
+    const permission = await permissionHandle.queryPermission({ mode: 'readwrite' });
+    if (permission === 'granted') {
+      return true;
+    }
+
+    const requestedPermission = await permissionHandle.requestPermission({ mode: 'readwrite' });
+    return requestedPermission === 'granted';
+  }
+
   isSupported(): boolean {
     return 'showDirectoryPicker' in window;
   }
 
-  // Load saved folder handle from IndexedDB
   private async loadFolderHandle() {
     try {
       const db = await this.openDB();
@@ -79,30 +110,26 @@ class CloudSyncService {
       const store = tx.objectStore('handles');
       const handle = await this.promisifyRequest(store.get(FOLDER_HANDLE_KEY));
 
-      if (handle) {
-        this.folderHandle = handle;
-
-        // Verify we still have permission
-        const permission = await handle.queryPermission({ mode: 'readwrite' });
-        if (permission === 'granted') {
-          this.updateStatus({ isSetup: true });
-        } else {
-          // Try to request permission again
-          const newPermission = await handle.requestPermission({ mode: 'readwrite' });
-          if (newPermission === 'granted') {
-            this.updateStatus({ isSetup: true });
-          } else {
-            this.folderHandle = null;
-            this.updateStatus({ isSetup: false, error: 'Permission denied' });
-          }
-        }
+      if (!handle) {
+        return;
       }
+
+      this.folderHandle = handle;
+
+      const hasPermission = await this.ensureReadWritePermission(handle);
+      if (!hasPermission) {
+        this.folderHandle = null;
+        this.updateStatus({ isSetup: false, error: 'Permission denied' });
+        return;
+      }
+
+      this.updateStatus({ isSetup: true, error: null });
+      this.startAutoSync();
     } catch (error) {
       console.error('Failed to load folder handle:', error);
     }
   }
 
-  // Save folder handle to IndexedDB
   private async saveFolderHandle(handle: FileSystemDirectoryHandle) {
     try {
       const db = await this.openDB();
@@ -114,7 +141,6 @@ class CloudSyncService {
     }
   }
 
-  // Open IndexedDB for storing folder handles
   private openDB(): Promise<IDBDatabase> {
     return new Promise((resolve, reject) => {
       const request = indexedDB.open('CloudSyncDB', 1);
@@ -131,7 +157,6 @@ class CloudSyncService {
     });
   }
 
-  // Convert IDBRequest to Promise
   private promisifyRequest<T>(request: IDBRequest<T>): Promise<T> {
     return new Promise((resolve, reject) => {
       request.onsuccess = () => resolve(request.result);
@@ -139,63 +164,64 @@ class CloudSyncService {
     });
   }
 
-  // Setup cloud sync by selecting a folder
   async setupCloudSync(): Promise<boolean> {
     if (!this.isSupported()) {
       this.updateStatus({
-        error: 'File System Access API not supported in this browser. Please use Chrome or Edge.'
+        error: 'File System Access API not supported in this browser. Please use Chrome or Edge.',
       });
       return false;
     }
 
     try {
-      // Request folder access
       const handle = await (window as any).showDirectoryPicker({
         mode: 'readwrite',
         startIn: 'documents',
       });
+
+      const hasPermission = await this.ensureReadWritePermission(handle);
+      if (!hasPermission) {
+        this.updateStatus({
+          isSetup: false,
+          error: 'Permission denied',
+        });
+        return false;
+      }
 
       this.folderHandle = handle;
       await this.saveFolderHandle(handle);
 
       this.updateStatus({
         isSetup: true,
-        error: null
+        error: null,
       });
 
-      // Do initial sync
       await this.syncToCloud();
-
-      // Start auto-sync
       this.startAutoSync();
 
       return true;
     } catch (error: any) {
       if (error.name === 'AbortError') {
-        // User cancelled
         this.updateStatus({ error: null });
       } else {
         this.updateStatus({
-          error: `Failed to setup cloud sync: ${error.message}`
+          error: `Failed to setup cloud sync: ${error.message}`,
         });
       }
       return false;
     }
   }
 
-  // Gather all data from localStorage
-  private gatherData(): SyncData {
+  private gatherData(syncTime: string): SyncData {
     return {
       users: JSON.parse(localStorage.getItem('education-app-users') || '{"state":{}}'),
       children: JSON.parse(localStorage.getItem('education-app-children') || '{"state":{}}'),
       progress: JSON.parse(localStorage.getItem('education-app-progress') || '{"state":{}}'),
       assignments: JSON.parse(localStorage.getItem('education-app-assignments') || '{"state":{}}'),
-      lastSyncTime: new Date().toISOString(),
+      lastSyncTime: syncTime,
       deviceId: this.deviceId,
     };
   }
 
-  // Apply data to localStorage
   private applyData(data: SyncData) {
     if (data.users) {
       localStorage.setItem('education-app-users', JSON.stringify(data.users));
@@ -211,7 +237,6 @@ class CloudSyncService {
     }
   }
 
-  // Sync data to cloud folder
   async syncToCloud(): Promise<boolean> {
     if (!this.folderHandle) {
       this.updateStatus({ error: 'Cloud sync not setup' });
@@ -221,43 +246,36 @@ class CloudSyncService {
     this.updateStatus({ isSyncing: true, error: null });
 
     try {
-      // Check permission
-      const permission = await this.folderHandle.queryPermission({ mode: 'readwrite' });
-      if (permission !== 'granted') {
-        const newPermission = await this.folderHandle.requestPermission({ mode: 'readwrite' });
-        if (newPermission !== 'granted') {
-          throw new Error('Permission denied');
-        }
+      const hasPermission = await this.ensureReadWritePermission(this.folderHandle);
+      if (!hasPermission) {
+        throw new Error('Permission denied');
       }
 
-      // Gather data
-      const data = this.gatherData();
-
-      // Create or get file
+      const syncTime = new Date().toISOString();
+      const data = this.gatherData(syncTime);
       const fileHandle = await this.folderHandle.getFileHandle(SYNC_FILE_NAME, { create: true });
-
-      // Write data
       const writable = await fileHandle.createWritable();
       await writable.write(JSON.stringify(data, null, 2));
       await writable.close();
 
+      this.setLocalLastSync(syncTime);
+
       this.updateStatus({
         isSyncing: false,
-        lastSync: new Date().toISOString(),
-        error: null
+        lastSync: syncTime,
+        error: null,
       });
 
       return true;
     } catch (error: any) {
       this.updateStatus({
         isSyncing: false,
-        error: `Sync failed: ${error.message}`
+        error: `Sync failed: ${error.message}`,
       });
       return false;
     }
   }
 
-  // Load data from cloud folder
   async syncFromCloud(): Promise<boolean> {
     if (!this.folderHandle) {
       this.updateStatus({ error: 'Cloud sync not setup' });
@@ -267,76 +285,63 @@ class CloudSyncService {
     this.updateStatus({ isSyncing: true, error: null });
 
     try {
-      // Check permission
-      const permission = await this.folderHandle.queryPermission({ mode: 'readwrite' });
-      if (permission !== 'granted') {
-        const newPermission = await this.folderHandle.requestPermission({ mode: 'readwrite' });
-        if (newPermission !== 'granted') {
-          throw new Error('Permission denied');
-        }
+      const hasPermission = await this.ensureReadWritePermission(this.folderHandle);
+      if (!hasPermission) {
+        throw new Error('Permission denied');
       }
 
-      // Get file
       const fileHandle = await this.folderHandle.getFileHandle(SYNC_FILE_NAME);
       const file = await fileHandle.getFile();
       const text = await file.text();
       const data: SyncData = JSON.parse(text);
 
-      // Check if cloud data is newer
       const cloudTime = new Date(data.lastSyncTime).getTime();
-      const localLastSync = this.currentStatus.lastSync
-        ? new Date(this.currentStatus.lastSync).getTime()
-        : 0;
+      const localLastSync = this.getLocalLastSync();
+      const localTime = localLastSync ? new Date(localLastSync).getTime() : 0;
 
-      if (cloudTime > localLastSync || data.deviceId !== this.deviceId) {
-        // Cloud data is newer or from different device, apply it
+      if (cloudTime > localTime) {
         this.applyData(data);
+        this.setLocalLastSync(data.lastSyncTime);
 
         this.updateStatus({
           isSyncing: false,
           lastSync: data.lastSyncTime,
-          error: null
+          error: null,
         });
 
-        // Reload the page to reflect changes
         window.location.reload();
         return true;
-      } else {
-        // Local data is newer or same, just update status
-        this.updateStatus({
-          isSyncing: false,
-          error: null
-        });
-        return true;
-      }
-    } catch (error: any) {
-      if (error.name === 'NotFoundError') {
-        // File doesn't exist yet, sync to cloud instead
-        return await this.syncToCloud();
       }
 
       this.updateStatus({
         isSyncing: false,
-        error: `Sync failed: ${error.message}`
+        lastSync: localLastSync,
+        error: null,
+      });
+      return true;
+    } catch (error: any) {
+      if (error.name === 'NotFoundError') {
+        return this.syncToCloud();
+      }
+
+      this.updateStatus({
+        isSyncing: false,
+        error: `Sync failed: ${error.message}`,
       });
       return false;
     }
   }
 
-  // Bi-directional sync: check cloud, merge if needed
   async sync(): Promise<boolean> {
-    // First, try to load from cloud
     const loaded = await this.syncFromCloud();
 
-    // If loading was successful but didn't trigger reload, sync to cloud
     if (loaded && !this.currentStatus.error) {
-      return await this.syncToCloud();
+      return this.syncToCloud();
     }
 
     return loaded;
   }
 
-  // Start automatic sync
   startAutoSync() {
     if (this.syncInterval) {
       clearInterval(this.syncInterval);
@@ -349,7 +354,6 @@ class CloudSyncService {
     }, SYNC_INTERVAL);
   }
 
-  // Stop automatic sync
   stopAutoSync() {
     if (this.syncInterval) {
       clearInterval(this.syncInterval);
@@ -357,7 +361,6 @@ class CloudSyncService {
     }
   }
 
-  // Disconnect cloud sync
   async disconnect() {
     this.stopAutoSync();
     this.folderHandle = null;
@@ -371,23 +374,22 @@ class CloudSyncService {
       console.error('Failed to remove folder handle:', error);
     }
 
+    this.clearLocalLastSync();
+
     this.updateStatus({
       isSetup: false,
       lastSync: null,
-      error: null
+      error: null,
     });
   }
 
-  // Get current status
   getStatus(): SyncStatus {
     return this.currentStatus;
   }
 
-  // Check if setup
   isSetup(): boolean {
     return this.currentStatus.isSetup;
   }
 }
 
-// Export singleton instance
 export const cloudSyncService = new CloudSyncService();

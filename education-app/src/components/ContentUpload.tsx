@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import JSZip from 'jszip';
 import { uploadedContentStore } from '../services/uploadedContentStore';
 import type { UploadedLesson, UploadedFile } from '../services/uploadedContentStore';
+import { buildLessonKey } from '../utils/lessonKey';
 import './ContentUpload.css';
 
 export function ContentUpload() {
@@ -104,7 +105,12 @@ export function ContentUpload() {
       }
 
       // Create lesson object
-      const lessonId = `${gradePart}-${subject}-q${quarter}-${topicName}`;
+      const lessonId = buildLessonKey({
+        grade,
+        subject,
+        quarter,
+        topicName,
+      });
       const lesson: UploadedLesson = {
         id: lessonId,
         grade,
@@ -147,7 +153,7 @@ export function ContentUpload() {
       await uploadedContentStore.deleteLesson(id);
       setMessage({ type: 'success', text: `Deleted: ${displayName}` });
       await loadUploadedLessons();
-    } catch (error) {
+    } catch {
       setMessage({ type: 'error', text: 'Failed to delete lesson' });
     }
   };

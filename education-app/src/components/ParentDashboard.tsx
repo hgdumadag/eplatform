@@ -6,6 +6,7 @@ import { useUserStore } from '../stores/userStore';
 import { useAssignmentStore } from '../stores/assignmentStore';
 import { ContentLoader } from '../services/contentLoader';
 import { cloudSyncService } from '../services/cloudSyncService';
+import { buildLessonKey } from '../utils/lessonKey';
 import {
   BarChart,
   Bar,
@@ -68,7 +69,12 @@ export function ParentDashboard() {
     if (selectedChild && lessons.length > 0) {
       // Get relevant lessons for this child
       const relevantLessons = lessons.filter((lesson) => {
-        const lessonId = `${lesson.grade}-${lesson.subject}-${lesson.quarter}-${lesson.topicName}`;
+        const lessonId = buildLessonKey({
+          grade: lesson.grade,
+          subject: lesson.subject,
+          quarter: lesson.quarter,
+          topicName: lesson.topicName,
+        });
         const isGradeAppropriate = lesson.grade === selectedChild.grade;
         const isAssignedToChild = isAssigned(selectedChild.id, lessonId);
         return isGradeAppropriate || isAssignedToChild;
@@ -291,7 +297,12 @@ export function ParentDashboard() {
             if (!selectedChild) return null;
 
             const relevantLessons = lessons.filter((lesson) => {
-              const lessonId = `${lesson.grade}-${lesson.subject}-${lesson.quarter}-${lesson.topicName}`;
+              const lessonId = buildLessonKey({
+                grade: lesson.grade,
+                subject: lesson.subject,
+                quarter: lesson.quarter,
+                topicName: lesson.topicName,
+              });
               const isGradeAppropriate = lesson.grade === selectedChild.grade;
               const isAssignedToChild = isAssigned(selectedChild.id, lessonId);
               return isGradeAppropriate || isAssignedToChild;
@@ -326,7 +337,12 @@ export function ParentDashboard() {
 
           // Filter lessons to only show grade-appropriate or assigned lessons
           const relevantLessons = lessons.filter((lesson) => {
-            const lessonId = `${lesson.grade}-${lesson.subject}-${lesson.quarter}-${lesson.topicName}`;
+            const lessonId = buildLessonKey({
+              grade: lesson.grade,
+              subject: lesson.subject,
+              quarter: lesson.quarter,
+              topicName: lesson.topicName,
+            });
             const isGradeAppropriate = lesson.grade === child.grade;
             const isAssignedToChild = isAssigned(child.id, lessonId);
             return isGradeAppropriate || isAssignedToChild;
@@ -405,7 +421,12 @@ export function ParentDashboard() {
                       <h4>Available Topics ({filteredLessonsForAssignment.length})</h4>
                       <div className="topics-list">
                         {filteredLessonsForAssignment.map(lesson => {
-                          const lessonId = `${lesson.grade}-${lesson.subject}-${lesson.quarter}-${lesson.topicName}`;
+                          const lessonId = buildLessonKey({
+                            grade: lesson.grade,
+                            subject: lesson.subject,
+                            quarter: lesson.quarter,
+                            topicName: lesson.topicName,
+                          });
                           const assigned = isAssigned(child.id, lessonId);
                           const isGradeAppropriate = lesson.grade === child.grade;
 
@@ -436,7 +457,12 @@ export function ParentDashboard() {
                         <div className="assigned-topics-list">
                           {getAssignments(child.id).map(assignment => {
                             const lesson = lessons.find(l =>
-                              `${l.grade}-${l.subject}-${l.quarter}-${l.topicName}` === assignment.lessonId
+                              buildLessonKey({
+                                grade: l.grade,
+                                subject: l.subject,
+                                quarter: l.quarter,
+                                topicName: l.topicName,
+                              }) === assignment.lessonId
                             );
 
                             return lesson ? (
@@ -489,7 +515,12 @@ export function ParentDashboard() {
                       { time: number; scores: number[]; completed: number }
                     > = {};
                     relevantLessons.forEach((lesson) => {
-                      const lessonId = `${lesson.grade}-${lesson.subject}-${lesson.quarter}-${lesson.topicName}`;
+                      const lessonId = buildLessonKey({
+                        grade: lesson.grade,
+                        subject: lesson.subject,
+                        quarter: lesson.quarter,
+                        topicName: lesson.topicName,
+                      });
                       const progress = childProgress[lessonId];
                       if (!subjectStats[lesson.subject]) {
                         subjectStats[lesson.subject] = { time: 0, scores: [], completed: 0 };
@@ -712,12 +743,22 @@ export function ParentDashboard() {
                   <tbody>
                     {lessons.filter((lesson) => {
                       // Filter to show only grade-appropriate lessons or assigned lessons
-                      const lessonId = `${lesson.grade}-${lesson.subject}-${lesson.quarter}-${lesson.topicName}`;
+                      const lessonId = buildLessonKey({
+                        grade: lesson.grade,
+                        subject: lesson.subject,
+                        quarter: lesson.quarter,
+                        topicName: lesson.topicName,
+                      });
                       const isGradeAppropriate = lesson.grade === child.grade;
                       const isAssignedToChild = isAssigned(child.id, lessonId);
                       return isGradeAppropriate || isAssignedToChild;
                     }).map((lesson) => {
-                      const lessonId = `${lesson.grade}-${lesson.subject}-${lesson.quarter}-${lesson.topicName}`;
+                      const lessonId = buildLessonKey({
+                        grade: lesson.grade,
+                        subject: lesson.subject,
+                        quarter: lesson.quarter,
+                        topicName: lesson.topicName,
+                      });
                       const progress = childProgress[lessonId];
                       const examAttempts = progress?.examAttempts || [];
                       const isAssignedToChild = isAssigned(child.id, lessonId);

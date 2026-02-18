@@ -1,6 +1,7 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { useChildStore } from './childStore';
+import { useProgressStore } from './progressStore';
 
 // User role type
 export type UserRole = 'parent' | 'child';
@@ -129,7 +130,9 @@ export const useUserStore = create<UserState>()(
         // Auto-select child for child users
         if (user.role === 'child' && user.assignedChildId) {
           const { selectChild } = useChildStore.getState();
+          const { setActiveChild } = useProgressStore.getState();
           selectChild(user.assignedChildId);
+          setActiveChild(user.assignedChildId);
         }
 
         return true;
@@ -137,9 +140,10 @@ export const useUserStore = create<UserState>()(
 
       logout: () => {
         set({ currentUser: null });
-        // Clear active child on logout
-        const { selectChild } = useChildStore.getState();
-        selectChild('');
+        const { clearActiveChild: clearSelectedChild } = useChildStore.getState();
+        const { clearActiveChild: clearProgressChild } = useProgressStore.getState();
+        clearSelectedChild();
+        clearProgressChild();
       },
 
       canSwitchChildren: () => {

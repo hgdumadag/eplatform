@@ -43,6 +43,7 @@ Read one file at a time based on task scope. Do not bulk-load all docs unless ne
 - `06-dev/01-local-setup.md`
 - `06-dev/02-env-vars.md`
 - `06-dev/03-testing-and-quality.md`
+- `06-dev/04-vercel-supabase-migration.md`
 
 ## Delivery
 

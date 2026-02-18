@@ -1,6 +1,7 @@
 /**
  * Utility functions for checking answer correctness with flexible matching
  */
+import type { ExamQuestion } from '../types';
 
 /**
  * Check if two fractions are equivalent
@@ -109,6 +110,25 @@ export function checkAnswer(userAnswer: string, correctAnswer: string, questionT
     const matchPercentage = matchedWords.length / correctWords.length;
 
     return matchPercentage >= 0.6;
+  }
+
+  return false;
+}
+
+export function isAnswerCorrect(
+  question: Pick<ExamQuestion, 'type' | 'correctAnswer'>,
+  userAnswer: string | number | undefined,
+): boolean {
+  if (userAnswer === undefined) {
+    return false;
+  }
+
+  if (question.type === 'multiple-choice' || question.type === 'true-false') {
+    return userAnswer === question.correctAnswer;
+  }
+
+  if (question.type === 'fill-in' || question.type === 'short-answer') {
+    return checkAnswer(String(userAnswer), String(question.correctAnswer), question.type);
   }
 
   return false;

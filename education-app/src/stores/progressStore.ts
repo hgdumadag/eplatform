@@ -1,6 +1,124 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import type { ProgressState, ExamAttempt } from '../types';
+import type { ProgressState, ExamAttempt, LessonProgress } from '../types';
+import { normalizeLessonKey, tryTopicPrefixedVariant } from '../utils/lessonKey';
+
+const PROGRESS_STORE_VERSION = 2;
+
+function mergeLessonProgress(primary: LessonProgress, secondary: LessonProgress): LessonProgress {
+  const mergedAttempts = [...(primary.examAttempts || []), ...(secondary.examAttempts || [])];
+  const mergedScores = mergedAttempts
+    .filter((attempt) => attempt.score !== undefined)
+    .map((attempt) => attempt.score as number);
+
+  const startedAt = [primary.startedAt, secondary.startedAt]
+    .filter(Boolean)
+    .sort()[0];
+  const completedAt = [primary.completedAt, secondary.completedAt]
+    .filter(Boolean)
+    .sort()
+    .pop();
+
+  return {
+    lessonId: primary.lessonId,
+    completed: primary.completed || secondary.completed,
+    startedAt,
+    completedAt,
+    timeSpent: (primary.timeSpent || 0) + (secondary.timeSpent || 0),
+    examAttempts: mergedAttempts,
+    bestScore: mergedScores.length > 0 ? Math.max(...mergedScores) : undefined,
+  };
+}
+
+function normalizeChildLessons(lessons: Record<string, LessonProgress>): Record<string, LessonProgress> {
+  const normalizedLessons: Record<string, LessonProgress> = {};
+
+  for (const [rawLessonId, progress] of Object.entries(lessons || {})) {
+    const canonicalLessonId = normalizeLessonKey(rawLessonId);
+    const normalizedProgress: LessonProgress = {
+      ...progress,
+      lessonId: canonicalLessonId,
+      examAttempts: Array.isArray(progress.examAttempts) ? progress.examAttempts : [],
+      timeSpent: progress.timeSpent || 0,
+    };
+
+    if (!normalizedLessons[canonicalLessonId]) {
+      normalizedLessons[canonicalLessonId] = normalizedProgress;
+    } else {
+      normalizedLessons[canonicalLessonId] = mergeLessonProgress(
+        normalizedLessons[canonicalLessonId],
+        normalizedProgress,
+      );
+    }
+  }
+
+  for (const lessonId of Object.keys(normalizedLessons)) {
+    const prefixedVariant = tryTopicPrefixedVariant(lessonId);
+
+    if (prefixedVariant && normalizedLessons[prefixedVariant]) {
+      normalizedLessons[prefixedVariant] = mergeLessonProgress(
+        normalizedLessons[prefixedVariant],
+        normalizedLessons[lessonId],
+      );
+      delete normalizedLessons[lessonId];
+    }
+  }
+
+  for (const [lessonId, progress] of Object.entries(normalizedLessons)) {
+    progress.lessonId = lessonId;
+    progress.examAttempts = progress.examAttempts.map((attempt) => ({
+      ...attempt,
+      lessonId,
+    }));
+  }
+
+  return normalizedLessons;
+}
+
+function normalizePersistedState(state: unknown): Pick<ProgressState, 'activeChildId' | 'children'> {
+  if (!state || typeof state !== 'object') {
+    return { activeChildId: null, children: {} };
+  }
+
+  const typedState = state as Partial<ProgressState>;
+  const rawChildren = typedState.children && typeof typedState.children === 'object'
+    ? typedState.children
+    : {};
+
+  const children: ProgressState['children'] = {};
+
+  for (const [childId, childProgress] of Object.entries(rawChildren)) {
+    const lessons = childProgress?.lessons && typeof childProgress.lessons === 'object'
+      ? childProgress.lessons
+      : {};
+
+    children[childId] = {
+      lessons: normalizeChildLessons(lessons),
+    };
+  }
+
+  return {
+    activeChildId: typeof typedState.activeChildId === 'string' ? typedState.activeChildId : null,
+    children,
+  };
+}
+
+function resolveLessonIdForChild(
+  lessons: Record<string, LessonProgress>,
+  lessonId: string,
+): string {
+  const canonicalLessonId = normalizeLessonKey(lessonId);
+  if (lessons[canonicalLessonId]) {
+    return canonicalLessonId;
+  }
+
+  const prefixedVariant = tryTopicPrefixedVariant(canonicalLessonId);
+  if (prefixedVariant && lessons[prefixedVariant]) {
+    return prefixedVariant;
+  }
+
+  return canonicalLessonId;
+}
 
 /**
  * Progress tracking store using Zustand
@@ -14,7 +132,6 @@ export const useProgressStore = create<ProgressState>()(
 
       setActiveChild: (childId: string) => {
         set({ activeChildId: childId });
-        // Initialize child progress if not exists
         set((state) => {
           if (!state.children[childId]) {
             return {
@@ -28,16 +145,20 @@ export const useProgressStore = create<ProgressState>()(
         });
       },
 
+      clearActiveChild: () => {
+        set({ activeChildId: null });
+      },
+
       markStarted: (lessonId: string) => {
         const { activeChildId } = get();
         if (!activeChildId) return;
 
         set((state) => {
           const childProgress = state.children[activeChildId];
-          const existing = childProgress?.lessons[lessonId];
+          const resolvedLessonId = resolveLessonIdForChild(childProgress?.lessons || {}, lessonId);
+          const existing = childProgress?.lessons[resolvedLessonId];
 
           if (existing && existing.startedAt) {
-            // Already started, don't overwrite
             return state;
           }
 
@@ -47,8 +168,8 @@ export const useProgressStore = create<ProgressState>()(
               [activeChildId]: {
                 lessons: {
                   ...childProgress?.lessons,
-                  [lessonId]: {
-                    lessonId,
+                  [resolvedLessonId]: {
+                    lessonId: resolvedLessonId,
                     completed: false,
                     startedAt: new Date().toISOString(),
                     timeSpent: 0,
@@ -67,7 +188,8 @@ export const useProgressStore = create<ProgressState>()(
 
         set((state) => {
           const childProgress = state.children[activeChildId];
-          const existing = childProgress?.lessons[lessonId];
+          const resolvedLessonId = resolveLessonIdForChild(childProgress?.lessons || {}, lessonId);
+          const existing = childProgress?.lessons[resolvedLessonId];
           const now = new Date().toISOString();
 
           return {
@@ -76,8 +198,8 @@ export const useProgressStore = create<ProgressState>()(
               [activeChildId]: {
                 lessons: {
                   ...childProgress?.lessons,
-                  [lessonId]: {
-                    lessonId,
+                  [resolvedLessonId]: {
+                    lessonId: resolvedLessonId,
                     completed: true,
                     startedAt: existing?.startedAt || now,
                     completedAt: now,
@@ -95,7 +217,10 @@ export const useProgressStore = create<ProgressState>()(
       getProgress: (lessonId: string) => {
         const { activeChildId, children } = get();
         if (!activeChildId) return undefined;
-        return children[activeChildId]?.lessons[lessonId];
+
+        const lessons = children[activeChildId]?.lessons || {};
+        const resolvedLessonId = resolveLessonIdForChild(lessons, lessonId);
+        return lessons[resolvedLessonId];
       },
 
       saveExamAttempt: (attempt: ExamAttempt) => {
@@ -104,17 +229,24 @@ export const useProgressStore = create<ProgressState>()(
 
         set((state) => {
           const childProgress = state.children[activeChildId];
-          const lessonProgress = childProgress?.lessons[attempt.lessonId] || {
-            lessonId: attempt.lessonId,
+          const lessons = childProgress?.lessons || {};
+          const resolvedLessonId = resolveLessonIdForChild(lessons, attempt.lessonId);
+          const normalizedAttempt = {
+            ...attempt,
+            lessonId: resolvedLessonId,
+          };
+
+          const lessonProgress = lessons[resolvedLessonId] || {
+            lessonId: resolvedLessonId,
             completed: false,
             timeSpent: 0,
             examAttempts: [],
           };
 
-          const attempts = [...lessonProgress.examAttempts, attempt];
+          const attempts = [...lessonProgress.examAttempts, normalizedAttempt];
           const scores = attempts
-            .filter(a => a.score !== undefined)
-            .map(a => a.score!);
+            .filter((savedAttempt) => savedAttempt.score !== undefined)
+            .map((savedAttempt) => savedAttempt.score as number);
           const bestScore = scores.length > 0 ? Math.max(...scores) : undefined;
 
           return {
@@ -122,9 +254,10 @@ export const useProgressStore = create<ProgressState>()(
               ...state.children,
               [activeChildId]: {
                 lessons: {
-                  ...childProgress?.lessons,
-                  [attempt.lessonId]: {
+                  ...lessons,
+                  [resolvedLessonId]: {
                     ...lessonProgress,
+                    lessonId: resolvedLessonId,
                     examAttempts: attempts,
                     bestScore,
                   },
@@ -147,10 +280,9 @@ export const useProgressStore = create<ProgressState>()(
 
           const updatedLessons = { ...childProgress.lessons };
 
-          // Find and update the attempt
-          Object.keys(updatedLessons).forEach(lessonId => {
+          Object.keys(updatedLessons).forEach((lessonId) => {
             const lesson = updatedLessons[lessonId];
-            const attemptIndex = lesson.examAttempts.findIndex(a => a.attemptId === attemptId);
+            const attemptIndex = lesson.examAttempts.findIndex((attempt) => attempt.attemptId === attemptId);
 
             if (attemptIndex !== -1) {
               const updatedAttempts = [...lesson.examAttempts];
@@ -184,7 +316,9 @@ export const useProgressStore = create<ProgressState>()(
 
         set((state) => {
           const childProgress = state.children[activeChildId];
-          const existing = childProgress?.lessons[lessonId];
+          const lessons = childProgress?.lessons || {};
+          const resolvedLessonId = resolveLessonIdForChild(lessons, lessonId);
+          const existing = lessons[resolvedLessonId];
 
           if (!existing) return state;
 
@@ -193,9 +327,10 @@ export const useProgressStore = create<ProgressState>()(
               ...state.children,
               [activeChildId]: {
                 lessons: {
-                  ...childProgress?.lessons,
-                  [lessonId]: {
+                  ...lessons,
+                  [resolvedLessonId]: {
                     ...existing,
+                    lessonId: resolvedLessonId,
                     timeSpent: existing.timeSpent + minutes,
                   },
                 },
@@ -219,16 +354,19 @@ export const useProgressStore = create<ProgressState>()(
         try {
           const imported = JSON.parse(data);
 
-          // Validate structure
           if (!imported.children || typeof imported.children !== 'object') {
             return false;
           }
 
-          // Merge with existing data
+          const normalizedImport = normalizePersistedState({
+            activeChildId: imported.activeChildId,
+            children: imported.children,
+          });
+
           set((state) => ({
             children: {
               ...state.children,
-              ...imported.children,
+              ...normalizedImport.children,
             },
           }));
 
@@ -240,7 +378,11 @@ export const useProgressStore = create<ProgressState>()(
       },
     }),
     {
-      name: 'education-app-progress', // localStorage key
-    }
-  )
+      name: 'education-app-progress',
+      version: PROGRESS_STORE_VERSION,
+      migrate: (persistedState) => {
+        return normalizePersistedState(persistedState);
+      },
+    },
+  ),
 );

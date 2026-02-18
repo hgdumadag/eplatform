@@ -34,6 +34,10 @@ export const useChildStore = create<ChildState>()(
         }
       },
 
+      clearActiveChild: () => {
+        set({ activeChild: null });
+      },
+
       getChild: (childId: string) => {
         return get().children.find(c => c.id === childId);
       },
