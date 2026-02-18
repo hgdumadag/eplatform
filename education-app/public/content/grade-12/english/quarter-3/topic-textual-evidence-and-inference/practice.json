@@ -1,0 +1,176 @@
+{
+  "examId": "grade-12-english-q3-textual-evidence-and-inference-practice",
+  "title": "Textual Evidence and Inference - Practice Exam",
+  "type": "practice",
+  "totalPoints": 100,
+  "estimatedDuration": 45,
+  "instructions": "Answer all 15 questions. Multiple-choice questions are worth 7 points each. True-false questions are worth 6 points each. Fill-in-the-blank questions are worth 8 points each. Short-answer questions are worth 5 points each. Total points: 100. There is no time limit on this practice exam.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Read the following passage: 'Elena had not spoken to her sister in three years. When the phone rang and she heard her sister's voice, Elena felt her chest tighten. She said only a few words during the brief call, her responses clipped and formal. After hanging up, she sat in silence for a long time, her eyes fixed on a photograph of the two of them from childhood. That night, she dreamed of happier times.' What can be inferred about Elena's feelings toward her sister?",
+      "options": [
+        "Elena has completely forgiven her sister and wants to rebuild their relationship",
+        "Elena dislikes her sister and never wants to speak to her again",
+        "Elena still has complex, unresolved emotions about their estrangement",
+        "Elena is planning to move closer to her sister"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage shows that Elena has physical and emotional reactions to her sister's call (chest tightening), limited engagement (clipped, formal responses), reflection on shared history (looking at the photograph), and continued connection in her mind (dreams of happier times). These details suggest unresolved, complex emotions rather than simple dislike or complete forgiveness. Options A and B oversimplify her emotional state. Option D has no textual support."
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Based on the passage about Elena, which sentence BEST supports the inference that she still has emotional attachment to her sister despite their estrangement?",
+      "options": [
+        "Elena had not spoken to her sister in three years.",
+        "She said only a few words during the brief call, her responses clipped and formal.",
+        "After hanging up, she sat in silence for a long time, her eyes fixed on a photograph of the two of them from childhood.",
+        "When the phone rang and she heard her sister's voice, Elena felt her chest tighten."
+      ],
+      "correctAnswer": 2,
+      "explanation": "This sentence directly shows Elena's emotional connection by illustrating her deliberate focus on a shared memory and her inability to simply move on. The photograph represents her continuing emotional bond despite years of silence. While option D shows emotional reaction, option C most directly demonstrates ongoing attachment through her contemplation of their shared history."
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Read the passage: 'The old library had been losing patrons for years. The building itself was showing signs of age—peeling paint, creaking floors, outdated technology. Yet when the city proposed closing it, hundreds of community members attended the city council meeting. Parents spoke about how the library had been their children's first introduction to reading. Senior citizens described decades of memories within its walls. Students explained how it was their only quiet space to study. The city council voted unanimously to keep the library open.' What can be concluded about the library's value to the community?",
+      "options": [
+        "The library is financially profitable and has always been successful",
+        "The community values the library for reasons that go beyond its physical condition or usage statistics",
+        "The city government does not care about libraries or public spaces",
+        "The building will be completely renovated with government funding"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Despite declining patronage and physical deterioration, the community's passionate defense shows the library has deep emotional and social value. The reasons given (first introduction to reading, decades of memories, quiet study space) demonstrate importance beyond statistics. Option A is contradicted by the declining patronage. Option C is contradicted by the unanimous vote to keep it open. Option D is not supported by the passage."
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "In the library passage, which sentence BEST supports the inference that the library's value is emotional and social rather than purely functional?",
+      "options": [
+        "The old library had been losing patrons for years.",
+        "The building itself was showing signs of age—peeling paint, creaking floors, outdated technology.",
+        "Parents spoke about how the library had been their children's first introduction to reading.",
+        "The city council voted unanimously to keep the library open."
+      ],
+      "correctAnswer": 2,
+      "explanation": "This sentence expresses personal, emotional importance ('first introduction to reading') rather than functional benefit. The testimony about 'decades of memories' and 'quiet study space' in the full passage supports this, but this specific sentence best captures the emotional and social value. Option A states the problem. Option B describes physical condition. Option D shows the result but not the reasoning."
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Read this passage: 'The company had always prided itself on reliability. For forty years, its products rarely failed and customer service was responsive. Then, a new CEO took over and began cutting costs. Manufacturing moved overseas. The warranty period was reduced. Customer service calls were routed to an automated system. Within two years, product failure rates had tripled, and customer complaints had increased fivefold. Yet the company's profit margins had increased by 8%. The CEO announced this a 'remarkable success.'' What does the CEO's characterization of the situation suggest?",
+      "options": [
+        "The CEO does not understand how to run a manufacturing company",
+        "The CEO is using a narrow definition of success focused solely on profit rather than overall company health",
+        "The company will definitely go out of business within five years",
+        "Customers do not care about product reliability or customer service"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The CEO celebrates profit increases while ignoring tripled failure rates and quintupled complaints. This suggests the CEO is measuring success by a limited metric (profit) while ignoring other important factors (customer satisfaction, product quality, long-term sustainability). This is an inference about the CEO's perspective, not a claim about competence (A), certainty about the future (C), or customer values (D, which is contradicted by the complaints)."
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Read the following passage: 'The new restaurant opened with great fanfare and positive reviews. Customers lined up around the block on opening day. However, by the third week, the crowds had diminished significantly. Food quality began to vary from day to day. Several customers posted negative reviews online. The owner seemed stressed during service and often snapped at servers.' What can be inferred about the restaurant's initial success?",
+      "options": [
+        "The restaurant's initial popularity was sustainable and will continue growing",
+        "The restaurant's opening success may have been based on novelty rather than consistent quality and execution",
+        "The restaurant will definitely close within a month",
+        "The owner never wanted to run the restaurant in the first place"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage shows that early crowds (novelty) contrasted with declining crowds, inconsistent food quality, and negative reviews. This pattern suggests initial popularity did not reflect sustainable business fundamentals. Option A is contradicted by the decline. Option C overreaches beyond what the passage suggests. Option D has no supporting evidence."
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Read the passage: 'Dr. Morrison had been teaching for thirty-five years. Her office walls were covered with thank-you cards from former students, spanning decades. Many students sought her out long after graduation to share their career achievements and express gratitude for her guidance. Yet the university was merging her department and offering her early retirement.' What can be inferred about Dr. Morrison's career impact?",
+      "options": [
+        "She was an ineffective teacher whose students rarely appreciated her work",
+        "Her influence on students extended well beyond their time in her classroom",
+        "She was only interested in teaching and never wanted to advance in her career",
+        "The university valued her teaching above all other department priorities"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The evidence of decades of thank-you cards and students seeking her out after graduation to share achievements and express gratitude shows her influence was long-lasting and meaningful. This directly supports the inference that her impact extended beyond her classroom. Option A contradicts the evidence. Options C and D are not supported by the passage."
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Which of the following would be a VALID inference based on the passage: 'The research team discovered that people who exercised regularly reported higher levels of life satisfaction.'?",
+      "options": [
+        "Exercise causes life satisfaction in all humans",
+        "People who exercise are happier because they are healthier",
+        "Regular exercise is correlated with reported higher life satisfaction among study participants",
+        "Anyone who wants to be happy must exercise regularly"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This inference accurately reflects what the passage states without overgeneralizing. The other options make claims the passage does not support: causation is not proven (A), mechanism is not explained (B), and universal necessity is not indicated (D). The correct answer respects the limited scope of the study findings."
+    },
+    {
+      "id": 9,
+      "type": "true-false",
+      "points": 6,
+      "question": "An inference must be explicitly stated in the passage to be valid on UPCAT.",
+      "correctAnswer": "false",
+      "explanation": "An inference is by definition NOT explicitly stated. If something is explicitly stated, it is a detail, not an inference. However, a valid inference must be strongly supported by evidence in the passage. It is implied but not directly stated."
+    },
+    {
+      "id": 10,
+      "type": "true-false",
+      "points": 6,
+      "question": "When answering UPCAT inference questions, it is appropriate to use outside knowledge about the topic if it helps you answer the question.",
+      "correctAnswer": "false",
+      "explanation": "UPCAT specifically tests your ability to read carefully and draw conclusions from the passage itself, not from outside knowledge. Even if you know something about a topic from your general education, you must answer based solely on what the passage states."
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "points": 6,
+      "question": "Valid inferences always require you to use information from outside the passage to complete the reasoning.",
+      "correctAnswer": "false",
+      "explanation": "Valid inferences are supported entirely by information within the passage. Using outside knowledge can actually lead to invalid inferences because you may conclude something the passage does not support. UPCAT tests your ability to read and reason based on the passage itself."
+    },
+    {
+      "id": 12,
+      "type": "fill-in-the-blank",
+      "points": 8,
+      "question": "A _______________ is a conclusion drawn from evidence in a text but not directly stated. It is supported by specific textual details and follows logically from what the author has written.",
+      "correctAnswer": "inference",
+      "explanation": "This is the definition of an inference. An inference differs from an explicit statement (which is directly stated) and from unsupported speculation (which is not grounded in textual evidence). Inference is the core skill tested on UPCAT inference questions."
+    },
+    {
+      "id": 13,
+      "type": "fill-in-the-blank",
+      "points": 8,
+      "question": "Words like 'some,' 'often,' 'rarely,' 'might,' and 'may' are called _______________ because they limit or restrict the scope of a claim.",
+      "correctAnswer": "qualifiers",
+      "explanation": "Qualifiers are words that modify the strength or scope of a statement. Recognizing qualifiers is important because they prevent you from making inferences that are too extreme. If a passage says 'some studies suggest,' you cannot infer 'all studies prove.' Qualifiers establish the boundaries of a claim."
+    },
+    {
+      "id": 14,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Explain the difference between an explicitly stated detail and an inference. Then provide one example of each from a passage you have read in this unit.",
+      "correctAnswer": "A detail is information the author directly states in the text. An inference is a conclusion you draw from evidence in the text but which is not directly stated. Example of detail: 'Elena had not spoken to her sister in three years' (directly stated). Example of inference: 'Elena has unresolved emotions about her sister' (not directly stated, but inferred from her physical reactions, formal responses, and reflection on their shared history)."
+    },
+    {
+      "id": 15,
+      "type": "short-answer",
+      "points": 5,
+      "question": "When you are asked to identify textual evidence supporting an inference, what should you look for in the sentence you choose?",
+      "correctAnswer": "You should look for a sentence that contains the key information needed to support the inference, leads logically to the inference without requiring outside knowledge, and is the MOST DIRECT statement of the supporting information. The sentence should make the connection between the evidence and the inference clear without requiring additional reasoning or assumptions."
+    }
+  ]
+}

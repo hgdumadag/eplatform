@@ -1,0 +1,255 @@
+{
+  "title": "Visual and Graphic Literacy - Assessment Exam",
+  "totalPoints": 100,
+  "totalQuestions": 20,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A pie chart shows Annual Government Budget Allocation (Total: ₱1,000,000,000). Education 30%, Healthcare 25%, Infrastructure 25%, Defense 15%, Administration 5%. How much is allocated to Education?",
+      "options": [
+        "₱250,000,000",
+        "₱300,000,000",
+        "₱150,000,000",
+        "₱350,000,000"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Education allocation = 30% of ₱1,000,000,000 = 0.30 × ₱1,000,000,000 = ₱300,000,000. Option B is correct."
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A bar graph shows CO2 Emissions (metric tons per year): Factory A 5,000, Factory B 3,000, Factory C 4,500, Factory D 2,500. Which factory has the lowest emissions?",
+      "options": [
+        "Factory A",
+        "Factory B",
+        "Factory C",
+        "Factory D"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Factory D has 2,500 metric tons, which is the lowest value among all factories. Option D is correct."
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A line graph shows Website Traffic (in thousands of visitors): January 50, February 55, March 52, April 58, May 65, June 62. In which month did traffic reach its peak?",
+      "options": [
+        "April",
+        "May",
+        "June",
+        "February"
+      ],
+      "correctAnswer": 1,
+      "explanation": "May has 65,000 visitors, which is the highest value on the graph. Option B is correct."
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A shipping schedule shows: Ferry X departs 2 PM, arrives 11 PM (same day). Ferry Y departs 8 PM, arrives 7 AM (next day). If you want to maximize your time in the destination on the same day you depart, which ferry should you take?",
+      "options": [
+        "Ferry X",
+        "Ferry Y",
+        "Both ferries provide equal time",
+        "Neither ferry is suitable"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ferry X arrives at 11 PM the same day, giving you time in the destination on your departure day. Ferry Y arrives at 7 AM the next day, so you arrive after the day has ended. Ferry X maximizes same-day destination time. Option A is correct."
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A pie chart shows Market Share Distribution: Company A 40%, Company B 35%, Company C 20%, Company D 5%. If the total market is 10 million units, how many units does Company B have?",
+      "options": [
+        "4 million",
+        "3.5 million",
+        "2 million",
+        "0.5 million"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Company B's share = 35% of 10 million = 0.35 × 10 million = 3.5 million units. Option B is correct."
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A bar graph compares Test Scores by Student: Student A 85, Student B 92, Student C 78, Student D 88. What is the difference between the highest and lowest scores?",
+      "options": [
+        "14 points",
+        "7 points",
+        "10 points",
+        "6 points"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Highest score: Student B with 92. Lowest score: Student C with 78. Difference = 92 - 78 = 14 points. Option A is correct."
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A line graph shows Temperature Change (°C) over 5 days: Day 1: 20°C, Day 2: 22°C, Day 3: 25°C, Day 4: 23°C, Day 5: 26°C. On which day did temperature increase the most from the previous day?",
+      "options": [
+        "Day 2",
+        "Day 3",
+        "Day 4",
+        "Day 5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Calculate daily changes: Day 1→2: +2°C, Day 2→3: +3°C, Day 3→4: -2°C, Day 4→5: +3°C. The largest increase is 3°C, which occurred on Day 3 (from Day 2 to Day 3). Option B is correct."
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A table shows Sales Data: Product X ₱15,000, Product Y ₱12,000, Product Z ₱18,000. If you want to rank these by sales from highest to lowest, what is the correct order?",
+      "options": [
+        "X, Y, Z",
+        "Z, X, Y",
+        "Y, X, Z",
+        "Z, Y, X"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ranking from highest to lowest: Z (₱18,000), X (₱15,000), Y (₱12,000). Option B is correct."
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "An editorial cartoon shows a politician labeled 'Education Reform' dumping trash into a schoolhouse door while smiling. What societal issue is being addressed?",
+      "options": [
+        "The need for better garbage disposal at schools",
+        "The contradiction between claimed education reform and actual harm to schools",
+        "The importance of politician visibility in school affairs",
+        "The proper maintenance of school facilities"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The cartoon uses irony (saying 'Education Reform' while dumping trash/harm) to criticize hypocrisy. The politician claims to reform education but actually harms schools. This addresses the gap between political rhetoric and actual impact on education. Option B is correct."
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A line graph titled 'Annual Graduation Rate (%)' shows: 2015: 70%, 2016: 72%, 2017: 75%, 2018: 78%, 2019: 80%. Which statement best describes the trend?",
+      "options": [
+        "Graduation rate increased every year consistently",
+        "Graduation rate remained flat after 2017",
+        "Graduation rate declined in some years",
+        "Graduation rate peaked in 2017 and then dropped"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each year shows an increase from the previous: 2015→2016 (+2%), 2016→2017 (+3%), 2017→2018 (+3%), 2018→2019 (+2%). The rate increased every single year. Option A is correct."
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "points": 5,
+      "question": "In a bar graph, if two bars have the same height, they represent equal values for their respective categories.",
+      "correctAnswer": "true",
+      "explanation": "In a bar graph, bar height directly corresponds to value. Two bars of equal height represent equal values. This is a fundamental principle of reading bar graphs."
+    },
+    {
+      "id": 12,
+      "type": "true-false",
+      "points": 5,
+      "question": "A pie chart can have slices totaling 110% because some categories can overlap.",
+      "correctAnswer": "false",
+      "explanation": "Pie chart slices represent parts of a whole and must always total exactly 100%. Overlapping categories are not possible in a pie chart—each slice represents a distinct, non-overlapping portion."
+    },
+    {
+      "id": 13,
+      "type": "true-false",
+      "points": 5,
+      "question": "When reading a table, it is important to read both the row headers (first column) and column headers (top row) to understand what data is being presented.",
+      "correctAnswer": "true",
+      "explanation": "Row headers identify what each row represents, and column headers identify what each column represents. Both are essential for correctly interpreting table data."
+    },
+    {
+      "id": 14,
+      "type": "true-false",
+      "points": 5,
+      "question": "An editorial cartoon's primary purpose is to entertain readers with humorous drawings.",
+      "correctAnswer": "false",
+      "explanation": "An editorial cartoon's primary purpose is to comment on or critique social, political, or cultural issues. While it may use humor, entertainment is secondary to the message about a societal issue."
+    },
+    {
+      "id": 15,
+      "type": "fill-in",
+      "points": 5,
+      "question": "A pie chart shows Budget Allocation: Rent 40%, Utilities 20%, Food 25%, Entertainment 15%. If total income is ₱100,000, the amount allocated to Rent and Food combined is ₱__________.",
+      "blankPosition": "end",
+      "acceptableAnswers": [
+        "65000",
+        "65,000",
+        "₱65,000"
+      ],
+      "explanation": "Rent = 40% of ₱100,000 = ₱40,000. Food = 25% of ₱100,000 = ₱25,000. Combined = ₱40,000 + ₱25,000 = ₱65,000."
+    },
+    {
+      "id": 16,
+      "type": "fill-in",
+      "points": 5,
+      "question": "A line graph shows growth from Year 1 (100 units) to Year 4 (160 units). The percentage increase over this period is __________% (round to nearest whole number).",
+      "blankPosition": "end",
+      "acceptableAnswers": [
+        "60",
+        "60%"
+      ],
+      "explanation": "Increase = 160 - 100 = 60 units. Percentage = (60 ÷ 100) × 100 = 60%."
+    },
+    {
+      "id": 17,
+      "type": "fill-in",
+      "points": 5,
+      "question": "A bar graph shows Sales: Region A ₱400K, Region B ₱600K, Region C ₱200K. The ratio of Region C to Region B sales is __________ : __________.",
+      "blankPosition": "end",
+      "acceptableAnswers": [
+        "1:3",
+        "200:600",
+        "1 to 3",
+        "2:6"
+      ],
+      "explanation": "Region C = ₱200K and Region B = ₱600K. Ratio = 200:600, which simplifies to 1:3."
+    },
+    {
+      "id": 18,
+      "type": "short-answer",
+      "points": 5,
+      "question": "A pie chart shows Population Distribution by Age: 0-15 years 25%, 16-40 years 40%, 41-65 years 25%, 65+ years 10%. If the total population is 4 million, calculate the number of people in each age group. Show your work.",
+      "acceptableAnswers": [
+        "0-15: 25% × 4M = 1M. 16-40: 40% × 4M = 1.6M. 41-65: 25% × 4M = 1M. 65+: 10% × 4M = 0.4M.",
+        "0-15: 1 million, 16-40: 1.6 million, 41-65: 1 million, 65+: 0.4 million (with clear calculations shown)",
+        "25% of 4M = 1M, 40% of 4M = 1.6M, 25% of 4M = 1M, 10% of 4M = 0.4M"
+      ],
+      "explanation": "The correct answer shows all four calculations, converting each percentage to millions. Each calculation should show the percentage, the total, and the resulting population. Verification: 1 + 1.6 + 1 + 0.4 = 4 million total."
+    },
+    {
+      "id": 19,
+      "type": "short-answer",
+      "points": 5,
+      "question": "A shipping table shows: Ferry A departs 7 AM, arrives 5 PM (same day), fare ₱1,500. Ferry B departs 3 PM, arrives 12 AM (next day), fare ₱1,200. Ferry C departs 5 PM, arrives 2 AM (next day), fare ₱1,000. If you need to travel between two cities on the same day and want the cheapest option that meets this requirement, which ferry should you choose and why?",
+      "acceptableAnswers": [
+        "Ferry A. Although it costs more (₱1,500 vs ₱1,000-1,200), it is the only ferry that arrives the same day you depart. Ferries B and C both arrive the next day.",
+        "Ferry A is the only option that meets the requirement of arriving the same day. Ferries B and C arrive the next day, so they cannot be used regardless of price.",
+        "Choose Ferry A because you need same-day arrival. It departs 7 AM and arrives 5 PM the same day. Ferries B and C arrive the next day (12 AM and 2 AM respectively)."
+      ],
+      "explanation": "The correct answer identifies Ferry A as the choice AND explains that while it is not the cheapest, it is the only one meeting the same-day arrival requirement. The answer demonstrates that constraints (arriving same day) take priority over cost minimization. This tests both table reading and logical decision-making."
+    },
+    {
+      "id": 20,
+      "type": "short-answer",
+      "points": 5,
+      "question": "An editorial cartoon depicts an enormous, overflowing landfill labeled 'Corporate Waste' towering over a tiny 'Recycling Bin' and carries the caption 'Corporate Responsibility.' What societal issue is the cartoonist critiquing? How do the visual elements (size contrast, labels, ironic caption) convey this message?",
+      "acceptableAnswers": [
+        "The societal issue is corporate environmental irresponsibility and greenwashing. The enormous landfill versus the tiny recycling bin visually exaggerates the disparity between corporate waste generation and recycling efforts, making the cartoon's ironic caption ('Corporate Responsibility') scathing. The cartoonist is criticizing companies that claim environmental responsibility while producing massive amounts of waste.",
+        "Corporate hypocrisy regarding environmental practices. The visual contrast (massive landfill vs. tiny bin) shows that corporate recycling claims are insignificant compared to actual waste. The ironic caption makes clear the cartoonist's sarcasm—companies claim responsibility while demonstrating the opposite.",
+        "The issue is corporate environmental damage and false 'green' marketing. The exaggerated size of the landfill compared to the recycling bin visually demonstrates that corporate waste far exceeds recycling efforts, making the caption's claim of 'Corporate Responsibility' ironic and critical."
+      ],
+      "explanation": "The correct answer identifies the societal issue (corporate environmental responsibility, greenwashing, or hypocrisy) AND thoroughly explains how multiple visual elements work together to convey the message: the size contrast emphasizes the disparity, labels clarify what is being depicted, and the ironic caption reveals the cartoonist's criticism. Strong answers show understanding that editorial cartoons use layered visual and textual elements to communicate social critique."
+    }
+  ]
+}

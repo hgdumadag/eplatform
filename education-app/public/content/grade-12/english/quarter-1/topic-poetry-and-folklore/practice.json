@@ -1,0 +1,169 @@
+{
+  "id": "grade-12-english-q1-poetry-folklore-practice",
+  "title": "Poetry and Folklore - Practice Exam",
+  "totalPoints": 100,
+  "timeLimit": 45,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 7,
+      "passage": "The river flows through time, carries the weight of years in its current. My grandfather taught me to fish here, his hands guiding mine. He is gone now, but the river remains—the same stones, the same bend where the fish gather. I stand here alone, and for a moment, I feel him beside me.",
+      "question": "What does the river symbolize in this passage?",
+      "options": [
+        "The passage of time and continuity of tradition across generations",
+        "A place where fish are naturally abundant",
+        "The grandfather's strength and power",
+        "A barrier separating the living from the dead"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 7,
+      "passage": "Light spilled through the window like honey, golden and thick. She felt it on her face and remembered what it meant to feel warm. The fever had broken. Outside, birds sang as if the world had not paused while she lay in darkness.",
+      "question": "What is the primary effect of the simile 'like honey'?",
+      "options": [
+        "It suggests that light is sweet to taste",
+        "It conveys warmth, thickness, and richness—qualities that contrast with the coldness of her illness",
+        "It indicates that the light is temporary and will soon disappear",
+        "It compares the window to a jar of honey"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 7,
+      "passage": "The wind whispered across the abandoned field, rattling the dry stalks of last year's harvest. Nothing grows here anymore. The soil, once rich and dark, has turned gray and cracked. Even the birds have stopped coming.",
+      "question": "Which literary device is most prominent in this passage?",
+      "options": [
+        "Metaphor comparing the field to a person",
+        "Personification and imagery creating a sense of desolation and abandonment",
+        "Alliteration emphasizing the sounds of wind",
+        "Hyperbole exaggerating the field's barrenness"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 7,
+      "passage": "In the myth of the Phoenix, a bird bursts into flame at the end of its life, dies in the fire, and is reborn from its own ashes. Ancient civilizations told this story across cultures, finding in it a representation of renewal, transformation, and the cycle of death and rebirth that governs all life.",
+      "question": "What is the educational purpose of the Phoenix myth?",
+      "options": [
+        "To explain the origin of fire in the world",
+        "To teach that death is final and permanent",
+        "To illustrate that destruction and renewal are part of natural cycles and that transformation can emerge from endings",
+        "To show that birds are sacred and should never be harmed"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "points": 7,
+      "passage": "I loved you desperately, gave you everything, carved you into the center of my life. And yet—you were the one who taught me to love myself. In losing you, I found myself. The pain is real. But so is the gratitude.",
+      "question": "What tonal shift occurs in the word 'yet' in this passage?",
+      "options": [
+        "The speaker moves from love to hatred",
+        "The speaker shifts from describing loss to acknowledging transformation and unexpected growth within the pain",
+        "The speaker indicates that the previous statements were lies",
+        "The speaker becomes angry at the person they loved"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "points": 7,
+      "passage": "The mountains stand silent and unchanged, watching over the valleys as they have for millennia. Empires rise and fall at their feet. Wars come and go. But the mountains—the mountains endure.",
+      "question": "What does the personification 'watching over' contribute to the poem's meaning?",
+      "options": [
+        "It suggests that mountains have consciousness and feelings",
+        "It conveys that mountains are eternal guardians, witnesses to human history, and represent stability beyond human concerns",
+        "It indicates that mountains are dangerous and threatening",
+        "It shows that mountains are aware of human activity and judge it"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "points": 6,
+      "statement": "In a poem, the speaker is always the poet themselves.",
+      "correctAnswer": "false"
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "points": 6,
+      "statement": "A metaphor makes a direct comparison without using 'like' or 'as,' while a simile uses these words to make a comparison.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "points": 6,
+      "statement": "Tone and mood refer to the same thing in poetry.",
+      "correctAnswer": "false"
+    },
+    {
+      "id": "q10",
+      "type": "fill-in",
+      "points": 8,
+      "question": "When a poet gives human qualities to a non-human object, such as 'the sun smiled down on us,' this technique is called _____.",
+      "correctAnswer": "personification"
+    },
+    {
+      "id": "q11",
+      "type": "fill-in",
+      "points": 8,
+      "question": "A _____ is a concrete object, character, or action that represents an abstract idea or concept in a poem.",
+      "correctAnswer": "symbol"
+    },
+    {
+      "id": "q12",
+      "type": "short-answer",
+      "points": 5,
+      "question": "Explain the difference between tone and mood in poetry using one or two sentences.",
+      "correctAnswer": "Tone is the speaker's or poet's attitude toward the subject or situation, while mood is the emotional atmosphere created for the reader—the feeling the reader experiences while reading the poem."
+    },
+    {
+      "id": "q13",
+      "type": "short-answer",
+      "points": 5,
+      "question": "What is an aetiological myth? Provide one example.",
+      "correctAnswer": "An aetiological myth is a myth that explains the origin of something—a natural phenomenon, cultural practice, or human trait. For example, the myth of Persephone explains the seasons: her abduction causes winter (Demeter's grief), and her return causes spring and growth."
+    },
+    {
+      "id": "q14",
+      "type": "multiple-choice",
+      "question": "Read the following stanza: 'The wind does not forget / the names it has whispered through the reeds; / it carries them still, / those soft forgotten seeds.' Which literary device is MOST prominently featured in these lines?",
+      "options": [
+        "Hyperbole",
+        "Personification",
+        "Oxymoron",
+        "Onomatopoeia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The wind is given human qualities — it remembers names and carries them. This is personification, assigning human traits (memory, action of whispering and carrying) to a non-human entity (wind). There is no exaggeration (hyperbole), contradictory terms (oxymoron), or sound-imitative words (onomatopoeia).",
+      "points": 7
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "question": "Read the following passage about a myth: 'In the beginning, Chaos gave birth to Night, and Night gave birth to Day. From their eternal conflict arose all things — light from darkness, order from disorder, life from stillness.' What is the MOST LIKELY educational purpose of this creation myth?",
+      "options": [
+        "To explain the origin of the solar system scientifically",
+        "To teach that conflict between opposites is the source of creation",
+        "To argue that darkness is superior to light",
+        "To describe the historical relationship between ancient civilizations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The myth uses the conflict between Chaos and Night, Day and Night, to explain creation. Its educational purpose is to convey that opposing forces (opposites/eris) are the source of all things — a philosophical lesson, not a scientific, historical, or hierarchical claim.",
+      "points": 7
+    }
+  ]
+}

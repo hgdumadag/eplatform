@@ -1,0 +1,201 @@
+{
+  "title": "Vocabulary in Context - Practice Exam",
+  "totalPoints": 100,
+  "totalQuestions": 15,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Read the following passage: 'The ancient library served as a conduit for knowledge, transmitting ideas from scholars in one era to thinkers in another across centuries.' As used in the passage, 'conduit' most nearly means:",
+      "options": [
+        "A structure made of marble and stone",
+        "A channel through which something is transmitted or passed",
+        "A library's collection of rare manuscripts",
+        "A system of pulleys and levers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage defines 'conduit' through context by describing it as 'transmitting ideas from scholars...to thinkers.' This indicates that a conduit is a means or channel through which knowledge passes. Option B directly matches this meaning. Option A is too literal (the library's physical structure), Option C is too specific (manuscripts), and Option D is unrelated."
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Read the passage: 'While most of the artist's early works have been lost to time, a few paintings remain extant in private collections and museums.' As used in the passage, 'extant' most nearly means:",
+      "options": [
+        "Recently created or newly painted",
+        "Still in existence; surviving to the present day",
+        "Worthless or of little artistic value",
+        "Forgotten and unknown to the public"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The contrast signal 'While most...have been lost...a few paintings remain extant' implies that 'extant' is the opposite of 'lost.' Something lost is gone, so something that remains is still in existence. Option B is correct. Option A contradicts 'early works,' Option C contradicts the fact they are in museums, and Option D contradicts 'preserved.'"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Read the passage: 'The mangrove ecosystem occupies a unique ecological niche, existing in the liminal space between land and sea, where it serves as a nursery for countless fish species while protecting coastal communities from storm surge.' In this passage, 'niche' refers to:",
+      "options": [
+        "A small, carved indentation in a wall for decoration",
+        "A specialized market segment for luxury goods",
+        "A specialized role or position within an ecosystem",
+        "A hidden cave or protected shelter for animals"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The context is ecological. The passage describes the mangrove's specific role ('serves as a nursery...protects coastal communities') in a particular environment (between land and sea). Option C correctly defines ecological niche. Option A is literal but unrelated to ecosystems, Option B refers to market niches (wrong context), and Option D is too narrow—a niche is a functional role, not just shelter."
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Read the passage: 'The committee made the pragmatic decision to restructure operations, choosing a realistic approach grounded in practical experience rather than idealistic theory.' As used in the passage, 'pragmatic' most nearly means:",
+      "options": [
+        "Theoretical and based on abstract principles",
+        "Practical and based on realistic assessment of what will work",
+        "Experimental and untested in real conditions",
+        "Cautious and hesitant to take any action"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage explicitly contrasts 'pragmatic' with 'idealistic theory' and emphasizes 'realistic' and 'practical experience.' This definition clue makes clear that pragmatic means practical and realistic, not theoretical or abstract. Option B is correct. Option A contradicts the contrast, Option C misrepresents the passage's description, and Option D introduces a meaning not supported by the context."
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Read the passage: 'The new policies aimed to mitigate the harmful effects of industrial pollution on the city's air quality and public health outcomes.' As used in the passage, 'mitigate' most nearly means:",
+      "options": [
+        "To eliminate completely and permanently",
+        "To make less severe, serious, or intense",
+        "To investigate or study in detail",
+        "To transfer responsibility to another party"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The context 'aimed to mitigate the harmful effects' indicates that the goal is to reduce or lessen the harm, not eliminate it entirely. Option B correctly defines mitigate as reducing severity. Option A is too extreme (eliminate vs. lessen), Option C misrepresents the word as a research term, and Option D is unrelated to the passage's meaning."
+    },
+    {
+      "id": 6,
+      "type": "true-false",
+      "points": 6,
+      "question": "In the sentence 'The ephemeral beauty of cherry blossoms, lasting only two weeks before they fall, reminds us to appreciate fleeting moments,' the word 'ephemeral' refers to something that lasts a long time.",
+      "correctAnswer": "false",
+      "explanation": "The passage explicitly defines 'ephemeral' as lasting 'only two weeks' and being 'fleeting.' These context clues indicate that ephemeral means temporary and short-lived, the opposite of lasting a long time."
+    },
+    {
+      "id": 7,
+      "type": "true-false",
+      "points": 6,
+      "question": "In the sentence 'Of the original 500 medieval manuscripts, only 12 remain extant, preserved in monastery archives,' the word 'extant' can be understood to mean 'still in existence.'",
+      "correctAnswer": "true",
+      "explanation": "The context clearly indicates that extant means still existing. The passage contrasts 'original 500' with the survivors ('only 12 remain extant'), and mentions they are 'preserved in archives,' confirming that extant refers to something that has survived to the present day."
+    },
+    {
+      "id": 8,
+      "type": "true-false",
+      "points": 6,
+      "question": "The word 'novel' always refers to a work of fiction, and thus cannot be used to describe an idea or approach.",
+      "correctAnswer": "false",
+      "explanation": "'Novel' has multiple meanings. While it can mean a work of fiction, it can also mean strikingly new or original when used as an adjective (e.g., 'a novel approach'). Context determines which meaning applies."
+    },
+    {
+      "id": 9,
+      "type": "fill-in",
+      "points": 8,
+      "question": "Read the passage: 'The researcher's findings were based on empirical evidence—data gathered from direct observation, controlled experiments, and measurable results—rather than mere speculation or theory.' Based on the context clues provided, 'empirical' most nearly means based on ________ rather than theory.",
+      "blankPosition": "end",
+      "acceptableAnswers": [
+        "observation",
+        "experiment",
+        "data",
+        "observable evidence",
+        "direct observation",
+        "measurable results"
+      ],
+      "explanation": "The passage defines empirical through explicit examples: 'direct observation, controlled experiments, and measurable results.' Any answer capturing this idea of concrete, observable evidence rather than theory is correct. The passage contrasts empirical evidence with 'mere speculation or theory.'"
+    },
+    {
+      "id": 10,
+      "type": "fill-in",
+      "points": 8,
+      "question": "Read the passage: 'Unlike extinct species, which disappeared millennia ago, the extant populations of this bird species can still be found in remote rainforest regions.' Based on the context, 'extinct' and 'extant' are ________ terms, with 'extant' referring to species that are ________ in existence.",
+      "blankPosition": "end",
+      "acceptableAnswers": [
+        "opposite/still",
+        "contrasting/still",
+        "opposite/alive",
+        "opposite/surviving",
+        "antonym/still",
+        "opposite/still in"
+      ],
+      "explanation": "The passage explicitly contrasts 'extinct' (no longer existing) with 'extant' (still existing). The contrast signal 'Unlike' and the description 'can still be found' make clear that these are opposite terms, and that extant means still in existence or surviving."
+    },
+    {
+      "id": 11,
+      "type": "short-answer",
+      "points": 5,
+      "question": "In the sentence 'The lawyer's ambiguous statement satisfied neither the prosecution nor the defense,' what does 'ambiguous' mean? Explain how the context of the sentence helps you determine this meaning.",
+      "acceptableAnswers": [
+        "Ambiguous means unclear or capable of multiple interpretations. The context shows that a single statement satisfied neither side because it could be understood as supporting either position—if it clearly supported one side, it would not satisfy both.",
+        "It means unclear or having two possible meanings. The fact that the prosecution and defense were both satisfied (in context, dissatisfied) shows that the statement could be interpreted in opposite ways.",
+        "It means capable of being understood in more than one way. The context shows this because neither side is satisfied, suggesting the statement could be read as supporting either side."
+      ],
+      "explanation": "The correct answer identifies that ambiguous means unclear or capable of multiple interpretations AND explains that the context supports this: if the statement were clear, it would favor one side, not both. The context clue here is inference—you deduce the meaning from the logical situation described."
+    },
+    {
+      "id": 12,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Examine the word 'biogeography.' What do the root terms 'bio-' and 'geo-' indicate this word's meaning should be? Explain your reasoning.",
+      "acceptableAnswers": [
+        "Bio- means life and geo- means Earth, so biogeography should mean the study of where living things are distributed across the Earth.",
+        "Bio- refers to living things and geo- refers to Earth or land, so this word likely concerns the geographic distribution of life forms.",
+        "It is the study (implied by -graphy meaning 'write about') of life (bio-) on Earth (geo-), or the distribution patterns of organisms across different regions.",
+        "The roots suggest it deals with living organisms and their geographic locations or distributions across the planet."
+      ],
+      "explanation": "The correct answer breaks the word into roots and combines their meanings logically: bio- (life) + geo- (Earth) = the study of life on Earth, or how organisms are distributed geographically. This demonstrates mastery of using root knowledge to decode unfamiliar words."
+    },
+    {
+      "id": 13,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Read the passage: 'The economic disparity between rural and urban regions meant that students in remote areas had significantly fewer educational resources, technology access, and qualified teachers than their urban counterparts.' As used in the passage, 'disparity' most nearly means:",
+      "options": [
+        "A physical distance or separation between locations",
+        "A significant difference or inequality in resources or treatment",
+        "An intentional discrimination or bias in policy",
+        "A measurable gap in test scores between groups"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage defines 'disparity' through inference—by showing that rural and urban regions differ significantly in 'resources, technology access, and qualified teachers.' Option B correctly captures this as a difference or inequality. Option A is too literal (physical distance), Option C is too narrow (the passage shows resource difference, not necessarily intentional discrimination), and Option D is overly specific (the passage implies broader inequalities, not just test scores)."
+    },
+    {
+      "id": 14,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Read the passage: 'The invention of the printing press was a catalyst for the spread of information, accelerating the pace of intellectual exchange and contributing to the Renaissance.' As used in the passage, 'catalyst' most nearly means:",
+      "options": [
+        "A chemical substance that speeds up a reaction",
+        "An agent or event that causes or greatly accelerates change",
+        "A person who opposes or obstructs progress",
+        "A historical period marked by cultural flourishing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage shows that the printing press 'was a catalyst for...spread of information' and 'accelerating the pace.' This context indicates that a catalyst is something that causes or speeds up a change. Option B correctly captures this meaning. Option A is too narrow (refers only to chemistry), Option C is the opposite (a catalyst enables, not obstructs), and Option D conflates the result (Renaissance) with the cause (catalyst)."
+    },
+    {
+      "id": 15,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Read the passage: 'The philosopher presented a lucid explanation of the concept, making the abstract theory accessible and understandable to students who had never studied philosophy before.' As used in the passage, 'lucid' most nearly means:",
+      "options": [
+        "Illuminated by light or shining brightly",
+        "Expressed clearly and transparently; easy to understand",
+        "Using precise mathematical terminology and formulas",
+        "Delivered with emotional passion and rhetorical flourish"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage defines 'lucid' through context: the explanation made an abstract concept 'accessible and understandable' to inexperienced students. This indicates that lucid means clear and easy to understand. Option B is correct. Option A is literal but unrelated to the passage's meaning, Option C incorrectly specifies mathematics, and Option D introduces emotional qualities not mentioned in the passage."
+    }
+  ]
+}

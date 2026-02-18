@@ -1,0 +1,228 @@
+{
+  "examId": "grade-12-english-q3-textual-evidence-and-inference-assessment",
+  "title": "Textual Evidence and Inference - Assessment Exam",
+  "type": "assessment",
+  "totalPoints": 100,
+  "estimatedDuration": 60,
+  "instructions": "Answer all 20 questions. This is a comprehensive assessment of your mastery of inference and textual evidence skills. Multiple-choice questions are worth 5 points each. True-false questions are worth 5 points each. Fill-in-the-blank questions are worth 5 points each. Short-answer questions are worth 5 points each. Total points: 100.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Read the following passage: 'Dr. Morrison had been teaching for thirty-five years. Her office walls were covered with thank-you cards from former students, spanning decades. Many students sought her out long after graduation to share their career achievements and express gratitude for her guidance. Yet the university was merging her department with another and offering her early retirement. She received the news with a steady expression, listened to the details, and said simply: I will think about it.' What can be inferred about Dr. Morrison's reaction to the early retirement offer?",
+      "options": [
+        "She is eager to retire and ready to stop teaching",
+        "She is devastated and will certainly reject the offer",
+        "She is conflicted and needs time to process the implications",
+        "She does not care about her job or her students"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage shows Dr. Morrison is deeply valued and valued by her students (evidence of decades of relationships and gratitude). The retirement offer disrupts a long career. Her controlled, thoughtful response ('I will think about it') suggests she is processing a complex situation—not eager to leave, but also not immediately rejecting it. This indicates internal conflict. Options A and D are contradicted by the evidence of her engagement with students. Option B overstates her response."
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which sentence from the Dr. Morrison passage BEST supports the inference that her teaching has been meaningful and valued by her students?",
+      "options": [
+        "Dr. Morrison had been teaching for thirty-five years.",
+        "The university was merging her department with another and offering her early retirement.",
+        "Many students sought her out long after graduation to share their career achievements and express gratitude for her guidance.",
+        "She received the news with a steady expression, listened to the details, and said simply: I will think about it."
+      ],
+      "correctAnswer": 2,
+      "explanation": "This sentence directly demonstrates that students value her teaching and seek to maintain their relationship with her long after leaving her class. They explicitly express gratitude and share achievements, showing her meaningful impact. Option A states duration but not value. Option B is about retirement. Option D shows her emotional response but not student appreciation."
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Read the passage: 'The town's historic main street had once been the center of commerce and social life. Now, with the new highway bypass diverting traffic, most stores stood vacant. The few remaining businesses were struggling. Yet the community refused multiple offers to sell their buildings to a developer who wanted to demolish the street and build a shopping mall. Instead, residents organized fundraising events, formed a preservation society, and began slowly renovating the historic buildings. Within three years, small restaurants and galleries had opened, and foot traffic had begun to return.' What does the community's choice to preserve the street rather than sell it suggest?",
+      "options": [
+        "The community values financial profit above all else",
+        "The town had no economic problems to solve",
+        "The community values cultural heritage and community identity over short-term financial gain",
+        "Preservation efforts never succeed in restoring declining areas"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The community rejected lucrative offers (financial incentive) to preserve the street, invested time and resources in restoration (actions valuing heritage), and these efforts succeeded in revitalizing the area. This strongly suggests they prioritize cultural and community values over immediate profit. Option A is contradicted by their rejection of profitable offers. Option B is contradicted by the acknowledgment of struggle. Option D is contradicted by the successful revival."
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which sentence BEST supports the inference that the community values cultural heritage over financial profit?",
+      "options": [
+        "The town's historic main street had once been the center of commerce and social life.",
+        "Yet the community refused multiple offers to sell their buildings to a developer who wanted to demolish the street and build a shopping mall.",
+        "Within three years, small restaurants and galleries had opened, and foot traffic had begun to return.",
+        "Now, with the new highway bypass diverting traffic, most stores stood vacant."
+      ],
+      "correctAnswer": 1,
+      "explanation": "This sentence most directly demonstrates the choice between profit and preservation. The community refusing lucrative development offers is the key evidence of prioritizing heritage. Option A provides history. Option C shows the outcome but not the values. Option D states the problem being faced."
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Read the passage: 'Marcus applied to five universities. Two rejected him outright. Three offered him admission but with scholarship offers that would cover only 30% of costs. He had excellent grades and test scores. His essays were thoughtful and personal. Yet none of the schools seemed to recognize his potential with significant financial support. He sat with the letters for days before making his choice.' Based on the passage, what can be inferred about Marcus's position?",
+      "options": [
+        "Marcus was not qualified for university admission",
+        "All universities are unfair in their scholarship decisions",
+        "Marcus may face barriers to attending his preferred university due to financial constraints",
+        "Marcus decided to attend a community college instead of university"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Marcus has clear qualifications (excellent grades, test scores, thoughtful essays) and received some acceptances, but the limited financial aid suggests he may not be able to afford his preferred choice. The passage indicates internal conflict about his options due to cost. Option A is contradicted by his admissions. Option B overgeneralizes. Option D is not mentioned in the passage."
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A passage states: 'The research team discovered that people who exercised regularly reported higher levels of life satisfaction.' Which of the following would be a VALID inference based on this statement?",
+      "options": [
+        "Exercise causes life satisfaction in all humans",
+        "People who exercise are happier because they are healthier",
+        "Regular exercise is correlated with reported higher life satisfaction among study participants",
+        "Anyone who wants to be happy must exercise regularly"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This inference accurately reflects what the passage states without overgeneralizing. The other options make claims the passage does not support: causation is not proven (A), mechanism is not explained (B), and universal necessity is not indicated (D). The correct answer respects the limited scope of the study findings."
+    },
+    {
+      "id": 7,
+      "type": "true-false",
+      "points": 5,
+      "question": "Valid inferences on UPCAT can be about events that might happen in the future, even if the passage provides no evidence for those future events.",
+      "correctAnswer": "false",
+      "explanation": "Inferences must be supported by evidence in the passage. You cannot infer future events that the passage does not suggest. For example, if a passage shows a character is struggling financially, you cannot infer they will become wealthy in the future unless the passage provides evidence suggesting this possibility."
+    },
+    {
+      "id": 8,
+      "type": "true-false",
+      "points": 5,
+      "question": "If a passage contains the word 'some' or 'may,' any inference based on that passage must also use limiting language.",
+      "correctAnswer": "true",
+      "explanation": "Qualifiers limit the scope of claims. If the passage says 'some students struggle with inference' or 'technology may affect attention,' your inference should respect these limitations. You cannot infer 'all students struggle' or 'technology definitely affects attention' when the passage uses limiting language."
+    },
+    {
+      "id": 9,
+      "type": "true-false",
+      "points": 5,
+      "question": "The best textual evidence for an inference is always the longest or most detailed sentence in the passage.",
+      "correctAnswer": "false",
+      "explanation": "The best evidence is the most DIRECT support for the specific inference, not the longest or most detailed. A short sentence that directly supports the inference is better evidence than a longer, more detailed sentence that supports a different point or requires additional reasoning to connect."
+    },
+    {
+      "id": 10,
+      "type": "true-false",
+      "points": 5,
+      "question": "Inferences that contradict explicitly stated information in the passage can still be valid if they make logical sense.",
+      "correctAnswer": "false",
+      "explanation": "Inferences must be consistent with all stated information. If a passage explicitly says X is true, you cannot infer that X is false, even if your inference seems logical based on outside knowledge. The inference must not contradict the passage."
+    },
+    {
+      "id": 11,
+      "type": "fill-in-the-blank",
+      "points": 5,
+      "question": "The _______________ is a concept that helps explain how humans move from observable data through selected data, assumptions, conclusions, and ultimately to beliefs and actions.",
+      "correctAnswer": "Ladder of Inference",
+      "explanation": "The Ladder of Inference (from Chris Argyris) illustrates the steps people take from raw data to conclusions. For UPCAT purposes, students should stay on the lower rungs—close to observable data and direct inferences—rather than climbing to speculation and unsupported conclusions."
+    },
+    {
+      "id": 12,
+      "type": "fill-in-the-blank",
+      "points": 5,
+      "question": "Words like 'however,' 'although,' 'but,' 'yet,' and 'despite' are _______________ words that often signal that the author's main point is about to be stated.",
+      "correctAnswer": "contrast",
+      "explanation": "Contrast or opposition words signal shifts in meaning and are often followed by the author's key point. When you see these words, pay close attention because they highlight important ideas and often indicate where the author's focus lies."
+    },
+    {
+      "id": 13,
+      "type": "fill-in-the-blank",
+      "points": 5,
+      "question": "When identifying textual evidence, you should look for the sentence that most _______________ and _______________ supports the inference without requiring additional reasoning or outside knowledge.",
+      "correctAnswer": "directly, specifically",
+      "explanation": "The best evidence is both direct (clearly connected to the inference) and specific (containing the exact information needed to support the conclusion). These two qualities ensure the evidence strongly supports the inference with minimal additional interpretation required."
+    },
+    {
+      "id": 14,
+      "type": "fill-in-the-blank",
+      "points": 5,
+      "question": "A _______________ is information that the author directly states in the text, while an _______________ is a conclusion you draw from evidence the author provides but does not explicitly state.",
+      "correctAnswer": "detail, inference",
+      "explanation": "These are the two fundamental types of textual information. Detail questions ask what is directly stated. Inference questions ask what is implied or suggested. Understanding the difference is essential for UPCAT reading comprehension."
+    },
+    {
+      "id": 15,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Explain why the Ladder of Inference matters when answering UPCAT inference questions. What does it mean to 'stay on the lower rungs'?",
+      "correctAnswer": "The Ladder of Inference shows how people move from observable data through assumptions to conclusions and beliefs. To 'stay on the lower rungs' means to base your inferences on observable, stated information in the passage rather than climbing to speculation, unsupported assumptions, or beliefs that go beyond what the text supports. UPCAT rewards inferences that are closely tied to textual evidence, not those that require outside knowledge or extreme reasoning."
+    },
+    {
+      "id": 16,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Identify one invalid inference and explain why it would be considered invalid on UPCAT.",
+      "correctAnswer": "Example: A passage states 'Some students struggle with essay writing.' An invalid inference would be 'All students struggle with essay writing' because: (1) the passage uses the qualifier 'some,' limiting the scope, (2) the inference overreaches beyond what the passage supports. A valid inference would recognize the limitation: 'A portion of students find essay writing challenging.' Invalid inferences often ignore qualifiers, contradict stated information, or require outside knowledge not provided in the passage."
+    },
+    {
+      "id": 17,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Read the passage: 'The marketing campaign cost two million dollars and reached fifteen million people. Within weeks, the company received ten thousand product inquiries. However, actual sales increased by only 2%. The company viewed this as a failed campaign.' Based on the passage, which of the following can be inferred?",
+      "options": [
+        "The company is correct that the campaign was a failure because sales increased by only 2%",
+        "The company's definition of success may be unrealistically high given the high volume of inquiries generated",
+        "Marketing campaigns never result in significant sales increases",
+        "The product was too expensive for most of the people who saw the advertisement"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage shows high reach (15 million), substantial interest (10,000 inquiries), but modest sales increase (2%). This suggests the company may have set unrealistic expectations. Ten thousand qualified inquiries is a significant result, which suggests success by some measures. The company's judgment that it was a 'failure' reflects their particular definition of success."
+    },
+    {
+      "id": 18,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Based on the marketing campaign passage, which sentence BEST supports the inference that the company had expectations that were not met?",
+      "options": [
+        "The marketing campaign cost two million dollars and reached fifteen million people.",
+        "Within weeks, the company received ten thousand product inquiries.",
+        "However, actual sales increased by only 2%.",
+        "The company viewed this as a failed campaign."
+      ],
+      "correctAnswer": 3,
+      "explanation": "This sentence directly shows the company's judgment that the campaign was unsuccessful. While the 2% sales increase (option C) is factual, option D directly demonstrates that the company viewed the result as a failure, revealing the gap between expectations and outcome. Options A and B present positive results without the judgment component."
+    },
+    {
+      "id": 19,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which of the following represents an INVALID inference from a passage stating 'Some athletes report improved performance after meditation training'?",
+      "options": [
+        "Meditation training may benefit some athletes' performance",
+        "Not all athletes will experience improved performance from meditation training",
+        "Meditation training is guaranteed to improve any athlete's performance",
+        "Some athletes found meditation training helpful for performance"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This inference is invalid because it goes beyond what the passage supports. The passage uses the qualifier 'some,' which indicates the effect is not universal. The inference claims meditation is guaranteed to improve performance in 'any' athlete, which is not supported. Options A, B, and D all respect the limited scope indicated by 'some.'"
+    },
+    {
+      "id": 20,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A passage states: 'Research shows that students who use active recall study techniques score an average of 15% higher on exams than students using passive review.' Based on this statement, which is a valid inference?",
+      "options": [
+        "Active recall is the only effective study technique",
+        "All students will improve their scores by 15% if they use active recall",
+        "Active recall study techniques appear to be associated with higher exam performance on average",
+        "Passive review is completely ineffective"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This inference accurately reflects the passage without overgeneralizing. It uses appropriate qualification ('appear,' 'on average') and acknowledges correlation rather than claiming causation. Options A and D use absolute language not supported by the passage. Option B claims all students will improve by exactly 15%, which overstates the finding."
+    }
+  ]
+}

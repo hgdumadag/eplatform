@@ -1,0 +1,38 @@
+{
+  "id": "grade-12-english-q4-vocabulary-in-context",
+  "grade": 12,
+  "subject": "english",
+  "quarter": 4,
+  "topicName": "Vocabulary in Context",
+  "description": "Determine word meaning using context clues, distinguish denotation from connotation, and decode vocabulary using Latin and Greek roots for UPCAT success.",
+  "learningObjectives": [
+    "Apply four types of context clues to determine word meaning in passages",
+    "Distinguish between denotation and connotation of words",
+    "Use Latin and Greek root words, prefixes, and suffixes to decode unfamiliar vocabulary",
+    "Identify the specific contextual meaning of words with multiple definitions"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": [
+    "vocabulary",
+    "context-clues",
+    "denotation",
+    "connotation",
+    "word-roots",
+    "etymology",
+    "upcat",
+    "reading-comprehension"
+  ],
+  "prerequisites": [
+    "Basic vocabulary",
+    "Reading comprehension skills",
+    "Familiarity with word parts"
+  ],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "grade-12-english-q2-historical-biographical-texts",
+  "grade": 12,
+  "subject": "english",
+  "quarter": 2,
+  "topicName": "Historical and Biographical Texts",
+  "description": "Read and analyze historical articles and biographies, identify author purpose and bias, and understand Philippine literary and cultural history for UPCAT.",
+  "learningObjectives": [
+    "Identify main idea, supporting details, and author purpose in historical texts",
+    "Distinguish fact from interpretation and recognize bias in historical writing",
+    "Analyze biographical texts for subject impact and historical significance",
+    "Apply comprehension strategies to texts about Philippine history and world figures"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": [
+    "historical-texts",
+    "biography",
+    "Philippine-history",
+    "author-purpose",
+    "main-idea",
+    "non-fiction",
+    "upcat",
+    "reading-comprehension"
+  ],
+  "prerequisites": [
+    "Basic reading comprehension",
+    "General history awareness",
+    "Non-fiction reading skills"
+  ],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

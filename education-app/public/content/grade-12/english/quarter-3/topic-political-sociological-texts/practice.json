@@ -1,0 +1,176 @@
+{
+  "examId": "grade-12-english-q3-political-sociological-texts-practice",
+  "title": "Political and Sociological Texts - Practice Exam",
+  "type": "practice",
+  "totalPoints": 100,
+  "estimatedDuration": 45,
+  "instructions": "Answer all 15 questions. Multiple-choice questions are worth 7 points each. True-false questions are worth 6 points each. Fill-in-the-blank questions are worth 8 points each. Short-answer questions are worth 5 points each. Total points: 100. There is no time limit on this practice exam.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Read the following passage: 'We stand at a crossroads. The path behind us is marked by sacrifice and struggle, yet also by triumph and resilience. The path before us is uncertain, but it is ours to shape. We have never fled from challenge. We have never accepted defeat. We will not begin now. Together, we will build a future worthy of our past.' What is the speaker's primary purpose in this passage?",
+      "options": [
+        "To provide historical facts about past struggles",
+        "To persuade the audience to embrace courage and unity in facing future challenges",
+        "To criticize the audience for past failures",
+        "To inform the audience about available career opportunities"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The speaker uses inspirational language, repeated assertions of determination ('We have never,' 'We will not,' 'We will build'), and a call to collective action ('Together'). This is a persuasive speech designed to inspire the audience to face the future with courage and unity, not merely to inform or criticize."
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "In Kennedy's famous line 'Ask not what your country can do for you; ask what you can do for your country,' which rhetorical device is MOST prominently used?",
+      "options": [
+        "Anaphora (repetition at the start of successive clauses)",
+        "Antithesis and chiasmus (contrast and reversal of structure)",
+        "Allusion to a historical event",
+        "Metaphor comparing the country to a living organism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sentence uses both antithesis (contrasting what the country does for you with what you do for your country) and chiasmus (the grammatical structure is reversed in the second clause). While 'ask' appears twice, the primary effect comes from the structural reversal and contrast, not simple repetition."
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Consider this passage about Internet use: 'Research indicates that heavy Internet users show measurable decreases in sustained attention span. However, these same users demonstrate enhanced ability to process information rapidly and to manage multiple information streams simultaneously. The cognitive shifts are real, but their value depends on how society measures success.' Which of the following best describes the author's position?",
+      "options": [
+        "Internet use is entirely harmful to human cognition",
+        "Internet use is entirely beneficial to human cognition",
+        "Internet use produces measurable cognitive changes whose value is contextual and debatable",
+        "The Internet has no significant effect on how the human brain functions"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The author presents both negative effects (decreased sustained attention) and positive effects (enhanced rapid processing). The final sentence indicates that the author views the changes as real but contextual—their value 'depends on how society measures success.' This is a balanced, nuanced position that neither condemns nor celebrates Internet use unconditionally."
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Which of the following is a FACT rather than an opinion?",
+      "options": [
+        "JFK was the most inspiring president in American history",
+        "Political speeches are the best form of public communication",
+        "JFK delivered his inaugural address on January 20, 1961",
+        "Technology has unfortunately destroyed modern attention spans"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Option C is a verifiable fact that can be confirmed by historical records. Options A and B contain judgment words ('most inspiring,' 'best') that indicate opinion. Option D uses the word 'unfortunately,' which signals subjective interpretation rather than objective fact."
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "In a political speech, the speaker states: 'I have worked in the service sector. I have struggled to support my family on minimum wage. I have watched friends lose their homes.' The speaker is primarily using which rhetorical appeal?",
+      "options": [
+        "Logos (appeal to logic and statistical evidence)",
+        "Ethos (appeal to credibility through personal experience)",
+        "Pathos (appeal to emotion through vivid personal narratives)",
+        "Allusion (reference to well-known cultural or historical events)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "While the personal experiences do establish ethos (credibility), the primary effect of the repeated 'I have' statements combined with emotionally resonant situations (struggling, losing homes) is to appeal to the audience's emotions. The vivid imagery and personal narrative are designed to make the audience feel the speaker's experiences."
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Read the following passage: 'The government's new healthcare initiative aims to provide coverage to millions of uninsured citizens. The program will cost approximately 50 billion dollars over five years. Supporters argue it will reduce emergency room visits and save lives. Critics worry about wait times and quality of care. The debate reflects fundamental disagreement about government's role in healthcare.' What is the author's primary purpose in this passage?",
+      "options": [
+        "To persuade readers that the healthcare initiative is excellent",
+        "To present different perspectives on a policy without advocating for one position",
+        "To convince readers that the initiative will fail",
+        "To criticize the government for excessive spending"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The author presents both supporter and critic perspectives without favoring one. The statement 'reflects fundamental disagreement' shows the author is acknowledging complexity rather than arguing for a particular position. This is informative and balanced, not persuasive toward a particular outcome."
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Which of the following best describes the structure of a political speech?",
+      "options": [
+        "Introduction of topic, followed by criticism of opposing views, followed by conclusion",
+        "Opening connection with audience, background/context, main argument, call to action or inspiration",
+        "Statistical data, personal stories, rhetorical questions, and a summary statement",
+        "Definition of terms, examples, counterargument, and final evidence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Political speeches typically follow the classical structure of exordium (opening connection), narration (background), argument (main body), and peroration (conclusion with call to action). The other options describe other writing structures but not the typical political speech format."
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "A political speech to military personnel includes: 'You represent the best of our nation. Your families await your safe return. The cause is just. Victory is within our grasp.' Which statement is primarily an appeal to ethos?",
+      "options": [
+        "'You represent the best of our nation'",
+        "'Your families await your safe return'",
+        "'The cause is just'",
+        "'Victory is within our grasp'"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This statement establishes the speaker's credibility and authority by making a moral judgment about the cause's justice. This appeals to the speaker's character and trustworthiness (ethos). The other options appeal primarily to pathos (emotional appeals about families, representation, and victory)."
+    },
+    {
+      "id": 9,
+      "type": "true-false",
+      "points": 6,
+      "question": "A political speech always adopts a neutral, objective tone to be effective.",
+      "correctAnswer": "false",
+      "explanation": "Political speeches are typically persuasive and inspirational, employing emotional language, vivid imagery, and passionate tone. Neutrality would undermine the persuasive purpose of the speech. Effective political speeches rarely maintain an objective tone."
+    },
+    {
+      "id": 10,
+      "type": "true-false",
+      "points": 6,
+      "question": "Neuroplasticity is the brain's capacity to reorganize itself based on experience and repeated activities.",
+      "correctAnswer": "true",
+      "explanation": "This is an accurate definition of neuroplasticity. The concept refers to the brain's adaptive capacity to strengthen neural pathways through repetition and weaken unused pathways. This is a key concept in understanding how technology might affect cognition."
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "points": 6,
+      "question": "Ethos and pathos are the same rhetorical appeal, just using different terminology.",
+      "correctAnswer": "false",
+      "explanation": "Ethos and pathos are distinct rhetorical appeals. Ethos appeals to credibility and authority (the speaker's trustworthiness). Pathos appeals to emotion (the audience's feelings). A speaker can establish ethos without employing emotional pathos, and can use pathos without establishing strong ethos."
+    },
+    {
+      "id": 12,
+      "type": "fill-in-the-blank",
+      "points": 8,
+      "question": "The rhetorical appeal that establishes the speaker's credibility or trustworthiness is called _______________. Examples include invoking personal expertise, referencing respected institutions, or appealing to shared values.",
+      "correctAnswer": "ethos",
+      "explanation": "Ethos is the appeal to credibility and authority. The passage describes methods of establishing ethos through personal experience, institutional authority, and shared values. The other rhetorical appeals are pathos (emotion) and logos (logic)."
+    },
+    {
+      "id": 13,
+      "type": "fill-in-the-blank",
+      "points": 8,
+      "question": "In sociological texts about technology, the term _______________ refers to the brain's ability to adapt and reorganize itself in response to repeated experiences, such as extensive Internet use.",
+      "correctAnswer": "neuroplasticity",
+      "explanation": "Neuroplasticity is the foundational concept used to explain how technology might rewire neural pathways. The question explicitly connects this term to the brain's adaptive response to technology use. This is a key vocabulary term for understanding technology and cognition texts."
+    },
+    {
+      "id": 14,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Explain the difference between a fact and an opinion, and provide one example of each from the context of political speeches or technology texts.",
+      "correctAnswer": "A fact is a verifiable, objective statement that can be confirmed by external evidence (e.g., 'JFK delivered his inaugural address on January 20, 1961'). An opinion is a subjective statement that reflects personal judgment and cannot be definitively proved (e.g., 'JFK was the greatest president'). Facts contain specific, concrete details and lack judgment words, while opinions contain words like 'best,' 'worst,' 'should,' or other evaluative language."
+    },
+    {
+      "id": 15,
+      "type": "short-answer",
+      "points": 5,
+      "question": "What is the primary purpose of using rhetorical devices like anaphora and antithesis in political speeches? How do these devices make the speech more persuasive?",
+      "correctAnswer": "Rhetorical devices create memorable, rhythmic language that emphasizes key ideas and makes them more emotionally resonant. Anaphora (repetition) creates rhythm and emphasis through repeated phrases, making ideas stick in the audience's memory. Antithesis (contrast) highlights the importance of a choice or principle by placing opposing ideas side by side. Both devices make speeches more persuasive by making them more memorable and emotionally engaging, which increases the likelihood the audience will adopt the speaker's message."
+    }
+  ]
+}

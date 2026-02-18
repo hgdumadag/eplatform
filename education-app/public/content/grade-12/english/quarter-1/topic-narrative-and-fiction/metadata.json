@@ -1,0 +1,39 @@
+{
+  "id": "grade-12-english-q1-narrative-and-fiction",
+  "grade": 12,
+  "subject": "english",
+  "quarter": 1,
+  "topicName": "Narrative and Fiction Analysis",
+  "description": "Master plot structure, character analysis, theme identification, point of view, and tone to answer UPCAT narrative and fiction comprehension questions.",
+  "learningObjectives": [
+    "Identify and analyze plot structure including exposition, climax, and resolution",
+    "Determine character motivation and development from textual evidence",
+    "Distinguish theme from main idea and identify symbolism in fiction",
+    "Recognize narrative point of view and analyze author tone and mood"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": [
+    "narrative",
+    "fiction",
+    "character-analysis",
+    "plot",
+    "theme",
+    "point-of-view",
+    "tone",
+    "upcat",
+    "reading-comprehension"
+  ],
+  "prerequisites": [
+    "Basic reading comprehension",
+    "Familiarity with short story elements",
+    "Vocabulary skills"
+  ],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

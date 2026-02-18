@@ -1,0 +1,39 @@
+{
+  "id": "grade-12-english-q3-political-sociological-texts",
+  "grade": 12,
+  "subject": "english",
+  "quarter": 3,
+  "topicName": "Political and Sociological Texts",
+  "description": "Analyze political speeches, public addresses, and sociological articles including JFK's Inaugural Address and texts on technology and cognition for UPCAT.",
+  "learningObjectives": [
+    "Identify rhetorical devices including ethos, pathos, and logos in political speeches",
+    "Analyze author's argument, purpose, and intended audience in political texts",
+    "Evaluate the impact of technology on society based on sociological article passages",
+    "Distinguish between fact, opinion, and reasoned argument in persuasive texts"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": [
+    "political-texts",
+    "speeches",
+    "rhetoric",
+    "JFK",
+    "persuasive-writing",
+    "technology-society",
+    "sociological-analysis",
+    "upcat",
+    "reading-comprehension"
+  ],
+  "prerequisites": [
+    "Basic reading comprehension",
+    "Familiarity with persuasive writing",
+    "Critical thinking skills"
+  ],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

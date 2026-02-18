@@ -1,0 +1,37 @@
+{
+  "id": "grade-12-english-q3-textual-evidence-and-inference",
+  "grade": 12,
+  "subject": "english",
+  "quarter": 3,
+  "topicName": "Textual Evidence and Inference",
+  "description": "Master the skill of drawing valid inferences from passages and identifying the strongest textual evidence to support conclusions for UPCAT success.",
+  "learningObjectives": [
+    "Draw valid inferences that are supported by textual evidence rather than prior knowledge",
+    "Identify the sentence or phrase that BEST supports a given conclusion",
+    "Distinguish between inferences, assumptions, and explicitly stated information",
+    "Apply close reading strategies to identify implied meaning in complex passages"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": [
+    "inference",
+    "textual-evidence",
+    "close-reading",
+    "critical-thinking",
+    "implied-meaning",
+    "upcat",
+    "reading-comprehension"
+  ],
+  "prerequisites": [
+    "Basic reading comprehension",
+    "Understanding of main idea and supporting details",
+    "Critical thinking fundamentals"
+  ],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

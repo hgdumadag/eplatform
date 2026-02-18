@@ -1,0 +1,40 @@
+{
+  "id": "grade-12-english-q4-visual-graphic-literacy",
+  "grade": 12,
+  "subject": "english",
+  "quarter": 4,
+  "topicName": "Visual and Graphic Literacy",
+  "description": "Interpret pie charts, bar graphs, line graphs, tables, and editorial cartoons to extract data, identify trends, and analyze societal messages for UPCAT success.",
+  "learningObjectives": [
+    "Extract specific data from pie charts, bar graphs, and line graphs",
+    "Read and interpret tabular data such as shipping schedules and employment data",
+    "Analyze editorial cartoons to identify the societal issue being addressed",
+    "Apply inference skills to visual data to identify trends and draw conclusions"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": [
+    "graphic-literacy",
+    "pie-chart",
+    "bar-graph",
+    "line-graph",
+    "editorial-cartoon",
+    "data-interpretation",
+    "visual-media",
+    "upcat",
+    "reading-comprehension"
+  ],
+  "prerequisites": [
+    "Basic math skills",
+    "Critical thinking",
+    "Reading comprehension",
+    "Familiarity with graphs and charts"
+  ],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

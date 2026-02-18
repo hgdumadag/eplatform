@@ -1,0 +1,169 @@
+{
+  "id": "grade-12-english-q1-narrative-fiction-practice",
+  "title": "Narrative and Fiction Analysis - Practice Exam",
+  "totalPoints": 100,
+  "timeLimit": 45,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 7,
+      "passage": "Rosa had worked in the factory for twelve years, arriving before dawn and leaving after dusk. Her hands bore calluses and small scars from the machinery. One afternoon, her supervisor called her into his office with a single sheet of paper: a job offer from a design firm in the capital. The firm had seen her sketch—a design she had drawn during her lunch break, one of thousands of designs she had created in secret over the years. She stared at the paper. The salary was three times what she earned at the factory. But her mother was ill, and the factory job provided health insurance. Her family depended on that insurance. Without it, her mother would receive no treatment.",
+      "question": "Based on the passage, what is Rosa's primary internal conflict?",
+      "options": [
+        "Between her desire for personal success and her duty to care for her family",
+        "Between her supervisor's expectations and the design firm's opportunity",
+        "Between her lack of confidence in her artistic abilities and her ambition",
+        "Between her loyalty to her coworkers and her own financial security"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 7,
+      "passage": "The old man sat on the bench overlooking the harbor, watching the fishing boats return. His grandson, Marco, stood beside him in silence. 'You're leaving,' the old man said, not as a question. 'To the city. For school.' Marco nodded. The old man continued to watch the boats. 'I had a chance like that once,' he said quietly. 'I chose to stay. I became a fisherman instead.' He paused. 'I loved this life. But sometimes I wonder what I might have become.' Marco felt tears forming. 'Grandfather, I don't have to go—' But the old man gripped his shoulder firmly. 'You must go. Don't make my choice. Make your own.'",
+      "question": "What does the old man's final statement reveal about his character?",
+      "options": [
+        "He is ashamed of his career as a fisherman and regrets his life choices",
+        "He values Marco's autonomy and wants him to avoid repeating his own path of not pursuing opportunity",
+        "He is secretly angry at Marco for planning to leave the family business",
+        "He believes that education is more important than honoring family traditions"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 7,
+      "passage": "The letter arrived on a Tuesday. It bore an official seal and formal language that told Elena her application to the prestigious university had been rejected. She read it three times, searching for errors, for a loophole, for any indication that a mistake had been made. There was none. She had not gotten in. That evening, her best friend texted: 'OMG, I got in! I'm so excited!' Elena stared at the message. She knew she should respond with congratulations. She knew her friend deserved that. But she found she could not type the words. Instead, she set the phone down and sat in darkness.",
+      "question": "Which of the following best describes the tone of this passage?",
+      "options": [
+        "Angry and vindictive toward the friend's success",
+        "Hopeful that Elena will eventually overcome disappointment",
+        "Melancholic and conflicted, showing emotional pain beneath restrained action",
+        "Ironic, mocking Elena's previous confidence in her abilities"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 7,
+      "passage": "Before the accident, David had never questioned anything his father told him. His father was a contractor, a man who built things. But after David found the photographs—buildings his father had constructed with substandard materials, corners cut to save money, safety features omitted—everything changed. David confronted him. His father simply shrugged. 'Everyone does it,' he said. 'You can't succeed without compromise.' David stared at the man he had idolized his entire life and felt that idolization crumble like the unsafe structures his father had built.",
+      "question": "What is the climax of this passage—the turning point where the outcome becomes inevitable?",
+      "options": [
+        "When David finds the photographs of unsafe buildings",
+        "When David confronts his father about the buildings",
+        "When his father admits that 'everyone does it' and justifies the compromise",
+        "When David feels his idolization crumble and his worldview shift"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "points": 7,
+      "passage": "The mansion was empty when they arrived. Dust covered the furniture. Photographs hung on the walls: images of the family in happier times, the woman Lucia was now—older, alone—smiling alongside a man and two children. Lucia moved from room to room, touching nothing, remembering. In the master bedroom, she found a journal on the nightstand. The handwriting was his. She opened it and read the final entry: 'Lucia comes home today. I have left her everything. I hope it will tell her what words never could.' Lucia sank to the floor, holding the journal. Only now, reading what he had written, did she understand that he had loved her all along.",
+      "question": "Which literary device is most important to the theme of this passage?",
+      "options": [
+        "Irony—that Lucia discovers love only after death",
+        "Symbolism—the empty mansion representing emotional distance",
+        "Foreshadowing—the photographs predicting Lucia's final understanding",
+        "Metaphor—the journal as a bridge between the living and the dead"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "points": 7,
+      "passage": "I never trusted my stepmother. From the moment my father brought her home, I saw her as an intruder, a woman trying to replace my mother. I watched her carefully, waiting for her to prove me right. But one evening, I found her sitting alone in the kitchen, old photographs spread before her—photographs of my mother, my father, and me. She was crying. 'I could never replace her,' she said, her voice breaking. 'I never wanted to. I just wanted to love your father. And maybe, if you let me, to be your friend.' That night, I realized my suspicion had blinded me to her goodness.",
+      "question": "From what perspective is this passage told, and what does this perspective reveal?",
+      "options": [
+        "Third-person omniscient; it allows us to understand all characters' motivations",
+        "First-person; it reveals that the narrator's initial judgment was unreliable and based on assumption rather than evidence",
+        "Third-person limited; it focuses only on the stepmother's perspective and emotions",
+        "First-person; it proves that the stepmother was dishonest all along"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "points": 6,
+      "statement": "The climax of a story is the same as the ending or resolution.",
+      "correctAnswer": "false"
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "points": 6,
+      "statement": "A theme statement should be broad enough to apply to many stories but specific enough to reflect the particular narrative's content.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "points": 6,
+      "statement": "A first-person narrator always provides a completely reliable and accurate account of events.",
+      "correctAnswer": "false"
+    },
+    {
+      "id": "q10",
+      "type": "fill-in",
+      "points": 8,
+      "question": "When a character's traits are not explicitly stated but must be inferred from their speech, thoughts, effects on others, actions, and looks, we use the _____ method for characterization.",
+      "correctAnswer": "STEAL"
+    },
+    {
+      "id": "q11",
+      "type": "fill-in",
+      "points": 8,
+      "question": "The _____ is the turning point of maximum intensity in a narrative—the moment when the outcome becomes inevitable, located in Freytag's Pyramid between rising action and falling action.",
+      "correctAnswer": "climax"
+    },
+    {
+      "id": "q12",
+      "type": "short-answer",
+      "points": 5,
+      "question": "Explain the difference between a static character and a dynamic character. Give one sentence to define each.",
+      "correctAnswer": "A static character remains essentially unchanged throughout the narrative and learns nothing significant from events. A dynamic character changes meaningfully as a result of events in the story, gaining new insight, emotional growth, or altered perspective."
+    },
+    {
+      "id": "q13",
+      "type": "short-answer",
+      "points": 5,
+      "question": "What is the relationship between conflict and character in fiction? Use one complete sentence.",
+      "correctAnswer": "Conflict reveals character because the choices characters make when facing obstacles expose their values, priorities, and true nature."
+    },
+    {
+      "id": "q14",
+      "type": "multiple-choice",
+      "question": "Read the following excerpt: 'Maria stood at the doorway, watching her childhood home disappear behind the taxi as it sped away. She had always known this day would come, but nothing had prepared her for the hollow ache spreading through her chest.' The mood of this passage is best described as:",
+      "options": [
+        "Joyful and celebratory",
+        "Melancholic and nostalgic",
+        "Angry and resentful",
+        "Fearful and panicked"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage conveys sadness and nostalgia through phrases like 'hollow ache' and 'childhood home disappear.' The mood is melancholic (sorrowful) and nostalgic (longing for the past), not joyful, angry, or fearful.",
+      "points": 7
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "question": "Read the following excerpt: 'Despite his gentle words, Andres had always found ways to remind Elena of her place — a well-placed sigh here, a dismissive wave there.' What does this passage MOST suggest about Andres's character?",
+      "options": [
+        "He is openly hostile toward Elena",
+        "He is genuinely kind but occasionally forgetful",
+        "He is subtly controlling and condescending",
+        "He is indifferent and unaware of Elena's feelings"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Despite appearing gentle in words, Andres uses subtle gestures ('a well-placed sigh,' 'dismissive wave') to remind Elena of her lower status. This reveals a character who is subtly controlling and condescending — indirect but deliberate in his behavior.",
+      "points": 7
+    }
+  ]
+}

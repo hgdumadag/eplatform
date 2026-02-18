@@ -1,0 +1,38 @@
+{
+  "id": "grade-12-english-q2-scientific-environmental-articles",
+  "grade": 12,
+  "subject": "english",
+  "quarter": 2,
+  "topicName": "Scientific and Environmental Articles",
+  "description": "Read and analyze scientific texts including ecology, biology, and environmental science articles using comprehension, inference, and technical vocabulary strategies for UPCAT.",
+  "learningObjectives": [
+    "Identify the main claim and supporting evidence in scientific articles",
+    "Apply process-of-elimination strategies to identification questions in biology texts",
+    "Understand technical vocabulary from context clues in scientific writing",
+    "Analyze ecological processes including decomposition and ecosystem relationships"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": [
+    "scientific-texts",
+    "ecology",
+    "biology",
+    "environmental-science",
+    "technical-vocabulary",
+    "non-fiction",
+    "upcat",
+    "reading-comprehension"
+  ],
+  "prerequisites": [
+    "Basic science knowledge",
+    "Reading comprehension skills",
+    "Vocabulary in context skills"
+  ],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

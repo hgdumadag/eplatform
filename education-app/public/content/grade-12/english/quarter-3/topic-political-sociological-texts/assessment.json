@@ -1,0 +1,228 @@
+{
+  "examId": "grade-12-english-q3-political-sociological-texts-assessment",
+  "title": "Political and Sociological Texts - Assessment Exam",
+  "type": "assessment",
+  "totalPoints": 100,
+  "estimatedDuration": 60,
+  "instructions": "Answer all 20 questions. This is a comprehensive assessment of your mastery of political and sociological text analysis. Multiple-choice questions are worth 5 points each. True-false questions are worth 5 points each. Fill-in-the-blank questions are worth 5 points each. Short-answer questions are worth 5 points each. Total points: 100.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Read the following passage: 'The future will not come to us automatically. It will not arrive through wishes or hopes alone. It will come through our willingness to sacrifice, to work, and to believe in something greater than ourselves. Throughout history, Americans have chosen the difficult path when it was right. The Revolutionary War was fought not for comfort but for principle. The Civil War preserved a nation and abolished slavery. Now we face a moment when comfort and convenience tempt us to abandon our responsibility to future generations. I ask each of you: Will you answer the call?' What is the speaker's primary rhetorical strategy?",
+      "options": [
+        "Provide statistical evidence to support a policy proposal",
+        "Appeal to historical precedent and shared values to inspire action",
+        "Compare different political ideologies to prove one is superior",
+        "Explain the scientific causes of social change"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The speaker invokes historical examples (Revolutionary War, Civil War) and appeals to shared American values and identity ('greater than ourselves'). This is primarily a strategy of establishing ethos through historical authority and appealing to pathos through inspirational language. The other options describe strategies not evident in the passage."
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "In the sentence 'We shall not retreat from this challenge, we shall not abandon our allies, we shall not accept defeat,' which rhetorical device is most prominent?",
+      "options": [
+        "Parallelism (using the same grammatical structure for similar ideas)",
+        "Anaphora (repetition of a phrase at the start of successive clauses)",
+        "Antithesis (placing contrasting ideas side by side)",
+        "Allusion (reference to a well-known historical or cultural event)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The phrase 'we shall not' is repeated at the start of each clause, creating a rhythmic, emphatic effect. While the sentence also uses parallelism (all clauses have the same structure), the defining and most noticeable device is the repetition of 'we shall not' at the beginning of each clause, which is anaphora."
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A sociological text states: 'Studies show that people who use social media for more than three hours daily report higher levels of anxiety and depression. However, social media also enables connection, community-building, and the rapid spread of important social information. The research is clear: social media has complex effects that cannot be reduced to simple good-or-bad judgments.' Which of the following best describes the author's argument?",
+      "options": [
+        "Social media is entirely harmful to mental health",
+        "Social media has entirely beneficial effects on society",
+        "Social media produces mixed effects whose overall value requires nuanced evaluation",
+        "Social media has no measurable impact on human psychology"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The author presents both negative effects (anxiety, depression) and positive effects (connection, community, information spread), and concludes that effects are 'complex' and cannot be reduced to simplistic judgments. This indicates a nuanced, balanced position that acknowledges both benefits and drawbacks."
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which of the following statements is a reasoned argument rather than a simple opinion?",
+      "options": [
+        "Political speeches are boring",
+        "Kennedy's Inaugural Address was more powerful than Lincoln's Gettysburg Address",
+        "Kennedy's Inaugural Address effectively persuaded the public to support Cold War policies, as evidenced by increased military enlistment and sustained public approval for his foreign policy agenda during his presidency",
+        "Internet use is bad for concentration"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This statement is an opinion (that the speech was 'effective') supported by specific evidence (increased military enlistment and public approval). The other options are simple opinions without supporting evidence or reasoning. A reasoned argument bridges opinion and evidence through logical connection."
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A speaker says: 'I have been a teacher for thirty years. I have seen firsthand how children thrive when they have access to quality education. I have also witnessed the decline in educational resources in our communities. This is not an abstract issue—it is about the lives of real children.' Which appeal is most prominent in this passage?",
+      "options": [
+        "Logos (appeal to statistical evidence and logical reasoning)",
+        "Ethos (appeal to credibility through personal authority and experience)",
+        "Pathos (appeal to emotion through vivid, personal narratives)",
+        "Allusion (reference to a famous historical or cultural moment)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "While the speaker establishes ethos through personal experience ('I have been a teacher for thirty years'), the dominant effect is emotional. The vivid imagery of children thriving or suffering, the shift from abstract to personal ('not an abstract issue'), and the reference to 'real children' are designed to make the audience feel the human stakes. Pathos is the primary appeal here."
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "In Kennedy's Inaugural Address, the phrase 'ask not what your country can do for you; ask what you can do for your country' accomplishes which of the following?",
+      "options": [
+        "Provides a factual statement about government functions",
+        "Establishes the audience's responsibility through reversed grammatical structure and contrast",
+        "Offers statistical evidence for a policy proposal",
+        "Describes a historical precedent from American tradition"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sentence uses both antithesis (contrast between what you ask from your country vs. what you do for your country) and chiasmus (reversal of structure). These devices work together to emphasize the idea of civic duty and responsibility. The reversed structure makes the contrast more memorable and powerful."
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which of the following statements can be verified as a historical fact?",
+      "options": [
+        "JFK was America's greatest president",
+        "JFK's Inaugural Address was the most inspiring political speech ever delivered",
+        "JFK delivered his Inaugural Address on January 20, 1961, at his presidential inauguration",
+        "The themes of JFK's address are more important than those of other political speeches"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This statement is verifiable through historical records and can be confirmed as true. It contains specific, concrete details (date, event) without judgment words. The other options contain subjective judgments ('greatest,' 'most inspiring,' 'more important') and therefore are opinions, not facts."
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A sociological text examines how smartphone use affects face-to-face interaction. The author states: 'Research indicates that in settings where smartphones are visible but not in use, people engage in less meaningful conversation. The presence of the device itself appears to reduce conversational depth. This effect is independent of actual usage.' What does the author imply about smartphone technology?",
+      "options": [
+        "Smartphones are beneficial to human relationships",
+        "Smartphones have no effect on human behavior",
+        "Smartphones may affect human interaction in ways beyond direct usage",
+        "Smartphones are exclusively used for positive communication"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The author presents evidence that merely the PRESENCE of a smartphone affects behavior, even without actual use. This implies that the technology's effect is subtler and more pervasive than simple usage patterns. The author is suggesting that the technology changes behavior in ways beyond intentional use."
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which characteristic is most typical of the structure of a political speech?",
+      "options": [
+        "A logical proof followed by counterarguments and rebuttals",
+        "An opening that establishes connection with the audience, followed by context, central argument, and a call to action",
+        "A detailed historical narrative followed by unrelated contemporary examples",
+        "An abstract philosophical discussion followed by personal anecdotes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The content.md describes the traditional structure of political speeches: exordium (opening connection) → narration (context) → argument (body) → conclusion (call to action). This structure is designed to establish credibility, provide necessary context, build the main argument, and inspire or mobilize the audience."
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A political speech to soldiers about to enter combat includes the following: 'You represent the best of our nation. Your families await your safe return. The cause is just. Victory is within our grasp. I have confidence in your courage and skill.' Which statement from the passage would be classified as an appeal to ethos?",
+      "options": [
+        "'You represent the best of our nation'",
+        "'Your families await your safe return'",
+        "'I have confidence in your courage and skill'",
+        "'Victory is within our grasp'"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This statement establishes the speaker's credibility by expressing confidence in the audience's abilities. It implies the speaker has authority to judge their courage and skill, thus establishing ethos (credibility). The other options appeal to pathos (emotion about families, national identity, victory)."
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "points": 5,
+      "question": "Deep reading and web-based skimming train the brain in fundamentally different ways, according to sociological analyses of technology and cognition.",
+      "correctAnswer": "true",
+      "explanation": "The content.md explains that deep reading trains sustained concentration and careful analysis, while web reading (with hyperlinks and notifications) trains rapid scanning and context-switching. This difference in how the brain engages with text leads to different neural pathway development through neuroplasticity."
+    },
+    {
+      "id": 12,
+      "type": "true-false",
+      "points": 5,
+      "question": "Chiasmus and antithesis are different rhetorical devices that are never used together in the same sentence.",
+      "correctAnswer": "false",
+      "explanation": "Kennedy's 'Ask not what your country can do for you; ask what you can do for your country' uses BOTH chiasmus (reversal of structure) and antithesis (contrast). A single sentence can employ multiple rhetorical devices simultaneously to create a more powerful effect."
+    },
+    {
+      "id": 13,
+      "type": "true-false",
+      "points": 5,
+      "question": "An inference is valid only if it is explicitly stated in the text.",
+      "correctAnswer": "false",
+      "explanation": "An inference is by definition NOT explicitly stated. An inference is a conclusion drawn from evidence in the text but not directly stated. If something is explicitly stated, it is a detail or fact, not an inference. However, a valid inference must be strongly supported by evidence in the text."
+    },
+    {
+      "id": 14,
+      "type": "true-false",
+      "points": 5,
+      "question": "Political speeches typically use neutral, objective language to avoid appearing biased or persuasive.",
+      "correctAnswer": "false",
+      "explanation": "Political speeches are inherently persuasive and rarely maintain neutrality. They employ emotional language, vivid imagery, and passionate tone to inspire and persuade the audience. Objective neutrality would undermine the speech's purpose."
+    },
+    {
+      "id": 15,
+      "type": "fill-in-the-blank",
+      "points": 5,
+      "question": "The rhetorical device of _______________ involves the reversal of grammatical structures in successive phrases to create balance and emphasis, as seen in Kennedy's famous phrase about asking what you can do for your country.",
+      "correctAnswer": "chiasmus",
+      "explanation": "Chiasmus is defined as the reversal of grammatical structure in an A-B / B-A pattern. Kennedy's phrase exemplifies this: 'Ask not what your country can do for you' (A: subject-verb-object) / 'ask what you can do for your country' (B: subject-verb-object, reversed). This reversal creates memorable emphasis."
+    },
+    {
+      "id": 16,
+      "type": "fill-in-the-blank",
+      "points": 5,
+      "question": "The opening section of a political speech, which establishes a connection with the audience and sets the emotional and intellectual tone, is called the _______________.",
+      "correctAnswer": "exordium",
+      "explanation": "The exordium is the formal term for the opening of a speech, derived from classical rhetoric. Its purpose is to establish rapport with the audience and prepare them to receive the speaker's message. The content.md identifies this as the first structural element of political speeches."
+    },
+    {
+      "id": 17,
+      "type": "fill-in-the-blank",
+      "points": 5,
+      "question": "When analyzing sociological texts about technology, the concept of _______________ explains how repeated experiences—such as extensive Internet use—can literally change the structure and function of the human brain.",
+      "correctAnswer": "neuroplasticity",
+      "explanation": "Neuroplasticity is the foundational neuroscientific concept that explains cognitive and behavioral changes resulting from technology use. The passage explains that the brain reorganizes itself in response to repeated activities, which is why Internet habits can affect concentration and attention abilities."
+    },
+    {
+      "id": 18,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Identify and explain one rhetorical device (other than anaphora) that appears in political speeches, and describe how it contributes to the persuasive effect of the speech.",
+      "correctAnswer": "A strong answer should identify one device (antithesis, chiasmus, pathos, ethos, logos, or allusion) and explain its effect. For example: 'Antithesis places contrasting ideas side by side, which emphasizes the choice before the audience and makes the speaker's position more memorable. For instance, contrasting retreat with advance, or self-interest with civic duty, forces the audience to see the stakes clearly.' Answers should show understanding of both the definition and the rhetorical purpose of the device."
+    },
+    {
+      "id": 19,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Based on sociological research about technology and cognition, what can be inferred about the long-term effects of extended Internet use on students' ability to engage with complex texts? Use evidence from the course content to support your answer.",
+      "correctAnswer": "A strong answer should infer that extended Internet use may reduce sustained attention and deep reading capacity, making it harder for students to engage with complex texts. The answer should reference evidence such as: neuroplasticity (brain rewiring in response to activity), the difference between deep reading and web skimming, and research indicating that heavy Internet users show decreased sustained attention. The answer should acknowledge both the inference (not explicitly stated but strongly suggested) and the supporting evidence (neuroplasticity, attention studies, reading habit differences)."
+    },
+    {
+      "id": 20,
+      "type": "fill-in-the-blank",
+      "points": 5,
+      "question": "A _______________ is an opinion supported by evidence and logical reasoning, while a _______________ is a subjective judgment without supporting evidence.",
+      "correctAnswer": "reasoned argument, opinion",
+      "explanation": "A reasoned argument bridges evidence and interpretation, presenting an opinion that is justified by facts and logic. An opinion is a subjective statement that may or may not be supported by evidence. Understanding this distinction helps identify strong vs. weak claims in political and sociological texts."
+    }
+  ]
+}

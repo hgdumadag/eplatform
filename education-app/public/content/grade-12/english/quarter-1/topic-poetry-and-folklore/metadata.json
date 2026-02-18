@@ -1,0 +1,38 @@
+{
+  "id": "grade-12-english-q1-poetry-and-folklore",
+  "grade": 12,
+  "subject": "english",
+  "quarter": 1,
+  "topicName": "Poetry and Folklore",
+  "description": "Analyze Filipino verse, mythology, and poetry using literary devices, tone analysis, and thematic interpretation strategies for UPCAT success.",
+  "learningObjectives": [
+    "Identify and interpret figurative language including metaphor, simile, and personification in poetry",
+    "Analyze tone, mood, and theme in Filipino and world poetry",
+    "Interpret the meaning and educational purpose of myths and folklore",
+    "Apply close reading strategies to unfamiliar poems and folk literature"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": [
+    "poetry",
+    "folklore",
+    "figurative-language",
+    "mythology",
+    "Filipino-verse",
+    "literary-devices",
+    "upcat",
+    "reading-comprehension"
+  ],
+  "prerequisites": [
+    "Basic reading comprehension",
+    "Familiarity with literary devices",
+    "Philippine literature awareness"
+  ],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

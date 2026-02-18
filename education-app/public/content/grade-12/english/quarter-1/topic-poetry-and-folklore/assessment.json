@@ -1,0 +1,218 @@
+{
+  "id": "grade-12-english-q1-poetry-folklore-assessment",
+  "title": "Poetry and Folklore - Assessment Exam",
+  "totalPoints": 100,
+  "timeLimit": 60,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 5,
+      "passage": "The old photograph sits on my shelf, its edges curled with age. My mother's face looks out from decades past—young, hopeful, a stranger to me. I hold it carefully, as though it might crumble, and I wonder what dreams she held before life took its toll.",
+      "question": "What does the photograph symbolize in this passage?",
+      "options": [
+        "The fragility of objects and the importance of preserving them",
+        "The passage of time and the distance between past and present selves",
+        "The mother's vanity and self-centeredness",
+        "The speaker's photographic skill"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 5,
+      "passage": "In the myth of Prometheus, the Titan stole fire from the gods and gave it to humans. The gods, enraged at this theft, punished Prometheus eternally—chaining him to a rock where an eagle ate his liver daily, only for it to regenerate each night, so his agony would be endless.",
+      "question": "What does Prometheus's punishment reveal about the myth's view of power and authority?",
+      "options": [
+        "The gods are merciful and forgiving",
+        "Theft of any kind deserves severe punishment",
+        "Those in power will punish severely anyone who challenges their authority and distributes power to others",
+        "Fire is the most valuable thing in the universe"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 5,
+      "passage": "The morning broke like an egg—golden yolk spilling across the sky, warmth spreading through the world. She had not seen a sunrise in three years. The sight made her weep.",
+      "question": "What is the primary effect of the metaphor 'broke like an egg'?",
+      "options": [
+        "It suggests that the sunrise was fragile and could be broken",
+        "It conveys a sense of rupture and revelation—something precious and sustaining emerging suddenly after darkness",
+        "It indicates that the morning was destructive",
+        "It describes the color of the sky"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 5,
+      "passage": "The city sprawls before me like a sleeping giant, lights twinkling in the darkness like stars fallen to earth. But I remember when these same lights terrified me—when the crowds felt suffocating, the noise unbearable. Now, I see only possibility.",
+      "question": "What tonal shift occurs between the first and second sentences of this passage?",
+      "options": [
+        "The speaker moves from wonder to fear",
+        "The speaker transitions from fear and alienation in the past to appreciation and connection in the present",
+        "The speaker becomes angry at the city",
+        "The speaker indicates that beauty is dangerous"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "points": 5,
+      "passage": "In the beginning, there was only sky and earth, locked in a timeless embrace. They yearned for separation, for space, for individuality. Their passionate striving created the world—mountains rose from their tension, valleys formed from their sighs, and eventually, life emerged from their struggle.",
+      "question": "Which literary device is primary in this creation myth?",
+      "options": [
+        "Alliteration emphasizing celestial sounds",
+        "Personification, attributing human emotions and desires to cosmic forces",
+        "Hyperbole exaggerating the scale of creation",
+        "Irony, contradicting traditional creation stories"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "points": 5,
+      "passage": "She had spent years building walls—walls of silence, walls of distance, walls to keep the world at bay. And then he appeared, patient and steady, asking nothing but her presence. Slowly, brick by brick, the walls came down. In the wreckage, she found herself.",
+      "question": "What does the metaphor of walls contribute to the poem's meaning?",
+      "options": [
+        "It literally describes the speaker's home",
+        "It represents the speaker's emotional barriers created for self-protection, and their gradual dismantling through connection represents vulnerability and healing",
+        "It suggests the speaker is imprisoned and unable to escape",
+        "It indicates that the speaker is a contractor or builder"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "points": 5,
+      "passage": "The feast was spread before the assembled gods. Ambrosia and nectar flowed freely. Yet the youngest god, Prometheus, sat apart, his mind fixed not on the celebration but on the suffering mortals below. 'They freeze in winter. They hunger. They die,' he said quietly. 'It is the natural order,' replied the eldest god. But Prometheus had already decided. He would steal fire.",
+      "question": "What is the primary conflict established in this passage?",
+      "options": [
+        "Between Prometheus and the other gods over the proper way to celebrate",
+        "Between obedience to divine authority and compassion for human suffering",
+        "Between the oldest and youngest gods over who should lead",
+        "Between abundance and scarcity in the divine realm"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "points": 5,
+      "passage": "I remember the scent of my grandmother's kitchen—garlic and ginger, coconut and fish sauce, the sweet smell of rice cooking in the morning. I remember her hands, moving with certainty and grace, knowing each motion by heart. I left that kitchen. I left that town. I left everything. Now, a single scent on the street stops me, and suddenly I am young again, standing beside her at the stove.",
+      "question": "What is the primary purpose of the sensory imagery in this passage?",
+      "options": [
+        "To describe traditional Filipino cooking",
+        "To evoke the emotional power of memory and the way sensory detail can transport us across time to moments of intimacy and belonging",
+        "To criticize the speaker for abandoning their family",
+        "To explain the ingredients used in Filipino cuisine"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "points": 5,
+      "passage": "A bird sang outside my window—three notes, pure and piercing. Once, that song would have annoyed me. Now, in the silence of grief, it sounds like grace.",
+      "question": "What does the tonal shift in this passage reveal?",
+      "options": [
+        "The speaker has become more irritable with age",
+        "The speaker's grief has changed their perception of the world; what once seemed mundane now feels precious and meaningful",
+        "The bird's song has become more beautiful",
+        "The speaker prefers silence to sound"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "points": 5,
+      "passage": "In Philippine folklore, the spirit of the forest (Engkanto) is neither good nor evil—it is wild, unpredictable, and demands respect. Those who take from the forest without offering gratitude face its wrath. Those who treat the forest as sacred and acknowledge its power live in harmony with it.",
+      "question": "What value does this folklore emphasize?",
+      "options": [
+        "That spirits are powerful and humans should fear them",
+        "That reciprocity and respect for nature are essential, and the natural world demands acknowledgment of its power",
+        "That humans should avoid the forest entirely",
+        "That spirits are kind and always protect humans"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "type": "true-false",
+      "points": 5,
+      "statement": "Aetiological myths are myths created solely for entertainment and have no deeper educational purpose.",
+      "correctAnswer": "false"
+    },
+    {
+      "id": "q12",
+      "type": "true-false",
+      "points": 5,
+      "statement": "Hyperbole is deliberate exaggeration used to create emphasis or emotional impact in poetry.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": "q13",
+      "type": "true-false",
+      "points": 5,
+      "statement": "Alliteration is the repetition of vowel sounds within words in a line of poetry.",
+      "correctAnswer": "false"
+    },
+    {
+      "id": "q14",
+      "type": "true-false",
+      "points": 5,
+      "statement": "A symbol's meaning is fixed and universal across all poems and stories.",
+      "correctAnswer": "false"
+    },
+    {
+      "id": "q15",
+      "type": "fill-in-the-blank",
+      "points": 5,
+      "question": "The repetition of initial consonant sounds in nearby words, such as 'Peter Piper picked a peck of pickled peppers,' is called _____.",
+      "correctAnswer": "alliteration"
+    },
+    {
+      "id": "q16",
+      "type": "fill-in-the-blank",
+      "points": 5,
+      "question": "A _____ is a comparison using 'like' or 'as,' while a _____ is a direct comparison without these words.",
+      "correctAnswer": "simile; metaphor"
+    },
+    {
+      "id": "q17",
+      "type": "fill-in-the-blank",
+      "points": 5,
+      "question": "In a poem, the _____ is the voice delivering the poem—not necessarily the poet themselves, but a character created by the poet.",
+      "correctAnswer": "speaker"
+    },
+    {
+      "id": "q18",
+      "type": "fill-in-the-blank",
+      "points": 5,
+      "question": "_____ is vivid, sensory language that appeals to sight, sound, smell, taste, or touch, creating a sensory experience for the reader.",
+      "correctAnswer": "Imagery"
+    },
+    {
+      "id": "q19",
+      "type": "short-answer",
+      "points": 5,
+      "question": "Identify a mythological allusion you are familiar with and explain what it represents. For example, 'Achilles heel' or 'Pandora's box.'",
+      "correctAnswer": "Example: 'Narcissus' refers to excessive self-love or vanity, originating from the Greek myth of Narcissus who fell in love with his own reflection and was transformed into a flower. This allusion is used to describe people who are excessively focused on themselves or their appearance."
+    },
+    {
+      "id": "q20",
+      "type": "short-answer",
+      "points": 5,
+      "question": "Explain how understanding the speaker's identity and situation is important when interpreting a poem. Use 2-3 sentences.",
+      "correctAnswer": "The speaker is the voice delivering the poem, which may not be the poet themselves. Understanding who the speaker is, what their emotional state is, and what situation they are in provides crucial context for interpreting the poem's meaning and tone. The same words spoken by different speakers in different situations can have vastly different meanings, so identifying the speaker helps us understand the poet's intended message."
+    }
+  ]
+}

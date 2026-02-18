@@ -1,0 +1,264 @@
+{
+  "title": "Vocabulary in Context - Assessment Exam",
+  "totalPoints": 100,
+  "totalQuestions": 20,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "In the sentence 'The underground tunnel served as a conduit for refugees fleeing the war zone,' what does 'conduit' mean?",
+      "options": [
+        "A fortified shelter built underground",
+        "A passage or channel through which something is transmitted or transported",
+        "A system of electricity wires and cables",
+        "A meeting place for smugglers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The context shows that refugees use the tunnel to escape (to be transported to safety). A conduit is a channel or means of transmitting or transporting something. Option B is correct. Option A describes the structure but not the function, Option C is overly specific to one type of conduit, and Option D is not supported by the context."
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Read the passage: 'The endangered Palawan peacock pheasant occupies a narrow ecological niche in the dense rainforests of the Philippines, where it has adapted to a specific diet and breeding pattern.' The word 'niche' most nearly means:",
+      "options": [
+        "A rare and valuable animal",
+        "A specialized role or position within an ecosystem",
+        "A small, enclosed space protected from danger",
+        "A place where an animal hides from predators"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage describes the pheasant's 'specific role' (adapted diet and breeding pattern) in its ecosystem (rainforest). Option B correctly defines niche as a specialized role. Option A confuses rarity with niche role, Option C is too literal (small space), and Option D is incomplete (hiding is not a niche, function within an ecosystem is)."
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "In the passage 'While most ancient civilizations left behind crumbling ruins, the Nabataean cities remain extant, their architecture still standing and visible today,' 'extant' most nearly means:",
+      "options": [
+        "Destroyed or demolished",
+        "Still in existence and surviving to the present",
+        "Famous and well-documented in historical records",
+        "Built using advanced engineering techniques"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The contrast 'While most...left behind crumbling ruins...remain extant' indicates that extant is the opposite of ruined. The phrase 'still standing and visible today' further confirms that extant means still in existence. Option B is correct. Option A contradicts the passage, Option C is not indicated by 'standing and visible,' and Option D is not supported by the context."
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Read the passage: 'The pandemic required an empirical approach to policy-making, with decisions grounded in data from testing, medical research, and epidemiological studies rather than speculation.' As used in the passage, 'empirical' most nearly means:",
+      "options": [
+        "Based on tradition and historical precedent",
+        "Determined by political ideology rather than facts",
+        "Based on observation, measurement, and data rather than theory alone",
+        "Requiring consultation with international experts"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage defines empirical through examples: 'data from testing, medical research, and epidemiological studies.' The contrast with 'speculation' further clarifies that empirical means based on measurable evidence. Option C is correct. Option A represents the opposite (tradition vs. observation), Option B is contrary to the passage's meaning, and Option D adds a requirement not mentioned in the text."
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "In the sentence 'The ephemeral popularity of the trending hashtag lasted only three days before being replaced by another,' what is the significance of calling the popularity 'ephemeral'?",
+      "options": [
+        "It shows the trend was meaningful and important",
+        "It emphasizes that the trend was temporary and short-lived",
+        "It suggests the trend would return in the future",
+        "It indicates the trend affected millions of people"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage shows that the trend lasted 'only three days' before being replaced. The word 'ephemeral' underscores this brief duration. Option B correctly identifies the word's significance. Option A contradicts the emphasis on brevity, Option C suggests return (not mentioned), and Option D addresses impact (not mentioned in the definition)."
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Read the passage: 'The government implemented new regulations to mitigate the harmful effects of carbon emissions on the atmosphere.' As used in the passage, 'mitigate' most nearly means:",
+      "options": [
+        "To completely stop or eliminate",
+        "To study or investigate the causes of",
+        "To make less severe or reduce the seriousness of",
+        "To delay or postpone indefinitely"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The context 'mitigate the harmful effects' indicates that the goal is to reduce or lessen the harm, not eliminate it completely. Option C is correct. Option A is too extreme, Option B misrepresents the word as a research term, and Option D suggests avoidance rather than reduction."
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "In the sentence 'The company faced a disparity in pay between male and female employees earning the same salary,' what does 'disparity' mean?",
+      "options": [
+        "Disagreement or conflict between groups",
+        "A significant difference or inequality",
+        "A misunderstanding or miscommunication",
+        "An intentional plan to reduce costs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The context describes a difference in treatment (pay gap) despite equivalent work (same salary). This defines disparity as a significant difference or inequality. Option B is correct. Option A focuses on interpersonal conflict, Option C suggests miscommunication, and Option D introduces motive not mentioned in the passage."
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Read the passage: 'The invention of antibiotics was a catalyst for the modern medical revolution, enabling the treatment of bacterial infections that had previously been fatal.' As used in the passage, 'catalyst' most nearly means:",
+      "options": [
+        "A side effect or unintended consequence",
+        "An agent or event that triggers or accelerates major change",
+        "A scientific discovery made by accident",
+        "A historical period of rapid industrial growth"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage shows that antibiotics 'triggered' the medical revolution by enabling treatment of previously fatal infections. This context indicates that a catalyst is something that causes or accelerates major change. Option B is correct. Option A describes side effects, Option C conflates accident with causation, and Option D describes a historical era, not the trigger."
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "In the sentence 'The teacher's ambiguous feedback left students uncertain about whether they had performed well or poorly,' what is the effect of the feedback being 'ambiguous'?",
+      "options": [
+        "It motivates students to work harder",
+        "It creates confusion because it can be understood in multiple ways",
+        "It provides specific guidance for improvement",
+        "It demonstrates the teacher's high standards"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The passage shows that ambiguous feedback leaves students 'uncertain,' unable to determine a clear meaning. Option B correctly identifies that ambiguity creates confusion due to multiple possible interpretations. Option A suggests motivation (not mentioned), Option C contradicts the idea that feedback is unclear, and Option D attributes judgment not implied by the text."
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Read the passage: 'The historian presented a lucid account of the revolution, explaining the complex political forces and social movements in language that even high school students could easily understand.' As used in the passage, 'lucid' most nearly means:",
+      "options": [
+        "Detailed and comprehensive in scope",
+        "Critical and questioning of official narratives",
+        "Expressed in a clear and easily understood manner",
+        "Based on primary sources and archival research"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The passage emphasizes that the explanation was accessible: 'even high school students could easily understand.' This indicates that lucid means clear and easy to understand. Option C is correct. Option A focuses on scope rather than clarity, Option B introduces bias not mentioned, and Option D describes research methods, not presentation clarity."
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "points": 5,
+      "question": "In the sentence 'The paleontologist studied paleobotany to understand the flora of ancient ecosystems,' the prefix 'paleo-' indicates a focus on recent or contemporary organisms.",
+      "correctAnswer": "false",
+      "explanation": "The prefix 'paleo-' means ancient or prehistoric. The passage mentions 'paleobotany' (study of ancient plants) and 'ancient ecosystems,' which clearly show that paleo- refers to the distant past, not to recent or contemporary life."
+    },
+    {
+      "id": 12,
+      "type": "true-false",
+      "points": 5,
+      "question": "The word 'matter' can refer to a physical substance, but it can also mean 'to be important or significant,' as in the sentence 'Your opinion matters.'",
+      "correctAnswer": "true",
+      "explanation": "The word 'matter' has multiple meanings. It can denote a physical substance (noun: 'organic matter'), or it can mean to be of importance (verb: 'Your vote matters'). Context determines which meaning is being used."
+    },
+    {
+      "id": 13,
+      "type": "true-false",
+      "points": 5,
+      "question": "In the sentence 'The rupture in the water main flooded the street,' the word 'rupture' contains the root 'rupt,' which means 'to break.'",
+      "correctAnswer": "true",
+      "explanation": "The root 'rupt' indeed means 'to break.' In this sentence, 'rupture' means a breaking or bursting of the water main. Other words with this root include 'disrupt' (to break up), 'interrupt' (to break into), and 'abrupt' (broken off suddenly)."
+    },
+    {
+      "id": 14,
+      "type": "true-false",
+      "points": 5,
+      "question": "The words 'economical' and 'cheap' are exact synonyms because they both refer to low cost.",
+      "correctAnswer": "false",
+      "explanation": "While both words relate to low cost, they are not exact synonyms. 'Economical' has a neutral-to-positive connotation (wise resource management), while 'cheap' has a negative connotation (low quality or miserly behavior). Connotation, not just denotation, matters when choosing between synonyms."
+    },
+    {
+      "id": 15,
+      "type": "fill-in",
+      "points": 5,
+      "question": "In the sentence 'The ancient settlement's location on the river was strategic, providing a conduit for ________ and ________ with neighboring communities,' the word 'conduit' refers to the river's role as a channel for transmitting goods or information.",
+      "blankPosition": "end",
+      "acceptableAnswers": [
+        "trade/communication",
+        "commerce/information",
+        "goods/ideas",
+        "trade/interaction",
+        "commerce/exchange",
+        "goods/communication"
+      ],
+      "explanation": "The context shows that conduit refers to a channel through which something passes. The blanks should be filled with things that would logically travel via a river between communities. Trade, commerce, goods, communication, information, and interaction all fit this meaning."
+    },
+    {
+      "id": 16,
+      "type": "fill-in",
+      "points": 5,
+      "question": "The prefix 'trans-' means 'across' or 'through,' so the word 'transport' means to ________ something across a distance, and 'translate' means to ________ something from one language to another.",
+      "blankPosition": "end",
+      "acceptableAnswers": [
+        "carry/convert",
+        "move/change",
+        "convey/convert",
+        "carry/transfer",
+        "move/translate",
+        "transfer/convert"
+      ],
+      "explanation": "Understanding the prefix 'trans-' allows you to see that both words involve moving or transferring something across a barrier or boundary (distance in transport; language barrier in translate). Acceptable answers show comprehension of both the root meaning and how it applies in each word."
+    },
+    {
+      "id": 17,
+      "type": "fill-in",
+      "points": 5,
+      "question": "In the sentence 'The entrepreneur's pragmatic approach—focusing on realistic market conditions rather than idealistic fantasies—ensured the startup's ________ ,' the word 'pragmatic' is defined through ________ , showing a clear contrast with ideology.",
+      "blankPosition": "end",
+      "acceptableAnswers": [
+        "success/contrast",
+        "viability/contrast",
+        "profitability/contrast",
+        "survival/contrast",
+        "growth/opposition",
+        "success/antonym"
+      ],
+      "explanation": "The passage explicitly contrasts pragmatic with 'idealistic fantasies,' and defines pragmatic as focusing on 'realistic market conditions.' The first blank should be filled with a positive outcome that results from pragmatism. The second blank identifies that the context clue is a contrast between pragmatic and idealistic approaches."
+    },
+    {
+      "id": 18,
+      "type": "short-answer",
+      "points": 5,
+      "question": "In the sentence 'The novel approach to teaching mathematics transformed how students understood complex concepts,' does 'novel' refer to a work of fiction or to something original? Explain your reasoning using context clues.",
+      "acceptableAnswers": [
+        "Novel refers to something original or new. The context shows that novel is being used as an adjective modifying 'approach,' and it describes how the approach 'transformed' understanding, indicating newness and originality.",
+        "It means original/new. The word modifies 'approach' and is used in a context about teaching innovation, not literature. The effect ('transformed how students understood') shows the approach was groundbreaking and new.",
+        "Novel here means new or innovative. In context, it is describing an educational method that changed student learning, not a book. The adjective form of novel (meaning 'strikingly original') is the correct meaning."
+      ],
+      "explanation": "The correct answer identifies that 'novel' means original or new (not a book) AND uses context clues to justify this interpretation (it modifies 'approach'; the effect was transformative; it is used in an educational context, not literary). This demonstrates understanding of multiple word meanings and context-based selection."
+    },
+    {
+      "id": 19,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Explain what the Latin root 'dict' means and provide three English words containing this root. For each word, briefly explain how the root meaning contributes to the word's overall meaning.",
+      "acceptableAnswers": [
+        "Dict means 'to say' or 'to speak.' Words: predict (to say beforehand), contradict (to speak against), dictate (to speak for others to record). Each word shows the root's meaning applied to a different context of speaking or communication.",
+        "Dict means 'speak' or 'say.' Examples: predict (speaking before it happens), contradict (saying the opposite), dictionary (a collection of words that are 'said' or defined). The root relates to communication in each case.",
+        "Dict = speak/say. Predict: to say what will happen. Contradict: to say against something. Dictate: to speak orders. Each applies the speaking root to different situations."
+      ],
+      "explanation": "The correct answer identifies the root meaning ('say' or 'speak') AND provides three valid words AND explains how the root contributes to each word's meaning. This demonstrates mastery of using roots to understand word families and decode unfamiliar vocabulary."
+    },
+    {
+      "id": 20,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Read the passage: 'The philosopher's argument was convoluted and full of ambiguous terms, making it difficult for readers to understand her position.' Compare the connotations of 'convoluted' and 'pragmatic.' Which word has a more negative connotation, and why? How would the passage's tone change if 'convoluted' were replaced with 'pragmatic'?",
+      "acceptableAnswers": [
+        "Convoluted has a negative connotation (suggesting unnecessarily complex or confusing), while pragmatic has a neutral-positive connotation (realistic and practical). If 'pragmatic' replaced 'convoluted,' the passage would shift from criticizing the philosopher's unclear reasoning to praising her realistic approach. The tone would become positive instead of negative.",
+        "Convoluted implies fault or weakness—it criticizes complexity. Pragmatic is positive—it describes practical thinking. The original passage blames the philosopher for being unclear; replacing it would make the passage praise her for being practical and clear. The tone changes from negative to positive.",
+        "Convoluted (negative): complex, hard to follow. Pragmatic (positive/neutral): practical, realistic. Original tone criticizes the philosopher. With pragmatic, the tone would praise her. Convoluted has the more negative connotation."
+      ],
+      "explanation": "The correct answer identifies the connotations of both words (convoluted = negative; pragmatic = neutral-positive) AND explains the tone shift that would occur from replacement. This demonstrates understanding that connotation affects tone and that word choice shapes meaning and message in context."
+    }
+  ]
+}
