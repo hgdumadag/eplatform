@@ -149,7 +149,7 @@ export function ExamViewer() {
 
   if (loading) {
     return (
-      <div className="exam-viewer">
+      <div className="exam-viewer exam-mode">
         <div className="exam-loading">Loading exam...</div>
       </div>
     );
@@ -157,7 +157,7 @@ export function ExamViewer() {
 
   if (error || !exam) {
     return (
-      <div className="exam-viewer">
+      <div className="exam-viewer exam-mode">
         <div className="exam-error">
           <h2>Error Loading Exam</h2>
           <p>{error || 'Exam not found'}</p>
@@ -173,7 +173,7 @@ export function ExamViewer() {
     const passed = score >= exam.passingScore;
 
     return (
-      <div className="exam-viewer">
+      <div className="exam-viewer results-mode">
         <div className="exam-results">
           <h1>Exam Results</h1>
           <div className={`score-display ${passed ? 'passed' : 'failed'}`}>
@@ -315,7 +315,7 @@ export function ExamViewer() {
   }
 
   return (
-    <div className="exam-viewer">
+    <div className="exam-viewer exam-mode">
       <div className="exam-header">
         <h1>{exam.title}</h1>
         <p className="exam-description">{exam.description}</p>
