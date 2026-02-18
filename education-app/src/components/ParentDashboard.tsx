@@ -35,7 +35,12 @@ interface LessonSummary {
 export function ParentDashboard() {
   const navigate = useNavigate();
   const { children } = useChildStore();
-  const { children: progressData, exportProgress, importProgress } = useProgressStore();
+  const {
+    children: progressData,
+    exportProgress,
+    importProgress,
+    loadChildProgress,
+  } = useProgressStore();
   const { currentUser } = useUserStore();
   const { assignTopic, unassignTopic, getAssignments, isAssigned } = useAssignmentStore();
   const [lessons, setLessons] = useState<LessonSummary[]>([]);
@@ -62,6 +67,13 @@ export function ParentDashboard() {
       unsubscribe();
     };
   }, []);
+
+  useEffect(() => {
+    if (!selectedChildId) {
+      return;
+    }
+    void loadChildProgress(selectedChildId);
+  }, [selectedChildId, loadChildProgress]);
 
   // Update selected subject when child changes
   useEffect(() => {

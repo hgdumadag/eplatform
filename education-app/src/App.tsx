@@ -1,6 +1,9 @@
+import { useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useChildStore } from './stores/childStore';
 import { useUserStore } from './stores/userStore';
+import { useProgressStore } from './stores/progressStore';
+import { useAssignmentStore } from './stores/assignmentStore';
 import { Layout } from './components/Layout';
 import { Login } from './components/Login';
 import { ChildSelector } from './components/ChildSelector';
@@ -24,7 +27,7 @@ function ParentProtectedRoute({ children }: { children: React.ReactNode }) {
   if (!currentUser) {
     return <Navigate to="/login" replace />;
   }
-  if (currentUser.role !== 'parent') {
+  if (currentUser.role !== 'parent' && currentUser.role !== 'admin') {
     return <Navigate to="/" replace />;
   }
   return <>{children}</>;
@@ -39,7 +42,7 @@ function ChildSelectedRoute({ children }: { children: React.ReactNode }) {
   }
 
   // Children auto-select their child, but parents might not have one selected
-  if (currentUser.role === 'parent' && !activeChild) {
+  if ((currentUser.role === 'parent' || currentUser.role === 'admin') && !activeChild) {
     return <Navigate to="/select-child" replace />;
   }
 
@@ -47,6 +50,49 @@ function ChildSelectedRoute({ children }: { children: React.ReactNode }) {
 }
 
 function App() {
+  const { currentUser, isAuthReady, initializeAuth } = useUserStore();
+  const { children, activeChild, loadChildren, selectChild } = useChildStore();
+  const { setActiveChild, loadChildProgress } = useProgressStore();
+  const { loadAssignments } = useAssignmentStore();
+
+  useEffect(() => {
+    void initializeAuth();
+  }, [initializeAuth]);
+
+  useEffect(() => {
+    if (!currentUser) {
+      return;
+    }
+    void loadChildren(currentUser.id, currentUser.role);
+  }, [currentUser, loadChildren]);
+
+  useEffect(() => {
+    if (!currentUser || currentUser.role !== 'child' || !currentUser.assignedChildId) {
+      return;
+    }
+    selectChild(currentUser.assignedChildId);
+    setActiveChild(currentUser.assignedChildId);
+  }, [currentUser, selectChild, setActiveChild]);
+
+  useEffect(() => {
+    if (children.length === 0) {
+      useAssignmentStore.setState({ assignments: {} });
+      return;
+    }
+    void loadAssignments(children.map((child) => child.id));
+  }, [children, loadAssignments]);
+
+  useEffect(() => {
+    if (!activeChild?.id) {
+      return;
+    }
+    void loadChildProgress(activeChild.id);
+  }, [activeChild, loadChildProgress]);
+
+  if (!isAuthReady) {
+    return <div className="loading">Loading session...</div>;
+  }
+
   return (
     <BrowserRouter>
       <Routes>

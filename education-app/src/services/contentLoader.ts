@@ -72,11 +72,6 @@ export class ContentLoader {
     lessonId: string,
     content: string,
   ): Promise<ResolvedContent> {
-    const uploadedLesson = await uploadedContentStore.getLesson(lessonId);
-    if (!uploadedLesson) {
-      return { content, objectUrls: [] };
-    }
-
     const assetPaths = new Set<string>();
 
     content.replace(MARKDOWN_IMAGE_REGEX, (_, __, rawPath) => {

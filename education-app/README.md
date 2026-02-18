@@ -25,6 +25,15 @@ npm run dev
 # Open browser to http://localhost:5173
 ```
 
+## Supabase Setup (Vercel/Production)
+
+1. Copy `.env.example` to `.env` and set:
+   - `VITE_SUPABASE_URL`
+   - `VITE_SUPABASE_ANON_KEY`
+2. Run the SQL migration in `supabase/migrations/20260218123000_init_vercel_supabase_schema.sql`.
+3. Ensure Supabase Auth users exist and each has a matching `profiles` row.
+4. Create `children` rows and link them through `parent_children` / `child_accounts`.
+
 ## Project Structure
 
 ```

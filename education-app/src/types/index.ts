@@ -74,6 +74,7 @@ export interface ProgressState {
     lessons: Record<string, LessonProgress>;
   }>;
   setActiveChild: (childId: string) => void;
+  loadChildProgress: (childId: string) => Promise<void>;
   clearActiveChild: () => void;
   markComplete: (lessonId: string) => void;
   markStarted: (lessonId: string) => void;
@@ -90,6 +91,7 @@ export interface ProgressState {
 export interface ChildState {
   children: Child[];
   activeChild: Child | null;
+  loadChildren: (userId: string, role: 'parent' | 'child' | 'admin') => Promise<void>;
   selectChild: (childId: string) => void;
   clearActiveChild: () => void;
   getChild: (childId: string) => Child | undefined;

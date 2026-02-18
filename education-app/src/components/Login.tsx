@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useUserStore } from '../stores/userStore';
+import { isSupabaseConfigured } from '../lib/supabase';
 import './Login.css';
 
 export const Login: React.FC = () => {
@@ -41,29 +42,21 @@ export const Login: React.FC = () => {
           // Navigate based on role
           if (currentUser.role === 'child') {
             navigate('/');
-          } else if (currentUser.role === 'parent') {
+          } else if (currentUser.role === 'parent' || currentUser.role === 'admin') {
             navigate('/select-child');
           }
         }
       } else {
-        // Handle login failure
-        if (!password && username.trim()) {
-          // Might be a parent trying to login without password
-          setError('Incorrect username or password. Parents need a password.');
+        if (isSupabaseConfigured && !password) {
+          setError('Please enter your password.');
         } else {
-          setError('Incorrect username or password');
+          setError('Incorrect login credentials.');
         }
         setLoading(false);
       }
-    } catch (err) {
+    } catch {
       setError('An unexpected error occurred');
       setLoading(false);
-    }
-  };
-
-  const handleKeyPress = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter') {
-      handleSubmit(e as any);
     }
   };
 
@@ -82,8 +75,7 @@ export const Login: React.FC = () => {
               type="text"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
-              onKeyPress={handleKeyPress}
-              placeholder="Enter your username"
+              placeholder={isSupabaseConfigured ? 'Enter your email' : 'Enter your username'}
               disabled={loading}
               required
               className="form-input"
@@ -97,15 +89,16 @@ export const Login: React.FC = () => {
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              onKeyPress={handleKeyPress}
-              placeholder="Enter password (optional for children)"
+              placeholder={isSupabaseConfigured ? 'Enter your password' : 'Enter password (optional for children)'}
               disabled={loading}
               className="form-input"
             />
           </div>
 
           <p className="help-text">
-            Note: Children enter username only. Parents need password.
+            {isSupabaseConfigured
+              ? 'Use your Supabase account email and password.'
+              : 'Note: Children enter username only. Parents need password.'}
           </p>
 
           {error && (

@@ -2,8 +2,14 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { ProgressState, ExamAttempt, LessonProgress } from '../types';
 import { normalizeLessonKey, tryTopicPrefixedVariant } from '../utils/lessonKey';
+import { isSupabaseConfigured, requireSupabase } from '../lib/supabase';
+import { ensureLessonIdByKey, getLessonKeysByIds } from '../services/lessonCatalogService';
 
 const PROGRESS_STORE_VERSION = 2;
+
+function isUuid(value: string): boolean {
+  return /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(value);
+}
 
 function mergeLessonProgress(primary: LessonProgress, secondary: LessonProgress): LessonProgress {
   const mergedAttempts = [...(primary.examAttempts || []), ...(secondary.examAttempts || [])];
@@ -33,7 +39,7 @@ function mergeLessonProgress(primary: LessonProgress, secondary: LessonProgress)
 function normalizeChildLessons(lessons: Record<string, LessonProgress>): Record<string, LessonProgress> {
   const normalizedLessons: Record<string, LessonProgress> = {};
 
-  for (const [rawLessonId, progress] of Object.entries(lessons || {})) {
+  Object.entries(lessons || {}).forEach(([rawLessonId, progress]) => {
     const canonicalLessonId = normalizeLessonKey(rawLessonId);
     const normalizedProgress: LessonProgress = {
       ...progress,
@@ -50,11 +56,10 @@ function normalizeChildLessons(lessons: Record<string, LessonProgress>): Record<
         normalizedProgress,
       );
     }
-  }
+  });
 
-  for (const lessonId of Object.keys(normalizedLessons)) {
+  Object.keys(normalizedLessons).forEach((lessonId) => {
     const prefixedVariant = tryTopicPrefixedVariant(lessonId);
-
     if (prefixedVariant && normalizedLessons[prefixedVariant]) {
       normalizedLessons[prefixedVariant] = mergeLessonProgress(
         normalizedLessons[prefixedVariant],
@@ -62,15 +67,15 @@ function normalizeChildLessons(lessons: Record<string, LessonProgress>): Record<
       );
       delete normalizedLessons[lessonId];
     }
-  }
+  });
 
-  for (const [lessonId, progress] of Object.entries(normalizedLessons)) {
+  Object.entries(normalizedLessons).forEach(([lessonId, progress]) => {
     progress.lessonId = lessonId;
     progress.examAttempts = progress.examAttempts.map((attempt) => ({
       ...attempt,
       lessonId,
     }));
-  }
+  });
 
   return normalizedLessons;
 }
@@ -87,7 +92,7 @@ function normalizePersistedState(state: unknown): Pick<ProgressState, 'activeChi
 
   const children: ProgressState['children'] = {};
 
-  for (const [childId, childProgress] of Object.entries(rawChildren)) {
+  Object.entries(rawChildren).forEach(([childId, childProgress]) => {
     const lessons = childProgress?.lessons && typeof childProgress.lessons === 'object'
       ? childProgress.lessons
       : {};
@@ -95,7 +100,7 @@ function normalizePersistedState(state: unknown): Pick<ProgressState, 'activeChi
     children[childId] = {
       lessons: normalizeChildLessons(lessons),
     };
-  }
+  });
 
   return {
     activeChildId: typeof typedState.activeChildId === 'string' ? typedState.activeChildId : null,
@@ -120,10 +125,66 @@ function resolveLessonIdForChild(
   return canonicalLessonId;
 }
 
-/**
- * Progress tracking store using Zustand
- * Tracks progress per child, persists to localStorage automatically
- */
+async function saveLessonProgressToSupabase(childId: string, progress: LessonProgress): Promise<void> {
+  if (!isSupabaseConfigured) {
+    return;
+  }
+
+  const lessonDbId = await ensureLessonIdByKey(progress.lessonId);
+  if (!lessonDbId) {
+    return;
+  }
+
+  const supabase = requireSupabase();
+  await supabase
+    .from('lesson_progress')
+    .upsert(
+      {
+        child_id: childId,
+        lesson_id: lessonDbId,
+        started_at: progress.startedAt || null,
+        completed_at: progress.completedAt || null,
+        completed: progress.completed,
+        time_spent_minutes: progress.timeSpent || 0,
+        best_score: progress.bestScore ?? null,
+      },
+      { onConflict: 'child_id,lesson_id' },
+    );
+}
+
+async function saveExamAttemptToSupabase(childId: string, attempt: ExamAttempt): Promise<void> {
+  if (!isSupabaseConfigured) {
+    return;
+  }
+
+  const lessonDbId = await ensureLessonIdByKey(attempt.lessonId);
+  if (!lessonDbId) {
+    return;
+  }
+
+  const supabase = requireSupabase();
+  const payload: Record<string, unknown> = {
+    child_id: childId,
+    lesson_id: lessonDbId,
+    exam_type: attempt.examType,
+    started_at: attempt.startedAt,
+    completed_at: attempt.completedAt || null,
+    score: attempt.score ?? null,
+    total_points: attempt.totalPoints ?? null,
+    passed: attempt.passed ?? null,
+    time_spent_minutes: attempt.timeSpent ?? 0,
+    answers: attempt.answers,
+    released: attempt.released ?? false,
+    released_at: attempt.releasedAt ?? null,
+  };
+
+  if (isUuid(attempt.attemptId)) {
+    payload.id = attempt.attemptId;
+  }
+
+  await supabase.from('exam_attempts').insert(payload);
+}
+
 export const useProgressStore = create<ProgressState>()(
   persist(
     (set, get) => ({
@@ -131,18 +192,141 @@ export const useProgressStore = create<ProgressState>()(
       children: {},
 
       setActiveChild: (childId: string) => {
-        set({ activeChildId: childId });
-        set((state) => {
-          if (!state.children[childId]) {
-            return {
-              children: {
+        set((state) => ({
+          activeChildId: childId,
+          children: state.children[childId]
+            ? state.children
+            : {
                 ...state.children,
                 [childId]: { lessons: {} },
               },
+        }));
+
+        void get().loadChildProgress(childId);
+      },
+
+      loadChildProgress: async (childId: string) => {
+        if (!childId) {
+          return;
+        }
+
+        if (!isSupabaseConfigured) {
+          set((state) => ({
+            children: state.children[childId]
+              ? state.children
+              : {
+                  ...state.children,
+                  [childId]: { lessons: {} },
+                },
+          }));
+          return;
+        }
+
+        const supabase = requireSupabase();
+        const lessonProgressResult = await supabase
+          .from('lesson_progress')
+          .select('lesson_id, started_at, completed_at, completed, time_spent_minutes, best_score')
+          .eq('child_id', childId);
+
+        if (lessonProgressResult.error) {
+          return;
+        }
+
+        const progressRows = lessonProgressResult.data || [];
+        const lessonIds = progressRows.map((row) => row.lesson_id);
+        const lessonKeyMap = await getLessonKeysByIds(lessonIds);
+
+        const attemptResult = await supabase
+          .from('exam_attempts')
+          .select(
+            'id, lesson_id, exam_type, started_at, completed_at, answers, score, total_points, passed, time_spent_minutes, released, released_at',
+          )
+          .eq('child_id', childId)
+          .order('created_at', { ascending: false });
+
+        const attemptsByLesson: Record<string, ExamAttempt[]> = {};
+
+        if (!attemptResult.error && attemptResult.data) {
+          const attemptLessonIds = attemptResult.data.map((row) => row.lesson_id);
+          const attemptLessonKeyMap = await getLessonKeysByIds(attemptLessonIds);
+
+          attemptResult.data.forEach((row) => {
+            const lessonKey = attemptLessonKeyMap[row.lesson_id];
+            if (!lessonKey) {
+              return;
+            }
+
+            const answers = row.answers && typeof row.answers === 'object'
+              ? (row.answers as Record<string, string | number>)
+              : {};
+
+            const mappedAttempt: ExamAttempt = {
+              attemptId: row.id,
+              lessonId: lessonKey,
+              examType: row.exam_type,
+              startedAt: row.started_at,
+              completedAt: row.completed_at || undefined,
+              answers,
+              score: row.score ?? undefined,
+              totalPoints: row.total_points ?? undefined,
+              passed: row.passed ?? undefined,
+              timeSpent: row.time_spent_minutes ?? undefined,
+              released: row.released ?? undefined,
+              releasedAt: row.released_at ?? undefined,
             };
+
+            if (!attemptsByLesson[lessonKey]) {
+              attemptsByLesson[lessonKey] = [];
+            }
+            attemptsByLesson[lessonKey].push(mappedAttempt);
+          });
+        }
+
+        const loadedLessons: Record<string, LessonProgress> = {};
+
+        progressRows.forEach((row) => {
+          const lessonKey = lessonKeyMap[row.lesson_id];
+          if (!lessonKey) {
+            return;
           }
-          return state;
+
+          loadedLessons[lessonKey] = {
+            lessonId: lessonKey,
+            completed: row.completed,
+            startedAt: row.started_at || undefined,
+            completedAt: row.completed_at || undefined,
+            timeSpent: row.time_spent_minutes || 0,
+            examAttempts: attemptsByLesson[lessonKey] || [],
+            bestScore: row.best_score ?? undefined,
+          };
         });
+
+        Object.entries(attemptsByLesson).forEach(([lessonKey, attempts]) => {
+          if (loadedLessons[lessonKey]) {
+            return;
+          }
+
+          const scores = attempts
+            .map((attempt) => attempt.score)
+            .filter((score): score is number => score !== undefined);
+
+          loadedLessons[lessonKey] = {
+            lessonId: lessonKey,
+            completed: false,
+            timeSpent: 0,
+            examAttempts: attempts,
+            bestScore: scores.length > 0 ? Math.max(...scores) : undefined,
+          };
+        });
+
+        set((state) => ({
+          children: {
+            ...state.children,
+            [childId]: {
+              lessons: normalizeChildLessons(loadedLessons),
+            },
+          },
+        }));
       },
 
       clearActiveChild: () => {
@@ -151,16 +335,29 @@ export const useProgressStore = create<ProgressState>()(
 
       markStarted: (lessonId: string) => {
         const { activeChildId } = get();
-        if (!activeChildId) return;
+        if (!activeChildId) {
+          return;
+        }
 
+        let updatedProgress: LessonProgress | null = null;
         set((state) => {
           const childProgress = state.children[activeChildId];
           const resolvedLessonId = resolveLessonIdForChild(childProgress?.lessons || {}, lessonId);
           const existing = childProgress?.lessons[resolvedLessonId];
 
           if (existing && existing.startedAt) {
+            updatedProgress = existing;
             return state;
           }
+
+          updatedProgress = {
+            lessonId: resolvedLessonId,
+            completed: false,
+            startedAt: new Date().toISOString(),
+            timeSpent: existing?.timeSpent || 0,
+            examAttempts: existing?.examAttempts || [],
+            bestScore: existing?.bestScore,
+          };
 
           return {
             children: {
@@ -168,55 +365,64 @@ export const useProgressStore = create<ProgressState>()(
               [activeChildId]: {
                 lessons: {
                   ...childProgress?.lessons,
-                  [resolvedLessonId]: {
-                    lessonId: resolvedLessonId,
-                    completed: false,
-                    startedAt: new Date().toISOString(),
-                    timeSpent: 0,
-                    examAttempts: [],
-                  },
+                  [resolvedLessonId]: updatedProgress,
                 },
               },
             },
           };
         });
+
+        if (updatedProgress) {
+          void saveLessonProgressToSupabase(activeChildId, updatedProgress);
+        }
       },
 
       markComplete: (lessonId: string) => {
         const { activeChildId } = get();
-        if (!activeChildId) return;
+        if (!activeChildId) {
+          return;
+        }
 
+        let updatedProgress: LessonProgress | null = null;
         set((state) => {
           const childProgress = state.children[activeChildId];
           const resolvedLessonId = resolveLessonIdForChild(childProgress?.lessons || {}, lessonId);
           const existing = childProgress?.lessons[resolvedLessonId];
           const now = new Date().toISOString();
 
+          updatedProgress = {
+            lessonId: resolvedLessonId,
+            completed: true,
+            startedAt: existing?.startedAt || now,
+            completedAt: now,
+            timeSpent: existing?.timeSpent || 0,
+            examAttempts: existing?.examAttempts || [],
+            bestScore: existing?.bestScore,
+          };
+
           return {
             children: {
               ...state.children,
               [activeChildId]: {
                 lessons: {
                   ...childProgress?.lessons,
-                  [resolvedLessonId]: {
-                    lessonId: resolvedLessonId,
-                    completed: true,
-                    startedAt: existing?.startedAt || now,
-                    completedAt: now,
-                    timeSpent: existing?.timeSpent || 0,
-                    examAttempts: existing?.examAttempts || [],
-                    bestScore: existing?.bestScore,
-                  },
+                  [resolvedLessonId]: updatedProgress,
                 },
               },
             },
           };
         });
+
+        if (updatedProgress) {
+          void saveLessonProgressToSupabase(activeChildId, updatedProgress);
+        }
       },
 
       getProgress: (lessonId: string) => {
         const { activeChildId, children } = get();
-        if (!activeChildId) return undefined;
+        if (!activeChildId) {
+          return undefined;
+        }
 
         const lessons = children[activeChildId]?.lessons || {};
         const resolvedLessonId = resolveLessonIdForChild(lessons, lessonId);
@@ -225,14 +431,22 @@ export const useProgressStore = create<ProgressState>()(
 
       saveExamAttempt: (attempt: ExamAttempt) => {
         const { activeChildId } = get();
-        if (!activeChildId) return;
+        if (!activeChildId) {
+          return;
+        }
+
+        let updatedProgress: LessonProgress | null = null;
+        let normalizedAttempt: ExamAttempt | null = null;
 
         set((state) => {
           const childProgress = state.children[activeChildId];
           const lessons = childProgress?.lessons || {};
           const resolvedLessonId = resolveLessonIdForChild(lessons, attempt.lessonId);
-          const normalizedAttempt = {
+          const safeAttemptId = isUuid(attempt.attemptId) ? attempt.attemptId : crypto.randomUUID();
+
+          normalizedAttempt = {
             ...attempt,
+            attemptId: safeAttemptId,
             lessonId: resolvedLessonId,
           };
 
@@ -249,23 +463,32 @@ export const useProgressStore = create<ProgressState>()(
             .map((savedAttempt) => savedAttempt.score as number);
           const bestScore = scores.length > 0 ? Math.max(...scores) : undefined;
 
+          updatedProgress = {
+            ...lessonProgress,
+            lessonId: resolvedLessonId,
+            examAttempts: attempts,
+            bestScore,
+          };
+
           return {
             children: {
               ...state.children,
               [activeChildId]: {
                 lessons: {
                   ...lessons,
-                  [resolvedLessonId]: {
-                    ...lessonProgress,
-                    lessonId: resolvedLessonId,
-                    examAttempts: attempts,
-                    bestScore,
-                  },
+                  [resolvedLessonId]: updatedProgress,
                 },
               },
             },
           };
         });
+
+        if (normalizedAttempt) {
+          void saveExamAttemptToSupabase(activeChildId, normalizedAttempt);
+        }
+        if (updatedProgress) {
+          void saveLessonProgressToSupabase(activeChildId, updatedProgress);
+        }
       },
 
       getExamAttempts: (lessonId: string) => {
@@ -276,7 +499,9 @@ export const useProgressStore = create<ProgressState>()(
       releaseAssessmentResults: (childId: string, attemptId: string) => {
         set((state) => {
           const childProgress = state.children[childId];
-          if (!childProgress) return state;
+          if (!childProgress) {
+            return state;
+          }
 
           const updatedLessons = { ...childProgress.lessons };
 
@@ -284,19 +509,21 @@ export const useProgressStore = create<ProgressState>()(
             const lesson = updatedLessons[lessonId];
             const attemptIndex = lesson.examAttempts.findIndex((attempt) => attempt.attemptId === attemptId);
 
-            if (attemptIndex !== -1) {
-              const updatedAttempts = [...lesson.examAttempts];
-              updatedAttempts[attemptIndex] = {
-                ...updatedAttempts[attemptIndex],
-                released: true,
-                releasedAt: new Date().toISOString(),
-              };
-
-              updatedLessons[lessonId] = {
-                ...lesson,
-                examAttempts: updatedAttempts,
-              };
+            if (attemptIndex === -1) {
+              return;
             }
+
+            const updatedAttempts = [...lesson.examAttempts];
+            updatedAttempts[attemptIndex] = {
+              ...updatedAttempts[attemptIndex],
+              released: true,
+              releasedAt: new Date().toISOString(),
+            };
+
+            updatedLessons[lessonId] = {
+              ...lesson,
+              examAttempts: updatedAttempts,
+            };
           });
 
           return {
@@ -308,19 +535,37 @@ export const useProgressStore = create<ProgressState>()(
             },
           };
         });
+
+        if (isSupabaseConfigured && isUuid(attemptId)) {
+          void requireSupabase()
+            .from('exam_attempts')
+            .update({ released: true, released_at: new Date().toISOString() })
+            .eq('id', attemptId);
+        }
       },
 
       updateLessonTime: (lessonId: string, minutes: number) => {
         const { activeChildId } = get();
-        if (!activeChildId) return;
+        if (!activeChildId) {
+          return;
+        }
 
+        let updatedProgress: LessonProgress | null = null;
         set((state) => {
           const childProgress = state.children[activeChildId];
           const lessons = childProgress?.lessons || {};
           const resolvedLessonId = resolveLessonIdForChild(lessons, lessonId);
           const existing = lessons[resolvedLessonId];
 
-          if (!existing) return state;
+          if (!existing) {
+            return state;
+          }
+
+          updatedProgress = {
+            ...existing,
+            lessonId: resolvedLessonId,
+            timeSpent: existing.timeSpent + minutes,
+          };
 
           return {
             children: {
@@ -328,16 +573,16 @@ export const useProgressStore = create<ProgressState>()(
               [activeChildId]: {
                 lessons: {
                   ...lessons,
-                  [resolvedLessonId]: {
-                    ...existing,
-                    lessonId: resolvedLessonId,
-                    timeSpent: existing.timeSpent + minutes,
-                  },
+                  [resolvedLessonId]: updatedProgress,
                 },
               },
             },
           };
         });
+
+        if (updatedProgress) {
+          void saveLessonProgressToSupabase(activeChildId, updatedProgress);
+        }
       },
 
       exportProgress: () => {
@@ -380,9 +625,7 @@ export const useProgressStore = create<ProgressState>()(
     {
       name: 'education-app-progress',
       version: PROGRESS_STORE_VERSION,
-      migrate: (persistedState) => {
-        return normalizePersistedState(persistedState);
-      },
+      migrate: (persistedState) => normalizePersistedState(persistedState),
     },
   ),
 );

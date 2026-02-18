@@ -56,7 +56,7 @@ export function Layout({ children }: LayoutProps) {
                       <button onClick={handleSwitchChild}>Switch Child</button>
                     )}
 
-                    {currentUser.role === 'parent' && (
+                    {(currentUser.role === 'parent' || currentUser.role === 'admin') && (
                       <>
                         <button onClick={handleParentDashboard}>Parent Dashboard</button>
                         <button onClick={handleUploadContent}>Upload Content</button>
