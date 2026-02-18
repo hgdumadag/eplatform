@@ -74,6 +74,7 @@ export function LessonList() {
     // Quarter filter
     const matchesQuarter =
       filters.quarter === 'all' || lesson.quarter === parseInt(filters.quarter);
+    const matchesGrade = filters.grade === 'all' || lesson.grade === parseInt(filters.grade);
 
     // Status filter
     let matchesStatus = true;
@@ -95,11 +96,10 @@ export function LessonList() {
       const isAssignedToChild = isAssigned(activeChild.id, lessonId);
       const matchesChildAccess = isGradeAppropriate || isAssignedToChild;
 
-      return matchesSearch && matchesChildAccess && matchesSubject && matchesQuarter && matchesStatus;
+      return matchesSearch && matchesChildAccess && matchesGrade && matchesSubject && matchesQuarter && matchesStatus;
     }
 
     // For parents without active child: show all lessons with grade filter
-    const matchesGrade = filters.grade === 'all' || lesson.grade === parseInt(filters.grade);
     return matchesSearch && matchesGrade && matchesSubject && matchesQuarter && matchesStatus;
   });
 
