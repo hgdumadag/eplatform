@@ -1,0 +1,175 @@
+{
+  "examId": "grade-12-math-q3-operations-and-integers-practice",
+  "title": "Operations and Integers - Practice Exam",
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Evaluate $|-9| + |4| - |-2|$",
+      "options": [
+        "11",
+        "15",
+        "-11",
+        "7"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calculate each absolute value: $|-9| = 9$, $|4| = 4$, $|-2| = 2$. Then: $9 + 4 - 2 = 11$"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Determine the sign of $(-4)^3 \\times (-2)^2 \\times 5$",
+      "options": [
+        "Positive",
+        "Negative",
+        "Zero",
+        "Cannot be determined"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$(-4)^3 = -64$ (odd exponent, negative), $(-2)^2 = 4$ (even exponent, positive). Negative × positive × positive = negative"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "If m is even and n is odd, what is the parity of $m^2 + 2n + 1$?",
+      "options": [
+        "Even",
+        "Odd",
+        "Cannot be determined",
+        "Depends on m and n"
+      ],
+      "correctAnswer": 1,
+      "explanation": "m is even, so $m^2 = \\text{even}$. n is odd, so $2n = \\text{even}$. And 1 is odd. So: even + even + odd = odd"
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "A temperature was $-8°C$. It increased by $15°C$. What is the new temperature?",
+      "options": [
+        "$23°C$",
+        "$-23°C$",
+        "$7°C$",
+        "$-7°C$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Start at $-8$, increase by $15$: $-8 + 15 = 7$. The new temperature is $7°C$"
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Simplify $|(-3)^2 - |5 - 9||$",
+      "options": [
+        "5",
+        "9",
+        "13",
+        "-5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Inner absolute value: $|5 - 9| = |-4| = 4$. Power: $(-3)^2 = 9$. Then: $|9 - 4| = |5| = 5$"
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "How many integers from $-6$ to $6$ (inclusive) satisfy $|x| < 3$?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$|x| < 3$ means $-3 < x < 3$. Integers: $-2, -1, 0, 1, 2$. That is 5 integers"
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Evaluate $(-2)^5 + 3 \\times (-4)$",
+      "options": [
+        "-44",
+        "-20",
+        "-32",
+        "44"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$(-2)^5 = -32$ and $3 \\times (-4) = -12$. Sum: $-32 + (-12) = -44$"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Determine the sign of $(-1)^{49} \\times (-5)^{30} \\times 2^3$",
+      "options": [
+        "Positive",
+        "Negative",
+        "Zero",
+        "Cannot be determined"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$(-1)^{49} = -1$ (odd exponent). $(-5)^{30} = \\text{positive}$ (even exponent). $2^3 = 8$ (positive). Negative × positive × positive = negative"
+    },
+    {
+      "id": 9,
+      "type": "true-false",
+      "points": 6,
+      "question": "The sum of two even numbers is always even.",
+      "correctAnswer": "true",
+      "explanation": "Even + even = even by parity rules. For example: $4 + 6 = 10$"
+    },
+    {
+      "id": 10,
+      "type": "true-false",
+      "points": 6,
+      "question": "$|-5| = |5|$",
+      "correctAnswer": "true",
+      "explanation": "Both equal 5. Absolute value measures distance from zero, which is the same for 5 and -5"
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "points": 6,
+      "question": "An odd number raised to any power is always odd.",
+      "correctAnswer": "true",
+      "explanation": "Odd raised to any positive integer power: odd × odd × ... × odd (odd number of times) = odd"
+    },
+    {
+      "id": 12,
+      "type": "fill-in",
+      "points": 8,
+      "question": "If a diver descends 25 meters from sea level and then ascends 10 meters, the diver's position is _____ meters (use negative for below sea level)",
+      "correctAnswer": "-15",
+      "explanation": "Start at 0 (sea level), descend 25: $0 - 25 = -25$. Then ascend 10: $-25 + 10 = -15$"
+    },
+    {
+      "id": 13,
+      "type": "fill-in",
+      "points": 8,
+      "question": "The number of integers x that satisfy $-4 \\leq x \\leq 4$ and $|x| \\geq 2$ is _____",
+      "correctAnswer": "6",
+      "explanation": "$|x| \\geq 2$ means $x \\leq -2$ or $x \\geq 2$. In range $[-4, 4]$: $\\{-4, -3, -2, 2, 3, 4\\}$. Count: 6"
+    },
+    {
+      "id": 14,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Is the product of three consecutive odd integers always divisible by 3? Justify your answer.",
+      "correctAnswer": "Yes. Consecutive odd integers are of the form $2k+1, 2k+3, 2k+5$. Among any three consecutive integers, one is divisible by 3. Since consecutive odds differ by 2, one of them must be divisible by 3. Example: $3 \\times 5 \\times 7 = 105$, divisible by 3",
+      "explanation": "Among three consecutive odd integers, the residues modulo 3 are different, guaranteeing one is divisible by 3."
+    },
+    {
+      "id": 15,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Determine whether $(-2)^4 + (-3)^3$ is even or odd, and explain why.",
+      "correctAnswer": "Odd. $(-2)^4 = 16$ (even) and $(-3)^3 = -27$ (odd). Even + odd = odd. The sum is $16 + (-27) = -11$, which is odd",
+      "explanation": "$(-2)^4 = 16$ (positive, even). $(-3)^3 = -27$ (negative, but as an integer, odd). The sum $16 + (-27) = -11$ is odd."
+    }
+  ]
+}

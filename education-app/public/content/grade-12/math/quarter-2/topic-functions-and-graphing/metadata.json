@@ -1,0 +1,25 @@
+{
+  "id": "grade-12-math-q2-functions-and-graphing",
+  "grade": 12,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Functions and Graphing",
+  "description": "Understand function definitions, domain and range, quadratic function graphing, and transformations of parabolas in UPCAT-relevant contexts.",
+  "learningObjectives": [
+    "Define functions and identify domain and range",
+    "Graph quadratic functions and identify vertex, axis, intercepts",
+    "Apply function transformations (shifts, reflections, stretches)",
+    "Solve problems involving parabola vertex coordinates"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": ["functions", "graphing", "quadratic", "parabola", "transformations", "vertex", "upcat"],
+  "prerequisites": ["Quadratic equations", "Coordinate plane", "Function notation"],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

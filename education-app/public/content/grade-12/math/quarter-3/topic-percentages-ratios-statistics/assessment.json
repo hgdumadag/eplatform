@@ -1,0 +1,227 @@
+{
+  "examId": "grade-12-math-q3-percentages-ratios-statistics-assessment",
+  "title": "Percentages, Ratios, and Statistics - Assessment Exam",
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "What is 15\\% of 480?",
+      "options": [
+        "72",
+        "65",
+        "320",
+        "45"
+      ],
+      "correctAnswer": 0,
+      "explanation": "15\\% of 480 = 0.15 \\times 480 = 72"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "54 is what percent of 180?",
+      "options": [
+        "20\\%",
+        "25\\%",
+        "30\\%",
+        "40\\%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "(54 / 180) \\times 100 = 0.30 \\times 100 = 30\\%"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "20\\% of what number is 44?",
+      "options": [
+        "220",
+        "240",
+        "200",
+        "264"
+      ],
+      "correctAnswer": 0,
+      "explanation": "0.20x = 44, so x = 44 / 0.20 = 220"
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "What is 45\\% of 70\\% of 800?",
+      "options": [
+        "252",
+        "315",
+        "360",
+        "280"
+      ],
+      "correctAnswer": 0,
+      "explanation": "0.45 \\times 0.70 \\times 800 = 0.315 \\times 800 = 252"
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A quantity increased from 120 to 168. What is the percent increase?",
+      "options": [
+        "30\\%",
+        "40\\%",
+        "35\\%",
+        "48\\%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Percent increase = ((168 - 120) / 120) \\times 100 = (48 / 120) \\times 100 = 40\\%"
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "If 360 is divided in the ratio 2:7, what is the smaller part?",
+      "options": [
+        "60",
+        "80",
+        "100",
+        "120"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Total parts: 2 + 7 = 9. Each part = 360 / 9 = 40. Smaller part = 2 \\times 40 = 80"
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Find the mean of 10, 15, 20, 25, 30",
+      "options": [
+        "18",
+        "20",
+        "22",
+        "25"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mean = (10 + 15 + 20 + 25 + 30) / 5 = 100 / 5 = 20"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Find the median of 14, 9, 22, 17, 5, 28, 11, 19",
+      "options": [
+        "15",
+        "15.5",
+        "16",
+        "17"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sorted: 5, 9, 11, 14, 17, 19, 22, 28. Two middle values: 14 and 17. Median = (14 + 17) / 2 = 15.5"
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A box contains 3 white, 5 black, and 2 red balls. What is the probability of drawing a white ball?",
+      "options": [
+        "3/10",
+        "1/4",
+        "3/8",
+        "2/5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Total balls = 3 + 5 + 2 = 10. P(white) = 3/10"
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "If 15\\% of a budget of 500,000 is for education, how much is for education?",
+      "options": [
+        "50,000",
+        "75,000",
+        "100,000",
+        "150,000"
+      ],
+      "correctAnswer": 1,
+      "explanation": "15\\% of 500,000 = 0.15 \\times 500,000 = 75,000"
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "points": 5,
+      "question": "25\\% of 64 equals 16.",
+      "correctAnswer": "true",
+      "explanation": "25\\% of 64 = 0.25 \\times 64 = 16"
+    },
+    {
+      "id": 12,
+      "type": "true-false",
+      "points": 5,
+      "question": "The mode is always the same as the median.",
+      "correctAnswer": "false",
+      "explanation": "Mode and median are different. Example: {1, 2, 2, 5} has mode 2 but median = (2+2)/2 = 2. But {1, 2, 3, 3, 5} has mode 3 and median 3. However, {1, 1, 2, 3, 4} has mode 1 and median 2, showing they differ"
+    },
+    {
+      "id": 13,
+      "type": "true-false",
+      "points": 5,
+      "question": "A 10\\% increase followed by a 10\\% decrease returns a quantity to its original value.",
+      "correctAnswer": "false",
+      "explanation": "Example: Start with 100. After 10\\% increase: 110. After 10\\% decrease: 110 × 0.9 = 99, not 100. The second percentage is applied to a different base"
+    },
+    {
+      "id": 14,
+      "type": "true-false",
+      "points": 5,
+      "question": "If a/b = c/d, then ad = bc.",
+      "correctAnswer": "true",
+      "explanation": "This is the cross-multiplication rule for proportions"
+    },
+    {
+      "id": 15,
+      "type": "fill-in",
+      "points": 5,
+      "question": "60\\% of what number is 132? _____",
+      "correctAnswer": "220",
+      "explanation": "0.60x = 132, so x = 132 / 0.60 = 220"
+    },
+    {
+      "id": 16,
+      "type": "fill-in",
+      "points": 5,
+      "question": "The median of {8, 3, 15, 6, 12, 9, 20} is _____",
+      "correctAnswer": "9",
+      "explanation": "Sorted: {3, 6, 8, 9, 12, 15, 20}. Middle value (4th of 7) = 9"
+    },
+    {
+      "id": 17,
+      "type": "fill-in",
+      "points": 5,
+      "question": "In a bag with 5 red and 15 blue balls, the probability of drawing a red ball is _____",
+      "correctAnswer": "1/4 or 0.25 or 25\\%",
+      "explanation": "Total = 20. P(red) = 5/20 = 1/4"
+    },
+    {
+      "id": 18,
+      "type": "fill-in",
+      "points": 5,
+      "question": "If a ratio is 3:5 and the total is 96, the larger part is _____",
+      "correctAnswer": "60",
+      "explanation": "Total parts: 3 + 5 = 8. Each part = 96 / 8 = 12. Larger part = 5 \\times 12 = 60"
+    },
+    {
+      "id": 19,
+      "type": "short-answer",
+      "points": 5,
+      "question": "In a survey, 35\\% of respondents prefer coffee, 45\\% prefer tea, and the remainder have no preference. What percentage have no preference?",
+      "correctAnswer": "20\\%. Since 35\\% + 45\\% = 80\\%, the remainder is 100\\% - 80\\% = 20\\%",
+      "explanation": "The three preferences must sum to 100\\%"
+    },
+    {
+      "id": 20,
+      "type": "short-answer",
+      "points": 5,
+      "question": "A population of 10,000 decreased by 12\\%. What is the new population?",
+      "correctAnswer": "8,800. Decrease = 12\\% of 10,000 = 0.12 \\times 10,000 = 1,200. New population = 10,000 - 1,200 = 8,800",
+      "explanation": "New value = original - decrease = 10,000 - (0.12 × 10,000) = 8,800"
+    }
+  ]
+}

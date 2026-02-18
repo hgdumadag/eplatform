@@ -1,0 +1,25 @@
+{
+  "id": "grade-12-math-q1-linear-quadratic-equations",
+  "grade": 12,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Linear and Quadratic Equations",
+  "description": "Solve linear equations, systems of equations, and quadratic equations using factoring, the quadratic formula, and the discriminant.",
+  "learningObjectives": [
+    "Solve linear equations in one and two variables",
+    "Solve systems of linear equations by substitution and elimination",
+    "Solve quadratic equations by factoring and the quadratic formula",
+    "Interpret the discriminant to determine the nature of roots"
+  ],
+  "estimatedDuration": 60,
+  "difficulty": "advanced",
+  "tags": ["algebra", "linear-equations", "quadratic", "systems", "quadratic-formula", "upcat"],
+  "prerequisites": ["Evaluating algebraic expressions", "Basic algebra", "Factoring"],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

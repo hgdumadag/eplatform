@@ -1,0 +1,25 @@
+{
+  "id": "grade-12-math-q3-percentages-ratios-statistics",
+  "grade": 12,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Percentages, Ratios, and Statistics",
+  "description": "Solve percentage problems, work with ratios and proportions, compute statistical measures, and interpret probability and graphs for UPCAT.",
+  "learningObjectives": [
+    "Convert and compute percentages including percentage of a percentage",
+    "Solve problems using ratios and proportions",
+    "Calculate mean, median, mode, and range",
+    "Compute basic probability and interpret pie charts and line graphs"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": ["percentages", "ratios", "statistics", "probability", "mean-median-mode", "data-interpretation", "upcat"],
+  "prerequisites": ["Basic arithmetic", "Fractions and decimals", "Operations"],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

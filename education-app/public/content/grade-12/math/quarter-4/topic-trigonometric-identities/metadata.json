@@ -1,0 +1,36 @@
+{
+  "id": "grade-12-math-q4-trigonometric-identities",
+  "grade": 12,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "Trigonometric Identities",
+  "description": "Simplify complex trigonometric expressions using fundamental identities including Pythagorean, reciprocal, and quotient identities — a key UPCAT area.",
+  "learningObjectives": [
+    "State and apply reciprocal and quotient trigonometric identities",
+    "Use Pythagorean identities to simplify expressions",
+    "Evaluate trig functions at special angles (30°, 45°, 60°)",
+    "Simplify complex trig expressions for UPCAT-style problems"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": [
+    "trigonometry",
+    "identities",
+    "pythagorean-identity",
+    "special-angles",
+    "simplification",
+    "upcat"
+  ],
+  "prerequisites": [
+    "Right triangle geometry",
+    "Pythagorean theorem",
+    "Basic trigonometry ratios"
+  ],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

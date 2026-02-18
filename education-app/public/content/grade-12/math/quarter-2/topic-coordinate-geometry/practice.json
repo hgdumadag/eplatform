@@ -1,0 +1,163 @@
+{
+  "id": "grade-12-math-q2-coordinate-geometry-practice",
+  "title": "Coordinate Geometry - Practice Exam",
+  "totalPoints": 100,
+  "totalQuestions": 15,
+  "timeLimit": 60,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Find the distance between $(0, 0)$ and $(5, 12)$.",
+      "options": [
+        "$5$",
+        "$12$",
+        "$13$",
+        "$17$"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Find the midpoint of the segment connecting $(3, -4)$ and $(-1, 6)$.",
+      "options": [
+        "$(2, 1)$",
+        "$(1, 1)$",
+        "$(1, 2)$",
+        "$(2, 2)$"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Calculate the slope of the line through $(-2, 5)$ and $(4, -1)$.",
+      "options": [
+        "$m = -1$",
+        "$m = 1$",
+        "$m = -6$",
+        "$m = 6$"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Which of the following lines is perpendicular to $y = 2x + 3$?",
+      "options": [
+        "$y = 2x - 1$",
+        "$y = -2x + 5$",
+        "$y = -\\frac{1}{2}x + 4$",
+        "$y = \\frac{1}{2}x - 2$"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Write the equation of a line with slope 3 and y-intercept -2.",
+      "options": [
+        "$y = 3x - 2$",
+        "$y = -3x + 2$",
+        "$y = 3x + 2$",
+        "$y = -3x - 2$"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "What is the slope of a vertical line?",
+      "options": [
+        "$m = 0$",
+        "$m = 1$",
+        "Undefined",
+        "$m = -1$"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Find the y-intercept of the line $2x + 3y = 12$.",
+      "options": [
+        "$(6, 0)$",
+        "$(0, 4)$",
+        "$(0, 6)$",
+        "$(4, 0)$"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Are the lines $y = 4x - 1$ and $y = 4x + 2$ parallel, perpendicular, or neither?",
+      "options": [
+        "Parallel",
+        "Perpendicular",
+        "Neither",
+        "Cannot be determined"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "type": "true-false",
+      "points": 6,
+      "question": "If two lines are perpendicular, the product of their slopes equals -1.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": 10,
+      "type": "true-false",
+      "points": 6,
+      "question": "The distance formula is derived from the Pythagorean theorem.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "points": 6,
+      "question": "A horizontal line has an undefined slope.",
+      "correctAnswer": "false"
+    },
+    {
+      "id": 12,
+      "type": "fill-in",
+      "points": 8,
+      "question": "Find the distance between $(1, 2)$ and $(4, 6)$.",
+      "correctAnswer": "$5$"
+    },
+    {
+      "id": 13,
+      "type": "fill-in",
+      "points": 8,
+      "question": "If a line has slope $\\frac{3}{4}$, what is the slope of a perpendicular line?",
+      "correctAnswer": "$-\\frac{4}{3}$"
+    },
+    {
+      "id": 14,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Write the equation of the line through $(2, -3)$ with slope $\\frac{2}{3}$ in slope-intercept form.",
+      "correctAnswer": "$y = \\frac{2}{3}x - \\frac{13}{3}$"
+    },
+    {
+      "id": 15,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Find where the lines $y = 2x + 1$ and $y = -x + 4$ intersect.",
+      "correctAnswer": "$(1, 3)$"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "examId": "grade-12-math-q4-trigonometric-identities-assessment",
+  "title": "Trigonometric Identities - Assessment Exam",
+  "totalQuestions": 20,
+  "totalPoints": 100,
+  "timeLimit": 90,
+  "instructions": "Answer all 20 questions. You have 90 minutes. Show your work for full credit on short-answer questions.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Simplify: $\\cos\\theta \\cdot \\sec\\theta$",
+      "options": [
+        "0",
+        "1",
+        "$\\sin\\theta$",
+        "$\\tan\\theta$"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Simplify: $\\frac{\\sin\\theta}{\\csc\\theta} + \\frac{\\cos\\theta}{\\sec\\theta}$",
+      "options": [
+        "1",
+        "2",
+        "$\\sin^2\\theta + \\cos^2\\theta$",
+        "$\\sin\\theta + \\cos\\theta$"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "What is the value of $\\tan(30°)$?",
+      "options": [
+        "$\\frac{1}{2}$",
+        "$\\frac{1}{\\sqrt{3}}$",
+        "$\\frac{\\sqrt{3}}{3}$",
+        "$\\sqrt{3}$"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Simplify: $\\frac{\\tan^2\\theta}{\\sec^2\\theta}$",
+      "options": [
+        "$\\sin^2\\theta$",
+        "$\\cos^2\\theta$",
+        "$\\sin^2\\theta \\cos^2\\theta$",
+        "1"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Evaluate: $\\sin^2(45°) + \\cos^2(45°)$",
+      "options": [
+        "0",
+        "1",
+        "$\\frac{\\sqrt{2}}{2}$",
+        "$\\sqrt{2}$"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Simplify: $\\frac{1 - \\cos^2\\theta}{\\sin\\theta \\cos\\theta} \\cdot \\sin\\theta$",
+      "options": [
+        "$\\tan\\theta$",
+        "$\\sin\\theta$",
+        "$\\cos\\theta$",
+        "1"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which expression is equivalent to $\\csc^2\\theta - \\cot^2\\theta$?",
+      "options": [
+        "0",
+        "1",
+        "$\\sin^2\\theta$",
+        "$\\cos^2\\theta$"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Simplify: $\\sin\\theta \\sec\\theta$",
+      "options": [
+        "$\\sin\\theta$",
+        "$\\tan\\theta$",
+        "$\\cot\\theta$",
+        "$\\csc\\theta$"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "What is $\\cot(60°)$?",
+      "options": [
+        "$\\sqrt{3}$",
+        "$\\frac{1}{\\sqrt{3}}$",
+        "$\\frac{\\sqrt{3}}{3}$",
+        "1"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Simplify: $\\frac{\\cot\\theta}{\\csc\\theta}$",
+      "options": [
+        "$\\sin\\theta$",
+        "$\\cos\\theta$",
+        "$\\tan\\theta$",
+        "1"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "points": 5,
+      "question": "The expression $\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}$ is a Pythagorean identity.",
+      "correctAnswer": "false"
+    },
+    {
+      "id": 12,
+      "type": "true-false",
+      "points": 5,
+      "question": "$\\sec(45°) = \\sqrt{2}$",
+      "correctAnswer": "true"
+    },
+    {
+      "id": 13,
+      "type": "true-false",
+      "points": 5,
+      "question": "The reciprocal of $\\cos\\theta$ is $\\cot\\theta$.",
+      "correctAnswer": "false"
+    },
+    {
+      "id": 14,
+      "type": "true-false",
+      "points": 5,
+      "question": "$1 + \\tan^2\\theta = \\sec^2\\theta$ for all angles where the functions are defined.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": 15,
+      "type": "fill-in",
+      "points": 5,
+      "question": "$\\sin(90°) = $ _____",
+      "correctAnswer": "1"
+    },
+    {
+      "id": 16,
+      "type": "fill-in",
+      "points": 5,
+      "question": "$\\cos(0°) = $ _____",
+      "correctAnswer": "1"
+    },
+    {
+      "id": 17,
+      "type": "fill-in",
+      "points": 5,
+      "question": "$\\csc(30°) = $ _____",
+      "correctAnswer": "2"
+    },
+    {
+      "id": 18,
+      "type": "fill-in",
+      "points": 5,
+      "question": "$\\sec(60°) = $ _____",
+      "correctAnswer": "2"
+    },
+    {
+      "id": 19,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Simplify $\\frac{\\sin\\theta}{\\tan\\theta}$. Show your work and express your answer in terms of a single trig function.",
+      "rubric": "Award 5 points for correct answer (cos(θ)) with clear work showing sin(θ) ÷ (sin(θ)/cos(θ)) = cos(θ)"
+    },
+    {
+      "id": 20,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Prove the identity: $\\frac{\\sec^2\\theta - 1}{\\tan\\theta} = \\tan\\theta$. Show all steps.",
+      "rubric": "Award 5 points for correct proof using sec²θ - 1 = tan²θ, leading to tan²θ/tan(θ) = tan(θ)"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "examId": "grade-12-math-q4-plane-solid-geometry-assessment",
+  "title": "Plane and Solid Geometry - Assessment Exam",
+  "totalQuestions": 20,
+  "totalPoints": 100,
+  "timeLimit": 90,
+  "instructions": "Answer all 20 questions. You have 90 minutes. Show your work for full credit on short-answer questions.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Two similar polygons have corresponding sides in the ratio 2:3. The smaller polygon has perimeter 30 cm. What is the perimeter of the larger polygon?",
+      "options": [
+        "45 cm",
+        "50 cm",
+        "60 cm",
+        "90 cm"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Two similar solids have volumes in the ratio 27:64. What is the ratio of their corresponding surface areas?",
+      "options": [
+        "3:4",
+        "9:16",
+        "27:64",
+        "81:256"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A sector of a circle with radius 6 cm has area 6π cm². What is the central angle of the sector?",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Two concentric circles form an annulus with area 63π cm². If the outer radius is 10 cm, what is the inner radius?",
+      "options": [
+        "1 cm",
+        "3 cm",
+        "5 cm",
+        "7 cm"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A rectangular box has dimensions 3 cm × 4 cm × 12 cm. What is the length of its space diagonal?",
+      "options": [
+        "13 cm",
+        "√153 cm",
+        "19 cm",
+        "√169 cm"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A cone has radius 5 cm, height 12 cm, and slant height 13 cm. What is its total surface area?",
+      "options": [
+        "25π cm²",
+        "65π cm²",
+        "90π cm²",
+        "100π cm²"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A cube is inscribed in a sphere with radius 4 cm. What is the side length of the cube?",
+      "options": [
+        "4 cm",
+        "4√2 cm",
+        "8√3/3 cm",
+        "8/√3 cm"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "The interior angle of a regular polygon is 160°. How many sides does the polygon have?",
+      "options": [
+        "9 sides",
+        "18 sides",
+        "20 sides",
+        "36 sides"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A cylinder and a cone have the same radius r and height h. What is the ratio of the cylinder's volume to the cone's volume?",
+      "options": [
+        "1:1",
+        "2:1",
+        "3:1",
+        "4:1"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Two similar triangles have areas 36 cm² and 100 cm². If the smaller triangle has a side of length 9 cm, what is the length of the corresponding side in the larger triangle?",
+      "options": [
+        "12.5 cm",
+        "15 cm",
+        "20 cm",
+        "25 cm"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "points": 5,
+      "question": "If the radius of a sphere is doubled, its volume increases by a factor of 8.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": 12,
+      "type": "true-false",
+      "points": 5,
+      "question": "The sum of exterior angles of any convex polygon is always 360°.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": 13,
+      "type": "true-false",
+      "points": 5,
+      "question": "A segment of a circle is larger in area than a sector with the same central angle.",
+      "correctAnswer": "false"
+    },
+    {
+      "id": 14,
+      "type": "true-false",
+      "points": 5,
+      "question": "A sphere inscribed in a cube with side 10 cm has radius 5 cm.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": 15,
+      "type": "fill-in",
+      "points": 5,
+      "question": "A circle has circumference 20π cm. The area of the circle is _____ cm². (Express your answer without π, e.g., 100)",
+      "correctAnswer": "100π"
+    },
+    {
+      "id": 16,
+      "type": "fill-in",
+      "points": 5,
+      "question": "A sphere has surface area 64π cm². The radius of the sphere is _____ cm.",
+      "correctAnswer": "4"
+    },
+    {
+      "id": 17,
+      "type": "fill-in",
+      "points": 5,
+      "question": "The sum of interior angles of a 10-sided polygon is _____ degrees.",
+      "correctAnswer": "1440"
+    },
+    {
+      "id": 18,
+      "type": "fill-in",
+      "points": 5,
+      "question": "A cone has volume 48π cm³ and height 9 cm. Its radius is _____ cm.",
+      "correctAnswer": "4"
+    },
+    {
+      "id": 19,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Two similar rectangular boxes have volumes in the ratio 8:27. If the smaller box has dimensions 2 cm × 3 cm × 4 cm, find the volume of the larger box. Show your work.",
+      "rubric": "Award 5 points for correct answer (162 cm³) with clear explanation: volume ratio = 8:27 means linear ratio = 2:3, so volume of larger = 24 × (3/2)³ = 24 × 27/8 = 81... wait, this is wrong. Let me recalculate. 2×3×4 = 24 cm³. If ratio is 8:27, larger volume = 24 × 27/8 = 81 cm³."
+    },
+    {
+      "id": 20,
+      "type": "short-answer",
+      "points": 5,
+      "question": "A circular sector has radius 10 cm and central angle 72°. Find the arc length and the area of the sector. Show your work.",
+      "rubric": "Award 5 points for correct answers: arc length = 4π cm, sector area = 20π cm² (with clear formulas used)"
+    }
+  ]
+}

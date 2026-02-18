@@ -1,0 +1,163 @@
+{
+  "id": "grade-12-math-q2-inequalities-practice",
+  "title": "Inequalities - Practice Exam",
+  "totalPoints": 100,
+  "totalQuestions": 15,
+  "timeLimit": 60,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Solve: $2x + 5 < 13$",
+      "options": [
+        "$x < 4$",
+        "$x < 9$",
+        "$x > 4$",
+        "$x \\leq 4$"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "When you multiply both sides of an inequality by a negative number, what must you do?",
+      "options": [
+        "Keep the inequality symbol the same",
+        "Flip the inequality symbol",
+        "Change it to an equals sign",
+        "Double the coefficient"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Solve: $-3x + 7 > 1$",
+      "options": [
+        "$x > 2$",
+        "$x < 2$",
+        "$x > -2$",
+        "$x < -2$"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Which interval notation correctly represents $x \\geq -2$ and $x < 5$?",
+      "options": [
+        "$[-2, 5)$",
+        "$(-2, 5)$",
+        "$[-2, 5]$",
+        "$(-2, 5]$"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Solve the compound inequality: $-4 < 3x - 1 \\leq 8$",
+      "options": [
+        "$-1 < x \\leq 3$",
+        "$-3 < x \\leq 9$",
+        "$1 < x \\leq 8$",
+        "$-4 < x < 8$"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Translate to an inequality: 'A number is at most 20.' Let $n$ represent the number.",
+      "options": [
+        "$n > 20$",
+        "$n \\geq 20$",
+        "$n \\leq 20$",
+        "$n < 20$"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Translate to an inequality: 'The sum of twice a number and 3 is at least 15.'",
+      "options": [
+        "$2x + 3 > 15$",
+        "$2x + 3 \\geq 15$",
+        "$2x - 3 \\geq 15$",
+        "$x + 3 \\geq 15$"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Which of the following represents an OR compound inequality?",
+      "options": [
+        "$2 < x < 5$",
+        "$x < 2$ or $x > 5$",
+        "$x \\leq 2$ and $x \\geq 5$",
+        "$-3 \\leq x \\leq 3$"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 9,
+      "type": "true-false",
+      "points": 6,
+      "question": "The inequality $-5x > 10$ has the solution $x > -2$.",
+      "correctAnswer": "false"
+    },
+    {
+      "id": 10,
+      "type": "true-false",
+      "points": 6,
+      "question": "The interval notation $[3, 7)$ includes the endpoint 3 but not the endpoint 7.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "points": 6,
+      "question": "An AND compound inequality is satisfied when at least one of the conditions is true.",
+      "correctAnswer": "false"
+    },
+    {
+      "id": 12,
+      "type": "fill-in",
+      "points": 8,
+      "question": "Solve $4x - 7 < 5$ and express your answer in interval notation.",
+      "correctAnswer": "$(-\\infty, 3)$"
+    },
+    {
+      "id": 13,
+      "type": "fill-in",
+      "points": 8,
+      "question": "Express the compound inequality $-2 \\leq x < 4$ in interval notation.",
+      "correctAnswer": "$[-2, 4)$"
+    },
+    {
+      "id": 14,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Solve the compound inequality $x + 2 < -3$ OR $x + 2 > 5$ and express the solution in interval notation.",
+      "correctAnswer": "$(-\\infty, -5) \\cup (3, \\infty)$"
+    },
+    {
+      "id": 15,
+      "type": "short-answer",
+      "points": 5,
+      "question": "A student must score at least 80% on the final exam to earn an A in the class. If the final is worth 30% of the grade and the student currently has 85%, write an inequality to represent the range of final exam scores needed for an A. (Let $f$ be the final exam score.)",
+      "correctAnswer": "$0.70(85) + 0.30f \\geq 80$, which simplifies to $f \\geq \\frac{3.5}{0.30} \\approx 76.67$"
+    }
+  ]
+}

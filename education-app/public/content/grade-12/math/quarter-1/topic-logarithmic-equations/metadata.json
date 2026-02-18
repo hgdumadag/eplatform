@@ -1,0 +1,25 @@
+{
+  "id": "grade-12-math-q1-logarithmic-equations",
+  "grade": 12,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Logarithmic Equations",
+  "description": "Understand logarithm definitions, apply log properties, and solve logarithmic and exponential equations — a key UPCAT Math area.",
+  "learningObjectives": [
+    "Convert between exponential and logarithmic form",
+    "Apply product, quotient, and power rules of logarithms",
+    "Use the key identity log_b(b^x) = x to simplify expressions",
+    "Solve logarithmic and exponential equations"
+  ],
+  "estimatedDuration": 60,
+  "difficulty": "advanced",
+  "tags": ["logarithm", "algebra", "exponential", "log-properties", "natural-log", "upcat"],
+  "prerequisites": ["Exponent rules", "Algebraic expressions", "Basic equations"],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

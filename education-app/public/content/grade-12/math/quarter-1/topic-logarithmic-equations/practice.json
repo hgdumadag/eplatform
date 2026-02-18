@@ -1,0 +1,24 @@
+{
+  "examId": "grade-12-math-q1-logarithmic-equations-practice",
+  "title": "Logarithmic Equations - Practice Exam",
+  "totalPoints": 100,
+  "timeLimit": 75,
+  "passingScore": 70,
+  "questions": [
+    {"id": 1, "type": "multiple-choice", "points": 7, "question": "Evaluate $\\log_2(16)$.", "options": ["2", "4", "8", "16"], "correctAnswer": 1, "explanation": "We need $2^x = 16 = 2^4$, so $\\log_2(16) = 4$."},
+    {"id": 2, "type": "multiple-choice", "points": 7, "question": "Simplify $\\log_5(5^7)$ using the key identity.", "options": ["1", "5", "7", "35"], "correctAnswer": 2, "explanation": "By the key identity, $\\log_b(b^x) = x$, so $\\log_5(5^7) = 7$."},
+    {"id": 3, "type": "multiple-choice", "points": 7, "question": "Evaluate $\\log_3(27) + \\log_3(9)$ using logarithm properties.", "options": ["2", "3", "5", "12"], "correctAnswer": 2, "explanation": "$\\log_3(27) = 3$ and $\\log_3(9) = 2$. Using the product rule: $\\log_3(27 \\cdot 9) = \\log_3(243) = 5$."},
+    {"id": 4, "type": "multiple-choice", "points": 7, "question": "Solve $\\log_4(x) = 2$.", "options": ["4", "8", "16", "32"], "correctAnswer": 2, "explanation": "Convert to exponential: $4^2 = x \\Rightarrow x = 16$."},
+    {"id": 5, "type": "multiple-choice", "points": 7, "question": "Solve $\\log_2(x) + \\log_2(4) = 7$.", "options": ["8", "16", "32", "64"], "correctAnswer": 2, "explanation": "$\\log_2(4) = 2$, so $\\log_2(x) = 7 - 2 = 5 \\Rightarrow x = 2^5 = 32$."},
+    {"id": 6, "type": "multiple-choice", "points": 7, "question": "Evaluate $\\log_5\\left(\\frac{125}{25}\\right)$ using the quotient rule.", "options": ["1", "2", "3", "5"], "correctAnswer": 0, "explanation": "$\\log_5(125) - \\log_5(25) = 3 - 2 = 1$. Alternatively: $\\log_5(5) = 1$."},
+    {"id": 7, "type": "multiple-choice", "points": 7, "question": "Simplify $\\log_2(8^2)$ using the power rule.", "options": ["2", "3", "6", "9"], "correctAnswer": 2, "explanation": "$\\log_2(8^2) = 2 \\log_2(8) = 2 \\cdot 3 = 6$."},
+    {"id": 8, "type": "multiple-choice", "points": 7, "question": "Solve $3^x = 27$.", "options": ["2", "3", "4", "9"], "correctAnswer": 1, "explanation": "We need $x = \\log_3(27) = 3$ (since $3^3 = 27$)."},
+    {"id": 9, "type": "true-false", "points": 6, "question": "The expression $\\log_2(2^5)$ equals 5.", "correctAnswer": "true", "explanation": "By the key identity, $\\log_b(b^x) = x$, so $\\log_2(2^5) = 5$. TRUE."},
+    {"id": 10, "type": "true-false", "points": 6, "question": "$\\log(1) = 1$ for any base.", "correctAnswer": "false", "explanation": "$\\log_b(1) = 0$ for any base (since $b^0 = 1$). FALSE."},
+    {"id": 11, "type": "true-false", "points": 6, "question": "$\\log_3(9) + \\log_3(3) = \\log_3(12)$.", "correctAnswer": "false", "explanation": "$\\log_3(9) + \\log_3(3) = \\log_3(27)$, not $\\log_3(12)$. FALSE."},
+    {"id": 12, "type": "fill-in", "points": 8, "question": "Evaluate $\\log_3(81)$ and enter the answer as a whole number.", "answer": "4", "explanation": "We need $3^x = 81 = 3^4$, so $\\log_3(81) = 4$."},
+    {"id": 13, "type": "fill-in", "points": 8, "question": "Solve $\\log_5(x) = 1$ and enter the value of $x$.", "answer": "5", "explanation": "Convert to exponential: $5^1 = x \\Rightarrow x = 5$."},
+    {"id": 14, "type": "short-answer", "points": 5, "question": "Solve $\\log_2(x) + \\log_2(3) = \\log_2(12)$. Show your work and identify the value of $x$.", "answer": "$\\log_2(3x) = \\log_2(12) \\Rightarrow 3x = 12 \\Rightarrow x = 4$.", "explanation": "Using the product rule on the left side combines the logarithms."},
+    {"id": 15, "type": "short-answer", "points": 5, "question": "Simplify $\\log_4(64) - \\log_4(4)$ using logarithm properties. Show your work.", "answer": "$\\log_4(64) = 3$ and $\\log_4(4) = 1$. By quotient rule: $\\log_4\\left(\\frac{64}{4}\\right) = \\log_4(16) = 2$. Or: $3 - 1 = 2$.", "explanation": "Both evaluation and property-based approaches yield the same result."}
+  ]
+}

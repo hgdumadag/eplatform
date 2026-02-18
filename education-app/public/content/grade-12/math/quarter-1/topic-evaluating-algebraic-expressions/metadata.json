@@ -1,0 +1,25 @@
+{
+  "id": "grade-12-math-q1-evaluating-algebraic-expressions",
+  "grade": 12,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Evaluating Algebraic Expressions",
+  "description": "Master substitution into polynomial, rational, and multi-variable expressions — a foundational UPCAT Math skill.",
+  "learningObjectives": [
+    "Evaluate polynomial expressions by substitution",
+    "Evaluate rational expressions and identify restrictions",
+    "Evaluate multi-variable expressions with integers including negatives",
+    "Recognize and avoid common sign and order-of-operations errors"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": ["algebra", "substitution", "polynomial", "rational-expressions", "PEMDAS", "upcat"],
+  "prerequisites": ["Basic arithmetic", "Integer operations", "Exponent rules"],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

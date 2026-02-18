@@ -1,0 +1,210 @@
+{
+  "id": "grade-12-math-q2-inequalities-assessment",
+  "title": "Inequalities - Assessment Exam",
+  "totalPoints": 100,
+  "totalQuestions": 20,
+  "timeLimit": 90,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Solve: $3x - 8 > 10$",
+      "options": [
+        "$x > 6$",
+        "$x < 6$",
+        "$x > \\frac{2}{3}$",
+        "$x < \\frac{2}{3}$"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Solve: $-\\frac{2}{3}x \\leq 8$",
+      "options": [
+        "$x \\leq -12$",
+        "$x \\geq -12$",
+        "$x \\leq 12$",
+        "$x \\geq 12$"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Solve: $2(x - 3) + 5 < x + 4$",
+      "options": [
+        "$x < 5$",
+        "$x > 5$",
+        "$x < -5$",
+        "$x > -5$"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which of the following is the correct solution to $\\frac{x}{2} - 1 \\geq 3$?",
+      "options": [
+        "$x \\leq 8$",
+        "$x \\geq 8$",
+        "$x \\geq 4$",
+        "$x \\leq 4$"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Solve: $-5 < 2x + 3 \\leq 11$",
+      "options": [
+        "$-4 < x \\leq 4$",
+        "$-4 \\leq x < 4$",
+        "$-8 < x \\leq 8$",
+        "$-1 < x \\leq 4$"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Solve the compound inequality: $x - 4 < -2$ OR $x - 4 > 3$",
+      "options": [
+        "$x < 2$ OR $x > 7$",
+        "$2 < x < 7$",
+        "$x \\leq 2$ OR $x \\geq 7$",
+        "$-2 < x < 3$"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Translate to an inequality: 'A temperature is between 15°C and 25°C, inclusive.'",
+      "options": [
+        "$15 < T < 25$",
+        "$15 \\leq T \\leq 25$",
+        "$15 < T \\leq 25$",
+        "$15 \\leq T < 25$"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Translate to an inequality: 'The cost is no more than \\$50.'",
+      "options": [
+        "$C > 50$",
+        "$C < 50$",
+        "$C \\leq 50$",
+        "$C \\geq 50$"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Translate to an inequality: 'A number decreased by 5 is at least 12.'",
+      "options": [
+        "$x - 5 \\geq 12$",
+        "$x - 5 \\leq 12$",
+        "$5 - x \\geq 12$",
+        "$x + 5 \\geq 12$"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which interval notation represents the solution to $3x - 6 \\leq 9$?",
+      "options": [
+        "$(-\\infty, 1]$",
+        "$(-\\infty, 5]$",
+        "$[5, \\infty)$",
+        "$[1, \\infty)$"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "points": 5,
+      "question": "When dividing both sides of $-4x < 16$ by -4, the resulting inequality is $x < -4$.",
+      "correctAnswer": "false"
+    },
+    {
+      "id": 12,
+      "type": "true-false",
+      "points": 5,
+      "question": "The interval $(-2, 5)$ represents all real numbers strictly between -2 and 5, excluding both endpoints.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": 13,
+      "type": "true-false",
+      "points": 5,
+      "question": "An AND compound inequality can be written as a three-part inequality like $a < x < b$.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": 14,
+      "type": "true-false",
+      "points": 5,
+      "question": "The phrase 'at least' in a word problem translates to the symbol <.",
+      "correctAnswer": "false"
+    },
+    {
+      "id": 15,
+      "type": "fill-in",
+      "points": 5,
+      "question": "Solve: $5 - 2x \\geq 13$ and express in interval notation.",
+      "correctAnswer": "$(-\\infty, -4]$"
+    },
+    {
+      "id": 16,
+      "type": "fill-in",
+      "points": 5,
+      "question": "Express the solution $x < -3$ OR $x \\geq 2$ in interval notation using the union symbol.",
+      "correctAnswer": "$(-\\infty, -3) \\cup [2, \\infty)$"
+    },
+    {
+      "id": 17,
+      "type": "fill-in",
+      "points": 5,
+      "question": "Solve the compound inequality: $-6 \\leq 3x + 3 < 12$ and express in interval notation.",
+      "correctAnswer": "$[-3, 3)$"
+    },
+    {
+      "id": 18,
+      "type": "fill-in",
+      "points": 5,
+      "question": "What is the solution to $\\frac{x-1}{2} > 3$? Express in interval notation.",
+      "correctAnswer": "$(7, \\infty)$"
+    },
+    {
+      "id": 19,
+      "type": "short-answer",
+      "points": 5,
+      "question": "A rental car company charges \\$25 per day plus \\$0.20 per mile. If your budget is no more than \\$100 per day, write an inequality where $m$ is the number of miles, and solve for the maximum miles you can drive in one day.",
+      "correctAnswer": "$25 + 0.20m \\leq 100$, which gives $m \\leq 375$ miles"
+    },
+    {
+      "id": 20,
+      "type": "short-answer",
+      "points": 5,
+      "question": "A student scored 78% on the first test and 82% on the second test. Both tests count equally. What range of scores on a third test (also counting equally) would result in an average between 80% and 85%? Write the inequality and solve.",
+      "correctAnswer": "$\\frac{78 + 82 + x}{3}$ is between 80 and 85, so $80 < \\frac{160 + x}{3} < 85$, giving $80 < x < 95$"
+    }
+  ]
+}

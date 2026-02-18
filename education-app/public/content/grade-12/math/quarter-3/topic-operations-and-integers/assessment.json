@@ -1,0 +1,227 @@
+{
+  "examId": "grade-12-math-q3-operations-and-integers-assessment",
+  "title": "Operations and Integers - Assessment Exam",
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Evaluate $|3 - 10| + |-4|$",
+      "options": [
+        "11",
+        "3",
+        "17",
+        "-3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$|3 - 10| = |-7| = 7$ and $|-4| = 4$. Sum: $7 + 4 = 11$"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Determine the sign of $(-2)^6 \\times (-3)^5 \\times (-1)^{10}$",
+      "options": [
+        "Positive",
+        "Negative",
+        "Zero",
+        "Undefined"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$(-2)^6 = 64$ (even, positive), $(-3)^5 = -243$ (odd, negative), $(-1)^{10} = 1$ (even, positive). Product: positive × negative × positive = negative"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "If a is odd and b is even, what is the parity of $(a^2 + b)^2$?",
+      "options": [
+        "Even",
+        "Odd",
+        "Cannot be determined",
+        "Zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "a is odd, so $a^2 = \\text{odd}$. b is even. Odd + even = odd. $(\\text{odd})^2 = \\text{odd}$"
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A submarine at depth 200 meters ascends 75 meters, then descends 50 meters. Its final depth is",
+      "options": [
+        "125 meters below",
+        "175 meters below",
+        "225 meters below",
+        "150 meters below"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Start at -200 (below surface). Ascend 75: $-200 + 75 = -125$. Descend 50: $-125 - 50 = -175$. Final: 175 meters below"
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Simplify $||(-5)^2 - 15| - 10|$",
+      "options": [
+        "0",
+        "10",
+        "20",
+        "25"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$(-5)^2 = 25$. Inner: $|25 - 15| = |10| = 10$. Outer: $|10 - 10| = |0| = 0$"
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "How many integers x satisfy $-5 \\leq x \\leq 5$ and $|x| > 2$?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$|x| > 2$ means $x < -2$ or $x > 2$. In range $[-5, 5]$: $\\{-5, -4, -3, 3, 4, 5\\}$. Count: 6"
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Evaluate $(-3)^3 - (-2)^4 + |(-1)^5|$",
+      "options": [
+        "-42",
+        "-24",
+        "-18",
+        "-32"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$(-3)^3 = -27$, $(-2)^4 = 16$, $|(-1)^5| = |-1| = 1$. Calculate: $-27 - 16 + 1 = -42$"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "The sign of $(−5)^{11} \\times 4^{8} \\times (−1)^{15}$ is",
+      "options": [
+        "Positive",
+        "Negative",
+        "Zero",
+        "Complex"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$(−5)^{11}$ is negative (odd exponent), $4^8$ is positive, $(−1)^{15} = -1$ is negative. Negative × positive × negative = positive"
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which statement is true?",
+      "options": [
+        "The sum of two odd integers is always odd",
+        "An odd number squared is always odd",
+        "The product of three odd integers can be even",
+        "Every multiple of 3 is odd"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Option A: odd + odd = even, false. Option B: odd × odd = odd, true. Option C: odd × odd × odd = odd, false. Option D: 6 is multiple of 3 but even, false"
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Simplify: $\\frac{|x - 7|}{x - 7}$ when $x < 7$",
+      "options": [
+        "1",
+        "-1",
+        "Undefined",
+        "$x - 7$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When $x < 7$, we have $x - 7 < 0$. So $|x - 7| = -(x - 7) = 7 - x$. Thus $\\frac{|x - 7|}{x - 7} = \\frac{7 - x}{x - 7} = \\frac{-(x-7)}{x-7} = -1$"
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "points": 5,
+      "question": "For all integers n, $n^2$ is always non-negative.",
+      "correctAnswer": "true",
+      "explanation": "Since $n^2 = n \\times n$: if n > 0, product is positive; if n < 0, negative × negative = positive; if n = 0, result is 0. So $n^2 \\geq 0$ always"
+    },
+    {
+      "id": 12,
+      "type": "true-false",
+      "points": 5,
+      "question": "$|-a| = -|a|$ for all real a.",
+      "correctAnswer": "false",
+      "explanation": "$|-a| = |a|$ always. But $-|a|$ is negative (or zero if a = 0). So they're not equal in general. For example, $|-3| = 3$ but $-|3| = -3$"
+    },
+    {
+      "id": 13,
+      "type": "true-false",
+      "points": 5,
+      "question": "If $m^2$ is even, then m is even.",
+      "correctAnswer": "true",
+      "explanation": "Contrapositive: If m is odd, then $m^2$ is odd. This is true (odd × odd = odd). So the original statement is true"
+    },
+    {
+      "id": 14,
+      "type": "true-false",
+      "points": 5,
+      "question": "The sum of five consecutive integers is always divisible by 5.",
+      "correctAnswer": "true",
+      "explanation": "Five consecutive integers: $n, n+1, n+2, n+3, n+4$. Sum = $5n + 10 = 5(n + 2)$, which is divisible by 5"
+    },
+    {
+      "id": 15,
+      "type": "fill-in",
+      "points": 5,
+      "question": "The number of integers x satisfying $|x + 2| \\leq 3$ is _____",
+      "correctAnswer": "7",
+      "explanation": "$|x + 2| \\leq 3$ means $-3 \\leq x + 2 \\leq 3$, so $-5 \\leq x \\leq 1$. Integers: $\\{-5, -4, -3, -2, -1, 0, 1\\}$. Count: 7"
+    },
+    {
+      "id": 16,
+      "type": "fill-in",
+      "points": 5,
+      "question": "If the temperature rises from $-12°C$ to $8°C$, the increase in temperature is _____ degrees Celsius",
+      "correctAnswer": "20",
+      "explanation": "Temperature change = final - initial = $8 - (-12) = 8 + 12 = 20°C$"
+    },
+    {
+      "id": 17,
+      "type": "fill-in",
+      "points": 5,
+      "question": "The parity of $7^{13} + 8^{14}$ is _____ (write 'even' or 'odd')",
+      "correctAnswer": "odd",
+      "explanation": "$7^{13}$ is odd (odd raised to any power). $8^{14}$ is even (even raised to any power). Odd + even = odd"
+    },
+    {
+      "id": 18,
+      "type": "fill-in",
+      "points": 5,
+      "question": "Evaluate $|(-4)^3 - 20|$ = _____",
+      "correctAnswer": "84",
+      "explanation": "$(-4)^3 = -64$. Then $|-64 - 20| = |-84| = 84$"
+    },
+    {
+      "id": 19,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Prove that the product of any two consecutive integers is always even.",
+      "correctAnswer": "Two consecutive integers are n and n+1. Their product is $n(n+1)$. One of n or n+1 must be even (consecutive integers alternate parity). Since the product contains at least one even factor, the product is even",
+      "explanation": "Among any two consecutive integers, exactly one is even. An even factor makes the entire product even"
+    },
+    {
+      "id": 20,
+      "type": "short-answer",
+      "points": 5,
+      "question": "A diver is at 85 meters below the surface. The diver ascends 30 meters, then descends 15 meters. What is the final position, and is the diver deeper or shallower than the starting position?",
+      "correctAnswer": "Initial position: -85 m. After ascending 30 m: $-85 + 30 = -55$ m. After descending 15 m: $-55 - 15 = -70$ m. Final position: 70 m below the surface. The diver is shallower (closer to surface) than the starting position by 15 meters",
+      "explanation": "Net change: $+30 - 15 = +15$ m toward surface. Starting at -85, moving 15 m up gives -70 m"
+    }
+  ]
+}

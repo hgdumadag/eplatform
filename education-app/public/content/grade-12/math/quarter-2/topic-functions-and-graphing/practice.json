@@ -1,0 +1,163 @@
+{
+  "id": "grade-12-math-q2-functions-and-graphing-practice",
+  "title": "Functions and Graphing - Practice Exam",
+  "totalPoints": 100,
+  "totalQuestions": 15,
+  "timeLimit": 60,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "For the function $f(x) = 2x^2 - 8x + 3$, find the x-coordinate of the vertex using $x = -\\frac{b}{2a}$.",
+      "options": [
+        "$x = 1$",
+        "$x = 2$",
+        "$x = -2$",
+        "$x = 4$"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Which of the following describes the transformation of $y = (x - 4)^2$ compared to $y = x^2$?",
+      "options": [
+        "Shifts left 4 units",
+        "Shifts right 4 units",
+        "Shifts up 4 units",
+        "Shifts down 4 units"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "For the parabola $f(x) = -3(x + 2)^2 + 5$, what is the vertex?",
+      "options": [
+        "$(2, 5)$",
+        "$(-2, 5)$",
+        "$(2, -5)$",
+        "$(-2, -5)$"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "If $a > 0$ in the quadratic $f(x) = ax^2 + bx + c$, which of the following is true?",
+      "options": [
+        "The parabola opens downward",
+        "The vertex is a maximum",
+        "The parabola opens upward",
+        "The range is $(-\\infty, k]$"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Find the x-intercepts of $f(x) = x^2 - 3x - 10$.",
+      "options": [
+        "$x = 2$ and $x = -5$",
+        "$x = 5$ and $x = -2$",
+        "$x = 3$ and $x = -10$",
+        "$x = 1$ and $x = -10$"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "For $f(x) = (x - 3)^2 - 4$, what is the range?",
+      "options": [
+        "$[-4, \\infty)$",
+        "$(-\\infty, -4]$",
+        "$[3, \\infty)$",
+        "$(-\\infty, 3]$"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Which transformation is represented by $y = 2x^2$?",
+      "options": [
+        "Vertical compression by factor 2",
+        "Vertical shift up 2 units",
+        "Vertical stretch by factor 2",
+        "Horizontal shift right 2 units"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "If $f(x) = x^2 + 4x + 5$, what is the y-intercept?",
+      "options": [
+        "$y = 0$",
+        "$y = 4$",
+        "$y = 5$",
+        "$y = 9$"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 9,
+      "type": "true-false",
+      "points": 6,
+      "question": "The domain of any quadratic function is all real numbers.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": 10,
+      "type": "true-false",
+      "points": 6,
+      "question": "For $y = -\\frac{1}{2}(x - 3)^2 + 1$, the parabola opens upward.",
+      "correctAnswer": "false"
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "points": 6,
+      "question": "The equation $y = (x + 5)^2$ represents a horizontal shift 5 units to the left.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": 12,
+      "type": "fill-in",
+      "points": 8,
+      "question": "For $f(x) = 3x^2 - 12x + 9$, find the vertex as an ordered pair $(h, k)$.",
+      "correctAnswer": "$(2, -3)$"
+    },
+    {
+      "id": 13,
+      "type": "fill-in",
+      "points": 8,
+      "question": "Evaluate $f(x) = 2x^2 - 5x + 1$ at $x = 3$.",
+      "correctAnswer": "$10$"
+    },
+    {
+      "id": 14,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Write the equation of a parabola with vertex at $(1, -4)$ that opens upward with a vertical stretch by factor 2. Use vertex form.",
+      "correctAnswer": "$f(x) = 2(x - 1)^2 - 4$"
+    },
+    {
+      "id": 15,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Describe all transformations of $y = -\\frac{1}{3}(x + 2)^2 + 6$ compared to the parent function $y = x^2$.",
+      "correctAnswer": "Vertical compression by factor 1/3, reflection over x-axis, horizontal shift 2 units left, and vertical shift 6 units up."
+    }
+  ]
+}

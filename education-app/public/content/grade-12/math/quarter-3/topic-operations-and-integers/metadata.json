@@ -1,0 +1,25 @@
+{
+  "id": "grade-12-math-q3-operations-and-integers",
+  "grade": 12,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Operations and Integers",
+  "description": "Master integer operations, absolute value, parity analysis, and real-world applications like elevation and temperature for UPCAT success.",
+  "learningObjectives": [
+    "Apply sign rules to integer operations (add, subtract, multiply, divide)",
+    "Evaluate absolute value expressions",
+    "Determine parity outcomes (even/odd) for integer combinations",
+    "Apply integer concepts to real-world scenarios"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": ["integers", "absolute-value", "number-sense", "parity", "operations", "upcat"],
+  "prerequisites": ["Basic arithmetic", "Negative numbers", "Order of operations"],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

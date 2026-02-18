@@ -1,0 +1,25 @@
+{
+  "id": "grade-12-math-q3-sequences-and-series",
+  "grade": 12,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Sequences and Series",
+  "description": "Find nth terms and sums of arithmetic and geometric sequences, and solve UPCAT-style sequence and series problems.",
+  "learningObjectives": [
+    "Find nth terms of arithmetic sequences using the formula",
+    "Calculate the sum of arithmetic series",
+    "Find nth terms of geometric sequences",
+    "Apply sequence and series formulas to solve real-world and UPCAT-style problems"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": ["sequences", "series", "arithmetic-progression", "geometric-progression", "summation", "upcat"],
+  "prerequisites": ["Algebra basics", "Exponent rules", "Pattern recognition"],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

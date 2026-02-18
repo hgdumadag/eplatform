@@ -1,0 +1,163 @@
+{
+  "examId": "grade-12-math-q4-plane-solid-geometry-practice",
+  "title": "Plane and Solid Geometry - Practice Exam",
+  "totalQuestions": 15,
+  "totalPoints": 100,
+  "timeLimit": 60,
+  "instructions": "Answer all 15 questions. You have 60 minutes. Show your work for full credit on short-answer questions.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Two similar triangles have corresponding sides in the ratio 3:5. If the smaller triangle has perimeter 24 cm, what is the perimeter of the larger triangle?",
+      "options": [
+        "36 cm",
+        "40 cm",
+        "45 cm",
+        "60 cm"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Two similar rectangles have areas in the ratio 16:25. What is the ratio of their corresponding sides?",
+      "options": [
+        "2:3",
+        "4:5",
+        "16:25",
+        "8:10"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "A ring is formed by two concentric circles with radii 10 cm and 6 cm. What is the area of the ring?",
+      "options": [
+        "16π cm²",
+        "64π cm²",
+        "100π cm²",
+        "136π cm²"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "A sector of a circle with radius 8 cm has a central angle of 90°. What is the area of the sector?",
+      "options": [
+        "8π cm²",
+        "12π cm²",
+        "16π cm²",
+        "64π cm²"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "A cube has side length 5 cm. What is the length of its space diagonal?",
+      "options": [
+        "5 cm",
+        "5√2 cm",
+        "5√3 cm",
+        "10 cm"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "A sphere is inscribed in a cube with side length 8 cm. What is the radius of the sphere?",
+      "options": [
+        "2 cm",
+        "4 cm",
+        "8 cm",
+        "4√3 cm"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "A cube with side 6 cm is inscribed in a sphere. What is the radius of the sphere?",
+      "options": [
+        "3 cm",
+        "3√2 cm",
+        "3√3 cm",
+        "6 cm"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "A cylinder has radius 4 cm and height 9 cm. What is its volume?",
+      "options": [
+        "36π cm³",
+        "72π cm³",
+        "144π cm³",
+        "288π cm³"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 9,
+      "type": "true-false",
+      "points": 6,
+      "question": "If two similar figures have areas in the ratio 9:16, then their corresponding sides are in the ratio 3:4.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": 10,
+      "type": "true-false",
+      "points": 6,
+      "question": "The surface area of a sphere with radius 5 cm is 50π cm².",
+      "correctAnswer": "false"
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "points": 6,
+      "question": "The space diagonal of a cube with side s equals s√3.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": 12,
+      "type": "fill-in",
+      "points": 8,
+      "question": "A circle has radius 12 cm. The arc length of a sector with central angle 60° is _____ cm. (Express your answer in terms of π, e.g., 4π)",
+      "correctAnswer": "4π"
+    },
+    {
+      "id": 13,
+      "type": "fill-in",
+      "points": 8,
+      "question": "The interior angle of a regular hexagon is _____ degrees.",
+      "correctAnswer": "120"
+    },
+    {
+      "id": 14,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Two similar triangles have corresponding sides in the ratio 2:3. The smaller triangle has area 40 cm². Find the area of the larger triangle. Show your work.",
+      "rubric": "Award 5 points for correct answer (90 cm²) with clear explanation of ratio of areas = (ratio of sides)²"
+    },
+    {
+      "id": 15,
+      "type": "short-answer",
+      "points": 5,
+      "question": "A sphere with radius 6 cm is inscribed in a cube. Find the volume of the cube. Show your work.",
+      "rubric": "Award 5 points for correct answer (1728 cm³) with clear explanation that diameter = side length, thus side = 12 cm, V = 12³"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "grade-12-math-q2-coordinate-geometry",
+  "grade": 12,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Coordinate Geometry",
+  "description": "Apply distance, midpoint, and slope formulas to solve problems on the coordinate plane — essential UPCAT Math skills.",
+  "learningObjectives": [
+    "Calculate slope, distance, and midpoint between two points",
+    "Write equations of lines in slope-intercept and point-slope form",
+    "Identify relationships between parallel and perpendicular lines",
+    "Determine quadrant locations and x/y intercepts"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": ["coordinate-geometry", "slope", "distance", "midpoint", "linear-equations", "graphing", "upcat"],
+  "prerequisites": ["Quadratic equations", "Graphing basics", "Pythagorean theorem"],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

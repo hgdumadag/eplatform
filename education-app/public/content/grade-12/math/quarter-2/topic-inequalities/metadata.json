@@ -1,0 +1,25 @@
+{
+  "id": "grade-12-math-q2-inequalities",
+  "grade": 12,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Inequalities",
+  "description": "Solve and interpret linear inequalities, compound inequalities, and translate verbal phrases into mathematical inequality statements.",
+  "learningObjectives": [
+    "Solve linear inequalities in one variable",
+    "Solve compound inequalities (AND/OR)",
+    "Translate verbal phrases into inequality notation",
+    "Represent solutions on a number line and in interval notation"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": ["algebra", "inequalities", "linear", "compound-inequalities", "interval-notation", "upcat"],
+  "prerequisites": ["Linear equations", "Integer operations", "Number line"],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

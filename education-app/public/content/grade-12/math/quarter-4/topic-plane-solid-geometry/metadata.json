@@ -1,0 +1,37 @@
+{
+  "id": "grade-12-math-q4-plane-solid-geometry",
+  "grade": 12,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "Plane and Solid Geometry",
+  "description": "Apply properties of similar polygons, circles, and 3D solids including spheres and inscribed figures to solve UPCAT Geometry problems.",
+  "learningObjectives": [
+    "Apply similarity ratios for perimeter, area, and volume of similar polygons",
+    "Solve problems involving circles, sectors, and concentric circles",
+    "Calculate volumes and surface areas of 3D solids",
+    "Solve problems involving inscribed and circumscribed figures"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": [
+    "geometry",
+    "similar-polygons",
+    "circles",
+    "solid-geometry",
+    "volume",
+    "surface-area",
+    "upcat"
+  ],
+  "prerequisites": [
+    "Basic geometry",
+    "Pythagorean theorem",
+    "Area and perimeter formulas"
+  ],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}
