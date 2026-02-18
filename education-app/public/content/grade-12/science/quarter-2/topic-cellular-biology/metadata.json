@@ -1,0 +1,37 @@
+{
+  "id": "grade-12-science-q2-cellular-biology",
+  "grade": 12,
+  "subject": "science",
+  "quarter": 2,
+  "topicName": "Cellular Biology",
+  "description": "Compare prokaryotic and eukaryotic cells, identify organelle functions, understand cell membrane transport, and master the phases of mitosis for UPCAT.",
+  "learningObjectives": [
+    "Compare the structures of prokaryotic and eukaryotic cells",
+    "Identify cell organelles and describe their specific functions",
+    "Explain osmosis, diffusion, and active transport across the cell membrane",
+    "Sequence and describe the phases of mitosis (PMAT)"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": [
+    "cell-biology",
+    "organelles",
+    "mitosis",
+    "osmosis",
+    "eukaryote",
+    "prokaryote",
+    "upcat"
+  ],
+  "prerequisites": [
+    "Basic biology",
+    "Cell theory",
+    "Scientific method"
+  ],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

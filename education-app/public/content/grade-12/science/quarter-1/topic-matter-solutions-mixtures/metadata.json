@@ -1,0 +1,25 @@
+{
+  "id": "grade-12-science-q1-matter-solutions-mixtures",
+  "grade": 12,
+  "subject": "science",
+  "quarter": 1,
+  "topicName": "Matter, Solutions, and Mixtures",
+  "description": "Classify matter into pure substances and mixtures, distinguish solutions from suspensions and colloids, and solve density and molality calculations for UPCAT.",
+  "learningObjectives": [
+    "Classify matter as pure substance or mixture and identify subtypes",
+    "Distinguish between solutions, suspensions, and colloids by their properties",
+    "Calculate density using the formula ρ = m/V",
+    "Calculate molality and interpret concentration of solutions"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": ["matter", "solutions", "mixtures", "density", "molality", "chemistry", "upcat"],
+  "prerequisites": ["Basic chemistry", "States of matter", "Metric units"],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

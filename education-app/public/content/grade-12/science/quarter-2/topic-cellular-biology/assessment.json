@@ -1,0 +1,224 @@
+{
+  "id": "grade-12-science-q2-cellular-biology-assessment",
+  "title": "Cellular Biology Assessment Exam",
+  "description": "20-question comprehensive assessment covering prokaryotic and eukaryotic cells, organelles, membrane transport, and mitosis",
+  "totalPoints": 100,
+  "passingScore": 70,
+  "timeLimit": 60,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "What is the primary structural difference between prokaryotic and eukaryotic cells?",
+      "options": [
+        "Prokaryotic cells have a membrane-bound nucleus; eukaryotic cells do not",
+        "Eukaryotic cells have a membrane-bound nucleus; prokaryotic cells do not",
+        "Prokaryotic cells are larger than eukaryotic cells",
+        "Eukaryotic cells have cell walls; prokaryotic cells do not"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The defining characteristic is that eukaryotic cells have a true membrane-bound nucleus enclosing their DNA, while prokaryotic cells have a nucleoid region without a membrane. Prokaryotic cells are actually smaller, and cell walls are found in both types (though composed of different materials)."
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which organelle is the site of ATP production through cellular respiration?",
+      "options": [
+        "Chloroplast",
+        "Golgi apparatus",
+        "Mitochondrion",
+        "Ribosome"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mitochondria are often called the 'powerhouse' of the cell because they produce ATP through the citric acid cycle and oxidative phosphorylation. Chloroplasts capture light energy; the Golgi packages proteins; ribosomes synthesize proteins."
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Rough endoplasmic reticulum differs from smooth endoplasmic reticulum primarily in that rough ER:",
+      "options": [
+        "Lacks a membrane and is found only in prokaryotes",
+        "Is studded with ribosomes and synthesizes proteins for secretion",
+        "Synthesizes lipids and stores calcium ions",
+        "Is the site of photosynthesis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rough ER has ribosomes attached to its outer surface, making it 'rough' in appearance, and it specializes in synthesizing proteins destined for secretion or membrane insertion. Smooth ER lacks ribosomes and is involved in lipid synthesis, detoxification, and calcium storage."
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "In a hypertonic solution, a plant cell will undergo plasmolysis because:",
+      "options": [
+        "Water enters the cell, creating turgor pressure",
+        "Water leaves the cell, and the cytoplasm shrinks away from the cell wall",
+        "The cell wall dissolves due to high salt concentration",
+        "Ions diffuse into the cell and expand its volume"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plasmolysis occurs when water leaves the cell by osmosis in a hypertonic solution (where external solute concentration is higher than internal). The cytoplasm and cell membrane pull away from the rigid cell wall. The cell wall itself does not dissolve."
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "The sodium-potassium pump is an example of which type of transport mechanism?",
+      "options": [
+        "Passive transport",
+        "Facilitated diffusion",
+        "Active transport",
+        "Osmosis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Na⁺/K⁺-ATPase pump is a classic example of active transport because it uses ATP energy to move sodium and potassium ions against their concentration gradients. It pumps 3 Na⁺ out and 2 K⁺ in per ATP hydrolyzed, creating ion gradients necessary for nerve and muscle function."
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which statement correctly describes what happens during metaphase of mitosis?",
+      "options": [
+        "Chromosomes condense and the nuclear envelope breaks down",
+        "Sister chromatids separate and move toward opposite poles",
+        "Chromosomes align at the cell's equator (metaphase plate)",
+        "Nuclear envelopes reform around each set of chromosomes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Metaphase is characterized by the alignment of all chromosomes at the equator of the cell in a line perpendicular to the spindle poles. This alignment is unique to metaphase and makes it the easiest phase to identify visually. This is the defining characteristic of metaphase."
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which of the following is found in BOTH prokaryotic and eukaryotic cells?",
+      "options": [
+        "Mitochondria",
+        "Ribosome",
+        "Nucleus",
+        "Chloroplast"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ribosomes are universal cellular structures found in all cells, both prokaryotic and eukaryotic. However, prokaryotic ribosomes are 70S while eukaryotic ribosomes are 80S. Mitochondria, nuclei, and chloroplasts are found only in eukaryotic cells."
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: Lysosomes contain digestive enzymes and are abundant in plant cells for breaking down cellular waste.",
+      "correctAnswer": "false",
+      "explanation": "False. Lysosomes are found primarily in animal cells. Plant cells use their large central vacuole to store digestive enzymes and perform similar waste-degradation functions. This is a key distinction between plant and animal cell structure."
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: During telophase, the spindle apparatus disassembles and nuclear envelopes reform around the separated chromosomes at each pole.",
+      "correctAnswer": "true",
+      "explanation": "This is correct. Telophase is characterized by nuclear envelope reformation, disassembly of the spindle apparatus, and decondensation of chromatin. These events prepare the cell for cytokinesis and the formation of two separate daughter cells."
+    },
+    {
+      "id": "q10",
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: DNA replication occurs during mitosis, ensuring each daughter cell receives a copy of all chromosomes.",
+      "correctAnswer": "false",
+      "explanation": "False. DNA replication occurs during S phase of interphase, BEFORE mitosis begins. By the time mitosis starts, DNA is already replicated into sister chromatids. Mitosis simply distributes the replicated chromosomes to daughter cells. This is a very common misconception."
+    },
+    {
+      "id": "q11",
+      "type": "fill-in",
+      "points": 5,
+      "question": "The ___________ is the region in a prokaryotic cell where the genetic material (DNA) is concentrated, though it is not enclosed by a membrane.",
+      "correctAnswer": "nucleoid",
+      "explanation": "The nucleoid is the DNA-containing region in prokaryotes. Unlike the nucleus in eukaryotes, the nucleoid is not enclosed by a membrane. It typically contains a single, circular chromosome."
+    },
+    {
+      "id": "q12",
+      "type": "fill-in",
+      "points": 5,
+      "question": "The process by which cells move substances against their concentration gradient using ATP energy is called ___________.",
+      "correctAnswer": "active transport",
+      "explanation": "Active transport requires ATP energy to move substances against the concentration gradient (from low to high concentration). Examples include the sodium-potassium pump and glucose uptake in some cells. This is distinct from passive transport, which moves substances down the gradient."
+    },
+    {
+      "id": "q13",
+      "type": "fill-in",
+      "points": 5,
+      "question": "The ___________ is the gel-like substance filling the cell that contains organelles and dissolved nutrients.",
+      "correctAnswer": "cytoplasm",
+      "explanation": "Cytoplasm is the interior of the cell filled with a gel-like substance (cytosol) containing organelles, proteins, ions, and nutrients. In prokaryotes, all cellular activities occur in the cytoplasm. In eukaryotes, many activities occur within membrane-bound organelles."
+    },
+    {
+      "id": "q14",
+      "type": "fill-in",
+      "points": 5,
+      "question": "The four phases of mitosis in order are: ___________, ___________, ___________, and ___________.",
+      "correctAnswer": "Prophase, Metaphase, Anaphase, Telophase",
+      "explanation": "The mnemonic PMAT helps remember the order: Prophase (chromatin condenses), Metaphase (chromosomes at equator), Anaphase (chromatids separate), Telophase (nuclear envelopes reform). These four phases constitute the entire mitotic process."
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A cell culture is observed under a microscope. All cells show chromosomes aligned in a line at the cell's equator with spindle fibers attached to the kinetochores. What phase of mitosis are these cells in?",
+      "options": [
+        "Prophase",
+        "Metaphase",
+        "Anaphase",
+        "Telophase"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The alignment of chromosomes at the equator (metaphase plate) with attached spindle fibers is the defining characteristic of metaphase. This is the easiest phase to identify microscopically because the chromosomes are most condensed and visibly arranged in a line."
+    },
+    {
+      "id": "q16",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which organelle would be most abundant in a pancreatic beta cell that produces large quantities of insulin for secretion?",
+      "options": [
+        "Lysosomes",
+        "Rough endoplasmic reticulum and Golgi apparatus",
+        "Smooth endoplasmic reticulum",
+        "Chloroplasts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Beta cells secrete insulin protein, so they require extensive rough ER for protein synthesis and a well-developed Golgi apparatus for modification and packaging of the protein before secretion. Chloroplasts are found only in plants; lysosomes are less abundant in secretory cells; smooth ER is not the primary site of protein synthesis."
+    },
+    {
+      "id": "q17",
+      "type": "short-answer",
+      "points": 5,
+      "question": "Explain the relationship between the number of mitochondria in a cell and the cell's metabolic activity. Provide an example of a cell type with many mitochondria and explain why.",
+      "model_answer": "Cells with high metabolic activity require more ATP and therefore contain more mitochondria to meet their energy demands. For example, muscle cells have abundant mitochondria because muscle contraction requires large amounts of ATP. Similarly, liver cells and sperm cells have many mitochondria due to their high energy requirements. In contrast, less metabolically active cells like skin fibroblasts have fewer mitochondria.",
+      "explanation": "This question tests understanding of the relationship between organelle abundance and cellular function. Key concepts: ATP production, metabolic rate, and the correlation between energy demands and mitochondrial density."
+    },
+    {
+      "id": "q18",
+      "type": "short-answer",
+      "points": 5,
+      "question": "Describe the structural difference between the cell wall of plant cells and the cell wall of bacterial cells, and explain why this difference is clinically significant.",
+      "model_answer": "Plant cell walls are composed primarily of cellulose, a polymer of glucose units. Bacterial cell walls are composed of peptidoglycan, a unique polymer of sugars and amino acids. This difference is clinically significant because antibiotics like penicillin target bacterial peptidoglycan synthesis, disrupting bacterial cell wall formation and killing the bacteria without directly harming human (or plant) cells.",
+      "explanation": "This question connects cell structure to pharmacology and evolution. Key concepts: cell wall composition, peptidoglycan, mechanism of antibiotic action, and selective toxicity."
+    },
+    {
+      "id": "q19",
+      "type": "short-answer",
+      "points": 5,
+      "question": "A student observes that when red blood cells are placed in pure water (hypotonic solution), they swell and burst (lysis), but when placed in 0.9% NaCl solution (isotonic), they maintain their normal shape. Explain the molecular basis of these observations.",
+      "model_answer": "In pure water (hypotonic), the solute concentration outside the cell is lower than inside, so water concentration outside is higher. Water molecules diffuse into the cell by osmosis faster than they leave, causing the cell to swell. Since red blood cells have no cell wall to limit expansion, they eventually rupture (lysis). In 0.9% NaCl (isotonic), solute concentrations are equal on both sides, so water enters and exits at equal rates, maintaining equilibrium and normal cell shape.",
+      "explanation": "This question tests understanding of osmosis, concentration gradients, and the consequences of osmotic imbalance. Key concepts: hypotonic/hypertonic/isotonic solutions, osmotic gradient, and cell membrane behavior."
+    },
+    {
+      "id": "q20",
+      "type": "short-answer",
+      "points": 5,
+      "question": "Compare and contrast diffusion and active transport as mechanisms for moving substances across the cell membrane. Include the role of energy, the direction of movement, and examples of each.",
+      "model_answer": "Diffusion (including osmosis) is passive transport that requires no ATP energy and moves substances DOWN their concentration gradient (from high to low concentration) until equilibrium is reached. Example: oxygen diffusing into cells. Active transport requires ATP energy and moves substances AGAINST their concentration gradient (from low to high concentration). Example: the sodium-potassium pump expends ATP to pump 3 Na⁺ out and 2 K⁺ in. Both mechanisms use the cell membrane, but diffusion is entropy-driven and spontaneous, while active transport is energy-driven and selective.",
+      "explanation": "This question assesses comprehensive understanding of membrane transport mechanisms and their energetics. Key concepts: passive vs. active transport, concentration gradients, ATP requirements, direction of movement, and physiological significance."
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "id": "grade-12-science-q2-genetics-and-evolution-assessment",
+  "title": "Genetics and Evolution Assessment Exam",
+  "description": "20-question comprehensive assessment covering Mendelian genetics, inheritance patterns, DNA, and evolution",
+  "totalPoints": 100,
+  "passingScore": 70,
+  "timeLimit": 60,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "What is a gene?",
+      "options": [
+        "A protein that controls cell growth",
+        "A segment of DNA that encodes instructions for a trait",
+        "A type of enzyme found in the nucleus",
+        "A mutation that increases fitness"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A gene is a discrete segment of DNA on a chromosome that encodes the instructions for producing a specific protein or trait. Different versions of a gene are called alleles."
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "In a monohybrid cross between Aa and Aa, what is the probability of producing an offspring with genotype AA?",
+      "options": [
+        "1/4 or 25%",
+        "1/2 or 50%",
+        "2/3 or 66.7%",
+        "3/4 or 75%"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In a cross between Aa and Aa, the Punnett square shows: AA (1/4), Aa (2/4), aa (1/4). The probability of AA is 1/4 or 25%. This is the basis of predicting offspring genotypes in monohybrid crosses."
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A man with type AB blood (I^A I^B) and a woman with type O blood (ii) have children. Which blood types are possible in their offspring?",
+      "options": [
+        "Type A and Type B only",
+        "Type A and Type O only",
+        "Type B and Type O only",
+        "All types are possible"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The man (I^A I^B) can contribute I^A or I^B. The woman (ii) can only contribute i. Offspring: I^A i (Type A) or I^B i (Type B). Type O (ii) and Type AB (I^A I^B) are impossible because the mother cannot provide a second I^A or I^B."
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "In a dihybrid cross between AaBb and AaBb, what fraction of offspring will be homozygous for both traits (AABB)?",
+      "options": [
+        "1/16",
+        "3/16",
+        "1/4",
+        "1/8"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For each trait independently: Aa × Aa gives 1/4 AA. For both traits: (1/4 AA) × (1/4 BB) = 1/16 AABB. Alternatively, count from the 16 boxes in the dihybrid Punnett square—only one box contains AABB."
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A DNA sample contains 32% cytosine. What percentage of the sample is adenine?",
+      "options": [
+        "32%",
+        "18%",
+        "36%",
+        "16%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If %C = 32%, then %G = 32% (Chargaff's rule). So %G + %C = 64%, which means %A + %T = 36%. Since %A = %T, each is 18%. Therefore, adenine = 18%."
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which pair of DNA bases is held together by THREE hydrogen bonds?",
+      "options": [
+        "Adenine and Thymine",
+        "Adenine and Guanine",
+        "Guanine and Cytosine",
+        "Guanine and Thymine"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Guanine (G) and Cytosine (C) are held together by three hydrogen bonds. Adenine and Thymine are held together by only two hydrogen bonds. This difference affects DNA stability and structure."
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "What is the phenotype of a flower plant with the genotype RW, where R codes for red color, W codes for white color, and neither allele is dominant to the other?",
+      "options": [
+        "Red",
+        "White",
+        "Pink (intermediate)",
+        "Red and white spotted"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This is incomplete dominance. When neither allele is fully dominant, the heterozygote (RW) displays an intermediate phenotype (pink). This is different from codominance, where both phenotypes would appear separately."
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which statement best describes homologous structures?",
+      "options": [
+        "Structures that perform the same function in different organisms",
+        "Structures that have the same evolutionary origin but different functions",
+        "Structures that are identical in anatomy but different in function",
+        "Structures that evolved convergently to perform similar functions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Homologous structures have the same evolutionary origin (inherited from a common ancestor) but may have different functions. For example, human arms, whale flippers, and bat wings all have the same bone structure but different functions. They indicate common ancestry."
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: Analogous structures indicate that the organisms sharing them have a recent common ancestor.",
+      "correctAnswer": "false",
+      "explanation": "False. Analogous structures indicate convergent evolution—organisms independently evolved similar solutions to similar environmental challenges. They do NOT indicate recent common ancestry. Homologous structures indicate common ancestry, but analogous structures do not."
+    },
+    {
+      "id": "q10",
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: Mendel's Law of Independent Assortment applies to all genes in an organism's genome.",
+      "correctAnswer": "false",
+      "explanation": "False. The Law of Independent Assortment applies only to genes on different chromosomes. Genes on the same chromosome (linked genes) do not assort independently due to genetic linkage and tend to be inherited together."
+    },
+    {
+      "id": "q11",
+      "type": "fill-in",
+      "points": 5,
+      "question": "An organism with two different alleles for a gene (for example, Aa) is called ___________.",
+      "correctAnswer": "heterozygous",
+      "explanation": "A heterozygous organism has two different alleles for a particular gene. This is contrasted with homozygous, which means having two identical alleles (either AA or aa)."
+    },
+    {
+      "id": "q12",
+      "type": "fill-in",
+      "points": 5,
+      "question": "The observable characteristics of an organism resulting from its genotype and environment are collectively called its ___________.",
+      "correctAnswer": "phenotype",
+      "explanation": "Phenotype refers to the observable traits or characteristics of an organism. It is the result of both the organism's genetic makeup (genotype) and environmental influences. For example, flower color is a phenotype."
+    },
+    {
+      "id": "q13",
+      "type": "fill-in",
+      "points": 5,
+      "question": "The process by which organisms with advantageous traits survive and reproduce more successfully, passing beneficial alleles to offspring, is called ___________.",
+      "correctAnswer": "natural selection",
+      "explanation": "Natural selection is the mechanism by which evolution occurs. It acts on heritable variation within populations, causing beneficial alleles to increase in frequency over generations and harmful alleles to decrease."
+    },
+    {
+      "id": "q14",
+      "type": "fill-in",
+      "points": 5,
+      "question": "In DNA base pairing, adenine (A) always pairs with ___________, and guanine (G) always pairs with ___________.",
+      "correctAnswer": "thymine, cytosine",
+      "explanation": "These are the Watson-Crick base-pairing rules: A-T (2 hydrogen bonds) and G-C (3 hydrogen bonds). These rules are essential to DNA replication and structure."
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A woman with type A blood (could be I^A I^A or I^A i) has a baby with type O blood (ii). What is the woman's genotype?",
+      "options": [
+        "I^A I^A (homozygous)",
+        "I^A i (heterozygous)",
+        "ii (though impossible given type A phenotype)",
+        "Cannot be determined from this information"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A child with type O blood (ii) must have received an i allele from each parent. Since the mother has type A blood but carried an i allele, she must be I^A i (heterozygous). If she were I^A I^A, all children would have at least one I^A allele and could not be type O."
+    },
+    {
+      "id": "q16",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "What is the correct order of biological classification from broadest to most specific?",
+      "options": [
+        "Kingdom, Phylum, Class, Order, Family, Genus, Species",
+        "Domain, Phylum, Order, Family, Genus, Class, Species",
+        "Species, Genus, Family, Order, Class, Phylum, Kingdom",
+        "Domain, Kingdom, Phylum, Class, Order, Family, Genus, Species"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The correct order is Domain → Kingdom → Phylum → Class → Order → Family → Genus → Species. The mnemonic is 'Dear King Philip Came Over For Good Soup.' Domain is the broadest category; species is the most specific."
+    },
+    {
+      "id": "q17",
+      "type": "short-answer",
+      "points": 5,
+      "question": "In a monohybrid cross, a plant that is homozygous dominant for seed color (YY, yellow) is crossed with a plant that is homozygous recessive (yy, green). Draw a Punnett square and predict the genotypes and phenotypes of the F1 and F2 generations.",
+      "model_answer": "F1 cross (YY × yy): All offspring are Yy (heterozygous), showing yellow phenotype. F1 × F1 cross (Yy × Yy): Punnett square shows 1 YY : 2 Yy : 1 yy (genotypes) and 3 yellow : 1 green (phenotypes). The 3:1 ratio is characteristic of a monohybrid cross between two heterozygotes.",
+      "explanation": "This question tests understanding of monohybrid crosses across two generations and the ability to construct and interpret Punnett squares. Key concepts: homozygous vs. heterozygous, dominant phenotype, 3:1 ratio."
+    },
+    {
+      "id": "q18",
+      "type": "short-answer",
+      "points": 5,
+      "question": "A DNA sample is analyzed and found to contain 28% guanine. Calculate the percentages of all four bases in this DNA sample and explain your reasoning using Chargaff's rules.",
+      "model_answer": "If %G = 28%, then %C = 28% (by Chargaff's rule: %G = %C). Therefore, %G + %C = 56%, which means %A + %T = 44%. Since %A = %T (by Chargaff's rule), each is 22%. Final answer: A = 22%, T = 22%, G = 28%, C = 28%. Total = 100%.",
+      "explanation": "This question assesses mastery of Chargaff's rules and the ability to systematically solve base composition problems. Key concepts: base pairing rules, complementary base proportions, algebraic problem-solving."
+    },
+    {
+      "id": "q19",
+      "type": "short-answer",
+      "points": 5,
+      "question": "Explain how the presence of vestigial structures (such as the human tailbone/coccyx) in modern organisms provides evidence for evolution.",
+      "model_answer": "Vestigial structures are remnants of structures that had important functions in ancestral organisms but have lost most or all function in modern organisms. The human tailbone (coccyx) is a remnant of the tail present in our evolutionary ancestors. These structures would be inexplicable from a design perspective but are perfectly explained by evolution—they represent evolutionary baggage passed down from ancestors where they were useful.",
+      "explanation": "This question assesses understanding of vestigial structures as evidence for evolution and the ability to think critically about evolutionary mechanisms. Key concepts: common ancestry, evolutionary baggage, comparative anatomy as evidence."
+    },
+    {
+      "id": "q20",
+      "type": "short-answer",
+      "points": 5,
+      "question": "Compare complete dominance, incomplete dominance, and codominance. Provide an example of how each would differ if you crossed a red flower with a white flower.",
+      "model_answer": "Complete dominance: Red (RR) × White (WW) → F1 all red (Rw); heterozygote appears identical to homozygous dominant. Incomplete dominance: Red (RR) × White (WW) → F1 all pink (RW); heterozygote shows intermediate phenotype. Codominance: Red (R) × White (W) → F1 shows both red AND white colors simultaneously (not blended). In complete dominance, one phenotype masks the other. In incomplete dominance, neither allele is fully dominant, producing an intermediate. In codominance, both alleles are fully expressed without blending.",
+      "explanation": "This question assesses comprehensive understanding of different inheritance patterns and the ability to distinguish between related concepts. Key concepts: dominance relationships, heterozygous phenotypes, gene expression."
+    }
+  ]
+}

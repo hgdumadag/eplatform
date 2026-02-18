@@ -1,0 +1,192 @@
+{
+  "examType": "practice",
+  "topicId": "grade-12-science-q4-meteorology-astronomy",
+  "totalQuestions": 15,
+  "totalPoints": 100,
+  "timeLimit": 60,
+  "questions": [
+    {
+      "id": "mc-1",
+      "type": "multiple-choice",
+      "difficulty": "easy",
+      "points": 7,
+      "question": "Which of the following causes a tsunami?",
+      "options": [
+        "Low atmospheric pressure and strong onshore winds",
+        "An underwater earthquake or landslide",
+        "Gradual warming of ocean water",
+        "High tides during a full moon"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tsunamis are caused by sudden, violent disturbances of water masses—typically underwater earthquakes, submarine landslides, or volcanic eruptions. Low pressure and winds cause storm surge, not tsunamis. Ocean warming and tidal cycles do not generate tsunamis."
+    },
+    {
+      "id": "mc-2",
+      "type": "multiple-choice",
+      "difficulty": "easy",
+      "points": 7,
+      "question": "Which warning sign precedes the arrival of a tsunami?",
+      "options": [
+        "Rapid rise in water level",
+        "Sudden recession (withdrawal) of water from the shore",
+        "Extremely strong winds",
+        "Unusual cloud formations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "As a tsunami approaches shore, the wave trough (low point) often arrives first, causing a dramatic withdrawal of water from the beach. This is a distinctive warning sign that residents should immediately evacuate to higher ground."
+    },
+    {
+      "id": "mc-3",
+      "type": "multiple-choice",
+      "difficulty": "medium",
+      "points": 7,
+      "question": "A coastal city experiences severe flooding during calm, sunny weather. No storm is nearby. What is the most likely cause?",
+      "options": [
+        "Storm surge from a distant hurricane",
+        "Tsunami from a seismic event",
+        "Extreme high tide",
+        "Inland river flooding"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Storm surge requires a nearby tropical cyclone with its associated winds and low pressure. Tsunami is caused by seismic activity and can occur during calm weather. Extreme high tides are predictable and minor compared to tsunami damage."
+    },
+    {
+      "id": "mc-4",
+      "type": "multiple-choice",
+      "difficulty": "medium",
+      "points": 7,
+      "question": "Which soil property combination results in the greatest flood risk?",
+      "options": [
+        "High porosity and high permeability",
+        "Low porosity and low permeability",
+        "High porosity and low permeability",
+        "Low porosity and high permeability"
+      ],
+      "correctAnswer": 2,
+      "explanation": "High porosity without high permeability means soil can hold water but cannot drain it. Water accumulates on the surface and runs off, creating flood risk. Low permeability is the key problem. High porosity + high permeability allows water to infiltrate and drain safely."
+    },
+    {
+      "id": "mc-5",
+      "type": "multiple-choice",
+      "difficulty": "medium",
+      "points": 7,
+      "question": "Which of the following correctly lists planets in order from closest to farthest from the Sun?",
+      "options": [
+        "Mercury, Venus, Mars, Earth, Jupiter, Saturn, Uranus, Neptune",
+        "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune",
+        "Venus, Mercury, Earth, Mars, Jupiter, Saturn, Neptune, Uranus",
+        "Mercury, Venus, Jupiter, Earth, Mars, Saturn, Uranus, Neptune"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct order is Mercury, Venus, Earth, Mars (terrestrial), then Jupiter, Saturn, Uranus, Neptune (Jovian). This is fundamental to understand planetary characteristics and positions."
+    },
+    {
+      "id": "mc-6",
+      "type": "multiple-choice",
+      "difficulty": "medium",
+      "points": 7,
+      "question": "Which planets are classified as Jovian (gas/ice giants)?",
+      "options": [
+        "Mercury, Venus, Earth, Mars",
+        "Jupiter, Saturn, Uranus, Neptune",
+        "Jupiter and Saturn only",
+        "All planets beyond the Asteroid Belt"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Jovian planets are the four outer planets: Jupiter, Saturn, Uranus, and Neptune. They are large, low-density gas/ice giants. The first four planets (Mercury through Mars) are terrestrial (rocky) planets."
+    },
+    {
+      "id": "mc-7",
+      "type": "multiple-choice",
+      "difficulty": "hard",
+      "points": 7,
+      "question": "Sirius appears brighter than most other stars in the night sky. Which statement correctly explains this?",
+      "options": [
+        "Sirius has the highest absolute magnitude of all stars",
+        "Sirius has the highest apparent magnitude as seen from Earth",
+        "Sirius is the most massive star in the Milky Way",
+        "Sirius emits light only in the visible spectrum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sirius is the brightest star in the night sky in terms of apparent magnitude (brightness as seen from Earth). This is due to a combination of Sirius's intrinsic brightness and its relatively close distance to Earth. Apparent magnitude is specifically the brightness observed from Earth."
+    },
+    {
+      "id": "mc-8",
+      "type": "multiple-choice",
+      "difficulty": "hard",
+      "points": 7,
+      "question": "A compass needle's north-seeking end points toward Earth's geographic North Pole. What does this tell you about the magnetic polarity at the geographic North Pole?",
+      "options": [
+        "It is a magnetic north pole",
+        "It is a magnetic south pole",
+        "It is neither—the geographic North Pole has no magnetic field",
+        "The magnetic field there is perfectly aligned with the rotation axis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The north-seeking end of a compass is a magnetic north pole. Since opposite poles attract, the compass's north pole points toward a magnetic south pole. Therefore, Earth's geographic North Pole is a magnetic south pole. This counterintuitive fact is a classic UPCAT test item."
+    },
+    {
+      "id": "tf-1",
+      "type": "true-false",
+      "difficulty": "easy",
+      "points": 6,
+      "question": "Storm surge is always associated with a tropical cyclone (hurricane, typhoon, or cyclone).",
+      "correctAnswer": "true",
+      "explanation": "True. Storm surge is caused by the low atmospheric pressure and strong onshore winds of a tropical cyclone. Without a nearby storm, there is no storm surge."
+    },
+    {
+      "id": "tf-2",
+      "type": "true-false",
+      "difficulty": "medium",
+      "points": 6,
+      "question": "A tsunami can occur during calm weather with no storms nearby.",
+      "correctAnswer": "true",
+      "explanation": "True. Tsunamis are generated by seismic activity (earthquakes, landslides), not weather. They can occur on perfectly calm, sunny days because the cause is underground, not atmospheric."
+    },
+    {
+      "id": "tf-3",
+      "type": "true-false",
+      "difficulty": "medium",
+      "points": 6,
+      "question": "Sandy soil has a higher permeability than clay soil, making sandy soil more prone to surface flooding.",
+      "correctAnswer": "false",
+      "explanation": "False. Sandy soil has HIGH permeability, which allows water to infiltrate quickly, reducing surface runoff and flood risk. Clay soil has LOW permeability, which prevents infiltration and increases surface runoff and flooding. Sandy soil is LESS prone to flooding."
+    },
+    {
+      "id": "fill-1",
+      "type": "fill-in",
+      "difficulty": "medium",
+      "points": 8,
+      "question": "The ability of a soil to absorb and hold water is called _______, while the ability of water to flow through soil is called _______.",
+      "correctAnswer": "porosity, permeability",
+      "explanation": "Porosity is the percentage of pore spaces (capacity); permeability is the rate of water flow through soil. Both are important for determining flood risk."
+    },
+    {
+      "id": "fill-2",
+      "type": "fill-in",
+      "difficulty": "hard",
+      "points": 8,
+      "question": "The tail of a comet always points _______ from the Sun, even if the comet is moving away from the Sun.",
+      "correctAnswer": "away",
+      "explanation": "The solar wind pushes the comet's vapor tail away from the Sun, regardless of the comet's orbital direction."
+    },
+    {
+      "id": "sa-1",
+      "type": "short-answer",
+      "difficulty": "medium",
+      "points": 5,
+      "question": "Explain how deforestation can increase flooding in downstream areas.",
+      "correctAnswer": "Trees and their root systems absorb large quantities of water during rainfall and anchor the soil, reducing erosion and runoff. When forests are removed, the soil loses this water absorption capacity and the protective root structure. This leads to increased surface runoff, less infiltration into groundwater, and higher flood peaks downstream. Additionally, erosion of exposed soil increases sediment load in rivers.",
+      "explanation": "This answer demonstrates understanding of the role of vegetation in water cycle and flood prevention."
+    },
+    {
+      "id": "sa-2",
+      "type": "short-answer",
+      "difficulty": "hard",
+      "points": 5,
+      "question": "Describe the relationship between Earth's geographic poles and magnetic poles, and explain why a compass needle points toward the geographic North Pole.",
+      "correctAnswer": "The geographic North Pole is Earth's rotation axis endpoint at 90°N. The magnetic North Pole is located several hundred kilometers away (in northern Canada) where Earth's magnetic field lines point downward. Earth's geographic North Pole is actually a magnetic south pole. The compass needle's north-seeking end (a magnetic north pole) points toward the geographic North Pole because opposite magnetic poles attract, so the compass's north pole is attracted to Earth's magnetic south pole at the geographic North Pole.",
+      "explanation": "This sophisticated answer shows mastery of the magnetic pole paradox, a key UPCAT concept."
+    }
+  ]
+}

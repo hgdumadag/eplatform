@@ -1,0 +1,218 @@
+{
+  "id": "grade-12-science-q2-organisms-and-ecosystems-assessment",
+  "title": "Organisms and Ecosystems Assessment Exam",
+  "description": "20-question comprehensive assessment covering taxonomy, protozoans, animal phyla, food webs, and environmental biology",
+  "totalPoints": 100,
+  "passingScore": 70,
+  "timeLimit": 60,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which taxonomic rank is the most specific?",
+      "options": [
+        "Genus",
+        "Species",
+        "Family",
+        "Order"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Species is the most specific taxonomic rank. The complete hierarchy from broadest to most specific is: Domain → Kingdom → Phylum → Class → Order → Family → Genus → Species. Species is defined as organisms that can interbreed and produce fertile offspring under natural conditions."
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which of the following represents the characteristics of prokaryotic organisms?",
+      "options": [
+        "Membrane-bound nucleus, membrane-bound organelles, found in all domains",
+        "No membrane-bound nucleus, no membrane-bound organelles, found in Bacteria and Archaea",
+        "Cell walls made of cellulose, found in fungi and plants",
+        "Flagella for movement, found only in single-celled organisms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Prokaryotes (Bacteria and Archaea) lack membrane-bound nuclei and organelles. This is their defining characteristic. Eukaryotes have both. While some prokaryotes have flagella, flagella are not universal to prokaryotes, and they are also found in some eukaryotic cells."
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A protist moves using a single long, whip-like structure. It also contains chloroplasts and performs photosynthesis. Which protist is this?",
+      "options": [
+        "Amoeba (Sarcodina)",
+        "Paramecium (Ciliophora)",
+        "Euglena (Mastigophora)",
+        "Plasmodium (Sporozoa)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Euglena is a photosynthetic flagellate protist. It moves using a single flagellum and contains chloroplasts. Unlike Paramecium (non-photosynthetic) and Amoeba (non-photosynthetic), Euglena can photosynthesize. Plasmodium is a parasitic protist without flagella or photosynthesis."
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which phylum is characterized by bilateral symmetry, segmentation, and a closed circulatory system?",
+      "options": [
+        "Platyhelminthes (flatworms)",
+        "Mollusca (mollusks)",
+        "Annelida (segmented worms)",
+        "Arthropoda (arthropods)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Annelida (segmented worms like earthworms) is characterized by bilateral symmetry, distinct body segmentation, and a closed circulatory system where blood is contained in vessels. This makes circulation more efficient than the open systems of mollusks and arthropods. Flatworms lack true segmentation and have open systems."
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "What is a distinguishing characteristic of echinoderms not found in other animal phyla?",
+      "options": [
+        "Complete digestive system with separate mouth and anus",
+        "Water vascular system for locomotion and feeding",
+        "Radial symmetry in larval stage",
+        "Bilateral symmetry in adult stage"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The water vascular system is unique to echinoderms and is used for locomotion via tube feet. Many other phyla have complete digestive systems; radial symmetry in larvae is not unique (some other organisms have this); bilateral symmetry is common in many phyla."
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "In ecological relationships, which best describes the interaction between a flower and the pollinator that visits it?",
+      "options": [
+        "Predation: the flower predates on the pollinator",
+        "Parasitism: the pollinator parasitizes the flower",
+        "Mutualism: both the flower and pollinator benefit",
+        "Commensalism: only the pollinator benefits"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This is mutualism (+/+). The flower provides nectar (food) for the pollinator; the pollinator provides pollination services for reproduction. Both organisms gain fitness from the interaction. This is one of the most important mutualistic relationships in nature."
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "In a food web, which organisms are responsible for returning nutrients from dead organic matter to the soil?",
+      "options": [
+        "Producers (plants)",
+        "Primary consumers (herbivores)",
+        "Secondary consumers (carnivores)",
+        "Decomposers (bacteria, fungi)"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Decomposers break down dead organisms and waste, releasing nutrients back into the ecosystem in forms that plants can use. This is critical for nutrient cycling. Without decomposers, dead biomass would accumulate and nutrients would be sequestered, preventing nutrient recycling."
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: The first law of thermodynamics applied to ecosystems means that energy is conserved, but approximately 90% is lost as heat at each trophic level.",
+      "correctAnswer": "true",
+      "explanation": "This is true. Energy is neither created nor destroyed (first law of thermodynamics), but it is transformed. At each trophic level, about 90% of energy is lost as heat through cellular respiration and metabolic processes; only 10% is incorporated into biomass for the next level. This is the basis of the 10% rule."
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: Eutrophication is caused by nutrient depletion in water bodies, leading to reduced algal growth and increased oxygen levels.",
+      "correctAnswer": "false",
+      "explanation": "False. Eutrophication is caused by nutrient enrichment (excess nitrogen and phosphorus), not depletion. This leads to increased algal growth (algal bloom), not reduced growth. The result is oxygen depletion when the algae die and decompose, not increased oxygen."
+    },
+    {
+      "id": "q10",
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: Bioremediation uses living organisms, particularly bacteria, to break down pollutants and restore ecosystem health.",
+      "correctAnswer": "true",
+      "explanation": "This is true. Bioremediation harnesses the natural metabolic capabilities of organisms (especially bacteria) to degrade pollutants. Examples include oil-metabolizing bacteria for oil spills and nitrogen-processing bacteria for nutrient removal in eutrophication."
+    },
+    {
+      "id": "q11",
+      "type": "fill-in",
+      "points": 5,
+      "question": "The scientific name for a blue whale is ___________ ___________. The first part (genus) should be capitalized; the second part (species) should be lowercase.",
+      "correctAnswer": "Balaenoptera musculus",
+      "explanation": "This is an example of binomial nomenclature. Balaenoptera is the genus (whales), and musculus indicates the specific species (blue whale, literally 'the muscular whale')."
+    },
+    {
+      "id": "q12",
+      "type": "fill-in",
+      "points": 5,
+      "question": "The mnemonic 'Dear King Philip Came Over For Good Soup' helps remember the order of taxonomic ranks. Starting with D, the correct order is: Domain, ___________, Phylum, Class, ___________, Family, Genus, ___________.",
+      "correctAnswer": "Kingdom, Order, Species",
+      "explanation": "The complete Linnaean hierarchy is: Domain, Kingdom, Phylum, Class, Order, Family, Genus, Species. This hierarchical system reflects evolutionary relationships and is the foundation of biological classification."
+    },
+    {
+      "id": "q13",
+      "type": "fill-in",
+      "points": 5,
+      "question": "A protist that moves using thousands of short, hair-like structures that beat in coordinated waves belongs to the group ___________ and would be exemplified by the organism ___________, which has a macronucleus and micronucleus.",
+      "correctAnswer": "Ciliophora, Paramecium",
+      "explanation": "Ciliates move using cilia. Paramecium is the classic ciliate with a characteristic 'slipper' shape and two nuclei with different functions (macronucleus for metabolism, micronucleus for reproduction)."
+    },
+    {
+      "id": "q14",
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "If an ecosystem has 10,000 kcal of energy in producers, approximately how much energy will be in the secondary consumers (carnivores that eat herbivores)?",
+      "options": [
+        "10,000 kcal",
+        "1,000 kcal",
+        "100 kcal",
+        "10 kcal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Following the 10% rule: Producers (10,000 kcal) → Primary consumers (10,000 × 0.10 = 1,000 kcal) → Secondary consumers (1,000 × 0.10 = 100 kcal). Secondary consumers have approximately 100 kcal."
+    },
+    {
+      "id": "q15",
+      "type": "short-answer",
+      "points": 5,
+      "question": "Classify a domestic cat (Felis catus) using the eight major taxonomic ranks from Domain to Species.",
+      "model_answer": "Domain: Eukarya; Kingdom: Animalia; Phylum: Chordata; Class: Mammalia; Order: Carnivora; Family: Felidae; Genus: Felis; Species: catus. Binomial nomenclature: Felis catus.",
+      "explanation": "This question tests understanding of the complete Linnaean classification system. Key concepts: the hierarchical nature of classification, evolutionary relationships reflected in taxonomy, and proper binomial nomenclature format."
+    },
+    {
+      "id": "q16",
+      "type": "short-answer",
+      "points": 5,
+      "question": "Compare and contrast the ecological relationships of predation and parasitism. Include the fitness effects for each organism and provide an example of each.",
+      "model_answer": "Predation: Predator (+) kills and consumes prey (-); quick death; predator gains food, prey loses life. Example: hawk eating a rabbit. Parasitism: Parasite (+) lives in/on host (-); usually doesn't kill host immediately; parasite obtains nutrients, host loses resources. Example: tapeworm living in human intestine. Both are +/- relationships, but predation involves killing, while parasitism involves exploitation of a living host.",
+      "explanation": "This question assesses understanding of different types of ecological interactions and their ecological consequences. Key concepts: +/- relationships, fitness effects, predator-prey dynamics versus parasite-host dynamics."
+    },
+    {
+      "id": "q17",
+      "type": "short-answer",
+      "points": 5,
+      "question": "Explain the complete sequence of eutrophication in a lake, including the role of decomposers in creating oxygen depletion.",
+      "model_answer": "Eutrophication sequence: (1) Nutrient enrichment from agricultural runoff (nitrogen, phosphorus); (2) Algae thrive on excess nutrients and undergo explosive growth (algal bloom); (3) Algae die due to light limitation or nutrient depletion and sink to lake bottom; (4) Decomposing bacteria rapidly proliferate and consume dissolved oxygen while breaking down dead algae; (5) Oxygen depletion (hypoxia/anoxia) develops; (6) Aerobic fish and organisms suffocate, creating a 'dead zone.' The key mechanism is that decomposers' respiration consumes oxygen far faster than it can be replenished.",
+      "explanation": "This question tests comprehensive understanding of eutrophication as a multi-stage process with ecological mechanisms. Key concepts: nutrient sources, algal bloom dynamics, decomposer metabolism, and oxygen dynamics."
+    },
+    {
+      "id": "q18",
+      "type": "short-answer",
+      "points": 5,
+      "question": "Describe the characteristics that distinguish Phylum Echinodermata from other complex animal phyla. Include radial symmetry, the water vascular system, and their evolutionary relationship to vertebrates.",
+      "model_answer": "Echinoderms are distinguished by: (1) Radial symmetry in adults (though larvae are bilateral)—unique among complex animals; (2) Water vascular system consisting of water-filled canals ending in tube feet used for locomotion and feeding; (3) Endoskeleton of calcified plates beneath the skin; (4) Simple nervous system without a centralized brain. Evolutionarily, echinoderms are deuterostomes, meaning the anus forms before the mouth during development. This shared developmental pattern indicates echinoderms are more closely related to vertebrates than to other invertebrates.",
+      "explanation": "This question assesses understanding of echinoderm anatomy and their evolutionary significance. Key concepts: radial symmetry, water vascular system, deuterostome development, and phylogenetic relationships."
+    },
+    {
+      "id": "q19",
+      "type": "short-answer",
+      "points": 5,
+      "question": "Explain how the protozoans Amoeba and Paramecium differ in their modes of locomotion and describe how these different locomotion methods relate to their feeding strategies.",
+      "model_answer": "Amoeba (Sarcodina) moves using pseudopods (temporary projections of cytoplasm and cell membrane). The entire cell 'flows' into the pseudopod, allowing movement in any direction and constant shape change. This locomotion mode allows Amoeba to engulf prey through phagocytosis. Paramecium (Ciliophora) moves using thousands of coordinated cilia beating in waves, allowing rapid, directional movement. This enables Paramecium to move toward food sources and position itself to feed. In Paramecium, cilia sweep food particles into an oral groove where they are engulfed. Thus, both locomotion methods facilitate feeding strategies appropriate to their ecological niches.",
+      "explanation": "This question tests understanding of protozoal diversity and the relationship between structure and function. Key concepts: pseudopodial movement, ciliary beating, phagocytosis, and ecological adaptations."
+    },
+    {
+      "id": "q20",
+      "type": "short-answer",
+      "points": 5,
+      "question": "How can bioremediation help restore a lake suffering from eutrophication? Describe at least two approaches and explain the ecological mechanisms by which they reduce nutrient levels.",
+      "model_answer": "Bioremediation approaches for eutrophication: (1) Constructed wetlands: Wetland plants absorb excess nitrogen and phosphorus from water. Anaerobic bacteria in wetland sediments process nitrogen (nitrification/denitrification). Plants are harvested, removing accumulated nutrients from the ecosystem. (2) Nutrient-sequestering bacteria: Engineered treatment systems use specific bacteria that accumulate phosphorus or process nitrogen compounds, reducing nutrient availability for algal growth. (3) Macrophyte cultivation: Growing aquatic plants that absorb excess nutrients; biomass is harvested and removed from the system. All approaches reduce nutrient availability in the water body, preventing future algal blooms and allowing dissolved oxygen to recover.",
+      "explanation": "This question assesses understanding of bioremediation principles and their application to environmental restoration. Key concepts: nutrient cycles, biological nutrient removal, ecosystem restoration, and the role of organisms in pollution control."
+    }
+  ]
+}

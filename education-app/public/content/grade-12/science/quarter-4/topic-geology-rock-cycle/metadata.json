@@ -1,0 +1,39 @@
+{
+  "id": "grade-12-science-q4-geology-rock-cycle",
+  "grade": 12,
+  "subject": "science",
+  "quarter": 4,
+  "topicName": "Geology and the Rock Cycle",
+  "description": "Classify igneous, sedimentary, and metamorphic rocks, trace the rock cycle, apply the Law of Superposition, and use radioactive half-lives to date rock samples for UPCAT.",
+  "learningObjectives": [
+    "Classify rocks as igneous (intrusive/extrusive), sedimentary, or metamorphic and give examples",
+    "Describe how rocks transform between types in the rock cycle",
+    "Apply the Law of Superposition to determine relative ages of rock layers",
+    "Calculate the age of a rock sample using radioactive half-life decay"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": [
+    "geology",
+    "rock-cycle",
+    "igneous",
+    "sedimentary",
+    "metamorphic",
+    "half-life",
+    "superposition",
+    "earth-science",
+    "upcat"
+  ],
+  "prerequisites": [
+    "Basic earth science",
+    "Scientific notation",
+    "Exponential concepts"
+  ],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

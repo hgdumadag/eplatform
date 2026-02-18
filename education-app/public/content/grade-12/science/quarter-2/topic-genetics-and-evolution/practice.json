@@ -1,0 +1,172 @@
+{
+  "id": "grade-12-science-q2-genetics-and-evolution-practice",
+  "title": "Genetics and Evolution Practice Exam",
+  "description": "15-question practice exam covering Mendelian genetics, Punnett squares, DNA base pairing, and evolution",
+  "totalPoints": 100,
+  "passingScore": 70,
+  "timeLimit": 45,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "In a monohybrid cross between two heterozygous parents (Aa × Aa), what is the expected phenotypic ratio?",
+      "options": [
+        "1:1",
+        "3:1",
+        "1:2:1",
+        "9:3:3:1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A heterozygous cross (Aa × Aa) produces offspring in a 3 dominant : 1 recessive ratio. The genotypic ratio is 1 AA : 2 Aa : 1 aa. The 3:1 phenotypic ratio is one of the most characteristic patterns in Mendelian genetics."
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Which of the following best describes a testcross?",
+      "options": [
+        "A cross between two homozygous dominant individuals",
+        "A cross between a dominant phenotype and a homozygous recessive to determine genotype",
+        "A cross between two heterozygous individuals",
+        "A cross between two individuals of unknown genotype"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A testcross is a strategic mating between an individual with a dominant phenotype and a homozygous recessive individual. The results reveal the genotype of the dominant phenotype: a 1:1 ratio indicates heterozygosity, while all dominant offspring indicate homozygosity."
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "A DNA sample contains 25% adenine. What percentage of guanine is present?",
+      "options": [
+        "25%",
+        "50%",
+        "75%",
+        "Cannot be determined from the information given"
+      ],
+      "correctAnswer": 0,
+      "explanation": "By Chargaff's rules: if %A = 25%, then %T = 25%. Therefore, %A + %T = 50%, which means %G + %C = 50%. Since %G = %C, each is 25%. This is a fundamental application of Chargaff's rules."
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "points": 6,
+      "question": "True or False: In a dihybrid cross between two heterozygous individuals (AaBb × AaBb), the expected phenotypic ratio is 9:3:3:1.",
+      "correctAnswer": "true",
+      "explanation": "This is true. The 9:3:3:1 ratio is the classic dihybrid ratio when two traits are inherited independently. The 9 represent individuals dominant for both traits, the 3s represent individuals dominant for one trait and recessive for the other (in each combination), and the 1 represents individuals recessive for both traits."
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "points": 6,
+      "question": "True or False: In incomplete dominance, the heterozygous phenotype is an intermediate blend between the two homozygous phenotypes.",
+      "correctAnswer": "true",
+      "explanation": "In incomplete dominance, neither allele is completely dominant, so the heterozygote displays an intermediate phenotype. For example, a red flower (RR) crossed with a white flower (WW) produces pink flowers (RW). This is different from codominance, where both phenotypes are expressed simultaneously."
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "What is the correct order of biological classification from most general to most specific?",
+      "options": [
+        "Kingdom → Order → Family → Genus → Species → Class → Phylum",
+        "Domain → Kingdom → Phylum → Class → Order → Family → Genus → Species",
+        "Species → Genus → Family → Order → Class → Phylum → Kingdom → Domain",
+        "Kingdom → Phylum → Family → Order → Class → Genus → Species"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct order is Domain → Kingdom → Phylum → Class → Order → Family → Genus → Species. The mnemonic is 'Dear King Philip Came Over For Good Soup.' This hierarchy reflects evolutionary relationships and is fundamental to understanding biological classification."
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Which of the following is an example of homologous structures?",
+      "options": [
+        "Bird wings and butterfly wings",
+        "Fish fins and whale flippers",
+        "Human arm and bat wing",
+        "Plant roots and plant shoots"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Human arms and bat wings are homologous structures—they have the same basic bone anatomy (humerus, radius, ulna, carpals, metacarpals, phalanges) and evolutionary origin but different functions (manipulation vs. flight). This indicates common ancestry. Option 1 (bird vs. butterfly wings) is analogous, not homologous."
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "points": 6,
+      "question": "True or False: In the ABO blood type system, a person with type O blood has the genotype ii and lacks both A and B antigens.",
+      "correctAnswer": "true",
+      "explanation": "Type O blood (ii) is homozygous for the recessive allele and produces neither A nor B antigens. Type A (I^A I^A or I^A i) has A antigen, type B (I^B I^B or I^B i) has B antigen, and type AB (I^A I^B) has both due to codominance. Type O individuals are universal donors."
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "points": 8,
+      "question": "In a DNA double helix, adenine pairs with ___________ via two hydrogen bonds, and guanine pairs with ___________ via three hydrogen bonds.",
+      "correctAnswer": "thymine, cytosine",
+      "explanation": "Adenine (A) always pairs with thymine (T) through two hydrogen bonds, and guanine (G) always pairs with cytosine (C) through three hydrogen bonds. These Watson-Crick base-pairing rules are fundamental to DNA structure and replication."
+    },
+    {
+      "id": "q10",
+      "type": "fill-in",
+      "points": 8,
+      "question": "Mendel's Law of ___________ states that allele pairs separate during gamete formation, with each gamete receiving only one allele for each gene.",
+      "correctAnswer": "Segregation",
+      "explanation": "The Law of Segregation is one of Mendel's foundational principles. It explains why offspring receive one allele from each parent for each gene. This law is the basis for predicting genotypic and phenotypic ratios in crosses."
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "A red flower plant (RR) is crossed with a white flower plant (WW). Assuming incomplete dominance, what color will the F1 flowers be?",
+      "options": [
+        "Red",
+        "White",
+        "Pink",
+        "Red and white striped"
+      ],
+      "correctAnswer": 2,
+      "explanation": "With incomplete dominance, the heterozygous F1 (RW) shows an intermediate phenotype (pink) rather than the dominant phenotype (red). This is distinct from complete dominance, where the heterozygote would be red, or codominance, where it would show both red and white."
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "points": 8,
+      "question": "What is the relationship between natural selection and evolution?",
+      "options": [
+        "Natural selection is a theory that explains evolution",
+        "Natural selection is the primary mechanism by which evolution occurs",
+        "Natural selection and evolution are the same thing",
+        "Evolution causes natural selection"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Natural selection is the primary mechanism proposed by Darwin to explain how evolution occurs. Through differential reproduction of individuals with advantageous traits, allele frequencies change over time, leading to evolutionary change in populations."
+    },
+    {
+      "id": "q13",
+      "type": "short-answer",
+      "points": 5,
+      "question": "A tall pea plant with an unknown genotype is crossed with a short pea plant (tt). The offspring are approximately 50% tall and 50% short. Determine the genotype of the tall parent and explain your reasoning using a Punnett square.",
+      "model_answer": "The tall parent must be heterozygous (Tt). A testcross showing a 1:1 ratio indicates the unknown parent is heterozygous. Punnett square: T × t produces Tt (tall) and t × t produces tt (short), yielding 50% tall (Tt) and 50% short (tt). If the tall parent were homozygous (TT), all offspring would be tall (Tt).",
+      "explanation": "This question tests understanding of testcrosses and the ability to interpret ratios to infer genotype. Key concepts: testcross results, 1:1 ratio = heterozygous, homozygous dominant produces all dominant offspring."
+    },
+    {
+      "id": "q14",
+      "type": "short-answer",
+      "points": 5,
+      "question": "Explain the difference between analogous and homologous structures, and provide an example of how each serves as evidence for evolution.",
+      "model_answer": "Homologous structures have similar anatomy and evolutionary origin but different functions; they indicate common ancestry. Example: human arms and bat wings both have the same bone structure (humerus, radius, ulna) but are used for different purposes (manipulation vs. flight). Analogous structures have similar functions but different evolutionary origins; they indicate convergent evolution. Example: bird wings and butterfly wings are both used for flight but have completely different structures and evolutionary origins.",
+      "explanation": "This question assesses understanding of comparative anatomy as evidence for evolution. Key concepts: homologous = same origin/common ancestry, analogous = same function/different origin, divergent vs. convergent evolution."
+    },
+    {
+      "id": "q15",
+      "type": "true-false",
+      "points": 6,
+      "question": "True or False: Chargaff's rules state that in any DNA sample, the percentage of adenine equals the percentage of thymine, and the percentage of guanine equals the percentage of cytosine.",
+      "correctAnswer": "true",
+      "explanation": "This is true and is the fundamental principle behind Chargaff's rules. Since A pairs with T and G pairs with C in the DNA double helix, the proportions must be equal. These rules are essential for solving DNA composition problems on standardized tests."
+    }
+  ]
+}

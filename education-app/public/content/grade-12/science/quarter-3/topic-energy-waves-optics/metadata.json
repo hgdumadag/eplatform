@@ -1,0 +1,39 @@
+{
+  "id": "grade-12-science-q3-energy-waves-optics",
+  "grade": 12,
+  "subject": "science",
+  "quarter": 3,
+  "topicName": "Energy, Waves, and Optics",
+  "description": "Apply conservation of energy, compare kinetic and potential energy, identify electromagnetic spectrum wavelengths, and solve mirror reflection problems for UPCAT Physics.",
+  "learningObjectives": [
+    "Calculate kinetic and gravitational potential energy and apply conservation of energy",
+    "Identify which object has the greatest gravitational potential energy in a scenario",
+    "Arrange the electromagnetic spectrum by wavelength and frequency",
+    "Solve problems involving mirror reflections using the law of reflection and mirror formula"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": [
+    "energy",
+    "kinetic-energy",
+    "potential-energy",
+    "electromagnetic-spectrum",
+    "optics",
+    "mirrors",
+    "waves",
+    "physics",
+    "upcat"
+  ],
+  "prerequisites": [
+    "Basic algebra",
+    "Newton's laws",
+    "Units of measurement"
+  ],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

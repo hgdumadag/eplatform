@@ -1,0 +1,187 @@
+{
+  "examId": "grade-12-science-q1-chemical-reactions-stoichiometry-practice",
+  "title": "Practice Exam: Chemical Reactions and Stoichiometry",
+  "description": "15-question practice exam covering balancing equations, stoichiometry, mole concept, limiting reagents, and reaction energy.",
+  "totalQuestions": 15,
+  "totalPoints": 100,
+  "timeLimit": 45,
+  "passingScore": 70,
+  "questions": [
+    {
+      "questionId": 1,
+      "type": "multiple_choice",
+      "points": 7,
+      "question": "What is the balanced equation for: Fe + O₂ → Fe₂O₃?",
+      "options": [
+        "Fe + O₂ → Fe₂O₃",
+        "2Fe + O₂ → Fe₂O₃",
+        "4Fe + 3O₂ → 2Fe₂O₃",
+        "Fe + 3O₂ → 2Fe₂O₃"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Balancing: Fe atoms: left 4, right 4; O atoms: left 6, right 6. The balanced equation is 4Fe + 3O₂ → 2Fe₂O₃."
+    },
+    {
+      "questionId": 2,
+      "type": "multiple_choice",
+      "points": 7,
+      "question": "In the reaction 2H₂ + O₂ → 2H₂O, how many moles of H₂O are produced from 3 moles of H₂?",
+      "options": [
+        "1.5 mol",
+        "3 mol",
+        "4.5 mol",
+        "6 mol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mole ratio: 2 H₂ : 2 H₂O = 1:1. Therefore, 3 mol H₂ × (2 mol H₂O / 2 mol H₂) = 3 mol H₂O."
+    },
+    {
+      "questionId": 3,
+      "type": "multiple_choice",
+      "points": 7,
+      "question": "What is the molar mass of NaCl? (Na = 23 g/mol, Cl = 35.5 g/mol)",
+      "options": [
+        "23 g/mol",
+        "35.5 g/mol",
+        "58.5 g/mol",
+        "58 g/mol"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Molar mass of NaCl = 23 + 35.5 = 58.5 g/mol"
+    },
+    {
+      "questionId": 4,
+      "type": "multiple_choice",
+      "points": 7,
+      "question": "How many moles are in 45 g of H₂O? (Molar mass = 18 g/mol)",
+      "options": [
+        "1 mol",
+        "2.5 mol",
+        "0.5 mol",
+        "5 mol"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Moles = mass / molar mass = 45 g / 18 g/mol = 2.5 mol"
+    },
+    {
+      "questionId": 5,
+      "type": "multiple_choice",
+      "points": 7,
+      "question": "Which is a decomposition reaction?",
+      "options": [
+        "H₂ + Cl₂ → 2HCl",
+        "2H₂O₂ → 2H₂O + O₂",
+        "Zn + CuSO₄ → ZnSO₄ + Cu",
+        "CH₄ + 2O₂ → CO₂ + 2H₂O"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Option B is decomposition: one compound (H₂O₂) breaks into two products (H₂O and O₂). A is synthesis, C is single displacement, D is combustion."
+    },
+    {
+      "questionId": 6,
+      "type": "multiple_choice",
+      "points": 7,
+      "question": "In the reaction CH₄ + 2O₂ → CO₂ + 2H₂O, how many grams of CO₂ (molar mass = 44 g/mol) are produced from 8 g of CH₄ (molar mass = 16 g/mol)?",
+      "options": [
+        "11 g",
+        "22 g",
+        "44 g",
+        "88 g"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Moles of CH₄ = 8/16 = 0.5 mol. Mole ratio 1:1, so 0.5 mol CO₂. Mass of CO₂ = 0.5 × 44 = 22 g."
+    },
+    {
+      "questionId": 7,
+      "type": "multiple_choice",
+      "points": 7,
+      "question": "Which reaction is exothermic?",
+      "options": [
+        "Melting ice",
+        "Evaporating water",
+        "Combustion of wood",
+        "Dissolving ammonium nitrate"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Combustion releases heat (exothermic). Melting, evaporating, and dissolving ammonium nitrate are endothermic (absorb heat)."
+    },
+    {
+      "questionId": 8,
+      "type": "multiple_choice",
+      "points": 7,
+      "question": "A catalyst changes which of the following?",
+      "options": [
+        "The ΔH of the reaction",
+        "The equilibrium position of the reaction",
+        "The activation energy of the reaction",
+        "The amount of product formed at equilibrium"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A catalyst lowers activation energy without changing ΔH, equilibrium position, or the amount of product at equilibrium."
+    },
+    {
+      "questionId": 9,
+      "type": "true_false",
+      "points": 6,
+      "question": "True or False: When balancing an equation, you can change the subscripts in chemical formulas.",
+      "correctAnswer": "false",
+      "explanation": "False. Only coefficients (numbers before formulas) are adjusted. Subscripts (numbers within formulas) are never changed because that would change the identity of the compounds."
+    },
+    {
+      "questionId": 10,
+      "type": "true_false",
+      "points": 6,
+      "question": "True or False: In a combustion reaction, the products always include CO₂ and H₂O.",
+      "correctAnswer": "true",
+      "explanation": "True. In complete combustion of a hydrocarbon fuel, carbon forms CO₂ and hydrogen forms H₂O. Incomplete combustion can produce CO or soot."
+    },
+    {
+      "questionId": 11,
+      "type": "true_false",
+      "points": 6,
+      "question": "True or False: Avogadro's number is approximately 6.022 × 10²³.",
+      "correctAnswer": "true",
+      "explanation": "True. Avogadro's number is exactly 6.02214076 × 10²³, commonly rounded to 6.022 × 10²³."
+    },
+    {
+      "questionId": 12,
+      "type": "fill_in",
+      "points": 8,
+      "question": "How many moles of O₂ are in 96 g of O₂? (Molar mass = 32 g/mol) _____ mol",
+      "correctAnswer": "3",
+      "tolerance": 0.1,
+      "explanation": "Moles = mass / molar mass = 96 g / 32 g/mol = 3 mol"
+    },
+    {
+      "questionId": 13,
+      "type": "fill_in",
+      "points": 8,
+      "question": "What is the molar mass of Ca(OH)₂? (Ca = 40, O = 16, H = 1) _____ g/mol",
+      "correctAnswer": "74",
+      "tolerance": 1,
+      "explanation": "Molar mass = 40 + 2(16 + 1) = 40 + 2(17) = 40 + 34 = 74 g/mol"
+    },
+    {
+      "questionId": 14,
+      "type": "short_answer",
+      "points": 5,
+      "question": "Balance the equation: Al + Cl₂ → AlCl₃. Write your answer in the form: ___Al + ___Cl₂ → ___AlCl₃",
+      "acceptableAnswers": [
+        "2Al + 3Cl₂ → 2AlCl₃",
+        "2 Al + 3 Cl₂ → 2 AlCl₃"
+      ],
+      "explanation": "Balancing: Al: 2 on each side. Cl: 6 on each side. Balanced equation: 2Al + 3Cl₂ → 2AlCl₃"
+    },
+    {
+      "questionId": 15,
+      "type": "short_answer",
+      "points": 5,
+      "question": "In the reaction 2N₂ + 3H₂ → 2NH₃, if you have 14 g of N₂ (molar mass = 28 g/mol) and 6 g of H₂ (molar mass = 2 g/mol), identify which is the limiting reagent and explain why.",
+      "acceptableAnswers": [
+        "N₂ is the limiting reagent. With 0.5 mol N₂, we need 0.75 mol H₂, but we only have 3 mol H₂. Wait, 6/2 = 3 mol H₂. So actually, N₂ needs 0.5 mol × (3/2) = 0.75 mol H₂. We have 3 mol, which is more than enough. So N₂ is limiting? Let me recalculate: 14/28 = 0.5 mol N₂; 6/2 = 3 mol H₂. For 0.5 mol N₂, we need (3/2) × 0.5 = 0.75 mol H₂. We have 3 mol H₂, so H₂ is in excess and N₂ is limiting.",
+        "H₂ is the limiting reagent. The mole ratio requires 3 H₂ for every 2 N₂. For the given amounts, there is insufficient H₂ to react with all the N₂."
+      ],
+      "explanation": "Moles: N₂ = 0.5 mol, H₂ = 3 mol. For 0.5 mol N₂, we need 0.75 mol H₂ (using 2:3 ratio). Since we have 3 mol H₂ (more than enough), N₂ is the limiting reagent."
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "examType": "assessment",
+  "title": "Energy, Waves, and Optics - Assessment Exam",
+  "totalPoints": 100,
+  "duration": 90,
+  "instructions": "Answer all questions. Show all work for calculations. This is a comprehensive assessment of your understanding of energy conservation, the electromagnetic spectrum, wave properties, and mirror optics.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A 3 kg object is raised from ground level (h=0) to a height of 4 m. What is the change in gravitational potential energy? (Use g = 10 m/s²)",
+      "options": [
+        "12 J",
+        "40 J",
+        "120 J",
+        "240 J"
+      ],
+      "correctAnswer": 2,
+      "explanation": "ΔPE = mgΔh = 3 × 10 × 4 = 120 J"
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "An object is moving at 6 m/s. If its velocity is doubled to 12 m/s, by what factor does its kinetic energy increase?",
+      "options": [
+        "2 times",
+        "4 times",
+        "6 times",
+        "12 times"
+      ],
+      "correctAnswer": 1,
+      "explanation": "KE = ½mv². When v is doubled, KE becomes ½m(2v)² = 4(½mv²), so KE increases by a factor of 4."
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which of the following EM waves has the highest frequency?",
+      "options": [
+        "Microwave",
+        "Infrared",
+        "Gamma ray",
+        "Radio wave"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In order of increasing frequency: Radio < Microwave < Infrared < Visible < UV < X-ray < Gamma ray. Gamma rays have the highest frequency."
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A light ray strikes a mirror surface at an angle of 30° to the normal. What is the angle of reflection?",
+      "options": [
+        "30°",
+        "60°",
+        "90°",
+        "120°"
+      ],
+      "correctAnswer": 0,
+      "explanation": "According to the law of reflection, the angle of incidence equals the angle of reflection, both measured from the normal. If the angle of incidence is 30°, the angle of reflection is also 30°."
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A student uses conservation of energy to analyze a ball thrown upward from ground level. At the maximum height, which energy is zero?",
+      "options": [
+        "Kinetic energy",
+        "Gravitational potential energy",
+        "Total mechanical energy",
+        "Work done by gravity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At maximum height, the ball momentarily stops (v = 0), so kinetic energy is zero. Potential energy is maximum. Total mechanical energy is conserved throughout."
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "An electromagnetic wave has a wavelength of 500 nm. What type of EM wave is this?",
+      "options": [
+        "Infrared",
+        "Visible light (green)",
+        "Ultraviolet",
+        "X-ray"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Visible light wavelengths range from 400–700 nm. Red ~700 nm, Violet ~400 nm. 500 nm is in the green region of visible light."
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A 2 kg object falls from rest through a height of 5 m. Its final velocity is approximately: (Use g = 10 m/s²)",
+      "options": [
+        "5 m/s",
+        "10 m/s",
+        "15 m/s",
+        "20 m/s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using KE = PE: ½mv² = mgh; v = √(2gh) = √(2 × 10 × 5) = √100 = 10 m/s"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A plane mirror produces an image that is:",
+      "options": [
+        "Real, upright, same size",
+        "Virtual, upright, same size",
+        "Real, inverted, same size",
+        "Virtual, inverted, smaller"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plane mirrors always produce virtual, upright, and same-size images located the same distance behind the mirror as the object is in front."
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "The relationship c = fλ applies to:",
+      "options": [
+        "Only radio waves",
+        "Only visible light",
+        "All electromagnetic waves",
+        "Only waves traveling through matter"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The wave equation c = fλ applies to all electromagnetic waves in vacuum, where c = 3 × 10⁸ m/s. The relationship between frequency and wavelength is fundamental to all EM waves."
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A concave mirror has a focal length of 15 cm. An object is placed at the center of curvature (30 cm from the mirror). The image will be:",
+      "options": [
+        "Virtual, upright, enlarged",
+        "Real, inverted, same size",
+        "Virtual, inverted, reduced",
+        "Real, upright, enlarged"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When an object is at the center of curvature (2f), the image is formed at the center of curvature on the opposite side. The image is real, inverted, and the same size as the object."
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: A photon of red light carries more energy than a photon of blue light.",
+      "correctAnswer": "false",
+      "explanation": "Energy E = hf. Blue light has higher frequency than red light, so blue photons carry more energy than red photons."
+    },
+    {
+      "id": 12,
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: For any object, its gravitational potential energy depends only on its mass.",
+      "correctAnswer": "false",
+      "explanation": "Gravitational potential energy PE = mgh depends on both mass (m) and height (h). Two objects with different masses at different heights can have the same PE."
+    },
+    {
+      "id": 13,
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: Convex mirrors are used in car side-view mirrors because they provide a magnified image of objects.",
+      "correctAnswer": "false",
+      "explanation": "Convex mirrors produce smaller, upright images. They are used because they provide a wide field of view, not magnification. The image appears smaller, not larger."
+    },
+    {
+      "id": 14,
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: If an electromagnetic wave's frequency is doubled, its wavelength also doubles.",
+      "correctAnswer": "false",
+      "explanation": "Frequency and wavelength are inversely proportional. If frequency is doubled, wavelength is halved (since c = fλ and c is constant)."
+    },
+    {
+      "id": 15,
+      "type": "fill-in",
+      "points": 5,
+      "question": "A 6 kg object is lifted to a height of 3 m. Its gravitational potential energy is ________ J. (Use g = 10 m/s²)",
+      "correctAnswer": "180",
+      "explanation": "PE = mgh = 6 × 10 × 3 = 180 J"
+    },
+    {
+      "id": 16,
+      "type": "fill-in",
+      "points": 5,
+      "question": "An EM wave with a frequency of 2 × 10⁸ Hz has a wavelength of ________ m. (Use c = 3 × 10⁸ m/s)",
+      "correctAnswer": "1.5",
+      "explanation": "λ = c/f = (3 × 10⁸)/(2 × 10⁸) = 1.5 m (long radio wave)"
+    },
+    {
+      "id": 17,
+      "type": "fill-in",
+      "points": 5,
+      "question": "A ball is dropped from a 20 m building and falls without air resistance. Its kinetic energy just before impact is ________ J. (Assume m = 2 kg, g = 10 m/s²)",
+      "correctAnswer": "400",
+      "explanation": "PE initial = KE final: mgh = ½mv²; KE = mgh = 2 × 10 × 20 = 400 J"
+    },
+    {
+      "id": 18,
+      "type": "fill-in",
+      "points": 5,
+      "question": "A person stands 3 m in front of a plane mirror. The distance from the person to their image is ________ m.",
+      "correctAnswer": "6",
+      "explanation": "Image is 3 m behind mirror. Person is 3 m in front. Total distance = 3 + 3 = 6 m."
+    },
+    {
+      "id": 19,
+      "type": "short-answer",
+      "points": 5,
+      "question": "A 4 kg object is at 5 m height, and a 5 kg object is at 4 m height. Which has greater gravitational PE? Show the calculation.",
+      "correctAnswer": "Object 1: PE = 4 × 10 × 5 = 200 J. Object 2: PE = 5 × 10 × 4 = 200 J. They have equal PE."
+    },
+    {
+      "id": 20,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Explain why the angle of incidence equals the angle of reflection according to the law of reflection, and state what serves as the reference line for measuring these angles.",
+      "correctAnswer": "The law of reflection is a fundamental property of light interaction with surfaces. Both angles are measured from the normal (the perpendicular line to the surface at the point of incidence). This ensures that the incident and reflected rays lie in the same plane and maintain geometric symmetry with respect to the normal."
+    }
+  ]
+}

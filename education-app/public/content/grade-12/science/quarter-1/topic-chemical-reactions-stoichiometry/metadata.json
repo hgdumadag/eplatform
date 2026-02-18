@@ -1,0 +1,25 @@
+{
+  "id": "grade-12-science-q1-chemical-reactions-stoichiometry",
+  "grade": 12,
+  "subject": "science",
+  "quarter": 1,
+  "topicName": "Chemical Reactions and Stoichiometry",
+  "description": "Balance chemical equations, apply stoichiometry to convert between grams and moles, and analyze energy profiles for exothermic and endothermic reactions with catalysts for UPCAT.",
+  "learningObjectives": [
+    "Identify and classify types of chemical reactions",
+    "Balance chemical equations using the law of conservation of mass",
+    "Convert between grams, moles, and number of particles using stoichiometry",
+    "Interpret energy diagrams and explain the role of catalysts in chemical reactions"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": ["stoichiometry", "chemical-reactions", "balancing-equations", "moles", "exothermic", "endothermic", "catalysts", "upcat"],
+  "prerequisites": ["Atomic structure", "Chemical formulas", "Basic algebra"],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

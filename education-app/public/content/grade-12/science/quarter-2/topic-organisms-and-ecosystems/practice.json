@@ -1,0 +1,172 @@
+{
+  "id": "grade-12-science-q2-organisms-and-ecosystems-practice",
+  "title": "Organisms and Ecosystems Practice Exam",
+  "description": "15-question practice exam covering classification, animal phyla, protozoa, food webs, and eutrophication",
+  "totalPoints": 100,
+  "passingScore": 70,
+  "timeLimit": 45,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Which of the following represents the correct order of biological classification from broadest to most specific?",
+      "options": [
+        "Kingdom, Phylum, Class, Order, Family, Genus, Species",
+        "Domain, Phylum, Class, Order, Family, Genus, Species",
+        "Domain, Kingdom, Phylum, Class, Order, Family, Genus, Species",
+        "Kingdom, Order, Class, Phylum, Family, Genus, Species"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct order is Domain → Kingdom → Phylum → Class → Order → Family → Genus → Species. The mnemonic is 'Dear King Philip Came Over For Good Soup.' Domain is the broadest category; species is the most specific. The modern system includes Domain, which was added after the original Linnaean hierarchy."
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "A protist is observed moving slowly through water using temporary projections of cytoplasm. Which type of protist is this?",
+      "options": [
+        "Ciliate (Ciliophora)",
+        "Flagellate (Mastigophora)",
+        "Amoeba (Sarcodina)",
+        "Sporozoan (Sporozoa)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Amoebas move using pseudopods (temporary projections of cytoplasm), giving them a constantly changing shape. Ciliates move rapidly using many cilia; flagellates move using one or a few flagella; sporozoans are non-motile parasites. The pseudopodial movement is unique to Sarcodina."
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Which of the following is a characteristic feature of echinoderms?",
+      "options": [
+        "Bilateral symmetry in adults with a centralized nervous system",
+        "Radial symmetry in adults with a water vascular system",
+        "Three body layers with a complete digestive system",
+        "Exoskeleton with jointed appendages"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Echinoderms are characterized by radial symmetry in adults (though larvae are bilateral) and a unique water vascular system of fluid-filled canals used for locomotion via tube feet. This makes them distinctly different from other complex animals. Option 3 describes flatworms; option 4 describes arthropods."
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "points": 6,
+      "question": "True or False: A food chain shows a linear sequence of organisms where each organism is eaten by the next, while a food web shows the interconnected feeding relationships in an ecosystem.",
+      "correctAnswer": "true",
+      "explanation": "This is true. A food chain is simple and linear (e.g., Grass → Rabbit → Fox), showing only one feeding pathway. A food web is more complex and realistic, showing that organisms feed on multiple sources and are eaten by multiple predators, reflecting actual ecosystem complexity."
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "points": 6,
+      "question": "True or False: In any ecosystem, the biomass of secondary consumers is typically greater than the biomass of primary consumers.",
+      "correctAnswer": "false",
+      "explanation": "False. Due to the 10% rule (only about 10% of energy is transferred between trophic levels), there is typically much less biomass at higher trophic levels. The biomass of primary consumers is far greater than secondary consumers, creating a pyramid-shaped distribution."
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "What is the binomial nomenclature for humans?",
+      "options": [
+        "Homosapiens (one word)",
+        "Homo sapiens (two words, genus capitalized, species lowercase)",
+        "homo sapiens (both lowercase)",
+        "HOMO SAPIENS (all capitals)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct format is Homo sapiens: genus is capitalized and italicized, species is lowercase and italicized. This is the standard binomial nomenclature format and is frequently tested on standardized exams."
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "Which ecological relationship best describes the interaction between a tapeworm and its human host?",
+      "options": [
+        "Mutualism (+/+) — both organisms benefit",
+        "Parasitism (+/-) — parasite benefits, host is harmed",
+        "Commensalism (+/0) — one benefits, one is unaffected",
+        "Predation (+/-) — predator kills prey"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Parasitism (+/-) is the correct answer. The tapeworm benefits by obtaining nutrients from the host's intestine, while the human host is harmed by nutrient loss and potential intestinal damage. Parasites typically don't kill their hosts immediately but reduce their fitness."
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "points": 6,
+      "question": "True or False: Eutrophication occurs when a water body becomes too enriched in nutrients, leading to an algal bloom, subsequent oxygen depletion, and fish death.",
+      "correctAnswer": "true",
+      "explanation": "This is true. Eutrophication is a well-defined process beginning with nutrient enrichment and ending in hypoxia (oxygen depletion) and mass mortality of aquatic organisms. It represents one of the most serious water pollution problems globally."
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "points": 8,
+      "question": "Sea stars, sea urchins, and sea cucumbers all belong to the phylum ___________, which is characterized by adults having radial symmetry and a unique water vascular system.",
+      "correctAnswer": "Echinodermata",
+      "explanation": "Echinodermata means 'spiny skin.' These organisms have a unique water vascular system with tube feet used for locomotion and feeding. They are deuterostomes, making them more closely related to vertebrates than to other invertebrates."
+    },
+    {
+      "id": "q10",
+      "type": "fill-in",
+      "points": 8,
+      "question": "A protist covered with thousands of cilia that beat in coordinated waves to propel it through water is a member of the group ___________ (Ciliophora). A common example is ___________.",
+      "correctAnswer": "Ciliophora, Paramecium",
+      "explanation": "Ciliates are protozoans that move using cilia. Paramecium is the classic example, often used in laboratory study of protozoal behavior, genetics, and cell biology."
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "points": 7,
+      "question": "In a food web with the following energy flow (in kilocalories): Grass = 50,000 kcal, Grasshoppers = 5,000 kcal, Birds = 500 kcal. How much energy is available to hawks that eat birds?",
+      "options": [
+        "Approximately 50 kcal",
+        "Approximately 500 kcal",
+        "Approximately 5,000 kcal",
+        "Approximately 50,000 kcal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Following the 10% rule, only about 10% of energy is transferred to the next trophic level. Birds have 500 kcal; hawks would have approximately 500 × 0.10 = 50 kcal. This demonstrates why top predators are rare and require large territories to find enough food."
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "points": 8,
+      "question": "Which of the following is an example of mutualism (+/+)?",
+      "options": [
+        "A lion eating a zebra",
+        "Two plants competing for water in dry soil",
+        "A bee pollinating a flower while collecting nectar",
+        "A fish eating parasites off a larger fish (cleaner fish)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Options 3 and 4 are both mutualism. Option 2 is correct and commonly cited: the bee gets food (nectar) and the plant gets pollination services, so both benefit. Option 1 is predation; option 2 is competition."
+    },
+    {
+      "id": "q13",
+      "type": "short-answer",
+      "points": 5,
+      "question": "Describe the process of eutrophication in a lake and explain why oxygen becomes depleted during this process.",
+      "model_answer": "Eutrophication begins with nutrient enrichment (excess nitrogen and phosphorus from agricultural runoff). These nutrients cause algae to bloom rapidly. When the algae die, decomposers (bacteria) proliferate and consume dissolved oxygen while breaking down the dead biomass. This rapid oxygen consumption causes oxygen depletion (hypoxia), leading to a 'dead zone' where aerobic organisms cannot survive.",
+      "explanation": "This question assesses understanding of eutrophication as a multi-stage process and the ecological cause of oxygen depletion. Key concepts: nutrient sources, algal bloom, decomposition, and oxygen dynamics."
+    },
+    {
+      "id": "q14",
+      "type": "short-answer",
+      "points": 5,
+      "question": "Explain why biomass decreases at each successive trophic level in an ecosystem, using the 10% rule.",
+      "model_answer": "Energy is transferred from one trophic level to the next with approximately 90% loss. This is the 10% rule: only about 10% of energy is stored in the biomass of organisms at each level; 90% is lost as heat through metabolic activities, movement, and growth. Consequently, producers have the most biomass, herbivores have less, and carnivores have even less. This creates a pyramid-shaped distribution of biomass with producers at the base and top predators at the apex.",
+      "explanation": "This question tests understanding of energy flow in ecosystems and the thermodynamic basis for energy limitations. Key concepts: 10% rule, metabolic costs, pyramid of biomass, trophic levels."
+    },
+    {
+      "id": "q15",
+      "type": "true-false",
+      "points": 6,
+      "question": "True or False: Paramecium is a protist that moves using pseudopods and is classified in the phylum Sarcodina.",
+      "correctAnswer": "false",
+      "explanation": "False. Paramecium is a ciliate protist (Ciliophora) that moves using cilia, not pseudopods. Amoebas belong to Sarcodina and move using pseudopods. This is a common confusion on exams—know the specific characteristics of each protozoal group."
+    }
+  ]
+}

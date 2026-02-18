@@ -1,0 +1,38 @@
+{
+  "id": "grade-12-science-q4-meteorology-astronomy",
+  "grade": 12,
+  "subject": "science",
+  "quarter": 4,
+  "topicName": "Meteorology and Astronomy",
+  "description": "Distinguish tsunamis from storm surges, analyze flooding and soil porosity, identify solar system components, and understand star brightness and Earth's magnetic poles for UPCAT.",
+  "learningObjectives": [
+    "Distinguish between tsunamis and storm surges by their causes and characteristics",
+    "Explain how soil porosity and permeability affect flooding and runoff",
+    "Identify the components and order of the solar system and characteristics of stars",
+    "Describe Earth's magnetic poles and their relationship to geographic poles"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": [
+    "meteorology",
+    "astronomy",
+    "tsunami",
+    "storm-surge",
+    "solar-system",
+    "stars",
+    "earth-science",
+    "upcat"
+  ],
+  "prerequisites": [
+    "Basic earth science",
+    "Basic physics",
+    "Solar system basics"
+  ],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

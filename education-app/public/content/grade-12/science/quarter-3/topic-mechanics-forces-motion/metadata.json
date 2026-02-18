@@ -1,0 +1,38 @@
+{
+  "id": "grade-12-science-q3-mechanics-forces-motion",
+  "grade": 12,
+  "subject": "science",
+  "quarter": 3,
+  "topicName": "Mechanics: Forces and Motion",
+  "description": "Apply Newton's three laws of motion, calculate net force and torque, analyze projectile motion, and solve kinematics problems for UPCAT Physics.",
+  "learningObjectives": [
+    "State and apply Newton's three laws of motion to real-world scenarios",
+    "Calculate net force, torque, and resultant vectors",
+    "Analyze projectile motion at key points such as maximum height",
+    "Solve kinematics problems using the equations of uniformly accelerated motion"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": [
+    "mechanics",
+    "newton-laws",
+    "forces",
+    "torque",
+    "kinematics",
+    "projectile-motion",
+    "physics",
+    "upcat"
+  ],
+  "prerequisites": [
+    "Basic algebra",
+    "Vectors",
+    "Units of measurement"
+  ],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "examId": "grade-12-science-q1-atomic-structure-periodic-table-practice",
+  "title": "Practice Exam: Atomic Structure and the Periodic Table",
+  "description": "15-question practice exam covering subatomic particles, isotopes, electron configurations, and periodic trends.",
+  "totalQuestions": 15,
+  "totalPoints": 100,
+  "timeLimit": 45,
+  "passingScore": 70,
+  "questions": [
+    {
+      "questionId": 1,
+      "type": "multiple_choice",
+      "points": 7,
+      "question": "An atom of oxygen-16 has how many neutrons?",
+      "options": [
+        "8",
+        "16",
+        "24",
+        "0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Oxygen has atomic number 8, so 8 protons. Mass number is 16, so neutrons = 16 - 8 = 8 neutrons."
+    },
+    {
+      "questionId": 2,
+      "type": "multiple_choice",
+      "points": 7,
+      "question": "Which element has the electron configuration [Ar] 3d⁵ 4s¹?",
+      "options": [
+        "Manganese (Mn)",
+        "Chromium (Cr)",
+        "Iron (Fe)",
+        "Vanadium (V)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chromium (Cr, Z=24) has the exceptional configuration [Ar] 3d⁵ 4s¹ due to the stability of the half-filled d subshell. This is a well-known UPCAT exception."
+    },
+    {
+      "questionId": 3,
+      "type": "multiple_choice",
+      "points": 7,
+      "question": "Which of the following correctly lists these elements in order of increasing atomic radius?",
+      "options": [
+        "Cl < S < P < Si",
+        "Si < P < S < Cl",
+        "Cl < Si < P < S",
+        "S < P < Si < Cl"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Atomic radius increases going down and to the left. In Period 3 (Si, P, S, Cl), radius decreases going right: Cl < S < P < Si."
+    },
+    {
+      "questionId": 4,
+      "type": "multiple_choice",
+      "points": 7,
+      "question": "Which element has the highest electronegativity?",
+      "options": [
+        "Oxygen (O)",
+        "Fluorine (F)",
+        "Chlorine (Cl)",
+        "Nitrogen (N)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fluorine is the most electronegative element, located in the upper right corner of the periodic table where electronegativity is maximum."
+    },
+    {
+      "questionId": 5,
+      "type": "multiple_choice",
+      "points": 7,
+      "question": "Write the electron configuration of phosphorus (P, Z = 15).",
+      "options": [
+        "1s² 2s² 2p⁶ 3s² 3p³",
+        "1s² 2s² 2p⁵ 3s² 3p³",
+        "1s² 2s² 2p⁶ 3s¹ 3p⁴",
+        "[Ne] 3p³"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phosphorus has 15 electrons. Following Aufbau: 1s² 2s² 2p⁶ 3s² 3p³. The 3p orbital contains 3 unpaired electrons (Hund's rule)."
+    },
+    {
+      "questionId": 6,
+      "type": "multiple_choice",
+      "points": 7,
+      "question": "Which isotope is used as the standard for atomic mass units?",
+      "options": [
+        "Carbon-12",
+        "Carbon-13",
+        "Carbon-14",
+        "Hydrogen-1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carbon-12 is defined as exactly 12 amu and serves as the standard for the atomic mass unit scale."
+    },
+    {
+      "questionId": 7,
+      "type": "multiple_choice",
+      "points": 7,
+      "question": "Which statement about ionization energy is correct?",
+      "options": [
+        "It decreases going from left to right across a period",
+        "It increases going down a group",
+        "Noble gases have the highest ionization energy in their period",
+        "Alkali metals have high ionization energy"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ionization energy increases going up and to the right. Noble gases (full valence shell, most stable) have the highest ionization energy in each period. Alkali metals (one valence electron) have the lowest."
+    },
+    {
+      "questionId": 8,
+      "type": "multiple_choice",
+      "points": 7,
+      "question": "How many electrons does an atom of Cu⁺ (copper ion) have?",
+      "options": [
+        "28",
+        "29",
+        "30",
+        "31"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Copper (Cu) has atomic number 29, so 29 electrons when neutral. A Cu⁺ ion has lost one electron, so 29 - 1 = 28 electrons."
+    },
+    {
+      "questionId": 9,
+      "type": "true_false",
+      "points": 6,
+      "question": "True or False: All atoms of the same element must have the same mass number.",
+      "correctAnswer": "false",
+      "explanation": "False. Isotopes of the same element have different mass numbers due to different numbers of neutrons. For example, carbon-12 and carbon-14 are both carbon but have different mass numbers."
+    },
+    {
+      "questionId": 10,
+      "type": "true_false",
+      "points": 6,
+      "question": "True or False: According to Hund's rule, electrons will pair up in the same orbital before filling a new orbital of the same energy.",
+      "correctAnswer": "false",
+      "explanation": "False. Hund's rule states the opposite: electrons prefer to occupy separate orbitals of the same energy with parallel spins before pairing up. Pairing occurs only when all orbitals in a subshell are singly occupied."
+    },
+    {
+      "questionId": 11,
+      "type": "true_false",
+      "points": 6,
+      "question": "True or False: Chromium's actual electron configuration follows exactly what the Aufbau principle predicts.",
+      "correctAnswer": "false",
+      "explanation": "False. Chromium is an exception. The Aufbau principle predicts [Ar] 3d⁴ 4s², but the actual configuration is [Ar] 3d⁵ 4s¹ due to the extra stability of the half-filled d⁵ subshell."
+    },
+    {
+      "questionId": 12,
+      "type": "fill_in",
+      "points": 8,
+      "question": "An element has atomic number 26. How many neutrons does an atom with mass number 56 have? _____ neutrons",
+      "correctAnswer": "30",
+      "tolerance": 0,
+      "explanation": "Neutrons = mass number - atomic number = 56 - 26 = 30 neutrons. This is iron-56."
+    },
+    {
+      "questionId": 13,
+      "type": "fill_in",
+      "points": 8,
+      "question": "Write the electron configuration of sulfur (S, Z = 16) using noble gas notation: [____] _____ _____",
+      "correctAnswer": "[Ne] 3s² 3p⁴",
+      "tolerance": 0,
+      "explanation": "Sulfur has 16 electrons. [Ne] accounts for 10 (1s² 2s² 2p⁶), leaving 6 more: 3s² 3p⁴. Answer: [Ne] 3s² 3p⁴"
+    },
+    {
+      "questionId": 14,
+      "type": "short_answer",
+      "points": 5,
+      "question": "Explain why electronegativity increases going from left to right across a period.",
+      "acceptableAnswers": [
+        "As atomic number increases across a period, the number of protons increases while the number of electron shells stays the same. More protons pull the electron cloud closer and more strongly, making atoms more able to attract electrons in a bond. Therefore, electronegativity increases.",
+        "Moving right increases nuclear charge while keeping electron shells constant, so valence electrons are pulled more strongly toward the nucleus."
+      ],
+      "explanation": "In a period, electrons are added to the same valence shell while nuclear charge increases. More protons create a stronger attraction for electrons, increasing electronegativity."
+    },
+    {
+      "questionId": 15,
+      "type": "short_answer",
+      "points": 5,
+      "question": "Copper's expected electron configuration based on the Aufbau principle would be [Ar] 3d⁹ 4s², but its actual configuration is [Ar] 3d¹⁰ 4s¹. Explain why this exception occurs.",
+      "acceptableAnswers": [
+        "The fully-filled d subshell (d¹⁰) is more stable than a partially-filled d⁹ subshell. By moving one electron from the 4s orbital to the 3d orbital, copper achieves the extra stability of a completely filled d orbital, making this configuration lower in energy than what the Aufbau principle alone would predict.",
+        "Full d subshells (d¹⁰) are energetically favored and more stable than partial d⁹ configurations."
+      ],
+      "explanation": "Fully-filled subshells are particularly stable. Copper sacrifices an electron from the 4s orbital to complete the d subshell, demonstrating that orbital stability overrides the simple Aufbau order in transition metals."
+    }
+  ]
+}

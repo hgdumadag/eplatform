@@ -1,0 +1,38 @@
+{
+  "id": "grade-12-science-q2-organisms-and-ecosystems",
+  "grade": 12,
+  "subject": "science",
+  "quarter": 2,
+  "topicName": "Organisms and Ecosystems",
+  "description": "Classify organisms from kingdoms to species, identify characteristics of major animal phyla, analyze food webs, and understand eutrophication and bioremediation for UPCAT.",
+  "learningObjectives": [
+    "Classify organisms using the binomial nomenclature and major taxonomic levels",
+    "Identify distinguishing characteristics of major animal phyla including echinoderms",
+    "Analyze ecological relationships and food chains",
+    "Explain eutrophication and the role of bioremediation in ecosystems"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": [
+    "classification",
+    "taxonomy",
+    "animal-phyla",
+    "food-web",
+    "eutrophication",
+    "bioremediation",
+    "ecology",
+    "upcat"
+  ],
+  "prerequisites": [
+    "Basic biology",
+    "Cell biology",
+    "Ecosystems basics"
+  ],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

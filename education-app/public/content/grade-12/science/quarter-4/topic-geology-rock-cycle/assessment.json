@@ -1,0 +1,249 @@
+{
+  "examType": "assessment",
+  "topicId": "grade-12-science-q4-geology-rock-cycle",
+  "totalQuestions": 20,
+  "totalPoints": 100,
+  "timeLimit": 90,
+  "questions": [
+    {
+      "id": "mc-1",
+      "type": "multiple-choice",
+      "difficulty": "easy",
+      "points": 5,
+      "question": "Which rock type is most likely to contain fossils?",
+      "options": [
+        "Granite",
+        "Shale",
+        "Marble",
+        "Obsidian"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Shale is a sedimentary rock formed from fine sediments, and sedimentary rocks are the primary rocks in which fossils are preserved. Granite, marble, and obsidian do not typically contain fossils."
+    },
+    {
+      "id": "mc-2",
+      "type": "multiple-choice",
+      "difficulty": "easy",
+      "points": 5,
+      "question": "Which of the following is an example of an extrusive igneous rock?",
+      "options": [
+        "Granite",
+        "Diorite",
+        "Basalt",
+        "Gabbro"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Basalt is formed from lava that cools rapidly at Earth's surface, making it an extrusive igneous rock with fine-grained texture. Granite, diorite, and gabbro are intrusive rocks that cool slowly underground."
+    },
+    {
+      "id": "mc-3",
+      "type": "multiple-choice",
+      "difficulty": "medium",
+      "points": 5,
+      "question": "Sandstone is metamorphosed by heat and pressure. What metamorphic rock results?",
+      "options": [
+        "Slate",
+        "Marble",
+        "Quartzite",
+        "Schist"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sandstone (quartz-rich sedimentary rock) metamorphoses into quartzite, a hard, non-foliated metamorphic rock. Slate forms from shale, marble from limestone, and schist from various rocks."
+    },
+    {
+      "id": "mc-4",
+      "type": "multiple-choice",
+      "difficulty": "medium",
+      "points": 5,
+      "question": "Which principle states that in undisturbed rock sequences, the oldest rocks are at the bottom?",
+      "options": [
+        "Law of Original Horizontality",
+        "Law of Superposition",
+        "Principle of Cross-Cutting Relationships",
+        "Principle of Inclusions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Law of Superposition directly states this principle. The Law of Original Horizontality refers to horizontal deposition; Cross-Cutting Relationships involve intrusions and faults; Inclusions relate to fragments within rocks."
+    },
+    {
+      "id": "mc-5",
+      "type": "multiple-choice",
+      "difficulty": "medium",
+      "points": 5,
+      "question": "A crystal sample shows 12.5% of its original potassium-40. How many half-lives have passed?",
+      "options": [
+        "2 half-lives",
+        "3 half-lives",
+        "4 half-lives",
+        "5 half-lives"
+      ],
+      "correctAnswer": 1,
+      "explanation": "After 3 half-lives: (1/2)³ = 1/8 = 0.125 = 12.5%. The calculation shows 3 half-lives have elapsed."
+    },
+    {
+      "id": "mc-6",
+      "type": "multiple-choice",
+      "difficulty": "hard",
+      "points": 5,
+      "question": "Which isotope is most suitable for dating an ancient volcanic rock believed to be 3 billion years old?",
+      "options": [
+        "Carbon-14 (half-life 5,730 years)",
+        "Potassium-40 (half-life 1.3 billion years)",
+        "Uranium-238 (half-life 4.5 billion years)",
+        "Nitrogen-14 (half-life 10 minutes)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For a 3 billion year old rock, uranium-238 with its 4.5 billion year half-life is appropriate. Carbon-14 is useful only to ~50,000 years; potassium-40 could work but uranium-238 is more precise for such ancient samples."
+    },
+    {
+      "id": "mc-7",
+      "type": "multiple-choice",
+      "difficulty": "hard",
+      "points": 5,
+      "question": "A pegmatite is an igneous rock with extremely large crystals. What does this tell you about its cooling?",
+      "options": [
+        "It cooled very rapidly",
+        "It cooled at a moderate rate",
+        "It cooled very slowly with abundant dissolved gases",
+        "It was ejected as lava"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Pegmatites are intrusive igneous rocks with exceptionally large crystals, indicating very slow cooling in a magma chamber with abundant dissolved gases (volatiles) that enhanced crystal growth. Rapid cooling produces fine-grained or glassy textures."
+    },
+    {
+      "id": "mc-8",
+      "type": "multiple-choice",
+      "difficulty": "hard",
+      "points": 5,
+      "question": "In a rock sequence, a layer of shale is intruded by a granite dike, which is later weathered and eroded. Sediments from this erosion form a new sandstone layer on top. Which is oldest to youngest?",
+      "options": [
+        "Shale → Granite → Sandstone",
+        "Granite → Sandstone → Shale",
+        "Sandstone → Shale → Granite",
+        "Shale → Sandstone → Granite"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Shale is oldest (bottom layer). Granite is younger than shale (cuts through it). Sandstone is youngest (formed from erosion of granite, deposited on top). Order: Shale (oldest) → Granite (intrusion younger than shale) → Sandstone (youngest)."
+    },
+    {
+      "id": "mc-9",
+      "type": "multiple-choice",
+      "difficulty": "medium",
+      "points": 5,
+      "question": "Which sedimentary rock forms from the compacted remains of ancient organisms?",
+      "options": [
+        "Conglomerate",
+        "Limestone (shell fragments)",
+        "Coal",
+        "Both B and C"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Both limestone (from shells and skeletons of marine organisms) and coal (from compacted plant matter) are organic/biochemical sedimentary rocks formed from organism remains. Conglomerate is clastic (from rock fragments)."
+    },
+    {
+      "id": "mc-10",
+      "type": "multiple-choice",
+      "difficulty": "medium",
+      "points": 5,
+      "question": "A rock undergoes metamorphism but does NOT melt. Which statement is true?",
+      "options": [
+        "The rock loses all its original minerals",
+        "The rock remains solid while its minerals rearrange",
+        "The rock transforms into magma",
+        "The rock must be foliated"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Metamorphism occurs without melting—the rock remains solid. Minerals rearrange and recrystallize in response to heat and pressure. The rock may be foliated or non-foliated. If it melts, it becomes magma (not metamorphism)."
+    },
+    {
+      "id": "tf-1",
+      "type": "true-false",
+      "difficulty": "easy",
+      "points": 5,
+      "question": "Igneous rocks form from the crystallization of magma.",
+      "correctAnswer": "true",
+      "explanation": "True. Igneous rocks form from magma (molten rock beneath the surface) or lava (molten rock at the surface) that cools and crystallizes."
+    },
+    {
+      "id": "tf-2",
+      "type": "true-false",
+      "difficulty": "medium",
+      "points": 5,
+      "question": "Metamorphism is the process of melting a rock completely into magma.",
+      "correctAnswer": "false",
+      "explanation": "False. Metamorphism does NOT involve melting. If a rock melts, it becomes magma and is no longer classified as metamorphism."
+    },
+    {
+      "id": "tf-3",
+      "type": "true-false",
+      "difficulty": "medium",
+      "points": 5,
+      "question": "Fossils are found only in sedimentary rocks because organisms are typically buried in sediment.",
+      "correctAnswer": "true",
+      "explanation": "True. Sedimentary rocks form from accumulated sediments that can quickly bury organisms, preserving them as fossils. Igneous rocks form from molten material that would destroy fossils; metamorphic rocks form under conditions (heat and pressure) that destroy fossil evidence."
+    },
+    {
+      "id": "tf-4",
+      "type": "true-false",
+      "difficulty": "hard",
+      "points": 5,
+      "question": "An unconformity in a rock sequence represents a period of time where no rocks formed.",
+      "correctAnswer": "true",
+      "explanation": "True. An unconformity is a gap in the rock record where erosion removed rocks or where no deposition occurred, representing a missing time period."
+    },
+    {
+      "id": "fill-1",
+      "type": "fill-in-the-blank",
+      "difficulty": "easy",
+      "points": 5,
+      "question": "Rocks that cool slowly underground with large visible crystals are called _______ igneous rocks.",
+      "correctAnswer": "intrusive",
+      "explanation": "Intrusive (or plutonic) igneous rocks cool slowly beneath Earth's surface, forming large crystals. Extrusive (volcanic) rocks cool rapidly at the surface, forming small crystals."
+    },
+    {
+      "id": "fill-2",
+      "type": "fill-in-the-blank",
+      "difficulty": "medium",
+      "points": 5,
+      "question": "The _______ is the time required for half of a parent isotope to decay into a daughter isotope.",
+      "correctAnswer": "half-life",
+      "explanation": "This fundamental concept is central to radioactive dating in geology."
+    },
+    {
+      "id": "fill-3",
+      "type": "fill-in-the-blank",
+      "difficulty": "medium",
+      "points": 5,
+      "question": "Limestone metamorphoses into _______, a non-foliated metamorphic rock used in sculpture.",
+      "correctAnswer": "marble",
+      "explanation": "The transformation of limestone (calcium carbonate) into marble under heat and pressure is a classic metamorphic process."
+    },
+    {
+      "id": "fill-4",
+      "type": "fill-in-the-blank",
+      "difficulty": "hard",
+      "points": 5,
+      "question": "A volcanic rock sample contains 3.125% of its original uranium-238. This represents _______ half-lives.",
+      "correctAnswer": "5",
+      "explanation": "3.125% = (1/2)⁵ = 1/32 = 0.03125 = 3.125%. Therefore, 5 half-lives have passed."
+    },
+    {
+      "id": "sa-1",
+      "type": "short-answer",
+      "difficulty": "medium",
+      "points": 5,
+      "question": "Explain how the Law of Superposition helps geologists determine the relative ages of rock layers.",
+      "correctAnswer": "The Law of Superposition states that in an undisturbed sequence of sedimentary rock layers, the layer at the bottom was deposited first and is therefore the oldest, while the layer at the top was deposited last and is the youngest. By examining the vertical order of layers, geologists can determine which rocks are older and which are younger without needing to know absolute ages in years. This allows geologists to establish the relative chronology (sequence of events) in a rock sequence.",
+      "explanation": "A strong answer demonstrates understanding that superposition provides relative (not absolute) dating and that it applies only to undisturbed sequences."
+    },
+    {
+      "id": "sa-2",
+      "type": "short-answer",
+      "difficulty": "hard",
+      "points": 5,
+      "question": "A bone sample from an archaeological site contains 6.25% of its original carbon-14. Calculate its approximate age and explain why carbon-14 would not be useful for dating a dinosaur fossil.",
+      "correctAnswer": "Calculation: 6.25% = (1/2)⁴, so 4 half-lives have elapsed. Age = 4 × 5,730 years = 22,920 years. Carbon-14 would not be useful for dinosaur fossils (extinct ~66 million years ago) because the half-life of carbon-14 is only 5,730 years, making it useful only for organic materials younger than about 50,000 years. For dinosaur fossils, isotopes with much longer half-lives like uranium-238 or potassium-40 would be necessary.",
+      "explanation": "This response demonstrates mastery of half-life calculations, understanding of carbon-14's dating range, and knowledge of which isotopes are appropriate for different age ranges."
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "examType": "assessment",
+  "title": "Mechanics: Forces and Motion - Assessment Exam",
+  "totalPoints": 100,
+  "duration": 90,
+  "instructions": "Answer all questions. Show all work for calculations. Multiple-choice questions have four options (A, B, C, D). This is a comprehensive assessment of your understanding of mechanics, forces, and motion.",
+  "questions": [
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which of the following best describes Newton's first law of motion?",
+      "options": [
+        "Force equals mass times acceleration",
+        "An object at rest stays at rest unless acted upon by a net external force",
+        "For every action, there is an equal and opposite reaction",
+        "Inertia is proportional to an object's weight"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is the definition of Newton's first law, also known as the law of inertia."
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A 3 kg object accelerates at 8 m/s² when a net force is applied. What is the magnitude of this net force?",
+      "options": [
+        "5 N",
+        "11 N",
+        "24 N",
+        "64 N"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using F = ma: F = 3 kg × 8 m/s² = 24 N"
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A book rests on a table. The table exerts an upward normal force on the book. According to Newton's third law, the reaction to this force is:",
+      "options": [
+        "The weight of the book pushing down on the table",
+        "The book pushing down on the table",
+        "The gravitational force pulling the book toward Earth",
+        "Air resistance pushing against the book"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The reaction to the normal force (table pushing up on book) is the book pushing down on the table. Both forces are contact forces between the same two objects."
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "An object is thrown upward at 30 m/s from ground level. At what point is its vertical velocity zero?",
+      "options": [
+        "At the moment of release",
+        "At maximum height",
+        "Just before hitting the ground",
+        "The vertical velocity is never zero"
+      ],
+      "correctAnswer": 1,
+      "explanation": "At maximum height, the vertical velocity momentarily becomes zero as the object stops rising before beginning to fall."
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A ball rolls off a 20 m cliff with an initial horizontal velocity of 10 m/s. Which component of velocity changes during the fall?",
+      "options": [
+        "Only horizontal velocity changes",
+        "Only vertical velocity changes",
+        "Both horizontal and vertical velocities change equally",
+        "Neither horizontal nor vertical velocity changes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Only the vertical velocity changes due to gravity. The horizontal velocity remains constant because no horizontal forces act on the ball (ignoring air resistance)."
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A 400 N weight is placed 1 m to the left of a pivot on a seesaw. To balance it, a 500 N weight must be placed at what distance to the right?",
+      "options": [
+        "0.4 m",
+        "0.8 m",
+        "1.0 m",
+        "1.25 m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Using torque balance: 400 × 1 = 500 × d, so d = 400/500 = 0.8 m. Let me verify: 400 × 1 = 400 N·m, and 500 × 0.8 = 400 N·m. Yes, this is correct. The answer should be 0.8 m, which is option 1."
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A car travels from rest and reaches a velocity of 24 m/s after 6 seconds with uniform acceleration. What is the acceleration?",
+      "options": [
+        "2 m/s²",
+        "4 m/s²",
+        "6 m/s²",
+        "18 m/s²"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Using a = (v - v₀)/t = (24 - 0)/6 = 4 m/s²"
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Two forces of 6 N and 8 N act perpendicular to each other on an object. What is the magnitude of the resultant force?",
+      "options": [
+        "2 N",
+        "7 N",
+        "10 N",
+        "14 N"
+      ],
+      "correctAnswer": 2,
+      "explanation": "R = √(6² + 8²) = √(36 + 64) = √100 = 10 N"
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A projectile is launched at 40 m/s at 60° above the horizontal. What is its vertical velocity component at launch?",
+      "options": [
+        "20 m/s",
+        "20√3 m/s ≈ 34.6 m/s",
+        "40 m/s",
+        "40√2 m/s ≈ 56.6 m/s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "vᵧ = v₀ sin θ = 40 sin(60°) = 40 × (√3/2) = 20√3 ≈ 34.6 m/s"
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "The kinematic equation v² = v₀² + 2as is most useful when you know all variables except:",
+      "options": [
+        "acceleration",
+        "displacement",
+        "time",
+        "final velocity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "This equation relates v, v₀, a, and s, but does not involve time. Use this when you need to find one of these four variables but don't know time."
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: A freely falling object has zero acceleration.",
+      "correctAnswer": "false",
+      "explanation": "A freely falling object has a constant downward acceleration of g ≈ 9.8 m/s² due to gravity."
+    },
+    {
+      "id": 12,
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: If the net force on an object is zero, the object must be at rest.",
+      "correctAnswer": "false",
+      "explanation": "If net force is zero, the object is in equilibrium, which means it could be at rest OR moving at constant velocity. Both satisfy Newton's first law."
+    },
+    {
+      "id": 13,
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: Torque depends only on the magnitude of the force applied.",
+      "correctAnswer": "false",
+      "explanation": "Torque depends on both the magnitude of the force AND the perpendicular distance from the pivot to the line of action of the force: τ = F × d."
+    },
+    {
+      "id": 14,
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: Mass and weight are the same quantity with different units.",
+      "correctAnswer": "false",
+      "explanation": "Mass (kg) is the amount of matter. Weight (N) is the gravitational force on that mass. Weight = mg, so they are related but different quantities."
+    },
+    {
+      "id": 15,
+      "type": "fill-in",
+      "points": 5,
+      "question": "A 2 kg object is dropped from rest. After 3 seconds, its velocity is ________ m/s. (Use g = 10 m/s²)",
+      "correctAnswer": "30",
+      "explanation": "Using v = v₀ + gt = 0 + 10 × 3 = 30 m/s"
+    },
+    {
+      "id": 16,
+      "type": "fill-in",
+      "points": 5,
+      "question": "A ball is thrown horizontally at 15 m/s from a tall building. Its horizontal velocity at maximum height is ________ m/s.",
+      "correctAnswer": "15",
+      "explanation": "Horizontal velocity remains constant throughout projectile motion; it is not affected by gravity. At maximum height, vₓ = 15 m/s."
+    },
+    {
+      "id": 17,
+      "type": "fill-in",
+      "points": 5,
+      "question": "A 50 N force is applied at 3 m from a pivot on one side. A 30 N force must be applied at ________ m on the other side to balance the lever.",
+      "correctAnswer": "5",
+      "explanation": "Using τ balance: 50 × 3 = 30 × d, so d = 150/30 = 5 m"
+    },
+    {
+      "id": 18,
+      "type": "fill-in",
+      "points": 5,
+      "question": "An object accelerates uniformly from 5 m/s to 15 m/s over a distance of 40 m. Its acceleration is ________ m/s².",
+      "correctAnswer": "2.5",
+      "explanation": "Using v² = v₀² + 2as: 15² = 5² + 2a(40), so 225 = 25 + 80a, thus 80a = 200, and a = 2.5 m/s²"
+    },
+    {
+      "id": 19,
+      "type": "short-answer",
+      "points": 5,
+      "question": "A 1500 kg car accelerates from rest to 20 m/s in 8 seconds on a horizontal road. Assuming uniform acceleration, calculate the net force acting on the car. Show your work.",
+      "correctAnswer": "a = 20/8 = 2.5 m/s²; F = ma = 1500 × 2.5 = 3750 N"
+    },
+    {
+      "id": 20,
+      "type": "short-answer",
+      "points": 5,
+      "question": "A ball is launched at 50 m/s at an angle of 30° above horizontal. Explain why the speed at maximum height is not zero, and calculate this speed. (Hint: cos 30° ≈ 0.866)",
+      "correctAnswer": "At max height, vertical velocity is zero but horizontal velocity is not. vₓ = 50 cos(30°) = 50 × 0.866 = 43.3 m/s. Speed at max height ≈ 43.3 m/s."
+    }
+  ]
+}

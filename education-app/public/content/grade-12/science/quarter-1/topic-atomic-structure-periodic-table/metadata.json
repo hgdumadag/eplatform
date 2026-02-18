@@ -1,0 +1,25 @@
+{
+  "id": "grade-12-science-q1-atomic-structure-periodic-table",
+  "grade": 12,
+  "subject": "science",
+  "quarter": 1,
+  "topicName": "Atomic Structure and the Periodic Table",
+  "description": "Understand subatomic particles, mass number, isotopes, electron configuration, and periodic trends including electronegativity and orbital occupancy for UPCAT.",
+  "learningObjectives": [
+    "Calculate atomic number, mass number, and identify isotopes",
+    "Determine electron configurations and apply Hund's rule for orbital filling",
+    "Identify periodic trends: electronegativity, atomic radius, and ionization energy",
+    "Explain half-filled orbital stability and its effect on expected configurations"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": ["atomic-structure", "periodic-table", "isotopes", "electron-configuration", "electronegativity", "chemistry", "upcat"],
+  "prerequisites": ["Basic atomic theory", "Periodic table familiarity", "Basic chemistry"],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

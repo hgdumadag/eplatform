@@ -1,0 +1,249 @@
+{
+  "examType": "assessment",
+  "topicId": "grade-12-science-q4-meteorology-astronomy",
+  "totalQuestions": 20,
+  "totalPoints": 100,
+  "timeLimit": 90,
+  "questions": [
+    {
+      "id": "mc-1",
+      "type": "multiple-choice",
+      "difficulty": "easy",
+      "points": 5,
+      "question": "Which of the following is a characteristic unique to tsunamis?",
+      "options": [
+        "They are always preceded by strong winds",
+        "They are caused by seismic disturbances",
+        "They last for several days",
+        "They are most damaging in tropical regions"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tsunamis are uniquely caused by seismic activity (earthquakes, landslides, volcanic eruptions). Storm surge is caused by meteorological conditions, and none of the other characteristics are unique to tsunamis."
+    },
+    {
+      "id": "mc-2",
+      "type": "multiple-choice",
+      "difficulty": "easy",
+      "points": 5,
+      "question": "Which term describes how quickly water flows through soil?",
+      "options": [
+        "Porosity",
+        "Permeability",
+        "Saturation",
+        "Infiltration rate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Permeability is the ability of water to flow through soil (flow rate). Porosity is the capacity to hold water. Saturation is the state of being full of water. Infiltration rate is related but less precise than permeability."
+    },
+    {
+      "id": "mc-3",
+      "type": "multiple-choice",
+      "difficulty": "medium",
+      "points": 5,
+      "question": "Typhoon Haiyan (2013) devastated coastal areas primarily through _______, which is a dome of water pushed ashore by wind and low pressure.",
+      "options": [
+        "tsunami waves",
+        "storm surge",
+        "unusually high tides",
+        "underwater currents"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Typhoon Haiyan caused severe damage through storm surge—an abnormal rise in water level caused by the typhoon's low pressure and strong winds. This is a real historical example that illustrates the power of storm surge."
+    },
+    {
+      "id": "mc-4",
+      "type": "multiple-choice",
+      "difficulty": "medium",
+      "points": 5,
+      "question": "Which of the following best explains why urban areas often experience worse flooding from moderate rainfall than rural areas?",
+      "options": [
+        "Urban areas have more rainfall due to heat island effects",
+        "Urban areas have less permeable surfaces, reducing infiltration",
+        "Rural areas receive less rainfall",
+        "Rural areas have better drainage systems"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Urban areas are covered with impervious surfaces (concrete, asphalt, roofs), which prevent water infiltration. All rainfall becomes runoff, causing severe flooding even from moderate rain. Rural areas with soil and vegetation allow infiltration."
+    },
+    {
+      "id": "mc-5",
+      "type": "multiple-choice",
+      "difficulty": "medium",
+      "points": 5,
+      "question": "What is the correct order of planets from the Sun?",
+      "options": [
+        "Venus, Mercury, Earth, Mars, Jupiter, Saturn, Uranus, Neptune",
+        "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune",
+        "Mercury, Earth, Venus, Mars, Jupiter, Saturn, Uranus, Neptune",
+        "Mercury, Venus, Mars, Earth, Jupiter, Saturn, Uranus, Neptune"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct order is Mercury, Venus, Earth, Mars (terrestrial), Jupiter, Saturn, Uranus, Neptune (Jovian). Memorizing this is essential for UPCAT."
+    },
+    {
+      "id": "mc-6",
+      "type": "multiple-choice",
+      "difficulty": "medium",
+      "points": 5,
+      "question": "Which planet is known for having a thick atmosphere with methane, making it appear blue-green?",
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Neptune"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Uranus appears blue-green due to methane in its thick atmosphere, which absorbs red light and reflects blue and green. Neptune also has methane and appears blue but is different from Uranus in structure."
+    },
+    {
+      "id": "mc-7",
+      "type": "multiple-choice",
+      "difficulty": "hard",
+      "points": 5,
+      "question": "A red star and a blue star appear equally bright in the night sky. Which star is intrinsically more luminous?",
+      "options": [
+        "The red star (because red light has lower energy)",
+        "The blue star (because blue light has higher energy)",
+        "The blue star (because it must be farther away and brighter intrinsically)",
+        "Cannot be determined from apparent magnitude alone"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If a cooler red star appears as bright as a hotter blue star from Earth, the blue star must be farther away but intrinsically more luminous (higher absolute magnitude) to have the same apparent magnitude. Distance and luminosity both affect apparent magnitude."
+    },
+    {
+      "id": "mc-8",
+      "type": "multiple-choice",
+      "difficulty": "hard",
+      "points": 5,
+      "question": "An astronomer observes a comet approaching the Sun. As the comet moves closer, its tail becomes longer and points away from the Sun. What causes this phenomenon?",
+      "options": [
+        "The comet is escaping solar gravity",
+        "The Sun's gravitational pull stretches the comet",
+        "Solar radiation heats the comet's ice, and the solar wind pushes the vapor away from the Sun",
+        "The comet's orbital velocity increases"
+      ],
+      "correctAnswer": 2,
+      "explanation": "As a comet approaches the Sun, solar radiation heats and vaporizes the ice. The solar wind (charged particles from the Sun) pushes this vapor away from the Sun, creating a tail pointing away from the Sun regardless of the comet's direction of travel."
+    },
+    {
+      "id": "mc-9",
+      "type": "multiple-choice",
+      "difficulty": "medium",
+      "points": 5,
+      "question": "Which type of ocean tide has the greatest difference between high tide and low tide?",
+      "options": [
+        "Neap tide (Sun and Moon at 90° angle)",
+        "Spring tide (Sun and Moon aligned)",
+        "Equinox tide (during equinoxes)",
+        "Lunar tide (Moon's gravity alone)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Spring tides occur when the Sun, Earth, and Moon are aligned (new or full moon), with the Sun's gravity reinforcing the Moon's, creating the highest high tides and lowest low tides."
+    },
+    {
+      "id": "mc-10",
+      "type": "multiple-choice",
+      "difficulty": "hard",
+      "points": 5,
+      "question": "The magnetic North Pole is located in northern Canada, not at Earth's geographic North Pole. A compass needle points toward the geographic North Pole. Which explanation is correct?",
+      "options": [
+        "The compass needle is malfunctioning",
+        "The geographic North Pole has a magnetic north pole, the strongest point of the field",
+        "The compass's north-seeking end (magnetic north pole) is attracted to Earth's magnetic south pole, which is at the geographic North Pole",
+        "Magnetic declination causes the discrepancy, and the compass is actually pointing to the magnetic pole"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The compass needle's north-seeking end is a magnetic north pole. Opposite poles attract, so it points toward a magnetic south pole. Since it points to the geographic North Pole, that location must be a magnetic south pole. This is the key insight: Earth's geographic North is a magnetic south."
+    },
+    {
+      "id": "tf-1",
+      "type": "true-false",
+      "difficulty": "easy",
+      "points": 5,
+      "question": "A tsunami travels at extremely high speeds in the open ocean but slows down and increases in height as it approaches shallow water.",
+      "correctAnswer": "true",
+      "explanation": "True. Tsunamis travel at 500-900 km/h in the open ocean. As they enter shallow water, they slow due to friction with the seafloor, and the seismic energy is compressed into a smaller volume, increasing wave height dramatically."
+    },
+    {
+      "id": "tf-2",
+      "type": "true-false",
+      "difficulty": "medium",
+      "points": 5,
+      "question": "Soil with high porosity but low permeability can still cause significant flooding because water cannot drain.",
+      "correctAnswer": "true",
+      "explanation": "True. High porosity means the soil can hold water, but low permeability means water cannot flow through easily. This combination results in water accumulating on the surface and causing runoff and flooding."
+    },
+    {
+      "id": "tf-3",
+      "type": "true-false",
+      "difficulty": "medium",
+      "points": 5,
+      "question": "All eight major planets in our solar system are terrestrial (rocky) planets.",
+      "correctAnswer": "false",
+      "explanation": "False. The four inner planets (Mercury, Venus, Earth, Mars) are terrestrial. The four outer planets (Jupiter, Saturn, Uranus, Neptune) are Jovian (gas/ice giants)."
+    },
+    {
+      "id": "tf-4",
+      "type": "true-false",
+      "difficulty": "hard",
+      "points": 5,
+      "question": "Aurora Borealis occurs when charged solar particles interact with Earth's magnetic field and collide with atmospheric molecules near the magnetic poles.",
+      "correctAnswer": "true",
+      "explanation": "True. Solar wind particles follow Earth's magnetic field lines toward the magnetic poles, colliding with oxygen and nitrogen molecules in the upper atmosphere, causing them to emit light."
+    },
+    {
+      "id": "fill-1",
+      "type": "fill-in-the-blank",
+      "difficulty": "easy",
+      "points": 5,
+      "question": "A sudden, violent displacement of ocean water caused by seismic activity is called a _______.",
+      "correctAnswer": "tsunami",
+      "explanation": "Tsunami is the correct term for seismic-caused waves. Storm surge is the meteorological alternative."
+    },
+    {
+      "id": "fill-2",
+      "type": "fill-in-the-blank",
+      "difficulty": "medium",
+      "points": 5,
+      "question": "The _______ are the four outer planets composed primarily of gases and liquids, with no solid surface.",
+      "correctAnswer": "Jovian planets",
+      "explanation": "Jovian planets are Jupiter, Saturn, Uranus, and Neptune. They are also called gas giants or ice giants."
+    },
+    {
+      "id": "fill-3",
+      "type": "fill-in-the-blank",
+      "difficulty": "medium",
+      "points": 5,
+      "question": "The brightest star in the night sky, located in the constellation Canis Major, is called _______.",
+      "correctAnswer": "Sirius",
+      "explanation": "Sirius, the Dog Star, has the highest apparent magnitude (is brightest) in Earth's night sky."
+    },
+    {
+      "id": "fill-4",
+      "type": "fill-in-the-blank",
+      "difficulty": "hard",
+      "points": 5,
+      "question": "The angle between geographic north and magnetic north, which varies by location, is called magnetic _______.",
+      "correctAnswer": "declination",
+      "explanation": "Magnetic declination is critical for navigation, as it shows how much a compass deviates from true geographic north."
+    },
+    {
+      "id": "sa-1",
+      "type": "short-answer",
+      "difficulty": "medium",
+      "points": 5,
+      "question": "Distinguish between a tsunami and a storm surge by explaining their causes and at least one key characteristic that differs between them.",
+      "correctAnswer": "Tsunamis are caused by seismic disturbances (earthquakes, landslides, volcanic eruptions) and can occur during calm weather. Storm surges are caused by low atmospheric pressure and strong winds from tropical cyclones and are always associated with storms. A key difference is that tsunamis appear as a series of waves traveling at extremely high speeds (500-900 km/h in open ocean), while storm surge appears as a gradual rise in water level (a dome of water) pushed ashore by winds. Additionally, tsunamis are preceded by water recession, while storm surge accompanies strong winds.",
+      "explanation": "A complete answer distinguishes causes (seismic vs. meteorological), timing (can occur anytime vs. only with storms), and physical characteristics (waves vs. dome of water, recession vs. gradual rise)."
+    },
+    {
+      "id": "sa-2",
+      "type": "short-answer",
+      "difficulty": "hard",
+      "points": 5,
+      "question": "Explain how Earth's magnetic poles relate to Earth's geographic poles, and describe the practical consequence for compass navigation near the geographic North Pole.",
+      "correctAnswer": "Earth's geographic poles are at the endpoints of Earth's rotation axis (fixed at 90°N and 90°S latitude). Earth's magnetic poles are where the magnetic field lines point vertically and are located several hundred kilometers away from the geographic poles (currently the magnetic North Pole is in northern Canada). Remarkably, Earth's geographic North Pole is a magnetic south pole. For compass navigation, this means a compass needle points toward the geographic North Pole (attracted by the magnetic south pole there). However, due to magnetic declination—the angle between true north and magnetic north—navigators must account for this discrepancy when using a compass with a map. In some locations, magnetic north is east or west of true north by several degrees.",
+      "explanation": "This sophisticated answer demonstrates mastery of the magnetic pole paradox, understanding of magnetic declination, and practical navigation implications."
+    }
+  ]
+}

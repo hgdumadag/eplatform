@@ -1,0 +1,37 @@
+{
+  "id": "grade-12-science-q2-genetics-and-evolution",
+  "grade": 12,
+  "subject": "science",
+  "quarter": 2,
+  "topicName": "Genetics and Evolution",
+  "description": "Apply Mendel's laws, solve Punnett squares for monohybrid and dihybrid crosses, understand DNA base pairing and Chargaff's rules, and distinguish analogous from homologous structures.",
+  "learningObjectives": [
+    "Solve monohybrid and dihybrid Punnett squares and predict offspring ratios",
+    "Identify patterns of inheritance including incomplete dominance and codominance",
+    "Apply Chargaff's rules to calculate DNA base proportions",
+    "Distinguish analogous and homologous structures as evidence for evolution"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "advanced",
+  "tags": [
+    "genetics",
+    "punnett-square",
+    "inheritance",
+    "DNA",
+    "evolution",
+    "chargaff",
+    "upcat"
+  ],
+  "prerequisites": [
+    "Cell biology",
+    "DNA basics",
+    "Basic probability"
+  ],
+  "lastUpdated": "2026-02-18",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}
