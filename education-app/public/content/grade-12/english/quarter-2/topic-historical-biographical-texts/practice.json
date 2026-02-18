@@ -12,8 +12,7 @@
       "id": "q1",
       "type": "multiple-choice",
       "points": 7,
-      "passage": "Before Spanish colonization, the Philippine archipelago was home to thriving maritime kingdoms and city-states with sophisticated administrative systems. The pre-colonial Filipinos possessed a writing system called baybayin, an abugida script adapted from Indic scripts through extensive trade networks. Archaeological evidence and Spanish colonial documents indicate that baybayin literacy was widespread, particularly among merchants, scribes, and the nobility. However, baybayin was written on perishable materials—bamboo strips, palm leaves, and bark—which decomposed over centuries in the tropical climate, explaining why few original texts survive today.",
-      "question": "What is the primary purpose of this passage?",
+      "question": "Read the following passage carefully:\n\nBefore Spanish colonization, the Philippine archipelago was home to thriving maritime kingdoms and city-states with sophisticated administrative systems. The pre-colonial Filipinos possessed a writing system called baybayin, an abugida script adapted from Indic scripts through extensive trade networks. Archaeological evidence and Spanish colonial documents indicate that baybayin literacy was widespread, particularly among merchants, scribes, and the nobility. However, baybayin was written on perishable materials—bamboo strips, palm leaves, and bark—which decomposed over centuries in the tropical climate, explaining why few original texts survive today.\n\n---\n\nWhat is the primary purpose of this passage?",
       "options": [
         "To persuade readers that Spanish colonization was harmful to Filipino culture",
         "To explain the pre-colonial presence of baybayin and why few original texts survive",
@@ -27,8 +26,7 @@
       "id": "q2",
       "type": "multiple-choice",
       "points": 7,
-      "passage": "Julia Morgan (1872–1957) became the first woman to graduate from the École des Beaux-Arts in Paris, earning her architecture certificate in 1902. She returned to California and became the state's first licensed female architect in 1904, a remarkable achievement in an era when women faced legal barriers and social prejudice in professional fields. Throughout her career, Morgan designed spaces explicitly for women, including multiple buildings at Mills College—a women's institution—and the Berkeley City Club, a gathering place for professional women.",
-      "question": "What is the author's primary tone in discussing Julia Morgan?",
+      "question": "Read the following passage carefully:\n\nJulia Morgan (1872–1957) became the first woman to graduate from the École des Beaux-Arts in Paris, earning her architecture certificate in 1902. She returned to California and became the state's first licensed female architect in 1904, a remarkable achievement in an era when women faced legal barriers and social prejudice in professional fields. Throughout her career, Morgan designed spaces explicitly for women, including multiple buildings at Mills College—a women's institution—and the Berkeley City Club, a gathering place for professional women.\n\n---\n\nWhat is the author's primary tone in discussing Julia Morgan?",
       "options": [
         "Critical and skeptical of her achievements",
         "Admiring and celebratory of her accomplishments",
@@ -42,8 +40,7 @@
       "id": "q3",
       "type": "true-false",
       "points": 6,
-      "passage": "The Spanish Philippine colonial administration relied heavily on a hierarchical tribute system that extracted resources from lowland agricultural communities. Large-scale rice and sugar plantations developed, concentrating wealth among Spanish landholders and a small Filipino mestizo elite. As indigenous farmers lost access to communal lands and were forced into tenant farming, agricultural production increased but rural poverty deepened.",
-      "question": "According to the passage, the Spanish plantation system resulted in both increased agricultural production AND increased wealth for indigenous farmers.",
+      "question": "Read the following passage carefully:\n\nThe Spanish Philippine colonial administration relied heavily on a hierarchical tribute system that extracted resources from lowland agricultural communities. Large-scale rice and sugar plantations developed, concentrating wealth among Spanish landholders and a small Filipino mestizo elite. As indigenous farmers lost access to communal lands and were forced into tenant farming, agricultural production increased but rural poverty deepened.\n\n---\n\nAccording to the passage, the Spanish plantation system resulted in both increased agricultural production AND increased wealth for indigenous farmers.",
       "correctAnswer": "false",
       "explanation": "The passage states that while agricultural production increased, rural poverty deepened. Indigenous farmers lost access to land and were forced into tenant farming, meaning they did not gain wealth. The statement is false because it presents only half the true picture."
     },
@@ -51,8 +48,7 @@
       "id": "q4",
       "type": "multiple-choice",
       "points": 7,
-      "passage": "Dr. Jose Rizal (1861–1896) was a Filipino nationalist, physician, and writer whose novels and essays articulated the injustices of Spanish colonial rule. His most famous works, 'Noli Me Tangere' and 'El Filibusterismo', exposed corruption and the exploitation of indigenous Filipinos. Rizal did not advocate for violent revolution; instead, he believed that education and intellectual awakening would lead to reform. Nonetheless, Spanish colonial authorities viewed his writings as seditious and dangerous. Rizal was arrested, tried for treason, and executed by firing squad in December 1896.",
-      "question": "Based on the passage, what can be inferred about why Spanish colonial authorities executed Rizal?",
+      "question": "Read the following passage carefully:\n\nDr. Jose Rizal (1861–1896) was a Filipino nationalist, physician, and writer whose novels and essays articulated the injustices of Spanish colonial rule. His most famous works, 'Noli Me Tangere' and 'El Filibusterismo', exposed corruption and the exploitation of indigenous Filipinos. Rizal did not advocate for violent revolution; instead, he believed that education and intellectual awakening would lead to reform. Nonetheless, Spanish colonial authorities viewed his writings as seditious and dangerous. Rizal was arrested, tried for treason, and executed by firing squad in December 1896.\n\n---\n\nBased on the passage, what can be inferred about why Spanish colonial authorities executed Rizal?",
       "options": [
         "They wanted to punish him for refusing to become a government official",
         "They feared his intellectual writings threatened their colonial rule",
@@ -66,8 +62,7 @@
       "id": "q5",
       "type": "true-false",
       "points": 6,
-      "passage": "The samurai warrior class of feudal Japan developed a distinctive code of honor and military expertise over centuries. During the Edo period (1603–1868), Japan experienced relative peace, and the samurai's traditional military role diminished. As Japan industrialized and adopted Western military technology and organization, the feudal samurai system became obsolete. The government abolished the samurai class formally in 1876, stripping samurai of their exclusive social status and military privileges.",
-      "question": "The samurai were completely eliminated as a cultural influence after the government abolished their class in 1876.",
+      "question": "Read the following passage carefully:\n\nThe samurai warrior class of feudal Japan developed a distinctive code of honor and military expertise over centuries. During the Edo period (1603–1868), Japan experienced relative peace, and the samurai's traditional military role diminished. As Japan industrialized and adopted Western military technology and organization, the feudal samurai system became obsolete. The government abolished the samurai class formally in 1876, stripping samurai of their exclusive social status and military privileges.\n\n---\n\nThe samurai were completely eliminated as a cultural influence after the government abolished their class in 1876.",
       "correctAnswer": "false",
       "explanation": "While the samurai class was formally abolished and their military role ended, the passage indicates their cultural values and martial philosophy continued to influence Japanese society and military culture for generations, so they were not completely eliminated culturally."
     },
@@ -75,8 +70,7 @@
       "id": "q6",
       "type": "fill-in-blank",
       "points": 8,
-      "passage": "Rosalind Franklin (1920–1958) was a British chemist whose X-ray crystallography work was crucial to understanding the structure of DNA. Franklin produced high-quality X-ray diffraction images of DNA, most notably 'Photo 51,' which clearly showed the ___ structure of the DNA molecule.",
-      "question": "According to the passage, Franklin's Photo 51 revealed the ___ structure of DNA.",
+      "question": "Read the following passage carefully:\n\nRosalind Franklin (1920–1958) was a British chemist whose X-ray crystallography work was crucial to understanding the structure of DNA. Franklin produced high-quality X-ray diffraction images of DNA, most notably 'Photo 51,' which clearly showed the ___ structure of the DNA molecule.\n\n---\n\nAccording to the passage, Franklin's Photo 51 revealed the ___ structure of DNA.",
       "correctAnswer": "helical",
       "explanation": "The passage explicitly states that Photo 51 'clearly showed the helical structure of the DNA molecule.' The blank should be filled with 'helical.' Acceptable variations include 'double helix' or similar descriptions of the spiral shape."
     },
@@ -84,8 +78,7 @@
       "id": "q7",
       "type": "multiple-choice",
       "points": 7,
-      "passage": "The Spanish Philippine colonial administration introduced a tribute system that extracted resources from indigenous communities. However, they also established schools, printing presses, and administrative infrastructure. Spanish missionaries printed religious texts in both baybayin and Spanish, recognizing the value of existing Filipino literacy. Over time, the Roman alphabet gradually replaced baybayin in educational contexts as Spanish administrators found it more practical for standardizing languages across the colony.",
-      "question": "What does the passage suggest about the relationship between Spanish colonial pragmatism and cultural change in the Philippines?",
+      "question": "Read the following passage carefully:\n\nThe Spanish Philippine colonial administration introduced a tribute system that extracted resources from indigenous communities. However, they also established schools, printing presses, and administrative infrastructure. Spanish missionaries printed religious texts in both baybayin and Spanish, recognizing the value of existing Filipino literacy. Over time, the Roman alphabet gradually replaced baybayin in educational contexts as Spanish administrators found it more practical for standardizing languages across the colony.\n\n---\n\nWhat does the passage suggest about the relationship between Spanish colonial pragmatism and cultural change in the Philippines?",
       "options": [
         "Spanish colonizers deliberately destroyed Filipino culture as part of a coordinated strategy",
         "Spanish decisions about literacy and language were motivated primarily by practical administrative concerns, not cultural superiority",
@@ -99,8 +92,7 @@
       "id": "q8",
       "type": "multiple-choice",
       "points": 7,
-      "passage": "Wangari Maathai (1940–2011) was a Kenyan environmental and political activist who founded the Green Belt Movement to combat deforestation and desertification in Kenya. She mobilized women in rural communities to plant trees, bringing environmental conservation directly to local levels. Her work addressed both ecological and social issues: tree-planting efforts reduced environmental degradation while creating economic opportunities for poor women. Maathai's activism expanded to include advocacy for democratic governance and human rights. She faced government persecution, imprisonment, and violence for her activism, yet she continued her work with unwavering commitment. In 2004, Maathai became the first African woman to receive the Nobel Peace Prize, recognizing her integrated approach to environmental protection and social justice.",
-      "question": "What is the PRIMARY significance of Wangari Maathai's work according to the passage?",
+      "question": "Read the following passage carefully:\n\nWangari Maathai (1940–2011) was a Kenyan environmental and political activist who founded the Green Belt Movement to combat deforestation and desertification in Kenya. She mobilized women in rural communities to plant trees, bringing environmental conservation directly to local levels. Her work addressed both ecological and social issues: tree-planting efforts reduced environmental degradation while creating economic opportunities for poor women. Maathai's activism expanded to include advocacy for democratic governance and human rights. She faced government persecution, imprisonment, and violence for her activism, yet she continued her work with unwavering commitment. In 2004, Maathai became the first African woman to receive the Nobel Peace Prize, recognizing her integrated approach to environmental protection and social justice.\n\n---\n\nWhat is the PRIMARY significance of Wangari Maathai's work according to the passage?",
       "options": [
         "She was the first African woman to win any international award",
         "She developed a new method for growing trees in tropical climates",
@@ -114,8 +106,7 @@
       "id": "q9",
       "type": "true-false",
       "points": 6,
-      "passage": "During the American colonization of the Philippines (1898–1946), the U.S. colonial administration implemented an extensive public education system using English as the medium of instruction. American educators viewed English as essential for modernization and integration with global commerce. While the education system expanded literacy rates, it also accelerated the decline of baybayin and other indigenous languages. However, the system also democratized access to education, reaching rural communities previously excluded from formal schooling.",
-      "question": "According to the passage, the American education system in the Philippines had only positive effects on Filipino society.",
+      "question": "Read the following passage carefully:\n\nDuring the American colonization of the Philippines (1898–1946), the U.S. colonial administration implemented an extensive public education system using English as the medium of instruction. American educators viewed English as essential for modernization and integration with global commerce. While the education system expanded literacy rates, it also accelerated the decline of baybayin and other indigenous languages. However, the system also democratized access to education, reaching rural communities previously excluded from formal schooling.\n\n---\n\nAccording to the passage, the American education system in the Philippines had only positive effects on Filipino society.",
       "correctAnswer": "false",
       "explanation": "The passage acknowledges both benefits ('expanded literacy rates,' 'democratized access to education') and drawbacks ('accelerated the decline of baybayin and other indigenous languages'). The passage presents a mixed picture, not only positive effects, making the statement false."
     },
@@ -123,8 +114,7 @@
       "id": "q10",
       "type": "fill-in-blank",
       "points": 8,
-      "passage": "Marie Curie (1867–1934) was a Polish-born physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize and remains the only person to win Nobel Prizes in two different scientific fields: Physics and ___. Her groundbreaking work transformed scientific understanding of atomic structure and energy.",
-      "question": "Marie Curie won Nobel Prizes in Physics and in ___.",
+      "question": "Read the following passage carefully:\n\nMarie Curie (1867–1934) was a Polish-born physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize and remains the only person to win Nobel Prizes in two different scientific fields: Physics and ___. Her groundbreaking work transformed scientific understanding of atomic structure and energy.\n\n---\n\nMarie Curie won Nobel Prizes in Physics and in ___.",
       "correctAnswer": "Chemistry",
       "explanation": "The passage states she won 'Nobel Prizes in two different scientific fields: Physics and ___.' The correct answer is 'Chemistry.' This is a factual detail directly supported by the passage."
     },
@@ -132,8 +122,7 @@
       "id": "q11",
       "type": "multiple-choice",
       "points": 7,
-      "passage": "The invention of the printing press by Johannes Gutenberg in the 15th century revolutionized the dissemination of knowledge in Europe. Prior to the printing press, books were hand-copied by scribes, making them expensive and rare. The printing press allowed for mass production of texts, dramatically reducing costs and increasing availability. This technological innovation fueled the spread of ideas, enabled literacy growth, and contributed to major intellectual movements including the Renaissance and the Reformation. However, the printing press also enabled the rapid spread of propaganda, misinformation, and censored state-approved narratives. The technology itself was neutral; its impact depended on who controlled it and for what purposes.",
-      "question": "What does the passage suggest about the relationship between technology and social outcomes?",
+      "question": "Read the following passage carefully:\n\nThe invention of the printing press by Johannes Gutenberg in the 15th century revolutionized the dissemination of knowledge in Europe. Prior to the printing press, books were hand-copied by scribes, making them expensive and rare. The printing press allowed for mass production of texts, dramatically reducing costs and increasing availability. This technological innovation fueled the spread of ideas, enabled literacy growth, and contributed to major intellectual movements including the Renaissance and the Reformation. However, the printing press also enabled the rapid spread of propaganda, misinformation, and censored state-approved narratives. The technology itself was neutral; its impact depended on who controlled it and for what purposes.\n\n---\n\nWhat does the passage suggest about the relationship between technology and social outcomes?",
       "options": [
         "Technology always produces only positive outcomes for society",
         "Technology is inherently dangerous and should be restricted",
@@ -147,8 +136,7 @@
       "id": "q12",
       "type": "true-false",
       "points": 6,
-      "passage": "Florence Nightingale (1820–1910) was a British social reformer and founder of modern nursing. During the Crimean War (1853–1856), Nightingale led a team of nurses to a military hospital in Turkey, where she revolutionized sanitation and medical care. She meticulously documented health statistics and used data visualization to convince military and government officials that poor hygiene and sanitation—not just wounds—were causing deaths. Her work reduced mortality rates dramatically and established nursing as a respected profession. After the war, Nightingale founded the Nightingale Training School for Nurses in London, establishing rigorous standards for nursing education.",
-      "question": "Nightingale's primary contribution was inventing new surgical techniques to treat wounded soldiers.",
+      "question": "Read the following passage carefully:\n\nFlorence Nightingale (1820–1910) was a British social reformer and founder of modern nursing. During the Crimean War (1853–1856), Nightingale led a team of nurses to a military hospital in Turkey, where she revolutionized sanitation and medical care. She meticulously documented health statistics and used data visualization to convince military and government officials that poor hygiene and sanitation—not just wounds—were causing deaths. Her work reduced mortality rates dramatically and established nursing as a respected profession. After the war, Nightingale founded the Nightingale Training School for Nurses in London, establishing rigorous standards for nursing education.\n\n---\n\nNightingale's primary contribution was inventing new surgical techniques to treat wounded soldiers.",
       "correctAnswer": "false",
       "explanation": "The passage indicates Nightingale's primary contributions were improving sanitation and hygiene, using data to demonstrate their importance, revolutionizing hospital care, and establishing nursing as a profession through education. The passage does not mention inventing surgical techniques; it emphasizes her reform of hospital conditions and nursing standards."
     },
@@ -156,8 +144,7 @@
       "id": "q13",
       "type": "short-answer",
       "points": 5,
-      "passage": "During the height of the Atlantic slave trade (16th–19th centuries), European and American merchants forcibly transported millions of Africans across the Atlantic Ocean to the Americas. The slave trade was justified by pseudo-scientific racial theories that falsely claimed African inferiority. However, enslaved Africans and their descendants maintained cultural practices, languages, and traditions despite systematic efforts to suppress them. The resilience of African-descended communities, their artistic and intellectual contributions, and their resistance movements contradict racist ideologies and demonstrate the failure of dehumanization efforts.",
-      "question": "Based on the passage, how did enslaved Africans respond to attempts to suppress their culture? Write one or two sentences.",
+      "question": "Read the following passage carefully:\n\nDuring the height of the Atlantic slave trade (16th–19th centuries), European and American merchants forcibly transported millions of Africans across the Atlantic Ocean to the Americas. The slave trade was justified by pseudo-scientific racial theories that falsely claimed African inferiority. However, enslaved Africans and their descendants maintained cultural practices, languages, and traditions despite systematic efforts to suppress them. The resilience of African-descended communities, their artistic and intellectual contributions, and their resistance movements contradict racist ideologies and demonstrate the failure of dehumanization efforts.\n\n---\n\nBased on the passage, how did enslaved Africans respond to attempts to suppress their culture? Write one or two sentences.",
       "correctAnswer": "Enslaved Africans maintained and preserved their cultural practices, languages, and traditions despite systematic suppression efforts. Their cultural resilience and contributions demonstrate that efforts to dehumanize them failed.",
       "explanation": "The passage explicitly states that enslaved Africans and their descendants 'maintained cultural practices, languages, and traditions despite systematic efforts to suppress them.' A complete answer should capture both the maintenance of culture and the idea that this represented a form of resistance to dehumanization."
     },
@@ -165,8 +152,7 @@
       "id": "q14",
       "type": "short-answer",
       "points": 5,
-      "passage": "Thomas Jefferson (1743–1826) was a principal author of the American Declaration of Independence, which proclaimed universal human rights and the right to self-governance. However, Jefferson was also a slaveholder who enslaved over 600 people during his lifetime and opposed voting rights for women, Native Americans, and non-property-owning men. This contradiction—between Jefferson's enlightened political ideals and his personal practices—reflects the limitations of Enlightenment ideals in the 18th century and raises complex questions about how to evaluate historical figures whose contributions were significant but morally compromised.",
-      "question": "How does the passage characterize the relationship between Jefferson's political ideals and his personal actions? Explain in one or two sentences.",
+      "question": "Read the following passage carefully:\n\nThomas Jefferson (1743–1826) was a principal author of the American Declaration of Independence, which proclaimed universal human rights and the right to self-governance. However, Jefferson was also a slaveholder who enslaved over 600 people during his lifetime and opposed voting rights for women, Native Americans, and non-property-owning men. This contradiction—between Jefferson's enlightened political ideals and his personal practices—reflects the limitations of Enlightenment ideals in the 18th century and raises complex questions about how to evaluate historical figures whose contributions were significant but morally compromised.\n\n---\n\nHow does the passage characterize the relationship between Jefferson's political ideals and his personal actions? Explain in one or two sentences.",
       "correctAnswer": "The passage describes a contradiction between Jefferson's enlightened ideals about universal human rights and self-governance, and his personal practices of enslavement and opposition to voting rights. This reflects the limitations of Enlightenment ideals and complicates evaluation of his legacy.",
       "explanation": "The passage explicitly presents a 'contradiction' and asks readers to grapple with 'how to evaluate historical figures whose contributions were significant but morally compromised.' A complete answer should capture both the contradiction and its historical significance."
     },
@@ -174,8 +160,7 @@
       "id": "q15",
       "type": "fill-in-blank",
       "points": 8,
-      "passage": "The Gutenberg Bible (c. 1455) was the first major book printed in Europe using movable type technology. Created by Johannes Gutenberg in Mainz, Germany, only about 49 copies of the original edition survive today. The Gutenberg Bible demonstrated that printing press technology could produce high-quality texts in large quantities, which made it a revolutionary proof of concept. This success led to rapid expansion of printing throughout Europe, and within 50 years, printing presses had been established in most major European cities. The availability of ___ through printing fundamentally transformed European intellectual, religious, and political life.",
-      "question": "The availability of ___ through printing fundamentally transformed European intellectual, religious, and political life.",
+      "question": "Read the following passage carefully:\n\nThe Gutenberg Bible (c. 1455) was the first major book printed in Europe using movable type technology. Created by Johannes Gutenberg in Mainz, Germany, only about 49 copies of the original edition survive today. The Gutenberg Bible demonstrated that printing press technology could produce high-quality texts in large quantities, which made it a revolutionary proof of concept. This success led to rapid expansion of printing throughout Europe, and within 50 years, printing presses had been established in most major European cities. The availability of ___ through printing fundamentally transformed European intellectual, religious, and political life.\n\n---\n\nThe availability of ___ through printing fundamentally transformed European intellectual, religious, and political life.",
       "correctAnswer": "books",
       "explanation": "The passage discusses how printing technology made books available in large quantities, transforming European society. The correct answer is 'books' or acceptable alternatives such as 'printed texts,' 'texts,' or 'written materials.' The blank refers to the primary product of the printing press discussed throughout the passage."
     }

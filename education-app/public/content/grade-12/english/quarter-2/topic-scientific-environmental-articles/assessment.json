@@ -12,8 +12,7 @@
       "id": "q1",
       "type": "multiple-choice",
       "points": 5,
-      "passage": "Cellular respiration is the process by which cells break down glucose (sugar) to produce ATP (adenosine triphosphate), the energy currency of cells. Aerobic respiration—the predominant form—requires oxygen and produces CO2, water, and significant ATP. Anaerobic respiration occurs without oxygen and produces less ATP but allows organisms to generate energy when oxygen is unavailable. Yeast and bacteria perform fermentation, a form of anaerobic respiration, producing lactate or ethanol as byproducts. Muscle cells can switch to anaerobic respiration during intense exercise when oxygen supply is insufficient, producing lactate that causes muscle fatigue.",
-      "question": "What is the primary difference between aerobic and anaerobic respiration according to the passage?",
+      "question": "Read the following passage carefully:\n\nCellular respiration is the process by which cells break down glucose (sugar) to produce ATP (adenosine triphosphate), the energy currency of cells. Aerobic respiration—the predominant form—requires oxygen and produces CO2, water, and significant ATP. Anaerobic respiration occurs without oxygen and produces less ATP but allows organisms to generate energy when oxygen is unavailable. Yeast and bacteria perform fermentation, a form of anaerobic respiration, producing lactate or ethanol as byproducts. Muscle cells can switch to anaerobic respiration during intense exercise when oxygen supply is insufficient, producing lactate that causes muscle fatigue.\n\n---\n\nWhat is the primary difference between aerobic and anaerobic respiration according to the passage?",
       "options": [
         "Aerobic respiration uses glucose; anaerobic respiration uses protein",
         "Aerobic respiration requires oxygen and produces more ATP; anaerobic respiration lacks oxygen and produces less ATP",
@@ -27,8 +26,7 @@
       "id": "q2",
       "type": "multiple-choice",
       "points": 5,
-      "passage": "The ozone layer, a region of Earth's stratosphere containing high concentrations of ozone (O3), absorbs ultraviolet (UV) radiation from the sun. UV radiation can damage DNA and cause skin cancer in organisms exposed to excessive amounts. The ozone layer protects terrestrial and marine life by blocking most UV radiation from reaching Earth's surface. In the 1970s, scientists discovered that chlorofluorocarbons (CFCs)—chemicals used in refrigerants, air conditioners, and aerosols—were released into the atmosphere and migrating to the stratosphere. In the stratosphere, UV radiation breaks down CFCs, releasing chlorine atoms. Chlorine atoms catalyze the breakdown of ozone molecules, destroying the ozone layer. The Antarctic ozone hole—a seasonal region of severe ozone depletion—resulted from this process. International agreements, including the Montreal Protocol (1987), restricted CFC production, allowing the ozone layer to gradually recover.",
-      "question": "What is the relationship between CFCs and ozone depletion according to the passage?",
+      "question": "Read the following passage carefully:\n\nThe ozone layer, a region of Earth's stratosphere containing high concentrations of ozone (O3), absorbs ultraviolet (UV) radiation from the sun. UV radiation can damage DNA and cause skin cancer in organisms exposed to excessive amounts. The ozone layer protects terrestrial and marine life by blocking most UV radiation from reaching Earth's surface. In the 1970s, scientists discovered that chlorofluorocarbons (CFCs)—chemicals used in refrigerants, air conditioners, and aerosols—were released into the atmosphere and migrating to the stratosphere. In the stratosphere, UV radiation breaks down CFCs, releasing chlorine atoms. Chlorine atoms catalyze the breakdown of ozone molecules, destroying the ozone layer. The Antarctic ozone hole—a seasonal region of severe ozone depletion—resulted from this process. International agreements, including the Montreal Protocol (1987), restricted CFC production, allowing the ozone layer to gradually recover.\n\n---\n\nWhat is the relationship between CFCs and ozone depletion according to the passage?",
       "options": [
         "CFCs absorb UV radiation, reducing ozone's ability to function",
         "CFCs release chlorine atoms in the stratosphere, which break down ozone molecules",
@@ -42,8 +40,7 @@
       "id": "q3",
       "type": "true-false",
       "points": 5,
-      "passage": "Gene expression is the process by which genetic information encoded in DNA is used to synthesize proteins. The central dogma of molecular biology describes the flow of genetic information: DNA → RNA → Protein. During transcription, the enzyme RNA polymerase reads a DNA template and synthesizes messenger RNA (mRNA). mRNA carries the genetic code to ribosomes, which translate the code into proteins during translation. Mutations—changes in DNA sequence—can alter the amino acid sequence of proteins, potentially producing non-functional proteins or proteins with altered function.",
-      "question": "According to the passage, the process by which proteins are synthesized directly from DNA is called transcription.",
+      "question": "Read the following passage carefully:\n\nGene expression is the process by which genetic information encoded in DNA is used to synthesize proteins. The central dogma of molecular biology describes the flow of genetic information: DNA → RNA → Protein. During transcription, the enzyme RNA polymerase reads a DNA template and synthesizes messenger RNA (mRNA). mRNA carries the genetic code to ribosomes, which translate the code into proteins during translation. Mutations—changes in DNA sequence—can alter the amino acid sequence of proteins, potentially producing non-functional proteins or proteins with altered function.\n\n---\n\nAccording to the passage, the process by which proteins are synthesized directly from DNA is called transcription.",
       "correctAnswer": "false",
       "explanation": "The passage describes transcription as producing mRNA from DNA, and translation as synthesizing proteins from mRNA. Protein synthesis involves both processes sequentially, not transcription alone. Additionally, proteins are not synthesized directly from DNA; they are synthesized from mRNA. The statement is false."
     },
@@ -51,8 +48,7 @@
       "id": "q4",
       "type": "multiple-choice",
       "points": 5,
-      "passage": "Habitat fragmentation—the breaking apart of continuous habitats into isolated patches—threatens biodiversity by reducing available habitat and restricting species movement. Fragmented habitats reduce effective population sizes of species because smaller populations are more vulnerable to extinction through random genetic drift, disease, and environmental variation. Additionally, fragmented habitats prevent genetic exchange between populations, reducing genetic diversity. Corridors—strips of connected habitat linking fragmented patches—can partially mitigate fragmentation effects by allowing species movement and genetic exchange. Conservation strategies increasingly emphasize maintaining habitat connectivity through corridors and large protected areas.",
-      "question": "According to the passage, why do corridors help mitigate habitat fragmentation?",
+      "question": "Read the following passage carefully:\n\nHabitat fragmentation—the breaking apart of continuous habitats into isolated patches—threatens biodiversity by reducing available habitat and restricting species movement. Fragmented habitats reduce effective population sizes of species because smaller populations are more vulnerable to extinction through random genetic drift, disease, and environmental variation. Additionally, fragmented habitats prevent genetic exchange between populations, reducing genetic diversity. Corridors—strips of connected habitat linking fragmented patches—can partially mitigate fragmentation effects by allowing species movement and genetic exchange. Conservation strategies increasingly emphasize maintaining habitat connectivity through corridors and large protected areas.\n\n---\n\nAccording to the passage, why do corridors help mitigate habitat fragmentation?",
       "options": [
         "Corridors increase the total amount of available habitat",
         "Corridors prevent all species extinction",
@@ -66,8 +62,7 @@
       "id": "q5",
       "type": "true-false",
       "points": 5,
-      "passage": "Epigenetics is the study of gene regulation—how genes are expressed or silenced—without changes to DNA sequence itself. Epigenetic modifications (chemical tags attached to DNA or histone proteins) can turn genes on or off. Environmental factors including diet, stress, and exposure to toxins can trigger epigenetic changes. These changes can persist through cell divisions and, in some cases, be inherited by offspring. Epigenetic inheritance demonstrates that evolution is not purely genetic; environmental influences shape gene expression and phenotype.",
-      "question": "Epigenetic changes always involve permanent mutations to the DNA sequence.",
+      "question": "Read the following passage carefully:\n\nEpigenetics is the study of gene regulation—how genes are expressed or silenced—without changes to DNA sequence itself. Epigenetic modifications (chemical tags attached to DNA or histone proteins) can turn genes on or off. Environmental factors including diet, stress, and exposure to toxins can trigger epigenetic changes. These changes can persist through cell divisions and, in some cases, be inherited by offspring. Epigenetic inheritance demonstrates that evolution is not purely genetic; environmental influences shape gene expression and phenotype.\n\n---\n\nEpigenetic changes always involve permanent mutations to the DNA sequence.",
       "correctAnswer": "false",
       "explanation": "The passage explicitly states that epigenetics involves 'gene regulation without changes to DNA sequence itself.' Epigenetic changes are modifications to gene regulation (chemical tags), not mutations. The statement is false; epigenetic changes do not alter the DNA sequence itself."
     },
@@ -75,8 +70,7 @@
       "id": "q6",
       "type": "multiple-choice",
       "points": 5,
-      "passage": "The greenhouse effect occurs when atmospheric gases (carbon dioxide, methane, nitrous oxide, water vapor) trap heat radiating from Earth's surface, preventing it from escaping to space. These greenhouse gases allow sunlight to enter the atmosphere but absorb and re-radiate infrared radiation (heat), trapping it in the lower atmosphere. The greenhouse effect is essential for life; without it, Earth's average temperature would be approximately 33°C colder, making the planet inhospitable. However, increased greenhouse gas concentrations from human activities (fossil fuel burning, deforestation, agriculture) have intensified the greenhouse effect, causing global warming. Rising temperatures drive climate change, including altered precipitation patterns, sea level rise, and ecosystem disruption.",
-      "question": "According to the passage, why is the greenhouse effect essential for life on Earth?",
+      "question": "Read the following passage carefully:\n\nThe greenhouse effect occurs when atmospheric gases (carbon dioxide, methane, nitrous oxide, water vapor) trap heat radiating from Earth's surface, preventing it from escaping to space. These greenhouse gases allow sunlight to enter the atmosphere but absorb and re-radiate infrared radiation (heat), trapping it in the lower atmosphere. The greenhouse effect is essential for life; without it, Earth's average temperature would be approximately 33°C colder, making the planet inhospitable. However, increased greenhouse gas concentrations from human activities (fossil fuel burning, deforestation, agriculture) have intensified the greenhouse effect, causing global warming. Rising temperatures drive climate change, including altered precipitation patterns, sea level rise, and ecosystem disruption.\n\n---\n\nAccording to the passage, why is the greenhouse effect essential for life on Earth?",
       "options": [
         "The greenhouse effect prevents the formation of clouds",
         "The greenhouse effect maintains Earth's temperature within a habitable range by trapping heat",
@@ -90,8 +84,7 @@
       "id": "q7",
       "type": "fill-in-blank",
       "points": 5,
-      "passage": "Predator-prey relationships are fundamental to ecosystem dynamics. Predators hunt and consume prey, reducing prey population sizes. As prey populations decline, predators face food scarcity and their populations decline in turn. With fewer predators, prey populations recover. These cyclical population fluctuations, called predator-prey cycles, represent a ___ relationship in which each species' population depends on the other's abundance.",
-      "question": "Predator-prey cycles represent a ___ relationship.",
+      "question": "Read the following passage carefully:\n\nPredator-prey relationships are fundamental to ecosystem dynamics. Predators hunt and consume prey, reducing prey population sizes. As prey populations decline, predators face food scarcity and their populations decline in turn. With fewer predators, prey populations recover. These cyclical population fluctuations, called predator-prey cycles, represent a ___ relationship in which each species' population depends on the other's abundance.\n\n---\n\nPredator-prey cycles represent a ___ relationship.",
       "correctAnswer": "reciprocal",
       "explanation": "The passage describes how predator and prey populations depend on each other in cyclical patterns. The relationship is 'reciprocal' or 'interdependent.' Acceptable alternatives include 'cyclical,' 'dynamic,' or 'dependent' (mutual). The key is capturing the mutual influence of populations on one another."
     },
@@ -99,8 +92,7 @@
       "id": "q8",
       "type": "multiple-choice",
       "points": 5,
-      "passage": "The carbon cycle describes the movement of carbon between the atmosphere (as CO2), living organisms, soil, and water. Plants absorb CO2 through photosynthesis and incorporate carbon into organic compounds (glucose, cellulose). Animals consume plants and incorporate plant carbon into their own tissues. Respiration by plants, animals, and decomposers releases CO2 back to the atmosphere. Fossil fuels (coal, oil, natural gas) are ancient organic matter that accumulated over millions of years. When humans burn fossil fuels, stored carbon is rapidly released to the atmosphere as CO2, accelerating carbon cycling and contributing to atmospheric CO2 increases.",
-      "question": "According to the passage, why does burning fossil fuels accelerate atmospheric CO2 increases?",
+      "question": "Read the following passage carefully:\n\nThe carbon cycle describes the movement of carbon between the atmosphere (as CO2), living organisms, soil, and water. Plants absorb CO2 through photosynthesis and incorporate carbon into organic compounds (glucose, cellulose). Animals consume plants and incorporate plant carbon into their own tissues. Respiration by plants, animals, and decomposers releases CO2 back to the atmosphere. Fossil fuels (coal, oil, natural gas) are ancient organic matter that accumulated over millions of years. When humans burn fossil fuels, stored carbon is rapidly released to the atmosphere as CO2, accelerating carbon cycling and contributing to atmospheric CO2 increases.\n\n---\n\nAccording to the passage, why does burning fossil fuels accelerate atmospheric CO2 increases?",
       "options": [
         "Fossil fuels produce CO2 that is never found in nature",
         "Burning fossil fuels releases carbon stored over millions of years rapidly, adding CO2 to the atmosphere faster than natural carbon cycling processes",
@@ -114,8 +106,7 @@
       "id": "q9",
       "type": "true-false",
       "points": 5,
-      "passage": "Succession in ecosystems can be primary or secondary. Primary succession begins in barren areas (bare rock, lava flows, glacially scraped land) where no soil exists. Pioneer species such as lichens and mosses establish themselves, gradually creating soil through weathering. Secondary succession occurs in areas where soil already exists but has been disturbed (forest after logging, grassland after fire). Secondary succession proceeds more rapidly than primary succession because soil and nutrients are already present.",
-      "question": "Secondary succession occurs more rapidly than primary succession primarily because soil and existing nutrients provide a head start for colonizing species.",
+      "question": "Read the following passage carefully:\n\nSuccession in ecosystems can be primary or secondary. Primary succession begins in barren areas (bare rock, lava flows, glacially scraped land) where no soil exists. Pioneer species such as lichens and mosses establish themselves, gradually creating soil through weathering. Secondary succession occurs in areas where soil already exists but has been disturbed (forest after logging, grassland after fire). Secondary succession proceeds more rapidly than primary succession because soil and nutrients are already present.\n\n---\n\nSecondary succession occurs more rapidly than primary succession primarily because soil and existing nutrients provide a head start for colonizing species.",
       "correctAnswer": "true",
       "explanation": "The passage states: 'Secondary succession occurs in areas where soil already exists...Secondary succession proceeds more rapidly than primary succession because soil and nutrients are already present.' The statement accurately reflects the passage's explanation. The answer is true."
     },
@@ -123,8 +114,7 @@
       "id": "q10",
       "type": "multiple-choice",
       "points": 5,
-      "passage": "Alleles are different versions of a gene. The Hardy-Weinberg principle states that in populations with no evolution (no mutation, selection, migration, or genetic drift), allele frequencies remain constant across generations. However, real populations experience evolutionary forces. Natural selection occurs when individuals with advantageous traits produce more offspring than those with disadvantageous traits, increasing advantageous allele frequencies. Genetic drift—random changes in allele frequencies due to chance—has stronger effects in small populations where random events can dramatically alter allele composition. Mutation introduces new alleles. Migration introduces alleles from other populations.",
-      "question": "According to the passage, which evolutionary force would have the strongest effect in a small population?",
+      "question": "Read the following passage carefully:\n\nAlleles are different versions of a gene. The Hardy-Weinberg principle states that in populations with no evolution (no mutation, selection, migration, or genetic drift), allele frequencies remain constant across generations. However, real populations experience evolutionary forces. Natural selection occurs when individuals with advantageous traits produce more offspring than those with disadvantageous traits, increasing advantageous allele frequencies. Genetic drift—random changes in allele frequencies due to chance—has stronger effects in small populations where random events can dramatically alter allele composition. Mutation introduces new alleles. Migration introduces alleles from other populations.\n\n---\n\nAccording to the passage, which evolutionary force would have the strongest effect in a small population?",
       "options": [
         "Natural selection, because small populations lack genetic variation",
         "Mutation, because small populations require new genetic variation",
@@ -138,8 +128,7 @@
       "id": "q11",
       "type": "fill-in-blank",
       "points": 5,
-      "passage": "Transpiration is the process by which plants release water vapor through tiny pores in leaves called stomata. During photosynthesis, stomata open to allow CO2 entry. Water vapor escapes through these open stomata as a ___ of photosynthesis. The combination of evaporation from soil and water surfaces and transpiration from plants is collectively called evapotranspiration.",
-      "question": "Water vapor escapes through stomata during photosynthesis as a ___ of photosynthesis.",
+      "question": "Read the following passage carefully:\n\nTranspiration is the process by which plants release water vapor through tiny pores in leaves called stomata. During photosynthesis, stomata open to allow CO2 entry. Water vapor escapes through these open stomata as a ___ of photosynthesis. The combination of evaporation from soil and water surfaces and transpiration from plants is collectively called evapotranspiration.\n\n---\n\nWater vapor escapes through stomata during photosynthesis as a ___ of photosynthesis.",
       "correctAnswer": "byproduct",
       "explanation": "The passage describes water vapor escaping as an incidental consequence of photosynthesis (stomata must open for CO2 entry). This is a 'byproduct' or 'consequence' of the process, not its primary purpose. Acceptable alternatives include 'consequence,' 'side effect,' or 'result.' The key is indicating water loss is incidental to photosynthesis."
     },
@@ -147,8 +136,7 @@
       "id": "q12",
       "type": "multiple-choice",
       "points": 5,
-      "passage": "A marine biologist described a fish specimen: laterally compressed body (flattened side-to-side), colorful striped pattern, small mouth, and presence of venomous spines on the dorsal fin. The fish was observed grazing on coral polyps and hiding in coral reef crevices. Based on these characteristics, the biologist identified it as a butterfly fish, a coral-feeding reef fish. If the fish had instead possessed a large predatory mouth, elongated body shape, and lack of venomous spines, it would have been identified as a different reef fish species adapted for hunting.",
-      "question": "Which characteristic BEST supports identifying this fish as a butterfly fish rather than a different reef species?",
+      "question": "Read the following passage carefully:\n\nA marine biologist described a fish specimen: laterally compressed body (flattened side-to-side), colorful striped pattern, small mouth, and presence of venomous spines on the dorsal fin. The fish was observed grazing on coral polyps and hiding in coral reef crevices. Based on these characteristics, the biologist identified it as a butterfly fish, a coral-feeding reef fish. If the fish had instead possessed a large predatory mouth, elongated body shape, and lack of venomous spines, it would have been identified as a different reef fish species adapted for hunting.\n\n---\n\nWhich characteristic BEST supports identifying this fish as a butterfly fish rather than a different reef species?",
       "options": [
         "The fish's presence in a coral reef ecosystem",
         "The fish's colorful striped pattern",
@@ -162,8 +150,7 @@
       "id": "q13",
       "type": "short-answer",
       "points": 5,
-      "passage": "Antibiotic resistance occurs when bacteria acquire mutations or genetic material (such as plasmids) that allow them to survive antibiotic exposure. Natural selection favors resistant bacteria; in the presence of antibiotics, resistant individuals survive and reproduce while susceptible individuals die. With each antibiotic exposure, the proportion of resistant bacteria increases. Overuse of antibiotics—through unnecessary prescription, agricultural use, and incomplete treatment courses—accelerates resistance evolution. Once resistance emerges, bacteria can spread resistant genes to other species through horizontal gene transfer, rapidly spreading resistance across bacterial populations.",
-      "question": "How does the passage suggest that antibiotic overuse contributes to the evolution of antibiotic resistance? Write one or two sentences.",
+      "question": "Read the following passage carefully:\n\nAntibiotic resistance occurs when bacteria acquire mutations or genetic material (such as plasmids) that allow them to survive antibiotic exposure. Natural selection favors resistant bacteria; in the presence of antibiotics, resistant individuals survive and reproduce while susceptible individuals die. With each antibiotic exposure, the proportion of resistant bacteria increases. Overuse of antibiotics—through unnecessary prescription, agricultural use, and incomplete treatment courses—accelerates resistance evolution. Once resistance emerges, bacteria can spread resistant genes to other species through horizontal gene transfer, rapidly spreading resistance across bacterial populations.\n\n---\n\nHow does the passage suggest that antibiotic overuse contributes to the evolution of antibiotic resistance? Write one or two sentences.",
       "correctAnswer": "Antibiotic overuse increases the frequency of antibiotic exposure, which intensifies natural selection favoring resistant bacteria. With repeated exposure, the proportion of resistant bacteria increases in the population, accelerating the evolution of widespread antibiotic resistance.",
       "explanation": "A complete answer should connect overuse to selection pressure and the rapid increase in resistant populations. The answer should indicate that frequent antibiotic exposure selects for resistance, increasing its prevalence in populations."
     },
@@ -171,8 +158,7 @@
       "id": "q14",
       "type": "true-false",
       "points": 5,
-      "passage": "Cellular senescence is the process by which cells stop dividing and enter a non-dividing state. Telomeres—protective caps on chromosome ends—shorten with each cell division. When telomeres reach a critical length, cells enter senescence. Additionally, cellular damage from oxidative stress can trigger senescence. Senescent cells remain metabolically active but cease division. While senescence prevents cancer (uncontrolled cell division), senescent cells accumulate with age and can impair tissue function, contributing to aging.",
-      "question": "According to the passage, cellular senescence is entirely harmful to organisms because it prevents cell division.",
+      "question": "Read the following passage carefully:\n\nCellular senescence is the process by which cells stop dividing and enter a non-dividing state. Telomeres—protective caps on chromosome ends—shorten with each cell division. When telomeres reach a critical length, cells enter senescence. Additionally, cellular damage from oxidative stress can trigger senescence. Senescent cells remain metabolically active but cease division. While senescence prevents cancer (uncontrolled cell division), senescent cells accumulate with age and can impair tissue function, contributing to aging.\n\n---\n\nAccording to the passage, cellular senescence is entirely harmful to organisms because it prevents cell division.",
       "correctAnswer": "false",
       "explanation": "The passage states: 'While senescence prevents cancer (uncontrolled cell division), senescent cells accumulate with age and can impair tissue function, contributing to aging.' This presents a complex view: senescence provides benefit (cancer prevention) but also causes harm (accumulation, aging). Senescence is not 'entirely harmful'; it serves a protective function. The statement is false."
     },
@@ -180,8 +166,7 @@
       "id": "q15",
       "type": "multiple-choice",
       "points": 5,
-      "passage": "Bioaccumulation is the process by which toxic substances accumulate in organisms' tissues over time. When organisms consume contaminated food or water, toxins accumulate in their bodies faster than they can eliminate them. Bioaccumulation is particularly significant for persistent organic pollutants (POPs) and heavy metals that are not biodegradable. Biomagnification occurs when toxin concentrations increase as they move up food chains; top predators can have toxin concentrations millions of times higher than in their environment or prey. This makes top predators and long-lived organisms especially vulnerable to toxic effects.",
-      "question": "According to the passage, what is the relationship between bioaccumulation and biomagnification?",
+      "question": "Read the following passage carefully:\n\nBioaccumulation is the process by which toxic substances accumulate in organisms' tissues over time. When organisms consume contaminated food or water, toxins accumulate in their bodies faster than they can eliminate them. Bioaccumulation is particularly significant for persistent organic pollutants (POPs) and heavy metals that are not biodegradable. Biomagnification occurs when toxin concentrations increase as they move up food chains; top predators can have toxin concentrations millions of times higher than in their environment or prey. This makes top predators and long-lived organisms especially vulnerable to toxic effects.\n\n---\n\nAccording to the passage, what is the relationship between bioaccumulation and biomagnification?",
       "options": [
         "Bioaccumulation and biomagnification are identical processes with different names",
         "Bioaccumulation occurs in individuals; biomagnification occurs across food chains, amplifying toxin concentrations at higher trophic levels",
@@ -195,8 +180,7 @@
       "id": "q16",
       "type": "fill-in-blank",
       "points": 5,
-      "passage": "Chemosynthesis is a process by which some organisms derive energy from chemical reactions rather than from sunlight (photosynthesis). Chemosynthetic bacteria oxidize inorganic compounds such as hydrogen sulfide (H2S), using the energy released to synthesize organic compounds. These bacteria form the ___ of some ecosystems, particularly in deep-sea hydrothermal vents where sunlight is absent. Without chemosynthetic bacteria in these extreme environments, entire ecosystems of specialized organisms could not exist.",
-      "question": "Chemosynthetic bacteria form the ___ of deep-sea hydrothermal vent ecosystems.",
+      "question": "Read the following passage carefully:\n\nChemosynthesis is a process by which some organisms derive energy from chemical reactions rather than from sunlight (photosynthesis). Chemosynthetic bacteria oxidize inorganic compounds such as hydrogen sulfide (H2S), using the energy released to synthesize organic compounds. These bacteria form the ___ of some ecosystems, particularly in deep-sea hydrothermal vents where sunlight is absent. Without chemosynthetic bacteria in these extreme environments, entire ecosystems of specialized organisms could not exist.\n\n---\n\nChemosynthetic bacteria form the ___ of deep-sea hydrothermal vent ecosystems.",
       "correctAnswer": "base",
       "explanation": "The passage indicates chemosynthetic bacteria are the energy source for deep-sea ecosystems, just as photosynthetic organisms form the base of most ecosystems. Acceptable answers include 'base,' 'foundation,' 'primary producers,' or 'foundation.' The term should indicate these bacteria are the starting point of the food web."
     },
@@ -204,8 +188,7 @@
       "id": "q17",
       "type": "multiple-choice",
       "points": 5,
-      "passage": "Niche specialization occurs when species evolve to occupy specific ecological roles with particular resources or habitats. Highly specialized species are adapted for specific conditions and resources but are vulnerable to environmental changes; generalist species can utilize diverse resources and are more flexible. The giant panda, highly specialized to eat bamboo, faces extinction risk if bamboo becomes unavailable. In contrast, rats and cockroaches, generalists consuming diverse foods and inhabiting various environments, thrive in rapidly changing urban and agricultural landscapes. Habitat loss and climate change favor generalist species while threatening specialists.",
-      "question": "Based on the passage, why are specialist species at greater risk from habitat loss and climate change compared to generalist species?",
+      "question": "Read the following passage carefully:\n\nNiche specialization occurs when species evolve to occupy specific ecological roles with particular resources or habitats. Highly specialized species are adapted for specific conditions and resources but are vulnerable to environmental changes; generalist species can utilize diverse resources and are more flexible. The giant panda, highly specialized to eat bamboo, faces extinction risk if bamboo becomes unavailable. In contrast, rats and cockroaches, generalists consuming diverse foods and inhabiting various environments, thrive in rapidly changing urban and agricultural landscapes. Habitat loss and climate change favor generalist species while threatening specialists.\n\n---\n\nBased on the passage, why are specialist species at greater risk from habitat loss and climate change compared to generalist species?",
       "options": [
         "Specialist species are larger and require more resources than generalists",
         "Specialist species are adapted to specific conditions and resources, making them vulnerable when those conditions change; generalists have diverse options",
@@ -219,8 +202,7 @@
       "id": "q18",
       "type": "true-false",
       "points": 5,
-      "passage": "Keystone species are species whose impact on their environment is disproportionately large relative to their abundance. Removing a keystone species causes dramatic ecosystem changes. Sea otters are classic keystone species along North American Pacific coasts. Sea otters hunt sea urchins, controlling urchin populations. When sea otters were hunted to near-extinction, urchin populations exploded, overgrazing kelp forests to barren rocky areas. When sea otters were protected and populations recovered, urchin populations were controlled, and kelp forests recovered. This demonstrates how a single species' abundance profoundly affects ecosystem structure.",
-      "question": "The example of sea otters demonstrates that large, abundant species are always keystone species.",
+      "question": "Read the following passage carefully:\n\nKeystone species are species whose impact on their environment is disproportionately large relative to their abundance. Removing a keystone species causes dramatic ecosystem changes. Sea otters are classic keystone species along North American Pacific coasts. Sea otters hunt sea urchins, controlling urchin populations. When sea otters were hunted to near-extinction, urchin populations exploded, overgrazing kelp forests to barren rocky areas. When sea otters were protected and populations recovered, urchin populations were controlled, and kelp forests recovered. This demonstrates how a single species' abundance profoundly affects ecosystem structure.\n\n---\n\nThe example of sea otters demonstrates that large, abundant species are always keystone species.",
       "correctAnswer": "false",
       "explanation": "The passage describes sea otters as having 'disproportionately large impact...relative to their abundance,' and describes dramatic ecosystem changes from their removal. Sea otters are not necessarily 'large' or 'abundant' compared to sea urchins, but their ecological role (predation) is critical. The statement falsely assumes keystone status correlates with size or abundance. The answer is false."
     },
@@ -228,8 +210,7 @@
       "id": "q19",
       "type": "short-answer",
       "points": 5,
-      "passage": "Eutrophication of freshwater lakes occurs when excess nitrogen and phosphorus (typically from agricultural runoff) enter the water. These nutrients stimulate excessive algae and aquatic plant growth. When algae and plants die, decomposers consume oxygen, creating hypoxic (low-oxygen) zones. Fish and other aerobic organisms cannot survive in hypoxic zones. If oxygen depletion is severe, the lake becomes anoxic, supporting only anaerobic bacteria. Eutrophication transforms a lake from a diverse ecosystem to one dominated by anaerobic bacteria or completely devoid of aquatic life.",
-      "question": "Based on the passage, explain how excess nutrient inputs cause ecosystem collapse in eutrophic lakes. Write one or two sentences.",
+      "question": "Read the following passage carefully:\n\nEutrophication of freshwater lakes occurs when excess nitrogen and phosphorus (typically from agricultural runoff) enter the water. These nutrients stimulate excessive algae and aquatic plant growth. When algae and plants die, decomposers consume oxygen, creating hypoxic (low-oxygen) zones. Fish and other aerobic organisms cannot survive in hypoxic zones. If oxygen depletion is severe, the lake becomes anoxic, supporting only anaerobic bacteria. Eutrophication transforms a lake from a diverse ecosystem to one dominated by anaerobic bacteria or completely devoid of aquatic life.\n\n---\n\nBased on the passage, explain how excess nutrient inputs cause ecosystem collapse in eutrophic lakes. Write one or two sentences.",
       "correctAnswer": "Excess nutrients stimulate algae growth; when algae die and decompose, decomposers consume oxygen, creating hypoxic or anoxic zones. Fish and aerobic organisms cannot survive in oxygen-poor water, leading to ecosystem collapse and dominance by anaerobic bacteria.",
       "explanation": "A complete answer should trace the cause-effect chain: nutrients → algae growth → decomposition → oxygen depletion → organismal death. The answer should explain both how oxygen depletion occurs and why it's harmful to aquatic ecosystems."
     },
@@ -237,8 +218,7 @@
       "id": "q20",
       "type": "multiple-choice",
       "points": 5,
-      "passage": "Trophic levels describe organisms' positions in food chains based on their feeding relationships. Producers (plants, algae, photosynthetic bacteria) form the first trophic level. Primary consumers (herbivores) form the second trophic level. Secondary consumers (carnivores eating herbivores) form the third level. Tertiary consumers eat secondary consumers. Only approximately 10% of energy is transferred to the next trophic level; the rest is lost as heat, used in metabolism, or stored in non-consumed tissues. Due to this energy loss, ecosystems support far fewer top predators than herbivores. Pyramids of energy illustrate this; they are always pyramid-shaped with producers forming the broad base.",
-      "question": "According to the passage, why are pyramid diagrams of energy always larger at lower trophic levels than at higher levels?",
+      "question": "Read the following passage carefully:\n\nTrophic levels describe organisms' positions in food chains based on their feeding relationships. Producers (plants, algae, photosynthetic bacteria) form the first trophic level. Primary consumers (herbivores) form the second trophic level. Secondary consumers (carnivores eating herbivores) form the third level. Tertiary consumers eat secondary consumers. Only approximately 10% of energy is transferred to the next trophic level; the rest is lost as heat, used in metabolism, or stored in non-consumed tissues. Due to this energy loss, ecosystems support far fewer top predators than herbivores. Pyramids of energy illustrate this; they are always pyramid-shaped with producers forming the broad base.\n\n---\n\nAccording to the passage, why are pyramid diagrams of energy always larger at lower trophic levels than at higher levels?",
       "options": [
         "Lower trophic levels have higher metabolic rates than upper trophic levels",
         "Producers are more numerous than consumers due to similar energy requirements",
