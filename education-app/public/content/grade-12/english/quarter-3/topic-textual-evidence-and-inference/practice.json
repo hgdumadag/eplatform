@@ -144,7 +144,7 @@
     },
     {
       "id": 12,
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "points": 8,
       "question": "A _______________ is a conclusion drawn from evidence in a text but not directly stated. It is supported by specific textual details and follows logically from what the author has written.",
       "correctAnswer": "inference",
@@ -152,7 +152,7 @@
     },
     {
       "id": 13,
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "points": 8,
       "question": "Words like 'some,' 'often,' 'rarely,' 'might,' and 'may' are called _______________ because they limit or restrict the scope of a claim.",
       "correctAnswer": "qualifiers",
@@ -172,5 +172,6 @@
       "question": "When you are asked to identify textual evidence supporting an inference, what should you look for in the sentence you choose?",
       "correctAnswer": "You should look for a sentence that contains the key information needed to support the inference, leads logically to the inference without requiring outside knowledge, and is the MOST DIRECT statement of the supporting information. The sentence should make the connection between the evidence and the inference clear without requiring additional reasoning or assumptions."
     }
-  ]
+  ],
+  "passingScore": 70
 }

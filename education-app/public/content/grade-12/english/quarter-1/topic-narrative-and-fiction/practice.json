@@ -86,22 +86,22 @@
       "id": "q7",
       "type": "true-false",
       "points": 6,
-      "statement": "The climax of a story is the same as the ending or resolution.",
-      "correctAnswer": "false"
+      "correctAnswer": "false",
+      "question": "The climax of a story is the same as the ending or resolution."
     },
     {
       "id": "q8",
       "type": "true-false",
       "points": 6,
-      "statement": "A theme statement should be broad enough to apply to many stories but specific enough to reflect the particular narrative's content.",
-      "correctAnswer": "true"
+      "correctAnswer": "true",
+      "question": "A theme statement should be broad enough to apply to many stories but specific enough to reflect the particular narrative's content."
     },
     {
       "id": "q9",
       "type": "true-false",
       "points": 6,
-      "statement": "A first-person narrator always provides a completely reliable and accurate account of events.",
-      "correctAnswer": "false"
+      "correctAnswer": "false",
+      "question": "A first-person narrator always provides a completely reliable and accurate account of events."
     },
     {
       "id": "q10",
@@ -159,5 +159,6 @@
       "explanation": "Despite appearing gentle in words, Andres uses subtle gestures ('a well-placed sigh,' 'dismissive wave') to remind Elena of her lower status. This reveals a character who is subtly controlling and condescending — indirect but deliberate in his behavior.",
       "points": 7
     }
-  ]
+  ],
+  "passingScore": 70
 }

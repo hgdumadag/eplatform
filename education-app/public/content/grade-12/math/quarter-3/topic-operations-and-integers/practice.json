@@ -171,5 +171,6 @@
       "correctAnswer": "Odd. $(-2)^4 = 16$ (even) and $(-3)^3 = -27$ (odd). Even + odd = odd. The sum is $16 + (-27) = -11$, which is odd",
       "explanation": "$(-2)^4 = 16$ (positive, even). $(-3)^3 = -27$ (negative, but as an integer, odd). The sum $16 + (-27) = -11$ is odd."
     }
-  ]
+  ],
+  "passingScore": 70
 }

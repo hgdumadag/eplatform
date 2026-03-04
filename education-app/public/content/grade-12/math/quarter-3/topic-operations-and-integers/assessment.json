@@ -223,5 +223,6 @@
       "correctAnswer": "Initial position: -85 m. After ascending 30 m: $-85 + 30 = -55$ m. After descending 15 m: $-55 - 15 = -70$ m. Final position: 70 m below the surface. The diver is shallower (closer to surface) than the starting position by 15 meters",
       "explanation": "Net change: $+30 - 15 = +15$ m toward surface. Starting at -85, moving 15 m up gives -70 m"
     }
-  ]
+  ],
+  "passingScore": 75
 }

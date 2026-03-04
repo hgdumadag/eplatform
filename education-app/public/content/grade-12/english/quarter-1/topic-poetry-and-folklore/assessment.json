@@ -138,54 +138,54 @@
       "id": "q11",
       "type": "true-false",
       "points": 5,
-      "statement": "Aetiological myths are myths created solely for entertainment and have no deeper educational purpose.",
-      "correctAnswer": "false"
+      "correctAnswer": "false",
+      "question": "Aetiological myths are myths created solely for entertainment and have no deeper educational purpose."
     },
     {
       "id": "q12",
       "type": "true-false",
       "points": 5,
-      "statement": "Hyperbole is deliberate exaggeration used to create emphasis or emotional impact in poetry.",
-      "correctAnswer": "true"
+      "correctAnswer": "true",
+      "question": "Hyperbole is deliberate exaggeration used to create emphasis or emotional impact in poetry."
     },
     {
       "id": "q13",
       "type": "true-false",
       "points": 5,
-      "statement": "Alliteration is the repetition of vowel sounds within words in a line of poetry.",
-      "correctAnswer": "false"
+      "correctAnswer": "false",
+      "question": "Alliteration is the repetition of vowel sounds within words in a line of poetry."
     },
     {
       "id": "q14",
       "type": "true-false",
       "points": 5,
-      "statement": "A symbol's meaning is fixed and universal across all poems and stories.",
-      "correctAnswer": "false"
+      "correctAnswer": "false",
+      "question": "A symbol's meaning is fixed and universal across all poems and stories."
     },
     {
       "id": "q15",
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "points": 5,
       "question": "The repetition of initial consonant sounds in nearby words, such as 'Peter Piper picked a peck of pickled peppers,' is called _____.",
       "correctAnswer": "alliteration"
     },
     {
       "id": "q16",
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "points": 5,
       "question": "A _____ is a comparison using 'like' or 'as,' while a _____ is a direct comparison without these words.",
       "correctAnswer": "simile; metaphor"
     },
     {
       "id": "q17",
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "points": 5,
       "question": "In a poem, the _____ is the voice delivering the poem—not necessarily the poet themselves, but a character created by the poet.",
       "correctAnswer": "speaker"
     },
     {
       "id": "q18",
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "points": 5,
       "question": "_____ is vivid, sensory language that appeals to sight, sound, smell, taste, or touch, creating a sensory experience for the reader.",
       "correctAnswer": "Imagery"
@@ -204,5 +204,6 @@
       "question": "Explain how understanding the speaker's identity and situation is important when interpreting a poem. Use 2-3 sentences.",
       "correctAnswer": "The speaker is the voice delivering the poem, which may not be the poet themselves. Understanding who the speaker is, what their emotional state is, and what situation they are in provides crucial context for interpreting the poem's meaning and tone. The same words spoken by different speakers in different situations can have vastly different meanings, so identifying the speaker helps us understand the poet's intended message."
     }
-  ]
+  ],
+  "passingScore": 75
 }

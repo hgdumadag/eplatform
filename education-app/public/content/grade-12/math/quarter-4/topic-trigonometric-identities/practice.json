@@ -159,5 +159,6 @@
       "question": "Verify the identity $\\sec^2\\theta - \\tan^2\\theta = 1$ by substituting $\\theta = 45°$. Show your work.",
       "rubric": "Award 5 points for correct substitution and verification: sec²(45°) = (\\sqrt{2})² = 2, tan²(45°) = 1, so 2 - 1 = 1"
     }
-  ]
+  ],
+  "passingScore": 70
 }

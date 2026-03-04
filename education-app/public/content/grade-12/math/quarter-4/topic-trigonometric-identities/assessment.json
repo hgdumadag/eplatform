@@ -206,5 +206,6 @@
       "question": "Prove the identity: $\\frac{\\sec^2\\theta - 1}{\\tan\\theta} = \\tan\\theta$. Show all steps.",
       "rubric": "Award 5 points for correct proof using sec²θ - 1 = tan²θ, leading to tan²θ/tan(θ) = tan(θ)"
     }
-  ]
+  ],
+  "passingScore": 75
 }

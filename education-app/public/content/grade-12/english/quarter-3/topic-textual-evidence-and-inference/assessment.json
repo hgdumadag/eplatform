@@ -124,7 +124,7 @@
     },
     {
       "id": 11,
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "points": 5,
       "question": "The _______________ is a concept that helps explain how humans move from observable data through selected data, assumptions, conclusions, and ultimately to beliefs and actions.",
       "correctAnswer": "Ladder of Inference",
@@ -132,7 +132,7 @@
     },
     {
       "id": 12,
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "points": 5,
       "question": "Words like 'however,' 'although,' 'but,' 'yet,' and 'despite' are _______________ words that often signal that the author's main point is about to be stated.",
       "correctAnswer": "contrast",
@@ -140,7 +140,7 @@
     },
     {
       "id": 13,
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "points": 5,
       "question": "When identifying textual evidence, you should look for the sentence that most _______________ and _______________ supports the inference without requiring additional reasoning or outside knowledge.",
       "correctAnswer": "directly, specifically",
@@ -148,7 +148,7 @@
     },
     {
       "id": 14,
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "points": 5,
       "question": "A _______________ is information that the author directly states in the text, while an _______________ is a conclusion you draw from evidence the author provides but does not explicitly state.",
       "correctAnswer": "detail, inference",
@@ -224,5 +224,6 @@
       "correctAnswer": 2,
       "explanation": "This inference accurately reflects the passage without overgeneralizing. It uses appropriate qualification ('appear,' 'on average') and acknowledges correlation rather than claiming causation. Options A and D use absolute language not supported by the passage. Option B claims all students will improve by exactly 15%, which overstates the finding."
     }
-  ]
+  ],
+  "passingScore": 75
 }

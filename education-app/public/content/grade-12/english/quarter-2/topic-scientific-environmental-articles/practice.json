@@ -164,5 +164,6 @@
       "correctAnswer": "Phosphorus lacks a significant atmospheric form like nitrogen gas, so it cannot be recycled through the atmosphere. Instead, phosphorus continuously leaches from soil into oceans and accumulates in sediments, becoming slowly recycled back to land only through geological processes. This slow recycling makes phosphorus more likely to become limiting than the more readily recycled nitrogen.",
       "explanation": "A complete answer should contrast nitrogen's atmospheric recycling with phosphorus's geological recycling timescales. The key insight is that nitrogen's atmospheric form allows rapid cycling, while phosphorus's one-way flow to oceans makes it slowly recycled, creating scarcity."
     }
-  ]
+  ],
+  "passingScore": 70
 }

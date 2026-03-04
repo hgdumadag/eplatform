@@ -171,5 +171,6 @@
       "correctAnswer": "$a_4 = 5 \\times 2^{4-1} = 5 \\times 2^3 = 5 \\times 8 = 40$. Verification: 5, 10, 20, 40",
       "explanation": "Sequence: 5, 10, 20, 40, ... The 4th term is 40"
     }
-  ]
+  ],
+  "passingScore": 70
 }

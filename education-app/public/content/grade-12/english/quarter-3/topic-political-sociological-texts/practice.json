@@ -144,7 +144,7 @@
     },
     {
       "id": 12,
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "points": 8,
       "question": "The rhetorical appeal that establishes the speaker's credibility or trustworthiness is called _______________. Examples include invoking personal expertise, referencing respected institutions, or appealing to shared values.",
       "correctAnswer": "ethos",
@@ -152,7 +152,7 @@
     },
     {
       "id": 13,
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "points": 8,
       "question": "In sociological texts about technology, the term _______________ refers to the brain's ability to adapt and reorganize itself in response to repeated experiences, such as extensive Internet use.",
       "correctAnswer": "neuroplasticity",
@@ -172,5 +172,6 @@
       "question": "What is the primary purpose of using rhetorical devices like anaphora and antithesis in political speeches? How do these devices make the speech more persuasive?",
       "correctAnswer": "Rhetorical devices create memorable, rhythmic language that emphasizes key ideas and makes them more emotionally resonant. Anaphora (repetition) creates rhythm and emphasis through repeated phrases, making ideas stick in the audience's memory. Antithesis (contrast) highlights the importance of a choice or principle by placing opposing ideas side by side. Both devices make speeches more persuasive by making them more memorable and emotionally engaging, which increases the likelihood the audience will adopt the speaker's message."
     }
-  ]
+  ],
+  "passingScore": 70
 }

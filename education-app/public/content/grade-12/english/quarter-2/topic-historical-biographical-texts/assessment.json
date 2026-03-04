@@ -228,5 +228,6 @@
       "correctAnswer": 2,
       "explanation": "The passage explicitly states: 'She argued that women appeared less rational only because they lacked education and were denied opportunities for intellectual development.' This indicates that the perceived difference was due to lack of opportunity, not innate inability. Her argument challenged biological determinism, attributing the difference to social and educational factors."
     }
-  ]
+  ],
+  "passingScore": 75
 }

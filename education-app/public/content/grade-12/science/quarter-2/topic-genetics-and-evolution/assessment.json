@@ -3,7 +3,7 @@
   "title": "Genetics and Evolution Assessment Exam",
   "description": "20-question comprehensive assessment covering Mendelian genetics, inheritance patterns, DNA, and evolution",
   "totalPoints": 100,
-  "passingScore": 70,
+  "passingScore": 75,
   "timeLimit": 60,
   "questions": [
     {

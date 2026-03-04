@@ -1,5 +1,6 @@
 {
   "examType": "practice",
+  "passingScore": 70,
   "topicId": "grade-12-science-q4-meteorology-astronomy",
   "totalQuestions": 15,
   "totalPoints": 100,

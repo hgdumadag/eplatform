@@ -223,5 +223,6 @@
       "correctAnswer": "8,800. Decrease = 12\\% of 10,000 = 0.12 \\times 10,000 = 1,200. New population = 10,000 - 1,200 = 8,800",
       "explanation": "New value = original - decrease = 10,000 - (0.12 × 10,000) = 8,800"
     }
-  ]
+  ],
+  "passingScore": 75
 }

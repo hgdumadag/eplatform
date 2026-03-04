@@ -138,54 +138,54 @@
       "id": "q11",
       "type": "true-false",
       "points": 5,
-      "statement": "The main idea of a passage is the same thing as its theme.",
-      "correctAnswer": "false"
+      "correctAnswer": "false",
+      "question": "The main idea of a passage is the same thing as its theme."
     },
     {
       "id": "q12",
       "type": "true-false",
       "points": 5,
-      "statement": "Situational irony occurs when what actually happens contradicts what the audience expects to happen.",
-      "correctAnswer": "true"
+      "correctAnswer": "true",
+      "question": "Situational irony occurs when what actually happens contradicts what the audience expects to happen."
     },
     {
       "id": "q13",
       "type": "true-false",
       "points": 5,
-      "statement": "Third-person limited point of view means the narrator knows the thoughts and feelings of all characters in the story.",
-      "correctAnswer": "false"
+      "correctAnswer": "false",
+      "question": "Third-person limited point of view means the narrator knows the thoughts and feelings of all characters in the story."
     },
     {
       "id": "q14",
       "type": "true-false",
       "points": 5,
-      "statement": "A foil character is one whose traits contrast with another character, typically the protagonist, in order to highlight the protagonist's qualities.",
-      "correctAnswer": "true"
+      "correctAnswer": "true",
+      "question": "A foil character is one whose traits contrast with another character, typically the protagonist, in order to highlight the protagonist's qualities."
     },
     {
       "id": "q15",
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "points": 5,
       "question": "In fiction, _____ is the author's attitude toward the subject matter, conveyed through word choice and what the narrator emphasizes or omits.",
       "correctAnswer": "tone"
     },
     {
       "id": "q16",
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "points": 5,
       "question": "A _____ is a concrete object, character, or action that represents an abstract idea or concept in a narrative.",
       "correctAnswer": "symbol"
     },
     {
       "id": "q17",
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "points": 5,
       "question": "The emotional atmosphere created for the reader—the feeling we experience as we read—is called the _____ of a passage.",
       "correctAnswer": "mood"
     },
     {
       "id": "q18",
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "points": 5,
       "question": "When a narrator is outside the story but has access to the inner thoughts of only one character, this is called _____ point of view.",
       "correctAnswer": "third-person limited"
@@ -204,5 +204,6 @@
       "question": "In your own words, explain the difference between exposition and rising action in a narrative.",
       "correctAnswer": "Exposition is the opening section where background information, setting, and character introductions are provided to establish the story's world. Rising action consists of the events following exposition that develop the central conflict and build tension toward the climax, with each event complicating the protagonist's situation further."
     }
-  ]
+  ],
+  "passingScore": 75
 }

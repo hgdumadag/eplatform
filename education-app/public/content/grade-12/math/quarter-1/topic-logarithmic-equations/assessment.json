@@ -3,27 +3,225 @@
   "title": "Logarithmic Equations - Assessment Exam",
   "totalPoints": 100,
   "timeLimit": 120,
-  "passingScore": 70,
+  "passingScore": 75,
   "questions": [
-    {"id": 1, "type": "multiple-choice", "points": 5, "question": "Evaluate $\\log_3(27)$.", "options": ["2", "3", "9", "27"], "correctAnswer": 1, "explanation": "We need $3^x = 27 = 3^3$, so $\\log_3(27) = 3$."},
-    {"id": 2, "type": "multiple-choice", "points": 5, "question": "Simplify $\\log_7(7^{10})$ using the key identity.", "options": ["1", "7", "10", "70"], "correctAnswer": 2, "explanation": "$\\log_b(b^x) = x$, so $\\log_7(7^{10}) = 10$."},
-    {"id": 3, "type": "multiple-choice", "points": 5, "question": "Evaluate $\\log_4(64)$.", "options": ["2", "2.5", "3", "4"], "correctAnswer": 2, "explanation": "We need $4^x = 64 = 4^3$, so $\\log_4(64) = 3$."},
-    {"id": 4, "type": "multiple-choice", "points": 5, "question": "Evaluate $\\log_2(1)$.", "options": ["-1", "0", "1", "2"], "correctAnswer": 1, "explanation": "$\\log_b(1) = 0$ for any base (since $b^0 = 1$)."},
-    {"id": 5, "type": "multiple-choice", "points": 5, "question": "Evaluate $\\log_6(6)$.", "options": ["0", "1", "6", "36"], "correctAnswer": 1, "explanation": "$\\log_b(b) = 1$ for any base (since $b^1 = b$)."},
-    {"id": 6, "type": "multiple-choice", "points": 5, "question": "Solve $\\log_5(x) = 2$.", "options": ["10", "25", "32", "125"], "correctAnswer": 1, "explanation": "Convert to exponential: $5^2 = x \\Rightarrow x = 25$."},
-    {"id": 7, "type": "multiple-choice", "points": 5, "question": "Simplify $\\log_3(81) - \\log_3(27)$ using logarithm properties.", "options": ["1", "2", "3", "4"], "correctAnswer": 0, "explanation": "$\\log_3(81) = 4$ and $\\log_3(27) = 3$. By quotient rule: $\\log_3\\left(\\frac{81}{27}\\right) = \\log_3(3) = 1$."},
-    {"id": 8, "type": "multiple-choice", "points": 5, "question": "Simplify $\\log_2(8) + \\log_2(4)$ using the product rule.", "options": ["2", "3", "5", "7"], "correctAnswer": 2, "explanation": "$\\log_2(8) = 3$ and $\\log_2(4) = 2$. Using product rule: $\\log_2(32) = 5$."},
-    {"id": 9, "type": "multiple-choice", "points": 5, "question": "Simplify $\\log_3(9^2)$ using the power rule.", "options": ["2", "3", "4", "6"], "correctAnswer": 3, "explanation": "$\\log_3(9^2) = 2\\log_3(9) = 2 \\cdot 2 = 4$."},
-    {"id": 10, "type": "multiple-choice", "points": 5, "question": "Solve $2^x = 32$.", "options": ["3", "4", "5", "6"], "correctAnswer": 2, "explanation": "We need $x = \\log_2(32) = \\log_2(2^5) = 5$."},
-    {"id": 11, "type": "true-false", "points": 5, "question": "$\\log_5(5^4) = 4$.", "correctAnswer": "true", "explanation": "By the key identity, $\\log_b(b^x) = x$. TRUE."},
-    {"id": 12, "type": "true-false", "points": 5, "question": "$\\log_2(16) = \\log_2(4) + \\log_2(4)$.", "correctAnswer": "true", "explanation": "$\\log_2(4) + \\log_2(4) = \\log_2(16)$. TRUE."},
-    {"id": 13, "type": "true-false", "points": 5, "question": "$\\log_3(x^2) = 2\\log_3(x)$ for all real values of $x$.", "correctAnswer": "false", "explanation": "The power rule only applies when $x > 0$. FALSE."},
-    {"id": 14, "type": "true-false", "points": 5, "question": "$\\log(10) = 1$ (using base 10).", "correctAnswer": "true", "explanation": "$\\log_{10}(10) = 1$ since $10^1 = 10$. TRUE."},
-    {"id": 15, "type": "fill-in", "points": 5, "question": "Evaluate $\\log_2(128)$ and enter the answer as a whole number.", "answer": "7", "explanation": "$2^x = 128 = 2^7$, so $\\log_2(128) = 7$."},
-    {"id": 16, "type": "fill-in", "points": 5, "question": "Solve $\\log_4(x) = 1.5$ and enter the value of $x$.", "answer": "8 or \\frac{8}{1}", "explanation": "$4^{1.5} = (2^2)^{1.5} = 2^3 = 8$, so $x = 8$."},
-    {"id": 17, "type": "fill-in", "points": 5, "question": "Evaluate $\\log_5(125) + \\log_5\\left(\\frac{1}{25}\\right)$.", "answer": "1", "explanation": "$\\log_5(125) = 3$ and $\\log_5(1/25) = -2$. Sum: $3 + (-2) = 1$."},
-    {"id": 18, "type": "fill-in", "points": 5, "question": "Simplify $\\log_6(36)$ and enter the answer as a whole number.", "answer": "2", "explanation": "$6^x = 36 = 6^2$, so $\\log_6(36) = 2$."},
-    {"id": 19, "type": "short-answer", "points": 5, "question": "Solve $\\log_2(x) + \\log_2(x + 2) = 3$. Show your work, identify all solutions, and check domain restrictions.", "answer": "$\\log_2(x(x+2)) = 3 \\Rightarrow x(x+2) = 8 \\Rightarrow x^2 + 2x - 8 = 0 \\Rightarrow (x+4)(x-2) = 0 \\Rightarrow x = 2$ (reject $x = -4$ due to domain). Solution: $x = 2$."},
-    {"id": 20, "type": "short-answer", "points": 5, "question": "Simplify $\\log_5(125) + \\log_5\\left(\\frac{1}{25}\\right)$ using logarithm properties. Show all steps.", "answer": "$\\log_5(125) = 3$ and $\\log_5(1/25) = \\log_5(5^{-2}) = -2$. By product rule: $\\log_5\\left(125 \\cdot \\frac{1}{25}\\right) = \\log_5(5) = 1$. Or: $3 + (-2) = 1$."}
+    {
+      "id": 1,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Evaluate $\\log_3(27)$.",
+      "options": [
+        "2",
+        "3",
+        "9",
+        "27"
+      ],
+      "correctAnswer": 1,
+      "explanation": "We need $3^x = 27 = 3^3$, so $\\log_3(27) = 3$."
+    },
+    {
+      "id": 2,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Simplify $\\log_7(7^{10})$ using the key identity.",
+      "options": [
+        "1",
+        "7",
+        "10",
+        "70"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$\\log_b(b^x) = x$, so $\\log_7(7^{10}) = 10$."
+    },
+    {
+      "id": 3,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Evaluate $\\log_4(64)$.",
+      "options": [
+        "2",
+        "2.5",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "We need $4^x = 64 = 4^3$, so $\\log_4(64) = 3$."
+    },
+    {
+      "id": 4,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Evaluate $\\log_2(1)$.",
+      "options": [
+        "-1",
+        "0",
+        "1",
+        "2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$\\log_b(1) = 0$ for any base (since $b^0 = 1$)."
+    },
+    {
+      "id": 5,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Evaluate $\\log_6(6)$.",
+      "options": [
+        "0",
+        "1",
+        "6",
+        "36"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$\\log_b(b) = 1$ for any base (since $b^1 = b$)."
+    },
+    {
+      "id": 6,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Solve $\\log_5(x) = 2$.",
+      "options": [
+        "10",
+        "25",
+        "32",
+        "125"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Convert to exponential: $5^2 = x \\Rightarrow x = 25$."
+    },
+    {
+      "id": 7,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Simplify $\\log_3(81) - \\log_3(27)$ using logarithm properties.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$\\log_3(81) = 4$ and $\\log_3(27) = 3$. By quotient rule: $\\log_3\\left(\\frac{81}{27}\\right) = \\log_3(3) = 1$."
+    },
+    {
+      "id": 8,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Simplify $\\log_2(8) + \\log_2(4)$ using the product rule.",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "7"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$\\log_2(8) = 3$ and $\\log_2(4) = 2$. Using product rule: $\\log_2(32) = 5$."
+    },
+    {
+      "id": 9,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Simplify $\\log_3(9^2)$ using the power rule.",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correctAnswer": 3,
+      "explanation": "$\\log_3(9^2) = 2\\log_3(9) = 2 \\cdot 2 = 4$."
+    },
+    {
+      "id": 10,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Solve $2^x = 32$.",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": 2,
+      "explanation": "We need $x = \\log_2(32) = \\log_2(2^5) = 5$."
+    },
+    {
+      "id": 11,
+      "type": "true-false",
+      "points": 5,
+      "question": "$\\log_5(5^4) = 4$.",
+      "correctAnswer": "true",
+      "explanation": "By the key identity, $\\log_b(b^x) = x$. TRUE."
+    },
+    {
+      "id": 12,
+      "type": "true-false",
+      "points": 5,
+      "question": "$\\log_2(16) = \\log_2(4) + \\log_2(4)$.",
+      "correctAnswer": "true",
+      "explanation": "$\\log_2(4) + \\log_2(4) = \\log_2(16)$. TRUE."
+    },
+    {
+      "id": 13,
+      "type": "true-false",
+      "points": 5,
+      "question": "$\\log_3(x^2) = 2\\log_3(x)$ for all real values of $x$.",
+      "correctAnswer": "false",
+      "explanation": "The power rule only applies when $x > 0$. FALSE."
+    },
+    {
+      "id": 14,
+      "type": "true-false",
+      "points": 5,
+      "question": "$\\log(10) = 1$ (using base 10).",
+      "correctAnswer": "true",
+      "explanation": "$\\log_{10}(10) = 1$ since $10^1 = 10$. TRUE."
+    },
+    {
+      "id": 15,
+      "type": "fill-in",
+      "points": 5,
+      "question": "Evaluate $\\log_2(128)$ and enter the answer as a whole number.",
+      "answer": "7",
+      "explanation": "$2^x = 128 = 2^7$, so $\\log_2(128) = 7$."
+    },
+    {
+      "id": 16,
+      "type": "fill-in",
+      "points": 5,
+      "question": "Solve $\\log_4(x) = 1.5$ and enter the value of $x$.",
+      "answer": "8 or \\frac{8}{1}",
+      "explanation": "$4^{1.5} = (2^2)^{1.5} = 2^3 = 8$, so $x = 8$."
+    },
+    {
+      "id": 17,
+      "type": "fill-in",
+      "points": 5,
+      "question": "Evaluate $\\log_5(125) + \\log_5\\left(\\frac{1}{25}\\right)$.",
+      "answer": "1",
+      "explanation": "$\\log_5(125) = 3$ and $\\log_5(1/25) = -2$. Sum: $3 + (-2) = 1$."
+    },
+    {
+      "id": 18,
+      "type": "fill-in",
+      "points": 5,
+      "question": "Simplify $\\log_6(36)$ and enter the answer as a whole number.",
+      "answer": "2",
+      "explanation": "$6^x = 36 = 6^2$, so $\\log_6(36) = 2$."
+    },
+    {
+      "id": 19,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Solve $\\log_2(x) + \\log_2(x + 2) = 3$. Show your work, identify all solutions, and check domain restrictions.",
+      "answer": "$\\log_2(x(x+2)) = 3 \\Rightarrow x(x+2) = 8 \\Rightarrow x^2 + 2x - 8 = 0 \\Rightarrow (x+4)(x-2) = 0 \\Rightarrow x = 2$ (reject $x = -4$ due to domain). Solution: $x = 2$."
+    },
+    {
+      "id": 20,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Simplify $\\log_5(125) + \\log_5\\left(\\frac{1}{25}\\right)$ using logarithm properties. Show all steps.",
+      "answer": "$\\log_5(125) = 3$ and $\\log_5(1/25) = \\log_5(5^{-2}) = -2$. By product rule: $\\log_5\\left(125 \\cdot \\frac{1}{25}\\right) = \\log_5(5) = 1$. Or: $3 + (-2) = 1$."
+    }
   ]
 }

@@ -171,5 +171,6 @@
       "correctAnswer": "400. Discount = 20\\% of 500 = 0.2 × 500 = 100. Sale price = 500 - 100 = 400",
       "explanation": "Sale price = original - discount = 500 - (0.20 × 500) = 500 - 100 = 400"
     }
-  ]
+  ],
+  "passingScore": 70
 }

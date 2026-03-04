@@ -159,5 +159,6 @@
       "question": "A sphere with radius 6 cm is inscribed in a cube. Find the volume of the cube. Show your work.",
       "rubric": "Award 5 points for correct answer (1728 cm³) with clear explanation that diameter = side length, thus side = 12 cm, V = 12³"
     }
-  ]
+  ],
+  "passingScore": 70
 }

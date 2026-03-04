@@ -228,5 +228,6 @@
       "correctAnswer": 2,
       "explanation": "The passage states: 'Only approximately 10% of energy is transferred to the next trophic level...Due to this energy loss, ecosystems support far fewer top predators than herbivores...they are always pyramid-shaped with producers forming the broad base.' This directly explains why pyramids are larger at lower levels: energy loss limits the number of organisms at higher levels. Option C accurately captures this explanation."
     }
-  ]
+  ],
+  "passingScore": 75
 }

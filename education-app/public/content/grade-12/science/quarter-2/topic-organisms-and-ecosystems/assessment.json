@@ -3,7 +3,7 @@
   "title": "Organisms and Ecosystems Assessment Exam",
   "description": "20-question comprehensive assessment covering taxonomy, protozoans, animal phyla, food webs, and environmental biology",
   "totalPoints": 100,
-  "passingScore": 70,
+  "passingScore": 75,
   "timeLimit": 60,
   "questions": [
     {

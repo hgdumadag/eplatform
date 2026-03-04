@@ -86,22 +86,22 @@
       "id": "q7",
       "type": "true-false",
       "points": 6,
-      "statement": "In a poem, the speaker is always the poet themselves.",
-      "correctAnswer": "false"
+      "correctAnswer": "false",
+      "question": "In a poem, the speaker is always the poet themselves."
     },
     {
       "id": "q8",
       "type": "true-false",
       "points": 6,
-      "statement": "A metaphor makes a direct comparison without using 'like' or 'as,' while a simile uses these words to make a comparison.",
-      "correctAnswer": "true"
+      "correctAnswer": "true",
+      "question": "A metaphor makes a direct comparison without using 'like' or 'as,' while a simile uses these words to make a comparison."
     },
     {
       "id": "q9",
       "type": "true-false",
       "points": 6,
-      "statement": "Tone and mood refer to the same thing in poetry.",
-      "correctAnswer": "false"
+      "correctAnswer": "false",
+      "question": "Tone and mood refer to the same thing in poetry."
     },
     {
       "id": "q10",
@@ -159,5 +159,6 @@
       "explanation": "The myth uses the conflict between Chaos and Night, Day and Night, to explain creation. Its educational purpose is to convey that opposing forces (opposites/eris) are the source of all things — a philosophical lesson, not a scientific, historical, or hierarchical claim.",
       "points": 7
     }
-  ]
+  ],
+  "passingScore": 70
 }

@@ -180,7 +180,7 @@
     },
     {
       "id": 15,
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "points": 5,
       "question": "The rhetorical device of _______________ involves the reversal of grammatical structures in successive phrases to create balance and emphasis, as seen in Kennedy's famous phrase about asking what you can do for your country.",
       "correctAnswer": "chiasmus",
@@ -188,7 +188,7 @@
     },
     {
       "id": 16,
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "points": 5,
       "question": "The opening section of a political speech, which establishes a connection with the audience and sets the emotional and intellectual tone, is called the _______________.",
       "correctAnswer": "exordium",
@@ -196,7 +196,7 @@
     },
     {
       "id": 17,
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "points": 5,
       "question": "When analyzing sociological texts about technology, the concept of _______________ explains how repeated experiences—such as extensive Internet use—can literally change the structure and function of the human brain.",
       "correctAnswer": "neuroplasticity",
@@ -218,11 +218,12 @@
     },
     {
       "id": 20,
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "points": 5,
       "question": "A _______________ is an opinion supported by evidence and logical reasoning, while a _______________ is a subjective judgment without supporting evidence.",
       "correctAnswer": "reasoned argument, opinion",
       "explanation": "A reasoned argument bridges evidence and interpretation, presenting an opinion that is justified by facts and logic. An opinion is a subjective statement that may or may not be supported by evidence. Understanding this distinction helps identify strong vs. weak claims in political and sociological texts."
     }
-  ]
+  ],
+  "passingScore": 75
 }

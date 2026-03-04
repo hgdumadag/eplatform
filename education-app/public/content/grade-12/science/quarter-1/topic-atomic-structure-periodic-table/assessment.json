@@ -5,7 +5,7 @@
   "totalQuestions": 20,
   "totalPoints": 100,
   "timeLimit": 60,
-  "passingScore": 70,
+  "passingScore": 75,
   "questions": [
     {
       "questionId": 1,

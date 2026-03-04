@@ -1,5 +1,6 @@
 {
   "examType": "assessment",
+  "passingScore": 75,
   "title": "Mechanics: Forces and Motion - Assessment Exam",
   "totalPoints": 100,
   "duration": 90,

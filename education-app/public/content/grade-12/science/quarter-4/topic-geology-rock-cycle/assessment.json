@@ -1,5 +1,6 @@
 {
   "examType": "assessment",
+  "passingScore": 75,
   "topicId": "grade-12-science-q4-geology-rock-cycle",
   "totalQuestions": 20,
   "totalPoints": 100,

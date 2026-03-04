@@ -206,5 +206,6 @@
       "question": "A circular sector has radius 10 cm and central angle 72°. Find the arc length and the area of the sector. Show your work.",
       "rubric": "Award 5 points for correct answers: arc length = 4π cm, sector area = 20π cm² (with clear formulas used)"
     }
-  ]
+  ],
+  "passingScore": 75
 }

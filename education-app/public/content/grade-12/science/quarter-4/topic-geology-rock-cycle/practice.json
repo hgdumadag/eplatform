@@ -1,5 +1,6 @@
 {
   "examType": "practice",
+  "passingScore": 70,
   "topicId": "grade-12-science-q4-geology-rock-cycle",
   "totalQuestions": 15,
   "totalPoints": 100,
@@ -185,7 +186,6 @@
       "difficulty": "hard",
       "points": 5,
       "question": "Describe how a piece of granite could be transformed into marble through the rock cycle, including all necessary processes.",
-      "correctAnswer": "Granite (igneous rock) is weathered and eroded into sediments. These sediments are transported and deposited, then compacted and cemented into sandstone (sedimentary rock). The sandstone is buried and subjected to intense heat and pressure, transforming it into quartzite (metamorphic rock). Wait, that's wrong—let me recalculate. Actually, granite would be weathered into sediments that become limestone (not sandstone), which is then metamorphosed into marble. OR, granite is directly buried and metamorphosed into gneiss. To get marble from granite, the pathway is: granite → (weathering) → limestone-forming sediments → (deposition/cementation) → limestone → (metamorphism/heat and pressure) → marble.",
       "correctAnswer": "Granite is weathered and broken down into sediments. These sediments are transported by rivers and deposited in layers. If calcium-rich sediments are involved, they are compacted and cemented into limestone (sedimentary rock). Limestone is then buried deep within the Earth during mountain building. Heat and pressure cause the limestone to metamorphose into marble (non-foliated metamorphic rock) without melting.",
       "explanation": "This response shows understanding of rock cycle pathways, weathering/erosion processes, and the distinction between metamorphism (no melting) and melting. It demonstrates that the student can trace a rock through multiple transformations."
     }

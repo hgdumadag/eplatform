@@ -1,5 +1,6 @@
 {
   "examType": "assessment",
+  "passingScore": 75,
   "title": "Energy, Waves, and Optics - Assessment Exam",
   "totalPoints": 100,
   "duration": 90,

@@ -3,7 +3,7 @@
   "title": "Cellular Biology Assessment Exam",
   "description": "20-question comprehensive assessment covering prokaryotic and eukaryotic cells, organelles, membrane transport, and mitosis",
   "totalPoints": 100,
-  "passingScore": 70,
+  "passingScore": 75,
   "timeLimit": 60,
   "questions": [
     {
