@@ -194,7 +194,7 @@
     },
     {
       "id": "fill-1",
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "difficulty": "easy",
       "points": 5,
       "question": "Rocks that cool slowly underground with large visible crystals are called _______ igneous rocks.",
@@ -203,7 +203,7 @@
     },
     {
       "id": "fill-2",
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "difficulty": "medium",
       "points": 5,
       "question": "The _______ is the time required for half of a parent isotope to decay into a daughter isotope.",
@@ -212,7 +212,7 @@
     },
     {
       "id": "fill-3",
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "difficulty": "medium",
       "points": 5,
       "question": "Limestone metamorphoses into _______, a non-foliated metamorphic rock used in sculpture.",
@@ -221,7 +221,7 @@
     },
     {
       "id": "fill-4",
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "difficulty": "hard",
       "points": 5,
       "question": "A volcanic rock sample contains 3.125% of its original uranium-238. This represents _______ half-lives.",
@@ -246,5 +246,8 @@
       "correctAnswer": "Calculation: 6.25% = (1/2)⁴, so 4 half-lives have elapsed. Age = 4 × 5,730 years = 22,920 years. Carbon-14 would not be useful for dinosaur fossils (extinct ~66 million years ago) because the half-life of carbon-14 is only 5,730 years, making it useful only for organic materials younger than about 50,000 years. For dinosaur fossils, isotopes with much longer half-lives like uranium-238 or potassium-40 would be necessary.",
       "explanation": "This response demonstrates mastery of half-life calculations, understanding of carbon-14's dating range, and knowledge of which isotopes are appropriate for different age ranges."
     }
-  ]
+  ],
+  "examId": "science-q4-geology-rock-cycle-assessment",
+  "title": "Geology and Rock Cycle Assessment",
+  "description": "Test your understanding of Earth's rock cycle, mineral classification, geological formations, and erosion."
 }

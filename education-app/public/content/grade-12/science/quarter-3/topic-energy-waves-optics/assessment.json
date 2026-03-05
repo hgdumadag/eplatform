@@ -224,5 +224,7 @@
       "question": "Explain why the angle of incidence equals the angle of reflection according to the law of reflection, and state what serves as the reference line for measuring these angles.",
       "correctAnswer": "The law of reflection is a fundamental property of light interaction with surfaces. Both angles are measured from the normal (the perpendicular line to the surface at the point of incidence). This ensures that the incident and reflected rays lie in the same plane and maintain geometric symmetry with respect to the normal."
     }
-  ]
+  ],
+  "examId": "science-q3-energy-waves-optics-assessment",
+  "description": "Test your understanding of energy, wave properties, sound, light, and optical phenomena."
 }

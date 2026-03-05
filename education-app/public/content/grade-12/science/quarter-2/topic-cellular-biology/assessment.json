@@ -194,7 +194,8 @@
       "points": 5,
       "question": "Explain the relationship between the number of mitochondria in a cell and the cell's metabolic activity. Provide an example of a cell type with many mitochondria and explain why.",
       "model_answer": "Cells with high metabolic activity require more ATP and therefore contain more mitochondria to meet their energy demands. For example, muscle cells have abundant mitochondria because muscle contraction requires large amounts of ATP. Similarly, liver cells and sperm cells have many mitochondria due to their high energy requirements. In contrast, less metabolically active cells like skin fibroblasts have fewer mitochondria.",
-      "explanation": "This question tests understanding of the relationship between organelle abundance and cellular function. Key concepts: ATP production, metabolic rate, and the correlation between energy demands and mitochondrial density."
+      "explanation": "This question tests understanding of the relationship between organelle abundance and cellular function. Key concepts: ATP production, metabolic rate, and the correlation between energy demands and mitochondrial density.",
+      "correctAnswer": "See explanation for answer guidance."
     },
     {
       "id": "q18",
@@ -202,7 +203,8 @@
       "points": 5,
       "question": "Describe the structural difference between the cell wall of plant cells and the cell wall of bacterial cells, and explain why this difference is clinically significant.",
       "model_answer": "Plant cell walls are composed primarily of cellulose, a polymer of glucose units. Bacterial cell walls are composed of peptidoglycan, a unique polymer of sugars and amino acids. This difference is clinically significant because antibiotics like penicillin target bacterial peptidoglycan synthesis, disrupting bacterial cell wall formation and killing the bacteria without directly harming human (or plant) cells.",
-      "explanation": "This question connects cell structure to pharmacology and evolution. Key concepts: cell wall composition, peptidoglycan, mechanism of antibiotic action, and selective toxicity."
+      "explanation": "This question connects cell structure to pharmacology and evolution. Key concepts: cell wall composition, peptidoglycan, mechanism of antibiotic action, and selective toxicity.",
+      "correctAnswer": "See explanation for answer guidance."
     },
     {
       "id": "q19",
@@ -210,7 +212,8 @@
       "points": 5,
       "question": "A student observes that when red blood cells are placed in pure water (hypotonic solution), they swell and burst (lysis), but when placed in 0.9% NaCl solution (isotonic), they maintain their normal shape. Explain the molecular basis of these observations.",
       "model_answer": "In pure water (hypotonic), the solute concentration outside the cell is lower than inside, so water concentration outside is higher. Water molecules diffuse into the cell by osmosis faster than they leave, causing the cell to swell. Since red blood cells have no cell wall to limit expansion, they eventually rupture (lysis). In 0.9% NaCl (isotonic), solute concentrations are equal on both sides, so water enters and exits at equal rates, maintaining equilibrium and normal cell shape.",
-      "explanation": "This question tests understanding of osmosis, concentration gradients, and the consequences of osmotic imbalance. Key concepts: hypotonic/hypertonic/isotonic solutions, osmotic gradient, and cell membrane behavior."
+      "explanation": "This question tests understanding of osmosis, concentration gradients, and the consequences of osmotic imbalance. Key concepts: hypotonic/hypertonic/isotonic solutions, osmotic gradient, and cell membrane behavior.",
+      "correctAnswer": "See explanation for answer guidance."
     },
     {
       "id": "q20",
@@ -218,7 +221,10 @@
       "points": 5,
       "question": "Compare and contrast diffusion and active transport as mechanisms for moving substances across the cell membrane. Include the role of energy, the direction of movement, and examples of each.",
       "model_answer": "Diffusion (including osmosis) is passive transport that requires no ATP energy and moves substances DOWN their concentration gradient (from high to low concentration) until equilibrium is reached. Example: oxygen diffusing into cells. Active transport requires ATP energy and moves substances AGAINST their concentration gradient (from low to high concentration). Example: the sodium-potassium pump expends ATP to pump 3 Na⁺ out and 2 K⁺ in. Both mechanisms use the cell membrane, but diffusion is entropy-driven and spontaneous, while active transport is energy-driven and selective.",
-      "explanation": "This question assesses comprehensive understanding of membrane transport mechanisms and their energetics. Key concepts: passive vs. active transport, concentration gradients, ATP requirements, direction of movement, and physiological significance."
+      "explanation": "This question assesses comprehensive understanding of membrane transport mechanisms and their energetics. Key concepts: passive vs. active transport, concentration gradients, ATP requirements, direction of movement, and physiological significance.",
+      "correctAnswer": "See explanation for answer guidance."
     }
-  ]
+  ],
+  "examType": "assessment",
+  "examId": "science-q2-cellular-biology-assessment"
 }

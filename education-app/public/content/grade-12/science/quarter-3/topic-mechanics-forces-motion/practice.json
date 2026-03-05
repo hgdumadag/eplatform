@@ -172,5 +172,7 @@
       "question": "Explain why action-reaction pairs do not cancel each other according to Newton's third law.",
       "correctAnswer": "Action-reaction pairs act on different objects. Since they act on different objects, neither force contributes to the net force on any single object, so they cannot cancel each other."
     }
-  ]
+  ],
+  "examId": "science-q3-mechanics-forces-motion-practice",
+  "description": "Evaluate your knowledge of mechanics, forces, Newton's laws, kinematics, and motion."
 }

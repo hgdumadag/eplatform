@@ -194,7 +194,7 @@
     },
     {
       "id": "fill-1",
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "difficulty": "easy",
       "points": 5,
       "question": "A sudden, violent displacement of ocean water caused by seismic activity is called a _______.",
@@ -203,7 +203,7 @@
     },
     {
       "id": "fill-2",
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "difficulty": "medium",
       "points": 5,
       "question": "The _______ are the four outer planets composed primarily of gases and liquids, with no solid surface.",
@@ -212,7 +212,7 @@
     },
     {
       "id": "fill-3",
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "difficulty": "medium",
       "points": 5,
       "question": "The brightest star in the night sky, located in the constellation Canis Major, is called _______.",
@@ -221,7 +221,7 @@
     },
     {
       "id": "fill-4",
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "difficulty": "hard",
       "points": 5,
       "question": "The angle between geographic north and magnetic north, which varies by location, is called magnetic _______.",
@@ -246,5 +246,8 @@
       "correctAnswer": "Earth's geographic poles are at the endpoints of Earth's rotation axis (fixed at 90°N and 90°S latitude). Earth's magnetic poles are where the magnetic field lines point vertically and are located several hundred kilometers away from the geographic poles (currently the magnetic North Pole is in northern Canada). Remarkably, Earth's geographic North Pole is a magnetic south pole. For compass navigation, this means a compass needle points toward the geographic North Pole (attracted by the magnetic south pole there). However, due to magnetic declination—the angle between true north and magnetic north—navigators must account for this discrepancy when using a compass with a map. In some locations, magnetic north is east or west of true north by several degrees.",
       "explanation": "This sophisticated answer demonstrates mastery of the magnetic pole paradox, understanding of magnetic declination, and practical navigation implications."
     }
-  ]
+  ],
+  "examId": "science-q4-meteorology-astronomy-assessment",
+  "title": "Meteorology and Astronomy Assessment",
+  "description": "Evaluate your knowledge of weather systems, atmospheric science, celestial bodies, and space phenomena."
 }

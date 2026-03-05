@@ -150,7 +150,8 @@
       "points": 5,
       "question": "Explain why a plant cell placed in a hypotonic solution becomes turgid rather than bursting, while an animal cell placed in the same solution would likely burst (lyse).",
       "model_answer": "Plant cells have a rigid cell wall that provides structural support and prevents the cell from expanding indefinitely. When water enters the cell by osmosis in a hypotonic solution, the cell membrane pushes against the cell wall, creating turgor pressure that keeps the plant firm without rupturing. Animal cells lack a cell wall, so when water enters, the cell swells until the cell membrane ruptures (lysis).",
-      "explanation": "This question tests understanding of osmosis, turgor pressure, and the structural differences between plant and animal cells. Key concepts: plant cell wall limits expansion, turgor pressure, and the consequence of osmotic imbalance in cells lacking a cell wall."
+      "explanation": "This question tests understanding of osmosis, turgor pressure, and the structural differences between plant and animal cells. Key concepts: plant cell wall limits expansion, turgor pressure, and the consequence of osmotic imbalance in cells lacking a cell wall.",
+      "correctAnswer": "See explanation for answer guidance."
     },
     {
       "id": "q14",
@@ -158,7 +159,8 @@
       "points": 5,
       "question": "Describe what happens during anaphase of mitosis and explain why this phase is critical for accurate cell division.",
       "model_answer": "During anaphase, sister chromatids separate at the centromere and are pulled toward opposite poles of the cell by shortening spindle fibers. This phase is critical because it ensures that each daughter cell receives an identical, complete set of chromosomes. If sister chromatids fail to separate properly (nondisjunction), one daughter cell will have extra chromosomes and the other will have missing chromosomes, leading to genetic abnormalities.",
-      "explanation": "This question assesses understanding of chromosome movement during mitosis and the importance of accurate chromosome segregation. Key concepts: sister chromatid separation, spindle fiber function, and the consequence of errors (nondisjunction)."
+      "explanation": "This question assesses understanding of chromosome movement during mitosis and the importance of accurate chromosome segregation. Key concepts: sister chromatid separation, spindle fiber function, and the consequence of errors (nondisjunction).",
+      "correctAnswer": "See explanation for answer guidance."
     },
     {
       "id": "q15",
@@ -168,5 +170,7 @@
       "correctAnswer": "false",
       "explanation": "False. DNA replication occurs during the S (synthesis) phase of interphase, which occurs BEFORE mitosis. By the time mitosis begins, DNA has already been replicated. Mitosis simply distributes the already-replicated chromosomes to daughter cells. This is a common misconception on exams."
     }
-  ]
+  ],
+  "examType": "practice",
+  "examId": "science-q2-cellular-biology-practice"
 }

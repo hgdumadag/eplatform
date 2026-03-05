@@ -200,7 +200,8 @@
       "points": 5,
       "question": "In a monohybrid cross, a plant that is homozygous dominant for seed color (YY, yellow) is crossed with a plant that is homozygous recessive (yy, green). Draw a Punnett square and predict the genotypes and phenotypes of the F1 and F2 generations.",
       "model_answer": "F1 cross (YY × yy): All offspring are Yy (heterozygous), showing yellow phenotype. F1 × F1 cross (Yy × Yy): Punnett square shows 1 YY : 2 Yy : 1 yy (genotypes) and 3 yellow : 1 green (phenotypes). The 3:1 ratio is characteristic of a monohybrid cross between two heterozygotes.",
-      "explanation": "This question tests understanding of monohybrid crosses across two generations and the ability to construct and interpret Punnett squares. Key concepts: homozygous vs. heterozygous, dominant phenotype, 3:1 ratio."
+      "explanation": "This question tests understanding of monohybrid crosses across two generations and the ability to construct and interpret Punnett squares. Key concepts: homozygous vs. heterozygous, dominant phenotype, 3:1 ratio.",
+      "correctAnswer": "See explanation for answer guidance."
     },
     {
       "id": "q18",
@@ -208,7 +209,8 @@
       "points": 5,
       "question": "A DNA sample is analyzed and found to contain 28% guanine. Calculate the percentages of all four bases in this DNA sample and explain your reasoning using Chargaff's rules.",
       "model_answer": "If %G = 28%, then %C = 28% (by Chargaff's rule: %G = %C). Therefore, %G + %C = 56%, which means %A + %T = 44%. Since %A = %T (by Chargaff's rule), each is 22%. Final answer: A = 22%, T = 22%, G = 28%, C = 28%. Total = 100%.",
-      "explanation": "This question assesses mastery of Chargaff's rules and the ability to systematically solve base composition problems. Key concepts: base pairing rules, complementary base proportions, algebraic problem-solving."
+      "explanation": "This question assesses mastery of Chargaff's rules and the ability to systematically solve base composition problems. Key concepts: base pairing rules, complementary base proportions, algebraic problem-solving.",
+      "correctAnswer": "See explanation for answer guidance."
     },
     {
       "id": "q19",
@@ -216,7 +218,8 @@
       "points": 5,
       "question": "Explain how the presence of vestigial structures (such as the human tailbone/coccyx) in modern organisms provides evidence for evolution.",
       "model_answer": "Vestigial structures are remnants of structures that had important functions in ancestral organisms but have lost most or all function in modern organisms. The human tailbone (coccyx) is a remnant of the tail present in our evolutionary ancestors. These structures would be inexplicable from a design perspective but are perfectly explained by evolution—they represent evolutionary baggage passed down from ancestors where they were useful.",
-      "explanation": "This question assesses understanding of vestigial structures as evidence for evolution and the ability to think critically about evolutionary mechanisms. Key concepts: common ancestry, evolutionary baggage, comparative anatomy as evidence."
+      "explanation": "This question assesses understanding of vestigial structures as evidence for evolution and the ability to think critically about evolutionary mechanisms. Key concepts: common ancestry, evolutionary baggage, comparative anatomy as evidence.",
+      "correctAnswer": "See explanation for answer guidance."
     },
     {
       "id": "q20",
@@ -224,7 +227,10 @@
       "points": 5,
       "question": "Compare complete dominance, incomplete dominance, and codominance. Provide an example of how each would differ if you crossed a red flower with a white flower.",
       "model_answer": "Complete dominance: Red (RR) × White (WW) → F1 all red (Rw); heterozygote appears identical to homozygous dominant. Incomplete dominance: Red (RR) × White (WW) → F1 all pink (RW); heterozygote shows intermediate phenotype. Codominance: Red (R) × White (W) → F1 shows both red AND white colors simultaneously (not blended). In complete dominance, one phenotype masks the other. In incomplete dominance, neither allele is fully dominant, producing an intermediate. In codominance, both alleles are fully expressed without blending.",
-      "explanation": "This question assesses comprehensive understanding of different inheritance patterns and the ability to distinguish between related concepts. Key concepts: dominance relationships, heterozygous phenotypes, gene expression."
+      "explanation": "This question assesses comprehensive understanding of different inheritance patterns and the ability to distinguish between related concepts. Key concepts: dominance relationships, heterozygous phenotypes, gene expression.",
+      "correctAnswer": "See explanation for answer guidance."
     }
-  ]
+  ],
+  "examType": "assessment",
+  "examId": "science-q2-genetics-and-evolution-assessment"
 }

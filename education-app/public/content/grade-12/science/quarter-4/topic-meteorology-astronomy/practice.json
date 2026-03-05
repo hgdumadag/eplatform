@@ -189,5 +189,8 @@
       "correctAnswer": "The geographic North Pole is Earth's rotation axis endpoint at 90°N. The magnetic North Pole is located several hundred kilometers away (in northern Canada) where Earth's magnetic field lines point downward. Earth's geographic North Pole is actually a magnetic south pole. The compass needle's north-seeking end (a magnetic north pole) points toward the geographic North Pole because opposite magnetic poles attract, so the compass's north pole is attracted to Earth's magnetic south pole at the geographic North Pole.",
       "explanation": "This sophisticated answer shows mastery of the magnetic pole paradox, a key UPCAT concept."
     }
-  ]
+  ],
+  "examId": "science-q4-meteorology-astronomy-practice",
+  "title": "Meteorology and Astronomy Practice Exam",
+  "description": "Evaluate your knowledge of weather systems, atmospheric science, celestial bodies, and space phenomena."
 }

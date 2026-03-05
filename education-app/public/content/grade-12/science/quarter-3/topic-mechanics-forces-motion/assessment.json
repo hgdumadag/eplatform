@@ -224,5 +224,7 @@
       "question": "A ball is launched at 50 m/s at an angle of 30° above horizontal. Explain why the speed at maximum height is not zero, and calculate this speed. (Hint: cos 30° ≈ 0.866)",
       "correctAnswer": "At max height, vertical velocity is zero but horizontal velocity is not. vₓ = 50 cos(30°) = 50 × 0.866 = 43.3 m/s. Speed at max height ≈ 43.3 m/s."
     }
-  ]
+  ],
+  "examId": "science-q3-mechanics-forces-motion-assessment",
+  "description": "Evaluate your knowledge of mechanics, forces, Newton's laws, kinematics, and motion."
 }

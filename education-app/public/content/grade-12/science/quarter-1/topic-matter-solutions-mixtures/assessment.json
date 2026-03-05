@@ -9,7 +9,7 @@
   "questions": [
     {
       "questionId": 1,
-      "type": "multiple_choice",
+      "type": "multiple-choice",
       "points": 5,
       "question": "Which substance is correctly classified?",
       "options": [
@@ -19,11 +19,12 @@
         "Brass (copper-zinc alloy) is a compound"
       ],
       "correctAnswer": 2,
-      "explanation": "Diamond is an element (pure substance of only carbon atoms). Glucose is a pure compound (not a mixture); seawater is a mixture; brass is a homogeneous alloy mixture (not a compound)."
+      "explanation": "Diamond is an element (pure substance of only carbon atoms). Glucose is a pure compound (not a mixture); seawater is a mixture; brass is a homogeneous alloy mixture (not a compound).",
+      "id": "q1"
     },
     {
       "questionId": 2,
-      "type": "multiple_choice",
+      "type": "multiple-choice",
       "points": 5,
       "question": "A 250 mL sample of ethanol has a density of 0.789 g/mL. What is its mass?",
       "options": [
@@ -33,11 +34,12 @@
         "0.789 g"
       ],
       "correctAnswer": 0,
-      "explanation": "Mass = density × volume = 0.789 g/mL × 250 mL = 197.25 g"
+      "explanation": "Mass = density × volume = 0.789 g/mL × 250 mL = 197.25 g",
+      "id": "q2"
     },
     {
       "questionId": 3,
-      "type": "multiple_choice",
+      "type": "multiple-choice",
       "points": 5,
       "question": "When light passes through a colloid, a visible beam path appears. This phenomenon is called the:",
       "options": [
@@ -47,11 +49,12 @@
         "Scattering absorption"
       ],
       "correctAnswer": 1,
-      "explanation": "The Tyndall effect occurs when light scatters off colloidal particles (1 nm-1 μm), making the light path visible. Solutions do not show this effect."
+      "explanation": "The Tyndall effect occurs when light scatters off colloidal particles (1 nm-1 μm), making the light path visible. Solutions do not show this effect.",
+      "id": "q3"
     },
     {
       "questionId": 4,
-      "type": "multiple_choice",
+      "type": "multiple-choice",
       "points": 5,
       "question": "A student observes that an unknown mixture does not scatter laser light, settles completely after 10 days, and can be filtered. The mixture is most likely a:",
       "options": [
@@ -61,11 +64,12 @@
         "Pure substance"
       ],
       "correctAnswer": 2,
-      "explanation": "Suspensions settle within days/hours and can be filtered. The fact that it settles (not a solution or colloid) and can be filtered (particles > 1 μm) confirms it is a suspension."
+      "explanation": "Suspensions settle within days/hours and can be filtered. The fact that it settles (not a solution or colloid) and can be filtered (particles > 1 μm) confirms it is a suspension.",
+      "id": "q4"
     },
     {
       "questionId": 5,
-      "type": "multiple_choice",
+      "type": "multiple-choice",
       "points": 5,
       "question": "Which pair correctly distinguishes a solution from a colloid?",
       "options": [
@@ -75,11 +79,12 @@
         "Solutions settle quickly; colloids do not settle"
       ],
       "correctAnswer": 1,
-      "explanation": "Particle size is the key distinction: solutions have particles <1 nm, while colloids have particles 1 nm-1 μm. Solutions are transparent, colloids are opaque. Neither settles quickly, and neither can be filtered easily."
+      "explanation": "Particle size is the key distinction: solutions have particles <1 nm, while colloids have particles 1 nm-1 μm. Solutions are transparent, colloids are opaque. Neither settles quickly, and neither can be filtered easily.",
+      "id": "q5"
     },
     {
       "questionId": 6,
-      "type": "multiple_choice",
+      "type": "multiple-choice",
       "points": 5,
       "question": "A liquid X has a density of 1.26 g/mL, and liquid Y has a density of 0.88 g/mL. If equal volumes of X and Y are mixed, which will tend to sink to the bottom?",
       "options": [
@@ -89,11 +94,12 @@
         "Cannot be determined without knowing their masses"
       ],
       "correctAnswer": 0,
-      "explanation": "The denser liquid (X, with 1.26 g/mL) will sink to the bottom when mixed with the less dense liquid (Y, 0.88 g/mL). Density determines buoyancy."
+      "explanation": "The denser liquid (X, with 1.26 g/mL) will sink to the bottom when mixed with the less dense liquid (Y, 0.88 g/mL). Density determines buoyancy.",
+      "id": "q6"
     },
     {
       "questionId": 7,
-      "type": "multiple_choice",
+      "type": "multiple-choice",
       "points": 5,
       "question": "Calculate the molality of a solution made by dissolving 29.25 g of NaCl (molar mass = 58.5 g/mol) in 1000 g of water.",
       "options": [
@@ -103,11 +109,12 @@
         "2.0 m"
       ],
       "correctAnswer": 1,
-      "explanation": "Moles of NaCl = 29.25 g / 58.5 g/mol = 0.5 mol; Mass of water = 1000 g = 1.0 kg; Molality = 0.5 mol / 1.0 kg = 0.5 m"
+      "explanation": "Moles of NaCl = 29.25 g / 58.5 g/mol = 0.5 mol; Mass of water = 1000 g = 1.0 kg; Molality = 0.5 mol / 1.0 kg = 0.5 m",
+      "id": "q7"
     },
     {
       "questionId": 8,
-      "type": "multiple_choice",
+      "type": "multiple-choice",
       "points": 5,
       "question": "A solution contains 6.8 g of sucrose (molar mass = 342 g/mol) dissolved in 50 g of water. What is the molality?",
       "options": [
@@ -117,11 +124,12 @@
         "4.0 m"
       ],
       "correctAnswer": 2,
-      "explanation": "Moles of sucrose = 6.8 g / 342 g/mol = 0.0199 ≈ 0.02 mol; Mass of water = 50 g = 0.05 kg; Molality = 0.02 mol / 0.05 kg = 0.4 m. Actually, let me recalculate: 6.8/342 = 0.01988 mol ≈ 0.02 mol. 0.02 mol / 0.05 kg = 0.4 m. Hmm, but checking option 2: let me recalculate more carefully. 6.8 / 342 = 0.01988 mol. 50/1000 = 0.05 kg. 0.01988/0.05 = 0.3976 ≈ 0.4 m. So answer should be 1 (0.4 m), but let me verify one more time as this could be wrong. Actually checking: if the numerator is 6.8 and 342, then 6.8/342 = 0.01988. The denominator is 0.05. So 0.01988/0.05 = 0.39756 ≈ 0.4. Let me reconsider if there's a calculation error. Actually, I realize the original numbers might have been designed to give a different answer. Let me use exact values: 6.8/342 = 0.0199 mol, 50/1000 = 0.05 kg. But wait, perhaps I should double-check if the question is asking for something else or if there's a setup issue. Given the options, 0.4 m makes sense, so the answer is option 1."
+      "explanation": "Moles of sucrose = 6.8 g / 342 g/mol = 0.0199 ≈ 0.02 mol; Mass of water = 50 g = 0.05 kg; Molality = 0.02 mol / 0.05 kg = 0.4 m. Actually, let me recalculate: 6.8/342 = 0.01988 mol ≈ 0.02 mol. 0.02 mol / 0.05 kg = 0.4 m. Hmm, but checking option 2: let me recalculate more carefully. 6.8 / 342 = 0.01988 mol. 50/1000 = 0.05 kg. 0.01988/0.05 = 0.3976 ≈ 0.4 m. So answer should be 1 (0.4 m), but let me verify one more time as this could be wrong. Actually checking: if the numerator is 6.8 and 342, then 6.8/342 = 0.01988. The denominator is 0.05. So 0.01988/0.05 = 0.39756 ≈ 0.4. Let me reconsider if there's a calculation error. Actually, I realize the original numbers might have been designed to give a different answer. Let me use exact values: 6.8/342 = 0.0199 mol, 50/1000 = 0.05 kg. But wait, perhaps I should double-check if the question is asking for something else or if there's a setup issue. Given the options, 0.4 m makes sense, so the answer is option 1.",
+      "id": "q8"
     },
     {
       "questionId": 9,
-      "type": "multiple_choice",
+      "type": "multiple-choice",
       "points": 5,
       "question": "Why is molality preferred over molarity for colligative property calculations?",
       "options": [
@@ -131,11 +139,12 @@
         "Molarity cannot be used for colligative properties"
       ],
       "correctAnswer": 1,
-      "explanation": "Molality depends only on mass (moles/kg solvent), which does not change with temperature. Molarity (moles/L solution) changes with temperature as solutions expand or contract. For colligative properties, which depend on the number of dissolved particles, molality provides consistent values across temperature ranges."
+      "explanation": "Molality depends only on mass (moles/kg solvent), which does not change with temperature. Molarity (moles/L solution) changes with temperature as solutions expand or contract. For colligative properties, which depend on the number of dissolved particles, molality provides consistent values across temperature ranges.",
+      "id": "q9"
     },
     {
       "questionId": 10,
-      "type": "multiple_choice",
+      "type": "multiple-choice",
       "points": 5,
       "question": "Which statement about the Tyndall effect is correct?",
       "options": [
@@ -145,97 +154,111 @@
         "It proves that a mixture is homogeneous"
       ],
       "correctAnswer": 2,
-      "explanation": "The Tyndall effect occurs in colloids (particles 1 nm-1 μm) because they are large enough to scatter light. Solutions do not show it (particles <1 nm too small). Suspensions do not show obvious Tyndall effects."
+      "explanation": "The Tyndall effect occurs in colloids (particles 1 nm-1 μm) because they are large enough to scatter light. Solutions do not show it (particles <1 nm too small). Suspensions do not show obvious Tyndall effects.",
+      "id": "q10"
     },
     {
       "questionId": 11,
-      "type": "true_false",
+      "type": "true-false",
       "points": 5,
       "question": "True or False: A substance that floats in water must have a density less than 1.0 g/mL.",
       "correctAnswer": "true",
-      "explanation": "True. Objects float when their density is less than the medium's density. Since water has a density of 1.0 g/mL, anything floating in it must have a density < 1.0 g/mL."
+      "explanation": "True. Objects float when their density is less than the medium's density. Since water has a density of 1.0 g/mL, anything floating in it must have a density < 1.0 g/mL.",
+      "id": "q11"
     },
     {
       "questionId": 12,
-      "type": "true_false",
+      "type": "true-false",
       "points": 5,
       "question": "True or False: Compounds are pure substances, but mixtures are not.",
       "correctAnswer": "true",
-      "explanation": "True. Pure substances include elements and compounds. Mixtures are physical combinations of pure substances and are not considered pure substances because their composition can vary."
+      "explanation": "True. Pure substances include elements and compounds. Mixtures are physical combinations of pure substances and are not considered pure substances because their composition can vary.",
+      "id": "q12"
     },
     {
       "questionId": 13,
-      "type": "true_false",
+      "type": "true-false",
       "points": 5,
       "question": "True or False: Blood is a solution because it appears to be a liquid.",
       "correctAnswer": "false",
-      "explanation": "False. Although blood appears liquid, it is a colloid and heterogeneous mixture containing suspended cells (red blood cells, white blood cells, platelets) in plasma."
+      "explanation": "False. Although blood appears liquid, it is a colloid and heterogeneous mixture containing suspended cells (red blood cells, white blood cells, platelets) in plasma.",
+      "id": "q13"
     },
     {
       "questionId": 14,
-      "type": "true_false",
+      "type": "true-false",
       "points": 5,
       "question": "True or False: All elements are pure substances.",
       "correctAnswer": "true",
-      "explanation": "True. Elements are pure substances consisting of only one type of atom. They cannot be decomposed into simpler substances by ordinary chemical means."
+      "explanation": "True. Elements are pure substances consisting of only one type of atom. They cannot be decomposed into simpler substances by ordinary chemical means.",
+      "id": "q14"
     },
     {
       "questionId": 15,
-      "type": "fill_in",
+      "type": "fill-in",
       "points": 5,
       "question": "A 100 mL sample of liquid mercury has a mass of 1360 g. Its density is _____ g/mL.",
       "correctAnswer": "13.6",
       "tolerance": 0.1,
-      "explanation": "Density = mass/volume = 1360 g / 100 mL = 13.6 g/mL"
+      "explanation": "Density = mass/volume = 1360 g / 100 mL = 13.6 g/mL",
+      "id": "q15"
     },
     {
       "questionId": 16,
-      "type": "fill_in",
+      "type": "fill-in",
       "points": 5,
       "question": "How many moles of glucose (molar mass = 180 g/mol) are in 45 g of glucose? _____ mol",
       "correctAnswer": "0.25",
       "tolerance": 0.01,
-      "explanation": "Moles = mass / molar mass = 45 g / 180 g/mol = 0.25 mol"
+      "explanation": "Moles = mass / molar mass = 45 g / 180 g/mol = 0.25 mol",
+      "id": "q16"
     },
     {
       "questionId": 17,
-      "type": "fill_in",
+      "type": "fill-in",
       "points": 5,
       "question": "A solution is prepared by dissolving 20 g of KBr (molar mass = 119 g/mol) in 250 g of water. The molality is _____ m.",
       "correctAnswer": "0.671",
       "tolerance": 0.01,
-      "explanation": "Moles of KBr = 20 g / 119 g/mol = 0.168 mol; Mass of water = 250 g = 0.25 kg; Molality = 0.168 mol / 0.25 kg = 0.672 m ≈ 0.671 m"
+      "explanation": "Moles of KBr = 20 g / 119 g/mol = 0.168 mol; Mass of water = 250 g = 0.25 kg; Molality = 0.168 mol / 0.25 kg = 0.672 m ≈ 0.671 m",
+      "id": "q17"
     },
     {
       "questionId": 18,
-      "type": "fill_in",
+      "type": "fill-in",
       "points": 5,
       "question": "A block of wood with a mass of 80 g displaces 100 mL of water when submerged. Its density is _____ g/mL.",
       "correctAnswer": "0.8",
       "tolerance": 0.01,
-      "explanation": "Density = mass/volume = 80 g / 100 mL = 0.8 g/mL"
+      "explanation": "Density = mass/volume = 80 g / 100 mL = 0.8 g/mL",
+      "id": "q18"
     },
     {
       "questionId": 19,
-      "type": "short_answer",
+      "type": "short-answer",
       "points": 5,
       "question": "Explain the difference between a homogeneous mixture and a heterogeneous mixture, and provide one example of each.",
       "acceptableAnswers": [
         "Homogeneous mixtures have uniform composition and appear as a single phase (e.g., saltwater, sugar solution, air). Heterogeneous mixtures have non-uniform composition with visibly distinct components (e.g., oil and water, sand and gravel, muddy water).",
         "Homogeneous: uniform throughout (solution/colloid); Heterogeneous: visibly distinct phases (suspension). Example homogeneous: saltwater. Example heterogeneous: sand+water."
       ],
-      "explanation": "Homogeneous mixtures appear uniform under normal observation and are single-phase. Heterogeneous mixtures show distinct components and multiple phases. Solutions and colloids are homogeneous; suspensions are heterogeneous."
+      "explanation": "Homogeneous mixtures appear uniform under normal observation and are single-phase. Heterogeneous mixtures show distinct components and multiple phases. Solutions and colloids are homogeneous; suspensions are heterogeneous.",
+      "id": "q19",
+      "correctAnswer": "See explanation for answer guidance."
     },
     {
       "questionId": 20,
-      "type": "short_answer",
+      "type": "short-answer",
       "points": 5,
       "question": "A chemist has three samples: pure water, saltwater solution, and milk. Describe a procedure using the Tyndall effect to distinguish between them.",
       "acceptableAnswers": [
         "Shine a laser pointer through each sample. Pure water and saltwater (solution) will not show a visible laser beam path (no Tyndall effect). Milk (colloid) will show a bright, visible beam due to light scattering by fat globules. This distinguishes the colloid from the solution and pure liquid.",
         "Direct a laser beam through each. Milk will show the Tyndall effect (visible beam); water and saltwater will not. This differentiates the colloid from solutions."
       ],
-      "explanation": "The Tyndall effect is visible in colloids (milk) but not in solutions (saltwater) or pure liquids (water). This provides a simple, direct method to distinguish mixture types."
+      "explanation": "The Tyndall effect is visible in colloids (milk) but not in solutions (saltwater) or pure liquids (water). This provides a simple, direct method to distinguish mixture types.",
+      "id": "q20",
+      "correctAnswer": "See explanation for answer guidance."
     }
-  ]
+  ],
+  "examType": "assessment"
 }

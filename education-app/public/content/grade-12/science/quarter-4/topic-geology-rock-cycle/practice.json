@@ -155,7 +155,7 @@
     },
     {
       "id": "fill-1",
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "difficulty": "medium",
       "points": 8,
       "question": "A piece of shale is buried and subjected to increasing heat and pressure. In order of increasing metamorphic grade, the succession is: shale → _______ → phyllite → _______ → gneiss.",
@@ -164,7 +164,7 @@
     },
     {
       "id": "fill-2",
-      "type": "fill-in-the-blank",
+      "type": "fill-in",
       "difficulty": "hard",
       "points": 8,
       "question": "If a radioactive sample has undergone 4 half-lives, then _______ percent of the original parent isotope remains.",
@@ -189,5 +189,8 @@
       "correctAnswer": "Granite is weathered and broken down into sediments. These sediments are transported by rivers and deposited in layers. If calcium-rich sediments are involved, they are compacted and cemented into limestone (sedimentary rock). Limestone is then buried deep within the Earth during mountain building. Heat and pressure cause the limestone to metamorphose into marble (non-foliated metamorphic rock) without melting.",
       "explanation": "This response shows understanding of rock cycle pathways, weathering/erosion processes, and the distinction between metamorphism (no melting) and melting. It demonstrates that the student can trace a rock through multiple transformations."
     }
-  ]
+  ],
+  "examId": "science-q4-geology-rock-cycle-practice",
+  "title": "Geology and Rock Cycle Practice Exam",
+  "description": "Test your understanding of Earth's rock cycle, mineral classification, geological formations, and erosion."
 }

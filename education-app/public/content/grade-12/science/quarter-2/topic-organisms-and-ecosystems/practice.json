@@ -150,7 +150,8 @@
       "points": 5,
       "question": "Describe the process of eutrophication in a lake and explain why oxygen becomes depleted during this process.",
       "model_answer": "Eutrophication begins with nutrient enrichment (excess nitrogen and phosphorus from agricultural runoff). These nutrients cause algae to bloom rapidly. When the algae die, decomposers (bacteria) proliferate and consume dissolved oxygen while breaking down the dead biomass. This rapid oxygen consumption causes oxygen depletion (hypoxia), leading to a 'dead zone' where aerobic organisms cannot survive.",
-      "explanation": "This question assesses understanding of eutrophication as a multi-stage process and the ecological cause of oxygen depletion. Key concepts: nutrient sources, algal bloom, decomposition, and oxygen dynamics."
+      "explanation": "This question assesses understanding of eutrophication as a multi-stage process and the ecological cause of oxygen depletion. Key concepts: nutrient sources, algal bloom, decomposition, and oxygen dynamics.",
+      "correctAnswer": "See explanation for answer guidance."
     },
     {
       "id": "q14",
@@ -158,7 +159,8 @@
       "points": 5,
       "question": "Explain why biomass decreases at each successive trophic level in an ecosystem, using the 10% rule.",
       "model_answer": "Energy is transferred from one trophic level to the next with approximately 90% loss. This is the 10% rule: only about 10% of energy is stored in the biomass of organisms at each level; 90% is lost as heat through metabolic activities, movement, and growth. Consequently, producers have the most biomass, herbivores have less, and carnivores have even less. This creates a pyramid-shaped distribution of biomass with producers at the base and top predators at the apex.",
-      "explanation": "This question tests understanding of energy flow in ecosystems and the thermodynamic basis for energy limitations. Key concepts: 10% rule, metabolic costs, pyramid of biomass, trophic levels."
+      "explanation": "This question tests understanding of energy flow in ecosystems and the thermodynamic basis for energy limitations. Key concepts: 10% rule, metabolic costs, pyramid of biomass, trophic levels.",
+      "correctAnswer": "See explanation for answer guidance."
     },
     {
       "id": "q15",
@@ -168,5 +170,7 @@
       "correctAnswer": "false",
       "explanation": "False. Paramecium is a ciliate protist (Ciliophora) that moves using cilia, not pseudopods. Amoebas belong to Sarcodina and move using pseudopods. This is a common confusion on exams—know the specific characteristics of each protozoal group."
     }
-  ]
+  ],
+  "examType": "practice",
+  "examId": "science-q2-organisms-and-ecosystems-practice"
 }

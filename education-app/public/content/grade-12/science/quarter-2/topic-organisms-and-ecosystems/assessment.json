@@ -172,7 +172,8 @@
       "points": 5,
       "question": "Classify a domestic cat (Felis catus) using the eight major taxonomic ranks from Domain to Species.",
       "model_answer": "Domain: Eukarya; Kingdom: Animalia; Phylum: Chordata; Class: Mammalia; Order: Carnivora; Family: Felidae; Genus: Felis; Species: catus. Binomial nomenclature: Felis catus.",
-      "explanation": "This question tests understanding of the complete Linnaean classification system. Key concepts: the hierarchical nature of classification, evolutionary relationships reflected in taxonomy, and proper binomial nomenclature format."
+      "explanation": "This question tests understanding of the complete Linnaean classification system. Key concepts: the hierarchical nature of classification, evolutionary relationships reflected in taxonomy, and proper binomial nomenclature format.",
+      "correctAnswer": "See explanation for answer guidance."
     },
     {
       "id": "q16",
@@ -180,7 +181,8 @@
       "points": 5,
       "question": "Compare and contrast the ecological relationships of predation and parasitism. Include the fitness effects for each organism and provide an example of each.",
       "model_answer": "Predation: Predator (+) kills and consumes prey (-); quick death; predator gains food, prey loses life. Example: hawk eating a rabbit. Parasitism: Parasite (+) lives in/on host (-); usually doesn't kill host immediately; parasite obtains nutrients, host loses resources. Example: tapeworm living in human intestine. Both are +/- relationships, but predation involves killing, while parasitism involves exploitation of a living host.",
-      "explanation": "This question assesses understanding of different types of ecological interactions and their ecological consequences. Key concepts: +/- relationships, fitness effects, predator-prey dynamics versus parasite-host dynamics."
+      "explanation": "This question assesses understanding of different types of ecological interactions and their ecological consequences. Key concepts: +/- relationships, fitness effects, predator-prey dynamics versus parasite-host dynamics.",
+      "correctAnswer": "See explanation for answer guidance."
     },
     {
       "id": "q17",
@@ -188,7 +190,8 @@
       "points": 5,
       "question": "Explain the complete sequence of eutrophication in a lake, including the role of decomposers in creating oxygen depletion.",
       "model_answer": "Eutrophication sequence: (1) Nutrient enrichment from agricultural runoff (nitrogen, phosphorus); (2) Algae thrive on excess nutrients and undergo explosive growth (algal bloom); (3) Algae die due to light limitation or nutrient depletion and sink to lake bottom; (4) Decomposing bacteria rapidly proliferate and consume dissolved oxygen while breaking down dead algae; (5) Oxygen depletion (hypoxia/anoxia) develops; (6) Aerobic fish and organisms suffocate, creating a 'dead zone.' The key mechanism is that decomposers' respiration consumes oxygen far faster than it can be replenished.",
-      "explanation": "This question tests comprehensive understanding of eutrophication as a multi-stage process with ecological mechanisms. Key concepts: nutrient sources, algal bloom dynamics, decomposer metabolism, and oxygen dynamics."
+      "explanation": "This question tests comprehensive understanding of eutrophication as a multi-stage process with ecological mechanisms. Key concepts: nutrient sources, algal bloom dynamics, decomposer metabolism, and oxygen dynamics.",
+      "correctAnswer": "See explanation for answer guidance."
     },
     {
       "id": "q18",
@@ -196,7 +199,8 @@
       "points": 5,
       "question": "Describe the characteristics that distinguish Phylum Echinodermata from other complex animal phyla. Include radial symmetry, the water vascular system, and their evolutionary relationship to vertebrates.",
       "model_answer": "Echinoderms are distinguished by: (1) Radial symmetry in adults (though larvae are bilateral)—unique among complex animals; (2) Water vascular system consisting of water-filled canals ending in tube feet used for locomotion and feeding; (3) Endoskeleton of calcified plates beneath the skin; (4) Simple nervous system without a centralized brain. Evolutionarily, echinoderms are deuterostomes, meaning the anus forms before the mouth during development. This shared developmental pattern indicates echinoderms are more closely related to vertebrates than to other invertebrates.",
-      "explanation": "This question assesses understanding of echinoderm anatomy and their evolutionary significance. Key concepts: radial symmetry, water vascular system, deuterostome development, and phylogenetic relationships."
+      "explanation": "This question assesses understanding of echinoderm anatomy and their evolutionary significance. Key concepts: radial symmetry, water vascular system, deuterostome development, and phylogenetic relationships.",
+      "correctAnswer": "See explanation for answer guidance."
     },
     {
       "id": "q19",
@@ -204,7 +208,8 @@
       "points": 5,
       "question": "Explain how the protozoans Amoeba and Paramecium differ in their modes of locomotion and describe how these different locomotion methods relate to their feeding strategies.",
       "model_answer": "Amoeba (Sarcodina) moves using pseudopods (temporary projections of cytoplasm and cell membrane). The entire cell 'flows' into the pseudopod, allowing movement in any direction and constant shape change. This locomotion mode allows Amoeba to engulf prey through phagocytosis. Paramecium (Ciliophora) moves using thousands of coordinated cilia beating in waves, allowing rapid, directional movement. This enables Paramecium to move toward food sources and position itself to feed. In Paramecium, cilia sweep food particles into an oral groove where they are engulfed. Thus, both locomotion methods facilitate feeding strategies appropriate to their ecological niches.",
-      "explanation": "This question tests understanding of protozoal diversity and the relationship between structure and function. Key concepts: pseudopodial movement, ciliary beating, phagocytosis, and ecological adaptations."
+      "explanation": "This question tests understanding of protozoal diversity and the relationship between structure and function. Key concepts: pseudopodial movement, ciliary beating, phagocytosis, and ecological adaptations.",
+      "correctAnswer": "See explanation for answer guidance."
     },
     {
       "id": "q20",
@@ -212,7 +217,10 @@
       "points": 5,
       "question": "How can bioremediation help restore a lake suffering from eutrophication? Describe at least two approaches and explain the ecological mechanisms by which they reduce nutrient levels.",
       "model_answer": "Bioremediation approaches for eutrophication: (1) Constructed wetlands: Wetland plants absorb excess nitrogen and phosphorus from water. Anaerobic bacteria in wetland sediments process nitrogen (nitrification/denitrification). Plants are harvested, removing accumulated nutrients from the ecosystem. (2) Nutrient-sequestering bacteria: Engineered treatment systems use specific bacteria that accumulate phosphorus or process nitrogen compounds, reducing nutrient availability for algal growth. (3) Macrophyte cultivation: Growing aquatic plants that absorb excess nutrients; biomass is harvested and removed from the system. All approaches reduce nutrient availability in the water body, preventing future algal blooms and allowing dissolved oxygen to recover.",
-      "explanation": "This question assesses understanding of bioremediation principles and their application to environmental restoration. Key concepts: nutrient cycles, biological nutrient removal, ecosystem restoration, and the role of organisms in pollution control."
+      "explanation": "This question assesses understanding of bioremediation principles and their application to environmental restoration. Key concepts: nutrient cycles, biological nutrient removal, ecosystem restoration, and the role of organisms in pollution control.",
+      "correctAnswer": "See explanation for answer guidance."
     }
-  ]
+  ],
+  "examType": "assessment",
+  "examId": "science-q2-organisms-and-ecosystems-assessment"
 }

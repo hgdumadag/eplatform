@@ -172,5 +172,7 @@
       "question": "Explain why an ultraviolet photon carries more energy than an infrared photon, even though both are electromagnetic waves.",
       "correctAnswer": "Energy of an EM wave is E = hf, proportional to frequency. UV has higher frequency than IR, so UV photons carry more energy. Alternatively: UV has shorter wavelength, so higher frequency (c = fλ), resulting in higher energy."
     }
-  ]
+  ],
+  "examId": "science-q3-energy-waves-optics-practice",
+  "description": "Test your understanding of energy, wave properties, sound, light, and optical phenomena."
 }

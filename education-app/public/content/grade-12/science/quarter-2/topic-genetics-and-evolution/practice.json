@@ -150,7 +150,8 @@
       "points": 5,
       "question": "A tall pea plant with an unknown genotype is crossed with a short pea plant (tt). The offspring are approximately 50% tall and 50% short. Determine the genotype of the tall parent and explain your reasoning using a Punnett square.",
       "model_answer": "The tall parent must be heterozygous (Tt). A testcross showing a 1:1 ratio indicates the unknown parent is heterozygous. Punnett square: T × t produces Tt (tall) and t × t produces tt (short), yielding 50% tall (Tt) and 50% short (tt). If the tall parent were homozygous (TT), all offspring would be tall (Tt).",
-      "explanation": "This question tests understanding of testcrosses and the ability to interpret ratios to infer genotype. Key concepts: testcross results, 1:1 ratio = heterozygous, homozygous dominant produces all dominant offspring."
+      "explanation": "This question tests understanding of testcrosses and the ability to interpret ratios to infer genotype. Key concepts: testcross results, 1:1 ratio = heterozygous, homozygous dominant produces all dominant offspring.",
+      "correctAnswer": "See explanation for answer guidance."
     },
     {
       "id": "q14",
@@ -158,7 +159,8 @@
       "points": 5,
       "question": "Explain the difference between analogous and homologous structures, and provide an example of how each serves as evidence for evolution.",
       "model_answer": "Homologous structures have similar anatomy and evolutionary origin but different functions; they indicate common ancestry. Example: human arms and bat wings both have the same bone structure (humerus, radius, ulna) but are used for different purposes (manipulation vs. flight). Analogous structures have similar functions but different evolutionary origins; they indicate convergent evolution. Example: bird wings and butterfly wings are both used for flight but have completely different structures and evolutionary origins.",
-      "explanation": "This question assesses understanding of comparative anatomy as evidence for evolution. Key concepts: homologous = same origin/common ancestry, analogous = same function/different origin, divergent vs. convergent evolution."
+      "explanation": "This question assesses understanding of comparative anatomy as evidence for evolution. Key concepts: homologous = same origin/common ancestry, analogous = same function/different origin, divergent vs. convergent evolution.",
+      "correctAnswer": "See explanation for answer guidance."
     },
     {
       "id": "q15",
@@ -168,5 +170,7 @@
       "correctAnswer": "true",
       "explanation": "This is true and is the fundamental principle behind Chargaff's rules. Since A pairs with T and G pairs with C in the DNA double helix, the proportions must be equal. These rules are essential for solving DNA composition problems on standardized tests."
     }
-  ]
+  ],
+  "examType": "practice",
+  "examId": "science-q2-genetics-and-evolution-practice"
 }

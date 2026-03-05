@@ -9,7 +9,7 @@
   "questions": [
     {
       "questionId": 1,
-      "type": "multiple_choice",
+      "type": "multiple-choice",
       "points": 5,
       "question": "An element has 20 protons and 20 neutrons. What is its mass number?",
       "options": [
@@ -19,11 +19,12 @@
         "0"
       ],
       "correctAnswer": 1,
-      "explanation": "Mass number = protons + neutrons = 20 + 20 = 40. This is calcium-40."
+      "explanation": "Mass number = protons + neutrons = 20 + 20 = 40. This is calcium-40.",
+      "id": "q1"
     },
     {
       "questionId": 2,
-      "type": "multiple_choice",
+      "type": "multiple-choice",
       "points": 5,
       "question": "Which pair represents isotopes?",
       "options": [
@@ -33,11 +34,12 @@
         "Both B and C are correct"
       ],
       "correctAnswer": 3,
-      "explanation": "Isotopes are atoms of the same element with different mass numbers. Carbon-12 and Carbon-14 are isotopes of carbon (both Z=6, different A). Oxygen-16 and Oxygen-18 are isotopes of oxygen (both Z=8, different A). Both B and C are correct."
+      "explanation": "Isotopes are atoms of the same element with different mass numbers. Carbon-12 and Carbon-14 are isotopes of carbon (both Z=6, different A). Oxygen-16 and Oxygen-18 are isotopes of oxygen (both Z=8, different A). Both B and C are correct.",
+      "id": "q2"
     },
     {
       "questionId": 3,
-      "type": "multiple_choice",
+      "type": "multiple-choice",
       "points": 5,
       "question": "Which electronic configuration represents nitrogen (N, Z = 7)?",
       "options": [
@@ -47,11 +49,12 @@
         "[He] 2p⁵"
       ],
       "correctAnswer": 0,
-      "explanation": "Nitrogen has 7 electrons. Following Aufbau: 1s² 2s² 2p³. The three electrons in the 2p orbital are unpaired (Hund's rule)."
+      "explanation": "Nitrogen has 7 electrons. Following Aufbau: 1s² 2s² 2p³. The three electrons in the 2p orbital are unpaired (Hund's rule).",
+      "id": "q3"
     },
     {
       "questionId": 4,
-      "type": "multiple_choice",
+      "type": "multiple-choice",
       "points": 5,
       "question": "Which of the following electron configurations violates Hund's rule?",
       "options": [
@@ -61,11 +64,12 @@
         "1s² 2s² 2p¹"
       ],
       "correctAnswer": 2,
-      "explanation": "Option C violates Hund's rule by pairing electrons in one orbital before filling other orbitals of the same energy. Hund's rule requires unpaired electrons in separate orbitals first."
+      "explanation": "Option C violates Hund's rule by pairing electrons in one orbital before filling other orbitals of the same energy. Hund's rule requires unpaired electrons in separate orbitals first.",
+      "id": "q4"
     },
     {
       "questionId": 5,
-      "type": "multiple_choice",
+      "type": "multiple-choice",
       "points": 5,
       "question": "Which element has a half-filled d subshell (d⁵) in its electron configuration?",
       "options": [
@@ -75,11 +79,12 @@
         "Vanadium (V)"
       ],
       "correctAnswer": 2,
-      "explanation": "Chromium (Cr, Z=24) has the exceptional configuration [Ar] 3d⁵ 4s¹. The half-filled d⁵ subshell is extra stable, making this configuration more favorable than [Ar] 3d⁴ 4s²."
+      "explanation": "Chromium (Cr, Z=24) has the exceptional configuration [Ar] 3d⁵ 4s¹. The half-filled d⁵ subshell is extra stable, making this configuration more favorable than [Ar] 3d⁴ 4s².",
+      "id": "q5"
     },
     {
       "questionId": 6,
-      "type": "multiple_choice",
+      "type": "multiple-choice",
       "points": 5,
       "question": "Which list correctly orders these elements by increasing ionization energy?",
       "options": [
@@ -89,11 +94,12 @@
         "I < Br < Cl < F"
       ],
       "correctAnswer": 1,
-      "explanation": "Ionization energy decreases going down a group. Xe (Period 5) < Kr (Period 4) < Ar (Period 3) < Ne (Period 2)."
+      "explanation": "Ionization energy decreases going down a group. Xe (Period 5) < Kr (Period 4) < Ar (Period 3) < Ne (Period 2).",
+      "id": "q6"
     },
     {
       "questionId": 7,
-      "type": "multiple_choice",
+      "type": "multiple-choice",
       "points": 5,
       "question": "Which property increases going from left to right across a period and from bottom to top of a group?",
       "options": [
@@ -103,11 +109,12 @@
         "Number of electron shells"
       ],
       "correctAnswer": 1,
-      "explanation": "Electronegativity increases going right (more nuclear charge pulling on valence electrons) and up (fewer electron shells, closer to nucleus)."
+      "explanation": "Electronegativity increases going right (more nuclear charge pulling on valence electrons) and up (fewer electron shells, closer to nucleus).",
+      "id": "q7"
     },
     {
       "questionId": 8,
-      "type": "multiple_choice",
+      "type": "multiple-choice",
       "points": 5,
       "question": "The first ionization energy of magnesium (Mg) is 738 kJ/mol. The second ionization energy is 1451 kJ/mol. Why is the second ionization energy much higher?",
       "options": [
@@ -117,11 +124,12 @@
         "Magnesium becomes a noble gas after losing the first electron"
       ],
       "correctAnswer": 1,
-      "explanation": "The second ionization energy is significantly higher because after removing the first electron, the remaining electrons experience a higher effective nuclear charge relative to the remaining positive charge. Additionally, removing an electron from a complete inner shell requires much more energy."
+      "explanation": "The second ionization energy is significantly higher because after removing the first electron, the remaining electrons experience a higher effective nuclear charge relative to the remaining positive charge. Additionally, removing an electron from a complete inner shell requires much more energy.",
+      "id": "q8"
     },
     {
       "questionId": 9,
-      "type": "multiple_choice",
+      "type": "multiple-choice",
       "points": 5,
       "question": "Which statement correctly relates atomic radius and electronegativity?",
       "options": [
@@ -131,11 +139,12 @@
         "Atomic radius and electronegativity increase together"
       ],
       "correctAnswer": 1,
-      "explanation": "Smaller atoms have valence electrons closer to the nucleus, experiencing stronger attraction. This makes them more electronegative. For example, fluorine (small, very electronegative) is more electronegative than iodine (large, less electronegative)."
+      "explanation": "Smaller atoms have valence electrons closer to the nucleus, experiencing stronger attraction. This makes them more electronegative. For example, fluorine (small, very electronegative) is more electronegative than iodine (large, less electronegative).",
+      "id": "q9"
     },
     {
       "questionId": 10,
-      "type": "multiple_choice",
+      "type": "multiple-choice",
       "points": 5,
       "question": "An atom of element X has a mass number of 65 and 35 neutrons. What is the atomic number of X?",
       "options": [
@@ -145,97 +154,111 @@
         "100"
       ],
       "correctAnswer": 0,
-      "explanation": "Atomic number = mass number - neutrons = 65 - 35 = 30. This is zinc (Zn)."
+      "explanation": "Atomic number = mass number - neutrons = 65 - 35 = 30. This is zinc (Zn).",
+      "id": "q10"
     },
     {
       "questionId": 11,
-      "type": "true_false",
+      "type": "true-false",
       "points": 5,
       "question": "True or False: Electrons always fill p orbitals before d orbitals because p orbitals have lower energy.",
       "correctAnswer": "true",
-      "explanation": "True. According to the Aufbau principle, 3p orbitals fill before 4s, and 4s fills before 3d. The order is based on n + l values, where lower total fills first."
+      "explanation": "True. According to the Aufbau principle, 3p orbitals fill before 4s, and 4s fills before 3d. The order is based on n + l values, where lower total fills first.",
+      "id": "q11"
     },
     {
       "questionId": 12,
-      "type": "true_false",
+      "type": "true-false",
       "points": 5,
       "question": "True or False: Bromine (Br) has a higher electronegativity than chlorine (Cl).",
       "correctAnswer": "false",
-      "explanation": "False. Chlorine has higher electronegativity than bromine. Although both are in Group 17, chlorine is above bromine (Period 3 vs Period 4) and is therefore more electronegative."
+      "explanation": "False. Chlorine has higher electronegativity than bromine. Although both are in Group 17, chlorine is above bromine (Period 3 vs Period 4) and is therefore more electronegative.",
+      "id": "q12"
     },
     {
       "questionId": 13,
-      "type": "true_false",
+      "type": "true-false",
       "points": 5,
       "question": "True or False: In a neutral atom, the number of electrons always equals the number of protons.",
       "correctAnswer": "true",
-      "explanation": "True. A neutral atom has no net charge, meaning the number of negatively charged electrons equals the number of positively charged protons."
+      "explanation": "True. A neutral atom has no net charge, meaning the number of negatively charged electrons equals the number of positively charged protons.",
+      "id": "q13"
     },
     {
       "questionId": 14,
-      "type": "true_false",
+      "type": "true-false",
       "points": 5,
       "question": "True or False: The Pauli exclusion principle states that no two electrons can occupy the same orbital.",
       "correctAnswer": "false",
-      "explanation": "False. The Pauli exclusion principle states that no two electrons can have the same set of four quantum numbers. Two electrons can occupy the same orbital as long as they have opposite spins (one spin-up, one spin-down)."
+      "explanation": "False. The Pauli exclusion principle states that no two electrons can have the same set of four quantum numbers. Two electrons can occupy the same orbital as long as they have opposite spins (one spin-up, one spin-down).",
+      "id": "q14"
     },
     {
       "questionId": 15,
-      "type": "fill_in",
+      "type": "fill-in",
       "points": 5,
       "question": "An atom with atomic number 11 and mass number 24 has _____ neutrons.",
       "correctAnswer": "13",
       "tolerance": 0,
-      "explanation": "Neutrons = mass number - atomic number = 24 - 11 = 13 neutrons. This is sodium-24."
+      "explanation": "Neutrons = mass number - atomic number = 24 - 11 = 13 neutrons. This is sodium-24.",
+      "id": "q15"
     },
     {
       "questionId": 16,
-      "type": "fill_in",
+      "type": "fill-in",
       "points": 5,
       "question": "The electron configuration of argon (Ar, Z = 18) is 1s² 2s² 2p⁶ 3s² 3p⁶. Write the electron configuration of potassium (K, Z = 19): [____] _____",
       "correctAnswer": "[Ar] 4s¹",
       "tolerance": 0,
-      "explanation": "Potassium has 19 electrons. The first 18 electrons fill as argon [Ar], and the 19th electron enters the 4s orbital, giving [Ar] 4s¹."
+      "explanation": "Potassium has 19 electrons. The first 18 electrons fill as argon [Ar], and the 19th electron enters the 4s orbital, giving [Ar] 4s¹.",
+      "id": "q16"
     },
     {
       "questionId": 17,
-      "type": "fill_in",
+      "type": "fill-in",
       "points": 5,
       "question": "How many unpaired electrons does nitrogen (N, Z = 7) have in its ground state electron configuration? _____ unpaired electrons",
       "correctAnswer": "3",
       "tolerance": 0,
-      "explanation": "Nitrogen: 1s² 2s² 2p³. The three electrons in 2p are unpaired (one in each of three p orbitals, following Hund's rule)."
+      "explanation": "Nitrogen: 1s² 2s² 2p³. The three electrons in 2p are unpaired (one in each of three p orbitals, following Hund's rule).",
+      "id": "q17"
     },
     {
       "questionId": 18,
-      "type": "fill_in",
+      "type": "fill-in",
       "points": 5,
       "question": "Which isotope has 8 protons and 9 neutrons? _____ (write as Element-Mass Number, e.g., Oxygen-17)",
       "correctAnswer": "Oxygen-17",
       "tolerance": 0,
-      "explanation": "8 protons identifies the element as oxygen. Mass number = protons + neutrons = 8 + 9 = 17. The isotope is Oxygen-17."
+      "explanation": "8 protons identifies the element as oxygen. Mass number = protons + neutrons = 8 + 9 = 17. The isotope is Oxygen-17.",
+      "id": "q18"
     },
     {
       "questionId": 19,
-      "type": "short_answer",
+      "type": "short-answer",
       "points": 5,
       "question": "Explain why copper (Cu) has the electron configuration [Ar] 3d¹⁰ 4s¹ instead of the expected [Ar] 3d⁹ 4s².",
       "acceptableAnswers": [
         "The fully-filled d subshell (d¹⁰) is more stable than a partially-filled d⁹. By moving one electron from 4s to 3d, copper achieves a completely filled d orbital, resulting in a lower overall energy despite not following the strict Aufbau order.",
         "Fully-filled d subshells provide extra stability due to their symmetry and reduced electron-electron repulsion."
       ],
-      "explanation": "Fully-filled subshells (d¹⁰, p⁶, s²) are more stable than partially-filled ones. Copper's actual configuration achieves this stability."
+      "explanation": "Fully-filled subshells (d¹⁰, p⁶, s²) are more stable than partially-filled ones. Copper's actual configuration achieves this stability.",
+      "id": "q19",
+      "correctAnswer": "See explanation for answer guidance."
     },
     {
       "questionId": 20,
-      "type": "short_answer",
+      "type": "short-answer",
       "points": 5,
       "question": "Comparing fluorine (F) and iodine (I), both halogens, explain why fluorine has a higher electronegativity despite iodine being in a lower period.",
       "acceptableAnswers": [
         "Electronegativity is determined more by atomic radius and nuclear charge relative to distance than by period number. Fluorine is much smaller than iodine (fewer electron shells) so its valence electrons are much closer to the nucleus and experience a much stronger attraction, making it more electronegative.",
         "Fluorine has fewer electron shells (Period 2) than iodine (Period 5), so its valence electrons are much closer to the nucleus and pulled more strongly."
       ],
-      "explanation": "Although iodine is in a lower period and has more protons, the effect of atomic size dominates. Fluorine's valence electrons are much closer to its nucleus, making it better at attracting electrons despite iodine's higher nuclear charge."
+      "explanation": "Although iodine is in a lower period and has more protons, the effect of atomic size dominates. Fluorine's valence electrons are much closer to its nucleus, making it better at attracting electrons despite iodine's higher nuclear charge.",
+      "id": "q20",
+      "correctAnswer": "See explanation for answer guidance."
     }
-  ]
+  ],
+  "examType": "assessment"
 }
