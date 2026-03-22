@@ -1,0 +1,41 @@
+{
+  "id": "coordinate-geometry-perpendicular-steps",
+  "version": "1.0",
+  "runtime": "native",
+  "widget": "step-reveal",
+  "title": "Perpendicular Slopes Walkthrough",
+  "prompt": "Unpack the shortcut in the same order you would use during a timed exam.",
+  "props": {
+    "steps": [
+      {
+        "title": "Read the given slope",
+        "content": "The line $y = 2x + 3$ has slope **2** because it is already in slope-intercept form."
+      },
+      {
+        "title": "Take the reciprocal",
+        "content": "The reciprocal of $2$ is $\\frac{1}{2}$."
+      },
+      {
+        "title": "Change the sign",
+        "content": "Perpendicular slopes are **negative reciprocals**, so the slope becomes $-\\frac{1}{2}$."
+      },
+      {
+        "title": "Match the choice",
+        "content": "Look for a line with slope $-\\frac{1}{2}$. The correct choice is **$y = -\\frac{1}{2}x + 4$**."
+      }
+    ]
+  },
+  "checkpoints": [
+    {
+      "id": "read-slope",
+      "label": "Read the original slope"
+    },
+    {
+      "id": "negative-reciprocal",
+      "label": "Apply the negative reciprocal rule"
+    }
+  ],
+  "fallback": {
+    "markdown": "Perpendicular lines have slopes whose product is $-1$. Starting from slope $2$, take the reciprocal to get $\\frac{1}{2}$, then change the sign to get $-\\frac{1}{2}$."
+  }
+}

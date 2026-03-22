@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import JSZip from 'jszip';
 import { uploadedContentStore } from '../services/uploadedContentStore';
+import { validateUploadedLessonContent } from '../services/contentValidationService';
 import type { UploadedLesson, UploadedFile } from '../services/uploadedContentStore';
 import { buildLessonKey } from '../utils/lessonKey';
 import './ContentUpload.css';
@@ -104,6 +105,8 @@ export function ContentUpload() {
         }
       }
 
+      validateUploadedLessonContent(uploadedFiles);
+
       // Create lesson object
       const lessonId = buildLessonKey({
         grade,
@@ -172,6 +175,8 @@ export function ContentUpload() {
             ├── content.md (required)<br />
             ├── practice.json (required)<br />
             ├── assessment.json (optional)<br />
+            ├── interactives/ (optional)<br />
+            ├── miniapps/ (optional)<br />
             └── images/ (optional)
           </code>
         </div>

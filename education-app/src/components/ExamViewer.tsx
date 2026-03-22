@@ -1,12 +1,5 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
-import ReactMarkdown from 'react-markdown';
-import remarkMath from 'remark-math';
-import remarkGfm from 'remark-gfm';
-import rehypeKatex from 'rehype-katex';
-import rehypeRaw from 'rehype-raw';
-import rehypeSanitize from 'rehype-sanitize';
-import 'katex/dist/katex.min.css';
 import { ContentLoader } from '../services/contentLoader';
 import {
   FreeTextGradingRequestError,
@@ -19,19 +12,10 @@ import {
   getAnsweredFreeTextQuestionIds,
   getQuestionKey,
 } from '../utils/examGrading';
-import type { ExamQuestion, ExamAttempt, ExamQuestionResult } from '../types';
+import type { ExamAttempt, ExamQuestionResult, LessonExamData } from '../types';
 import { buildLessonKey } from '../utils/lessonKey';
+import { RichContentRenderer } from './rich-content/RichContentRenderer';
 import './ExamViewer.css';
-
-interface ExamData {
-  examId: string;
-  examType: 'practice' | 'assessment';
-  title: string;
-  description: string;
-  passingScore: number;
-  timeLimit?: number;
-  questions: ExamQuestion[];
-}
 
 export function ExamViewer() {
   const { grade, subject, quarter, topicName } = useParams();
@@ -40,7 +24,7 @@ export function ExamViewer() {
   const examType = searchParams.get('type') || 'practice';
   const saveExamAttempt = useProgressStore(state => state.saveExamAttempt);
 
-  const [exam, setExam] = useState<ExamData | null>(null);
+  const [exam, setExam] = useState<LessonExamData | null>(null);
   const [answers, setAnswers] = useState<Record<string, number | string>>({});
   const [submitted, setSubmitted] = useState(false);
   const [score, setScore] = useState<number | null>(null);
@@ -61,32 +45,48 @@ export function ExamViewer() {
     : '';
 
   useEffect(() => {
-    loadExam();
-  }, [grade, subject, quarter, topicName, examType]);
+    let cancelled = false;
 
-  const loadExam = async () => {
-    try {
-      setLoading(true);
-      const examData = examType === 'assessment'
-        ? await ContentLoader.loadAssessmentExam(
-            Number(grade),
-            subject!,
-            Number(quarter),
-            topicName!
-          )
-        : await ContentLoader.loadPracticeExam(
-            Number(grade),
-            subject!,
-            Number(quarter),
-            topicName!
-          );
-      setExam(examData);
-      setLoading(false);
-    } catch {
-      setError('Failed to load exam');
-      setLoading(false);
-    }
-  };
+    const run = async () => {
+      try {
+        setLoading(true);
+        const examData = examType === 'assessment'
+          ? await ContentLoader.loadAssessmentExam(
+              Number(grade),
+              subject!,
+              Number(quarter),
+              topicName!
+            )
+          : await ContentLoader.loadPracticeExam(
+              Number(grade),
+              subject!,
+              Number(quarter),
+              topicName!
+            );
+
+        if (cancelled) {
+          return;
+        }
+
+        setExam(examData);
+        setError(null);
+        setLoading(false);
+      } catch {
+        if (cancelled) {
+          return;
+        }
+
+        setError('Failed to load exam');
+        setLoading(false);
+      }
+    };
+
+    void run();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [examType, grade, quarter, subject, topicName]);
 
   const handleAnswerChange = (questionId: string, answer: number | string) => {
     setSubmitError(null);
@@ -205,6 +205,8 @@ export function ExamViewer() {
 
   if (submitted && score !== null) {
     const passed = score >= exam.passingScore;
+    const resultsInteractionMode = exam.examType === 'assessment' ? 'readonly' : 'interactive';
+    const examBasePath = exam.examType === 'assessment' ? 'assessment.json' : 'practice.json';
 
     return (
       <div className="exam-viewer results-mode">
@@ -255,12 +257,13 @@ export function ExamViewer() {
                     </div>
 
                     <div className="question-text">
-                      <ReactMarkdown
-                        remarkPlugins={[remarkGfm, remarkMath]}
-                        rehypePlugins={[rehypeRaw, rehypeSanitize, rehypeKatex]}
-                      >
-                        {question.question}
-                      </ReactMarkdown>
+                      <RichContentRenderer
+                        markdown={question.question}
+                        lessonKey={lessonId}
+                        context="exam-question"
+                        interactionMode={resultsInteractionMode}
+                        basePath={examBasePath}
+                      />
                     </div>
 
                     {/* Multiple Choice Review */}
@@ -279,14 +282,15 @@ export function ExamViewer() {
                             >
                               {isCorrectAnswer && <span className="correct-marker">✓ </span>}
                               {isUserAnswer && !isCorrectAnswer && <span className="wrong-marker">✗ </span>}
-                              <span className="option-text">
-                                <ReactMarkdown
-                                  remarkPlugins={[remarkGfm, remarkMath]}
-                                  rehypePlugins={[rehypeSanitize, rehypeKatex]}
-                                >
-                                  {option}
-                                </ReactMarkdown>
-                              </span>
+                              <div className="option-text">
+                                <RichContentRenderer
+                                  markdown={option}
+                                  lessonKey={lessonId}
+                                  context="exam-option"
+                                  interactionMode={resultsInteractionMode}
+                                  basePath={examBasePath}
+                                />
+                              </div>
                             </div>
                           );
                         })}
@@ -340,12 +344,13 @@ export function ExamViewer() {
                     {question.explanation && (
                       <div className="explanation">
                         <strong>Explanation:</strong>{' '}
-                        <ReactMarkdown
-                          remarkPlugins={[remarkGfm, remarkMath]}
-                          rehypePlugins={[rehypeSanitize, rehypeKatex]}
-                        >
-                          {question.explanation}
-                        </ReactMarkdown>
+                        <RichContentRenderer
+                          markdown={question.explanation}
+                          lessonKey={lessonId}
+                          context="exam-explanation"
+                          interactionMode={resultsInteractionMode}
+                          basePath={examBasePath}
+                        />
                       </div>
                     )}
                   </div>
@@ -357,6 +362,9 @@ export function ExamViewer() {
       </div>
     );
   }
+
+  const takingInteractionMode = exam.examType === 'assessment' ? 'readonly' : 'interactive';
+  const examBasePath = exam.examType === 'assessment' ? 'assessment.json' : 'practice.json';
 
   return (
     <div className="exam-viewer exam-mode">
@@ -382,12 +390,13 @@ export function ExamViewer() {
               </div>
 
               <div className="question-text">
-                <ReactMarkdown
-                  remarkPlugins={[remarkGfm, remarkMath]}
-                  rehypePlugins={[rehypeSanitize, rehypeKatex]}
-                >
-                  {question.question}
-                </ReactMarkdown>
+                <RichContentRenderer
+                  markdown={question.question}
+                  lessonKey={lessonId}
+                  context="exam-question"
+                  interactionMode={takingInteractionMode}
+                  basePath={examBasePath}
+                />
               </div>
 
               {/* Multiple Choice */}
@@ -402,14 +411,15 @@ export function ExamViewer() {
                         checked={answers[questionId] === optIndex}
                         onChange={() => handleAnswerChange(questionId, optIndex)}
                       />
-                      <span className="option-text">
-                        <ReactMarkdown
-                          remarkPlugins={[remarkGfm, remarkMath]}
-                          rehypePlugins={[rehypeRaw, rehypeSanitize, rehypeKatex]}
-                        >
-                          {option}
-                        </ReactMarkdown>
-                      </span>
+                      <div className="option-text">
+                        <RichContentRenderer
+                          markdown={option}
+                          lessonKey={lessonId}
+                          context="exam-option"
+                          interactionMode={takingInteractionMode}
+                          basePath={examBasePath}
+                        />
+                      </div>
                     </label>
                   ))}
                 </div>

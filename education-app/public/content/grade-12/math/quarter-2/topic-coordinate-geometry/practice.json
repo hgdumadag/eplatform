@@ -49,14 +49,15 @@
       "id": 4,
       "type": "multiple-choice",
       "points": 7,
-      "question": "Which of the following lines is perpendicular to $y = 2x + 3$?",
+      "question": "Which of the following lines is perpendicular to $y = 2x + 3$?\n\n```interactive\n{\n  \"spec\": \"interactives/slope-slider.json\",\n  \"mode\": \"interactive\",\n  \"height\": 380,\n  \"title\": \"Quick Slope Reminder\"\n}\n```",
       "options": [
         "$y = 2x - 1$",
         "$y = -2x + 5$",
         "$y = -\\frac{1}{2}x + 4$",
         "$y = \\frac{1}{2}x - 2$"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "To find a perpendicular line, take the **negative reciprocal** of the original slope.\n\n```interactive\n{\n  \"spec\": \"interactives/perpendicular-steps.json\",\n  \"mode\": \"interactive\",\n  \"title\": \"Why the answer is $-\\\\frac{1}{2}$\"\n}\n```"
     },
     {
       "id": 5,

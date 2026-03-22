@@ -1,0 +1,47 @@
+{
+  "id": "coordinate-geometry-slope-slider",
+  "version": "1.0",
+  "runtime": "native",
+  "widget": "slider-graph",
+  "title": "Slope Explorer",
+  "prompt": "Move the slider and watch how the line changes while the y-intercept stays fixed at 1.",
+  "props": {
+    "parameter": {
+      "label": "Slope m",
+      "min": -4,
+      "max": 4,
+      "step": 1,
+      "initial": 2
+    },
+    "relation": {
+      "type": "linear",
+      "controlled": "m",
+      "fixed": {
+        "b": 1
+      }
+    },
+    "domain": {
+      "start": -6,
+      "end": 6,
+      "step": 1
+    }
+  },
+  "checkpoints": [
+    {
+      "id": "positive-slope",
+      "label": "Positive slope"
+    },
+    {
+      "id": "zero-slope",
+      "label": "Zero slope"
+    },
+    {
+      "id": "negative-slope",
+      "label": "Negative slope"
+    }
+  ],
+  "fallback": {
+    "markdown": "Use the form $y = mx + 1$ as an anchor. As $m$ gets larger and stays positive, the line rises more steeply. When $m = 0$, the line becomes horizontal. When $m$ is negative, the line falls from left to right.",
+    "image": "../images/line-slope-grid.svg"
+  }
+}

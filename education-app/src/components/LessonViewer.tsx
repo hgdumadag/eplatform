@@ -1,16 +1,10 @@
 import { useEffect, useState, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import ReactMarkdown from 'react-markdown';
-import remarkMath from 'remark-math';
-import remarkGfm from 'remark-gfm';
-import rehypeKatex from 'rehype-katex';
-import rehypeRaw from 'rehype-raw';
-import rehypeSanitize from 'rehype-sanitize';
-import 'katex/dist/katex.min.css';
 import { ContentLoader } from '../services/contentLoader';
 import { useProgressStore } from '../stores/progressStore';
 import type { TopicMetadata } from '../types';
 import { buildLessonKey } from '../utils/lessonKey';
+import { RichContentRenderer } from './rich-content/RichContentRenderer';
 import './LessonViewer.css';
 
 export function LessonViewer() {
@@ -42,7 +36,6 @@ export function LessonViewer() {
 
   const startTimeRef = useRef<number>(Date.now());
   const intervalRef = useRef<number | null>(null);
-  const assetUrlsRef = useRef<string[]>([]);
 
   useEffect(() => {
     const loadLesson = async () => {
@@ -65,8 +58,6 @@ export function LessonViewer() {
 
         setMetadata(lessonData.metadata);
         setContent(lessonData.content);
-        ContentLoader.revokeObjectUrls(assetUrlsRef.current);
-        assetUrlsRef.current = lessonData.assetObjectUrls;
 
         // Mark as started when lesson is loaded
         markStarted(lessonId);
@@ -103,9 +94,6 @@ export function LessonViewer() {
       if (elapsed > 0) {
         updateLessonTime(lessonId, elapsed);
       }
-
-      ContentLoader.revokeObjectUrls(assetUrlsRef.current);
-      assetUrlsRef.current = [];
     };
   }, [lessonId, updateLessonTime]);
 
@@ -168,12 +156,13 @@ export function LessonViewer() {
       </div>
 
       <div className="lesson-content">
-        <ReactMarkdown
-          remarkPlugins={[remarkGfm, remarkMath]}
-          rehypePlugins={[rehypeRaw, rehypeSanitize, rehypeKatex]}
-        >
-          {content}
-        </ReactMarkdown>
+        <RichContentRenderer
+          markdown={content}
+          lessonKey={lessonId}
+          context="lesson"
+          interactionMode="interactive"
+          basePath="content.md"
+        />
       </div>
 
       <div className="lesson-actions">
