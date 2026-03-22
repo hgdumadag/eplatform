@@ -1,5 +1,41 @@
 // Core data types for the education platform
 
+export type OpenAITransport = 'sdk' | 'http';
+export type QuestionResultSource = 'local' | 'openai' | 'unanswered';
+
+export interface ExamQuestionResult {
+  questionId: string;
+  isCorrect: boolean;
+  feedback?: string;
+  source: QuestionResultSource;
+  provider?: 'local' | 'openai';
+  model?: string;
+  transport?: OpenAITransport;
+  errorCode?: string;
+}
+
+export interface FreeTextGradingResult {
+  questionId: string;
+  isCorrect: boolean;
+  feedback: string;
+}
+
+export interface FreeTextGradingRequest {
+  grade: number;
+  subject: string;
+  quarter: number;
+  topicName: string;
+  examType: 'practice' | 'assessment';
+  answers: Record<string, string | number>;
+}
+
+export interface FreeTextGradingResponse {
+  provider: 'openai';
+  model: string;
+  transport: OpenAITransport;
+  results: FreeTextGradingResult[];
+}
+
 export interface TopicMetadata {
   id: string;
   grade: number;
@@ -55,6 +91,7 @@ export interface ExamAttempt {
   timeSpent?: number; // in minutes
   released?: boolean; // For assessments - has parent released results?
   releasedAt?: string; // When parent released results
+  questionResults?: Record<string, ExamQuestionResult>;
 }
 
 export interface LessonProgress {

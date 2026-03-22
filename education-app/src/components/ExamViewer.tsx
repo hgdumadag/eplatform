@@ -8,9 +8,18 @@ import rehypeRaw from 'rehype-raw';
 import rehypeSanitize from 'rehype-sanitize';
 import 'katex/dist/katex.min.css';
 import { ContentLoader } from '../services/contentLoader';
+import {
+  FreeTextGradingRequestError,
+  gradeFreeTextAnswers as requestFreeTextGrading,
+} from '../services/freeTextGradingService';
 import { useProgressStore } from '../stores/progressStore';
-import { isAnswerCorrect } from '../utils/answerChecker';
-import type { ExamQuestion, ExamAttempt } from '../types';
+import {
+  buildQuestionResults,
+  calculateScoreFromResults,
+  getAnsweredFreeTextQuestionIds,
+  getQuestionKey,
+} from '../utils/examGrading';
+import type { ExamQuestion, ExamAttempt, ExamQuestionResult } from '../types';
 import { buildLessonKey } from '../utils/lessonKey';
 import './ExamViewer.css';
 
@@ -35,8 +44,11 @@ export function ExamViewer() {
   const [answers, setAnswers] = useState<Record<string, number | string>>({});
   const [submitted, setSubmitted] = useState(false);
   const [score, setScore] = useState<number | null>(null);
+  const [questionResults, setQuestionResults] = useState<Record<string, ExamQuestionResult>>({});
   const [startTime] = useState<number>(Date.now());
   const [showExplanations, setShowExplanations] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const lessonId = grade && subject && quarter && topicName
@@ -70,44 +82,24 @@ export function ExamViewer() {
           );
       setExam(examData);
       setLoading(false);
-    } catch (err) {
+    } catch {
       setError('Failed to load exam');
       setLoading(false);
     }
   };
 
   const handleAnswerChange = (questionId: string, answer: number | string) => {
+    setSubmitError(null);
     setAnswers({ ...answers, [questionId]: answer });
   };
 
-  const calculateScore = () => {
-    if (!exam) return 0;
-
-    let correct = 0;
-    let totalPoints = 0;
-
-    exam.questions.forEach((question) => {
-      totalPoints += question.points;
-      const userAnswer = answers[question.id];
-
-      if (userAnswer === undefined) return;
-
-      const isCorrect = isAnswerCorrect(question, userAnswer);
-
-      if (isCorrect) {
-        correct += question.points;
-      }
-    });
-
-    return Math.round((correct / totalPoints) * 100);
-  };
-
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     if (!exam || !lessonId) return;
+    if (submitting) return;
 
     // Check if all questions answered
     const unansweredCount = exam.questions.filter(
-      (q) => answers[q.id] === undefined
+      (q) => answers[getQuestionKey(q.id)] === undefined
     ).length;
 
     if (unansweredCount > 0) {
@@ -117,32 +109,74 @@ export function ExamViewer() {
       if (!confirmSubmit) return;
     }
 
-    const calculatedScore = calculateScore();
-    setScore(calculatedScore);
-    setSubmitted(true);
+    setSubmitting(true);
+    setSubmitError(null);
 
-    const timeSpent = Math.round((Date.now() - startTime) / 60000); // minutes
+    try {
+      const answeredFreeTextQuestionIds = getAnsweredFreeTextQuestionIds(exam.questions, answers);
+      const freeTextResponse = answeredFreeTextQuestionIds.length > 0
+        ? await requestFreeTextGrading({
+            grade: Number(grade),
+            subject: subject!,
+            quarter: Number(quarter),
+            topicName: topicName!,
+            examType: exam.examType,
+            answers,
+          })
+        : undefined;
 
-    const attempt: ExamAttempt = {
-      attemptId: `${exam.examId}-${Date.now()}`,
-      lessonId,
-      examType: exam.examType,
-      startedAt: new Date(startTime).toISOString(),
-      completedAt: new Date().toISOString(),
-      answers,
-      score: calculatedScore,
-      totalPoints: 100,
-      passed: calculatedScore >= exam.passingScore,
-      timeSpent: Math.max(1, timeSpent), // At least 1 minute
-    };
+      if (freeTextResponse) {
+        const returnedQuestionIds = new Set(freeTextResponse.results.map((result) => result.questionId));
+        const missingQuestionId = answeredFreeTextQuestionIds.find(
+          (questionId) => !returnedQuestionIds.has(questionId),
+        );
 
-    saveExamAttempt(attempt);
+        if (missingQuestionId) {
+          throw new FreeTextGradingRequestError(
+            `Missing grading result for question ${missingQuestionId}.`,
+            'missing_result',
+            true,
+          );
+        }
+      }
+
+      const calculatedQuestionResults = buildQuestionResults(exam.questions, answers, freeTextResponse);
+      const calculatedScore = calculateScoreFromResults(exam.questions, calculatedQuestionResults);
+      const totalPoints = exam.questions.reduce((sum, question) => sum + question.points, 0);
+      const timeSpent = Math.round((Date.now() - startTime) / 60000); // minutes
+
+      const attempt: ExamAttempt = {
+        attemptId: `${exam.examId}-${Date.now()}`,
+        lessonId,
+        examType: exam.examType,
+        startedAt: new Date(startTime).toISOString(),
+        completedAt: new Date().toISOString(),
+        answers,
+        score: calculatedScore,
+        totalPoints,
+        passed: calculatedScore >= exam.passingScore,
+        timeSpent: Math.max(1, timeSpent), // At least 1 minute
+        questionResults: calculatedQuestionResults,
+      };
+
+      setQuestionResults(calculatedQuestionResults);
+      setScore(calculatedScore);
+      setSubmitted(true);
+      saveExamAttempt(attempt);
+    } catch (submissionError) {
+      const typedError = submissionError as Error;
+      setSubmitError(typedError.message || 'Failed to submit exam.');
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   const handleRetry = () => {
     setAnswers({});
     setSubmitted(false);
     setScore(null);
+    setQuestionResults({});
+    setSubmitError(null);
     setShowExplanations(false);
     window.scrollTo(0, 0);
   };
@@ -203,12 +237,14 @@ export function ExamViewer() {
             <div className="explanations-section">
               <h2>Review Questions</h2>
               {exam.questions.map((question, index) => {
-                const userAnswer = answers[question.id];
-                const isCorrect = isAnswerCorrect(question, userAnswer);
+                const questionId = getQuestionKey(question.id);
+                const userAnswer = answers[questionId];
+                const result = questionResults[questionId];
+                const isCorrect = result?.isCorrect ?? false;
 
                 return (
                   <div
-                    key={question.id}
+                    key={questionId}
                     className={`question-review ${isCorrect ? 'correct' : 'incorrect'}`}
                   >
                     <div className="question-header">
@@ -263,7 +299,7 @@ export function ExamViewer() {
                         <div className="answer-row">
                           <strong>Your Answer:</strong>{' '}
                           <span className={isCorrect ? 'correct-text' : 'incorrect-text'}>
-                            {userAnswer ? String(userAnswer) : 'No answer'}
+                            {userAnswer !== undefined ? String(userAnswer) : 'No answer'}
                           </span>
                         </div>
                         {!isCorrect && (
@@ -281,13 +317,21 @@ export function ExamViewer() {
                         <div className="answer-row">
                           <strong>Your Answer:</strong>{' '}
                           <span className={isCorrect ? 'correct-text' : 'incorrect-text'}>
-                            {userAnswer ? String(userAnswer) : 'No answer'}
+                            {userAnswer !== undefined ? String(userAnswer) : 'No answer'}
                           </span>
                         </div>
-                        {!isCorrect && (
+                        {question.type === 'fill-in' && !isCorrect && (
                           <div className="answer-row">
                             <strong>Correct Answer:</strong>{' '}
                             <span className="correct-text">{String(question.correctAnswer)}</span>
+                          </div>
+                        )}
+                        {question.type === 'short-answer' && result?.feedback && (
+                          <div className="answer-row">
+                            <strong>Feedback:</strong>{' '}
+                            <span className={isCorrect ? 'correct-text' : 'incorrect-text'}>
+                              {result.feedback}
+                            </span>
                           </div>
                         )}
                       </div>
@@ -327,107 +371,118 @@ export function ExamViewer() {
       </div>
 
       <div className="exam-questions">
-        {exam.questions.map((question, index) => (
-          <div key={question.id} className="exam-question">
-            <div className="question-header">
-              <span className="question-number">Question {index + 1}</span>
-              <span className="question-points">{question.points} points</span>
-            </div>
+        {exam.questions.map((question, index) => {
+          const questionId = getQuestionKey(question.id);
 
-            <div className="question-text">
-              <ReactMarkdown
-                remarkPlugins={[remarkGfm, remarkMath]}
-                rehypePlugins={[rehypeSanitize, rehypeKatex]}
-              >
-                {question.question}
-              </ReactMarkdown>
-            </div>
+          return (
+            <div key={questionId} className="exam-question">
+              <div className="question-header">
+                <span className="question-number">Question {index + 1}</span>
+                <span className="question-points">{question.points} points</span>
+              </div>
 
-            {/* Multiple Choice */}
-            {question.type === 'multiple-choice' && question.options && (
-              <div className="options">
-                {question.options.map((option, optIndex) => (
-                  <label key={optIndex} className="option">
+              <div className="question-text">
+                <ReactMarkdown
+                  remarkPlugins={[remarkGfm, remarkMath]}
+                  rehypePlugins={[rehypeSanitize, rehypeKatex]}
+                >
+                  {question.question}
+                </ReactMarkdown>
+              </div>
+
+              {/* Multiple Choice */}
+              {question.type === 'multiple-choice' && question.options && (
+                <div className="options">
+                  {question.options.map((option, optIndex) => (
+                    <label key={optIndex} className="option">
+                      <input
+                        type="radio"
+                        name={questionId}
+                        value={optIndex}
+                        checked={answers[questionId] === optIndex}
+                        onChange={() => handleAnswerChange(questionId, optIndex)}
+                      />
+                      <span className="option-text">
+                        <ReactMarkdown
+                          remarkPlugins={[remarkGfm, remarkMath]}
+                          rehypePlugins={[rehypeRaw, rehypeSanitize, rehypeKatex]}
+                        >
+                          {option}
+                        </ReactMarkdown>
+                      </span>
+                    </label>
+                  ))}
+                </div>
+              )}
+
+              {/* True/False */}
+              {question.type === 'true-false' && (
+                <div className="options">
+                  <label className="option">
                     <input
                       type="radio"
-                      name={question.id}
-                      value={optIndex}
-                      checked={answers[question.id] === optIndex}
-                      onChange={() => handleAnswerChange(question.id, optIndex)}
+                      name={questionId}
+                      value="true"
+                      checked={answers[questionId] === 'true'}
+                      onChange={() => handleAnswerChange(questionId, 'true')}
                     />
-                    <span className="option-text">
-                      <ReactMarkdown
-                        remarkPlugins={[remarkGfm, remarkMath]}
-                        rehypePlugins={[rehypeRaw, rehypeSanitize, rehypeKatex]}
-                      >
-                        {option}
-                      </ReactMarkdown>
-                    </span>
+                    <span className="option-text">True</span>
                   </label>
-                ))}
-              </div>
-            )}
+                  <label className="option">
+                    <input
+                      type="radio"
+                      name={questionId}
+                      value="false"
+                      checked={answers[questionId] === 'false'}
+                      onChange={() => handleAnswerChange(questionId, 'false')}
+                    />
+                    <span className="option-text">False</span>
+                  </label>
+                </div>
+              )}
 
-            {/* True/False */}
-            {question.type === 'true-false' && (
-              <div className="options">
-                <label className="option">
+              {/* Fill in the Blank */}
+              {question.type === 'fill-in' && (
+                <div className="fill-in-container">
                   <input
-                    type="radio"
-                    name={question.id}
-                    value="true"
-                    checked={answers[question.id] === 'true'}
-                    onChange={() => handleAnswerChange(question.id, 'true')}
+                    type="text"
+                    className="fill-in-input"
+                    placeholder="Type your answer here..."
+                    value={(answers[questionId] as string) || ''}
+                    onChange={(e) => handleAnswerChange(questionId, e.target.value)}
                   />
-                  <span className="option-text">True</span>
-                </label>
-                <label className="option">
-                  <input
-                    type="radio"
-                    name={question.id}
-                    value="false"
-                    checked={answers[question.id] === 'false'}
-                    onChange={() => handleAnswerChange(question.id, 'false')}
+                </div>
+              )}
+
+              {/* Short Answer */}
+              {question.type === 'short-answer' && (
+                <div className="short-answer-container">
+                  <textarea
+                    className="short-answer-input"
+                    placeholder="Type your answer here..."
+                    rows={4}
+                    value={(answers[questionId] as string) || ''}
+                    onChange={(e) => handleAnswerChange(questionId, e.target.value)}
                   />
-                  <span className="option-text">False</span>
-                </label>
-              </div>
-            )}
-
-            {/* Fill in the Blank */}
-            {question.type === 'fill-in' && (
-              <div className="fill-in-container">
-                <input
-                  type="text"
-                  className="fill-in-input"
-                  placeholder="Type your answer here..."
-                  value={(answers[question.id] as string) || ''}
-                  onChange={(e) => handleAnswerChange(question.id, e.target.value)}
-                />
-              </div>
-            )}
-
-            {/* Short Answer */}
-            {question.type === 'short-answer' && (
-              <div className="short-answer-container">
-                <textarea
-                  className="short-answer-input"
-                  placeholder="Type your answer here..."
-                  rows={4}
-                  value={(answers[question.id] as string) || ''}
-                  onChange={(e) => handleAnswerChange(question.id, e.target.value)}
-                />
-              </div>
-            )}
-          </div>
-        ))}
+                </div>
+              )}
+            </div>
+          );
+        })}
       </div>
 
+      {submitError && (
+        <div className="exam-error">
+          <h2>Unable to Submit</h2>
+          <p>{submitError}</p>
+        </div>
+      )}
+
       <div className="exam-actions">
-        <button onClick={handleSubmit} className="submit-button">
-          Submit Exam
+        <button onClick={() => void handleSubmit()} className="submit-button" disabled={submitting}>
+          {submitting ? 'Submitting...' : 'Submit Exam'}
         </button>
-        <button onClick={() => navigate(-1)} className="cancel-button">
+        <button onClick={() => navigate(-1)} className="cancel-button" disabled={submitting}>
           Cancel
         </button>
       </div>

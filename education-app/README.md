@@ -30,9 +30,21 @@ npm run dev
 1. Copy `.env.example` to `.env` and set:
    - `VITE_SUPABASE_URL`
    - `VITE_SUPABASE_ANON_KEY`
+   - `SUPABASE_SERVICE_ROLE_KEY` for server-side uploaded exam reads
+   - `OPENAI_API_KEY`
+   - `OPENAI_MODEL` (defaults to `gpt-5.4-nano`)
 2. Run the SQL migration in `supabase/migrations/20260218123000_init_vercel_supabase_schema.sql`.
-3. Ensure Supabase Auth users exist and each has a matching `profiles` row.
-4. Create `children` rows and link them through `parent_children` / `child_accounts`.
+3. Run the follow-up migration in `supabase/migrations/20260322110000_add_question_results_to_exam_attempts.sql`.
+4. Ensure Supabase Auth users exist and each has a matching `profiles` row.
+5. Create `children` rows and link them through `parent_children` / `child_accounts`.
+
+### Free-Text Grading Env Vars
+
+- `OPENAI_TRANSPORT=sdk|http` chooses the OpenAI call mode.
+- `OPENAI_MODEL` accepts either an alias such as `gpt-5.4-nano` or a pinned snapshot.
+- `OPENAI_USE_SNAPSHOT=true` requires `OPENAI_MODEL` to be a pinned snapshot value.
+- `FREE_TEXT_GRADING_ENABLED=false` disables short-answer grading at the API layer.
+- `VITE_API_BASE_URL` is optional and useful when the frontend is not served by the same origin as the Vercel API.
 
 ## Project Structure
 

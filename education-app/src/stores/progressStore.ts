@@ -44,7 +44,15 @@ function normalizeChildLessons(lessons: Record<string, LessonProgress>): Record<
     const normalizedProgress: LessonProgress = {
       ...progress,
       lessonId: canonicalLessonId,
-      examAttempts: Array.isArray(progress.examAttempts) ? progress.examAttempts : [],
+      examAttempts: Array.isArray(progress.examAttempts)
+        ? progress.examAttempts.map((attempt) => ({
+            ...attempt,
+            questionResults:
+              attempt.questionResults && typeof attempt.questionResults === 'object'
+                ? attempt.questionResults
+                : undefined,
+          }))
+        : [],
       timeSpent: progress.timeSpent || 0,
     };
 
@@ -174,6 +182,7 @@ async function saveExamAttemptToSupabase(childId: string, attempt: ExamAttempt):
     passed: attempt.passed ?? null,
     time_spent_minutes: attempt.timeSpent ?? 0,
     answers: attempt.answers,
+    question_results: attempt.questionResults ?? {},
     released: attempt.released ?? false,
     released_at: attempt.releasedAt ?? null,
   };
@@ -239,7 +248,7 @@ export const useProgressStore = create<ProgressState>()(
         const attemptResult = await supabase
           .from('exam_attempts')
           .select(
-            'id, lesson_id, exam_type, started_at, completed_at, answers, score, total_points, passed, time_spent_minutes, released, released_at',
+            'id, lesson_id, exam_type, started_at, completed_at, answers, question_results, score, total_points, passed, time_spent_minutes, released, released_at',
           )
           .eq('child_id', childId)
           .order('created_at', { ascending: false });
@@ -259,6 +268,9 @@ export const useProgressStore = create<ProgressState>()(
             const answers = row.answers && typeof row.answers === 'object'
               ? (row.answers as Record<string, string | number>)
               : {};
+            const questionResults = row.question_results && typeof row.question_results === 'object'
+              ? row.question_results
+              : undefined;
 
             const mappedAttempt: ExamAttempt = {
               attemptId: row.id,
@@ -273,6 +285,7 @@ export const useProgressStore = create<ProgressState>()(
               timeSpent: row.time_spent_minutes ?? undefined,
               released: row.released ?? undefined,
               releasedAt: row.released_at ?? undefined,
+              questionResults: questionResults as ExamAttempt['questionResults'],
             };
 
             if (!attemptsByLesson[lessonKey]) {

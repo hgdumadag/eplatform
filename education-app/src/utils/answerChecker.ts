@@ -1,5 +1,5 @@
 /**
- * Utility functions for checking answer correctness with flexible matching
+ * Utility functions for checking non-LLM answer correctness with flexible matching
  */
 import type { ExamQuestion } from '../types';
 
@@ -41,27 +41,7 @@ function normalizeText(text: string): string {
 }
 
 /**
- * Check if the user's answer contains all key words from the correct answer
- * Useful for short-answer questions where order and exact wording don't matter
- */
-function containsKeywords(userAnswer: string, correctAnswer: string): boolean {
-  const userNorm = normalizeText(userAnswer);
-  const correctNorm = normalizeText(correctAnswer);
-
-  // Common filler words to ignore
-  const fillerWords = new Set(['the', 'a', 'an', 'is', 'are', 'was', 'were', 'to', 'of', 'in', 'on', 'at', 'and', 'or']);
-
-  // Extract keywords from correct answer
-  const keywords = correctNorm
-    .split(' ')
-    .filter(word => word.length > 0 && !fillerWords.has(word));
-
-  // Check if user answer contains all keywords
-  return keywords.every(keyword => userNorm.includes(keyword));
-}
-
-/**
- * Main answer checking function with flexible matching
+ * Main answer checking function with flexible matching for fill-in answers
  */
 export function checkAnswer(userAnswer: string, correctAnswer: string, questionType: string): boolean {
   const userStr = String(userAnswer).trim();
@@ -89,29 +69,6 @@ export function checkAnswer(userAnswer: string, correctAnswer: string, questionT
     }
   }
 
-  // For short-answer questions, use keyword matching
-  if (questionType === 'short-answer') {
-    // Check if user answer contains all key concepts
-    if (containsKeywords(userStr, correctStr)) {
-      return true;
-    }
-
-    // Also check reverse (in case correct answer is longer)
-    // Accept if correct answer keywords are in user answer
-    const userNorm = normalizeText(userStr);
-    const correctNorm = normalizeText(correctStr);
-
-    // Split both into words and check overlap
-    const userWords = new Set(userNorm.split(' '));
-    const correctWords = correctNorm.split(' ');
-
-    // If user answer contains at least 60% of correct answer words, consider it correct
-    const matchedWords = correctWords.filter(word => userWords.has(word));
-    const matchPercentage = matchedWords.length / correctWords.length;
-
-    return matchPercentage >= 0.6;
-  }
-
   return false;
 }
 
@@ -127,7 +84,7 @@ export function isAnswerCorrect(
     return userAnswer === question.correctAnswer;
   }
 
-  if (question.type === 'fill-in' || question.type === 'short-answer') {
+  if (question.type === 'fill-in') {
     return checkAnswer(String(userAnswer), String(question.correctAnswer), question.type);
   }
 
