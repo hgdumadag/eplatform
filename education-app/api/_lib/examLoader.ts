@@ -1,7 +1,4 @@
-import { readFile } from 'node:fs/promises';
-import path from 'node:path';
-import { createClient } from '@supabase/supabase-js';
-import { buildLessonKey } from '../../src/utils/lessonKey';
+import { buildLessonKey } from './lessonKey';
 
 type ExamType = 'practice' | 'assessment';
 
@@ -28,6 +25,10 @@ interface LoadExamParams {
   examType: ExamType;
 }
 
+interface OriginContext {
+  requestOrigin?: string;
+}
+
 function getExamFilename(examType: ExamType): string {
   return examType === 'assessment' ? 'assessment.json' : 'practice.json';
 }
@@ -41,28 +42,28 @@ function isServerExamDefinition(value: unknown): value is ServerExamDefinition {
   return Array.isArray(candidate.questions);
 }
 
-async function loadBuiltInExam(params: LoadExamParams): Promise<ServerExamDefinition | null> {
-  const examPath = path.join(
-    process.cwd(),
-    'public',
-    'content',
-    `grade-${params.grade}`,
-    params.subject,
-    `quarter-${params.quarter}`,
-    params.topicName,
-    getExamFilename(params.examType),
-  );
+function getBuiltInExamPath(params: LoadExamParams): string {
+  return `/content/grade-${params.grade}/${params.subject}/quarter-${params.quarter}/${params.topicName}/${getExamFilename(params.examType)}`;
+}
+
+async function loadBuiltInExam(
+  params: LoadExamParams,
+  context: OriginContext,
+): Promise<ServerExamDefinition | null> {
+  if (!context.requestOrigin) {
+    return null;
+  }
 
   try {
-    const examJson = await readFile(examPath, 'utf8');
-    const parsed = JSON.parse(examJson);
-    return isServerExamDefinition(parsed) ? parsed : null;
-  } catch (error) {
-    const readError = error as NodeJS.ErrnoException;
-    if (readError.code === 'ENOENT') {
+    const response = await fetch(new URL(getBuiltInExamPath(params), context.requestOrigin));
+    if (!response.ok) {
       return null;
     }
-    throw error;
+
+    const parsed = await response.json();
+    return isServerExamDefinition(parsed) ? parsed : null;
+  } catch {
+    return null;
   }
 }
 
@@ -74,6 +75,7 @@ async function loadUploadedExam(params: LoadExamParams): Promise<ServerExamDefin
     return null;
   }
 
+  const { createClient } = await import('@supabase/supabase-js');
   const lessonKey = buildLessonKey({
     grade: params.grade,
     subject: params.subject,
@@ -123,8 +125,9 @@ async function loadUploadedExam(params: LoadExamParams): Promise<ServerExamDefin
 
 export async function loadCanonicalExamDefinition(
   params: LoadExamParams,
+  context: OriginContext = {},
 ): Promise<ServerExamDefinition | null> {
-  const builtInExam = await loadBuiltInExam(params);
+  const builtInExam = await loadBuiltInExam(params, context);
   if (builtInExam) {
     return builtInExam;
   }

@@ -1,10 +1,16 @@
-import type { FreeTextGradingRequest } from '../src/types';
-import { loadCanonicalExamDefinition } from './_lib/examLoader';
-import { FreeTextGradingError, gradeFreeTextAnswers } from './_lib/freeTextGrader';
+interface FreeTextGradingRequest {
+  grade: number;
+  subject: string;
+  quarter: number;
+  topicName: string;
+  examType: 'practice' | 'assessment';
+  answers: Record<string, string | number>;
+}
 
 interface VercelLikeRequest {
   method?: string;
   body?: unknown;
+  headers?: Record<string, string | string[] | undefined>;
 }
 
 interface VercelLikeResponse {
@@ -13,18 +19,83 @@ interface VercelLikeResponse {
   setHeader: (name: string, value: string) => void;
 }
 
-function parseRequestBody(body: unknown): FreeTextGradingRequest {
+interface GradingModule {
+  FreeTextGradingError: new (
+    code: string,
+    message: string,
+    retryable: boolean,
+    statusCode: number,
+  ) => {
+    code: string;
+    message: string;
+    retryable: boolean;
+    statusCode: number;
+  };
+  gradeFreeTextAnswers: (params: {
+    questions: Array<{
+      questionId: string;
+      question: string;
+      correctAnswer: string;
+      studentAnswer: string;
+    }>;
+  }) => Promise<{
+    provider: 'openai';
+    model: string;
+    transport: 'sdk' | 'http';
+    results: Array<{
+      questionId: string;
+      isCorrect: boolean;
+      feedback: string;
+    }>;
+  }>;
+}
+
+interface ExamLoaderModule {
+  loadCanonicalExamDefinition: (
+    params: FreeTextGradingRequest,
+    context: { requestOrigin?: string },
+  ) => Promise<{
+    questions: Array<{
+      id: string | number;
+      type: string;
+      question: string;
+      correctAnswer?: string | number;
+    }>;
+  } | null>;
+}
+
+function resolveHeaderValue(value: string | string[] | undefined): string | undefined {
+  return Array.isArray(value) ? value[0] : value;
+}
+
+function getRequestOrigin(req: VercelLikeRequest): string | undefined {
+  const forwardedProto = resolveHeaderValue(req.headers?.['x-forwarded-proto']);
+  const forwardedHost = resolveHeaderValue(req.headers?.['x-forwarded-host']);
+  const host = resolveHeaderValue(req.headers?.host);
+
+  if (forwardedProto && forwardedHost) {
+    return `${forwardedProto}://${forwardedHost}`;
+  }
+
+  if (host) {
+    return `https://${host}`;
+  }
+
+  return undefined;
+}
+
+function parseRequestBody(body: unknown, GradingError: GradingModule['FreeTextGradingError']): FreeTextGradingRequest {
   let parsedBody = body;
   if (typeof body === 'string') {
     try {
       parsedBody = JSON.parse(body);
     } catch {
-      throw new FreeTextGradingError('invalid_request', 'Request body must be valid JSON.', false, 400);
+      throw new GradingError('invalid_request', 'Request body must be valid JSON.', false, 400);
     }
   }
 
   if (!parsedBody || typeof parsedBody !== 'object') {
-    throw new FreeTextGradingError('invalid_request', 'Request body must be a JSON object.', false, 400);
+    throw new GradingError('invalid_request', 'Request body must be a JSON object.', false, 400);
   }
 
   const request = parsedBody as Partial<FreeTextGradingRequest>;
@@ -37,7 +108,7 @@ function parseRequestBody(body: unknown): FreeTextGradingRequest {
     !request.answers ||
     typeof request.answers !== 'object'
   ) {
-    throw new FreeTextGradingError('invalid_request', 'Request payload is invalid.', false, 400);
+    throw new GradingError('invalid_request', 'Request payload is invalid.', false, 400);
   }
 
   return request as FreeTextGradingRequest;
@@ -59,8 +130,13 @@ export default async function handler(req: VercelLikeRequest, res: VercelLikeRes
   }
 
   try {
-    const request = parseRequestBody(req.body);
-    const exam = await loadCanonicalExamDefinition(request);
+    const gradingModule = (await import('./_lib/freeTextGrader')) as GradingModule;
+    const examLoaderModule = (await import('./_lib/examLoader')) as ExamLoaderModule;
+    const { FreeTextGradingError, gradeFreeTextAnswers } = gradingModule;
+    const request = parseRequestBody(req.body, FreeTextGradingError);
+    const exam = await examLoaderModule.loadCanonicalExamDefinition(request, {
+      requestOrigin: getRequestOrigin(req),
+    });
 
     if (!exam) {
       throw new FreeTextGradingError(
@@ -94,12 +170,22 @@ export default async function handler(req: VercelLikeRequest, res: VercelLikeRes
     const gradingResponse = await gradeFreeTextAnswers({ questions: freeTextQuestions });
     res.status(200).json(gradingResponse);
   } catch (error) {
-    if (error instanceof FreeTextGradingError) {
-      res.status(error.statusCode).json({
+    const maybeGradingError = error as {
+      code?: string;
+      message?: string;
+      retryable?: boolean;
+      statusCode?: number;
+    };
+
+    if (
+      typeof maybeGradingError.code === 'string' &&
+      typeof maybeGradingError.statusCode === 'number'
+    ) {
+      res.status(maybeGradingError.statusCode).json({
         error: {
-          code: error.code,
-          message: error.message,
-          retryable: error.retryable,
+          code: maybeGradingError.code,
+          message: maybeGradingError.message || 'Grading failed.',
+          retryable: maybeGradingError.retryable ?? false,
         },
       });
       return;

@@ -1,14 +1,22 @@
-import OpenAI from 'openai';
-import type {
-  FreeTextGradingResponse,
-  FreeTextGradingResult,
-  OpenAITransport,
-} from '../../src/types';
-
 const DEFAULT_MODEL = 'gpt-5.4-nano';
 const DEFAULT_TIMEOUT_MS = 15_000;
 const DEFAULT_MAX_OUTPUT_TOKENS = 300;
 const SNAPSHOT_PATTERN = /-\d{4}-\d{2}-\d{2}$/;
+
+type OpenAITransport = 'sdk' | 'http';
+
+export interface FreeTextGradingResult {
+  questionId: string;
+  isCorrect: boolean;
+  feedback: string;
+}
+
+export interface FreeTextGradingResponse {
+  provider: 'openai';
+  model: string;
+  transport: OpenAITransport;
+  results: FreeTextGradingResult[];
+}
 
 const RESPONSE_SCHEMA = {
   type: 'object',
@@ -134,13 +142,11 @@ function getOpenAIConfig(): OpenAIGradingConfig {
     );
   }
 
-  const transport = process.env.OPENAI_TRANSPORT === 'http' ? 'http' : 'sdk';
-
   return {
     apiKey,
     baseUrl: process.env.OPENAI_API_BASE_URL || undefined,
     model,
-    transport,
+    transport: process.env.OPENAI_TRANSPORT === 'http' ? 'http' : 'sdk',
     timeoutMs: parseNumber(process.env.OPENAI_TIMEOUT_MS, DEFAULT_TIMEOUT_MS),
     maxOutputTokens: parseNumber(process.env.OPENAI_MAX_OUTPUT_TOKENS, DEFAULT_MAX_OUTPUT_TOKENS),
   };
@@ -218,7 +224,7 @@ function parseGradingResults(outputText: string): FreeTextGradingResult[] {
     );
   }
 
-  const results = (parsed as { results: unknown[] }).results.map((result) => {
+  return (parsed as { results: unknown[] }).results.map((result) => {
     if (!result || typeof result !== 'object') {
       throw new FreeTextGradingError(
         'invalid_response',
@@ -244,8 +250,6 @@ function parseGradingResults(outputText: string): FreeTextGradingResult[] {
 
     return typedResult as FreeTextGradingResult;
   });
-
-  return results;
 }
 
 function buildResponsesRequest(
@@ -294,15 +298,15 @@ async function sdkResponsesTransport(
   config: OpenAIGradingConfig,
   payload: TransportPayload,
 ): Promise<FreeTextGradingResult[]> {
+  const requestBody = buildResponsesRequest(config, payload);
+  const { default: OpenAI } = await import('openai');
   const client = new OpenAI({
     apiKey: config.apiKey,
     baseURL: config.baseUrl,
     timeout: config.timeoutMs,
   });
-  const requestBody = buildResponsesRequest(config, payload);
 
   const response = await client.responses.create(requestBody as never);
-
   return parseGradingResults(extractOutputText(response as OpenAIResponseLike));
 }
 
@@ -329,8 +333,7 @@ async function httpResponsesTransport(
     );
   }
 
-  const responseJson = (await response.json()) as OpenAIResponseLike;
-  return parseGradingResults(extractOutputText(responseJson));
+  return parseGradingResults(extractOutputText((await response.json()) as OpenAIResponseLike));
 }
 
 export async function gradeFreeTextAnswers(
@@ -347,9 +350,8 @@ export async function gradeFreeTextAnswers(
     };
   }
 
-  const payload = buildTransportPayload(params.questions);
-
   try {
+    const payload = buildTransportPayload(params.questions);
     const results = config.transport === 'http'
       ? await httpResponsesTransport(config, payload)
       : await sdkResponsesTransport(config, payload);
