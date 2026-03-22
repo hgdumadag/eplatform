@@ -130,8 +130,8 @@ export default async function handler(req: VercelLikeRequest, res: VercelLikeRes
   }
 
   try {
-    const gradingModule = (await import('./_lib/freeTextGrader')) as GradingModule;
-    const examLoaderModule = (await import('./_lib/examLoader')) as ExamLoaderModule;
+    const gradingModule = (await import('./_lib/freeTextGrader.js')) as GradingModule;
+    const examLoaderModule = (await import('./_lib/examLoader.js')) as ExamLoaderModule;
     const { FreeTextGradingError, gradeFreeTextAnswers } = gradingModule;
     const request = parseRequestBody(req.body, FreeTextGradingError);
     const exam = await examLoaderModule.loadCanonicalExamDefinition(request, {

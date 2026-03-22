@@ -1,4 +1,4 @@
-import { buildLessonKey } from './lessonKey';
+import { buildLessonKey } from './lessonKey.js';
 
 type ExamType = 'practice' | 'assessment';
 
