@@ -11,6 +11,14 @@ interface FreeTextGradingErrorPayload {
   };
 }
 
+function tryParseJson<T>(value: string): T | null {
+  try {
+    return JSON.parse(value) as T;
+  } catch {
+    return null;
+  }
+}
+
 export class FreeTextGradingRequestError extends Error {
   code: string;
   retryable: boolean;
@@ -42,7 +50,18 @@ export async function gradeFreeTextAnswers(
     body: JSON.stringify(payload),
   });
 
-  const responseJson = (await response.json()) as FreeTextGradingResponse | FreeTextGradingErrorPayload;
+  const responseText = await response.text();
+  const responseJson = tryParseJson<FreeTextGradingResponse | FreeTextGradingErrorPayload>(responseText);
+
+  if (!responseJson) {
+    const snippet = responseText.trim().slice(0, 180) || `HTTP ${response.status}`;
+    throw new FreeTextGradingRequestError(
+      `Free-text grading endpoint returned a non-JSON response: ${snippet}`,
+      'invalid_server_response',
+      response.status >= 500,
+    );
+  }
+
   if (!response.ok) {
     const errorPayload = responseJson as FreeTextGradingErrorPayload;
     throw new FreeTextGradingRequestError(
