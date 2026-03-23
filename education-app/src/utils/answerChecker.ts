@@ -3,26 +3,120 @@
  */
 import type { ExamQuestion } from '../types';
 
+interface ParsedFraction {
+  numerator: number;
+  denominator: number;
+}
+
+interface ParsedNumericValue {
+  value: number;
+  isPercent: boolean;
+}
+
+function normalizeMathText(text: string): string {
+  return text
+    .trim()
+    .replace(/^\$+|\$+$/g, '')
+    .replace(/\\left|\\right/g, '')
+    .replace(/\\%/g, '%')
+    .replace(/\\infty/g, 'infinity')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function splitAlternativeAnswers(answer: string): string[] {
+  return answer
+    .split(/\s+or\s+/i)
+    .map((option) => option.trim())
+    .filter(Boolean);
+}
+
 /**
  * Check if two fractions are equivalent
  * Supports formats: "2/3", "6/9", etc.
  */
+function parseFraction(value: string): ParsedFraction | null {
+  const normalized = normalizeMathText(value).replace(/\s+/g, '');
+  const plainFractionRegex = /^([+-]?\d+)\/([+-]?\d+)$/;
+  const latexFractionRegex = /^([+-]?)\\frac\{([+-]?\d+)\}\{([+-]?\d+)\}$/;
+
+  const plainMatch = normalized.match(plainFractionRegex);
+  if (plainMatch) {
+    const numerator = parseInt(plainMatch[1], 10);
+    const denominator = parseInt(plainMatch[2], 10);
+
+    if (denominator === 0) {
+      return null;
+    }
+
+    return { numerator, denominator };
+  }
+
+  const latexMatch = normalized.match(latexFractionRegex);
+  if (!latexMatch) {
+    return null;
+  }
+
+  const leadingSign = latexMatch[1] === '-' ? -1 : 1;
+  const numerator = leadingSign * parseInt(latexMatch[2], 10);
+  const denominator = parseInt(latexMatch[3], 10);
+
+  if (denominator === 0) {
+    return null;
+  }
+
+  return { numerator, denominator };
+}
+
 function areFractionsEquivalent(userAnswer: string, correctAnswer: string): boolean {
-  const fractionRegex = /^(\d+)\/(\d+)$/;
+  const userFraction = parseFraction(userAnswer);
+  const correctFraction = parseFraction(correctAnswer);
 
-  const userMatch = userAnswer.match(fractionRegex);
-  const correctMatch = correctAnswer.match(fractionRegex);
-
-  if (!userMatch || !correctMatch) return false;
-
-  const userNum = parseInt(userMatch[1]);
-  const userDenom = parseInt(userMatch[2]);
-  const correctNum = parseInt(correctMatch[1]);
-  const correctDenom = parseInt(correctMatch[2]);
+  if (!userFraction || !correctFraction) {
+    return false;
+  }
 
   // Check if fractions are equivalent by cross-multiplication
   // a/b = c/d if a*d = b*c
-  return userNum * correctDenom === correctNum * userDenom;
+  return (
+    userFraction.numerator * correctFraction.denominator ===
+    correctFraction.numerator * userFraction.denominator
+  );
+}
+
+function parseNumericValue(value: string): ParsedNumericValue | null {
+  const normalized = normalizeMathText(value).replace(/,/g, '').trim();
+  const isPercent = normalized.endsWith('%');
+  const numericPart = isPercent ? normalized.slice(0, -1).trim() : normalized;
+
+  if (!/^[-+]?\d*\.?\d+$/.test(numericPart)) {
+    return null;
+  }
+
+  const parsed = Number(numericPart);
+  if (!Number.isFinite(parsed)) {
+    return null;
+  }
+
+  return {
+    value: parsed,
+    isPercent,
+  };
+}
+
+function areNumericValuesEquivalent(userAnswer: string, correctAnswer: string): boolean {
+  const userNumeric = parseNumericValue(userAnswer);
+  const correctNumeric = parseNumericValue(correctAnswer);
+
+  if (!userNumeric || !correctNumeric) {
+    return false;
+  }
+
+  if (userNumeric.isPercent !== correctNumeric.isPercent) {
+    return false;
+  }
+
+  return Math.abs(userNumeric.value - correctNumeric.value) < 1e-9;
 }
 
 /**
@@ -33,35 +127,34 @@ function areFractionsEquivalent(userAnswer: string, correctAnswer: string): bool
  * - Remove common words (a, an, the, is, are, etc.)
  */
 function normalizeText(text: string): string {
-  return text
+  return normalizeMathText(text)
     .toLowerCase()
-    .replace(/[.,!?;:()]/g, '') // Remove punctuation
+    .replace(/[.,!?;:(){}\[\]]/g, '') // Remove punctuation and math wrappers
     .replace(/\s+/g, ' ')       // Normalize whitespace
     .trim();
 }
 
-/**
- * Main answer checking function with flexible matching for fill-in answers
- */
-export function checkAnswer(userAnswer: string, correctAnswer: string, questionType: string): boolean {
-  const userStr = String(userAnswer).trim();
-  const correctStr = String(correctAnswer).trim();
+function matchesSingleAnswer(userAnswer: string, correctAnswer: string, questionType: string): boolean {
+  const userStr = normalizeMathText(userAnswer);
+  const correctStr = normalizeMathText(correctAnswer);
 
-  // Empty answer is always wrong
-  if (!userStr) return false;
+  if (!userStr) {
+    return false;
+  }
 
-  // Exact match (case-insensitive)
   if (userStr.toLowerCase() === correctStr.toLowerCase()) {
     return true;
   }
 
-  // For fill-in questions, try fraction equivalence
   if (questionType === 'fill-in') {
     if (areFractionsEquivalent(userStr, correctStr)) {
       return true;
     }
 
-    // Try normalizing and comparing (removes punctuation and extra spaces)
+    if (areNumericValuesEquivalent(userStr, correctStr)) {
+      return true;
+    }
+
     const userNorm = normalizeText(userStr);
     const correctNorm = normalizeText(correctStr);
     if (userNorm === correctNorm) {
@@ -70,6 +163,19 @@ export function checkAnswer(userAnswer: string, correctAnswer: string, questionT
   }
 
   return false;
+}
+
+/**
+ * Main answer checking function with flexible matching for fill-in answers
+ */
+export function checkAnswer(userAnswer: string, correctAnswer: string, questionType: string): boolean {
+  const userStr = String(userAnswer).trim();
+  const correctStr = String(correctAnswer).trim();
+  const acceptedAnswers = splitAlternativeAnswers(correctStr);
+
+  return acceptedAnswers.some((acceptedAnswer) =>
+    matchesSingleAnswer(userStr, acceptedAnswer, questionType),
+  );
 }
 
 export function isAnswerCorrect(
