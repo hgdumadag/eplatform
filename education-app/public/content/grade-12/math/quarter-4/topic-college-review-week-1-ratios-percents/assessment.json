@@ -1,0 +1,74 @@
+{
+  "id": "grade-12-math-q4-college-review-week-1-ratios-percents-assessment",
+  "examId": "grade-12-math-q4-college-review-week-1-ratios-percents-assessment",
+  "examType": "assessment",
+  "title": "Week 1 Assessment: Ratios, Fractions, and Percents",
+  "description": "End-of-week checkpoint for foundational ratio and percent reasoning.",
+  "totalPoints": 100,
+  "totalQuestions": 8,
+  "timeLimit": 30,
+  "passingScore": 75,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Write $0.45$ as a percent.",
+      "options": ["4.5%", "45%", "54%", "450%"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "The ratio of wins to losses is $7:1$. What fraction of the games were wins?",
+      "options": ["$\\frac{7}{8}$", "$\\frac{1}{7}$", "$\\frac{7}{1}$", "$\\frac{1}{8}$"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "36 is what percent of 144?",
+      "options": ["20%", "25%", "30%", "40%"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "If 12% of a number is 9, what is the number?",
+      "options": ["60", "72", "75", "90"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which is equivalent to 250%?",
+      "options": ["2.5", "0.25", "$\\frac{1}{4}$", "25"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "points": 10,
+      "question": "In a ratio question, you should usually add all parts before finding the percent of the whole.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "points": 15,
+      "question": "Write $62.5\\%$ as a fraction in simplest form.",
+      "correctAnswer": "$\\frac{5}{8}$"
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "points": 25,
+      "question": "A test has 40 questions. A student answers 34 correctly. What percent of the test is correct?",
+      "correctAnswer": "85%"
+    }
+  ]
+}

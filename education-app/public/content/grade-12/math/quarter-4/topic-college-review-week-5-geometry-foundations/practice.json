@@ -1,0 +1,81 @@
+{
+  "id": "grade-12-math-q4-college-review-week-5-geometry-foundations-practice",
+  "examId": "grade-12-math-q4-college-review-week-5-geometry-foundations-practice",
+  "examType": "practice",
+  "title": "Week 5 Practice: Geometry Foundations",
+  "description": "Use this set to recall core geometry formulas and translate diagrams into relationships.",
+  "totalPoints": 100,
+  "totalQuestions": 8,
+  "timeLimit": 25,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "What is the area of a triangle with base 10 cm and height 6 cm?",
+      "options": ["16", "30", "60", "120"],
+      "correctAnswer": 1,
+      "explanation": "Use $A=\\frac{1}{2}bh=\\frac{1}{2}(10)(6)=30$."
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A right triangle has legs 9 and 12. What is the hypotenuse?",
+      "options": ["13", "15", "18", "21"],
+      "correctAnswer": 1,
+      "explanation": "$c^2=9^2+12^2=81+144=225$, so $c=15$."
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "The angles of a triangle are $x$, $x$, and $80^\\circ$. What is $x$?",
+      "options": ["40", "50", "60", "80"],
+      "correctAnswer": 1,
+      "explanation": "Since triangle angles sum to $180^\\circ$, $2x+80=180$, so $x=50$."
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A rectangle has length 9 and width 4. What is its perimeter?",
+      "options": ["13", "18", "26", "36"],
+      "correctAnswer": 2,
+      "explanation": "Perimeter is $2l+2w=18+8=26$."
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "points": 10,
+      "question": "Opposite angles in a parallelogram are equal.",
+      "correctAnswer": "true",
+      "explanation": "This is one of the key properties of parallelograms."
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "points": 10,
+      "question": "The area of a square with side 7 is 14.",
+      "correctAnswer": "false",
+      "explanation": "Area is side squared, so $7^2=49$."
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "points": 15,
+      "question": "Find the area of a trapezoid with bases 8 and 14 and height 5.",
+      "correctAnswer": "55",
+      "explanation": "$A=\\frac{1}{2}(8+14)(5)=55$."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "points": 25,
+      "question": "One angle of a parallelogram is $72^\\circ$. What are the other three angles?",
+      "correctAnswer": "108°, 72°, and 108°",
+      "explanation": "Opposite angles are equal and adjacent angles are supplementary."
+    }
+  ]
+}

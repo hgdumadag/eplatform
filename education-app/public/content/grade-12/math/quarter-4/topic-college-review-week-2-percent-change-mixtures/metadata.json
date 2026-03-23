@@ -1,0 +1,25 @@
+{
+  "id": "grade-12-math-q4-college-review-week-2-percent-change-mixtures",
+  "grade": 12,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "College Review Week 2: Percent Change, Discounts, and Mixtures",
+  "description": "Strengthen percent increase, decrease, discount, markup, and mixture reasoning by tracking what quantity each percent is based on.",
+  "learningObjectives": [
+    "Solve percent increase and decrease problems without treating them as simple subtraction",
+    "Track changing bases in discounts, markups, and repeated percent change",
+    "Model mixture problems using part-plus-part-equals-total structure",
+    "Avoid common traps where the 'whole' changes between steps"
+  ],
+  "estimatedDuration": 90,
+  "difficulty": "advanced",
+  "tags": ["college-review", "upcat", "percent-change", "discounts", "mixtures", "applications"],
+  "prerequisites": ["Week 1 ratio and percent foundations", "Basic equation solving"],
+  "lastUpdated": "2026-03-23",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

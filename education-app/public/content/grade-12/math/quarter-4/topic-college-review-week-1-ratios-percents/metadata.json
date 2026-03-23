@@ -1,0 +1,25 @@
+{
+  "id": "grade-12-math-q4-college-review-week-1-ratios-percents",
+  "grade": 12,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "College Review Week 1: Ratios, Fractions, and Percents",
+  "description": "Rebuild the student's ratio, fraction, and percent foundations through a structured week of recall, guided examples, and short drills.",
+  "learningObjectives": [
+    "Convert confidently among fractions, decimals, ratios, and percents",
+    "Identify the whole, the part, and the comparison in percent problems",
+    "Use proportion reasoning without guessing or cross-multiplying too early",
+    "Check whether a percent answer is reasonable before finalizing it"
+  ],
+  "estimatedDuration": 90,
+  "difficulty": "intermediate",
+  "tags": ["college-review", "upcat", "ratios", "fractions", "percents", "part-whole"],
+  "prerequisites": ["Basic arithmetic with whole numbers", "Fraction operations", "Decimal place value"],
+  "lastUpdated": "2026-03-23",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

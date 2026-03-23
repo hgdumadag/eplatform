@@ -1,0 +1,74 @@
+{
+  "id": "grade-12-math-q4-college-review-week-6-circles-similarity-coordinate-assessment",
+  "examId": "grade-12-math-q4-college-review-week-6-circles-similarity-coordinate-assessment",
+  "examType": "assessment",
+  "title": "Week 6 Assessment: Circles, Similarity, and Coordinate Geometry",
+  "description": "End-of-week checkpoint for combined visual and coordinate reasoning.",
+  "totalPoints": 100,
+  "totalQuestions": 8,
+  "timeLimit": 30,
+  "passingScore": 75,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "What is the area of a circle with radius 4?",
+      "options": ["$4\\pi$", "$8\\pi$", "$12\\pi$", "$16\\pi$"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "The side lengths of two similar triangles are in the ratio $3:7$. What is the area ratio?",
+      "options": ["$3:7$", "$6:14$", "$9:49$", "$21:49$"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Find the midpoint of $(-2,6)$ and $(4,-2)$.",
+      "options": ["$(1,2)$", "$(2,1)$", "$(1,4)$", "$(2,4)$"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Find the slope through $(2,-1)$ and $(6,7)$.",
+      "options": ["1", "2", "3", "4"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "What is the distance between $(1,1)$ and $(4,5)$?",
+      "options": ["4", "5", "6", "7"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "points": 10,
+      "question": "A horizontal line has slope 0.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "points": 15,
+      "question": "The circumference of a circle with radius 9 is ____ in terms of $\\pi$.",
+      "correctAnswer": "18π"
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "points": 25,
+      "question": "A line has slope $-\\frac{2}{5}$. What is the slope of a line perpendicular to it?",
+      "correctAnswer": "5/2"
+    }
+  ]
+}

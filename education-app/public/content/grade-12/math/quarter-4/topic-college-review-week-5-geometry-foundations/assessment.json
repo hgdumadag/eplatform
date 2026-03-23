@@ -1,0 +1,74 @@
+{
+  "id": "grade-12-math-q4-college-review-week-5-geometry-foundations-assessment",
+  "examId": "grade-12-math-q4-college-review-week-5-geometry-foundations-assessment",
+  "examType": "assessment",
+  "title": "Week 5 Assessment: Geometry Foundations",
+  "description": "End-of-week checkpoint for high-yield geometry formulas and diagram reasoning.",
+  "totalPoints": 100,
+  "totalQuestions": 8,
+  "timeLimit": 30,
+  "passingScore": 75,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A square has side length 12. What is its area?",
+      "options": ["24", "48", "96", "144"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A right triangle has legs 5 and 12. What is the hypotenuse?",
+      "options": ["10", "12", "13", "17"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "The angles in a triangle are $40^\\circ$, $65^\\circ$, and:",
+      "options": ["65°", "70°", "75°", "85°"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "What is the perimeter of a rectangle with length 13 and width 6?",
+      "options": ["19", "38", "52", "78"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A triangle has base 16 and height 9. What is its area?",
+      "options": ["48", "72", "81", "144"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "points": 10,
+      "question": "Adjacent angles in a parallelogram sum to $180^\\circ$.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "points": 15,
+      "question": "Find the area of a circle with radius 6. Express in terms of $\\pi$.",
+      "correctAnswer": "36π"
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "points": 25,
+      "question": "A trapezoid has bases 12 and 18 and height 4. Find its area.",
+      "correctAnswer": "60"
+    }
+  ]
+}

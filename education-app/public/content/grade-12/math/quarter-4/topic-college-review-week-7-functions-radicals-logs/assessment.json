@@ -1,0 +1,74 @@
+{
+  "id": "grade-12-math-q4-college-review-week-7-functions-radicals-logs-assessment",
+  "examId": "grade-12-math-q4-college-review-week-7-functions-radicals-logs-assessment",
+  "examType": "assessment",
+  "title": "Week 7 Assessment: Functions, Radicals, and Logarithms",
+  "description": "End-of-week checkpoint for higher-level algebra and domain discipline.",
+  "totalPoints": 100,
+  "totalQuestions": 8,
+  "timeLimit": 30,
+  "passingScore": 75,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "If $f(x)=x^2+3$, what is $f(-4)$?",
+      "options": ["-13", "13", "16", "19"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Solve $\\sqrt{x+9}=4$.",
+      "options": ["5", "7", "16", "25"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "What is the restriction for $\\sqrt{x-2}$ in the real numbers?",
+      "options": ["$x>2$", "$x\\geq 2$", "$x\\leq 2$", "$x\\neq 2$"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Solve $\\log x = 3$ using common logarithm.",
+      "options": ["30", "100", "300", "1000"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which candidate must be checked back in the original equation after solving a radical equation?",
+      "options": ["All solutions", "Only positive solutions", "Only negative solutions", "No solutions"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "points": 10,
+      "question": "For $\\frac{3}{x+1}$, the value $x=-1$ is excluded from the domain.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "points": 15,
+      "question": "If $h(x)=3x-8$, find $h(6)$.",
+      "correctAnswer": "10"
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "points": 25,
+      "question": "Solve $\\sqrt{x+5}=x-1$ and give the real solution.",
+      "correctAnswer": "4"
+    }
+  ]
+}

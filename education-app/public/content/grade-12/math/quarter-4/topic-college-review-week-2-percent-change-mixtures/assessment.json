@@ -1,0 +1,74 @@
+{
+  "id": "grade-12-math-q4-college-review-week-2-percent-change-mixtures-assessment",
+  "examId": "grade-12-math-q4-college-review-week-2-percent-change-mixtures-assessment",
+  "examType": "assessment",
+  "title": "Week 2 Assessment: Percent Change, Discounts, and Mixtures",
+  "description": "End-of-week checkpoint for changing-base percent problems and mixtures.",
+  "totalPoints": 100,
+  "totalQuestions": 8,
+  "timeLimit": 30,
+  "passingScore": 75,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A value increases from 50 to 65. What percent increase is this?",
+      "options": ["15%", "25%", "30%", "35%"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A 1,200-peso gadget is discounted 20%. What is the sale price?",
+      "options": ["920", "940", "960", "980"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A quantity falls from 90 to 72. What is the percent decrease?",
+      "options": ["18%", "20%", "22%", "25%"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "If a price is increased by 10% and then by another 10%, starting from 100, what is the final price?",
+      "options": ["110", "120", "121", "130"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "To make a 30% solution from a 20% and 50% solution, the final concentration should be:",
+      "options": ["Less than 20%", "Between 20% and 50%", "Greater than 50%", "Exactly 70%"],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "points": 10,
+      "question": "Two equal consecutive discounts of 10% always combine to a 20% discount.",
+      "correctAnswer": "false"
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "points": 15,
+      "question": "A price drops from 500 to 425. What is the percent decrease?",
+      "correctAnswer": "15%"
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "points": 25,
+      "question": "How many liters of 25% solution should be mixed with 10 liters of 40% solution to obtain a 34% solution?",
+      "correctAnswer": "10"
+    }
+  ]
+}

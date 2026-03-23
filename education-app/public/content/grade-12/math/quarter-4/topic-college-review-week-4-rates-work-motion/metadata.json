@@ -1,0 +1,25 @@
+{
+  "id": "grade-12-math-q4-college-review-week-4-rates-work-motion",
+  "grade": 12,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "College Review Week 4: Rates, Work, and Motion",
+  "description": "Build fluency with shared formulas and tables for rate, work, current, and motion problems that often appear in college entrance exams.",
+  "learningObjectives": [
+    "Use rate tables for distance, work, and related applications",
+    "Set up combined-work equations without mixing units",
+    "Recognize average speed traps and use total distance over total time",
+    "Check units and time conversion before solving"
+  ],
+  "estimatedDuration": 90,
+  "difficulty": "advanced",
+  "tags": ["college-review", "upcat", "rates", "work", "motion", "tables"],
+  "prerequisites": ["Equation solving", "Fractions", "Algebra modeling"],
+  "lastUpdated": "2026-03-23",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

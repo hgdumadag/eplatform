@@ -1,0 +1,74 @@
+{
+  "id": "grade-12-math-q4-college-review-week-4-rates-work-motion-assessment",
+  "examId": "grade-12-math-q4-college-review-week-4-rates-work-motion-assessment",
+  "examType": "assessment",
+  "title": "Week 4 Assessment: Rates, Work, and Motion",
+  "description": "End-of-week checkpoint for rate tables, work equations, and motion setup.",
+  "totalPoints": 100,
+  "totalQuestions": 8,
+  "timeLimit": 30,
+  "passingScore": 75,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A runner covers 15 km in 1.5 hours. What is the runner's average speed?",
+      "options": ["8 kph", "9 kph", "10 kph", "12 kph"],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Two people work together at rates of $\\frac{1}{8}$ job per hour and $\\frac{1}{12}$ job per hour. What is their combined rate?",
+      "options": ["$\\frac{5}{24}$", "$\\frac{3}{20}$", "$\\frac{1}{20}$", "$\\frac{2}{3}$"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Two buses leave the same station in opposite directions at 40 kph and 50 kph. How far apart are they after 3 hours?",
+      "options": ["90 km", "180 km", "240 km", "270 km"],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A machine completes one task in 10 minutes. What fraction of a task does it complete per minute?",
+      "options": ["$\\frac{1}{10}$", "$10$", "$\\frac{10}{1}$", "$\\frac{1}{100}$"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A person drives 60 km at 30 kph and then 60 km at 60 kph. What is the average speed for the full trip?",
+      "options": ["40 kph", "45 kph", "50 kph", "60 kph"],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "points": 10,
+      "question": "In opposite-direction motion, the distances usually add.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "points": 15,
+      "question": "One worker finishes a task in 5 hours and another in 20 hours. How long together?",
+      "correctAnswer": "4"
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "points": 25,
+      "question": "Two cyclists start 84 km apart and ride toward each other at 14 kph and 10 kph. After how many hours do they meet?",
+      "correctAnswer": "3.5"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "grade-12-math-q4-college-review-week-7-functions-radicals-logs",
+  "grade": 12,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "College Review Week 7: Functions, Radicals, and Logarithms",
+  "description": "Sharpen higher-level algebra by focusing on function rules, domain checks, radicals, and logarithms with consistent substitution habits.",
+  "learningObjectives": [
+    "Interpret function notation and substitute accurately",
+    "Solve radical equations while checking for extraneous answers",
+    "Use logarithm rules to simplify and solve basic log equations",
+    "Check domain restrictions before finalizing answers"
+  ],
+  "estimatedDuration": 90,
+  "difficulty": "advanced",
+  "tags": ["college-review", "upcat", "functions", "radicals", "logarithms", "domain"],
+  "prerequisites": ["Exponent rules", "Basic algebra", "Factoring and substitution"],
+  "lastUpdated": "2026-03-23",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

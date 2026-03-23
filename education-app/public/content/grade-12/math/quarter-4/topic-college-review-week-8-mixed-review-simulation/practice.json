@@ -1,0 +1,81 @@
+{
+  "id": "grade-12-math-q4-college-review-week-8-mixed-review-simulation-practice",
+  "examId": "grade-12-math-q4-college-review-week-8-mixed-review-simulation-practice",
+  "examType": "practice",
+  "title": "Week 8 Practice: Mixed Review Warm-Up",
+  "description": "Use this as a mixed warm-up before the final weekly simulation.",
+  "totalPoints": 100,
+  "totalQuestions": 8,
+  "timeLimit": 25,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "18 is what percent of 60?",
+      "options": ["20%", "25%", "30%", "35%"],
+      "correctAnswer": 2,
+      "explanation": "$\\frac{18}{60}=0.30=30\\%$."
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "The sum of two consecutive integers is 21. What is the larger integer?",
+      "options": ["10", "11", "12", "13"],
+      "correctAnswer": 1,
+      "explanation": "Let them be $x$ and $x+1$. Then $2x+1=21$, so $x=10$ and the larger is 11."
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A right triangle has legs 8 and 15. What is the hypotenuse?",
+      "options": ["17", "19", "21", "23"],
+      "correctAnswer": 0,
+      "explanation": "$8^2+15^2=64+225=289$, so the hypotenuse is 17."
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "If $f(x)=x+7$, what is $f(9)$?",
+      "options": ["2", "7", "16", "63"],
+      "correctAnswer": 2,
+      "explanation": "Substitute 9 into the function rule."
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "points": 10,
+      "question": "The average speed for a trip is total distance divided by total time.",
+      "correctAnswer": "true",
+      "explanation": "This is the standard average-speed formula."
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "points": 10,
+      "question": "A solution to a radical equation never needs to be checked.",
+      "correctAnswer": "false",
+      "explanation": "Radical equations can produce extraneous answers."
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "points": 15,
+      "question": "Find the midpoint of $(4,2)$ and $(10,8)$.",
+      "correctAnswer": "(7, 5)",
+      "explanation": "Average the x-values and y-values."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "points": 25,
+      "question": "A shirt worth 800 pesos is discounted by 25%. What is the sale price?",
+      "correctAnswer": "600",
+      "explanation": "Discount is 200, so the new price is 600."
+    }
+  ]
+}
