@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Midpoint Explorer</title>
+    <link rel="stylesheet" href="assets/midpoint-explorer.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="controls">
+        <div class="control-group">
+          <label for="ax">Point A x</label>
+          <input id="ax" type="range" min="-8" max="8" step="1" value="-4" />
+          <span id="ax-value">-4</span>
+        </div>
+        <div class="control-group">
+          <label for="ay">Point A y</label>
+          <input id="ay" type="range" min="-6" max="6" step="1" value="-3" />
+          <span id="ay-value">-3</span>
+        </div>
+        <div class="control-group">
+          <label for="bx">Point B x</label>
+          <input id="bx" type="range" min="-8" max="8" step="1" value="4" />
+          <span id="bx-value">4</span>
+        </div>
+        <div class="control-group">
+          <label for="by">Point B y</label>
+          <input id="by" type="range" min="-6" max="6" step="1" value="3" />
+          <span id="by-value">3</span>
+        </div>
+      </section>
+
+      <section class="graph-card">
+        <svg id="graph" viewBox="0 0 640 360" role="img" aria-labelledby="graph-title">
+          <title id="graph-title">Segment midpoint explorer</title>
+          <g id="grid"></g>
+          <g id="axis"></g>
+          <line id="segment" x1="0" y1="0" x2="0" y2="0"></line>
+          <circle id="point-a" r="8"></circle>
+          <circle id="point-b" r="8"></circle>
+          <circle id="point-m" r="9"></circle>
+          <text id="label-a">A</text>
+          <text id="label-b">B</text>
+          <text id="label-m">M</text>
+        </svg>
+      </section>
+
+      <section class="summary">
+        <div class="summary-card">
+          <h2>Current coordinates</h2>
+          <p id="coordinates"></p>
+        </div>
+        <div class="summary-card">
+          <h2>Midpoint formula</h2>
+          <p id="formula"></p>
+        </div>
+        <button id="hint-button" class="hint-button" type="button">I want a hint</button>
+      </section>
+    </main>
+
+    <script src="assets/midpoint-explorer.js"></script>
+  </body>
+</html>

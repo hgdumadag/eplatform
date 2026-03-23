@@ -23,8 +23,7 @@ The coordinate plane is divided into four **quadrants**:
 
 Points on the axes are not in any quadrant. The origin $(0, 0)$ is the intersection point of the axes.
 
-![Description: Coordinate plane divided into four quadrants with labeled axes and sample points](/content/grade-12/math/quarter-2/topic-coordinate-geometry/images/coordinate-plane.png)
-*Image needed: Labeled coordinate plane with four quadrants, axes, origin, and example points in each region*
+![Description: Coordinate plane divided into four quadrants with labeled axes and sample points](images/coordinate-plane.svg)
 
 ## Distance Formula
 
@@ -62,6 +61,15 @@ The endpoints of a segment are $(8, 2)$ and $(-4, 10)$. Find the midpoint.
 
 $$M = \left(\frac{8 + (-4)}{2}, \frac{2 + 10}{2}\right) = \left(\frac{4}{2}, \frac{12}{2}\right) = (2, 6)$$
 
+```interactive
+{
+  "spec": "interactives/midpoint-miniapp.json",
+  "mode": "interactive",
+  "height": 460,
+  "title": "Midpoint Explorer"
+}
+```
+
 ## Slope
 
 The **slope** of a line measures its steepness and direction. It represents the ratio of the vertical change (rise) to the horizontal change (run) between two points.
@@ -78,6 +86,17 @@ $$m = \frac{y_2 - y_1}{x_2 - x_1} = \frac{\text{rise}}{\text{run}}$$
 - **Negative slope** ($m < 0$): the line falls from left to right
 - **Zero slope** ($m = 0$): the line is horizontal
 - **Undefined slope**: the line is vertical (the denominator is zero)
+
+![A coordinate grid showing lines with positive, zero, negative, and undefined slope](images/line-slope-grid.svg)
+
+```interactive
+{
+  "spec": "interactives/slope-slider.json",
+  "mode": "interactive",
+  "height": 420,
+  "title": "Slope Explorer"
+}
+```
 
 **Example 1:**
 Find the slope through $(-2, 5)$ and $(4, -1)$.

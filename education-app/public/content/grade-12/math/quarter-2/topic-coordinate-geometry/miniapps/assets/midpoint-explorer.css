@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7fbff;
+  color: #17324d;
+}
+
+.app-shell {
+  display: grid;
+  gap: 16px;
+  padding: 18px;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.control-group,
+.summary-card {
+  background: white;
+  border: 1px solid #dfe9f5;
+  border-radius: 14px;
+  padding: 12px 14px;
+  box-shadow: 0 8px 18px rgba(16, 52, 89, 0.08);
+}
+
+.control-group label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.control-group input {
+  width: 100%;
+}
+
+.control-group span {
+  display: inline-block;
+  margin-top: 8px;
+  color: #2b6cb0;
+  font-weight: 700;
+}
+
+.graph-card {
+  background: white;
+  border: 1px solid #dfe9f5;
+  border-radius: 16px;
+  padding: 12px;
+  box-shadow: 0 8px 18px rgba(16, 52, 89, 0.08);
+}
+
+#graph {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#segment {
+  stroke: #2b6cb0;
+  stroke-width: 4;
+  stroke-linecap: round;
+}
+
+#point-a {
+  fill: #f97316;
+}
+
+#point-b {
+  fill: #10b981;
+}
+
+#point-m {
+  fill: #1d4ed8;
+}
+
+#label-a,
+#label-b,
+#label-m {
+  font-size: 18px;
+  font-weight: 700;
+  fill: #17324d;
+}
+
+.summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  align-items: start;
+}
+
+.summary-card h2 {
+  margin: 0 0 10px;
+  font-size: 1rem;
+}
+
+.summary-card p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.hint-button {
+  appearance: none;
+  border: 0;
+  border-radius: 999px;
+  background: #2b6cb0;
+  color: white;
+  padding: 12px 16px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 8px 18px rgba(43, 108, 176, 0.22);
+}

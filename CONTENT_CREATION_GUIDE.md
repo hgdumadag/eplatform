@@ -22,10 +22,11 @@ This guide explains how to create educational content for the Education Platform
 
 **Key Principles:**
 - All content uses Markdown format with LaTeX support for mathematical notation
+- Lessons and exams can include interactive explanation blocks using the `interactive` fenced-code shortcode
 - Strict folder structure must be followed
 - Three files are required: metadata.json, content.md, practice.json
 - Assessment.json is optional
-- Images and videos are optional but enhance learning
+- Images, interactive specs, and sandboxed mini-apps are optional but enhance learning
 
 ---
 
@@ -41,8 +42,13 @@ grade-{X}/{subject}/quarter-{Y}/{topic-name}/
 ├── images/               (OPTIONAL)
 │   ├── image1.png
 │   └── image2.jpg
-└── videos/               (OPTIONAL - for local videos)
-    └── video1.mp4
+├── interactives/         (OPTIONAL - JSON specs for interactive blocks)
+│   └── slope-basics.json
+└── miniapps/             (OPTIONAL - sandboxed local HTML mini-apps)
+    ├── midpoint-explorer.html
+    └── assets/
+        ├── midpoint-explorer.css
+        └── midpoint-explorer.js
 ```
 
 ### Naming Conventions
@@ -217,6 +223,104 @@ $$
 ### Heading 3
 #### Heading 4
 ```
+
+#### 8. Interactive Explanation Blocks
+Use an `interactive` fenced code block to embed a reusable interactive explanation inside lesson content or exam text.
+
+````markdown
+```interactive
+{
+  "spec": "interactives/slope-basics.json",
+  "mode": "auto",
+  "height": 420,
+  "title": "Explore slope from two points"
+}
+```
+````
+
+**Fields:**
+- `spec` (required): relative path to an interactive spec JSON file
+- `mode` (optional): `auto`, `interactive`, `readonly`, or `fallback`
+- `height` (optional): preferred height in pixels for sandboxed mini-apps
+- `title` (optional): override display title
+
+**Where it works:**
+- `content.md`
+- `practice.json` question text, option text, and explanations
+- `assessment.json` question text and explanations
+
+**Assessment behavior:**
+- Practice exams render interactives in full interactive mode.
+- Assessment exams render interactives in readonly mode.
+- If a widget does not support readonly mode, the platform shows the spec's fallback markdown and image instead.
+
+#### 9. Interactive Spec Files
+Place spec files under `interactives/`. Each spec must be valid JSON and include a non-interactive fallback.
+
+```json
+{
+  "id": "slope-basics",
+  "version": "1.0",
+  "runtime": "native",
+  "widget": "slider-graph",
+  "title": "Explore slope from two points",
+  "prompt": "Move the x-coordinate and observe how the slope changes.",
+  "props": {
+    "xMin": -6,
+    "xMax": 6,
+    "xStep": 1,
+    "series": [
+      { "label": "y = 2x + 1", "expression": "2 * x + 1" }
+    ]
+  },
+  "checkpoints": [
+    { "id": "slope-observed", "label": "Learner changed the slider once." }
+  ],
+  "fallback": {
+    "markdown": "When the rise increases twice as fast as the run, the slope is 2."
+  }
+}
+```
+
+**Supported runtimes:**
+- `native`: rendered by built-in React widgets such as `step-reveal`, `slider-graph`, `number-line`, `hotspot-diagram`, `match-sort`, and `table-explorer`
+- `sandbox-local`: rendered from a local HTML mini-app using the `sandbox-host` widget
+
+**Required fields:**
+- `id`
+- `version`
+- `runtime`
+- `widget`
+- `title`
+- `props`
+- `fallback.markdown`
+
+#### 10. Sandboxed Mini-Apps
+Use `runtime: "sandbox-local"` when you need richer visuals than the native widget set supports. Store the HTML shell under `miniapps/` and any local assets under `miniapps/assets/`.
+
+```json
+{
+  "id": "midpoint-miniapp",
+  "version": "1.0",
+  "runtime": "sandbox-local",
+  "widget": "sandbox-host",
+  "title": "Midpoint explorer",
+  "props": {
+    "htmlPath": "miniapps/midpoint-explorer.html"
+  },
+  "fallback": {
+    "markdown": "Use the midpoint formula: ((x1 + x2) / 2, (y1 + y2) / 2).",
+    "image": "images/midpoint-explorer.png"
+  }
+}
+```
+
+**Mini-app rules:**
+- Use only local files packaged with the lesson.
+- Reference CSS, JS, and images with relative paths.
+- Remote iframes and arbitrary pasted HTML embeds are not supported as a primary authoring path.
+- Expect the iframe sandbox to allow scripts only.
+- Mini-apps may post `ready`, `resize`, `checkpoint`, and `requestHint` messages to the host.
 
 #### 2. Text Formatting
 ```markdown
@@ -705,7 +809,13 @@ topic-folder/
 
 ### Referencing Images in content.md
 
-Use **absolute paths** from the content root:
+Use relative paths within the lesson package whenever possible:
+
+```markdown
+![Alt text description](images/diagram1.png)
+```
+
+Absolute `/content/...` paths also continue to work for built-in content:
 
 ```markdown
 ![Alt text description](/content/grade-11/math/quarter-1/topic-trigonometry-intro/images/diagram1.png)
@@ -732,8 +842,9 @@ The **hypotenuse** is the longest side, opposite the right angle.
 1. **Always include alt text** describing the image
 2. **Use descriptive filenames**: `labeled-triangle.png`, not `image1.png`
 3. **URL encode spaces** in filenames: `Label%20Triangle.png` or avoid spaces entirely
-4. **Test images** after upload to ensure paths are correct
-5. **Add captions** in the text below the image if needed
+4. **Prefer relative paths** so the same package works for built-in and uploaded content
+5. **Test images** after upload to ensure paths are correct
+6. **Add captions** in the text below the image if needed
 
 ### Image Sizing in Markdown
 The CSS automatically limits images to fit the content area. However, you can add HTML for specific sizing if needed:
@@ -744,82 +855,39 @@ The CSS automatically limits images to fit the content area. However, you can ad
 
 ---
 
-## Adding Videos
+## Adding Videos and Rich Embeds
 
 ### Video Options
 
-#### Option 1: YouTube Videos (Recommended)
-Embedding YouTube videos is the easiest and most reliable option.
+#### Important Limitation
+The app's v1 rich-content system does **not** support arbitrary remote iframes as a first-class authoring path. If you need interactivity, use the `interactive` shortcode with either a native widget or a packaged `sandbox-local` mini-app.
 
-**Template:**
+#### Option 1: Link to an External Video (Recommended)
+Use a normal Markdown link to send learners to a video resource.
+
 ```markdown
-## Video: [Topic Title]
-
-<div class="video-container">
-  <iframe
-    src="https://www.youtube.com/embed/{VIDEO_ID}"
-    title="Video title"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-  </iframe>
-</div>
+[Watch: Introduction to Trigonometry](https://www.youtube.com/watch?v=mhd9FXYdf4s)
 ```
 
-**Example:**
-```markdown
-## Video: Introduction to Trigonometry
+#### Option 2: Package a Local Mini-App
+If the learner needs an interactive visual, package it under `miniapps/` and reference it from an `interactive` spec:
 
-Watch this video for a visual explanation of trigonometric ratios:
-
-<div class="video-container">
-  <iframe
-    src="https://www.youtube.com/embed/mhd9FXYdf4s"
-    title="Introduction to Trigonometry"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-  </iframe>
-</div>
+````markdown
+```interactive
+{
+  "spec": "interactives/midpoint-miniapp.json",
+  "height": 420
+}
 ```
-
-**Finding the Video ID:**
-YouTube URL: `https://www.youtube.com/watch?v=mhd9FXYdf4s`
-Video ID: `mhd9FXYdf4s` (everything after `v=`)
-
-#### Option 2: Other Video Platforms
-- **Vimeo:** `https://player.vimeo.com/video/{VIDEO_ID}`
-- **Khan Academy:** Use their embed codes
-- **Educational platforms:** Follow their embedding instructions
-
-#### Option 3: Local Video Files (Advanced)
-If you have video files to include:
-
-1. **Create videos folder:**
-```
-topic-folder/
-└── videos/
-    └── demonstration.mp4
-```
-
-2. **Use HTML5 video tag:**
-```markdown
-<video width="100%" controls>
-  <source src="/content/grade-8/science/quarter-2/topic-chemistry/videos/experiment.mp4" type="video/mp4">
-  Your browser does not support video playback.
-</video>
-```
-
-**Supported formats:** MP4, WebM
-**File size limit:** Keep under 50MB
+````
 
 ### Video Best Practices
 
 1. **Keep videos short:** 3-10 minutes ideal
-2. **Provide context:** Explain what the video covers before embedding
-3. **Add timestamps:** If video is long, note key moments
-4. **Alternative text:** Describe video content for accessibility
-5. **Test playback:** Ensure videos play correctly in the platform
+2. **Provide context:** Explain what the learner should watch for
+3. **Prefer links over embeds** unless you control the local HTML mini-app
+4. **Alternative text:** Describe linked video content for accessibility
+5. **Test playback or links** after upload
 
 ---
 
@@ -835,9 +903,16 @@ grade-5/math/quarter-1/topic-fractions-decimals/
 ├── content.md
 ├── practice.json
 ├── assessment.json (optional)
-└── images/ (optional)
-    ├── image1.png
-    └── image2.jpg
+├── images/ (optional)
+│   ├── image1.png
+│   └── image2.jpg
+├── interactives/ (optional)
+│   └── slope-basics.json
+└── miniapps/ (optional)
+    ├── midpoint-explorer.html
+    └── assets/
+        ├── midpoint-explorer.css
+        └── midpoint-explorer.js
 ```
 
 #### Step 2: Validate All Files
@@ -845,7 +920,9 @@ grade-5/math/quarter-1/topic-fractions-decimals/
 - ✅ All required fields present
 - ✅ content.md has proper Markdown
 - ✅ LaTeX formulas are correctly formatted
-- ✅ Image paths are absolute and correct
+- ✅ Image paths are correct
+- ✅ Interactive specs referenced in Markdown or exams exist
+- ✅ Mini-app assets exist if sandbox interactives are used
 - ✅ practice.json has valid question structure
 - ✅ Points sum correctly
 
@@ -922,8 +999,10 @@ Use this checklist before packaging your content:
 - [ ] Headings use proper hierarchy (H1 → H2 → H3)
 - [ ] LaTeX formulas use correct delimiters ($inline$ and $$display$$)
 - [ ] Dollar signs in text are escaped (\$19.99)
-- [ ] Image paths are absolute from /content/
-- [ ] Video embeds use correct HTML structure
+- [ ] Image paths are correct and preferably relative
+- [ ] Interactive shortcodes use valid JSON
+- [ ] Referenced interactive specs exist under `interactives/`
+- [ ] Any sandbox mini-apps use local packaged assets
 - [ ] Content is 500-2000 words
 - [ ] Includes Introduction, Main Content, Examples, Key Takeaways
 - [ ] Language is grade-appropriate
@@ -953,8 +1032,17 @@ Use this checklist before packaging your content:
 - [ ] File formats are PNG, JPG, or GIF
 - [ ] File sizes are under 500KB each
 - [ ] Filenames have no spaces (use hyphens)
-- [ ] Image paths in content.md are absolute
+- [ ] Image paths in content.md are correct
 - [ ] All referenced images exist
+
+### Interactives (if included) ✅
+- [ ] All spec files are in `interactives/`
+- [ ] Every spec includes `id`, `version`, `runtime`, `widget`, `title`, `props`, and `fallback.markdown`
+- [ ] `runtime` is `native` or `sandbox-local`
+- [ ] `widget` matches a supported widget name
+- [ ] Sandbox specs use widget `sandbox-host`
+- [ ] Sandbox specs include `props.htmlPath`
+- [ ] All referenced mini-app HTML, CSS, JS, and image assets exist
 
 ### Final ZIP ✅
 - [ ] ZIP contains grade-X folder at root

@@ -2,6 +2,13 @@
 
 export type OpenAITransport = 'sdk' | 'http';
 export type QuestionResultSource = 'local' | 'openai' | 'unanswered';
+export type RichContentContext =
+  | 'lesson'
+  | 'exam-question'
+  | 'exam-option'
+  | 'exam-explanation';
+export type InteractiveMode = 'interactive' | 'readonly' | 'fallback';
+export type InteractiveRuntime = 'native' | 'sandbox-local';
 
 export interface ExamQuestionResult {
   questionId: string;
@@ -59,6 +66,36 @@ export interface TopicMetadata {
   };
 }
 
+export interface InteractiveFallback {
+  markdown: string;
+  image?: string;
+}
+
+export interface InteractiveCheckpoint {
+  id: string;
+  label?: string;
+  description?: string;
+}
+
+export interface InteractiveSpec {
+  id: string;
+  version: string;
+  runtime: InteractiveRuntime;
+  widget: string;
+  title: string;
+  prompt?: string;
+  props: Record<string, unknown>;
+  checkpoints?: InteractiveCheckpoint[];
+  fallback: InteractiveFallback;
+}
+
+export interface InteractiveEmbedConfig {
+  spec: string;
+  mode?: 'auto' | InteractiveMode;
+  height?: number;
+  title?: string;
+}
+
 // Child profile
 export interface Child {
   id: string;
@@ -76,6 +113,16 @@ export interface ExamQuestion {
   correctAnswer: string | number; // Index for MC, "true"/"false" for T/F, string for others
   explanation?: string;
   points: number;
+}
+
+export interface LessonExamData {
+  examId: string;
+  examType: 'practice' | 'assessment';
+  title: string;
+  description: string;
+  passingScore: number;
+  timeLimit?: number;
+  questions: ExamQuestion[];
 }
 
 export interface ExamAttempt {

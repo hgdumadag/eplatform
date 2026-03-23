@@ -1,0 +1,26 @@
+{
+  "id": "coordinate-geometry-midpoint-miniapp",
+  "version": "1.0",
+  "runtime": "sandbox-local",
+  "widget": "sandbox-host",
+  "title": "Midpoint Explorer",
+  "prompt": "Move the endpoints and watch the midpoint stay exactly halfway in both the x- and y-directions.",
+  "props": {
+    "htmlPath": "../miniapps/midpoint-explorer.html",
+    "height": 460
+  },
+  "checkpoints": [
+    {
+      "id": "midpoint-ready",
+      "label": "Mini-app opened"
+    },
+    {
+      "id": "midpoint-moved",
+      "label": "Endpoints adjusted"
+    }
+  ],
+  "fallback": {
+    "markdown": "The midpoint is found by averaging the x-coordinates and averaging the y-coordinates:\n\n$$M = \\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)$$\n\nIf one endpoint moves, recompute both averages and the midpoint moves with it.",
+    "image": "../images/midpoint-explorer.svg"
+  }
+}

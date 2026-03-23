@@ -1,3 +1,4 @@
+import type { Session } from '@supabase/supabase-js';
 import { create } from 'zustand';
 import { useChildStore } from './childStore';
 import { useProgressStore } from './progressStore';
@@ -70,6 +71,7 @@ const LOCAL_INITIAL_USERS: User[] = [
 ];
 
 let authListenerRegistered = false;
+const AUTH_INIT_TIMEOUT_MS = 8000;
 
 async function hashPassword(password: string): Promise<string> {
   const encoder = new TextEncoder();
@@ -110,12 +112,62 @@ async function loadSupabaseUser(authUserId: string, email: string | undefined): 
   };
 }
 
+function withTimeout<T>(promise: Promise<T>, timeoutMs: number, label: string): Promise<T> {
+  return new Promise<T>((resolve, reject) => {
+    const timeoutId = window.setTimeout(() => {
+      reject(new Error(`${label} timed out after ${timeoutMs}ms.`));
+    }, timeoutMs);
+
+    promise
+      .then((value) => {
+        window.clearTimeout(timeoutId);
+        resolve(value);
+      })
+      .catch((error) => {
+        window.clearTimeout(timeoutId);
+        reject(error);
+      });
+  });
+}
+
 export const useUserStore = create<UserState>()((set, get) => ({
   users: LOCAL_INITIAL_USERS,
   currentUser: null,
   isAuthReady: false,
 
   initializeAuth: async () => {
+    const applyResolvedUser = (resolvedUser: User | null) => {
+      set({ currentUser: resolvedUser, isAuthReady: true });
+
+      if (resolvedUser?.role === 'child' && resolvedUser.assignedChildId) {
+        useChildStore.getState().selectChild(resolvedUser.assignedChildId);
+        useProgressStore.getState().setActiveChild(resolvedUser.assignedChildId);
+        return;
+      }
+
+      if (!resolvedUser) {
+        useChildStore.getState().clearActiveChild();
+        useProgressStore.getState().clearActiveChild();
+      }
+    };
+
+    const resolveSessionUser = async (session: Session | null | undefined): Promise<User | null> => {
+      if (!session?.user) {
+        return null;
+      }
+
+      try {
+        return await withTimeout(
+          loadSupabaseUser(session.user.id, session.user.email),
+          AUTH_INIT_TIMEOUT_MS,
+          'Loading Supabase user profile',
+        );
+      } catch (error) {
+        console.error('Failed to load authenticated user profile.', error);
+        return null;
+      }
+    };
+
     if (!isSupabaseConfigured) {
       set({ isAuthReady: true });
       return;
@@ -124,41 +176,39 @@ export const useUserStore = create<UserState>()((set, get) => ({
     const supabase = requireSupabase();
 
     if (!authListenerRegistered) {
-      supabase.auth.onAuthStateChange(async (_event, session) => {
-        if (!session?.user) {
-          set({ currentUser: null, isAuthReady: true });
-          return;
-        }
-
-        const resolvedUser = await loadSupabaseUser(session.user.id, session.user.email);
-        if (!resolvedUser) {
-          set({ currentUser: null, isAuthReady: true });
-          return;
-        }
-
-        set({ currentUser: resolvedUser, isAuthReady: true });
-
-        if (resolvedUser.role === 'child' && resolvedUser.assignedChildId) {
-          useChildStore.getState().selectChild(resolvedUser.assignedChildId);
-          useProgressStore.getState().setActiveChild(resolvedUser.assignedChildId);
-        }
+      supabase.auth.onAuthStateChange((_event, session) => {
+        // Supabase warns against awaiting other Supabase calls inside this callback
+        // because it can deadlock session initialization. Defer the async work
+        // until after the callback returns so startup cannot get stuck on
+        // "Loading session...".
+        setTimeout(() => {
+          void resolveSessionUser(session).then((resolvedUser) => {
+            applyResolvedUser(resolvedUser);
+          });
+        }, 0);
       });
 
       authListenerRegistered = true;
     }
 
-    const { data } = await supabase.auth.getSession();
-    if (!data.session?.user) {
-      set({ currentUser: null, isAuthReady: true });
-      return;
-    }
+    try {
+      const { data, error } = await withTimeout(
+        supabase.auth.getSession(),
+        AUTH_INIT_TIMEOUT_MS,
+        'Restoring Supabase session',
+      );
 
-    const resolvedUser = await loadSupabaseUser(data.session.user.id, data.session.user.email);
-    set({ currentUser: resolvedUser, isAuthReady: true });
+      if (error) {
+        console.error('Failed to restore Supabase session.', error);
+        applyResolvedUser(null);
+        return;
+      }
 
-    if (resolvedUser?.role === 'child' && resolvedUser.assignedChildId) {
-      useChildStore.getState().selectChild(resolvedUser.assignedChildId);
-      useProgressStore.getState().setActiveChild(resolvedUser.assignedChildId);
+      const resolvedUser = await resolveSessionUser(data.session);
+      applyResolvedUser(resolvedUser);
+    } catch (error) {
+      console.error('Unexpected error while initializing authentication.', error);
+      applyResolvedUser(null);
     }
   },
 
