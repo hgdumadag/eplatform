@@ -1,12 +1,28 @@
 # College Review Week 3: Algebra Translation and Modeling
 
-## Weekly Goal
+> [!GOAL] Weekly Goal
+>
+> This week targets the habit that most often separates correct and incorrect solutions in word problems: writing the equation **before** manipulating numbers.
+>
+> **Main habit:** Define the variable clearly, then translate the relationship into an equation before solving.
 
-This week targets the habit that most often separates correct and incorrect solutions in word problems: writing the equation **before** manipulating numbers. The student should leave this week able to define variables clearly and turn relationships into equations instead of guessing.
+## Weekly Roadmap
+
+| Session | Main Focus | Target Time | Exam Use |
+| --- | --- | --- | --- |
+| 1 | Variable definition and equation setup | 45-60 minutes | Use examples slowly and deliberately |
+| 2 | Common word-problem families | 45-60 minutes | Use the practice exam as a translation drill |
+| 3 | Timed translation and checking | 45 minutes | Use the assessment exam after the timed set |
+
+---
 
 ## Session 1: Variable First, Equation Second
 
-**Target time:** 45-60 minutes
+> [!TARGET] Session Target
+>
+> **Target time:** 45-60 minutes
+>
+> Build the reflex to define the unknown before touching the numbers.
 
 ### Warm-Up Recall
 
@@ -52,9 +68,15 @@ $$2x = 22$$
 
 $$x = 11$$
 
+---
+
 ## Session 2: Common Word-Problem Families
 
-**Target time:** 45-60 minutes
+> [!TARGET] Session Target
+>
+> **Target time:** 45-60 minutes
+>
+> Recognize the setup pattern before trying to solve.
 
 ### Consecutive Integers
 
@@ -88,15 +110,21 @@ $$x = 4$$
 
 Tens digit $= 7$, ones digit $= 4$, so the number is **74**.
 
-### Session 2 Reminders
+> [!TIP] Session 2 Reminders
+>
+> - Define the unknown in words, not just a symbol.
+> - Consecutive even integers go $x, x+2, x+4$.
+> - Always substitute the final answer back into the wording.
 
-- Define the unknown in words, not just a symbol.
-- Consecutive even integers go $x, x+2, x+4$.
-- Always substitute the final answer back into the wording.
+---
 
 ## Session 3: Timed Translation and Checking
 
-**Target time:** 45 minutes
+> [!TARGET] Session Target
+>
+> **Target time:** 45 minutes
+>
+> Keep the setup clean even when the question feels familiar.
 
 ### Mini Drill
 
@@ -124,14 +152,14 @@ $$s = 4$$
 
 So the son is 4 and the father is 16.
 
-### Error Log
-
-Tag mistakes as:
-
-- `translation`
-- `variable choice`
-- `equation setup`
-- `solve/check`
+> [!CHECK] Error Log
+>
+> Tag mistakes as:
+>
+> - `translation`
+> - `variable choice`
+> - `equation setup`
+> - `solve/check`
 
 ## Key Takeaways
 
@@ -139,8 +167,8 @@ Tag mistakes as:
 - Write the relationship as an equation before solving.
 - Check whether your answer fits the story, not just the algebra.
 
-## How to Use the Exams This Week
-
-- Use the **practice exam** as a translation drill with explanations.
-- Use the **assessment exam** after Session 3 and force yourself to define the variable first on every question.
-- If you miss a problem, rewrite only the setup sentence and equation before solving again.
+> [!PRACTICE] How to Use the Exams This Week
+>
+> - Use the **practice exam** as a translation drill with explanations.
+> - Use the **assessment exam** after Session 3 and force yourself to define the variable first on every question.
+> - If you miss a problem, rewrite only the setup sentence and equation before solving again.

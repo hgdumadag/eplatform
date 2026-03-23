@@ -1,12 +1,28 @@
 # College Review Week 8: Mixed Review and Simulation
 
-## Weekly Goal
+> [!GOAL] Weekly Goal
+>
+> This week is not about learning a new topic. It is about performing well under realistic pressure.
+>
+> **Main habit:** Move across topics calmly, pace yourself well, and learn from the error log instead of reacting emotionally to misses.
 
-This week is not about learning a new topic. It is about performing well under realistic pressure. The student should practice moving across topics, pacing efficiently, checking reasonableness, and learning from patterns in the error log.
+## Weekly Roadmap
+
+| Session | Main Focus | Target Time | Exam Use |
+| --- | --- | --- | --- |
+| 1 | Mixed recall and error-pattern review | 45-60 minutes | Review previous mistakes before timing yourself |
+| 2 | Timed mixed-set strategy | 45-60 minutes | Use the practice exam as the warm-up set |
+| 3 | Simulation and reflection | 60 minutes | Use the assessment exam as the real checkpoint |
+
+---
 
 ## Session 1: Mixed Recall and Error Pattern Review
 
-**Target time:** 45-60 minutes
+> [!TARGET] Session Target
+>
+> **Target time:** 45-60 minutes
+>
+> Identify the real pattern behind your recent mistakes before the final simulation.
 
 ### Warm-Up Recall
 
@@ -29,13 +45,19 @@ Look back at your missed items and tag each with one cause:
 - `algebra`: solved the setup poorly
 - `careless`: sign, copy, arithmetic, or answer-choice mismatch
 
-### Recovery Rule
+> [!IMPORTANT] Recovery Rule
+>
+> If the same tag appears 3 or more times, that is the real weakness to fix this week.
 
-If the same tag appears 3 or more times, that is the real weakness to fix this week.
+---
 
 ## Session 2: Timed Mixed Set Strategy
 
-**Target time:** 45-60 minutes
+> [!TARGET] Session Target
+>
+> **Target time:** 45-60 minutes
+>
+> Practice pacing decisions instead of trying to brute-force every problem.
 
 ### Pacing Rules
 
@@ -44,13 +66,13 @@ If the same tag appears 3 or more times, that is the real weakness to fix this w
 - Skip long traps instead of getting stuck
 - Use the final minutes for checks, not for panic
 
-### Sanity Check Questions
-
-Before finalizing an answer, ask:
-
-1. Is the sign reasonable?
-2. Is the size reasonable?
-3. Does the answer fit the condition in the problem?
+> [!TIP] Sanity Check Questions
+>
+> Before finalizing an answer, ask:
+>
+> 1. Is the sign reasonable?
+> 2. Is the size reasonable?
+> 3. Does the answer fit the condition in the problem?
 
 **Example 1:**  
 If a mixture answer is 80% when the original mixtures were 20% and 50%, stop immediately. The answer cannot be outside the starting range.
@@ -58,9 +80,15 @@ If a mixture answer is 80% when the original mixtures were 20% and 50%, stop imm
 **Example 2:**  
 If a distance comes out negative, the setup or subtraction order is wrong.
 
+---
+
 ## Session 3: Simulation and Post-Test Reflection
 
-**Target time:** 60 minutes
+> [!TARGET] Session Target
+>
+> **Target time:** 60 minutes
+>
+> Treat this like exam day: pace, finish, review, and reflect honestly.
 
 ### Full Simulation Routine
 
@@ -90,14 +118,14 @@ Do not write only "study harder." Write:
 
 That tells you exactly what to repair.
 
-## End-of-Program Checklist
-
-- I define the whole before solving a percent problem.
-- I define variables before solving word problems.
-- I build tables for rate and work questions.
-- I recall core geometry formulas quickly.
-- I check domain restrictions and extraneous answers.
-- I do a 10-second reasonableness check before finalizing.
+> [!CHECK] End-of-Program Checklist
+>
+> - I define the whole before solving a percent problem.
+> - I define variables before solving word problems.
+> - I build tables for rate and work questions.
+> - I recall core geometry formulas quickly.
+> - I check domain restrictions and extraneous answers.
+> - I do a 10-second reasonableness check before finalizing.
 
 ## Key Takeaways
 
@@ -105,8 +133,8 @@ That tells you exactly what to repair.
 - Timing improves when setup habits improve.
 - A calm first pass is usually more effective than rushing every item.
 
-## How to Use the Exams This Week
-
-- Use the **practice exam** as a mixed warm-up set.
-- Use the **assessment exam** as your weekly simulation checkpoint.
-- Save your results and compare them against your original diagnostic to measure growth.
+> [!PRACTICE] How to Use the Exams This Week
+>
+> - Use the **practice exam** as a mixed warm-up set.
+> - Use the **assessment exam** as your weekly simulation checkpoint.
+> - Save your results and compare them against your original diagnostic to measure growth.

@@ -4,7 +4,7 @@ import { ContentLoader } from '../services/contentLoader';
 import { useProgressStore } from '../stores/progressStore';
 import type { TopicMetadata } from '../types';
 import { buildLessonKey } from '../utils/lessonKey';
-import { getLessonGradeDisplay } from '../utils/collegeReview';
+import { getLessonGradeDisplay, isCollegeReviewTopic } from '../utils/collegeReview';
 import { RichContentRenderer } from './rich-content/RichContentRenderer';
 import './LessonViewer.css';
 
@@ -37,6 +37,7 @@ export function LessonViewer() {
   const gradeLabel = grade && topicName
     ? getLessonGradeDisplay({ grade: Number(grade), topicName })
     : 'Grade';
+  const isCollegeReview = topicName ? isCollegeReviewTopic(topicName) : false;
 
   const startTimeRef = useRef<number>(Date.now());
   const intervalRef = useRef<number | null>(null);
@@ -119,7 +120,7 @@ export function LessonViewer() {
 
   if (loading) {
     return (
-      <div className="lesson-viewer">
+      <div className={isCollegeReview ? 'lesson-viewer college-review-viewer' : 'lesson-viewer'}>
         <div className="loading-state">Loading lesson...</div>
       </div>
     );
@@ -127,7 +128,7 @@ export function LessonViewer() {
 
   if (error || !metadata) {
     return (
-      <div className="lesson-viewer">
+      <div className={isCollegeReview ? 'lesson-viewer college-review-viewer' : 'lesson-viewer'}>
         <div className="error-state">
           <p>{error || 'Lesson not found'}</p>
           <button onClick={handleBack} className="btn-secondary">
@@ -139,7 +140,7 @@ export function LessonViewer() {
   }
 
   return (
-    <div className="lesson-viewer">
+    <div className={isCollegeReview ? 'lesson-viewer college-review-viewer' : 'lesson-viewer'}>
       <div className="lesson-header">
         <button onClick={handleBack} className="btn-back">
           ← Back to Lessons
@@ -159,13 +160,14 @@ export function LessonViewer() {
         </div>
       </div>
 
-      <div className="lesson-content">
+      <div className={isCollegeReview ? 'lesson-content lesson-content-college-review' : 'lesson-content'}>
         <RichContentRenderer
           markdown={content}
           lessonKey={lessonId}
           context="lesson"
           interactionMode="interactive"
           basePath="content.md"
+          className={isCollegeReview ? 'college-review-content' : undefined}
         />
       </div>
 

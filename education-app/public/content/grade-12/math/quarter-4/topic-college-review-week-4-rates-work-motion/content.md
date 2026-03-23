@@ -1,12 +1,28 @@
 # College Review Week 4: Rates, Work, and Motion
 
-## Weekly Goal
+> [!GOAL] Weekly Goal
+>
+> This week turns several confusing word-problem families into one familiar structure: **rate × time = amount**.
+>
+> **Main habit:** Build a table first so setup becomes more stable than guessing.
 
-This week turns several confusing word-problem families into one familiar structure: **rate × time = amount**. Once the student sees that motion, work, and similar problems share the same table, setup becomes much more stable.
+## Weekly Roadmap
+
+| Session | Main Focus | Target Time | Exam Use |
+| --- | --- | --- | --- |
+| 1 | Motion tables and distance setup | 45-60 minutes | Work slowly through the table structure |
+| 2 | Work rates and unit discipline | 45-60 minutes | Use the practice exam as a setup drill |
+| 3 | Timed practice and reflection | 45 minutes | Use the assessment exam as the no-hint check |
+
+---
 
 ## Session 1: Motion as a Table
 
-**Target time:** 45-60 minutes
+> [!TARGET] Session Target
+>
+> **Target time:** 45-60 minutes
+>
+> Make the rate table feel automatic before you time yourself.
 
 ### Warm-Up Recall
 
@@ -36,9 +52,15 @@ $$100t = 300$$
 
 $$t = 3$$
 
+---
+
 ## Session 2: Work Problems and Unit Discipline
 
-**Target time:** 45-60 minutes
+> [!TARGET] Session Target
+>
+> **Target time:** 45-60 minutes
+>
+> Keep units consistent and use one-hour rates instead of guessing.
 
 ### Work Formula
 
@@ -63,9 +85,9 @@ $$\frac{1}{2}t = 1$$
 
 $$t = 2$$
 
-### Trap: Mixed Units
-
-If one rate is in meters per second and another is in kilometers per hour, convert before solving.
+> [!WARNING] Trap: Mixed Units
+>
+> If one rate is in meters per second and another is in kilometers per hour, convert before solving.
 
 ### Example 3: Average Speed Trap
 
@@ -83,9 +105,15 @@ Average speed:
 
 $$\frac{120}{3} = 40 \text{ kph}$$
 
+---
+
 ## Session 3: Timed Practice and Reflection
 
-**Target time:** 45 minutes
+> [!TARGET] Session Target
+>
+> **Target time:** 45 minutes
+>
+> Move faster without skipping the table and unit check.
 
 ### Mini Drill
 
@@ -119,11 +147,11 @@ Then:
 
 $$c = 2$$
 
-### End-of-Week Checklist
-
-- I can make a rate table before solving.
-- I can use total distance over total time for average speed.
-- I can convert units before building the equation.
+> [!CHECK] End-of-Week Checklist
+>
+> - I can make a rate table before solving.
+> - I can use total distance over total time for average speed.
+> - I can convert units before building the equation.
 
 ## Key Takeaways
 
@@ -131,8 +159,8 @@ $$c = 2$$
 - Tables reduce confusion and prevent missing terms.
 - When you are unsure, write what one hour of work or travel represents.
 
-## How to Use the Exams This Week
-
-- Use the **practice exam** after Session 2 as a setup drill.
-- Use the **assessment exam** after Session 3 for a no-hint check.
-- Redo any question you miss by rebuilding the table first.
+> [!PRACTICE] How to Use the Exams This Week
+>
+> - Use the **practice exam** after Session 2 as a setup drill.
+> - Use the **assessment exam** after Session 3 for a no-hint check.
+> - Redo any question you miss by rebuilding the table first.

@@ -1,12 +1,28 @@
 # College Review Week 7: Functions, Radicals, and Logarithms
 
-## Weekly Goal
+> [!GOAL] Weekly Goal
+>
+> This week targets the student's higher-level algebra habits: substitution, domain awareness, checking radicals, and using logarithm rules correctly.
+>
+> **Main habit:** Accuracy with restrictions matters more than speed.
 
-This week targets the student's higher-level algebra habits: substitution, domain awareness, checking radicals, and using logarithm rules correctly. The biggest improvement goal is not speed. It is **accuracy with restrictions**.
+## Weekly Roadmap
+
+| Session | Main Focus | Target Time | Exam Use |
+| --- | --- | --- | --- |
+| 1 | Function notation and domain awareness | 45-60 minutes | Keep a written restriction note beside each problem |
+| 2 | Radical equations and logarithms | 45-60 minutes | Use the practice exam to drill solving and checking |
+| 3 | Timed higher-algebra checkpoint | 45 minutes | Use the assessment exam as your final algebra check |
+
+---
 
 ## Session 1: Function Notation and Domain Awareness
 
-**Target time:** 45-60 minutes
+> [!TARGET] Session Target
+>
+> **Target time:** 45-60 minutes
+>
+> Build the habit of checking restrictions before finalizing any answer.
 
 ### Warm-Up Recall
 
@@ -30,9 +46,15 @@ $$f(-2) = 3(-2)^2 - 2(-2) + 1 = 12 + 4 + 1 = 17$$
 **Example 2:**  
 For $h(x) = \frac{1}{x-5}$, $x \neq 5$.
 
+---
+
 ## Session 2: Radicals and Logarithms
 
-**Target time:** 45-60 minutes
+> [!TARGET] Session Target
+>
+> **Target time:** 45-60 minutes
+>
+> Solve carefully, then check whether the answer actually belongs in the original problem.
 
 ### Radical Equations
 
@@ -79,9 +101,15 @@ $$4x = 10^2 = 100$$
 
 $$x = 25$$
 
+---
+
 ## Session 3: Timed Higher-Algebra Checkpoint
 
-**Target time:** 45 minutes
+> [!TARGET] Session Target
+>
+> **Target time:** 45 minutes
+>
+> Keep the domain check even when the algebra feels routine.
 
 ### Mini Drill
 
@@ -108,11 +136,11 @@ Check:
 
 $$\sqrt{25}+1=5+1=6$$
 
-### End-of-Week Checklist
-
-- I substitute into functions carefully.
-- I check domain restrictions before finalizing answers.
-- I verify radical-equation answers in the original equation.
+> [!CHECK] End-of-Week Checklist
+>
+> - I substitute into functions carefully.
+> - I check domain restrictions before finalizing answers.
+> - I verify radical-equation answers in the original equation.
 
 ## Key Takeaways
 
@@ -120,7 +148,7 @@ $$\sqrt{25}+1=5+1=6$$
 - Radical equations often create fake answers if you do not check.
 - Logarithms are controlled by one rule that never changes: the input must stay positive.
 
-## How to Use the Exams This Week
-
-- Use the **practice exam** to drill substitution and checking.
-- Use the **assessment exam** as your final high-level algebra checkpoint before the mixed review week.
+> [!PRACTICE] How to Use the Exams This Week
+>
+> - Use the **practice exam** to drill substitution and checking.
+> - Use the **assessment exam** as your final high-level algebra checkpoint before the mixed review week.

@@ -1,12 +1,28 @@
 # College Review Week 2: Percent Change, Discounts, and Mixtures
 
-## Weekly Goal
+> [!GOAL] Weekly Goal
+>
+> This week fixes one of the most common structural weaknesses in college entrance math: failing to notice when the **base quantity changes**.
+>
+> **Main habit:** In percent increase, decrease, discount, markup, and mixture problems, ask **Percent of what?**
 
-This week fixes one of the most common structural weaknesses in college entrance math: failing to notice when the **base quantity changes**. In percent increase, decrease, discount, markup, and mixture problems, the key question is: **Percent of what?**
+## Weekly Roadmap
+
+| Session | Main Focus | Target Time | Exam Use |
+| --- | --- | --- | --- |
+| 1 | Percent change and base quantities | 45-60 minutes | Build setup habits before checking speed |
+| 2 | Multi-step change and mixtures | 45-60 minutes | Use the practice exam for setup repetition |
+| 3 | Timed drill and reflection | 45 minutes | Use the assessment exam as your weekly check |
+
+---
 
 ## Session 1: Percent Change and Changing Bases
 
-**Target time:** 45-60 minutes
+> [!TARGET] Session Target
+>
+> **Target time:** 45-60 minutes
+>
+> Keep the original base visible all the way through the solution.
 
 ### Warm-Up Recall
 
@@ -41,11 +57,19 @@ New price:
 
 $$800 - 120 = 680$$
 
-**Reminder:** A 15% discount does not mean subtract 15. It means subtract 15% of the original price.
+> [!TIP] Remember
+>
+> A 15% discount does not mean subtract 15. It means subtract 15% of the original price.
+
+---
 
 ## Session 2: Multi-Step Change and Mixtures
 
-**Target time:** 45-60 minutes
+> [!TARGET] Session Target
+>
+> **Target time:** 45-60 minutes
+>
+> Track the changing base in percent problems and the pure amount in mixtures.
 
 ### Trap 1: Consecutive Percent Changes Do Not Cancel
 
@@ -81,15 +105,21 @@ $$x = 15$$
 
 So 15 liters of 20% solution are needed.
 
-### Session 2 Reminders
+> [!WARNING] Session 2 Reminders
+>
+> - In two-step percent problems, write the new base after the first step.
+> - In mixtures, track the amount of pure substance, not just the total liquid.
+> - If your final concentration is outside the two starting concentrations, something is wrong.
 
-- In two-step percent problems, write the new base after the first step.
-- In mixtures, track the amount of pure substance, not just the total liquid.
-- If your final concentration is outside the two starting concentrations, something is wrong.
+---
 
 ## Session 3: Timed Drill and Reflection
 
-**Target time:** 45 minutes
+> [!TARGET] Session Target
+>
+> **Target time:** 45 minutes
+>
+> Move from guided setup to more independent solving.
 
 ### Mini Drill
 
@@ -108,11 +138,11 @@ $$1.25c = 900$$
 
 $$c = 720$$
 
-### End-of-Week Checklist
-
-- I can solve percent increase and decrease from a clear base.
-- I can model mixture problems using a pure-part equation.
-- I can explain why consecutive percent changes do not simply add or subtract.
+> [!CHECK] End-of-Week Checklist
+>
+> - I can solve percent increase and decrease from a clear base.
+> - I can model mixture problems using a pure-part equation.
+> - I can explain why consecutive percent changes do not simply add or subtract.
 
 ## Key Takeaways
 
@@ -120,8 +150,8 @@ $$c = 720$$
 - Multi-step percent problems require new bases at each stage.
 - Mixture problems become manageable when written as pure amount = pure amount.
 
-## How to Use the Exams This Week
-
-- Use the **practice exam** after Session 1 and 2 to reinforce setup.
-- Use the **assessment exam** after Session 3 to check whether you can solve without hints.
-- Redo any wrong mixture problem 2 days later from scratch.
+> [!PRACTICE] How to Use the Exams This Week
+>
+> - Use the **practice exam** after Session 1 and 2 to reinforce setup.
+> - Use the **assessment exam** after Session 3 to check whether you can solve without hints.
+> - Redo any wrong mixture problem 2 days later from scratch.

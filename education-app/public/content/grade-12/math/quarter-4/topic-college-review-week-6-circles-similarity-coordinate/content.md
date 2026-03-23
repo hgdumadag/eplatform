@@ -1,12 +1,28 @@
 # College Review Week 6: Circles, Similarity, and Coordinate Geometry
 
-## Weekly Goal
+> [!GOAL] Weekly Goal
+>
+> This week links three visual topics that often appear together in entrance exams: circles, similar figures, and coordinate geometry.
+>
+> **Main habit:** Move smoothly between formulas, diagrams, and coordinates without treating them as separate worlds.
 
-This week links three visual topics that often appear together in entrance exams: circles, similar figures, and coordinate geometry. The goal is to move smoothly between formulas, diagrams, and coordinates.
+## Weekly Roadmap
+
+| Session | Main Focus | Target Time | Exam Use |
+| --- | --- | --- | --- |
+| 1 | Circles and similarity | 45-60 minutes | Rebuild formulas and scale-factor habits |
+| 2 | Coordinate geometry refresher | 45-60 minutes | Use the practice exam for mixed formula drill |
+| 3 | Mixed geometry checkpoint | 45 minutes | Use the assessment exam for visual-to-algebra switching |
+
+---
 
 ## Session 1: Circles and Similarity
 
-**Target time:** 45-60 minutes
+> [!TARGET] Session Target
+>
+> **Target time:** 45-60 minutes
+>
+> Reconnect formulas with the geometry they describe.
 
 ### Warm-Up Recall
 
@@ -42,9 +58,15 @@ Corresponding larger side:
 
 $$10 \cdot \frac{5}{2} = 25$$
 
+---
+
 ## Session 2: Coordinate Geometry Refresher
 
-**Target time:** 45-60 minutes
+> [!TARGET] Session Target
+>
+> **Target time:** 45-60 minutes
+>
+> Keep signs, subtraction order, and formula choice under control.
 
 ### Core Formulas
 
@@ -70,15 +92,21 @@ Find the slope through $(-3, 4)$ and $(1, -2)$.
 
 $$m = \frac{-2-4}{1-(-3)} = \frac{-6}{4} = -\frac{3}{2}$$
 
-### Session 2 Reminders
+> [!TIP] Session 2 Reminders
+>
+> - Similarity scales length by $k$, perimeter by $k$, and area by $k^2$.
+> - A vertical line has undefined slope.
+> - Always subtract in the same point order.
 
-- Similarity scales length by $k$, perimeter by $k$, and area by $k^2$.
-- A vertical line has undefined slope.
-- Always subtract in the same point order.
+---
 
 ## Session 3: Mixed Geometry and Coordinate Checkpoint
 
-**Target time:** 45 minutes
+> [!TARGET] Session Target
+>
+> **Target time:** 45 minutes
+>
+> Practice switching between figure-based and algebra-based reasoning.
 
 ### Mini Drill
 
@@ -101,11 +129,11 @@ $$y - (-1) = -\frac{1}{2}(x - 3)$$
 
 $$y + 1 = -\frac{1}{2}(x - 3)$$
 
-### End-of-Week Checklist
-
-- I can use circle formulas without hesitation.
-- I can identify the correct scale factor in similar figures.
-- I can compute midpoint, distance, and slope accurately.
+> [!CHECK] End-of-Week Checklist
+>
+> - I can use circle formulas without hesitation.
+> - I can identify the correct scale factor in similar figures.
+> - I can compute midpoint, distance, and slope accurately.
 
 ## Key Takeaways
 
@@ -113,7 +141,7 @@ $$y + 1 = -\frac{1}{2}(x - 3)$$
 - Coordinate geometry is just geometry written in algebra form.
 - Keep subtraction order consistent and signs under control.
 
-## How to Use the Exams This Week
-
-- Use the **practice exam** for mixed formula and coordinate drill.
-- Use the **assessment exam** to confirm that you can switch between visual and algebraic reasoning.
+> [!PRACTICE] How to Use the Exams This Week
+>
+> - Use the **practice exam** for mixed formula and coordinate drill.
+> - Use the **assessment exam** to confirm that you can switch between visual and algebraic reasoning.

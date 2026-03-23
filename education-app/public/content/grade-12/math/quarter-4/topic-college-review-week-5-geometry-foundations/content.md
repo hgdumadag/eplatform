@@ -1,12 +1,28 @@
 # College Review Week 5: Geometry Foundations
 
-## Weekly Goal
+> [!GOAL] Weekly Goal
+>
+> This week rebuilds the geometry knowledge base that many students try to replace with memory guesses.
+>
+> **Main habit:** Know the core formulas, read the diagram carefully, and translate the picture into a small number of reliable facts.
 
-This week rebuilds the geometry knowledge base that many students try to replace with memory guesses. The target is simple: know the core formulas, read the diagram carefully, and connect the picture to a small number of reliable facts.
+## Weekly Roadmap
+
+| Session | Main Focus | Target Time | Exam Use |
+| --- | --- | --- | --- |
+| 1 | Formula recall and triangle facts | 45-60 minutes | Use the lesson examples as formula warm-up |
+| 2 | Angle facts, quadrilaterals, and diagram reading | 45-60 minutes | Use the practice exam as a diagram-reading drill |
+| 3 | Timed geometry checkpoint | 45 minutes | Use the assessment exam as your formula test |
+
+---
 
 ## Session 1: High-Yield Formulas and Triangle Facts
 
-**Target time:** 45-60 minutes
+> [!TARGET] Session Target
+>
+> **Target time:** 45-60 minutes
+>
+> Make the high-yield formulas feel automatic again.
 
 ### Warm-Up Recall
 
@@ -36,9 +52,15 @@ A triangle has base 12 cm and height 9 cm. Find the area.
 
 $$A = \frac{1}{2}(12)(9) = 54 \text{ cm}^2$$
 
+---
+
 ## Session 2: Angles, Quadrilaterals, and Diagram Reading
 
-**Target time:** 45-60 minutes
+> [!TARGET] Session Target
+>
+> **Target time:** 45-60 minutes
+>
+> Slow down long enough to extract facts from the figure before solving.
 
 ### Core Facts
 
@@ -57,14 +79,14 @@ So the angles are:
 
 $$68^\circ,\ 112^\circ,\ 68^\circ,\ 112^\circ$$
 
-### Diagram Translation Habit
-
-When a diagram is given:
-
-1. Mark known lengths and angles
-2. Label equal sides or equal angles
-3. Write one short statement for each fact
-4. Use only the facts you have actually identified
+> [!TIP] Diagram Translation Habit
+>
+> When a diagram is given:
+>
+> 1. Mark known lengths and angles
+> 2. Label equal sides or equal angles
+> 3. Write one short statement for each fact
+> 4. Use only the facts you have actually identified
 
 **Example 4:**  
 A rectangle has length 15 cm and width 8 cm. Find its perimeter and area.
@@ -77,9 +99,15 @@ Area:
 
 $$A = lw = 15(8) = 120 \text{ cm}^2$$
 
+---
+
 ## Session 3: Timed Geometry Checkpoint
 
-**Target time:** 45 minutes
+> [!TARGET] Session Target
+>
+> **Target time:** 45 minutes
+>
+> Combine formula recall and diagram reading without losing accuracy.
 
 ### Mini Drill
 
@@ -96,11 +124,11 @@ $$A = \frac{1}{2}(b_1 + b_2)h$$
 
 $$A = \frac{1}{2}(10 + 14)(6) = \frac{1}{2}(24)(6) = 72 \text{ cm}^2$$
 
-### End-of-Week Checklist
-
-- I can write the core geometry formulas without help.
-- I can pull the needed facts out of a diagram before solving.
-- I can estimate whether an area or perimeter answer is reasonable.
+> [!CHECK] End-of-Week Checklist
+>
+> - I can write the core geometry formulas without help.
+> - I can pull the needed facts out of a diagram before solving.
+> - I can estimate whether an area or perimeter answer is reasonable.
 
 ## Key Takeaways
 
@@ -108,7 +136,7 @@ $$A = \frac{1}{2}(10 + 14)(6) = \frac{1}{2}(24)(6) = 72 \text{ cm}^2$$
 - Drawings are useful only if you convert them into written relationships.
 - Approximation is a powerful sanity check.
 
-## How to Use the Exams This Week
-
-- Use the **practice exam** as a formula-recall and diagram-reading drill.
-- Use the **assessment exam** after Session 3 to test whether the formulas are truly memorized.
+> [!PRACTICE] How to Use the Exams This Week
+>
+> - Use the **practice exam** as a formula-recall and diagram-reading drill.
+> - Use the **assessment exam** after Session 3 to test whether the formulas are truly memorized.

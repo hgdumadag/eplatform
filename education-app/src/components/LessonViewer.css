@@ -396,6 +396,195 @@
   font-size: 1.3rem;
 }
 
+.college-review-viewer {
+  --review-ink: #18324a;
+  --review-accent: #0f766e;
+  --review-accent-soft: #e7f7f4;
+  --review-highlight: #b45309;
+  --review-border: #d5e0e8;
+}
+
+.college-review-viewer .lesson-header {
+  position: relative;
+  overflow: hidden;
+  padding: 2rem;
+  border-radius: 22px;
+  border: 1px solid rgba(167, 189, 206, 0.7);
+  background:
+    radial-gradient(circle at top right, rgba(15, 118, 110, 0.16), transparent 28%),
+    radial-gradient(circle at left bottom, rgba(180, 83, 9, 0.12), transparent 32%),
+    linear-gradient(135deg, #f4fbfb 0%, #fbf8f2 48%, #ffffff 100%);
+  box-shadow: 0 24px 46px rgba(18, 44, 67, 0.08);
+}
+
+.college-review-viewer .btn-back {
+  color: var(--review-accent);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.college-review-viewer .lesson-info h1 {
+  color: var(--review-ink);
+  font-size: clamp(2.3rem, 4vw, 3.2rem);
+  letter-spacing: -0.03em;
+  max-width: 18ch;
+}
+
+.college-review-viewer .lesson-meta {
+  gap: 0.65rem;
+  color: #58708a;
+}
+
+.college-review-viewer .badge {
+  background: linear-gradient(135deg, #176f68 0%, #0f766e 100%);
+  border-radius: 999px;
+  letter-spacing: 0.03em;
+}
+
+.college-review-viewer .lesson-description {
+  max-width: 72ch;
+  color: #476074;
+  font-size: 1.12rem;
+}
+
+.lesson-content-college-review {
+  border: 1px solid var(--review-border);
+  border-radius: 22px;
+  padding: clamp(1.4rem, 2vw, 2.3rem);
+  background:
+    linear-gradient(180deg, rgba(247, 251, 250, 0.95) 0%, rgba(255, 255, 255, 0.98) 12%, #ffffff 100%);
+  box-shadow: 0 18px 38px rgba(18, 44, 67, 0.08);
+}
+
+.lesson-content .rich-content.college-review-content {
+  color: #203244;
+}
+
+.lesson-content .rich-content.college-review-content h1 {
+  margin-top: 0;
+  margin-bottom: 1.75rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(133, 160, 180, 0.35);
+  color: var(--review-ink);
+  font-size: clamp(2rem, 3vw, 2.6rem);
+  letter-spacing: -0.03em;
+}
+
+.lesson-content .rich-content.college-review-content h2 {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 2.4rem;
+  margin-bottom: 1rem;
+  padding: 0.72rem 1rem;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #eff8f7 0%, #f6fbff 100%);
+  border: 1px solid rgba(184, 209, 225, 0.9);
+  color: var(--review-ink);
+  font-size: 1.35rem;
+  box-shadow: 0 10px 18px rgba(27, 50, 74, 0.05);
+}
+
+.lesson-content .rich-content.college-review-content h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  padding-left: 0.85rem;
+  border-left: 4px solid rgba(15, 118, 110, 0.65);
+  color: #214563;
+  font-size: 1.08rem;
+  letter-spacing: 0.01em;
+}
+
+.lesson-content .rich-content.college-review-content p,
+.lesson-content .rich-content.college-review-content li {
+  font-size: 1.03rem;
+}
+
+.lesson-content .rich-content.college-review-content strong {
+  color: #0f4c5c;
+}
+
+.lesson-content .rich-content.college-review-content code {
+  background: #eef7f7;
+  color: #0f4c5c;
+  border-radius: 999px;
+  padding: 0.16rem 0.55rem;
+  font-size: 0.9em;
+}
+
+.lesson-content .rich-content.college-review-content table {
+  margin: 1.35rem 0 2rem;
+  overflow: hidden;
+  border: 1px solid rgba(196, 214, 225, 0.95);
+  border-radius: 18px;
+  box-shadow: 0 14px 28px rgba(27, 50, 74, 0.08);
+}
+
+.lesson-content .rich-content.college-review-content thead {
+  background: linear-gradient(135deg, #1c5d77 0%, #0f766e 100%);
+}
+
+.lesson-content .rich-content.college-review-content th {
+  padding: 0.95rem 1rem;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+}
+
+.lesson-content .rich-content.college-review-content td {
+  padding: 0.95rem 1rem;
+  border-top: 1px solid rgba(223, 233, 241, 0.85);
+}
+
+.lesson-content .rich-content.college-review-content tbody tr:nth-child(even) {
+  background: #f8fbfd;
+}
+
+.lesson-content .rich-content.college-review-content .katex-display {
+  margin: 1.35rem 0;
+  padding: 1rem 1.1rem;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+  border: 1px solid rgba(207, 221, 235, 0.9);
+  overflow-x: auto;
+}
+
+.college-review-viewer .lesson-actions {
+  gap: 0.85rem;
+}
+
+.college-review-viewer .btn-primary {
+  background: linear-gradient(135deg, #0f766e 0%, #0d9488 100%);
+}
+
+.college-review-viewer .btn-primary:hover {
+  background: linear-gradient(135deg, #0d655f 0%, #0b7f75 100%);
+}
+
+.college-review-viewer .btn-secondary {
+  color: var(--review-accent);
+  border-color: rgba(15, 118, 110, 0.4);
+}
+
+.college-review-viewer .btn-secondary:hover {
+  background: #eef8f7;
+}
+
+.college-review-viewer .btn-exam {
+  background: linear-gradient(135deg, #b45309 0%, #d97706 100%);
+}
+
+.college-review-viewer .btn-exam:hover {
+  background: linear-gradient(135deg, #9a4707 0%, #b56306 100%);
+  box-shadow: 0 4px 12px rgba(180, 83, 9, 0.25);
+}
+
+.college-review-viewer .btn-exam.assessment {
+  background: linear-gradient(135deg, #215f9a 0%, #2563eb 100%);
+}
+
+.college-review-viewer .btn-exam.assessment:hover {
+  background: linear-gradient(135deg, #1b4f80 0%, #1d4ed8 100%);
+}
+
 @media (min-width: 1200px) {
   .lesson-viewer {
     display: grid;

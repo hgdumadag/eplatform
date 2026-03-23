@@ -1,12 +1,28 @@
 # College Review Week 1: Ratios, Fractions, and Percents
 
-## Weekly Goal
+> [!GOAL] Weekly Goal
+>
+> This week rebuilds the foundation behind many college entrance math questions: part-whole reasoning, proportions, fraction-decimal-percent conversion, and ratio interpretation.
+>
+> **Main habit:** Stop asking "Which operation looks familiar?" and instead ask, **What is the whole? What is the part? What is being compared?**
 
-This week rebuilds the foundation behind many college entrance math questions: part-whole reasoning, proportions, fraction-decimal-percent conversion, and ratio interpretation. The most important habit is to stop asking "Which operation looks familiar?" and instead ask, **What is the whole? What is the part? What is being compared?**
+## Weekly Roadmap
+
+| Session | Main Focus | Target Time | Exam Use |
+| --- | --- | --- | --- |
+| 1 | Ratios, part-whole meaning, percent setup | 45-60 minutes | Save the practice exam for after Session 2 |
+| 2 | Trap spotting and guided drill | 45-60 minutes | Use the practice exam as your drill set |
+| 3 | Timed set and error log | 45 minutes | Use the assessment exam as your checkpoint |
+
+---
 
 ## Session 1: Recall and Core Structure
 
-**Target time:** 45-60 minutes
+> [!TARGET] Session Target
+>
+> **Target time:** 45-60 minutes
+>
+> Rebuild part-whole language before adding speed pressure.
 
 ### Warm-Up Recall
 
@@ -49,15 +65,21 @@ $$x = 15$$
 
 So 12 is **15%** of 80.
 
-### Session 1 Reminders
+> [!TIP] Session 1 Reminders
+>
+> - Always label `part`, `whole`, and `comparison`.
+> - A percent problem is easier when written as a fraction first.
+> - If the answer is a percent greater than 100, ask whether that makes sense.
 
-- Always label `part`, `whole`, and `comparison`.
-- A percent problem is easier when written as a fraction first.
-- If the answer is a percent greater than 100, ask whether that makes sense.
+---
 
 ## Session 2: Guided Drill and Common Traps
 
-**Target time:** 45-60 minutes
+> [!TARGET] Session Target
+>
+> **Target time:** 45-60 minutes
+>
+> Catch the common setup reversals before they become habits.
 
 ### Trap 1: Switching the Part and the Whole
 
@@ -98,15 +120,21 @@ Solve these on paper:
 3. 18 is 45% of what number?
 4. A recipe uses flour and sugar in the ratio $5:2$. What fraction of the mixture is sugar?
 
-### Session 2 Reminders
+> [!WARNING] Session 2 Reminders
+>
+> - `is` usually points to the part.
+> - `of` often points to the whole.
+> - Ratio questions often become percent questions only after you build the whole.
 
-- `is` usually points to the part.
-- `of` often points to the whole.
-- Ratio questions often become percent questions only after you build the whole.
+---
 
 ## Session 3: Timed Mini-Set and Error Log
 
-**Target time:** 45 minutes
+> [!TARGET] Session Target
+>
+> **Target time:** 45 minutes
+>
+> Practice calm pacing while tracking the type of mistake you make.
 
 ### Timed Strategy
 
@@ -130,11 +158,11 @@ $$0.30 \times 250 = 75$$
 
 So 75 shirts are blue.
 
-### End-of-Week Checklist
-
-- I can convert among fractions, decimals, ratios, and percents.
-- I can tell which value is the whole before solving.
-- I can explain why my percent answer is reasonable.
+> [!CHECK] End-of-Week Checklist
+>
+> - I can convert among fractions, decimals, ratios, and percents.
+> - I can tell which value is the whole before solving.
+> - I can explain why my percent answer is reasonable.
 
 ## Key Takeaways
 
@@ -142,8 +170,8 @@ So 75 shirts are blue.
 - Ratios become fractions of the whole only after total parts are found.
 - If you cannot name the whole in one sentence, pause and rewrite the problem.
 
-## How to Use the Exams This Week
-
-- Use the **practice exam** as your recall quiz and guided drill.
-- Use the **assessment exam** after Session 3 as your weekly checkpoint.
-- Review every wrong answer out loud before moving to Week 2.
+> [!PRACTICE] How to Use the Exams This Week
+>
+> - Use the **practice exam** as your recall quiz and guided drill.
+> - Use the **assessment exam** after Session 3 as your weekly checkpoint.
+> - Review every wrong answer out loud before moving to Week 2.
