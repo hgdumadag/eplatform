@@ -4,6 +4,7 @@ import { uploadedContentStore } from '../services/uploadedContentStore';
 import { validateUploadedLessonContent } from '../services/contentValidationService';
 import type { UploadedLesson, UploadedFile } from '../services/uploadedContentStore';
 import { buildLessonKey } from '../utils/lessonKey';
+import { getLessonGradeDisplay } from '../utils/collegeReview';
 import './ContentUpload.css';
 
 export function ContentUpload() {
@@ -130,7 +131,7 @@ export function ContentUpload() {
 
       setMessage({
         type: 'success',
-        text: `Successfully uploaded: ${metadata.topicName} (Grade ${grade}, ${subject}, Q${quarter})`
+        text: `Successfully uploaded: ${metadata.topicName} (${getLessonGradeDisplay({ grade, topicName })}, ${subject}, Q${quarter})`
       });
 
       await loadUploadedLessons();
@@ -214,7 +215,7 @@ export function ContentUpload() {
                 <div className="lesson-info">
                   <h3>{lesson.displayName}</h3>
                   <div className="lesson-meta">
-                    <span className="badge">Grade {lesson.grade}</span>
+                    <span className="badge">{getLessonGradeDisplay(lesson)}</span>
                     <span className="badge">{lesson.subject}</span>
                     <span className="badge">Quarter {lesson.quarter}</span>
                   </div>

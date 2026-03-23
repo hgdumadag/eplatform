@@ -4,6 +4,7 @@ import { ContentLoader } from '../services/contentLoader';
 import { useProgressStore } from '../stores/progressStore';
 import type { TopicMetadata } from '../types';
 import { buildLessonKey } from '../utils/lessonKey';
+import { getLessonGradeDisplay } from '../utils/collegeReview';
 import { RichContentRenderer } from './rich-content/RichContentRenderer';
 import './LessonViewer.css';
 
@@ -33,6 +34,9 @@ export function LessonViewer() {
     : '';
   const progress = getProgress(lessonId);
   const examAttempts = getExamAttempts(lessonId);
+  const gradeLabel = grade && topicName
+    ? getLessonGradeDisplay({ grade: Number(grade), topicName })
+    : 'Grade';
 
   const startTimeRef = useRef<number>(Date.now());
   const intervalRef = useRef<number | null>(null);
@@ -144,7 +148,7 @@ export function LessonViewer() {
           <h1>{metadata.topicName}</h1>
           <div className="lesson-meta">
             <span className="badge">{metadata.subject}</span>
-            <span>Grade {metadata.grade}</span>
+            <span>{gradeLabel}</span>
             <span>Quarter {metadata.quarter}</span>
             <span>~{metadata.estimatedDuration} minutes</span>
             {progress?.completed && (
