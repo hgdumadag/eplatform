@@ -71,6 +71,7 @@ const LOCAL_INITIAL_USERS: User[] = [
 ];
 
 let authListenerRegistered = false;
+const AUTH_INIT_TIMEOUT_MS = 8000;
 
 async function hashPassword(password: string): Promise<string> {
   const encoder = new TextEncoder();
@@ -111,6 +112,24 @@ async function loadSupabaseUser(authUserId: string, email: string | undefined): 
   };
 }
 
+function withTimeout<T>(promise: Promise<T>, timeoutMs: number, label: string): Promise<T> {
+  return new Promise<T>((resolve, reject) => {
+    const timeoutId = window.setTimeout(() => {
+      reject(new Error(`${label} timed out after ${timeoutMs}ms.`));
+    }, timeoutMs);
+
+    promise
+      .then((value) => {
+        window.clearTimeout(timeoutId);
+        resolve(value);
+      })
+      .catch((error) => {
+        window.clearTimeout(timeoutId);
+        reject(error);
+      });
+  });
+}
+
 export const useUserStore = create<UserState>()((set, get) => ({
   users: LOCAL_INITIAL_USERS,
   currentUser: null,
@@ -138,7 +157,11 @@ export const useUserStore = create<UserState>()((set, get) => ({
       }
 
       try {
-        return await loadSupabaseUser(session.user.id, session.user.email);
+        return await withTimeout(
+          loadSupabaseUser(session.user.id, session.user.email),
+          AUTH_INIT_TIMEOUT_MS,
+          'Loading Supabase user profile',
+        );
       } catch (error) {
         console.error('Failed to load authenticated user profile.', error);
         return null;
@@ -169,7 +192,11 @@ export const useUserStore = create<UserState>()((set, get) => ({
     }
 
     try {
-      const { data, error } = await supabase.auth.getSession();
+      const { data, error } = await withTimeout(
+        supabase.auth.getSession(),
+        AUTH_INIT_TIMEOUT_MS,
+        'Restoring Supabase session',
+      );
 
       if (error) {
         console.error('Failed to restore Supabase session.', error);
