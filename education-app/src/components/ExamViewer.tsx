@@ -10,9 +10,15 @@ import {
   buildQuestionResults,
   calculateScoreFromResults,
   getAnsweredFreeTextQuestionIds,
+  isAiGradedQuestionType,
   getQuestionKey,
 } from '../utils/examGrading';
-import type { ExamAttempt, ExamQuestionResult, LessonExamData } from '../types';
+import type {
+  ExamAttempt,
+  ExamQuestionResult,
+  FreeTextGradingResponse,
+  LessonExamData,
+} from '../types';
 import { buildLessonKey } from '../utils/lessonKey';
 import { RichContentRenderer } from './rich-content/RichContentRenderer';
 import './ExamViewer.css';
@@ -114,20 +120,39 @@ export function ExamViewer() {
 
     try {
       const answeredFreeTextQuestionIds = getAnsweredFreeTextQuestionIds(exam.questions, answers);
-      const freeTextResponse = answeredFreeTextQuestionIds.length > 0
-        ? await requestFreeTextGrading({
+      const answeredShortAnswerQuestionIds = exam.questions
+        .filter(
+          (question) =>
+            question.type === 'short-answer' &&
+            answers[getQuestionKey(question.id)] !== undefined &&
+            String(answers[getQuestionKey(question.id)]).trim().length > 0,
+        )
+        .map((question) => getQuestionKey(question.id));
+      let freeTextResponse: FreeTextGradingResponse | undefined;
+
+      if (answeredFreeTextQuestionIds.length > 0) {
+        try {
+          freeTextResponse = await requestFreeTextGrading({
             grade: Number(grade),
             subject: subject!,
             quarter: Number(quarter),
             topicName: topicName!,
             examType: exam.examType,
             answers,
-          })
-        : undefined;
+          });
+        } catch (gradingError) {
+          if (answeredShortAnswerQuestionIds.length > 0) {
+            throw gradingError;
+          }
+
+          console.warn('AI grading unavailable for fill-in answers. Falling back to local grading.', gradingError);
+          freeTextResponse = undefined;
+        }
+      }
 
       if (freeTextResponse) {
         const returnedQuestionIds = new Set(freeTextResponse.results.map((result) => result.questionId));
-        const missingQuestionId = answeredFreeTextQuestionIds.find(
+        const missingQuestionId = answeredShortAnswerQuestionIds.find(
           (questionId) => !returnedQuestionIds.has(questionId),
         );
 
@@ -330,7 +355,7 @@ export function ExamViewer() {
                             <span className="correct-text">{String(question.correctAnswer)}</span>
                           </div>
                         )}
-                        {question.type === 'short-answer' && result?.feedback && (
+                        {isAiGradedQuestionType(question.type) && result?.feedback && (
                           <div className="answer-row">
                             <strong>Feedback:</strong>{' '}
                             <span className={isCorrect ? 'correct-text' : 'incorrect-text'}>
