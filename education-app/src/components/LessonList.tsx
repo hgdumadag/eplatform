@@ -91,9 +91,9 @@ export function LessonList() {
       matchesStatus = !progress?.startedAt || false;
     }
 
-    // Check if this is a child view (child user or parent with active child)
-    const isChildView = currentUser?.role === 'child' ||
-                        ((currentUser?.role === 'parent' || currentUser?.role === 'admin') && activeChild);
+    // Children only see grade-appropriate or assigned lessons.
+    // Parents/admins can browse the full catalog even when a child is selected.
+    const isChildView = currentUser?.role === 'child';
 
     if (isChildView && activeChild) {
       // For children: show grade-appropriate OR assigned lessons

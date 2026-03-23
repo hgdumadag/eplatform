@@ -10,6 +10,7 @@ import { buildLessonKey } from '../utils/lessonKey';
 import {
   getLessonGradeDisplay,
   getLessonGradeFilterKey,
+  isCollegeReviewLesson,
   isLessonAccessibleToChild,
   isLessonGradeAppropriateForChild,
 } from '../utils/collegeReview';
@@ -788,12 +789,13 @@ export function ParentDashboard() {
                       const examAttempts = progress?.examAttempts || [];
                       const isAssignedToChild = isAssigned(child.id, lessonId);
                       const isGradeAppropriate = isLessonGradeAppropriateForChild(lesson, child.grade);
+                      const isCollegeReview = isCollegeReviewLesson(lesson);
 
                       return (
                         <tr key={lessonId}>
                           <td className="lesson-name">
                             {lesson.displayName}
-                            {!isGradeAppropriate && (
+                            {isCollegeReview && (
                               <span className="assigned-badge-table">College Review</span>
                             )}
                             {isAssignedToChild && !isGradeAppropriate && (
