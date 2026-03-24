@@ -43,12 +43,20 @@ function InteractiveCard({
   prompt,
   children,
   footer,
+  lessonKey,
+  specPath,
+  context,
+  mode,
 }: {
   title: string;
   runtime: string;
   prompt?: string;
   children: React.ReactNode;
   footer?: React.ReactNode;
+  lessonKey: string;
+  specPath: string;
+  context: InteractiveWidgetComponentProps['context'];
+  mode: InteractiveWidgetComponentProps['mode'];
 }) {
   return (
     <div className="interactive-card">
@@ -59,7 +67,16 @@ function InteractiveCard({
         </h3>
       </div>
       <div className="interactive-card-body">
-        {prompt && <p className="interactive-card-prompt">{prompt}</p>}
+        {prompt && (
+          <StaticRichText
+            markdown={prompt}
+            lessonKey={lessonKey}
+            context={context}
+            interactionMode={mode}
+            basePath={specPath}
+            className="interactive-card-prompt"
+          />
+        )}
         {children}
       </div>
       {footer ? <div className="interactive-card-footer">{footer}</div> : null}
@@ -85,6 +102,10 @@ export function StepRevealWidget({
       title={title || spec.title}
       runtime={readonly ? 'readonly' : 'native'}
       prompt={spec.prompt}
+      lessonKey={lessonKey}
+      specPath={specPath}
+      context={context}
+      mode={mode}
       footer={readonly ? 'Assessment mode shows the steps without progressive reveal.' : 'Use the buttons to unpack the explanation one piece at a time.'}
     >
       {steps.length === 0 ? (
@@ -199,6 +220,9 @@ function describeGraph(specProps: Record<string, unknown>, sliderValue: number):
 
 export function SliderGraphWidget({
   spec,
+  lessonKey,
+  specPath,
+  context,
   mode,
   title,
 }: InteractiveWidgetComponentProps) {
@@ -216,6 +240,10 @@ export function SliderGraphWidget({
       title={title || spec.title}
       runtime={readonly ? 'readonly' : 'native'}
       prompt={spec.prompt}
+      lessonKey={lessonKey}
+      specPath={specPath}
+      context={context}
+      mode={mode}
       footer="Watch how the graph changes as the parameter changes."
     >
       <div className="slider-graph-summary">
@@ -255,6 +283,9 @@ export function SliderGraphWidget({
 
 export function NumberLineWidget({
   spec,
+  lessonKey,
+  specPath,
+  context,
   mode,
   title,
 }: InteractiveWidgetComponentProps) {
@@ -277,6 +308,10 @@ export function NumberLineWidget({
       title={title || spec.title}
       runtime={readonly ? 'readonly' : 'native'}
       prompt={spec.prompt}
+      lessonKey={lessonKey}
+      specPath={specPath}
+      context={context}
+      mode={mode}
       footer="Choose a point on the line and compare it with the target value."
     >
       <div className="number-line">
@@ -331,6 +366,10 @@ export function HotspotDiagramWidget({
       title={title || spec.title}
       runtime={readonly ? 'readonly' : 'native'}
       prompt={spec.prompt}
+      lessonKey={lessonKey}
+      specPath={specPath}
+      context={context}
+      mode={mode}
       footer="Select a marker to reveal the explanation tied to that part of the diagram."
     >
       {loading && <div className="interactive-loading">Loading diagram...</div>}
@@ -380,6 +419,9 @@ export function HotspotDiagramWidget({
 
 export function MatchSortWidget({
   spec,
+  lessonKey,
+  specPath,
+  context,
   mode,
   title,
 }: InteractiveWidgetComponentProps) {
@@ -398,6 +440,10 @@ export function MatchSortWidget({
       title={title || spec.title}
       runtime={readonly ? 'readonly' : 'native'}
       prompt={spec.prompt}
+      lessonKey={lessonKey}
+      specPath={specPath}
+      context={context}
+      mode={mode}
       footer={readonly ? 'Assessment mode shows the confirmed pairings.' : 'Match each prompt with the best partner.'}
     >
       {pairs.length === 0 ? (
@@ -446,6 +492,9 @@ export function MatchSortWidget({
 
 export function TableExplorerWidget({
   spec,
+  lessonKey,
+  specPath,
+  context,
   mode,
   title,
 }: InteractiveWidgetComponentProps) {
@@ -494,6 +543,10 @@ export function TableExplorerWidget({
       title={title || spec.title}
       runtime={readonly ? 'readonly' : 'native'}
       prompt={spec.prompt}
+      lessonKey={lessonKey}
+      specPath={specPath}
+      context={context}
+      mode={mode}
       footer="Sort the table to compare rows, then inspect a row for details."
     >
       {!readonly && (
@@ -580,6 +633,7 @@ export function SandboxHostWidget({
   spec,
   specPath,
   lessonKey,
+  context,
   mode,
   title,
   height,
@@ -592,6 +646,10 @@ export function SandboxHostWidget({
       title={title || spec.title}
       runtime={mode === 'readonly' ? 'readonly' : 'sandbox'}
       prompt={spec.prompt}
+      lessonKey={lessonKey}
+      specPath={specPath}
+      context={context}
+      mode={mode}
       footer="This richer mini-app runs inside a sandboxed frame."
     >
       {htmlPath ? (
