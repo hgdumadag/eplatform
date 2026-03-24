@@ -4,9 +4,9 @@
   "examType": "assessment",
   "title": "Week 5 Assessment: Geometry Foundations",
   "description": "End-of-week checkpoint for high-yield geometry formulas and diagram reasoning.",
-  "totalPoints": 100,
-  "totalQuestions": 8,
-  "timeLimit": 30,
+  "totalPoints": 150,
+  "totalQuestions": 15,
+  "timeLimit": 45,
   "passingScore": 75,
   "questions": [
     {
@@ -14,7 +14,12 @@
       "type": "multiple-choice",
       "points": 10,
       "question": "A square has side length 12. What is its area?",
-      "options": ["24", "48", "96", "144"],
+      "options": [
+        "24",
+        "48",
+        "96",
+        "144"
+      ],
       "correctAnswer": 3
     },
     {
@@ -22,7 +27,12 @@
       "type": "multiple-choice",
       "points": 10,
       "question": "A right triangle has legs 5 and 12. What is the hypotenuse?",
-      "options": ["10", "12", "13", "17"],
+      "options": [
+        "10",
+        "12",
+        "13",
+        "17"
+      ],
       "correctAnswer": 2
     },
     {
@@ -30,7 +40,12 @@
       "type": "multiple-choice",
       "points": 10,
       "question": "The angles in a triangle are $40^\\circ$, $65^\\circ$, and:",
-      "options": ["65°", "70°", "75°", "85°"],
+      "options": [
+        "65°",
+        "70°",
+        "75°",
+        "85°"
+      ],
       "correctAnswer": 2
     },
     {
@@ -38,7 +53,12 @@
       "type": "multiple-choice",
       "points": 10,
       "question": "What is the perimeter of a rectangle with length 13 and width 6?",
-      "options": ["19", "38", "52", "78"],
+      "options": [
+        "19",
+        "38",
+        "52",
+        "78"
+      ],
       "correctAnswer": 1
     },
     {
@@ -46,7 +66,12 @@
       "type": "multiple-choice",
       "points": 10,
       "question": "A triangle has base 16 and height 9. What is its area?",
-      "options": ["48", "72", "81", "144"],
+      "options": [
+        "48",
+        "72",
+        "81",
+        "144"
+      ],
       "correctAnswer": 1
     },
     {
@@ -59,16 +84,89 @@
     {
       "id": "q7",
       "type": "fill-in",
-      "points": 15,
+      "points": 10,
       "question": "Find the area of a circle with radius 6. Express in terms of $\\pi$.",
       "correctAnswer": "36π"
     },
     {
       "id": "q8",
       "type": "short-answer",
-      "points": 25,
+      "points": 10,
       "question": "A trapezoid has bases 12 and 18 and height 4. Find its area.",
       "correctAnswer": "60"
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "What is the circumference of a circle with radius 5 in terms of $\\pi$?",
+      "options": [
+        "$5\\pi$",
+        "$10\\pi$",
+        "$20\\pi$",
+        "$25\\pi$"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "The angles of a triangle are $x$, $x+20$, and $x+40$. What is the smallest angle?",
+      "options": [
+        "30°",
+        "40°",
+        "50°",
+        "60°"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "What is the area of a rectangle with length 9 and width 14?",
+      "options": [
+        "112",
+        "118",
+        "126",
+        "144"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A square has side length 15. What is its perimeter?",
+      "options": [
+        "30",
+        "45",
+        "60",
+        "225"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q13",
+      "type": "true-false",
+      "points": 10,
+      "question": "A triangle with side lengths 6, 8, and 10 is a right triangle.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": "q14",
+      "type": "fill-in",
+      "points": 10,
+      "question": "An isosceles triangle has equal sides 13 and base 10. Find the height from the apex to the base.",
+      "correctAnswer": "12"
+    },
+    {
+      "id": "q15",
+      "type": "short-answer",
+      "points": 10,
+      "question": "A circle has diameter 14. Find its circumference in terms of $\\pi$.",
+      "correctAnswer": "14π"
     }
   ]
 }

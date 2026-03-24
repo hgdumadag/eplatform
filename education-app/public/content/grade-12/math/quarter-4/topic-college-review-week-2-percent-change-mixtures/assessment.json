@@ -4,9 +4,9 @@
   "examType": "assessment",
   "title": "Week 2 Assessment: Percent Change, Discounts, and Mixtures",
   "description": "End-of-week checkpoint for changing-base percent problems and mixtures.",
-  "totalPoints": 100,
-  "totalQuestions": 8,
-  "timeLimit": 30,
+  "totalPoints": 150,
+  "totalQuestions": 15,
+  "timeLimit": 45,
   "passingScore": 75,
   "questions": [
     {
@@ -14,7 +14,12 @@
       "type": "multiple-choice",
       "points": 10,
       "question": "A value increases from 50 to 65. What percent increase is this?",
-      "options": ["15%", "25%", "30%", "35%"],
+      "options": [
+        "15%",
+        "25%",
+        "30%",
+        "35%"
+      ],
       "correctAnswer": 2
     },
     {
@@ -22,7 +27,12 @@
       "type": "multiple-choice",
       "points": 10,
       "question": "A 1,200-peso gadget is discounted 20%. What is the sale price?",
-      "options": ["920", "940", "960", "980"],
+      "options": [
+        "920",
+        "940",
+        "960",
+        "980"
+      ],
       "correctAnswer": 2
     },
     {
@@ -30,7 +40,12 @@
       "type": "multiple-choice",
       "points": 10,
       "question": "A quantity falls from 90 to 72. What is the percent decrease?",
-      "options": ["18%", "20%", "22%", "25%"],
+      "options": [
+        "18%",
+        "20%",
+        "22%",
+        "25%"
+      ],
       "correctAnswer": 1
     },
     {
@@ -38,7 +53,12 @@
       "type": "multiple-choice",
       "points": 10,
       "question": "If a price is increased by 10% and then by another 10%, starting from 100, what is the final price?",
-      "options": ["110", "120", "121", "130"],
+      "options": [
+        "110",
+        "120",
+        "121",
+        "130"
+      ],
       "correctAnswer": 2
     },
     {
@@ -46,7 +66,12 @@
       "type": "multiple-choice",
       "points": 10,
       "question": "To make a 30% solution from a 20% and 50% solution, the final concentration should be:",
-      "options": ["Less than 20%", "Between 20% and 50%", "Greater than 50%", "Exactly 70%"],
+      "options": [
+        "Less than 20%",
+        "Between 20% and 50%",
+        "Greater than 50%",
+        "Exactly 70%"
+      ],
       "correctAnswer": 1
     },
     {
@@ -59,16 +84,89 @@
     {
       "id": "q7",
       "type": "fill-in",
-      "points": 15,
+      "points": 10,
       "question": "A price drops from 500 to 425. What is the percent decrease?",
       "correctAnswer": "15%"
     },
     {
       "id": "q8",
       "type": "short-answer",
-      "points": 25,
+      "points": 10,
       "question": "How many liters of 25% solution should be mixed with 10 liters of 40% solution to obtain a 34% solution?",
       "correctAnswer": "10"
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A bag priced at 900 pesos is marked up by 30%. What is the new price?",
+      "options": [
+        "1,080",
+        "1,120",
+        "1,170",
+        "1,200"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A quantity drops from 120 to 90. What is the percent decrease?",
+      "options": [
+        "20%",
+        "25%",
+        "30%",
+        "35%"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "An item costs 250 pesos and is discounted by 12%. What is the sale price?",
+      "options": [
+        "210",
+        "218",
+        "220",
+        "232"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Starting from 80, a value increases by 20% and then by 25%. What is the final value?",
+      "options": [
+        "110",
+        "115",
+        "120",
+        "125"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q13",
+      "type": "true-false",
+      "points": 10,
+      "question": "When mixing 10% and 40% solutions, the final concentration must lie between 10% and 40%.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": "q14",
+      "type": "fill-in",
+      "points": 10,
+      "question": "An amount increases from 240 to 300. What is the percent increase?",
+      "correctAnswer": "25%"
+    },
+    {
+      "id": "q15",
+      "type": "short-answer",
+      "points": 10,
+      "question": "How many liters of 20% solution should be mixed with 8 liters of 35% solution to make a 26% solution?",
+      "correctAnswer": "12"
     }
   ]
 }

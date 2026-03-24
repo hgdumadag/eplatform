@@ -4,9 +4,9 @@
   "examType": "assessment",
   "title": "Week 6 Assessment: Circles, Similarity, and Coordinate Geometry",
   "description": "End-of-week checkpoint for combined visual and coordinate reasoning.",
-  "totalPoints": 100,
-  "totalQuestions": 8,
-  "timeLimit": 30,
+  "totalPoints": 150,
+  "totalQuestions": 15,
+  "timeLimit": 45,
   "passingScore": 75,
   "questions": [
     {
@@ -14,7 +14,12 @@
       "type": "multiple-choice",
       "points": 10,
       "question": "What is the area of a circle with radius 4?",
-      "options": ["$4\\pi$", "$8\\pi$", "$12\\pi$", "$16\\pi$"],
+      "options": [
+        "$4\\pi$",
+        "$8\\pi$",
+        "$12\\pi$",
+        "$16\\pi$"
+      ],
       "correctAnswer": 3
     },
     {
@@ -22,7 +27,12 @@
       "type": "multiple-choice",
       "points": 10,
       "question": "The side lengths of two similar triangles are in the ratio $3:7$. What is the area ratio?",
-      "options": ["$3:7$", "$6:14$", "$9:49$", "$21:49$"],
+      "options": [
+        "$3:7$",
+        "$6:14$",
+        "$9:49$",
+        "$21:49$"
+      ],
       "correctAnswer": 2
     },
     {
@@ -30,7 +40,12 @@
       "type": "multiple-choice",
       "points": 10,
       "question": "Find the midpoint of $(-2,6)$ and $(4,-2)$.",
-      "options": ["$(1,2)$", "$(2,1)$", "$(1,4)$", "$(2,4)$"],
+      "options": [
+        "$(1,2)$",
+        "$(2,1)$",
+        "$(1,4)$",
+        "$(2,4)$"
+      ],
       "correctAnswer": 0
     },
     {
@@ -38,7 +53,12 @@
       "type": "multiple-choice",
       "points": 10,
       "question": "Find the slope through $(2,-1)$ and $(6,7)$.",
-      "options": ["1", "2", "3", "4"],
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
       "correctAnswer": 1
     },
     {
@@ -46,7 +66,12 @@
       "type": "multiple-choice",
       "points": 10,
       "question": "What is the distance between $(1,1)$ and $(4,5)$?",
-      "options": ["4", "5", "6", "7"],
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
       "correctAnswer": 1
     },
     {
@@ -59,16 +84,89 @@
     {
       "id": "q7",
       "type": "fill-in",
-      "points": 15,
+      "points": 10,
       "question": "The circumference of a circle with radius 9 is ____ in terms of $\\pi$.",
       "correctAnswer": "18π"
     },
     {
       "id": "q8",
       "type": "short-answer",
-      "points": 25,
+      "points": 10,
       "question": "A line has slope $-\\frac{2}{5}$. What is the slope of a line perpendicular to it?",
       "correctAnswer": "5/2"
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "What is the circumference of a circle with radius 10 in terms of $\\pi$?",
+      "options": [
+        "$10\\pi$",
+        "$20\\pi$",
+        "$40\\pi$",
+        "$100\\pi$"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "If two similar figures have side ratio $4:9$, what is their perimeter ratio?",
+      "options": [
+        "$4:9$",
+        "$16:81$",
+        "$9:4$",
+        "$8:18$"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "What is the slope of a line perpendicular to a line with slope $\\frac{3}{4}$?",
+      "options": [
+        "$-\\frac{3}{4}$",
+        "$\\frac{4}{3}$",
+        "$-\\frac{4}{3}$",
+        "$\\frac{3}{4}$"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "What is the distance between $(2,3)$ and $(2,-5)$?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "10"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q13",
+      "type": "true-false",
+      "points": 10,
+      "question": "If two triangles are similar, then their corresponding angles are equal.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": "q14",
+      "type": "fill-in",
+      "points": 10,
+      "question": "Find the midpoint of $(4,-6)$ and $(10,2)$.",
+      "correctAnswer": "(7,-2)"
+    },
+    {
+      "id": "q15",
+      "type": "short-answer",
+      "points": 10,
+      "question": "Points $A(1,2)$ and $B(7,10)$ are on a line. Find the slope and the midpoint.",
+      "correctAnswer": "slope 4/3, midpoint (4,6)"
     }
   ]
 }
