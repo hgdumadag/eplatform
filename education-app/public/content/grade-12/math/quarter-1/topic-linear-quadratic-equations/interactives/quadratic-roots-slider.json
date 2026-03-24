@@ -1,0 +1,47 @@
+{
+  "id": "linear-quadratic-equations-quadratic-roots-slider",
+  "version": "1.0",
+  "runtime": "native",
+  "widget": "slider-graph",
+  "title": "How c Changes the Roots",
+  "prompt": "Move the slider in $y = x^2 - 4x + c$ and watch how the parabola changes its intersections with the $x$-axis.",
+  "props": {
+    "parameter": {
+      "label": "Constant c",
+      "min": 0,
+      "max": 6,
+      "step": 1,
+      "initial": 2
+    },
+    "relation": {
+      "type": "quadratic",
+      "controlled": "c",
+      "fixed": {
+        "a": 1,
+        "b": -4
+      }
+    },
+    "domain": {
+      "start": -1,
+      "end": 5,
+      "step": 0.5
+    }
+  },
+  "checkpoints": [
+    {
+      "id": "two-real-roots",
+      "label": "Two real roots"
+    },
+    {
+      "id": "repeated-root",
+      "label": "Repeated root"
+    },
+    {
+      "id": "no-real-roots",
+      "label": "No real roots"
+    }
+  ],
+  "fallback": {
+    "markdown": "For $y = x^2 - 4x + c$, the discriminant is $16 - 4c$. When $c < 4$, the graph has two real $x$-intercepts. When $c = 4$, it touches the axis once at $x = 2$. When $c > 4$, it has no real $x$-intercepts."
+  }
+}

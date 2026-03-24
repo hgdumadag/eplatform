@@ -1,0 +1,45 @@
+{
+  "id": "linear-quadratic-equations-elimination-sign-check",
+  "version": "1.0",
+  "runtime": "native",
+  "widget": "step-reveal",
+  "title": "Elimination Sign Check",
+  "prompt": "Use this to debug the sign mistake before it turns into a wrong final answer.",
+  "props": {
+    "steps": [
+      {
+        "title": "Read the structure first",
+        "content": "In the system $$3x + 2y = 17$$ and $$x - 2y = 3$$, the $y$-coefficients are already opposites. That means **adding** the equations will eliminate $y$ right away."
+      },
+      {
+        "title": "Add corresponding terms carefully",
+        "content": "Add left side to left side and right side to right side:\n\n$$(3x + 2y) + (x - 2y) = 17 + 3$$\n\nSo $$4x = 20$$ and $$x = 5$$."
+      },
+      {
+        "title": "Spot the common trap",
+        "content": "A frequent mistake is changing $$x - 2y$$ into $$x + 2y$$ without multiplying the **entire** equation by $-1$. Never flip just one sign in elimination."
+      },
+      {
+        "title": "Back-substitute and finish",
+        "content": "Substitute $x = 5$ into $$x - 2y = 3$$:\n\n$$5 - 2y = 3$$\n$$-2y = -2$$\n$$y = 1$$\n\nSo the solution is **$(5, 1)$**."
+      }
+    ]
+  },
+  "checkpoints": [
+    {
+      "id": "read-structure",
+      "label": "Read the structure"
+    },
+    {
+      "id": "protect-signs",
+      "label": "Protect the signs"
+    },
+    {
+      "id": "back-substitute",
+      "label": "Back-substitute"
+    }
+  ],
+  "fallback": {
+    "markdown": "If coefficients are already opposites, add the equations directly. Only change signs when you multiply the **whole** equation by $-1$. For $$3x + 2y = 17$$ and $$x - 2y = 3$$, adding gives $$4x = 20$$, so $x = 5$, and then $y = 1$."
+  }
+}

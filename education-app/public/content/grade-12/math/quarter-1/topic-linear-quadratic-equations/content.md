@@ -1,222 +1,327 @@
-# Linear and Quadratic Equations
+# College Entrance Review: Systems and Second-Degree Equations
 
-## Introduction
+> [!GOAL] Weekly Goal
+>
+> Build the exam habit of choosing the right structure before doing the algebra.
+>
+> **Main habit:** Ask two questions first: "What must be true at the same time?" and "Is this relationship linear or quadratic?"
 
-Solving equations is the backbone of algebra and appears repeatedly throughout the UPCAT Mathematics exam. Whether you're working with linear equations in one variable, systems of equations in two or more variables, or quadratic equations, mastering solution methods is essential. This topic covers the most important techniques: isolating variables, elimination and substitution for systems, factoring and the quadratic formula for quadratic equations, and interpreting the discriminant to understand the nature of solutions.
+## Weekly Roadmap
 
-The UPCAT frequently tests not just whether you can solve an equation, but whether you understand the conceptual meaning behind solutions, such as why the discriminant determines the number of real roots or how Vieta's formulas relate coefficients to roots without solving. This topic emphasizes both procedural skill and conceptual depth.
+| Session | Main Focus | Target Time | Exam Use |
+| --- | --- | --- | --- |
+| 1 | Systems as simultaneous truths | 30-35 minutes | Use the practice exam to drill substitution and elimination choices |
+| 2 | Quadratics as roots of a parabola | 30-35 minutes | Study the worked examples, then solve under light time pressure |
+| 3 | Word problems, error repair, and timed transfer | 25-30 minutes | Finish with the assessment exam as a checkpoint |
 
-## Linear Equations in One Variable
+---
 
-A **linear equation** in one variable has the form $ax + b = c$, where $a, b, c$ are constants and $a \neq 0$. Solving requires isolating the variable through inverse operations.
+## Session 1: Systems Mean "Both Are True"
 
-**Basic method:**
-1. Remove constants by adding or subtracting
-2. Remove coefficients by multiplying or dividing
-3. Check the solution by substituting back into the original equation
+> [!TARGET] Session Target
+>
+> **Target time:** 30-35 minutes
+>
+> See a system as one ordered pair that makes two statements true at the same time.
 
-**Example:** Solve $3(x - 2) + 5 = 2x + 7$
-$$3x - 6 + 5 = 2x + 7$$
-$$3x - 1 = 2x + 7$$
-$$x = 8$$
+### Warm-Up Recall
 
-Check: $3(8 - 2) + 5 = 3(6) + 5 = 23$ and $2(8) + 7 = 23$ ✓
+1. Solve $2x + 5 = 17$.
+2. If $y = 3x - 1$, find $y$ when $x = 2$.
+3. What does the ordered pair $(4, 1)$ tell you?
 
-**Common challenges:**
-- Distributing correctly
-- Combining like terms
-- Tracking negative signs
+### Core Idea 1: The Solution Is an Intersection and a Check
 
-## Systems of Linear Equations
+If two lines cross at $(a, b)$, that point satisfies both equations. Solving a system means finding the shared ordered pair, not just finding $x$ or $y$ alone.
 
-A **system of linear equations** consists of two or more equations with multiple variables. We seek values that satisfy all equations simultaneously.
+**Example 1:** Find the solution of
 
-**Substitution method:**
-1. Solve one equation for one variable
-2. Substitute that expression into the other equation
-3. Solve the resulting single-variable equation
-4. Back-substitute to find the other variable
+$$y = x + 1$$
+$$y = -x + 5$$
 
-**Example:**
-$$2x + 3y = 12 \quad \text{...(1)}$$
-$$x - y = 1 \quad \text{...(2)}$$
+Set the expressions for $y$ equal:
 
-From equation (2): $x = y + 1$
+$$x + 1 = -x + 5$$
+$$2x = 4$$
+$$x = 2$$
 
-Substitute into (1): $2(y + 1) + 3y = 12$
-$$2y + 2 + 3y = 12$$
+Then:
+
+$$y = 3$$
+
+Check in both equations:
+
+- $3 = 2 + 1$
+- $3 = -2 + 5$
+
+So the solution is **$(2, 3)$**.
+
+> [!TIP] Fast Interpretation Rule
+>
+> - One intersection means one solution.
+> - Parallel lines mean no solution.
+> - The same line written two ways means infinitely many solutions.
+
+### Core Idea 2: Choose the Method from the Structure
+
+| If you notice... | Best first move | Why |
+| --- | --- | --- |
+| A variable is already isolated, like $y = 2x - 5$ | Substitution | You can replace immediately |
+| Coefficients are opposites or easy to match | Elimination | One variable disappears fast |
+| The problem asks what point fits both conditions | Graph or check the pair | It keeps the meaning visible |
+
+**Example 2: Substitution**
+
+Solve:
+
+$$x - y = 1$$
+$$2x + 3y = 12$$
+
+From the first equation:
+
+$$x = y + 1$$
+
+Substitute into the second:
+
+$$2(y + 1) + 3y = 12$$
+$$5y + 2 = 12$$
 $$5y = 10$$
 $$y = 2$$
 
-Then $x = 2 + 1 = 3$
+Then:
 
-**Elimination (addition/subtraction) method:**
-1. Multiply one or both equations to make coefficients of one variable opposites
-2. Add the equations to eliminate that variable
-3. Solve the resulting equation
-4. Back-substitute
-
-**Example (same system):**
-Multiply equation (2) by 3: $3x - 3y = 3$
-
-Add to equation (1):
-$$(2x + 3y) + (3x - 3y) = 12 + 3$$
-$$5x = 15$$
 $$x = 3$$
 
-Substitute back: $3 - y = 1 \Rightarrow y = 2$
+So the solution is **$(3, 2)$**.
 
-## Quadratic Equations
+**Example 3: Elimination**
 
-A **quadratic equation** has the form $ax^2 + bx + c = 0$, where $a \neq 0$. The highest exponent is 2.
+Solve:
 
-### Solving by Factoring
-
-If the quadratic factors as $(px + q)(rx + s) = 0$, then either $px + q = 0$ or $rx + s = 0$.
-
-**Steps:**
-1. Write the equation in standard form: $ax^2 + bx + c = 0$
-2. Factor the left side (find factors of $ac$ that sum to $b$)
-3. Apply the zero-product property: each factor equals 0
-4. Solve each resulting linear equation
-
-**Example:** Solve $x^2 - 5x + 6 = 0$
-
-Factors of 6 that sum to -5: -2 and -3
-
-$$(x - 2)(x - 3) = 0$$
-$$x = 2 \text{ or } x = 3$$
-
-### Solving with the Quadratic Formula
-
-When factoring is difficult or impossible, use the quadratic formula:
-
-$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
-
-**Example:** Solve $2x^2 - 3x - 5 = 0$
-
-Here $a = 2, b = -3, c = -5$
-
-$$x = \frac{-(-3) \pm \sqrt{(-3)^2 - 4(2)(-5)}}{2(2)}$$
-$$= \frac{3 \pm \sqrt{9 + 40}}{4}$$
-$$= \frac{3 \pm \sqrt{49}}{4}$$
-$$= \frac{3 \pm 7}{4}$$
-
-So $x = \frac{10}{4} = \frac{5}{2}$ or $x = \frac{-4}{4} = -1$
-
-### Completing the Square
-
-Another method involves rewriting the equation as a perfect square.
-
-$ax^2 + bx + c = 0 \Rightarrow a\left(x + \frac{b}{2a}\right)^2 = c - \frac{b^2}{4a}$
-
-This method is less commonly used on the UPCAT but shows why the quadratic formula works.
-
-## The Discriminant
-
-The **discriminant** is $\Delta = b^2 - 4ac$. It determines the nature of the roots without solving:
-
-- **If $\Delta > 0$:** Two distinct real roots (parabola crosses $x$-axis twice)
-- **If $\Delta = 0$:** One real root with multiplicity 2 (parabola touches $x$-axis once)
-- **If $\Delta < 0$:** No real roots; two complex conjugate roots (parabola does not touch $x$-axis)
-
-**Example:** Determine the nature of roots for $3x^2 - 4x + 2 = 0$
-
-$$\Delta = (-4)^2 - 4(3)(2) = 16 - 24 = -8 < 0$$
-
-Since $\Delta < 0$, this equation has no real roots.
-
-## Vieta's Formulas
-
-For a quadratic $ax^2 + bx + c = 0$ with roots $r$ and $s$:
-
-$$\text{Sum of roots: } r + s = -\frac{b}{a}$$
-$$\text{Product of roots: } rs = \frac{c}{a}$$
-
-These relationships allow you to find relationships between roots without solving.
-
-**Example:** For $x^2 - 5x + 6 = 0$:
-- Sum: $r + s = -\frac{-5}{1} = 5$
-- Product: $rs = \frac{6}{1} = 6$
-
-Indeed, the roots are 2 and 3: $2 + 3 = 5$ and $2 \cdot 3 = 6$ ✓
-
-## Word Problems and Applications
-
-Equations model real-world situations. Common types include:
-- Distance-rate-time problems
-- Work-rate problems
-- Profit and cost optimization
-- Area and volume calculations
-
-## Key Formulas
-
-$$\text{Linear equation (one variable): } ax + b = c$$
-
-$$\text{Quadratic equation (standard form): } ax^2 + bx + c = 0, \quad a \neq 0$$
-
-$$\text{Quadratic formula: } x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
-
-$$\text{Discriminant: } \Delta = b^2 - 4ac$$
-
-$$\text{Sum of roots: } r + s = -\frac{b}{a}$$
-
-$$\text{Product of roots: } rs = \frac{c}{a}$$
-
-## Worked Examples
-
-**Example 1:** Solve $3(x - 2) + 5 = 2x + 7$
-$$3x - 6 + 5 = 2x + 7$$
-$$3x - 1 = 2x + 7$$
-$$x = 8$$
-
-**Example 2:** Solve the system:
-$$2x + 3y = 12$$
+$$2x + y = 11$$
 $$x - y = 1$$
 
-Using substitution: $x = y + 1 \Rightarrow 2(y + 1) + 3y = 12 \Rightarrow 5y = 10 \Rightarrow y = 2$, $x = 3$
+Add the equations:
 
-**Example 3:** Solve $x^2 - 5x + 6 = 0$ by factoring
-$$(x - 2)(x - 3) = 0 \Rightarrow x = 2 \text{ or } x = 3$$
+$$3x = 12$$
+$$x = 4$$
 
-**Example 4:** Solve $2x^2 - 3x - 5 = 0$ using the quadratic formula
-$$x = \frac{3 \pm \sqrt{9 + 40}}{4} = \frac{3 \pm 7}{4} \Rightarrow x = \frac{5}{2} \text{ or } x = -1$$
+Substitute into $x - y = 1$:
 
-**Example 5:** Determine the nature of roots for $3x^2 - 4x + 2 = 0$
-$$\Delta = 16 - 24 = -8 < 0 \Rightarrow \text{No real roots}$$
+$$4 - y = 1$$
+$$y = 3$$
 
-## UPCAT Tips & Common Mistakes
+So the solution is **$(4, 3)$**.
 
-1. **Always check your solution.** Substitute back into the original equation to verify.
+```interactive
+{
+  "spec": "interactives/elimination-sign-check.json",
+  "mode": "interactive",
+  "height": 360,
+  "title": "Elimination Sign Check"
+}
+```
 
-2. **Use the discriminant first.** Before solving a quadratic, compute $\Delta$ to determine how many real roots exist. This can save time and prevent careless errors.
+> [!WARNING] Common System Trap
+>
+> When you multiply an equation by $-1$, every term changes sign. Missing one sign creates a fake solution.
 
-3. **Factor carefully.** When using the factoring method, ensure the factors multiply to give $ac$ and sum to $b$. Common error: mixing up signs.
+### Mini Check
 
-4. **Distribute and combine like terms precisely.** Most errors in solving arise from algebraic manipulation, not from the solving method itself.
+- Which method is faster for $y = 4x - 7$ and $2x + y = 8$?
+- Which method is faster for $3x + 2y = 14$ and $5x - 2y = 6$?
+- How would you check an ordered pair in a system?
 
-5. **Watch for special cases.** A quadratic with $a = 1$ (monic polynomial) is easier to factor: look for two numbers that multiply to $c$ and sum to $b$.
+---
 
-6. **In systems, choose the simpler equation to manipulate.** If one equation is already solved for a variable (e.g., $x = \ldots$), use substitution directly.
+## Session 2: Quadratics Mean Roots and Turning Points
 
-7. **Understand Vieta's formulas.** These allow you to verify your solutions and sometimes solve problems without explicit calculation.
+> [!TARGET] Session Target
+>
+> **Target time:** 30-35 minutes
+>
+> Connect the algebra of a quadratic equation to the graph of a parabola so the solving method makes sense.
+
+### Warm-Up Recall
+
+1. Factor $x^2 + 5x + 6$.
+2. Expand $(x - 4)(x + 1)$.
+3. What does it mean when $y = 0$ on a graph?
+
+### Core Idea 1: A Quadratic Root Is an X-Intercept
+
+A second-degree equation has the form
+
+$$ax^2 + bx + c = 0 \qquad a \neq 0$$
+
+Its solutions are the $x$-values where the parabola meets the $x$-axis.
+
+**Example 4: Solve by factoring**
+
+Solve:
+
+$$x^2 - 5x + 6 = 0$$
+
+Factor:
+
+$$(x - 2)(x - 3) = 0$$
+
+So:
+
+$$x = 2 \quad \text{or} \quad x = 3$$
+
+These are the two $x$-intercepts of the parabola.
+
+```interactive
+{
+  "spec": "interactives/quadratic-roots-slider.json",
+  "mode": "interactive",
+  "height": 420,
+  "title": "How c Changes the Roots"
+}
+```
+
+### Core Idea 2: Pick the Method That Fits the Equation
+
+| Situation | Best first move | Reason |
+| --- | --- | --- |
+| The trinomial factors cleanly | Factoring | Fastest under exam pressure |
+| Factoring is not obvious | Quadratic formula | Works every time |
+| You only need the number of real roots | Discriminant | No full solving needed |
+
+**Example 5: Solve with the quadratic formula**
+
+Solve:
+
+$$x^2 - 6x + 1 = 0$$
+
+Here $a = 1$, $b = -6$, and $c = 1$.
+
+$$x = \frac{-(-6) \pm \sqrt{(-6)^2 - 4(1)(1)}}{2(1)}$$
+$$x = \frac{6 \pm \sqrt{36 - 4}}{2}$$
+$$x = \frac{6 \pm \sqrt{32}}{2}$$
+$$x = \frac{6 \pm 4\sqrt{2}}{2}$$
+$$x = 3 \pm 2\sqrt{2}$$
+
+**Example 6: Use the discriminant before solving**
+
+For
+
+$$2x^2 + 4x + 5 = 0$$
+
+$$\Delta = b^2 - 4ac = 4^2 - 4(2)(5) = 16 - 40 = -24$$
+
+Since $\Delta < 0$, the equation has **no real roots**.
+
+> [!TIP] Method-Choice Shortcut
+>
+> - If the numbers are small and friendly, try factoring first.
+> - If the constant or middle term looks awkward, use the quadratic formula.
+> - If the question says "how many real roots," compute the discriminant immediately.
+
+> [!CHECK] Error Debug
+>
+> If a student writes
+>
+> $$x = \frac{-6 \pm \sqrt{36 - 4}}{1}$$
+>
+> the denominator is wrong. In the quadratic formula, the denominator is always $2a$, not just $a$.
+
+---
+
+## Session 3: Translate, Solve, and Look Back
+
+> [!TARGET] Session Target
+>
+> **Target time:** 25-30 minutes
+>
+> Turn exam-style wording into structure, then verify whether the answer makes sense.
+
+### Know and Wonder Routine
+
+Before solving a word problem, write:
+
+- `Know:` facts or totals given in the problem
+- `Wonder:` what exact value the problem asks for
+- `Structure:` system or quadratic?
+
+This keeps the setup clear and reduces careless errors.
+
+### Worked Example 7: System from a Ticket Problem
+
+Student tickets cost Php90 and adult tickets cost Php150. A total of 14 tickets were sold for Php1500. How many adult tickets were sold?
+
+Let:
+
+- $a$ = adult tickets
+- $s$ = student tickets
+
+From the problem:
+
+$$a + s = 14$$
+$$150a + 90s = 1500$$
+
+Divide the second equation by 30:
+
+$$5a + 3s = 50$$
+
+From $a + s = 14$, we get:
+
+$$s = 14 - a$$
+
+Substitute:
+
+$$5a + 3(14 - a) = 50$$
+$$5a + 42 - 3a = 50$$
+$$2a = 8$$
+$$a = 4$$
+
+So **4 adult tickets** were sold.
+
+### Worked Example 8: Quadratic from Area
+
+A rectangle has width $x$ and length $x + 3$. Its area is 40 square units. Find the dimensions.
+
+Set up the equation:
+
+$$x(x + 3) = 40$$
+$$x^2 + 3x - 40 = 0$$
+
+Factor:
+
+$$(x + 8)(x - 5) = 0$$
+
+So $x = -8$ or $x = 5$.
+
+Reject the negative width.  
+Width $= 5$, length $= 8$.
+
+> [!IMPORTANT] Look-Back Questions
+>
+> - Does the ordered pair satisfy both equations?
+> - Does each root make the original quadratic equal to 0?
+> - Does the answer make sense in the real situation? Lengths and ticket counts cannot be negative.
+
+> [!CHECK] Personal Error Log
+>
+> Tag each miss with one label:
+>
+> - `setup`
+> - `substitution`
+> - `elimination-sign`
+> - `factor-pair`
+> - `formula-substitution`
+> - `reasonableness-check`
 
 ## Key Takeaways
 
-- **Linear equations** are solved by isolating the variable through inverse operations.
-- **Systems of equations** are solved by substitution or elimination.
-- **Quadratic equations** can be solved by factoring, completing the square, or the quadratic formula.
-- **The discriminant** determines the number and type of roots without solving.
-- **Vieta's formulas** relate the sum and product of roots to the coefficients.
-- Always verify solutions by substitution and understand the conceptual meaning of your answers.
+- A system solution is the ordered pair that makes both equations true.
+- A quadratic root is an $x$-value where the parabola hits the $x$-axis.
+- Method choice is a real test skill: substitution and elimination depend on structure, while factoring, the quadratic formula, and the discriminant answer different needs.
+- Strong exam solvers always check whether the final answer fits the original conditions.
 
-## Practice Problems
-
-1. Solve $4x - 7 = 13$
-2. Solve the system: $3x + 2y = 11$ and $x - y = 2$
-3. Solve $x^2 + 5x + 4 = 0$ by factoring
-4. Solve $3x^2 - 2x - 1 = 0$ using the quadratic formula
-5. Find the discriminant of $2x^2 - 5x + 3 = 0$ and determine the nature of roots
-6. For $x^2 - 7x + 10 = 0$, verify that the sum and product of roots match Vieta's formulas
-7. A rectangle has length 3 more than its width. Its area is 40 square units. Find the dimensions.
-8. Solve $2(3x - 1) = 4(x + 2)$
+> [!PRACTICE] How to Use This Pack
+>
+> - Start with the **practice exam** to drill method choice and quick solving.
+> - Use the **assessment exam** after Session 3 as a mixed checkpoint.
+> - If you miss an item, rewrite only the setup and the first correct move before solving again.

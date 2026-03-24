@@ -3,20 +3,32 @@
   "grade": 12,
   "subject": "math",
   "quarter": 1,
-  "topicName": "Linear and Quadratic Equations",
-  "description": "Solve linear equations, systems of equations, and quadratic equations using factoring, the quadratic formula, and the discriminant.",
+  "topicName": "College Entrance Review: Systems and Second-Degree Equations",
+  "description": "Train entrance-exam algebra habits by solving systems of equations and quadratic equations with method choice, checking, and word-problem translation.",
   "learningObjectives": [
-    "Solve linear equations in one and two variables",
-    "Solve systems of linear equations by substitution and elimination",
-    "Solve quadratic equations by factoring and the quadratic formula",
-    "Interpret the discriminant to determine the nature of roots"
+    "Interpret the solution of a system as the ordered pair that makes both equations true",
+    "Choose between substitution and elimination based on the structure of a system",
+    "Solve quadratic equations by factoring or by using the quadratic formula",
+    "Use the discriminant and reasonableness checks to interpret and verify answers"
   ],
-  "estimatedDuration": 60,
+  "estimatedDuration": 90,
   "difficulty": "advanced",
-  "tags": ["algebra", "linear-equations", "quadratic", "systems", "quadratic-formula", "upcat"],
-  "prerequisites": ["Evaluating algebraic expressions", "Basic algebra", "Factoring"],
-  "lastUpdated": "2026-02-18",
-  "version": "1.0",
+  "tags": [
+    "algebra",
+    "systems-of-equations",
+    "quadratic-equations",
+    "discriminant",
+    "word-problems",
+    "college-entrance",
+    "upcat"
+  ],
+  "prerequisites": [
+    "Linear equations in one variable",
+    "Factoring basic trinomials",
+    "Coordinate plane basics"
+  ],
+  "lastUpdated": "2026-03-24",
+  "version": "2.0",
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",

@@ -1,229 +1,187 @@
 {
+  "id": "grade-12-math-q1-linear-quadratic-equations-assessment",
   "examId": "grade-12-math-q1-linear-quadratic-equations-assessment",
-  "title": "Linear and Quadratic Equations - Assessment Exam",
-  "totalPoints": 100,
-  "timeLimit": 120,
+  "examType": "assessment",
+  "title": "College Entrance Review: Systems and Second-Degree Equations - Assessment",
+  "description": "Checkpoint on systems, quadratics, method choice, and exam-style applications.",
+  "totalPoints": 150,
+  "totalQuestions": 15,
+  "timeLimit": 45,
   "passingScore": 75,
   "questions": [
     {
-      "id": 1,
+      "id": "q1",
       "type": "multiple-choice",
-      "points": 5,
-      "question": "Solve $4x - 9 = 3x + 2$.",
+      "points": 10,
+      "question": "On a graph, what does the solution of a system of two linear equations represent?",
       "options": [
-        "7",
-        "11",
-        "-7",
-        "-11"
+        "The slope of the steeper line",
+        "The point where the two lines intersect",
+        "The y-intercept of either line",
+        "The midpoint between the intercepts"
       ],
       "correctAnswer": 1,
-      "explanation": "$4x - 3x = 2 + 9 \\Rightarrow x = 11$."
+      "explanation": "The solution is the ordered pair that satisfies both equations, which appears on the graph as the intersection point."
     },
     {
-      "id": 2,
+      "id": "q2",
       "type": "multiple-choice",
-      "points": 5,
-      "question": "Solve $2(3x - 5) = 4(x - 1)$.",
+      "points": 10,
+      "question": "Solve the system: $y = 3x - 4$ and $2x + y = 11$.",
+      "options": [
+        "$(2, 2)$",
+        "$(3, 5)$",
+        "$(4, 8)$",
+        "$(5, 11)$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Substitute $y = 3x - 4$ into $2x + y = 11$: $2x + 3x - 4 = 11$, so $5x = 15$ and $x = 3$. Then $y = 5$."
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Solve the system: $3x + 2y = 17$ and $x - 2y = 3$.",
+      "options": [
+        "$(4, 2)$",
+        "$(5, 1)$",
+        "$(3, 4)$",
+        "$(5, -1)$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Add the equations to eliminate $y$: $4x = 20$, so $x = 5$. Substitute into $x - 2y = 3$ to get $5 - 2y = 3$, so $y = 1$."
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Student tickets cost Php90 and adult tickets cost Php150. If 14 tickets were sold for Php1500, how many adult tickets were sold?",
       "options": [
         "3",
-        "2",
-        "1",
-        "0"
-      ],
-      "correctAnswer": 0,
-      "explanation": "$6x - 10 = 4x - 4 \\Rightarrow 2x = 6 \\Rightarrow x = 3$."
-    },
-    {
-      "id": 3,
-      "type": "multiple-choice",
-      "points": 5,
-      "question": "Solve the system: $x + 2y = 7$ and $2x - y = 4$.",
-      "options": [
-        "$x = 3, y = 2$",
-        "$x = 2, y = 3$",
-        "$x = 1, y = 3$",
-        "$x = 4, y = 1$"
-      ],
-      "correctAnswer": 0,
-      "explanation": "From the first: $x = 7 - 2y$. Substitute: $2(7 - 2y) - y = 4 \\Rightarrow 14 - 5y = 4 \\Rightarrow y = 2$, $x = 3$."
-    },
-    {
-      "id": 4,
-      "type": "multiple-choice",
-      "points": 5,
-      "question": "Solve the system using elimination: $3x + 2y = 11$ and $2x - 2y = 4$.",
-      "options": [
-        "$x = 3, y = 1$",
-        "$x = 2, y = 2$",
-        "$x = 1, y = 4$",
-        "$x = 4, y = -1$"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Add: $(3x + 2y) + (2x - 2y) = 11 + 4 \\Rightarrow 5x = 15 \\Rightarrow x = 3$. Substitute: $y = 1$."
-    },
-    {
-      "id": 5,
-      "type": "multiple-choice",
-      "points": 5,
-      "question": "Solve $x^2 + 8x + 15 = 0$ by factoring.",
-      "options": [
-        "$x = -3$ or $x = -5$",
-        "$x = 3$ or $x = 5$",
-        "$x = -1$ or $x = -15$",
-        "$x = 1$ or $x = 15$"
-      ],
-      "correctAnswer": 0,
-      "explanation": "$(x + 3)(x + 5) = 0 \\Rightarrow x = -3$ or $x = -5$."
-    },
-    {
-      "id": 6,
-      "type": "multiple-choice",
-      "points": 5,
-      "question": "Solve $x^2 - 3x - 10 = 0$ by factoring.",
-      "options": [
-        "$x = 2$ or $x = -5$",
-        "$x = 5$ or $x = -2$",
-        "$x = -5$ or $x = -2$",
-        "$x = 5$ or $x = 2$"
+        "4",
+        "5",
+        "10"
       ],
       "correctAnswer": 1,
-      "explanation": "$(x - 5)(x + 2) = 0 \\Rightarrow x = 5$ or $x = -2$."
+      "explanation": "Let $a$ be adult tickets and $s$ be student tickets. Then $a + s = 14$ and $150a + 90s = 1500$. Solving gives $a = 4$."
     },
     {
-      "id": 7,
+      "id": "q5",
+      "type": "true-false",
+      "points": 10,
+      "question": "If two equations describe the same line, then the system has infinitely many solutions.",
+      "correctAnswer": "true",
+      "explanation": "Every point on that line satisfies both equations, so there are infinitely many shared solutions."
+    },
+    {
+      "id": "q6",
       "type": "multiple-choice",
-      "points": 5,
-      "question": "Use the quadratic formula to solve $x^2 + 2x - 3 = 0$.",
+      "points": 10,
+      "question": "Solve $x^2 - 9x + 20 = 0$.",
       "options": [
-        "$x = 1$ or $x = -3$",
-        "$x = -1$ or $x = 3$",
-        "$x = 2$ or $x = -2$",
-        "$x = 0$ or $x = -2$"
+        "$x = 4$ or $x = 5$",
+        "$x = -4$ or $x = -5$",
+        "$x = 2$ or $x = 10$",
+        "$x = 1$ or $x = 20$"
       ],
       "correctAnswer": 0,
-      "explanation": "$x = \\frac{-2 \\pm \\sqrt{4 + 12}}{2} = \\frac{-2 \\pm 4}{2}$. So $x = 1$ or $x = -3$."
+      "explanation": "Factor the quadratic as $(x - 4)(x - 5) = 0$, so the roots are 4 and 5."
     },
     {
-      "id": 8,
+      "id": "q7",
       "type": "multiple-choice",
-      "points": 5,
-      "question": "Solve $3x^2 - 5x - 2 = 0$ using the quadratic formula.",
+      "points": 10,
+      "question": "Use the quadratic formula to solve $2x^2 + x - 6 = 0$.",
       "options": [
-        "$x = 2$ or $x = -\\frac{1}{3}$",
-        "$x = \\frac{5}{3}$ or $x = -1$",
-        "$x = -2$ or $x = \\frac{1}{3}$",
-        "$x = \\frac{3}{2}$ or $x = -2$"
+        "$x = \\frac{3}{2}$ or $x = -2$",
+        "$x = 3$ or $x = -2$",
+        "$x = 2$ or $x = -\\frac{3}{2}$",
+        "$x = -3$ or $x = 2$"
       ],
       "correctAnswer": 0,
-      "explanation": "$x = \\frac{5 \\pm \\sqrt{25 + 24}}{6} = \\frac{5 \\pm 7}{6}$. So $x = 2$ or $x = -\\frac{1}{3}$."
+      "explanation": "Using the quadratic formula gives $x = \\frac{-1 \\pm \\sqrt{1 + 48}}{4} = \\frac{-1 \\pm 7}{4}$, so $x = \\frac{3}{2}$ or $x = -2$."
     },
     {
-      "id": 9,
+      "id": "q8",
       "type": "multiple-choice",
-      "points": 5,
-      "question": "What is the discriminant of $2x^2 - 5x + 3 = 0$?",
+      "points": 10,
+      "question": "How many real roots does $x^2 + 2x + 5 = 0$ have?",
       "options": [
-        "-1",
         "0",
         "1",
-        "25"
+        "2",
+        "Infinitely many"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The discriminant is $2^2 - 4(1)(5) = 4 - 20 = -16$, so the quadratic has no real roots."
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "points": 10,
+      "question": "Solve $x^2 - 2x - 15 = 0$. Enter the **larger** root.",
+      "correctAnswer": "5",
+      "explanation": "Factor the quadratic as $(x - 5)(x + 3) = 0$, so the roots are 5 and -3. The larger root is 5."
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A ball is launched from a platform, and its height is modeled by $h = -5t^2 + 20t + 25$. When does it hit the ground?",
+      "options": [
+        "3 seconds",
+        "4 seconds",
+        "5 seconds",
+        "6 seconds"
       ],
       "correctAnswer": 2,
-      "explanation": "$\\Delta = (-5)^2 - 4(2)(3) = 25 - 24 = 1$."
+      "explanation": "Set $h = 0$: $-5t^2 + 20t + 25 = 0$. Divide by -5 to get $t^2 - 4t - 5 = 0 = (t - 5)(t + 1)$. The positive time is 5 seconds."
     },
     {
-      "id": 10,
+      "id": "q11",
+      "type": "true-false",
+      "points": 10,
+      "question": "A negative discriminant means the graph of the quadratic crosses the $x$-axis twice.",
+      "correctAnswer": "false",
+      "explanation": "A negative discriminant means there are no real roots, so the graph does not cross the $x$-axis."
+    },
+    {
+      "id": "q12",
+      "type": "fill-in",
+      "points": 10,
+      "question": "For the system $x + y = 9$ and $2x - y = 6$, find the value of $x$.",
+      "correctAnswer": "5",
+      "explanation": "Add the equations: $3x = 15$, so $x = 5$."
+    },
+    {
+      "id": "q13",
       "type": "multiple-choice",
-      "points": 5,
-      "question": "For $x^2 - 8x + 16 = 0$, determine the nature of the roots using the discriminant.",
+      "points": 10,
+      "question": "Which equation is the best candidate to solve first with the quadratic formula rather than factoring?",
       "options": [
-        "Two distinct real roots",
-        "One repeated real root",
-        "No real roots",
-        "Cannot be determined"
+        "$x^2 - 5x + 6 = 0$",
+        "$x^2 - 4x + 4 = 0$",
+        "$x^2 - 6x + 1 = 0$",
+        "$x^2 - 9 = 0$"
       ],
-      "correctAnswer": 1,
-      "explanation": "$\\Delta = 64 - 64 = 0$. One repeated real root: $x = 4$."
+      "correctAnswer": 2,
+      "explanation": "The first, second, and fourth equations factor quickly. The third does not factor nicely, so the quadratic formula is the cleanest method."
     },
     {
-      "id": 11,
-      "type": "true-false",
-      "points": 5,
-      "question": "The equation $x^2 + 2x + 2 = 0$ has two real solutions.",
-      "correctAnswer": "false",
-      "explanation": "$\\Delta = 4 - 8 = -4 < 0$. No real solutions. FALSE."
-    },
-    {
-      "id": 12,
-      "type": "true-false",
-      "points": 5,
-      "question": "For $x^2 - 10x + 21 = 0$, the product of the roots is 21.",
-      "correctAnswer": "true",
-      "explanation": "By Vieta's formulas, product = $\\frac{c}{a} = 21$. TRUE."
-    },
-    {
-      "id": 13,
-      "type": "true-false",
-      "points": 5,
-      "question": "The system $x + y = 3$ and $2x + 2y = 6$ has no solution.",
-      "correctAnswer": "false",
-      "explanation": "The second equation is twice the first; infinitely many solutions. FALSE."
-    },
-    {
-      "id": 14,
-      "type": "true-false",
-      "points": 5,
-      "question": "If $\\Delta = 0$ for a quadratic equation, then the equation has one root (with multiplicity 2).",
-      "correctAnswer": "true",
-      "explanation": "A zero discriminant means a repeated real root. TRUE."
-    },
-    {
-      "id": 15,
-      "type": "fill-in",
-      "points": 5,
-      "question": "Solve $5x - 3 = 2x + 9$ and enter the value of $x$.",
-      "answer": "4",
-      "explanation": "$5x - 2x = 9 + 3 \\Rightarrow 3x = 12 \\Rightarrow x = 4$."
-    },
-    {
-      "id": 16,
-      "type": "fill-in",
-      "points": 5,
-      "question": "For the system $3x + y = 8$ and $x - y = 0$, find the value of $y$.",
-      "answer": "2",
-      "explanation": "From $x - y = 0$, $x = y$. Substitute: $3y + y = 8 \\Rightarrow 4y = 8 \\Rightarrow y = 2$."
-    },
-    {
-      "id": 17,
-      "type": "fill-in",
-      "points": 5,
-      "question": "Solve $x^2 - 9 = 0$ and enter one of the two solutions.",
-      "answer": "3 or -3",
-      "explanation": "$(x - 3)(x + 3) = 0 \\Rightarrow x = 3$ or $x = -3$. Either answer is acceptable."
-    },
-    {
-      "id": 18,
-      "type": "fill-in",
-      "points": 5,
-      "question": "For $x^2 - 5x + 6 = 0$, find the sum of the roots using Vieta's formulas.",
-      "answer": "5",
-      "explanation": "Sum $= -\\frac{b}{a} = -\\frac{-5}{1} = 5$."
-    },
-    {
-      "id": 19,
+      "id": "q14",
       "type": "short-answer",
-      "points": 5,
-      "question": "Solve $2x^2 - 7x + 3 = 0$ by factoring or using the quadratic formula. Show your work.",
-      "answer": "$(2x - 1)(x - 3) = 0 \\Rightarrow x = \\frac{1}{2}$ or $x = 3$.",
-      "explanation": "Both factoring and the quadratic formula yield the same two roots."
+      "points": 10,
+      "question": "A student factors $x^2 - 6x + 8$ as $(x - 2)(x + 4)$. What is the error, and what are the correct roots?",
+      "correctAnswer": "The signs are wrong because $-2$ and $+4$ multiply to $-8$, not $+8$. The correct factorization is $(x - 2)(x - 4)$, so the roots are 2 and 4.",
+      "explanation": "When factoring, the two numbers must multiply to the constant term and add to the middle coefficient."
     },
     {
-      "id": 20,
+      "id": "q15",
       "type": "short-answer",
-      "points": 5,
-      "question": "Solve the system $2x - y = 1$ and $4x + y = 11$. Show all steps.",
-      "answer": "Add: $6x = 12 \\Rightarrow x = 2$. Substitute: $2(2) - y = 1 \\Rightarrow y = 3$. Solution: $x = 2, y = 3$.",
-      "explanation": "Adding the equations eliminates $y$, leading to a single equation in $x$."
+      "points": 10,
+      "question": "Why is elimination faster than substitution for $4x + 3y = 19$ and $2x - 3y = 5$?",
+      "correctAnswer": "Elimination is faster because the $y$-coefficients are already opposites, so adding the equations removes $y$ immediately and leaves one equation in $x$.",
+      "explanation": "Good method choice saves time on entrance exams. Here, elimination avoids rewriting either equation."
     }
   ]
 }

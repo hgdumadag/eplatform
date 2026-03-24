@@ -224,7 +224,7 @@ export class ContentLoader {
         subject: 'math',
         quarter: 1,
         topicName: 'topic-linear-quadratic-equations',
-        displayName: 'Linear and Quadratic Equations',
+        displayName: 'College Entrance Review: Systems and Second-Degree Equations',
       },
       {
         grade: 12,
