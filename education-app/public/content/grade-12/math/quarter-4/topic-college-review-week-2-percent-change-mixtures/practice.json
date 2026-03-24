@@ -1,0 +1,81 @@
+{
+  "id": "grade-12-math-q4-college-review-week-2-percent-change-mixtures-practice",
+  "examId": "grade-12-math-q4-college-review-week-2-percent-change-mixtures-practice",
+  "examType": "practice",
+  "title": "Week 2 Practice: Percent Change, Discounts, and Mixtures",
+  "description": "Use this set to drill changing bases, discounts, and part-plus-part mixture equations.",
+  "totalPoints": 100,
+  "totalQuestions": 8,
+  "timeLimit": 25,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A price rises from 200 to 250. What is the percent increase?",
+      "options": ["20%", "25%", "30%", "50%"],
+      "correctAnswer": 1,
+      "explanation": "Change is 50, and $\\frac{50}{200}=0.25=25\\%$."
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A 600-peso item is discounted by 15%. What is the sale price?",
+      "options": ["510", "515", "525", "540"],
+      "correctAnswer": 0,
+      "explanation": "Discount is $0.15(600)=90$, so new price is $600-90=510$."
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A value rises by 20% and then falls by 20%. Starting from 100, what is the final value?",
+      "options": ["96", "100", "104", "120"],
+      "correctAnswer": 0,
+      "explanation": "After the rise: 120. After a 20% decrease on 120: $120-24=96$."
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A class score drops from 84 to 63. What is the percent decrease?",
+      "options": ["20%", "21%", "25%", "30%"],
+      "correctAnswer": 2,
+      "explanation": "Change is 21, so $\\frac{21}{84}=0.25=25\\%$."
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "points": 10,
+      "question": "In a mixture problem, the final concentration must lie between the starting concentrations.",
+      "correctAnswer": "true",
+      "explanation": "A weighted average stays between the original values."
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "points": 10,
+      "question": "A 30% discount means subtract 30 pesos.",
+      "correctAnswer": "false",
+      "explanation": "A discount is 30% of the original price, not 30 units."
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "points": 15,
+      "question": "How many liters of 10% solution must be added to 5 liters of 40% solution to make a 25% solution?",
+      "correctAnswer": "5",
+      "explanation": "Solve $0.10x + 0.40(5) = 0.25(x+5)$ to get $x=5$ liters."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "points": 25,
+      "question": "An item is marked up 25% from cost and sells for 500 pesos. What was the original cost?",
+      "correctAnswer": "400",
+      "explanation": "If $1.25c=500$, then $c=400$."
+    }
+  ]
+}

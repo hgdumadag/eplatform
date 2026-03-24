@@ -34,6 +34,7 @@ interface GradingModule {
   gradeFreeTextAnswers: (params: {
     questions: Array<{
       questionId: string;
+      questionType: 'fill-in' | 'short-answer';
       question: string;
       correctAnswer: string;
       studentAnswer: string;
@@ -148,9 +149,10 @@ export default async function handler(req: VercelLikeRequest, res: VercelLikeRes
     }
 
     const freeTextQuestions = exam.questions
-      .filter((question) => question.type === 'short-answer')
+      .filter((question) => question.type === 'short-answer' || question.type === 'fill-in')
       .map((question) => ({
         questionId: String(question.id),
+        questionType: question.type as 'fill-in' | 'short-answer',
         question: question.question,
         correctAnswer: String(question.correctAnswer ?? ''),
         studentAnswer: String(request.answers[String(question.id)] ?? '').trim(),

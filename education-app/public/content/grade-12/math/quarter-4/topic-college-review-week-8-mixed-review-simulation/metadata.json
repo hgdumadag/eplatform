@@ -1,0 +1,25 @@
+{
+  "id": "grade-12-math-q4-college-review-week-8-mixed-review-simulation",
+  "grade": 12,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "College Review Week 8: Mixed Review and Simulation",
+  "description": "Consolidate the review program with mixed sets, timing strategy, error-log habits, and a realistic simulation-style checkpoint.",
+  "learningObjectives": [
+    "Switch efficiently among arithmetic, algebra, geometry, and data questions",
+    "Use error-log categories to target the real cause of mistakes",
+    "Apply pacing and sanity checks during timed work",
+    "Finish the review cycle with a simulation and structured post-test reflection"
+  ],
+  "estimatedDuration": 90,
+  "difficulty": "advanced",
+  "tags": ["college-review", "upcat", "mixed-review", "simulation", "timing", "test-strategy"],
+  "prerequisites": ["Weeks 1-7 review sequence", "Basic test-taking discipline"],
+  "lastUpdated": "2026-03-23",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

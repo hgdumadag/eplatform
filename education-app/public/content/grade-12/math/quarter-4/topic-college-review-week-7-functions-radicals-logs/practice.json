@@ -1,0 +1,81 @@
+{
+  "id": "grade-12-math-q4-college-review-week-7-functions-radicals-logs-practice",
+  "examId": "grade-12-math-q4-college-review-week-7-functions-radicals-logs-practice",
+  "examType": "practice",
+  "title": "Week 7 Practice: Functions, Radicals, and Logarithms",
+  "description": "Use this set to drill substitution, domain checks, radicals, and logarithm rules.",
+  "totalPoints": 100,
+  "totalQuestions": 8,
+  "timeLimit": 25,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "If $f(x)=2x+1$, what is $f(5)$?",
+      "options": ["9", "10", "11", "12"],
+      "correctAnswer": 2,
+      "explanation": "Substitute 5 into the rule: $2(5)+1=11$."
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Solve $\\sqrt{x+4}=6$.",
+      "options": ["2", "10", "32", "40"],
+      "correctAnswer": 2,
+      "explanation": "Square both sides: $x+4=36$, so $x=32$."
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "What is the domain restriction for $\\frac{1}{x-3}$?",
+      "options": ["$x\\neq -3$", "$x\\neq 0$", "$x\\neq 3$", "$x>3$"],
+      "correctAnswer": 2,
+      "explanation": "The denominator cannot be zero, so $x-3\\neq 0$."
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Solve $\\log x = 2$ using common logarithm.",
+      "options": ["2", "10", "20", "100"],
+      "correctAnswer": 3,
+      "explanation": "If $\\log x=2$, then $x=10^2=100$."
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "points": 10,
+      "question": "A radical equation can create extraneous answers after squaring.",
+      "correctAnswer": "true",
+      "explanation": "That is why solutions must be checked in the original equation."
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "points": 10,
+      "question": "The input of a logarithm may be zero.",
+      "correctAnswer": "false",
+      "explanation": "A logarithm's input must be positive."
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "points": 15,
+      "question": "If $g(x)=x^2-4x$, find $g(3)$.",
+      "correctAnswer": "-3",
+      "explanation": "$g(3)=9-12=-3$."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "points": 25,
+      "question": "Solve $\\sqrt{2x+1}=7$.",
+      "correctAnswer": "24",
+      "explanation": "Square both sides to get $2x+1=49$, so $2x=48$ and $x=24$."
+    }
+  ]
+}

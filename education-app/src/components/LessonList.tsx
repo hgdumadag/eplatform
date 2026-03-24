@@ -6,6 +6,11 @@ import { useUserStore } from '../stores/userStore';
 import { useAssignmentStore } from '../stores/assignmentStore';
 import { useChildStore } from '../stores/childStore';
 import { buildLessonKey } from '../utils/lessonKey';
+import {
+  getLessonGradeDisplay,
+  getLessonGradeFilterKey,
+  isLessonAccessibleToChild,
+} from '../utils/collegeReview';
 import './LessonList.css';
 
 interface Lesson {
@@ -66,7 +71,7 @@ export function LessonList() {
       searchQuery === '' ||
       lesson.displayName.toLowerCase().includes(searchLower) ||
       lesson.subject.toLowerCase().includes(searchLower) ||
-      `grade ${lesson.grade}`.includes(searchLower);
+      getLessonGradeDisplay(lesson).toLowerCase().includes(searchLower);
 
     // Subject filter
     const matchesSubject = filters.subject === 'all' || lesson.subject === filters.subject;
@@ -74,7 +79,7 @@ export function LessonList() {
     // Quarter filter
     const matchesQuarter =
       filters.quarter === 'all' || lesson.quarter === parseInt(filters.quarter);
-    const matchesGrade = filters.grade === 'all' || lesson.grade === parseInt(filters.grade);
+    const matchesGrade = filters.grade === 'all' || getLessonGradeFilterKey(lesson) === filters.grade;
 
     // Status filter
     let matchesStatus = true;
@@ -86,15 +91,14 @@ export function LessonList() {
       matchesStatus = !progress?.startedAt || false;
     }
 
-    // Check if this is a child view (child user or parent with active child)
-    const isChildView = currentUser?.role === 'child' ||
-                        ((currentUser?.role === 'parent' || currentUser?.role === 'admin') && activeChild);
+    // Children only see grade-appropriate or assigned lessons.
+    // Parents/admins can browse the full catalog even when a child is selected.
+    const isChildView = currentUser?.role === 'child';
 
     if (isChildView && activeChild) {
       // For children: show grade-appropriate OR assigned lessons
-      const isGradeAppropriate = lesson.grade === activeChild.grade;
       const isAssignedToChild = isAssigned(activeChild.id, lessonId);
-      const matchesChildAccess = isGradeAppropriate || isAssignedToChild;
+      const matchesChildAccess = isLessonAccessibleToChild(lesson, activeChild.grade, isAssignedToChild);
 
       return matchesSearch && matchesChildAccess && matchesGrade && matchesSubject && matchesQuarter && matchesStatus;
     }
@@ -114,7 +118,18 @@ export function LessonList() {
   };
 
   const activeFilterCount = Object.values(filters).filter((v) => v !== 'all').length;
-  const availableGrades = Array.from(new Set(lessons.map((lesson) => lesson.grade))).sort((a, b) => a - b);
+  const availableGradeFilters = Array.from(
+    new Map(
+      lessons.map((lesson) => [
+        getLessonGradeFilterKey(lesson),
+        {
+          key: getLessonGradeFilterKey(lesson),
+          label: getLessonGradeDisplay(lesson),
+          sortValue: lesson.grade,
+        },
+      ]),
+    ).values(),
+  ).sort((a, b) => a.label.localeCompare(b.label) || a.sortValue - b.sortValue);
   const availableSubjects = Array.from(new Set(lessons.map((lesson) => lesson.subject))).sort();
 
   if (lessons.length === 0) {
@@ -144,9 +159,9 @@ export function LessonList() {
             className="filter-select"
           >
             <option value="all">All Grades</option>
-            {availableGrades.map((grade) => (
-              <option key={grade} value={String(grade)}>
-                Grade {grade}
+            {availableGradeFilters.map((gradeOption) => (
+              <option key={gradeOption.key} value={gradeOption.key}>
+                {gradeOption.label}
               </option>
             ))}
           </select>
@@ -231,7 +246,7 @@ export function LessonList() {
               </div>
               <h3>{lesson.displayName}</h3>
               <div className="lesson-meta">
-                <span>Grade {lesson.grade}</span>
+                <span>{getLessonGradeDisplay(lesson)}</span>
                 <span>Quarter {lesson.quarter}</span>
               </div>
             </Link>

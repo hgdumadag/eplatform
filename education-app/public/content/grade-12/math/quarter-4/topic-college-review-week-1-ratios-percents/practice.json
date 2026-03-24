@@ -1,0 +1,81 @@
+{
+  "id": "grade-12-math-q4-college-review-week-1-ratios-percents-practice",
+  "examId": "grade-12-math-q4-college-review-week-1-ratios-percents-practice",
+  "examType": "practice",
+  "title": "Week 1 Practice: Ratios, Fractions, and Percents",
+  "description": "Use this as a recall quiz and short drill set after Sessions 1 and 2.",
+  "totalPoints": 100,
+  "totalQuestions": 8,
+  "timeLimit": 25,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Write $\\frac{3}{5}$ as a percent.",
+      "options": ["30%", "35%", "60%", "75%"],
+      "correctAnswer": 2,
+      "explanation": "$\\frac{3}{5} = 0.6 = 60\\%$."
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "In a group with ratio boys:girls = $2:3$, what fraction of the group are girls?",
+      "options": ["$\\frac{2}{3}$", "$\\frac{3}{5}$", "$\\frac{3}{2}$", "$\\frac{2}{5}$"],
+      "correctAnswer": 1,
+      "explanation": "Add all parts first: $2+3=5$, so girls are $\\frac{3}{5}$ of the whole."
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "What percent of 80 is 20?",
+      "options": ["20%", "25%", "40%", "80%"],
+      "correctAnswer": 1,
+      "explanation": "Use part over whole: $\\frac{20}{80}=\\frac{1}{4}=25\\%$."
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "18 is 30% of what number?",
+      "options": ["45", "54", "60", "72"],
+      "correctAnswer": 2,
+      "explanation": "If $0.30x=18$, then $x=\\frac{18}{0.30}=60$."
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "points": 10,
+      "question": "The ratio $4:6$ means the first quantity is $\\frac{4}{6}$ of the total.",
+      "correctAnswer": "false",
+      "explanation": "$4:6$ compares two categories. Of the total, the first quantity is $\\frac{4}{10}=\\frac{2}{5}$."
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "points": 10,
+      "question": "125% is greater than 1 whole.",
+      "correctAnswer": "true",
+      "explanation": "100% is one whole, so 125% is 1.25 wholes."
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "points": 15,
+      "question": "Write 0.125 as a fraction in simplest form.",
+      "correctAnswer": "$\\frac{1}{8}$",
+      "explanation": "$0.125 = \\frac{125}{1000} = \\frac{1}{8}$."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "points": 25,
+      "question": "A basket has apples and oranges in the ratio $5:3$. What percent of the fruit are oranges?",
+      "correctAnswer": "37.5%",
+      "explanation": "Total parts $=8$. Oranges are $\\frac{3}{8}=0.375=37.5\\%$."
+    }
+  ]
+}

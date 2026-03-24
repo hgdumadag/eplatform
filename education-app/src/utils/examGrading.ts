@@ -9,6 +9,10 @@ export function getQuestionKey(questionId: string | number): string {
   return String(questionId);
 }
 
+export function isAiGradedQuestionType(questionType: ExamQuestion['type']): boolean {
+  return questionType === 'fill-in' || questionType === 'short-answer';
+}
+
 function isBlankAnswer(answer: string | number | undefined): boolean {
   if (answer === undefined) {
     return true;
@@ -40,7 +44,7 @@ export function buildQuestionResults(
     const questionId = getQuestionKey(question.id);
     const answer = answers[questionId];
 
-    if (question.type === 'short-answer') {
+    if (isAiGradedQuestionType(question.type)) {
       if (isBlankAnswer(answer)) {
         results[questionId] = getUnansweredResult(questionId, 'openai');
         return results;
@@ -57,10 +61,13 @@ export function buildQuestionResults(
           }
         : {
             questionId,
-            isCorrect: false,
-            feedback: 'Free-text grading result is unavailable.',
-            source: 'openai',
-            provider: 'openai',
+            isCorrect: question.type === 'fill-in' ? isAnswerCorrect(question, answer) : false,
+            feedback:
+              question.type === 'fill-in'
+                ? 'AI grading was unavailable, so the answer was checked locally.'
+                : 'Free-text grading result is unavailable.',
+            source: question.type === 'fill-in' ? 'local' : 'openai',
+            provider: question.type === 'fill-in' ? 'local' : 'openai',
             model: freeTextResponse?.model,
             transport: freeTextResponse?.transport,
             errorCode: 'missing_result',
@@ -108,7 +115,7 @@ export function getAnsweredFreeTextQuestionIds(
   answers: Record<string, string | number>,
 ): string[] {
   return questions
-    .filter((question) => question.type === 'short-answer')
+    .filter((question) => isAiGradedQuestionType(question.type))
     .map((question) => getQuestionKey(question.id))
     .filter((questionId) => !isBlankAnswer(answers[questionId]));
 }

@@ -8,6 +8,13 @@ import { ContentLoader } from '../services/contentLoader';
 import { cloudSyncService } from '../services/cloudSyncService';
 import { buildLessonKey } from '../utils/lessonKey';
 import {
+  getLessonGradeDisplay,
+  getLessonGradeFilterKey,
+  isCollegeReviewLesson,
+  isLessonAccessibleToChild,
+  isLessonGradeAppropriateForChild,
+} from '../utils/collegeReview';
+import {
   BarChart,
   Bar,
   LineChart,
@@ -87,9 +94,8 @@ export function ParentDashboard() {
           quarter: lesson.quarter,
           topicName: lesson.topicName,
         });
-        const isGradeAppropriate = lesson.grade === selectedChild.grade;
         const isAssignedToChild = isAssigned(selectedChild.id, lessonId);
-        return isGradeAppropriate || isAssignedToChild;
+        return isLessonAccessibleToChild(lesson, selectedChild.grade, isAssignedToChild);
       });
 
       // Get unique subjects and sort alphabetically
@@ -179,13 +185,24 @@ export function ParentDashboard() {
   };
 
   const filteredLessonsForAssignment = lessons.filter(lesson => {
-    const matchesGrade = assignmentFilters.grade === 'all' || lesson.grade === parseInt(assignmentFilters.grade);
+    const matchesGrade = assignmentFilters.grade === 'all' || getLessonGradeFilterKey(lesson) === assignmentFilters.grade;
     const matchesSubject = assignmentFilters.subject === 'all' || lesson.subject === assignmentFilters.subject;
     return matchesGrade && matchesSubject;
   });
 
   const availableSubjects = Array.from(new Set(lessons.map(l => l.subject)));
-  const availableGrades = Array.from(new Set(lessons.map(l => l.grade))).sort((a, b) => a - b);
+  const availableGradeFilters = Array.from(
+    new Map(
+      lessons.map((lesson) => [
+        getLessonGradeFilterKey(lesson),
+        {
+          key: getLessonGradeFilterKey(lesson),
+          label: getLessonGradeDisplay(lesson),
+          sortValue: lesson.grade,
+        },
+      ]),
+    ).values(),
+  ).sort((a, b) => a.label.localeCompare(b.label) || a.sortValue - b.sortValue);
 
   return (
     <div className="parent-dashboard">
@@ -315,9 +332,8 @@ export function ParentDashboard() {
                 quarter: lesson.quarter,
                 topicName: lesson.topicName,
               });
-              const isGradeAppropriate = lesson.grade === selectedChild.grade;
               const isAssignedToChild = isAssigned(selectedChild.id, lessonId);
-              return isGradeAppropriate || isAssignedToChild;
+              return isLessonAccessibleToChild(lesson, selectedChild.grade, isAssignedToChild);
             });
 
             const availableSubjects = Array.from(new Set(relevantLessons.map(l => l.subject))).sort();
@@ -355,9 +371,8 @@ export function ParentDashboard() {
               quarter: lesson.quarter,
               topicName: lesson.topicName,
             });
-            const isGradeAppropriate = lesson.grade === child.grade;
             const isAssignedToChild = isAssigned(child.id, lessonId);
-            return isGradeAppropriate || isAssignedToChild;
+            return isLessonAccessibleToChild(lesson, child.grade, isAssignedToChild);
           });
 
           const completedCount = Object.values(childProgress).filter(
@@ -407,8 +422,8 @@ export function ParentDashboard() {
                           onChange={(e) => setAssignmentFilters({ ...assignmentFilters, grade: e.target.value })}
                         >
                           <option value="all">All Grades</option>
-                          {availableGrades.map(grade => (
-                            <option key={grade} value={grade}>Grade {grade}</option>
+                          {availableGradeFilters.map(gradeOption => (
+                            <option key={gradeOption.key} value={gradeOption.key}>{gradeOption.label}</option>
                           ))}
                         </select>
                       </label>
@@ -440,7 +455,7 @@ export function ParentDashboard() {
                             topicName: lesson.topicName,
                           });
                           const assigned = isAssigned(child.id, lessonId);
-                          const isGradeAppropriate = lesson.grade === child.grade;
+                          const isGradeAppropriate = isLessonGradeAppropriateForChild(lesson, child.grade);
 
                           return (
                             <label key={lessonId} className={`topic-checkbox ${assigned ? 'assigned' : ''}`}>
@@ -452,7 +467,7 @@ export function ParentDashboard() {
                               <span className="topic-info">
                                 <span className="topic-name">{lesson.displayName}</span>
                                 <span className="topic-meta">
-                                  Grade {lesson.grade} • {lesson.subject.charAt(0).toUpperCase() + lesson.subject.slice(1)} • Q{lesson.quarter}
+                                  {getLessonGradeDisplay(lesson)} • {lesson.subject.charAt(0).toUpperCase() + lesson.subject.slice(1)} • Q{lesson.quarter}
                                   {isGradeAppropriate && <span className="grade-badge">Grade Level</span>}
                                 </span>
                               </span>
@@ -761,9 +776,8 @@ export function ParentDashboard() {
                         quarter: lesson.quarter,
                         topicName: lesson.topicName,
                       });
-                      const isGradeAppropriate = lesson.grade === child.grade;
                       const isAssignedToChild = isAssigned(child.id, lessonId);
-                      return isGradeAppropriate || isAssignedToChild;
+                      return isLessonAccessibleToChild(lesson, child.grade, isAssignedToChild);
                     }).map((lesson) => {
                       const lessonId = buildLessonKey({
                         grade: lesson.grade,
@@ -774,12 +788,17 @@ export function ParentDashboard() {
                       const progress = childProgress[lessonId];
                       const examAttempts = progress?.examAttempts || [];
                       const isAssignedToChild = isAssigned(child.id, lessonId);
+                      const isGradeAppropriate = isLessonGradeAppropriateForChild(lesson, child.grade);
+                      const isCollegeReview = isCollegeReviewLesson(lesson);
 
                       return (
                         <tr key={lessonId}>
                           <td className="lesson-name">
                             {lesson.displayName}
-                            {isAssignedToChild && lesson.grade !== child.grade && (
+                            {isCollegeReview && (
+                              <span className="assigned-badge-table">College Review</span>
+                            )}
+                            {isAssignedToChild && !isGradeAppropriate && (
                               <span className="assigned-badge-table">🎯 Assigned</span>
                             )}
                           </td>

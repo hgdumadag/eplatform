@@ -1,0 +1,172 @@
+{
+  "id": "grade-12-math-q4-college-review-week-7-functions-radicals-logs-assessment",
+  "examId": "grade-12-math-q4-college-review-week-7-functions-radicals-logs-assessment",
+  "examType": "assessment",
+  "title": "Week 7 Assessment: Functions, Radicals, and Logarithms",
+  "description": "End-of-week checkpoint for higher-level algebra and domain discipline.",
+  "totalPoints": 150,
+  "totalQuestions": 15,
+  "timeLimit": 45,
+  "passingScore": 75,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "If $f(x)=x^2+3$, what is $f(-4)$?",
+      "options": [
+        "-13",
+        "13",
+        "16",
+        "19"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Solve $\\sqrt{x+9}=4$.",
+      "options": [
+        "5",
+        "7",
+        "16",
+        "25"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "What is the restriction for $\\sqrt{x-2}$ in the real numbers?",
+      "options": [
+        "$x>2$",
+        "$x\\geq 2$",
+        "$x\\leq 2$",
+        "$x\\neq 2$"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Solve $\\log x = 3$ using common logarithm.",
+      "options": [
+        "30",
+        "100",
+        "300",
+        "1000"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which candidate must be checked back in the original equation after solving a radical equation?",
+      "options": [
+        "All solutions",
+        "Only positive solutions",
+        "Only negative solutions",
+        "No solutions"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "points": 10,
+      "question": "For $\\frac{3}{x+1}$, the value $x=-1$ is excluded from the domain.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "points": 10,
+      "question": "If $h(x)=3x-8$, find $h(6)$.",
+      "correctAnswer": "10"
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "points": 10,
+      "question": "Solve $\\sqrt{x+5}=x-1$ and give the real solution.",
+      "correctAnswer": "4"
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "If $g(x)=2x-5$, what is $g(9)$?",
+      "options": [
+        "9",
+        "11",
+        "13",
+        "18"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which restriction belongs to $\\frac{1}{x^2-9}$?",
+      "options": [
+        "$x \\neq 9$",
+        "$x \\neq -9$",
+        "$x \\neq \\pm 3$",
+        "$x > 3$"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Solve $\\sqrt{x-1}=6$.",
+      "options": [
+        "35",
+        "36",
+        "37",
+        "49"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "What is $\\log 1000$ in common logarithm?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "10"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "q13",
+      "type": "true-false",
+      "points": 10,
+      "question": "If $\\log x$ is defined in the real numbers, then $x>0$.",
+      "correctAnswer": "true"
+    },
+    {
+      "id": "q14",
+      "type": "fill-in",
+      "points": 10,
+      "question": "If $f(x)=x^2-4x$, find $f(6)$.",
+      "correctAnswer": "12"
+    },
+    {
+      "id": "q15",
+      "type": "short-answer",
+      "points": 10,
+      "question": "Solve $\\log x + \\log 2 = 2$ and give the positive value of $x$.",
+      "correctAnswer": "50"
+    }
+  ]
+}

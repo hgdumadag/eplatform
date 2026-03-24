@@ -1,0 +1,25 @@
+{
+  "id": "grade-12-math-q4-college-review-week-3-algebra-modeling",
+  "grade": 12,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "College Review Week 3: Algebra Translation and Modeling",
+  "description": "Train the student to turn words into variables, equations, and constraints instead of guessing from answer choices.",
+  "learningObjectives": [
+    "Define variables clearly before manipulating expressions",
+    "Translate common word-problem patterns into equations and inequalities",
+    "Solve age, consecutive integer, and number relationship problems systematically",
+    "Use substitution and checking to verify that a modeled answer actually fits the prompt"
+  ],
+  "estimatedDuration": 90,
+  "difficulty": "advanced",
+  "tags": ["college-review", "upcat", "algebra", "word-problems", "modeling", "equations"],
+  "prerequisites": ["One-variable equations", "Integer operations", "Percent and ratio basics"],
+  "lastUpdated": "2026-03-23",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

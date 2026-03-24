@@ -1,0 +1,25 @@
+{
+  "id": "grade-12-math-q4-college-review-week-6-circles-similarity-coordinate",
+  "grade": 12,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "College Review Week 6: Circles, Similarity, and Coordinate Geometry",
+  "description": "Connect circle formulas, similar figures, and coordinate geometry into one week of visual reasoning and formula reinforcement.",
+  "learningObjectives": [
+    "Use circle formulas for circumference, area, arc length, and sectors",
+    "Apply similarity ratios to side lengths, perimeters, and areas",
+    "Solve coordinate geometry questions using slope, midpoint, and distance with confidence",
+    "Move between diagrams and algebraic formulas without losing structure"
+  ],
+  "estimatedDuration": 90,
+  "difficulty": "advanced",
+  "tags": ["college-review", "upcat", "circles", "similarity", "coordinate-geometry", "visual-reasoning"],
+  "prerequisites": ["Week 5 geometry foundations", "Coordinate plane basics", "Square roots"],
+  "lastUpdated": "2026-03-23",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "grade-12-math-q4-college-review-week-4-rates-work-motion-practice",
+  "examId": "grade-12-math-q4-college-review-week-4-rates-work-motion-practice",
+  "examType": "practice",
+  "title": "Week 4 Practice: Rates, Work, and Motion",
+  "description": "Use this set to practice table setup, work rates, and average-speed reasoning.",
+  "totalPoints": 100,
+  "totalQuestions": 8,
+  "timeLimit": 25,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A car travels 180 km in 3 hours. What is its average speed?",
+      "options": ["40 kph", "50 kph", "60 kph", "90 kph"],
+      "correctAnswer": 2,
+      "explanation": "Average speed is $\\frac{180}{3}=60$ kph."
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Two trains travel toward each other at 30 kph and 45 kph. If they start 150 km apart, after how many hours do they meet?",
+      "options": ["1", "2", "2.5", "3"],
+      "correctAnswer": 1,
+      "explanation": "Combined speed is 75 kph, so time is $\\frac{150}{75}=2$ hours."
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A worker can finish a job in 4 hours. What fraction of the job does the worker complete in 1 hour?",
+      "options": ["$\\frac{1}{8}$", "$\\frac{1}{6}$", "$\\frac{1}{4}$", "$4$"],
+      "correctAnswer": 2,
+      "explanation": "Finishing in 4 hours means a rate of $\\frac{1}{4}$ of the job per hour."
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "If one pipe fills a tank in 6 hours and another in 3 hours, how long together?",
+      "options": ["1.5 hours", "2 hours", "2.5 hours", "3 hours"],
+      "correctAnswer": 1,
+      "explanation": "$\\frac{1}{6}t + \\frac{1}{3}t = 1$ gives $t=2$ hours."
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "points": 10,
+      "question": "Average speed is found by dividing total distance by total time.",
+      "correctAnswer": "true",
+      "explanation": "Never average the speeds directly unless the travel times are equal."
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "points": 10,
+      "question": "In work problems, finishing a job in 5 hours means the work rate is 5 jobs per hour.",
+      "correctAnswer": "false",
+      "explanation": "The rate is $\\frac{1}{5}$ job per hour."
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "points": 15,
+      "question": "A cyclist rides 72 km in 4 hours. What is the cyclist's speed in kph?",
+      "correctAnswer": "18",
+      "explanation": "Speed is $\\frac{72}{4}=18$ kph."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "points": 25,
+      "question": "A boat travels 24 km downstream in 2 hours and the same distance upstream in 3 hours. What are the downstream and upstream speeds?",
+      "correctAnswer": "12 kph and 8 kph",
+      "explanation": "Downstream speed is $\\frac{24}{2}=12$ kph and upstream speed is $\\frac{24}{3}=8$ kph."
+    }
+  ]
+}

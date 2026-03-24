@@ -1,0 +1,81 @@
+{
+  "id": "grade-12-math-q4-college-review-week-6-circles-similarity-coordinate-practice",
+  "examId": "grade-12-math-q4-college-review-week-6-circles-similarity-coordinate-practice",
+  "examType": "practice",
+  "title": "Week 6 Practice: Circles, Similarity, and Coordinate Geometry",
+  "description": "Use this set to mix circle formulas, similarity ratios, and coordinate geometry basics.",
+  "totalPoints": 100,
+  "totalQuestions": 8,
+  "timeLimit": 25,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "What is the circumference of a circle with radius 5?",
+      "options": ["$5\\pi$", "$10\\pi$", "$25\\pi$", "$50\\pi$"],
+      "correctAnswer": 1,
+      "explanation": "Use $C=2\\pi r=2\\pi(5)=10\\pi$."
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Two similar triangles have side ratio $2:5$. What is the corresponding area ratio?",
+      "options": ["$2:5$", "$4:25$", "$5:2$", "$10:25$"],
+      "correctAnswer": 1,
+      "explanation": "Area scales by the square of the side ratio."
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Find the midpoint of $(2,4)$ and $(8,10)$.",
+      "options": ["$(5,7)$", "$(6,7)$", "$(5,6)$", "$(10,14)$"],
+      "correctAnswer": 0,
+      "explanation": "Average the x-values and y-values separately."
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Find the slope of the line through $(1,3)$ and $(5,11)$.",
+      "options": ["1", "2", "3", "4"],
+      "correctAnswer": 1,
+      "explanation": "Slope is $\\frac{11-3}{5-1}=\\frac{8}{4}=2$."
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "points": 10,
+      "question": "A vertical line has undefined slope.",
+      "correctAnswer": "true",
+      "explanation": "Its run is zero, so the slope denominator is zero."
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "points": 10,
+      "question": "If two figures are similar with side ratio $3:4$, then their areas are also in ratio $3:4$.",
+      "correctAnswer": "false",
+      "explanation": "Area scales by the square of the side ratio: $9:16$."
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "points": 15,
+      "question": "Find the distance between $(0,0)$ and $(3,4)$.",
+      "correctAnswer": "5",
+      "explanation": "Use the distance formula or recognize the 3-4-5 triangle."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "points": 25,
+      "question": "A line with slope 3 is perpendicular to another line. What is the perpendicular slope?",
+      "correctAnswer": "-1/3",
+      "explanation": "Perpendicular slopes are negative reciprocals."
+    }
+  ]
+}
