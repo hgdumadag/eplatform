@@ -1,0 +1,181 @@
+{
+  "examId": "grade-5-science-q1-properties-classification-materials-assessment",
+  "examType": "assessment",
+  "title": "Properties & Classification of Materials Assessment Exam",
+  "description": "Show what you know about material properties, classification, evidence, and real-life uses.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which word best describes the texture of sandpaper?",
+      "options": ["Smooth", "Rough", "Soluble", "Magnetic"],
+      "correctAnswer": 1,
+      "explanation": "Sandpaper feels rough when you touch it.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which material is most likely hard and rigid?",
+      "options": ["Sponge", "Rubber band", "Stone", "Towel"],
+      "correctAnswer": 2,
+      "explanation": "Stone is hard and does not bend easily.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which object is made of a material that usually absorbs water well?",
+      "options": ["Towel", "Spoon", "Glass bottle", "Plastic toy"],
+      "correctAnswer": 0,
+      "explanation": "A towel is made of absorbent material.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Which set contains only non-magnetic materials?",
+      "options": ["Wood, plastic, glass", "Coin, paper clip, steel spoon", "Nail, magnet, paper clip", "Iron nail, steel spoon, paper clip"],
+      "correctAnswer": 0,
+      "explanation": "Wood, plastic, and glass are not attracted to magnets.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which material is soluble in water?",
+      "options": ["Salt", "Sand", "Stone", "Coin"],
+      "correctAnswer": 0,
+      "explanation": "Salt dissolves in water, so it is soluble.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Why is metal often used for cooking pots?",
+      "options": ["It is absorbent", "It is conductive", "It is soluble", "It is soft"],
+      "correctAnswer": 1,
+      "explanation": "Metal conducts heat well, which helps with cooking.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which is the best basis for classifying materials?",
+      "options": ["Favorite color", "Size of the object", "Observed properties", "Owner of the object"],
+      "correctAnswer": 2,
+      "explanation": "Classification in science uses observable evidence.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Which pair could be grouped together because both are flexible?",
+      "options": ["Rubber band and cloth", "Glass and stone", "Spoon and brick", "Plate and nail"],
+      "correctAnswer": 0,
+      "explanation": "Rubber band and cloth can bend more easily than the other pairs.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "Which statement about materials is correct?",
+      "options": ["A material is always harmful", "A material is always beneficial", "A material may be useful in one setting and harmful in another", "Materials do not have properties"],
+      "correctAnswer": 2,
+      "explanation": "The effect of a material depends on how and where it is used.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "Which property table entry is correct for a plastic raincoat?",
+      "options": ["Absorbent and soluble", "Non-absorbent and flexible", "Magnetic and absorbent", "Rough and soluble"],
+      "correctAnswer": 1,
+      "explanation": "Plastic raincoats help keep people dry and can bend, so they are non-absorbent and flexible.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "question": "A spoon left in hot soup becomes warm. What property does this show?",
+      "options": ["Conductivity", "Magnetism", "Absorbency", "Solubility"],
+      "correctAnswer": 0,
+      "explanation": "Heat passed through the spoon, showing conductivity.",
+      "points": 10
+    },
+    {
+      "id": "q12",
+      "type": "true-false",
+      "question": "A material that dissolves in water is called soluble.",
+      "correctAnswer": "true",
+      "explanation": "Soluble materials dissolve in a liquid such as water.",
+      "points": 10
+    },
+    {
+      "id": "q13",
+      "type": "true-false",
+      "question": "Two materials can be placed in the same group even if the criteria keep changing.",
+      "correctAnswer": "false",
+      "explanation": "Classification should use one clear and fair rule.",
+      "points": 10
+    },
+    {
+      "id": "q14",
+      "type": "true-false",
+      "question": "A property table helps students organize science observations.",
+      "correctAnswer": "true",
+      "explanation": "Property tables make observations easier to record and compare.",
+      "points": 10
+    },
+    {
+      "id": "q15",
+      "type": "fill-in",
+      "question": "The ability of a material to bend easily is called ________.",
+      "correctAnswer": "flexibility",
+      "explanation": "Flexibility means bending without breaking easily.",
+      "points": 10
+    },
+    {
+      "id": "q16",
+      "type": "fill-in",
+      "question": "The force that pulls some materials like iron toward a magnet is called ________.",
+      "correctAnswer": "magnetism",
+      "explanation": "Magnetism describes attraction to a magnet.",
+      "points": 10
+    },
+    {
+      "id": "q17",
+      "type": "short-answer",
+      "question": "Explain why sponge and plastic should not be placed in the same group if the rule is absorbency.",
+      "correctAnswer": "Sponge is absorbent because it soaks up water, while plastic is non-absorbent because it does not soak up water.",
+      "explanation": "A strong answer uses the rule and compares both materials with evidence.",
+      "points": 10
+    },
+    {
+      "id": "q18",
+      "type": "short-answer",
+      "question": "Why is it important to observe carefully before classifying materials?",
+      "correctAnswer": "It is important to observe carefully so the classification is correct and based on evidence instead of guessing.",
+      "explanation": "A strong answer mentions accuracy and evidence.",
+      "points": 10
+    },
+    {
+      "id": "q19",
+      "type": "short-answer",
+      "question": "Give one example of a material that is useful at home but can be harmful if misused. Explain.",
+      "correctAnswer": "A knife is useful for cutting food, but it can be harmful if handled carelessly because it can cut a person.",
+      "explanation": "A strong answer shows both a useful purpose and a possible harm.",
+      "points": 10
+    },
+    {
+      "id": "q20",
+      "type": "short-answer",
+      "question": "Why is plastic often used to make raincoats or covers?",
+      "correctAnswer": "Plastic is often used because it does not absorb water easily, so it helps keep things dry.",
+      "explanation": "A strong answer connects the material property to its use.",
+      "points": 10
+    }
+  ]
+}

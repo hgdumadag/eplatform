@@ -1,0 +1,136 @@
+{
+  "examId": "grade-5-science-q1-properties-classification-materials-practice",
+  "examType": "practice",
+  "title": "Properties & Classification of Materials Practice Exam",
+  "description": "Practice observing, comparing, and classifying materials using evidence.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which property tells how a material feels when you touch it?",
+      "options": ["Texture", "Magnetism", "Solubility", "Conductivity"],
+      "correctAnswer": 0,
+      "explanation": "Texture describes how a material feels, such as smooth, rough, soft, or bumpy.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "true-false",
+      "question": "A material should be classified by evidence, not by guessing.",
+      "correctAnswer": "true",
+      "explanation": "Scientific classification uses observations and test results as evidence.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "A material that can bend easily is called ________.",
+      "correctAnswer": "flexible",
+      "explanation": "Flexibility means a material can bend without breaking easily.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Which material is most likely absorbent?",
+      "options": ["Plastic spoon", "Towel", "Glass cup", "Metal coin"],
+      "correctAnswer": 1,
+      "explanation": "A towel soaks up water, so it is absorbent.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "short-answer",
+      "question": "Why is a property table useful when studying materials?",
+      "correctAnswer": "It helps organize observations so materials can be compared and classified using evidence.",
+      "explanation": "A strong answer mentions organizing observations, comparing materials, and using evidence.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Which pair belongs in the magnetic group?",
+      "options": ["Iron nail and paper clip", "Rubber band and cloth", "Paper and sponge", "Glass and wood"],
+      "correctAnswer": 0,
+      "explanation": "Iron and many steel objects are attracted to magnets.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "All metals are magnetic.",
+      "correctAnswer": "false",
+      "explanation": "Some metals are magnetic, but not all metals are attracted to magnets.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Give one example of a material that is helpful in one setting but harmful in another.",
+      "correctAnswer": "Glass is useful as a window, but broken glass is harmful because it can cut people.",
+      "explanation": "A strong answer names a material, a useful setting, and a harmful setting.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "Which property tells whether a material is attracted to a magnet?",
+      "options": ["Absorbency", "Magnetism", "Flexibility", "Texture"],
+      "correctAnswer": 1,
+      "explanation": "Magnetism tells whether a material is attracted to a magnet.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "fill-in",
+      "question": "Salt can dissolve in water, so salt is ________ in water.",
+      "correctAnswer": "soluble",
+      "explanation": "A material that dissolves in water is called soluble.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "true-false",
+      "question": "Plastic usually does not absorb water.",
+      "correctAnswer": "true",
+      "explanation": "Plastic is usually non-absorbent, which is why it is often used to keep things dry.",
+      "points": 10
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "question": "Which material is best for drying wet hands?",
+      "options": ["Aluminum foil", "Towel", "Glass sheet", "Plastic ruler"],
+      "correctAnswer": 1,
+      "explanation": "A towel is absorbent, so it is best for drying wet hands.",
+      "points": 10
+    },
+    {
+      "id": "q13",
+      "type": "short-answer",
+      "question": "A student grouped sponge and cloth together. What property could the student have used? Give one reason.",
+      "correctAnswer": "The student could have used absorbency because both sponge and cloth soak up water.",
+      "explanation": "A strong answer names a property and gives evidence from an observation or test.",
+      "points": 10
+    },
+    {
+      "id": "q14",
+      "type": "multiple-choice",
+      "question": "Which material is most suitable for the metal part inside an electric wire?",
+      "options": ["Rubber", "Paper", "Metal", "Cloth"],
+      "correctAnswer": 2,
+      "explanation": "Metal is used inside wires because it conducts electricity.",
+      "points": 10
+    },
+    {
+      "id": "q15",
+      "type": "short-answer",
+      "question": "Why is it important to use the same criteria when classifying materials?",
+      "correctAnswer": "It keeps the groups fair, clear, and based on one rule.",
+      "explanation": "A strong answer mentions fairness, clarity, and using one rule for all materials.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "grade-5-claim-evidence-steps",
+  "version": "1.0",
+  "runtime": "native",
+  "widget": "step-reveal",
+  "title": "Build a Claim with Evidence",
+  "prompt": "Use these steps when you need to explain why a material belongs in a group.",
+  "props": {
+    "steps": [
+      {
+        "title": "Name the rule",
+        "content": "Start with the property or criterion you are using, such as **absorbency**, **magnetism**, or **flexibility**."
+      },
+      {
+        "title": "State the claim",
+        "content": "Say where the material belongs. Example: **I classify the sponge as absorbent.**"
+      },
+      {
+        "title": "Add evidence",
+        "content": "Use an observation or test result. Example: **It soaked up water during the test.**"
+      },
+      {
+        "title": "Say it as one strong answer",
+        "content": "**I classify the sponge as absorbent because it soaked up water during the test.**"
+      }
+    ]
+  },
+  "fallback": {
+    "markdown": "Strong science explanations use a claim and evidence. First name the rule, then say the group, then add the observation or test result that supports the answer."
+  }
+}

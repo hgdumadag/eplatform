@@ -1,0 +1,32 @@
+{
+  "id": "grade-5-science-q1-properties-classification-materials",
+  "grade": 5,
+  "subject": "science",
+  "quarter": 1,
+  "topicName": "Properties & Classification of Materials",
+  "description": "Observe, compare, and classify materials using evidence from their properties and everyday uses.",
+  "learningObjectives": [
+    "Describe materials using observable properties and simple tests",
+    "Classify materials using clear criteria and evidence",
+    "Organize observations in a property table",
+    "Explain how material properties affect uses, safety, and choices"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "beginner",
+  "tags": [
+    "science",
+    "materials",
+    "classification",
+    "properties",
+    "evidence",
+    "data table",
+    "grade-5"
+  ],
+  "lastUpdated": "2026-04-13",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

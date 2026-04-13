@@ -531,6 +531,13 @@ export class ContentLoader {
         grade: 5,
         subject: 'science',
         quarter: 1,
+        topicName: 'topic-properties-classification-materials',
+        displayName: 'Properties & Classification of Materials',
+      },
+      {
+        grade: 5,
+        subject: 'science',
+        quarter: 1,
         topicName: 'topic-energy-forces',
         displayName: 'Energy & Forces',
       },
