@@ -1,0 +1,83 @@
+{
+  "id": "grade-5-material-property-table",
+  "version": "1.0",
+  "runtime": "native",
+  "widget": "table-explorer",
+  "title": "Property Table Explorer",
+  "prompt": "Sort the rows to compare materials, then click a row to inspect the details and evidence.",
+  "props": {
+    "initialSortKey": "material",
+    "ascending": true,
+    "columns": [
+      { "key": "material", "label": "Material" },
+      { "key": "texture", "label": "Texture" },
+      { "key": "hardness", "label": "Hard or Soft" },
+      { "key": "flexible", "label": "Flexible" },
+      { "key": "absorbent", "label": "Absorbent" },
+      { "key": "magnetic", "label": "Magnetic" },
+      { "key": "soluble", "label": "Soluble" },
+      { "key": "conductive", "label": "Conductive" },
+      { "key": "bestUse", "label": "Good Use" }
+    ],
+    "rows": [
+      {
+        "material": "Sponge",
+        "texture": "soft",
+        "hardness": "soft",
+        "flexible": "yes",
+        "absorbent": "yes",
+        "magnetic": "no",
+        "soluble": "no",
+        "conductive": "no",
+        "bestUse": "cleaning spills"
+      },
+      {
+        "material": "Iron nail",
+        "texture": "smooth",
+        "hardness": "hard",
+        "flexible": "no",
+        "absorbent": "no",
+        "magnetic": "yes",
+        "soluble": "no",
+        "conductive": "yes",
+        "bestUse": "holding wood pieces together"
+      },
+      {
+        "material": "Plastic raincoat",
+        "texture": "smooth",
+        "hardness": "soft",
+        "flexible": "yes",
+        "absorbent": "no",
+        "magnetic": "no",
+        "soluble": "no",
+        "conductive": "no",
+        "bestUse": "keeping the body dry"
+      },
+      {
+        "material": "Table salt",
+        "texture": "grainy",
+        "hardness": "hard",
+        "flexible": "no",
+        "absorbent": "no",
+        "magnetic": "no",
+        "soluble": "yes",
+        "conductive": "no",
+        "bestUse": "seasoning food"
+      },
+      {
+        "material": "Cotton cloth",
+        "texture": "soft",
+        "hardness": "soft",
+        "flexible": "yes",
+        "absorbent": "yes",
+        "magnetic": "no",
+        "soluble": "no",
+        "conductive": "no",
+        "bestUse": "drying or wiping"
+      }
+    ]
+  },
+  "fallback": {
+    "markdown": "A property table helps compare materials using the same columns. In this sample, sponge and cotton cloth are both absorbent, iron nail is magnetic and conductive, plastic raincoat is non-absorbent and flexible, and table salt is soluble in water."
+  }
+}

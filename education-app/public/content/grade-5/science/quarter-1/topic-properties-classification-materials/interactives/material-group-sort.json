@@ -1,0 +1,47 @@
+{
+  "id": "grade-5-material-group-sort",
+  "version": "1.0",
+  "runtime": "native",
+  "widget": "match-sort",
+  "title": "Material Group Sort",
+  "prompt": "Match each material with the best group using the property named in the clue.",
+  "props": {
+    "options": [
+      "Absorbent",
+      "Non-absorbent",
+      "Magnetic",
+      "Non-magnetic",
+      "Flexible",
+      "Rigid"
+    ],
+    "pairs": [
+      {
+        "left": "Paper towel after a water test",
+        "right": "Absorbent"
+      },
+      {
+        "left": "Plastic ruler in a water test",
+        "right": "Non-absorbent"
+      },
+      {
+        "left": "Iron nail near a magnet",
+        "right": "Magnetic"
+      },
+      {
+        "left": "Glass marble near a magnet",
+        "right": "Non-magnetic"
+      },
+      {
+        "left": "Rubber band when bent",
+        "right": "Flexible"
+      },
+      {
+        "left": "Ceramic plate when bent",
+        "right": "Rigid"
+      }
+    ]
+  },
+  "fallback": {
+    "markdown": "- Paper towel -> Absorbent\n- Plastic ruler -> Non-absorbent\n- Iron nail -> Magnetic\n- Glass marble -> Non-magnetic\n- Rubber band -> Flexible\n- Ceramic plate -> Rigid"
+  }
+}
