@@ -34,6 +34,22 @@ export function LessonViewer() {
     : '';
   const progress = getProgress(lessonId);
   const examAttempts = getExamAttempts(lessonId);
+  const practiceExamAttempts = examAttempts.filter((attempt) => attempt.examType === 'practice');
+  const assessmentExamAttempts = examAttempts.filter((attempt) => attempt.examType === 'assessment');
+  const practiceBestScore = practiceExamAttempts.reduce<number | undefined>((bestScore, attempt) => {
+    if (attempt.score === undefined) {
+      return bestScore;
+    }
+
+    return bestScore === undefined ? attempt.score : Math.max(bestScore, attempt.score);
+  }, undefined);
+  const assessmentBestScore = assessmentExamAttempts.reduce<number | undefined>((bestScore, attempt) => {
+    if (attempt.score === undefined) {
+      return bestScore;
+    }
+
+    return bestScore === undefined ? attempt.score : Math.max(bestScore, attempt.score);
+  }, undefined);
   const gradeLabel = grade && topicName
     ? getLessonGradeDisplay({ grade: Number(grade), topicName })
     : 'Grade';
@@ -202,27 +218,58 @@ export function LessonViewer() {
 
       {examAttempts.length > 0 && (
         <div className="exam-history">
-          <h3>Practice Exam History</h3>
-          <div className="attempt-list">
-            {examAttempts.map((attempt, index) => (
-              <div key={attempt.attemptId} className="attempt-card">
-                <div className="attempt-header">
-                  <span className="attempt-number">Attempt {examAttempts.length - index}</span>
-                  <span className={`attempt-score ${attempt.passed ? 'passed' : 'failed'}`}>
-                    {attempt.score}%
-                  </span>
-                </div>
-                <div className="attempt-details">
-                  <span>{new Date(attempt.completedAt || '').toLocaleDateString()}</span>
-                  <span>{attempt.passed ? '✓ Passed' : '✗ Did Not Pass'}</span>
-                </div>
+          {practiceExamAttempts.length > 0 && (
+            <>
+              <h3>Practice Exam History</h3>
+              <div className="attempt-list">
+                {practiceExamAttempts.map((attempt, index) => (
+                  <div key={attempt.attemptId} className="attempt-card">
+                    <div className="attempt-header">
+                      <span className="attempt-number">Attempt {practiceExamAttempts.length - index}</span>
+                      <span className={`attempt-score ${attempt.passed ? 'passed' : 'failed'}`}>
+                        {attempt.score}%
+                      </span>
+                    </div>
+                    <div className="attempt-details">
+                      <span>{new Date(attempt.completedAt || '').toLocaleDateString()}</span>
+                      <span>{attempt.passed ? '✓ Passed' : '✗ Did Not Pass'}</span>
+                    </div>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
-          {progress?.bestScore !== undefined && (
-            <div className="best-score">
-              Best Score: <strong>{progress.bestScore}%</strong>
-            </div>
+              {practiceBestScore !== undefined && (
+                <div className="best-score">
+                  Best Practice Score: <strong>{practiceBestScore}%</strong>
+                </div>
+              )}
+            </>
+          )}
+
+          {assessmentExamAttempts.length > 0 && (
+            <>
+              <h3>Assessment Exam History</h3>
+              <div className="attempt-list">
+                {assessmentExamAttempts.map((attempt, index) => (
+                  <div key={attempt.attemptId} className="attempt-card">
+                    <div className="attempt-header">
+                      <span className="attempt-number">Attempt {assessmentExamAttempts.length - index}</span>
+                      <span className={`attempt-score ${attempt.passed ? 'passed' : 'failed'}`}>
+                        {attempt.score}%
+                      </span>
+                    </div>
+                    <div className="attempt-details">
+                      <span>{new Date(attempt.completedAt || '').toLocaleDateString()}</span>
+                      <span>{attempt.passed ? '✓ Passed' : '✗ Did Not Pass'}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              {assessmentBestScore !== undefined && (
+                <div className="best-score">
+                  Best Assessment Score: <strong>{assessmentBestScore}%</strong>
+                </div>
+              )}
+            </>
           )}
         </div>
       )}
