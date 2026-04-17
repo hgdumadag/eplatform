@@ -1,45 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 640" role="img" aria-labelledby="title desc">
   <title id="title">Geometry traps sheet</title>
-  <desc id="desc">A sheet showing common geometry mistakes with wrong and right interpretations.</desc>
+  <desc id="desc">A compact sheet showing common geometry mistakes with short labels that stay readable at small sizes.</desc>
   <rect width="1080" height="640" fill="#fbfaf6"/>
-  <text x="64" y="84" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#43331a">Common Geometry Diagram Traps</text>
-  <text x="64" y="122" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#6d5a3b">Read the picture with care. These are the mistakes that create avoidable losses.</text>
+  <text x="64" y="76" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#43331a">Geometry Traps at a Glance</text>
+  <text x="64" y="110" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#6d5a3b">Mark the right clue before you compute.</text>
 
-  <rect x="64" y="166" width="294" height="188" rx="24" fill="#fff3ef" stroke="#efb4a0" stroke-width="4"/>
-  <text x="90" y="208" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#8a2d13">Trap 1: Slanted side as height</text>
-  <polygon points="116,314 116,258 256,314" fill="#f7d9cf" stroke="#c9542e" stroke-width="5"/>
-  <line x1="116" y1="258" x2="256" y2="314" stroke="#c9542e" stroke-width="5"/>
-  <line x1="102" y1="314" x2="256" y2="314" stroke="#1d5b87" stroke-width="4" stroke-dasharray="10 8"/>
-  <line x1="116" y1="314" x2="116" y2="258" stroke="#17a673" stroke-width="4"/>
-  <text x="92" y="334" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#8a2d13">Wrong: use the slanted side</text>
-  <text x="92" y="356" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#2d5b49">Right: use the perpendicular height</text>
+  <rect x="44" y="146" width="306" height="196" rx="24" fill="#fff3ef" stroke="#efb4a0" stroke-width="4"/>
+  <text x="72" y="182" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#8a2d13">Trap 1</text>
+  <text x="72" y="208" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#8a2d13">Slanted side is not the height</text>
+  <polygon points="112,286 112,228 244,286" fill="#f7d9cf" stroke="#c9542e" stroke-width="5"/>
+  <line x1="98" y1="286" x2="244" y2="286" stroke="#1d5b87" stroke-width="4" stroke-dasharray="10 8"/>
+  <line x1="112" y1="286" x2="112" y2="228" stroke="#17a673" stroke-width="4"/>
+  <text x="74" y="316" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#8a2d13">Wrong: slanted side</text>
+  <text x="74" y="336" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#2d5b49">Right: perpendicular height</text>
 
-  <rect x="392" y="166" width="294" height="188" rx="24" fill="#eef7ff" stroke="#b8d3ee" stroke-width="4"/>
-  <text x="418" y="208" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#17436e">Trap 2: Area vs perimeter</text>
-  <rect x="454" y="242" width="132" height="84" fill="#d7ebff" stroke="#2c74b3" stroke-width="5"/>
-  <text x="420" y="334" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#17436e">Perimeter goes around the border.</text>
-  <text x="420" y="356" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#17436e">Area fills the inside region.</text>
+  <rect x="386" y="146" width="306" height="196" rx="24" fill="#eef7ff" stroke="#b8d3ee" stroke-width="4"/>
+  <text x="414" y="182" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#17436e">Trap 2</text>
+  <text x="414" y="208" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#17436e">Area vs perimeter</text>
+  <rect x="470" y="228" width="136" height="92" fill="#d7ebff" stroke="#2c74b3" stroke-width="5"/>
+  <text x="414" y="316" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#17436e">Perimeter: around the edge</text>
+  <text x="414" y="336" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#17436e">Area: inside the shape</text>
 
-  <rect x="720" y="166" width="294" height="188" rx="24" fill="#f7f1ff" stroke="#d4c2f0" stroke-width="4"/>
-  <text x="746" y="208" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#5d2fa3">Trap 3: Radius vs diameter</text>
-  <circle cx="866" cy="285" r="54" fill="#ece1ff" stroke="#7c3aed" stroke-width="5"/>
-  <line x1="812" y1="285" x2="920" y2="285" stroke="#7c3aed" stroke-width="5"/>
-  <line x1="866" y1="285" x2="920" y2="285" stroke="#e04b4b" stroke-width="5"/>
-  <text x="760" y="334" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#5d2fa3">Diameter is the full width.</text>
-  <text x="760" y="356" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#5d2fa3">Radius is half of the diameter.</text>
+  <rect x="728" y="146" width="308" height="196" rx="24" fill="#f7f1ff" stroke="#d4c2f0" stroke-width="4"/>
+  <text x="756" y="182" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#5d2fa3">Trap 3</text>
+  <text x="756" y="208" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#5d2fa3">Radius vs diameter</text>
+  <circle cx="882" cy="268" r="56" fill="#ece1ff" stroke="#7c3aed" stroke-width="5"/>
+  <line x1="826" y1="268" x2="938" y2="268" stroke="#7c3aed" stroke-width="5"/>
+  <line x1="882" y1="268" x2="938" y2="268" stroke="#e04b4b" stroke-width="5"/>
+  <text x="774" y="316" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#5d2fa3">Diameter = full width</text>
+  <text x="774" y="336" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#5d2fa3">Radius = half of diameter</text>
 
-  <rect x="64" y="392" width="450" height="184" rx="24" fill="#fff9e8" stroke="#f2d58a" stroke-width="4"/>
-  <text x="92" y="432" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#8a5a00">Trap 4: Supplementary does not mean equal</text>
-  <line x1="122" y1="510" x2="316" y2="510" stroke="#8a5a00" stroke-width="5"/>
-  <line x1="219" y1="510" x2="279" y2="428" stroke="#8a5a00" stroke-width="5"/>
-  <path d="M180 510 A40 40 0 0 1 206 472" fill="none" stroke="#d8572a" stroke-width="4"/>
-  <path d="M258 482 A40 40 0 0 1 289 510" fill="none" stroke="#2c74b3" stroke-width="4"/>
-  <text x="96" y="546" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#8a5a00">Angles on a straight line add to 180°.</text>
-  <text x="96" y="568" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#8a5a00">They are equal only when each one is 90°.</text>
+  <rect x="44" y="382" width="476" height="210" rx="24" fill="#fff9e8" stroke="#f2d58a" stroke-width="4"/>
+  <text x="72" y="418" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#8a5a00">Trap 4</text>
+  <text x="72" y="444" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#8a5a00">Supplementary does not mean equal</text>
+  <line x1="136" y1="506" x2="336" y2="506" stroke="#8a5a00" stroke-width="5"/>
+  <line x1="236" y1="506" x2="298" y2="426" stroke="#8a5a00" stroke-width="5"/>
+  <path d="M190 506 A40 40 0 0 1 216 468" fill="none" stroke="#d8572a" stroke-width="4"/>
+  <path d="M274 468 A40 40 0 0 1 306 506" fill="none" stroke="#2c74b3" stroke-width="4"/>
+  <text x="76" y="548" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#8a5a00">Angles on a straight line add to 180°.</text>
+  <text x="76" y="568" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#8a5a00">They are equal only if both are 90°.</text>
 
-  <rect x="548" y="392" width="466" height="184" rx="24" fill="#eefaf4" stroke="#bedecc" stroke-width="4"/>
-  <text x="576" y="432" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#245438">Exam habit to keep</text>
-  <text x="576" y="474" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#245438">1. Mark the useful givens.</text>
-  <text x="576" y="506" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#245438">2. Say what quantity you need.</text>
-  <text x="576" y="538" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#245438">3. Check the unit before you finalize.</text>
+  <rect x="558" y="382" width="478" height="210" rx="24" fill="#eefaf4" stroke="#bedecc" stroke-width="4"/>
+  <text x="586" y="418" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#245438">Exam habit to keep</text>
+  <text x="586" y="466" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#245438">1. Mark the useful givens.</text>
+  <text x="586" y="500" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#245438">2. Say what quantity you need.</text>
+  <text x="586" y="534" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#245438">3. Check the unit before you finalize.</text>
 </svg>
