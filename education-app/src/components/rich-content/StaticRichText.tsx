@@ -60,7 +60,13 @@ function extractCallout(children: ReactNode): {
   title: string;
   body: ReactNode[];
 } | null {
-  const childArray = Children.toArray(children);
+  const childArray = Children.toArray(children).filter((child) => {
+    if (typeof child === 'string' || typeof child === 'number') {
+      return String(child).trim().length > 0;
+    }
+
+    return true;
+  });
   if (childArray.length === 0) {
     return null;
   }
