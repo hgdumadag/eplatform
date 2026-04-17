@@ -164,6 +164,48 @@ function buildTransportPayload(questions: FreeTextQuestion[]): TransportPayload 
   return { questions };
 }
 
+function describeUnexpectedOpenAIError(error: unknown): { message: string; statusCode: number; retryable: boolean } {
+  const typedError = error as {
+    name?: string;
+    code?: string;
+    status?: number;
+    type?: string;
+    message?: string;
+  };
+
+  const metadata: string[] = [];
+  if (typedError.name) {
+    metadata.push(typedError.name);
+  }
+  if (typedError.code) {
+    metadata.push(`code ${typedError.code}`);
+  }
+  if (typeof typedError.status === 'number') {
+    metadata.push(`status ${typedError.status}`);
+  }
+  if (typedError.type) {
+    metadata.push(`type ${typedError.type}`);
+  }
+
+  const detail = typeof typedError.message === 'string' && typedError.message.trim()
+    ? typedError.message.trim()
+    : '';
+  const prefix = metadata.length > 0
+    ? `OpenAI grading failed unexpectedly (${metadata.join(', ')}).`
+    : 'OpenAI grading failed unexpectedly.';
+
+  const statusCode = typeof typedError.status === 'number' && typedError.status >= 400 && typedError.status < 600
+    ? typedError.status
+    : 502;
+  const retryable = statusCode >= 500 || statusCode === 408 || statusCode === 429;
+
+  return {
+    message: detail ? `${prefix} ${detail}` : prefix,
+    statusCode,
+    retryable,
+  };
+}
+
 function extractOutputText(response: OpenAIResponseLike): string {
   if (response.status === 'incomplete' && response.incomplete_details?.reason === 'max_output_tokens') {
     throw new FreeTextGradingError(
@@ -381,11 +423,13 @@ export async function gradeFreeTextAnswers(
       );
     }
 
+    const unexpectedError = describeUnexpectedOpenAIError(error);
+    console.error('OpenAI grading failed unexpectedly:', error);
     throw new FreeTextGradingError(
       'provider_error',
-      'OpenAI grading failed unexpectedly.',
-      true,
-      502,
+      unexpectedError.message,
+      unexpectedError.retryable,
+      unexpectedError.statusCode,
     );
   }
 }

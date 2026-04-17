@@ -1,10 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import { ContentLoader } from '../services/contentLoader';
-import {
-  FreeTextGradingRequestError,
-  gradeFreeTextAnswers as requestFreeTextGrading,
-} from '../services/freeTextGradingService';
+import { gradeFreeTextAnswers as requestFreeTextGrading } from '../services/freeTextGradingService';
 import { useProgressStore } from '../stores/progressStore';
 import {
   buildQuestionResults,
@@ -141,11 +138,10 @@ export function ExamViewer() {
             answers,
           });
         } catch (gradingError) {
-          if (answeredShortAnswerQuestionIds.length > 0) {
-            throw gradingError;
-          }
-
-          console.warn('AI grading unavailable for fill-in answers. Falling back to local grading.', gradingError);
+          console.warn(
+            'AI grading unavailable for free-text answers. Submitting with ungraded short-answer responses.',
+            gradingError,
+          );
           freeTextResponse = undefined;
         }
       }
@@ -157,11 +153,7 @@ export function ExamViewer() {
         );
 
         if (missingQuestionId) {
-          throw new FreeTextGradingRequestError(
-            `Missing grading result for question ${missingQuestionId}.`,
-            'missing_result',
-            true,
-          );
+          console.warn(`Missing grading result for question ${missingQuestionId}. Proceeding without AI grading for that answer.`);
         }
       }
 
