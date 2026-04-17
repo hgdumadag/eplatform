@@ -22,7 +22,7 @@
       "id": "q2",
       "type": "multiple-choice",
       "points": 10,
-      "question": "A right triangle shows legs 9 cm and 12 cm. Which fact tells you the correct method before solving?",
+      "question": "A right triangle shows legs 9 cm and 12 cm, and you need to find the third side. Which fact tells you the correct method before solving?",
       "options": [
         "Use the triangle area formula because two sides are known.",
         "Use the Pythagorean theorem because the legs of a right triangle are given.",
