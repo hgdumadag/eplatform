@@ -1,0 +1,79 @@
+{
+  "id": "college-review-week-5-area-perimeter-table",
+  "version": "1.0",
+  "runtime": "native",
+  "widget": "table-explorer",
+  "title": "Area and Perimeter Table Explorer",
+  "prompt": "Sort the figures, then inspect each row to compare formula, needed measurements, and likely mistakes.",
+  "props": {
+    "initialSortKey": "figure",
+    "ascending": true,
+    "columns": [
+      { "key": "figure", "label": "Figure" },
+      { "key": "target", "label": "Target" },
+      { "key": "formula", "label": "Formula" },
+      { "key": "needed", "label": "Needed measurement" },
+      { "key": "unit", "label": "Unit type" },
+      { "key": "trap", "label": "Common trap" }
+    ],
+    "rows": [
+      {
+        "figure": "Triangle",
+        "target": "Area",
+        "formula": "1/2 bh",
+        "needed": "Base and perpendicular height",
+        "unit": "square units",
+        "trap": "Using a slanted side as the height"
+      },
+      {
+        "figure": "Rectangle",
+        "target": "Perimeter",
+        "formula": "2l + 2w",
+        "needed": "Length and width",
+        "unit": "linear units",
+        "trap": "Multiplying instead of adding the side lengths"
+      },
+      {
+        "figure": "Rectangle",
+        "target": "Area",
+        "formula": "lw",
+        "needed": "Length and width",
+        "unit": "square units",
+        "trap": "Confusing area with perimeter"
+      },
+      {
+        "figure": "Trapezoid",
+        "target": "Area",
+        "formula": "1/2 (b1 + b2)h",
+        "needed": "Two bases and height",
+        "unit": "square units",
+        "trap": "Using a slanted side instead of the height"
+      },
+      {
+        "figure": "Circle",
+        "target": "Circumference",
+        "formula": "2πr or πd",
+        "needed": "Radius or diameter",
+        "unit": "linear units",
+        "trap": "Using radius when the diagram gives diameter, or vice versa"
+      },
+      {
+        "figure": "Circle",
+        "target": "Area",
+        "formula": "πr²",
+        "needed": "Radius",
+        "unit": "square units",
+        "trap": "Forgetting to square the radius"
+      }
+    ]
+  },
+  "checkpoints": [
+    {
+      "id": "formula-table",
+      "label": "Figure formulas compared"
+    }
+  ],
+  "fallback": {
+    "markdown": "Use a quick comparison table before solving: triangle area needs base and perpendicular height, rectangle perimeter adds side lengths, trapezoid area uses both bases and the height, circle circumference needs radius or diameter, and circle area requires the radius squared."
+  }
+}

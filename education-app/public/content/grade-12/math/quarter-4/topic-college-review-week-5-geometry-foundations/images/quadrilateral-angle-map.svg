@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 540" role="img" aria-labelledby="title desc">
+  <title id="title">Quadrilateral angle map</title>
+  <desc id="desc">Rectangle, parallelogram, and trapezoid with visual angle and side cues.</desc>
+  <rect width="980" height="540" fill="#f8fbf6"/>
+  <text x="70" y="84" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#23402b">Quadrilateral Clues Worth Marking</text>
+  <text x="70" y="120" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#4d6653">These shapes look different, but each one gives predictable angle and side facts.</text>
+
+  <rect x="70" y="168" width="244" height="286" rx="26" fill="#ffffff" stroke="#cfe2d4" stroke-width="4"/>
+  <text x="134" y="208" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#23402b">Rectangle</text>
+  <rect x="118" y="242" width="148" height="108" fill="#d9f7e3" stroke="#1f7a3c" stroke-width="6"/>
+  <rect x="118" y="242" width="22" height="22" fill="none" stroke="#1f7a3c" stroke-width="4"/>
+  <rect x="244" y="242" width="22" height="22" fill="none" stroke="#1f7a3c" stroke-width="4"/>
+  <rect x="118" y="328" width="22" height="22" fill="none" stroke="#1f7a3c" stroke-width="4"/>
+  <rect x="244" y="328" width="22" height="22" fill="none" stroke="#1f7a3c" stroke-width="4"/>
+  <text x="116" y="392" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#35543d">All four angles are right angles.</text>
+  <text x="116" y="422" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#35543d">Opposite sides are equal.</text>
+
+  <rect x="364" y="168" width="244" height="286" rx="26" fill="#ffffff" stroke="#cfe2d4" stroke-width="4"/>
+  <text x="398" y="208" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#23402b">Parallelogram</text>
+  <polygon points="430,338 524,338 558,254 464,254" fill="#e2ecff" stroke="#3759b8" stroke-width="6"/>
+  <line x1="430" y1="338" x2="464" y2="254" stroke="#3759b8" stroke-width="4" stroke-dasharray="10 8"/>
+  <line x1="524" y1="338" x2="558" y2="254" stroke="#3759b8" stroke-width="4" stroke-dasharray="10 8"/>
+  <path d="M446 332 A28 28 0 0 1 452 302" fill="none" stroke="#d8572a" stroke-width="4"/>
+  <path d="M546 260 A28 28 0 0 1 519 273" fill="none" stroke="#d8572a" stroke-width="4"/>
+  <path d="M532 332 A28 28 0 0 0 522 301" fill="none" stroke="#7c3aed" stroke-width="4"/>
+  <path d="M452 260 A28 28 0 0 0 480 272" fill="none" stroke="#7c3aed" stroke-width="4"/>
+  <text x="410" y="392" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#35543d">Opposite angles are equal.</text>
+  <text x="410" y="422" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#35543d">Adjacent angles add to 180°.</text>
+
+  <rect x="658" y="168" width="252" height="286" rx="26" fill="#ffffff" stroke="#cfe2d4" stroke-width="4"/>
+  <text x="724" y="208" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#23402b">Trapezoid</text>
+  <polygon points="712,336 846,336 806,256 752,256" fill="#fff2d7" stroke="#d18a1b" stroke-width="6"/>
+  <line x1="692" y1="256" x2="832" y2="256" stroke="#d18a1b" stroke-width="4" stroke-dasharray="10 8"/>
+  <line x1="690" y1="336" x2="862" y2="336" stroke="#d18a1b" stroke-width="4" stroke-dasharray="10 8"/>
+  <line x1="780" y1="336" x2="780" y2="256" stroke="#e04b4b" stroke-width="5"/>
+  <rect x="760" y="315" width="20" height="20" fill="none" stroke="#e04b4b" stroke-width="4"/>
+  <text x="700" y="392" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#7d5a12">The parallel sides are the bases.</text>
+  <text x="700" y="422" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#7d5a12">Use the perpendicular height for area.</text>
+</svg>

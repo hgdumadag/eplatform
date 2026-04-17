@@ -4,9 +4,10 @@
   "subject": "math",
   "quarter": 4,
   "topicName": "College Review Week 5: Geometry Foundations",
-  "description": "Rebuild core geometry recall around triangles, quadrilaterals, perimeter, area, and angle relationships so the student stops relying on weak memory.",
+  "description": "Rebuild core geometry recall around triangles, quadrilaterals, perimeter, area, and angle relationships through diagram reading, visual marking, and interactive figure analysis.",
   "learningObjectives": [
     "Recall high-yield area, perimeter, and angle formulas quickly",
+    "Identify the important givens in a geometry figure before choosing a formula",
     "Translate a geometry diagram into known relationships step by step",
     "Use triangle and quadrilateral properties to reduce guesswork",
     "Catch unreasonable geometric answers using approximation and unit checks"
@@ -15,11 +16,16 @@
   "difficulty": "intermediate",
   "tags": ["college-review", "upcat", "geometry", "triangles", "angles", "area"],
   "prerequisites": ["Basic measurement", "Pythagorean theorem", "Algebra simplification"],
-  "lastUpdated": "2026-03-23",
-  "version": "1.0",
+  "lastUpdated": "2026-04-17",
+  "version": "2.0",
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/triangle-parts-overview.svg",
+      "images/quadrilateral-angle-map.svg",
+      "images/geometry-traps-sheet.svg"
+    ]
   }
 }

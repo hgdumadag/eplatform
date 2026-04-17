@@ -1,0 +1,60 @@
+{
+  "id": "college-review-week-5-triangle-angle-hotspots",
+  "version": "1.0",
+  "runtime": "native",
+  "widget": "hotspot-diagram",
+  "title": "Triangle Clue Finder",
+  "prompt": "Click a marker to reveal the fact that a careful student should notice in the triangle.",
+  "props": {
+    "image": "../images/triangle-parts-overview.svg",
+    "imageAlt": "Triangle diagram with labeled parts and reminders",
+    "hotspots": [
+      {
+        "id": "right-angle",
+        "label": "Right-angle clue",
+        "marker": "1",
+        "x": 22,
+        "y": 68,
+        "content": "The square marker tells you one angle is **90°**. That means the side across from it is the hypotenuse, and the Pythagorean theorem may be useful."
+      },
+      {
+        "id": "height",
+        "label": "Height clue",
+        "marker": "2",
+        "x": 14,
+        "y": 50,
+        "content": "The height is the **perpendicular distance** to the base. It is the measurement you need for triangle area, even when another side looks easier to use."
+      },
+      {
+        "id": "hypotenuse",
+        "label": "Hypotenuse clue",
+        "marker": "3",
+        "x": 40,
+        "y": 43,
+        "content": "The hypotenuse is the longest side of a right triangle. It is always opposite the right angle."
+      },
+      {
+        "id": "angle-sum",
+        "label": "Angle-sum clue",
+        "marker": "4",
+        "x": 75,
+        "y": 42,
+        "content": "Every triangle has interior angles that add to **180°**. If two angles are known, the third one is fixed."
+      }
+    ]
+  },
+  "checkpoints": [
+    {
+      "id": "right-angle-seen",
+      "label": "Right-angle marker interpreted"
+    },
+    {
+      "id": "height-seen",
+      "label": "Height identified as perpendicular"
+    }
+  ],
+  "fallback": {
+    "markdown": "A triangle diagram usually gives you more than one clue. Look for a right-angle marker, a perpendicular height, the side opposite the right angle, and the rule that all triangle angles sum to $180^\\circ$.",
+    "image": "../images/triangle-parts-overview.svg"
+  }
+}

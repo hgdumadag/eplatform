@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geometry Figure Lab</title>
+    <link rel="stylesheet" href="assets/geometry-figure-lab.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="control-panel">
+        <div class="control-block">
+          <label for="figure-select">Figure</label>
+          <select id="figure-select">
+            <option value="rightTriangle">Right triangle</option>
+            <option value="rectangle">Rectangle</option>
+            <option value="parallelogram">Parallelogram</option>
+            <option value="trapezoid">Trapezoid</option>
+            <option value="circle">Circle</option>
+          </select>
+        </div>
+
+        <div class="toggles">
+          <label class="toggle"><input id="show-annotations" type="checkbox" checked /> Show annotations</label>
+          <label class="toggle"><input id="exam-mode" type="checkbox" /> Exam mode</label>
+        </div>
+
+        <div id="slider-groups" class="slider-groups"></div>
+      </section>
+
+      <section class="canvas-card">
+        <svg id="figure-canvas" viewBox="0 0 720 420" role="img" aria-labelledby="canvas-title">
+          <title id="canvas-title">Interactive geometry figure</title>
+          <rect x="0" y="0" width="720" height="420" class="canvas-bg"></rect>
+          <g id="figure-layer"></g>
+          <g id="annotation-layer"></g>
+        </svg>
+      </section>
+
+      <section class="summary-grid">
+        <article class="summary-card">
+          <h2>What matters in the figure</h2>
+          <p id="fact-summary"></p>
+        </article>
+        <article class="summary-card">
+          <h2>Updated measures</h2>
+          <div id="measure-list" class="measure-list"></div>
+        </article>
+        <article class="summary-card">
+          <div class="formula-header">
+            <h2>Formula view</h2>
+            <button id="reveal-formulas" type="button" class="secondary-button">Reveal formulas</button>
+          </div>
+          <div id="formula-list" class="formula-list"></div>
+        </article>
+      </section>
+    </main>
+
+    <script src="assets/geometry-figure-lab.js"></script>
+  </body>
+</html>

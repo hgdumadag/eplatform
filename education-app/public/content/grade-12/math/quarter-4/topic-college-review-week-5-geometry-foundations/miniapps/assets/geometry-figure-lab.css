@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f8fb;
+  color: #16324a;
+}
+
+.app-shell {
+  display: grid;
+  gap: 16px;
+  padding: 16px;
+}
+
+.control-panel,
+.canvas-card,
+.summary-card {
+  background: #ffffff;
+  border: 1px solid #d6e3ef;
+  border-radius: 18px;
+  box-shadow: 0 10px 24px rgba(22, 50, 74, 0.08);
+}
+
+.control-panel {
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+}
+
+.control-block label,
+.slider-group label {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+select,
+input[type="range"] {
+  width: 100%;
+}
+
+.toggles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.toggle {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.slider-groups {
+  display: grid;
+  gap: 12px;
+}
+
+.slider-group {
+  display: grid;
+  gap: 6px;
+}
+
+.slider-value {
+  font-size: 0.9rem;
+  color: #45627c;
+}
+
+.canvas-card {
+  padding: 8px;
+}
+
+#figure-canvas {
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+}
+
+.canvas-bg {
+  fill: #f7fbff;
+}
+
+.shape-fill {
+  fill: rgba(67, 135, 219, 0.18);
+  stroke: #2d6aa3;
+  stroke-width: 4;
+}
+
+.shape-accent {
+  stroke: #1d8059;
+  stroke-width: 4;
+  fill: none;
+}
+
+.shape-alert {
+  stroke: #d45a1a;
+  stroke-width: 4;
+  fill: none;
+}
+
+.annotation-text {
+  font-size: 18px;
+  font-weight: 700;
+  fill: #173550;
+}
+
+.measure-list,
+.formula-list {
+  display: grid;
+  gap: 8px;
+}
+
+.measure-item,
+.formula-item {
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: #f7fafc;
+  border: 1px solid #dce7f0;
+  font-size: 0.95rem;
+}
+
+.summary-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.summary-card {
+  padding: 16px;
+}
+
+.summary-card h2 {
+  margin: 0 0 12px;
+  font-size: 1.05rem;
+}
+
+.formula-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.secondary-button {
+  border: 1px solid #9db7cf;
+  background: #edf4fb;
+  color: #173550;
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.secondary-button:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+@media (min-width: 920px) {
+  .summary-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

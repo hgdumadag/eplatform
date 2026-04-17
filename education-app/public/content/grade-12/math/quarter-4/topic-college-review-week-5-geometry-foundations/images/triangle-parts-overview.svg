@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Triangle parts overview</title>
+  <desc id="desc">A right triangle labeled with base, height, legs, hypotenuse, and angle sum reminder.</desc>
+  <rect width="900" height="520" fill="#f7fbff"/>
+  <rect x="28" y="28" width="844" height="464" rx="28" fill="#ffffff" stroke="#d3e4f2" stroke-width="4"/>
+  <text x="72" y="94" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#183b56">Triangle Parts You Should See Fast</text>
+  <text x="72" y="132" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#46637f">Read the shape first. Name the useful parts before using a formula.</text>
+
+  <polygon points="170,390 170,190 500,390" fill="#dff1ff" stroke="#1d5b87" stroke-width="6"/>
+  <rect x="170" y="355" width="35" height="35" fill="none" stroke="#1d5b87" stroke-width="5"/>
+
+  <line x1="140" y1="390" x2="530" y2="390" stroke="#183b56" stroke-width="3" stroke-dasharray="10 8"/>
+  <line x1="170" y1="420" x2="500" y2="420" stroke="#ef8f00" stroke-width="5"/>
+  <text x="280" y="454" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#8a5100">base</text>
+
+  <line x1="132" y1="390" x2="132" y2="190" stroke="#17a673" stroke-width="5"/>
+  <text x="74" y="300" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#0d7a54">height</text>
+  <text x="78" y="328" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#315b52">perpendicular</text>
+
+  <line x1="170" y1="190" x2="500" y2="390" stroke="#2c74b3" stroke-width="7"/>
+  <text x="344" y="255" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#1c568e">hypotenuse</text>
+
+  <text x="214" y="286" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#183b56">leg</text>
+  <text x="302" y="372" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#183b56">leg</text>
+
+  <path d="M195 390 A42 42 0 0 1 170 348" fill="none" stroke="#d8572a" stroke-width="5"/>
+  <text x="206" y="356" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#b1401b">90°</text>
+
+  <path d="M208 210 A52 52 0 0 1 244 226" fill="none" stroke="#7c3aed" stroke-width="5"/>
+  <text x="224" y="194" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#6b21a8">angle A</text>
+
+  <path d="M446 390 A52 52 0 0 1 420 356" fill="none" stroke="#7c3aed" stroke-width="5"/>
+  <text x="432" y="338" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#6b21a8">angle B</text>
+
+  <rect x="566" y="168" width="248" height="196" rx="22" fill="#eff7ff" stroke="#bedaf0" stroke-width="4"/>
+  <text x="594" y="214" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#183b56">Fast reminders</text>
+  <text x="594" y="254" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#2f4d67">• Triangle angles add to 180°</text>
+  <text x="594" y="290" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#2f4d67">• Area uses base and height</text>
+  <text x="594" y="326" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#2f4d67">• The longest side in a right triangle</text>
+  <text x="612" y="352" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#2f4d67">is the hypotenuse</text>
+
+  <rect x="566" y="382" width="248" height="74" rx="18" fill="#fff7e8" stroke="#f2c879" stroke-width="4"/>
+  <text x="590" y="423" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#8a5100">Trap:</text>
+  <text x="648" y="423" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#8a5100">a slanted side is not the height.</text>
+</svg>

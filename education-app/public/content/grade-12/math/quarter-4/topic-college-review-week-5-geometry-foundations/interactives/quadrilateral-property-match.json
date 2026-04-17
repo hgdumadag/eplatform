@@ -1,0 +1,43 @@
+{
+  "id": "college-review-week-5-quadrilateral-property-match",
+  "version": "1.0",
+  "runtime": "native",
+  "widget": "match-sort",
+  "title": "Quadrilateral Property Match",
+  "prompt": "Match each quadrilateral clue with the shape it describes best.",
+  "props": {
+    "options": [
+      "Rectangle",
+      "Parallelogram",
+      "Trapezoid",
+      "Square"
+    ],
+    "pairs": [
+      {
+        "left": "Opposite angles are equal and adjacent angles are supplementary.",
+        "right": "Parallelogram"
+      },
+      {
+        "left": "Exactly one pair of opposite sides is parallel.",
+        "right": "Trapezoid"
+      },
+      {
+        "left": "All four angles are right angles.",
+        "right": "Rectangle"
+      },
+      {
+        "left": "All sides are equal and all angles are right angles.",
+        "right": "Square"
+      }
+    ]
+  },
+  "checkpoints": [
+    {
+      "id": "shape-properties",
+      "label": "Shape-property pairs reviewed"
+    }
+  ],
+  "fallback": {
+    "markdown": "- Opposite angles equal and adjacent angles supplementary -> Parallelogram\n- Exactly one pair of opposite sides parallel -> Trapezoid\n- All four angles are right angles -> Rectangle\n- All sides equal and all angles right -> Square"
+  }
+}

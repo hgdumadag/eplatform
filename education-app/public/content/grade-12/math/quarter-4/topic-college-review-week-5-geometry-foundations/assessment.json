@@ -3,7 +3,7 @@
   "examId": "grade-12-math-q4-college-review-week-5-geometry-foundations-assessment",
   "examType": "assessment",
   "title": "Week 5 Assessment: Geometry Foundations",
-  "description": "End-of-week checkpoint for high-yield geometry formulas and diagram reasoning.",
+  "description": "End-of-week checkpoint for high-yield geometry formulas, diagram reading, and visual problem solving.",
   "totalPoints": 150,
   "totalQuestions": 15,
   "timeLimit": 45,
@@ -13,14 +13,15 @@
       "id": "q1",
       "type": "multiple-choice",
       "points": 10,
-      "question": "A square has side length 12. What is its area?",
+      "question": "A square has side length 12 cm. What is its area?",
       "options": [
-        "24",
-        "48",
-        "96",
-        "144"
+        "24 cm²",
+        "48 cm²",
+        "96 cm²",
+        "144 cm²"
       ],
-      "correctAnswer": 3
+      "correctAnswer": 3,
+      "explanation": "Area of a square is side squared, so $12^2=144\\text{ cm}^2$."
     },
     {
       "id": "q2",
@@ -33,7 +34,8 @@
         "13",
         "17"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "Use the Pythagorean theorem: $c^2=5^2+12^2=25+144=169$, so $c=13$."
     },
     {
       "id": "q3",
@@ -46,54 +48,60 @@
         "75°",
         "85°"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "Triangle angles sum to $180^\\circ$, so the missing angle is $180-40-65=75^\\circ$."
     },
     {
       "id": "q4",
       "type": "multiple-choice",
       "points": 10,
-      "question": "What is the perimeter of a rectangle with length 13 and width 6?",
+      "question": "What is the perimeter of a rectangle with length 13 cm and width 6 cm?",
       "options": [
-        "19",
-        "38",
-        "52",
-        "78"
+        "19 cm",
+        "38 cm",
+        "52 cm",
+        "78 cm"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Perimeter is the total distance around the rectangle: $2(13)+2(6)=38\\text{ cm}$."
     },
     {
       "id": "q5",
       "type": "multiple-choice",
       "points": 10,
-      "question": "A triangle has base 16 and height 9. What is its area?",
+      "question": "A triangle has base 16 cm and perpendicular height 9 cm. What is its area?",
       "options": [
-        "48",
-        "72",
-        "81",
-        "144"
+        "48 cm²",
+        "72 cm²",
+        "81 cm²",
+        "144 cm²"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Use the base and the perpendicular height: $A=\\frac{1}{2}(16)(9)=72\\text{ cm}^2$."
     },
     {
       "id": "q6",
       "type": "true-false",
       "points": 10,
       "question": "Adjacent angles in a parallelogram sum to $180^\\circ$.",
-      "correctAnswer": "true"
+      "correctAnswer": "true",
+      "explanation": "Adjacent angles in a parallelogram are supplementary."
     },
     {
       "id": "q7",
       "type": "fill-in",
       "points": 10,
       "question": "Find the area of a circle with radius 6. Express in terms of $\\pi$.",
-      "correctAnswer": "36π"
+      "correctAnswer": "36π or 36\\pi",
+      "explanation": "Use $A=\\pi r^2=\\pi(6^2)=36\\pi$."
     },
     {
       "id": "q8",
       "type": "short-answer",
       "points": 10,
-      "question": "A trapezoid has bases 12 and 18 and height 4. Find its area.",
-      "correctAnswer": "60"
+      "question": "A trapezoid has bases 12 cm and 18 cm and height 4 cm. Explain which three measurements from the figure matter, then find its area.",
+      "correctAnswer": "The two bases and the perpendicular height matter. The area is 60.",
+      "explanation": "The trapezoid area formula uses both bases and the height: $A=\\frac{1}{2}(12+18)(4)=60$."
     },
     {
       "id": "q9",
@@ -106,7 +114,8 @@
         "$20\\pi$",
         "$25\\pi$"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Circumference is $2\\pi r=2\\pi(5)=10\\pi$."
     },
     {
       "id": "q10",
@@ -119,54 +128,60 @@
         "50°",
         "60°"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 1,
+      "explanation": "Since the angles sum to $180^\\circ$, $x+(x+20)+(x+40)=180$. That gives $3x+60=180$, so $x=40^\\circ$."
     },
     {
       "id": "q11",
       "type": "multiple-choice",
       "points": 10,
-      "question": "What is the area of a rectangle with length 9 and width 14?",
+      "question": "What is the area of a rectangle with length 9 cm and width 14 cm?",
       "options": [
-        "112",
-        "118",
-        "126",
-        "144"
+        "112 cm²",
+        "118 cm²",
+        "126 cm²",
+        "144 cm²"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "Area of a rectangle is $lw=9(14)=126\\text{ cm}^2$."
     },
     {
       "id": "q12",
       "type": "multiple-choice",
       "points": 10,
-      "question": "A square has side length 15. What is its perimeter?",
+      "question": "A triangle shows a base of 12 cm, a slanted side of 13 cm, and a perpendicular height of 5 cm. Which value should be used as the height in the area formula?",
       "options": [
-        "30",
-        "45",
-        "60",
-        "225"
+        "12",
+        "13",
+        "5",
+        "18"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 2,
+      "explanation": "The height in a triangle area formula must be perpendicular to the base, so the correct value is 5."
     },
     {
       "id": "q13",
       "type": "true-false",
       "points": 10,
-      "question": "A triangle with side lengths 6, 8, and 10 is a right triangle.",
-      "correctAnswer": "true"
+      "question": "If a circle diagram gives the diameter as 14, using 14 directly in $A=\\pi r^2$ would be correct.",
+      "correctAnswer": "false",
+      "explanation": "The area formula needs the radius. If the diameter is 14, then the radius is 7."
     },
     {
       "id": "q14",
       "type": "fill-in",
       "points": 10,
       "question": "An isosceles triangle has equal sides 13 and base 10. Find the height from the apex to the base.",
-      "correctAnswer": "12"
+      "correctAnswer": "12",
+      "explanation": "The height splits the base into two segments of 5. Then $h^2+5^2=13^2$, so $h^2=144$ and $h=12$."
     },
     {
       "id": "q15",
       "type": "short-answer",
       "points": 10,
-      "question": "A circle has diameter 14. Find its circumference in terms of $\\pi$.",
-      "correctAnswer": "14π"
+      "question": "A circle has diameter 14. Find its circumference in terms of $\\pi$, and briefly state which fact from the diagram lets you do this quickly.",
+      "correctAnswer": "14π. The key fact is that circumference can be found with C = πd when the diameter is given.",
+      "explanation": "Because the diameter is already given, you can use $C=\\pi d=\\pi(14)=14\\pi$ directly."
     }
   ]
 }

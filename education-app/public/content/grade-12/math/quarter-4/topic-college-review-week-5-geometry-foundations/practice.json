@@ -3,7 +3,7 @@
   "examId": "grade-12-math-q4-college-review-week-5-geometry-foundations-practice",
   "examType": "practice",
   "title": "Week 5 Practice: Geometry Foundations",
-  "description": "Use this set to recall core geometry formulas and translate diagrams into relationships.",
+  "description": "Use this set to recall core geometry formulas, read diagrams carefully, and identify the fact that matters before computing.",
   "totalPoints": 100,
   "totalQuestions": 8,
   "timeLimit": 25,
@@ -13,37 +13,42 @@
       "id": "q1",
       "type": "multiple-choice",
       "points": 10,
-      "question": "What is the area of a triangle with base 10 cm and height 6 cm?",
-      "options": ["16", "30", "60", "120"],
+      "question": "Look at the figure.\n\n![Triangle parts overview](images/triangle-parts-overview.svg)\n\nIf the triangle's base is 10 cm and its perpendicular height is 6 cm, what is its area?",
+      "options": ["16 cm²", "30 cm²", "60 cm²", "120 cm²"],
       "correctAnswer": 1,
-      "explanation": "Use $A=\\frac{1}{2}bh=\\frac{1}{2}(10)(6)=30$."
+      "explanation": "Use the base and the perpendicular height: $A=\\frac{1}{2}bh=\\frac{1}{2}(10)(6)=30\\text{ cm}^2$."
     },
     {
       "id": "q2",
       "type": "multiple-choice",
       "points": 10,
-      "question": "A right triangle has legs 9 and 12. What is the hypotenuse?",
-      "options": ["13", "15", "18", "21"],
+      "question": "A right triangle shows legs 9 cm and 12 cm. Which fact tells you the correct method before solving?",
+      "options": [
+        "Use the triangle area formula because two sides are known.",
+        "Use the Pythagorean theorem because the legs of a right triangle are given.",
+        "Use the perimeter formula because all triangle problems begin with perimeter.",
+        "Use angle sum because the missing value is on the longest side."
+      ],
       "correctAnswer": 1,
-      "explanation": "$c^2=9^2+12^2=81+144=225$, so $c=15$."
+      "explanation": "The right-angle clue means the Pythagorean theorem is the correct tool for a missing side."
     },
     {
       "id": "q3",
       "type": "multiple-choice",
       "points": 10,
-      "question": "The angles of a triangle are $x$, $x$, and $80^\\circ$. What is $x$?",
-      "options": ["40", "50", "60", "80"],
+      "question": "A triangle has angles labeled $x$, $x$, and $80^\\circ$. What is $x$?",
+      "options": ["40°", "50°", "60°", "80°"],
       "correctAnswer": 1,
-      "explanation": "Since triangle angles sum to $180^\\circ$, $2x+80=180$, so $x=50$."
+      "explanation": "Triangle angles sum to $180^\\circ$, so $2x+80=180$. That gives $2x=100$ and $x=50^\\circ$."
     },
     {
       "id": "q4",
       "type": "multiple-choice",
       "points": 10,
-      "question": "A rectangle has length 9 and width 4. What is its perimeter?",
-      "options": ["13", "18", "26", "36"],
+      "question": "A rectangle has length 9 cm and width 4 cm. What is its perimeter?",
+      "options": ["13 cm", "18 cm", "26 cm", "36 cm"],
       "correctAnswer": 2,
-      "explanation": "Perimeter is $2l+2w=18+8=26$."
+      "explanation": "Perimeter is distance around the figure: $2l+2w=2(9)+2(4)=26\\text{ cm}$."
     },
     {
       "id": "q5",
@@ -57,25 +62,25 @@
       "id": "q6",
       "type": "true-false",
       "points": 10,
-      "question": "The area of a square with side 7 is 14.",
+      "question": "In the diagram below, a triangle has base 12 cm and a slanted side 13 cm. If the perpendicular height is 5 cm, it is correct to use 13 as the height in the area formula.",
       "correctAnswer": "false",
-      "explanation": "Area is side squared, so $7^2=49$."
+      "explanation": "A slanted side is not automatically the height. Triangle area needs the perpendicular height, so you should use 5 rather than 13."
     },
     {
       "id": "q7",
       "type": "fill-in",
       "points": 15,
-      "question": "Find the area of a trapezoid with bases 8 and 14 and height 5.",
-      "correctAnswer": "55",
-      "explanation": "$A=\\frac{1}{2}(8+14)(5)=55$."
+      "question": "A trapezoid has parallel bases 8 cm and 14 cm and a perpendicular height of 5 cm. Find its area.",
+      "correctAnswer": "55 or 55 cm^2",
+      "explanation": "Use the trapezoid area formula with both bases and the height: $A=\\frac{1}{2}(8+14)(5)=55$."
     },
     {
       "id": "q8",
       "type": "short-answer",
       "points": 25,
-      "question": "One angle of a parallelogram is $72^\\circ$. What are the other three angles?",
-      "correctAnswer": "108°, 72°, and 108°",
-      "explanation": "Opposite angles are equal and adjacent angles are supplementary."
+      "question": "One angle of a parallelogram is $72^\\circ$. What are the other three angles, and which diagram facts let you determine them?",
+      "correctAnswer": "The other angles are 108°, 72°, and 108°. I used the facts that opposite angles in a parallelogram are equal and adjacent angles are supplementary.",
+      "explanation": "Opposite angles are equal and adjacent angles add to $180^\\circ$, so the missing adjacent angle is $108^\\circ$ and the opposite pair repeats."
     }
   ]
 }

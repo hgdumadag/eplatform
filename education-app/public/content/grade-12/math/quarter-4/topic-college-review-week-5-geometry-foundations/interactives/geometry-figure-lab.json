@@ -1,0 +1,26 @@
+{
+  "id": "college-review-week-5-geometry-figure-lab",
+  "version": "1.0",
+  "runtime": "sandbox-local",
+  "widget": "sandbox-host",
+  "title": "Geometry Figure Lab",
+  "prompt": "Switch figures, move the sliders, and watch which measurements actually control the answer.",
+  "props": {
+    "htmlPath": "../miniapps/geometry-figure-lab.html",
+    "height": 620
+  },
+  "checkpoints": [
+    {
+      "id": "figure-lab-opened",
+      "label": "Figure lab opened"
+    },
+    {
+      "id": "figure-lab-adjusted",
+      "label": "At least one figure was adjusted"
+    }
+  ],
+  "fallback": {
+    "markdown": "The Geometry Figure Lab lets you vary triangle legs, rectangle sides, trapezoid bases and height, or circle radius to see how area, perimeter, and key facts respond. In exam mode, try naming the needed measurements before revealing the formulas.",
+    "image": "../images/quadrilateral-angle-map.svg"
+  }
+}

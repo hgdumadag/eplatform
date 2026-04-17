@@ -1,0 +1,49 @@
+{
+  "id": "college-review-week-5-geometry-formula-decision-steps",
+  "version": "1.0",
+  "runtime": "native",
+  "widget": "step-reveal",
+  "title": "Geometry Formula Decision Steps",
+  "prompt": "Use the same sequence you should use on paper during a timed review set.",
+  "props": {
+    "steps": [
+      {
+        "title": "Identify the target",
+        "content": "Ask first: **What am I solving for?** Area, perimeter, a missing angle, or a missing side each point to different facts in the figure."
+      },
+      {
+        "title": "Identify the figure",
+        "content": "Name the shape before computing. A right triangle, rectangle, trapezoid, and circle each bring their own rules and formulas."
+      },
+      {
+        "title": "Extract the givens",
+        "content": "Mark lengths, right angles, equal sides, parallel sides, or angle relationships. Write a short note for each clue you see."
+      },
+      {
+        "title": "Choose the formula from the clues",
+        "content": "Pick the formula that matches both the figure and the quantity you need. For example, triangle area needs **base and perpendicular height**, not just any two sides."
+      },
+      {
+        "title": "Substitute and check",
+        "content": "Substitute carefully, solve, and check whether the unit makes sense. Perimeter should end in linear units, while area should end in square units."
+      }
+    ]
+  },
+  "checkpoints": [
+    {
+      "id": "identify-target",
+      "label": "Target quantity named"
+    },
+    {
+      "id": "mark-givens",
+      "label": "Useful givens extracted"
+    },
+    {
+      "id": "formula-check",
+      "label": "Formula chosen from the figure"
+    }
+  ],
+  "fallback": {
+    "markdown": "Geometry is easier when you use the same sequence every time: identify the target, name the figure, mark the useful givens, choose the matching formula, then substitute and check the unit."
+  }
+}
