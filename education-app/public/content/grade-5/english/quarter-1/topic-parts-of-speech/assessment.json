@@ -82,7 +82,7 @@
     },
     {
       "id": "q8",
-      "type":="short-answer",
+      "type": "short-answer",
       "question": "Look at this sentence: 'Ouch! That hurt!' What part of speech is 'Ouch' and why?",
       "correctAnswer": "Ouch is an interjection because it expresses strong emotion or feeling",
       "explanation": "Interjections express sudden or strong feelings like surprise, pain, excitement, or joy. They are often followed by exclamation points. Examples include: Wow!, Hey!, Yay!, Oops!",

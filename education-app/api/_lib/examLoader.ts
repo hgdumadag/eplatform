@@ -2,6 +2,17 @@ import { buildLessonKey } from './lessonKey.js';
 
 type ExamType = 'practice' | 'assessment';
 
+type RawExamQuestion = {
+  id?: string | number;
+  type?: string;
+  question?: string;
+  correctAnswer?: string | number;
+  answer?: string | number;
+  acceptableAnswers?: string[];
+  explanation?: string;
+  points?: number;
+};
+
 export interface ServerExamQuestion {
   id: string | number;
   type: string;
@@ -13,7 +24,9 @@ export interface ServerExamQuestion {
 
 export interface ServerExamDefinition {
   title?: string;
+  description?: string;
   passingScore?: number;
+  timeLimit?: number;
   questions: ServerExamQuestion[];
 }
 
@@ -46,6 +59,108 @@ function getBuiltInExamPath(params: LoadExamParams): string {
   return `/content/grade-${params.grade}/${params.subject}/quarter-${params.quarter}/${params.topicName}/${getExamFilename(params.examType)}`;
 }
 
+function normalizeQuestionType(questionType: unknown): 'multiple-choice' | 'true-false' | 'fill-in' | 'short-answer' {
+  if (questionType === 'fill-in-blank') {
+    return 'fill-in';
+  }
+
+  if (
+    questionType === 'multiple-choice' ||
+    questionType === 'true-false' ||
+    questionType === 'fill-in' ||
+    questionType === 'short-answer'
+  ) {
+    return questionType;
+  }
+
+  throw new Error(`Unsupported question type "${String(questionType)}".`);
+}
+
+function normalizeCorrectAnswer(question: RawExamQuestion, questionId: string): string | number {
+  if (question.correctAnswer !== undefined) {
+    return question.correctAnswer;
+  }
+
+  if (question.answer !== undefined) {
+    return question.answer;
+  }
+
+  if (Array.isArray(question.acceptableAnswers) && question.acceptableAnswers.length > 0) {
+    return question.acceptableAnswers.join(' or ');
+  }
+
+  throw new Error(`Question "${questionId}" is missing a correct answer.`);
+}
+
+function normalizeExamDefinition(
+  params: LoadExamParams,
+  definition: unknown,
+): ServerExamDefinition {
+  if (!definition || typeof definition !== 'object') {
+    throw new Error('Exam data must be a JSON object.');
+  }
+
+  const candidate = definition as {
+    title?: string;
+    description?: string;
+    instructions?: string;
+    passingScore?: number;
+    timeLimit?: number;
+    estimatedTime?: number;
+    questions?: RawExamQuestion[];
+  };
+
+  if (!Array.isArray(candidate.questions)) {
+    throw new Error('Exam data must include a questions array.');
+  }
+
+  const questions = candidate.questions.map((question, index) => {
+    if (!question || typeof question !== 'object' || Array.isArray(question)) {
+      throw new Error(`Question ${index + 1} is malformed.`);
+    }
+
+    const questionId = String(question.id ?? `q${index + 1}`);
+    const prompt = typeof question.question === 'string' ? question.question : '';
+    if (!prompt) {
+      throw new Error(`Question "${questionId}" is missing a question prompt.`);
+    }
+
+    const points = typeof question.points === 'number' ? question.points : NaN;
+    if (Number.isNaN(points)) {
+      throw new Error(`Question "${questionId}" is missing points.`);
+    }
+
+    return {
+      id: questionId,
+      type: normalizeQuestionType(question.type),
+      question: prompt,
+      correctAnswer: normalizeCorrectAnswer(question, questionId),
+      explanation: question.explanation,
+      points,
+    };
+  });
+
+  return {
+    title: typeof candidate.title === 'string' && candidate.title.trim()
+      ? candidate.title
+      : `${params.topicName} ${params.examType} exam`,
+    description:
+      typeof candidate.description === 'string'
+        ? candidate.description
+        : typeof candidate.instructions === 'string'
+          ? candidate.instructions
+          : '',
+    passingScore: typeof candidate.passingScore === 'number' ? candidate.passingScore : 0,
+    timeLimit:
+      typeof candidate.timeLimit === 'number'
+        ? candidate.timeLimit
+        : typeof candidate.estimatedTime === 'number'
+          ? candidate.estimatedTime
+          : undefined,
+    questions,
+  };
+}
+
 async function loadBuiltInExam(
   params: LoadExamParams,
   context: OriginContext,
@@ -61,7 +176,7 @@ async function loadBuiltInExam(
     }
 
     const parsed = await response.json();
-    return isServerExamDefinition(parsed) ? parsed : null;
+    return isServerExamDefinition(parsed) ? normalizeExamDefinition(params, parsed) : null;
   } catch {
     return null;
   }
@@ -120,7 +235,7 @@ async function loadUploadedExam(params: LoadExamParams): Promise<ServerExamDefin
   }
 
   const parsed = JSON.parse(await downloadResult.data.text());
-  return isServerExamDefinition(parsed) ? parsed : null;
+  return isServerExamDefinition(parsed) ? normalizeExamDefinition(params, parsed) : null;
 }
 
 export async function loadCanonicalExamDefinition(

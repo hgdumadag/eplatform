@@ -2,6 +2,127 @@ import type { LessonExamData, TopicMetadata } from '../types';
 import { buildLessonKey } from '../utils/lessonKey';
 import { uploadedContentStore } from './uploadedContentStore';
 
+type RawExamQuestion = {
+  id?: string | number;
+  type?: string;
+  question?: string;
+  options?: string[];
+  correctAnswer?: string | number;
+  answer?: string | number;
+  acceptableAnswers?: string[];
+  explanation?: string;
+  points?: number;
+};
+
+type RawLessonExamData = {
+  examId?: string;
+  examType?: string;
+  title?: string;
+  description?: string;
+  instructions?: string;
+  passingScore?: number;
+  timeLimit?: number;
+  estimatedTime?: number;
+  totalQuestions?: number;
+  totalPoints?: number;
+  questions?: RawExamQuestion[];
+};
+
+function normalizeQuestionType(questionType: unknown): LessonExamData['questions'][number]['type'] {
+  if (questionType === 'fill-in-blank') {
+    return 'fill-in';
+  }
+
+  if (
+    questionType === 'multiple-choice' ||
+    questionType === 'true-false' ||
+    questionType === 'fill-in' ||
+    questionType === 'short-answer'
+  ) {
+    return questionType;
+  }
+
+  throw new Error(`Unsupported question type "${String(questionType)}".`);
+}
+
+function normalizeCorrectAnswer(question: RawExamQuestion, questionId: string): string | number {
+  if (question.correctAnswer !== undefined) {
+    return question.correctAnswer;
+  }
+
+  if (question.answer !== undefined) {
+    return question.answer;
+  }
+
+  if (Array.isArray(question.acceptableAnswers) && question.acceptableAnswers.length > 0) {
+    return question.acceptableAnswers.join(' or ');
+  }
+
+  throw new Error(`Question "${questionId}" is missing a correct answer.`);
+}
+
+function normalizeExamData(
+  examData: unknown,
+  lessonKey: string,
+  examType: LessonExamData['examType'],
+): LessonExamData {
+  if (!examData || typeof examData !== 'object') {
+    throw new Error('Exam data must be a JSON object.');
+  }
+
+  const rawExam = examData as RawLessonExamData;
+  if (!Array.isArray(rawExam.questions)) {
+    throw new Error('Exam data must include a questions array.');
+  }
+
+  const questions = rawExam.questions.map((question, index) => {
+    if (!question || typeof question !== 'object' || Array.isArray(question)) {
+      throw new Error(`Question ${index + 1} is malformed.`);
+    }
+
+    const questionId = String(question.id ?? `q${index + 1}`);
+    const questionText = typeof question.question === 'string' ? question.question : '';
+    if (!questionText) {
+      throw new Error(`Question "${questionId}" is missing a question prompt.`);
+    }
+
+    const points = typeof question.points === 'number' ? question.points : NaN;
+    if (Number.isNaN(points)) {
+      throw new Error(`Question "${questionId}" is missing points.`);
+    }
+
+    return {
+      id: questionId,
+      type: normalizeQuestionType(question.type),
+      question: questionText,
+      options: question.options,
+      correctAnswer: normalizeCorrectAnswer(question, questionId),
+      explanation: question.explanation,
+      points,
+    };
+  });
+
+  return {
+    examId: `${lessonKey}-${examType}`,
+    examType,
+    title: typeof rawExam.title === 'string' && rawExam.title.trim() ? rawExam.title : `${lessonKey} ${examType} exam`,
+    description:
+      typeof rawExam.description === 'string'
+        ? rawExam.description
+        : typeof rawExam.instructions === 'string'
+          ? rawExam.instructions
+          : '',
+    passingScore: typeof rawExam.passingScore === 'number' ? rawExam.passingScore : 0,
+    timeLimit:
+      typeof rawExam.timeLimit === 'number'
+        ? rawExam.timeLimit
+        : typeof rawExam.estimatedTime === 'number'
+          ? rawExam.estimatedTime
+          : undefined,
+    questions,
+  };
+}
+
 /**
  * Content loader service for fetching lesson metadata and content
  * Files are stored in public/content/ directory or uploaded to IndexedDB
@@ -104,7 +225,7 @@ export class ContentLoader {
     const uploadedFile = await uploadedContentStore.getFile(lessonId, 'practice.json');
 
     if (uploadedFile && uploadedFile.type === 'text') {
-      return JSON.parse(uploadedFile.content as string);
+      return normalizeExamData(JSON.parse(uploadedFile.content as string), lessonId, 'practice');
     }
 
     const path = `/content/grade-${grade}/${subject}/quarter-${quarter}/${topicName}/practice.json`;
@@ -114,7 +235,7 @@ export class ContentLoader {
       if (!response.ok) {
         throw new Error(`Failed to load practice exam: ${response.statusText}`);
       }
-      return await response.json();
+      return normalizeExamData(await response.json(), lessonId, 'practice');
     } catch (error) {
       console.error('Error loading practice exam:', error);
       throw error;
@@ -135,7 +256,7 @@ export class ContentLoader {
     const uploadedFile = await uploadedContentStore.getFile(lessonId, 'assessment.json');
 
     if (uploadedFile && uploadedFile.type === 'text') {
-      return JSON.parse(uploadedFile.content as string);
+      return normalizeExamData(JSON.parse(uploadedFile.content as string), lessonId, 'assessment');
     }
 
     const path = `/content/grade-${grade}/${subject}/quarter-${quarter}/${topicName}/assessment.json`;
@@ -145,7 +266,7 @@ export class ContentLoader {
       if (!response.ok) {
         throw new Error(`Failed to load assessment exam: ${response.statusText}`);
       }
-      return await response.json();
+      return normalizeExamData(await response.json(), lessonId, 'assessment');
     } catch (error) {
       console.error('Error loading assessment exam:', error);
       throw error;
