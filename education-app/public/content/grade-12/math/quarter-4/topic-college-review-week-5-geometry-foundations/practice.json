@@ -62,7 +62,7 @@
       "id": "q6",
       "type": "true-false",
       "points": 10,
-      "question": "In the diagram below, a triangle has base 12 cm and a slanted side 13 cm. If the perpendicular height is 5 cm, it is correct to use 13 as the height in the area formula.",
+      "question": "A triangle has base 12 cm and a slanted side 13 cm. If the perpendicular height is 5 cm, it is correct to use 13 as the height in the area formula.",
       "correctAnswer": "false",
       "explanation": "A slanted side is not automatically the height. Triangle area needs the perpendicular height, so you should use 5 rather than 13."
     },
