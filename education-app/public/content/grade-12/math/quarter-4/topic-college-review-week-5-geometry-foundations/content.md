@@ -20,6 +20,12 @@
 
 Before solving, look at each figure and ask: **What facts can I mark immediately?**
 
+| Figure Snapshot | First facts to mark |
+| --- | --- |
+| ![Triangle parts overview](images/triangle-parts-overview.svg) | Right angle, hypotenuse, base, and perpendicular height |
+| ![Quadrilateral angle map](images/quadrilateral-angle-map.svg) | Parallel sides, equal opposite angles, supplementary adjacent angles, visible height |
+| ![Geometry traps sheet](images/geometry-traps-sheet.svg) | Which measurement is actually needed, and which one is a trap |
+
 | Figure | Facts you should notice |
 | --- | --- |
 | Right triangle | One angle is $90^\circ$, the longest side is the hypotenuse, triangle angles still sum to $180^\circ$ |
@@ -32,6 +38,17 @@ Before solving, look at each figure and ask: **What facts can I mark immediately
 > 2. Mark known lengths and angles.
 > 3. Mark equal or supplementary parts.
 > 4. Choose the formula only after the diagram is annotated.
+
+> [!NOTE] What a Strong Warm-Up Looks Like
+>
+> You do **not** need to solve anything yet.
+>
+> A strong warm-up means you can say:
+>
+> - what type of figure you are looking at
+> - which measurements matter
+> - which relationships are already visible
+> - which formula family will probably be used later
 
 ```interactive
 {
