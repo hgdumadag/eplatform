@@ -1,0 +1,101 @@
+{
+  "examId": "grade-10-math-q3-geometric-figures-on-coordinate-plane-assessment",
+  "examType": "assessment",
+  "title": "Geometric Figures on the Coordinate Plane Assessment",
+  "description": "Show that you can solve coordinate geometry tasks involving circles, lines, points, and polygons.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "For the circle (x - 1)^2 + (y + 2)^2 = 25, which point lies on the circle?",
+      "options": ["(1, 2)", "(6, -2)", "(4, 2)", "(1, -8)"],
+      "correctAnswer": 1,
+      "explanation": "The center is (1, -2). For (6, -2), the squared distance is 5^2 + 0^2 = 25, so it lies on the circle.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "The line y = 2 intersects x^2 + y^2 = 20 at which points?",
+      "options": ["(-2, 2) and (2, 2)", "(-4, 2) and (4, 2)", "(-16, 2) and (16, 2)", "(0, 2) only"],
+      "correctAnswer": 1,
+      "explanation": "Substitute y = 2: x^2 + 4 = 20, so x^2 = 16 and x = -4 or 4.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "The point (3, 3) is outside the circle x^2 + y^2 = 20.",
+      "correctAnswer": "false",
+      "explanation": "3^2 + 3^2 = 18, which is less than 20, so the point is inside the circle.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "For the circle centered at (0, 0), the point (6, 8) is on a circle with radius ____.",
+      "correctAnswer": "10",
+      "explanation": "The distance from (0, 0) to (6, 8) is sqrt(6^2 + 8^2) = sqrt(100) = 10.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which statement proves that square vertices (3, 0), (0, 3), (-3, 0), and (0, -3) lie on x^2 + y^2 = 9?",
+      "options": [
+        "Each vertex has slope 3.",
+        "Each vertex gives x^2 + y^2 = 9.",
+        "Each vertex has x-coordinate 3.",
+        "Each vertex is inside the circle."
+      ],
+      "correctAnswer": 1,
+      "explanation": "To prove vertices lie on a circle, substitute each coordinate pair into the circle equation.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "Classify P(2, 1) relative to (x - 2)^2 + (y - 1)^2 = 16, and explain your reasoning.",
+      "correctAnswer": "P is inside the circle because it is the center. Substitution gives 0, which is less than 16.",
+      "explanation": "The point (2, 1) is the center. Its squared distance from itself is 0, so it is inside the circle.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "The horizontal line y = 5 touches x^2 + y^2 = 25 at the point ____.",
+      "correctAnswer": "(0, 5)",
+      "explanation": "Substitute y = 5 to get x^2 + 25 = 25, so x^2 = 0 and x = 0.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Segment AB has endpoints A(-4, 0) and B(4, 0). Relative to x^2 + y^2 = 16, what is segment AB?",
+      "options": ["A radius", "A diameter", "A tangent segment", "An outside segment"],
+      "correctAnswer": 1,
+      "explanation": "Both endpoints lie on the circle, and the segment passes through the center (0, 0), so AB is a diameter.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "If a line and a circle have no shared coordinate pair, they do not intersect.",
+      "correctAnswer": "true",
+      "explanation": "An intersection point must satisfy both equations. No shared solution means no intersection.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Find the intersection points of y = x and x^2 + y^2 = 18.",
+      "correctAnswer": "Substitute y = x to get 2x^2 = 18, so x^2 = 9 and x = 3 or -3. The points are (3, 3) and (-3, -3).",
+      "explanation": "A point on both figures must satisfy y = x and the circle equation. Substitution gives the two shared points.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "examId": "grade-10-math-q3-completing-the-square-circle-equations-practice",
+  "examType": "practice",
+  "title": "Completing the Square for Circle Equations Practice",
+  "description": "Practice completing the square to transform circle equations into center-radius form.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which equation is in center-radius form?",
+      "options": [
+        "x^2 + y^2 + 6x - 4y - 12 = 0",
+        "(x - 3)^2 + (y + 2)^2 = 25",
+        "x^2 + y^2 = 6x + 4y",
+        "2x + 3y = 12"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Center-radius form has squared binomials for x and y equal to r^2.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "What number completes the square for x^2 + 12x?",
+      "options": [
+        "6",
+        "12",
+        "24",
+        "36"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Half of 12 is 6, and 6^2 = 36.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "What number completes the square for y^2 - 8y?",
+      "options": [
+        "-4",
+        "4",
+        "16",
+        "64"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Half of -8 is -4, and (-4)^2 = 16.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Convert x^2 + y^2 - 6x + 4y - 12 = 0 to center-radius form.",
+      "options": [
+        "(x - 3)^2 + (y + 2)^2 = 25",
+        "(x + 3)^2 + (y - 2)^2 = 25",
+        "(x - 6)^2 + (y + 4)^2 = 12",
+        "(x - 3)^2 + (y + 2)^2 = 12"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Move -12 to get 12, then add 9 and 4: (x - 3)^2 + (y + 2)^2 = 25.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "What is the center of (x + 4)^2 + (y - 5)^2 = 25?",
+      "options": [
+        "(4, -5)",
+        "(-4, 5)",
+        "(4, 5)",
+        "(-4, -5)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Center-radius form is (x - h)^2 + (y - k)^2 = r^2, so the center is (-4, 5).",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "If (x - 2)^2 + (y + 7)^2 = 49, the radius is 49.",
+      "correctAnswer": "false",
+      "explanation": "The right side is r^2. Since r^2 = 49, the radius is 7.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "Fill in the missing value: x^2 - 10x + ____ = (x - 5)^2.",
+      "correctAnswer": "25",
+      "explanation": "Half of -10 is -5, and (-5)^2 = 25.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Convert x^2 + y^2 + 8x - 10y + 16 = 0 to center-radius form.",
+      "options": [
+        "(x + 4)^2 + (y - 5)^2 = 25",
+        "(x - 4)^2 + (y + 5)^2 = 25",
+        "(x + 4)^2 + (y - 5)^2 = -16",
+        "(x + 8)^2 + (y - 10)^2 = 25"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Move 16 to the right as -16, then add 16 and 25 to get 25.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Explain why the same square-completion constants must be added to both sides of the equation.",
+      "correctAnswer": "Adding the same values to both sides keeps the equation equivalent. If a value is added only to one side, the circle equation changes.",
+      "explanation": "Completing the square changes the expression, so the balance of the equation must be preserved.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "The equation x^2 + y^2 - 2x - 12y + 21 = 0 becomes (x - 1)^2 + (y - 6)^2 = 16. What are the center and radius?",
+      "options": [
+        "Center (-1, -6), radius 16",
+        "Center (1, 6), radius 4",
+        "Center (1, 6), radius 16",
+        "Center (-1, -6), radius 4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The center is (1, 6), and the radius is sqrt(16) = 4.",
+      "points": 10
+    }
+  ]
+}

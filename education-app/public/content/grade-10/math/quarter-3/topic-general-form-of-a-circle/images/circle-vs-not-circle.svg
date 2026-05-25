@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Circle equation compared with non-circle equations</title>
+  <desc id="desc">Three equation cards show which structures pass or fail the circle test based on squared term coefficients.</desc>
+  <rect width="760" height="420" fill="#f8fafc"/>
+  <text x="380" y="46" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">Circle Test</text>
+  <rect x="54" y="84" width="652" height="82" rx="14" fill="#ecfdf5" stroke="#22c55e" stroke-width="2"/>
+  <circle cx="92" cy="125" r="24" fill="#bbf7d0" stroke="#16a34a" stroke-width="3"/>
+  <path d="M82 125l7 7 16-18" fill="none" stroke="#166534" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="134" y="116" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#14532d">x<tspan baseline-shift="super" font-size="12">2</tspan> + y<tspan baseline-shift="super" font-size="12">2</tspan> - 6x + 4y - 3 = 0</text>
+  <text x="134" y="145" font-family="Arial, sans-serif" font-size="16" fill="#166534">Passes: both squared coefficients are 1.</text>
+  <rect x="54" y="190" width="652" height="82" rx="14" fill="#fff7ed" stroke="#f97316" stroke-width="2"/>
+  <circle cx="92" cy="231" r="24" fill="#fed7aa" stroke="#ea580c" stroke-width="3"/>
+  <path d="M82 221l20 20M102 221l-20 20" stroke="#9a3412" stroke-width="5" stroke-linecap="round"/>
+  <text x="134" y="222" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#7c2d12">x<tspan baseline-shift="super" font-size="12">2</tspan> + 4y<tspan baseline-shift="super" font-size="12">2</tspan> - 6x + 4y = 0</text>
+  <text x="134" y="251" font-family="Arial, sans-serif" font-size="16" fill="#9a3412">Fails: squared coefficients are 1 and 4.</text>
+  <rect x="54" y="296" width="652" height="82" rx="14" fill="#fef2f2" stroke="#ef4444" stroke-width="2"/>
+  <circle cx="92" cy="337" r="24" fill="#fecaca" stroke="#dc2626" stroke-width="3"/>
+  <path d="M82 327l20 20M102 327l-20 20" stroke="#991b1b" stroke-width="5" stroke-linecap="round"/>
+  <text x="134" y="328" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#7f1d1d">x<tspan baseline-shift="super" font-size="12">2</tspan> - y<tspan baseline-shift="super" font-size="12">2</tspan> + 4x - 2 = 0</text>
+  <text x="134" y="357" font-family="Arial, sans-serif" font-size="16" fill="#991b1b">Fails: squared terms have opposite signs.</text>
+</svg>

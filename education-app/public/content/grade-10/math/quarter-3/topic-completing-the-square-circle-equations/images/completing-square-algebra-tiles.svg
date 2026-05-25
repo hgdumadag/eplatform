@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Completing the square with algebra tiles</title>
+  <desc id="desc">A visual model showing x squared plus six x becoming x squared plus six x plus nine, which factors as x plus three squared.</desc>
+  <rect width="900" height="420" fill="#f8fafc"/>
+  <g font-family="Arial, sans-serif">
+    <text x="450" y="48" text-anchor="middle" font-size="28" font-weight="700" fill="#0f172a">Complete x² + 6x by adding 9</text>
+    <rect x="85" y="95" width="150" height="150" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+    <text x="160" y="178" text-anchor="middle" font-size="28" font-weight="700" fill="#1e3a8a">x²</text>
+    <g fill="#dcfce7" stroke="#16a34a" stroke-width="2">
+      <rect x="250" y="95" width="42" height="150"/>
+      <rect x="298" y="95" width="42" height="150"/>
+      <rect x="346" y="95" width="42" height="150"/>
+      <rect x="85" y="260" width="150" height="42"/>
+      <rect x="85" y="308" width="150" height="42"/>
+      <rect x="85" y="356" width="150" height="42"/>
+    </g>
+    <text x="320" y="178" text-anchor="middle" font-size="22" font-weight="700" fill="#14532d">3x</text>
+    <text x="160" y="327" text-anchor="middle" font-size="22" font-weight="700" fill="#14532d">3x</text>
+    <g fill="#fee2e2" stroke="#dc2626" stroke-width="2">
+      <rect x="250" y="260" width="42" height="42"/>
+      <rect x="298" y="260" width="42" height="42"/>
+      <rect x="346" y="260" width="42" height="42"/>
+      <rect x="250" y="308" width="42" height="42"/>
+      <rect x="298" y="308" width="42" height="42"/>
+      <rect x="346" y="308" width="42" height="42"/>
+      <rect x="250" y="356" width="42" height="42"/>
+      <rect x="298" y="356" width="42" height="42"/>
+      <rect x="346" y="356" width="42" height="42"/>
+    </g>
+    <text x="320" y="338" text-anchor="middle" font-size="22" font-weight="700" fill="#7f1d1d">9</text>
+    <path d="M455 230H560" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow)"/>
+    <defs>
+      <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"/>
+      </marker>
+    </defs>
+    <rect x="610" y="130" width="220" height="170" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+    <text x="720" y="190" text-anchor="middle" font-size="26" font-weight="700" fill="#92400e">x² + 6x + 9</text>
+    <text x="720" y="235" text-anchor="middle" font-size="30" font-weight="700" fill="#92400e">= (x + 3)²</text>
+    <text x="720" y="275" text-anchor="middle" font-size="18" fill="#0f172a">half of 6 is 3; 3² = 9</text>
+  </g>
+</svg>

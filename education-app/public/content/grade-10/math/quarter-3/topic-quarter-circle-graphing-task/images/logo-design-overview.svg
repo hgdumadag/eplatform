@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="460" viewBox="0 0 720 460" role="img" aria-labelledby="title desc">
+  <title id="title">Coordinate-plane logo with three circles</title>
+  <desc id="desc">A coordinate plane showing an outer circle centered at the origin and two smaller accent circles placed symmetrically.</desc>
+  <rect width="720" height="460" fill="#f8fafc"/>
+  <g transform="translate(360 230)">
+    <g stroke="#d7dee8" stroke-width="1">
+      <path d="M-300 0H300"/>
+      <path d="M0 -180V180"/>
+      <path d="M-300 -150H300M-300 -120H300M-300 -90H300M-300 -60H300M-300 -30H300M-300 30H300M-300 60H300M-300 90H300M-300 120H300M-300 150H300"/>
+      <path d="M-270 -180V180M-240 -180V180M-210 -180V180M-180 -180V180M-150 -180V180M-120 -180V180M-90 -180V180M-60 -180V180M-30 -180V180M30 -180V180M60 -180V180M90 -180V180M120 -180V180M150 -180V180M180 -180V180M210 -180V180M240 -180V180M270 -180V180"/>
+    </g>
+    <g stroke="#475569" stroke-width="2">
+      <path d="M-310 0H310"/>
+      <path d="M0 190V-190"/>
+    </g>
+    <circle cx="0" cy="0" r="150" fill="#dbeafe" stroke="#2563eb" stroke-width="5"/>
+    <circle cx="-75" cy="-45" r="38" fill="#fef3c7" stroke="#d97706" stroke-width="4"/>
+    <circle cx="75" cy="-45" r="38" fill="#fef3c7" stroke="#d97706" stroke-width="4"/>
+    <circle cx="0" cy="0" r="5" fill="#0f172a"/>
+    <circle cx="-75" cy="-45" r="5" fill="#0f172a"/>
+    <circle cx="75" cy="-45" r="5" fill="#0f172a"/>
+    <text x="8" y="18" font-family="Arial, sans-serif" font-size="16" fill="#0f172a">(0, 0)</text>
+    <text x="-150" y="-60" font-family="Arial, sans-serif" font-size="16" fill="#92400e">(-3, 2)</text>
+    <text x="85" y="-60" font-family="Arial, sans-serif" font-size="16" fill="#92400e">(3, 2)</text>
+    <line x1="0" y1="0" x2="150" y2="0" stroke="#2563eb" stroke-width="4"/>
+    <text x="56" y="-10" font-family="Arial, sans-serif" font-size="16" fill="#1d4ed8">r = 6</text>
+  </g>
+  <text x="36" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Circle-logo idea: graph + equations + labels</text>
+</svg>

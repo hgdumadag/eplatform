@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Common sign trap in center-radius form</title>
+  <desc id="desc">A comparison showing that x plus five squared means the center x-coordinate is negative five, not positive five.</desc>
+  <rect width="900" height="360" fill="#f8fafc"/>
+  <g font-family="Arial, sans-serif">
+    <text x="450" y="48" text-anchor="middle" font-size="28" font-weight="700" fill="#0f172a">Read the center from (x - h)² + (y - k)² = r²</text>
+    <rect x="70" y="95" width="340" height="190" rx="12" fill="#fee2e2" stroke="#dc2626" stroke-width="3"/>
+    <text x="240" y="135" text-anchor="middle" font-size="22" font-weight="700" fill="#7f1d1d">Common mistake</text>
+    <text x="240" y="180" text-anchor="middle" font-size="24" fill="#0f172a">(x + 5)²</text>
+    <text x="240" y="225" text-anchor="middle" font-size="22" fill="#7f1d1d">center x = 5</text>
+    <text x="240" y="260" text-anchor="middle" font-size="18" fill="#7f1d1d">This ignores the x - h pattern.</text>
+
+    <rect x="490" y="95" width="340" height="190" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+    <text x="660" y="135" text-anchor="middle" font-size="22" font-weight="700" fill="#14532d">Correct reading</text>
+    <text x="660" y="180" text-anchor="middle" font-size="24" fill="#0f172a">(x + 5)² = (x - (-5))²</text>
+    <text x="660" y="225" text-anchor="middle" font-size="22" fill="#14532d">center x = -5</text>
+    <text x="660" y="260" text-anchor="middle" font-size="18" fill="#14532d">The sign changes when you identify h.</text>
+  </g>
+</svg>

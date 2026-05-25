@@ -1,0 +1,42 @@
+{
+  "id": "grade-10-math-q3-equation-from-conditions",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Equation from Conditions",
+  "description": "Write a circle equation when the center and one point on the circle are given.",
+  "learningObjectives": [
+    "Use a point-on-circle condition to determine the radius",
+    "Find the squared radius using horizontal, vertical, or distance-formula reasoning",
+    "Write a complete circle equation in center-radius form",
+    "Check whether a given point satisfies a circle equation",
+    "Avoid common mistakes involving signs and squared radius"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "coordinate-geometry",
+    "circles",
+    "circle-equations",
+    "distance-formula"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/point-condition-radius.svg",
+      "images/distance-to-radius-squared.svg",
+      "images/condition-check-workflow.svg"
+    ]
+  },
+  "prerequisites": [
+    "Plotting ordered pairs on the Cartesian plane",
+    "Using the center-radius form of a circle",
+    "Squaring positive and negative numbers",
+    "Finding horizontal, vertical, and diagonal distances between points"
+  ]
+}

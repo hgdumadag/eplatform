@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">Anatomy of the general form of a circle</title>
+  <desc id="desc">The equation x squared plus y squared plus D x plus E y plus F equals zero is labeled by squared terms, linear terms, and constant term.</desc>
+  <rect width="760" height="360" fill="#f8fafc"/>
+  <rect x="42" y="38" width="676" height="284" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="380" y="94" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#0f172a">
+    x<tspan baseline-shift="super" font-size="18">2</tspan> + y<tspan baseline-shift="super" font-size="18">2</tspan> + Dx + Ey + F = 0
+  </text>
+  <line x1="190" y1="112" x2="190" y2="168" stroke="#2563eb" stroke-width="3"/>
+  <line x1="374" y1="112" x2="374" y2="168" stroke="#16a34a" stroke-width="3"/>
+  <line x1="514" y1="112" x2="514" y2="168" stroke="#ea580c" stroke-width="3"/>
+  <rect x="88" y="168" width="204" height="80" rx="12" fill="#dbeafe" stroke="#93c5fd"/>
+  <rect x="300" y="168" width="148" height="80" rx="12" fill="#dcfce7" stroke="#86efac"/>
+  <rect x="456" y="168" width="216" height="80" rx="12" fill="#ffedd5" stroke="#fdba74"/>
+  <text x="190" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1e3a8a">Squared terms</text>
+  <text x="190" y="226" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#1e40af">must both appear</text>
+  <text x="374" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#166534">Linear terms</text>
+  <text x="374" y="226" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#166534">D and E</text>
+  <text x="564" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#9a3412">Constant term</text>
+  <text x="564" y="226" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#9a3412">F has no variable</text>
+  <text x="380" y="288" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">Circle clue: x<tspan baseline-shift="super" font-size="12">2</tspan> and y<tspan baseline-shift="super" font-size="12">2</tspan> have equal nonzero coefficients.</text>
+</svg>

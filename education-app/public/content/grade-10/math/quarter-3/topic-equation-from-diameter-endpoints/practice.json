@@ -1,0 +1,128 @@
+{
+  "examId": "grade-10-math-q3-equation-from-diameter-endpoints-practice",
+  "examType": "practice",
+  "title": "Equation from Diameter Endpoints Practice",
+  "description": "Practice finding circle equations from diameter endpoint coordinates.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "The endpoints of a diameter are (2, 4) and (8, 4). What is the center?",
+      "options": [
+        "(2, 4)",
+        "(8, 4)",
+        "(5, 4)",
+        "(6, 0)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The center is the midpoint: ((2 + 8)/2, (4 + 4)/2) = (5, 4).",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "The endpoints of a diameter are (0, 0) and (6, 8). What is the radius?",
+      "options": [
+        "5",
+        "7",
+        "10",
+        "14"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The center is (3, 4). The distance from (3, 4) to (0, 0) is sqrt(3^2 + 4^2) = 5.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which equation has diameter endpoints (-4, 2) and (2, 2)?",
+      "options": [
+        "(x - 1)^2 + (y - 2)^2 = 9",
+        "(x + 1)^2 + (y - 2)^2 = 9",
+        "(x + 1)^2 + (y + 2)^2 = 6",
+        "(x - 4)^2 + (y - 2)^2 = 36"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The midpoint is (-1, 2), and the radius is 3. The equation is (x + 1)^2 + (y - 2)^2 = 9.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "Find the x-coordinate of the center for diameter endpoints (-3, 5) and (7, 1).",
+      "correctAnswer": "2",
+      "explanation": "Average the x-coordinates: (-3 + 7)/2 = 4/2 = 2.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "The center of a circle is always the midpoint of a diameter.",
+      "correctAnswer": "true",
+      "explanation": "A diameter passes through the center, so the center is halfway between the diameter endpoints.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "The endpoints of a diameter are (1, -3) and (7, 5). What is the circle equation?",
+      "options": [
+        "(x - 4)^2 + (y - 1)^2 = 25",
+        "(x + 4)^2 + (y + 1)^2 = 25",
+        "(x - 4)^2 + (y - 1)^2 = 5",
+        "(x - 1)^2 + (y + 3)^2 = 25"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The midpoint is (4, 1). The radius from (4, 1) to (1, -3) is 5, so r^2 = 25.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "The endpoints of a diameter are (0, -2) and (0, 4). Complete the equation: x^2 + (y - 1)^2 = ____.",
+      "correctAnswer": "9",
+      "explanation": "The center is (0, 1), and the radius is 3. The right side is r^2 = 9.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "The endpoints of a diameter are (-6, -1) and (2, -1). What is the center and radius?",
+      "options": [
+        "Center (-2, -1), radius 4",
+        "Center (-4, -1), radius 8",
+        "Center (2, -1), radius 4",
+        "Center (-2, 0), radius 8"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The midpoint is (-2, -1). The distance from the center to either endpoint is 4.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Explain the first two steps for writing a circle equation from diameter endpoints.",
+      "correctAnswer": "First find the midpoint of the endpoints to get the center. Then find the radius by measuring the distance from the center to one endpoint, or by finding the full diameter length and dividing by 2.",
+      "explanation": "A complete answer should mention midpoint for the center and distance or half-diameter for the radius.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "Which equation has diameter endpoints (-5, 4) and (1, -4)?",
+      "options": [
+        "(x + 2)^2 + y^2 = 25",
+        "(x - 2)^2 + y^2 = 25",
+        "(x + 2)^2 + y^2 = 5",
+        "(x + 5)^2 + (y - 4)^2 = 100"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The midpoint is (-2, 0). The radius is 5, so the equation is (x + 2)^2 + y^2 = 25.",
+      "points": 10
+    }
+  ]
+}

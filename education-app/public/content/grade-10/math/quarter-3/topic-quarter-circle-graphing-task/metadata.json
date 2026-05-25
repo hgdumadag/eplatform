@@ -1,0 +1,44 @@
+{
+  "id": "grade-10-math-q3-quarter-circle-graphing-task",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Quarter Circle Graphing Task",
+  "description": "Design a coordinate-plane logo using circles, then justify each circle with its center, radius, equation, and graph.",
+  "learningObjectives": [
+    "Design a coordinate-plane logo using at least three circles",
+    "Write center-radius equations for circles in a design",
+    "Identify centers, radii, and squared radii from circle equations",
+    "Connect equations, graphs, and coordinate conditions",
+    "Check whether a proposed logo circle matches its equation and points"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "coordinate-geometry",
+    "circles",
+    "circle-equations",
+    "graphing",
+    "performance-task"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/logo-design-overview.svg",
+      "images/circle-logo-worked-example.svg",
+      "images/equation-checklist.svg"
+    ]
+  },
+  "prerequisites": [
+    "Plotting ordered pairs on the Cartesian plane",
+    "Identifying center and radius from center-radius form",
+    "Writing circle equations from a center and radius",
+    "Expanding and simplifying simple squared binomials",
+    "Checking whether a point satisfies an equation"
+  ]
+}

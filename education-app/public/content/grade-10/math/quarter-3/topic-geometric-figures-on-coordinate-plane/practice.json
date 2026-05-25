@@ -1,0 +1,96 @@
+{
+  "examId": "grade-10-math-q3-geometric-figures-on-coordinate-plane-practice",
+  "examType": "practice",
+  "title": "Geometric Figures on the Coordinate Plane Practice",
+  "description": "Practice using circles with points, lines, and polygons on the coordinate plane.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "For the circle x^2 + y^2 = 25, which point is on the circle?",
+      "options": ["(2, 3)", "(3, 4)", "(4, 4)", "(5, 5)"],
+      "correctAnswer": 1,
+      "explanation": "For (3, 4), x^2 + y^2 = 9 + 16 = 25, so it lies on the circle.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "true-false",
+      "question": "For the circle x^2 + y^2 = 36, the point (2, 2) is inside the circle.",
+      "correctAnswer": "true",
+      "explanation": "2^2 + 2^2 = 8, and 8 is less than 36, so the point is inside the circle.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "The line y = 0 intersects x^2 + y^2 = 49 at (7, 0) and ____.",
+      "correctAnswer": "(-7, 0)",
+      "explanation": "Substitute y = 0 to get x^2 = 49, so x = 7 or x = -7.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "For (x - 2)^2 + (y + 1)^2 = 16, which point is the center?",
+      "options": ["(-2, 1)", "(2, -1)", "(2, 1)", "(-2, -1)"],
+      "correctAnswer": 1,
+      "explanation": "The equation has center (h, k) = (2, -1).",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A point has squared distance 30 from the center of a circle with r^2 = 25. Where is the point?",
+      "options": ["Inside the circle", "On the circle", "Outside the circle", "At the center"],
+      "correctAnswer": 2,
+      "explanation": "Since 30 is greater than r^2 = 25, the point is outside the circle.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Substitute y = 3 into x^2 + y^2 = 25. The resulting equation is x^2 = ____.",
+      "correctAnswer": "16",
+      "explanation": "x^2 + 3^2 = 25 gives x^2 + 9 = 25, so x^2 = 16.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "If all vertices of a triangle satisfy the same circle equation, the triangle is inscribed in that circle.",
+      "correctAnswer": "true",
+      "explanation": "An inscribed polygon has vertices on the circle. Substitution can verify each vertex.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Which line intersects the circle x^2 + y^2 = 9 at exactly one point?",
+      "options": ["y = 0", "y = 2", "y = 3", "y = 4"],
+      "correctAnswer": 2,
+      "explanation": "The circle has radius 3. The horizontal line y = 3 touches the circle at (0, 3), so it is tangent.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Explain how to check whether A(0, 5), B(5, 0), and C(0, -5) are vertices on x^2 + y^2 = 25.",
+      "correctAnswer": "Substitute each point into x^2 + y^2. Each gives 25, so all three points are on the circle.",
+      "explanation": "Each vertex must satisfy the circle equation. If each substituted pair gives 25, each vertex lies on the circle.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A line-circle intersection point must satisfy which equations?",
+      "correctAnswer": "It must satisfy both the line equation and the circle equation.",
+      "explanation": "Intersection points are shared by both figures, so their coordinates must make both equations true.",
+      "points": 10
+    }
+  ]
+}

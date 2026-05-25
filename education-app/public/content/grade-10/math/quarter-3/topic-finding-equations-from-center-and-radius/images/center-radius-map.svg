@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Circle with center and radius labeled</title>
+  <desc id="desc">A coordinate plane shows a circle centered at two negative one, with a radius drawn to a point on the circle.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <g stroke="#d1d5db" stroke-width="1">
+    <path d="M60 210H660"/>
+    <path d="M360 40V380"/>
+    <g opacity="0.75">
+      <path d="M110 40V380"/><path d="M160 40V380"/><path d="M210 40V380"/><path d="M260 40V380"/><path d="M310 40V380"/><path d="M410 40V380"/><path d="M460 40V380"/><path d="M510 40V380"/><path d="M560 40V380"/><path d="M610 40V380"/>
+      <path d="M60 60H660"/><path d="M60 110H660"/><path d="M60 160H660"/><path d="M60 260H660"/><path d="M60 310H660"/><path d="M60 360H660"/>
+    </g>
+  </g>
+  <g stroke="#475569" stroke-width="2">
+    <path d="M60 210H660"/>
+    <path d="M360 380V40"/>
+  </g>
+  <circle cx="460" cy="260" r="125" fill="#dbeafe" stroke="#2563eb" stroke-width="5"/>
+  <circle cx="460" cy="260" r="7" fill="#dc2626"/>
+  <circle cx="585" cy="260" r="6" fill="#0f766e"/>
+  <path d="M460 260H585" stroke="#dc2626" stroke-width="5" stroke-linecap="round"/>
+  <text x="474" y="250" font-family="Arial, sans-serif" font-size="22" fill="#991b1b">r = 5</text>
+  <text x="416" y="294" font-family="Arial, sans-serif" font-size="22" fill="#111827">center (2, -1)</text>
+  <text x="564" y="292" font-family="Arial, sans-serif" font-size="20" fill="#0f766e">point on circle</text>
+  <text x="630" y="236" font-family="Arial, sans-serif" font-size="18" fill="#334155">x</text>
+  <text x="374" y="58" font-family="Arial, sans-serif" font-size="18" fill="#334155">y</text>
+</svg>

@@ -1,0 +1,97 @@
+{
+  "examId": "grade-10-math-q3-graphing-from-center-radius-form-assessment",
+  "examType": "assessment",
+  "title": "Graphing from Center-Radius Form Assessment",
+  "description": "Show mastery of plotting centers, radius lengths, and accurate circle graphs from center-radius form.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What center and radius match (x + 3)^2 + (y - 4)^2 = 81?",
+      "options": ["Center (3, -4), radius 9", "Center (-3, 4), radius 9", "Center (-3, 4), radius 81", "Center (3, 4), radius 9"],
+      "correctAnswer": 1,
+      "explanation": "The center is (-3, 4), and the radius is sqrt(81) = 9.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which radius points belong to the circle (x - 5)^2 + (y + 2)^2 = 16?",
+      "options": ["(9, -2), (1, -2), (5, 2), (5, -6)", "(5, 2), (5, -2), (9, 2), (1, 2)", "(21, -2), (-11, -2), (5, 14), (5, -18)", "(4, -2), (6, -2), (5, -1), (5, -3)"],
+      "correctAnswer": 0,
+      "explanation": "The center is (5, -2), and the radius is 4. Move 4 right, left, up, and down.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "The equation (x - 8)^2 + (y + 5)^2 = 1 has center (8, -5) and radius 1.",
+      "correctAnswer": "true",
+      "explanation": "The center is (8, -5), and sqrt(1) = 1.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "What is the radius of (x + 9)^2 + (y + 2)^2 = 100?",
+      "correctAnswer": "10",
+      "explanation": "The right side is r^2. Since r^2 = 100, r = 10.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A circle has center (-1, 7) and radius 3. Which equation would create its graph?",
+      "options": ["(x - 1)^2 + (y + 7)^2 = 9", "(x + 1)^2 + (y - 7)^2 = 9", "(x + 1)^2 + (y - 7)^2 = 3", "(x - 1)^2 + (y - 7)^2 = 9"],
+      "correctAnswer": 1,
+      "explanation": "Center (-1, 7) gives (x + 1)^2 + (y - 7)^2, and radius 3 gives r^2 = 9.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "For x^2 + y^2 = 25, what should the graph look like?",
+      "options": ["A circle centered at (0, 0) with radius 5", "A circle centered at (0, 0) with radius 25", "A circle centered at (5, 5) with radius 5", "A circle centered at (25, 25) with radius 1"],
+      "correctAnswer": 0,
+      "explanation": "x^2 + y^2 means center (0, 0), and sqrt(25) = 5.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "A student says (x + 4)^2 + (y - 3)^2 = 49 has center (4, -3). Correct the student's error and give the radius.",
+      "correctAnswer": "The center is (-4, 3), not (4, -3), because the signs inside the parentheses are opposites of the center coordinates. The radius is 7.",
+      "explanation": "The center comes from (x - h)^2 + (y - k)^2, so x + 4 means h = -4 and y - 3 means k = 3. The radius is sqrt(49) = 7.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Which equation represents a circle centered on the y-axis with radius 6?",
+      "options": ["(x - 2)^2 + y^2 = 36", "x^2 + (y + 3)^2 = 36", "(x + 6)^2 + (y - 1)^2 = 6", "x^2 + (y - 3)^2 = 12"],
+      "correctAnswer": 1,
+      "explanation": "A center on the y-axis has x-coordinate 0, so the x-part is x^2. Radius 6 gives r^2 = 36.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "question": "For (x - 2)^2 + (y + 6)^2 = 64, write the point 8 units to the right of the center.",
+      "correctAnswer": "(10, -6)",
+      "explanation": "The center is (2, -6). Moving 8 units right adds 8 to the x-coordinate, giving (10, -6).",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Describe the main steps for sketching the graph of (x - 3)^2 + (y + 1)^2 = 9.",
+      "correctAnswer": "Identify the center as (3, -1) and the radius as 3. Plot the center, mark the four radius points (6, -1), (0, -1), (3, 2), and (3, -4), then draw a smooth circle through them.",
+      "explanation": "The equation gives center (3, -1) and radius sqrt(9) = 3. The four radius points make the sketch accurate.",
+      "points": 10
+    }
+  ]
+}

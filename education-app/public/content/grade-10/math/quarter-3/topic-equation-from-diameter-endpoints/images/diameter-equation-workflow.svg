@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Workflow from diameter endpoints to circle equation</title>
+  <desc id="desc">A four-step flow showing endpoints, midpoint center, radius squared, and final center-radius equation.</desc>
+  <rect width="900" height="360" fill="#f8fafc"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#475569"/>
+    </marker>
+  </defs>
+  <g font-family="Arial, sans-serif">
+    <rect x="35" y="95" width="170" height="150" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+    <text x="60" y="132" font-size="22" font-weight="700" fill="#1e3a8a">1. Endpoints</text>
+    <text x="60" y="172" font-size="20" fill="#1e293b">A(x1, y1)</text>
+    <text x="60" y="204" font-size="20" fill="#1e293b">B(x2, y2)</text>
+    <line x1="215" y1="170" x2="285" y2="170" stroke="#475569" stroke-width="4" marker-end="url(#arrow)"/>
+    <rect x="295" y="95" width="170" height="150" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+    <text x="322" y="132" font-size="22" font-weight="700" fill="#166534">2. Midpoint</text>
+    <text x="318" y="174" font-size="18" fill="#1e293b">Center (h, k)</text>
+    <text x="318" y="208" font-size="17" fill="#1e293b">average x, average y</text>
+    <line x1="475" y1="170" x2="545" y2="170" stroke="#475569" stroke-width="4" marker-end="url(#arrow)"/>
+    <rect x="555" y="95" width="170" height="150" rx="12" fill="#ffedd5" stroke="#f97316" stroke-width="3"/>
+    <text x="586" y="132" font-size="22" font-weight="700" fill="#9a3412">3. Radius</text>
+    <text x="586" y="174" font-size="18" fill="#1e293b">distance from</text>
+    <text x="586" y="202" font-size="18" fill="#1e293b">center to endpoint</text>
+    <line x1="735" y1="170" x2="805" y2="170" stroke="#475569" stroke-width="4" marker-end="url(#arrow)"/>
+    <rect x="595" y="265" width="270" height="64" rx="12" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+    <text x="618" y="305" font-size="22" font-weight="700" fill="#0f172a">(x - h)^2 + (y - k)^2 = r^2</text>
+    <rect x="805" y="95" width="60" height="150" rx="12" fill="#f5f3ff" stroke="#7c3aed" stroke-width="3"/>
+    <text x="819" y="157" font-size="20" font-weight="700" fill="#5b21b6">4.</text>
+    <text x="815" y="188" font-size="18" fill="#1e293b">write</text>
+    <text x="813" y="214" font-size="18" fill="#1e293b">eqn</text>
+    <text x="38" y="48" font-size="26" font-weight="700" fill="#0f172a">Diameter endpoint workflow</text>
+    <text x="38" y="78" font-size="19" fill="#475569">Find the hidden center first, then build center-radius form.</text>
+  </g>
+</svg>

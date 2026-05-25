@@ -1,0 +1,98 @@
+{
+  "examId": "grade-10-math-q3-graphing-from-center-radius-form-practice",
+  "examType": "practice",
+  "title": "Graphing from Center-Radius Form Practice",
+  "description": "Practice identifying centers, radii, and radius points needed to graph circles from center-radius form.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What is the center of the circle (x - 3)^2 + (y + 4)^2 = 25?",
+      "options": ["(3, 4)", "(-3, 4)", "(3, -4)", "(-3, -4)"],
+      "correctAnswer": 2,
+      "explanation": "The form is (x - h)^2 + (y - k)^2 = r^2. Here h = 3 and k = -4.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "What is the radius of the circle (x + 1)^2 + (y - 2)^2 = 36?",
+      "options": ["6", "18", "36", "72"],
+      "correctAnswer": 0,
+      "explanation": "The right side is r^2. Since r^2 = 36, r = 6.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which equation has center (-5, 2) and radius 4?",
+      "options": ["(x - 5)^2 + (y + 2)^2 = 4", "(x + 5)^2 + (y - 2)^2 = 16", "(x - 5)^2 + (y - 2)^2 = 16", "(x + 5)^2 + (y + 2)^2 = 4"],
+      "correctAnswer": 1,
+      "explanation": "Center (-5, 2) gives (x + 5)^2 + (y - 2)^2, and radius 4 gives r^2 = 16.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "The circle (x + 6)^2 + (y + 1)^2 = 9 has center (-6, -1) and radius 3.",
+      "correctAnswer": "true",
+      "explanation": "The plus signs mean the center coordinates are negative, and sqrt(9) = 3.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "For (x - 2)^2 + (y - 5)^2 = 49, which point is 7 units above the center?",
+      "options": ["(9, 5)", "(-5, 5)", "(2, 12)", "(2, -2)"],
+      "correctAnswer": 2,
+      "explanation": "The center is (2, 5). Moving 7 units above adds 7 to the y-coordinate, giving (2, 12).",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Write the center of x^2 + (y - 8)^2 = 16 as an ordered pair.",
+      "correctAnswer": "(0, 8)",
+      "explanation": "x^2 means (x - 0)^2, and (y - 8)^2 gives k = 8.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "For (x + 4)^2 + (y + 3)^2 = 25, which four points are the left, right, top, and bottom radius points?",
+      "options": ["(-9, -3), (1, -3), (-4, 2), (-4, -8)", "(-4, -8), (-4, 2), (1, 3), (-9, 3)", "(-9, 3), (1, 3), (-4, 8), (-4, -2)", "(-5, -3), (-3, -3), (-4, -2), (-4, -4)"],
+      "correctAnswer": 0,
+      "explanation": "The center is (-4, -3) and the radius is 5. Move 5 left, right, up, and down.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "question": "If a circle has equation (x - 1)^2 + (y - 1)^2 = 64, its graph should have radius 64 units.",
+      "correctAnswer": "false",
+      "explanation": "The radius is sqrt(64) = 8 units, not 64 units.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Explain how to graph (x + 2)^2 + (y - 6)^2 = 16.",
+      "correctAnswer": "Plot the center (-2, 6). The radius is 4. Mark points (2, 6), (-6, 6), (-2, 10), and (-2, 2), then sketch a circle through them.",
+      "explanation": "The equation gives center (-2, 6) and radius sqrt(16) = 4. Four radius points guide the sketch.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "Which graph description matches (x - 7)^2 + y^2 = 4?",
+      "options": ["Center (7, 0), radius 2", "Center (-7, 0), radius 2", "Center (7, 0), radius 4", "Center (0, 7), radius 2"],
+      "correctAnswer": 0,
+      "explanation": "The center is (7, 0) because y^2 means (y - 0)^2, and the radius is sqrt(4) = 2.",
+      "points": 10
+    }
+  ]
+}

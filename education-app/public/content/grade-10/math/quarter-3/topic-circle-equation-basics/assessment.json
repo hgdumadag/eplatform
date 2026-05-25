@@ -1,0 +1,96 @@
+{
+  "examId": "grade-10-math-q3-circle-equation-basics-assessment",
+  "examType": "assessment",
+  "title": "Circle Equation Basics Assessment",
+  "description": "Show mastery of center-radius form, radius interpretation, and point-on-circle checks.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What is the center of (x - 8)^2 + (y + 5)^2 = 100?",
+      "options": ["(8, 5)", "(-8, 5)", "(8, -5)", "(-8, -5)"],
+      "correctAnswer": 2,
+      "explanation": "x - 8 gives h = 8, and y + 5 means y - (-5), so k = -5.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "What is the radius of (x + 4)^2 + (y - 6)^2 = 81?",
+      "options": ["4", "6", "9", "81"],
+      "correctAnswer": 2,
+      "explanation": "Since r^2 = 81, the radius is 9.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which equation has center (-3, 2) and radius 5?",
+      "options": ["(x - 3)^2 + (y + 2)^2 = 25", "(x + 3)^2 + (y - 2)^2 = 25", "(x + 3)^2 + (y - 2)^2 = 5", "(x - 3)^2 + (y + 2)^2 = 5"],
+      "correctAnswer": 1,
+      "explanation": "Center (-3, 2) gives (x + 3)^2 + (y - 2)^2, and radius 5 gives r^2 = 25.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "The point (0, -7) lies on x^2 + y^2 = 49.",
+      "correctAnswer": "true",
+      "explanation": "Substitute x = 0 and y = -7: 0^2 + (-7)^2 = 49.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "The point (2, 3) lies on (x - 2)^2 + (y - 3)^2 = 16.",
+      "correctAnswer": "false",
+      "explanation": "Substitution gives 0, not 16. The point (2, 3) is the center, not a point on the circle.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "For (x - 1)^2 + (y + 2)^2 = 121, enter the radius.",
+      "correctAnswer": "11",
+      "explanation": "The squared radius is 121, so the radius is 11.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "For (x + 9)^2 + (y - 4)^2 = 36, enter the center as an ordered pair.",
+      "correctAnswer": "(-9, 4)",
+      "explanation": "x + 9 means h = -9, and y - 4 means k = 4.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A circle centered at (5, 0) has radius 3. Which point is guaranteed to lie on the circle?",
+      "options": ["(5, 0)", "(8, 0)", "(9, 0)", "(5, 5)"],
+      "correctAnswer": 1,
+      "explanation": "(8, 0) is 3 units to the right of (5, 0), so it is exactly one radius away.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A circle has equation (x + 2)^2 + (y - 1)^2 = 25. Identify its center and radius, and explain the sign of the x-coordinate.",
+      "correctAnswer": "The center is (-2, 1) and the radius is 5. The x-coordinate is -2 because x + 2 is the same as x - (-2).",
+      "explanation": "The center is read from subtraction form. A plus sign inside the x-parenthesis indicates a negative x-coordinate.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Does (4, -1) lie on (x - 1)^2 + (y + 1)^2 = 9? Show the substitution.",
+      "correctAnswer": "Yes. Substitute x = 4 and y = -1: (4 - 1)^2 + (-1 + 1)^2 = 3^2 + 0^2 = 9, so the point lies on the circle.",
+      "explanation": "The substitution makes the equation true, so the point is on the circle.",
+      "points": 10
+    }
+  ]
+}

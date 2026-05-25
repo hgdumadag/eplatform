@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Worked circle equation example</title>
+  <desc id="desc">A circle centered at 3 comma 0 with radius 1 and its center-radius equation.</desc>
+  <rect width="720" height="420" fill="#ffffff"/>
+  <rect x="24" y="24" width="672" height="372" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+  <g transform="translate(230 220)">
+    <g stroke="#e2e8f0" stroke-width="1">
+      <path d="M-150 0H210"/>
+      <path d="M0 -120V120"/>
+      <path d="M-120 -120V120M-90 -120V120M-60 -120V120M-30 -120V120M30 -120V120M60 -120V120M90 -120V120M120 -120V120M150 -120V120M180 -120V120"/>
+      <path d="M-150 -90H210M-150 -60H210M-150 -30H210M-150 30H210M-150 60H210M-150 90H210"/>
+    </g>
+    <g stroke="#475569" stroke-width="2">
+      <path d="M-160 0H220"/>
+      <path d="M0 130V-130"/>
+    </g>
+    <circle cx="90" cy="0" r="30" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+    <circle cx="90" cy="0" r="5" fill="#14532d"/>
+    <line x1="90" y1="0" x2="120" y2="0" stroke="#16a34a" stroke-width="4"/>
+    <circle cx="120" cy="0" r="4" fill="#14532d"/>
+    <text x="72" y="-12" font-family="Arial, sans-serif" font-size="15" fill="#14532d">(3, 0)</text>
+    <text x="102" y="24" font-family="Arial, sans-serif" font-size="15" fill="#14532d">r = 1</text>
+    <text x="112" y="-12" font-family="Arial, sans-serif" font-size="15" fill="#14532d">(4, 0)</text>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#0f172a">
+    <text x="430" y="120" font-size="22" font-weight="700">Accent circle</text>
+    <text x="430" y="160" font-size="18">Center: (3, 0)</text>
+    <text x="430" y="194" font-size="18">Radius: 1</text>
+    <text x="430" y="228" font-size="18">Squared radius: 1</text>
+    <text x="430" y="274" font-size="22" font-weight="700" fill="#166534">(x - 3)^2 + y^2 = 1</text>
+    <text x="430" y="322" font-size="16" fill="#475569">Point check: (4 - 3)^2 + 0^2 = 1</text>
+  </g>
+</svg>
