@@ -13,6 +13,20 @@
 | Main skill | Using coordinate rules for rigid transformations |
 | Tools | Graph paper, ruler, pencil, and calculator only when needed |
 
+<!-- visual-assets:start -->
+
+## Visual Study Set
+
+Use these diagrams as anchors while you study. Each image names the parts you should notice before solving.
+
+![Reflection rules on coordinate axes](/content/grade-10/math/quarter-1/topic-reflections-and-rotations-with-coordinates/images/reflection-rules.svg)
+
+![Common rotation rules about the origin](/content/grade-10/math/quarter-1/topic-reflections-and-rotations-with-coordinates/images/rotation-rules.svg)
+
+![Triangle reflection and rotation examples](/content/grade-10/math/quarter-1/topic-reflections-and-rotations-with-coordinates/images/triangle-transformations.svg)
+
+<!-- visual-assets:end -->
+
 ## What You Should Already Know
 
 Before studying reflections and rotations, make sure these ideas feel familiar:

@@ -13,6 +13,20 @@
 | Main skill | Deciding the number of possible triangles in SSA cases |
 | Tools | Calculator, ruler, graph paper, and a careful sketch |
 
+<!-- visual-assets:start -->
+
+## Visual Study Set
+
+Use these diagrams as anchors while you study. Each image names the parts you should notice before solving.
+
+![SSA swinging side idea](/content/grade-10/math/quarter-1/topic-ambiguous-ssa-case/images/ssa-swing.svg)
+
+![SSA height test](/content/grade-10/math/quarter-1/topic-ambiguous-ssa-case/images/height-test.svg)
+
+![Zero one or two SSA triangles](/content/grade-10/math/quarter-1/topic-ambiguous-ssa-case/images/zero-one-two-triangles.svg)
+
+<!-- visual-assets:end -->
+
 ## What You Should Already Know
 
 Before studying the ambiguous SSA case, make sure these ideas feel familiar:

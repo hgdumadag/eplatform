@@ -13,6 +13,20 @@
 | Main skill | Describing point positions with coordinates |
 | Tools | Graph paper, ruler, pencil, calculator only when needed |
 
+<!-- visual-assets:start -->
+
+## Visual Study Set
+
+Use these diagrams as anchors while you study. Each image names the parts you should notice before solving.
+
+![Cartesian plane with axes and quadrants](/content/grade-10/math/quarter-1/topic-coordinate-position/images/cartesian-plane.svg)
+
+![Plotting a point from an ordered pair](/content/grade-10/math/quarter-1/topic-coordinate-position/images/plotting-point.svg)
+
+![Same x and same y coordinate relationships](/content/grade-10/math/quarter-1/topic-coordinate-position/images/same-x-same-y.svg)
+
+<!-- visual-assets:end -->
+
 ## What You Should Already Know
 
 Before studying coordinate position, make sure these ideas feel familiar:

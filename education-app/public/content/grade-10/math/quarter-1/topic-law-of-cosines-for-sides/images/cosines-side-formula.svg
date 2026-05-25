@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+<title id="title">Find a side</title>
+<desc id="desc">c^2 = a^2 + b^2 - 2ab cos C</desc>
+<rect width="720" height="420" fill="#f8fafc"/>
+<rect x="18" y="18" width="684" height="384" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<rect x="75" y="115" width="570" height="170" rx="18" fill="#eff6ff" stroke="#2563eb" stroke-width="3"/><text x="115" y="175" font-family="Arial, sans-serif" font-size="30" fill="#1d4ed8">Find a side</text><text x="115" y="235" font-family="Arial, sans-serif" font-size="31" fill="#0f172a">c^2 = a^2 + b^2 - 2ab cos C</text><text x="115" y="315" font-family="Arial, sans-serif" font-size="21" fill="#475569">Use the diagram labels before substituting values.</text>
+</svg>

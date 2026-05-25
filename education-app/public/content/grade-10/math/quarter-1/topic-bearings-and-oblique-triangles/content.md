@@ -13,6 +13,20 @@
 | Main skill | Translating bearings into oblique-triangle diagrams |
 | Tools | Ruler, graph paper, protractor, calculator when needed |
 
+<!-- visual-assets:start -->
+
+## Visual Study Set
+
+Use these diagrams as anchors while you study. Each image names the parts you should notice before solving.
+
+![Compass bearing measured clockwise from north](/content/grade-10/math/quarter-1/topic-bearings-and-oblique-triangles/images/bearing-compass.svg)
+
+![Two leg route forms an oblique triangle](/content/grade-10/math/quarter-1/topic-bearings-and-oblique-triangles/images/two-leg-route-triangle.svg)
+
+![Forward bearing and back bearing](/content/grade-10/math/quarter-1/topic-bearings-and-oblique-triangles/images/back-bearing.svg)
+
+<!-- visual-assets:end -->
+
 ## What You Should Already Know
 
 Before studying bearings, make sure these ideas feel familiar:

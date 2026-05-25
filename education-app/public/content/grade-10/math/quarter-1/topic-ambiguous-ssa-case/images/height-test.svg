@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+<title id="title">SSA height test</title>
+<desc id="desc">Compare the opposite side with the height.</desc>
+<rect width="720" height="420" fill="#f8fafc"/>
+<rect x="18" y="18" width="684" height="384" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<polygon points="120,320 600,320 245,115" fill="#fef3c7" stroke="#d97706" stroke-width="4"/><line x1="245" y1="115" x2="245" y2="320" stroke="#dc2626" stroke-width="4" stroke-dasharray="7 7"/><text x="257" y="225" font-family="Arial, sans-serif" font-size="23" fill="#dc2626">height h</text><text x="75" y="350" font-family="Arial, sans-serif" font-size="24" fill="#0f172a">Compare the given opposite side with h.</text>
+</svg>

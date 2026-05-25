@@ -13,6 +13,20 @@
 | Main skill | Solving missing sides and angles in oblique triangles |
 | Tools | Calculator with sine and inverse sine, ruler, graph paper |
 
+<!-- visual-assets:start -->
+
+## Visual Study Set
+
+Use these diagrams as anchors while you study. Each image names the parts you should notice before solving.
+
+![Opposite side and angle pairs](/content/grade-10/math/quarter-1/topic-law-of-sines/images/opposite-pairs.svg)
+
+![Law of Sines proportion](/content/grade-10/math/quarter-1/topic-law-of-sines/images/law-of-sines-proportion.svg)
+
+![ASA AAS and SSA cases for Law of Sines](/content/grade-10/math/quarter-1/topic-law-of-sines/images/asa-aas-ssa-cases.svg)
+
+<!-- visual-assets:end -->
+
 ## What You Should Already Know
 
 Before using the Law of Sines, make sure these ideas feel familiar:

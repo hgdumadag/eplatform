@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+<title id="title">Bearing compass</title>
+<desc id="desc">Bearings are measured clockwise from north.</desc>
+<rect width="720" height="420" fill="#f8fafc"/>
+<rect x="18" y="18" width="684" height="384" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<circle cx="360" cy="220" r="125" fill="#eff6ff" stroke="#2563eb" stroke-width="4"/><line x1="360" y1="95" x2="360" y2="345" stroke="#334155" stroke-width="3"/><line x1="235" y1="220" x2="485" y2="220" stroke="#334155" stroke-width="3"/><text x="350" y="82" font-family="Arial, sans-serif" font-size="26" fill="#0f172a">N</text><text x="350" y="370" font-family="Arial, sans-serif" font-size="26" fill="#0f172a">S</text><text x="500" y="228" font-family="Arial, sans-serif" font-size="26" fill="#0f172a">E</text><text x="200" y="228" font-family="Arial, sans-serif" font-size="26" fill="#0f172a">W</text><defs><marker id="arrow-360-220" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#dc2626"/></marker></defs><line x1="360" y1="220" x2="455" y2="140" stroke="#dc2626" stroke-width="4" marker-end="url(#arrow-360-220)"/><path d="M360 155 A65 65 0 0 1 416 185" fill="none" stroke="#dc2626" stroke-width="4"/><text x="425" y="175" font-family="Arial, sans-serif" font-size="22" fill="#dc2626">bearing</text>
+</svg>

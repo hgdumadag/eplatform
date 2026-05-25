@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+<title id="title">Included angle effect</title>
+<desc id="desc">Larger included angles make longer opposite sides.</desc>
+<rect width="720" height="420" fill="#f8fafc"/>
+<rect x="18" y="18" width="684" height="384" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<polygon points="60,300 210,300 115,190" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/><text x="90" y="340" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">Small angle</text><polygon points="280,300 430,300 340,135" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/><text x="305" y="340" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">Medium angle</text><polygon points="500,300 665,300 615,110" fill="#fee2e2" stroke="#b91c1c" stroke-width="4"/><text x="525" y="340" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">Large angle</text><text x="75" y="85" font-family="Arial, sans-serif" font-size="24" fill="#0f172a">Same nearby sides, different included angles</text>
+</svg>

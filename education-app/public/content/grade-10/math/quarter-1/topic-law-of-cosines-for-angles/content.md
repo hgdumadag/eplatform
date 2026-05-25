@@ -13,6 +13,20 @@
 | Main skill | Using the Law of Cosines to find angles from SSS information |
 | Tools | Calculator with cos^-1 or arccos, paper, ruler, graph paper when useful |
 
+<!-- visual-assets:start -->
+
+## Visual Study Set
+
+Use these diagrams as anchors while you study. Each image names the parts you should notice before solving.
+
+![SSS find angle setup](/content/grade-10/math/quarter-1/topic-law-of-cosines-for-angles/images/sss-find-angle.svg)
+
+![Law of Cosines angle formula](/content/grade-10/math/quarter-1/topic-law-of-cosines-for-angles/images/cosines-angle-formula.svg)
+
+![Largest side opposite largest angle](/content/grade-10/math/quarter-1/topic-law-of-cosines-for-angles/images/largest-side-largest-angle.svg)
+
+<!-- visual-assets:end -->
+
 ## What You Should Already Know
 
 Before using the Law of Cosines for angles, make sure these ideas feel familiar:
