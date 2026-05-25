@@ -1,0 +1,32 @@
+{
+  "id": "grade-10-math-q1-quarter-navigation-transformation-task",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Quarter Navigation and Transformation Task",
+  "description": "Solve a bearing-based route problem, represent it on a coordinate map, and transform the route using coordinate rules.",
+  "learningObjectives": [
+    "Translate bearing descriptions into accurate route diagrams",
+    "Use oblique-triangle reasoning to solve missing distances or angles in a navigation context",
+    "Plot route points on the Cartesian plane using coordinates",
+    "Apply translation, reflection, and rotation rules to a mapped route",
+    "Explain how bearing evidence and coordinate rules support a final route map"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": ["geometry", "bearings", "oblique-triangles", "coordinate-plane", "transformations", "culminating-task"],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  },
+  "prerequisites": [
+    "Right, acute, and obtuse angle vocabulary",
+    "Law of Sines and Law of Cosines basics",
+    "Bearing notation and compass directions",
+    "Plotting ordered pairs on the Cartesian plane",
+    "Coordinate rules for translations, reflections, and rotations"
+  ]
+}

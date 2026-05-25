@@ -1,0 +1,32 @@
+{
+  "id": "grade-10-math-q1-ambiguous-ssa-case",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Ambiguous SSA Case",
+  "description": "Determine whether SSA information creates zero, one, or two possible triangles by using the height test and angle-side evidence.",
+  "learningObjectives": [
+    "Recognize SSA information in an oblique triangle",
+    "Use the height from the known angle to decide how many triangles are possible",
+    "Distinguish zero-triangle, one-triangle, and two-triangle SSA cases",
+    "Explain an ambiguous-case decision using side and angle evidence",
+    "Check whether a Law of Sines result gives a valid second angle"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "intermediate",
+  "tags": ["geometry", "triangles", "oblique-triangles", "law-of-sines", "ssa", "ambiguous-case"],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  },
+  "prerequisites": [
+    "Angle sum of a triangle",
+    "Basic sine ratio",
+    "Oblique triangles",
+    "Law of Sines setup",
+    "Comparing side lengths"
+  ]
+}

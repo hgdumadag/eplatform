@@ -1,0 +1,100 @@
+{
+  "examId": "grade-10-math-q1-oblique-triangles-assessment",
+  "examType": "assessment",
+  "title": "Oblique Triangles Checkpoint",
+  "description": "Show that you can classify triangles, identify given cases, and choose appropriate strategies.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A triangle has angles 49°, 41°, and 90°. Which classification is correct?",
+      "options": ["Acute oblique", "Obtuse oblique", "Right", "Not enough information"],
+      "correctAnswer": 2,
+      "explanation": "The triangle has a 90° angle, so it is a right triangle.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A triangle has two known angles: 33° and 78°. What classification follows after finding the third angle?",
+      "options": ["Right triangle", "Acute oblique triangle", "Obtuse oblique triangle", "Impossible triangle"],
+      "correctAnswer": 1,
+      "explanation": "The third angle is 180° - 33° - 78° = 69°. All angles are less than 90°, so the triangle is acute oblique.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A triangle has angles 22°, 47°, and 111°. Which classification is correct?",
+      "options": ["Right triangle", "Acute oblique triangle", "Obtuse oblique triangle", "Equiangular triangle"],
+      "correctAnswer": 2,
+      "explanation": "No angle is 90°, so it is oblique. The 111° angle makes it obtuse.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "In △ABC, AB = 10 cm, BC = 14 cm, and AC = 18 cm are known. Which given case is shown?",
+      "options": ["SAS", "SSA", "ASA", "SSS"],
+      "correctAnswer": 3,
+      "explanation": "All three side lengths are known, so the given case is SSS.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "In △ABC, AB = 12 cm, AC = 7 cm, and ∠A = 52° are known. Which given case is shown?",
+      "options": ["SAS", "SSA", "ASA", "AAS"],
+      "correctAnswer": 0,
+      "explanation": "The angle ∠A is between sides AB and AC, so the case is SAS.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "In △XYZ, ∠X = 44°, ∠Y = 73°, and side XZ is known. Side XZ is not between the two given angles. Which case is shown?",
+      "options": ["ASA", "AAS", "SSS", "SAS"],
+      "correctAnswer": 1,
+      "explanation": "Two angles and a non-included side form the AAS case.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which given case can be ambiguous when solving oblique triangles?",
+      "options": ["SSS", "SAS", "SSA", "ASA"],
+      "correctAnswer": 2,
+      "explanation": "SSA may create zero, one, or two possible triangles, so it must be checked carefully.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "An oblique triangle has SAS information. Which strategy is usually the best starting point later?",
+      "options": ["Law of Cosines", "Right-triangle sine ratio only", "Pythagorean Theorem only", "No formula is possible"],
+      "correctAnswer": 0,
+      "explanation": "For SAS in an oblique triangle, the Law of Cosines is usually the best starting point.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Explain in one or two sentences why an acute triangle is an oblique triangle.",
+      "correctAnswer": "An acute triangle has all angles less than 90°, so it has no right angle. Since an oblique triangle is any triangle with no 90° angle, an acute triangle is oblique.",
+      "explanation": "The key idea is that oblique means no right angle; all acute triangles meet that condition.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A student says SAS and SSA are the same because both include two sides and one angle. Explain the difference.",
+      "correctAnswer": "In SAS, the known angle is included between the two known sides. In SSA, the known angle is not between the two known sides.",
+      "explanation": "The location of the angle matters because it changes the given case and the solving strategy.",
+      "points": 10
+    }
+  ]
+}

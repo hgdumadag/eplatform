@@ -1,0 +1,98 @@
+{
+  "examId": "grade-10-math-q1-bearings-and-oblique-triangles-practice",
+  "examType": "practice",
+  "title": "Bearings and Oblique Triangles Practice",
+  "description": "Practice reading bearings, finding back bearings, and translating navigation descriptions into triangle diagrams.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "How is a standard bearing measured?",
+      "options": ["Counterclockwise from east", "Clockwise from north", "Clockwise from west", "Counterclockwise from south"],
+      "correctAnswer": 1,
+      "explanation": "A standard bearing is measured clockwise from north and is usually written with three digits.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which direction matches a bearing of 090°?",
+      "options": ["North", "East", "South", "West"],
+      "correctAnswer": 1,
+      "explanation": "A 090° clockwise turn from north points east.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A bearing of 135° lies in which quadrant?",
+      "options": ["Northeast", "Southeast", "Southwest", "Northwest"],
+      "correctAnswer": 1,
+      "explanation": "135° is between 090° and 180°, so the direction is southeast.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "From the same point, two paths have bearings 040° and 115°. What is the angle between the paths? Give the answer in degrees.",
+      "correctAnswer": "75° or 75 degrees or 75",
+      "explanation": "Subtract the bearings because both paths start from the same point: 115° - 040° = 75°.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "From A to B, the bearing is 070°. What is the bearing from B back to A?",
+      "options": ["070°", "110°", "180°", "250°"],
+      "correctAnswer": 3,
+      "explanation": "The opposite direction is 180° away, so 070° + 180° = 250°.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "A new north line should be drawn at each new point where a bearing is measured.",
+      "correctAnswer": "true",
+      "explanation": "Each bearing is measured from north at its own location, so drawing a local north line helps keep the diagram accurate.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "From point P, point Q is 8 km away on a bearing of 025° and point R is 12 km away on a bearing of 100°. What triangle information is known for △PQR?",
+      "options": ["SSS", "SAS", "ASA", "AAS"],
+      "correctAnswer": 1,
+      "explanation": "The two known distances are sides from P, and the angle between them is 100° - 025° = 75°, so the case is SAS.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "From X to Y, the bearing is 300°. What is the back bearing from Y to X? Write a three-digit bearing.",
+      "correctAnswer": "120° or 120 degrees or 120",
+      "explanation": "Since 300° + 180° is greater than 360°, subtract 180° instead: 300° - 180° = 120°.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "In one sentence, explain why a bearing of 060° points northeast rather than east.",
+      "correctAnswer": "A bearing is measured clockwise from north, and 060° is between north and east, so it points northeast.",
+      "explanation": "The key idea is that the reference direction is north, not east.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "A boat travels from A to B, then from B to C. Which segment usually represents the direct distance from the start to the final position?",
+      "options": ["AB", "BC", "AC", "The north line"],
+      "correctAnswer": 2,
+      "explanation": "If the route is A to B to C, the direct distance from the start A to the final point C is AC.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "grade-10-math-q1-law-of-sines",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Law of Sines",
+  "description": "Use the Law of Sines to solve oblique triangles in ASA, AAS, and selected SSA cases.",
+  "learningObjectives": [
+    "State and interpret the Law of Sines for oblique triangles",
+    "Identify ASA, AAS, and SSA given cases",
+    "Find a missing angle before applying the Law of Sines when two angles are known",
+    "Solve for missing sides and angles using proportional sine ratios",
+    "Check whether an SSA situation may have zero, one, or two possible triangles"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "intermediate",
+  "tags": ["geometry", "triangles", "oblique-triangles", "law-of-sines", "asa", "aas", "ssa"],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  },
+  "prerequisites": [
+    "Oblique triangle vocabulary",
+    "Triangle angle sum",
+    "Opposite sides and opposite angles",
+    "Sine ratio and calculator use",
+    "Basic equation solving with proportions"
+  ]
+}

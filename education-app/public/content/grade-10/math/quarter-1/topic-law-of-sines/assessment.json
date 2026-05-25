@@ -1,0 +1,98 @@
+{
+  "examId": "grade-10-math-q1-law-of-sines-assessment",
+  "examType": "assessment",
+  "title": "Law of Sines Checkpoint",
+  "description": "Show that you can solve ASA, AAS, and SSA oblique triangle problems using the Law of Sines.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "In △ABC, side a is opposite which angle?",
+      "options": ["∠A", "∠B", "∠C", "The largest angle only"],
+      "correctAnswer": 0,
+      "explanation": "By standard notation, lowercase side a is opposite uppercase angle A.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 36°, ∠B = 79°, and b = 18. Which expression finds a?",
+      "options": ["a = 18 sin 36° / sin 79°", "a = 18 sin 79° / sin 36°", "a = 18 sin 65° / sin 36°", "a = 36 sin 18° / sin 79°"],
+      "correctAnswer": 0,
+      "explanation": "Use a/sin 36° = 18/sin 79°, so a = 18 sin 36° / sin 79°.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 36°, ∠B = 79°, and b = 18. What is a to the nearest tenth?",
+      "options": ["10.8", "11.2", "29.8", "30.1"],
+      "correctAnswer": 0,
+      "explanation": "a = 18 sin 36° / sin 79° ≈ 10.8.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 46°, ∠C = 80°, and c = 18. What is ∠B?",
+      "options": ["44°", "54°", "64°", "74°"],
+      "correctAnswer": 1,
+      "explanation": "B = 180° - 46° - 80° = 54°.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 46°, ∠C = 80°, and c = 18. What is a to the nearest tenth?",
+      "options": ["11.1", "13.1", "17.7", "20.4"],
+      "correctAnswer": 1,
+      "explanation": "a = 18 sin 46° / sin 80° ≈ 13.1.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 30°, a = 6, and b = 12. What is ∠B?",
+      "options": ["30°", "60°", "90°", "120° or 60°"],
+      "correctAnswer": 2,
+      "explanation": "sin B = 12 sin 30° / 6 = 1, so B = 90°. There is only one possible angle.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "ASA and AAS problems often require finding the third angle before applying the Law of Sines.",
+      "correctAnswer": "true",
+      "explanation": "Finding the third angle helps create the angle-side pair needed for the proportion.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "In △ABC, ∠B = 64°, ∠C = 51°, and b = 16. Find c to the nearest tenth.",
+      "correctAnswer": "13.8",
+      "explanation": "c = 16 sin 51° / sin 64° ≈ 13.8.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "In an SSA problem, why should you check 180° minus the angle found by inverse sine?",
+      "correctAnswer": "Because supplementary angles have the same sine value, so the supplement may create a second possible triangle if the angle sum is still less than 180°.",
+      "explanation": "The ambiguity comes from the sine of an acute angle matching the sine of its obtuse supplement.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A student has ∠A = 55°, a = 15, and b = 20, then computes sin B ≈ 1.092. Explain the conclusion.",
+      "correctAnswer": "No triangle is possible because a sine value cannot be greater than 1, so the given measurements are inconsistent.",
+      "explanation": "A sine result greater than 1 is outside the possible range for real angles.",
+      "points": 10
+    }
+  ]
+}

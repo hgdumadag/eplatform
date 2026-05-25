@@ -1,0 +1,101 @@
+{
+  "examId": "grade-10-math-q1-oblique-triangles-practice",
+  "examType": "practice",
+  "title": "Oblique Triangles Practice",
+  "description": "Practice distinguishing right and oblique triangles and identifying given cases.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement best describes an oblique triangle?",
+      "options": ["A triangle with one 90° angle", "A triangle with no 90° angle", "A triangle with three equal sides", "A triangle with one angle greater than 180°"],
+      "correctAnswer": 1,
+      "explanation": "An oblique triangle is any triangle that does not have a right angle.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A triangle has angles 42°, 71°, and 67°. How should it be classified?",
+      "options": ["Right triangle", "Obtuse oblique triangle", "Acute oblique triangle", "Not a triangle"],
+      "correctAnswer": 2,
+      "explanation": "None of the angles is 90°, so the triangle is oblique. All three angles are less than 90°, so it is acute.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A triangle has angles 28°, 62°, and 90°. How should it be classified?",
+      "options": ["Right triangle", "Acute oblique triangle", "Obtuse oblique triangle", "Equiangular oblique triangle"],
+      "correctAnswer": 0,
+      "explanation": "A triangle with one 90° angle is a right triangle, not an oblique triangle.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Two angles of a triangle are 38° and 57°. What is the third angle?",
+      "options": ["75°", "85°", "95°", "105°"],
+      "correctAnswer": 1,
+      "explanation": "The third angle is 180° - 38° - 57° = 85°.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A triangle has angles 115°, 30°, and 35°. How should it be classified?",
+      "options": ["Right triangle", "Acute oblique triangle", "Obtuse oblique triangle", "Impossible triangle"],
+      "correctAnswer": 2,
+      "explanation": "There is no 90° angle, so it is oblique. Since 115° is greater than 90°, it is obtuse.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "You know all three side lengths of a triangle. Which given case is this?",
+      "options": ["AAA", "ASA", "SAS", "SSS"],
+      "correctAnswer": 3,
+      "explanation": "Three known side lengths form the SSS case.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "You know two sides and the angle between them. Which given case is this?",
+      "options": ["SAS", "SSA", "ASA", "AAS"],
+      "correctAnswer": 0,
+      "explanation": "Two sides with their included angle form the SAS case.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "You know two angles and the side between those angles. Which given case is this?",
+      "options": ["AAS", "ASA", "SSA", "SSS"],
+      "correctAnswer": 1,
+      "explanation": "Two angles with the included side form the ASA case.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "Every obtuse triangle is an oblique triangle.",
+      "correctAnswer": "true",
+      "explanation": "An obtuse triangle has one angle greater than 90°, so it cannot have a 90° angle. Therefore it is oblique.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "For an oblique triangle with SSS information, which strategy is usually useful later?",
+      "options": ["Pythagorean Theorem only", "Law of Cosines", "Counting grid squares only", "No triangle strategy can be used"],
+      "correctAnswer": 1,
+      "explanation": "SSS information in an oblique triangle usually points toward the Law of Cosines when solving for an angle.",
+      "points": 10
+    }
+  ]
+}

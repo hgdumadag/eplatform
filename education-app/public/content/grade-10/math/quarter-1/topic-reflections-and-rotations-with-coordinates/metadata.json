@@ -1,0 +1,32 @@
+{
+  "id": "grade-10-math-q1-reflections-and-rotations-with-coordinates",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Reflections and Rotations with Coordinates",
+  "description": "Apply coordinate rules for reflections and common rotations, then compare preimage and image coordinates.",
+  "learningObjectives": [
+    "Identify a preimage and image on the coordinate plane",
+    "Apply reflection rules across the x-axis, y-axis, origin, and the line y = x",
+    "Apply common rotation rules about the origin for 90°, 180°, and 270° counterclockwise rotations",
+    "Compare coordinates before and after a transformation",
+    "Explain how signs and coordinate order change under reflections and rotations"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "intermediate",
+  "tags": ["geometry", "coordinate-plane", "transformations", "reflections", "rotations", "preimage", "image"],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  },
+  "prerequisites": [
+    "Plotting ordered pairs on the Cartesian plane",
+    "Identifying quadrants",
+    "Understanding positive and negative coordinates",
+    "Basic meaning of congruent figures",
+    "Translations with coordinate rules"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "examId": "grade-10-math-q1-translations-with-coordinates-practice",
+  "examType": "practice",
+  "title": "Translations with Coordinates Practice",
+  "description": "Practice reading, writing, and applying coordinate rules for translations.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which rule translates every point 5 units right and 2 units down?",
+      "options": ["(x, y) -> (x + 5, y + 2)", "(x, y) -> (x - 5, y - 2)", "(x, y) -> (x + 5, y - 2)", "(x, y) -> (x - 2, y + 5)"],
+      "correctAnswer": 2,
+      "explanation": "Right means add to x, and down means subtract from y, so the rule is (x, y) -> (x + 5, y - 2).",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Point A(3, -1) is translated using (x, y) -> (x - 4, y + 6). What is A'?",
+      "options": ["A'(-1, 5)", "A'(7, 5)", "A'(-1, -7)", "A'(9, -5)"],
+      "correctAnswer": 0,
+      "explanation": "Compute 3 - 4 = -1 and -1 + 6 = 5, so A' is (-1, 5).",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "The rule (x, y) -> (x - 7, y) describes which movement?",
+      "options": ["7 units right", "7 units left", "7 units up", "7 units down"],
+      "correctAnswer": 1,
+      "explanation": "Subtracting 7 from x moves a point 7 units left. The y-coordinate does not change.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Point B(-2, 4) maps to B'(6, 1). What translation rule was used?",
+      "options": ["(x, y) -> (x + 4, y - 3)", "(x, y) -> (x + 8, y - 3)", "(x, y) -> (x - 8, y + 3)", "(x, y) -> (x + 8, y + 5)"],
+      "correctAnswer": 1,
+      "explanation": "The x-change is 6 - (-2) = 8, and the y-change is 1 - 4 = -3, so the rule is (x, y) -> (x + 8, y - 3).",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "A translation changes the size of a figure.",
+      "correctAnswer": "false",
+      "explanation": "A translation is a slide, so it preserves size and shape.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Translate P(0, -5) using (x, y) -> (x + 3, y + 8). Write the image point as an ordered pair.",
+      "correctAnswer": "(3, 3)",
+      "explanation": "Add 3 to x and 8 to y: 0 + 3 = 3 and -5 + 8 = 3.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A translation moves every point 6 units left and 1 unit up. Complete the rule: (x, y) -> (x - 6, y + __).",
+      "correctAnswer": "1",
+      "explanation": "Moving 1 unit up means adding 1 to the y-coordinate.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Triangle ABC has A(1, 2), B(4, 2), and C(2, 5). Apply (x, y) -> (x + 2, y - 3). What is C'?",
+      "options": ["C'(4, 2)", "C'(0, 8)", "C'(4, 8)", "C'(-1, 7)"],
+      "correctAnswer": 0,
+      "explanation": "For C(2, 5), compute 2 + 2 = 4 and 5 - 3 = 2, so C' is (4, 2).",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "In one or two sentences, explain why every vertex of a polygon must use the same coordinate rule during a translation.",
+      "correctAnswer": "A translation slides the entire figure the same distance and direction. If different vertices used different rules, the figure could stretch, twist, or change shape instead of translating.",
+      "explanation": "The key idea is that one translation applies one equal movement to every point of the figure.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "Which statement is true for the translation (x, y) -> (x - 2, y - 9)?",
+      "options": ["Move 2 right and 9 up", "Move 2 left and 9 down", "Move 9 left and 2 down", "Move 2 down and 9 left"],
+      "correctAnswer": 1,
+      "explanation": "Subtracting 2 from x moves left 2, and subtracting 9 from y moves down 9.",
+      "points": 10
+    }
+  ]
+}
