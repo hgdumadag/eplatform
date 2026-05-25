@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" role="img" aria-labelledby="title desc">
+  <title id="title">Worked example rectangular prism</title>
+  <desc id="desc">A rectangular prism labeled eight centimeters, three centimeters, and five centimeters with calculation equal to one hundred twenty cubic centimeters.</desc>
+  <rect width="820" height="520" fill="#f8fafc"/>
+  <text x="40" y="54" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#123047">8 cm × 3 cm × 5 cm</text>
+  <g transform="translate(210 130)" stroke="#1e40af" stroke-width="4" stroke-linejoin="round">
+    <polygon points="0,70 260,70 330,130 70,130" fill="#bfdbfe"/>
+    <polygon points="0,70 70,130 70,250 0,190" fill="#93c5fd"/>
+    <polygon points="70,130 330,130 330,250 70,250" fill="#dbeafe"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#0f172a" font-size="22" font-weight="700">
+    <text x="360" y="105">8 cm</text>
+    <text x="570" y="205">3 cm</text>
+    <text x="155" y="225">5 cm</text>
+  </g>
+  <text x="410" y="430" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" fill="#0f766e">8 × 3 × 5 = 120 cm³</text>
+</svg>

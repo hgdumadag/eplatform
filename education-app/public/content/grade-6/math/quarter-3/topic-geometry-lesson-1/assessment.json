@@ -1,0 +1,101 @@
+{
+  "examId": "grade-6-math-q3-geometry-lesson-1-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 1 Assessment: Units for Volume and Capacity",
+  "description": "Match objects and containers to suitable cubic or liquid units.",
+  "passingScore": 75,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which unit should you choose for the capacity of a drinking glass?",
+      "options": ["mL", "cm²", "m³", "cm"],
+      "correctAnswer": 0,
+      "explanation": "A drinking glass holds liquid, and milliliters are suitable for smaller liquid amounts.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which unit should you choose for the volume of a large storage room?",
+      "options": ["m³", "mL", "cm²", "L only"],
+      "correctAnswer": 0,
+      "explanation": "A storage room is a large 3D space, so cubic meters are suitable.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "Capacity describes how much liquid a container can hold.",
+      "correctAnswer": "true",
+      "explanation": "Capacity is the amount a container can hold, often measured in mL or L.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "A cubic centimeter is written as ______.",
+      "correctAnswer": "cm³ or cm^3",
+      "explanation": "A cubic centimeter is written cm³. Some typed answers use cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which choice correctly matches the object to a suitable unit?",
+      "options": [
+        "Swimming pool capacity: L or kL",
+        "Dice volume: mL",
+        "Notebook cover area: L",
+        "Water bottle capacity: cm²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A swimming pool holds a large amount of water, so L or kL is suitable.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "Why is cm² not suitable for measuring the volume of a box?",
+      "correctAnswer": "cm² measures flat area, while the volume of a box measures 3D space and should use cubic units such as cm³.",
+      "explanation": "Square units are for area. Cubic units are for volume.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which item is best matched with liters?",
+      "options": ["A bucket of water", "A pencil length", "The area of a card", "The volume of a dice"],
+      "correctAnswer": 0,
+      "explanation": "A bucket holds liquid, so liters are suitable.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "question": "A tiny medicine dropper is usually better measured in liters than milliliters.",
+      "correctAnswer": "false",
+      "explanation": "A tiny dropper holds a small amount of liquid, so milliliters are more suitable.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Choose a suitable unit for the capacity of a fish tank and explain why.",
+      "correctAnswer": "Liters, because a fish tank holds water and capacity is usually measured with liquid units.",
+      "explanation": "A fish tank's liquid capacity is best described with liters. Its inside volume could also be described with cubic units if the question asks for 3D space.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Choose a suitable unit for the volume of a stack of unit cubes and explain your choice.",
+      "correctAnswer": "Cubic units or cm³, because the stack is a 3D solid arrangement and volume uses cubic units.",
+      "explanation": "A stack of cubes takes up 3D space, so cubic units fit the measurement.",
+      "points": 10
+    }
+  ]
+}

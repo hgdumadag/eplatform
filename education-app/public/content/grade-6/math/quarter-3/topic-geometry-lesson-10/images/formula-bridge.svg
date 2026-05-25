@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Formula bridge</title>
+  <desc id="desc">A diagram shows diameter equals two radii and connects C equals pi d to C equals 2 pi r.</desc>
+  <rect width="760" height="420" fill="#ffffff"/>
+  <circle cx="190" cy="205" r="105" fill="#fef3c7" stroke="#d97706" stroke-width="5"/>
+  <line x1="85" y1="205" x2="295" y2="205" stroke="#b91c1c" stroke-width="5"/>
+  <line x1="190" y1="205" x2="295" y2="205" stroke="#15803d" stroke-width="7"/>
+  <circle cx="190" cy="205" r="5" fill="#111827"/>
+  <text x="190" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#991b1b">d = 2r</text>
+  <rect x="380" y="88" width="280" height="70" rx="8" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+  <rect x="380" y="260" width="280" height="70" rx="8" fill="#dcfce7" stroke="#15803d" stroke-width="3"/>
+  <text x="520" y="132" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#1e3a8a">C = pi d</text>
+  <text x="520" y="304" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#14532d">C = 2 pi r</text>
+  <path d="M520 170v70" stroke="#334155" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="604" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#334155">replace d with 2r</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="#334155"/>
+    </marker>
+  </defs>
+  <text x="380" y="382" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#334155">Choose the formula that matches the given measure.</text>
+</svg>

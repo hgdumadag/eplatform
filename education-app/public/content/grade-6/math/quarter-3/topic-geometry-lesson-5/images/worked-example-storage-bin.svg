@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" role="img" aria-labelledby="title desc">
+  <title id="title">Worked example storage bin</title>
+  <desc id="desc">A storage bin labeled twelve centimeters, eight centimeters, and five centimeters with volume four hundred eighty cubic centimeters.</desc>
+  <rect width="820" height="520" fill="#f8fafc"/>
+  <text x="40" y="54" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#123047">Storage bin: 12 cm × 8 cm × 5 cm</text>
+  <g transform="translate(190 130)" stroke="#1e40af" stroke-width="4" stroke-linejoin="round">
+    <polygon points="0,80 320,80 410,155 90,155" fill="#bfdbfe"/>
+    <polygon points="0,80 90,155 90,290 0,215" fill="#93c5fd"/>
+    <polygon points="90,155 410,155 410,290 90,290" fill="#dbeafe"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#0f172a" font-size="22" font-weight="700">
+    <text x="330" y="116">12 cm</text>
+    <text x="595" y="230">8 cm</text>
+    <text x="110" y="250">5 cm</text>
+  </g>
+  <text x="410" y="440" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" fill="#0f766e">12 × 8 × 5 = 480 cm³</text>
+</svg>

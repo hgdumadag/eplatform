@@ -1,0 +1,13 @@
+{
+  "id": "circumference-pi-lab",
+  "version": "1.0",
+  "runtime": "sandbox-local",
+  "widget": "sandbox-host",
+  "title": "Circumference and Pi Lab",
+  "props": {
+    "htmlPath": "../miniapps/circumference-pi-lab.html"
+  },
+  "fallback": {
+    "markdown": "Interactive lab unavailable. Measure around a circle for circumference, measure across the center for diameter, divide circumference by diameter to approximate pi, then use C = pi d or C = 2 pi r."
+  }
+}

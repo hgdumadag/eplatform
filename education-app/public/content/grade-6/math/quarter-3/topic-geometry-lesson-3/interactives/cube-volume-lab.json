@@ -1,0 +1,30 @@
+{
+  "id": "grade-6-cube-volume-lab",
+  "version": "1.0",
+  "runtime": "sandbox-local",
+  "widget": "sandbox-host",
+  "title": "Cube Volume Lab",
+  "prompt": "Build cube volume from unit cubes, check answers, and review the formula V = s³.",
+  "props": {
+    "htmlPath": "../miniapps/cube-volume-lab.html",
+    "height": 760
+  },
+  "checkpoints": [
+    {
+      "id": "readiness-checked",
+      "label": "Readiness checked"
+    },
+    {
+      "id": "volume-checked",
+      "label": "Volume checked"
+    },
+    {
+      "id": "mastery-checked",
+      "label": "Mastery checklist checked"
+    }
+  ],
+  "fallback": {
+    "markdown": "Cube volume is found with V = s³, which means side × side × side. Use cubic units such as cm³.",
+    "image": "../images/cube-3-by-3-by-3.svg"
+  }
+}

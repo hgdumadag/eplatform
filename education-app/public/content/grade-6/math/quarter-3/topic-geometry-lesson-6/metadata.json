@@ -1,0 +1,40 @@
+{
+  "id": "grade-6-math-q3-geometry-lesson-6",
+  "grade": 6,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Geometry - Lesson 6",
+  "description": "Convert between square centimeters and square meters and explain why area conversion uses squared units.",
+  "learningObjectives": [
+    "Identify when a measurement is an area measurement",
+    "Explain why area units are squared",
+    "Convert square meters to square centimeters",
+    "Convert square centimeters to square meters",
+    "Use area unit conversion in real measurement situations"
+  ],
+  "prerequisites": [
+    "Understand that area measures surface space",
+    "Know that 1 m = 100 cm",
+    "Multiply and divide by powers of 10",
+    "Read square units such as cm² and m²",
+    "Find the area of rectangles"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": ["geometry", "measurement", "area", "unit conversion", "square centimeters", "square meters"],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/square-meter-grid.svg",
+      "images/linear-vs-area-conversion.svg",
+      "images/cm-to-m-area-flow.svg",
+      "images/worked-example-poster.svg",
+      "images/worked-example-floor.svg",
+      "images/error-analysis-linear-conversion.svg"
+    ]
+  }
+}

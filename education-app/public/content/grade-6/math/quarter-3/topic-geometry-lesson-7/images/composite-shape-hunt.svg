@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-labelledby="title desc">
+  <title id="title">Composite shape hunt</title>
+  <desc id="desc">A composite figure made from a rectangle and a triangle with a dashed decomposition line.</desc>
+  <rect width="760" height="330" fill="#ffffff"/>
+  <polygon points="180,85 455,85 610,215 180,215" fill="#dbeafe" stroke="#1d4ed8" stroke-width="4"/>
+  <line x1="455" y1="85" x2="455" y2="215" stroke="#7c2d12" stroke-width="4" stroke-dasharray="10 8"/>
+  <text x="315" y="154" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700">rectangle</text>
+  <text x="526" y="164" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700">triangle</text>
+  <text x="380" y="280" text-anchor="middle" font-family="Arial" font-size="23" font-weight="700">Break the figure into familiar shapes.</text>
+</svg>

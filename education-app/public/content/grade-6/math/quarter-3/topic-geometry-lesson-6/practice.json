@@ -1,0 +1,78 @@
+{
+  "examId": "grade-6-math-q3-geometry-lesson-6-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 6 Practice: Area Unit Conversion",
+  "description": "Practice converting between square centimeters and square meters.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which conversion is correct?",
+      "options": ["1 m² = 100 cm²", "1 m² = 1000 cm²", "1 m² = 10000 cm²", "1 m² = 100000 cm²"],
+      "correctAnswer": 2,
+      "explanation": "A square meter is 100 cm by 100 cm, so 100 × 100 = 10000 cm².",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "Convert 4 m² to cm². Enter just the number.",
+      "correctAnswer": "40000",
+      "explanation": "Multiply by 10000: 4 × 10000 = 40000 cm².",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "Convert 70000 cm² to m². Enter just the number.",
+      "correctAnswer": "7",
+      "explanation": "Divide by 10000: 70000 ÷ 10000 = 7 m².",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "To convert square meters to square centimeters, multiply by 10000.",
+      "correctAnswer": "true",
+      "explanation": "Each square meter contains 10000 square centimeters.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A student converts 2 m² to 200 cm². What is the likely mistake?",
+      "options": ["The student used the length conversion factor instead of the area conversion factor.", "The student divided by 10000.", "The student used cubic units.", "The student converted centimeters to meters first."],
+      "correctAnswer": 0,
+      "explanation": "Using 100 is correct for length, but area needs 100 × 100 = 10000.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Convert 1.5 m² to cm². Enter just the number.",
+      "correctAnswer": "15000",
+      "explanation": "1.5 × 10000 = 15000 cm².",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "Convert 2500 cm² to m². Enter just the number.",
+      "correctAnswer": "0.25",
+      "explanation": "2500 ÷ 10000 = 0.25 m².",
+      "points": 12
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain why area conversion from m² to cm² uses 10000, not 100.",
+      "correctAnswer": "Area has two dimensions. Since 1 m is 100 cm in both length and width, 1 m² is 100 cm × 100 cm = 10000 cm².",
+      "explanation": "A complete explanation should mention both dimensions and the product 100 × 100.",
+      "points": 16
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "examId": "grade-6-math-q3-geometry-lesson-5-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 5 Assessment: Volume Word Problems",
+  "description": "Write complete volume solutions with correct units for storage and packing problems.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A storage box is 8 cm long, 6 cm wide, and 5 cm high. What is its volume?",
+      "options": ["19 cm³", "48 cm²", "240 cm³", "480 cm³"],
+      "correctAnswer": 2,
+      "explanation": "8 × 6 × 5 = 240 cm³.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A cube-shaped bin has side length 7 m. What is its volume? Enter just the number.",
+      "correctAnswer": "343",
+      "explanation": "7³ = 7 × 7 × 7 = 343 m³.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "If a problem asks for storage space inside a rectangular box, it is asking for volume.",
+      "correctAnswer": "true",
+      "explanation": "Storage space inside a 3D container is a volume situation.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "A packing crate is 30 cm long, 20 cm wide, and 15 cm high. What is its volume? Enter just the number.",
+      "correctAnswer": "9000",
+      "explanation": "30 × 20 × 15 = 9000 cm³.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which answer is written completely for a 500 cm³ storage volume?",
+      "options": ["500", "500 cm²", "The storage box has a volume of 500 cm³.", "The storage box is 500 cm long."],
+      "correctAnswer": 2,
+      "explanation": "A complete volume answer uses a sentence and cubic units.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "A shelf bin is 9 dm long, 4 dm wide, and 5 dm high. Write a complete solution for its volume.",
+      "correctAnswer": "V = 9 × 4 × 5 = 180 dm³. The shelf bin has a volume of 180 dm³.",
+      "explanation": "Use V = l × w × h and include cubic decimeters.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "A cube block has side length 8 cm. Write a complete solution for its volume.",
+      "correctAnswer": "V = 8³ = 8 × 8 × 8 = 512 cm³. The cube block has a volume of 512 cm³.",
+      "explanation": "Use the cube formula V = s³ and include cm³.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "A cabinet compartment is 50 cm long, 30 cm wide, and 40 cm high. What is its volume? Enter just the number.",
+      "correctAnswer": "60000",
+      "explanation": "50 × 30 × 40 = 60000 cm³.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A box has base area 35 square units and height 8 units. Find the volume with units.",
+      "correctAnswer": "280 cubic units, because 35 × 8 = 280.",
+      "explanation": "Volume can be found by multiplying base area by height.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A shipping box is 40 cm by 25 cm by 20 cm. Small cube packages have side length 5 cm. If they fit perfectly, how many small cube packages fit?",
+      "correctAnswer": "160 packages. The box volume is 40 × 25 × 20 = 20000 cm³, each cube is 5³ = 125 cm³, and 20000 ÷ 125 = 160.",
+      "explanation": "Find the big box volume, find one small cube volume, then divide.",
+      "points": 10
+    }
+  ]
+}

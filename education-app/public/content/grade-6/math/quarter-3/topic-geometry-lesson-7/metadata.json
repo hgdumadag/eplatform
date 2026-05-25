@@ -1,0 +1,41 @@
+{
+  "id": "grade-6-math-q3-geometry-lesson-7",
+  "grade": 6,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Geometry - Lesson 7",
+  "description": "Find the area of composite figures by breaking them into triangles, rectangles, parallelograms, and trapezoids.",
+  "learningObjectives": [
+    "Identify simple shapes inside a composite figure",
+    "Break composite figures into rectangles, triangles, parallelograms, or trapezoids",
+    "Choose the correct area formula for each part",
+    "Add or subtract areas to find a total area",
+    "Explain a decomposition strategy clearly"
+  ],
+  "prerequisites": [
+    "Find the area of rectangles",
+    "Find the area of triangles",
+    "Find the area of parallelograms",
+    "Find the area of trapezoids",
+    "Use square units correctly",
+    "Add and subtract whole numbers and decimals"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": ["geometry", "measurement", "area", "composite figures", "decomposition", "triangles", "rectangles", "trapezoids", "parallelograms"],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/composite-shape-hunt.svg",
+      "images/decomposition-options.svg",
+      "images/formula-reference.svg",
+      "images/worked-example-l-shape.svg",
+      "images/worked-example-trapezoid-plus-rectangle.svg",
+      "images/error-analysis-overlap.svg"
+    ]
+  }
+}

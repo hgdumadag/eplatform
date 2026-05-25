@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Circle parts</title>
+  <desc id="desc">A circle labeled with circumference, diameter, radius, and center.</desc>
+  <rect width="760" height="420" fill="#ffffff"/>
+  <circle cx="365" cy="210" r="135" fill="#dbeafe" stroke="#1d4ed8" stroke-width="5"/>
+  <circle cx="365" cy="210" r="5" fill="#111827"/>
+  <line x1="230" y1="210" x2="500" y2="210" stroke="#b91c1c" stroke-width="5"/>
+  <line x1="365" y1="210" x2="455" y2="116" stroke="#15803d" stroke-width="5"/>
+  <path d="M520 100c58 55 62 160 8 224" fill="none" stroke="#7c3aed" stroke-width="5" stroke-linecap="round"/>
+  <text x="365" y="246" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#991b1b">diameter</text>
+  <text x="433" y="150" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#166534">radius</text>
+  <text x="550" y="210" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#5b21b6">circumference</text>
+  <text x="365" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#111827">center</text>
+  <text x="365" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#334155">Diameter crosses through the center. Radius is half the diameter.</text>
+</svg>

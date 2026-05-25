@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-labelledby="title desc">
+  <title id="title">Floor area conversion example</title>
+  <desc id="desc">A tiled floor area labeled forty five thousand square centimeters converting to four point five square meters.</desc>
+  <rect width="720" height="320" fill="#ffffff"/>
+  <g transform="translate(75 70)">
+    <rect width="240" height="150" fill="#e0f2fe" stroke="#0369a1" stroke-width="4"/>
+    <g stroke="#7dd3fc" stroke-width="2">
+      <path d="M40 0v150M80 0v150M120 0v150M160 0v150M200 0v150"/>
+      <path d="M0 30h240M0 60h240M0 90h240M0 120h240"/>
+    </g>
+    <text x="120" y="85" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700">45000 cm²</text>
+  </g>
+  <path d="M345 145h115" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow)"/>
+  <text x="403" y="120" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700">÷ 10000</text>
+  <rect x="485" y="90" width="160" height="105" rx="8" fill="#dcfce7" stroke="#15803d" stroke-width="4"/>
+  <text x="565" y="152" text-anchor="middle" font-family="Arial" font-size="25" font-weight="700" fill="#14532d">4.5 m²</text>
+  <text x="360" y="275" text-anchor="middle" font-family="Arial" font-size="21">cm² to m² means divide by 10000.</text>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker></defs>
+</svg>

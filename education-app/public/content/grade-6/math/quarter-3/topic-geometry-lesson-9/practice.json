@@ -1,0 +1,79 @@
+{
+  "examId": "grade-6-math-q3-geometry-lesson-9-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 9 Practice: Circle Parts and Construction",
+  "description": "Practice identifying and labeling the center, radius, diameter, and circumference of circles.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which part of a circle is the fixed point in the middle where the compass point stays?",
+      "options": ["radius", "center", "diameter", "circumference"],
+      "correctAnswer": 1,
+      "explanation": "The center is the fixed middle point of the circle and the compass point rests there during construction.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A segment from the center of a circle to a point on the circle is called a:",
+      "options": ["diameter", "radius", "circumference", "chord"],
+      "correctAnswer": 1,
+      "explanation": "A radius connects the center to any point on the circle.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A diameter must pass through the center of the circle.",
+      "correctAnswer": "true",
+      "explanation": "A diameter is a segment across the circle through the center.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "If a circle has radius 5 cm, what is its diameter in centimeters? Enter just the number.",
+      "correctAnswer": "10",
+      "explanation": "The diameter is twice the radius, so 2 x 5 = 10 cm.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which phrase best describes the circumference of a circle?",
+      "options": ["the point in the middle", "a segment from the center to the circle", "the distance around the circle", "a segment through the center"],
+      "correctAnswer": 2,
+      "explanation": "Circumference is the distance around the circle, like the circle's boundary.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "If a circle has diameter 14 units, what is its radius? Enter just the number.",
+      "correctAnswer": "7",
+      "explanation": "The radius is half the diameter, so 14 divided by 2 = 7 units.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "Describe how to draw a circle with radius 4 cm using a compass.",
+      "correctAnswer": "Set the compass opening to 4 cm with a ruler, place the compass point on the center, and rotate the pencil around without changing the opening.",
+      "explanation": "A complete answer should include setting the compass to the radius, keeping the point fixed at the center, and rotating to draw the circle.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A student labels a segment across the circle as a diameter, but the segment does not pass through the center. Explain the error.",
+      "correctAnswer": "The segment is not a diameter because a diameter must pass through the center. It may be a chord, but it is not the longest center-crossing segment.",
+      "explanation": "A diameter crosses the circle through the center; a segment across the circle away from the center is not a diameter.",
+      "points": 14
+    }
+  ]
+}

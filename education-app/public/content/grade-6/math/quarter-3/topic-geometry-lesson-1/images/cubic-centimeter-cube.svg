@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Cubic centimeter model</title>
+  <desc id="desc">A unit cube labeled one centimeter in length, width, and height to show a cubic centimeter.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <text x="36" y="48" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#123047">Cubic units measure 3D space</text>
+  <g transform="translate(220 110)" stroke="#1e3a8a" stroke-width="4" stroke-linejoin="round">
+    <polygon points="90,40 230,40 280,90 140,90" fill="#bfdbfe"/>
+    <polygon points="90,40 140,90 140,230 90,180" fill="#93c5fd"/>
+    <polygon points="140,90 280,90 280,230 140,230" fill="#dbeafe"/>
+    <line x1="90" y1="180" x2="230" y2="180"/>
+    <line x1="230" y1="40" x2="280" y2="90"/>
+    <line x1="230" y1="40" x2="230" y2="180"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="20" fill="#0f172a">
+    <text x="304" y="367">1 cm × 1 cm × 1 cm = 1 cm³</text>
+    <text x="134" y="216">height</text>
+    <text x="336" y="103">width</text>
+    <text x="430" y="252">length</text>
+  </g>
+</svg>

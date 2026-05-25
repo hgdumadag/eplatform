@@ -1,0 +1,94 @@
+{
+  "examId": "grade-6-math-q3-geometry-lesson-10-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 10 Assessment: Circumference and Pi",
+  "description": "Demonstrate mastery of approximating pi and solving circumference problems with diameter or radius.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which line segment is the diameter of a circle?",
+      "options": ["a segment from the center to the circle", "a segment across the circle through the center", "the distance around the circle", "any curved part of the circle"],
+      "correctAnswer": 1,
+      "explanation": "The diameter goes across the circle and passes through the center.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A circular plate has circumference 62.8 cm and diameter 20 cm. What is C divided by d? Enter the decimal.",
+      "correctAnswer": "3.14",
+      "explanation": "62.8 ÷ 20 = 3.14.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A circle with a larger diameter has a larger circumference.",
+      "correctAnswer": "true",
+      "explanation": "Since C = pi d, circumference increases as diameter increases.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "Use pi = 3.14. What is the circumference of a circle with diameter 15 cm? Enter just the number.",
+      "correctAnswer": "47.1",
+      "explanation": "C = pi d = 3.14 × 15 = 47.1 cm.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A circle has radius 9 ft. Which formula setup correctly finds the circumference?",
+      "options": ["C = 3.14 × 9", "C = 2 × 3.14 × 9", "C = 9 ÷ 3.14", "C = 9 + 3.14"],
+      "correctAnswer": 1,
+      "explanation": "When radius is given, use C = 2 pi r.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Use pi = 3.14. What is the circumference of a circle with radius 4 m? Enter just the number.",
+      "correctAnswer": "25.12",
+      "explanation": "C = 2 × 3.14 × 4 = 25.12 m.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A circle has radius 11 cm. What is its diameter? Enter just the number.",
+      "correctAnswer": "22",
+      "explanation": "Diameter is twice the radius, so d = 2 × 11 = 22 cm.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Why is C = pi d equivalent to C = 2 pi r?",
+      "correctAnswer": "The diameter is twice the radius, so d = 2r. Replacing d in C = pi d gives C = pi(2r), which is the same as C = 2 pi r.",
+      "explanation": "A complete answer should connect d = 2r to the two circumference formulas.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "question": "Use pi = 3.14. A wheel has diameter 26 inches. About how far does it travel in one full turn? Enter just the number.",
+      "correctAnswer": "81.64",
+      "explanation": "One full turn covers one circumference: C = 3.14 × 26 = 81.64 inches.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A measured circle has circumference 43.8 cm and diameter 14 cm, so C divided by d is about 3.13. Explain why this is still a reasonable approximation of pi.",
+      "correctAnswer": "Real measurements can have small errors from tools or rounding. Since 3.13 is very close to 3.14, the result is reasonable.",
+      "explanation": "Measurement-based approximations of pi may be slightly different from 3.14 because of rounding and measurement error.",
+      "points": 10
+    }
+  ]
+}

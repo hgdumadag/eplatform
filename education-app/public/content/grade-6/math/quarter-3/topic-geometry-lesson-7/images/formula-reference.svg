@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 360" role="img" aria-labelledby="title desc">
+  <title id="title">Area formula reference</title>
+  <desc id="desc">A chart showing formulas for rectangle, triangle, parallelogram, and trapezoid area.</desc>
+  <rect width="820" height="360" fill="#ffffff"/>
+  <g font-family="Arial" font-size="18" font-weight="700">
+    <rect x="35" y="50" width="160" height="100" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+    <text x="115" y="88" text-anchor="middle">Rectangle</text>
+    <text x="115" y="124" text-anchor="middle">A = l × w</text>
+    <polygon points="265,150 345,50 425,150" fill="#fee2e2" stroke="#dc2626" stroke-width="3"/>
+    <text x="345" y="190" text-anchor="middle">Triangle</text>
+    <text x="345" y="224" text-anchor="middle">A = 1/2 bh</text>
+    <polygon points="505,50 690,50 650,150 465,150" fill="#dcfce7" stroke="#15803d" stroke-width="3"/>
+    <text x="578" y="190" text-anchor="middle">Parallelogram</text>
+    <text x="578" y="224" text-anchor="middle">A = bh</text>
+    <polygon points="250,270 340,270 390,330 200,330" fill="#fef3c7" stroke="#b45309" stroke-width="3"/>
+    <text x="295" y="250" text-anchor="middle">Trapezoid</text>
+    <text x="295" y="350" text-anchor="middle">A = 1/2(b₁ + b₂)h</text>
+  </g>
+</svg>
