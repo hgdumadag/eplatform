@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Capacity container comparison</title>
+  <desc id="desc">Small, medium, and large containers matched to milliliters, liters, and many liters.</desc>
+  <rect width="900" height="520" fill="#f8fafc"/>
+  <text x="42" y="54" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#123047">Capacity units depend on container size</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(120 120)">
+      <rect x="35" y="80" width="90" height="130" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
+      <rect x="38" y="132" width="84" height="75" rx="10" fill="#60a5fa" opacity="0.75"/>
+      <text x="80" y="252" font-size="24" font-weight="700" fill="#0f172a">medicine cup</text>
+      <text x="80" y="286" font-size="28" font-weight="700" fill="#0f766e">mL</text>
+    </g>
+    <g transform="translate(370 96)">
+      <path d="M60 0h80v44c0 18 42 40 42 96v170c0 28-22 50-50 50H68c-28 0-50-22-50-50V140c0-56 42-78 42-96Z" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
+      <path d="M20 205h160v105c0 24-20 44-44 44H64c-24 0-44-20-44-44Z" fill="#60a5fa" opacity="0.75"/>
+      <text x="100" y="402" font-size="24" font-weight="700" fill="#0f172a">bottle</text>
+      <text x="100" y="436" font-size="28" font-weight="700" fill="#0f766e">L</text>
+    </g>
+    <g transform="translate(650 130)">
+      <rect x="0" y="40" width="170" height="190" rx="12" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
+      <path d="M10 132h150v88H10Z" fill="#60a5fa" opacity="0.75"/>
+      <rect x="38" y="10" width="94" height="36" rx="10" fill="none" stroke="#1e40af" stroke-width="4"/>
+      <text x="85" y="272" font-size="24" font-weight="700" fill="#0f172a">water tank</text>
+      <text x="85" y="306" font-size="28" font-weight="700" fill="#0f766e">L or kL</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-labelledby="title desc">
+  <title id="title">Radius versus diameter</title>
+  <desc id="desc">Two circle diagrams compare one radius with one diameter.</desc>
+  <rect width="760" height="330" fill="#ffffff"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="35" y="42" font-size="27" font-weight="700" fill="#0f172a">Radius and diameter relationship</text>
+    <g transform="translate(80 80)">
+      <circle cx="110" cy="110" r="90" fill="#ecfdf5" stroke="#16a34a" stroke-width="4"/>
+      <circle cx="110" cy="110" r="6" fill="#111827"/>
+      <line x1="110" y1="110" x2="200" y2="110" stroke="#16a34a" stroke-width="6"/>
+      <text x="135" y="96" font-size="22" font-weight="700" fill="#166534">r</text>
+      <text x="55" y="225" font-size="22" font-weight="700">radius</text>
+    </g>
+    <g transform="translate(430 80)">
+      <circle cx="110" cy="110" r="90" fill="#fef2f2" stroke="#dc2626" stroke-width="4"/>
+      <line x1="20" y1="110" x2="200" y2="110" stroke="#dc2626" stroke-width="6"/>
+      <circle cx="110" cy="110" r="6" fill="#111827"/>
+      <text x="104" y="96" font-size="22" font-weight="700" fill="#991b1b">d</text>
+      <text x="48" y="225" font-size="22" font-weight="700">diameter</text>
+    </g>
+    <text x="380" y="292" text-anchor="middle" font-size="24" font-weight="700" fill="#334155">diameter = 2 radii</text>
+  </g>
+</svg>

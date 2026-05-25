@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+  <title id="title">Worked example cube with side length six centimeters</title>
+  <desc id="desc">A cube labeled six centimeters on length, width, and height with volume calculation six cubed equals two hundred sixteen cubic centimeters.</desc>
+  <rect width="760" height="520" fill="#f8fafc"/>
+  <text x="40" y="54" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#123047">Cube with side length 6 cm</text>
+  <g transform="translate(220 120)" stroke="#1e40af" stroke-width="4" stroke-linejoin="round">
+    <polygon points="80,35 230,35 290,95 140,95" fill="#bfdbfe"/>
+    <polygon points="80,35 140,95 140,245 80,185" fill="#93c5fd"/>
+    <polygon points="140,95 290,95 290,245 140,245" fill="#dbeafe"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#0f172a" font-size="22" font-weight="700">
+    <text x="390" y="105">6 cm</text>
+    <text x="535" y="222">6 cm</text>
+    <text x="170" y="230">6 cm</text>
+  </g>
+  <text x="380" y="420" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" fill="#0f766e">6 × 6 × 6 = 216 cm³</text>
+</svg>

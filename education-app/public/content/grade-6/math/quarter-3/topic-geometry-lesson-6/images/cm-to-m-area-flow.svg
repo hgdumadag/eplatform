@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 260" role="img" aria-labelledby="title desc">
+  <title id="title">Flow chart for area conversion</title>
+  <desc id="desc">A flow chart shows m squared to cm squared by multiplying by ten thousand and cm squared to m squared by dividing by ten thousand.</desc>
+  <rect width="760" height="260" fill="#ffffff"/>
+  <rect x="70" y="60" width="190" height="90" rx="8" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+  <rect x="500" y="60" width="190" height="90" rx="8" fill="#ecfccb" stroke="#4d7c0f" stroke-width="3"/>
+  <text x="165" y="112" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700">m²</text>
+  <text x="595" y="112" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700">cm²</text>
+  <path d="M275 85h200" stroke="#2563eb" stroke-width="5" fill="none" marker-end="url(#arrowBlue)"/>
+  <path d="M485 135H285" stroke="#7c2d12" stroke-width="5" fill="none" marker-end="url(#arrowAmber)"/>
+  <text x="380" y="72" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700">× 10000</text>
+  <text x="380" y="169" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700">÷ 10000</text>
+  <text x="380" y="220" text-anchor="middle" font-family="Arial" font-size="20">Use the direction of the units to choose multiply or divide.</text>
+  <defs>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#7c2d12"/></marker>
+  </defs>
+</svg>

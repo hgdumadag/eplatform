@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">One square meter shown as a grid of square centimeters</title>
+  <desc id="desc">A square labeled 1 meter by 1 meter and 100 centimeters by 100 centimeters, showing that area uses rows and columns.</desc>
+  <rect width="720" height="360" fill="#ffffff"/>
+  <rect x="250" y="45" width="230" height="230" fill="#dbeafe" stroke="#1d4ed8" stroke-width="4"/>
+  <g stroke="#93c5fd" stroke-width="1">
+    <path d="M273 45v230M296 45v230M319 45v230M342 45v230M365 45v230M388 45v230M411 45v230M434 45v230M457 45v230"/>
+    <path d="M250 68h230M250 91h230M250 114h230M250 137h230M250 160h230M250 183h230M250 206h230M250 229h230M250 252h230"/>
+  </g>
+  <text x="365" y="35" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700">100 cm = 1 m</text>
+  <text x="230" y="160" text-anchor="middle" transform="rotate(-90 230 160)" font-family="Arial" font-size="20" font-weight="700">100 cm = 1 m</text>
+  <text x="365" y="165" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#1e3a8a">1 m²</text>
+  <text x="365" y="320" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#0f172a">100 × 100 = 10000 cm²</text>
+</svg>

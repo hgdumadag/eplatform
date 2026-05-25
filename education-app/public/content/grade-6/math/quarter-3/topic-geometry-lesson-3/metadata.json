@@ -1,0 +1,40 @@
+{
+  "id": "grade-6-math-q3-geometry-lesson-3",
+  "grade": 6,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Geometry - Lesson 3",
+  "description": "Model cube volume with unit cubes and use side length to calculate volume.",
+  "learningObjectives": [
+    "Model the volume of a cube using unit cubes",
+    "Explain why cube volume can be found by side × side × side",
+    "Use the formula V = s³ for cube volume",
+    "Calculate cube volume from a given side length",
+    "Use cubic units correctly in final answers"
+  ],
+  "prerequisites": [
+    "Understand that volume measures 3D space",
+    "Recognize cubic units such as cm³",
+    "Multiply whole numbers",
+    "Know that a cube has equal length, width, and height",
+    "Understand exponents such as 3³"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "beginner",
+  "tags": ["geometry", "measurement", "volume", "cubes", "unit cubes", "cubic units"],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/unit-cube-model.svg",
+      "images/cube-3-by-3-by-3.svg",
+      "images/cube-layer-build.svg",
+      "images/volume-formula-map.svg",
+      "images/worked-example-cube.svg",
+      "images/error-analysis-square-vs-cube.svg"
+    ]
+  }
+}

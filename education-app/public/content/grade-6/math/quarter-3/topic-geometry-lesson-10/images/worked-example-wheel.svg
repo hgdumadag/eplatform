@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Wheel circumference example</title>
+  <desc id="desc">A wheel with radius 9 inches and an arrow showing one full turn equals one circumference.</desc>
+  <rect width="760" height="420" fill="#ffffff"/>
+  <line x1="70" y1="322" x2="690" y2="322" stroke="#94a3b8" stroke-width="4"/>
+  <circle cx="235" cy="215" r="105" fill="#e0f2fe" stroke="#0369a1" stroke-width="7"/>
+  <circle cx="235" cy="215" r="55" fill="none" stroke="#38bdf8" stroke-width="4"/>
+  <line x1="235" y1="215" x2="235" y2="110" stroke="#15803d" stroke-width="6"/>
+  <circle cx="235" cy="215" r="6" fill="#111827"/>
+  <text x="250" y="162" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#166534">r = 9 in.</text>
+  <path d="M392 215c55-72 172-72 226 0" fill="none" stroke="#f97316" stroke-width="7" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <text x="510" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#9a3412">one full turn</text>
+  <text x="510" y="258" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#111827">C = 2 x 3.14 x 9</text>
+  <text x="510" y="294" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#111827">C = 56.52 in.</text>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L0,8 L9,4 z" fill="#f97316"/>
+    </marker>
+  </defs>
+</svg>

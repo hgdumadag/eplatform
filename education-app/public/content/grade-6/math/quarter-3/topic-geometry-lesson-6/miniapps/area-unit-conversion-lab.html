@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Area Unit Conversion Lab</title>
+  <style>
+    :root { color-scheme: light; --ink:#102033; --muted:#536171; --line:#cbd5e1; --blue:#2563eb; --green:#166534; --red:#991b1b; --amber:#92400e; --bg:#f8fafc; --card:#fff; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:Arial, Helvetica, sans-serif; line-height:1.5; }
+    main { max-width:980px; margin:0 auto; padding:18px; }
+    h1,h2 { margin:0 0 10px; line-height:1.15; }
+    h1 { font-size:clamp(1.55rem,3vw,2.3rem); }
+    h2 { font-size:1.25rem; margin-top:24px; }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:16px; margin:14px 0; box-shadow:0 1px 2px rgba(15,23,42,.05); }
+    .intro { border-left:5px solid var(--blue); }
+    .visual { border:1px solid var(--line); border-radius:8px; padding:10px; background:#fff; margin:10px 0; }
+    svg { width:100%; height:auto; display:block; }
+    label { display:block; margin:8px 0; }
+    select,input { width:100%; min-height:40px; border:1px solid #94a3b8; border-radius:6px; padding:8px 10px; font:inherit; background:#fff; color:var(--ink); }
+    button { min-height:40px; border:0; border-radius:6px; padding:9px 12px; font:inherit; font-weight:700; background:var(--blue); color:#fff; cursor:pointer; margin:6px 6px 6px 0; }
+    button.secondary { background:#e2e8f0; color:#0f172a; }
+    button:focus { outline:3px solid #93c5fd; outline-offset:2px; }
+    .feedback { min-height:28px; margin-top:8px; padding:8px 10px; border-radius:6px; background:#f1f5f9; color:var(--muted); }
+    .good { background:#dcfce7; color:var(--green); }
+    .bad { background:#fee2e2; color:var(--red); }
+    .hint { display:none; margin:8px 0; padding:10px; border-left:4px solid var(--amber); background:#fffbeb; color:#713f12; }
+    .grid-two { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:12px; }
+    .checklist label { display:flex; gap:8px; align-items:flex-start; }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card intro">
+      <h1>Area Unit Conversion Lab</h1>
+      <p>Use the 100-by-100 square model to convert between m² and cm².</p>
+    </section>
+
+    <section class="card" aria-labelledby="readiness-title">
+      <h2 id="readiness-title">Pre-check / Readiness Quiz</h2>
+      <label>1. Area measures:
+        <select id="pre1"><option value="">Choose...</option><option value="surface">flat surface</option><option value="distance">distance around</option><option value="volume">space inside</option></select>
+      </label>
+      <label>2. Area of an 8 cm by 5 cm rectangle
+        <input id="pre2" type="text" autocomplete="off">
+      </label>
+      <label>3. 1 meter equals how many centimeters?
+        <input id="pre3" type="text" autocomplete="off">
+      </label>
+      <label>4. Which is an area unit?
+        <select id="pre4"><option value="">Choose...</option><option value="cm">cm</option><option value="cm2">cm²</option><option value="cm3">cm³</option></select>
+      </label>
+      <button type="button" onclick="checkReadiness()">Check Answers</button>
+      <div id="preFeedback" class="feedback" aria-live="polite">Your score will appear here.</div>
+    </section>
+
+    <section class="card" aria-labelledby="model-title">
+      <h2 id="model-title">Why the Factor Is 10000</h2>
+      <div class="visual">
+        <svg viewBox="0 0 760 320" role="img" aria-labelledby="modelTitle modelDesc">
+          <title id="modelTitle">Square meter as a centimeter grid</title>
+          <desc id="modelDesc">A large square labeled one meter by one meter, with repeated grid marks representing one hundred centimeters in each direction.</desc>
+          <rect width="760" height="320" fill="#fff"/>
+          <g transform="translate(250 40)">
+            <rect x="0" y="0" width="220" height="220" fill="#dbeafe" stroke="#1d4ed8" stroke-width="4"/>
+            <g stroke="#93c5fd" stroke-width="1">
+              <path d="M22 0v220M44 0v220M66 0v220M88 0v220M110 0v220M132 0v220M154 0v220M176 0v220M198 0v220"/>
+              <path d="M0 22h220M0 44h220M0 66h220M0 88h220M0 110h220M0 132h220M0 154h220M0 176h220M0 198h220"/>
+            </g>
+            <text x="110" y="-12" text-anchor="middle" font-size="19" font-weight="700">100 cm</text>
+            <text x="-18" y="115" text-anchor="middle" transform="rotate(-90 -18 115)" font-size="19" font-weight="700">100 cm</text>
+            <text x="110" y="118" text-anchor="middle" font-size="24" font-weight="700" fill="#1e3a8a">1 m²</text>
+          </g>
+          <text x="380" y="296" text-anchor="middle" font-size="22" font-weight="700">100 cm × 100 cm = 10000 cm²</text>
+        </svg>
+      </div>
+      <button type="button" class="secondary" onclick="toggle('modelHint')">Reveal Thinking Guide</button>
+      <button type="button" class="secondary" onclick="toggle('modelAnswer')">Reveal Explanation</button>
+      <div id="modelHint" class="hint">Count square units in rows and columns: 100 rows and 100 columns.</div>
+      <div id="modelAnswer" class="hint">A square meter is 100 cm wide and 100 cm tall, so it contains 100 × 100 = 10000 square centimeters.</div>
+    </section>
+
+    <section class="card" aria-labelledby="converter-title">
+      <h2 id="converter-title">Guided Converter</h2>
+      <div class="grid-two">
+        <label>Value
+          <input id="convertValue" type="text" autocomplete="off">
+        </label>
+        <label>Convert
+          <select id="convertDirection">
+            <option value="m2tocm2">m² to cm²</option>
+            <option value="cm2tom2">cm² to m²</option>
+          </select>
+        </label>
+      </div>
+      <button type="button" onclick="convertArea()">Convert</button>
+      <div id="convertFeedback" class="feedback" aria-live="polite">Enter a value to see the conversion.</div>
+    </section>
+
+    <section class="card" aria-labelledby="guided-title">
+      <h2 id="guided-title">Guided Practice</h2>
+      <label>Convert 1.2 m² to cm².
+        <input id="guided1" type="text" autocomplete="off">
+      </label>
+      <button type="button" class="secondary" onclick="toggle('hint1a')">Hint 1</button>
+      <button type="button" class="secondary" onclick="toggle('hint1b')">Hint 2</button>
+      <button type="button" onclick="checkOne('guided1','guidedFeedback1',12000,'Correct. 1.2 × 10000 = 12000 cm².','Use 1.2 × 10000. The answer should be 12000 cm².')">Check Answer</button>
+      <div id="hint1a" class="hint">m² to cm² means multiply.</div>
+      <div id="hint1b" class="hint">Compute 1.2 × 10000.</div>
+      <div id="guidedFeedback1" class="feedback" aria-live="polite">Feedback will appear here.</div>
+
+      <label>Convert 45000 cm² to m².
+        <input id="guided2" type="text" autocomplete="off">
+      </label>
+      <button type="button" class="secondary" onclick="toggle('hint2a')">Hint 1</button>
+      <button type="button" class="secondary" onclick="toggle('hint2b')">Hint 2</button>
+      <button type="button" onclick="checkOne('guided2','guidedFeedback2',4.5,'Correct. 45000 ÷ 10000 = 4.5 m².','Use 45000 ÷ 10000. The answer should be 4.5 m².')">Check Answer</button>
+      <div id="hint2a" class="hint">cm² to m² means divide.</div>
+      <div id="hint2b" class="hint">Move from smaller square units to larger square units.</div>
+      <div id="guidedFeedback2" class="feedback" aria-live="polite">Feedback will appear here.</div>
+    </section>
+
+    <section class="card" aria-labelledby="quiz-title">
+      <h2 id="quiz-title">Mini-Quiz</h2>
+      <label>1. Convert 3 m² to cm².
+        <input id="quiz1" type="text" autocomplete="off">
+      </label>
+      <label>2. Convert 80000 cm² to m².
+        <input id="quiz2" type="text" autocomplete="off">
+      </label>
+      <label>3. Which factor converts m² to cm²?
+        <select id="quiz3"><option value="">Choose...</option><option value="100">100</option><option value="10000">10000</option></select>
+      </label>
+      <label>4. Why is the factor squared?
+        <select id="quiz4"><option value="">Choose...</option><option value="two">Area has two dimensions</option><option value="three">Area has three dimensions</option><option value="none">It is a shortcut only</option></select>
+      </label>
+      <button type="button" onclick="checkQuiz()">Check Quiz</button>
+      <div id="quizFeedback" class="feedback" aria-live="polite">Your quiz score will appear here.</div>
+    </section>
+
+    <section class="card checklist" aria-labelledby="mastery-title">
+      <h2 id="mastery-title">Mastery Checklist</h2>
+      <label><input type="checkbox" class="mastery"> I can explain what area measures.</label>
+      <label><input type="checkbox" class="mastery"> I know that 1 m² = 10000 cm².</label>
+      <label><input type="checkbox" class="mastery"> I can multiply by 10000 from m² to cm².</label>
+      <label><input type="checkbox" class="mastery"> I can divide by 10000 from cm² to m².</label>
+      <label><input type="checkbox" class="mastery"> I can explain why using 100 is a length-conversion mistake.</label>
+      <button type="button" onclick="checkMastery()">Check My Readiness</button>
+      <div id="masteryFeedback" class="feedback" aria-live="polite">Your readiness feedback will appear here.</div>
+    </section>
+  </main>
+  <script>
+    function normalize(value){return String(value||'').trim().toLowerCase().replace(/\s+/g,'').replace(/,/g,'');}
+    function numberValue(value){var cleaned=normalize(value).replace(/cm\^?2|cm²|m\^?2|m²|squarecentimeters?|squaremeters?/g,''); var num=Number(cleaned); return Number.isFinite(num)?num:NaN;}
+    function setFeedback(id,message,good){var node=document.getElementById(id); node.textContent=message; node.className='feedback '+(good?'good':'bad'); resize();}
+    function toggle(id){var node=document.getElementById(id); node.style.display=node.style.display==='block'?'none':'block'; parent.postMessage({type:'requestHint'},'*'); resize();}
+    function closeEnough(a,b){return Math.abs(a-b)<0.000001;}
+    function checkReadiness(){var score=0; if(normalize(pre1.value)==='surface')score++; if(numberValue(pre2.value)===40)score++; if(numberValue(pre3.value)===100)score++; if(normalize(pre4.value)==='cm2')score++; var good=score>=3; setFeedback('preFeedback','Score: '+score+' of 4. '+(good?'Continue to the conversion model.':'Review area, rectangle area, and basic meter-centimeter conversion before continuing.'),good); parent.postMessage({type:'checkpoint',checkpointId:'readiness-checked'},'*');}
+    function convertArea(){var value=numberValue(convertValue.value); if(!Number.isFinite(value)){setFeedback('convertFeedback','Enter a numerical value first.',false);return;} var direction=convertDirection.value; if(direction==='m2tocm2'){setFeedback('convertFeedback',value+' m² × 10000 = '+(value*10000)+' cm².',true);} else {setFeedback('convertFeedback',value+' cm² ÷ 10000 = '+(value/10000)+' m².',true);} parent.postMessage({type:'checkpoint',checkpointId:'converter-used'},'*');}
+    function checkOne(inputId,feedbackId,answer,goodMsg,badMsg){var actual=numberValue(document.getElementById(inputId).value); setFeedback(feedbackId,closeEnough(actual,answer)?goodMsg:badMsg,closeEnough(actual,answer));}
+    function checkQuiz(){var score=0; if(numberValue(quiz1.value)===30000)score++; if(numberValue(quiz2.value)===8)score++; if(normalize(quiz3.value)==='10000')score++; if(normalize(quiz4.value)==='two')score++; var good=score>=3; setFeedback('quizFeedback','Score: '+score+' of 4. '+(good?'Good. You are using squared units correctly.':'Revisit why area changes in two dimensions.'),good);}
+    function checkMastery(){var boxes=Array.from(document.querySelectorAll('.mastery')); var checked=boxes.filter(function(box){return box.checked;}).length; var all=checked===boxes.length; setFeedback('masteryFeedback',all?'You look ready for the practice exam.':'You checked '+checked+' of '+boxes.length+'. Revisit any unchecked skill before the assessment.',all); parent.postMessage({type:'checkpoint',checkpointId:'mastery-checked'},'*');}
+    function resize(){parent.postMessage({type:'resize',height:Math.min(940,document.documentElement.scrollHeight+20)},'*');}
+    window.addEventListener('load',function(){parent.postMessage({type:'ready'},'*'); resize();});
+    window.addEventListener('resize',resize);
+  </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "id": "grade-6-cubic-liters-lab",
+  "version": "1.0",
+  "runtime": "sandbox-local",
+  "widget": "sandbox-host",
+  "title": "Cubic Centimeters and Liters Lab",
+  "prompt": "Practice converting between cubic centimeters and liters with instant feedback.",
+  "props": {
+    "htmlPath": "../miniapps/cubic-liters-lab.html",
+    "height": 780
+  },
+  "checkpoints": [
+    {
+      "id": "readiness-checked",
+      "label": "Readiness checked"
+    },
+    {
+      "id": "conversion-checked",
+      "label": "Conversion checked"
+    },
+    {
+      "id": "mastery-checked",
+      "label": "Mastery checklist checked"
+    }
+  ],
+  "fallback": {
+    "markdown": "Use 1 L = 1000 cm³. Multiply by 1000 from liters to cubic centimeters. Divide by 1000 from cubic centimeters to liters.",
+    "image": "../images/conversion-flow.svg"
+  }
+}

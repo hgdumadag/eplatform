@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Cube volume by layers</title>
+  <desc id="desc">Three layers of nine unit cubes each combine to form twenty-seven cubic units.</desc>
+  <rect width="900" height="520" fill="#f8fafc"/>
+  <text x="42" y="54" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#123047">Build volume by layers</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(80 130)" stroke="#334155" stroke-width="2">
+      <rect x="0" y="0" width="180" height="180" fill="#dbeafe"/>
+      <path d="M60 0v180M120 0v180M0 60h180M0 120h180"/>
+      <text x="90" y="230" font-size="24" font-weight="700" fill="#1e3a8a">Layer 1: 9</text>
+    </g>
+    <g transform="translate(360 130)" stroke="#334155" stroke-width="2">
+      <rect x="0" y="0" width="180" height="180" fill="#dcfce7"/>
+      <path d="M60 0v180M120 0v180M0 60h180M0 120h180"/>
+      <text x="90" y="230" font-size="24" font-weight="700" fill="#166534">Layer 2: 9</text>
+    </g>
+    <g transform="translate(640 130)" stroke="#334155" stroke-width="2">
+      <rect x="0" y="0" width="180" height="180" fill="#fef3c7"/>
+      <path d="M60 0v180M120 0v180M0 60h180M0 120h180"/>
+      <text x="90" y="230" font-size="24" font-weight="700" fill="#92400e">Layer 3: 9</text>
+    </g>
+    <text x="450" y="430" font-size="30" font-weight="700" fill="#0f766e">9 + 9 + 9 = 27, or 9 × 3 = 27</text>
+  </g>
+</svg>

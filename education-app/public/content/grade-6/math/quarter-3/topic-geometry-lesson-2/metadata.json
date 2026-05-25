@@ -1,0 +1,39 @@
+{
+  "id": "grade-6-math-q3-geometry-lesson-2",
+  "grade": 6,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Geometry - Lesson 2",
+  "description": "Connect cubic centimeters and liters by converting between cube-based volume and container capacity.",
+  "learningObjectives": [
+    "Explain why 1 liter is equal to 1000 cubic centimeters",
+    "Convert liters to cubic centimeters",
+    "Convert cubic centimeters to liters",
+    "Use the conversion to solve simple container and volume problems",
+    "Check whether conversion answers are reasonable"
+  ],
+  "prerequisites": [
+    "Know that volume is measured in cubic units",
+    "Know that capacity is measured in milliliters or liters",
+    "Multiply and divide whole numbers by 1000",
+    "Understand that 10 × 10 × 10 = 1000"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": ["geometry", "measurement", "volume", "capacity", "conversion", "cubic centimeters", "liters"],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/liter-cube-connection.svg",
+      "images/cm3-to-liter-scale.svg",
+      "images/conversion-flow.svg",
+      "images/worked-example-tank.svg",
+      "images/container-lineup.svg",
+      "images/error-analysis-100-mistake.svg"
+    ]
+  }
+}

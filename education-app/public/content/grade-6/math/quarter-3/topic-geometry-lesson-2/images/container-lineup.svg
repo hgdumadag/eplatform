@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Container conversion lineup</title>
+  <desc id="desc">Three containers labeled one liter, three liters, and five liters with equivalent cubic centimeter amounts.</desc>
+  <rect width="900" height="520" fill="#f8fafc"/>
+  <text x="42" y="54" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#123047">Liters become larger numbers in cm³</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(115 120)">
+      <path d="M50 0h70v40c0 16 35 34 35 82v160c0 24-20 44-44 44H59c-24 0-44-20-44-44V122c0-48 35-66 35-82Z" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
+      <path d="M17 200h136v80c0 23-19 42-42 42H59c-23 0-42-19-42-42Z" fill="#60a5fa" opacity="0.75"/>
+      <text x="85" y="148" font-size="28" font-weight="700" fill="#1e3a8a">1 L</text>
+      <text x="85" y="382" font-size="24" font-weight="700" fill="#0f766e">1000 cm³</text>
+    </g>
+    <g transform="translate(365 90)">
+      <path d="M50 0h90v44c0 18 45 42 45 100v190c0 28-22 50-50 50H55c-28 0-50-22-50-50V144c0-58 45-82 45-100Z" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
+      <path d="M8 212h174v118c0 26-21 47-47 47H55c-26 0-47-21-47-47Z" fill="#60a5fa" opacity="0.75"/>
+      <text x="95" y="170" font-size="30" font-weight="700" fill="#1e3a8a">3 L</text>
+      <text x="95" y="432" font-size="24" font-weight="700" fill="#0f766e">3000 cm³</text>
+    </g>
+    <g transform="translate(645 70)">
+      <rect x="0" y="90" width="170" height="250" rx="12" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
+      <path d="M8 210h154v120H8Z" fill="#60a5fa" opacity="0.75"/>
+      <rect x="38" y="58" width="94" height="36" rx="10" fill="none" stroke="#1e40af" stroke-width="4"/>
+      <text x="85" y="180" font-size="30" font-weight="700" fill="#1e3a8a">5 L</text>
+      <text x="85" y="432" font-size="24" font-weight="700" fill="#0f766e">5000 cm³</text>
+    </g>
+  </g>
+</svg>

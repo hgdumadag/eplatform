@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+  <title id="title">Three by three by three cube</title>
+  <desc id="desc">A cube with side length three units shown as twenty-seven unit cubes.</desc>
+  <rect width="760" height="520" fill="#f8fafc"/>
+  <text x="40" y="54" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#123047">3 × 3 × 3 = 27 unit cubes</text>
+  <g transform="translate(230 130)" stroke="#334155" stroke-width="2" stroke-linejoin="round">
+    <polygon points="0,60 180,60 240,120 60,120" fill="#bfdbfe"/>
+    <polygon points="0,60 60,120 60,300 0,240" fill="#93c5fd"/>
+    <polygon points="60,120 240,120 240,300 60,300" fill="#dbeafe"/>
+    <g stroke="#1e40af">
+      <path d="M60 180h180M60 240h180M120 120v180M180 120v180"/>
+      <path d="M20 80h180M40 100h180M20 80l60 60M40 100l60 60M100 60l60 60M160 60l60 60"/>
+      <path d="M0 120l60 60M0 180l60 60M20 80v180M40 100v180"/>
+    </g>
+  </g>
+  <text x="380" y="470" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#0f766e">Each small cube is 1 cubic unit.</text>
+</svg>

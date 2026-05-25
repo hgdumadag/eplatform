@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" role="img" aria-labelledby="title desc">
+  <title id="title">Packing cubes in a box</title>
+  <desc id="desc">Small cube packages arranged inside a larger rectangular box.</desc>
+  <rect width="820" height="520" fill="#f8fafc"/>
+  <text x="40" y="54" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#123047">Packing uses volume comparison</text>
+  <g transform="translate(170 120)" stroke="#334155" stroke-width="3" stroke-linejoin="round">
+    <polygon points="0,80 320,80 410,155 90,155" fill="#dbeafe"/>
+    <polygon points="0,80 90,155 90,310 0,235" fill="#bfdbfe"/>
+    <polygon points="90,155 410,155 410,310 90,310" fill="#eff6ff"/>
+    <g fill="#fef3c7" stroke="#92400e" stroke-width="2">
+      <rect x="120" y="180" width="42" height="42"/>
+      <rect x="162" y="180" width="42" height="42"/>
+      <rect x="204" y="180" width="42" height="42"/>
+      <rect x="246" y="180" width="42" height="42"/>
+      <rect x="120" y="222" width="42" height="42"/>
+      <rect x="162" y="222" width="42" height="42"/>
+      <rect x="204" y="222" width="42" height="42"/>
+      <rect x="246" y="222" width="42" height="42"/>
+    </g>
+  </g>
+  <text x="410" y="455" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#0f766e">Compare big box volume with one package volume.</text>
+</svg>

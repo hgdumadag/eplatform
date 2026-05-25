@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 560" role="img" aria-labelledby="title desc">
+  <title id="title">Volume word problem routine</title>
+  <desc id="desc">A five-step routine for solving volume word problems.</desc>
+  <rect width="980" height="560" fill="#f8fafc"/>
+  <text x="42" y="54" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#123047">Volume word problem routine</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g fill="#ffffff" stroke="#334155" stroke-width="3">
+      <rect x="55" y="150" width="150" height="100" rx="10"/>
+      <rect x="235" y="150" width="150" height="100" rx="10"/>
+      <rect x="415" y="150" width="150" height="100" rx="10"/>
+      <rect x="595" y="150" width="150" height="100" rx="10"/>
+      <rect x="775" y="150" width="150" height="100" rx="10"/>
+    </g>
+    <g fill="#0f172a" font-size="22" font-weight="700">
+      <text x="130" y="190">Read</text>
+      <text x="310" y="190">Identify</text>
+      <text x="490" y="190">Choose</text>
+      <text x="670" y="190">Compute</text>
+      <text x="850" y="190">Answer</text>
+    </g>
+    <g fill="#475569" font-size="17">
+      <text x="130" y="222">What is asked?</text>
+      <text x="310" y="222">Cube or prism?</text>
+      <text x="490" y="222">Formula</text>
+      <text x="670" y="222">Multiply</text>
+      <text x="850" y="222">Units + sentence</text>
+    </g>
+    <g stroke="#0f766e" stroke-width="5">
+      <path d="M205 200h30M385 200h30M565 200h30M745 200h30"/>
+    </g>
+    <text x="490" y="400" font-size="30" font-weight="700" fill="#0f766e">Do not skip the units.</text>
+  </g>
+</svg>

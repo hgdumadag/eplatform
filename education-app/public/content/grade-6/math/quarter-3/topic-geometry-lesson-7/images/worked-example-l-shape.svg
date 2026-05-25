@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">L-shape split into two rectangles</title>
+  <desc id="desc">An L-shaped region split into a ten by four rectangle and a four by five rectangle.</desc>
+  <rect width="760" height="360" fill="#ffffff"/>
+  <path d="M210 70h300v120H330v110H210z" fill="#dbeafe" stroke="#1d4ed8" stroke-width="4"/>
+  <line x1="210" y1="190" x2="330" y2="190" stroke="#7c2d12" stroke-width="4" stroke-dasharray="10 7"/>
+  <text x="360" y="132" text-anchor="middle" font-family="Arial" font-size="23" font-weight="700">10 cm × 4 cm</text>
+  <text x="270" y="253" text-anchor="middle" font-family="Arial" font-size="23" font-weight="700">4 cm × 5 cm</text>
+  <text x="360" y="332" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700">40 cm² + 20 cm² = 60 cm²</text>
+</svg>

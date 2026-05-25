@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" role="img" aria-labelledby="title desc">
+  <title id="title">Corner cut-out perimeter example</title>
+  <desc id="desc">A rectangle with a corner cut out. Missing horizontal and vertical sides are each found by subtraction.</desc>
+  <rect width="760" height="400" fill="#ffffff"/>
+  <polygon points="175,80 545,80 545,190 395,190 395,310 175,310" fill="#fef3c7" stroke="#b45309" stroke-width="4"/>
+  <polyline points="175,80 545,80 545,190 395,190 395,310 175,310 175,80" fill="none" stroke="#0f172a" stroke-width="3"/>
+  <text x="360" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700">13 m</text>
+  <text x="570" y="140" font-family="Arial, sans-serif" font-size="22" font-weight="700">4 m</text>
+  <text x="470" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" fill="#b45309">? = 5 m</text>
+  <text x="374" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" fill="#b45309" transform="rotate(-90 374 255)">? = 5 m</text>
+  <text x="285" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700">8 m</text>
+  <text x="145" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" transform="rotate(-90 145 195)">9 m</text>
+  <text x="380" y="382" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#0f172a">P = 13 + 4 + 5 + 5 + 8 + 9 = 44 m</text>
+</svg>

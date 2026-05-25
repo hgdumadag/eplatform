@@ -1,0 +1,39 @@
+{
+  "id": "grade-6-math-q3-geometry-lesson-9",
+  "grade": 6,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Geometry - Lesson 9",
+  "description": "Draw circles with a compass and label the center, radius, diameter, and circumference.",
+  "learningObjectives": [
+    "Identify the center, radius, diameter, and circumference of a circle",
+    "Explain how the radius and diameter are related",
+    "Draw a circle with a compass using a given radius",
+    "Label circle parts accurately on a diagram",
+    "Analyze common labeling and construction errors"
+  ],
+  "prerequisites": [
+    "Use a ruler to measure length",
+    "Recognize points, line segments, and endpoints",
+    "Read simple geometry diagrams",
+    "Follow step-by-step construction directions"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": ["geometry", "circles", "compass", "construction", "radius", "diameter", "center", "circumference"],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/circle-parts-overview.svg",
+      "images/compass-construction-steps.svg",
+      "images/radius-vs-diameter.svg",
+      "images/labeling-guided-example.svg",
+      "images/error-analysis-off-center.svg",
+      "images/diagram-identification-practice.svg"
+    ]
+  }
+}
