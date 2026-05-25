@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 270" role="img" aria-labelledby="angle-formula-title angle-formula-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="angle-formula-title">Finding angle A with the Law of Cosines</title>
+  <desc id="angle-formula-desc">Angle A is found using the two adjacent sides b and c, and the opposite side a.</desc>
+  <polygon points="90,220 520,220 255,45" fill="#ecfeff" stroke="#0f766e" stroke-width="3"/>
+  <text x="72" y="243" font-size="20" fill="#111827">A</text>
+  <text x="526" y="243" font-size="20" fill="#111827">B</text>
+  <text x="250" y="38" font-size="20" fill="#111827">C</text>
+  <text x="370" y="120" font-size="18" fill="#0f766e">a opposite A</text>
+  <text x="120" y="130" font-size="18" fill="#0f766e">b</text>
+  <text x="285" y="246" font-size="18" fill="#0f766e">c</text>
+  <path d="M127 219 A48 48 0 0 1 145 180" fill="none" stroke="#dc2626" stroke-width="4"/>
+  <text x="150" y="202" font-size="20" fill="#dc2626">Find A</text>
+  <line x1="315" y1="130" x2="430" y2="130" stroke="#dc2626" stroke-width="2" marker-end="url(#arrowA)"/>
+  <defs>
+    <marker id="arrowA" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#dc2626"/>
+    </marker>
+  </defs>
+</svg>

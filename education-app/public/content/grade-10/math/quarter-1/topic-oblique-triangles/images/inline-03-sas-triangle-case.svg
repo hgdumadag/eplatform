@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 250" role="img" aria-labelledby="sas-title sas-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="sas-title">SAS triangle case</title>
+  <desc id="sas-desc">Two sides from point A are known, and the angle between them is known.</desc>
+  <polygon points="95,185 390,185 180,55" fill="#ecfeff" stroke="#0f766e" stroke-width="3"/>
+  <text x="88" y="207" font-size="17" fill="#111827">A</text>
+  <text x="395" y="190" font-size="17" fill="#111827">B</text>
+  <text x="176" y="48" font-size="17" fill="#111827">C</text>
+  <text x="230" y="205" font-size="16" fill="#0f766e">AB = 9 cm</text>
+  <text x="105" y="112" font-size="16" fill="#0f766e">AC = 12 cm</text>
+  <path d="M125 184 A35 35 0 0 1 113 154" fill="none" stroke="#ea580c" stroke-width="3"/>
+  <text x="128" y="160" font-size="16" fill="#ea580c">47°</text>
+</svg>

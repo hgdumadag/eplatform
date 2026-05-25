@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 280" role="img" aria-labelledby="bearing-compass-title bearing-compass-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="bearing-compass-title">Bearing measured clockwise from north</title>
+  <desc id="bearing-compass-desc">A point has north, east, south, and west reference lines. A ray at bearing 060 degrees is measured clockwise from north.</desc>
+  <line x1="170" y1="230" x2="170" y2="35" stroke="#111827" stroke-width="3"/>
+  <line x1="55" y1="140" x2="285" y2="140" stroke="#9ca3af" stroke-width="2"/>
+  <circle cx="170" cy="140" r="5" fill="#111827"/>
+  <text x="162" y="25" font-size="18" fill="#111827">N</text>
+  <text x="292" y="146" font-size="18" fill="#111827">E</text>
+  <text x="164" y="258" font-size="18" fill="#111827">S</text>
+  <text x="36" y="146" font-size="18" fill="#111827">W</text>
+  <line x1="170" y1="140" x2="292" y2="70" stroke="#2563eb" stroke-width="4"/>
+  <path d="M170 88 A52 52 0 0 1 215 114" fill="none" stroke="#dc2626" stroke-width="3"/>
+  <text x="210" y="89" font-size="17" fill="#dc2626">060°</text>
+  <text x="325" y="77" font-size="18" fill="#2563eb">bearing 060°</text>
+  <text x="345" y="145" font-size="17" fill="#374151">Start at north.</text>
+  <text x="345" y="172" font-size="17" fill="#374151">Turn clockwise.</text>
+  <text x="345" y="199" font-size="17" fill="#374151">Draw the travel ray.</text>
+</svg>

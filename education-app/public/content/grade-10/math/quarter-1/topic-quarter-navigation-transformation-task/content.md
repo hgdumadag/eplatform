@@ -99,55 +99,11 @@ The first part is a bearing and oblique-triangle problem. The second part is a c
 
 Bearings are measured from north, not from the positive x-axis.
 
-<svg viewBox="0 0 560 360" role="img" aria-labelledby="bearing-compass-title bearing-compass-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="bearing-compass-title">Bearing measured clockwise from north</title>
-  <desc id="bearing-compass-desc">A compass rose shows north upward, east right, south downward, and a 060 degree bearing measured clockwise from north.</desc>
-  <line x1="280" y1="45" x2="280" y2="315" stroke="#334155" stroke-width="2"/>
-  <line x1="145" y1="180" x2="415" y2="180" stroke="#334155" stroke-width="2"/>
-  <text x="270" y="32" font-size="18" fill="#111827">N</text>
-  <text x="426" y="186" font-size="18" fill="#111827">E</text>
-  <text x="270" y="338" font-size="18" fill="#111827">S</text>
-  <text x="123" y="186" font-size="18" fill="#111827">W</text>
-  <circle cx="280" cy="180" r="5" fill="#111827"/>
-  <line x1="280" y1="180" x2="382" y2="62" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow-bearing)"/>
-  <path d="M280 105 A75 75 0 0 1 345 143" fill="none" stroke="#dc2626" stroke-width="3"/>
-  <text x="315" y="102" font-size="18" fill="#dc2626">060°</text>
-  <text x="355" y="54" font-size="17" fill="#2563eb">bearing</text>
-  <defs>
-    <marker id="arrow-bearing" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
-      <path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/>
-    </marker>
-  </defs>
-</svg>
+![Bearing measured clockwise from north](/content/grade-10/math/quarter-1/topic-quarter-navigation-transformation-task/images/inline-01-bearing-measured-clockwise-from-north.svg)
 
 On a coordinate plane, north usually means increasing \(y\), east means increasing \(x\), south means decreasing \(y\), and west means decreasing \(x\).
 
-<svg viewBox="0 0 620 360" role="img" aria-labelledby="route-map-title route-map-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="route-map-title">Route plotted on a coordinate grid</title>
-  <desc id="route-map-desc">A route starts at A, travels northeast to B, then southeast to C, forming an oblique triangle from A to B to C.</desc>
-  <defs>
-    <pattern id="grid-route" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M30 0 H0 V30" fill="none" stroke="#e2e8f0" stroke-width="1"/>
-    </pattern>
-    <marker id="arrow-route" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
-      <path d="M0,0 L0,6 L9,3 z" fill="#0f766e"/>
-    </marker>
-  </defs>
-  <rect x="20" y="20" width="580" height="300" fill="url(#grid-route)"/>
-  <line x1="310" y1="320" x2="310" y2="20" stroke="#475569" stroke-width="2"/>
-  <line x1="20" y1="170" x2="600" y2="170" stroke="#475569" stroke-width="2"/>
-  <polyline points="220,230 340,95 460,210" fill="none" stroke="#0f766e" stroke-width="4" marker-mid="url(#arrow-route)" marker-end="url(#arrow-route)"/>
-  <line x1="220" y1="230" x2="460" y2="210" stroke="#f97316" stroke-width="3" stroke-dasharray="8 7"/>
-  <circle cx="220" cy="230" r="6" fill="#111827"/>
-  <circle cx="340" cy="95" r="6" fill="#111827"/>
-  <circle cx="460" cy="210" r="6" fill="#111827"/>
-  <text x="198" y="252" font-size="18" fill="#111827">A</text>
-  <text x="346" y="88" font-size="18" fill="#111827">B</text>
-  <text x="467" y="232" font-size="18" fill="#111827">C</text>
-  <text x="248" y="142" font-size="15" fill="#0f766e">leg 1</text>
-  <text x="402" y="145" font-size="15" fill="#0f766e">leg 2</text>
-  <text x="306" y="238" font-size="15" fill="#f97316">direct route AC</text>
-</svg>
+![Route plotted on a coordinate grid](/content/grade-10/math/quarter-1/topic-quarter-navigation-transformation-task/images/inline-02-route-plotted-on-a-coordinate-grid.svg)
 
 The connected route \(A \rightarrow B \rightarrow C\) creates a triangle. The dashed segment \(AC\) is the direct distance from the starting point to the ending point.
 
@@ -236,23 +192,7 @@ $$AC \approx 9.3$$
 
 **Answer:** The direct distance from \(A\) to \(C\) is about **9.3 km**.
 
-<svg viewBox="0 0 560 320" role="img" aria-labelledby="navigation-triangle-title navigation-triangle-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="navigation-triangle-title">Navigation triangle with included angle</title>
-  <desc id="navigation-triangle-desc">The route from A to B is 5 kilometers, from B to C is 7 kilometers, and the included angle at B is 100 degrees.</desc>
-  <polyline points="120,235 260,80 430,210" fill="none" stroke="#2563eb" stroke-width="4"/>
-  <line x1="120" y1="235" x2="430" y2="210" stroke="#ea580c" stroke-width="3" stroke-dasharray="8 7"/>
-  <circle cx="120" cy="235" r="6" fill="#111827"/>
-  <circle cx="260" cy="80" r="6" fill="#111827"/>
-  <circle cx="430" cy="210" r="6" fill="#111827"/>
-  <text x="100" y="260" font-size="18" fill="#111827">A</text>
-  <text x="258" y="64" font-size="18" fill="#111827">B</text>
-  <text x="438" y="218" font-size="18" fill="#111827">C</text>
-  <text x="164" y="144" font-size="16" fill="#2563eb">5 km</text>
-  <text x="340" y="136" font-size="16" fill="#2563eb">7 km</text>
-  <text x="258" y="121" font-size="16" fill="#dc2626">100°</text>
-  <path d="M237 106 A38 38 0 0 0 296 108" fill="none" stroke="#dc2626" stroke-width="3"/>
-  <text x="255" y="242" font-size="16" fill="#ea580c">AC ≈ 9.3 km</text>
-</svg>
+![Navigation triangle with included angle](/content/grade-10/math/quarter-1/topic-quarter-navigation-transformation-task/images/inline-03-navigation-triangle-with-included-angle.svg)
 
 ### Example 2: Transform a Route
 
@@ -274,32 +214,7 @@ Apply the rule to every point.
 
 **Answer:** \(A'(-2, 5)\), \(B'(2, 8)\), \(C'(6, 6)\).
 
-<svg viewBox="0 0 620 360" role="img" aria-labelledby="translation-route-title translation-route-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="translation-route-title">Original and translated route</title>
-  <desc id="translation-route-desc">The original route A B C is translated left 2 units and up 5 units to A prime B prime C prime.</desc>
-  <defs>
-    <pattern id="grid-translation" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M30 0 H0 V30" fill="none" stroke="#e2e8f0" stroke-width="1"/>
-    </pattern>
-  </defs>
-  <rect x="20" y="20" width="580" height="300" fill="url(#grid-translation)"/>
-  <line x1="170" y1="320" x2="170" y2="20" stroke="#64748b" stroke-width="2"/>
-  <line x1="20" y1="230" x2="600" y2="230" stroke="#64748b" stroke-width="2"/>
-  <polyline points="170,230 290,140 410,200" fill="none" stroke="#2563eb" stroke-width="4"/>
-  <polyline points="110,80 230,0 350,50" fill="none" stroke="#16a34a" stroke-width="4"/>
-  <circle cx="170" cy="230" r="5" fill="#2563eb"/>
-  <circle cx="290" cy="140" r="5" fill="#2563eb"/>
-  <circle cx="410" cy="200" r="5" fill="#2563eb"/>
-  <circle cx="110" cy="80" r="5" fill="#16a34a"/>
-  <circle cx="230" cy="0" r="5" fill="#16a34a"/>
-  <circle cx="350" cy="50" r="5" fill="#16a34a"/>
-  <text x="176" y="248" font-size="15" fill="#2563eb">A</text>
-  <text x="296" y="136" font-size="15" fill="#2563eb">B</text>
-  <text x="416" y="204" font-size="15" fill="#2563eb">C</text>
-  <text x="116" y="98" font-size="15" fill="#16a34a">A'</text>
-  <text x="236" y="18" font-size="15" fill="#16a34a">B'</text>
-  <text x="356" y="68" font-size="15" fill="#16a34a">C'</text>
-</svg>
+![Original and translated route](/content/grade-10/math/quarter-1/topic-quarter-navigation-transformation-task/images/inline-04-original-and-translated-route.svg)
 
 ## Guided Practice with Revealable Hints
 

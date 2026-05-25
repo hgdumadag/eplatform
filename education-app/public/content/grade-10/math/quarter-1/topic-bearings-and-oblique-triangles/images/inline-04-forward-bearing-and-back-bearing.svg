@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250" role="img" aria-labelledby="back-bearing-title back-bearing-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="back-bearing-title">Forward bearing and back bearing</title>
+  <desc id="back-bearing-desc">The bearing from A to B is 070 degrees. The opposite direction from B to A is 250 degrees.</desc>
+  <line x1="105" y1="205" x2="105" y2="50" stroke="#9ca3af" stroke-width="2"/>
+  <text x="96" y="39" font-size="16" fill="#111827">N</text>
+  <circle cx="105" cy="205" r="5" fill="#111827"/>
+  <text x="88" y="230" font-size="18" fill="#111827">A</text>
+  <line x1="105" y1="205" x2="385" y2="95" stroke="#2563eb" stroke-width="4"/>
+  <circle cx="385" cy="95" r="5" fill="#111827"/>
+  <text x="393" y="97" font-size="18" fill="#111827">B</text>
+  <line x1="385" y1="95" x2="385" y2="25" stroke="#9ca3af" stroke-width="2"/>
+  <text x="376" y="18" font-size="16" fill="#111827">N</text>
+  <path d="M105 153 A52 52 0 0 1 154 185" fill="none" stroke="#dc2626" stroke-width="3"/>
+  <text x="156" y="165" font-size="16" fill="#dc2626">070°</text>
+  <path d="M385 45 A50 50 0 1 1 338 114" fill="none" stroke="#0f766e" stroke-width="3"/>
+  <text x="315" y="55" font-size="16" fill="#0f766e">250°</text>
+  <text x="425" y="155" font-size="17" fill="#374151">070° + 180° = 250°</text>
+</svg>

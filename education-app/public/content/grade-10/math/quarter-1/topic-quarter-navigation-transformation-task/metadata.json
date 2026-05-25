@@ -14,13 +14,29 @@
   ],
   "estimatedDuration": 45,
   "difficulty": "intermediate",
-  "tags": ["geometry", "bearings", "oblique-triangles", "coordinate-plane", "transformations", "culminating-task"],
+  "tags": [
+    "geometry",
+    "bearings",
+    "oblique-triangles",
+    "coordinate-plane",
+    "transformations",
+    "culminating-task"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/inline-01-bearing-measured-clockwise-from-north.svg",
+      "images/inline-02-route-plotted-on-a-coordinate-grid.svg",
+      "images/inline-03-navigation-triangle-with-included-angle.svg",
+      "images/inline-04-original-and-translated-route.svg",
+      "images/navigation-route.svg",
+      "images/route-to-coordinate-map.svg",
+      "images/transformed-route.svg"
+    ]
   },
   "prerequisites": [
     "Right, acute, and obtuse angle vocabulary",

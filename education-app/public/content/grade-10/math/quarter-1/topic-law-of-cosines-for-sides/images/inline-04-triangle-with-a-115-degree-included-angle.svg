@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 250" role="img" aria-labelledby="large-angle-title large-angle-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="large-angle-title">Triangle with a 115 degree included angle</title>
+  <desc id="large-angle-desc">Two known sides of 7 centimeters and 12 centimeters form a 115 degree angle. The opposite side is unknown.</desc>
+  <polygon points="110,185 455,185 165,70" fill="#fff7ed" stroke="#c2410c" stroke-width="3"/>
+  <text x="104" y="207" font-size="17" fill="#111827">A</text>
+  <text x="462" y="190" font-size="17" fill="#111827">B</text>
+  <text x="157" y="63" font-size="17" fill="#111827">C</text>
+  <text x="122" y="118" font-size="16" fill="#c2410c">7 cm</text>
+  <text x="295" y="206" font-size="16" fill="#c2410c">12 cm</text>
+  <text x="287" y="118" font-size="16" fill="#c2410c">x</text>
+  <path d="M142 184 A42 42 0 0 1 126 148" fill="none" stroke="#2563eb" stroke-width="4"/>
+  <text x="149" y="151" font-size="16" fill="#2563eb">115°</text>
+</svg>

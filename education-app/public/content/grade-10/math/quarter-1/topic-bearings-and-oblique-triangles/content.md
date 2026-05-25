@@ -95,24 +95,7 @@ The angle between the two paths is 75°, because 115° - 040° = 75°. With two 
 
 A bearing is not measured from the nearest compass direction. It is measured from north.
 
-<svg viewBox="0 0 620 280" role="img" aria-labelledby="bearing-compass-title bearing-compass-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="bearing-compass-title">Bearing measured clockwise from north</title>
-  <desc id="bearing-compass-desc">A point has north, east, south, and west reference lines. A ray at bearing 060 degrees is measured clockwise from north.</desc>
-  <line x1="170" y1="230" x2="170" y2="35" stroke="#111827" stroke-width="3"/>
-  <line x1="55" y1="140" x2="285" y2="140" stroke="#9ca3af" stroke-width="2"/>
-  <circle cx="170" cy="140" r="5" fill="#111827"/>
-  <text x="162" y="25" font-size="18" fill="#111827">N</text>
-  <text x="292" y="146" font-size="18" fill="#111827">E</text>
-  <text x="164" y="258" font-size="18" fill="#111827">S</text>
-  <text x="36" y="146" font-size="18" fill="#111827">W</text>
-  <line x1="170" y1="140" x2="292" y2="70" stroke="#2563eb" stroke-width="4"/>
-  <path d="M170 88 A52 52 0 0 1 215 114" fill="none" stroke="#dc2626" stroke-width="3"/>
-  <text x="210" y="89" font-size="17" fill="#dc2626">060°</text>
-  <text x="325" y="77" font-size="18" fill="#2563eb">bearing 060°</text>
-  <text x="345" y="145" font-size="17" fill="#374151">Start at north.</text>
-  <text x="345" y="172" font-size="17" fill="#374151">Turn clockwise.</text>
-  <text x="345" y="199" font-size="17" fill="#374151">Draw the travel ray.</text>
-</svg>
+![Bearing measured clockwise from north](/content/grade-10/math/quarter-1/topic-bearings-and-oblique-triangles/images/inline-01-bearing-measured-clockwise-from-north.svg)
 
 ## Main Concept Explanation
 
@@ -131,28 +114,7 @@ A phrase like "travels 12 km on a bearing of 070°" gives two pieces of informat
 
 Navigation problems often hide an oblique triangle. The traveled route gives one or two sides. The direct distance between start and end points becomes the third side.
 
-<svg viewBox="0 0 650 310" role="img" aria-labelledby="route-triangle-title route-triangle-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="route-triangle-title">Two travel legs and a direct distance form a triangle</title>
-  <desc id="route-triangle-desc">A route from A to B then to C forms two sides of a triangle. The direct distance from A to C is the third side.</desc>
-  <line x1="90" y1="250" x2="90" y2="90" stroke="#9ca3af" stroke-width="2"/>
-  <text x="82" y="78" font-size="16" fill="#111827">N</text>
-  <circle cx="90" cy="250" r="5" fill="#111827"/>
-  <text x="72" y="275" font-size="18" fill="#111827">A</text>
-  <line x1="90" y1="250" x2="300" y2="120" stroke="#2563eb" stroke-width="4"/>
-  <circle cx="300" cy="120" r="5" fill="#111827"/>
-  <text x="308" y="119" font-size="18" fill="#111827">B</text>
-  <text x="160" y="175" font-size="16" fill="#2563eb">12 km</text>
-  <line x1="300" y1="120" x2="300" y2="35" stroke="#9ca3af" stroke-width="2"/>
-  <text x="292" y="26" font-size="16" fill="#111827">N</text>
-  <line x1="300" y1="120" x2="535" y2="205" stroke="#0f766e" stroke-width="4"/>
-  <circle cx="535" cy="205" r="5" fill="#111827"/>
-  <text x="544" y="211" font-size="18" fill="#111827">C</text>
-  <text x="408" y="151" font-size="16" fill="#0f766e">9 km</text>
-  <line x1="90" y1="250" x2="535" y2="205" stroke="#dc2626" stroke-width="3" stroke-dasharray="8 7"/>
-  <text x="272" y="250" font-size="16" fill="#dc2626">direct distance AC</text>
-  <path d="M90 205 A45 45 0 0 1 128 226" fill="none" stroke="#ea580c" stroke-width="3"/>
-  <text x="128" y="213" font-size="15" fill="#ea580c">bearing at A</text>
-</svg>
+![Two travel legs and a direct distance form a triangle](/content/grade-10/math/quarter-1/topic-bearings-and-oblique-triangles/images/inline-02-two-travel-legs-and-a-direct-distance-form-a-triangle.svg)
 
 > [!TIP] Diagram Habit
 >
@@ -185,21 +147,7 @@ Choose the result between 000° and 360°.
 
 **Problem:** From point A, one marker is 10 km away on a bearing of 030°. Another marker is 14 km away on a bearing of 110°. What angle should be placed between the two known sides?
 
-<svg viewBox="0 0 560 270" role="img" aria-labelledby="same-point-title same-point-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="same-point-title">Two bearings from the same starting point</title>
-  <desc id="same-point-desc">Two rays from point A have bearings 030 degrees and 110 degrees. The angle between them is 80 degrees.</desc>
-  <line x1="110" y1="225" x2="110" y2="45" stroke="#9ca3af" stroke-width="2"/>
-  <text x="101" y="34" font-size="16" fill="#111827">N</text>
-  <circle cx="110" cy="225" r="5" fill="#111827"/>
-  <text x="92" y="250" font-size="18" fill="#111827">A</text>
-  <line x1="110" y1="225" x2="190" y2="65" stroke="#2563eb" stroke-width="4"/>
-  <line x1="110" y1="225" x2="340" y2="150" stroke="#0f766e" stroke-width="4"/>
-  <text x="160" y="130" font-size="16" fill="#2563eb">10 km</text>
-  <text x="225" y="185" font-size="16" fill="#0f766e">14 km</text>
-  <path d="M110 165 A60 60 0 0 1 167 205" fill="none" stroke="#dc2626" stroke-width="3"/>
-  <text x="175" y="186" font-size="17" fill="#dc2626">80°</text>
-  <text x="365" y="85" font-size="17" fill="#374151">110° - 030° = 80°</text>
-</svg>
+![Two bearings from the same starting point](/content/grade-10/math/quarter-1/topic-bearings-and-oblique-triangles/images/inline-03-two-bearings-from-the-same-starting-point.svg)
 
 **Solution:**
 
@@ -227,24 +175,7 @@ $$110° - 030° = 80°$$
 
 **Problem:** From A to B, the bearing is 070°. What is the bearing from B back to A?
 
-<svg viewBox="0 0 600 250" role="img" aria-labelledby="back-bearing-title back-bearing-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="back-bearing-title">Forward bearing and back bearing</title>
-  <desc id="back-bearing-desc">The bearing from A to B is 070 degrees. The opposite direction from B to A is 250 degrees.</desc>
-  <line x1="105" y1="205" x2="105" y2="50" stroke="#9ca3af" stroke-width="2"/>
-  <text x="96" y="39" font-size="16" fill="#111827">N</text>
-  <circle cx="105" cy="205" r="5" fill="#111827"/>
-  <text x="88" y="230" font-size="18" fill="#111827">A</text>
-  <line x1="105" y1="205" x2="385" y2="95" stroke="#2563eb" stroke-width="4"/>
-  <circle cx="385" cy="95" r="5" fill="#111827"/>
-  <text x="393" y="97" font-size="18" fill="#111827">B</text>
-  <line x1="385" y1="95" x2="385" y2="25" stroke="#9ca3af" stroke-width="2"/>
-  <text x="376" y="18" font-size="16" fill="#111827">N</text>
-  <path d="M105 153 A52 52 0 0 1 154 185" fill="none" stroke="#dc2626" stroke-width="3"/>
-  <text x="156" y="165" font-size="16" fill="#dc2626">070°</text>
-  <path d="M385 45 A50 50 0 1 1 338 114" fill="none" stroke="#0f766e" stroke-width="3"/>
-  <text x="315" y="55" font-size="16" fill="#0f766e">250°</text>
-  <text x="425" y="155" font-size="17" fill="#374151">070° + 180° = 250°</text>
-</svg>
+![Forward bearing and back bearing](/content/grade-10/math/quarter-1/topic-bearings-and-oblique-triangles/images/inline-04-forward-bearing-and-back-bearing.svg)
 
 **Solution:**
 

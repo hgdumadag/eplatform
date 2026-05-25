@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" role="img" aria-labelledby="intro-title intro-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="intro-title">Reflection and rotation of a point</title>
+  <desc id="intro-desc">Point A at 3,2 reflects across the y-axis to negative 3,2 and rotates 90 degrees counterclockwise about the origin to negative 2,3.</desc>
+  <line x1="80" y1="150" x2="600" y2="150" stroke="#475569" stroke-width="2"/>
+  <line x1="340" y1="35" x2="340" y2="265" stroke="#475569" stroke-width="2"/>
+  <text x="610" y="156" font-size="16" fill="#334155">x</text>
+  <text x="347" y="30" font-size="16" fill="#334155">y</text>
+  <g stroke="#e2e8f0" stroke-width="1">
+    <line x1="145" y1="35" x2="145" y2="265"/><line x1="210" y1="35" x2="210" y2="265"/><line x1="275" y1="35" x2="275" y2="265"/><line x1="405" y1="35" x2="405" y2="265"/><line x1="470" y1="35" x2="470" y2="265"/><line x1="535" y1="35" x2="535" y2="265"/>
+    <line x1="80" y1="85" x2="600" y2="85"/><line x1="80" y1="215" x2="600" y2="215"/>
+  </g>
+  <circle cx="535" cy="85" r="7" fill="#2563eb"/>
+  <text x="548" y="82" font-size="16" fill="#1d4ed8">A(3, 2)</text>
+  <circle cx="145" cy="85" r="7" fill="#dc2626"/>
+  <text x="82" y="80" font-size="16" fill="#b91c1c">A'(-3, 2)</text>
+  <circle cx="210" cy="20" r="7" fill="#16a34a"/>
+  <text x="220" y="28" font-size="16" fill="#15803d">A''(-2, 3)</text>
+  <path d="M535 85 C480 72 430 54 390 36" fill="none" stroke="#16a34a" stroke-width="3" stroke-dasharray="6 5"/>
+  <path d="M535 85 L145 85" fill="none" stroke="#dc2626" stroke-width="3" stroke-dasharray="8 5"/>
+  <text x="395" y="106" font-size="15" fill="#b91c1c">reflect over y-axis</text>
+  <text x="410" y="48" font-size="15" fill="#15803d">rotate 90° CCW</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" role="img" aria-labelledby="rotation-title rotation-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="rotation-title">Rotating a point around the origin</title>
+  <desc id="rotation-desc">Point Q at 4,1 rotates 90 degrees counterclockwise to -1,4, 180 degrees to -4,-1, and 270 degrees counterclockwise to 1,-4.</desc>
+  <line x1="70" y1="170" x2="570" y2="170" stroke="#475569" stroke-width="2"/>
+  <line x1="320" y1="30" x2="320" y2="310" stroke="#475569" stroke-width="2"/>
+  <g stroke="#e2e8f0" stroke-width="1">
+    <line x1="120" y1="30" x2="120" y2="310"/><line x1="170" y1="30" x2="170" y2="310"/><line x1="220" y1="30" x2="220" y2="310"/><line x1="270" y1="30" x2="270" y2="310"/><line x1="370" y1="30" x2="370" y2="310"/><line x1="420" y1="30" x2="420" y2="310"/><line x1="470" y1="30" x2="470" y2="310"/><line x1="520" y1="30" x2="520" y2="310"/>
+    <line x1="70" y1="70" x2="570" y2="70"/><line x1="70" y1="120" x2="570" y2="120"/><line x1="70" y1="220" x2="570" y2="220"/><line x1="70" y1="270" x2="570" y2="270"/>
+  </g>
+  <circle cx="440" cy="140" r="7" fill="#2563eb"/><text x="450" y="137" font-size="15" fill="#1d4ed8">Q(4, 1)</text>
+  <circle cx="290" cy="50" r="7" fill="#16a34a"/><text x="300" y="54" font-size="15" fill="#15803d">90°: (-1, 4)</text>
+  <circle cx="200" cy="200" r="7" fill="#dc2626"/><text x="92" y="221" font-size="15" fill="#b91c1c">180°: (-4, -1)</text>
+  <circle cx="350" cy="290" r="7" fill="#7c3aed"/><text x="358" y="292" font-size="15" fill="#6d28d9">270°: (1, -4)</text>
+  <path d="M440 140 A124 124 0 0 1 290 50" fill="none" stroke="#16a34a" stroke-width="3" stroke-dasharray="6 5"/>
+  <path d="M440 140 A124 124 0 0 1 200 200" fill="none" stroke="#dc2626" stroke-width="3" stroke-dasharray="6 5"/>
+  <path d="M440 140 A124 124 0 0 1 350 290" fill="none" stroke="#7c3aed" stroke-width="3" stroke-dasharray="6 5"/>
+  <circle cx="320" cy="170" r="5" fill="#111827"/><text x="330" y="188" font-size="14" fill="#111827">origin</text>
+</svg>

@@ -95,23 +95,7 @@ The triangle is an **oblique triangle**. Since all three angles are less than 90
 
 Compare these two triangles.
 
-<svg viewBox="0 0 640 220" role="img" aria-labelledby="right-vs-oblique-title right-vs-oblique-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="right-vs-oblique-title">Right triangle compared with oblique triangle</title>
-  <desc id="right-vs-oblique-desc">The left triangle has a 90 degree angle. The right triangle has no 90 degree angle.</desc>
-  <line x1="70" y1="170" x2="230" y2="170" stroke="#1f2937" stroke-width="3"/>
-  <line x1="70" y1="170" x2="70" y2="50" stroke="#1f2937" stroke-width="3"/>
-  <line x1="70" y1="50" x2="230" y2="170" stroke="#1f2937" stroke-width="3"/>
-  <path d="M70 145 L95 145 L95 170" fill="none" stroke="#dc2626" stroke-width="3"/>
-  <text x="108" y="153" font-size="18" fill="#dc2626">90°</text>
-  <text x="88" y="205" font-size="18" fill="#111827">Right triangle</text>
-  <line x1="385" y1="170" x2="570" y2="170" stroke="#1f2937" stroke-width="3"/>
-  <line x1="385" y1="170" x2="455" y2="45" stroke="#1f2937" stroke-width="3"/>
-  <line x1="455" y1="45" x2="570" y2="170" stroke="#1f2937" stroke-width="3"/>
-  <text x="392" y="156" font-size="16" fill="#2563eb">62°</text>
-  <text x="520" y="156" font-size="16" fill="#2563eb">51°</text>
-  <text x="450" y="70" font-size="16" fill="#2563eb">67°</text>
-  <text x="402" y="205" font-size="18" fill="#111827">Oblique triangle</text>
-</svg>
+![Right triangle compared with oblique triangle](/content/grade-10/math/quarter-1/topic-oblique-triangles/images/inline-01-right-triangle-compared-with-oblique-triangle.svg)
 
 The right triangle has a special 90° angle. The oblique triangle does not. That single difference changes the tools you usually choose.
 
@@ -131,20 +115,7 @@ If no, it is an **oblique triangle**. You will usually think about general trian
 
 Oblique triangles come in two common forms.
 
-<svg viewBox="0 0 640 240" role="img" aria-labelledby="acute-obtuse-title acute-obtuse-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="acute-obtuse-title">Acute and obtuse oblique triangles</title>
-  <desc id="acute-obtuse-desc">An acute oblique triangle has all angles less than 90 degrees. An obtuse oblique triangle has one angle greater than 90 degrees.</desc>
-  <polygon points="95,175 235,175 155,55" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
-  <text x="98" y="160" font-size="15" fill="#1d4ed8">58°</text>
-  <text x="200" y="160" font-size="15" fill="#1d4ed8">48°</text>
-  <text x="148" y="78" font-size="15" fill="#1d4ed8">74°</text>
-  <text x="84" y="210" font-size="18" fill="#111827">Acute oblique</text>
-  <polygon points="370,175 580,175 435,70" fill="#fee2e2" stroke="#b91c1c" stroke-width="3"/>
-  <text x="390" y="158" font-size="15" fill="#b91c1c">112°</text>
-  <text x="540" y="158" font-size="15" fill="#b91c1c">29°</text>
-  <text x="435" y="94" font-size="15" fill="#b91c1c">39°</text>
-  <text x="400" y="210" font-size="18" fill="#111827">Obtuse oblique</text>
-</svg>
+![Acute and obtuse oblique triangles](/content/grade-10/math/quarter-1/topic-oblique-triangles/images/inline-02-acute-and-obtuse-oblique-triangles.svg)
 
 - **Acute oblique:** all three angles are less than 90°.
 - **Obtuse oblique:** one angle is greater than 90°.
@@ -207,18 +178,7 @@ The angles are 44°, 86°, and 50°. None is 90°.
 
 **Problem:** In △ABC, you know AB = 9 cm, AC = 12 cm, and ∠A = 47°. What given case is this?
 
-<svg viewBox="0 0 520 250" role="img" aria-labelledby="sas-title sas-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="sas-title">SAS triangle case</title>
-  <desc id="sas-desc">Two sides from point A are known, and the angle between them is known.</desc>
-  <polygon points="95,185 390,185 180,55" fill="#ecfeff" stroke="#0f766e" stroke-width="3"/>
-  <text x="88" y="207" font-size="17" fill="#111827">A</text>
-  <text x="395" y="190" font-size="17" fill="#111827">B</text>
-  <text x="176" y="48" font-size="17" fill="#111827">C</text>
-  <text x="230" y="205" font-size="16" fill="#0f766e">AB = 9 cm</text>
-  <text x="105" y="112" font-size="16" fill="#0f766e">AC = 12 cm</text>
-  <path d="M125 184 A35 35 0 0 1 113 154" fill="none" stroke="#ea580c" stroke-width="3"/>
-  <text x="128" y="160" font-size="16" fill="#ea580c">47°</text>
-</svg>
+![SAS triangle case](/content/grade-10/math/quarter-1/topic-oblique-triangles/images/inline-03-sas-triangle-case.svg)
 
 **Solution:**
 

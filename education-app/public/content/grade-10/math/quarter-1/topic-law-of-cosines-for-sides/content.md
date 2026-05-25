@@ -94,19 +94,7 @@ This is a Law of Cosines situation. The unknown side is opposite the 60° includ
 
 In SAS problems, the missing side is across from the included angle.
 
-<svg viewBox="0 0 640 260" role="img" aria-labelledby="sas-side-title sas-side-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="sas-side-title">SAS triangle with missing opposite side</title>
-  <desc id="sas-side-desc">Two known sides meet at an included angle, and the opposite side is unknown.</desc>
-  <polygon points="110,205 500,205 215,55" fill="#ecfeff" stroke="#0f766e" stroke-width="3"/>
-  <text x="100" y="228" font-size="18" fill="#111827">A</text>
-  <text x="508" y="211" font-size="18" fill="#111827">B</text>
-  <text x="208" y="48" font-size="18" fill="#111827">C</text>
-  <text x="285" y="226" font-size="18" fill="#0f766e">c = ?</text>
-  <text x="126" y="125" font-size="18" fill="#0f766e">b = 8</text>
-  <text x="345" y="128" font-size="18" fill="#0f766e">a = 11</text>
-  <path d="M197 76 A38 38 0 0 0 245 75" fill="none" stroke="#2563eb" stroke-width="4"/>
-  <text x="252" y="85" font-size="17" fill="#2563eb">included angle C</text>
-</svg>
+![SAS triangle with missing opposite side](/content/grade-10/math/quarter-1/topic-law-of-cosines-for-sides/images/inline-01-sas-triangle-with-missing-opposite-side.svg)
 
 The two known sides touch the included angle. The unknown side lies across from that angle.
 
@@ -126,19 +114,7 @@ $$c = \sqrt{a^2 + b^2 - 2ab\cos C}$$
 
 The side and angle labels must match.
 
-<svg viewBox="0 0 620 300" role="img" aria-labelledby="labeling-title labeling-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="labeling-title">Triangle labels for the Law of Cosines</title>
-  <desc id="labeling-desc">Angle A is opposite side a, angle B is opposite side b, and angle C is opposite side c.</desc>
-  <polygon points="115,230 520,230 250,55" fill="#f0fdf4" stroke="#15803d" stroke-width="3"/>
-  <text x="100" y="253" font-size="18" fill="#111827">A</text>
-  <text x="528" y="235" font-size="18" fill="#111827">B</text>
-  <text x="244" y="48" font-size="18" fill="#111827">C</text>
-  <text x="365" y="135" font-size="18" fill="#15803d">a</text>
-  <text x="156" y="137" font-size="18" fill="#15803d">b</text>
-  <text x="314" y="253" font-size="18" fill="#15803d">c</text>
-  <line x1="250" y1="55" x2="520" y2="230" stroke="#15803d" stroke-width="1" stroke-dasharray="5 5"/>
-  <text x="380" y="82" font-size="15" fill="#334155">side a is across from angle A</text>
-</svg>
+![Triangle labels for the Law of Cosines](/content/grade-10/math/quarter-1/topic-law-of-cosines-for-sides/images/inline-02-triangle-labels-for-the-law-of-cosines.svg)
 
 Side a is across from ∠A, side b is across from ∠B, and side c is across from ∠C. If the unknown side is AB, it is opposite ∠C.
 
@@ -150,18 +126,7 @@ $$c^2 = a^2 + b^2$$
 
 That is the Pythagorean Theorem. For non-right triangles, the cosine term adjusts the answer.
 
-<svg viewBox="0 0 640 240" role="img" aria-labelledby="cosine-adjust-title cosine-adjust-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="cosine-adjust-title">Cosine adjustment for triangle side lengths</title>
-  <desc id="cosine-adjust-desc">A smaller included angle gives a shorter opposite side, while a larger included angle gives a longer opposite side.</desc>
-  <polygon points="80,185 270,185 150,105" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
-  <text x="120" y="172" font-size="16" fill="#1d4ed8">45°</text>
-  <text x="112" y="207" font-size="16" fill="#111827">smaller angle</text>
-  <text x="165" y="132" font-size="16" fill="#1d4ed8">opposite side shorter</text>
-  <polygon points="370,185 585,185 432,55" fill="#fee2e2" stroke="#b91c1c" stroke-width="3"/>
-  <text x="394" y="172" font-size="16" fill="#b91c1c">120°</text>
-  <text x="405" y="207" font-size="16" fill="#111827">larger angle</text>
-  <text x="448" y="102" font-size="16" fill="#b91c1c">opposite side longer</text>
-</svg>
+![Cosine adjustment for triangle side lengths](/content/grade-10/math/quarter-1/topic-law-of-cosines-for-sides/images/inline-03-cosine-adjustment-for-triangle-side-lengths.svg)
 
 > [!TIP] Reasonableness Check
 >
@@ -225,19 +190,7 @@ $$c \approx \sqrt{81.5} \approx 9.0$$
 
 **Problem:** Two sides of a triangle measure 7 cm and 12 cm. The included angle is 115°. Find the side opposite the included angle to the nearest tenth.
 
-<svg viewBox="0 0 560 250" role="img" aria-labelledby="large-angle-title large-angle-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="large-angle-title">Triangle with a 115 degree included angle</title>
-  <desc id="large-angle-desc">Two known sides of 7 centimeters and 12 centimeters form a 115 degree angle. The opposite side is unknown.</desc>
-  <polygon points="110,185 455,185 165,70" fill="#fff7ed" stroke="#c2410c" stroke-width="3"/>
-  <text x="104" y="207" font-size="17" fill="#111827">A</text>
-  <text x="462" y="190" font-size="17" fill="#111827">B</text>
-  <text x="157" y="63" font-size="17" fill="#111827">C</text>
-  <text x="122" y="118" font-size="16" fill="#c2410c">7 cm</text>
-  <text x="295" y="206" font-size="16" fill="#c2410c">12 cm</text>
-  <text x="287" y="118" font-size="16" fill="#c2410c">x</text>
-  <path d="M142 184 A42 42 0 0 1 126 148" fill="none" stroke="#2563eb" stroke-width="4"/>
-  <text x="149" y="151" font-size="16" fill="#2563eb">115°</text>
-</svg>
+![Triangle with a 115 degree included angle](/content/grade-10/math/quarter-1/topic-law-of-cosines-for-sides/images/inline-04-triangle-with-a-115-degree-included-angle.svg)
 
 **Solution:**
 

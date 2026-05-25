@@ -14,13 +14,29 @@
   ],
   "estimatedDuration": 40,
   "difficulty": "intermediate",
-  "tags": ["geometry", "triangles", "oblique-triangles", "law-of-cosines", "sss", "angles"],
+  "tags": [
+    "geometry",
+    "triangles",
+    "oblique-triangles",
+    "law-of-cosines",
+    "sss",
+    "angles"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/inline-01-triangle-notation-with-opposite-sides.svg",
+      "images/inline-02-finding-angle-a-with-the-law-of-cosines.svg",
+      "images/inline-03-largest-side-opposite-largest-angle.svg",
+      "images/inline-04-triangular-garden-with-three-side-lengths.svg",
+      "images/sss-find-angle.svg",
+      "images/cosines-angle-formula.svg",
+      "images/largest-side-largest-angle.svg"
+    ]
   },
   "prerequisites": [
     "Triangle angle sum",

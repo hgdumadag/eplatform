@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 310" role="img" aria-labelledby="route-triangle-title route-triangle-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="route-triangle-title">Two travel legs and a direct distance form a triangle</title>
+  <desc id="route-triangle-desc">A route from A to B then to C forms two sides of a triangle. The direct distance from A to C is the third side.</desc>
+  <line x1="90" y1="250" x2="90" y2="90" stroke="#9ca3af" stroke-width="2"/>
+  <text x="82" y="78" font-size="16" fill="#111827">N</text>
+  <circle cx="90" cy="250" r="5" fill="#111827"/>
+  <text x="72" y="275" font-size="18" fill="#111827">A</text>
+  <line x1="90" y1="250" x2="300" y2="120" stroke="#2563eb" stroke-width="4"/>
+  <circle cx="300" cy="120" r="5" fill="#111827"/>
+  <text x="308" y="119" font-size="18" fill="#111827">B</text>
+  <text x="160" y="175" font-size="16" fill="#2563eb">12 km</text>
+  <line x1="300" y1="120" x2="300" y2="35" stroke="#9ca3af" stroke-width="2"/>
+  <text x="292" y="26" font-size="16" fill="#111827">N</text>
+  <line x1="300" y1="120" x2="535" y2="205" stroke="#0f766e" stroke-width="4"/>
+  <circle cx="535" cy="205" r="5" fill="#111827"/>
+  <text x="544" y="211" font-size="18" fill="#111827">C</text>
+  <text x="408" y="151" font-size="16" fill="#0f766e">9 km</text>
+  <line x1="90" y1="250" x2="535" y2="205" stroke="#dc2626" stroke-width="3" stroke-dasharray="8 7"/>
+  <text x="272" y="250" font-size="16" fill="#dc2626">direct distance AC</text>
+  <path d="M90 205 A45 45 0 0 1 128 226" fill="none" stroke="#ea580c" stroke-width="3"/>
+  <text x="128" y="213" font-size="15" fill="#ea580c">bearing at A</text>
+</svg>

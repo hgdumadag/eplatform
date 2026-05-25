@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 240" role="img" aria-labelledby="acute-obtuse-title acute-obtuse-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="acute-obtuse-title">Acute and obtuse oblique triangles</title>
+  <desc id="acute-obtuse-desc">An acute oblique triangle has all angles less than 90 degrees. An obtuse oblique triangle has one angle greater than 90 degrees.</desc>
+  <polygon points="95,175 235,175 155,55" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+  <text x="98" y="160" font-size="15" fill="#1d4ed8">58°</text>
+  <text x="200" y="160" font-size="15" fill="#1d4ed8">48°</text>
+  <text x="148" y="78" font-size="15" fill="#1d4ed8">74°</text>
+  <text x="84" y="210" font-size="18" fill="#111827">Acute oblique</text>
+  <polygon points="370,175 580,175 435,70" fill="#fee2e2" stroke="#b91c1c" stroke-width="3"/>
+  <text x="390" y="158" font-size="15" fill="#b91c1c">112°</text>
+  <text x="540" y="158" font-size="15" fill="#b91c1c">29°</text>
+  <text x="435" y="94" font-size="15" fill="#b91c1c">39°</text>
+  <text x="400" y="210" font-size="18" fill="#111827">Obtuse oblique</text>
+</svg>

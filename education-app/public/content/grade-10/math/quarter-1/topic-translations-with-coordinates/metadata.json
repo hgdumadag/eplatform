@@ -15,13 +15,27 @@
   ],
   "estimatedDuration": 35,
   "difficulty": "intermediate",
-  "tags": ["geometry", "transformations", "translations", "coordinates", "cartesian-plane"],
+  "tags": [
+    "geometry",
+    "transformations",
+    "translations",
+    "coordinates",
+    "cartesian-plane"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/inline-01-triangle-translated-right-and-up.svg",
+      "images/inline-02-point-translated-using-a-coordinate-rule.svg",
+      "images/inline-03-triangle-translated-right-2-and-down-3.svg",
+      "images/translation-vector.svg",
+      "images/translation-rule.svg",
+      "images/preimage-image.svg"
+    ]
   },
   "prerequisites": [
     "Plotting ordered pairs on the Cartesian plane",

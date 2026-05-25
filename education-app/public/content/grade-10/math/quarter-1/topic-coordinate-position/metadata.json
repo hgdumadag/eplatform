@@ -14,13 +14,29 @@
   ],
   "estimatedDuration": 35,
   "difficulty": "intermediate",
-  "tags": ["geometry", "coordinate-plane", "cartesian-plane", "ordered-pairs", "quadrants", "points"],
+  "tags": [
+    "geometry",
+    "coordinate-plane",
+    "cartesian-plane",
+    "ordered-pairs",
+    "quadrants",
+    "points"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/inline-01-cartesian-plane-with-axes-and-origin.svg",
+      "images/inline-02-plotting-the-point-three-comma-two.svg",
+      "images/inline-03-four-quadrants-of-the-cartesian-plane.svg",
+      "images/inline-04-two-points-with-the-same-y-coordinate.svg",
+      "images/cartesian-plane.svg",
+      "images/plotting-point.svg",
+      "images/same-x-same-y.svg"
+    ]
   },
   "prerequisites": [
     "Positive and negative numbers",

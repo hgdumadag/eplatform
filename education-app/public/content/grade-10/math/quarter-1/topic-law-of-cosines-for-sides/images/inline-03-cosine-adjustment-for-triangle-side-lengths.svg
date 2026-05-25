@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 240" role="img" aria-labelledby="cosine-adjust-title cosine-adjust-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="cosine-adjust-title">Cosine adjustment for triangle side lengths</title>
+  <desc id="cosine-adjust-desc">A smaller included angle gives a shorter opposite side, while a larger included angle gives a longer opposite side.</desc>
+  <polygon points="80,185 270,185 150,105" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+  <text x="120" y="172" font-size="16" fill="#1d4ed8">45°</text>
+  <text x="112" y="207" font-size="16" fill="#111827">smaller angle</text>
+  <text x="165" y="132" font-size="16" fill="#1d4ed8">opposite side shorter</text>
+  <polygon points="370,185 585,185 432,55" fill="#fee2e2" stroke="#b91c1c" stroke-width="3"/>
+  <text x="394" y="172" font-size="16" fill="#b91c1c">120°</text>
+  <text x="405" y="207" font-size="16" fill="#111827">larger angle</text>
+  <text x="448" y="102" font-size="16" fill="#b91c1c">opposite side longer</text>
+</svg>

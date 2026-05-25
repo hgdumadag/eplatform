@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="ssa-cases-title ssa-cases-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="ssa-cases-title">Zero, one, and two SSA triangle cases</title>
+  <desc id="ssa-cases-desc">Four panels show no triangle when a is shorter than h, one right-position triangle when a equals h, two triangles when a is between h and b, and one triangle when a is at least b.</desc>
+  <text x="70" y="35" font-size="18" fill="#111827">a &lt; h: 0 triangles</text>
+  <line x1="70" y1="160" x2="255" y2="160" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="88" y1="160" x2="168" y2="65" stroke="#1d4ed8" stroke-width="3"/>
+  <line x1="168" y1="65" x2="168" y2="160" stroke="#dc2626" stroke-width="2" stroke-dasharray="5 4"/>
+  <circle cx="168" cy="65" r="65" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="185" y="103" font-size="15" fill="#dc2626">h</text>
+  <text x="204" y="78" font-size="15" fill="#475569">a too short</text>
+
+  <text x="440" y="35" font-size="18" fill="#111827">a = h: 1 triangle</text>
+  <line x1="440" y1="160" x2="625" y2="160" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="458" y1="160" x2="538" y2="65" stroke="#1d4ed8" stroke-width="3"/>
+  <line x1="538" y1="65" x2="538" y2="160" stroke="#16a34a" stroke-width="3"/>
+  <path d="M538 139 L559 139 L559 160" fill="none" stroke="#16a34a" stroke-width="2"/>
+  <text x="548" y="112" font-size="15" fill="#16a34a">a = h</text>
+
+  <text x="70" y="235" font-size="18" fill="#111827">h &lt; a &lt; b: 2 triangles</text>
+  <line x1="70" y1="365" x2="255" y2="365" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="88" y1="365" x2="168" y2="270" stroke="#1d4ed8" stroke-width="3"/>
+  <circle cx="168" cy="270" r="105" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5 4"/>
+  <line x1="168" y1="270" x2="103" y2="365" stroke="#16a34a" stroke-width="3"/>
+  <line x1="168" y1="270" x2="233" y2="365" stroke="#16a34a" stroke-width="3"/>
+  <text x="96" y="390" font-size="15" fill="#111827">B₁</text>
+  <text x="228" y="390" font-size="15" fill="#111827">B₂</text>
+
+  <text x="440" y="235" font-size="18" fill="#111827">a ≥ b: 1 triangle</text>
+  <line x1="440" y1="365" x2="650" y2="365" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="458" y1="365" x2="538" y2="270" stroke="#1d4ed8" stroke-width="3"/>
+  <circle cx="538" cy="270" r="128" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5 4"/>
+  <line x1="538" y1="270" x2="636" y2="365" stroke="#16a34a" stroke-width="3"/>
+  <text x="632" y="390" font-size="15" fill="#111827">B</text>
+</svg>

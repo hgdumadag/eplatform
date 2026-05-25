@@ -14,13 +14,30 @@
   ],
   "estimatedDuration": 40,
   "difficulty": "intermediate",
-  "tags": ["geometry", "coordinate-plane", "transformations", "reflections", "rotations", "preimage", "image"],
+  "tags": [
+    "geometry",
+    "coordinate-plane",
+    "transformations",
+    "reflections",
+    "rotations",
+    "preimage",
+    "image"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/inline-01-reflection-and-rotation-of-a-point.svg",
+      "images/inline-02-reflection-across-the-x-axis-and-y-axis.svg",
+      "images/inline-03-rotating-a-point-around-the-origin.svg",
+      "images/inline-04-triangle-reflection-across-the-x-axis.svg",
+      "images/reflection-rules.svg",
+      "images/rotation-rules.svg",
+      "images/triangle-transformations.svg"
+    ]
   },
   "prerequisites": [
     "Plotting ordered pairs on the Cartesian plane",

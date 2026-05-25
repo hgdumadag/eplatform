@@ -96,26 +96,7 @@ The position is **(4, 3)**.
 
 The Cartesian plane combines two number lines. The x-axis measures left and right position. The y-axis measures up and down position.
 
-<svg viewBox="0 0 520 420" role="img" aria-labelledby="plane-title plane-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="plane-title">Cartesian plane with axes and origin</title>
-  <desc id="plane-desc">A coordinate plane showing the horizontal x-axis, vertical y-axis, and origin at zero zero.</desc>
-  <defs>
-    <pattern id="grid-plane" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#e5e7eb" stroke-width="1"/>
-    </pattern>
-  </defs>
-  <rect x="60" y="30" width="400" height="320" fill="url(#grid-plane)"/>
-  <line x1="60" y1="190" x2="460" y2="190" stroke="#111827" stroke-width="3"/>
-  <line x1="260" y1="350" x2="260" y2="30" stroke="#111827" stroke-width="3"/>
-  <path d="M460 190 L448 184 L448 196 Z" fill="#111827"/>
-  <path d="M260 30 L254 42 L266 42 Z" fill="#111827"/>
-  <text x="468" y="196" font-size="18" fill="#111827">x</text>
-  <text x="268" y="42" font-size="18" fill="#111827">y</text>
-  <circle cx="260" cy="190" r="5" fill="#dc2626"/>
-  <text x="271" y="214" font-size="16" fill="#dc2626">origin (0, 0)</text>
-  <text x="215" y="382" font-size="17" fill="#111827">horizontal position</text>
-  <text x="18" y="184" font-size="17" fill="#111827" transform="rotate(-90 18 184)">vertical position</text>
-</svg>
+![Cartesian plane with axes and origin](/content/grade-10/math/quarter-1/topic-coordinate-position/images/inline-01-cartesian-plane-with-axes-and-origin.svg)
 
 ## Main Concept Explanation
 
@@ -134,25 +115,7 @@ For example, the point (3, 2) means:
 2. Move 3 units right.
 3. Move 2 units up.
 
-<svg viewBox="0 0 520 420" role="img" aria-labelledby="plot-title plot-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="plot-title">Plotting the point three comma two</title>
-  <desc id="plot-desc">The diagram shows movement from the origin three units right and two units up to reach point P at three comma two.</desc>
-  <defs>
-    <pattern id="grid-plot" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#e5e7eb" stroke-width="1"/>
-    </pattern>
-  </defs>
-  <rect x="60" y="30" width="400" height="320" fill="url(#grid-plot)"/>
-  <line x1="60" y1="190" x2="460" y2="190" stroke="#111827" stroke-width="3"/>
-  <line x1="260" y1="350" x2="260" y2="30" stroke="#111827" stroke-width="3"/>
-  <circle cx="260" cy="190" r="5" fill="#111827"/>
-  <path d="M260 190 H380" fill="none" stroke="#2563eb" stroke-width="4" stroke-dasharray="8 6"/>
-  <path d="M380 190 V110" fill="none" stroke="#16a34a" stroke-width="4" stroke-dasharray="8 6"/>
-  <circle cx="380" cy="110" r="8" fill="#dc2626"/>
-  <text x="390" y="105" font-size="18" fill="#dc2626">P(3, 2)</text>
-  <text x="300" y="180" font-size="16" fill="#2563eb">3 right</text>
-  <text x="390" y="153" font-size="16" fill="#16a34a">2 up</text>
-</svg>
+![Plotting the point three comma two](/content/grade-10/math/quarter-1/topic-coordinate-position/images/inline-02-plotting-the-point-three-comma-two.svg)
 
 > [!TIP] Reading Coordinates
 >
@@ -179,25 +142,7 @@ For example:
 
 The x-axis and y-axis divide the plane into four quadrants.
 
-<svg viewBox="0 0 520 420" role="img" aria-labelledby="quadrants-title quadrants-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="quadrants-title">Four quadrants of the Cartesian plane</title>
-  <desc id="quadrants-desc">Quadrant one has positive x and positive y. Quadrant two has negative x and positive y. Quadrant three has negative x and negative y. Quadrant four has positive x and negative y.</desc>
-  <rect x="60" y="30" width="400" height="320" fill="#ffffff"/>
-  <rect x="260" y="30" width="200" height="160" fill="#dcfce7"/>
-  <rect x="60" y="30" width="200" height="160" fill="#dbeafe"/>
-  <rect x="60" y="190" width="200" height="160" fill="#fee2e2"/>
-  <rect x="260" y="190" width="200" height="160" fill="#fef3c7"/>
-  <line x1="60" y1="190" x2="460" y2="190" stroke="#111827" stroke-width="3"/>
-  <line x1="260" y1="350" x2="260" y2="30" stroke="#111827" stroke-width="3"/>
-  <text x="332" y="110" font-size="22" fill="#166534">Quadrant I</text>
-  <text x="112" y="110" font-size="22" fill="#1d4ed8">Quadrant II</text>
-  <text x="105" y="280" font-size="22" fill="#b91c1c">Quadrant III</text>
-  <text x="322" y="280" font-size="22" fill="#92400e">Quadrant IV</text>
-  <text x="350" y="142" font-size="16" fill="#166534">(+,+)</text>
-  <text x="138" y="142" font-size="16" fill="#1d4ed8">(-,+)</text>
-  <text x="136" y="312" font-size="16" fill="#b91c1c">(-,-)</text>
-  <text x="350" y="312" font-size="16" fill="#92400e">(+,-)</text>
-</svg>
+![Four quadrants of the Cartesian plane](/content/grade-10/math/quarter-1/topic-coordinate-position/images/inline-03-four-quadrants-of-the-cartesian-plane.svg)
 
 > [!WARNING] Axis Reminder
 >
@@ -259,24 +204,7 @@ The sign pattern is (-, +).
 
 **Problem:** Points C(-3, 2) and D(4, 2) are plotted in the plane. Describe how their positions compare.
 
-<svg viewBox="0 0 520 300" role="img" aria-labelledby="same-y-title same-y-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="same-y-title">Two points with the same y-coordinate</title>
-  <desc id="same-y-desc">Points C and D both have y-coordinate two, so they lie on the same horizontal line.</desc>
-  <defs>
-    <pattern id="grid-same-y" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#e5e7eb" stroke-width="1"/>
-    </pattern>
-  </defs>
-  <rect x="60" y="30" width="400" height="220" fill="url(#grid-same-y)"/>
-  <line x1="60" y1="150" x2="460" y2="150" stroke="#111827" stroke-width="3"/>
-  <line x1="260" y1="250" x2="260" y2="30" stroke="#111827" stroke-width="3"/>
-  <line x1="140" y1="70" x2="420" y2="70" stroke="#2563eb" stroke-width="4" stroke-dasharray="8 6"/>
-  <circle cx="140" cy="70" r="8" fill="#dc2626"/>
-  <circle cx="420" cy="70" r="8" fill="#16a34a"/>
-  <text x="90" y="63" font-size="17" fill="#dc2626">C(-3, 2)</text>
-  <text x="372" y="63" font-size="17" fill="#16a34a">D(4, 2)</text>
-  <text x="218" y="55" font-size="16" fill="#2563eb">same y-coordinate</text>
-</svg>
+![Two points with the same y-coordinate](/content/grade-10/math/quarter-1/topic-coordinate-position/images/inline-04-two-points-with-the-same-y-coordinate.svg)
 
 **Solution:**
 

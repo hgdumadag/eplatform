@@ -14,13 +14,28 @@
   ],
   "estimatedDuration": 40,
   "difficulty": "intermediate",
-  "tags": ["geometry", "triangles", "oblique-triangles", "law-of-sines", "ssa", "ambiguous-case"],
+  "tags": [
+    "geometry",
+    "triangles",
+    "oblique-triangles",
+    "law-of-sines",
+    "ssa",
+    "ambiguous-case"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/ssa-swing.svg",
+      "images/height-test.svg",
+      "images/zero-one-two-triangles.svg",
+      "images/inline-01-height-test-for-ssa.svg",
+      "images/inline-02-zero-one-and-two-ssa-triangle-cases.svg",
+      "images/inline-03-obtuse-ssa-side-comparison.svg"
+    ]
   },
   "prerequisites": [
     "Angle sum of a triangle",

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 190" role="img" aria-labelledby="formula-title formula-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="formula-title">Law of Sines formula with opposite pairs</title>
+  <desc id="formula-desc">The formula a over sine A equals b over sine B equals c over sine C is shown with matching colors.</desc>
+  <rect x="35" y="35" width="570" height="115" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="80" y="108" font-size="34" fill="#be123c">a</text>
+  <text x="118" y="108" font-size="34" fill="#111827">/ sin A</text>
+  <text x="262" y="108" font-size="34" fill="#111827">=</text>
+  <text x="315" y="108" font-size="34" fill="#047857">b</text>
+  <text x="352" y="108" font-size="34" fill="#111827">/ sin B</text>
+  <text x="495" y="108" font-size="34" fill="#111827">= ...</text>
+</svg>

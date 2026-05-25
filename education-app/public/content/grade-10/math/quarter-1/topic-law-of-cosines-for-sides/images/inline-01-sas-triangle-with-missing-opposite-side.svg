@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" role="img" aria-labelledby="sas-side-title sas-side-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="sas-side-title">SAS triangle with missing opposite side</title>
+  <desc id="sas-side-desc">Two known sides meet at an included angle, and the opposite side is unknown.</desc>
+  <polygon points="110,205 500,205 215,55" fill="#ecfeff" stroke="#0f766e" stroke-width="3"/>
+  <text x="100" y="228" font-size="18" fill="#111827">A</text>
+  <text x="508" y="211" font-size="18" fill="#111827">B</text>
+  <text x="208" y="48" font-size="18" fill="#111827">C</text>
+  <text x="285" y="226" font-size="18" fill="#0f766e">c = ?</text>
+  <text x="126" y="125" font-size="18" fill="#0f766e">b = 8</text>
+  <text x="345" y="128" font-size="18" fill="#0f766e">a = 11</text>
+  <path d="M197 76 A38 38 0 0 0 245 75" fill="none" stroke="#2563eb" stroke-width="4"/>
+  <text x="252" y="85" font-size="17" fill="#2563eb">included angle C</text>
+</svg>
