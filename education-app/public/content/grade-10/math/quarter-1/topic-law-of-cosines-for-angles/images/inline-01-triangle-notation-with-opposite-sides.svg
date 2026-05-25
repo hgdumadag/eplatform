@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 300" role="img" aria-labelledby="triangle-labels-title triangle-labels-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="triangle-labels-title">Triangle notation with opposite sides</title>
+  <desc id="triangle-labels-desc">Triangle ABC shows side a opposite angle A, side b opposite angle B, and side c opposite angle C.</desc>
+  <polygon points="95,235 510,235 230,55" fill="#eef2ff" stroke="#3730a3" stroke-width="3"/>
+  <text x="78" y="255" font-size="20" fill="#111827">A</text>
+  <text x="517" y="255" font-size="20" fill="#111827">B</text>
+  <text x="225" y="45" font-size="20" fill="#111827">C</text>
+  <text x="355" y="132" font-size="20" fill="#3730a3">a = BC</text>
+  <text x="120" y="138" font-size="20" fill="#3730a3">b = AC</text>
+  <text x="285" y="260" font-size="20" fill="#3730a3">c = AB</text>
+  <path d="M125 234 A38 38 0 0 1 137 203" fill="none" stroke="#dc2626" stroke-width="3"/>
+  <text x="145" y="218" font-size="18" fill="#dc2626">A</text>
+  <path d="M476 234 A42 42 0 0 0 455 204" fill="none" stroke="#16a34a" stroke-width="3"/>
+  <text x="446" y="220" font-size="18" fill="#16a34a">B</text>
+  <path d="M214 80 A34 34 0 0 0 259 75" fill="none" stroke="#ea580c" stroke-width="3"/>
+  <text x="238" y="96" font-size="18" fill="#ea580c">C</text>
+</svg>

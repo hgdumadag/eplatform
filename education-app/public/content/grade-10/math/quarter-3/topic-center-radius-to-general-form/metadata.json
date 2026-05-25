@@ -1,0 +1,44 @@
+{
+  "id": "grade-10-math-q3-center-radius-to-general-form",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Center-Radius to General Form",
+  "description": "Expand and simplify circle equations from center-radius form into general form.",
+  "learningObjectives": [
+    "Identify the center-radius form of a circle equation",
+    "Expand squared binomials accurately",
+    "Move all terms to one side to write general form",
+    "Check the signs of x- and y-terms against the center",
+    "Verify algebraic accuracy by comparing equivalent forms"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "intermediate",
+  "tags": [
+    "analytic-geometry",
+    "circles",
+    "circle-equations",
+    "center-radius-form",
+    "general-form",
+    "expanding-binomials"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/center-radius-to-general-flow.svg",
+      "images/circle-center-radius-example.svg",
+      "images/sign-check-diagram.svg"
+    ]
+  },
+  "prerequisites": [
+    "Coordinates in the Cartesian plane",
+    "Center-radius form of a circle",
+    "Radius and squared radius",
+    "Squaring binomials",
+    "Combining like terms"
+  ]
+}

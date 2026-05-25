@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="340" viewBox="0 0 760 340" role="img" aria-labelledby="title desc">
+  <title id="title">Radius squared check for circle equations</title>
+  <desc id="desc">A visual reminder that radius five gives right side twenty-five, radius seven gives right side forty-nine, and radius square root thirteen gives right side thirteen.</desc>
+  <rect width="760" height="340" fill="#f8fafc"/>
+  <text x="60" y="58" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#111827">Check the right side: use r<tspan baseline-shift="super" font-size="18">2</tspan>, not r</text>
+  <g font-family="Arial, sans-serif" font-size="24">
+    <rect x="70" y="92" width="180" height="170" rx="12" fill="#ecfeff" stroke="#0891b2" stroke-width="3"/>
+    <circle cx="160" cy="158" r="48" fill="#cffafe" stroke="#0891b2" stroke-width="4"/>
+    <path d="M160 158H208" stroke="#0e7490" stroke-width="5"/>
+    <text x="132" y="237" fill="#164e63">r = 5</text>
+    <text x="112" y="292" fill="#111827">r<tspan baseline-shift="super" font-size="15">2</tspan> = 25</text>
+    <rect x="290" y="92" width="180" height="170" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="3"/>
+    <circle cx="380" cy="158" r="58" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+    <path d="M380 158H438" stroke="#15803d" stroke-width="5"/>
+    <text x="352" y="237" fill="#14532d">r = 7</text>
+    <text x="332" y="292" fill="#111827">r<tspan baseline-shift="super" font-size="15">2</tspan> = 49</text>
+    <rect x="510" y="92" width="180" height="170" rx="12" fill="#fff7ed" stroke="#ea580c" stroke-width="3"/>
+    <circle cx="600" cy="158" r="54" fill="#ffedd5" stroke="#ea580c" stroke-width="4"/>
+    <path d="M600 158H654" stroke="#c2410c" stroke-width="5"/>
+    <text x="538" y="237" fill="#7c2d12">r = sqrt(13)</text>
+    <text x="552" y="292" fill="#111827">r<tspan baseline-shift="super" font-size="15">2</tspan> = 13</text>
+  </g>
+</svg>

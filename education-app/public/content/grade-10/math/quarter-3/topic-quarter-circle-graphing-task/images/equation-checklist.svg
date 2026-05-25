@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 720 430" role="img" aria-labelledby="title desc">
+  <title id="title">Circle equation checklist</title>
+  <desc id="desc">A checklist showing how center, radius, squared radius, graph, and point checks support a circle-logo design.</desc>
+  <rect width="720" height="430" fill="#f8fafc"/>
+  <text x="42" y="56" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">Before submitting a circle-logo design</text>
+  <g font-family="Arial, sans-serif" font-size="20" fill="#0f172a">
+    <rect x="44" y="88" width="632" height="54" rx="10" fill="#eff6ff" stroke="#93c5fd"/>
+    <text x="78" y="123">1. Circle equation is in center-radius form.</text>
+    <path d="M58 113l9 9 18-22" fill="none" stroke="#2563eb" stroke-width="4"/>
+    <rect x="44" y="154" width="632" height="54" rx="10" fill="#f0fdf4" stroke="#86efac"/>
+    <text x="78" y="189">2. Center (h, k) matches the graph label.</text>
+    <path d="M58 179l9 9 18-22" fill="none" stroke="#16a34a" stroke-width="4"/>
+    <rect x="44" y="220" width="632" height="54" rx="10" fill="#fffbeb" stroke="#fcd34d"/>
+    <text x="78" y="255">3. Right side is r^2, not just r.</text>
+    <path d="M58 245l9 9 18-22" fill="none" stroke="#d97706" stroke-width="4"/>
+    <rect x="44" y="286" width="632" height="54" rx="10" fill="#fdf2f8" stroke="#f9a8d4"/>
+    <text x="78" y="321">4. At least one point check proves accuracy.</text>
+    <path d="M58 311l9 9 18-22" fill="none" stroke="#db2777" stroke-width="4"/>
+    <rect x="44" y="352" width="632" height="54" rx="10" fill="#f5f3ff" stroke="#c4b5fd"/>
+    <text x="78" y="387">5. Design explanation connects visuals to equations.</text>
+    <path d="M58 377l9 9 18-22" fill="none" stroke="#7c3aed" stroke-width="4"/>
+  </g>
+</svg>

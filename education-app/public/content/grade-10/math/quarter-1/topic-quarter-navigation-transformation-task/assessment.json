@@ -1,0 +1,96 @@
+{
+  "examId": "grade-10-math-q1-quarter-navigation-transformation-task-assessment",
+  "examType": "assessment",
+  "title": "Quarter Navigation and Transformation Task Checkpoint",
+  "description": "Show that you can solve a bearing route problem and map a transformed route using coordinate rules.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A drone flies from A to B on a bearing of 025°. From B, what is the back bearing toward A?",
+      "options": ["025°", "115°", "205°", "335°"],
+      "correctAnswer": 2,
+      "explanation": "The back bearing is 180° opposite the original bearing: 025° + 180° = 205°.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A route goes 6 km on a bearing of 030°, then 8 km on a bearing of 120°. The included angle at the turn is 90°. Which equation finds the direct distance d from start to end?",
+      "options": ["d² = 6² + 8² - 2(6)(8)cos(90°)", "d² = 6² - 8²", "d/sin(90°) = 6/sin(8°)", "d = 6 + 8 + 90"],
+      "correctAnswer": 0,
+      "explanation": "With two sides and the included angle, use the Law of Cosines: d² = a² + b² - 2ab cos C.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Using d² = 6² + 8² - 2(6)(8)cos(90°), what is d?",
+      "options": ["7 km", "10 km", "14 km", "48 km"],
+      "correctAnswer": 1,
+      "explanation": "Since cos(90°) = 0, d² = 36 + 64 = 100, so d = 10 km.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A mapped route has A(0, 0), B(4, 3), and C(9, 1). Which point is B' after translation by (x, y) -> (x - 2, y + 5)?",
+      "options": ["B'(2, 8)", "B'(6, 8)", "B'(2, -2)", "B'(-4, 3)"],
+      "correctAnswer": 0,
+      "explanation": "Apply the rule to B(4, 3): (4 - 2, 3 + 5) = (2, 8).",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "A route endpoint C(9, 1) is translated by (x, y) -> (x - 2, y + 5). Write C'.",
+      "correctAnswer": "(7, 6)",
+      "explanation": "Subtract 2 from x and add 5 to y: C'(7, 6).",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Reflect R(7, -4) across the x-axis. Write R'.",
+      "correctAnswer": "(7, 4)",
+      "explanation": "Reflection across the x-axis keeps x the same and changes y to its opposite.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "Rotate S(-5, 2) 180° about the origin. Write S'.",
+      "correctAnswer": "(5, -2)",
+      "explanation": "A 180° rotation changes both coordinates to their opposites: (-5, 2) -> (5, -2).",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "question": "A bearing of 270° points west.",
+      "correctAnswer": "true",
+      "explanation": "Starting from north and turning clockwise 270° points west.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A route map uses A(0, 0), B(5, 2), and C(8, -1). Explain how to translate the whole route 3 units east and 4 units north.",
+      "correctAnswer": "Use the rule (x, y) -> (x + 3, y + 4) on every route point. This gives A'(3, 4), B'(8, 6), and C'(11, 3).",
+      "explanation": "East increases x and north increases y; the same rule must be applied to A, B, and C.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A student solves a bearing route correctly but transforms only the final endpoint C. Explain why the final route map is incomplete.",
+      "correctAnswer": "A transformed route requires every route point and segment to be transformed. If only C is transformed, the image does not show the transformed positions of A, B, and the full route path.",
+      "explanation": "A route is a figure made of multiple points and segments, so the coordinate rule must be applied to the whole figure.",
+      "points": 10
+    }
+  ]
+}

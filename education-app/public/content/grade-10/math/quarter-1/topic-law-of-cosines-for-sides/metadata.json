@@ -1,0 +1,49 @@
+{
+  "id": "grade-10-math-q1-law-of-cosines-for-sides",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Law of Cosines for Sides",
+  "description": "Use the Law of Cosines to find an unknown side in oblique triangles when SAS or SSS information is given.",
+  "learningObjectives": [
+    "Identify when SAS information calls for the Law of Cosines",
+    "Use the Law of Cosines to find an unknown side",
+    "Substitute side lengths and an included angle accurately",
+    "Recognize how the Law of Cosines connects to the Pythagorean Theorem",
+    "Estimate whether a computed side length is reasonable"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "triangles",
+    "oblique-triangles",
+    "law-of-cosines",
+    "sas",
+    "sss",
+    "side-lengths"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/inline-01-sas-triangle-with-missing-opposite-side.svg",
+      "images/inline-02-triangle-labels-for-the-law-of-cosines.svg",
+      "images/inline-03-cosine-adjustment-for-triangle-side-lengths.svg",
+      "images/inline-04-triangle-with-a-115-degree-included-angle.svg",
+      "images/sas-missing-side.svg",
+      "images/cosines-side-formula.svg",
+      "images/angle-size-side-effect.svg"
+    ]
+  },
+  "prerequisites": [
+    "Oblique triangles",
+    "Triangle angle sum",
+    "Squares and square roots",
+    "Cosine values on a calculator",
+    "SAS and SSS given cases"
+  ]
+}

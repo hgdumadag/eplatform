@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" role="img" aria-labelledby="bearing-compass-title bearing-compass-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="bearing-compass-title">Bearing measured clockwise from north</title>
+  <desc id="bearing-compass-desc">A compass rose shows north upward, east right, south downward, and a 060 degree bearing measured clockwise from north.</desc>
+  <line x1="280" y1="45" x2="280" y2="315" stroke="#334155" stroke-width="2"/>
+  <line x1="145" y1="180" x2="415" y2="180" stroke="#334155" stroke-width="2"/>
+  <text x="270" y="32" font-size="18" fill="#111827">N</text>
+  <text x="426" y="186" font-size="18" fill="#111827">E</text>
+  <text x="270" y="338" font-size="18" fill="#111827">S</text>
+  <text x="123" y="186" font-size="18" fill="#111827">W</text>
+  <circle cx="280" cy="180" r="5" fill="#111827"/>
+  <line x1="280" y1="180" x2="382" y2="62" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow-bearing)"/>
+  <path d="M280 105 A75 75 0 0 1 345 143" fill="none" stroke="#dc2626" stroke-width="3"/>
+  <text x="315" y="102" font-size="18" fill="#dc2626">060°</text>
+  <text x="355" y="54" font-size="17" fill="#2563eb">bearing</text>
+  <defs>
+    <marker id="arrow-bearing" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+</svg>

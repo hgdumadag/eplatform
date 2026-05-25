@@ -1,0 +1,116 @@
+{
+  "examId": "grade-10-math-q3-finding-equations-from-center-and-radius-assessment",
+  "examType": "assessment",
+  "title": "Finding Equations from Center and Radius Assessment",
+  "description": "Show mastery of writing and checking circle equations from direct center and radius information.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which equation represents a circle with center (6, -1) and radius 7?",
+      "options": [
+        "(x - 6)^2 + (y + 1)^2 = 49",
+        "(x + 6)^2 + (y - 1)^2 = 49",
+        "(x - 6)^2 + (y + 1)^2 = 7",
+        "(x + 6)^2 + (y + 1)^2 = 49"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Use h = 6, k = -1, and r^2 = 49. The y-part is y - (-1), which becomes y + 1.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "For a circle with center (-8, 3) and radius 5, complete the x-part: (x ____ 8)^2.",
+      "correctAnswer": "+",
+      "explanation": "Since h = -8, x - h becomes x - (-8), or x + 8.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A circle has center (-3, 0) and radius 10. Which equation is correct?",
+      "options": [
+        "(x + 3)^2 + y^2 = 100",
+        "(x - 3)^2 + y^2 = 100",
+        "(x + 3)^2 + y^2 = 10",
+        "x^2 + (y + 3)^2 = 100"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The center (-3, 0) gives (x + 3)^2 + y^2. The radius 10 gives right side 100.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "The circle with center (0, 0) and radius 12 has equation x^2 + y^2 = 144.",
+      "correctAnswer": "true",
+      "explanation": "When the center is the origin, the equation is x^2 + y^2 = r^2. Since 12^2 = 144, the statement is true.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which equation has center (4, 5) and radius sqrt(30)?",
+      "options": [
+        "(x - 4)^2 + (y - 5)^2 = 30",
+        "(x + 4)^2 + (y + 5)^2 = 30",
+        "(x - 4)^2 + (y - 5)^2 = sqrt(30)",
+        "(x - 5)^2 + (y - 4)^2 = 30"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The center gives (x - 4)^2 + (y - 5)^2. If r = sqrt(30), then r^2 = 30.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "Write the equation of a circle with center (-2, -9) and radius 3. Briefly explain the signs.",
+      "correctAnswer": "(x + 2)^2 + (y + 9)^2 = 9. Since h = -2 and k = -9, subtracting each negative coordinate creates plus signs. The radius squared is 9.",
+      "explanation": "The correct equation uses plus signs in both binomials and places 3^2 = 9 on the right side.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A circle is described by center (9, -4) and radius 1. Which right side should the equation have?",
+      "options": [
+        "1",
+        "2",
+        "9",
+        "16"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The right side is r^2. Since 1^2 = 1, the right side is 1.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "Complete the equation for center (0, 7) and radius 4: x^2 + (y - 7)^2 = ____.",
+      "correctAnswer": "16",
+      "explanation": "The center has h = 0, so the x-part is x^2. The radius 4 gives right side 16.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "For center (-1, 5) and radius 6, (x - 1)^2 + (y - 5)^2 = 36 is correct.",
+      "correctAnswer": "false",
+      "explanation": "The x-part should be (x + 1)^2 because h = -1. The correct equation is (x + 1)^2 + (y - 5)^2 = 36.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A circle has center (3, -2). Its radius is the distance from (3, -2) to (3, 6). Write the circle equation.",
+      "correctAnswer": "The radius is 8, so the equation is (x - 3)^2 + (y + 2)^2 = 64.",
+      "explanation": "The points have the same x-coordinate, so the radius is the vertical distance from -2 to 6, which is 8. Then r^2 = 64.",
+      "points": 10
+    }
+  ]
+}

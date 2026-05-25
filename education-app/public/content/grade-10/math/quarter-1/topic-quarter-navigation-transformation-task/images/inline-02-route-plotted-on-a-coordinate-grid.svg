@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 360" role="img" aria-labelledby="route-map-title route-map-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="route-map-title">Route plotted on a coordinate grid</title>
+  <desc id="route-map-desc">A route starts at A, travels northeast to B, then southeast to C, forming an oblique triangle from A to B to C.</desc>
+  <defs>
+    <pattern id="grid-route" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0 H0 V30" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow-route" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#0f766e"/>
+    </marker>
+  </defs>
+  <rect x="20" y="20" width="580" height="300" fill="url(#grid-route)"/>
+  <line x1="310" y1="320" x2="310" y2="20" stroke="#475569" stroke-width="2"/>
+  <line x1="20" y1="170" x2="600" y2="170" stroke="#475569" stroke-width="2"/>
+  <polyline points="220,230 340,95 460,210" fill="none" stroke="#0f766e" stroke-width="4" marker-mid="url(#arrow-route)" marker-end="url(#arrow-route)"/>
+  <line x1="220" y1="230" x2="460" y2="210" stroke="#f97316" stroke-width="3" stroke-dasharray="8 7"/>
+  <circle cx="220" cy="230" r="6" fill="#111827"/>
+  <circle cx="340" cy="95" r="6" fill="#111827"/>
+  <circle cx="460" cy="210" r="6" fill="#111827"/>
+  <text x="198" y="252" font-size="18" fill="#111827">A</text>
+  <text x="346" y="88" font-size="18" fill="#111827">B</text>
+  <text x="467" y="232" font-size="18" fill="#111827">C</text>
+  <text x="248" y="142" font-size="15" fill="#0f766e">leg 1</text>
+  <text x="402" y="145" font-size="15" fill="#0f766e">leg 2</text>
+  <text x="306" y="238" font-size="15" fill="#f97316">direct route AC</text>
+</svg>

@@ -1,0 +1,95 @@
+{
+  "examId": "grade-10-math-q3-quarter-circle-graphing-task-assessment",
+  "examType": "assessment",
+  "title": "Quarter Circle Graphing Task Assessment",
+  "description": "Show mastery by interpreting, checking, and explaining circle equations for a coordinate-plane logo.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A logo has an outer circle centered at (-2, 1) with radius 6. Which equation should be used?",
+      "options": ["(x - 2)^2 + (y + 1)^2 = 36", "(x + 2)^2 + (y - 1)^2 = 36", "(x + 2)^2 + (y - 1)^2 = 6", "(x - 2)^2 + (y + 1)^2 = 6"],
+      "correctAnswer": 1,
+      "explanation": "Center (-2, 1) gives (x + 2)^2 + (y - 1)^2, and radius 6 gives r^2 = 36.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A circle equation ends with = 81. If this is center-radius form, what is the radius?",
+      "correctAnswer": "9",
+      "explanation": "The right side is r^2. Since r^2 = 81, r = 9.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which pair of equations describes two equal-radius circles symmetric across the y-axis?",
+      "options": ["(x - 3)^2 + y^2 = 4 and (x + 3)^2 + y^2 = 4", "(x - 3)^2 + y^2 = 4 and (x - 3)^2 + (y + 3)^2 = 4", "x^2 + (y - 3)^2 = 4 and x^2 + (y + 3)^2 = 9", "(x - 3)^2 + y^2 = 4 and (x + 3)^2 + y^2 = 9"],
+      "correctAnswer": 0,
+      "explanation": "The centers are (3, 0) and (-3, 0), and both radii are 2, so the circles are symmetric across the y-axis.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "The graph of (x - 4)^2 + (y + 1)^2 = 16 should have center (4, -1).",
+      "correctAnswer": "true",
+      "explanation": "x - 4 gives h = 4, and y + 1 means y - (-1), so the center is (4, -1).",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "short-answer",
+      "question": "A logo circle has equation (x + 2)^2 + (y - 5)^2 = 25. State its center, radius, and one point on the circle.",
+      "correctAnswer": "The center is (-2, 5), the radius is 5, and one point on the circle is (3, 5).",
+      "explanation": "The center is (-2, 5), and r^2 = 25 gives radius 5. Moving 5 units right from the center gives (3, 5).",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A student writes (x - 1)^2 + (y - 2)^2 = 5 for a circle with radius 5. What should be corrected?",
+      "options": ["The center should be changed to (-1, -2).", "The right side should be 25.", "The equation should have no squared terms.", "The y-parenthesis should be y + 2."],
+      "correctAnswer": 1,
+      "explanation": "If the radius is 5, the right side must be r^2 = 25.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "Complete the equation for a circle centered at (0, -4) with radius 3: x^2 + (y + 4)^2 = ____.",
+      "correctAnswer": "9",
+      "explanation": "The radius is 3, so r^2 = 9.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "question": "If a point check gives left side = 18 and right side = 25, the point lies on the circle.",
+      "correctAnswer": "false",
+      "explanation": "A point lies on the circle only when the substituted left side equals the right side.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Describe a three-circle coordinate logo. Include centers and radii for all three circles.",
+      "correctAnswer": "One possible logo has a large circle centered at (0, 0) with radius 6, a small circle centered at (-2, 1) with radius 1, and a small circle centered at (2, 1) with radius 1.",
+      "explanation": "A valid answer names three circles and gives a center and radius for each. The example also uses symmetry.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "For the logo in your previous answer, write one correct circle equation and explain how it matches the graph.",
+      "correctAnswer": "For the large circle centered at (0, 0) with radius 6, the equation is x^2 + y^2 = 36. It matches because the center is the origin and the radius is 6, so r^2 = 36.",
+      "explanation": "The explanation should connect center, radius, and squared radius to the chosen equation.",
+      "points": 10
+    }
+  ]
+}

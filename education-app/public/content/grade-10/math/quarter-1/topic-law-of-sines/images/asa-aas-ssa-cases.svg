@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+<title id="title">Law of Sines cases</title>
+<desc id="desc">ASA, AAS, and SSA visual summary.</desc>
+<rect width="720" height="420" fill="#f8fafc"/>
+<rect x="18" y="18" width="684" height="384" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<text x="95" y="95" font-family="Arial, sans-serif" font-size="26" fill="#2563eb">ASA</text><polygon points="70,220 210,220 135,105" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/><text x="285" y="95" font-family="Arial, sans-serif" font-size="26" fill="#16a34a">AAS</text><polygon points="260,220 400,220 335,105" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/><text x="485" y="95" font-family="Arial, sans-serif" font-size="26" fill="#ea580c">SSA</text><polygon points="455,220 625,220 520,105" fill="#ffedd5" stroke="#ea580c" stroke-width="4"/><text x="65" y="275" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">Two angles + side</text><text x="455" y="275" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">Two sides + non-included angle</text>
+</svg>

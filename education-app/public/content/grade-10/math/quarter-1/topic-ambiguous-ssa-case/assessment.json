@@ -1,0 +1,98 @@
+{
+  "examId": "grade-10-math-q1-ambiguous-ssa-case-assessment",
+  "examType": "assessment",
+  "title": "Ambiguous SSA Case Checkpoint",
+  "description": "Show that you can determine and justify whether SSA information creates zero, one, or two possible triangles.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which description identifies an SSA case?",
+      "options": ["Two sides and the included angle are known", "Two angles and the included side are known", "Two sides and a non-included angle are known", "Three sides are known"],
+      "correctAnswer": 2,
+      "explanation": "SSA means two side lengths and an angle that is not between those two sides are known.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 42°, a = 6, and b = 11. Since h = 11 sin 42° ≈ 7.36, how many triangles are possible?",
+      "options": ["0 triangles", "1 triangle", "2 triangles", "Cannot be determined"],
+      "correctAnswer": 0,
+      "explanation": "Because a = 6 is less than h ≈ 7.36, the opposite side is too short to reach the base ray.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 50°, a = 9, and b = 12. Since h = 12 sin 50° ≈ 9.19, how many triangles are possible?",
+      "options": ["0 triangles", "1 triangle", "2 triangles", "Exactly two triangles because this is SSA"],
+      "correctAnswer": 0,
+      "explanation": "Even though this is SSA, a = 9 is slightly less than h ≈ 9.19, so no triangle is possible.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 35°, a = 9, and b = 14. Since h = 14 sin 35° ≈ 8.03, how many triangles are possible?",
+      "options": ["0 triangles", "1 triangle", "2 triangles", "No triangle because a is less than b"],
+      "correctAnswer": 2,
+      "explanation": "Since h < a < b, or 8.03 < 9 < 14, two triangles are possible.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 28°, a = 15, and b = 10. How many triangles are possible?",
+      "options": ["0 triangles", "1 triangle", "2 triangles", "Cannot be determined without side c"],
+      "correctAnswer": 1,
+      "explanation": "The known angle is acute and a ≥ b, so there is one possible triangle.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 120°, a = 13, and b = 13. How many triangles are possible?",
+      "options": ["0 triangles", "1 triangle", "2 triangles", "One triangle because a = b"],
+      "correctAnswer": 0,
+      "explanation": "For an obtuse known angle, the opposite side must be longer than the adjacent known side. Since a is not greater than b, no triangle is possible.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "If ∠A is obtuse in an SSA case, there can be at most one possible triangle.",
+      "correctAnswer": "true",
+      "explanation": "An obtuse known angle forces the opposite side to be the longest, so the result is either one triangle or no triangle.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "For acute ∠A, a = 10, b = 16, and h = 8. Since h < a < b, how many triangles are possible? Answer with a number.",
+      "correctAnswer": "2",
+      "explanation": "The comparison h < a < b means the swinging side reaches the base ray in two places.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A student says, \"This is SSA, so the answer must be two triangles.\" Explain why that reasoning is incomplete.",
+      "correctAnswer": "SSA can be ambiguous, but it is not always two triangles. The number of triangles depends on the known angle and the comparison among a, h, and b.",
+      "explanation": "A complete justification must use the measurements, not only the label SSA.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "In one or two sentences, explain why a < h means no triangle is possible for an acute SSA case.",
+      "correctAnswer": "The height h is the shortest distance needed for the opposite side a to reach the base ray. If a is shorter than h, it cannot reach the base, so no triangle can be formed.",
+      "explanation": "The key idea is that the height is the minimum required length from the swinging vertex to the base ray.",
+      "points": 10
+    }
+  ]
+}

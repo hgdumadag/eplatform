@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 260" role="img" aria-labelledby="garden-title garden-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="garden-title">Triangular garden with three side lengths</title>
+  <desc id="garden-desc">A triangular garden has sides 14 meters, 15 meters, and 20 meters. The angle opposite the 20 meter side is highlighted.</desc>
+  <polygon points="105,215 530,215 250,55" fill="#f0fdf4" stroke="#15803d" stroke-width="3"/>
+  <text x="150" y="126" font-size="18" fill="#15803d">15 m</text>
+  <text x="395" y="128" font-size="18" fill="#15803d">14 m</text>
+  <text x="298" y="240" font-size="18" fill="#15803d">20 m</text>
+  <path d="M228 72 A42 42 0 0 0 273 74" fill="none" stroke="#dc2626" stroke-width="4"/>
+  <text x="226" y="98" font-size="19" fill="#dc2626">Find this angle</text>
+</svg>

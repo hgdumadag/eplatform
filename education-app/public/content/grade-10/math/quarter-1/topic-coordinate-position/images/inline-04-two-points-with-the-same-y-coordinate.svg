@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-labelledby="same-y-title same-y-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="same-y-title">Two points with the same y-coordinate</title>
+  <desc id="same-y-desc">Points C and D both have y-coordinate two, so they lie on the same horizontal line.</desc>
+  <defs>
+    <pattern id="grid-same-y" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#e5e7eb" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect x="60" y="30" width="400" height="220" fill="url(#grid-same-y)"/>
+  <line x1="60" y1="150" x2="460" y2="150" stroke="#111827" stroke-width="3"/>
+  <line x1="260" y1="250" x2="260" y2="30" stroke="#111827" stroke-width="3"/>
+  <line x1="140" y1="70" x2="420" y2="70" stroke="#2563eb" stroke-width="4" stroke-dasharray="8 6"/>
+  <circle cx="140" cy="70" r="8" fill="#dc2626"/>
+  <circle cx="420" cy="70" r="8" fill="#16a34a"/>
+  <text x="90" y="63" font-size="17" fill="#dc2626">C(-3, 2)</text>
+  <text x="372" y="63" font-size="17" fill="#16a34a">D(4, 2)</text>
+  <text x="218" y="55" font-size="16" fill="#2563eb">same y-coordinate</text>
+</svg>

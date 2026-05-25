@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="translation-slide-title translation-slide-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="translation-slide-title">Triangle translated right and up</title>
+  <desc id="translation-slide-desc">A triangle with vertices A, B, and C slides 4 units right and 2 units up to image triangle A prime, B prime, C prime.</desc>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2563eb"></path>
+    </marker>
+  </defs>
+  <rect x="40" y="30" width="560" height="280" fill="#f8fafc" stroke="#e2e8f0"></rect>
+  <g stroke="#cbd5e1" stroke-width="1">
+    <line x1="80" y1="30" x2="80" y2="310"></line><line x1="120" y1="30" x2="120" y2="310"></line><line x1="160" y1="30" x2="160" y2="310"></line><line x1="200" y1="30" x2="200" y2="310"></line><line x1="240" y1="30" x2="240" y2="310"></line><line x1="280" y1="30" x2="280" y2="310"></line><line x1="320" y1="30" x2="320" y2="310"></line><line x1="360" y1="30" x2="360" y2="310"></line><line x1="400" y1="30" x2="400" y2="310"></line><line x1="440" y1="30" x2="440" y2="310"></line><line x1="480" y1="30" x2="480" y2="310"></line><line x1="520" y1="30" x2="520" y2="310"></line><line x1="560" y1="30" x2="560" y2="310"></line>
+    <line x1="40" y1="70" x2="600" y2="70"></line><line x1="40" y1="110" x2="600" y2="110"></line><line x1="40" y1="150" x2="600" y2="150"></line><line x1="40" y1="190" x2="600" y2="190"></line><line x1="40" y1="230" x2="600" y2="230"></line><line x1="40" y1="270" x2="600" y2="270"></line>
+  </g>
+  <polygon points="120,230 200,230 160,150" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"></polygon>
+  <polygon points="280,150 360,150 320,70" fill="#dcfce7" stroke="#15803d" stroke-width="3"></polygon>
+  <line x1="160" y1="205" x2="320" y2="125" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow-blue)"></line>
+  <text x="112" y="250" font-size="17" fill="#1e3a8a">A</text>
+  <text x="205" y="240" font-size="17" fill="#1e3a8a">B</text>
+  <text x="150" y="140" font-size="17" fill="#1e3a8a">C</text>
+  <text x="270" y="170" font-size="17" fill="#166534">A'</text>
+  <text x="365" y="160" font-size="17" fill="#166534">B'</text>
+  <text x="315" y="60" font-size="17" fill="#166534">C'</text>
+  <text x="235" y="222" font-size="18" fill="#1f2937">4 right, 2 up</text>
+  <text x="185" y="340" font-size="18" fill="#111827">Same size, same shape, same orientation</text>
+</svg>

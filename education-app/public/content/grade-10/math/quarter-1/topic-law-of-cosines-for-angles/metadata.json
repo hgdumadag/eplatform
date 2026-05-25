@@ -1,0 +1,48 @@
+{
+  "id": "grade-10-math-q1-law-of-cosines-for-angles",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Law of Cosines for Angles",
+  "description": "Find unknown angles of an oblique triangle when all three side lengths are known, and check that the resulting angles are reasonable.",
+  "learningObjectives": [
+    "Identify when the Law of Cosines can be used to find an angle",
+    "Choose the correct angle formula from three known side lengths",
+    "Calculate an unknown angle using inverse cosine",
+    "Check that the largest side is opposite the largest angle",
+    "Verify that the three triangle angles add to about 180°"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "triangles",
+    "oblique-triangles",
+    "law-of-cosines",
+    "sss",
+    "angles"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/inline-01-triangle-notation-with-opposite-sides.svg",
+      "images/inline-02-finding-angle-a-with-the-law-of-cosines.svg",
+      "images/inline-03-largest-side-opposite-largest-angle.svg",
+      "images/inline-04-triangular-garden-with-three-side-lengths.svg",
+      "images/sss-find-angle.svg",
+      "images/cosines-angle-formula.svg",
+      "images/largest-side-largest-angle.svg"
+    ]
+  },
+  "prerequisites": [
+    "Triangle angle sum",
+    "Naming sides opposite angles",
+    "Squares and square roots",
+    "Cosine and inverse cosine on a calculator",
+    "Law of Cosines for finding a side"
+  ]
+}

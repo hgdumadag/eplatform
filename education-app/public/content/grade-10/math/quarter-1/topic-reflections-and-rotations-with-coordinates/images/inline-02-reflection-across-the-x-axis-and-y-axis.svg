@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-labelledby="reflection-title reflection-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="reflection-title">Reflection across the x-axis and y-axis</title>
+  <desc id="reflection-desc">Point P at 2,3 reflects across the x-axis to 2,-3 and across the y-axis to -2,3.</desc>
+  <line x1="80" y1="150" x2="560" y2="150" stroke="#475569" stroke-width="2"/>
+  <line x1="320" y1="40" x2="320" y2="260" stroke="#475569" stroke-width="2"/>
+  <g stroke="#e2e8f0" stroke-width="1">
+    <line x1="160" y1="40" x2="160" y2="260"/><line x1="240" y1="40" x2="240" y2="260"/><line x1="400" y1="40" x2="400" y2="260"/><line x1="480" y1="40" x2="480" y2="260"/>
+    <line x1="80" y1="70" x2="560" y2="70"/><line x1="80" y1="110" x2="560" y2="110"/><line x1="80" y1="190" x2="560" y2="190"/><line x1="80" y1="230" x2="560" y2="230"/>
+  </g>
+  <circle cx="480" cy="70" r="7" fill="#2563eb"/>
+  <text x="492" y="69" font-size="16" fill="#1d4ed8">P(2, 3)</text>
+  <circle cx="480" cy="230" r="7" fill="#ea580c"/>
+  <text x="492" y="234" font-size="16" fill="#c2410c">P'(2, -3)</text>
+  <circle cx="160" cy="70" r="7" fill="#dc2626"/>
+  <text x="70" y="69" font-size="16" fill="#b91c1c">P''(-2, 3)</text>
+  <path d="M480 70 L480 230" stroke="#ea580c" stroke-width="3" stroke-dasharray="6 5"/>
+  <path d="M480 70 L160 70" stroke="#dc2626" stroke-width="3" stroke-dasharray="6 5"/>
+  <text x="390" y="145" font-size="15" fill="#c2410c">same x, opposite y</text>
+  <text x="250" y="92" font-size="15" fill="#b91c1c">opposite x, same y</text>
+</svg>

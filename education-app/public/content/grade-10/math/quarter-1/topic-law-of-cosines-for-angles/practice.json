@@ -1,0 +1,103 @@
+{
+  "examId": "grade-10-math-q1-law-of-cosines-for-angles-practice",
+  "examType": "practice",
+  "title": "Law of Cosines for Angles Practice",
+  "description": "Practice choosing and using the Law of Cosines to find unknown angles from three side lengths.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which given case usually calls for the Law of Cosines when finding an angle?",
+      "options": ["ASA", "AAS", "SSS", "AAA"],
+      "correctAnswer": 2,
+      "explanation": "When all three sides are known, the Law of Cosines can be rearranged to find an angle.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "In △ABC, which side is opposite ∠A?",
+      "options": ["AB", "BC", "AC", "Angle B"],
+      "correctAnswer": 1,
+      "explanation": "The side opposite ∠A is the side across from vertex A, which is BC and is often named side a.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which formula finds ∠A from side lengths a, b, and c?",
+      "options": [
+        "A = cos^-1((b^2 + c^2 - a^2) / (2bc))",
+        "A = cos^-1((a^2 + c^2 - b^2) / (2ac))",
+        "A = cos^-1((a^2 + b^2 - c^2) / (2ab))",
+        "A = sin^-1(a / c)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To find ∠A, subtract a^2 because side a is opposite ∠A, then divide by 2bc.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A triangle has sides a = 6, b = 8, and c = 10. Which angle should be the largest?",
+      "options": ["∠A", "∠B", "∠C", "All angles must be equal"],
+      "correctAnswer": 2,
+      "explanation": "The largest side is c = 10, so the largest angle is the opposite angle, ∠C.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "In △ABC, a = 10, b = 8, and c = 7. What is ∠A to the nearest degree?",
+      "options": ["45°", "67°", "83°", "97°"],
+      "correctAnswer": 2,
+      "explanation": "A = cos^-1((8^2 + 7^2 - 10^2) / (2(8)(7))) = cos^-1(13/112), which is about 83°.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "In △ABC, a = 5, b = 7, and c = 8. What is ∠C to the nearest degree?",
+      "options": ["44°", "59°", "82°", "97°"],
+      "correctAnswer": 2,
+      "explanation": "C = cos^-1((5^2 + 7^2 - 8^2) / (2(5)(7))) = cos^-1(10/70), which is about 82°.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "When finding ∠B with the Law of Cosines, b^2 is the term subtracted in the numerator.",
+      "correctAnswer": "true",
+      "explanation": "The side opposite the target angle is the side whose square is subtracted.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "question": "The largest angle of a triangle is opposite the shortest side.",
+      "correctAnswer": "false",
+      "explanation": "The largest angle is opposite the longest side; the smallest angle is opposite the shortest side.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "question": "Find the third angle if two angles are 52° and 68°. Enter the number of degrees.",
+      "correctAnswer": "60",
+      "explanation": "The third angle is 180° - 52° - 68° = 60°.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Why should you check that the largest side is opposite the largest angle after using the Law of Cosines?",
+      "correctAnswer": "It is a reasonableness check. In any triangle, the largest side must be opposite the largest angle, so a result that violates this means the setup, arithmetic, or calculator use should be checked.",
+      "explanation": "The side-angle size relationship helps catch swapped labels, wrong substitutions, and calculator mistakes.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "examId": "grade-10-math-q3-completing-the-square-circle-equations-assessment",
+  "examType": "assessment",
+  "title": "Completing the Square for Circle Equations Assessment",
+  "description": "Show mastery of transforming general circle equations to center-radius form and identifying center and radius.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which first step is best for converting x^2 + y^2 + 10x - 6y - 2 = 0 to center-radius form?",
+      "options": [
+        "Move -2 to the right side and group x-terms and y-terms.",
+        "Take the square root of every term.",
+        "Divide every term by 2.",
+        "Change all signs without moving any term."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The constant should be moved to the right side before completing the square for each variable group.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "What values are added to complete the squares in x^2 + y^2 - 14x + 2y = 20?",
+      "options": [
+        "14 and 2",
+        "7 and 1",
+        "49 and 1",
+        "196 and 4"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Half of -14 is -7, and (-7)^2 = 49. Half of 2 is 1, and 1^2 = 1.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Convert x^2 + y^2 + 10x - 2y + 17 = 0 to center-radius form.",
+      "options": [
+        "(x + 5)^2 + (y - 1)^2 = 9",
+        "(x - 5)^2 + (y + 1)^2 = 9",
+        "(x + 5)^2 + (y - 1)^2 = 17",
+        "(x + 10)^2 + (y - 2)^2 = 9"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Move 17 to get -17, then add 25 and 1. The result is (x + 5)^2 + (y - 1)^2 = 9.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Find the center and radius of x^2 + y^2 - 16x + 12y + 75 = 0.",
+      "options": [
+        "Center (-8, 6), radius 5",
+        "Center (8, -6), radius 25",
+        "Center (8, -6), radius 5",
+        "Center (-8, 6), radius 25"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Completing the square gives (x - 8)^2 + (y + 6)^2 = 25, so the center is (8, -6) and radius is 5.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "The expression y^2 + 18y + 81 factors as (y + 9)^2.",
+      "correctAnswer": "true",
+      "explanation": "(y + 9)^2 expands to y^2 + 18y + 81.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Fill in the radius: (x - 7)^2 + (y + 4)^2 = 64 has radius ____.",
+      "correctAnswer": "8",
+      "explanation": "The radius is the positive square root of 64, which is 8.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A learner writes x^2 - 12x + 12 = (x - 6)^2. What is the error?",
+      "options": [
+        "The added constant should be 36, not 12.",
+        "The binomial should be (x + 6)^2.",
+        "The coefficient -12 should be ignored.",
+        "The expression cannot be completed."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Half of -12 is -6, and (-6)^2 = 36.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Which general-form equation matches (x - 2)^2 + (y + 3)^2 = 49?",
+      "options": [
+        "x^2 + y^2 - 4x + 6y - 36 = 0",
+        "x^2 + y^2 + 4x - 6y - 36 = 0",
+        "x^2 + y^2 - 4x + 6y + 49 = 0",
+        "x^2 + y^2 - 2x + 3y - 49 = 0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Expanding gives x^2 - 4x + 4 + y^2 + 6y + 9 = 49, or x^2 + y^2 - 4x + 6y - 36 = 0.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Convert x^2 + y^2 - 4x + 8y - 5 = 0 to center-radius form and state the center and radius.",
+      "correctAnswer": "(x - 2)^2 + (y + 4)^2 = 25; center (2, -4); radius 5.",
+      "explanation": "Move -5 to the right, add 4 for the x-square and 16 for the y-square, then factor.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Explain how to find the number that completes the square for x^2 + bx.",
+      "correctAnswer": "Take half of b, then square the result. The added number is (b/2)^2.",
+      "explanation": "Completing the square depends on the square of half the linear coefficient.",
+      "points": 10
+    }
+  ]
+}

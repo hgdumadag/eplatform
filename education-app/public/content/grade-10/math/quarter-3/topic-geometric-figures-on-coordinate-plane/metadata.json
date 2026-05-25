@@ -1,0 +1,44 @@
+{
+  "id": "grade-10-math-q3-geometric-figures-on-coordinate-plane",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Geometric Figures on the Coordinate Plane",
+  "description": "Use circle equations together with lines, points, and polygons to solve coordinate geometry tasks.",
+  "learningObjectives": [
+    "Identify how points, lines, polygons, and circles can be represented on the coordinate plane",
+    "Use circle equations to decide whether points are inside, on, or outside a circle",
+    "Connect intersections of lines and circles to coordinate geometry conditions",
+    "Use distance, midpoint, slope, and circle equations in the same problem",
+    "Solve coordinate geometry tasks involving circles with lines, points, and polygons"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "coordinate-geometry",
+    "circles",
+    "lines",
+    "polygons",
+    "circle-equations"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/circle-line-point-map.svg",
+      "images/polygon-vertices-circle.svg",
+      "images/intersection-strategy.svg"
+    ]
+  },
+  "prerequisites": [
+    "Plotting points on the Cartesian plane",
+    "Using distance and midpoint formulas",
+    "Finding slope from two points",
+    "Reading center-radius form of a circle equation",
+    "Substituting coordinate values into equations"
+  ]
+}

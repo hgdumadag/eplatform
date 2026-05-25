@@ -1,0 +1,96 @@
+{
+  "examId": "grade-10-math-q3-quarter-circle-graphing-task-practice",
+  "examType": "practice",
+  "title": "Quarter Circle Graphing Task Practice",
+  "description": "Practice the circle-equation skills needed to design and justify a coordinate-plane logo.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A logo circle has center (2, -3) and radius 4. Which equation matches it?",
+      "options": ["(x - 2)^2 + (y + 3)^2 = 16", "(x + 2)^2 + (y - 3)^2 = 16", "(x - 2)^2 + (y + 3)^2 = 4", "(x + 2)^2 + (y - 3)^2 = 4"],
+      "correctAnswer": 0,
+      "explanation": "Center (2, -3) gives (x - 2)^2 + (y + 3)^2, and radius 4 gives r^2 = 16.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which circle could be the outer boundary of a logo centered at the origin with radius 7?",
+      "options": ["x^2 + y^2 = 7", "x^2 + y^2 = 14", "x^2 + y^2 = 49", "(x - 7)^2 + y^2 = 49"],
+      "correctAnswer": 2,
+      "explanation": "A circle centered at the origin is x^2 + y^2 = r^2. With radius 7, r^2 = 49.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "The equation (x + 5)^2 + (y - 1)^2 = 9 has center (-5, 1) and radius 3.",
+      "correctAnswer": "true",
+      "explanation": "x + 5 means h = -5, y - 1 means k = 1, and r^2 = 9 gives r = 3.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "A design circle has radius 6. What number should appear on the right side of its center-radius equation?",
+      "correctAnswer": "36",
+      "explanation": "The right side is r^2, so 6^2 = 36.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A small circle in a logo is centered at (-3, -2) with radius 2. Which equation is correct?",
+      "options": ["(x - 3)^2 + (y - 2)^2 = 4", "(x + 3)^2 + (y + 2)^2 = 4", "(x + 3)^2 + (y + 2)^2 = 2", "(x - 3)^2 + (y - 2)^2 = 2"],
+      "correctAnswer": 1,
+      "explanation": "Center (-3, -2) gives (x + 3)^2 + (y + 2)^2, and radius 2 gives r^2 = 4.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "Explain how to check whether (0, 5) lies on x^2 + y^2 = 25.",
+      "correctAnswer": "Substitute x = 0 and y = 5. Then 0^2 + 5^2 = 25, so the point lies on the circle.",
+      "explanation": "A point lies on the circle when substitution makes the equation true.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Two logo circles have centers (-4, 0) and (4, 0), both with radius 2. What relationship do they show?",
+      "options": ["They are symmetric across the y-axis.", "They are symmetric across the x-axis.", "They have the same center.", "They cannot be graphed on the same plane."],
+      "correctAnswer": 0,
+      "explanation": "The centers have opposite x-values and the same y-value, so the circles are symmetric across the y-axis.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "Write the center of (x - 1)^2 + (y + 4)^2 = 25 as an ordered pair.",
+      "correctAnswer": "(1, -4)",
+      "explanation": "x - 1 gives h = 1, and y + 4 means y - (-4), so k = -4.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "A complete circle-logo task should include equations and graph evidence, not only a drawing.",
+      "correctAnswer": "true",
+      "explanation": "The task requires mathematical justification: centers, radii, equations, and a graph that matches them.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A logo uses a circle centered at (3, 2) with radius 5. Write its equation and name one point on the circle.",
+      "correctAnswer": "The equation is (x - 3)^2 + (y - 2)^2 = 25. One point on the circle is (8, 2).",
+      "explanation": "The equation uses center (3, 2) and r^2 = 25. Moving 5 units right from the center gives point (8, 2).",
+      "points": 10
+    }
+  ]
+}

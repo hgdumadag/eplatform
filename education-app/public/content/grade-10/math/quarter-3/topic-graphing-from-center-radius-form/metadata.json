@@ -1,0 +1,42 @@
+{
+  "id": "grade-10-math-q3-graphing-from-center-radius-form",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Graphing from Center-Radius Form",
+  "description": "Plot the center and radius lengths of a circle from center-radius form, then use those points to sketch an accurate circle graph.",
+  "learningObjectives": [
+    "Identify the center and radius from center-radius form",
+    "Plot the center of a circle on the coordinate plane",
+    "Use the radius to locate points above, below, left, and right of the center",
+    "Sketch an accurate circle graph from an equation",
+    "Check whether a graph matches its center and radius"
+  ],
+  "estimatedDuration": 35,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "circles",
+    "coordinate-plane",
+    "center-radius-form",
+    "graphing"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/center-radius-parts.svg",
+      "images/plot-radius-points.svg",
+      "images/graph-from-equation.svg"
+    ]
+  },
+  "prerequisites": [
+    "Plotting ordered pairs",
+    "Reading the x-axis and y-axis",
+    "Squares and square roots",
+    "Center-radius form of a circle"
+  ]
+}

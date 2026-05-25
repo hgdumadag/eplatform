@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+<title id="title">Route triangle</title>
+<desc id="desc">Two travel legs form an oblique triangle.</desc>
+<rect width="720" height="420" fill="#f8fafc"/>
+<rect x="18" y="18" width="684" height="384" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<defs><marker id="arrow-105-310" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker></defs><line x1="105" y1="310" x2="355" y2="150" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow-105-310)"/><defs><marker id="arrow-355-150" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#16a34a"/></marker></defs><line x1="355" y1="150" x2="610" y2="295" stroke="#16a34a" stroke-width="4" marker-end="url(#arrow-355-150)"/><line x1="105" y1="310" x2="610" y2="295" stroke="#dc2626" stroke-width="4" stroke-dasharray="8 8"/><text x="80" y="340" font-family="Arial, sans-serif" font-size="22" fill="#0f172a">Start</text><text x="335" y="135" font-family="Arial, sans-serif" font-size="22" fill="#0f172a">Turn</text><text x="590" y="330" font-family="Arial, sans-serif" font-size="22" fill="#0f172a">End</text><text x="250" y="240" font-family="Arial, sans-serif" font-size="21" fill="#2563eb">leg 1</text><text x="485" y="235" font-family="Arial, sans-serif" font-size="21" fill="#16a34a">leg 2</text>
+</svg>

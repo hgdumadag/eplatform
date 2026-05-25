@@ -1,0 +1,128 @@
+{
+  "examId": "grade-10-math-q3-equation-from-diameter-endpoints-assessment",
+  "examType": "assessment",
+  "title": "Equation from Diameter Endpoints Assessment",
+  "description": "Show mastery of using midpoint and distance to write circle equations from diameter endpoints.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "The endpoints of a diameter are (-2, 6) and (10, 6). What is the center?",
+      "options": [
+        "(4, 6)",
+        "(6, 4)",
+        "(8, 6)",
+        "(12, 0)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The center is the midpoint: ((-2 + 10)/2, (6 + 6)/2) = (4, 6).",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "The endpoints of a diameter are (-1, 3) and (7, 9). What is r^2 for the circle?",
+      "options": [
+        "25",
+        "50",
+        "10",
+        "100"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The center is (3, 6). From the center to an endpoint, the changes are 4 and 3, so r^2 = 4^2 + 3^2 = 25.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which equation matches diameter endpoints (-2, -2) and (4, 6)?",
+      "options": [
+        "(x - 1)^2 + (y - 2)^2 = 25",
+        "(x + 1)^2 + (y + 2)^2 = 25",
+        "(x - 1)^2 + (y - 2)^2 = 100",
+        "(x - 4)^2 + (y - 6)^2 = 25"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The center is (1, 2), and the radius is 5. Therefore the equation is (x - 1)^2 + (y - 2)^2 = 25.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "The diameter endpoints are (3, 1) and (3, 9). What is the y-coordinate of the center?",
+      "correctAnswer": "5",
+      "explanation": "Average the y-coordinates: (1 + 9)/2 = 5.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "If the full diameter length is 14, then the circle equation should use r^2 = 49.",
+      "correctAnswer": "true",
+      "explanation": "The radius is half of the diameter, so r = 7 and r^2 = 49.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "The endpoints of a diameter are (-4, -6) and (2, 2). Which equation is correct?",
+      "options": [
+        "(x + 1)^2 + (y + 2)^2 = 25",
+        "(x - 1)^2 + (y - 2)^2 = 25",
+        "(x + 1)^2 + (y + 2)^2 = 100",
+        "(x + 4)^2 + (y + 6)^2 = 25"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The midpoint is (-1, -2). The radius is 5, so r^2 = 25.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "The endpoints of a diameter are (-3, 4) and (9, -2). Complete the equation: (x - 3)^2 + (y - 1)^2 = ____.",
+      "correctAnswer": "45",
+      "explanation": "The center is (3, 1). The radius squared is (-6)^2 + 3^2 = 45.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A learner uses endpoint (6, 2) as the center of a circle whose diameter endpoints are (6, 2) and (10, 8). What is the main error?",
+      "options": [
+        "The center should be the midpoint of the endpoints.",
+        "The radius should always equal the x-coordinate.",
+        "The diameter endpoints cannot have positive coordinates.",
+        "The equation must be written in slope-intercept form."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A diameter endpoint is on the circle, not necessarily at the center. The center is the midpoint of the two endpoints.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Write the equation of the circle with diameter endpoints (0, 0) and (8, 6). Briefly explain your work.",
+      "correctAnswer": "The midpoint is (4, 3), so the center is (4, 3). The radius is the distance from (4, 3) to (0, 0), which is 5. The equation is (x - 4)^2 + (y - 3)^2 = 25.",
+      "explanation": "A complete response should find the midpoint, compute the radius or r^2, and write the final center-radius equation.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "How can you verify that a circle equation from diameter endpoints is correct?",
+      "options": [
+        "Substitute both endpoints into the equation and check that both make it true.",
+        "Check that the equation has no squared terms.",
+        "Use only the first endpoint as the radius.",
+        "Make sure the center is one of the endpoints."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both diameter endpoints lie on the circle, so both should satisfy the completed circle equation.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "grade-10-math-q1-bearings-and-oblique-triangles",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Bearings and Oblique Triangles",
+  "description": "Translate bearing descriptions into clear diagrams and use oblique-triangle information to plan navigation solutions.",
+  "learningObjectives": [
+    "Interpret bearings as clockwise angles measured from north",
+    "Translate bearing descriptions into labeled diagrams",
+    "Identify the triangle formed by two travel paths and the distance between endpoints",
+    "Use direction information to determine included angles in navigation diagrams",
+    "Choose an appropriate oblique-triangle strategy after drawing the diagram"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "bearings",
+    "navigation",
+    "oblique-triangles",
+    "law-of-sines",
+    "law-of-cosines",
+    "diagrams"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/inline-01-bearing-measured-clockwise-from-north.svg",
+      "images/inline-02-two-travel-legs-and-a-direct-distance-form-a-triangle.svg",
+      "images/inline-03-two-bearings-from-the-same-starting-point.svg",
+      "images/inline-04-forward-bearing-and-back-bearing.svg",
+      "images/bearing-compass.svg",
+      "images/two-leg-route-triangle.svg",
+      "images/back-bearing.svg"
+    ]
+  },
+  "prerequisites": [
+    "Angle sum of a triangle",
+    "Basic triangle parts: sides, angles, vertices",
+    "Measuring angles clockwise and counterclockwise",
+    "Recognizing SSS, SAS, ASA, AAS, and SSA cases"
+  ]
+}

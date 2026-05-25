@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+<title id="title">Triangle given cases</title>
+<desc id="desc">SSS, SAS, ASA, AAS, and SSA cases.</desc>
+<rect width="720" height="420" fill="#f8fafc"/>
+<rect x="18" y="18" width="684" height="384" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<text x="70" y="95" font-family="Arial, sans-serif" font-size="22" fill="#0f172a">SSS: three sides</text><text x="70" y="155" font-family="Arial, sans-serif" font-size="22" fill="#0f172a">SAS: included angle</text><text x="70" y="215" font-family="Arial, sans-serif" font-size="22" fill="#0f172a">ASA: included side</text><text x="70" y="275" font-family="Arial, sans-serif" font-size="22" fill="#0f172a">AAS: non-included side</text><text x="70" y="335" font-family="Arial, sans-serif" font-size="22" fill="#0f172a">SSA: ambiguous check</text><polygon points="430,305 610,305 515,105" fill="#ede9fe" stroke="#7c3aed" stroke-width="4"/><text x="503" y="95" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">C</text><text x="410" y="327" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">A</text><text x="615" y="327" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">B</text><text x="495" y="330" font-family="Arial, sans-serif" font-size="22" fill="#7c3aed">c</text><text x="442" y="205" font-family="Arial, sans-serif" font-size="22" fill="#7c3aed">b</text><text x="570" y="205" font-family="Arial, sans-serif" font-size="22" fill="#7c3aed">a</text>
+</svg>

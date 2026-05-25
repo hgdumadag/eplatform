@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 250" role="img" aria-labelledby="obtuse-ssa-title obtuse-ssa-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="obtuse-ssa-title">Obtuse SSA side comparison</title>
+  <desc id="obtuse-ssa-desc">Angle A is obtuse, so opposite side a must be longer than adjacent side b.</desc>
+  <line x1="95" y1="185" x2="420" y2="185" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="120" y1="185" x2="205" y2="85" stroke="#1d4ed8" stroke-width="4"/>
+  <line x1="205" y1="85" x2="500" y2="185" stroke="#16a34a" stroke-width="4"/>
+  <path d="M165 185 A45 45 0 0 1 149 145" fill="none" stroke="#ea580c" stroke-width="3"/>
+  <text x="164" y="150" font-size="17" fill="#ea580c">110°</text>
+  <text x="150" y="121" font-size="17" fill="#1d4ed8">b = 9</text>
+  <text x="340" y="124" font-size="17" fill="#16a34a">a = 15</text>
+  <text x="110" y="210" font-size="17" fill="#111827">A</text>
+  <text x="504" y="190" font-size="17" fill="#111827">B</text>
+  <text x="207" y="79" font-size="17" fill="#111827">C</text>
+</svg>

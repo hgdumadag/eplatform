@@ -1,0 +1,47 @@
+{
+  "id": "grade-10-math-q1-coordinate-position",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Coordinate Position",
+  "description": "Describe positions of points in the Cartesian plane using ordered pairs, axes, quadrants, and coordinate-based reasoning.",
+  "learningObjectives": [
+    "Identify the x-coordinate and y-coordinate of a point",
+    "Plot and name points in the Cartesian plane",
+    "Describe the quadrant or axis where a point is located",
+    "Use coordinates to compare horizontal and vertical positions",
+    "Support geometric descriptions with coordinate evidence"
+  ],
+  "estimatedDuration": 35,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "coordinate-plane",
+    "cartesian-plane",
+    "ordered-pairs",
+    "quadrants",
+    "points"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/inline-01-cartesian-plane-with-axes-and-origin.svg",
+      "images/inline-02-plotting-the-point-three-comma-two.svg",
+      "images/inline-03-four-quadrants-of-the-cartesian-plane.svg",
+      "images/inline-04-two-points-with-the-same-y-coordinate.svg",
+      "images/cartesian-plane.svg",
+      "images/plotting-point.svg",
+      "images/same-x-same-y.svg"
+    ]
+  },
+  "prerequisites": [
+    "Positive and negative numbers",
+    "Number line position",
+    "Reading simple graphs",
+    "Horizontal and vertical directions"
+  ]
+}

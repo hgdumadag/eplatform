@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" role="img" aria-labelledby="plane-title plane-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="plane-title">Cartesian plane with axes and origin</title>
+  <desc id="plane-desc">A coordinate plane showing the horizontal x-axis, vertical y-axis, and origin at zero zero.</desc>
+  <defs>
+    <pattern id="grid-plane" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#e5e7eb" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect x="60" y="30" width="400" height="320" fill="url(#grid-plane)"/>
+  <line x1="60" y1="190" x2="460" y2="190" stroke="#111827" stroke-width="3"/>
+  <line x1="260" y1="350" x2="260" y2="30" stroke="#111827" stroke-width="3"/>
+  <path d="M460 190 L448 184 L448 196 Z" fill="#111827"/>
+  <path d="M260 30 L254 42 L266 42 Z" fill="#111827"/>
+  <text x="468" y="196" font-size="18" fill="#111827">x</text>
+  <text x="268" y="42" font-size="18" fill="#111827">y</text>
+  <circle cx="260" cy="190" r="5" fill="#dc2626"/>
+  <text x="271" y="214" font-size="16" fill="#dc2626">origin (0, 0)</text>
+  <text x="215" y="382" font-size="17" fill="#111827">horizontal position</text>
+  <text x="18" y="184" font-size="17" fill="#111827" transform="rotate(-90 18 184)">vertical position</text>
+</svg>
