@@ -1,0 +1,31 @@
+{
+  "id": "grade-10-math-q1-oblique-triangles",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Oblique Triangles",
+  "description": "Distinguish right and oblique triangles, identify common given cases, and choose an appropriate solution strategy.",
+  "learningObjectives": [
+    "Distinguish right triangles from oblique triangles using angle information",
+    "Classify oblique triangles as acute or obtuse",
+    "Identify triangle given cases such as SSS, SAS, ASA, AAS, and SSA",
+    "Choose whether a situation calls for right-triangle tools, the Law of Sines, or the Law of Cosines",
+    "Explain why the given information is enough or not enough to plan a solution"
+  ],
+  "estimatedDuration": 35,
+  "difficulty": "intermediate",
+  "tags": ["geometry", "triangles", "oblique-triangles", "law-of-sines", "law-of-cosines", "given-cases"],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  },
+  "prerequisites": [
+    "Angle sum of a triangle",
+    "Basic triangle parts: sides, angles, vertices",
+    "Right angle and acute/obtuse angle vocabulary",
+    "Basic use of a ruler and protractor"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "examId": "grade-10-math-q1-law-of-cosines-for-sides-assessment",
+  "examType": "assessment",
+  "title": "Law of Cosines for Sides Checkpoint",
+  "description": "Show that you can select and use the Law of Cosines to find unknown side lengths in SAS situations.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A triangle has sides 8 cm and 13 cm with included angle 52°. Which formula setup finds the opposite side x?",
+      "options": ["x² = 8² + 13² - 2(8)(13)cos52°", "x² = 8² + 13² + 2(8)(13)cos52°", "x = 8 + 13 - 2(8)(13)cos52°", "x² = 8² - 13² - 2(8)(13)cos52°"],
+      "correctAnswer": 0,
+      "explanation": "For SAS, use x² = a² + b² - 2ab cos C, where C is the included angle.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Two sides are 8 and 13 with included angle 52°. What is the opposite side to the nearest tenth?",
+      "options": ["10.3", "11.0", "14.8", "19.1"],
+      "correctAnswer": 0,
+      "explanation": "x² = 8² + 13² - 2(8)(13)cos52° ≈ 105.0, so x ≈ 10.3.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A triangle has two known sides and a non-included angle. Is this the standard SAS setup for finding a side with the Law of Cosines?",
+      "options": ["Yes, any two sides and any angle are SAS.", "Yes, because the angle does not matter.", "No, SAS requires the included angle.", "No, the Law of Cosines cannot use angles."],
+      "correctAnswer": 2,
+      "explanation": "SAS means the known angle is between the two known sides. A non-included angle creates a different case.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Two sides are 5 and 11 with included angle 130°. What is the opposite side to the nearest tenth?",
+      "options": ["8.2", "11.9", "14.7", "16.7"],
+      "correctAnswer": 2,
+      "explanation": "x² = 5² + 11² - 2(5)(11)cos130° ≈ 216.7, so x ≈ 14.7.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "When the included angle is obtuse, the side opposite that angle is often the longest side.",
+      "correctAnswer": "true",
+      "explanation": "A larger angle opens wider, so the side opposite it is longer than the sides opposite smaller angles.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "For side a, complete the formula: a² = b² + c² - 2bc cos ____.",
+      "correctAnswer": "A",
+      "explanation": "Side a is opposite angle A, so the matching formula uses cos A.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A hiker walks 4 km, turns through an included angle of 75°, and walks 6 km. What is the direct distance from start to endpoint to the nearest tenth?",
+      "options": ["4.8 km", "6.3 km", "7.7 km", "9.5 km"],
+      "correctAnswer": 1,
+      "explanation": "d² = 4² + 6² - 2(4)(6)cos75° ≈ 39.6, so d ≈ 6.3 km.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A student gets x = -9.8 after solving a Law of Cosines problem. Explain what should be corrected.",
+      "correctAnswer": "A side length cannot be negative. The student should use the positive square root, so the side length should be 9.8, assuming the setup and arithmetic were correct.",
+      "explanation": "The formula may involve squared values, but the final side length is a distance, so it must be positive.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "Which answer is most reasonable for a side opposite a 25° included angle between sides 12 and 14?",
+      "options": ["5.9", "18.4", "25.5", "31.0"],
+      "correctAnswer": 0,
+      "explanation": "A small included angle usually gives a shorter opposite side. Also, Law of Cosines gives x² = 12² + 14² - 2(12)(14)cos25° ≈ 35.4, so x ≈ 5.9.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "In one or two sentences, explain how to decide whether a missing-side problem should use the Law of Cosines instead of the Pythagorean Theorem.",
+      "correctAnswer": "Use the Pythagorean Theorem only when the triangle has a right angle. If the problem gives two sides and the included angle in an oblique triangle, use the Law of Cosines.",
+      "explanation": "The key distinction is whether a 90° angle is present; Law of Cosines handles the general SAS oblique case.",
+      "points": 10
+    }
+  ]
+}

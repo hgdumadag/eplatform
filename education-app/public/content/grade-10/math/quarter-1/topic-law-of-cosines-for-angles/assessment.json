@@ -1,0 +1,103 @@
+{
+  "examId": "grade-10-math-q1-law-of-cosines-for-angles-assessment",
+  "examType": "assessment",
+  "title": "Law of Cosines for Angles Checkpoint",
+  "description": "Show that you can find unknown angles from three sides and check that the angle results are valid.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A triangle has side lengths 9, 12, and 15. Which statement is true before calculating?",
+      "options": ["The angle opposite 15 should be largest.", "The angle opposite 9 should be largest.", "All angles must be equal.", "The Law of Cosines cannot be used."],
+      "correctAnswer": 0,
+      "explanation": "The longest side is 15, and the longest side is opposite the largest angle.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "In △ABC, a = 12, b = 13, and c = 14. Which expression correctly finds ∠B?",
+      "options": [
+        "cos^-1((13^2 + 14^2 - 12^2) / (2(13)(14)))",
+        "cos^-1((12^2 + 14^2 - 13^2) / (2(12)(14)))",
+        "cos^-1((12^2 + 13^2 - 14^2) / (2(12)(13)))",
+        "cos^-1(13 / (12 + 14))"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To find ∠B, subtract b^2 and divide by 2ac, so the correct expression is cos^-1((12^2 + 14^2 - 13^2) / (2(12)(14))).",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "In △ABC, a = 13, b = 14, and c = 15. What is ∠A to the nearest degree?",
+      "options": ["44°", "53°", "60°", "67°"],
+      "correctAnswer": 1,
+      "explanation": "A = cos^-1((14^2 + 15^2 - 13^2) / (2(14)(15))) = cos^-1(0.6), which is about 53°.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A triangle has sides 6, 9, and 11. What is the angle opposite the side of length 11 to the nearest degree?",
+      "options": ["62°", "76°", "92°", "111°"],
+      "correctAnswer": 2,
+      "explanation": "Let c = 11. C = cos^-1((6^2 + 9^2 - 11^2) / (2(6)(9))) = cos^-1(-4/108), which is about 92°.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A triangle has sides 10, 10, and 12. What is the angle opposite the side of length 12 to the nearest degree?",
+      "options": ["53°", "67°", "74°", "90°"],
+      "correctAnswer": 2,
+      "explanation": "The angle is cos^-1((10^2 + 10^2 - 12^2) / (2(10)(10))) = cos^-1(0.28), which is about 74°.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "While calculating an angle, a student gets cos A = -0.25. What does this suggest about ∠A?",
+      "options": ["∠A is acute.", "∠A is exactly 90°.", "∠A is obtuse.", "The triangle is impossible because all negative cosine values are invalid."],
+      "correctAnswer": 2,
+      "explanation": "A negative cosine value between -1 and 0 corresponds to an obtuse angle between 90° and 180°.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "If three calculated angles round to 48°, 73°, and 59°, the total passes the triangle angle-sum check.",
+      "correctAnswer": "true",
+      "explanation": "48° + 73° + 59° = 180°, so the angle-sum check works exactly in this case.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "In △ABC, a = 8, b = 6, and c = 7. ∠A is about how many degrees? Enter the nearest whole number.",
+      "correctAnswer": "76",
+      "explanation": "A = cos^-1((6^2 + 7^2 - 8^2) / (2(6)(7))) = cos^-1(21/84), which is about 76°.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A student finds ∠A using cos^-1((a^2 + c^2 - b^2) / (2ac)). Explain the mistake.",
+      "correctAnswer": "That expression finds ∠B, not ∠A. To find ∠A, the formula must subtract a^2 and use the adjacent sides b and c in the denominator: cos^-1((b^2 + c^2 - a^2) / (2bc)).",
+      "explanation": "The square of the side opposite the target angle must be the subtracted term.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "After finding two angles as 41° and 62°, how can you find the third angle, and why might this be faster than using the Law of Cosines again?",
+      "correctAnswer": "Use the triangle angle sum: 180° - 41° - 62° = 77°. This is faster because once two angles are known, the third follows directly from the fact that triangle angles add to 180°.",
+      "explanation": "The Law of Cosines is useful, but the angle sum is simpler after two angles are already known.",
+      "points": 10
+    }
+  ]
+}

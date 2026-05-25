@@ -1,0 +1,100 @@
+{
+  "examId": "grade-10-math-q1-ambiguous-ssa-case-practice",
+  "examType": "practice",
+  "title": "Ambiguous SSA Case Practice",
+  "description": "Practice deciding whether SSA information creates zero, one, or two possible triangles.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which given case can be ambiguous when solving oblique triangles?",
+      "options": ["SAS", "SSS", "ASA", "SSA"],
+      "correctAnswer": 3,
+      "explanation": "SSA can be ambiguous because the known angle is not between the two known sides, so the swinging side may create zero, one, or two triangles.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "For acute ∠A in an SSA case, with opposite side a and adjacent side b, what height should be used for the decision test?",
+      "options": ["h = a sin A", "h = b sin A", "h = a + b", "h = b / sin A"],
+      "correctAnswer": 1,
+      "explanation": "The height from the endpoint of side b to the base ray is h = b sin A.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 30°, a = 5, and b = 12. Since h = 12 sin 30° = 6, how many triangles are possible?",
+      "options": ["0 triangles", "1 triangle", "2 triangles", "Cannot be determined"],
+      "correctAnswer": 0,
+      "explanation": "Because a = 5 is less than h = 6, side a is too short to reach the base ray, so no triangle is possible.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "In an acute SSA case, h = 7, a = 9, and b = 12. How many triangles are possible?",
+      "options": ["0 triangles", "1 triangle", "2 triangles", "Infinitely many triangles"],
+      "correctAnswer": 2,
+      "explanation": "Since h < a < b, or 7 < 9 < 12, the swinging side reaches the base ray in two places.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "In an acute SSA case, h = 8, a = 8, and b = 15. How many triangles are possible?",
+      "options": ["0 triangles", "1 triangle", "2 triangles", "Not enough information"],
+      "correctAnswer": 1,
+      "explanation": "When a = h, the swinging side reaches the base ray exactly at the perpendicular foot, so there is one triangle.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "In an acute SSA case, h = 5, a = 13, and b = 10. How many triangles are possible?",
+      "options": ["0 triangles", "1 triangle", "2 triangles", "The measurements must be right-triangle only"],
+      "correctAnswer": 1,
+      "explanation": "Since a ≥ b, the side reaches the base ray in only one valid position.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 110°, a = 14, and b = 9. How many triangles are possible?",
+      "options": ["0 triangles", "1 triangle", "2 triangles", "Cannot be determined because no height is given"],
+      "correctAnswer": 1,
+      "explanation": "For an obtuse known angle, the opposite side a must be longer than b. Since 14 > 9, one triangle is possible.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 105°, a = 8, and b = 11. How many triangles are possible?",
+      "options": ["0 triangles", "1 triangle", "2 triangles", "Exactly one right triangle"],
+      "correctAnswer": 0,
+      "explanation": "For an obtuse known angle, the side opposite it must be the longest. Here a ≤ b, so no triangle is possible.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "Every SSA case creates two possible triangles.",
+      "correctAnswer": "false",
+      "explanation": "SSA can create zero, one, or two possible triangles depending on the measurements.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Explain why the condition h < a < b gives two possible triangles when ∠A is acute.",
+      "correctAnswer": "The side a is long enough to reach the base ray because it is greater than the height, but it is still shorter than b. This lets the swinging side hit the base ray in two different positions.",
+      "explanation": "The important evidence is that a is longer than the shortest needed distance but not so long that only one forward intersection remains.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "examId": "grade-10-math-q1-law-of-sines-practice",
+  "examType": "practice",
+  "title": "Law of Sines Practice",
+  "description": "Practice using the Law of Sines for ASA, AAS, and selected SSA cases.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which formula is the Law of Sines for △ABC?",
+      "options": ["a² = b² + c² - 2bc cos A", "a/sin A = b/sin B = c/sin C", "sin A = adjacent/hypotenuse", "A + B + C = 90°"],
+      "correctAnswer": 1,
+      "explanation": "The Law of Sines compares each side with the sine of its opposite angle.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which given case usually points directly to the Law of Sines after finding the third angle?",
+      "options": ["SSS", "SAS", "ASA", "Three sides only"],
+      "correctAnswer": 2,
+      "explanation": "ASA gives two angles and a side. After finding the third angle, you can match known and unknown opposite pairs.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 44° and ∠B = 71°. What is ∠C?",
+      "options": ["55°", "60°", "65°", "75°"],
+      "correctAnswer": 2,
+      "explanation": "The angles of a triangle sum to 180°, so C = 180° - 44° - 71° = 65°.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 50°, ∠B = 60°, and a = 14. Which equation correctly solves for b?",
+      "options": ["b = 14 sin 60° / sin 50°", "b = 14 sin 50° / sin 60°", "b = sin 14° / sin 60°", "b = 14 sin 70° / sin 50°"],
+      "correctAnswer": 0,
+      "explanation": "Pair a with A and b with B: b/sin 60° = 14/sin 50°, so b = 14 sin 60° / sin 50°.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 50°, ∠B = 60°, and a = 14. What is b to the nearest tenth?",
+      "options": ["12.4", "13.1", "15.8", "18.3"],
+      "correctAnswer": 2,
+      "explanation": "b = 14 sin 60° / sin 50° ≈ 15.8.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 32°, ∠C = 88°, and c = 20. What is a to the nearest tenth?",
+      "options": ["9.4", "10.6", "18.0", "37.7"],
+      "correctAnswer": 1,
+      "explanation": "a = 20 sin 32° / sin 88° ≈ 10.6.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "In the SSA case, inverse sine may give one angle even when a second triangle is also possible.",
+      "correctAnswer": "true",
+      "explanation": "Two supplementary angles can have the same sine value, so SSA requires a second-angle check.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "In △ABC, ∠A = 38°, ∠B = 72°, and a = 9. Find b to the nearest tenth.",
+      "correctAnswer": "13.9",
+      "explanation": "b = 9 sin 72° / sin 38° ≈ 13.9.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "question": "In △ABC, ∠A = 42°, a = 11, and b = 8. Find ∠B to the nearest tenth of a degree.",
+      "correctAnswer": "29.1",
+      "explanation": "sin B = 8 sin 42° / 11 ≈ 0.4866, so B ≈ 29.1°. The supplementary angle is impossible because it would make the angle sum exceed 180°.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Explain why a computed value like sin B = 1.08 means no triangle is possible.",
+      "correctAnswer": "No triangle is possible because the sine of an angle cannot be greater than 1.",
+      "explanation": "For real triangle angles, sine values must stay between -1 and 1. A value above 1 signals impossible measurements.",
+      "points": 10
+    }
+  ]
+}

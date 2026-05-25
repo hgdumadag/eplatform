@@ -1,0 +1,97 @@
+{
+  "examId": "grade-10-math-q1-quarter-navigation-transformation-task-practice",
+  "examType": "practice",
+  "title": "Quarter Navigation and Transformation Task Practice",
+  "description": "Practice reading bearings, choosing triangle strategies, and applying coordinate transformation rules.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A bearing of 090° points in which direction?",
+      "options": ["North", "East", "South", "West"],
+      "correctAnswer": 1,
+      "explanation": "Bearings are measured clockwise from north. A 090° bearing points east.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A bearing of 180° points in which direction?",
+      "options": ["North", "East", "South", "West"],
+      "correctAnswer": 2,
+      "explanation": "A 180° clockwise turn from north points south.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A route has two known legs and the included angle between them. Which strategy is usually best for finding the direct distance between the start and end points?",
+      "options": ["Law of Sines", "Law of Cosines", "Reflection across the x-axis", "Pythagorean Theorem only"],
+      "correctAnswer": 1,
+      "explanation": "Two sides and the included angle form an SAS case, which usually points to the Law of Cosines.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A boat travels on a bearing of 040° to point B, then turns to a bearing of 130° to point C. What is the back bearing from B to the starting point?",
+      "options": ["040°", "130°", "220°", "310°"],
+      "correctAnswer": 2,
+      "explanation": "The back bearing is 180° opposite the original bearing: 040° + 180° = 220°.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "A point P(2, -3) is translated by the rule (x, y) -> (x + 5, y - 1). Write the image point P'.",
+      "correctAnswer": "(7, -4)",
+      "explanation": "Add 5 to the x-coordinate and subtract 1 from the y-coordinate: P'(7, -4).",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Which coordinate rule translates every point 4 units left and 6 units up?",
+      "options": ["(x, y) -> (x + 4, y + 6)", "(x, y) -> (x - 4, y + 6)", "(x, y) -> (x + 4, y - 6)", "(x, y) -> (-x, y)"],
+      "correctAnswer": 1,
+      "explanation": "Left decreases x by 4, and up increases y by 6.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "Reflect A(-6, 4) across the y-axis. Write the image point A'.",
+      "correctAnswer": "(6, 4)",
+      "explanation": "Reflection across the y-axis changes x to its opposite and keeps y the same.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "Rotate Q(3, 8) 90° counterclockwise about the origin. Write the image point Q'.",
+      "correctAnswer": "(-8, 3)",
+      "explanation": "A 90° counterclockwise rotation uses (x, y) -> (-y, x), so Q'( -8, 3 ).",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "When transforming a mapped route, the same coordinate rule should be applied to every route point.",
+      "correctAnswer": "true",
+      "explanation": "Applying the same rule to every point preserves the intended transformation of the whole route.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "In one or two sentences, explain why drawing a north reference line at each turn helps in a bearing problem.",
+      "correctAnswer": "A bearing is measured clockwise from north, so a north reference line at each turn gives the correct starting direction for the next angle. It helps prevent mixing bearings with standard coordinate angles.",
+      "explanation": "The key idea is that every bearing starts from north at the point where the direction is being measured.",
+      "points": 10
+    }
+  ]
+}

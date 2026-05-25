@@ -1,0 +1,100 @@
+{
+  "examId": "grade-10-math-q1-reflections-and-rotations-with-coordinates-practice",
+  "examType": "practice",
+  "title": "Reflections and Rotations with Coordinates Practice",
+  "description": "Practice applying coordinate rules for reflections and common rotations.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which rule represents a reflection across the x-axis?",
+      "options": ["(x, y) -> (-x, y)", "(x, y) -> (x, -y)", "(x, y) -> (y, x)", "(x, y) -> (-y, x)"],
+      "correctAnswer": 1,
+      "explanation": "A reflection across the x-axis keeps x the same and changes the sign of y.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Reflect point A(6, -2) across the y-axis. What is A'?",
+      "options": ["(6, 2)", "(-6, -2)", "(-2, 6)", "(2, -6)"],
+      "correctAnswer": 1,
+      "explanation": "Across the y-axis, x changes sign and y stays the same: (6, -2) -> (-6, -2).",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Reflect point B(-4, 9) across the origin. What is B'?",
+      "options": ["(4, -9)", "(-4, -9)", "(4, 9)", "(9, -4)"],
+      "correctAnswer": 0,
+      "explanation": "Across the origin, both coordinates change signs: (-4, 9) -> (4, -9).",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Reflect point C(8, -3) across the line y = x. What is C'?",
+      "options": ["(-8, 3)", "(8, 3)", "(-3, 8)", "(3, -8)"],
+      "correctAnswer": 2,
+      "explanation": "Across y = x, the coordinates switch places: (8, -3) -> (-3, 8).",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which rule represents a 90° counterclockwise rotation about the origin?",
+      "options": ["(x, y) -> (y, x)", "(x, y) -> (-x, -y)", "(x, y) -> (-y, x)", "(x, y) -> (y, -x)"],
+      "correctAnswer": 2,
+      "explanation": "A 90° counterclockwise rotation about the origin uses (x, y) -> (-y, x).",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Rotate point D(5, 7) 90° counterclockwise about the origin. What is D'?",
+      "options": ["(7, 5)", "(-7, 5)", "(-5, -7)", "(7, -5)"],
+      "correctAnswer": 1,
+      "explanation": "Use (x, y) -> (-y, x): (5, 7) -> (-7, 5).",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Rotate point E(-2, 6) 180° about the origin. What is E'?",
+      "options": ["(2, -6)", "(-2, -6)", "(6, -2)", "(-6, 2)"],
+      "correctAnswer": 0,
+      "explanation": "A 180° rotation changes both signs: (-2, 6) -> (2, -6).",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Rotate point F(-3, -8) 270° counterclockwise about the origin. What is F'?",
+      "options": ["(8, -3)", "(-8, 3)", "(-3, 8)", "(-8, -3)"],
+      "correctAnswer": 1,
+      "explanation": "Use (x, y) -> (y, -x): (-3, -8) -> (-8, 3). Wait carefully: -x = 3, so the correct image is (-8, 3).",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "A reflection and a rotation can change the position of a figure without changing its size or shape.",
+      "correctAnswer": "true",
+      "explanation": "Reflections and rotations are rigid transformations, so they preserve size and shape.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "fill-in",
+      "question": "Complete the image point: Reflect G(10, -4) across the x-axis to get G' = ____.",
+      "correctAnswer": "(10, 4)",
+      "explanation": "Across the x-axis, x stays the same and y changes sign, so (10, -4) becomes (10, 4).",
+      "points": 10
+    }
+  ]
+}

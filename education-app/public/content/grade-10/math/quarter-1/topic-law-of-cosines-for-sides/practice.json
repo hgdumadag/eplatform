@@ -1,0 +1,99 @@
+{
+  "examId": "grade-10-math-q1-law-of-cosines-for-sides-practice",
+  "examType": "practice",
+  "title": "Law of Cosines for Sides Practice",
+  "description": "Practice identifying SAS cases and finding missing side lengths with the Law of Cosines.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which given case usually uses the Law of Cosines to find a missing side?",
+      "options": ["ASA", "AAS", "SAS", "AAA"],
+      "correctAnswer": 2,
+      "explanation": "For a missing side, the Law of Cosines is especially useful when two sides and the included angle are known, which is SAS.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "In △ABC, which side is opposite ∠C?",
+      "options": ["AB", "AC", "BC", "Angle A"],
+      "correctAnswer": 0,
+      "explanation": "The side opposite ∠C is the side that does not touch C, which is AB. It is often labeled c.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which formula correctly finds side c using sides a and b and included angle C?",
+      "options": ["c² = a² + b² + 2ab cos C", "c² = a² + b² - 2ab cos C", "c = a + b - 2ab cos C", "c² = a² - b² - 2ab cos C"],
+      "correctAnswer": 1,
+      "explanation": "The Law of Cosines for side c is c² = a² + b² - 2ab cos C.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Two sides are 6 and 9 with included angle 60°. What is the missing opposite side to the nearest tenth?",
+      "options": ["6.2", "7.9", "10.8", "13.0"],
+      "correctAnswer": 1,
+      "explanation": "x² = 6² + 9² - 2(6)(9)cos60° = 36 + 81 - 54 = 63, so x ≈ 7.9.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Two sides are 7 and 12 with included angle 115°. What is the missing opposite side to the nearest tenth?",
+      "options": ["8.3", "12.4", "16.2", "19.0"],
+      "correctAnswer": 2,
+      "explanation": "x² = 7² + 12² - 2(7)(12)cos115° ≈ 264.0, so x ≈ 16.2.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "If the included angle is 90°, the Law of Cosines simplifies to the Pythagorean Theorem.",
+      "correctAnswer": "true",
+      "explanation": "Since cos90° = 0, the term -2ab cos C becomes 0, leaving c² = a² + b².",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "Fill in the missing value: if x² = 144, then the positive side length x is ____.",
+      "correctAnswer": "12",
+      "explanation": "A side length uses the positive square root. The positive square root of 144 is 12.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Two sides are 10 and 15 with included angle 120°. Which statement is a reasonable check before calculating?",
+      "options": ["The unknown side should be the shortest side.", "The unknown side should be longer than 15 but less than 25.", "The unknown side must equal 25.", "The unknown side must be less than 10."],
+      "correctAnswer": 1,
+      "explanation": "A 120° angle is large, so the opposite side should be long. It must also be less than the sum 10 + 15 = 25.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Explain why SAS information is enough to use the Law of Cosines for a missing side.",
+      "correctAnswer": "SAS gives two side lengths and the included angle between them. The Law of Cosines uses exactly those two sides and included angle to find the opposite side.",
+      "explanation": "The essential idea is that the formula needs the two known sides and the angle between them.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "In △XYZ, XY = 14, XZ = 9, and ∠X = 102°. Which side is opposite the included angle?",
+      "options": ["XY", "XZ", "YZ", "XX"],
+      "correctAnswer": 2,
+      "explanation": "The included angle is ∠X, formed by XY and XZ. The side opposite ∠X is YZ.",
+      "points": 10
+    }
+  ]
+}

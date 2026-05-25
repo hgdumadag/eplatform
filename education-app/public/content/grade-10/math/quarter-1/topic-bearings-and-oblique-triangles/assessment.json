@@ -1,0 +1,97 @@
+{
+  "examId": "grade-10-math-q1-bearings-and-oblique-triangles-assessment",
+  "examType": "assessment",
+  "title": "Bearings and Oblique Triangles Checkpoint",
+  "description": "Show that you can translate bearing descriptions into diagrams and identify the triangle information created by navigation situations.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which bearing points directly south?",
+      "options": ["000°", "090°", "180°", "270°"],
+      "correctAnswer": 2,
+      "explanation": "A 180° clockwise turn from north points south.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A bearing of 315° lies in which quadrant?",
+      "options": ["Northeast", "Southeast", "Southwest", "Northwest"],
+      "correctAnswer": 3,
+      "explanation": "315° is between 270° and 360°, so it lies in the northwest quadrant.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "From the same station, tower A has bearing 032° and tower B has bearing 118°. What is the angle between the sight lines?",
+      "correctAnswer": "86° or 86 degrees or 86",
+      "explanation": "Both bearings use the same north line, so subtract: 118° - 032° = 86°.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A ship travels 15 km from A to B on a bearing of 060°, then 10 km from B to C on a bearing of 140°. Which points form the navigation triangle?",
+      "options": ["North, east, and south", "A, B, and C", "The two bearings and one compass", "Only A and B"],
+      "correctAnswer": 1,
+      "explanation": "The two route legs AB and BC plus the direct distance AC form triangle ABC.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "From M to N, the bearing is 155°. What is the back bearing from N to M?",
+      "correctAnswer": "335° or 335 degrees or 335",
+      "explanation": "Add 180° because the result stays below 360°: 155° + 180° = 335°.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "From point O, one landmark is 5 km away on bearing 010° and another is 9 km away on bearing 080°. If the distance between the landmarks is unknown, what given case is shown?",
+      "options": ["ASA", "AAS", "SAS", "SSA"],
+      "correctAnswer": 2,
+      "explanation": "The two known distances start at O, and the included angle between them is known from the bearings, so the case is SAS.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "If two bearings are measured from the same point, the smaller angle between the rays can often be found by subtracting the bearing measures.",
+      "correctAnswer": "true",
+      "explanation": "When both bearings share the same north reference, their difference gives the angle between the two rays, as long as the smaller angle is intended.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A student draws a route from A to B and then from B to C but measures both bearings from the north line at A. Explain the error.",
+      "correctAnswer": "The second bearing must be measured from a north line at point B, not from the north line at A. Bearings are local directions at the point where the next leg begins.",
+      "explanation": "Each new turn point needs its own north reference, so the second leg should be drawn from B using a north line at B.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "A bearing of 205° tells you to draw the path in which general direction?",
+      "options": ["Northeast", "Southeast", "Southwest", "Northwest"],
+      "correctAnswer": 2,
+      "explanation": "205° is between 180° and 270°, so the path points southwest.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Describe the first three drawing steps for this situation: From point A, camp B is 6 km away on bearing 045°.",
+      "correctAnswer": "Draw point A, draw a north line through or near A, then draw ray AB 45° clockwise from north and label it 6 km.",
+      "explanation": "A correct bearing diagram begins with the starting point and local north line before the travel ray is measured and labeled.",
+      "points": 10
+    }
+  ]
+}

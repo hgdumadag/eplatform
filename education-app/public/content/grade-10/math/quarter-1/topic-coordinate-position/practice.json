@@ -1,0 +1,100 @@
+{
+  "examId": "grade-10-math-q1-coordinate-position-practice",
+  "examType": "practice",
+  "title": "Coordinate Position Practice",
+  "description": "Practice reading ordered pairs, identifying quadrants and axes, and describing point positions.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "In the ordered pair (-3, 5), what is the x-coordinate?",
+      "options": ["-3", "5", "3", "-5"],
+      "correctAnswer": 0,
+      "explanation": "The x-coordinate is the first number in an ordered pair, so the x-coordinate is -3.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which description matches the point (4, -2)?",
+      "options": ["4 units left and 2 units up", "4 units right and 2 units down", "2 units right and 4 units down", "2 units left and 4 units up"],
+      "correctAnswer": 1,
+      "explanation": "A positive x-coordinate means right, and a negative y-coordinate means down.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which quadrant contains the point (-6, 2)?",
+      "options": ["Quadrant I", "Quadrant II", "Quadrant III", "Quadrant IV"],
+      "correctAnswer": 1,
+      "explanation": "The sign pattern (-, +) places the point in Quadrant II.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Which quadrant contains the point (7, -4)?",
+      "options": ["Quadrant I", "Quadrant II", "Quadrant III", "Quadrant IV"],
+      "correctAnswer": 3,
+      "explanation": "The sign pattern (+, -) places the point in Quadrant IV.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Where is the point (0, 8) located?",
+      "options": ["On the x-axis", "On the y-axis", "In Quadrant I", "At the origin"],
+      "correctAnswer": 1,
+      "explanation": "When x = 0, the point lies on the y-axis.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Where is the point (-5, 0) located?",
+      "options": ["On the x-axis", "On the y-axis", "In Quadrant II", "In Quadrant III"],
+      "correctAnswer": 0,
+      "explanation": "When y = 0, the point lies on the x-axis.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "The point (0, 0) is called the origin.",
+      "correctAnswer": "true",
+      "explanation": "The origin is the point where the x-axis and y-axis meet, written as (0, 0).",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "Write the ordered pair for a point 3 units left and 6 units up from the origin.",
+      "correctAnswer": "(-3, 6)",
+      "explanation": "Left means a negative x-coordinate, and up means a positive y-coordinate, so the point is (-3, 6).",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "Points A(2, 5) and B(2, -1) have the same x-coordinate. What does this tell you?",
+      "options": ["They are horizontally aligned", "They are vertically aligned", "They are the same point", "They are both on the x-axis"],
+      "correctAnswer": 1,
+      "explanation": "Points with the same x-coordinate lie on the same vertical line.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "Points C(-4, 3) and D(6, 3) have the same y-coordinate. What does this tell you?",
+      "options": ["They are horizontally aligned", "They are vertically aligned", "They are both on the y-axis", "They are both below the x-axis"],
+      "correctAnswer": 0,
+      "explanation": "Points with the same y-coordinate lie on the same horizontal line.",
+      "points": 10
+    }
+  ]
+}
