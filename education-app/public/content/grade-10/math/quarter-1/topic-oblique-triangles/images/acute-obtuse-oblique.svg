@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+<title id="title">Acute and obtuse oblique triangles</title>
+<desc id="desc">Compare acute and obtuse oblique triangles.</desc>
+<rect width="720" height="420" fill="#f8fafc"/>
+<rect x="18" y="18" width="684" height="384" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<polygon points="90,310 280,310 178,100" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/><text x="118" y="292" font-family="Arial, sans-serif" font-size="20" fill="#2563eb">55</text><text x="232" y="292" font-family="Arial, sans-serif" font-size="20" fill="#2563eb">60</text><text x="170" y="132" font-family="Arial, sans-serif" font-size="20" fill="#2563eb">65</text><text x="112" y="350" font-family="Arial, sans-serif" font-size="24" fill="#0f172a">Acute oblique</text><polygon points="400,310 650,310 468,125" fill="#fee2e2" stroke="#b91c1c" stroke-width="4"/><text x="420" y="292" font-family="Arial, sans-serif" font-size="20" fill="#b91c1c">112</text><text x="600" y="292" font-family="Arial, sans-serif" font-size="20" fill="#b91c1c">31</text><text x="468" y="155" font-family="Arial, sans-serif" font-size="20" fill="#b91c1c">37</text><text x="425" y="350" font-family="Arial, sans-serif" font-size="24" fill="#0f172a">Obtuse oblique</text>
+</svg>

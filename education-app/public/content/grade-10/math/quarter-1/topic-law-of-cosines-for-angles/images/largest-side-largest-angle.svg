@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+<title id="title">Largest side largest angle</title>
+<desc id="desc">The largest side is opposite the largest angle.</desc>
+<rect width="720" height="420" fill="#f8fafc"/>
+<rect x="18" y="18" width="684" height="384" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<polygon points="120,315 610,315 245,120" fill="#fee2e2" stroke="#b91c1c" stroke-width="4"/><text x="330" y="348" font-family="Arial, sans-serif" font-size="25" fill="#b91c1c">longest side</text><text x="240" y="150" font-family="Arial, sans-serif" font-size="24" fill="#b91c1c">largest angle opposite it</text><text x="70" y="75" font-family="Arial, sans-serif" font-size="24" fill="#0f172a">Use side lengths to estimate which angle is largest.</text>
+</svg>

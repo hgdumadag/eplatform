@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+<title id="title">Zero one or two triangles</title>
+<desc id="desc">SSA possible outcomes.</desc>
+<rect width="720" height="420" fill="#f8fafc"/>
+<rect x="18" y="18" width="684" height="384" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<text x="65" y="85" font-family="Arial, sans-serif" font-size="22" fill="#b91c1c">0 triangles</text><text x="280" y="85" font-family="Arial, sans-serif" font-size="22" fill="#2563eb">1 triangle</text><text x="500" y="85" font-family="Arial, sans-serif" font-size="22" fill="#16a34a">2 triangles</text><polygon points="50,280 200,280 95,135" fill="#fee2e2" stroke="#b91c1c" stroke-width="4"/><line x1="95" y1="135" x2="155" y2="280" stroke="#b91c1c" stroke-width="4" stroke-dasharray="6 6"/><polygon points="270,280 420,280 330,135" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/><polygon points="485,280 650,280 555,135" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/><polygon points="485,280 610,280 555,135" fill="#dcfce799" stroke="#16a34a" stroke-width="4"/>
+</svg>

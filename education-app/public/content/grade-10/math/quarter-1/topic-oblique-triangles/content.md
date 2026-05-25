@@ -13,6 +13,20 @@
 | Main skill | Classifying triangles and identifying given cases |
 | Tools | Ruler, graph paper, calculator when needed |
 
+<!-- visual-assets:start -->
+
+## Visual Study Set
+
+Use these diagrams as anchors while you study. Each image names the parts you should notice before solving.
+
+![Right triangle and oblique triangle comparison](/content/grade-10/math/quarter-1/topic-oblique-triangles/images/right-vs-oblique.svg)
+
+![Acute and obtuse oblique triangle comparison](/content/grade-10/math/quarter-1/topic-oblique-triangles/images/acute-obtuse-oblique.svg)
+
+![SSS SAS ASA AAS and SSA given cases](/content/grade-10/math/quarter-1/topic-oblique-triangles/images/given-cases-map.svg)
+
+<!-- visual-assets:end -->
+
 ## What You Should Already Know
 
 Before studying oblique triangles, make sure these ideas feel familiar:

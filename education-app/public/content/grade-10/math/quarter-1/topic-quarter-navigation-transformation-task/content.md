@@ -13,6 +13,20 @@
 | Main skill | Combining bearings, oblique triangles, coordinates, and transformations |
 | Tools | Graph paper, ruler, protractor, calculator when needed |
 
+<!-- visual-assets:start -->
+
+## Visual Study Set
+
+Use these diagrams as anchors while you study. Each image names the parts you should notice before solving.
+
+![Navigation route with bearings](/content/grade-10/math/quarter-1/topic-quarter-navigation-transformation-task/images/navigation-route.svg)
+
+![Route points mapped to coordinates](/content/grade-10/math/quarter-1/topic-quarter-navigation-transformation-task/images/route-to-coordinate-map.svg)
+
+![Transformed route after coordinate rule](/content/grade-10/math/quarter-1/topic-quarter-navigation-transformation-task/images/transformed-route.svg)
+
+<!-- visual-assets:end -->
+
 ## What You Should Already Know
 
 Before beginning this culminating task, check that these ideas are familiar:

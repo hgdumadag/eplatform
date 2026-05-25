@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+<title id="title">SSA swinging side</title>
+<desc id="desc">A swinging side can create two possible triangles.</desc>
+<rect width="720" height="420" fill="#f8fafc"/>
+<rect x="18" y="18" width="684" height="384" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<text x="70" y="80" font-family="Arial, sans-serif" font-size="24" fill="#0f172a">Known angle and side fixed</text><line x1="120" y1="320" x2="620" y2="320" stroke="#334155" stroke-width="4"/><line x1="120" y1="320" x2="260" y2="140" stroke="#2563eb" stroke-width="5"/><path d="M260 140 A205 205 0 0 1 488 190" fill="none" stroke="#dc2626" stroke-width="4" stroke-dasharray="8 8"/><polygon points="120,320 500,320 260,140" fill="#dbeafe99" stroke="#2563eb" stroke-width="4"/><polygon points="120,320 335,320 260,140" fill="#dcfce799" stroke="#16a34a" stroke-width="4"/><text x="250" y="130" font-family="Arial, sans-serif" font-size="20" fill="#dc2626">swinging side</text>
+</svg>

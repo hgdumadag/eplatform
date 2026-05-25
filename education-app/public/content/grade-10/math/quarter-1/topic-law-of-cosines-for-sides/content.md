@@ -13,6 +13,20 @@
 | Main skill | Solving for a missing side using SAS information |
 | Tools | Calculator, graph paper, ruler when drawing diagrams |
 
+<!-- visual-assets:start -->
+
+## Visual Study Set
+
+Use these diagrams as anchors while you study. Each image names the parts you should notice before solving.
+
+![SAS missing side setup](/content/grade-10/math/quarter-1/topic-law-of-cosines-for-sides/images/sas-missing-side.svg)
+
+![Law of Cosines side formula](/content/grade-10/math/quarter-1/topic-law-of-cosines-for-sides/images/cosines-side-formula.svg)
+
+![Included angle size affects opposite side](/content/grade-10/math/quarter-1/topic-law-of-cosines-for-sides/images/angle-size-side-effect.svg)
+
+<!-- visual-assets:end -->
+
 ## What You Should Already Know
 
 Before using the Law of Cosines, make sure these ideas feel familiar:

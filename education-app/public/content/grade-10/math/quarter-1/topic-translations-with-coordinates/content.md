@@ -13,6 +13,20 @@
 | Main skill | Using coordinate rules for translations |
 | Tools | Graph paper, ruler, pencil, calculator only when needed |
 
+<!-- visual-assets:start -->
+
+## Visual Study Set
+
+Use these diagrams as anchors while you study. Each image names the parts you should notice before solving.
+
+![Translation vector on a coordinate plane](/content/grade-10/math/quarter-1/topic-translations-with-coordinates/images/translation-vector.svg)
+
+![Coordinate rule for translation](/content/grade-10/math/quarter-1/topic-translations-with-coordinates/images/translation-rule.svg)
+
+![Preimage and translated image](/content/grade-10/math/quarter-1/topic-translations-with-coordinates/images/preimage-image.svg)
+
+<!-- visual-assets:end -->
+
 ## What You Should Already Know
 
 Before studying translations, make sure these ideas feel familiar:

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+<title id="title">Opposite pairs</title>
+<desc id="desc">Labeled triangle showing opposite side and angle pairs.</desc>
+<rect width="720" height="420" fill="#f8fafc"/>
+<rect x="18" y="18" width="684" height="384" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<polygon points="130,320 585,320 300,90" fill="#ecfeff" stroke="#0891b2" stroke-width="4"/><text x="112" y="345" font-family="Arial, sans-serif" font-size="24" fill="#0f172a">A</text><text x="592" y="345" font-family="Arial, sans-serif" font-size="24" fill="#0f172a">B</text><text x="292" y="80" font-family="Arial, sans-serif" font-size="24" fill="#0f172a">C</text><text x="350" y="350" font-family="Arial, sans-serif" font-size="24" fill="#0891b2">c</text><text x="190" y="200" font-family="Arial, sans-serif" font-size="24" fill="#0891b2">b</text><text x="455" y="200" font-family="Arial, sans-serif" font-size="24" fill="#0891b2">a</text><text x="80" y="65" font-family="Arial, sans-serif" font-size="24" fill="#0f172a">Each side is opposite its matching angle.</text>
+</svg>
