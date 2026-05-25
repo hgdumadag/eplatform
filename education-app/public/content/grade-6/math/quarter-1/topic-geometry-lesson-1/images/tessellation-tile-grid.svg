@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Square tile tessellation</title>
+  <desc id="desc">A grid of equal square tiles covering a rectangle with no gaps and no overlaps.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <text x="36" y="48" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#123047">Square tiles fit edge-to-edge</text>
+  <g transform="translate(70 90)">
+    <rect width="560" height="280" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+    <g stroke="#334155" stroke-width="2">
+      <path d="M70 0v280M140 0v280M210 0v280M280 0v280M350 0v280M420 0v280M490 0v280"/>
+      <path d="M0 70h560M0 140h560M0 210h560"/>
+    </g>
+    <g fill="#dbeafe">
+      <rect x="1" y="1" width="68" height="68"/>
+      <rect x="141" y="1" width="68" height="68"/>
+      <rect x="281" y="1" width="68" height="68"/>
+      <rect x="421" y="1" width="68" height="68"/>
+      <rect x="71" y="71" width="68" height="68"/>
+      <rect x="211" y="71" width="68" height="68"/>
+      <rect x="351" y="71" width="68" height="68"/>
+      <rect x="491" y="71" width="68" height="68"/>
+      <rect x="1" y="141" width="68" height="68"/>
+      <rect x="141" y="141" width="68" height="68"/>
+      <rect x="281" y="141" width="68" height="68"/>
+      <rect x="421" y="141" width="68" height="68"/>
+      <rect x="71" y="211" width="68" height="68"/>
+      <rect x="211" y="211" width="68" height="68"/>
+      <rect x="351" y="211" width="68" height="68"/>
+      <rect x="491" y="211" width="68" height="68"/>
+    </g>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="19" fill="#0f766e">
+    <text x="74" y="396">Repeats</text>
+    <text x="294" y="396">No gaps</text>
+    <text x="500" y="396">No overlaps</text>
+  </g>
+</svg>

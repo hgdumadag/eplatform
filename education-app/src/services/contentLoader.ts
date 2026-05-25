@@ -621,6 +621,13 @@ export class ContentLoader {
         displayName: 'Persuasive Essays',
       },
       {
+        grade: 6,
+        subject: 'math',
+        quarter: 1,
+        topicName: 'topic-geometry-lesson-1',
+        displayName: 'Geometry - Lesson 1',
+      },
+      {
         grade: 5,
         subject: 'math',
         quarter: 1,
