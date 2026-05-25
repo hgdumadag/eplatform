@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Diameter used as radius error</title>
+  <desc id="desc">A square with a circular hole labeled diameter 6 cm, showing that the correct radius is 3 cm.</desc>
+  <rect width="720" height="360" fill="#fffafa"/>
+  <rect x="90" y="70" width="220" height="220" rx="6" fill="#ffe4e6" stroke="#a61b2b" stroke-width="4"/>
+  <circle cx="200" cy="180" r="66" fill="#ffffff" stroke="#a61b2b" stroke-width="4"/>
+  <line x1="134" y1="180" x2="266" y2="180" stroke="#a61b2b" stroke-width="3"/>
+  <text x="200" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#a61b2b">diameter = 6 cm</text>
+  <text x="200" y="318" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#17324d">radius is 3 cm</text>
+  <rect x="390" y="72" width="250" height="216" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="3"/>
+  <text x="515" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#a61b2b">Common error</text>
+  <text x="415" y="152" font-family="Arial, sans-serif" font-size="20" fill="#17324d">Wrong: 3.14(6^2)</text>
+  <text x="415" y="193" font-family="Arial, sans-serif" font-size="20" fill="#17324d">Correct radius: 6 ÷ 2 = 3</text>
+  <text x="415" y="234" font-family="Arial, sans-serif" font-size="20" fill="#17324d">Correct: 3.14(3^2)</text>
+  <text x="360" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#17324d">Do not use diameter as radius</text>
+</svg>

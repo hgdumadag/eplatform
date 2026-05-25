@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Error analysis showing overlapping circle and rectangle</title>
+  <desc id="desc">A diagram warning students not to add overlapping areas twice.</desc>
+  <rect width="720" height="420" fill="#fff7ed"/>
+  <text x="42" y="50" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#7c2d12">Misconception alert: double-counting</text>
+  <rect x="190" y="135" width="280" height="150" fill="#bfdbfe" fill-opacity="0.8" stroke="#1d4ed8" stroke-width="4"/>
+  <circle cx="470" cy="210" r="75" fill="#fde68a" fill-opacity="0.78" stroke="#b45309" stroke-width="4"/>
+  <path d="M470 135 A75 75 0 0 1 470 285 Z" fill="#f97316" fill-opacity="0.45"/>
+  <text x="210" y="318" font-family="Arial, sans-serif" font-size="16" fill="#1d4ed8">rectangle area</text>
+  <text x="482" y="318" font-family="Arial, sans-serif" font-size="16" fill="#b45309">circle area</text>
+  <text x="116" y="105" font-family="Arial, sans-serif" font-size="17" fill="#374151">If shapes overlap, adding both full areas counts the orange region twice.</text>
+  <text x="116" y="354" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#7c2d12">For this lesson, split figures into non-overlapping parts before adding.</text>
+</svg>

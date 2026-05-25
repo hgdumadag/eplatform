@@ -1,0 +1,45 @@
+{
+  "id": "grade-6-math-q4-geometry-lesson-3",
+  "grade": 6,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "Geometry - Lesson 3",
+  "description": "Learn how to find the radius from a diameter before calculating the area of a circle.",
+  "learningObjectives": [
+    "Identify diameter and radius in circle diagrams and word problems",
+    "Find the radius by dividing the diameter by 2",
+    "Use the formula A = pi r^2 to calculate circle area",
+    "Explain why using the diameter as the radius gives an area that is too large",
+    "Check circle-area solutions for the diameter-as-radius mistake"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "beginner",
+  "tags": [
+    "geometry",
+    "circles",
+    "diameter",
+    "radius",
+    "area",
+    "pi"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "prerequisites": [
+    "Know that radius is half of diameter",
+    "Multiply decimals using 3.14 for pi",
+    "Understand square units"
+  ],
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/circle-diameter-vs-radius.svg",
+      "images/diameter-to-radius-step.svg",
+      "images/area-formula-flow.svg",
+      "images/worked-pizza-area.svg",
+      "images/misconception-warning.svg",
+      "images/error-analysis-board.svg"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" role="img" aria-labelledby="title desc">
+  <title id="title">Overlapping decomposition error</title>
+  <desc id="desc">Two transparent rectangles overlap in a middle region, showing the same area being counted twice.</desc>
+  <rect width="760" height="340" fill="#ffffff"/>
+  <rect x="170" y="80" width="270" height="150" fill="#93c5fd" fill-opacity="0.78" stroke="#1d4ed8" stroke-width="4"/>
+  <rect x="320" y="130" width="270" height="150" fill="#fdba74" fill-opacity="0.78" stroke="#c2410c" stroke-width="4"/>
+  <rect x="320" y="130" width="120" height="100" fill="#fef08a" fill-opacity="0.9" stroke="#ca8a04" stroke-width="4" stroke-dasharray="8 6"/>
+  <text x="380" y="186" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700">overlap</text>
+  <text x="380" y="45" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700">This region is counted twice.</text>
+  <text x="380" y="310" text-anchor="middle" font-family="Arial" font-size="21">Subtract overlap or choose non-overlapping parts.</text>
+</svg>

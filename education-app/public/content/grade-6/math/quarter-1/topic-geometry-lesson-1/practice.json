@@ -1,0 +1,94 @@
+{
+  "examId": "grade-6-math-q1-geometry-lesson-1-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 1 Practice: Tessellation Hunt",
+  "description": "Practice identifying repeating shape patterns, examples of tessellations, and non-examples with gaps or overlaps.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement best describes a tessellation?",
+      "options": [
+        "A repeating pattern that covers a flat surface with no gaps and no overlaps",
+        "Any picture that uses many colors",
+        "A pattern that repeats but leaves empty spaces",
+        "A shape that has exactly four sides"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A tessellation must repeat and cover the surface completely without gaps or overlaps.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "true-false",
+      "question": "A pattern made of repeated circles with spaces between the circles is a tessellation.",
+      "correctAnswer": "false",
+      "explanation": "The circles repeat, but the spaces between them are gaps. A tessellation cannot have gaps.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A floor is covered by same-size square tiles arranged edge-to-edge. What is the best classification?",
+      "options": [
+        "Tessellation",
+        "Not a tessellation because squares have corners",
+        "Not a tessellation because tiles repeat",
+        "Not enough information because all floor patterns are random"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Square tiles arranged edge-to-edge cover the surface with no gaps or overlaps, so the design is a tessellation.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "A tessellation has no gaps and no ______.",
+      "correctAnswer": "overlaps",
+      "explanation": "The two main visual checks are no gaps and no overlaps.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which situation is most likely a tessellation?",
+      "options": [
+        "A honeycomb pattern made of hexagons with no spaces between them",
+        "A row of stars printed across the top of a page",
+        "Circles repeated on a background with white spaces between them",
+        "Two triangles drawn on top of each other"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hexagons can fit edge-to-edge like a honeycomb, leaving no gaps or overlaps.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "In one sentence, explain why a repeating pattern with overlaps is not a tessellation.",
+      "correctAnswer": "A repeating pattern with overlaps is not a tessellation because shapes cover the same space, and tessellations must cover each part of the surface exactly once.",
+      "explanation": "Overlaps break the rule that the surface should be covered cleanly, with each part covered once.",
+      "points": 14
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "A tessellation can use more than one kind of shape.",
+      "correctAnswer": "true",
+      "explanation": "A tessellation may use one shape or a repeated group of shapes, as long as there are no gaps or overlaps.",
+      "points": 12
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Name one real-life place where you might see a tessellation.",
+      "correctAnswer": "floor tiles, wall tiles, woven mats, textiles, fabric patterns, mosaics, or brick walls",
+      "explanation": "Tessellations often appear in tiled floors, textile patterns, mosaics, woven mats, and brick patterns.",
+      "points": 14
+    }
+  ]
+}

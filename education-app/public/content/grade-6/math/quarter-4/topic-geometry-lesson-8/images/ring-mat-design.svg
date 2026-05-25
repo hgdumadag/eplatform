@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="330" viewBox="0 0 640 330" role="img" aria-labelledby="title desc">
+  <title id="title">Ring mat design</title>
+  <desc id="desc">A circular mat with outer radius 8 inches and inner hole radius 3 inches.</desc>
+  <rect width="640" height="330" fill="#f8fafc"/>
+  <text x="320" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1f2937">Ring-Shaped Mat</text>
+  <circle cx="320" cy="170" r="100" fill="#c7d2fe" stroke="#3730a3" stroke-width="4"/>
+  <circle cx="320" cy="170" r="38" fill="#f8fafc" stroke="#3730a3" stroke-width="4"/>
+  <circle cx="320" cy="170" r="5" fill="#312e81"/>
+  <line x1="320" y1="170" x2="420" y2="170" stroke="#312e81" stroke-width="4"/>
+  <line x1="320" y1="170" x2="358" y2="170" stroke="#f8fafc" stroke-width="8"/>
+  <line x1="320" y1="170" x2="358" y2="170" stroke="#312e81" stroke-width="4"/>
+  <text x="373" y="153" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#312e81">outer r = 8 in</text>
+  <text x="333" y="205" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#312e81">inner r = 3 in</text>
+  <text x="320" y="304" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#374151">Mat area = outer circle area - inner circle area</text>
+</svg>

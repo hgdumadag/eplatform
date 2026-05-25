@@ -1,0 +1,78 @@
+{
+  "examId": "grade-6-math-q3-geometry-lesson-5-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 5 Practice: Volume Word Problems",
+  "description": "Practice applying cube and prism volume to storage and packing situations.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A box is 10 cm long, 5 cm wide, and 4 cm high. What is its volume?",
+      "options": ["19 cm³", "50 cm²", "200 cm³", "400 cm³"],
+      "correctAnswer": 2,
+      "explanation": "Use V = l × w × h. 10 × 5 × 4 = 200 cm³.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A cube container has side length 6 cm. What is its volume? Enter just the number.",
+      "correctAnswer": "216",
+      "explanation": "Use V = s³. 6 × 6 × 6 = 216 cm³.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A complete volume answer should include cubic units.",
+      "correctAnswer": "true",
+      "explanation": "Volume measures 3D space, so the answer should include cubic units such as cm³.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "A storage bin is 15 cm long, 10 cm wide, and 6 cm high. What is its volume? Enter just the number.",
+      "correctAnswer": "900",
+      "explanation": "15 × 10 × 6 = 900 cm³.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which formula should be used for a cube-shaped box with side length s?",
+      "options": ["V = s³", "V = l × w", "V = 2l + 2w", "V = s + s + s"],
+      "correctAnswer": 0,
+      "explanation": "A cube has equal side lengths, so use V = s³.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "A toy box is 20 cm long, 12 cm wide, and 10 cm high. Write a complete solution for its volume.",
+      "correctAnswer": "V = 20 × 12 × 10 = 2400 cm³. The toy box has a volume of 2400 cm³.",
+      "explanation": "A complete solution shows the formula or multiplication, the calculation, and the cubic unit.",
+      "points": 14
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A box has base area 48 square units and height 7 units. What is its volume? Enter just the number.",
+      "correctAnswer": "336",
+      "explanation": "Volume = base area × height = 48 × 7 = 336 cubic units.",
+      "points": 12
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A box has volume 240 cm³, length 12 cm, and width 5 cm. Find the height and explain.",
+      "correctAnswer": "The height is 4 cm because 12 × 5 = 60 and 240 ÷ 60 = 4.",
+      "explanation": "Use V = l × w × h. The base area is 60 cm², so the height is 240 ÷ 60 = 4 cm.",
+      "points": 14
+    }
+  ]
+}

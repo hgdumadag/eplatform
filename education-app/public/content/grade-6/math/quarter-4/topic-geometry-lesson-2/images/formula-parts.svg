@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Parts of the circle area formula</title>
+  <desc id="desc">A formula card labeling A, pi, r, and squared.</desc>
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <rect x="72" y="58" width="576" height="112" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+  <text x="198" y="132" font-family="Arial, sans-serif" font-size="58" font-weight="700" fill="#172033">A = pi x r x r</text>
+  <rect x="86" y="218" width="132" height="72" rx="8" fill="#e0f2fe" stroke="#2563eb" stroke-width="3"/>
+  <rect x="236" y="218" width="132" height="72" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+  <rect x="386" y="218" width="248" height="72" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="3"/>
+  <text x="118" y="248" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#172033">A</text>
+  <text x="106" y="272" font-family="Arial, sans-serif" font-size="17" fill="#334155">area answer</text>
+  <text x="270" y="248" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#172033">pi</text>
+  <text x="258" y="272" font-family="Arial, sans-serif" font-size="17" fill="#334155">about 3.14</text>
+  <text x="430" y="248" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#172033">r x r</text>
+  <text x="418" y="272" font-family="Arial, sans-serif" font-size="17" fill="#334155">radius squared</text>
+</svg>

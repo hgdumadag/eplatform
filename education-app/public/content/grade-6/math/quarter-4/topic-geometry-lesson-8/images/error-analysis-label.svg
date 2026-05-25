@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="360" viewBox="0 0 680 360" role="img" aria-labelledby="title desc">
+  <title id="title">Error analysis for circular label</title>
+  <desc id="desc">Student incorrectly uses diameter 8 centimeters as radius, then the corrected radius 4 centimeters is shown.</desc>
+  <rect width="680" height="360" fill="#fff7ed"/>
+  <text x="340" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1f2937">Error Analysis: Label the Radius</text>
+  <g transform="translate(55 70)">
+    <rect x="0" y="0" width="260" height="230" rx="8" fill="#ffedd5" stroke="#c2410c" stroke-width="2"/>
+    <text x="130" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#9a3412">Student Model</text>
+    <circle cx="130" cy="110" r="65" fill="#fed7aa" stroke="#9a3412" stroke-width="3"/>
+    <line x1="65" y1="110" x2="195" y2="110" stroke="#9a3412" stroke-width="4"/>
+    <text x="130" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#7c2d12">8 cm</text>
+    <text x="130" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7c2d12">Used A = 3.14(8²)</text>
+  </g>
+  <g transform="translate(365 70)">
+    <rect x="0" y="0" width="260" height="230" rx="8" fill="#ecfdf5" stroke="#047857" stroke-width="2"/>
+    <text x="130" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#065f46">Correct Model</text>
+    <circle cx="130" cy="110" r="65" fill="#a7f3d0" stroke="#047857" stroke-width="3"/>
+    <line x1="65" y1="110" x2="195" y2="110" stroke="#047857" stroke-width="3"/>
+    <line x1="130" y1="110" x2="195" y2="110" stroke="#064e3b" stroke-width="6"/>
+    <circle cx="130" cy="110" r="5" fill="#064e3b"/>
+    <text x="130" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#065f46">diameter = 8 cm</text>
+    <text x="165" y="137" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#064e3b">r = 4 cm</text>
+    <text x="130" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#065f46">Use A = 3.14(4²)</text>
+  </g>
+  <text x="340" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#374151">A line across the whole circle is diameter, not radius.</text>
+</svg>

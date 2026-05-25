@@ -1,0 +1,78 @@
+{
+  "examId": "grade-6-math-q3-geometry-lesson-3-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 3 Practice: Volume of Cubes",
+  "description": "Practice modeling and calculating cube volume from side length.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What is the formula for the volume of a cube with side length s?",
+      "options": ["V = s²", "V = 4s", "V = s³", "V = 6s"],
+      "correctAnswer": 2,
+      "explanation": "A cube has equal length, width, and height, so V = s × s × s = s³.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A cube has side length 3 cm. What is its volume? Enter just the number.",
+      "correctAnswer": "27",
+      "explanation": "3 × 3 × 3 = 27, so the volume is 27 cm³.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "The volume of a cube with side length 5 cm is 25 cm².",
+      "correctAnswer": "false",
+      "explanation": "25 cm² is the area of one face. The volume is 5 × 5 × 5 = 125 cm³.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A cube has side length 4 units. What is its volume?",
+      "options": ["12 cubic units", "16 cubic units", "48 cubic units", "64 cubic units"],
+      "correctAnswer": 3,
+      "explanation": "4 × 4 × 4 = 64 cubic units.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "A cube has 9 unit cubes in each layer and 3 layers. What is the total volume in cubic units? Enter just the number.",
+      "correctAnswer": "27",
+      "explanation": "9 cubes per layer × 3 layers = 27 cubic units.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "Explain why cube volume uses side × side × side instead of side × side.",
+      "correctAnswer": "Cube volume uses side × side × side because volume measures three dimensions: length, width, and height.",
+      "explanation": "side × side gives a square face area. Volume needs the third dimension too.",
+      "points": 14
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A cube has side length 10 cm. What is its volume? Enter just the number.",
+      "correctAnswer": "1000",
+      "explanation": "10 × 10 × 10 = 1000, so the volume is 1000 cm³.",
+      "points": 12
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A cube has side length 6 m. Find the volume and include the correct unit.",
+      "correctAnswer": "216 m³",
+      "explanation": "6 × 6 × 6 = 216. Since the side length is in meters, the volume is 216 m³.",
+      "points": 14
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" role="img" aria-labelledby="title desc">
+  <title id="title">Missing sides in an L-shape</title>
+  <desc id="desc">An L-shaped figure showing a 14 centimeter full width, an 8 centimeter known part, and missing sides found by subtraction.</desc>
+  <rect width="760" height="380" fill="#ffffff"/>
+  <polygon points="180,80 530,80 530,190 380,190 380,300 180,300" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
+  <line x1="180" y1="55" x2="530" y2="55" stroke="#0f172a" stroke-width="2"/>
+  <line x1="180" y1="48" x2="180" y2="62" stroke="#0f172a" stroke-width="2"/>
+  <line x1="530" y1="48" x2="530" y2="62" stroke="#0f172a" stroke-width="2"/>
+  <text x="355" y="43" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700">full width 14 cm</text>
+  <text x="280" y="113" text-anchor="middle" font-family="Arial, sans-serif" font-size="21">8 cm</text>
+  <text x="455" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" fill="#b45309">? = 14 - 8 = 6 cm</text>
+  <line x1="150" y1="80" x2="150" y2="300" stroke="#0f172a" stroke-width="2"/>
+  <line x1="143" y1="80" x2="157" y2="80" stroke="#0f172a" stroke-width="2"/>
+  <line x1="143" y1="300" x2="157" y2="300" stroke="#0f172a" stroke-width="2"/>
+  <text x="125" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" transform="rotate(-90 125 190)">full height 11 cm</text>
+  <text x="550" y="140" font-family="Arial, sans-serif" font-size="21">5 cm</text>
+  <text x="342" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" fill="#b45309">? = 11 - 5 = 6 cm</text>
+</svg>

@@ -1,0 +1,85 @@
+{
+  "id": "grade-6-math-q4-geometry-lesson-5-practice",
+  "examId": "grade-6-math-q4-geometry-lesson-5-practice",
+  "examType": "practice",
+  "title": "Practice: Composite Figures with Circles",
+  "description": "Identify parts of composite figures and find total area by adding rectangles, triangles, circles, and semicircles.",
+  "totalPoints": 100,
+  "totalQuestions": 8,
+  "timeLimit": 25,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A composite figure is made from a rectangle and a semicircle attached to one side. What should you do first?",
+      "options": [
+        "Add all side lengths.",
+        "Name the parts and write their area formulas.",
+        "Multiply every number in the diagram.",
+        "Use only the circle area formula."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Composite area starts by naming the non-overlapping parts and choosing the correct formula for each part."
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A semicircle has diameter 12 cm. What radius should be used in the area formula?",
+      "options": ["3 cm", "6 cm", "12 cm", "24 cm"],
+      "correctAnswer": 1,
+      "explanation": "The radius is half the diameter, so $12 \\div 2 = 6$ cm."
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A rectangle is 8 cm by 5 cm. A triangle with base 8 cm and height 6 cm is attached on top. What is the total area?",
+      "options": ["48 cm²", "56 cm²", "64 cm²", "88 cm²"],
+      "correctAnswer": 2,
+      "explanation": "Rectangle area is $8 \\times 5=40$. Triangle area is $\\frac{1}{2}(8)(6)=24$. Total area is $40+24=64\\text{ cm}^2$."
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "points": 10,
+      "question": "To find the area of a semicircle, find the area of the full circle with the same radius and divide by 2.",
+      "correctAnswer": "true",
+      "explanation": "A semicircle is half of a circle, so its area is $\\frac{1}{2}\\pi r^2$."
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "points": 10,
+      "question": "If a composite figure is split into non-overlapping parts, the total area can be found by adding the area of each part.",
+      "correctAnswer": "true",
+      "explanation": "Area is additive when the parts do not overlap."
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "points": 15,
+      "question": "Find the area of a rectangle that is 9 cm long and 4 cm wide. Include square units.",
+      "correctAnswer": "36 cm^2 or 36 square centimeters",
+      "explanation": "Use $A=l\\times w=9\\times4=36\\text{ cm}^2$."
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "points": 15,
+      "question": "A triangle has base 10 m and height 7 m. Find its area.",
+      "correctAnswer": "35 or 35 m^2 or 35 square meters",
+      "explanation": "Use $A=\\frac{1}{2}bh=\\frac{1}{2}(10)(7)=35$."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "points": 20,
+      "question": "A figure is made from a 10 cm by 6 cm rectangle and a semicircle with diameter 10 cm. Explain how to find the total area. You do not need to simplify completely.",
+      "correctAnswer": "Find the rectangle area, 10 x 6 = 60. The semicircle has radius 5, so its area is 1/2 x pi x 5^2. Add 60 + 1/2 x pi x 25.",
+      "explanation": "A strong explanation names the two parts, changes diameter 10 to radius 5, uses the semicircle formula, and adds the two areas."
+    }
+  ]
+}

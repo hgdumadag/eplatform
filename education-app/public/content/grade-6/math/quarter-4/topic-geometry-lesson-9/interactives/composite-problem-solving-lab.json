@@ -1,0 +1,38 @@
+{
+  "id": "grade-6-math-q4-composite-problem-solving-lab",
+  "version": "1.0",
+  "runtime": "sandbox-local",
+  "widget": "sandbox-host",
+  "title": "Composite Problem Solving Lab",
+  "prompt": "Decide whether each part of a composite problem needs area, circumference, or perimeter, then justify the selected formulas.",
+  "props": {
+    "htmlPath": "../miniapps/composite-problem-solving-lab.html",
+    "height": 720
+  },
+  "checkpoints": [
+    {
+      "id": "pre-check-completed",
+      "label": "Completed the area-or-circumference pre-check"
+    },
+    {
+      "id": "try-before-reveal",
+      "label": "Tried a multi-step solution before revealing"
+    },
+    {
+      "id": "guided-checks-completed",
+      "label": "Completed the guided formula checks"
+    },
+    {
+      "id": "mini-quiz-completed",
+      "label": "Completed the mini-quiz"
+    },
+    {
+      "id": "mastery-checklist-reviewed",
+      "label": "Reviewed the mastery checklist"
+    }
+  ],
+  "fallback": {
+    "markdown": "Use the lab to sort problem clues into area, circumference, and perimeter decisions. For each multi-step problem, choose formulas first, explain why each formula matches the measurement, then compute.",
+    "image": "../images/formula-decision-map.svg"
+  }
+}

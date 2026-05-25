@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Textile-inspired tessellation</title>
+  <desc id="desc">A textile-inspired pattern using repeating diamonds and triangles arranged without gaps or overlaps.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <text x="36" y="48" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#123047">Local designs can use tessellation</text>
+  <g transform="translate(60 90)" stroke="#334155" stroke-width="2">
+    <rect width="600" height="240" fill="#fff7ed" stroke="#334155" stroke-width="3"/>
+    <g>
+      <polygon points="0,60 60,0 120,60 60,120" fill="#f97316"/>
+      <polygon points="120,60 180,0 240,60 180,120" fill="#14b8a6"/>
+      <polygon points="240,60 300,0 360,60 300,120" fill="#f97316"/>
+      <polygon points="360,60 420,0 480,60 420,120" fill="#14b8a6"/>
+      <polygon points="480,60 540,0 600,60 540,120" fill="#f97316"/>
+      <polygon points="0,180 60,120 120,180 60,240" fill="#14b8a6"/>
+      <polygon points="120,180 180,120 240,180 180,240" fill="#f97316"/>
+      <polygon points="240,180 300,120 360,180 300,240" fill="#14b8a6"/>
+      <polygon points="360,180 420,120 480,180 420,240" fill="#f97316"/>
+      <polygon points="480,180 540,120 600,180 540,240" fill="#14b8a6"/>
+      <polygon points="0,60 60,120 0,180" fill="#fde68a"/>
+      <polygon points="120,60 180,120 120,180 60,120" fill="#bfdbfe"/>
+      <polygon points="240,60 300,120 240,180 180,120" fill="#fde68a"/>
+      <polygon points="360,60 420,120 360,180 300,120" fill="#bfdbfe"/>
+      <polygon points="480,60 540,120 480,180 420,120" fill="#fde68a"/>
+      <polygon points="600,60 600,180 540,120" fill="#bfdbfe"/>
+    </g>
+  </g>
+  <text x="112" y="386" font-family="Arial, sans-serif" font-size="20" fill="#0f766e">A repeated unit can include more than one shape.</text>
+</svg>

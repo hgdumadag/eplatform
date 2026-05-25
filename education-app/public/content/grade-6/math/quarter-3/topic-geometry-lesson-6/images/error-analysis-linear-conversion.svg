@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" role="img" aria-labelledby="title desc">
+  <title id="title">Error analysis using length conversion for area</title>
+  <desc id="desc">An incorrect solution changes three square meters to three hundred square centimeters by multiplying by one hundred, then a corrected solution uses ten thousand.</desc>
+  <rect width="760" height="330" fill="#ffffff"/>
+  <rect x="50" y="55" width="300" height="205" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="4"/>
+  <text x="200" y="92" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#7f1d1d">Incorrect</text>
+  <text x="200" y="137" text-anchor="middle" font-family="Arial" font-size="23">3 m² × 100</text>
+  <text x="200" y="178" text-anchor="middle" font-family="Arial" font-size="23">= 300 cm²</text>
+  <text x="200" y="225" text-anchor="middle" font-family="Arial" font-size="18">Used a length factor</text>
+  <rect x="410" y="55" width="300" height="205" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+  <text x="560" y="92" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#14532d">Correct</text>
+  <text x="560" y="137" text-anchor="middle" font-family="Arial" font-size="23">3 m² × 10000</text>
+  <text x="560" y="178" text-anchor="middle" font-family="Arial" font-size="23">= 30000 cm²</text>
+  <text x="560" y="225" text-anchor="middle" font-family="Arial" font-size="18">Used an area factor</text>
+  <text x="380" y="300" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700">Area conversion changes both length and width.</text>
+</svg>

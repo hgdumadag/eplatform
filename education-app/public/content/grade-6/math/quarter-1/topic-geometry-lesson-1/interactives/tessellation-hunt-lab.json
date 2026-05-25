@@ -1,0 +1,30 @@
+{
+  "id": "grade-6-tessellation-hunt-lab",
+  "version": "1.0",
+  "runtime": "sandbox-local",
+  "widget": "sandbox-host",
+  "title": "Tessellation Hunt Lab",
+  "prompt": "Check readiness, classify patterns, reveal hints, and test your mastery.",
+  "props": {
+    "htmlPath": "../miniapps/tessellation-hunt-lab.html",
+    "height": 760
+  },
+  "checkpoints": [
+    {
+      "id": "readiness-checked",
+      "label": "Readiness checked"
+    },
+    {
+      "id": "mini-quiz-checked",
+      "label": "Mini-quiz checked"
+    },
+    {
+      "id": "mastery-checked",
+      "label": "Mastery checklist checked"
+    }
+  ],
+  "fallback": {
+    "markdown": "Use the tessellation test: repeated shapes, no gaps, and no overlaps. Square tiles and honeycomb hexagons are examples. Repeated circles with spaces and overlapping shapes are non-examples.",
+    "image": "../images/tessellation-tile-grid.svg"
+  }
+}

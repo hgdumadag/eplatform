@@ -1,0 +1,30 @@
+{
+  "id": "grade-6-prism-volume-lab",
+  "version": "1.0",
+  "runtime": "sandbox-local",
+  "widget": "sandbox-host",
+  "title": "Rectangular Prism Volume Lab",
+  "prompt": "Use length, width, and height to calculate rectangular prism volume.",
+  "props": {
+    "htmlPath": "../miniapps/prism-volume-lab.html",
+    "height": 760
+  },
+  "checkpoints": [
+    {
+      "id": "readiness-checked",
+      "label": "Readiness checked"
+    },
+    {
+      "id": "volume-checked",
+      "label": "Volume checked"
+    },
+    {
+      "id": "mastery-checked",
+      "label": "Mastery checklist checked"
+    }
+  ],
+  "fallback": {
+    "markdown": "Rectangular prism volume is V = l × w × h. Length × width counts one base layer, and height counts the number of layers.",
+    "image": "../images/prism-unit-cubes.svg"
+  }
+}

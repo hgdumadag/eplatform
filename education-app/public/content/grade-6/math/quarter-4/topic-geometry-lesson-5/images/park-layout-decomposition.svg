@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Park layout decomposed into a rectangle, two triangles, and a semicircle</title>
+  <desc id="desc">A park map composite figure with labeled shape parts.</desc>
+  <rect width="720" height="420" fill="#f9fafb"/>
+  <text x="40" y="48" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#1f2937">Park layout: add non-overlapping parts</text>
+  <rect x="170" y="160" width="260" height="150" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="4"/>
+  <polygon points="170,160 300,80 430,160" fill="#bbf7d0" stroke="#15803d" stroke-width="4"/>
+  <path d="M430 160 A75 75 0 0 1 430 310 Z" fill="#fecdd3" stroke="#be123c" stroke-width="4"/>
+  <line x1="430" y1="160" x2="430" y2="310" stroke="#be123c" stroke-width="3" stroke-dasharray="7 7"/>
+  <text x="238" y="238" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1d4ed8">rectangle</text>
+  <text x="270" y="137" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#15803d">triangle</text>
+  <text x="462" y="240" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#be123c">semicircle</text>
+  <text x="185" y="336" font-family="Arial, sans-serif" font-size="17" fill="#374151">Total area = rectangle + triangle + semicircle</text>
+</svg>

@@ -1,0 +1,38 @@
+{
+  "id": "grade-6-math-q4-geometry-lesson-7-circumference-review-lab",
+  "version": "1.0",
+  "runtime": "sandbox-local",
+  "widget": "sandbox-host",
+  "title": "Circumference Review Lab",
+  "prompt": "Classify each circle question as circumference or area, try the answer before revealing steps, and complete quick mastery checks.",
+  "props": {
+    "htmlPath": "../miniapps/circumference-review-lab.html",
+    "height": 740
+  },
+  "checkpoints": [
+    {
+      "id": "pre-check-complete",
+      "label": "Pre-check completed"
+    },
+    {
+      "id": "try-before-reveal-complete",
+      "label": "Try-before-reveal completed"
+    },
+    {
+      "id": "guided-check-complete",
+      "label": "Guided checks completed"
+    },
+    {
+      "id": "mini-quiz-complete",
+      "label": "Mini-quiz completed"
+    },
+    {
+      "id": "mastery-checklist-complete",
+      "label": "Mastery checklist completed"
+    }
+  ],
+  "fallback": {
+    "markdown": "The Circumference Review Lab asks you to decide whether a question needs circumference or area, then solve using the correct formula. If the mini-app is unavailable, use the decision map: around or border means circumference; space covered or inside means area.",
+    "image": "../images/formula-decision-map.svg"
+  }
+}

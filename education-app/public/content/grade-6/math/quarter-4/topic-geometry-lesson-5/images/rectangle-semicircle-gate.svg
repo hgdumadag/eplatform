@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Rectangle with a semicircle on top</title>
+  <desc id="desc">A gate-shaped composite figure made from a rectangle and a semicircle.</desc>
+  <rect width="720" height="420" fill="#fbfbf9"/>
+  <text x="42" y="50" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#1f2937">Example: rectangle + semicircle</text>
+  <path d="M230 190 A130 130 0 0 1 490 190 L490 330 L230 330 Z" fill="#dbeafe" stroke="#1d4ed8" stroke-width="4"/>
+  <line x1="230" y1="190" x2="490" y2="190" stroke="#1d4ed8" stroke-width="3" stroke-dasharray="8 8"/>
+  <line x1="360" y1="190" x2="490" y2="190" stroke="#b45309" stroke-width="4"/>
+  <text x="400" y="178" font-family="Arial, sans-serif" font-size="18" fill="#92400e">r = 5 cm</text>
+  <text x="315" y="355" font-family="Arial, sans-serif" font-size="18" fill="#1d4ed8">10 cm</text>
+  <text x="502" y="268" font-family="Arial, sans-serif" font-size="18" fill="#1d4ed8">6 cm</text>
+  <text x="80" y="125" font-family="Arial, sans-serif" font-size="18" fill="#111827">Area plan</text>
+  <text x="80" y="154" font-family="Arial, sans-serif" font-size="16" fill="#374151">1. Find rectangle area.</text>
+  <text x="80" y="181" font-family="Arial, sans-serif" font-size="16" fill="#374151">2. Find half-circle area.</text>
+  <text x="80" y="208" font-family="Arial, sans-serif" font-size="16" fill="#374151">3. Add the two parts.</text>
+</svg>

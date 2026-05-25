@@ -1,0 +1,30 @@
+{
+  "id": "grade-6-math-q4-diameter-to-area-lab",
+  "version": "1.0",
+  "runtime": "sandbox-local",
+  "widget": "sandbox-host",
+  "title": "Diameter to Area Lab",
+  "prompt": "Use the slider to choose a diameter, predict the radius, reveal the area setup, and complete the mini-quiz.",
+  "props": {
+    "htmlPath": "../miniapps/diameter-to-area-lab.html",
+    "height": 680
+  },
+  "checkpoints": [
+    {
+      "id": "precheck-complete",
+      "label": "Pre-check completed"
+    },
+    {
+      "id": "radius-predicted",
+      "label": "Radius predicted before reveal"
+    },
+    {
+      "id": "mini-quiz-complete",
+      "label": "Mini-quiz completed"
+    }
+  ],
+  "fallback": {
+    "markdown": "The Diameter to Area Lab asks you to choose a diameter, predict the radius, then reveal the circle area calculation. Always divide the diameter by 2 before using A = pi r^2.",
+    "image": "../images/area-formula-flow.svg"
+  }
+}

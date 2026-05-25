@@ -1,0 +1,94 @@
+{
+  "examId": "grade-6-math-q4-geometry-lesson-8-circle-design-problems-practice",
+  "examType": "practice",
+  "title": "Circle Design Problems Practice Exam",
+  "description": "Practice modeling garden, label, and mat design problems with circle area.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A circular garden bed has radius 5 m. Which expression finds its area using $\\pi = 3.14$?",
+      "options": [
+        "$3.14(5^2)$",
+        "$3.14(10^2)$",
+        "$2(3.14)(5)$",
+        "$5^2 \\div 3.14$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A whole circular garden uses $A = \\pi r^2$. With radius 5 m, the expression is $3.14(5^2)$.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A round label has diameter 10 cm. Using $\\pi = 3.14$, what is its area? Enter just the number.",
+      "correctAnswer": "78.5",
+      "explanation": "The radius is $10 \\div 2 = 5$ cm. Area is $3.14(5^2)=3.14(25)=78.5$ square centimeters.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A labeled model for a circle area design problem should show whether the given measurement is a radius or a diameter.",
+      "correctAnswer": "true",
+      "explanation": "The formula needs radius, so the model should make radius and diameter clear.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A ring-shaped mat has outer radius 7 ft and inner radius 2 ft. Which setup finds the mat area?",
+      "options": [
+        "$3.14(7^2) - 3.14(2^2)$",
+        "$3.14(7^2) + 3.14(2^2)$",
+        "$3.14(2^2) - 3.14(7^2)$",
+        "$3.14(7 + 2)^2$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A ring area is the large circle area minus the smaller center circle area.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "A circular garden has radius 6 m. Using $\\pi = 3.14$, what is its area? Enter just the number.",
+      "correctAnswer": "113.04",
+      "explanation": "Use $A=3.14(6^2)=3.14(36)=113.04$ square meters.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "An entry mat is a semicircle with radius 4 dm. What area expression should be used?",
+      "options": [
+        "$\\frac{1}{2}(3.14)(4^2)$",
+        "$3.14(4^2)$",
+        "$2(3.14)(4)$",
+        "$3.14(8^2)$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A semicircle is half of a circle, so use $\\frac{1}{2}\\pi r^2$.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "A circular sticker label has diameter 14 cm. Use $\\pi = 3.14$. Describe the labeled model and find the area.",
+      "correctAnswer": "The model is a circle labeled diameter 14 cm and radius 7 cm. The area is 3.14(7^2) = 153.86 square centimeters.",
+      "explanation": "The radius is half of 14 cm, so $r=7$. Area is $3.14(49)=153.86$ square centimeters.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A round mat has outer radius 5 m and a center hole with radius 2 m. Use $\\pi = 3.14$. Show the subtraction step and give the mat area.",
+      "correctAnswer": "Large circle area is 3.14(5^2) = 78.5. Center hole area is 3.14(2^2) = 12.56. Subtract: 78.5 - 12.56 = 65.94 square meters.",
+      "explanation": "The mat is a ring, so subtract the center hole from the large circle: $78.5 - 12.56 = 65.94$ square meters.",
+      "points": 14
+    }
+  ]
+}

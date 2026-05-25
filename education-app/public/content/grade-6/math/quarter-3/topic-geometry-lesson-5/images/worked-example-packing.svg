@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" role="img" aria-labelledby="title desc">
+  <title id="title">Cube packing worked example</title>
+  <desc id="desc">A cube-shaped gift box with side length four centimeters filled with unit cubes.</desc>
+  <rect width="820" height="520" fill="#f8fafc"/>
+  <text x="40" y="54" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#123047">Cube-shaped gift box</text>
+  <g transform="translate(250 120)" stroke="#334155" stroke-width="2" stroke-linejoin="round">
+    <polygon points="0,60 200,60 260,120 60,120" fill="#bfdbfe"/>
+    <polygon points="0,60 60,120 60,320 0,260" fill="#93c5fd"/>
+    <polygon points="60,120 260,120 260,320 60,320" fill="#dbeafe"/>
+    <g stroke="#1e40af">
+      <path d="M110 120v200M160 120v200M210 120v200M60 170h200M60 220h200M60 270h200"/>
+      <path d="M15 75h200M30 90h200M45 105h200M15 75l60 60M30 90l60 60M45 105l60 60M50 60l60 60M100 60l60 60M150 60l60 60"/>
+    </g>
+  </g>
+  <text x="410" y="465" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle" fill="#0f766e">4³ = 64 cm³</text>
+</svg>

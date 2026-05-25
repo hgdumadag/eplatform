@@ -1,0 +1,80 @@
+{
+  "id": "grade-6-math-q4-geometry-lesson-2-practice",
+  "examId": "grade-6-math-q4-geometry-lesson-2-practice",
+  "examType": "practice",
+  "title": "Practice: Using A = pi r squared",
+  "description": "Solve direct circle-area problems from a given radius and check units.",
+  "totalPoints": 100,
+  "totalQuestions": 8,
+  "timeLimit": 20,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A circle has radius 3 cm. What is its area using $\\pi \\approx 3.14$?",
+      "options": ["9.42 cm^2", "18.84 cm^2", "28.26 cm^2", "36 cm^2"],
+      "correctAnswer": 2,
+      "explanation": "Use $A=3.14r^2=3.14(3^2)=3.14(9)=28.26\\text{ cm}^2$."
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A circle has radius 5 m. Which setup correctly finds the area?",
+      "options": ["$A=3.14(5)$", "$A=3.14(5^2)$", "$A=5(3.14^2)$", "$A=2(3.14)(5)$"],
+      "correctAnswer": 1,
+      "explanation": "Circle area from radius uses $A=\\pi r^2$, so the radius 5 must be squared."
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "points": 10,
+      "question": "If a circle's radius is measured in inches, its area should be written in square inches.",
+      "correctAnswer": "true",
+      "explanation": "Area measures surface covered, so the unit is squared."
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A circle has radius 10 in. What is its area using $\\pi \\approx 3.14$?",
+      "options": ["31.4 in^2", "62.8 in^2", "100 in^2", "314 in^2"],
+      "correctAnswer": 3,
+      "explanation": "$A=3.14(10^2)=3.14(100)=314\\text{ in}^2$."
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "points": 15,
+      "question": "A circle has radius 2 cm. Find its area using $3.14$ for $\\pi$. Include square units.",
+      "correctAnswer": "12.56 cm^2 or 12.56 square centimeters",
+      "explanation": "$A=3.14(2^2)=3.14(4)=12.56\\text{ cm}^2$."
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "points": 10,
+      "question": "For $A=\\pi r^2$, you square the radius before multiplying by $\\pi$.",
+      "correctAnswer": "true",
+      "explanation": "The exponent belongs to the radius, so find $r^2$ first."
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "points": 15,
+      "question": "A circle has radius 7 m. What is the exact area in terms of $\\pi$?",
+      "correctAnswer": "49pi m^2 or 49 pi m^2 or 49\\pi m^2",
+      "explanation": "$A=\\pi(7^2)=49\\pi\\text{ m}^2$."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "points": 20,
+      "question": "A student solves radius 6 cm by writing $A=3.14(6)=18.84$ cm. Explain the mistake and give the correct area.",
+      "correctAnswer": "The student forgot to square the radius and used linear units. The correct area is 3.14(6^2) = 3.14(36) = 113.04 cm^2.",
+      "explanation": "The radius must be squared first. Then the area should be written in square centimeters."
+    }
+  ]
+}

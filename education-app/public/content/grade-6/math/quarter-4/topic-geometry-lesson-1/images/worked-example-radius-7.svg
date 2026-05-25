@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Worked example with radius 7 centimeters</title>
+  <desc id="desc">A circle with radius 7 centimeters and its area calculation.</desc>
+  <rect width="720" height="360" fill="#f7fafc"/>
+  <circle cx="185" cy="180" r="104" fill="#e6fffb" stroke="#087f8c" stroke-width="5"/>
+  <line x1="185" y1="180" x2="289" y2="180" stroke="#c2415b" stroke-width="5"/>
+  <circle cx="185" cy="180" r="5" fill="#24313f"/>
+  <text x="237" y="165" text-anchor="middle" font-family="Arial" font-size="21" font-weight="700" fill="#c2415b">7 cm</text>
+  <rect x="370" y="76" width="290" height="210" rx="8" fill="#ffffff" stroke="#ccd5df" stroke-width="3"/>
+  <text x="398" y="122" font-family="Arial" font-size="24" font-weight="700" fill="#24313f">A = πr²</text>
+  <text x="398" y="166" font-family="Arial" font-size="22" fill="#24313f">A = π(7²)</text>
+  <text x="398" y="210" font-family="Arial" font-size="22" fill="#24313f">A = 49π cm²</text>
+  <text x="398" y="254" font-family="Arial" font-size="22" font-weight="700" fill="#2f855a">A ≈ 154 cm²</text>
+</svg>

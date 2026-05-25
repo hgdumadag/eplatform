@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Formula decision map</title>
+  <desc id="desc">A flowchart for choosing circumference or area.</desc>
+  <rect width="760" height="420" fill="#f8fafc"/>
+  <rect x="235" y="28" width="290" height="68" rx="8" fill="#172033"/>
+  <text x="380" y="57" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">What does the question ask?</text>
+  <text x="380" y="81" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#d8dee9">Read the action words first.</text>
+  <line x1="380" y1="96" x2="380" y2="136" stroke="#5b667a" stroke-width="4"/>
+  <line x1="210" y1="136" x2="550" y2="136" stroke="#5b667a" stroke-width="4"/>
+  <line x1="210" y1="136" x2="210" y2="172" stroke="#5b667a" stroke-width="4"/>
+  <line x1="550" y1="136" x2="550" y2="172" stroke="#5b667a" stroke-width="4"/>
+  <rect x="60" y="172" width="300" height="88" rx="8" fill="#e9f8f0" stroke="#217a52" stroke-width="3"/>
+  <text x="210" y="203" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#172033">around, edge, border, lap</text>
+  <text x="210" y="234" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#217a52">Use circumference</text>
+  <rect x="400" y="172" width="300" height="88" rx="8" fill="#e3f2fd" stroke="#1f6fb2" stroke-width="3"/>
+  <text x="550" y="203" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#172033">cover, paint, inside, surface</text>
+  <text x="550" y="234" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#1f6fb2">Use area</text>
+  <rect x="83" y="300" width="254" height="72" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="210" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#172033">C = 2πr or C = πd</text>
+  <text x="210" y="356" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#5b667a">units, not square units</text>
+  <rect x="423" y="300" width="254" height="72" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="550" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#172033">A = πr²</text>
+  <text x="550" y="356" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#5b667a">square units</text>
+</svg>

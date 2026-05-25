@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Liters and cubic centimeters conversion flow</title>
+  <desc id="desc">A flowchart showing multiply by one thousand from liters to cubic centimeters and divide by one thousand from cubic centimeters to liters.</desc>
+  <rect width="900" height="520" fill="#f8fafc"/>
+  <text x="42" y="54" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#123047">Conversion direction matters</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="100" y="170" width="240" height="110" rx="10" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
+    <text x="220" y="216" font-size="30" font-weight="700" fill="#14532d">Liters</text>
+    <text x="220" y="252" font-size="22" fill="#14532d">L</text>
+    <rect x="560" y="170" width="240" height="110" rx="10" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
+    <text x="680" y="216" font-size="30" font-weight="700" fill="#1e3a8a">Cubic cm</text>
+    <text x="680" y="252" font-size="22" fill="#1e3a8a">cm³</text>
+    <path d="M350 190h200" stroke="#0f766e" stroke-width="6" fill="none"/>
+    <path d="M550 190l-22-14v28Z" fill="#0f766e"/>
+    <text x="450" y="160" font-size="24" font-weight="700" fill="#0f766e">× 1000</text>
+    <path d="M550 260H350" stroke="#b45309" stroke-width="6" fill="none"/>
+    <path d="M350 260l22-14v28Z" fill="#b45309"/>
+    <text x="450" y="326" font-size="24" font-weight="700" fill="#92400e">÷ 1000</text>
+    <text x="450" y="420" font-size="30" font-weight="700" fill="#0f172a">1 L = 1000 cm³</text>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+{
+  "id": "grade-6-math-q3-geometry-lesson-1",
+  "grade": 6,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Geometry - Lesson 1",
+  "description": "Choose suitable units for measuring volume and capacity, including cubic units and liquid units for everyday objects and containers.",
+  "learningObjectives": [
+    "Distinguish volume from capacity",
+    "Select cubic units for solid space and liquid units for containers",
+    "Match common objects and containers to suitable measurement units",
+    "Explain why a chosen unit is reasonable for a situation",
+    "Avoid confusing area units, volume units, and capacity units"
+  ],
+  "prerequisites": [
+    "Recognize length units such as centimeter and meter",
+    "Understand that area measures flat surface and uses square units",
+    "Recognize common containers such as cups, bottles, tanks, and boxes",
+    "Read simple unit labels such as cm, mL, L, cm³, and m³"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "beginner",
+  "tags": ["geometry", "measurement", "volume", "capacity", "units", "cubic units", "liquid units"],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/cubic-centimeter-cube.svg",
+      "images/liter-bottle.svg",
+      "images/unit-choice-map.svg",
+      "images/box-volume-cubes.svg",
+      "images/container-capacity-comparison.svg",
+      "images/error-analysis-unit-mixup.svg"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "grade-6-math-q3-geometry-lesson-5",
+  "grade": 6,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Geometry - Lesson 5",
+  "description": "Apply cube and rectangular prism volume to storage and packing word problems with complete solutions and units.",
+  "learningObjectives": [
+    "Identify the shape and needed dimensions in a volume word problem",
+    "Choose the correct cube or rectangular prism volume formula",
+    "Solve storage and packing problems using volume",
+    "Write complete solutions with labeled units",
+    "Check whether volume answers make sense in context"
+  ],
+  "prerequisites": [
+    "Calculate cube volume using V = s³",
+    "Calculate rectangular prism volume using V = l × w × h",
+    "Use cubic units correctly",
+    "Read and organize information from word problems",
+    "Multiply whole numbers"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": ["geometry", "measurement", "volume", "word problems", "storage", "packing", "units"],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/storage-box-context.svg",
+      "images/packing-cubes-in-box.svg",
+      "images/problem-solving-routine.svg",
+      "images/worked-example-storage-bin.svg",
+      "images/worked-example-packing.svg",
+      "images/error-analysis-missing-units.svg"
+    ]
+  }
+}

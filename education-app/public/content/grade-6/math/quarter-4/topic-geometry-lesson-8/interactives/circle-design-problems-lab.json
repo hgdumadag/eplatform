@@ -1,0 +1,38 @@
+{
+  "id": "grade-6-math-q4-geometry-lesson-8-circle-design-problems-lab",
+  "version": "1.0",
+  "runtime": "sandbox-local",
+  "widget": "sandbox-host",
+  "title": "Circle Design Problems Lab",
+  "prompt": "Model garden, label, and mat design problems with a labeled diagram, predict the area, reveal checks, and complete a mini-quiz.",
+  "props": {
+    "htmlPath": "../miniapps/circle-design-problems-lab.html",
+    "height": 760
+  },
+  "checkpoints": [
+    {
+      "id": "pre-check-complete",
+      "label": "Pre-check completed"
+    },
+    {
+      "id": "prediction-made",
+      "label": "Try-before-reveal prediction entered"
+    },
+    {
+      "id": "guided-check-complete",
+      "label": "Guided diagram checks completed"
+    },
+    {
+      "id": "mini-quiz-complete",
+      "label": "Mini-quiz completed"
+    },
+    {
+      "id": "mastery-checklist-complete",
+      "label": "Mastery checklist completed"
+    }
+  ],
+  "fallback": {
+    "markdown": "The Circle Design Problems Lab asks you to choose a design scenario, label the radius or diameter, predict area, reveal the model, and complete quick checks. If the mini-app is unavailable, draw the model by hand, label the radius, choose the correct circle area expression, and explain the answer in square units.",
+    "image": "../images/visual-intro.svg"
+  }
+}

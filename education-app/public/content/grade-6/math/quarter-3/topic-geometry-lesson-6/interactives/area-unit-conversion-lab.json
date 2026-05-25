@@ -1,0 +1,13 @@
+{
+  "id": "area-unit-conversion-lab",
+  "version": "1.0",
+  "runtime": "sandbox-local",
+  "widget": "sandbox-host",
+  "title": "Area Unit Conversion Lab",
+  "props": {
+    "htmlPath": "../miniapps/area-unit-conversion-lab.html"
+  },
+  "fallback": {
+    "markdown": "Interactive lab unavailable. Remember: 1 m² = 10000 cm². Multiply by 10000 from m² to cm² and divide by 10000 from cm² to m²."
+  }
+}

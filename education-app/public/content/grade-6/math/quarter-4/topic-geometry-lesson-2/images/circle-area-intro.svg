@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Circle area introduction</title>
+  <desc id="desc">A blue circle with shaded interior showing that area covers the inside.</desc>
+  <rect width="720" height="360" fill="#f7fbff"/>
+  <circle cx="220" cy="180" r="110" fill="#dbeafe" stroke="#2563eb" stroke-width="6"/>
+  <circle cx="220" cy="180" r="4" fill="#172033"/>
+  <text x="374" y="102" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#172033">Area of a Circle</text>
+  <text x="374" y="150" font-family="Arial, sans-serif" font-size="24" fill="#334155">Area is the space inside.</text>
+  <text x="374" y="204" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#2563eb">A = pi r squared</text>
+  <text x="374" y="252" font-family="Arial, sans-serif" font-size="22" fill="#64748b">Use square units for the answer.</text>
+</svg>

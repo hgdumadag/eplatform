@@ -1,0 +1,107 @@
+{
+  "id": "grade-6-math-q4-geometry-lesson-10-assessment",
+  "examId": "grade-6-math-q4-geometry-lesson-10-assessment",
+  "examType": "assessment",
+  "title": "Assessment: Quarter Performance Task Floor Pattern",
+  "description": "Show mastery by solving performance-task questions about floor pattern area, boundary length, and material estimates.",
+  "totalPoints": 100,
+  "totalQuestions": 10,
+  "timeLimit": 40,
+  "passingScore": 75,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A circular rug design has diameter 10 m. Using $\\pi \\approx 3.14$, what is its area?",
+      "options": ["31.4 m²", "78.5 m²", "157 m²", "314 m²"],
+      "correctAnswer": 1,
+      "explanation": "The radius is $10\\div2=5$ m. Area is $3.14(5^2)=78.5\\text{ m}^2$."
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A rectangular pattern is 8 m by 6 m with a semicircle attached to one 6 m side. What expression gives the total area?",
+      "options": [
+        "$8\\times6 + \\frac{1}{2}(3.14)(3^2)$",
+        "$8+6 + \\frac{1}{2}(3.14)(6^2)$",
+        "$8\\times6 + 2(3.14)(3)$",
+        "$8\\times6 + 3.14(6^2)$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The rectangle area is $8\\times6$. The semicircle diameter is 6 m, so the radius is 3 m."
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A floor plan has total area $93\\text{ m}^2$. One tile box covers $8\\text{ m}^2$. How many boxes should be bought?",
+      "options": ["11 boxes", "12 boxes", "13 boxes", "744 boxes"],
+      "correctAnswer": 1,
+      "explanation": "$93\\div8=11.625$, so round up to 12 boxes."
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which outside boundary expression fits a 12 m by 4 m rectangle with a semicircle attached to one 4 m side?",
+      "options": [
+        "$12+12+4+3.14(2)$",
+        "$12+12+4+4+3.14(2)$",
+        "$12\\times4+3.14(2)$",
+        "$12+4+3.14(4^2)$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The outside boundary includes two 12 m sides, the opposite 4 m side, and the semicircle arc $\\pi r=3.14(2)$."
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "points": 10,
+      "question": "A material that covers a surface, such as tile or adhesive, should usually be estimated from area.",
+      "correctAnswer": "true",
+      "explanation": "Surface materials cover square units, so area is the correct measurement."
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "points": 10,
+      "question": "For a semicircle with radius 5 m, the curved arc length is $3.14(5)$ meters.",
+      "correctAnswer": "true",
+      "explanation": "A semicircle arc is half a circumference: $\\frac{1}{2}(2\\pi r)=\\pi r=3.14(5)$."
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "points": 10,
+      "question": "A circle has radius 6 m. Using $\\pi \\approx 3.14$, find its area.",
+      "correctAnswer": "113.04 or 113.04 m^2 or 113.04 square meters",
+      "explanation": "$A=3.14(6^2)=3.14(36)=113.04$."
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "points": 10,
+      "question": "A boundary length is 41 m. Border trim is sold in 5 m strips. How many whole strips are needed?",
+      "correctAnswer": "9 or 9 strips",
+      "explanation": "$41\\div5=8.2$, so round up to 9 strips."
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "points": 10,
+      "question": "A student finds the area of a circle with diameter 14 m by calculating $3.14(14^2)$. Explain the error and correct expression.",
+      "correctAnswer": "The student used the diameter as the radius. The radius is 7 m, so the correct expression is 3.14 x 7^2.",
+      "explanation": "Circle area uses radius. Since the diameter is 14 m, the radius is 7 m."
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "points": 10,
+      "question": "Describe a complete plan for solving a floor-pattern performance task that asks for area, boundary length, and material estimates.",
+      "correctAnswer": "Sketch and label the design, split it into non-overlapping shapes for area, trace only the outside edge for boundary length, divide area or boundary length by the material coverage, round up for whole packages, and label all units correctly.",
+      "explanation": "A complete plan includes design labels, area decomposition, outside boundary tracing, material division, rounding, and correct units."
+    }
+  ]
+}

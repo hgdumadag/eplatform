@@ -1,0 +1,110 @@
+{
+  "examId": "grade-6-math-q4-geometry-lesson-3-assessment",
+  "examType": "assessment",
+  "title": "Diameter to Area Assessment",
+  "description": "Show mastery of finding radius from diameter before calculating circle area.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A circle has diameter 16 cm. What radius should be used in A = pi r^2?",
+      "options": [
+        "8 cm",
+        "16 cm",
+        "32 cm",
+        "256 cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Radius is half of diameter, so r = 16 / 2 = 8 cm.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A circular rug has diameter 4 m. Using pi = 3.14, find its area. Enter just the number.",
+      "correctAnswer": "12.56",
+      "explanation": "First find r = 4 / 2 = 2. Then A = 3.14(2^2) = 3.14(4) = 12.56.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A circle with diameter 9 inches has radius 4.5 inches.",
+      "correctAnswer": "true",
+      "explanation": "Radius is half the diameter: 9 / 2 = 4.5 inches.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A circular pond has diameter 30 feet. Using pi = 3.14, what is its area?",
+      "options": [
+        "706.5 square feet",
+        "2826 square feet",
+        "94.2 square feet",
+        "188.4 square feet"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The radius is 30 / 2 = 15. Then A = 3.14(15^2) = 3.14(225) = 706.5 square feet.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "short-answer",
+      "question": "A classmate answers 200.96 square cm for a circle with diameter 8 cm. Explain why that answer is incorrect and give the correct area using pi = 3.14.",
+      "correctAnswer": "The classmate used 8 as the radius. The radius is 8 / 2 = 4, so the correct area is 3.14(4^2) = 50.24 square cm.",
+      "explanation": "The diameter must be divided by 2 first. With r = 4, A = 3.14(16) = 50.24 square cm.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A round mirror has diameter 11 cm. What is its radius? Enter just the number.",
+      "correctAnswer": "5.5",
+      "explanation": "Radius is half of diameter: 11 / 2 = 5.5.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which solution step must come before calculating area when the given measurement is diameter?",
+      "options": [
+        "Divide the diameter by 2 to find the radius",
+        "Multiply the diameter by 2 to find the radius",
+        "Square the diameter",
+        "Add 3.14 to the diameter"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The area formula uses radius, so the diameter must first be divided by 2.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "A circular sign has diameter 24 inches. Using pi = 3.14, what is its area? Enter just the number.",
+      "correctAnswer": "452.16",
+      "explanation": "The radius is 24 / 2 = 12. Then A = 3.14(12^2) = 3.14(144) = 452.16.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "For a circle with diameter 5 m, the correct area setup is A = 3.14(2.5^2).",
+      "correctAnswer": "true",
+      "explanation": "The radius is 5 / 2 = 2.5, so A = 3.14(2.5^2) is the correct setup.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Write the two steps for finding the area of a circle when you are given the diameter.",
+      "correctAnswer": "First divide the diameter by 2 to find the radius. Then substitute the radius into A = pi r^2 and calculate the area.",
+      "explanation": "The key sequence is diameter to radius, then radius into A = pi r^2.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "examId": "grade-6-math-q4-geometry-lesson-8-circle-design-problems-assessment",
+  "examType": "assessment",
+  "title": "Circle Design Problems Assessment",
+  "description": "Demonstrate mastery by modeling circle design problems with labeled diagrams and applying area formulas.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A circular flower garden has radius 8 m. Using $\\pi = 3.14$, what is the planting area?",
+      "options": [
+        "200.96 square meters",
+        "50.24 square meters",
+        "25.12 square meters",
+        "401.92 square meters"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The garden is a whole circle: $3.14(8^2)=3.14(64)=200.96$ square meters.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A round label has diameter 16 cm. Using $\\pi = 3.14$, what is its area? Enter just the number.",
+      "correctAnswer": "200.96",
+      "explanation": "The radius is $16 \\div 2 = 8$ cm. Area is $3.14(8^2)=200.96$ square centimeters.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "For a ring-shaped mat, the area is found by subtracting the inner circle area from the outer circle area.",
+      "correctAnswer": "true",
+      "explanation": "The inner circle is a hole or missing part, so its area is subtracted from the outer circle area.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "short-answer",
+      "question": "A circular garden pond has diameter 18 m. Use $\\pi = 3.14$. Describe the labeled model and find the surface area.",
+      "correctAnswer": "The model is a circle labeled diameter 18 m and radius 9 m. The area is 3.14(9^2) = 254.34 square meters.",
+      "explanation": "The radius is $18 \\div 2 = 9$ m. The area is $3.14(81)=254.34$ square meters.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A semicircle entry mat has radius 6 ft. Which value is its area using $\\pi = 3.14$?",
+      "options": [
+        "56.52 square feet",
+        "113.04 square feet",
+        "18.84 square feet",
+        "36 square feet"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A semicircle area is $\\frac{1}{2}(3.14)(6^2)=\\frac{1}{2}(113.04)=56.52$ square feet.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A circular badge label has radius 4 cm. Using $\\pi = 3.14$, what is the printed area? Enter just the number.",
+      "correctAnswer": "50.24",
+      "explanation": "Use $A=3.14(4^2)=3.14(16)=50.24$ square centimeters.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "A ring-shaped table mat has outer radius 9 in and inner radius 4 in. Use $\\pi = 3.14$. Show the subtraction step and find the mat area.",
+      "correctAnswer": "Outer area is 3.14(9^2) = 254.34. Inner area is 3.14(4^2) = 50.24. Subtract: 254.34 - 50.24 = 204.1 square inches.",
+      "explanation": "The ring area is outer circle minus inner circle: $254.34 - 50.24 = 204.10$ square inches.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "question": "If a problem gives a circle's diameter, the diameter can be used directly as r in $A = \\pi r^2$.",
+      "correctAnswer": "false",
+      "explanation": "The formula uses radius. If diameter is given, divide it by 2 first.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "A student draws a circular label and writes only \"12 cm\" across the whole circle. What label should be added before solving?",
+      "options": [
+        "Radius = 6 cm",
+        "Radius = 12 cm",
+        "Area = 12 cm",
+        "Diameter = 6 cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A line across the whole circle is the diameter. If the diameter is 12 cm, the radius is 6 cm.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A school sign has a circular outer edge with radius 10 in and a circular center picture with radius 7 in. The border is painted. Use $\\pi = 3.14$. Model the border and find its area.",
+      "correctAnswer": "The model is a ring with outer radius 10 in and inner radius 7 in. Outer area is 3.14(10^2)=314. Inner area is 3.14(7^2)=153.86. Border area is 314 - 153.86 = 160.14 square inches.",
+      "explanation": "A painted border is a ring: large circle minus center circle. $314 - 153.86 = 160.14$ square inches.",
+      "points": 10
+    }
+  ]
+}

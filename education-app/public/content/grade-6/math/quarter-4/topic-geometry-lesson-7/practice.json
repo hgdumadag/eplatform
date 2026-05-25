@@ -1,0 +1,94 @@
+{
+  "examId": "grade-6-math-q4-geometry-lesson-7-circumference-review-practice",
+  "examType": "practice",
+  "title": "Circumference Review Practice Exam",
+  "description": "Practice choosing circumference or area in mixed circle problems.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A circular track has diameter 30 m. Which formula is best for finding one lap around the track?",
+      "options": [
+        "$A = \\pi r^2$",
+        "$C = \\pi d$",
+        "$A = l \\times w$",
+        "$C = d^2$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "One lap goes around the circle, so use circumference. Since diameter is given, $C = \\pi d$ is best.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A circle has radius 7 cm. Using $\\pi = 3.14$, what is its circumference? Enter just the number.",
+      "correctAnswer": "43.96",
+      "explanation": "Circumference is $C = 2\\pi r = 2(3.14)(7) = 43.96$ centimeters.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "If a question asks how much space a circle covers, use area.",
+      "correctAnswer": "true",
+      "explanation": "Area measures the space inside or covered by a circle.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A round rug has diameter 8 ft. What radius should be used to find its area?",
+      "options": [
+        "16 ft",
+        "8 ft",
+        "4 ft",
+        "2 ft"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Area uses radius. The radius is half the diameter: $8 \\div 2 = 4$ ft.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "A circular table has radius 5 ft. Using $\\pi = 3.14$, what is its area? Enter just the number.",
+      "correctAnswer": "78.5",
+      "explanation": "Area is $A = \\pi r^2 = 3.14(5^2) = 3.14(25) = 78.5$ square feet.",
+      "points": 13
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A fence is built around a circular garden. What measurement is needed?",
+      "options": [
+        "Area, because the fence covers the inside",
+        "Circumference, because the fence goes around the edge",
+        "Volume, because the garden is round",
+        "Diameter squared, because fences are measured in square units"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A fence goes around the boundary, so the needed measurement is circumference.",
+      "points": 13
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "A circular sign has diameter 12 in. Paint covers one side of the sign. Use $\\pi = 3.14$. Explain which formula to use and find the amount of painted space.",
+      "correctAnswer": "Paint covers the inside, so use area. The radius is 12 ÷ 2 = 6 in. A = 3.14(6^2) = 113.04 square inches.",
+      "explanation": "Painting one side means area. Convert diameter to radius first, then use $A = \\pi r^2$.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain how you decide whether a circle problem needs circumference or area.",
+      "correctAnswer": "Use circumference when the problem asks for distance around the circle, such as a border, rim, lap, or fence. Use area when it asks for space inside or covered by the circle.",
+      "explanation": "The decision comes from what is measured: around means circumference, and inside or covered space means area.",
+      "points": 12
+    }
+  ]
+}

@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shaded Regions Lab</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #172033;
+        --muted: #5b667a;
+        --line: #d8dee9;
+        --panel: #ffffff;
+        --bg: #f6f8fb;
+        --blue: #1f6fb2;
+        --green: #217a52;
+        --red: #b83232;
+        --amber: #9a6700;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: Arial, sans-serif;
+      }
+
+      .shell {
+        display: grid;
+        gap: 14px;
+        max-width: 1120px;
+        margin: 0 auto;
+        padding: 16px;
+      }
+
+      .topbar,
+      .panel {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06);
+      }
+
+      .topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 14px;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+      }
+
+      h1 {
+        font-size: 22px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+
+      h3 {
+        font-size: 16px;
+      }
+
+      .status {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .badge {
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 6px 10px;
+        color: var(--muted);
+        font-size: 13px;
+        white-space: nowrap;
+      }
+
+      .badge.done {
+        border-color: #9bd7bd;
+        background: #e9f8f0;
+        color: var(--green);
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: minmax(280px, 360px) 1fr;
+        gap: 14px;
+      }
+
+      .panel {
+        padding: 14px;
+      }
+
+      .stack {
+        display: grid;
+        gap: 12px;
+      }
+
+      label {
+        display: grid;
+        gap: 6px;
+        color: var(--muted);
+        font-size: 13px;
+        font-weight: 700;
+      }
+
+      select,
+      input[type="number"] {
+        width: 100%;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        padding: 9px 10px;
+        color: var(--ink);
+        font-size: 15px;
+      }
+
+      button {
+        border: 1px solid #185f99;
+        border-radius: 6px;
+        background: var(--blue);
+        color: #ffffff;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 9px 12px;
+      }
+
+      button.secondary {
+        background: #ffffff;
+        color: var(--blue);
+      }
+
+      button:focus,
+      input:focus,
+      select:focus {
+        outline: 3px solid rgba(31, 111, 178, 0.22);
+        outline-offset: 1px;
+      }
+
+      .button-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .scenario-card {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 12px;
+        background: #fbfdff;
+      }
+
+      .muted {
+        color: var(--muted);
+        font-size: 14px;
+        line-height: 1.45;
+      }
+
+      .canvas-wrap {
+        min-height: 330px;
+        display: grid;
+        place-items: center;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #ffffff;
+      }
+
+      svg {
+        width: 100%;
+        max-width: 640px;
+        height: auto;
+      }
+
+      .steps {
+        display: grid;
+        gap: 8px;
+        margin-top: 12px;
+      }
+
+      .step {
+        border-left: 4px solid var(--blue);
+        background: #f1f7fd;
+        border-radius: 6px;
+        padding: 9px 10px;
+        font-size: 15px;
+        line-height: 1.4;
+      }
+
+      .feedback {
+        min-height: 22px;
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+      .feedback.good {
+        color: var(--green);
+      }
+
+      .feedback.warn {
+        color: var(--amber);
+      }
+
+      .feedback.bad {
+        color: var(--red);
+      }
+
+      .quiz-options {
+        display: grid;
+        gap: 8px;
+      }
+
+      .quiz-options label,
+      .checklist label {
+        display: flex;
+        align-items: flex-start;
+        gap: 8px;
+        color: var(--ink);
+        font-weight: 400;
+      }
+
+      .mini-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      @media (max-width: 820px) {
+        .grid,
+        .mini-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .topbar {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="shell">
+      <section class="topbar" aria-label="Lab progress">
+        <div>
+          <h1>Shaded Regions Lab</h1>
+          <p class="muted">Predict first, reveal the subtraction steps, then check your mastery.</p>
+        </div>
+        <div class="status">
+          <span id="badge-pre" class="badge">Pre-check</span>
+          <span id="badge-predict" class="badge">Prediction</span>
+          <span id="badge-guided" class="badge">Guided checks</span>
+          <span id="badge-quiz" class="badge">Mini-quiz</span>
+        </div>
+      </section>
+
+      <section class="grid">
+        <aside class="panel stack">
+          <h2>1. Pre-check</h2>
+          <label>
+            A circle has diameter 10. What is its radius?
+            <input id="pre-radius" type="number" inputmode="decimal" />
+          </label>
+          <div class="button-row">
+            <button id="check-pre" type="button">Check</button>
+          </div>
+          <p id="pre-feedback" class="feedback"></p>
+
+          <h2>2. Choose a figure</h2>
+          <label>
+            Scenario
+            <select id="scenario-select"></select>
+          </label>
+          <div id="scenario-text" class="scenario-card muted"></div>
+
+          <h2>3. Try before reveal</h2>
+          <label>
+            Your predicted shaded area
+            <input id="prediction" type="number" inputmode="decimal" step="0.01" />
+          </label>
+          <div class="button-row">
+            <button id="check-prediction" type="button">Check prediction</button>
+            <button id="reveal" class="secondary" type="button">Reveal steps</button>
+          </div>
+          <p id="prediction-feedback" class="feedback"></p>
+        </aside>
+
+        <section class="panel">
+          <div class="canvas-wrap">
+            <svg id="diagram" viewBox="0 0 640 360" role="img" aria-labelledby="diagram-title">
+              <title id="diagram-title">Selected shaded region diagram</title>
+              <rect width="640" height="360" fill="#fbfdff"></rect>
+              <g id="shape-layer"></g>
+              <g id="label-layer"></g>
+            </svg>
+          </div>
+          <div id="steps" class="steps" aria-live="polite"></div>
+        </section>
+      </section>
+
+      <section class="mini-grid">
+        <section class="panel stack">
+          <h2>Guided Checks</h2>
+          <label>
+            For the selected figure, enter the whole area.
+            <input id="whole-answer" type="number" inputmode="decimal" step="0.01" />
+          </label>
+          <label>
+            Enter the total removed circular area.
+            <input id="removed-answer" type="number" inputmode="decimal" step="0.01" />
+          </label>
+          <label>
+            Enter the area left.
+            <input id="left-answer" type="number" inputmode="decimal" step="0.01" />
+          </label>
+          <div class="button-row">
+            <button id="check-guided" type="button">Check guided answers</button>
+          </div>
+          <p id="guided-feedback" class="feedback"></p>
+        </section>
+
+        <section class="panel stack">
+          <h2>Mini-Quiz</h2>
+          <h3>Which statement is always true for these problems?</h3>
+          <div class="quiz-options">
+            <label><input name="quiz" type="radio" value="add" /> Add the circular area to the whole area.</label>
+            <label><input name="quiz" type="radio" value="subtract" /> Subtract the removed circular area from the whole area.</label>
+            <label><input name="quiz" type="radio" value="perimeter" /> Use perimeter because a circle is curved.</label>
+          </div>
+          <div class="button-row">
+            <button id="check-quiz" type="button">Check mini-quiz</button>
+          </div>
+          <p id="quiz-feedback" class="feedback"></p>
+        </section>
+      </section>
+
+      <section class="panel stack">
+        <h2>Mastery Checklist</h2>
+        <div class="checklist">
+          <label><input type="checkbox" /> I identified the whole shape.</label>
+          <label><input type="checkbox" /> I found the removed circular area.</label>
+          <label><input type="checkbox" /> I used radius, not diameter, in the circle formula.</label>
+          <label><input type="checkbox" /> I showed the subtraction step.</label>
+          <label><input type="checkbox" /> I wrote square units in my final answer.</label>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const scenarios = [
+        {
+          id: "rectangleCircle",
+          name: "Rectangle minus circle",
+          text: "A 14 cm by 10 cm rectangle has a circular hole with radius 3 cm. Use pi = 3.14.",
+          whole: 140,
+          removed: 28.26,
+          left: 111.74,
+          steps: [
+            "Whole rectangle: 14 x 10 = 140",
+            "Removed circle: 3.14 x 3^2 = 28.26",
+            "Subtract: 140 - 28.26 = 111.74 square centimeters"
+          ]
+        },
+        {
+          id: "squareQuarters",
+          name: "Square minus four quarter circles",
+          text: "A 12 cm by 12 cm square has four quarter circles with radius 3 cm removed. Use pi = 3.14.",
+          whole: 144,
+          removed: 28.26,
+          left: 115.74,
+          steps: [
+            "Whole square: 12 x 12 = 144",
+            "Four quarter circles make one circle: 3.14 x 3^2 = 28.26",
+            "Subtract: 144 - 28.26 = 115.74 square centimeters"
+          ]
+        },
+        {
+          id: "rectangleSemi",
+          name: "Rectangle minus semicircle",
+          text: "A 16 m by 8 m rectangle has a semicircle with radius 4 m removed. Use pi = 3.14.",
+          whole: 128,
+          removed: 25.12,
+          left: 102.88,
+          steps: [
+            "Whole rectangle: 16 x 8 = 128",
+            "Removed semicircle: 1/2 x 3.14 x 4^2 = 25.12",
+            "Subtract: 128 - 25.12 = 102.88 square meters"
+          ]
+        },
+        {
+          id: "ring",
+          name: "Large circle minus small circle",
+          text: "A large circle has radius 7 cm. A smaller center circle with radius 4 cm is removed. Use pi = 3.14.",
+          whole: 153.86,
+          removed: 50.24,
+          left: 103.62,
+          steps: [
+            "Whole large circle: 3.14 x 7^2 = 153.86",
+            "Removed small circle: 3.14 x 4^2 = 50.24",
+            "Subtract: 153.86 - 50.24 = 103.62 square centimeters"
+          ]
+        }
+      ];
+
+      const select = document.getElementById("scenario-select");
+      const scenarioText = document.getElementById("scenario-text");
+      const shapeLayer = document.getElementById("shape-layer");
+      const labelLayer = document.getElementById("label-layer");
+      const steps = document.getElementById("steps");
+
+      scenarios.forEach((scenario, index) => {
+        const option = document.createElement("option");
+        option.value = String(index);
+        option.textContent = scenario.name;
+        select.appendChild(option);
+      });
+
+      const near = (actual, expected) => Math.abs(Number(actual) - expected) <= 0.02;
+      const markDone = (id) => document.getElementById(id).classList.add("done");
+      const setFeedback = (id, text, kind) => {
+        const el = document.getElementById(id);
+        el.textContent = text;
+        el.className = "feedback " + kind;
+      };
+
+      function current() {
+        return scenarios[Number(select.value)];
+      }
+
+      function text(x, y, value, size = 18, color = "#172033") {
+        return `<text x="${x}" y="${y}" text-anchor="middle" font-family="Arial, sans-serif" font-size="${size}" font-weight="700" fill="${color}">${value}</text>`;
+      }
+
+      function renderDiagram() {
+        const item = current();
+        steps.innerHTML = "";
+        scenarioText.textContent = item.text;
+        if (item.id === "rectangleCircle") {
+          shapeLayer.innerHTML = '<rect x="130" y="80" width="380" height="210" rx="6" fill="#dff0ff" stroke="#1f6fb2" stroke-width="4"/><circle cx="320" cy="185" r="62" fill="#fff" stroke="#b83232" stroke-width="4"/><line x1="320" y1="185" x2="382" y2="185" stroke="#b83232" stroke-width="3"/>';
+          labelLayer.innerHTML = text(320, 60, "14 cm") + text(96, 190, "10 cm") + text(367, 176, "r = 3", 16, "#b83232");
+        } else if (item.id === "squareQuarters") {
+          shapeLayer.innerHTML = '<rect x="190" y="55" width="260" height="260" fill="#e8f5df" stroke="#217a52" stroke-width="4"/><path d="M190 55h78a78 78 0 0 1-78 78z" fill="#fff" stroke="#b83232" stroke-width="4"/><path d="M450 55v78a78 78 0 0 1-78-78z" fill="#fff" stroke="#b83232" stroke-width="4"/><path d="M450 315h-78a78 78 0 0 1 78-78z" fill="#fff" stroke="#b83232" stroke-width="4"/><path d="M190 315v-78a78 78 0 0 1 78 78z" fill="#fff" stroke="#b83232" stroke-width="4"/>';
+          labelLayer.innerHTML = text(320, 38, "12 cm") + text(130, 188, "12 cm") + text(320, 188, "4 quarters = 1 circle", 18, "#217a52");
+        } else if (item.id === "rectangleSemi") {
+          shapeLayer.innerHTML = '<rect x="120" y="90" width="400" height="200" rx="6" fill="#dff0ff" stroke="#1f6fb2" stroke-width="4"/><path d="M240 90a80 80 0 0 0 160 0z" fill="#fff" stroke="#b83232" stroke-width="4"/><line x1="320" y1="90" x2="400" y2="90" stroke="#b83232" stroke-width="3"/>';
+          labelLayer.innerHTML = text(320, 70, "16 m") + text(84, 194, "8 m") + text(365, 80, "r = 4", 16, "#b83232");
+        } else {
+          shapeLayer.innerHTML = '<circle cx="320" cy="180" r="122" fill="#ece0ff" stroke="#6f42a0" stroke-width="4"/><circle cx="320" cy="180" r="70" fill="#fff" stroke="#b83232" stroke-width="4"/><line x1="320" y1="180" x2="442" y2="180" stroke="#6f42a0" stroke-width="3"/><line x1="320" y1="180" x2="390" y2="180" stroke="#b83232" stroke-width="3"/>';
+          labelLayer.innerHTML = text(452, 204, "7 cm", 16, "#6f42a0") + text(367, 170, "4 cm", 16, "#b83232") + text(320, 36, "large circle - small circle", 20);
+        }
+      }
+
+      function revealSteps() {
+        steps.innerHTML = current()
+          .steps.map((step) => `<div class="step">${step}</div>`)
+          .join("");
+      }
+
+      document.getElementById("check-pre").addEventListener("click", () => {
+        if (near(document.getElementById("pre-radius").value, 5)) {
+          setFeedback("pre-feedback", "Correct. Radius is half of diameter.", "good");
+          markDone("badge-pre");
+        } else {
+          setFeedback("pre-feedback", "Try again. Divide the diameter by 2.", "warn");
+        }
+      });
+
+      document.getElementById("check-prediction").addEventListener("click", () => {
+        const guess = document.getElementById("prediction").value;
+        if (near(guess, current().left)) {
+          setFeedback("prediction-feedback", "Nice. Your prediction matches the shaded area.", "good");
+          markDone("badge-predict");
+        } else {
+          setFeedback("prediction-feedback", "Keep going. Find whole area, removed area, then subtract.", "warn");
+        }
+      });
+
+      document.getElementById("reveal").addEventListener("click", () => {
+        revealSteps();
+        if (document.getElementById("prediction").value !== "") {
+          markDone("badge-predict");
+        }
+      });
+
+      document.getElementById("check-guided").addEventListener("click", () => {
+        const item = current();
+        const wholeOk = near(document.getElementById("whole-answer").value, item.whole);
+        const removedOk = near(document.getElementById("removed-answer").value, item.removed);
+        const leftOk = near(document.getElementById("left-answer").value, item.left);
+        if (wholeOk && removedOk && leftOk) {
+          setFeedback("guided-feedback", "All three are correct. The subtraction chain is clear.", "good");
+          markDone("badge-guided");
+        } else {
+          setFeedback("guided-feedback", "Check each part: whole, removed, then whole minus removed.", "bad");
+        }
+      });
+
+      document.getElementById("check-quiz").addEventListener("click", () => {
+        const selected = document.querySelector('input[name="quiz"]:checked');
+        if (selected && selected.value === "subtract") {
+          setFeedback("quiz-feedback", "Correct. Removed circular area is subtracted.", "good");
+          markDone("badge-quiz");
+        } else {
+          setFeedback("quiz-feedback", "Try again. A cutout is removed from the whole area.", "warn");
+        }
+      });
+
+      select.addEventListener("change", () => {
+        ["prediction", "whole-answer", "removed-answer", "left-answer"].forEach((id) => {
+          document.getElementById(id).value = "";
+        });
+        ["prediction-feedback", "guided-feedback"].forEach((id) => setFeedback(id, "", ""));
+        renderDiagram();
+      });
+
+      renderDiagram();
+    </script>
+  </body>
+</html>

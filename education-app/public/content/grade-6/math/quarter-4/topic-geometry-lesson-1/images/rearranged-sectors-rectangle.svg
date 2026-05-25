@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">Rearranged sectors make an almost rectangle</title>
+  <desc id="desc">Alternating sectors arranged into a shape with base pi r and height r.</desc>
+  <rect width="760" height="360" fill="#f7fafc"/>
+  <g transform="translate(70 178)">
+    <polygon points="0,0 76,0 38,-102" fill="#8bd3dd" stroke="#24313f" stroke-width="2"/>
+    <polygon points="0,0 76,0 38,102" fill="#f6c177" stroke="#24313f" stroke-width="2"/>
+    <polygon points="76,0 152,0 114,-102" fill="#8bd3dd" stroke="#24313f" stroke-width="2"/>
+    <polygon points="76,0 152,0 114,102" fill="#f6c177" stroke="#24313f" stroke-width="2"/>
+    <polygon points="152,0 228,0 190,-102" fill="#8bd3dd" stroke="#24313f" stroke-width="2"/>
+    <polygon points="152,0 228,0 190,102" fill="#f6c177" stroke="#24313f" stroke-width="2"/>
+    <polygon points="228,0 304,0 266,-102" fill="#8bd3dd" stroke="#24313f" stroke-width="2"/>
+    <polygon points="228,0 304,0 266,102" fill="#f6c177" stroke="#24313f" stroke-width="2"/>
+    <polygon points="304,0 380,0 342,-102" fill="#8bd3dd" stroke="#24313f" stroke-width="2"/>
+    <polygon points="304,0 380,0 342,102" fill="#f6c177" stroke="#24313f" stroke-width="2"/>
+    <line x1="0" y1="132" x2="380" y2="132" stroke="#087f8c" stroke-width="5"/>
+    <text x="190" y="159" text-anchor="middle" font-family="Arial" font-size="21" font-weight="700" fill="#087f8c">base ≈ πr</text>
+    <line x1="416" y1="0" x2="416" y2="-102" stroke="#c2415b" stroke-width="5"/>
+    <text x="432" y="-48" font-family="Arial" font-size="21" font-weight="700" fill="#c2415b">height = r</text>
+  </g>
+  <text x="70" y="42" font-family="Arial" font-size="23" font-weight="700" fill="#24313f">Same sectors, new arrangement</text>
+  <text x="500" y="176" font-family="Arial" font-size="19" fill="#24313f">Looks like a rectangle:</text>
+  <text x="500" y="210" font-family="Arial" font-size="19" fill="#24313f">Area ≈ base × height</text>
+</svg>

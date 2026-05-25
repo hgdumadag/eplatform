@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="320" viewBox="0 0 640 320" role="img" aria-labelledby="title desc">
+  <title id="title">Semicircle entry mat</title>
+  <desc id="desc">A semicircle mat with radius 5 decimeters labeled.</desc>
+  <rect width="640" height="320" fill="#f0fdf4"/>
+  <text x="320" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1f2937">Semicircle Entry Mat</text>
+  <path d="M200 210 A120 120 0 0 1 440 210 Z" fill="#86efac" stroke="#15803d" stroke-width="4"/>
+  <line x1="320" y1="210" x2="440" y2="210" stroke="#14532d" stroke-width="4"/>
+  <circle cx="320" cy="210" r="6" fill="#14532d"/>
+  <text x="365" y="195" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#14532d">r = 5 dm</text>
+  <text x="320" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#374151">Area = 1/2 of a circle</text>
+</svg>

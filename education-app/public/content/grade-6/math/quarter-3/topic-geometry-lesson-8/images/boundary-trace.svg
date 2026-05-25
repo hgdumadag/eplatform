@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">Composite boundary trace</title>
+  <desc id="desc">An L-shaped composite figure with the outside boundary highlighted and an interior dashed line marked not perimeter.</desc>
+  <rect width="760" height="360" fill="#ffffff"/>
+  <polygon points="170,70 520,70 520,170 390,170 390,280 170,280" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+  <polyline points="170,70 520,70 520,170 390,170 390,280 170,280 170,70" fill="none" stroke="#dc2626" stroke-width="9" stroke-linejoin="round"/>
+  <line x1="390" y1="70" x2="390" y2="170" stroke="#7c2d12" stroke-width="5" stroke-dasharray="12 10"/>
+  <text x="345" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Trace the outside boundary</text>
+  <text x="345" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#dc2626">red path = perimeter</text>
+  <text x="490" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7c2d12">inside line</text>
+  <text x="490" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7c2d12">do not add</text>
+</svg>

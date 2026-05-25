@@ -1,0 +1,116 @@
+{
+  "examId": "grade-6-math-q4-geometry-lesson-4-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 4 Assessment: Semicircle Area",
+  "description": "Show mastery of semicircle area problems involving radius, diameter, units, and error analysis.",
+  "passingScore": 75,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A semicircle is best described as:",
+      "options": [
+        "one fourth of a circle",
+        "one half of a circle",
+        "two full circles",
+        "a circle with no diameter"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A semicircle is exactly one half of a circle.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A semicircle has diameter 22 cm. What is its radius? Enter just the number.",
+      "correctAnswer": "11",
+      "explanation": "The radius is half of the diameter: $22 \\div 2 = 11$.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A semicircle has radius 5 ft. Use $\\pi = 3.14$. What is its area?",
+      "options": [
+        "15.7 square ft",
+        "31.4 square ft",
+        "39.25 square ft",
+        "78.5 square ft"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$A = \\frac{1}{2}(3.14)(5^2) = \\frac{1}{2}(78.5) = 39.25$ square ft.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "A semicircle has radius 9 m. Use $\\pi = 3.14$. What is its area? Enter just the number.",
+      "correctAnswer": "127.17",
+      "explanation": "$9^2 = 81$, $3.14 \\times 81 = 254.34$, and half is $127.17$.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A semicircle has diameter 8 cm. Use $\\pi = 3.14$. What is its area?",
+      "options": [
+        "12.56 square cm",
+        "25.12 square cm",
+        "50.24 square cm",
+        "100.48 square cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The radius is $8 \\div 2 = 4$. Then $A = \\frac{1}{2}(3.14)(16) = 25.12$ square cm.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "The unit for semicircle area should be a square unit, such as square centimeters.",
+      "correctAnswer": "true",
+      "explanation": "Area measures surface, so answers use square units.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A student found the full circle area to be 200 square units. What is the area of one matching semicircle?",
+      "options": [
+        "50 square units",
+        "100 square units",
+        "200 square units",
+        "400 square units"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A semicircle is half of the full circle, so $200 \\div 2 = 100$ square units.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A semicircular rug has diameter 12 ft. Use $\\pi = 3.14$. Find its area and include units.",
+      "correctAnswer": "The radius is 6 ft. The area is (1/2)(3.14)(6^2) = (1/2)(113.04) = 56.52 square ft.",
+      "explanation": "First convert diameter to radius, then apply the semicircle area formula.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Jia says a semicircle with radius 10 cm has area $314$ square cm because $3.14 \\times 10^2 = 314$. Explain the error and give the correct area.",
+      "correctAnswer": "Jia found the area of the full circle. A semicircle is half of that, so the correct area is 157 square cm.",
+      "explanation": "The calculation $3.14 \\times 10^2$ gives the full circle area. Divide by 2 for a semicircle.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "fill-in",
+      "question": "A semicircle has diameter 30 in. Use $\\pi = 3.14$. What is its area? Enter just the number.",
+      "correctAnswer": "353.25",
+      "explanation": "The radius is 15. Then $A = \\frac{1}{2}(3.14)(15^2) = \\frac{1}{2}(706.5) = 353.25$.",
+      "points": 10
+    }
+  ]
+}

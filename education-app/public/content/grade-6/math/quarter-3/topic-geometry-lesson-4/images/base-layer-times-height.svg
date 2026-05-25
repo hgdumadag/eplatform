@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Base layer times height</title>
+  <desc id="desc">A rectangular base layer of unit cubes multiplied by stacked height layers.</desc>
+  <rect width="900" height="520" fill="#f8fafc"/>
+  <text x="42" y="54" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#123047">Base layer × height</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(90 145)" stroke="#334155" stroke-width="2">
+      <rect width="240" height="180" fill="#dbeafe"/>
+      <path d="M60 0v180M120 0v180M180 0v180M0 60h240M0 120h240"/>
+      <text x="120" y="230" font-size="24" font-weight="700" fill="#1e3a8a">l × w = 12</text>
+    </g>
+    <text x="430" y="245" font-size="50" font-weight="700" fill="#0f766e">×</text>
+    <g transform="translate(520 132)">
+      <rect x="0" y="0" width="250" height="56" rx="6" fill="#dcfce7" stroke="#166534" stroke-width="3"/>
+      <rect x="0" y="70" width="250" height="56" rx="6" fill="#dcfce7" stroke="#166534" stroke-width="3"/>
+      <rect x="0" y="140" width="250" height="56" rx="6" fill="#dcfce7" stroke="#166534" stroke-width="3"/>
+      <text x="125" y="250" font-size="24" font-weight="700" fill="#166534">height = 3 layers</text>
+    </g>
+    <text x="450" y="438" font-size="30" font-weight="700" fill="#0f766e">Volume = cubes per layer × layers</text>
+  </g>
+</svg>

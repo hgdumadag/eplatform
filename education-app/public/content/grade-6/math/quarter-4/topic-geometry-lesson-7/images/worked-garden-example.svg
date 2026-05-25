@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Circular garden area example</title>
+  <desc id="desc">A circular garden with radius labeled 6 meters and shaded inside.</desc>
+  <rect width="720" height="360" fill="#fbfdff"/>
+  <circle cx="248" cy="180" r="118" fill="#e8f5df" stroke="#217a52" stroke-width="5"/>
+  <line x1="248" y1="180" x2="366" y2="180" stroke="#b83232" stroke-width="5"/>
+  <circle cx="248" cy="180" r="6" fill="#172033"/>
+  <text x="309" y="166" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#b83232">r = 6 m</text>
+  <text x="248" y="308" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#172033">grass seed covers the inside</text>
+  <rect x="450" y="103" width="218" height="154" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="559" y="136" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#1f6fb2">Covered space</text>
+  <text x="559" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#172033">A = πr²</text>
+  <text x="559" y="204" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#172033">3.14 x 6²</text>
+  <text x="559" y="238" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#172033">113.04 m²</text>
+</svg>

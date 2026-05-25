@@ -1,0 +1,40 @@
+{
+  "id": "grade-6-math-q3-geometry-lesson-8",
+  "grade": 6,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Geometry - Lesson 8",
+  "description": "Find the perimeter of composite figures by tracing the outside boundary, finding missing side lengths, and adding all outer sides.",
+  "learningObjectives": [
+    "Trace the outside boundary of a composite figure",
+    "Identify which side lengths are part of the perimeter",
+    "Find missing side lengths by matching horizontal and vertical totals",
+    "Add all outside side lengths to find perimeter",
+    "Explain and correct common perimeter mistakes"
+  ],
+  "prerequisites": [
+    "Understand perimeter as distance around a figure",
+    "Add whole numbers and decimals",
+    "Recognize rectangles and right angles",
+    "Use opposite sides of rectangles to find missing lengths",
+    "Distinguish linear units from square units"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": ["geometry", "measurement", "perimeter", "composite figures", "missing sides", "rectangles", "boundary tracing"],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/boundary-trace.svg",
+      "images/missing-side-l-shape.svg",
+      "images/perimeter-routine.svg",
+      "images/worked-example-stair-step.svg",
+      "images/worked-example-cutout.svg",
+      "images/error-analysis-interior-edge.svg"
+    ]
+  }
+}

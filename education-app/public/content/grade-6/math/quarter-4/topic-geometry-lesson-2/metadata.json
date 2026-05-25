@@ -1,0 +1,34 @@
+{
+  "id": "grade-6-math-q4-geometry-lesson-2",
+  "grade": 6,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "Geometry - Lesson 2",
+  "description": "Use the formula A = pi r squared to compute the area of a circle when the radius is given, including correct square units.",
+  "learningObjectives": [
+    "Identify the radius as the distance from the center of a circle to its edge",
+    "Use A = pi r squared to find the area of a circle from a given radius",
+    "Show the radius-squared step before multiplying by pi",
+    "Write circle area answers with square units",
+    "Check direct circle-area problems for common mistakes"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "beginner",
+  "tags": ["grade-6", "math", "geometry", "circles", "area", "pi", "radius"],
+  "prerequisites": ["Multiplication facts", "Exponents as repeated multiplication", "Basic circle vocabulary"],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/circle-area-intro.svg",
+      "images/radius-vs-diameter.svg",
+      "images/formula-parts.svg",
+      "images/worked-example-radius-4.svg",
+      "images/unit-check.svg",
+      "images/misconception-alerts.svg"
+    ]
+  }
+}

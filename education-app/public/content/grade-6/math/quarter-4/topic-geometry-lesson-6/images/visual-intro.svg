@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Whole area minus removed circle gives shaded area</title>
+  <desc id="desc">A rectangle labeled whole area with a circular hole labeled removed area and an equation showing shaded area equals whole minus removed.</desc>
+  <rect width="720" height="360" fill="#f7fafc"/>
+  <rect x="70" y="72" width="250" height="170" rx="8" fill="#dff4ea" stroke="#176b4d" stroke-width="4"/>
+  <circle cx="195" cy="157" r="48" fill="#ffffff" stroke="#bf3b3b" stroke-width="4"/>
+  <text x="195" y="51" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#17324d">whole shape</text>
+  <text x="195" y="163" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#bf3b3b">removed</text>
+  <text x="195" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#17324d">shaded area = whole area - removed area</text>
+  <path d="M360 157h70" stroke="#17324d" stroke-width="5" stroke-linecap="round"/>
+  <path d="M420 137l28 20-28 20" fill="none" stroke="#17324d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="480" y="72" width="170" height="170" rx="8" fill="#dff4ea" stroke="#176b4d" stroke-width="4"/>
+  <text x="565" y="51" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#17324d">area left</text>
+  <text x="565" y="163" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#176b4d">subtract</text>
+  <text x="565" y="196" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#176b4d">then label square units</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">More sectors improve the estimate</title>
+  <desc id="desc">Comparison of fewer sectors and more sectors in rearranged models.</desc>
+  <rect width="760" height="360" fill="#f7fafc"/>
+  <text x="116" y="50" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#24313f">8 sectors</text>
+  <text x="505" y="50" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#24313f">24 sectors</text>
+  <g transform="translate(45 180)">
+    <polygon points="0,0 70,0 35,-92" fill="#8bd3dd" stroke="#24313f" stroke-width="2"/>
+    <polygon points="0,0 70,0 35,92" fill="#f6c177" stroke="#24313f" stroke-width="2"/>
+    <polygon points="70,0 140,0 105,-92" fill="#8bd3dd" stroke="#24313f" stroke-width="2"/>
+    <polygon points="70,0 140,0 105,92" fill="#f6c177" stroke="#24313f" stroke-width="2"/>
+    <polygon points="140,0 210,0 175,-92" fill="#8bd3dd" stroke="#24313f" stroke-width="2"/>
+    <polygon points="140,0 210,0 175,92" fill="#f6c177" stroke="#24313f" stroke-width="2"/>
+  </g>
+  <g transform="translate(360 180)">
+    <path d="M0 0 L24 0 L12 -78 Z M0 0 L24 0 L12 78 Z M24 0 L48 0 L36 -78 Z M24 0 L48 0 L36 78 Z M48 0 L72 0 L60 -78 Z M48 0 L72 0 L60 78 Z M72 0 L96 0 L84 -78 Z M72 0 L96 0 L84 78 Z M96 0 L120 0 L108 -78 Z M96 0 L120 0 L108 78 Z M120 0 L144 0 L132 -78 Z M120 0 L144 0 L132 78 Z M144 0 L168 0 L156 -78 Z M144 0 L168 0 L156 78 Z M168 0 L192 0 L180 -78 Z M168 0 L192 0 L180 78 Z M192 0 L216 0 L204 -78 Z M192 0 L216 0 L204 78 Z M216 0 L240 0 L228 -78 Z M216 0 L240 0 L228 78 Z M240 0 L264 0 L252 -78 Z M240 0 L264 0 L252 78 Z M264 0 L288 0 L276 -78 Z M264 0 L288 0 L276 78 Z" fill="#8bd3dd" stroke="#24313f" stroke-width="1.3"/>
+    <path d="M0 0 L24 0 L12 78 Z M24 0 L48 0 L36 78 Z M48 0 L72 0 L60 78 Z M72 0 L96 0 L84 78 Z M96 0 L120 0 L108 78 Z M120 0 L144 0 L132 78 Z M144 0 L168 0 L156 78 Z M168 0 L192 0 L180 78 Z M192 0 L216 0 L204 78 Z M216 0 L240 0 L228 78 Z M240 0 L264 0 L252 78 Z M264 0 L288 0 L276 78 Z" fill="#f6c177" stroke="#24313f" stroke-width="1.3"/>
+  </g>
+  <text x="45" y="314" font-family="Arial" font-size="19" fill="#24313f">Fewer pieces: bumpier model</text>
+  <text x="360" y="314" font-family="Arial" font-size="19" fill="#24313f">More pieces: closer to a rectangle</text>
+</svg>

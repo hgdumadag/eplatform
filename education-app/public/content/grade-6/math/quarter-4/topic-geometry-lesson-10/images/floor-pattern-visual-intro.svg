@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Circular and composite floor pattern overview</title>
+  <desc id="desc">A lobby floor plan showing circular and composite geometric regions with area and boundary labels.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <rect x="40" y="52" width="640" height="316" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+  <path d="M118 260h150a75 75 0 0 0 0-150H118z" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+  <circle cx="468" cy="188" r="82" fill="#dcfce7" stroke="#15803d" stroke-width="4"/>
+  <circle cx="468" cy="188" r="32" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+  <path d="M350 316h236l-55-74H405z" fill="#ffe4e6" stroke="#be123c" stroke-width="4"/>
+  <text x="82" y="88" fill="#172033" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Quarter Performance Task</text>
+  <text x="116" y="292" fill="#1d4ed8" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">composite floor</text>
+  <text x="392" y="96" fill="#166534" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">circular medallion</text>
+  <text x="388" y="350" fill="#9f1239" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">accent region</text>
+  <line x1="468" y1="188" x2="550" y2="188" stroke="#166534" stroke-width="4"/>
+  <text x="494" y="176" fill="#166534" font-family="Arial, Helvetica, sans-serif" font-size="16">radius</text>
+  <path d="M105 322h526" stroke="#64748b" stroke-width="4" stroke-dasharray="12 10"/>
+  <text x="264" y="348" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">trace boundary, compute area, estimate materials</text>
+</svg>

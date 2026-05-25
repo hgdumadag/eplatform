@@ -1,0 +1,41 @@
+{
+  "id": "grade-6-math-q3-geometry-lesson-10",
+  "grade": 6,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Geometry - Lesson 10",
+  "description": "Measure circumference and diameter to approximate pi, then use C = pi d and C = 2 pi r to solve circumference problems.",
+  "learningObjectives": [
+    "Identify circumference, diameter, and radius in a circle",
+    "Measure circumference and diameter using appropriate tools",
+    "Approximate pi by dividing circumference by diameter",
+    "Use C = pi d to find circumference from diameter",
+    "Use C = 2 pi r to find circumference from radius",
+    "Check whether a circumference answer is reasonable"
+  ],
+  "prerequisites": [
+    "Measure length with rulers or measuring tape",
+    "Divide decimals by whole numbers",
+    "Multiply decimals and whole numbers",
+    "Know that diameter is twice the radius",
+    "Round numbers to a reasonable place value"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": ["geometry", "measurement", "circles", "circumference", "diameter", "radius", "pi"],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/circle-parts.svg",
+      "images/string-measurement.svg",
+      "images/pi-ratio-table.svg",
+      "images/formula-bridge.svg",
+      "images/worked-example-wheel.svg",
+      "images/error-analysis-radius-diameter.svg"
+    ]
+  }
+}

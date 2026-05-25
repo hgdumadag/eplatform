@@ -1,0 +1,30 @@
+{
+  "id": "grade-6-volume-word-problems-lab",
+  "version": "1.0",
+  "runtime": "sandbox-local",
+  "widget": "sandbox-host",
+  "title": "Volume Word Problems Lab",
+  "prompt": "Solve storage and packing volume problems with formulas, units, and complete answers.",
+  "props": {
+    "htmlPath": "../miniapps/volume-word-problems-lab.html",
+    "height": 760
+  },
+  "checkpoints": [
+    {
+      "id": "readiness-checked",
+      "label": "Readiness checked"
+    },
+    {
+      "id": "word-problem-checked",
+      "label": "Word problem checked"
+    },
+    {
+      "id": "mastery-checked",
+      "label": "Mastery checklist checked"
+    }
+  ],
+  "fallback": {
+    "markdown": "Identify the shape, choose V = s³ or V = l × w × h, compute, then answer with cubic units and a sentence.",
+    "image": "../images/problem-solving-routine.svg"
+  }
+}

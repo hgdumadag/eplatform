@@ -1,0 +1,13 @@
+{
+  "id": "composite-area-lab",
+  "version": "1.0",
+  "runtime": "sandbox-local",
+  "widget": "sandbox-host",
+  "title": "Composite Area Lab",
+  "props": {
+    "htmlPath": "../miniapps/composite-area-lab.html"
+  },
+  "fallback": {
+    "markdown": "Interactive lab unavailable. Break composite figures into familiar shapes, find each part's area, then add or subtract areas as needed."
+  }
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Length width height formula map</title>
+  <desc id="desc">A diagram connecting length, width, and height to the rectangular prism volume formula.</desc>
+  <rect width="900" height="520" fill="#f8fafc"/>
+  <text x="42" y="54" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#123047">How the formula is built</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="80" y="135" width="210" height="90" rx="10" fill="#dbeafe" stroke="#1e40af" stroke-width="3"/>
+    <text x="185" y="170" font-size="24" font-weight="700" fill="#1e3a8a">length × width</text>
+    <text x="185" y="202" font-size="20" fill="#1e3a8a">one layer</text>
+    <text x="350" y="190" font-size="44" font-weight="700" fill="#0f766e">×</text>
+    <rect x="415" y="135" width="170" height="90" rx="10" fill="#dcfce7" stroke="#166534" stroke-width="3"/>
+    <text x="500" y="170" font-size="24" font-weight="700" fill="#14532d">height</text>
+    <text x="500" y="202" font-size="20" fill="#14532d">layers</text>
+    <text x="645" y="190" font-size="44" font-weight="700" fill="#0f766e">=</text>
+    <rect x="705" y="135" width="140" height="90" rx="10" fill="#fef3c7" stroke="#92400e" stroke-width="3"/>
+    <text x="775" y="170" font-size="24" font-weight="700" fill="#92400e">volume</text>
+    <text x="775" y="202" font-size="20" fill="#92400e">cubic units</text>
+    <rect x="250" y="320" width="400" height="95" rx="10" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+    <text x="450" y="378" font-size="36" font-weight="700" fill="#0f172a">V = l × w × h</text>
+  </g>
+</svg>

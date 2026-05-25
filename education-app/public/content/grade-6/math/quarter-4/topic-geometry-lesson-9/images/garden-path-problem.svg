@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Garden with circular pond</title>
+  <desc id="desc">A rectangle labeled 18 meters by 12 meters with a circular pond radius 3 meters inside.</desc>
+  <rect width="900" height="520" fill="#f0fdf4"/>
+  <rect x="145" y="110" width="610" height="310" fill="#bbf7d0" stroke="#166534" stroke-width="5"/>
+  <circle cx="485" cy="265" r="82" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="5"/>
+  <line x1="485" y1="265" x2="567" y2="265" stroke="#1d4ed8" stroke-width="4"/>
+  <text x="526" y="248" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1e3a8a">r = 3 m</text>
+  <text x="450" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#14532d">Garden Area and Pond Edging</text>
+  <text x="450" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" fill="#14532d">18 m</text>
+  <text x="92" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" fill="#14532d" transform="rotate(-90 92 270)">12 m</text>
+  <text x="485" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1e40af">pond</text>
+</svg>

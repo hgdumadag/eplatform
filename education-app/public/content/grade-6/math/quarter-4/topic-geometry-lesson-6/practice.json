@@ -1,0 +1,94 @@
+{
+  "examId": "grade-6-math-q4-geometry-lesson-6-shaded-regions-practice",
+  "examType": "practice",
+  "title": "Shaded Regions Practice Exam",
+  "description": "Practice finding area left after removing circular parts. Show the subtraction idea in each explanation.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A 12 cm by 8 cm rectangle has a circle with radius 2 cm removed. Which setup finds the shaded area?",
+      "options": [
+        "12 \\times 8 - 3.14(2^2)",
+        "12 \\times 8 + 3.14(2^2)",
+        "2(12 + 8) - 3.14(2^2)",
+        "3.14(12^2) - 8 \\times 2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The rectangle is the whole area and the circle is removed, so the setup is $12 \\times 8 - 3.14(2^2)$.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A 10 m by 6 m rectangle has a circular hole with radius 2 m. Using $\\pi = 3.14$, what is the area left? Enter just the number.",
+      "correctAnswer": "47.44",
+      "explanation": "Whole area: $10 \\times 6 = 60$. Removed area: $3.14(2^2) = 12.56$. Subtract: $60 - 12.56 = 47.44$ square meters.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "If a circular part is removed from a rectangle, the shaded area is found by subtracting the circle area from the rectangle area.",
+      "correctAnswer": "true",
+      "explanation": "Removed parts are cut out, so the shaded area is the whole rectangle area minus the removed circle area.",
+      "points": 13
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A circle has diameter 8 cm. What radius should be used in $A = \\pi r^2$?",
+      "options": [
+        "16 cm",
+        "8 cm",
+        "4 cm",
+        "2 cm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The radius is half the diameter: $8 \\div 2 = 4$ cm.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "A square has side length 9 cm. A circle with radius 3 cm is removed. Using $\\pi = 3.14$, what is the shaded area? Enter just the number.",
+      "correctAnswer": "52.74",
+      "explanation": "Whole area: $9^2 = 81$. Removed area: $3.14(3^2) = 28.26$. Subtract: $81 - 28.26 = 52.74$ square centimeters.",
+      "points": 13
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A square has four equal quarter circles removed from its corners. Together, the four removed parts make:",
+      "options": [
+        "one whole circle",
+        "one semicircle",
+        "two quarter circles",
+        "four whole circles"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Four equal quarter circles combine to make one whole circle.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "A 14 cm by 10 cm rectangle has a semicircle with radius 3 cm removed. Use $\\pi = 3.14$. Show the subtraction step and give the area left.",
+      "correctAnswer": "Whole area is 14 x 10 = 140. Removed semicircle area is 1/2(3.14)(3^2) = 14.13. Subtract: 140 - 14.13 = 125.87 square centimeters.",
+      "explanation": "The whole rectangle is $140$. The removed semicircle is $\\frac{1}{2}(3.14)(9)=14.13$. The area left is $140 - 14.13 = 125.87$ square centimeters.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain why an answer for a shaded area left after removing a circular hole should be less than the area of the whole shape.",
+      "correctAnswer": "Because a circular part was removed, the shaded area is the whole area minus a positive area, so it must be smaller than the whole.",
+      "explanation": "When area is removed, you subtract a positive amount from the whole. That makes the remaining area smaller than the whole area.",
+      "points": 14
+    }
+  ]
+}

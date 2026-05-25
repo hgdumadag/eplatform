@@ -1,0 +1,116 @@
+{
+  "examId": "grade-6-math-q4-geometry-lesson-1-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 1 Assessment: Explaining Circle Area",
+  "description": "Show that you can describe how cutting and rearranging circle sectors forms the circle area formula.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A circle is cut into equal sectors and rearranged point-up and point-down. What known shape does the arrangement begin to resemble?",
+      "options": [
+        "A rectangle",
+        "A cube",
+        "A sphere",
+        "A regular pentagon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The alternating sectors form an almost rectangle, especially when many thin sectors are used.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "true-false",
+      "question": "The area formula for a circle can be connected to the rectangle formula area = base × height.",
+      "correctAnswer": "true",
+      "explanation": "The rearranged sectors form an almost rectangle, so base times height helps explain circle area.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Why is the base of the rearranged sector model about πr?",
+      "options": [
+        "It is half of the circumference 2πr.",
+        "It is the same as the diameter.",
+        "It is twice the radius plus 1.",
+        "It is always exactly 3 units."
+      ],
+      "correctAnswer": 0,
+      "explanation": "One long bumpy side uses about half of the circle's curved edge. Half of 2πr is πr.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "Complete the formula formed by the rearranged sector model: (πr)(r) = ______.",
+      "correctAnswer": "πr^2 or pi r^2 or πr² or pi r squared",
+      "explanation": "Multiplying pi r by r gives pi r squared.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A circle has radius 5 cm. Which expression represents its area?",
+      "options": [
+        "25π cm²",
+        "10π cm²",
+        "5π cm²",
+        "100π cm²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A = πr² = π(5²) = 25π square centimeters.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "If a circle's diameter is given, you should use the diameter directly as r in A = πr².",
+      "correctAnswer": "false",
+      "explanation": "The formula uses radius. If diameter is given, divide it by 2 first.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A circle has diameter 20 cm. Its radius is ______ cm.",
+      "correctAnswer": "10",
+      "explanation": "Radius is half the diameter. Half of 20 is 10.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A student says, 'The rearranged base is 2πr, so the area is 2πr².' Correct the student's reasoning.",
+      "correctAnswer": "The student used the whole circumference as one base. In the rearranged sectors, one long side is about half the circumference, so the base is pi r and the area is (pi r)(r) = pi r squared.",
+      "explanation": "The correction must identify half circumference, not full circumference, as the base.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "In two or three sentences, describe how cutting and rearranging circle sectors helps form the area formula.",
+      "correctAnswer": "Cutting the circle into sectors and rearranging them does not change the area. The pieces make an almost rectangle with height r and base about pi r, so area = base times height becomes (pi r)(r) = pi r squared.",
+      "explanation": "A complete answer mentions preserved area, almost rectangle, base pi r, height r, and the formula.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "Which statement best explains why the sector model is an estimate that becomes exact as the number of sectors increases?",
+      "options": [
+        "More sectors make the rearranged shape closer to a true rectangle.",
+        "More sectors make the circle's radius larger.",
+        "More sectors change π into a whole number.",
+        "More sectors remove the curved boundary from the circle."
+      ],
+      "correctAnswer": 0,
+      "explanation": "More, thinner sectors reduce the bumpiness of the rearranged shape, making the rectangle model more accurate.",
+      "points": 10
+    }
+  ]
+}

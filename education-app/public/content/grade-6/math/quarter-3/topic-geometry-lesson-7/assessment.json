@@ -1,0 +1,94 @@
+{
+  "examId": "grade-6-math-q3-geometry-lesson-7-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 7 Assessment: Composite Area",
+  "description": "Demonstrate mastery of finding total area by decomposing composite figures.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which pair of shapes could be used to decompose a rectangle with a triangular roof shape attached on top?",
+      "options": ["rectangle and triangle", "circle and cube", "line and ray", "cone and sphere"],
+      "correctAnswer": 0,
+      "explanation": "The figure can be split into the rectangular base and triangular top.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A figure is made of a 10 cm by 6 cm rectangle and a triangle with base 10 cm and height 4 cm. What is the total area? Enter just the number.",
+      "correctAnswer": "80",
+      "explanation": "Rectangle: 10 × 6 = 60. Triangle: 1/2 × 10 × 4 = 20. Total: 80 cm².",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "A large rectangle is 18 m by 11 m. A 5 m by 4 m rectangular section is removed. What is the remaining area? Enter just the number.",
+      "correctAnswer": "178",
+      "explanation": "Large area: 18 × 11 = 198. Removed area: 5 × 4 = 20. Remaining area: 178 m².",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "A valid decomposition should cover the original figure exactly once.",
+      "correctAnswer": "true",
+      "explanation": "The parts should have no gaps and no overlaps.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which formula finds the area of a trapezoid?",
+      "options": ["A = lw", "A = 1/2(b1 + b2)h", "A = bh only", "A = 2l + 2w"],
+      "correctAnswer": 1,
+      "explanation": "A trapezoid area is half the sum of the bases times the height.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A trapezoid has bases 16 units and 10 units and height 5 units. What is its area? Enter just the number.",
+      "correctAnswer": "65",
+      "explanation": "A = 1/2(16 + 10)(5) = 65 square units.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A figure combines a parallelogram with base 12 cm and height 7 cm and a triangle with base 12 cm and height 5 cm. What is the total area? Enter just the number.",
+      "correctAnswer": "114",
+      "explanation": "Parallelogram: 12 × 7 = 84. Triangle: 1/2 × 12 × 5 = 30. Total: 114 cm².",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A student decomposes a shape into two rectangles that overlap. Why is the student's total area likely too large?",
+      "correctAnswer": "The overlapping region is counted twice, so the sum includes extra area that is not actually in the figure.",
+      "explanation": "Overlap must be avoided or subtracted once.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "question": "A composite sign has a 9 m by 4 m rectangle and a trapezoid with bases 9 m and 5 m and height 3 m. What is the total area? Enter just the number.",
+      "correctAnswer": "57",
+      "explanation": "Rectangle: 9 × 4 = 36. Trapezoid: 1/2(9 + 5)(3) = 21. Total: 57 m².",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Describe the steps you would use to find the area of any composite figure.",
+      "correctAnswer": "Break the figure into familiar shapes, label the needed dimensions, find each part's area with the correct formula, then add included parts or subtract missing parts and write square units.",
+      "explanation": "A complete method should include decomposition, formulas, combining areas, and square units.",
+      "points": 10
+    }
+  ]
+}

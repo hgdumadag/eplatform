@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" role="img" aria-labelledby="title desc">
+  <title id="title">Storage box context</title>
+  <desc id="desc">A rectangular storage box labeled length, width, and height.</desc>
+  <rect width="820" height="520" fill="#f8fafc"/>
+  <text x="40" y="54" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#123047">Storage space is volume</text>
+  <g transform="translate(190 135)" stroke="#1e40af" stroke-width="4" stroke-linejoin="round">
+    <polygon points="0,75 300,75 390,150 90,150" fill="#bfdbfe"/>
+    <polygon points="0,75 90,150 90,290 0,215" fill="#93c5fd"/>
+    <polygon points="90,150 390,150 390,290 90,290" fill="#dbeafe"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">
+    <text x="330" y="115">length</text>
+    <text x="590" y="230">width</text>
+    <text x="115" y="255">height</text>
+  </g>
+  <text x="410" y="445" font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#0f766e">Find the space inside the container.</text>
+</svg>
