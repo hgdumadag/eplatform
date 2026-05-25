@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Hexagon honeycomb tessellation</title>
+  <desc id="desc">A honeycomb pattern of regular hexagons fitted together with no gaps and no overlaps.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <text x="36" y="48" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#123047">Hexagons fit like a honeycomb</text>
+  <g transform="translate(86 82)" fill="#fde68a" stroke="#92400e" stroke-width="3">
+    <polygon points="40,0 80,23 80,69 40,92 0,69 0,23"/>
+    <polygon points="120,0 160,23 160,69 120,92 80,69 80,23"/>
+    <polygon points="200,0 240,23 240,69 200,92 160,69 160,23"/>
+    <polygon points="280,0 320,23 320,69 280,92 240,69 240,23"/>
+    <polygon points="360,0 400,23 400,69 360,92 320,69 320,23"/>
+    <polygon points="440,0 480,23 480,69 440,92 400,69 400,23"/>
+    <polygon points="80,69 120,92 120,138 80,161 40,138 40,92"/>
+    <polygon points="160,69 200,92 200,138 160,161 120,138 120,92"/>
+    <polygon points="240,69 280,92 280,138 240,161 200,138 200,92"/>
+    <polygon points="320,69 360,92 360,138 320,161 280,138 280,92"/>
+    <polygon points="400,69 440,92 440,138 400,161 360,138 360,92"/>
+    <polygon points="480,69 520,92 520,138 480,161 440,138 440,92"/>
+    <polygon points="40,138 80,161 80,207 40,230 0,207 0,161"/>
+    <polygon points="120,138 160,161 160,207 120,230 80,207 80,161"/>
+    <polygon points="200,138 240,161 240,207 200,230 160,207 160,161"/>
+    <polygon points="280,138 320,161 320,207 280,230 240,207 240,161"/>
+    <polygon points="360,138 400,161 400,207 360,230 320,207 320,161"/>
+    <polygon points="440,138 480,161 480,207 440,230 400,207 400,161"/>
+  </g>
+  <text x="142" y="386" font-family="Arial, sans-serif" font-size="20" fill="#0f766e">Three hexagon corners meet neatly at each point.</text>
+</svg>

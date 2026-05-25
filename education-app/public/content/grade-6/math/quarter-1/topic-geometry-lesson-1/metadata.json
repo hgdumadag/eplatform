@@ -1,0 +1,39 @@
+{
+  "id": "grade-6-math-q1-geometry-lesson-1",
+  "grade": 6,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Geometry - Lesson 1",
+  "description": "Identify repeating shape patterns in tiles, textiles, and local designs by deciding whether shapes tessellate without gaps or overlaps.",
+  "learningObjectives": [
+    "Define tessellation using the ideas of repeating patterns, gaps, and overlaps",
+    "Identify examples and non-examples of tessellations in tiles, textiles, and local designs",
+    "Explain why some shapes tessellate and others do not",
+    "Create or complete a simple tessellation pattern on a grid",
+    "Use visual evidence to classify geometric patterns"
+  ],
+  "prerequisites": [
+    "Recognize common polygons such as triangles, squares, rectangles, and hexagons",
+    "Describe repeating patterns",
+    "Notice gaps and overlaps between shapes",
+    "Use a ruler or grid paper to draw straight-sided shapes"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "beginner",
+  "tags": ["geometry", "tessellations", "patterns", "tiles", "textiles", "visual reasoning"],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/tessellation-tile-grid.svg",
+      "images/non-example-gaps.svg",
+      "images/triangle-tessellation.svg",
+      "images/hexagon-pattern.svg",
+      "images/local-textile-pattern.svg",
+      "images/error-analysis-overlap.svg"
+    ]
+  }
+}

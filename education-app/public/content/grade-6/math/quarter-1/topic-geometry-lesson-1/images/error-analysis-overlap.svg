@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Overlapping triangle non-example</title>
+  <desc id="desc">A triangle pattern where one triangle overlaps another, showing why the pattern is not a tessellation.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <text x="36" y="48" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#123047">Overlap breaks the rule</text>
+  <g transform="translate(88 96)" stroke="#1f2937" stroke-width="3">
+    <polygon points="0,170 80,30 160,170" fill="#bfdbfe"/>
+    <polygon points="160,170 240,30 320,170" fill="#bfdbfe"/>
+    <polygon points="320,170 400,30 480,170" fill="#bfdbfe"/>
+    <polygon points="110,185 190,45 270,185" fill="#fca5a5" opacity="0.9"/>
+    <polygon points="270,185 350,45 430,185" fill="#fca5a5" opacity="0.9"/>
+    <path d="M178 111c38 -23 78 -18 112 13" fill="none" stroke="#dc2626" stroke-width="5"/>
+    <path d="M290 124l-23 -2 13 -19" fill="none" stroke="#dc2626" stroke-width="5"/>
+  </g>
+  <text x="230" y="305" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#dc2626">Overlap area</text>
+  <text x="112" y="386" font-family="Arial, sans-serif" font-size="20" fill="#991b1b">Not a tessellation: some shapes cover the same space.</text>
+</svg>

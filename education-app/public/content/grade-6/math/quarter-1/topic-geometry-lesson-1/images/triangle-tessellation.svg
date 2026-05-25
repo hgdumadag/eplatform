@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Triangle tessellation</title>
+  <desc id="desc">Rows of congruent triangles alternating up and down to cover a surface without gaps or overlaps.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <text x="36" y="48" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#123047">Triangles can tessellate</text>
+  <g transform="translate(80 88)" stroke="#1f2937" stroke-width="2">
+    <rect width="560" height="280" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+    <g>
+      <polygon points="0,70 40,0 80,70" fill="#bfdbfe"/>
+      <polygon points="80,70 40,0 120,0" fill="#a7f3d0"/>
+      <polygon points="80,70 120,0 160,70" fill="#bfdbfe"/>
+      <polygon points="160,70 120,0 200,0" fill="#a7f3d0"/>
+      <polygon points="160,70 200,0 240,70" fill="#bfdbfe"/>
+      <polygon points="240,70 200,0 280,0" fill="#a7f3d0"/>
+      <polygon points="240,70 280,0 320,70" fill="#bfdbfe"/>
+      <polygon points="320,70 280,0 360,0" fill="#a7f3d0"/>
+      <polygon points="320,70 360,0 400,70" fill="#bfdbfe"/>
+      <polygon points="400,70 360,0 440,0" fill="#a7f3d0"/>
+      <polygon points="400,70 440,0 480,70" fill="#bfdbfe"/>
+      <polygon points="480,70 440,0 520,0" fill="#a7f3d0"/>
+      <polygon points="480,70 520,0 560,70" fill="#bfdbfe"/>
+    </g>
+    <g transform="translate(0 70)">
+      <polygon points="0,70 40,0 80,70" fill="#fef3c7"/>
+      <polygon points="80,70 40,0 120,0" fill="#fecaca"/>
+      <polygon points="80,70 120,0 160,70" fill="#fef3c7"/>
+      <polygon points="160,70 120,0 200,0" fill="#fecaca"/>
+      <polygon points="160,70 200,0 240,70" fill="#fef3c7"/>
+      <polygon points="240,70 200,0 280,0" fill="#fecaca"/>
+      <polygon points="240,70 280,0 320,70" fill="#fef3c7"/>
+      <polygon points="320,70 280,0 360,0" fill="#fecaca"/>
+      <polygon points="320,70 360,0 400,70" fill="#fef3c7"/>
+      <polygon points="400,70 360,0 440,0" fill="#fecaca"/>
+      <polygon points="400,70 440,0 480,70" fill="#fef3c7"/>
+      <polygon points="480,70 440,0 520,0" fill="#fecaca"/>
+      <polygon points="480,70 520,0 560,70" fill="#fef3c7"/>
+    </g>
+    <g transform="translate(0 140)">
+      <polygon points="0,70 40,0 80,70" fill="#bfdbfe"/>
+      <polygon points="80,70 40,0 120,0" fill="#a7f3d0"/>
+      <polygon points="80,70 120,0 160,70" fill="#bfdbfe"/>
+      <polygon points="160,70 120,0 200,0" fill="#a7f3d0"/>
+      <polygon points="160,70 200,0 240,70" fill="#bfdbfe"/>
+      <polygon points="240,70 200,0 280,0" fill="#a7f3d0"/>
+      <polygon points="240,70 280,0 320,70" fill="#bfdbfe"/>
+      <polygon points="320,70 280,0 360,0" fill="#a7f3d0"/>
+      <polygon points="320,70 360,0 400,70" fill="#bfdbfe"/>
+      <polygon points="400,70 360,0 440,0" fill="#a7f3d0"/>
+      <polygon points="400,70 440,0 480,70" fill="#bfdbfe"/>
+      <polygon points="480,70 440,0 520,0" fill="#a7f3d0"/>
+      <polygon points="480,70 520,0 560,70" fill="#bfdbfe"/>
+    </g>
+  </g>
+  <text x="150" y="396" font-family="Arial, sans-serif" font-size="20" fill="#0f766e">Alternating triangles fill every space.</text>
+</svg>
