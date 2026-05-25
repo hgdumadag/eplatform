@@ -14,13 +14,28 @@
   ],
   "estimatedDuration": 35,
   "difficulty": "intermediate",
-  "tags": ["geometry", "triangles", "oblique-triangles", "law-of-sines", "law-of-cosines", "given-cases"],
+  "tags": [
+    "geometry",
+    "triangles",
+    "oblique-triangles",
+    "law-of-sines",
+    "law-of-cosines",
+    "given-cases"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/inline-01-right-triangle-compared-with-oblique-triangle.svg",
+      "images/inline-02-acute-and-obtuse-oblique-triangles.svg",
+      "images/inline-03-sas-triangle-case.svg",
+      "images/right-vs-oblique.svg",
+      "images/acute-obtuse-oblique.svg",
+      "images/given-cases-map.svg"
+    ]
   },
   "prerequisites": [
     "Angle sum of a triangle",

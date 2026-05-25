@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 260" role="img" aria-labelledby="cases-title cases-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="cases-title">ASA AAS and SSA cases</title>
+  <desc id="cases-desc">Three small triangle diagrams show the known parts for ASA, AAS, and SSA cases.</desc>
+  <g transform="translate(20,15)">
+    <polygon points="35,190 180,190 80,55" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+    <text x="55" y="172" font-size="15" fill="#1d4ed8">42°</text>
+    <text x="125" y="172" font-size="15" fill="#1d4ed8">68°</text>
+    <text x="85" y="213" font-size="15" fill="#111827">15 m</text>
+    <text x="75" y="235" font-size="18" fill="#111827">ASA</text>
+  </g>
+  <g transform="translate(255,15)">
+    <polygon points="35,190 180,190 80,55" fill="#dcfce7" stroke="#047857" stroke-width="3"/>
+    <text x="55" y="172" font-size="15" fill="#047857">35°</text>
+    <text x="76" y="80" font-size="15" fill="#047857">82°</text>
+    <text x="24" y="125" font-size="15" fill="#111827">12 cm</text>
+    <text x="75" y="235" font-size="18" fill="#111827">AAS</text>
+  </g>
+  <g transform="translate(490,15)">
+    <polygon points="35,190 180,190 80,55" fill="#fff7ed" stroke="#c2410c" stroke-width="3"/>
+    <text x="55" y="172" font-size="15" fill="#c2410c">40°</text>
+    <text x="92" y="213" font-size="15" fill="#111827">12</text>
+    <text x="118" y="115" font-size="15" fill="#111827">9</text>
+    <text x="75" y="235" font-size="18" fill="#111827">SSA</text>
+  </g>
+</svg>

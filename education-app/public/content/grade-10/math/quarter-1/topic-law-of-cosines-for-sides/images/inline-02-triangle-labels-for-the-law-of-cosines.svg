@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 300" role="img" aria-labelledby="labeling-title labeling-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="labeling-title">Triangle labels for the Law of Cosines</title>
+  <desc id="labeling-desc">Angle A is opposite side a, angle B is opposite side b, and angle C is opposite side c.</desc>
+  <polygon points="115,230 520,230 250,55" fill="#f0fdf4" stroke="#15803d" stroke-width="3"/>
+  <text x="100" y="253" font-size="18" fill="#111827">A</text>
+  <text x="528" y="235" font-size="18" fill="#111827">B</text>
+  <text x="244" y="48" font-size="18" fill="#111827">C</text>
+  <text x="365" y="135" font-size="18" fill="#15803d">a</text>
+  <text x="156" y="137" font-size="18" fill="#15803d">b</text>
+  <text x="314" y="253" font-size="18" fill="#15803d">c</text>
+  <line x1="250" y1="55" x2="520" y2="230" stroke="#15803d" stroke-width="1" stroke-dasharray="5 5"/>
+  <text x="380" y="82" font-size="15" fill="#334155">side a is across from angle A</text>
+</svg>

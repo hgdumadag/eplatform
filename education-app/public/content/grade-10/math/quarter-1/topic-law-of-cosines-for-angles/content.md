@@ -94,23 +94,7 @@ This is a Law of Cosines situation. The Law of Cosines can find an angle when th
 
 In standard triangle notation, angle \(A\) is opposite side \(a\), angle \(B\) is opposite side \(b\), and angle \(C\) is opposite side \(c\).
 
-<svg viewBox="0 0 620 300" role="img" aria-labelledby="triangle-labels-title triangle-labels-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="triangle-labels-title">Triangle notation with opposite sides</title>
-  <desc id="triangle-labels-desc">Triangle ABC shows side a opposite angle A, side b opposite angle B, and side c opposite angle C.</desc>
-  <polygon points="95,235 510,235 230,55" fill="#eef2ff" stroke="#3730a3" stroke-width="3"/>
-  <text x="78" y="255" font-size="20" fill="#111827">A</text>
-  <text x="517" y="255" font-size="20" fill="#111827">B</text>
-  <text x="225" y="45" font-size="20" fill="#111827">C</text>
-  <text x="355" y="132" font-size="20" fill="#3730a3">a = BC</text>
-  <text x="120" y="138" font-size="20" fill="#3730a3">b = AC</text>
-  <text x="285" y="260" font-size="20" fill="#3730a3">c = AB</text>
-  <path d="M125 234 A38 38 0 0 1 137 203" fill="none" stroke="#dc2626" stroke-width="3"/>
-  <text x="145" y="218" font-size="18" fill="#dc2626">A</text>
-  <path d="M476 234 A42 42 0 0 0 455 204" fill="none" stroke="#16a34a" stroke-width="3"/>
-  <text x="446" y="220" font-size="18" fill="#16a34a">B</text>
-  <path d="M214 80 A34 34 0 0 0 259 75" fill="none" stroke="#ea580c" stroke-width="3"/>
-  <text x="238" y="96" font-size="18" fill="#ea580c">C</text>
-</svg>
+![Triangle notation with opposite sides](/content/grade-10/math/quarter-1/topic-law-of-cosines-for-angles/images/inline-01-triangle-notation-with-opposite-sides.svg)
 
 The side and angle with the same letter always face each other.
 
@@ -146,25 +130,7 @@ Use the side opposite the angle you want.
 | \(B\) | \(B = \cos^{-1}\left(\frac{a^2+c^2-b^2}{2ac}\right)\) |
 | \(C\) | \(C = \cos^{-1}\left(\frac{a^2+b^2-c^2}{2ab}\right)\) |
 
-<svg viewBox="0 0 620 270" role="img" aria-labelledby="angle-formula-title angle-formula-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="angle-formula-title">Finding angle A with the Law of Cosines</title>
-  <desc id="angle-formula-desc">Angle A is found using the two adjacent sides b and c, and the opposite side a.</desc>
-  <polygon points="90,220 520,220 255,45" fill="#ecfeff" stroke="#0f766e" stroke-width="3"/>
-  <text x="72" y="243" font-size="20" fill="#111827">A</text>
-  <text x="526" y="243" font-size="20" fill="#111827">B</text>
-  <text x="250" y="38" font-size="20" fill="#111827">C</text>
-  <text x="370" y="120" font-size="18" fill="#0f766e">a opposite A</text>
-  <text x="120" y="130" font-size="18" fill="#0f766e">b</text>
-  <text x="285" y="246" font-size="18" fill="#0f766e">c</text>
-  <path d="M127 219 A48 48 0 0 1 145 180" fill="none" stroke="#dc2626" stroke-width="4"/>
-  <text x="150" y="202" font-size="20" fill="#dc2626">Find A</text>
-  <line x1="315" y1="130" x2="430" y2="130" stroke="#dc2626" stroke-width="2" marker-end="url(#arrowA)"/>
-  <defs>
-    <marker id="arrowA" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
-      <path d="M0,0 L0,6 L9,3 z" fill="#dc2626"/>
-    </marker>
-  </defs>
-</svg>
+![Finding angle A with the Law of Cosines](/content/grade-10/math/quarter-1/topic-law-of-cosines-for-angles/images/inline-02-finding-angle-a-with-the-law-of-cosines.svg)
 
 ### 3. Check the Answer
 
@@ -223,19 +189,7 @@ A \approx \cos^{-1}(0.1161) \approx 83°
 
 **Problem:** A triangle has sides \(a = 6\), \(b = 9\), and \(c = 11\). Find \(C\) to the nearest degree.
 
-<svg viewBox="0 0 620 260" role="img" aria-labelledby="largest-angle-title largest-angle-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="largest-angle-title">Largest side opposite largest angle</title>
-  <desc id="largest-angle-desc">The side with length 11 is opposite angle C, so angle C should be the largest angle.</desc>
-  <polygon points="105,205 510,205 300,55" fill="#fff7ed" stroke="#c2410c" stroke-width="3"/>
-  <text x="88" y="228" font-size="20" fill="#111827">A</text>
-  <text x="517" y="228" font-size="20" fill="#111827">B</text>
-  <text x="295" y="48" font-size="20" fill="#111827">C</text>
-  <text x="390" y="122" font-size="18" fill="#c2410c">a = 6</text>
-  <text x="165" y="118" font-size="18" fill="#c2410c">b = 9</text>
-  <text x="287" y="232" font-size="18" fill="#c2410c">c = 11</text>
-  <path d="M278 75 A42 42 0 0 0 325 75" fill="none" stroke="#dc2626" stroke-width="4"/>
-  <text x="284" y="96" font-size="20" fill="#dc2626">Find C</text>
-</svg>
+![Largest side opposite largest angle](/content/grade-10/math/quarter-1/topic-law-of-cosines-for-angles/images/inline-03-largest-side-opposite-largest-angle.svg)
 
 **Solution:**
 
@@ -444,16 +398,7 @@ Use these to check your reasoning.
 
 A triangular garden has side lengths 14 m, 15 m, and 20 m. Find the angle opposite the 20 m side to the nearest degree.
 
-<svg viewBox="0 0 620 260" role="img" aria-labelledby="garden-title garden-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="garden-title">Triangular garden with three side lengths</title>
-  <desc id="garden-desc">A triangular garden has sides 14 meters, 15 meters, and 20 meters. The angle opposite the 20 meter side is highlighted.</desc>
-  <polygon points="105,215 530,215 250,55" fill="#f0fdf4" stroke="#15803d" stroke-width="3"/>
-  <text x="150" y="126" font-size="18" fill="#15803d">15 m</text>
-  <text x="395" y="128" font-size="18" fill="#15803d">14 m</text>
-  <text x="298" y="240" font-size="18" fill="#15803d">20 m</text>
-  <path d="M228 72 A42 42 0 0 0 273 74" fill="none" stroke="#dc2626" stroke-width="4"/>
-  <text x="226" y="98" font-size="19" fill="#dc2626">Find this angle</text>
-</svg>
+![Triangular garden with three side lengths](/content/grade-10/math/quarter-1/topic-law-of-cosines-for-angles/images/inline-04-triangular-garden-with-three-side-lengths.svg)
 
 <details>
 <summary>Reveal hint</summary>

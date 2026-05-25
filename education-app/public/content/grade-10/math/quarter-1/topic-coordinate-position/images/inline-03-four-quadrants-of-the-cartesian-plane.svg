@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" role="img" aria-labelledby="quadrants-title quadrants-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="quadrants-title">Four quadrants of the Cartesian plane</title>
+  <desc id="quadrants-desc">Quadrant one has positive x and positive y. Quadrant two has negative x and positive y. Quadrant three has negative x and negative y. Quadrant four has positive x and negative y.</desc>
+  <rect x="60" y="30" width="400" height="320" fill="#ffffff"/>
+  <rect x="260" y="30" width="200" height="160" fill="#dcfce7"/>
+  <rect x="60" y="30" width="200" height="160" fill="#dbeafe"/>
+  <rect x="60" y="190" width="200" height="160" fill="#fee2e2"/>
+  <rect x="260" y="190" width="200" height="160" fill="#fef3c7"/>
+  <line x1="60" y1="190" x2="460" y2="190" stroke="#111827" stroke-width="3"/>
+  <line x1="260" y1="350" x2="260" y2="30" stroke="#111827" stroke-width="3"/>
+  <text x="332" y="110" font-size="22" fill="#166534">Quadrant I</text>
+  <text x="112" y="110" font-size="22" fill="#1d4ed8">Quadrant II</text>
+  <text x="105" y="280" font-size="22" fill="#b91c1c">Quadrant III</text>
+  <text x="322" y="280" font-size="22" fill="#92400e">Quadrant IV</text>
+  <text x="350" y="142" font-size="16" fill="#166534">(+,+)</text>
+  <text x="138" y="142" font-size="16" fill="#1d4ed8">(-,+)</text>
+  <text x="136" y="312" font-size="16" fill="#b91c1c">(-,-)</text>
+  <text x="350" y="312" font-size="16" fill="#92400e">(+,-)</text>
+</svg>

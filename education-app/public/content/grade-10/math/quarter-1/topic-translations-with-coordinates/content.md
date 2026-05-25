@@ -95,31 +95,7 @@ The new point is P'(6, -1), because `1 + 5 = 6` and `2 - 3 = -1`.
 
 In a translation, every point follows the same arrow.
 
-<svg viewBox="0 0 640 360" role="img" aria-labelledby="translation-slide-title translation-slide-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="translation-slide-title">Triangle translated right and up</title>
-  <desc id="translation-slide-desc">A triangle with vertices A, B, and C slides 4 units right and 2 units up to image triangle A prime, B prime, C prime.</desc>
-  <defs>
-    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
-      <path d="M0,0 L0,6 L9,3 z" fill="#2563eb"></path>
-    </marker>
-  </defs>
-  <rect x="40" y="30" width="560" height="280" fill="#f8fafc" stroke="#e2e8f0"></rect>
-  <g stroke="#cbd5e1" stroke-width="1">
-    <line x1="80" y1="30" x2="80" y2="310"></line><line x1="120" y1="30" x2="120" y2="310"></line><line x1="160" y1="30" x2="160" y2="310"></line><line x1="200" y1="30" x2="200" y2="310"></line><line x1="240" y1="30" x2="240" y2="310"></line><line x1="280" y1="30" x2="280" y2="310"></line><line x1="320" y1="30" x2="320" y2="310"></line><line x1="360" y1="30" x2="360" y2="310"></line><line x1="400" y1="30" x2="400" y2="310"></line><line x1="440" y1="30" x2="440" y2="310"></line><line x1="480" y1="30" x2="480" y2="310"></line><line x1="520" y1="30" x2="520" y2="310"></line><line x1="560" y1="30" x2="560" y2="310"></line>
-    <line x1="40" y1="70" x2="600" y2="70"></line><line x1="40" y1="110" x2="600" y2="110"></line><line x1="40" y1="150" x2="600" y2="150"></line><line x1="40" y1="190" x2="600" y2="190"></line><line x1="40" y1="230" x2="600" y2="230"></line><line x1="40" y1="270" x2="600" y2="270"></line>
-  </g>
-  <polygon points="120,230 200,230 160,150" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"></polygon>
-  <polygon points="280,150 360,150 320,70" fill="#dcfce7" stroke="#15803d" stroke-width="3"></polygon>
-  <line x1="160" y1="205" x2="320" y2="125" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow-blue)"></line>
-  <text x="112" y="250" font-size="17" fill="#1e3a8a">A</text>
-  <text x="205" y="240" font-size="17" fill="#1e3a8a">B</text>
-  <text x="150" y="140" font-size="17" fill="#1e3a8a">C</text>
-  <text x="270" y="170" font-size="17" fill="#166534">A'</text>
-  <text x="365" y="160" font-size="17" fill="#166534">B'</text>
-  <text x="315" y="60" font-size="17" fill="#166534">C'</text>
-  <text x="235" y="222" font-size="18" fill="#1f2937">4 right, 2 up</text>
-  <text x="185" y="340" font-size="18" fill="#111827">Same size, same shape, same orientation</text>
-</svg>
+![Triangle translated right and up](/content/grade-10/math/quarter-1/topic-translations-with-coordinates/images/inline-01-triangle-translated-right-and-up.svg)
 
 The image is not a new kind of triangle. It is the same triangle in a new location.
 
@@ -149,28 +125,7 @@ The rule `(x, y) -> (x - 3, y + 4)` means:
 - `x - 3`: move 3 units left
 - `y + 4`: move 4 units up
 
-<svg viewBox="0 0 620 340" role="img" aria-labelledby="point-rule-title point-rule-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="point-rule-title">Point translated using a coordinate rule</title>
-  <desc id="point-rule-desc">Point P at 2 negative 1 moves left 3 and up 4 to point P prime at negative 1, 3.</desc>
-  <defs>
-    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
-      <path d="M0,0 L0,6 L9,3 z" fill="#dc2626"></path>
-    </marker>
-  </defs>
-  <rect x="60" y="30" width="500" height="260" fill="#f8fafc" stroke="#e2e8f0"></rect>
-  <g stroke="#cbd5e1" stroke-width="1">
-    <line x1="100" y1="30" x2="100" y2="290"></line><line x1="140" y1="30" x2="140" y2="290"></line><line x1="180" y1="30" x2="180" y2="290"></line><line x1="220" y1="30" x2="220" y2="290"></line><line x1="260" y1="30" x2="260" y2="290"></line><line x1="300" y1="30" x2="300" y2="290"></line><line x1="340" y1="30" x2="340" y2="290"></line><line x1="380" y1="30" x2="380" y2="290"></line><line x1="420" y1="30" x2="420" y2="290"></line><line x1="460" y1="30" x2="460" y2="290"></line><line x1="500" y1="30" x2="500" y2="290"></line>
-    <line x1="60" y1="50" x2="560" y2="50"></line><line x1="60" y1="90" x2="560" y2="90"></line><line x1="60" y1="130" x2="560" y2="130"></line><line x1="60" y1="170" x2="560" y2="170"></line><line x1="60" y1="210" x2="560" y2="210"></line><line x1="60" y1="250" x2="560" y2="250"></line>
-  </g>
-  <line x1="60" y1="170" x2="560" y2="170" stroke="#334155" stroke-width="2"></line>
-  <line x1="300" y1="30" x2="300" y2="290" stroke="#334155" stroke-width="2"></line>
-  <circle cx="380" cy="210" r="7" fill="#2563eb"></circle>
-  <circle cx="260" cy="50" r="7" fill="#dc2626"></circle>
-  <line x1="380" y1="210" x2="260" y2="50" stroke="#dc2626" stroke-width="4" marker-end="url(#arrow-red)"></line>
-  <text x="390" y="218" font-size="17" fill="#1e3a8a">P(2, -1)</text>
-  <text x="155" y="48" font-size="17" fill="#991b1b">P'(-1, 3)</text>
-  <text x="170" y="315" font-size="18" fill="#111827">(x, y) -> (x - 3, y + 4)</text>
-</svg>
+![Point translated using a coordinate rule](/content/grade-10/math/quarter-1/topic-translations-with-coordinates/images/inline-02-point-translated-using-a-coordinate-rule.svg)
 
 ### 3. Writing a Rule from Two Points
 
@@ -224,26 +179,7 @@ Subtract 4 from the y-coordinate:
 | E(0, 4) | `(0 + 2, 4 - 3)` | E'(2, 1) |
 | F(2, 0) | `(2 + 2, 0 - 3)` | F'(4, -3) |
 
-<svg viewBox="0 0 620 360" role="img" aria-labelledby="triangle-grid-title triangle-grid-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="triangle-grid-title">Triangle translated right 2 and down 3</title>
-  <desc id="triangle-grid-desc">Triangle DEF with points negative 3 comma 1, 0 comma 4, and 2 comma 0 is translated to D prime negative 1 comma negative 2, E prime 2 comma 1, and F prime 4 comma negative 3.</desc>
-  <rect x="70" y="30" width="480" height="280" fill="#f8fafc" stroke="#e2e8f0"></rect>
-  <g stroke="#cbd5e1" stroke-width="1">
-    <line x1="110" y1="30" x2="110" y2="310"></line><line x1="150" y1="30" x2="150" y2="310"></line><line x1="190" y1="30" x2="190" y2="310"></line><line x1="230" y1="30" x2="230" y2="310"></line><line x1="270" y1="30" x2="270" y2="310"></line><line x1="310" y1="30" x2="310" y2="310"></line><line x1="350" y1="30" x2="350" y2="310"></line><line x1="390" y1="30" x2="390" y2="310"></line><line x1="430" y1="30" x2="430" y2="310"></line><line x1="470" y1="30" x2="470" y2="310"></line><line x1="510" y1="30" x2="510" y2="310"></line>
-    <line x1="70" y1="70" x2="550" y2="70"></line><line x1="70" y1="110" x2="550" y2="110"></line><line x1="70" y1="150" x2="550" y2="150"></line><line x1="70" y1="190" x2="550" y2="190"></line><line x1="70" y1="230" x2="550" y2="230"></line><line x1="70" y1="270" x2="550" y2="270"></line>
-  </g>
-  <line x1="70" y1="190" x2="550" y2="190" stroke="#334155" stroke-width="2"></line>
-  <line x1="310" y1="30" x2="310" y2="310" stroke="#334155" stroke-width="2"></line>
-  <polygon points="190,150 310,30 390,190" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"></polygon>
-  <polygon points="270,270 390,150 470,310" fill="#fef3c7" stroke="#b45309" stroke-width="3"></polygon>
-  <text x="168" y="145" font-size="15" fill="#1e3a8a">D</text>
-  <text x="315" y="45" font-size="15" fill="#1e3a8a">E</text>
-  <text x="398" y="190" font-size="15" fill="#1e3a8a">F</text>
-  <text x="245" y="270" font-size="15" fill="#92400e">D'</text>
-  <text x="398" y="150" font-size="15" fill="#92400e">E'</text>
-  <text x="475" y="306" font-size="15" fill="#92400e">F'</text>
-  <text x="190" y="340" font-size="18" fill="#111827">(x, y) -> (x + 2, y - 3)</text>
-</svg>
+![Triangle translated right 2 and down 3](/content/grade-10/math/quarter-1/topic-translations-with-coordinates/images/inline-03-triangle-translated-right-2-and-down-3.svg)
 
 ### Example 3: Find the Rule from a Point and Its Image
 

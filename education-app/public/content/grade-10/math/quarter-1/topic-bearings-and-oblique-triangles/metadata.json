@@ -14,13 +14,30 @@
   ],
   "estimatedDuration": 40,
   "difficulty": "intermediate",
-  "tags": ["geometry", "bearings", "navigation", "oblique-triangles", "law-of-sines", "law-of-cosines", "diagrams"],
+  "tags": [
+    "geometry",
+    "bearings",
+    "navigation",
+    "oblique-triangles",
+    "law-of-sines",
+    "law-of-cosines",
+    "diagrams"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/inline-01-bearing-measured-clockwise-from-north.svg",
+      "images/inline-02-two-travel-legs-and-a-direct-distance-form-a-triangle.svg",
+      "images/inline-03-two-bearings-from-the-same-starting-point.svg",
+      "images/inline-04-forward-bearing-and-back-bearing.svg",
+      "images/bearing-compass.svg",
+      "images/two-leg-route-triangle.svg",
+      "images/back-bearing.svg"
+    ]
   },
   "prerequisites": [
     "Angle sum of a triangle",

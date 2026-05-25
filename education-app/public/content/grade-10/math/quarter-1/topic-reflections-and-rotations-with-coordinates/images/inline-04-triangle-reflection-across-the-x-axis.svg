@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 330" role="img" aria-labelledby="triangle-reflection-title triangle-reflection-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="triangle-reflection-title">Triangle reflection across the x-axis</title>
+  <desc id="triangle-reflection-desc">Triangle ABC above the x-axis reflects to triangle A prime B prime C prime below the x-axis.</desc>
+  <line x1="70" y1="165" x2="570" y2="165" stroke="#475569" stroke-width="2"/>
+  <line x1="320" y1="40" x2="320" y2="290" stroke="#475569" stroke-width="2"/>
+  <g stroke="#e2e8f0" stroke-width="1">
+    <line x1="370" y1="40" x2="370" y2="290"/><line x1="420" y1="40" x2="420" y2="290"/><line x1="470" y1="40" x2="470" y2="290"/><line x1="520" y1="40" x2="520" y2="290"/>
+    <line x1="70" y1="115" x2="570" y2="115"/><line x1="70" y1="65" x2="570" y2="65"/><line x1="70" y1="215" x2="570" y2="215"/><line x1="70" y1="265" x2="570" y2="265"/>
+  </g>
+  <polygon points="370,115 520,115 420,15" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+  <polygon points="370,215 520,215 420,315" fill="#fee2e2" stroke="#dc2626" stroke-width="3"/>
+  <text x="356" y="110" font-size="15" fill="#1d4ed8">A</text><text x="526" y="115" font-size="15" fill="#1d4ed8">B</text><text x="423" y="34" font-size="15" fill="#1d4ed8">C</text>
+  <text x="346" y="230" font-size="15" fill="#b91c1c">A'</text><text x="526" y="228" font-size="15" fill="#b91c1c">B'</text><text x="423" y="300" font-size="15" fill="#b91c1c">C'</text>
+  <text x="428" y="158" font-size="15" fill="#334155">x-axis mirror</text>
+</svg>

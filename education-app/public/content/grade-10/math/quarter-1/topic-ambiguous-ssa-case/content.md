@@ -94,30 +94,9 @@ This is an SSA situation. The same measurements may describe two different trian
 
 ## Visual Introduction
 
-In the diagrams below, ∠A and sides `a` and `b` are given. Side `a` is opposite ∠A. Side `b` touches ∠A.
+In the diagram below, ∠A and sides `a` and `b` are given. Side `a` is opposite ∠A. Side `b` touches ∠A.
 
-<svg viewBox="0 0 760 260" role="img" aria-labelledby="ssa-swing-title ssa-swing-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="ssa-swing-title">Swinging side in the SSA case</title>
-  <desc id="ssa-swing-desc">A fixed angle at A and adjacent side b create a point C. Side a can swing from C and may intersect the base ray twice, once, or not at all.</desc>
-  <line x1="70" y1="205" x2="690" y2="205" stroke="#cbd5e1" stroke-width="2"/>
-  <line x1="105" y1="205" x2="260" y2="95" stroke="#1f2937" stroke-width="4"/>
-  <path d="M133 205 A30 30 0 0 1 129 188" fill="none" stroke="#ea580c" stroke-width="3"/>
-  <text x="138" y="190" font-size="17" fill="#ea580c">A</text>
-  <text x="168" y="139" font-size="17" fill="#2563eb">b</text>
-  <text x="96" y="228" font-size="17" fill="#111827">A</text>
-  <text x="263" y="90" font-size="17" fill="#111827">C</text>
-  <circle cx="260" cy="95" r="102" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 6"/>
-  <line x1="260" y1="95" x2="174" y2="205" stroke="#16a34a" stroke-width="3"/>
-  <line x1="260" y1="95" x2="351" y2="205" stroke="#16a34a" stroke-width="3"/>
-  <circle cx="174" cy="205" r="5" fill="#16a34a"/>
-  <circle cx="351" cy="205" r="5" fill="#16a34a"/>
-  <text x="197" y="165" font-size="17" fill="#16a34a">a</text>
-  <text x="306" y="165" font-size="17" fill="#16a34a">a</text>
-  <text x="154" y="230" font-size="16" fill="#111827">B₁</text>
-  <text x="346" y="230" font-size="16" fill="#111827">B₂</text>
-  <text x="430" y="95" font-size="18" fill="#111827">Two possible triangles can happen</text>
-  <text x="430" y="125" font-size="16" fill="#475569">when the swinging side reaches the base ray twice.</text>
-</svg>
+![SSA swinging side diagram showing two possible triangles](/content/grade-10/math/quarter-1/topic-ambiguous-ssa-case/images/ssa-swing.svg)
 
 The ambiguity is not caused by bad drawing. It is built into the information pattern.
 
@@ -142,21 +121,7 @@ $$h=b\sin A$$
 
 Here, `b` is the known side touching ∠A, and `h` is the shortest distance from point C to the base ray from A.
 
-<svg viewBox="0 0 640 300" role="img" aria-labelledby="height-test-title height-test-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="height-test-title">Height test for SSA</title>
-  <desc id="height-test-desc">The height h equals b times sine A, drawn as the perpendicular from C to the base ray.</desc>
-  <line x1="75" y1="230" x2="565" y2="230" stroke="#1f2937" stroke-width="3"/>
-  <line x1="95" y1="230" x2="300" y2="82" stroke="#1d4ed8" stroke-width="4"/>
-  <line x1="300" y1="82" x2="300" y2="230" stroke="#dc2626" stroke-width="3" stroke-dasharray="7 5"/>
-  <path d="M300 207 L323 207 L323 230" fill="none" stroke="#dc2626" stroke-width="2"/>
-  <path d="M132 230 A45 45 0 0 1 131 204" fill="none" stroke="#ea580c" stroke-width="3"/>
-  <text x="140" y="204" font-size="18" fill="#ea580c">A</text>
-  <text x="188" y="142" font-size="18" fill="#1d4ed8">b</text>
-  <text x="309" y="158" font-size="18" fill="#dc2626">h = b sin A</text>
-  <text x="88" y="255" font-size="17" fill="#111827">A</text>
-  <text x="304" y="78" font-size="17" fill="#111827">C</text>
-  <text x="292" y="255" font-size="17" fill="#111827">D</text>
-</svg>
+![Height test for SSA](/content/grade-10/math/quarter-1/topic-ambiguous-ssa-case/images/inline-01-height-test-for-ssa.svg)
 
 Compare side `a` with the height `h` and side `b`.
 
@@ -171,40 +136,7 @@ When ∠A is acute:
 | `h < a < b` | 2 | Side `a` reaches the base ray in two places |
 | `a ≥ b` | 1 | Side `a` reaches only one valid point on the ray |
 
-<svg viewBox="0 0 760 420" role="img" aria-labelledby="ssa-cases-title ssa-cases-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="ssa-cases-title">Zero, one, and two SSA triangle cases</title>
-  <desc id="ssa-cases-desc">Four panels show no triangle when a is shorter than h, one right-position triangle when a equals h, two triangles when a is between h and b, and one triangle when a is at least b.</desc>
-  <text x="70" y="35" font-size="18" fill="#111827">a &lt; h: 0 triangles</text>
-  <line x1="70" y1="160" x2="255" y2="160" stroke="#94a3b8" stroke-width="2"/>
-  <line x1="88" y1="160" x2="168" y2="65" stroke="#1d4ed8" stroke-width="3"/>
-  <line x1="168" y1="65" x2="168" y2="160" stroke="#dc2626" stroke-width="2" stroke-dasharray="5 4"/>
-  <circle cx="168" cy="65" r="65" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5 4"/>
-  <text x="185" y="103" font-size="15" fill="#dc2626">h</text>
-  <text x="204" y="78" font-size="15" fill="#475569">a too short</text>
-
-  <text x="440" y="35" font-size="18" fill="#111827">a = h: 1 triangle</text>
-  <line x1="440" y1="160" x2="625" y2="160" stroke="#94a3b8" stroke-width="2"/>
-  <line x1="458" y1="160" x2="538" y2="65" stroke="#1d4ed8" stroke-width="3"/>
-  <line x1="538" y1="65" x2="538" y2="160" stroke="#16a34a" stroke-width="3"/>
-  <path d="M538 139 L559 139 L559 160" fill="none" stroke="#16a34a" stroke-width="2"/>
-  <text x="548" y="112" font-size="15" fill="#16a34a">a = h</text>
-
-  <text x="70" y="235" font-size="18" fill="#111827">h &lt; a &lt; b: 2 triangles</text>
-  <line x1="70" y1="365" x2="255" y2="365" stroke="#94a3b8" stroke-width="2"/>
-  <line x1="88" y1="365" x2="168" y2="270" stroke="#1d4ed8" stroke-width="3"/>
-  <circle cx="168" cy="270" r="105" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5 4"/>
-  <line x1="168" y1="270" x2="103" y2="365" stroke="#16a34a" stroke-width="3"/>
-  <line x1="168" y1="270" x2="233" y2="365" stroke="#16a34a" stroke-width="3"/>
-  <text x="96" y="390" font-size="15" fill="#111827">B₁</text>
-  <text x="228" y="390" font-size="15" fill="#111827">B₂</text>
-
-  <text x="440" y="235" font-size="18" fill="#111827">a ≥ b: 1 triangle</text>
-  <line x1="440" y1="365" x2="650" y2="365" stroke="#94a3b8" stroke-width="2"/>
-  <line x1="458" y1="365" x2="538" y2="270" stroke="#1d4ed8" stroke-width="3"/>
-  <circle cx="538" cy="270" r="128" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5 4"/>
-  <line x1="538" y1="270" x2="636" y2="365" stroke="#16a34a" stroke-width="3"/>
-  <text x="632" y="390" font-size="15" fill="#111827">B</text>
-</svg>
+![Zero, one, and two SSA triangle cases](/content/grade-10/math/quarter-1/topic-ambiguous-ssa-case/images/inline-02-zero-one-and-two-ssa-triangle-cases.svg)
 
 > [!WARNING] Common Trap
 >
@@ -268,20 +200,7 @@ Since `a < h`, the swinging side is too short to reach the base ray.
 
 **Problem:** In △ABC, ∠A = 110°, `a = 15`, and `b = 9`. How many triangles are possible?
 
-<svg viewBox="0 0 560 250" role="img" aria-labelledby="obtuse-ssa-title obtuse-ssa-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="obtuse-ssa-title">Obtuse SSA side comparison</title>
-  <desc id="obtuse-ssa-desc">Angle A is obtuse, so opposite side a must be longer than adjacent side b.</desc>
-  <line x1="95" y1="185" x2="420" y2="185" stroke="#94a3b8" stroke-width="2"/>
-  <line x1="120" y1="185" x2="205" y2="85" stroke="#1d4ed8" stroke-width="4"/>
-  <line x1="205" y1="85" x2="500" y2="185" stroke="#16a34a" stroke-width="4"/>
-  <path d="M165 185 A45 45 0 0 1 149 145" fill="none" stroke="#ea580c" stroke-width="3"/>
-  <text x="164" y="150" font-size="17" fill="#ea580c">110°</text>
-  <text x="150" y="121" font-size="17" fill="#1d4ed8">b = 9</text>
-  <text x="340" y="124" font-size="17" fill="#16a34a">a = 15</text>
-  <text x="110" y="210" font-size="17" fill="#111827">A</text>
-  <text x="504" y="190" font-size="17" fill="#111827">B</text>
-  <text x="207" y="79" font-size="17" fill="#111827">C</text>
-</svg>
+![Obtuse SSA side comparison](/content/grade-10/math/quarter-1/topic-ambiguous-ssa-case/images/inline-03-obtuse-ssa-side-comparison.svg)
 
 Since ∠A is obtuse, side `a` must be longer than side `b`. Here, `15 > 9`.
 

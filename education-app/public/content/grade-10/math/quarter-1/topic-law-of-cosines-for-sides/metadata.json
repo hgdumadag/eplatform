@@ -14,13 +14,30 @@
   ],
   "estimatedDuration": 40,
   "difficulty": "intermediate",
-  "tags": ["geometry", "triangles", "oblique-triangles", "law-of-cosines", "sas", "sss", "side-lengths"],
+  "tags": [
+    "geometry",
+    "triangles",
+    "oblique-triangles",
+    "law-of-cosines",
+    "sas",
+    "sss",
+    "side-lengths"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/inline-01-sas-triangle-with-missing-opposite-side.svg",
+      "images/inline-02-triangle-labels-for-the-law-of-cosines.svg",
+      "images/inline-03-cosine-adjustment-for-triangle-side-lengths.svg",
+      "images/inline-04-triangle-with-a-115-degree-included-angle.svg",
+      "images/sas-missing-side.svg",
+      "images/cosines-side-formula.svg",
+      "images/angle-size-side-effect.svg"
+    ]
   },
   "prerequisites": [
     "Oblique triangles",

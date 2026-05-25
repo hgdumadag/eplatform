@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 260" role="img" aria-labelledby="largest-angle-title largest-angle-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="largest-angle-title">Largest side opposite largest angle</title>
+  <desc id="largest-angle-desc">The side with length 11 is opposite angle C, so angle C should be the largest angle.</desc>
+  <polygon points="105,205 510,205 300,55" fill="#fff7ed" stroke="#c2410c" stroke-width="3"/>
+  <text x="88" y="228" font-size="20" fill="#111827">A</text>
+  <text x="517" y="228" font-size="20" fill="#111827">B</text>
+  <text x="295" y="48" font-size="20" fill="#111827">C</text>
+  <text x="390" y="122" font-size="18" fill="#c2410c">a = 6</text>
+  <text x="165" y="118" font-size="18" fill="#c2410c">b = 9</text>
+  <text x="287" y="232" font-size="18" fill="#c2410c">c = 11</text>
+  <path d="M278 75 A42 42 0 0 0 325 75" fill="none" stroke="#dc2626" stroke-width="4"/>
+  <text x="284" y="96" font-size="20" fill="#dc2626">Find C</text>
+</svg>

@@ -14,13 +14,30 @@
   ],
   "estimatedDuration": 40,
   "difficulty": "intermediate",
-  "tags": ["geometry", "triangles", "oblique-triangles", "law-of-sines", "asa", "aas", "ssa"],
+  "tags": [
+    "geometry",
+    "triangles",
+    "oblique-triangles",
+    "law-of-sines",
+    "asa",
+    "aas",
+    "ssa"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/inline-01-opposite-angle-and-side-pairs-in-a-triangle.svg",
+      "images/inline-02-asa-aas-and-ssa-cases.svg",
+      "images/inline-03-law-of-sines-formula-with-opposite-pairs.svg",
+      "images/inline-04-ssa-case-for-the-law-of-sines.svg",
+      "images/opposite-pairs.svg",
+      "images/law-of-sines-proportion.svg",
+      "images/asa-aas-ssa-cases.svg"
+    ]
   },
   "prerequisites": [
     "Oblique triangle vocabulary",

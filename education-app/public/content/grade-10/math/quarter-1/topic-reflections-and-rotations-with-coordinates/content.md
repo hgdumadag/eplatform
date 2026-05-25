@@ -97,28 +97,7 @@ The route was transformed by a rigid motion. A rotation changes the direction a 
 
 Compare a reflection and a rotation of the same point.
 
-<svg viewBox="0 0 680 300" role="img" aria-labelledby="intro-title intro-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="intro-title">Reflection and rotation of a point</title>
-  <desc id="intro-desc">Point A at 3,2 reflects across the y-axis to negative 3,2 and rotates 90 degrees counterclockwise about the origin to negative 2,3.</desc>
-  <line x1="80" y1="150" x2="600" y2="150" stroke="#475569" stroke-width="2"/>
-  <line x1="340" y1="35" x2="340" y2="265" stroke="#475569" stroke-width="2"/>
-  <text x="610" y="156" font-size="16" fill="#334155">x</text>
-  <text x="347" y="30" font-size="16" fill="#334155">y</text>
-  <g stroke="#e2e8f0" stroke-width="1">
-    <line x1="145" y1="35" x2="145" y2="265"/><line x1="210" y1="35" x2="210" y2="265"/><line x1="275" y1="35" x2="275" y2="265"/><line x1="405" y1="35" x2="405" y2="265"/><line x1="470" y1="35" x2="470" y2="265"/><line x1="535" y1="35" x2="535" y2="265"/>
-    <line x1="80" y1="85" x2="600" y2="85"/><line x1="80" y1="215" x2="600" y2="215"/>
-  </g>
-  <circle cx="535" cy="85" r="7" fill="#2563eb"/>
-  <text x="548" y="82" font-size="16" fill="#1d4ed8">A(3, 2)</text>
-  <circle cx="145" cy="85" r="7" fill="#dc2626"/>
-  <text x="82" y="80" font-size="16" fill="#b91c1c">A'(-3, 2)</text>
-  <circle cx="210" cy="20" r="7" fill="#16a34a"/>
-  <text x="220" y="28" font-size="16" fill="#15803d">A''(-2, 3)</text>
-  <path d="M535 85 C480 72 430 54 390 36" fill="none" stroke="#16a34a" stroke-width="3" stroke-dasharray="6 5"/>
-  <path d="M535 85 L145 85" fill="none" stroke="#dc2626" stroke-width="3" stroke-dasharray="8 5"/>
-  <text x="395" y="106" font-size="15" fill="#b91c1c">reflect over y-axis</text>
-  <text x="410" y="48" font-size="15" fill="#15803d">rotate 90° CCW</text>
-</svg>
+![Reflection and rotation of a point](/content/grade-10/math/quarter-1/topic-reflections-and-rotations-with-coordinates/images/inline-01-reflection-and-rotation-of-a-point.svg)
 
 The reflection keeps the same distance from the mirror line. The rotation keeps the same distance from the center of rotation.
 
@@ -135,26 +114,7 @@ A reflection flips a point across a line. On the coordinate plane, common reflec
 | Across the origin | \((x, y) \rightarrow (-x, -y)\) |
 | Across the line \(y = x\) | \((x, y) \rightarrow (y, x)\) |
 
-<svg viewBox="0 0 640 300" role="img" aria-labelledby="reflection-title reflection-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="reflection-title">Reflection across the x-axis and y-axis</title>
-  <desc id="reflection-desc">Point P at 2,3 reflects across the x-axis to 2,-3 and across the y-axis to -2,3.</desc>
-  <line x1="80" y1="150" x2="560" y2="150" stroke="#475569" stroke-width="2"/>
-  <line x1="320" y1="40" x2="320" y2="260" stroke="#475569" stroke-width="2"/>
-  <g stroke="#e2e8f0" stroke-width="1">
-    <line x1="160" y1="40" x2="160" y2="260"/><line x1="240" y1="40" x2="240" y2="260"/><line x1="400" y1="40" x2="400" y2="260"/><line x1="480" y1="40" x2="480" y2="260"/>
-    <line x1="80" y1="70" x2="560" y2="70"/><line x1="80" y1="110" x2="560" y2="110"/><line x1="80" y1="190" x2="560" y2="190"/><line x1="80" y1="230" x2="560" y2="230"/>
-  </g>
-  <circle cx="480" cy="70" r="7" fill="#2563eb"/>
-  <text x="492" y="69" font-size="16" fill="#1d4ed8">P(2, 3)</text>
-  <circle cx="480" cy="230" r="7" fill="#ea580c"/>
-  <text x="492" y="234" font-size="16" fill="#c2410c">P'(2, -3)</text>
-  <circle cx="160" cy="70" r="7" fill="#dc2626"/>
-  <text x="70" y="69" font-size="16" fill="#b91c1c">P''(-2, 3)</text>
-  <path d="M480 70 L480 230" stroke="#ea580c" stroke-width="3" stroke-dasharray="6 5"/>
-  <path d="M480 70 L160 70" stroke="#dc2626" stroke-width="3" stroke-dasharray="6 5"/>
-  <text x="390" y="145" font-size="15" fill="#c2410c">same x, opposite y</text>
-  <text x="250" y="92" font-size="15" fill="#b91c1c">opposite x, same y</text>
-</svg>
+![Reflection across the x-axis and y-axis](/content/grade-10/math/quarter-1/topic-reflections-and-rotations-with-coordinates/images/inline-02-reflection-across-the-x-axis-and-y-axis.svg)
 
 ### 2. Rotation Rules About the Origin
 
@@ -169,24 +129,7 @@ Common counterclockwise rotation rules:
 | \(270°\) counterclockwise | \((x, y) \rightarrow (y, -x)\) |
 | \(360°\) | \((x, y) \rightarrow (x, y)\) |
 
-<svg viewBox="0 0 640 340" role="img" aria-labelledby="rotation-title rotation-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="rotation-title">Rotating a point around the origin</title>
-  <desc id="rotation-desc">Point Q at 4,1 rotates 90 degrees counterclockwise to -1,4, 180 degrees to -4,-1, and 270 degrees counterclockwise to 1,-4.</desc>
-  <line x1="70" y1="170" x2="570" y2="170" stroke="#475569" stroke-width="2"/>
-  <line x1="320" y1="30" x2="320" y2="310" stroke="#475569" stroke-width="2"/>
-  <g stroke="#e2e8f0" stroke-width="1">
-    <line x1="120" y1="30" x2="120" y2="310"/><line x1="170" y1="30" x2="170" y2="310"/><line x1="220" y1="30" x2="220" y2="310"/><line x1="270" y1="30" x2="270" y2="310"/><line x1="370" y1="30" x2="370" y2="310"/><line x1="420" y1="30" x2="420" y2="310"/><line x1="470" y1="30" x2="470" y2="310"/><line x1="520" y1="30" x2="520" y2="310"/>
-    <line x1="70" y1="70" x2="570" y2="70"/><line x1="70" y1="120" x2="570" y2="120"/><line x1="70" y1="220" x2="570" y2="220"/><line x1="70" y1="270" x2="570" y2="270"/>
-  </g>
-  <circle cx="440" cy="140" r="7" fill="#2563eb"/><text x="450" y="137" font-size="15" fill="#1d4ed8">Q(4, 1)</text>
-  <circle cx="290" cy="50" r="7" fill="#16a34a"/><text x="300" y="54" font-size="15" fill="#15803d">90°: (-1, 4)</text>
-  <circle cx="200" cy="200" r="7" fill="#dc2626"/><text x="92" y="221" font-size="15" fill="#b91c1c">180°: (-4, -1)</text>
-  <circle cx="350" cy="290" r="7" fill="#7c3aed"/><text x="358" y="292" font-size="15" fill="#6d28d9">270°: (1, -4)</text>
-  <path d="M440 140 A124 124 0 0 1 290 50" fill="none" stroke="#16a34a" stroke-width="3" stroke-dasharray="6 5"/>
-  <path d="M440 140 A124 124 0 0 1 200 200" fill="none" stroke="#dc2626" stroke-width="3" stroke-dasharray="6 5"/>
-  <path d="M440 140 A124 124 0 0 1 350 290" fill="none" stroke="#7c3aed" stroke-width="3" stroke-dasharray="6 5"/>
-  <circle cx="320" cy="170" r="5" fill="#111827"/><text x="330" y="188" font-size="14" fill="#111827">origin</text>
-</svg>
+![Rotating a point around the origin](/content/grade-10/math/quarter-1/topic-reflections-and-rotations-with-coordinates/images/inline-03-rotating-a-point-around-the-origin.svg)
 
 ## Rule Box / Formula Box
 
@@ -236,21 +179,7 @@ For \(90°\) counterclockwise, use \((x, y) \rightarrow (-y, x)\).
 
 **Problem:** Triangle \(ABC\) has \(A(1, 1)\), \(B(4, 1)\), and \(C(2, 3)\). Reflect it across the x-axis.
 
-<svg viewBox="0 0 620 330" role="img" aria-labelledby="triangle-reflection-title triangle-reflection-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="triangle-reflection-title">Triangle reflection across the x-axis</title>
-  <desc id="triangle-reflection-desc">Triangle ABC above the x-axis reflects to triangle A prime B prime C prime below the x-axis.</desc>
-  <line x1="70" y1="165" x2="570" y2="165" stroke="#475569" stroke-width="2"/>
-  <line x1="320" y1="40" x2="320" y2="290" stroke="#475569" stroke-width="2"/>
-  <g stroke="#e2e8f0" stroke-width="1">
-    <line x1="370" y1="40" x2="370" y2="290"/><line x1="420" y1="40" x2="420" y2="290"/><line x1="470" y1="40" x2="470" y2="290"/><line x1="520" y1="40" x2="520" y2="290"/>
-    <line x1="70" y1="115" x2="570" y2="115"/><line x1="70" y1="65" x2="570" y2="65"/><line x1="70" y1="215" x2="570" y2="215"/><line x1="70" y1="265" x2="570" y2="265"/>
-  </g>
-  <polygon points="370,115 520,115 420,15" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
-  <polygon points="370,215 520,215 420,315" fill="#fee2e2" stroke="#dc2626" stroke-width="3"/>
-  <text x="356" y="110" font-size="15" fill="#1d4ed8">A</text><text x="526" y="115" font-size="15" fill="#1d4ed8">B</text><text x="423" y="34" font-size="15" fill="#1d4ed8">C</text>
-  <text x="346" y="230" font-size="15" fill="#b91c1c">A'</text><text x="526" y="228" font-size="15" fill="#b91c1c">B'</text><text x="423" y="300" font-size="15" fill="#b91c1c">C'</text>
-  <text x="428" y="158" font-size="15" fill="#334155">x-axis mirror</text>
-</svg>
+![Triangle reflection across the x-axis](/content/grade-10/math/quarter-1/topic-reflections-and-rotations-with-coordinates/images/inline-04-triangle-reflection-across-the-x-axis.svg)
 
 **Solution:**
 

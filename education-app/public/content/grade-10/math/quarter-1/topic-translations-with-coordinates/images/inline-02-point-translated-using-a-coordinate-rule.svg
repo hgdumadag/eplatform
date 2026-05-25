@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 340" role="img" aria-labelledby="point-rule-title point-rule-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="point-rule-title">Point translated using a coordinate rule</title>
+  <desc id="point-rule-desc">Point P at 2 negative 1 moves left 3 and up 4 to point P prime at negative 1, 3.</desc>
+  <defs>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#dc2626"></path>
+    </marker>
+  </defs>
+  <rect x="60" y="30" width="500" height="260" fill="#f8fafc" stroke="#e2e8f0"></rect>
+  <g stroke="#cbd5e1" stroke-width="1">
+    <line x1="100" y1="30" x2="100" y2="290"></line><line x1="140" y1="30" x2="140" y2="290"></line><line x1="180" y1="30" x2="180" y2="290"></line><line x1="220" y1="30" x2="220" y2="290"></line><line x1="260" y1="30" x2="260" y2="290"></line><line x1="300" y1="30" x2="300" y2="290"></line><line x1="340" y1="30" x2="340" y2="290"></line><line x1="380" y1="30" x2="380" y2="290"></line><line x1="420" y1="30" x2="420" y2="290"></line><line x1="460" y1="30" x2="460" y2="290"></line><line x1="500" y1="30" x2="500" y2="290"></line>
+    <line x1="60" y1="50" x2="560" y2="50"></line><line x1="60" y1="90" x2="560" y2="90"></line><line x1="60" y1="130" x2="560" y2="130"></line><line x1="60" y1="170" x2="560" y2="170"></line><line x1="60" y1="210" x2="560" y2="210"></line><line x1="60" y1="250" x2="560" y2="250"></line>
+  </g>
+  <line x1="60" y1="170" x2="560" y2="170" stroke="#334155" stroke-width="2"></line>
+  <line x1="300" y1="30" x2="300" y2="290" stroke="#334155" stroke-width="2"></line>
+  <circle cx="380" cy="210" r="7" fill="#2563eb"></circle>
+  <circle cx="260" cy="50" r="7" fill="#dc2626"></circle>
+  <line x1="380" y1="210" x2="260" y2="50" stroke="#dc2626" stroke-width="4" marker-end="url(#arrow-red)"></line>
+  <text x="390" y="218" font-size="17" fill="#1e3a8a">P(2, -1)</text>
+  <text x="155" y="48" font-size="17" fill="#991b1b">P'(-1, 3)</text>
+  <text x="170" y="315" font-size="18" fill="#111827">(x, y) -> (x - 3, y + 4)</text>
+</svg>

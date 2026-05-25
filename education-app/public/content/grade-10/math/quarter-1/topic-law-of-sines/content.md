@@ -101,23 +101,7 @@ Because two angles are known, the third angle can be found first. Then the Law o
 
 The Law of Sines works by matching each angle with its opposite side.
 
-<svg viewBox="0 0 640 300" role="img" aria-labelledby="opposite-pairs-title opposite-pairs-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="opposite-pairs-title">Opposite angle and side pairs in a triangle</title>
-  <desc id="opposite-pairs-desc">Angle A is opposite side a, angle B is opposite side b, and angle C is opposite side c.</desc>
-  <polygon points="115,235 520,235 245,55" fill="#eef2ff" stroke="#3730a3" stroke-width="3"/>
-  <text x="95" y="258" font-size="20" fill="#111827">A</text>
-  <text x="528" y="241" font-size="20" fill="#111827">B</text>
-  <text x="238" y="47" font-size="20" fill="#111827">C</text>
-  <text x="350" y="130" font-size="20" fill="#be123c">a</text>
-  <text x="160" y="145" font-size="20" fill="#047857">b</text>
-  <text x="300" y="260" font-size="20" fill="#1d4ed8">c</text>
-  <path d="M135 232 A38 38 0 0 1 160 206" fill="none" stroke="#be123c" stroke-width="3"/>
-  <path d="M485 234 A38 38 0 0 0 465 204" fill="none" stroke="#047857" stroke-width="3"/>
-  <path d="M225 70 A40 40 0 0 0 272 72" fill="none" stroke="#1d4ed8" stroke-width="3"/>
-  <text x="147" y="216" font-size="16" fill="#be123c">A</text>
-  <text x="465" y="218" font-size="16" fill="#047857">B</text>
-  <text x="242" y="83" font-size="16" fill="#1d4ed8">C</text>
-</svg>
+![Opposite angle and side pairs in a triangle](/content/grade-10/math/quarter-1/topic-law-of-sines/images/inline-01-opposite-angle-and-side-pairs-in-a-triangle.svg)
 
 Notice the matching pattern:
 
@@ -137,31 +121,7 @@ The Law of Sines is especially useful when you have:
 | AAS | Two angles and a non-included side | Find the third angle |
 | SSA | Two sides and a non-included angle | Set up a sine proportion and check possible angles |
 
-<svg viewBox="0 0 700 260" role="img" aria-labelledby="cases-title cases-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="cases-title">ASA AAS and SSA cases</title>
-  <desc id="cases-desc">Three small triangle diagrams show the known parts for ASA, AAS, and SSA cases.</desc>
-  <g transform="translate(20,15)">
-    <polygon points="35,190 180,190 80,55" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
-    <text x="55" y="172" font-size="15" fill="#1d4ed8">42°</text>
-    <text x="125" y="172" font-size="15" fill="#1d4ed8">68°</text>
-    <text x="85" y="213" font-size="15" fill="#111827">15 m</text>
-    <text x="75" y="235" font-size="18" fill="#111827">ASA</text>
-  </g>
-  <g transform="translate(255,15)">
-    <polygon points="35,190 180,190 80,55" fill="#dcfce7" stroke="#047857" stroke-width="3"/>
-    <text x="55" y="172" font-size="15" fill="#047857">35°</text>
-    <text x="76" y="80" font-size="15" fill="#047857">82°</text>
-    <text x="24" y="125" font-size="15" fill="#111827">12 cm</text>
-    <text x="75" y="235" font-size="18" fill="#111827">AAS</text>
-  </g>
-  <g transform="translate(490,15)">
-    <polygon points="35,190 180,190 80,55" fill="#fff7ed" stroke="#c2410c" stroke-width="3"/>
-    <text x="55" y="172" font-size="15" fill="#c2410c">40°</text>
-    <text x="92" y="213" font-size="15" fill="#111827">12</text>
-    <text x="118" y="115" font-size="15" fill="#111827">9</text>
-    <text x="75" y="235" font-size="18" fill="#111827">SSA</text>
-  </g>
-</svg>
+![ASA AAS and SSA cases](/content/grade-10/math/quarter-1/topic-law-of-sines/images/inline-02-asa-aas-and-ssa-cases.svg)
 
 ### 2. Solving for a Side
 
@@ -196,17 +156,7 @@ Finally, use inverse sine. For SSA, always check if a second angle is possible.
 > 5. Round only at the end unless the problem gives a rounding direction.
 > 6. For SSA, check whether another angle also works.
 
-<svg viewBox="0 0 640 190" role="img" aria-labelledby="formula-title formula-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="formula-title">Law of Sines formula with opposite pairs</title>
-  <desc id="formula-desc">The formula a over sine A equals b over sine B equals c over sine C is shown with matching colors.</desc>
-  <rect x="35" y="35" width="570" height="115" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
-  <text x="80" y="108" font-size="34" fill="#be123c">a</text>
-  <text x="118" y="108" font-size="34" fill="#111827">/ sin A</text>
-  <text x="262" y="108" font-size="34" fill="#111827">=</text>
-  <text x="315" y="108" font-size="34" fill="#047857">b</text>
-  <text x="352" y="108" font-size="34" fill="#111827">/ sin B</text>
-  <text x="495" y="108" font-size="34" fill="#111827">= ...</text>
-</svg>
+![Law of Sines formula with opposite pairs](/content/grade-10/math/quarter-1/topic-law-of-sines/images/inline-03-law-of-sines-formula-with-opposite-pairs.svg)
 
 ## Worked Examples
 
@@ -250,18 +200,7 @@ $$c = \frac{12\sin 82°}{\sin 35°} \approx 20.7$$
 
 **Problem:** In △ABC, ∠A = 40°, `a = 12`, and `b = 9`. Find ∠B to the nearest tenth.
 
-<svg viewBox="0 0 560 260" role="img" aria-labelledby="ssa-title ssa-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
-  <title id="ssa-title">SSA case for the Law of Sines</title>
-  <desc id="ssa-desc">A triangle has angle A of 40 degrees, opposite side a of 12, and side b of 9.</desc>
-  <polygon points="95,205 455,205 230,65" fill="#fef3c7" stroke="#b45309" stroke-width="3"/>
-  <text x="82" y="230" font-size="18" fill="#111827">A</text>
-  <text x="464" y="211" font-size="18" fill="#111827">B</text>
-  <text x="226" y="55" font-size="18" fill="#111827">C</text>
-  <path d="M125 203 A45 45 0 0 1 133 176" fill="none" stroke="#dc2626" stroke-width="3"/>
-  <text x="138" y="188" font-size="16" fill="#dc2626">40°</text>
-  <text x="330" y="125" font-size="16" fill="#111827">a = 12</text>
-  <text x="142" y="130" font-size="16" fill="#111827">b = 9</text>
-</svg>
+![SSA case for the Law of Sines](/content/grade-10/math/quarter-1/topic-law-of-sines/images/inline-04-ssa-case-for-the-law-of-sines.svg)
 
 Use the sine ratio:
 

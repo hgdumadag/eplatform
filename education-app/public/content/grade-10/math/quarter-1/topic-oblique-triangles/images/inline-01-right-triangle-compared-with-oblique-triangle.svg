@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" role="img" aria-labelledby="right-vs-oblique-title right-vs-oblique-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="right-vs-oblique-title">Right triangle compared with oblique triangle</title>
+  <desc id="right-vs-oblique-desc">The left triangle has a 90 degree angle. The right triangle has no 90 degree angle.</desc>
+  <line x1="70" y1="170" x2="230" y2="170" stroke="#1f2937" stroke-width="3"/>
+  <line x1="70" y1="170" x2="70" y2="50" stroke="#1f2937" stroke-width="3"/>
+  <line x1="70" y1="50" x2="230" y2="170" stroke="#1f2937" stroke-width="3"/>
+  <path d="M70 145 L95 145 L95 170" fill="none" stroke="#dc2626" stroke-width="3"/>
+  <text x="108" y="153" font-size="18" fill="#dc2626">90°</text>
+  <text x="88" y="205" font-size="18" fill="#111827">Right triangle</text>
+  <line x1="385" y1="170" x2="570" y2="170" stroke="#1f2937" stroke-width="3"/>
+  <line x1="385" y1="170" x2="455" y2="45" stroke="#1f2937" stroke-width="3"/>
+  <line x1="455" y1="45" x2="570" y2="170" stroke="#1f2937" stroke-width="3"/>
+  <text x="392" y="156" font-size="16" fill="#2563eb">62°</text>
+  <text x="520" y="156" font-size="16" fill="#2563eb">51°</text>
+  <text x="450" y="70" font-size="16" fill="#2563eb">67°</text>
+  <text x="402" y="205" font-size="18" fill="#111827">Oblique triangle</text>
+</svg>

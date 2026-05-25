@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 260" role="img" aria-labelledby="ssa-title ssa-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="ssa-title">SSA case for the Law of Sines</title>
+  <desc id="ssa-desc">A triangle has angle A of 40 degrees, opposite side a of 12, and side b of 9.</desc>
+  <polygon points="95,205 455,205 230,65" fill="#fef3c7" stroke="#b45309" stroke-width="3"/>
+  <text x="82" y="230" font-size="18" fill="#111827">A</text>
+  <text x="464" y="211" font-size="18" fill="#111827">B</text>
+  <text x="226" y="55" font-size="18" fill="#111827">C</text>
+  <path d="M125 203 A45 45 0 0 1 133 176" fill="none" stroke="#dc2626" stroke-width="3"/>
+  <text x="138" y="188" font-size="16" fill="#dc2626">40°</text>
+  <text x="330" y="125" font-size="16" fill="#111827">a = 12</text>
+  <text x="142" y="130" font-size="16" fill="#111827">b = 9</text>
+</svg>

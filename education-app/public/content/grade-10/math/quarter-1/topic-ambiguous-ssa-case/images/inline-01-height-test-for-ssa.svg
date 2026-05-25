@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-labelledby="height-test-title height-test-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="height-test-title">Height test for SSA</title>
+  <desc id="height-test-desc">The height h equals b times sine A, drawn as the perpendicular from C to the base ray.</desc>
+  <line x1="75" y1="230" x2="565" y2="230" stroke="#1f2937" stroke-width="3"/>
+  <line x1="95" y1="230" x2="300" y2="82" stroke="#1d4ed8" stroke-width="4"/>
+  <line x1="300" y1="82" x2="300" y2="230" stroke="#dc2626" stroke-width="3" stroke-dasharray="7 5"/>
+  <path d="M300 207 L323 207 L323 230" fill="none" stroke="#dc2626" stroke-width="2"/>
+  <path d="M132 230 A45 45 0 0 1 131 204" fill="none" stroke="#ea580c" stroke-width="3"/>
+  <text x="140" y="204" font-size="18" fill="#ea580c">A</text>
+  <text x="188" y="142" font-size="18" fill="#1d4ed8">b</text>
+  <text x="309" y="158" font-size="18" fill="#dc2626">h = b sin A</text>
+  <text x="88" y="255" font-size="17" fill="#111827">A</text>
+  <text x="304" y="78" font-size="17" fill="#111827">C</text>
+  <text x="292" y="255" font-size="17" fill="#111827">D</text>
+</svg>

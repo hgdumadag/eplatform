@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 320" role="img" aria-labelledby="navigation-triangle-title navigation-triangle-desc" style="max-width:100%;height:auto;border:1px solid #d9e2ec;border-radius:8px;background:#ffffff">
+  <title id="navigation-triangle-title">Navigation triangle with included angle</title>
+  <desc id="navigation-triangle-desc">The route from A to B is 5 kilometers, from B to C is 7 kilometers, and the included angle at B is 100 degrees.</desc>
+  <polyline points="120,235 260,80 430,210" fill="none" stroke="#2563eb" stroke-width="4"/>
+  <line x1="120" y1="235" x2="430" y2="210" stroke="#ea580c" stroke-width="3" stroke-dasharray="8 7"/>
+  <circle cx="120" cy="235" r="6" fill="#111827"/>
+  <circle cx="260" cy="80" r="6" fill="#111827"/>
+  <circle cx="430" cy="210" r="6" fill="#111827"/>
+  <text x="100" y="260" font-size="18" fill="#111827">A</text>
+  <text x="258" y="64" font-size="18" fill="#111827">B</text>
+  <text x="438" y="218" font-size="18" fill="#111827">C</text>
+  <text x="164" y="144" font-size="16" fill="#2563eb">5 km</text>
+  <text x="340" y="136" font-size="16" fill="#2563eb">7 km</text>
+  <text x="258" y="121" font-size="16" fill="#dc2626">100°</text>
+  <path d="M237 106 A38 38 0 0 0 296 108" fill="none" stroke="#dc2626" stroke-width="3"/>
+  <text x="255" y="242" font-size="16" fill="#ea580c">AC ≈ 9.3 km</text>
+</svg>
