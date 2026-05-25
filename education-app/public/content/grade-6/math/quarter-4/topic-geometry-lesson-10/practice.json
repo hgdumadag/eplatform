@@ -1,0 +1,80 @@
+{
+  "id": "grade-6-math-q4-geometry-lesson-10-practice",
+  "examId": "grade-6-math-q4-geometry-lesson-10-practice",
+  "examType": "practice",
+  "title": "Practice: Quarter Performance Task Floor Pattern",
+  "description": "Practice computing area, boundary length, and material estimates for circular and composite floor patterns.",
+  "totalPoints": 100,
+  "totalQuestions": 8,
+  "timeLimit": 30,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A circular floor medallion has radius 3 m. Using $\\pi \\approx 3.14$, what is its area?",
+      "options": ["9.42 m²", "18.84 m²", "28.26 m²", "56.52 m²"],
+      "correctAnswer": 2,
+      "explanation": "Use $A=\\pi r^2=3.14(3^2)=28.26\\text{ m}^2$."
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which measurement should you use to estimate border trim around the outside of a floor pattern?",
+      "options": ["total area", "boundary length", "number of colors", "surface material thickness"],
+      "correctAnswer": 1,
+      "explanation": "Border trim follows the outside edge, so it uses boundary length, not area."
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A rectangle is 10 m by 5 m. A semicircle with diameter 10 m is attached to one long side. What radius is used for the semicircle?",
+      "options": ["2.5 m", "5 m", "10 m", "20 m"],
+      "correctAnswer": 1,
+      "explanation": "The radius is half the diameter, so $10\\div2=5$ m."
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "points": 10,
+      "question": "When estimating whole boxes of tile, it is usually correct to round up after dividing total area by coverage per box.",
+      "correctAnswer": "true",
+      "explanation": "A partial box cannot be purchased in most estimates, and rounding down would leave part of the floor uncovered."
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "points": 10,
+      "question": "A shared edge where a semicircle touches a rectangle should always be included in the outside boundary length.",
+      "correctAnswer": "false",
+      "explanation": "A shared inside edge helps you decompose the shape, but it is not part of the outside boundary."
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "points": 15,
+      "question": "A circular floor pattern has radius 4 m. Using $\\pi \\approx 3.14$, find its boundary length.",
+      "correctAnswer": "25.12 or 25.12 m or 25.12 meters",
+      "explanation": "Boundary length for a circle is circumference: $2\\pi r=2(3.14)(4)=25.12$."
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "points": 15,
+      "question": "A floor area is $64\\text{ m}^2$. One adhesive container covers $15\\text{ m}^2$. How many whole containers are needed?",
+      "correctAnswer": "5 or 5 containers",
+      "explanation": "$64\\div15=4.27$ approximately, so round up to 5 containers."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "points": 20,
+      "question": "A composite pattern is made from a rectangle and a semicircle. Explain the difference between finding total area and finding outside boundary length.",
+      "correctAnswer": "For total area, find the rectangle area and semicircle area and add them. For outside boundary length, add only the outside straight sides and the semicircular arc, not the shared diameter inside the shape.",
+      "explanation": "A strong response separates surface coverage from edge length and notes that shared inside edges are not part of the outside boundary."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Composite problem solving plan</title>
+  <desc id="desc">A board showing the steps read, choose formulas, solve, justify, and check units.</desc>
+  <rect width="900" height="520" fill="#f7fafc"/>
+  <rect x="60" y="54" width="780" height="412" rx="18" fill="#ffffff" stroke="#1f2937" stroke-width="4"/>
+  <text x="450" y="106" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#111827">Composite Problem Solving</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="110" y="150" width="130" height="190" rx="14" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+    <text x="175" y="198" text-anchor="middle" font-size="24" font-weight="700" fill="#1e3a8a">Read</text>
+    <text x="175" y="238" text-anchor="middle" font-size="17" fill="#1e3a8a">cover?</text>
+    <text x="175" y="266" text-anchor="middle" font-size="17" fill="#1e3a8a">border?</text>
+    <text x="175" y="294" text-anchor="middle" font-size="17" fill="#1e3a8a">inside?</text>
+    <rect x="260" y="150" width="130" height="190" rx="14" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+    <text x="325" y="198" text-anchor="middle" font-size="24" font-weight="700" fill="#14532d">Choose</text>
+    <text x="325" y="238" text-anchor="middle" font-size="17" fill="#14532d">area</text>
+    <text x="325" y="266" text-anchor="middle" font-size="17" fill="#14532d">circum.</text>
+    <text x="325" y="294" text-anchor="middle" font-size="17" fill="#14532d">perimeter</text>
+    <rect x="410" y="150" width="130" height="190" rx="14" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+    <text x="475" y="198" text-anchor="middle" font-size="24" font-weight="700" fill="#7c2d12">Solve</text>
+    <text x="475" y="238" text-anchor="middle" font-size="17" fill="#7c2d12">substitute</text>
+    <text x="475" y="266" text-anchor="middle" font-size="17" fill="#7c2d12">calculate</text>
+    <text x="475" y="294" text-anchor="middle" font-size="17" fill="#7c2d12">combine</text>
+    <rect x="560" y="150" width="130" height="190" rx="14" fill="#fae8ff" stroke="#9333ea" stroke-width="3"/>
+    <text x="625" y="198" text-anchor="middle" font-size="24" font-weight="700" fill="#581c87">Justify</text>
+    <text x="625" y="238" text-anchor="middle" font-size="17" fill="#581c87">because...</text>
+    <text x="625" y="266" text-anchor="middle" font-size="17" fill="#581c87">matches</text>
+    <text x="625" y="294" text-anchor="middle" font-size="17" fill="#581c87">meaning</text>
+    <rect x="710" y="150" width="80" height="190" rx="14" fill="#fee2e2" stroke="#dc2626" stroke-width="3"/>
+    <text x="750" y="198" text-anchor="middle" font-size="22" font-weight="700" fill="#7f1d1d">Units</text>
+    <text x="750" y="238" text-anchor="middle" font-size="16" fill="#7f1d1d">m</text>
+    <text x="750" y="266" text-anchor="middle" font-size="16" fill="#7f1d1d">m²</text>
+  </g>
+  <path d="M244 245h12M394 245h12M544 245h12M694 245h12" stroke="#374151" stroke-width="5" stroke-linecap="round"/>
+  <text x="450" y="404" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" fill="#374151">Decision first. Arithmetic second.</text>
+</svg>

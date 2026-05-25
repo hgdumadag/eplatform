@@ -1,0 +1,110 @@
+{
+  "examId": "grade-6-math-q4-geometry-lesson-7-circumference-review-assessment",
+  "examType": "assessment",
+  "title": "Circumference Review Assessment",
+  "description": "Show mastery by solving mixed circle problems and choosing circumference or area correctly.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A wheel has radius 9 cm. Which expression finds the distance around the wheel?",
+      "options": [
+        "$3.14(9^2)$",
+        "$2(3.14)(9)$",
+        "$3.14(18^2)$",
+        "$9 \\div 2$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Distance around is circumference, so use $C = 2\\pi r = 2(3.14)(9)$.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A circular mirror has diameter 16 in. Using $\\pi = 3.14$, what is its circumference? Enter just the number.",
+      "correctAnswer": "50.24",
+      "explanation": "Circumference with diameter is $C = \\pi d = 3.14(16) = 50.24$ inches.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "The area of a circle with diameter 10 m is found by $3.14(10^2)$.",
+      "correctAnswer": "false",
+      "explanation": "Area uses radius, not diameter. The radius is $10 \\div 2 = 5$, so the area is $3.14(5^2)$.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "A circular mat has radius 3 m. Using $\\pi = 3.14$, what is its area? Enter just the number.",
+      "correctAnswer": "28.26",
+      "explanation": "Area is $A = \\pi r^2 = 3.14(3^2) = 28.26$ square meters.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A ribbon is placed around the edge of a circular plate with diameter 11 in. Which answer gives the ribbon length?",
+      "options": [
+        "34.54 in",
+        "94.985 square in",
+        "379.94 in",
+        "17.27 square in"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ribbon around the edge is circumference. $C = 3.14(11) = 34.54$ inches.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "A circular pool has diameter 14 m. A cover must fit over the top of the pool. Use $\\pi = 3.14$. Explain the formula choice and find the covered area.",
+      "correctAnswer": "A cover fits over the inside surface, so use area. The radius is 14 ÷ 2 = 7 m. A = 3.14(7^2) = 153.86 square meters.",
+      "explanation": "A cover measures surface area, not distance around. Convert diameter to radius, then use $A = \\pi r^2$.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A student writes $3.14(6^2) = 113.04$ for a problem asking for the distance around a circle with radius 6. What is the mistake?",
+      "options": [
+        "The student used area instead of circumference.",
+        "The student should have divided 6 by 2.",
+        "The student should have used square units for distance.",
+        "The student used 3.14 instead of 6.28."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Distance around means circumference. The student squared the radius and found area.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "question": "Circumference answers should be labeled with square units.",
+      "correctAnswer": "false",
+      "explanation": "Circumference is a length around a circle, so it uses regular units such as centimeters or meters.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "question": "A circular stage has diameter 18 ft. Using $\\pi = 3.14$, what is its area? Enter just the number.",
+      "correctAnswer": "254.34",
+      "explanation": "Area needs radius. $18 \\div 2 = 9$, and $3.14(9^2) = 3.14(81) = 254.34$ square feet.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A circular park has radius 8 m. Find both the distance around the park and the area inside the park using $\\pi = 3.14$. Label each answer correctly.",
+      "correctAnswer": "The distance around is circumference: C = 2(3.14)(8) = 50.24 meters. The area inside is A = 3.14(8^2) = 200.96 square meters.",
+      "explanation": "The same circle can have both measurements. Around uses circumference and inside uses area, with different unit labels.",
+      "points": 10
+    }
+  ]
+}

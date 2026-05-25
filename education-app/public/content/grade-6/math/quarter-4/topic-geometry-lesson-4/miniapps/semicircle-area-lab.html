@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semicircle Area Lab</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #172033;
+        --muted: #5b6475;
+        --line: #d7deea;
+        --panel: #ffffff;
+        --bg: #f6f8fb;
+        --blue: #2563eb;
+        --green: #15803d;
+        --amber: #b45309;
+        --red: #b91c1c;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      main {
+        max-width: 1120px;
+        margin: 0 auto;
+        padding: 18px;
+      }
+
+      .layout {
+        display: grid;
+        grid-template-columns: minmax(280px, 390px) 1fr;
+        gap: 14px;
+      }
+
+      .panel {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 16px;
+      }
+
+      h1,
+      h2,
+      h3 {
+        margin: 0;
+        letter-spacing: 0;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      h3 {
+        font-size: 16px;
+        margin-bottom: 8px;
+      }
+
+      p {
+        margin: 8px 0;
+        color: var(--muted);
+        line-height: 1.45;
+      }
+
+      label {
+        display: block;
+        font-weight: 700;
+        margin: 12px 0 6px;
+      }
+
+      input,
+      select,
+      button {
+        font: inherit;
+      }
+
+      input[type='number'],
+      select {
+        width: 100%;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        padding: 10px 11px;
+        background: #fff;
+        color: var(--ink);
+      }
+
+      input[type='range'] {
+        width: 100%;
+      }
+
+      .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+
+      .button-row {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        margin-top: 12px;
+      }
+
+      button {
+        border: 0;
+        border-radius: 6px;
+        padding: 10px 12px;
+        background: var(--blue);
+        color: #fff;
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      button.secondary {
+        background: #e8eefc;
+        color: #1e3a8a;
+      }
+
+      button:disabled {
+        background: #cbd5e1;
+        color: #64748b;
+        cursor: not-allowed;
+      }
+
+      .status {
+        min-height: 44px;
+        border-radius: 8px;
+        padding: 10px 12px;
+        margin-top: 12px;
+        background: #f8fafc;
+        border: 1px solid var(--line);
+        color: var(--muted);
+      }
+
+      .status.good {
+        background: #ecfdf5;
+        border-color: #86efac;
+        color: #166534;
+      }
+
+      .status.warn {
+        background: #fffbeb;
+        border-color: #fcd34d;
+        color: #92400e;
+      }
+
+      .visual {
+        min-height: 380px;
+      }
+
+      svg {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .formula {
+        display: grid;
+        gap: 8px;
+        margin-top: 12px;
+      }
+
+      .formula div {
+        padding: 9px 10px;
+        border-radius: 6px;
+        background: #f8fafc;
+        border: 1px solid var(--line);
+      }
+
+      .quiz-grid,
+      .check-grid {
+        display: grid;
+        gap: 10px;
+      }
+
+      .choice {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        padding: 8px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: #fff;
+      }
+
+      .choice input {
+        flex: 0 0 auto;
+      }
+
+      .checklist {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: grid;
+        gap: 8px;
+      }
+
+      .checklist li {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--muted);
+      }
+
+      .dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: #cbd5e1;
+        flex: 0 0 auto;
+      }
+
+      .done .dot {
+        background: var(--green);
+      }
+
+      .done {
+        color: #14532d;
+      }
+
+      .stack {
+        display: grid;
+        gap: 14px;
+      }
+
+      @media (max-width: 780px) {
+        main {
+          padding: 12px;
+        }
+
+        .layout,
+        .row {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="layout">
+        <section class="stack">
+          <article class="panel">
+            <h1>Semicircle Area Lab</h1>
+            <p>Use pi = 3.14. Predict first, then reveal the calculation.</p>
+
+            <label for="givenType">Given measurement</label>
+            <select id="givenType">
+              <option value="radius">Radius</option>
+              <option value="diameter">Diameter</option>
+            </select>
+
+            <label for="measure">Measurement value: <span id="measureLabel">6</span></label>
+            <input id="measure" type="range" min="2" max="30" value="6" />
+
+            <div class="row">
+              <div>
+                <label for="prediction">Your area prediction</label>
+                <input id="prediction" type="number" step="0.01" placeholder="square units" />
+              </div>
+              <div>
+                <label for="precheck">Pre-check: diameter 14 gives radius</label>
+                <input id="precheck" type="number" step="1" placeholder="?" />
+              </div>
+            </div>
+
+            <div class="button-row">
+              <button id="checkPre" type="button">Check Pre-Check</button>
+              <button id="reveal" type="button">Reveal Area</button>
+              <button id="newCase" class="secondary" type="button">New Case</button>
+            </div>
+            <div id="feedback" class="status">Start by answering the pre-check, then make a prediction.</div>
+          </article>
+
+          <article class="panel">
+            <h2>Guided Checks</h2>
+            <div class="check-grid">
+              <label class="choice"><input id="checkRadius" type="checkbox" /> I used radius in the formula.</label>
+              <label class="choice"><input id="checkSquare" type="checkbox" /> I squared the radius before multiplying.</label>
+              <label class="choice"><input id="checkHalf" type="checkbox" /> I divided the full circle area by 2.</label>
+            </div>
+            <div class="button-row">
+              <button id="checkGuides" type="button">Check Steps</button>
+            </div>
+            <div id="guideFeedback" class="status">Complete the three step checks after revealing the area.</div>
+          </article>
+
+          <article class="panel">
+            <h2>Mastery Checklist</h2>
+            <ul class="checklist">
+              <li id="m1"><span class="dot"></span>Pre-check completed</li>
+              <li id="m2"><span class="dot"></span>Prediction made before reveal</li>
+              <li id="m3"><span class="dot"></span>Calculation revealed</li>
+              <li id="m4"><span class="dot"></span>Guided checks completed</li>
+              <li id="m5"><span class="dot"></span>Mini-quiz completed</li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="stack">
+          <article class="panel visual">
+            <h2>Model</h2>
+            <svg id="diagram" viewBox="0 0 680 390" role="img" aria-labelledby="svgTitle">
+              <title id="svgTitle">Adjustable semicircle model</title>
+              <rect x="0" y="0" width="680" height="390" fill="#f8fafc" />
+              <path id="semi" d="" fill="#dbeafe" stroke="#1d4ed8" stroke-width="5" />
+              <line id="base" x1="0" y1="0" x2="0" y2="0" stroke="#0f172a" stroke-width="5" />
+              <line id="rad" x1="0" y1="0" x2="0" y2="0" stroke="#dc2626" stroke-width="5" />
+              <circle id="center" cx="0" cy="0" r="7" fill="#0f172a" />
+              <text id="baseText" x="0" y="0" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a"></text>
+              <text id="radiusText" x="0" y="0" text-anchor="middle" font-size="22" font-weight="700" fill="#991b1b"></text>
+            </svg>
+            <div id="formula" class="formula"></div>
+          </article>
+
+          <article class="panel">
+            <h2>Mini-Quiz</h2>
+            <div class="quiz-grid">
+              <div>
+                <h3>1. If the diameter is 20, what radius should you use?</h3>
+                <label class="choice"><input name="q1" type="radio" value="10" />10</label>
+                <label class="choice"><input name="q1" type="radio" value="20" />20</label>
+                <label class="choice"><input name="q1" type="radio" value="40" />40</label>
+              </div>
+              <div>
+                <h3>2. Which expression matches a semicircle with radius 3?</h3>
+                <label class="choice"><input name="q2" type="radio" value="a" />(1/2)(3.14)(3^2)</label>
+                <label class="choice"><input name="q2" type="radio" value="b" />(3.14)(3)</label>
+                <label class="choice"><input name="q2" type="radio" value="c" />(3.14)(6^2)</label>
+              </div>
+            </div>
+            <div class="button-row">
+              <button id="checkQuiz" type="button">Check Mini-Quiz</button>
+            </div>
+            <div id="quizFeedback" class="status">Answer both quiz questions.</div>
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <script>
+      const pi = 3.14;
+      const state = {
+        precheck: false,
+        prediction: false,
+        revealed: false,
+        guided: false,
+        quiz: false
+      };
+
+      const els = {
+        givenType: document.getElementById('givenType'),
+        measure: document.getElementById('measure'),
+        measureLabel: document.getElementById('measureLabel'),
+        prediction: document.getElementById('prediction'),
+        precheck: document.getElementById('precheck'),
+        feedback: document.getElementById('feedback'),
+        guideFeedback: document.getElementById('guideFeedback'),
+        quizFeedback: document.getElementById('quizFeedback'),
+        formula: document.getElementById('formula'),
+        semi: document.getElementById('semi'),
+        base: document.getElementById('base'),
+        rad: document.getElementById('rad'),
+        center: document.getElementById('center'),
+        baseText: document.getElementById('baseText'),
+        radiusText: document.getElementById('radiusText')
+      };
+
+      function radius() {
+        const value = Number(els.measure.value);
+        return els.givenType.value === 'diameter' ? value / 2 : value;
+      }
+
+      function area() {
+        const r = radius();
+        return (pi * r * r) / 2;
+      }
+
+      function checkpoint(id) {
+        try {
+          window.parent.postMessage({ type: 'checkpoint', id }, '*');
+        } catch (error) {
+          // Parent checkpoint messaging is optional in standalone mode.
+        }
+      }
+
+      function updateMastery() {
+        ['precheck', 'prediction', 'revealed', 'guided', 'quiz'].forEach((key, index) => {
+          document.getElementById(`m${index + 1}`).classList.toggle('done', state[key]);
+        });
+      }
+
+      function setStatus(el, text, kind) {
+        el.textContent = text;
+        el.className = `status ${kind || ''}`.trim();
+      }
+
+      function renderDiagram() {
+        const value = Number(els.measure.value);
+        const rValue = radius();
+        els.measureLabel.textContent = value;
+        const cx = 340;
+        const cy = 295;
+        const rPx = 135;
+        const left = cx - rPx;
+        const right = cx + rPx;
+        const top = cy - rPx;
+        els.semi.setAttribute('d', `M ${left} ${cy} A ${rPx} ${rPx} 0 0 1 ${right} ${cy} Z`);
+        els.base.setAttribute('x1', left);
+        els.base.setAttribute('y1', cy);
+        els.base.setAttribute('x2', right);
+        els.base.setAttribute('y2', cy);
+        els.rad.setAttribute('x1', cx);
+        els.rad.setAttribute('y1', cy);
+        els.rad.setAttribute('x2', right);
+        els.rad.setAttribute('y2', cy);
+        els.center.setAttribute('cx', cx);
+        els.center.setAttribute('cy', cy);
+        els.baseText.setAttribute('x', cx);
+        els.baseText.setAttribute('y', cy + 42);
+        els.baseText.textContent = `diameter = ${(rValue * 2).toFixed(rValue % 1 ? 1 : 0)}`;
+        els.radiusText.setAttribute('x', cx + 70);
+        els.radiusText.setAttribute('y', cy - 18);
+        els.radiusText.textContent = `r = ${rValue}`;
+        if (!state.revealed) {
+          els.formula.innerHTML = '<div>Prediction mode: enter your area estimate, then reveal.</div>';
+        } else {
+          renderFormula();
+        }
+      }
+
+      function renderFormula() {
+        const value = Number(els.measure.value);
+        const r = radius();
+        const full = pi * r * r;
+        const semi = full / 2;
+        const first = els.givenType.value === 'diameter'
+          ? `<div>Given diameter ${value}, so radius = ${value} / 2 = ${r}</div>`
+          : `<div>Given radius ${r}</div>`;
+        els.formula.innerHTML = [
+          first,
+          `<div>A = (1/2)(3.14)(${r}^2)</div>`,
+          `<div>Full circle area = ${full.toFixed(2)}</div>`,
+          `<div>Semicircle area = ${semi.toFixed(2)} square units</div>`
+        ].join('');
+      }
+
+      document.getElementById('checkPre').addEventListener('click', () => {
+        if (Number(els.precheck.value) === 7) {
+          state.precheck = true;
+          checkpoint('pre-check-complete');
+          setStatus(els.feedback, 'Correct. Diameter 14 gives radius 7.', 'good');
+        } else {
+          setStatus(els.feedback, 'Try again. Radius is half of diameter.', 'warn');
+        }
+        updateMastery();
+      });
+
+      document.getElementById('reveal').addEventListener('click', () => {
+        if (els.prediction.value === '') {
+          setStatus(els.feedback, 'Enter a prediction before revealing.', 'warn');
+          return;
+        }
+        state.prediction = true;
+        state.revealed = true;
+        checkpoint('prediction-made');
+        const guess = Number(els.prediction.value);
+        const actual = area();
+        const close = Math.abs(guess - actual) <= 0.05;
+        setStatus(
+          els.feedback,
+          close ? `Nice. The area is ${actual.toFixed(2)} square units.` : `The area is ${actual.toFixed(2)} square units. Compare your prediction to the revealed steps.`,
+          close ? 'good' : 'warn'
+        );
+        renderFormula();
+        updateMastery();
+      });
+
+      document.getElementById('newCase').addEventListener('click', () => {
+        const next = Math.floor(Math.random() * 15) + 4;
+        els.measure.value = String(next);
+        els.givenType.value = Math.random() > 0.5 ? 'radius' : 'diameter';
+        els.prediction.value = '';
+        state.prediction = false;
+        state.revealed = false;
+        renderDiagram();
+        updateMastery();
+        setStatus(els.feedback, 'New case loaded. Make a fresh prediction.', '');
+      });
+
+      document.getElementById('checkGuides').addEventListener('click', () => {
+        const ok = document.getElementById('checkRadius').checked && document.getElementById('checkSquare').checked && document.getElementById('checkHalf').checked;
+        if (ok) {
+          state.guided = true;
+          checkpoint('guided-check-complete');
+          setStatus(els.guideFeedback, 'Good. Those are the three moves for every semicircle area problem.', 'good');
+        } else {
+          setStatus(els.guideFeedback, 'Check each step you actually used. The formula needs all three moves.', 'warn');
+        }
+        updateMastery();
+      });
+
+      document.getElementById('checkQuiz').addEventListener('click', () => {
+        const q1 = document.querySelector('input[name="q1"]:checked');
+        const q2 = document.querySelector('input[name="q2"]:checked');
+        if (!q1 || !q2) {
+          setStatus(els.quizFeedback, 'Answer both questions first.', 'warn');
+          return;
+        }
+        if (q1.value === '10' && q2.value === 'a') {
+          state.quiz = true;
+          checkpoint('mini-quiz-complete');
+          setStatus(els.quizFeedback, 'Correct. You are using radius and halving the circle area.', 'good');
+        } else {
+          setStatus(els.quizFeedback, 'Review: diameter 20 gives radius 10, and semicircle area is (1/2)pi r^2.', 'warn');
+        }
+        updateMastery();
+      });
+
+      els.givenType.addEventListener('change', renderDiagram);
+      els.measure.addEventListener('input', renderDiagram);
+      renderDiagram();
+      updateMastery();
+    </script>
+  </body>
+</html>

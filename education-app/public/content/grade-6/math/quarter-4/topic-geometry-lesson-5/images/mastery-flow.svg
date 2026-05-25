@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Mastery flow for composite figure area</title>
+  <desc id="desc">A four-step flow: name parts, write formulas, compute areas, add total.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <text x="45" y="54" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#111827">Composite Area Flow</text>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#111827">
+    <rect x="55" y="132" width="130" height="100" rx="6" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+    <text x="82" y="176" font-weight="700">1. Name</text>
+    <text x="82" y="202">the parts</text>
+    <rect x="220" y="132" width="130" height="100" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="3"/>
+    <text x="246" y="176" font-weight="700">2. Write</text>
+    <text x="244" y="202">formulas</text>
+    <rect x="385" y="132" width="130" height="100" rx="6" fill="#fef3c7" stroke="#b45309" stroke-width="3"/>
+    <text x="414" y="176" font-weight="700">3. Find</text>
+    <text x="418" y="202">areas</text>
+    <rect x="550" y="132" width="130" height="100" rx="6" fill="#fce7f3" stroke="#be185d" stroke-width="3"/>
+    <text x="582" y="176" font-weight="700">4. Add</text>
+    <text x="580" y="202">total</text>
+  </g>
+  <g stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M188 182 H216"/>
+    <path d="M353 182 H381"/>
+    <path d="M518 182 H546"/>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <text x="78" y="305" font-family="Arial, sans-serif" font-size="18" fill="#374151">Check: Did every part use square units? Did you avoid overlap?</text>
+</svg>

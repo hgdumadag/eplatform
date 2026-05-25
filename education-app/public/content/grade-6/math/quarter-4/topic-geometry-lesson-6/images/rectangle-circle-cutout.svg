@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Rectangle with circle removed</title>
+  <desc id="desc">A 14 cm by 10 cm rectangle with a circular hole of radius 3 cm.</desc>
+  <rect width="720" height="360" fill="#f8fbff"/>
+  <rect x="170" y="80" width="380" height="210" rx="6" fill="#cfe8ff" stroke="#1c5d99" stroke-width="4"/>
+  <circle cx="360" cy="185" r="62" fill="#ffffff" stroke="#c0392b" stroke-width="4"/>
+  <line x1="360" y1="185" x2="422" y2="185" stroke="#c0392b" stroke-width="3"/>
+  <circle cx="360" cy="185" r="4" fill="#c0392b"/>
+  <text x="391" y="176" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#c0392b">r = 3 cm</text>
+  <text x="360" y="64" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#17324d">14 cm</text>
+  <text x="145" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#17324d" transform="rotate(-90 145 190)">10 cm</text>
+  <text x="360" y="326" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" fill="#17324d">rectangle area - circle area</text>
+</svg>

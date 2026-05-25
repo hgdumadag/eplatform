@@ -1,0 +1,46 @@
+{
+  "id": "grade-6-math-q4-geometry-lesson-5",
+  "grade": 6,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "Geometry - Lesson 5",
+  "description": "Learn how to separate composite figures into rectangles, triangles, circles, and semicircles, then find total area by adding the parts.",
+  "learningObjectives": [
+    "Identify rectangles, triangles, circles, and semicircles inside composite figures",
+    "Decompose a composite figure into non-overlapping parts",
+    "Choose the correct area formula for each part",
+    "Find total area by adding the areas of all parts",
+    "Check whether an answer uses square units and a reasonable plan"
+  ],
+  "estimatedDuration": 60,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "composite figures",
+    "area",
+    "circles",
+    "semicircles",
+    "grade 6"
+  ],
+  "prerequisites": [
+    "Area of rectangles",
+    "Area of triangles",
+    "Area of circles",
+    "Meaning of radius and diameter"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/composite-parts-overview.svg",
+      "images/rectangle-semicircle-gate.svg",
+      "images/triangle-circle-badge.svg",
+      "images/park-layout-decomposition.svg",
+      "images/error-analysis-overlap.svg",
+      "images/mastery-flow.svg"
+    ]
+  }
+}

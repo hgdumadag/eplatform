@@ -1,0 +1,94 @@
+{
+  "examId": "grade-6-math-q4-geometry-lesson-4-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 4 Practice: Semicircle Area",
+  "description": "Practice finding semicircle areas from radius or diameter using pi = 3.14 unless another value is stated.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which formula gives the area of a semicircle?",
+      "options": [
+        "$A = \\frac{1}{2}\\pi r^2$",
+        "$A = 2\\pi r$",
+        "$A = \\pi d^2$",
+        "$A = \\frac{1}{2}\\pi d^2$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A semicircle is half of a circle, so its area is one half of $\\pi r^2$.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A semicircle has diameter 18 cm. What is its radius? Enter just the number.",
+      "correctAnswer": "9",
+      "explanation": "The radius is half the diameter: $18 \\div 2 = 9$.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A semicircle has radius 4 cm. Use $\\pi = 3.14$. What is its area?",
+      "options": [
+        "12.56 square cm",
+        "25.12 square cm",
+        "50.24 square cm",
+        "100.48 square cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "$A = \\frac{1}{2}(3.14)(4^2) = \\frac{1}{2}(3.14)(16) = 25.12$ square cm.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "When the diameter is given, you should square the diameter directly in the semicircle area formula.",
+      "correctAnswer": "false",
+      "explanation": "The formula uses radius. First divide the diameter by 2, then square the radius.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "A semicircle has radius 6 m. Use $\\pi = 3.14$. What is its area? Enter just the number.",
+      "correctAnswer": "56.52",
+      "explanation": "$6^2 = 36$, $3.14 \\times 36 = 113.04$, and half is $56.52$.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A semicircle has diameter 10 in. Use $\\pi = 3.14$. What is its area?",
+      "options": [
+        "15.7 square in",
+        "31.4 square in",
+        "39.25 square in",
+        "78.5 square in"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The radius is $10 \\div 2 = 5$. Then $A = \\frac{1}{2}(3.14)(25) = 39.25$ square in.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "Explain why the area of a semicircle with radius 8 cm is not $3.14 \\times 8^2$.",
+      "correctAnswer": "That expression gives the area of the full circle. A semicircle is half of a circle, so the result must be divided by 2.",
+      "explanation": "The full circle area is $\\pi r^2$. A semicircle uses half of that area.",
+      "points": 12
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A semicircle has diameter 14 cm. Use $\\pi = 3.14$ and show the main calculation for its area.",
+      "correctAnswer": "The radius is 7 cm. The area is (1/2)(3.14)(7^2) = (1/2)(3.14)(49) = 76.93 square cm.",
+      "explanation": "Convert diameter to radius first, then use $A = \\frac{1}{2}\\pi r^2$.",
+      "points": 16
+    }
+  ]
+}

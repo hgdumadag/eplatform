@@ -1,0 +1,30 @@
+{
+  "id": "grade-6-math-q4-using-pi-r-squared-lab",
+  "version": "1.0",
+  "runtime": "sandbox-local",
+  "widget": "sandbox-host",
+  "title": "Using A = pi r squared Lab",
+  "prompt": "Change the radius, predict the area, reveal the radius-squared step, and complete quick mastery checks.",
+  "props": {
+    "htmlPath": "../miniapps/using-pi-r-squared-lab.html",
+    "height": 720
+  },
+  "checkpoints": [
+    {
+      "id": "pre-check-complete",
+      "label": "Completed the pre-check"
+    },
+    {
+      "id": "try-before-reveal-used",
+      "label": "Tried a prediction before revealing"
+    },
+    {
+      "id": "mini-quiz-complete",
+      "label": "Completed the mini-quiz"
+    }
+  ],
+  "fallback": {
+    "markdown": "Use A = pi r squared by squaring the radius first, then multiplying by pi. Example: if r = 6, then A = 3.14(6^2) = 3.14(36) = 113.04 square units.",
+    "image": "../images/formula-parts.svg"
+  }
+}

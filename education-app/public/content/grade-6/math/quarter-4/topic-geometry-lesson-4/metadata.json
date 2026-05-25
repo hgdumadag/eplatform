@@ -1,0 +1,48 @@
+{
+  "id": "grade-6-math-q4-geometry-lesson-4",
+  "grade": 6,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "Geometry - Lesson 4",
+  "description": "Calculate semicircle areas from a radius or diameter and explain why the answer is half of a circle's area.",
+  "learningObjectives": [
+    "Identify a semicircle as exactly one half of a circle",
+    "Use the formula A = (1/2)pi r^2 to find the area of a semicircle",
+    "Find the radius when a semicircle problem gives the diameter",
+    "Calculate semicircle areas using pi = 3.14 when directed",
+    "Solve real-world semicircle area problems and explain common errors"
+  ],
+  "prerequisites": [
+    "Know that the diameter of a circle is twice the radius",
+    "Calculate the area of a circle using A = pi r^2",
+    "Square whole numbers and decimals",
+    "Round decimal answers to a requested place value"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "beginner",
+  "tags": [
+    "geometry",
+    "semicircle",
+    "area",
+    "circles",
+    "radius",
+    "diameter",
+    "pi",
+    "measurement"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/semicircle-visual-intro.svg",
+      "images/radius-diameter-reference.svg",
+      "images/formula-breakdown.svg",
+      "images/worked-radius-example.svg",
+      "images/worked-diameter-example.svg",
+      "images/error-analysis-diameter.svg"
+    ]
+  }
+}

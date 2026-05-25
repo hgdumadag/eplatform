@@ -1,0 +1,107 @@
+{
+  "id": "grade-6-math-q4-geometry-lesson-5-assessment",
+  "examId": "grade-6-math-q4-geometry-lesson-5-assessment",
+  "examType": "assessment",
+  "title": "Assessment: Composite Figures with Circles",
+  "description": "Show mastery by decomposing composite figures and finding total area by adding parts.",
+  "totalPoints": 100,
+  "totalQuestions": 10,
+  "timeLimit": 35,
+  "passingScore": 75,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which list correctly names the parts in a figure made from a rectangle with a half-circle attached to its top side?",
+      "options": [
+        "rectangle and semicircle",
+        "rectangle and triangle",
+        "circle and triangle",
+        "two rectangles"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A half-circle is a semicircle, so the figure has a rectangle and a semicircle."
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A rectangle is 14 m by 9 m. A triangle with base 14 m and height 5 m is attached to one side without overlap. What is the total area?",
+      "options": ["161 m²", "196 m²", "252 m²", "322 m²"],
+      "correctAnswer": 0,
+      "explanation": "Rectangle area is $14\\times9=126$. Triangle area is $\\frac{1}{2}(14)(5)=35$. Total is $161\\text{ m}^2$."
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A semicircle has radius 4 cm. Using $\\pi \\approx 3.14$, what is its area?",
+      "options": ["12.56 cm²", "25.12 cm²", "50.24 cm²", "100.48 cm²"],
+      "correctAnswer": 1,
+      "explanation": "Semicircle area is $\\frac{1}{2}(3.14)(4^2)=\\frac{1}{2}(50.24)=25.12\\text{ cm}^2$."
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A figure is made from a 12 cm by 5 cm rectangle and a semicircle with diameter 12 cm. What expression gives the total area?",
+      "options": [
+        "$12\\times5 + \\frac{1}{2}\\times3.14\\times6^2$",
+        "$12\\times5 + 3.14\\times12^2$",
+        "$12+5+\\frac{1}{2}\\times3.14\\times6^2$",
+        "$12\\times5\\times\\frac{1}{2}\\times3.14\\times12^2$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The rectangle area is $12\\times5$. The semicircle has radius 6 because its diameter is 12."
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "points": 10,
+      "question": "A final answer for area should usually use square units, such as cm² or square meters.",
+      "correctAnswer": "true",
+      "explanation": "Area measures surface covered, so it uses square units."
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "points": 10,
+      "question": "When a semicircle has diameter 18 cm, the value of r in $\\frac{1}{2}\\pi r^2$ is 18.",
+      "correctAnswer": "false",
+      "explanation": "The radius is half of the diameter, so $r=9$ cm."
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "points": 10,
+      "question": "Find the total area of a 7 cm by 8 cm rectangle and a non-overlapping triangle with base 8 cm and height 6 cm.",
+      "correctAnswer": "80 or 80 cm^2 or 80 square centimeters",
+      "explanation": "Rectangle area is $7\\times8=56$. Triangle area is $\\frac{1}{2}(8)(6)=24$. Total is $80$."
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "points": 10,
+      "question": "A full circle has radius 3 m. Using $\\pi \\approx 3.14$, find its area.",
+      "correctAnswer": "28.26 or 28.26 m^2 or 28.26 square meters",
+      "explanation": "Use $A=\\pi r^2=3.14(3^2)=28.26$."
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "points": 10,
+      "question": "A student says the area of a semicircle with diameter 20 cm is $\\frac{1}{2}(3.14)(20^2)$. Explain the error and correct it.",
+      "correctAnswer": "The student used the diameter as the radius. The radius is 10 cm, so the correct expression is 1/2 x 3.14 x 10^2.",
+      "explanation": "Circle and semicircle area formulas use radius, not diameter. Since $20\\div2=10$, the expression must use $10^2$."
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "points": 10,
+      "question": "Describe a reliable method for finding the area of any composite figure made from rectangles, triangles, circles, and semicircles.",
+      "correctAnswer": "Split the figure into non-overlapping rectangles, triangles, circles, and semicircles. Write the area formula for each part, find each area, then add the areas and label the answer in square units.",
+      "explanation": "The method should include decomposing into known parts, using the correct formulas, adding non-overlapping areas, and using square units."
+    }
+  ]
+}

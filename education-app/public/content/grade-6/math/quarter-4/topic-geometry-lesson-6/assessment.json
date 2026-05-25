@@ -1,0 +1,110 @@
+{
+  "examId": "grade-6-math-q4-geometry-lesson-6-shaded-regions-assessment",
+  "examType": "assessment",
+  "title": "Shaded Regions Assessment",
+  "description": "Demonstrate mastery by finding the area left after removing circular parts and showing subtraction steps clearly.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A 15 cm by 10 cm rectangle has a circle with radius 4 cm removed. Using $\\pi = 3.14$, what is the shaded area?",
+      "options": [
+        "99.76 square centimeters",
+        "150.00 square centimeters",
+        "50.24 square centimeters",
+        "200.24 square centimeters"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Whole area: $15 \\times 10 = 150$. Removed area: $3.14(4^2)=50.24$. Subtract: $150 - 50.24 = 99.76$ square centimeters.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A square has side length 12 m. A circular pond with radius 5 m is removed. Using $\\pi = 3.14$, what area is left? Enter just the number.",
+      "correctAnswer": "65.5",
+      "explanation": "Whole area: $12^2 = 144$. Removed area: $3.14(5^2)=78.5$. Subtract: $144 - 78.5 = 65.5$ square meters.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A semicircle with radius 6 cm has area $\\frac{1}{2}(3.14)(6^2)$ square centimeters.",
+      "correctAnswer": "true",
+      "explanation": "A semicircle is half a circle, so its area is $\\frac{1}{2}\\pi r^2 = \\frac{1}{2}(3.14)(6^2)$.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "short-answer",
+      "question": "A 20 cm by 12 cm rectangle has a semicircle with radius 4 cm removed. Use $\\pi = 3.14$. Show the subtraction step clearly and give the area left.",
+      "correctAnswer": "Whole area is 20 x 12 = 240. Removed semicircle area is 1/2(3.14)(4^2) = 25.12. Subtract: 240 - 25.12 = 214.88 square centimeters.",
+      "explanation": "The rectangle area is $240$. The removed semicircle area is $\\frac{1}{2}(3.14)(16)=25.12$. The area left is $240 - 25.12 = 214.88$ square centimeters.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A large circle has radius 8 cm. A smaller center circle with radius 3 cm is removed. Which subtraction step finds the ring area?",
+      "options": [
+        "$3.14(8^2) - 3.14(3^2)$",
+        "$3.14(8^2) + 3.14(3^2)$",
+        "$3.14(3^2) - 3.14(8^2)$",
+        "$8^2 - 3^2$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The ring is the large circle area minus the small removed circle area: $3.14(8^2) - 3.14(3^2)$.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A 16 cm by 16 cm square has four equal quarter circles of radius 4 cm removed. Using $\\pi = 3.14$, what is the area left? Enter just the number.",
+      "correctAnswer": "205.76",
+      "explanation": "Four quarter circles make one whole circle. Whole square: $16^2=256$. Removed area: $3.14(4^2)=50.24$. Subtract: $256 - 50.24 = 205.76$ square centimeters.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "A 10 m by 10 m square has a circular hole with diameter 6 m. Use $\\pi = 3.14$. Show the radius, subtraction step, and area left.",
+      "correctAnswer": "The radius is 3 m. Whole area is 10 x 10 = 100. Removed circle area is 3.14(3^2) = 28.26. Subtract: 100 - 28.26 = 71.74 square meters.",
+      "explanation": "The radius is half of 6, so $r=3$. Whole square area is $100$. Removed circle area is $28.26$. Subtract: $100 - 28.26 = 71.74$ square meters.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "question": "When two identical semicircles are removed, their combined area equals the area of one whole circle with the same radius.",
+      "correctAnswer": "true",
+      "explanation": "Two halves make one whole, so two identical semicircles equal one whole circle.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "A student solved a problem by writing $80 + 12.56 = 92.56$ for a rectangle with a circular hole. What is the mistake?",
+      "options": [
+        "The student added the removed area instead of subtracting it.",
+        "The student used square units.",
+        "The student found the rectangle area first.",
+        "The student used 3.14 for pi."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A hole is removed, so the circular area should be subtracted from the rectangle area, not added.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A rectangular park is 18 m by 14 m. Two circular sand areas, each with radius 2 m, are removed from the grass area. Use $\\pi = 3.14$. Show the subtraction steps and find the grass area left.",
+      "correctAnswer": "Whole area is 18 x 14 = 252. One circle area is 3.14(2^2) = 12.56, so two circles are 25.12. Subtract: 252 - 25.12 = 226.88 square meters.",
+      "explanation": "The park area is $252$. Each removed circle has area $12.56$, so two removed circles total $25.12$. The grass area left is $252 - 25.12 = 226.88$ square meters.",
+      "points": 10
+    }
+  ]
+}

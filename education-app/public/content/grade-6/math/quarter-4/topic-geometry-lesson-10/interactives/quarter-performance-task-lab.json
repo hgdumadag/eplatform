@@ -1,0 +1,38 @@
+{
+  "id": "grade-6-math-q4-quarter-performance-task-lab",
+  "version": "1.0",
+  "runtime": "sandbox-local",
+  "widget": "sandbox-host",
+  "title": "Quarter Performance Task Lab",
+  "prompt": "Design a circular or composite floor pattern, check the measurements, estimate materials, and complete a short mastery check.",
+  "props": {
+    "htmlPath": "../miniapps/quarter-performance-task-lab.html",
+    "height": 760
+  },
+  "checkpoints": [
+    {
+      "id": "pre-check-completed",
+      "label": "Completed the performance-task pre-check"
+    },
+    {
+      "id": "try-before-reveal",
+      "label": "Tried area, boundary, and material estimates before revealing"
+    },
+    {
+      "id": "guided-checks-completed",
+      "label": "Used the guided checks to correct the plan"
+    },
+    {
+      "id": "mini-quiz-completed",
+      "label": "Completed the mini-quiz"
+    },
+    {
+      "id": "mastery-checklist-completed",
+      "label": "Completed the mastery checklist"
+    }
+  ],
+  "fallback": {
+    "markdown": "Use the lab to plan a floor pattern. Name the parts, find area for flooring, find boundary length for border trim, estimate materials, and explain your choices with correct units.",
+    "image": "../images/floor-pattern-visual-intro.svg"
+  }
+}

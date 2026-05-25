@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Composite Figures with Circles Lab</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Arial, Helvetica, sans-serif;
+      --ink: #172033;
+      --muted: #5b6475;
+      --line: #cbd5e1;
+      --blue: #2563eb;
+      --green: #15803d;
+      --rose: #be123c;
+      --amber: #b45309;
+      --bg: #f8fafc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+    }
+    main {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 18px;
+    }
+    h1 {
+      margin: 0 0 6px;
+      font-size: 24px;
+      letter-spacing: 0;
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+    p { margin: 6px 0; line-height: 1.4; }
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(300px, 1.1fr) minmax(280px, 0.9fr);
+      gap: 14px;
+      align-items: start;
+    }
+    .panel {
+      background: #ffffff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06);
+    }
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 12px 0;
+    }
+    button {
+      border: 1px solid #94a3b8;
+      background: #ffffff;
+      color: var(--ink);
+      min-height: 38px;
+      padding: 8px 11px;
+      border-radius: 6px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    button.active {
+      border-color: var(--blue);
+      background: #dbeafe;
+      color: #1d4ed8;
+    }
+    button.primary {
+      background: var(--blue);
+      border-color: var(--blue);
+      color: #ffffff;
+    }
+    button:focus-visible, input:focus-visible {
+      outline: 3px solid #93c5fd;
+      outline-offset: 2px;
+    }
+    .figure-wrap {
+      min-height: 330px;
+      display: grid;
+      place-items: center;
+      border: 1px dashed #94a3b8;
+      border-radius: 8px;
+      background: #ffffff;
+      overflow: hidden;
+    }
+    svg { width: 100%; max-width: 560px; height: auto; }
+    .row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      align-items: center;
+      margin: 8px 0;
+    }
+    .pill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-top: 8px;
+    }
+    .pill {
+      border: 1px solid #cbd5e1;
+      background: #f8fafc;
+      border-radius: 999px;
+      padding: 6px 9px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+    .pill.done {
+      color: #166534;
+      background: #dcfce7;
+      border-color: #86efac;
+    }
+    .feedback {
+      min-height: 42px;
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 6px;
+      background: #f1f5f9;
+      color: #334155;
+      font-weight: 700;
+    }
+    .formula {
+      font-family: "Courier New", monospace;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      padding: 8px;
+      border-radius: 6px;
+      white-space: pre-wrap;
+    }
+    label {
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 700;
+    }
+    input[type="number"] {
+      width: 130px;
+      min-height: 38px;
+      border: 1px solid #94a3b8;
+      border-radius: 6px;
+      padding: 8px;
+      font-size: 16px;
+    }
+    .quiz-choice {
+      display: block;
+      width: 100%;
+      text-align: left;
+      margin: 8px 0;
+      font-weight: 600;
+    }
+    .small {
+      color: var(--muted);
+      font-size: 13px;
+    }
+    @media (max-width: 820px) {
+      .layout { grid-template-columns: 1fr; }
+      main { padding: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Composite Figures with Circles Lab</h1>
+    <p class="small">Name the parts, try an area, reveal the guided work, then prove mastery with a mini-quiz.</p>
+
+    <div class="layout">
+      <section class="panel">
+        <h2>1. Choose a Figure</h2>
+        <div class="toolbar" role="group" aria-label="Choose figure">
+          <button id="gateBtn" class="active" type="button">Gate</button>
+          <button id="badgeBtn" type="button">Badge</button>
+          <button id="parkBtn" type="button">Park</button>
+        </div>
+        <div class="figure-wrap" id="figureWrap" aria-live="polite"></div>
+      </section>
+
+      <section class="panel">
+        <h2>2. Pre-Check</h2>
+        <p id="precheckPrompt">Which parts do you see?</p>
+        <div class="toolbar" id="partButtons"></div>
+        <div class="feedback" id="partFeedback">Select all parts that belong to the figure.</div>
+        <div class="pill-list" aria-label="Progress">
+          <span class="pill" id="prePill">pre-check</span>
+          <span class="pill" id="tryPill">try before reveal</span>
+          <span class="pill" id="quizPill">mini-quiz</span>
+          <span class="pill" id="masteryPill">mastery checklist</span>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>3. Try Before Reveal</h2>
+        <p id="tryPrompt"></p>
+        <div class="row">
+          <label for="estimate">Your total area</label>
+          <input id="estimate" type="number" step="0.01" inputmode="decimal">
+        </div>
+        <div class="toolbar">
+          <button id="checkEstimate" class="primary" type="button">Check</button>
+          <button id="revealWork" type="button">Reveal Work</button>
+        </div>
+        <div class="feedback" id="estimateFeedback">Try a total area before revealing the work.</div>
+      </section>
+
+      <section class="panel">
+        <h2>4. Guided Checks</h2>
+        <div class="formula" id="workBox">The guided work will appear here after you reveal it.</div>
+      </section>
+
+      <section class="panel">
+        <h2>5. Mini-Quiz</h2>
+        <p id="quizQuestion"></p>
+        <div id="quizChoices"></div>
+        <div class="feedback" id="quizFeedback">Choose an answer.</div>
+      </section>
+
+      <section class="panel">
+        <h2>6. Mastery Checklist</h2>
+        <p><input type="checkbox" id="m1"> <label for="m1">I can name the parts before calculating.</label></p>
+        <p><input type="checkbox" id="m2"> <label for="m2">I can change diameter to radius.</label></p>
+        <p><input type="checkbox" id="m3"> <label for="m3">I can add non-overlapping areas.</label></p>
+        <p><input type="checkbox" id="m4"> <label for="m4">I can use square units for area.</label></p>
+        <div class="feedback" id="masteryFeedback">Check each skill as you prove it.</div>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    const figures = {
+      gate: {
+        label: "Gate",
+        parts: ["rectangle", "semicircle"],
+        answer: 99.25,
+        prompt: "Rectangle 10 cm by 6 cm plus a semicircle with diameter 10 cm. Use pi = 3.14.",
+        work: "Parts: rectangle + semicircle\nRectangle: 10 x 6 = 60\nRadius: 10 / 2 = 5\nSemicircle: 1/2 x 3.14 x 5^2 = 39.25\nTotal: 60 + 39.25 = 99.25 square cm",
+        quiz: {
+          q: "For the gate, why is the radius 5 cm?",
+          choices: ["The height is 5 cm.", "The diameter is 10 cm, and radius is half.", "Every semicircle has radius 5 cm."],
+          correct: 1
+        },
+        svg: `<svg viewBox="0 0 560 330" role="img" aria-label="Gate made of rectangle and semicircle">
+          <rect width="560" height="330" fill="#ffffff"/>
+          <path d="M150 140 A130 130 0 0 1 410 140 L410 270 L150 270 Z" fill="#dbeafe" stroke="#1d4ed8" stroke-width="4"/>
+          <line x1="150" y1="140" x2="410" y2="140" stroke="#1d4ed8" stroke-dasharray="8 8" stroke-width="3"/>
+          <line x1="280" y1="140" x2="410" y2="140" stroke="#b45309" stroke-width="4"/>
+          <text x="318" y="126" font-size="18" font-family="Arial" fill="#92400e">r = 5</text>
+          <text x="245" y="296" font-size="18" font-family="Arial" fill="#1d4ed8">10 cm</text>
+          <text x="420" y="212" font-size="18" font-family="Arial" fill="#1d4ed8">6 cm</text>
+        </svg>`
+      },
+      badge: {
+        label: "Badge",
+        parts: ["circle", "triangle"],
+        answer: 297.86,
+        prompt: "Circle radius 7 cm plus a triangle with base 16 cm and height 18 cm. Use pi = 3.14.",
+        work: "Parts: circle + triangle\nCircle: 3.14 x 7^2 = 153.86\nTriangle: 1/2 x 16 x 18 = 144\nTotal: 153.86 + 144 = 297.86 square cm",
+        quiz: {
+          q: "Which formula matches the triangle part?",
+          choices: ["A = l x w", "A = pi x r^2", "A = 1/2 x b x h"],
+          correct: 2
+        },
+        svg: `<svg viewBox="0 0 560 330" role="img" aria-label="Badge made of circle and triangle">
+          <rect width="560" height="330" fill="#ffffff"/>
+          <circle cx="205" cy="178" r="70" fill="#fde68a" stroke="#b45309" stroke-width="4"/>
+          <polygon points="275,258 435,258 275,78" fill="#bbf7d0" stroke="#15803d" stroke-width="4"/>
+          <line x1="275" y1="78" x2="275" y2="258" stroke="#111827" stroke-dasharray="8 8" stroke-width="3"/>
+          <text x="145" y="275" font-size="17" font-family="Arial" fill="#92400e">r = 7 cm</text>
+          <text x="302" y="285" font-size="17" font-family="Arial" fill="#15803d">b = 16, h = 18</text>
+        </svg>`
+      },
+      park: {
+        label: "Park",
+        parts: ["rectangle", "triangle", "semicircle"],
+        answer: 582.31,
+        prompt: "Rectangle 26 m by 15 m, triangle base 26 m and height 8 m, and semicircle radius 7.5 m. Use pi = 3.14.",
+        work: "Parts: rectangle + triangle + semicircle\nRectangle: 26 x 15 = 390\nTriangle: 1/2 x 26 x 8 = 104\nSemicircle: 1/2 x 3.14 x 7.5^2 = 88.3125\nTotal: 390 + 104 + 88.3125 = 582.3125, about 582.31 square m",
+        quiz: {
+          q: "Which total-area plan is correct for the park?",
+          choices: ["rectangle + triangle + semicircle", "rectangle x triangle x semicircle", "perimeter of all sides"],
+          correct: 0
+        },
+        svg: `<svg viewBox="0 0 560 330" role="img" aria-label="Park made of rectangle triangle and semicircle">
+          <rect width="560" height="330" fill="#ffffff"/>
+          <rect x="125" y="145" width="230" height="120" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="4"/>
+          <polygon points="125,145 240,75 355,145" fill="#bbf7d0" stroke="#15803d" stroke-width="4"/>
+          <path d="M355 145 A60 60 0 0 1 355 265 Z" fill="#fecdd3" stroke="#be123c" stroke-width="4"/>
+          <line x1="355" y1="145" x2="355" y2="265" stroke="#be123c" stroke-dasharray="7 7" stroke-width="3"/>
+          <text x="187" y="214" font-size="17" font-family="Arial" fill="#1d4ed8">rectangle</text>
+          <text x="212" y="125" font-size="17" font-family="Arial" fill="#15803d">triangle</text>
+          <text x="388" y="207" font-size="17" font-family="Arial" fill="#be123c">semicircle</text>
+        </svg>`
+      }
+    };
+
+    const partNames = ["rectangle", "triangle", "circle", "semicircle"];
+    let currentKey = "gate";
+    let selectedParts = new Set();
+    let completed = { pre: false, tried: false, quiz: false };
+
+    const figureWrap = document.getElementById("figureWrap");
+    const partButtons = document.getElementById("partButtons");
+    const partFeedback = document.getElementById("partFeedback");
+    const tryPrompt = document.getElementById("tryPrompt");
+    const estimate = document.getElementById("estimate");
+    const estimateFeedback = document.getElementById("estimateFeedback");
+    const workBox = document.getElementById("workBox");
+    const quizQuestion = document.getElementById("quizQuestion");
+    const quizChoices = document.getElementById("quizChoices");
+    const quizFeedback = document.getElementById("quizFeedback");
+
+    function setFigure(key) {
+      currentKey = key;
+      selectedParts = new Set();
+      document.querySelectorAll(".toolbar button").forEach(btn => btn.classList.remove("active"));
+      document.getElementById(key + "Btn").classList.add("active");
+      const fig = figures[key];
+      figureWrap.innerHTML = fig.svg;
+      tryPrompt.textContent = fig.prompt;
+      estimate.value = "";
+      estimateFeedback.textContent = "Try a total area before revealing the work.";
+      partFeedback.textContent = "Select all parts that belong to the figure.";
+      workBox.textContent = "The guided work will appear here after you reveal it.";
+      renderPartButtons();
+      renderQuiz();
+    }
+
+    function renderPartButtons() {
+      partButtons.innerHTML = "";
+      partNames.forEach(name => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.textContent = name;
+        btn.className = selectedParts.has(name) ? "active" : "";
+        btn.addEventListener("click", () => {
+          if (selectedParts.has(name)) selectedParts.delete(name);
+          else selectedParts.add(name);
+          renderPartButtons();
+          checkParts();
+        });
+        partButtons.appendChild(btn);
+      });
+    }
+
+    function checkParts() {
+      const correct = figures[currentKey].parts;
+      const selected = Array.from(selectedParts);
+      const allCorrect = correct.every(part => selectedParts.has(part)) && selected.length === correct.length;
+      if (allCorrect) {
+        completed.pre = true;
+        partFeedback.textContent = "Correct. Those are the non-overlapping parts to add.";
+      } else {
+        partFeedback.textContent = "Keep checking. Look for only the parts that make this figure.";
+      }
+      updateProgress();
+    }
+
+    function checkEstimate() {
+      const value = Number(estimate.value);
+      const answer = figures[currentKey].answer;
+      if (!Number.isFinite(value)) {
+        estimateFeedback.textContent = "Enter a number first.";
+        return;
+      }
+      completed.tried = true;
+      const close = Math.abs(value - answer) <= 0.05;
+      estimateFeedback.textContent = close ? "Correct. Your total area matches the guided answer." : "Good try. Reveal the work and compare each part.";
+      updateProgress();
+    }
+
+    function revealWork() {
+      workBox.textContent = figures[currentKey].work;
+    }
+
+    function renderQuiz() {
+      const quiz = figures[currentKey].quiz;
+      quizQuestion.textContent = quiz.q;
+      quizChoices.innerHTML = "";
+      quiz.choices.forEach((choice, index) => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "quiz-choice";
+        btn.textContent = choice;
+        btn.addEventListener("click", () => {
+          if (index === quiz.correct) {
+            completed.quiz = true;
+            quizFeedback.textContent = "Correct. That idea helps you avoid the common trap.";
+          } else {
+            quizFeedback.textContent = "Not yet. Use the formulas and labels in the figure.";
+          }
+          updateProgress();
+        });
+        quizChoices.appendChild(btn);
+      });
+      quizFeedback.textContent = "Choose an answer.";
+    }
+
+    function updateProgress() {
+      document.getElementById("prePill").classList.toggle("done", completed.pre);
+      document.getElementById("tryPill").classList.toggle("done", completed.tried);
+      document.getElementById("quizPill").classList.toggle("done", completed.quiz);
+      const masteryDone = ["m1", "m2", "m3", "m4"].every(id => document.getElementById(id).checked);
+      document.getElementById("masteryPill").classList.toggle("done", masteryDone);
+      document.getElementById("masteryFeedback").textContent = masteryDone ? "Mastery checklist complete." : "Check each skill as you prove it.";
+    }
+
+    document.getElementById("gateBtn").addEventListener("click", () => setFigure("gate"));
+    document.getElementById("badgeBtn").addEventListener("click", () => setFigure("badge"));
+    document.getElementById("parkBtn").addEventListener("click", () => setFigure("park"));
+    document.getElementById("checkEstimate").addEventListener("click", checkEstimate);
+    document.getElementById("revealWork").addEventListener("click", revealWork);
+    ["m1", "m2", "m3", "m4"].forEach(id => document.getElementById(id).addEventListener("change", updateProgress));
+
+    setFigure("gate");
+  </script>
+</body>
+</html>

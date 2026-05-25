@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Ring-shaped shaded region</title>
+  <desc id="desc">A large circle with radius 7 cm and a smaller removed center circle with radius 4 cm.</desc>
+  <rect width="720" height="360" fill="#fcfbff"/>
+  <circle cx="360" cy="180" r="125" fill="#eadcff" stroke="#6b3fa0" stroke-width="4"/>
+  <circle cx="360" cy="180" r="72" fill="#ffffff" stroke="#b83232" stroke-width="4"/>
+  <line x1="360" y1="180" x2="485" y2="180" stroke="#6b3fa0" stroke-width="3"/>
+  <line x1="360" y1="180" x2="432" y2="180" stroke="#b83232" stroke-width="3"/>
+  <circle cx="360" cy="180" r="4" fill="#17324d"/>
+  <text x="425" y="170" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#b83232">4 cm</text>
+  <text x="493" y="203" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#6b3fa0">7 cm</text>
+  <text x="360" y="37" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#17324d">ring area = large circle - small circle</text>
+  <text x="360" y="329" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#17324d">subtract the removed center circle</text>
+</svg>

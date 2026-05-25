@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Common mistakes for circle area</title>
+  <desc id="desc">Three warning cards: do not forget to square radius, do not use diameter, and use square units.</desc>
+  <rect width="720" height="360" fill="#fff7ed"/>
+  <rect x="54" y="82" width="184" height="190" rx="8" fill="#ffffff" stroke="#f97316" stroke-width="3"/>
+  <rect x="268" y="82" width="184" height="190" rx="8" fill="#ffffff" stroke="#f97316" stroke-width="3"/>
+  <rect x="482" y="82" width="184" height="190" rx="8" fill="#ffffff" stroke="#f97316" stroke-width="3"/>
+  <text x="80" y="130" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#9a3412">Square r</text>
+  <text x="86" y="178" font-family="Arial, sans-serif" font-size="20" fill="#334155">Use r x r,</text>
+  <text x="86" y="206" font-family="Arial, sans-serif" font-size="20" fill="#334155">not just r.</text>
+  <text x="296" y="130" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#9a3412">Use radius</text>
+  <text x="300" y="178" font-family="Arial, sans-serif" font-size="20" fill="#334155">Do not mix</text>
+  <text x="300" y="206" font-family="Arial, sans-serif" font-size="20" fill="#334155">up diameter.</text>
+  <text x="510" y="130" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#9a3412">Units</text>
+  <text x="514" y="178" font-family="Arial, sans-serif" font-size="20" fill="#334155">Area needs</text>
+  <text x="514" y="206" font-family="Arial, sans-serif" font-size="20" fill="#334155">square units.</text>
+  <text x="54" y="52" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#172033">Check before final answer</text>
+</svg>

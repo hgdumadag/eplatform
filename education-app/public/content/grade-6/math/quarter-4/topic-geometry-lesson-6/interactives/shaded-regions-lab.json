@@ -1,0 +1,34 @@
+{
+  "id": "grade-6-math-q4-geometry-lesson-6-shaded-regions-lab",
+  "version": "1.0",
+  "runtime": "sandbox-local",
+  "widget": "sandbox-host",
+  "title": "Shaded Regions Lab",
+  "prompt": "Choose a figure, predict the shaded area, reveal the subtraction steps, and complete quick checks.",
+  "props": {
+    "htmlPath": "../miniapps/shaded-regions-lab.html",
+    "height": 720
+  },
+  "checkpoints": [
+    {
+      "id": "pre-check-complete",
+      "label": "Pre-check completed"
+    },
+    {
+      "id": "prediction-made",
+      "label": "Try-before-reveal prediction entered"
+    },
+    {
+      "id": "guided-check-complete",
+      "label": "Guided subtraction checks completed"
+    },
+    {
+      "id": "mini-quiz-complete",
+      "label": "Mini-quiz completed"
+    }
+  ],
+  "fallback": {
+    "markdown": "The Shaded Regions Lab helps you identify the whole area, find the circular area removed, subtract, and check the units. If the mini-app is unavailable, use the worked examples in the lesson and practice the same four-step routine: whole area, removed area, subtraction, square units.",
+    "image": "../images/visual-intro.svg"
+  }
+}

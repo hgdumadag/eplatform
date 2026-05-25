@@ -1,0 +1,49 @@
+{
+  "id": "grade-6-math-q4-geometry-lesson-8-circle-design-problems",
+  "grade": 6,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "Geometry - Lesson 8",
+  "description": "Apply circle area to practical design problems involving gardens, labels, and mats by modeling each situation with a labeled diagram.",
+  "learningObjectives": [
+    "Identify the circle, semicircle, or ring region described in a design problem",
+    "Label radius, diameter, and units on a simple model diagram",
+    "Use A = pi r^2 with 3.14 or a given value of pi to estimate circular area",
+    "Find area for garden beds, circular labels, and mats with circular parts",
+    "Explain whether a design answer should be a whole circle, half circle, ring, or difference of areas",
+    "Check that the final answer includes square units and matches the diagram"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "circle area",
+    "design problems",
+    "gardens",
+    "labels",
+    "mats",
+    "grade 6"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/visual-intro.svg",
+      "images/garden-bed-plan.svg",
+      "images/label-design-radius.svg",
+      "images/ring-mat-design.svg",
+      "images/semicircle-entry-mat.svg",
+      "images/error-analysis-label.svg",
+      "images/modeling-checklist.svg"
+    ],
+    "interactives": [
+      "interactives/circle-design-problems-lab.json"
+    ],
+    "miniapps": [
+      "miniapps/circle-design-problems-lab.html"
+    ]
+  }
+}

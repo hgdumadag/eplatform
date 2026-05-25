@@ -1,0 +1,47 @@
+{
+  "id": "grade-6-math-q4-geometry-lesson-7-circumference-review",
+  "grade": 6,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "Geometry - Lesson 7",
+  "description": "Review mixed circle problems by choosing circumference for distance around and area for space inside.",
+  "learningObjectives": [
+    "Decide whether a circle question asks for circumference or area",
+    "Use circumference formulas with radius or diameter",
+    "Use the circle area formula with radius",
+    "Convert diameter to radius when area is needed",
+    "Solve mixed circle problems using 3.14 or a given value of pi",
+    "Explain why the selected formula matches the question"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "circles",
+    "circumference",
+    "area",
+    "mixed problems",
+    "grade 6"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/visual-intro.svg",
+      "images/circumference-vs-area.svg",
+      "images/formula-decision-map.svg",
+      "images/worked-track-example.svg",
+      "images/worked-garden-example.svg",
+      "images/error-analysis.svg"
+    ],
+    "interactives": [
+      "interactives/circumference-review-lab.json"
+    ],
+    "miniapps": [
+      "miniapps/circumference-review-lab.html"
+    ]
+  }
+}
