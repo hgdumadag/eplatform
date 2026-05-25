@@ -1,0 +1,95 @@
+{
+  "examId": "grade-6-math-q3-geometry-lesson-3-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 3 Assessment: Volume of Cubes",
+  "description": "Use side length and unit-cube models to calculate cube volume.",
+  "passingScore": 75,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A cube has side length 2 cm. What is its volume?",
+      "options": ["4 cm²", "6 cm³", "8 cm³", "12 cm³"],
+      "correctAnswer": 2,
+      "explanation": "2 × 2 × 2 = 8, so the volume is 8 cm³.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A cube has side length 5 cm. What is its volume? Enter just the number.",
+      "correctAnswer": "125",
+      "explanation": "5 × 5 × 5 = 125.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A unit cube represents one cubic unit of volume.",
+      "correctAnswer": "true",
+      "explanation": "A unit cube is one cube used to measure one cubic unit of space.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A cube has side length 7 m. What is its volume?",
+      "options": ["21 m³", "49 m²", "343 m³", "294 m³"],
+      "correctAnswer": 2,
+      "explanation": "7 × 7 × 7 = 343 m³.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "A cube has 16 unit cubes in each layer and 4 layers. What is its volume? Enter just the number.",
+      "correctAnswer": "64",
+      "explanation": "16 × 4 = 64 cubic units.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "A student says a cube with side length 8 cm has volume 64 cm². What is the mistake?",
+      "correctAnswer": "The student found the area of one face using 8² instead of volume using 8³. The volume is 512 cm³.",
+      "explanation": "64 cm² is face area. Cube volume is 8 × 8 × 8 = 512 cm³.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "Calculate 12³. Enter just the number.",
+      "correctAnswer": "1728",
+      "explanation": "12³ = 12 × 12 × 12 = 1728.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Which unit is suitable for the volume of a cube with side length measured in centimeters?",
+      "options": ["cm", "cm²", "cm³", "L only"],
+      "correctAnswer": 2,
+      "explanation": "Volume uses cubic units, so centimeters become cubic centimeters.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A cube has side length 9 units. Find its volume and explain the multiplication.",
+      "correctAnswer": "729 cubic units; 9 × 9 × 9 = 729.",
+      "explanation": "A cube has equal length, width, and height, so multiply the side length three times.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A cube has volume 64 cubic units. What side length could it have?",
+      "correctAnswer": "4 units, because 4 × 4 × 4 = 64.",
+      "explanation": "The side length is the number that multiplies by itself three times to make 64.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "grade-6-choosing-units-lab",
+  "version": "1.0",
+  "runtime": "sandbox-local",
+  "widget": "sandbox-host",
+  "title": "Choosing Units Lab",
+  "prompt": "Check readiness, match objects to units, reveal hints, and test mastery.",
+  "props": {
+    "htmlPath": "../miniapps/choosing-units-lab.html",
+    "height": 760
+  },
+  "checkpoints": [
+    {
+      "id": "readiness-checked",
+      "label": "Readiness checked"
+    },
+    {
+      "id": "unit-match-checked",
+      "label": "Unit matches checked"
+    },
+    {
+      "id": "mastery-checked",
+      "label": "Mastery checklist checked"
+    }
+  ],
+  "fallback": {
+    "markdown": "Choose cubic units such as cm³ or m³ for volume. Choose liquid units such as mL or L for capacity. Avoid using square units for volume.",
+    "image": "../images/unit-choice-map.svg"
+  }
+}

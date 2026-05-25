@@ -1,0 +1,13 @@
+{
+  "id": "perimeter-composite-lab",
+  "version": "1.0",
+  "runtime": "sandbox-local",
+  "widget": "sandbox-host",
+  "title": "Perimeter Composite Lab",
+  "props": {
+    "htmlPath": "../miniapps/perimeter-composite-lab.html"
+  },
+  "fallback": {
+    "markdown": "Interactive lab unavailable. Trace only the outside boundary, find missing side lengths by matching total horizontal and vertical distances, then add the outside sides."
+  }
+}

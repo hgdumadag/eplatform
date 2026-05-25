@@ -1,0 +1,96 @@
+{
+  "examId": "grade-6-math-q3-geometry-lesson-9-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 9 Assessment: Circle Parts and Construction",
+  "description": "Demonstrate mastery of circle construction and identification of center, radius, diameter, and circumference.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "In a circle diagram, point O is exactly in the middle. What circle part is point O?",
+      "options": ["circumference", "center", "diameter", "radius"],
+      "correctAnswer": 1,
+      "explanation": "The point exactly in the middle is the center.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Segment OA starts at center O and ends on the circle at point A. What is segment OA?",
+      "options": ["a radius", "a diameter", "the circumference", "an angle"],
+      "correctAnswer": 0,
+      "explanation": "A radius goes from the center to a point on the circle.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Segment BC has both endpoints on the circle and passes through the center. What is segment BC?",
+      "options": ["radius", "diameter", "circumference", "center"],
+      "correctAnswer": 1,
+      "explanation": "A diameter is a segment with endpoints on the circle that passes through the center.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "The circumference is the boundary or distance around a circle.",
+      "correctAnswer": "true",
+      "explanation": "Circumference names the distance around the circle.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "A circle has radius 9 cm. What is its diameter in centimeters? Enter just the number.",
+      "correctAnswer": "18",
+      "explanation": "The diameter is twice the radius: 2 x 9 = 18 cm.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A circle has diameter 22 meters. What is its radius in meters? Enter just the number.",
+      "correctAnswer": "11",
+      "explanation": "The radius is half the diameter: 22 divided by 2 = 11 meters.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which compass action helps make an accurate circle?",
+      "options": ["Change the compass opening while turning", "Keep the compass point fixed at the center", "Lift the point and pencil after every quarter turn", "Use any point on the paper as the center after starting"],
+      "correctAnswer": 1,
+      "explanation": "The compass point should stay fixed at the center while the pencil turns around it.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "question": "Every radius in the same circle has the same length.",
+      "correctAnswer": "true",
+      "explanation": "All radii in one circle are equal because each goes from the same center to the circle.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Explain how you would label a diagram to show the center, one radius, one diameter, and the circumference.",
+      "correctAnswer": "Mark the middle point as the center, draw and label a segment from the center to the circle as a radius, draw and label a segment through the center with endpoints on the circle as a diameter, and label the outside boundary as the circumference.",
+      "explanation": "The answer should correctly place each label according to its definition.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A student draws a circle with a compass, but the circle looks uneven. Name one likely construction mistake and how to fix it.",
+      "correctAnswer": "The student may have moved the compass point or changed the opening. Keep the point fixed at the center and keep the compass opening the same while rotating.",
+      "explanation": "Accurate compass circles require a fixed center and constant radius.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Labeled units on a prism</title>
+  <desc id="desc">A rectangular prism with dimensions labeled in centimeters and output labeled in cubic centimeters.</desc>
+  <rect width="900" height="520" fill="#f8fafc"/>
+  <text x="42" y="54" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#123047">Labeled dimensions lead to cubic units</text>
+  <g transform="translate(170 130)" stroke="#334155" stroke-width="4" stroke-linejoin="round">
+    <polygon points="0,80 300,80 390,150 90,150" fill="#bfdbfe"/>
+    <polygon points="0,80 90,150 90,290 0,220" fill="#93c5fd"/>
+    <polygon points="90,150 390,150 390,290 90,290" fill="#dbeafe"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">
+    <text x="315" y="110">length in cm</text>
+    <text x="585" y="230">width in cm</text>
+    <text x="90" y="250">height in cm</text>
+    <text x="320" y="430" fill="#0f766e">cm × cm × cm = cm³</text>
+  </g>
+</svg>

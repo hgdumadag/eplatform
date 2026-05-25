@@ -1,0 +1,116 @@
+{
+  "examId": "grade-6-math-q1-geometry-lesson-1-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 1 Assessment: Classifying Tessellations",
+  "description": "Show mastery by classifying examples and non-examples of tessellations and explaining your reasoning.",
+  "passingScore": 75,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A design repeats the same triangle shape. The triangles touch edge-to-edge and cover the surface completely. What is it?",
+      "options": [
+        "A tessellation",
+        "A gap pattern",
+        "An overlap pattern",
+        "Not a geometric pattern"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The triangles repeat and cover the surface with no gaps or overlaps, so the design is a tessellation.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which clue proves that a repeated pattern is NOT a tessellation?",
+      "options": [
+        "The pattern has empty spaces between repeated shapes",
+        "The pattern uses polygons",
+        "The pattern appears on a floor",
+        "The pattern uses the same shape many times"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Empty spaces are gaps. A tessellation must not have gaps.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A repeated textile design can be a tessellation if its repeated units cover the surface without gaps or overlaps.",
+      "correctAnswer": "true",
+      "explanation": "Textile and local designs can be tessellations when the repeated units fill the flat surface completely.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "The repeated part of a tessellation pattern is often called the repeated ______.",
+      "correctAnswer": "unit",
+      "explanation": "The repeated unit is the tile or group of shapes that appears again and again.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A pattern repeats stars across a poster, but the stars do not cover the background. What is the best conclusion?",
+      "options": [
+        "It is not a tessellation of the poster background because it leaves gaps",
+        "It is always a tessellation because it repeats",
+        "It is a tessellation because stars are polygons",
+        "It is not a pattern"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Repeating stars may form a decorative pattern, but they are not a tessellation of the background unless they cover it with no gaps or overlaps.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "A student says, \"This repeats, so it must be a tessellation.\" What important checks are missing?",
+      "correctAnswer": "The student still needs to check that the pattern has no gaps and no overlaps.",
+      "explanation": "Repeating is required, but it is not enough. The pattern must also have no gaps and no overlaps.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "If two shapes in a repeated design overlap, the design still counts as a tessellation as long as the overlap is small.",
+      "correctAnswer": "false",
+      "explanation": "Any overlap breaks the tessellation rule.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Which group of shapes is commonly seen in a tessellation?",
+      "options": [
+        "Squares arranged in rows and columns",
+        "Circles with spaces between them",
+        "Random shapes scattered far apart",
+        "One triangle alone in the center of a page"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Squares arranged in rows and columns can cover a flat surface with no gaps or overlaps.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Explain why a honeycomb-style hexagon pattern is a tessellation.",
+      "correctAnswer": "A honeycomb-style hexagon pattern is a tessellation because the hexagons repeat and fit together without gaps or overlaps.",
+      "explanation": "The key evidence is repetition plus complete coverage without gaps or overlaps.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Give one example of a local or everyday design that could show tessellation, and explain what you would check.",
+      "correctAnswer": "Examples include floor tiles, woven mats, textiles, mosaics, or brick walls. I would check that the shapes repeat and leave no gaps or overlaps.",
+      "explanation": "A strong answer names a real design and uses the tessellation test: repeat, no gaps, no overlaps.",
+      "points": 10
+    }
+  ]
+}

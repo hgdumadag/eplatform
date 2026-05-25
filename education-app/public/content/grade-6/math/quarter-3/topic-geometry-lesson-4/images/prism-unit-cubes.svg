@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" role="img" aria-labelledby="title desc">
+  <title id="title">Rectangular prism made of unit cubes</title>
+  <desc id="desc">A 4 by 3 by 2 rectangular prism made from unit cubes.</desc>
+  <rect width="820" height="520" fill="#f8fafc"/>
+  <text x="40" y="54" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#123047">4 × 3 × 2 rectangular prism</text>
+  <g transform="translate(210 130)" stroke="#334155" stroke-width="2" stroke-linejoin="round">
+    <polygon points="0,60 240,60 300,120 60,120" fill="#bfdbfe"/>
+    <polygon points="0,60 60,120 60,240 0,180" fill="#93c5fd"/>
+    <polygon points="60,120 300,120 300,240 60,240" fill="#dbeafe"/>
+    <g stroke="#1e40af">
+      <path d="M120 120v120M180 120v120M240 120v120M60 180h240"/>
+      <path d="M20 80h240M40 100h240M20 80l60 60M40 100l60 60M60 60l60 60M120 60l60 60M180 60l60 60"/>
+      <path d="M0 120l60 60M20 80v120M40 100v120"/>
+    </g>
+  </g>
+  <text x="410" y="450" font-family="Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle" fill="#0f766e">4 × 3 = 12 cubes per layer; 2 layers = 24 cubic units</text>
+</svg>

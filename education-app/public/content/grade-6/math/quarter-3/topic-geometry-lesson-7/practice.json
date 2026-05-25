@@ -1,0 +1,78 @@
+{
+  "examId": "grade-6-math-q3-geometry-lesson-7-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 7 Practice: Composite Area",
+  "description": "Practice finding total area by decomposing composite figures into familiar shapes.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A composite figure is made of a 7 cm by 5 cm rectangle and a triangle with base 7 cm and height 4 cm. What is the total area?",
+      "options": ["35 cm²", "49 cm²", "63 cm²", "70 cm²"],
+      "correctAnswer": 1,
+      "explanation": "Rectangle: 7 × 5 = 35. Triangle: 1/2 × 7 × 4 = 14. Total: 49 cm².",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A large rectangle is 12 m by 8 m. A 3 m by 4 m rectangle is removed. What is the remaining area? Enter just the number.",
+      "correctAnswer": "84",
+      "explanation": "Large rectangle: 12 × 8 = 96. Removed part: 3 × 4 = 12. Remaining area: 96 - 12 = 84 m².",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "When decomposition parts overlap, adding all part areas can make the total area too large.",
+      "correctAnswer": "true",
+      "explanation": "The overlapping region is counted more than once.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "A trapezoid has bases 10 cm and 6 cm and height 4 cm. What is its area? Enter just the number.",
+      "correctAnswer": "32",
+      "explanation": "A = 1/2(10 + 6)(4) = 32 cm².",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which strategy is best for a rectangle with a smaller rectangle cut out from one corner?",
+      "options": ["Add all side lengths", "Large rectangle area minus missing rectangle area", "Use only triangle area", "Multiply every number shown"],
+      "correctAnswer": 1,
+      "explanation": "A cut-out or missing piece should be subtracted from the larger area.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A composite figure has a parallelogram with base 9 units and height 5 units plus a rectangle 4 units by 5 units. What is the total area? Enter just the number.",
+      "correctAnswer": "65",
+      "explanation": "Parallelogram: 9 × 5 = 45. Rectangle: 4 × 5 = 20. Total: 65 square units.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "Explain why a triangle with base 8 cm and height 6 cm has area 24 cm² instead of 48 cm².",
+      "correctAnswer": "A triangle is half of a rectangle or parallelogram with the same base and height, so its area is 1/2 × 8 × 6 = 24 cm².",
+      "explanation": "A complete answer should mention the one-half factor for triangle area.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Describe one reliable way to check that a composite-area decomposition is valid.",
+      "correctAnswer": "Check that the parts cover the original figure exactly once, with no gaps and no overlaps.",
+      "explanation": "A valid decomposition should match the original figure exactly.",
+      "points": 14
+    }
+  ]
+}

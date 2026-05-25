@@ -1,0 +1,94 @@
+{
+  "examId": "grade-6-math-q3-geometry-lesson-6-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 6 Assessment: Area Unit Conversion",
+  "description": "Show mastery of square centimeter and square meter conversions and the reason area uses squared units.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which unit is best for measuring the area of a classroom floor?",
+      "options": ["cm", "m²", "cm³", "m"],
+      "correctAnswer": 1,
+      "explanation": "A classroom floor is a surface, and square meters are appropriate for larger areas.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "Convert 8 m² to cm². Enter just the number.",
+      "correctAnswer": "80000",
+      "explanation": "8 × 10000 = 80000 cm².",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "Convert 36000 cm² to m². Enter just the number.",
+      "correctAnswer": "3.6",
+      "explanation": "36000 ÷ 10000 = 3.6 m².",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "A square meter contains 100 rows of 100 square centimeters.",
+      "correctAnswer": "true",
+      "explanation": "A 1 m by 1 m square is 100 cm by 100 cm, giving 10000 square centimeters.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "What operation converts cm² to m²?",
+      "options": ["Multiply by 100", "Divide by 100", "Multiply by 10000", "Divide by 10000"],
+      "correctAnswer": 3,
+      "explanation": "Square centimeters are smaller, so divide by 10000 to express the same area in square meters.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A board has area 0.6 m². Convert it to cm². Enter just the number.",
+      "correctAnswer": "6000",
+      "explanation": "0.6 × 10000 = 6000 cm².",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A tabletop has area 12000 cm². Convert it to m². Enter just the number.",
+      "correctAnswer": "1.2",
+      "explanation": "12000 ÷ 10000 = 1.2 m².",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A student says 5 m² = 500 cm² because 1 m = 100 cm. Identify and correct the mistake.",
+      "correctAnswer": "The student used the length conversion factor. Area uses two dimensions, so 5 m² = 5 × 10000 = 50000 cm².",
+      "explanation": "The correction should use the area conversion factor, 10000.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "question": "A rectangular wall is 3 m long and 2 m high. What is its area in cm²? Enter just the number.",
+      "correctAnswer": "60000",
+      "explanation": "The area is 3 × 2 = 6 m², and 6 × 10000 = 60000 cm².",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Explain how you know whether to multiply or divide by 10000 in an area conversion.",
+      "correctAnswer": "Multiply by 10000 when converting from m² to cm². Divide by 10000 when converting from cm² to m².",
+      "explanation": "The same area has a larger number in smaller square centimeters and a smaller number in larger square meters.",
+      "points": 10
+    }
+  ]
+}

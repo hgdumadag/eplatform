@@ -1,0 +1,78 @@
+{
+  "examId": "grade-6-math-q3-geometry-lesson-4-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 4 Practice: Volume of Rectangular Prisms",
+  "description": "Practice using length × width × height to find rectangular prism volume.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which formula gives the volume of a rectangular prism?",
+      "options": ["V = l + w + h", "V = l × w", "V = l × w × h", "V = 2l + 2w"],
+      "correctAnswer": 2,
+      "explanation": "Rectangular prism volume uses all three dimensions: length, width, and height.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A prism is 4 units long, 3 units wide, and 2 units high. What is its volume? Enter just the number.",
+      "correctAnswer": "24",
+      "explanation": "4 × 3 × 2 = 24 cubic units.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "Length × width finds one base layer of a rectangular prism.",
+      "correctAnswer": "true",
+      "explanation": "The base layer is a rectangle, so length × width counts cubes in one layer.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "A box is 8 cm long, 3 cm wide, and 5 cm high. What is its volume? Enter just the number.",
+      "correctAnswer": "120",
+      "explanation": "8 × 3 × 5 = 120 cm³.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which unit is suitable for the volume of a prism with dimensions measured in meters?",
+      "options": ["m", "m²", "m³", "L only"],
+      "correctAnswer": 2,
+      "explanation": "Volume uses cubic units, so meters become cubic meters.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "Explain why length × width alone is not enough for rectangular prism volume.",
+      "correctAnswer": "Length × width gives the area of one layer, but volume also needs height to count all the layers.",
+      "explanation": "Volume is 3D, so it requires length, width, and height.",
+      "points": 14
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "One layer has 18 cubes and there are 5 layers. What is the volume? Enter just the number.",
+      "correctAnswer": "90",
+      "explanation": "18 × 5 = 90 cubic units.",
+      "points": 12
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A prism is 6 m long, 4 m wide, and 3 m high. Find the volume with units.",
+      "correctAnswer": "72 m³",
+      "explanation": "6 × 4 × 3 = 72, so the volume is 72 m³.",
+      "points": 14
+    }
+  ]
+}

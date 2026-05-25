@@ -1,0 +1,78 @@
+{
+  "examId": "grade-6-math-q3-geometry-lesson-2-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 2 Practice: Cubic Centimeters and Liters",
+  "description": "Practice converting between cubic centimeters and liters.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "How many cubic centimeters are equal to 1 liter?",
+      "options": ["10 cm³", "100 cm³", "1000 cm³", "10000 cm³"],
+      "correctAnswer": 2,
+      "explanation": "The key conversion is 1 L = 1000 cm³.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "Convert 4 L to cubic centimeters. Enter just the number.",
+      "correctAnswer": "4000",
+      "explanation": "Liters to cubic centimeters means multiply by 1000: 4 × 1000 = 4000.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "Convert 3000 cm³ to liters. Enter just the number.",
+      "correctAnswer": "3",
+      "explanation": "Cubic centimeters to liters means divide by 1000: 3000 ÷ 1000 = 3.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "To convert liters to cubic centimeters, multiply by 1000.",
+      "correctAnswer": "true",
+      "explanation": "Cubic centimeters are smaller units, so the number increases when converting from liters to cm³.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Convert 2500 cm³ to liters.",
+      "options": ["0.25 L", "2.5 L", "25 L", "250 L"],
+      "correctAnswer": 1,
+      "explanation": "2500 ÷ 1000 = 2.5, so 2500 cm³ = 2.5 L.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "Explain why 1 L equals 1000 cm³.",
+      "correctAnswer": "A 10 cm by 10 cm by 10 cm cube has volume 1000 cm³, and that amount is equal to 1 liter.",
+      "explanation": "The conversion comes from three dimensions: 10 × 10 × 10 = 1000.",
+      "points": 14
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "Convert 0.75 L to cubic centimeters. Enter just the number.",
+      "correctAnswer": "750",
+      "explanation": "0.75 × 1000 = 750, so 0.75 L = 750 cm³.",
+      "points": 12
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A container has volume 6000 cm³. How many liters does it hold, and what operation did you use?",
+      "correctAnswer": "6 L; divide by 1000.",
+      "explanation": "Convert cm³ to L by dividing by 1000: 6000 ÷ 1000 = 6 L.",
+      "points": 14
+    }
+  ]
+}

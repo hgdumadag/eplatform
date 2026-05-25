@@ -1,0 +1,94 @@
+{
+  "examId": "grade-6-math-q3-geometry-lesson-8-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 8 Assessment: Composite Perimeter",
+  "description": "Demonstrate mastery of perimeter problems with missing side lengths in composite figures.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which routine is best for finding the perimeter of a composite rectilinear figure?",
+      "options": ["Find areas, then add square units", "Trace the outside boundary, find missing sides, then add outer side lengths", "Multiply length by width", "Add only the sides with labels"],
+      "correctAnswer": 1,
+      "explanation": "Composite perimeter depends on the outside boundary. Missing side lengths must be found before all outer sides are added.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A composite figure has outside sides of 12 m, 5 m, 4 m, 3 m, 8 m, and 8 m. What is the perimeter? Enter just the number.",
+      "correctAnswer": "40",
+      "explanation": "Add all outside sides: 12 + 5 + 4 + 3 + 8 + 8 = 40 m.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "The full width of a step-shaped figure is 18 cm. One horizontal part is 11 cm. What is the other horizontal part that completes the width? Enter just the number.",
+      "correctAnswer": "7",
+      "explanation": "The two horizontal parts across the width must total 18 cm, so 18 - 11 = 7 cm.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "A side inside a composite figure should be included in the perimeter if it helps split the figure into rectangles.",
+      "correctAnswer": "false",
+      "explanation": "Perimeter includes only the outside boundary, not interior dividing lines.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which unit is appropriate for the perimeter of a garden path?",
+      "options": ["square meters", "cubic meters", "meters", "degrees"],
+      "correctAnswer": 2,
+      "explanation": "Perimeter is a distance, so it uses linear units such as meters.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "An L-shape has outside sides 14 cm, 6 cm, 5 cm, 4 cm, 9 cm, and 10 cm. What is the perimeter? Enter just the number.",
+      "correctAnswer": "48",
+      "explanation": "Add the outside boundary: 14 + 6 + 5 + 4 + 9 + 10 = 48 cm.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A rectilinear figure has total height 16 m. The vertical drop is split into 9 m and a missing vertical side. What is the missing vertical side? Enter just the number.",
+      "correctAnswer": "7",
+      "explanation": "The vertical parts must total the full height: 16 - 9 = 7 m.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A student finds perimeter by adding every number shown, including one interior segment. Explain why the answer is too large.",
+      "correctAnswer": "The interior segment is not part of the outside boundary. Adding it counts extra distance, so the perimeter becomes too large.",
+      "explanation": "The key idea is that perimeter measures only the outside boundary.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "question": "A step-shaped patio has outside sides 20 m, 6 m, 8 m, 5 m, 12 m, and 11 m. What is the perimeter? Enter just the number.",
+      "correctAnswer": "62",
+      "explanation": "Add each outside side once: 20 + 6 + 8 + 5 + 12 + 11 = 62 m.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Describe the steps you would use to solve a missing-side perimeter problem for a composite figure.",
+      "correctAnswer": "Trace the outside boundary, label every outer side, use total horizontal or vertical distances to find missing sides, add all outside lengths once, and write linear units.",
+      "explanation": "A complete method includes boundary tracing, finding missing sides, adding outer sides, and using linear units.",
+      "points": 10
+    }
+  ]
+}

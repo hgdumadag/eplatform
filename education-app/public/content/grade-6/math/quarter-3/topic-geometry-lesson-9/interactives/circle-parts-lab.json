@@ -1,0 +1,13 @@
+{
+  "id": "circle-parts-lab",
+  "version": "1.0",
+  "runtime": "sandbox-local",
+  "widget": "sandbox-host",
+  "title": "Circle Parts Lab",
+  "props": {
+    "htmlPath": "../miniapps/circle-parts-lab.html"
+  },
+  "fallback": {
+    "markdown": "Interactive lab unavailable. Practice by drawing a circle with a compass, marking the center, drawing a radius from the center to the circle, drawing a diameter through the center, and tracing the circumference."
+  }
+}

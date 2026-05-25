@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Cube volume formula map</title>
+  <desc id="desc">A flow diagram showing rectangular prism volume length times width times height becoming cube volume side cubed.</desc>
+  <rect width="900" height="520" fill="#f8fafc"/>
+  <text x="42" y="54" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#123047">From prism volume to cube volume</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="80" y="145" width="300" height="115" rx="10" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+    <text x="230" y="190" font-size="26" font-weight="700" fill="#0f172a">Rectangular prism</text>
+    <text x="230" y="230" font-size="30" fill="#1e40af">V = l × w × h</text>
+    <path d="M400 202h100" stroke="#0f766e" stroke-width="6"/>
+    <path d="M500 202l-24-15v30Z" fill="#0f766e"/>
+    <rect x="530" y="145" width="300" height="115" rx="10" fill="#dcfce7" stroke="#166534" stroke-width="3"/>
+    <text x="680" y="190" font-size="26" font-weight="700" fill="#14532d">Cube</text>
+    <text x="680" y="230" font-size="30" fill="#166534">V = s × s × s</text>
+    <rect x="300" y="335" width="300" height="90" rx="10" fill="#dbeafe" stroke="#1e40af" stroke-width="3"/>
+    <text x="450" y="372" font-size="24" font-weight="700" fill="#1e3a8a">Short form</text>
+    <text x="450" y="405" font-size="32" fill="#1e3a8a">V = s³</text>
+  </g>
+</svg>

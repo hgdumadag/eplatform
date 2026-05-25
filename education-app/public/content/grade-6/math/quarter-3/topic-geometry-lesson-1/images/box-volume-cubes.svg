@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Box volume shown with unit cubes</title>
+  <desc id="desc">A rectangular box partly filled with small unit cubes to show that volume is measured using cubic units.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <text x="36" y="48" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#123047">A box uses cubic units</text>
+  <g transform="translate(120 120)" stroke="#334155" stroke-width="2" stroke-linejoin="round">
+    <polygon points="0,55 260,55 340,115 80,115" fill="#e0f2fe"/>
+    <polygon points="0,55 80,115 80,260 0,190" fill="#bae6fd"/>
+    <polygon points="80,115 340,115 340,260 80,260" fill="#f0f9ff"/>
+    <g fill="#fef3c7">
+      <rect x="105" y="140" width="40" height="40"/>
+      <rect x="145" y="140" width="40" height="40"/>
+      <rect x="185" y="140" width="40" height="40"/>
+      <rect x="225" y="140" width="40" height="40"/>
+      <rect x="105" y="180" width="40" height="40"/>
+      <rect x="145" y="180" width="40" height="40"/>
+      <rect x="185" y="180" width="40" height="40"/>
+      <rect x="225" y="180" width="40" height="40"/>
+    </g>
+    <g stroke="#64748b" stroke-width="1">
+      <path d="M145 140v80M185 140v80M225 140v80M105 180h160"/>
+    </g>
+  </g>
+  <text x="220" y="386" font-family="Arial, sans-serif" font-size="20" fill="#0f766e">Volume tells how many cubic units fit inside.</text>
+</svg>

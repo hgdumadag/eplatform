@@ -1,0 +1,95 @@
+{
+  "examId": "grade-6-math-q3-geometry-lesson-4-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 4 Assessment: Rectangular Prism Volume",
+  "description": "Solve rectangular prism volume tasks with labeled units.",
+  "passingScore": 75,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A prism has length 5 cm, width 4 cm, and height 3 cm. What is its volume?",
+      "options": ["12 cm³", "20 cm²", "60 cm³", "60 cm²"],
+      "correctAnswer": 2,
+      "explanation": "5 × 4 × 3 = 60 cm³.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A box is 10 cm long, 4 cm wide, and 6 cm high. What is its volume? Enter just the number.",
+      "correctAnswer": "240",
+      "explanation": "10 × 4 × 6 = 240.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "The height of a prism tells how many layers are stacked.",
+      "correctAnswer": "true",
+      "explanation": "Height is the number of layers when modeling with unit cubes.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A prism has base area 24 square units and height 7 units. What is its volume?",
+      "options": ["31 cubic units", "48 cubic units", "168 cubic units", "336 cubic units"],
+      "correctAnswer": 2,
+      "explanation": "Volume = base area × height = 24 × 7 = 168 cubic units.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "A prism is 9 m long, 3 m wide, and 4 m high. What is its volume? Enter just the number.",
+      "correctAnswer": "108",
+      "explanation": "9 × 3 × 4 = 108.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "A student calculates 8 × 3 = 24 cm² for a box that is 8 cm by 3 cm by 5 cm. What did the student find, and what is the correct volume?",
+      "correctAnswer": "The student found the base area. The correct volume is 8 × 3 × 5 = 120 cm³.",
+      "explanation": "The student omitted height. Volume needs all three dimensions and cubic units.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A prism has volume 180 cm³, length 9 cm, and width 4 cm. What is its height? Enter just the number.",
+      "correctAnswer": "5",
+      "explanation": "9 × 4 = 36, and 180 ÷ 36 = 5.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Which measurement set gives a volume of 120 cubic units?",
+      "options": ["4 × 5 × 6", "10 × 2 × 5", "3 × 4 × 8", "6 × 6 × 3"],
+      "correctAnswer": 0,
+      "explanation": "4 × 5 × 6 = 120. The other products are 100, 96, and 108.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Explain how unit-cube layers show why V = l × w × h.",
+      "correctAnswer": "Length × width counts cubes in one base layer, and multiplying by height counts all stacked layers.",
+      "explanation": "The formula comes from layer counting: base layer cubes times number of layers.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A rectangular aquarium is 30 cm long, 10 cm wide, and 20 cm high. Find its volume with units.",
+      "correctAnswer": "6000 cm³",
+      "explanation": "30 × 10 × 20 = 6000, so the volume is 6000 cm³.",
+      "points": 10
+    }
+  ]
+}

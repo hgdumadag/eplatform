@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volume Word Problems Lab</title>
+  <style>
+    :root { color-scheme: light; --ink:#102033; --muted:#536171; --line:#cbd5e1; --blue:#2563eb; --amber:#92400e; --bg:#f8fafc; --card:#fff; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:Arial, Helvetica, sans-serif; line-height:1.5; }
+    main { max-width:980px; margin:0 auto; padding:18px; }
+    h1,h2 { margin:0 0 10px; line-height:1.15; }
+    h1 { font-size:clamp(1.55rem,3vw,2.35rem); }
+    h2 { font-size:1.25rem; margin-top:24px; }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:16px; margin:14px 0; box-shadow:0 1px 2px rgba(15,23,42,.05); }
+    .intro { border-left:5px solid var(--blue); }
+    .visual { border:1px solid var(--line); border-radius:8px; padding:10px; background:#fff; }
+    svg { width:100%; height:auto; display:block; }
+    label { display:block; margin:8px 0; }
+    select,input,textarea { width:100%; min-height:40px; border:1px solid #94a3b8; border-radius:6px; padding:8px 10px; font:inherit; background:#fff; color:var(--ink); }
+    textarea { min-height:88px; resize:vertical; }
+    button { min-height:40px; border:0; border-radius:6px; padding:9px 12px; font:inherit; font-weight:700; background:var(--blue); color:#fff; cursor:pointer; margin:6px 6px 6px 0; }
+    button.secondary { background:#e2e8f0; color:#0f172a; }
+    button:focus { outline:3px solid #93c5fd; outline-offset:2px; }
+    .feedback { min-height:28px; margin-top:8px; padding:8px 10px; border-radius:6px; background:#f1f5f9; color:var(--muted); }
+    .good { background:#dcfce7; color:#14532d; }
+    .bad { background:#fee2e2; color:#7f1d1d; }
+    .hint { display:none; margin:8px 0; padding:10px; border-left:4px solid var(--amber); background:#fffbeb; color:#713f12; }
+    .checklist label { display:flex; gap:8px; align-items:flex-start; }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card intro">
+      <h1>Volume Word Problems Lab</h1>
+      <p>Choose the shape, formula, calculation, and unit before writing the final sentence.</p>
+    </section>
+
+    <section class="card" aria-labelledby="readiness-title">
+      <h2 id="readiness-title">Pre-check / Readiness Quiz</h2>
+      <label>1. Cube side length 4 cm. Volume?
+        <input id="pre1" type="text" autocomplete="off">
+      </label>
+      <label>2. Box 5 cm by 3 cm by 2 cm. Volume?
+        <input id="pre2" type="text" autocomplete="off">
+      </label>
+      <label>3. Which unit fits volume?
+        <select id="pre3"><option value="">Choose...</option><option value="cm2">cm²</option><option value="cm3">cm³</option></select>
+      </label>
+      <label>4. A complete answer should include:
+        <select id="pre4"><option value="">Choose...</option><option value="units">units</option><option value="color">color</option><option value="only-number">only a number</option></select>
+      </label>
+      <button type="button" onclick="checkReadiness()">Check Answers</button>
+      <div id="preFeedback" class="feedback" aria-live="polite">Your score will appear here.</div>
+    </section>
+
+    <section class="card" aria-labelledby="problem-title">
+      <h2 id="problem-title">Guided Word Problem</h2>
+      <div class="visual">
+        <svg viewBox="0 0 760 250" role="img" aria-labelledby="boxTitle boxDesc">
+          <title id="boxTitle">Toy box dimensions</title>
+          <desc id="boxDesc">A rectangular toy box labeled twenty centimeters by twelve centimeters by ten centimeters.</desc>
+          <rect width="760" height="250" fill="#fff"/>
+          <g transform="translate(220 40)" stroke="#1e40af" stroke-width="4" stroke-linejoin="round">
+            <polygon points="0,55 250,55 320,115 70,115" fill="#bfdbfe"/>
+            <polygon points="0,55 70,115 70,205 0,145" fill="#93c5fd"/>
+            <polygon points="70,115 320,115 320,205 70,205" fill="#dbeafe"/>
+          </g>
+          <text x="345" y="34" font-size="20" font-weight="700">20 cm</text>
+          <text x="555" y="150" font-size="20" font-weight="700">12 cm</text>
+          <text x="165" y="160" font-size="20" font-weight="700">10 cm</text>
+        </svg>
+      </div>
+      <p>A toy box is 20 cm long, 12 cm wide, and 10 cm high. Find its volume.</p>
+      <label>Your final volume answer
+        <input id="wordAnswer" type="text" autocomplete="off">
+      </label>
+      <button type="button" class="secondary" onclick="toggle('wordHint1')">Hint 1</button>
+      <button type="button" class="secondary" onclick="toggle('wordHint2')">Hint 2</button>
+      <button type="button" onclick="checkWordProblem()">Check Answer</button>
+      <button type="button" class="secondary" onclick="toggle('wordSolution')">Show Solution</button>
+      <div id="wordHint1" class="hint">The toy box is a rectangular prism.</div>
+      <div id="wordHint2" class="hint">Use 20 × 12 × 10, then include cm³.</div>
+      <div id="wordSolution" class="hint">V = 20 × 12 × 10 = 2400 cm³. The toy box has a volume of 2400 cm³.</div>
+      <div id="wordFeedback" class="feedback" aria-live="polite">Your word-problem feedback will appear here.</div>
+    </section>
+
+    <section class="card" aria-labelledby="quiz-title">
+      <h2 id="quiz-title">Mini-Quiz</h2>
+      <label>1. A cube container has side length 5 cm. Volume?
+        <input id="quiz1" type="text" autocomplete="off">
+      </label>
+      <label>2. A bin is 9 dm by 4 dm by 5 dm. Volume?
+        <input id="quiz2" type="text" autocomplete="off">
+      </label>
+      <label>3. Which formula fits a cube?
+        <select id="quiz3"><option value="">Choose...</option><option value="cube">V = s³</option><option value="prism">V = l × w × h</option></select>
+      </label>
+      <label>4. Which final answer is complete?
+        <select id="quiz4"><option value="">Choose...</option><option value="complete">The bin has volume 180 dm³.</option><option value="incomplete">180</option></select>
+      </label>
+      <button type="button" onclick="checkQuiz()">Check Quiz</button>
+      <div id="quizFeedback" class="feedback" aria-live="polite">Your quiz score will appear here.</div>
+    </section>
+
+    <section class="card checklist" aria-labelledby="mastery-title">
+      <h2 id="mastery-title">Mastery Checklist</h2>
+      <label><input type="checkbox" class="mastery"> I can identify the shape in a word problem.</label>
+      <label><input type="checkbox" class="mastery"> I can choose the correct volume formula.</label>
+      <label><input type="checkbox" class="mastery"> I can organize dimensions before calculating.</label>
+      <label><input type="checkbox" class="mastery"> I can write cubic units.</label>
+      <label><input type="checkbox" class="mastery"> I can write a complete final sentence.</label>
+      <button type="button" onclick="checkMastery()">Check My Readiness</button>
+      <div id="masteryFeedback" class="feedback" aria-live="polite">Your readiness feedback will appear here.</div>
+    </section>
+  </main>
+
+  <script>
+    function normalize(value){return String(value||'').trim().toLowerCase().replace(/\\s+/g,'').replace(/,/g,'');}
+    function numberValue(value){var cleaned=normalize(value).replace(/cm\\^?3|cm³|m\\^?3|m³|dm\\^?3|dm³|cubicunits?|units?/g,''); var num=Number(cleaned); return Number.isFinite(num)?num:NaN;}
+    function hasCubicUnit(value){var text=normalize(value); return /cm3|cm\\^3|cm³|m3|m\\^3|m³|dm3|dm\\^3|dm³|cubicunit/.test(text);}
+    function setFeedback(id,message,good){var node=document.getElementById(id); node.textContent=message; node.className='feedback '+(good?'good':'bad');}
+    function toggle(id){var node=document.getElementById(id); node.style.display=node.style.display==='block'?'none':'block'; parent.postMessage({type:'requestHint'},'*'); resize();}
+    function checkReadiness(){var score=0; if(numberValue(pre1.value)===64)score++; if(numberValue(pre2.value)===30)score++; if(normalize(pre3.value)==='cm3')score++; if(normalize(pre4.value)==='units')score++; var good=score>=3; setFeedback('preFeedback','Score: '+score+' of 4. '+(good?'You are ready to continue.':'Review cube/prism volume and units before continuing.'),good); parent.postMessage({type:'checkpoint',checkpointId:'readiness-checked'},'*');}
+    function checkWordProblem(){var actual=numberValue(wordAnswer.value); var good=actual===2400 && hasCubicUnit(wordAnswer.value); setFeedback('wordFeedback',good?'Correct. The answer includes the volume and cubic units.':'Check both parts: the number should be 2400 and the answer should include cm³.',good); parent.postMessage({type:'checkpoint',checkpointId:'word-problem-checked'},'*');}
+    function checkQuiz(){var score=0; if(numberValue(quiz1.value)===125)score++; if(numberValue(quiz2.value)===180)score++; if(normalize(quiz3.value)==='cube')score++; if(normalize(quiz4.value)==='complete')score++; var good=score>=3; setFeedback('quizFeedback','Score: '+score+' of 4. '+(good?'Good. Your answers match the context.':'Revisit formula choice and complete units.'),good);}
+    function checkMastery(){var boxes=Array.from(document.querySelectorAll('.mastery')); var checked=boxes.filter(function(box){return box.checked;}).length; var all=checked===boxes.length; setFeedback('masteryFeedback',all?'You look ready for the practice exam.':'You checked '+checked+' of '+boxes.length+'. Revisit any unchecked skill before the assessment.',all); parent.postMessage({type:'checkpoint',checkpointId:'mastery-checked'},'*');}
+    function resize(){parent.postMessage({type:'resize',height:Math.min(920,document.documentElement.scrollHeight+20)},'*');}
+    window.addEventListener('load',function(){parent.postMessage({type:'ready'},'*'); resize();});
+    window.addEventListener('resize',resize);
+  </script>
+</body>
+</html>

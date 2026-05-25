@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choosing Units Lab</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #102033;
+      --muted: #536171;
+      --line: #cbd5e1;
+      --blue: #2563eb;
+      --green: #0f766e;
+      --red: #b91c1c;
+      --amber: #92400e;
+      --bg: #f8fafc;
+      --card: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.5;
+    }
+
+    main {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 18px;
+    }
+
+    h1, h2, h3 {
+      margin: 0 0 10px;
+      line-height: 1.15;
+    }
+
+    h1 { font-size: clamp(1.55rem, 3vw, 2.35rem); }
+    h2 { font-size: 1.25rem; margin-top: 24px; }
+    h3 { font-size: 1.05rem; }
+
+    p { margin: 0 0 12px; }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+      margin: 14px 0;
+      box-shadow: 0 1px 2px rgba(15, 23, 42, 0.05);
+    }
+
+    .intro { border-left: 5px solid var(--blue); }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 12px;
+    }
+
+    .object-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px;
+      background: #fff;
+    }
+
+    svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    label {
+      display: block;
+      margin: 8px 0;
+    }
+
+    select, input[type="text"] {
+      width: 100%;
+      min-height: 40px;
+      border: 1px solid #94a3b8;
+      border-radius: 6px;
+      padding: 8px 10px;
+      font: inherit;
+      background: #fff;
+      color: var(--ink);
+    }
+
+    button {
+      min-height: 40px;
+      border: 0;
+      border-radius: 6px;
+      padding: 9px 12px;
+      font: inherit;
+      font-weight: 700;
+      background: var(--blue);
+      color: white;
+      cursor: pointer;
+      margin: 6px 6px 6px 0;
+    }
+
+    button.secondary {
+      background: #e2e8f0;
+      color: #0f172a;
+    }
+
+    button:hover { filter: brightness(0.96); }
+    button:focus { outline: 3px solid #93c5fd; outline-offset: 2px; }
+
+    .feedback {
+      min-height: 28px;
+      margin-top: 8px;
+      padding: 8px 10px;
+      border-radius: 6px;
+      background: #f1f5f9;
+      color: var(--muted);
+    }
+
+    .good {
+      background: #dcfce7;
+      color: #14532d;
+    }
+
+    .bad {
+      background: #fee2e2;
+      color: #7f1d1d;
+    }
+
+    .hint {
+      display: none;
+      margin: 8px 0;
+      padding: 10px;
+      border-left: 4px solid var(--amber);
+      background: #fffbeb;
+      color: #713f12;
+    }
+
+    .checklist label {
+      display: flex;
+      gap: 8px;
+      align-items: flex-start;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card intro">
+      <h1>Choosing Units Lab</h1>
+      <p>Use this lab to decide whether a measurement needs cubic units for volume or liquid units for capacity.</p>
+    </section>
+
+    <section class="card" aria-labelledby="readiness-title">
+      <h2 id="readiness-title">Pre-check / Readiness Quiz</h2>
+      <label>1. Which unit fits length?
+        <select id="pre1">
+          <option value="">Choose...</option>
+          <option value="cm">cm</option>
+          <option value="cm3">cm³</option>
+          <option value="l">L</option>
+        </select>
+      </label>
+      <label>2. Which unit fits a flat notebook cover?
+        <select id="pre2">
+          <option value="">Choose...</option>
+          <option value="cm2">cm²</option>
+          <option value="l">L</option>
+          <option value="ml">mL</option>
+        </select>
+      </label>
+      <label>3. Which unit fits water in a glass?
+        <select id="pre3">
+          <option value="">Choose...</option>
+          <option value="ml">mL</option>
+          <option value="m2">m²</option>
+          <option value="cm">cm</option>
+        </select>
+      </label>
+      <label>4. Which unit fits a small solid cube?
+        <select id="pre4">
+          <option value="">Choose...</option>
+          <option value="cm3">cm³</option>
+          <option value="kg">kg</option>
+          <option value="cm2">cm²</option>
+        </select>
+      </label>
+      <button type="button" onclick="checkReadiness()">Check Answers</button>
+      <div id="preFeedback" class="feedback" aria-live="polite">Your score will appear here.</div>
+    </section>
+
+    <section class="card" aria-labelledby="before-title">
+      <h2 id="before-title">Try Before You Read</h2>
+      <div class="grid">
+        <div class="object-card">
+          <h3>Solid Box</h3>
+          <svg viewBox="0 0 260 160" role="img" aria-labelledby="boxTitle boxDesc">
+            <title id="boxTitle">Box with cubes</title>
+            <desc id="boxDesc">A box partly filled with unit cubes.</desc>
+            <rect width="260" height="160" fill="#fff"/>
+            <g stroke="#334155" stroke-width="2" stroke-linejoin="round" transform="translate(25 35)">
+              <polygon points="0,25 120,25 160,55 40,55" fill="#e0f2fe"/>
+              <polygon points="0,25 40,55 40,115 0,82" fill="#bae6fd"/>
+              <polygon points="40,55 160,55 160,115 40,115" fill="#f0f9ff"/>
+              <rect x="58" y="72" width="26" height="26" fill="#fef3c7"/>
+              <rect x="84" y="72" width="26" height="26" fill="#fef3c7"/>
+              <rect x="110" y="72" width="26" height="26" fill="#fef3c7"/>
+            </g>
+          </svg>
+        </div>
+        <div class="object-card">
+          <h3>Water Bottle</h3>
+          <svg viewBox="0 0 260 160" role="img" aria-labelledby="bottleTitle bottleDesc">
+            <title id="bottleTitle">Bottle with water</title>
+            <desc id="bottleDesc">A bottle that holds liquid.</desc>
+            <rect width="260" height="160" fill="#fff"/>
+            <g transform="translate(95 12)">
+              <path d="M24 0h52v25c0 12 24 23 24 56v64c0 16-13 29-29 29H29c-16 0-29-13-29-29V81c0-33 24-44 24-56Z" fill="#dbeafe" stroke="#1e40af" stroke-width="3"/>
+              <path d="M3 92h94v53c0 14-12 26-26 26H29c-14 0-26-12-26-26Z" fill="#60a5fa" opacity="0.75"/>
+              <text x="37" y="78" font-size="18" font-weight="700" fill="#1e3a8a">L</text>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <p>Which object should use cubic units, and which should use liquid units?</p>
+      <button type="button" class="secondary" onclick="toggle('thinkingGuide')">Reveal Thinking Guide</button>
+      <button type="button" class="secondary" onclick="toggle('beforeAnswer')">Reveal Explanation</button>
+      <div id="thinkingGuide" class="hint">Ask whether the question is about 3D solid space or the amount of liquid a container holds.</div>
+      <div id="beforeAnswer" class="hint">The box uses cubic units such as cm³. The bottle uses liquid units such as mL or L.</div>
+    </section>
+
+    <section class="card" aria-labelledby="match-title">
+      <h2 id="match-title">Guided Unit Matching</h2>
+      <label>1. Volume of a dice
+        <select id="match1">
+          <option value="">Choose...</option>
+          <option value="cm3">cm³</option>
+          <option value="ml">mL</option>
+          <option value="cm2">cm²</option>
+        </select>
+      </label>
+      <label>2. Capacity of a medicine cup
+        <select id="match2">
+          <option value="">Choose...</option>
+          <option value="m3">m³</option>
+          <option value="ml">mL</option>
+          <option value="cm2">cm²</option>
+        </select>
+      </label>
+      <label>3. Volume of a classroom
+        <select id="match3">
+          <option value="">Choose...</option>
+          <option value="m3">m³</option>
+          <option value="ml">mL</option>
+          <option value="cm">cm</option>
+        </select>
+      </label>
+      <button type="button" class="secondary" onclick="toggle('matchHint1')">Hint 1</button>
+      <button type="button" class="secondary" onclick="toggle('matchHint2')">Hint 2</button>
+      <button type="button" onclick="checkMatches()">Check Matches</button>
+      <button type="button" class="secondary" onclick="toggle('matchSolution')">Show Solution</button>
+      <div id="matchHint1" class="hint">Solid 3D spaces need cubic units. Liquid capacity needs mL or L.</div>
+      <div id="matchHint2" class="hint">Small solids often use cm³. Large rooms often use m³. Small liquid containers often use mL.</div>
+      <div id="matchSolution" class="hint">Dice: cm³. Medicine cup: mL. Classroom: m³.</div>
+      <div id="matchFeedback" class="feedback" aria-live="polite">Your matching feedback will appear here.</div>
+    </section>
+
+    <section class="card" aria-labelledby="quiz-title">
+      <h2 id="quiz-title">Mini-Quiz</h2>
+      <label>1. Volume uses cubic units such as:
+        <input id="quiz1" type="text" autocomplete="off" aria-label="Answer for quiz question 1">
+      </label>
+      <label>2. Capacity of a pitcher is best measured in:
+        <select id="quiz2">
+          <option value="">Choose...</option>
+          <option value="l">L</option>
+          <option value="cm2">cm²</option>
+          <option value="m">m</option>
+        </select>
+      </label>
+      <label>3. cm² measures:
+        <select id="quiz3">
+          <option value="">Choose...</option>
+          <option value="area">Area</option>
+          <option value="volume">Volume</option>
+          <option value="capacity">Capacity</option>
+        </select>
+      </label>
+      <label>4. A classroom's volume is more reasonably measured in:
+        <select id="quiz4">
+          <option value="">Choose...</option>
+          <option value="m3">m³</option>
+          <option value="ml">mL</option>
+          <option value="cm2">cm²</option>
+        </select>
+      </label>
+      <button type="button" onclick="checkQuiz()">Check Quiz</button>
+      <div id="quizFeedback" class="feedback" aria-live="polite">Your quiz score will appear here.</div>
+    </section>
+
+    <section class="card checklist" aria-labelledby="mastery-title">
+      <h2 id="mastery-title">Mastery Checklist</h2>
+      <label><input type="checkbox" class="mastery"> I can explain volume.</label>
+      <label><input type="checkbox" class="mastery"> I can explain capacity.</label>
+      <label><input type="checkbox" class="mastery"> I can choose cm³ for small solid spaces.</label>
+      <label><input type="checkbox" class="mastery"> I can choose m³ for large solid spaces.</label>
+      <label><input type="checkbox" class="mastery"> I can choose mL or L for liquid capacity.</label>
+      <label><input type="checkbox" class="mastery"> I can avoid using cm² for volume.</label>
+      <button type="button" onclick="checkMastery()">Check My Readiness</button>
+      <div id="masteryFeedback" class="feedback" aria-live="polite">Your readiness feedback will appear here.</div>
+    </section>
+  </main>
+
+  <script>
+    function normalize(value) {
+      return String(value || '').trim().toLowerCase().replace(/\s+/g, '');
+    }
+
+    function setFeedback(id, message, good) {
+      var node = document.getElementById(id);
+      node.textContent = message;
+      node.className = 'feedback ' + (good ? 'good' : 'bad');
+    }
+
+    function toggle(id) {
+      var node = document.getElementById(id);
+      node.style.display = node.style.display === 'block' ? 'none' : 'block';
+      parent.postMessage({ type: 'requestHint' }, '*');
+      resize();
+    }
+
+    function checkReadiness() {
+      var score = 0;
+      if (normalize(document.getElementById('pre1').value) === 'cm') score++;
+      if (normalize(document.getElementById('pre2').value) === 'cm2') score++;
+      if (normalize(document.getElementById('pre3').value) === 'ml') score++;
+      if (normalize(document.getElementById('pre4').value) === 'cm3') score++;
+      var good = score >= 3;
+      setFeedback('preFeedback', 'Score: ' + score + ' of 4. ' + (good ? 'You are ready to continue.' : 'Review length, area, volume, and capacity units before continuing.'), good);
+      parent.postMessage({ type: 'checkpoint', checkpointId: 'readiness-checked' }, '*');
+    }
+
+    function checkMatches() {
+      var score = 0;
+      if (normalize(document.getElementById('match1').value) === 'cm3') score++;
+      if (normalize(document.getElementById('match2').value) === 'ml') score++;
+      if (normalize(document.getElementById('match3').value) === 'm3') score++;
+      var good = score === 3;
+      setFeedback('matchFeedback', 'Score: ' + score + ' of 3. ' + (good ? 'All matches are reasonable.' : 'Use cubic units for solid space and liquid units for capacity.'), good);
+      parent.postMessage({ type: 'checkpoint', checkpointId: 'unit-match-checked' }, '*');
+    }
+
+    function checkQuiz() {
+      var score = 0;
+      var q1 = normalize(document.getElementById('quiz1').value);
+      if (['cm3', 'cm^3', 'm3', 'm^3', 'cubicunits', 'cubicunit'].includes(q1)) score++;
+      if (normalize(document.getElementById('quiz2').value) === 'l') score++;
+      if (normalize(document.getElementById('quiz3').value) === 'area') score++;
+      if (normalize(document.getElementById('quiz4').value) === 'm3') score++;
+      var good = score >= 3;
+      setFeedback('quizFeedback', 'Score: ' + score + ' of 4. ' + (good ? 'Nice work. Your unit choices fit the situations.' : 'Revisit the rule: cubic units for volume, liquid units for capacity.'), good);
+    }
+
+    function checkMastery() {
+      var boxes = Array.from(document.querySelectorAll('.mastery'));
+      var checked = boxes.filter(function(box) { return box.checked; }).length;
+      var all = checked === boxes.length;
+      setFeedback('masteryFeedback', all ? 'You look ready for the practice exam.' : 'You checked ' + checked + ' of ' + boxes.length + '. Revisit the sections for any unchecked skill.', all);
+      parent.postMessage({ type: 'checkpoint', checkpointId: 'mastery-checked' }, '*');
+    }
+
+    function resize() {
+      parent.postMessage({ type: 'resize', height: Math.min(920, document.documentElement.scrollHeight + 20) }, '*');
+    }
+
+    window.addEventListener('load', function() {
+      parent.postMessage({ type: 'ready' }, '*');
+      resize();
+    });
+    window.addEventListener('resize', resize);
+  </script>
+</body>
+</html>

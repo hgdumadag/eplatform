@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">One liter bottle</title>
+  <desc id="desc">A bottle of water labeled one liter to show liquid capacity.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <text x="36" y="48" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#123047">Liquid units measure capacity</text>
+  <g transform="translate(270 76)">
+    <path d="M70 0h80v42c0 18 42 38 42 92v150c0 28-22 50-50 50H78c-28 0-50-22-50-50V134c0-54 42-74 42-92Z" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
+    <path d="M30 188h160v96c0 24-20 44-44 44H74c-24 0-44-20-44-44Z" fill="#60a5fa" opacity="0.75"/>
+    <rect x="64" y="-22" width="92" height="28" rx="5" fill="#2563eb"/>
+    <rect x="64" y="122" width="92" height="74" rx="6" fill="#ffffff" stroke="#1e40af" stroke-width="3"/>
+    <text x="88" y="151" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#1e3a8a">1 L</text>
+    <text x="77" y="176" font-family="Arial, sans-serif" font-size="15" fill="#1e3a8a">capacity</text>
+  </g>
+  <text x="190" y="386" font-family="Arial, sans-serif" font-size="20" fill="#0f766e">Use mL or L when the question asks how much liquid fits.</text>
+</svg>

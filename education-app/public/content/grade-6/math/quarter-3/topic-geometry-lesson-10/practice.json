@@ -1,0 +1,78 @@
+{
+  "examId": "grade-6-math-q3-geometry-lesson-10-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 10 Practice: Circumference and Pi",
+  "description": "Practice approximating pi and using circumference formulas for circles.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which measurement goes all the way around a circle?",
+      "options": ["radius", "diameter", "circumference", "area"],
+      "correctAnswer": 2,
+      "explanation": "Circumference is the distance around a circle.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A circular lid has circumference 31.4 cm and diameter 10 cm. What is C divided by d? Enter the decimal.",
+      "correctAnswer": "3.14",
+      "explanation": "31.4 ÷ 10 = 3.14, which approximates pi.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "For any circle, the ratio circumference divided by diameter is approximately pi.",
+      "correctAnswer": "true",
+      "explanation": "Pi is the constant ratio C ÷ d for circles.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "Use pi = 3.14. What is the circumference of a circle with diameter 8 cm? Enter just the number.",
+      "correctAnswer": "25.12",
+      "explanation": "Use C = pi d. C = 3.14 × 8 = 25.12 cm.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A circle has radius 5 m. Which expression finds its circumference?",
+      "options": ["3.14 × 5", "2 × 3.14 × 5", "5 × 5", "2 + 3.14 + 5"],
+      "correctAnswer": 1,
+      "explanation": "When radius is given, use C = 2 pi r, so the expression is 2 × 3.14 × 5.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Use pi = 3.14. What is the circumference of a circle with radius 7 in.? Enter just the number.",
+      "correctAnswer": "43.96",
+      "explanation": "Use C = 2 pi r. C = 2 × 3.14 × 7 = 43.96 in.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "Explain how measuring a circle can help you approximate pi.",
+      "correctAnswer": "Measure the circumference around the circle and the diameter across the center, then divide circumference by diameter. The quotient should be close to 3.14.",
+      "explanation": "A complete answer should mention measuring C and d and computing C ÷ d.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A student uses C = 3.14 × 6 for a circle with radius 6 cm. What mistake did the student make?",
+      "correctAnswer": "The student treated the radius as the diameter. With radius 6 cm, the diameter is 12 cm, so the formula should be C = 2 × 3.14 × 6 or C = 3.14 × 12.",
+      "explanation": "Radius is half the diameter, so using C = pi d requires doubling the radius first.",
+      "points": 14
+    }
+  ]
+}

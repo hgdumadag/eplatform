@@ -1,0 +1,80 @@
+{
+  "examId": "grade-6-math-q3-geometry-lesson-1-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 1 Practice: Choosing Units",
+  "description": "Practice selecting suitable units for volume and capacity.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which unit is most suitable for the volume of a small cube?",
+      "options": ["cm³", "cm²", "mL", "kg"],
+      "correctAnswer": 0,
+      "explanation": "A small cube is a 3D solid, so cubic centimeters are suitable.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which unit is most suitable for the capacity of a water bottle?",
+      "options": ["cm²", "L", "m", "g"],
+      "correctAnswer": 1,
+      "explanation": "A water bottle holds liquid, so liters are a suitable capacity unit.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "cm² is a suitable unit for volume.",
+      "correctAnswer": "false",
+      "explanation": "cm² measures area. Volume uses cubic units such as cm³.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "The capacity of a medicine cup is usually measured in ______.",
+      "correctAnswer": "mL or milliliters",
+      "explanation": "A medicine cup holds a small amount of liquid, so milliliters are suitable.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which unit is most suitable for the volume of a classroom?",
+      "options": ["m³", "mL", "cm", "cm²"],
+      "correctAnswer": 0,
+      "explanation": "A classroom is a large 3D space, so cubic meters are suitable.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "Explain why liters are better than square centimeters for the capacity of a pitcher.",
+      "correctAnswer": "Liters are better because capacity measures how much liquid a container holds, while square centimeters measure flat area.",
+      "explanation": "The pitcher holds liquid, so it needs a capacity unit. cm² measures surface area, not liquid amount.",
+      "points": 14
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which object would most likely be measured in milliliters?",
+      "options": ["A spoonful of syrup", "A classroom", "A shipping box", "A football field"],
+      "correctAnswer": 0,
+      "explanation": "A spoonful of syrup is a small liquid amount, so milliliters fit best.",
+      "points": 12
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Choose a suitable unit for the volume of a shoebox and explain your choice.",
+      "correctAnswer": "cm³, because a shoebox is a small 3D space and volume uses cubic units.",
+      "explanation": "A shoebox is a solid 3D object, so a cubic unit such as cm³ is suitable.",
+      "points": 14
+    }
+  ]
+}

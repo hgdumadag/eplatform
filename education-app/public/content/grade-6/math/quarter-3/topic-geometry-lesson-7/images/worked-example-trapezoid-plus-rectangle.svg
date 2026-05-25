@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" role="img" aria-labelledby="title desc">
+  <title id="title">Rectangle plus trapezoid composite sign</title>
+  <desc id="desc">A sign made of a trapezoid above a rectangle, labeled with bases twelve and six meters and heights four and five meters.</desc>
+  <rect width="760" height="380" fill="#ffffff"/>
+  <polygon points="285,60 475,60 565,180 195,180" fill="#fef3c7" stroke="#b45309" stroke-width="4"/>
+  <rect x="195" y="180" width="370" height="120" fill="#dbeafe" stroke="#1d4ed8" stroke-width="4"/>
+  <line x1="195" y1="180" x2="565" y2="180" stroke="#7c2d12" stroke-width="4" stroke-dasharray="10 7"/>
+  <text x="380" y="50" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700">6 m</text>
+  <text x="380" y="171" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700">12 m</text>
+  <text x="585" y="125" font-family="Arial" font-size="20" font-weight="700">4 m</text>
+  <text x="585" y="245" font-family="Arial" font-size="20" font-weight="700">5 m</text>
+  <text x="380" y="345" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700">36 m² + 60 m² = 96 m²</text>
+</svg>
