@@ -1,0 +1,55 @@
+{
+  "id": "grade-6-math-q4-geometry-lesson-1",
+  "grade": 6,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "Geometry - Lesson 1",
+  "description": "Explore how cutting a circle into sectors and rearranging them helps estimate and explain the area formula.",
+  "learningObjectives": [
+    "Cut a circle into equal sectors and describe how rearranging them forms a nearly rectangular shape",
+    "Connect the rearranged sector model to the measurements half the circumference and radius",
+    "Explain why the area of a circle is estimated by A = pi r squared",
+    "Use radius and diameter correctly when reasoning about circle area",
+    "Describe how increasing the number of sectors improves the area estimate"
+  ],
+  "prerequisites": [
+    "Identify radius and diameter of a circle",
+    "Understand circumference as the distance around a circle",
+    "Find the area of a rectangle using length times width",
+    "Recognize pi as the ratio related to circle circumference"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "beginner",
+  "tags": [
+    "geometry",
+    "circle area",
+    "sectors",
+    "rearrangement",
+    "area formula",
+    "pi",
+    "radius",
+    "visual proof"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/circle-parts-radius-diameter.svg",
+      "images/sector-cutting-model.svg",
+      "images/rearranged-sectors-rectangle.svg",
+      "images/formula-build-up.svg",
+      "images/worked-example-radius-7.svg",
+      "images/error-analysis-diameter-radius.svg",
+      "images/more-sectors-better-estimate.svg"
+    ],
+    "interactives": [
+      "interactives/circle-area-exploration-lab.json"
+    ],
+    "miniapps": [
+      "miniapps/circle-area-exploration-lab.html"
+    ]
+  }
+}

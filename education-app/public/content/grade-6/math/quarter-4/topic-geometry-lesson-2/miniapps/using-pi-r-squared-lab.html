@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using A = pi r squared Lab</title>
+    <link rel="icon" href="data:," />
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #172033;
+        --muted: #5f6b7a;
+        --line: #d6dde8;
+        --panel: #ffffff;
+        --soft: #f5f8fc;
+        --blue: #2f6fed;
+        --green: #1a8f5a;
+        --red: #c03a2b;
+        --gold: #b7791f;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--ink);
+        background: var(--soft);
+      }
+
+      .app {
+        max-width: 1120px;
+        margin: 0 auto;
+        padding: 18px;
+      }
+
+      .topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        margin-bottom: 14px;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+      }
+
+      h1 {
+        margin-bottom: 4px;
+        font-size: clamp(1.35rem, 2.8vw, 2rem);
+      }
+
+      .subtle {
+        color: var(--muted);
+        margin-bottom: 0;
+      }
+
+      .score {
+        min-width: 116px;
+        text-align: center;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+        padding: 10px;
+        font-weight: 700;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: minmax(280px, 0.92fr) minmax(320px, 1.08fr);
+        gap: 14px;
+      }
+
+      .panel {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 14px;
+      }
+
+      .panel h2 {
+        font-size: 1rem;
+        margin-bottom: 10px;
+      }
+
+      .precheck {
+        display: grid;
+        gap: 8px;
+      }
+
+      .choice-row,
+      .check-row {
+        display: grid;
+        gap: 8px;
+      }
+
+      button {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fff;
+        color: var(--ink);
+        min-height: 40px;
+        padding: 8px 10px;
+        font: inherit;
+        cursor: pointer;
+      }
+
+      button:hover,
+      button:focus-visible {
+        border-color: var(--blue);
+        outline: none;
+      }
+
+      button.primary {
+        background: var(--blue);
+        color: #fff;
+        border-color: var(--blue);
+        font-weight: 700;
+      }
+
+      button.good {
+        background: #eaf7f0;
+        border-color: #a6dbc2;
+      }
+
+      button.bad {
+        background: #fff0ed;
+        border-color: #efb2a8;
+      }
+
+      .radius-control {
+        display: grid;
+        gap: 8px;
+        margin-top: 10px;
+      }
+
+      input[type="range"] {
+        width: 100%;
+      }
+
+      .workline {
+        display: grid;
+        gap: 8px;
+        padding: 12px;
+        background: #f9fbff;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+      }
+
+      .math {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        font-size: 1rem;
+      }
+
+      .canvas-wrap {
+        min-height: 318px;
+      }
+
+      svg {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .quiz {
+        display: grid;
+        gap: 10px;
+      }
+
+      .quiz-card {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 10px;
+        background: #fff;
+      }
+
+      .quiz-card p {
+        margin-bottom: 8px;
+        font-weight: 700;
+      }
+
+      .options {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 8px;
+      }
+
+      .feedback {
+        min-height: 24px;
+        margin-top: 8px;
+        color: var(--muted);
+      }
+
+      .checklist label {
+        display: flex;
+        align-items: flex-start;
+        gap: 8px;
+        margin: 8px 0;
+      }
+
+      .status {
+        font-weight: 700;
+      }
+
+      @media (max-width: 780px) {
+        .grid {
+          grid-template-columns: 1fr;
+        }
+
+        .topbar {
+          align-items: stretch;
+          flex-direction: column;
+        }
+
+        .score {
+          text-align: left;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="app">
+      <header class="topbar">
+        <div>
+          <h1>Using A = pi r squared Lab</h1>
+          <p class="subtle">Square the radius first. Then multiply by pi. Finish with square units.</p>
+        </div>
+        <div class="score" id="scoreBox">Progress: 0/5</div>
+      </header>
+
+      <section class="grid">
+        <div class="panel">
+          <h2>1. Pre-check</h2>
+          <div class="precheck">
+            <p>When r = 5, what is r squared?</p>
+            <div class="choice-row" id="precheckChoices">
+              <button data-pre="wrong">10</button>
+              <button data-pre="right">25</button>
+              <button data-pre="wrong">3.14</button>
+            </div>
+            <p class="feedback" id="precheckFeedback"></p>
+          </div>
+        </div>
+
+        <div class="panel canvas-wrap">
+          <h2>2. Circle model</h2>
+          <svg viewBox="0 0 620 340" role="img" aria-labelledby="circleTitle">
+            <title id="circleTitle">Circle with adjustable radius</title>
+            <rect x="0" y="0" width="620" height="340" fill="#f8fbff"></rect>
+            <circle id="circleShape" cx="310" cy="175" r="90" fill="#d9e8ff" stroke="#2f6fed" stroke-width="4"></circle>
+            <line id="radiusLine" x1="310" y1="175" x2="400" y2="175" stroke="#c03a2b" stroke-width="5" stroke-linecap="round"></line>
+            <circle cx="310" cy="175" r="5" fill="#172033"></circle>
+            <text id="radiusLabel" x="340" y="160" fill="#c03a2b" font-size="18" font-weight="700">r = 6</text>
+            <text x="28" y="44" fill="#172033" font-size="20" font-weight="700">Area covers the inside of the circle</text>
+            <text x="28" y="72" fill="#5f6b7a" font-size="16">Use A = 3.14 x r x r</text>
+          </svg>
+        </div>
+
+        <div class="panel">
+          <h2>3. Try before reveal</h2>
+          <label for="radiusRange">Radius: <strong id="radiusValue">6</strong> units</label>
+          <div class="radius-control">
+            <input id="radiusRange" type="range" min="2" max="12" value="6" />
+            <button class="primary" id="revealBtn" type="button">Reveal area steps</button>
+          </div>
+          <div class="workline" id="workline">
+            <span class="math">A = 3.14 x r^2</span>
+            <span>Move the slider, predict the answer, then reveal.</span>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h2>4. Guided checks</h2>
+          <div class="check-row">
+            <button id="checkSquare" type="button">Check: Did I square the radius?</button>
+            <button id="checkUnits" type="button">Check: Did I use square units?</button>
+          </div>
+          <p class="feedback" id="guidedFeedback"></p>
+        </div>
+
+        <div class="panel">
+          <h2>5. Mini-quiz</h2>
+          <div class="quiz" id="quiz"></div>
+        </div>
+
+        <div class="panel checklist">
+          <h2>Mastery checklist</h2>
+          <label><input type="checkbox" data-master /> I can identify the radius.</label>
+          <label><input type="checkbox" data-master /> I can square the radius before multiplying.</label>
+          <label><input type="checkbox" data-master /> I can write area with square units.</label>
+          <p class="status" id="masteryStatus">Check each item when ready.</p>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const state = {
+        precheck: false,
+        reveal: false,
+        squareCheck: false,
+        unitsCheck: false,
+        quizDone: false
+      };
+
+      const radiusRange = document.getElementById("radiusRange");
+      const radiusValue = document.getElementById("radiusValue");
+      const circleShape = document.getElementById("circleShape");
+      const radiusLine = document.getElementById("radiusLine");
+      const radiusLabel = document.getElementById("radiusLabel");
+      const workline = document.getElementById("workline");
+      const scoreBox = document.getElementById("scoreBox");
+
+      function areaFor(radius) {
+        return Math.round(3.14 * radius * radius * 100) / 100;
+      }
+
+      function updateScore() {
+        const total = Object.values(state).filter(Boolean).length;
+        scoreBox.textContent = `Progress: ${total}/5`;
+      }
+
+      function updateCircle() {
+        const radius = Number(radiusRange.value);
+        const svgRadius = radius * 14;
+        radiusValue.textContent = radius;
+        circleShape.setAttribute("r", svgRadius);
+        radiusLine.setAttribute("x2", 310 + svgRadius);
+        radiusLabel.setAttribute("x", 316 + svgRadius / 2);
+        radiusLabel.textContent = `r = ${radius}`;
+        state.reveal = false;
+        workline.innerHTML = '<span class="math">A = 3.14 x r^2</span><span>Move the slider, predict the answer, then reveal.</span>';
+        updateScore();
+      }
+
+      document.getElementById("precheckChoices").addEventListener("click", (event) => {
+        if (event.target.tagName !== "BUTTON") return;
+        const isRight = event.target.dataset.pre === "right";
+        event.target.classList.add(isRight ? "good" : "bad");
+        document.getElementById("precheckFeedback").textContent = isRight
+          ? "Correct. 5 squared means 5 x 5 = 25."
+          : "Try again. Squaring means multiply the radius by itself.";
+        state.precheck = isRight || state.precheck;
+        updateScore();
+      });
+
+      radiusRange.addEventListener("input", updateCircle);
+
+      document.getElementById("revealBtn").addEventListener("click", () => {
+        const r = Number(radiusRange.value);
+        const squared = r * r;
+        const area = areaFor(r);
+        workline.innerHTML = `
+          <span class="math">A = 3.14 x ${r}^2</span>
+          <span class="math">${r}^2 = ${squared}</span>
+          <span class="math">A = 3.14 x ${squared} = ${area} square units</span>
+        `;
+        state.reveal = true;
+        updateScore();
+      });
+
+      document.getElementById("checkSquare").addEventListener("click", () => {
+        state.squareCheck = true;
+        document.getElementById("guidedFeedback").textContent = "Good check: the radius-squared step must happen before multiplying by pi.";
+        updateScore();
+      });
+
+      document.getElementById("checkUnits").addEventListener("click", () => {
+        state.unitsCheck = true;
+        document.getElementById("guidedFeedback").textContent = "Good check: area answers use square units, such as cm^2 or m^2.";
+        updateScore();
+      });
+
+      const quizItems = [
+        {
+          q: "Radius 3 cm. What is the area using 3.14?",
+          options: ["9.42 cm", "18.84 cm^2", "28.26 cm^2", "36 cm^2"],
+          answer: 2
+        },
+        {
+          q: "True or false: A circle with radius 10 in has area 314 in^2 using 3.14.",
+          options: ["True", "False"],
+          answer: 0
+        }
+      ];
+
+      const quiz = document.getElementById("quiz");
+      quizItems.forEach((item, index) => {
+        const card = document.createElement("article");
+        card.className = "quiz-card";
+        card.innerHTML = `<p>${item.q}</p><div class="options"></div><div class="feedback"></div>`;
+        const options = card.querySelector(".options");
+        item.options.forEach((option, optionIndex) => {
+          const button = document.createElement("button");
+          button.type = "button";
+          button.textContent = option;
+          button.addEventListener("click", () => {
+            const correct = optionIndex === item.answer;
+            button.classList.add(correct ? "good" : "bad");
+            card.querySelector(".feedback").textContent = correct
+              ? "Correct."
+              : "Check the radius-squared step, then multiply by 3.14.";
+            const allCorrect = [...quiz.querySelectorAll(".quiz-card")].every((quizCard, quizIndex) =>
+              [...quizCard.querySelectorAll("button")].some((btn, btnIndex) => btn.classList.contains("good") && btnIndex === quizItems[quizIndex].answer)
+            );
+            state.quizDone = allCorrect;
+            updateScore();
+          });
+          options.appendChild(button);
+        });
+        quiz.appendChild(card);
+      });
+
+      document.querySelectorAll("[data-master]").forEach((box) => {
+        box.addEventListener("change", () => {
+          const checked = document.querySelectorAll("[data-master]:checked").length;
+          document.getElementById("masteryStatus").textContent =
+            checked === 3 ? "Ready for the assessment." : `${checked}/3 checklist items ready.`;
+        });
+      });
+
+      updateCircle();
+      updateScore();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+{
+  "id": "grade-6-math-q4-geometry-lesson-6-shaded-regions",
+  "grade": 6,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "Geometry - Lesson 6",
+  "description": "Find the area left after removing circular parts from rectangles, squares, and larger circles by showing clear subtraction steps.",
+  "learningObjectives": [
+    "Identify the whole region and the circular part or parts being removed",
+    "Find the area of rectangles, squares, circles, semicircles, and quarter circles",
+    "Use 3.14 or a given value of pi to estimate circle area",
+    "Subtract removed circular area from the whole area to find shaded area",
+    "Show subtraction steps clearly with correct square units",
+    "Check whether an answer is reasonable by comparing removed area with the whole"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "area",
+    "circles",
+    "shaded regions",
+    "subtraction",
+    "grade 6"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/visual-intro.svg",
+      "images/rectangle-circle-cutout.svg",
+      "images/square-four-quarter-circles.svg",
+      "images/semicircle-window.svg",
+      "images/ring-region.svg",
+      "images/error-analysis.svg"
+    ],
+    "interactives": [
+      "interactives/shaded-regions-lab.json"
+    ],
+    "miniapps": [
+      "miniapps/shaded-regions-lab.html"
+    ]
+  }
+}

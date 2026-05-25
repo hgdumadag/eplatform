@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Worked example for radius four</title>
+  <desc id="desc">A circle with radius four centimeters and area steps.</desc>
+  <rect width="720" height="360" fill="#f7fbff"/>
+  <circle cx="184" cy="178" r="94" fill="#dbeafe" stroke="#2563eb" stroke-width="6"/>
+  <line x1="184" y1="178" x2="278" y2="178" stroke="#dc2626" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="184" cy="178" r="5" fill="#172033"/>
+  <text x="204" y="166" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#dc2626">r = 4 cm</text>
+  <text x="340" y="84" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#172033">A = pi r squared</text>
+  <text x="340" y="132" font-family="Arial, sans-serif" font-size="24" fill="#334155">A = 3.14(4 squared)</text>
+  <text x="340" y="178" font-family="Arial, sans-serif" font-size="24" fill="#334155">4 squared = 16</text>
+  <text x="340" y="224" font-family="Arial, sans-serif" font-size="24" fill="#334155">A = 3.14 x 16</text>
+  <text x="340" y="274" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#2563eb">A = 50.24 cm^2</text>
+</svg>

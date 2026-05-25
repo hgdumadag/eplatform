@@ -1,0 +1,34 @@
+{
+  "id": "grade-6-circle-area-exploration-lab",
+  "version": "1.0",
+  "runtime": "sandbox-local",
+  "widget": "sandbox-host",
+  "title": "Circle Area Exploration Lab",
+  "prompt": "Cut a circle into sectors, rearrange the pieces, and explain how the area formula is formed.",
+  "props": {
+    "htmlPath": "../miniapps/circle-area-exploration-lab.html",
+    "height": 640
+  },
+  "checkpoints": [
+    {
+      "id": "pre-check-complete",
+      "label": "Pre-check attempted"
+    },
+    {
+      "id": "sector-count-adjusted",
+      "label": "Sector count adjusted"
+    },
+    {
+      "id": "formula-revealed",
+      "label": "Formula reasoning revealed"
+    },
+    {
+      "id": "mini-quiz-complete",
+      "label": "Mini-quiz completed"
+    }
+  ],
+  "fallback": {
+    "markdown": "Cut the circle into equal sectors and rearrange them point-up and point-down. The rearranged shape has height radius r and base about half the circumference, pi r. So the area is about (pi r)(r), which gives A = pi r^2.",
+    "image": "../images/rearranged-sectors-rectangle.svg"
+  }
+}

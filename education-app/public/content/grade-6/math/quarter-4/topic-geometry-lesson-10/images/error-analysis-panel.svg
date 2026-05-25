@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Error analysis panel</title>
+  <desc id="desc">Three common mistakes: using diameter as radius, counting shared edges, and rounding material down.</desc>
+  <rect width="720" height="420" fill="#fff7ed"/>
+  <text x="58" y="58" fill="#172033" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Check These Before Submitting</text>
+  <rect x="54" y="92" width="188" height="244" rx="8" fill="#ffffff" stroke="#fb923c" stroke-width="3"/>
+  <rect x="266" y="92" width="188" height="244" rx="8" fill="#ffffff" stroke="#fb923c" stroke-width="3"/>
+  <rect x="478" y="92" width="188" height="244" rx="8" fill="#ffffff" stroke="#fb923c" stroke-width="3"/>
+  <circle cx="148" cy="158" r="46" fill="#fee2e2" stroke="#dc2626" stroke-width="4"/>
+  <line x1="148" y1="158" x2="194" y2="158" stroke="#dc2626" stroke-width="4"/>
+  <text x="104" y="236" fill="#9a3412" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">diameter used</text>
+  <text x="112" y="262" fill="#9a3412" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">as radius</text>
+  <path d="M312 142h84a42 42 0 0 1 0 84h-84z" fill="#e0f2fe" stroke="#0284c7" stroke-width="4"/>
+  <line x1="396" y1="142" x2="396" y2="226" stroke="#dc2626" stroke-width="5" stroke-dasharray="8 7"/>
+  <text x="306" y="262" fill="#9a3412" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">shared edge</text>
+  <text x="314" y="288" fill="#9a3412" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">counted</text>
+  <text x="524" y="164" fill="#dc2626" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">4.2</text>
+  <path d="M536 184v52" stroke="#dc2626" stroke-width="5"/>
+  <path d="M516 220l20 20 20-20" fill="none" stroke="#dc2626" stroke-width="5"/>
+  <text x="510" y="262" fill="#9a3412" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">rounded down</text>
+  <text x="166" y="376" fill="#172033" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">Better move: radius first, outside edge only, round up materials.</text>
+</svg>

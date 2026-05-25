@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Worked radius example</title>
+  <desc id="desc">A semicircle with radius 4 centimeters and calculation steps for area.</desc>
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <path d="M80 245 A140 140 0 0 1 360 245 Z" fill="#fee2e2" stroke="#dc2626" stroke-width="5"/>
+  <line x1="80" y1="245" x2="360" y2="245" stroke="#7f1d1d" stroke-width="5"/>
+  <circle cx="220" cy="245" r="6" fill="#7f1d1d"/>
+  <line x1="220" y1="245" x2="360" y2="245" stroke="#2563eb" stroke-width="5"/>
+  <text x="290" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1e3a8a">r = 4 cm</text>
+  <rect x="420" y="70" width="245" height="210" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+  <text x="445" y="112" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">A = (1/2) pi r^2</text>
+  <text x="445" y="152" font-family="Arial, sans-serif" font-size="21" fill="#0f172a">A = (1/2)(3.14)(4^2)</text>
+  <text x="445" y="192" font-family="Arial, sans-serif" font-size="21" fill="#0f172a">A = (1/2)(3.14)(16)</text>
+  <text x="445" y="232" font-family="Arial, sans-serif" font-size="21" fill="#0f172a">A = 25.12 sq cm</text>
+  <text x="220" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#7f1d1d">Radius is already given</text>
+</svg>

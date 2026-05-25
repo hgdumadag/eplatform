@@ -1,0 +1,34 @@
+{
+  "id": "grade-6-math-q4-semicircle-area-lab",
+  "version": "1.0",
+  "runtime": "sandbox-local",
+  "widget": "sandbox-host",
+  "title": "Semicircle Area Lab",
+  "prompt": "Choose radius or diameter, predict the semicircle area, reveal the calculation, and complete the mini-quiz.",
+  "props": {
+    "htmlPath": "../miniapps/semicircle-area-lab.html",
+    "height": 680
+  },
+  "checkpoints": [
+    {
+      "id": "pre-check-complete",
+      "label": "Pre-check completed"
+    },
+    {
+      "id": "prediction-made",
+      "label": "Prediction entered before reveal"
+    },
+    {
+      "id": "guided-check-complete",
+      "label": "Guided check completed"
+    },
+    {
+      "id": "mini-quiz-complete",
+      "label": "Mini-quiz completed"
+    }
+  ],
+  "fallback": {
+    "markdown": "Use the formula A = (1/2)pi r^2. If a problem gives diameter, first divide by 2 to get the radius. Then square the radius, multiply by pi, and divide by 2.",
+    "image": "../images/formula-breakdown.svg"
+  }
+}

@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Circle Design Problems Lab</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #172033;
+        --muted: #586174;
+        --line: #d8dee9;
+        --panel: #ffffff;
+        --bg: #f6f8fb;
+        --blue: #1f6fb2;
+        --green: #217a52;
+        --red: #b83232;
+        --amber: #9a6700;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: Arial, sans-serif;
+      }
+
+      .shell {
+        display: grid;
+        gap: 14px;
+        max-width: 1120px;
+        margin: 0 auto;
+        padding: 16px;
+      }
+
+      .topbar,
+      .panel {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06);
+      }
+
+      .topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 14px;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+      }
+
+      h1 {
+        font-size: 22px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+
+      h3 {
+        font-size: 16px;
+      }
+
+      .status {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .badge {
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 6px 10px;
+        color: var(--muted);
+        font-size: 13px;
+        white-space: nowrap;
+      }
+
+      .badge.done {
+        border-color: #9bd7bd;
+        background: #e9f8f0;
+        color: var(--green);
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: minmax(280px, 365px) 1fr;
+        gap: 14px;
+      }
+
+      .panel {
+        padding: 14px;
+      }
+
+      .stack {
+        display: grid;
+        gap: 12px;
+      }
+
+      label {
+        display: grid;
+        gap: 6px;
+        color: var(--muted);
+        font-size: 13px;
+        font-weight: 700;
+      }
+
+      select,
+      input[type="number"] {
+        width: 100%;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        padding: 9px 10px;
+        color: var(--ink);
+        font-size: 15px;
+      }
+
+      button {
+        border: 1px solid #185f99;
+        border-radius: 6px;
+        background: var(--blue);
+        color: #ffffff;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 9px 12px;
+      }
+
+      button.secondary {
+        background: #ffffff;
+        color: var(--blue);
+      }
+
+      button:focus,
+      input:focus,
+      select:focus {
+        outline: 3px solid rgba(31, 111, 178, 0.22);
+        outline-offset: 1px;
+      }
+
+      .button-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .scenario-card {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 12px;
+        background: #fbfdff;
+      }
+
+      .muted {
+        color: var(--muted);
+        font-size: 14px;
+        line-height: 1.45;
+      }
+
+      .canvas-wrap {
+        min-height: 330px;
+        display: grid;
+        place-items: center;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #ffffff;
+      }
+
+      svg {
+        width: 100%;
+        max-width: 640px;
+        height: auto;
+      }
+
+      .steps {
+        display: grid;
+        gap: 8px;
+        margin-top: 12px;
+      }
+
+      .step {
+        border-left: 4px solid var(--blue);
+        background: #f1f7fd;
+        border-radius: 6px;
+        padding: 9px 10px;
+        font-size: 15px;
+        line-height: 1.4;
+      }
+
+      .feedback {
+        min-height: 22px;
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+      .feedback.good {
+        color: var(--green);
+      }
+
+      .feedback.warn {
+        color: var(--amber);
+      }
+
+      .feedback.bad {
+        color: var(--red);
+      }
+
+      .quiz-options {
+        display: grid;
+        gap: 8px;
+      }
+
+      .quiz-options label,
+      .checklist label {
+        display: flex;
+        align-items: flex-start;
+        gap: 8px;
+        color: var(--ink);
+        font-weight: 400;
+      }
+
+      .mini-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      @media (max-width: 840px) {
+        .grid,
+        .mini-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .topbar {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="shell">
+      <section class="topbar" aria-label="Lab progress">
+        <div>
+          <h1>Circle Design Problems Lab</h1>
+          <p class="muted">Label the model first, predict the area, reveal the reasoning, then check mastery.</p>
+        </div>
+        <div class="status">
+          <span id="badge-pre" class="badge">Pre-check</span>
+          <span id="badge-predict" class="badge">Prediction</span>
+          <span id="badge-guided" class="badge">Guided checks</span>
+          <span id="badge-quiz" class="badge">Mini-quiz</span>
+          <span id="badge-mastery" class="badge">Mastery</span>
+        </div>
+      </section>
+
+      <section class="grid">
+        <aside class="panel stack">
+          <h2>1. Pre-check</h2>
+          <label>
+            A circular label has diameter 12 cm. What is its radius?
+            <input id="pre-radius" type="number" inputmode="decimal" />
+          </label>
+          <div class="button-row">
+            <button id="check-pre" type="button">Check</button>
+          </div>
+          <p id="pre-feedback" class="feedback"></p>
+
+          <h2>2. Choose a design</h2>
+          <label>
+            Scenario
+            <select id="scenario-select"></select>
+          </label>
+          <div id="scenario-text" class="scenario-card muted"></div>
+
+          <h2>3. Try before reveal</h2>
+          <label>
+            Your predicted area
+            <input id="prediction" type="number" inputmode="decimal" step="0.01" />
+          </label>
+          <div class="button-row">
+            <button id="check-prediction" type="button">Check prediction</button>
+            <button id="reveal" class="secondary" type="button">Reveal model</button>
+          </div>
+          <p id="prediction-feedback" class="feedback"></p>
+        </aside>
+
+        <section class="panel">
+          <div class="canvas-wrap">
+            <svg id="diagram" viewBox="0 0 640 360" role="img" aria-labelledby="diagram-title">
+              <title id="diagram-title">Selected circle design diagram</title>
+              <rect width="640" height="360" fill="#fbfdff"></rect>
+              <g id="shape-layer"></g>
+              <g id="label-layer"></g>
+            </svg>
+          </div>
+          <div id="steps" class="steps" aria-live="polite"></div>
+        </section>
+      </section>
+
+      <section class="mini-grid">
+        <section class="panel stack">
+          <h2>Guided Checks</h2>
+          <label>
+            Enter the radius used in the formula.
+            <input id="radius-answer" type="number" inputmode="decimal" step="0.01" />
+          </label>
+          <label>
+            Enter the main circular area before any subtraction.
+            <input id="main-answer" type="number" inputmode="decimal" step="0.01" />
+          </label>
+          <label>
+            Enter the final design area.
+            <input id="final-answer" type="number" inputmode="decimal" step="0.01" />
+          </label>
+          <div class="button-row">
+            <button id="check-guided" type="button">Check guided answers</button>
+          </div>
+          <p id="guided-feedback" class="feedback"></p>
+        </section>
+
+        <section class="panel stack">
+          <h2>Mini-Quiz</h2>
+          <h3>What should a labeled diagram show before solving?</h3>
+          <div class="quiz-options">
+            <label><input name="quiz" type="radio" value="color" /> Only the color of the design.</label>
+            <label><input name="quiz" type="radio" value="radius" /> Radius or diameter, units, and the region being measured.</label>
+            <label><input name="quiz" type="radio" value="answer" /> Only the final answer.</label>
+          </div>
+          <div class="button-row">
+            <button id="check-quiz" type="button">Check mini-quiz</button>
+          </div>
+          <p id="quiz-feedback" class="feedback"></p>
+        </section>
+      </section>
+
+      <section class="panel stack">
+        <h2>Mastery Checklist</h2>
+        <div class="checklist">
+          <label><input class="mastery" type="checkbox" /> I labeled radius or converted diameter to radius.</label>
+          <label><input class="mastery" type="checkbox" /> I chose whole circle, semicircle, or ring area.</label>
+          <label><input class="mastery" type="checkbox" /> I matched the expression to the diagram.</label>
+          <label><input class="mastery" type="checkbox" /> I explained what the area means in the design.</label>
+          <label><input class="mastery" type="checkbox" /> I used square units in my answer.</label>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const scenarios = [
+        {
+          id: "garden",
+          name: "Circular garden bed",
+          text: "A circular flower garden has radius 4 m. Find the planting area. Use pi = 3.14.",
+          radius: 4,
+          main: 50.24,
+          final: 50.24,
+          steps: [
+            "Model: one whole circle labeled r = 4 m.",
+            "Area expression: A = 3.14 x 4^2.",
+            "Design area: 3.14 x 16 = 50.24 square meters."
+          ]
+        },
+        {
+          id: "label",
+          name: "Round product label",
+          text: "A round jar label has diameter 12 cm. Find the paper area for one label. Use pi = 3.14.",
+          radius: 6,
+          main: 113.04,
+          final: 113.04,
+          steps: [
+            "Model: one whole circle labeled diameter = 12 cm.",
+            "Convert: radius = 12 divided by 2 = 6 cm.",
+            "Design area: 3.14 x 6^2 = 113.04 square centimeters."
+          ]
+        },
+        {
+          id: "ring",
+          name: "Ring-shaped mat",
+          text: "A round mat has outer radius 8 in and inner radius 3 in. Find the mat area. Use pi = 3.14.",
+          radius: 8,
+          main: 200.96,
+          final: 172.7,
+          steps: [
+            "Model: a ring with outer r = 8 in and inner r = 3 in.",
+            "Outer area: 3.14 x 8^2 = 200.96. Inner area: 3.14 x 3^2 = 28.26.",
+            "Design area: 200.96 - 28.26 = 172.70 square inches."
+          ]
+        },
+        {
+          id: "semi",
+          name: "Semicircle entry mat",
+          text: "An entry mat is a semicircle with radius 5 dm. Find the floor area covered. Use pi = 3.14.",
+          radius: 5,
+          main: 78.5,
+          final: 39.25,
+          steps: [
+            "Model: a semicircle labeled r = 5 dm.",
+            "Whole circle area: 3.14 x 5^2 = 78.5.",
+            "Design area: half of 78.5 = 39.25 square decimeters."
+          ]
+        }
+      ];
+
+      const select = document.getElementById("scenario-select");
+      const scenarioText = document.getElementById("scenario-text");
+      const shapeLayer = document.getElementById("shape-layer");
+      const labelLayer = document.getElementById("label-layer");
+      const steps = document.getElementById("steps");
+
+      scenarios.forEach((scenario, index) => {
+        const option = document.createElement("option");
+        option.value = String(index);
+        option.textContent = scenario.name;
+        select.appendChild(option);
+      });
+
+      const near = (actual, expected) => Math.abs(Number(actual) - expected) <= 0.02;
+      const markDone = (id) => document.getElementById(id).classList.add("done");
+      const setFeedback = (id, text, kind) => {
+        const el = document.getElementById(id);
+        el.textContent = text;
+        el.className = "feedback " + kind;
+      };
+
+      function current() {
+        return scenarios[Number(select.value)];
+      }
+
+      function svgText(x, y, value, size = 18, color = "#172033") {
+        return `<text x="${x}" y="${y}" text-anchor="middle" font-family="Arial, sans-serif" font-size="${size}" font-weight="700" fill="${color}">${value}</text>`;
+      }
+
+      function renderDiagram() {
+        const item = current();
+        steps.innerHTML = "";
+        scenarioText.textContent = item.text;
+        if (item.id === "garden") {
+          shapeLayer.innerHTML = '<circle cx="320" cy="175" r="104" fill="#bbf7d0" stroke="#166534" stroke-width="4"/><circle cx="320" cy="175" r="6" fill="#166534"/><line x1="320" y1="175" x2="424" y2="175" stroke="#166534" stroke-width="4"/>';
+          labelLayer.innerHTML = svgText(372, 160, "r = 4 m", 18, "#14532d") + svgText(320, 315, "whole circle area", 20);
+        } else if (item.id === "label") {
+          shapeLayer.innerHTML = '<circle cx="320" cy="175" r="104" fill="#fde68a" stroke="#b45309" stroke-width="4"/><line x1="216" y1="175" x2="424" y2="175" stroke="#92400e" stroke-width="4"/><line x1="320" y1="175" x2="424" y2="175" stroke="#7c2d12" stroke-width="7"/><circle cx="320" cy="175" r="6" fill="#7c2d12"/>';
+          labelLayer.innerHTML = svgText(320, 150, "diameter = 12 cm", 18, "#7c2d12") + svgText(372, 205, "r = 6 cm", 18, "#7c2d12");
+        } else if (item.id === "ring") {
+          shapeLayer.innerHTML = '<circle cx="320" cy="178" r="116" fill="#c7d2fe" stroke="#3730a3" stroke-width="4"/><circle cx="320" cy="178" r="48" fill="#fff" stroke="#3730a3" stroke-width="4"/><line x1="320" y1="178" x2="436" y2="178" stroke="#312e81" stroke-width="4"/><line x1="320" y1="178" x2="368" y2="178" stroke="#fff" stroke-width="8"/><line x1="320" y1="178" x2="368" y2="178" stroke="#312e81" stroke-width="4"/>';
+          labelLayer.innerHTML = svgText(402, 160, "outer r = 8 in", 17, "#312e81") + svgText(350, 210, "inner r = 3 in", 17, "#312e81");
+        } else {
+          shapeLayer.innerHTML = '<path d="M198 226 A122 122 0 0 1 442 226 Z" fill="#86efac" stroke="#15803d" stroke-width="4"/><line x1="320" y1="226" x2="442" y2="226" stroke="#14532d" stroke-width="4"/><circle cx="320" cy="226" r="6" fill="#14532d"/>';
+          labelLayer.innerHTML = svgText(380, 209, "r = 5 dm", 18, "#14532d") + svgText(320, 286, "half circle area", 20);
+        }
+      }
+
+      function revealSteps() {
+        steps.innerHTML = current()
+          .steps.map((step) => `<div class="step">${step}</div>`)
+          .join("");
+      }
+
+      document.getElementById("check-pre").addEventListener("click", () => {
+        if (near(document.getElementById("pre-radius").value, 6)) {
+          setFeedback("pre-feedback", "Correct. Radius is half the diameter.", "good");
+          markDone("badge-pre");
+        } else {
+          setFeedback("pre-feedback", "Try again. Divide 12 by 2.", "warn");
+        }
+      });
+
+      document.getElementById("check-prediction").addEventListener("click", () => {
+        if (near(document.getElementById("prediction").value, current().final)) {
+          setFeedback("prediction-feedback", "Correct. Your area matches the model.", "good");
+          markDone("badge-predict");
+        } else {
+          setFeedback("prediction-feedback", "Use the labels in the diagram, then calculate the needed area.", "warn");
+        }
+      });
+
+      document.getElementById("reveal").addEventListener("click", () => {
+        revealSteps();
+        if (document.getElementById("prediction").value !== "") {
+          markDone("badge-predict");
+        }
+      });
+
+      document.getElementById("check-guided").addEventListener("click", () => {
+        const item = current();
+        const radiusOk = near(document.getElementById("radius-answer").value, item.radius);
+        const mainOk = near(document.getElementById("main-answer").value, item.main);
+        const finalOk = near(document.getElementById("final-answer").value, item.final);
+        if (radiusOk && mainOk && finalOk) {
+          setFeedback("guided-feedback", "All checks are correct. Your model and calculation agree.", "good");
+          markDone("badge-guided");
+        } else {
+          setFeedback("guided-feedback", "Check the label first, then the formula. For rings and semicircles, the final area changes after the main circle area.", "bad");
+        }
+      });
+
+      document.getElementById("check-quiz").addEventListener("click", () => {
+        const selected = document.querySelector('input[name="quiz"]:checked');
+        if (selected && selected.value === "radius") {
+          setFeedback("quiz-feedback", "Correct. A useful model labels measurements and the region being measured.", "good");
+          markDone("badge-quiz");
+        } else {
+          setFeedback("quiz-feedback", "Try again. The model should show the information needed for the formula.", "warn");
+        }
+      });
+
+      document.querySelectorAll(".mastery").forEach((box) => {
+        box.addEventListener("change", () => {
+          const boxes = Array.from(document.querySelectorAll(".mastery"));
+          if (boxes.every((item) => item.checked)) {
+            markDone("badge-mastery");
+          }
+        });
+      });
+
+      select.addEventListener("change", () => {
+        ["prediction", "radius-answer", "main-answer", "final-answer"].forEach((id) => {
+          document.getElementById(id).value = "";
+        });
+        ["prediction-feedback", "guided-feedback"].forEach((id) => setFeedback(id, "", ""));
+        renderDiagram();
+      });
+
+      renderDiagram();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="320" viewBox="0 0 640 320" role="img" aria-labelledby="title desc">
+  <title id="title">Round label with diameter and radius</title>
+  <desc id="desc">A circular label model with diameter 12 centimeters and radius 6 centimeters labeled.</desc>
+  <rect width="640" height="320" fill="#fffbeb"/>
+  <text x="320" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1f2937">Round Product Label</text>
+  <circle cx="320" cy="165" r="92" fill="#fde68a" stroke="#b45309" stroke-width="4"/>
+  <line x1="228" y1="165" x2="412" y2="165" stroke="#92400e" stroke-width="4"/>
+  <line x1="320" y1="165" x2="412" y2="165" stroke="#7c2d12" stroke-width="7"/>
+  <circle cx="320" cy="165" r="6" fill="#7c2d12"/>
+  <text x="320" y="146" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#7c2d12">diameter = 12 cm</text>
+  <text x="365" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#7c2d12">r = 6 cm</text>
+  <text x="320" y="288" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#374151">Use radius in the formula: A = 3.14(6²)</text>
+</svg>

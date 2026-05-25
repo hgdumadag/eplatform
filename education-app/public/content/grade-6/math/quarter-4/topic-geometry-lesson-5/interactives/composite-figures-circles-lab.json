@@ -1,0 +1,30 @@
+{
+  "id": "grade-6-math-q4-composite-figures-circles-lab",
+  "version": "1.0",
+  "runtime": "sandbox-local",
+  "widget": "sandbox-host",
+  "title": "Composite Figures with Circles Lab",
+  "prompt": "Separate each figure into known parts, estimate before revealing, and check the total area.",
+  "props": {
+    "htmlPath": "../miniapps/composite-figures-circles-lab.html",
+    "height": 680
+  },
+  "checkpoints": [
+    {
+      "id": "pre-check-completed",
+      "label": "Completed the decomposition pre-check"
+    },
+    {
+      "id": "try-before-reveal",
+      "label": "Tried an area total before revealing"
+    },
+    {
+      "id": "mini-quiz-completed",
+      "label": "Completed the mini-quiz"
+    }
+  ],
+  "fallback": {
+    "markdown": "Use the lab to identify rectangles, triangles, circles, and semicircles inside composite figures. For each figure, name the parts first, find each area separately, and add the non-overlapping areas.",
+    "image": "../images/composite-parts-overview.svg"
+  }
+}

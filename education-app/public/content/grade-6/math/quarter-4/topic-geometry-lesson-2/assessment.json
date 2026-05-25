@@ -1,0 +1,97 @@
+{
+  "id": "grade-6-math-q4-geometry-lesson-2-assessment",
+  "examId": "grade-6-math-q4-geometry-lesson-2-assessment",
+  "examType": "assessment",
+  "title": "Assessment: Circle Area from Radius",
+  "description": "Demonstrate mastery of direct area problems using A = pi r squared.",
+  "totalPoints": 100,
+  "totalQuestions": 10,
+  "timeLimit": 30,
+  "passingScore": 75,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A circle has radius 4 cm. What is its area using $\\pi \\approx 3.14$?",
+      "options": ["12.56 cm^2", "25.12 cm^2", "50.24 cm^2", "100.48 cm^2"],
+      "correctAnswer": 2,
+      "explanation": "$A=3.14(4^2)=3.14(16)=50.24\\text{ cm}^2$."
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which expression shows the exact area of a circle with radius 8 m?",
+      "options": ["$8\\pi$ m^2", "$16\\pi$ m^2", "$64\\pi$ m^2", "$256\\pi$ m^2"],
+      "correctAnswer": 2,
+      "explanation": "$r^2=8^2=64$, so the exact area is $64\\pi\\text{ m}^2$."
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "points": 10,
+      "question": "A circle has radius 1.5 ft. Find its area using $3.14$ for $\\pi$. Include square units.",
+      "correctAnswer": "7.065 ft^2 or 7.065 square feet",
+      "explanation": "$A=3.14(1.5^2)=3.14(2.25)=7.065\\text{ ft}^2$."
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "points": 10,
+      "question": "The formula $A=\\pi r^2$ means multiply $\\pi$ by the radius squared.",
+      "correctAnswer": "true",
+      "explanation": "The exponent is on the radius, so the formula means $\\pi \\times r \\times r$."
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A circular sticker has radius 6 mm. What is its area using $\\pi \\approx 3.14$?",
+      "options": ["18.84 mm^2", "37.68 mm^2", "113.04 mm^2", "226.08 mm^2"],
+      "correctAnswer": 2,
+      "explanation": "$A=3.14(6^2)=3.14(36)=113.04\\text{ mm}^2$."
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "points": 10,
+      "question": "A circle has radius 12 cm. Find its area using $3.14$ for $\\pi$. Include square units.",
+      "correctAnswer": "452.16 cm^2 or 452.16 square centimeters",
+      "explanation": "$A=3.14(12^2)=3.14(144)=452.16\\text{ cm}^2$."
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "points": 10,
+      "question": "If the radius is 9 m, the exact area is $18\\pi$ m^2.",
+      "correctAnswer": "false",
+      "explanation": "The exact area is $\\pi(9^2)=81\\pi\\text{ m}^2$, not $18\\pi\\text{ m}^2$."
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A circle has radius 11 in. Which answer has the correct value and units using $3.14$?",
+      "options": ["34.54 in", "69.08 in^2", "121 in^2", "379.94 in^2"],
+      "correctAnswer": 3,
+      "explanation": "$A=3.14(11^2)=3.14(121)=379.94\\text{ in}^2$."
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "points": 10,
+      "question": "What is $r^2$ when the radius is 13 units?",
+      "correctAnswer": "169",
+      "explanation": "$13^2=13\\times13=169$."
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "points": 10,
+      "question": "A circle has radius 5 yards. Show the setup and final approximate area using $3.14$ for $\\pi$.",
+      "correctAnswer": "A = 3.14(5^2) = 3.14(25) = 78.5 yd^2.",
+      "explanation": "A complete answer shows the radius-squared step and square yards for the unit."
+    }
+  ]
+}

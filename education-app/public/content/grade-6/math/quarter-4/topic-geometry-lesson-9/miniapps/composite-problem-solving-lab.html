@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Composite Problem Solving Lab</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #111827;
+      --muted: #4b5563;
+      --line: #d1d5db;
+      --panel: #ffffff;
+      --soft: #f8fafc;
+      --blue: #2563eb;
+      --green: #059669;
+      --orange: #d97706;
+      --red: #dc2626;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--soft);
+      color: var(--ink);
+    }
+    main {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 18px;
+    }
+    h1 {
+      margin: 0 0 6px;
+      font-size: clamp(1.55rem, 2vw, 2.2rem);
+      letter-spacing: 0;
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.18rem;
+      letter-spacing: 0;
+    }
+    p { line-height: 1.45; }
+    .subhead {
+      margin: 0 0 16px;
+      color: var(--muted);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+    }
+    .wide { grid-column: 1 / -1; }
+    .problem {
+      display: grid;
+      grid-template-columns: minmax(240px, 360px) 1fr;
+      gap: 16px;
+      align-items: center;
+    }
+    .diagram {
+      width: 100%;
+      min-height: 220px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fffdfa;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+    }
+    svg { max-width: 100%; height: auto; }
+    .choices {
+      display: grid;
+      gap: 8px;
+      margin-top: 8px;
+    }
+    label.choice {
+      display: flex;
+      gap: 8px;
+      align-items: flex-start;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 9px;
+      cursor: pointer;
+      background: #ffffff;
+    }
+    input[type="radio"], input[type="checkbox"] {
+      margin-top: 2px;
+      accent-color: var(--blue);
+    }
+    input[type="number"], textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 9px;
+      font: inherit;
+      background: #ffffff;
+    }
+    textarea {
+      min-height: 74px;
+      resize: vertical;
+    }
+    .row {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      margin: 10px 0;
+    }
+    button {
+      border: 0;
+      border-radius: 8px;
+      padding: 10px 12px;
+      font: inherit;
+      font-weight: 700;
+      color: #ffffff;
+      background: var(--blue);
+      cursor: pointer;
+    }
+    button.secondary { background: #475569; }
+    button.success { background: var(--green); }
+    .feedback {
+      min-height: 24px;
+      margin-top: 8px;
+      font-weight: 700;
+    }
+    .ok { color: var(--green); }
+    .no { color: var(--red); }
+    .note {
+      border-left: 4px solid var(--orange);
+      background: #fffbeb;
+      padding: 10px 12px;
+      border-radius: 6px;
+      color: #78350f;
+    }
+    .reveal {
+      display: none;
+      margin-top: 10px;
+      padding: 12px;
+      border-radius: 8px;
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+    }
+    .status {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+    }
+    .pill {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 6px 10px;
+      color: var(--muted);
+      background: #ffffff;
+      font-size: 0.92rem;
+    }
+    .pill.done {
+      border-color: #86efac;
+      background: #dcfce7;
+      color: #14532d;
+      font-weight: 700;
+    }
+    @media (max-width: 760px) {
+      .grid, .problem, .row { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Composite Problem Solving Lab</h1>
+    <p class="subhead">Choose formulas first. Then compute and justify why each formula fits the story.</p>
+
+    <section class="grid">
+      <div class="panel">
+        <h2>1. Pre-Check</h2>
+        <p>Which measurement matches each clue?</p>
+        <div class="choices" id="precheck">
+          <label class="choice"><input type="radio" name="pre1" value="area"> Paint covering a circular floor means area.</label>
+          <label class="choice"><input type="radio" name="pre1" value="circ"> Paint covering a circular floor means circumference.</label>
+          <label class="choice"><input type="radio" name="pre2" value="area"> Ribbon around a round table means area.</label>
+          <label class="choice"><input type="radio" name="pre2" value="circ"> Ribbon around a round table means circumference.</label>
+        </div>
+        <button type="button" onclick="checkPre()">Check Pre-Check</button>
+        <div id="preFeedback" class="feedback" aria-live="polite"></div>
+      </div>
+
+      <div class="panel">
+        <h2>2. Guided Formula Checks</h2>
+        <p>Select every statement that is a good formula reason.</p>
+        <div class="choices" id="guided">
+          <label class="choice"><input type="checkbox" value="good"> Use $A=\pi r^2$ because the question asks for circular space covered.</label>
+          <label class="choice"><input type="checkbox" value="bad"> Use $C=\pi d$ because the question asks for square meters of grass.</label>
+          <label class="choice"><input type="checkbox" value="good"> Use half circumference because only the curved edge of a semicircle is needed.</label>
+          <label class="choice"><input type="checkbox" value="bad"> Count a shared diameter as outside border every time.</label>
+        </div>
+        <button type="button" onclick="checkGuided()">Check Reasons</button>
+        <div id="guidedFeedback" class="feedback" aria-live="polite"></div>
+      </div>
+
+      <div class="panel wide">
+        <h2>3. Try Before Reveal</h2>
+        <div class="problem">
+          <div class="diagram" aria-label="Rectangle with semicircle">
+            <svg viewBox="0 0 360 230" role="img" aria-label="Playground diagram">
+              <rect x="80" y="70" width="170" height="110" fill="#dcfce7" stroke="#15803d" stroke-width="4"/>
+              <path d="M250 70 A55 55 0 0 1 250 180 Z" fill="#fed7aa" stroke="#c2410c" stroke-width="4"/>
+              <line x1="250" y1="70" x2="250" y2="180" stroke="#334155" stroke-width="3" stroke-dasharray="6 6"/>
+              <text x="165" y="60" text-anchor="middle" font-size="18" font-weight="700" fill="#14532d">18 m</text>
+              <text x="58" y="128" text-anchor="middle" font-size="18" font-weight="700" fill="#14532d" transform="rotate(-90 58 128)">11 m</text>
+              <text x="294" y="128" text-anchor="middle" font-size="18" font-weight="700" fill="#7c2d12">d = 11 m</text>
+            </svg>
+          </div>
+          <div>
+            <p>A playground is an 18 m by 11 m rectangle with a semicircle attached to one 11 m side.</p>
+            <p>Find the total area. Then find the outside border length.</p>
+            <div class="row">
+              <label>Total area in m²<input id="areaAnswer" type="number" step="0.01" placeholder="Try first"></label>
+              <label>Border length in m<input id="borderAnswer" type="number" step="0.01" placeholder="Try first"></label>
+            </div>
+            <textarea id="justifyAnswer" placeholder="Write one formula justification sentence."></textarea>
+            <button type="button" class="success" onclick="checkTry()">Check My Try</button>
+            <button type="button" class="secondary" onclick="toggleReveal()">Reveal Steps</button>
+            <div id="tryFeedback" class="feedback" aria-live="polite"></div>
+            <div id="reveal" class="reveal">
+              <strong>Reveal:</strong>
+              Rectangle area is 18 x 11 = 198. Semicircle radius is 5.5, so area is 1/2 x 3.14 x 5.5² = 47.49. Total area is 245.49 m².
+              Border length is 18 + 18 + 11 + half circumference. Half circumference is 1/2 x 3.14 x 11 = 17.27. Total border is 64.27 m.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>4. Mini-Quiz</h2>
+        <p>A circular fountain has diameter 8 m. What formula finds the tile area?</p>
+        <div class="choices" id="quiz">
+          <label class="choice"><input type="radio" name="quiz1" value="a"> $C=\pi d$</label>
+          <label class="choice"><input type="radio" name="quiz1" value="b"> $A=\pi r^2$</label>
+          <label class="choice"><input type="radio" name="quiz1" value="c"> $A=l\times w$</label>
+        </div>
+        <button type="button" onclick="checkQuiz()">Submit Mini-Quiz</button>
+        <div id="quizFeedback" class="feedback" aria-live="polite"></div>
+      </div>
+
+      <div class="panel">
+        <h2>5. Mastery Checklist</h2>
+        <p>Check each item when you can do it without help.</p>
+        <label class="choice"><input type="checkbox" class="mastery"> I can tell area clues from circumference clues.</label>
+        <label class="choice"><input type="checkbox" class="mastery"> I can convert diameter to radius when area needs it.</label>
+        <label class="choice"><input type="checkbox" class="mastery"> I can avoid counting shared sides as borders.</label>
+        <label class="choice"><input type="checkbox" class="mastery"> I can justify each formula in words.</label>
+        <button type="button" onclick="checkMastery()">Review Checklist</button>
+        <div id="masteryFeedback" class="feedback" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <div class="status" aria-label="Lab progress">
+      <span id="s-pre" class="pill">Pre-check</span>
+      <span id="s-try" class="pill">Try before reveal</span>
+      <span id="s-guided" class="pill">Guided checks</span>
+      <span id="s-quiz" class="pill">Mini-quiz</span>
+      <span id="s-mastery" class="pill">Mastery checklist</span>
+    </div>
+  </main>
+
+  <script>
+    function selected(name) {
+      const item = document.querySelector('input[name="' + name + '"]:checked');
+      return item ? item.value : '';
+    }
+    function mark(id) {
+      document.getElementById(id).classList.add('done');
+    }
+    function checkPre() {
+      const ok = selected('pre1') === 'area' && selected('pre2') === 'circ';
+      const box = document.getElementById('preFeedback');
+      box.textContent = ok ? 'Correct. Covering is area; around is circumference.' : 'Try again. Ask whether the clue means inside space or distance around.';
+      box.className = 'feedback ' + (ok ? 'ok' : 'no');
+      if (ok) mark('s-pre');
+    }
+    function checkGuided() {
+      const checks = Array.from(document.querySelectorAll('#guided input'));
+      const ok = checks.every(input => (input.value === 'good') === input.checked);
+      const box = document.getElementById('guidedFeedback');
+      box.textContent = ok ? 'Good reasons. Each formula matches the measurement being asked for.' : 'Review the choices. Good reasons connect the formula to area, circumference, or outside border.';
+      box.className = 'feedback ' + (ok ? 'ok' : 'no');
+      if (ok) mark('s-guided');
+    }
+    function closeEnough(value, target) {
+      return Math.abs(Number(value) - target) <= 0.05;
+    }
+    function checkTry() {
+      const area = document.getElementById('areaAnswer').value;
+      const border = document.getElementById('borderAnswer').value;
+      const just = document.getElementById('justifyAnswer').value.toLowerCase();
+      const hasReason = just.includes('area') && (just.includes('border') || just.includes('circumference') || just.includes('around'));
+      const ok = closeEnough(area, 245.49) && closeEnough(border, 64.27) && hasReason;
+      const box = document.getElementById('tryFeedback');
+      box.textContent = ok ? 'Strong work. Your numbers and justification match the problem.' : 'Check radius 5.5, half circumference for the curve, and a justification sentence.';
+      box.className = 'feedback ' + (ok ? 'ok' : 'no');
+      if (area || border || just) mark('s-try');
+    }
+    function toggleReveal() {
+      const reveal = document.getElementById('reveal');
+      reveal.style.display = reveal.style.display === 'block' ? 'none' : 'block';
+    }
+    function checkQuiz() {
+      const ok = selected('quiz1') === 'b';
+      const box = document.getElementById('quizFeedback');
+      box.textContent = ok ? 'Correct. Tile area covers inside space, so use circle area.' : 'Not yet. Tile area is about covering the inside of the fountain shape.';
+      box.className = 'feedback ' + (ok ? 'ok' : 'no');
+      if (ok) mark('s-quiz');
+    }
+    function checkMastery() {
+      const items = Array.from(document.querySelectorAll('.mastery'));
+      const count = items.filter(item => item.checked).length;
+      const box = document.getElementById('masteryFeedback');
+      box.textContent = count === items.length ? 'Ready for assessment: you checked every mastery target.' : 'You checked ' + count + ' of ' + items.length + '. Revisit any unchecked skill before the assessment.';
+      box.className = 'feedback ' + (count === items.length ? 'ok' : 'no');
+      if (count > 0) mark('s-mastery');
+    }
+  </script>
+</body>
+</html>

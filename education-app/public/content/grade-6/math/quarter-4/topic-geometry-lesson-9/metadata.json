@@ -1,0 +1,47 @@
+{
+  "id": "grade-6-math-q4-geometry-lesson-9",
+  "grade": 6,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "Geometry - Lesson 9",
+  "description": "Solve multi-step geometry problems by choosing and justifying area and circumference formulas for composite situations.",
+  "learningObjectives": [
+    "Identify when a problem asks for area, circumference, or both",
+    "Choose the correct formula for rectangles, triangles, circles, semicircles, and circular paths",
+    "Solve multi-step area and circumference problems using organized work",
+    "Justify each selected formula using the meaning of the measurement",
+    "Check answers for reasonable units and common radius-diameter errors"
+  ],
+  "estimatedDuration": 65,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "composite figures",
+    "area",
+    "circumference",
+    "problem solving",
+    "grade 6"
+  ],
+  "prerequisites": [
+    "Area of rectangles and triangles",
+    "Area of circles and semicircles",
+    "Circumference of circles",
+    "Radius and diameter relationship",
+    "Solving multi-step word problems"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/composite-plan-board.svg",
+      "images/formula-decision-map.svg",
+      "images/garden-path-problem.svg",
+      "images/track-fence-problem.svg",
+      "images/error-analysis-board.svg",
+      "images/mastery-checklist-flow.svg"
+    ]
+  }
+}

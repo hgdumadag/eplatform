@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Circle review visual intro</title>
+  <desc id="desc">A circle showing distance around and space inside as two different measurements.</desc>
+  <rect width="720" height="360" fill="#f7fafc"/>
+  <circle cx="230" cy="180" r="104" fill="#e3f2fd" stroke="#1f6fb2" stroke-width="8"/>
+  <circle cx="230" cy="180" r="5" fill="#1f6fb2"/>
+  <line x1="230" y1="180" x2="334" y2="180" stroke="#b83232" stroke-width="5"/>
+  <path d="M126 180a104 104 0 0 1 208 0" fill="none" stroke="#217a52" stroke-width="8" stroke-linecap="round"/>
+  <text x="230" y="314" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#172033">Circle Problems</text>
+  <rect x="430" y="92" width="214" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="537" y="119" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#217a52">around or border</text>
+  <text x="537" y="143" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#172033">Circumference</text>
+  <rect x="430" y="200" width="214" height="64" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="537" y="227" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#b83232">inside or cover</text>
+  <text x="537" y="251" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#172033">Area</text>
+</svg>

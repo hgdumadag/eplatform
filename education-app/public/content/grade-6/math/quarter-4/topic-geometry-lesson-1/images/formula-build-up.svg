@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">Formula build-up for circle area</title>
+  <desc id="desc">A flow diagram from circumference to half circumference to rectangle area to pi r squared.</desc>
+  <rect width="760" height="360" fill="#f7fafc"/>
+  <g font-family="Arial" font-size="21" fill="#24313f">
+    <rect x="42" y="78" width="170" height="88" rx="8" fill="#e6fffb" stroke="#087f8c" stroke-width="3"/>
+    <text x="127" y="115" text-anchor="middle" font-weight="700">Circumference</text>
+    <text x="127" y="145" text-anchor="middle">C = 2πr</text>
+    <path d="M222 122 H292" stroke="#667085" stroke-width="4" marker-end="url(#arrow)"/>
+    <rect x="306" y="78" width="180" height="88" rx="8" fill="#fff8e6" stroke="#b7791f" stroke-width="3"/>
+    <text x="396" y="115" text-anchor="middle" font-weight="700">Half of C</text>
+    <text x="396" y="145" text-anchor="middle">base ≈ πr</text>
+    <path d="M496 122 H566" stroke="#667085" stroke-width="4" marker-end="url(#arrow)"/>
+    <rect x="580" y="78" width="138" height="88" rx="8" fill="#ffecef" stroke="#c2415b" stroke-width="3"/>
+    <text x="649" y="115" text-anchor="middle" font-weight="700">Height</text>
+    <text x="649" y="145" text-anchor="middle">r</text>
+    <rect x="210" y="222" width="340" height="88" rx="8" fill="#ffffff" stroke="#24313f" stroke-width="3"/>
+    <text x="380" y="258" text-anchor="middle" font-weight="700">Area = base × height</text>
+    <text x="380" y="290" text-anchor="middle">(πr)(r) = πr²</text>
+  </g>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#667085"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="260" viewBox="0 0 720 260" role="img" aria-labelledby="title desc">
+  <title id="title">Circle design problem examples</title>
+  <desc id="desc">A garden bed, round label, and ring mat shown as labeled circle area models.</desc>
+  <rect width="720" height="260" fill="#f7fafc"/>
+  <text x="360" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1f2937">Model the design before calculating</text>
+  <g transform="translate(45 68)">
+    <rect x="0" y="0" width="170" height="150" rx="8" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+    <circle cx="85" cy="70" r="46" fill="#81c784" stroke="#1b5e20" stroke-width="3"/>
+    <line x1="85" y1="70" x2="131" y2="70" stroke="#1b5e20" stroke-width="3"/>
+    <circle cx="85" cy="70" r="4" fill="#1b5e20"/>
+    <text x="108" y="61" font-family="Arial, sans-serif" font-size="15" fill="#1b5e20">r</text>
+    <text x="85" y="132" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2937">Garden</text>
+  </g>
+  <g transform="translate(275 68)">
+    <rect x="0" y="0" width="170" height="150" rx="8" fill="#fff7ed" stroke="#c2410c" stroke-width="2"/>
+    <circle cx="85" cy="70" r="46" fill="#fed7aa" stroke="#9a3412" stroke-width="3"/>
+    <line x1="39" y1="70" x2="131" y2="70" stroke="#9a3412" stroke-width="3"/>
+    <text x="85" y="61" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#7c2d12">diameter</text>
+    <text x="85" y="132" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2937">Label</text>
+  </g>
+  <g transform="translate(505 68)">
+    <rect x="0" y="0" width="170" height="150" rx="8" fill="#eef2ff" stroke="#4338ca" stroke-width="2"/>
+    <circle cx="85" cy="70" r="50" fill="#a5b4fc" stroke="#3730a3" stroke-width="3"/>
+    <circle cx="85" cy="70" r="22" fill="#f7fafc" stroke="#3730a3" stroke-width="3"/>
+    <line x1="85" y1="70" x2="135" y2="70" stroke="#312e81" stroke-width="3"/>
+    <line x1="85" y1="70" x2="107" y2="70" stroke="#f7fafc" stroke-width="7"/>
+    <line x1="85" y1="70" x2="107" y2="70" stroke="#312e81" stroke-width="3"/>
+    <text x="112" y="59" font-family="Arial, sans-serif" font-size="14" fill="#312e81">R</text>
+    <text x="93" y="93" font-family="Arial, sans-serif" font-size="14" fill="#312e81">r</text>
+    <text x="85" y="132" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2937">Mat</text>
+  </g>
+</svg>

@@ -1,0 +1,94 @@
+{
+  "examId": "grade-6-math-q4-geometry-lesson-3-practice",
+  "examType": "practice",
+  "title": "Diameter to Area Practice Exam",
+  "description": "Practice finding radius from diameter before calculating the area of a circle.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A circle has a diameter of 10 cm. What radius should be used in the area formula?",
+      "options": [
+        "5 cm",
+        "10 cm",
+        "20 cm",
+        "100 cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Radius is half of diameter, so r = 10 / 2 = 5 cm.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "true-false",
+      "question": "If a problem gives the diameter, you should divide it by 2 before using A = pi r^2.",
+      "correctAnswer": "true",
+      "explanation": "The area formula uses radius. A diameter must be divided by 2 to find the radius.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "A circular sticker has diameter 8 cm. What is its radius? Enter just the number.",
+      "correctAnswer": "4",
+      "explanation": "Radius is half of diameter: 8 / 2 = 4.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A circle has diameter 6 m. Using pi = 3.14, what is its area?",
+      "options": [
+        "28.26 square meters",
+        "113.04 square meters",
+        "18.84 square meters",
+        "9.42 square meters"
+      ],
+      "correctAnswer": 0,
+      "explanation": "First find the radius: r = 6 / 2 = 3. Then A = 3.14(3^2) = 3.14(9) = 28.26 square meters.",
+      "points": 13
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "A round plate has diameter 12 inches. Using pi = 3.14, what is its area? Enter just the number.",
+      "correctAnswer": "113.04",
+      "explanation": "The radius is 12 / 2 = 6. Then A = 3.14(6^2) = 3.14(36) = 113.04.",
+      "points": 13
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "A student says a circle with diameter 14 cm has area 3.14(14^2). Explain the mistake in one sentence.",
+      "correctAnswer": "The student used the diameter as the radius; the radius should be 14 / 2 = 7 before using A = pi r^2.",
+      "explanation": "The formula A = pi r^2 requires radius, so the diameter 14 cm must first be divided by 2 to get r = 7 cm.",
+      "points": 13
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which expression correctly finds the area of a circle with diameter 18 inches using pi = 3.14?",
+      "options": [
+        "3.14(9^2)",
+        "3.14(18^2)",
+        "18(3.14^2)",
+        "3.14(36^2)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The radius is 18 / 2 = 9, so the correct expression is 3.14(9^2).",
+      "points": 12
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "A circular window has diameter 20 cm. Using pi = 3.14, what is its area? Enter just the number.",
+      "correctAnswer": "314",
+      "explanation": "The radius is 20 / 2 = 10. Then A = 3.14(10^2) = 3.14(100) = 314.",
+      "points": 13
+    }
+  ]
+}

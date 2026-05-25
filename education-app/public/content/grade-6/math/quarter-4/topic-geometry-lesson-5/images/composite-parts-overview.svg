@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Composite figure split into rectangle, triangle, circle, and semicircle parts</title>
+  <desc id="desc">A visual overview showing four basic shapes used to decompose composite figures.</desc>
+  <rect width="720" height="420" fill="#f7fafc"/>
+  <text x="40" y="48" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#1f2937">Break a composite figure into known parts</text>
+  <text x="40" y="82" font-family="Arial, sans-serif" font-size="16" fill="#4b5563">Area of whole figure = area of part 1 + area of part 2 + ...</text>
+  <rect x="56" y="130" width="160" height="100" rx="4" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="3"/>
+  <text x="82" y="258" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1d4ed8">Rectangle</text>
+  <text x="82" y="284" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">A = l x w</text>
+  <polygon points="294,230 374,130 454,230" fill="#bbf7d0" stroke="#15803d" stroke-width="3"/>
+  <text x="324" y="258" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#15803d">Triangle</text>
+  <text x="310" y="284" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">A = 1/2 x b x h</text>
+  <circle cx="560" cy="180" r="54" fill="#fde68a" stroke="#b45309" stroke-width="3"/>
+  <line x1="560" y1="180" x2="614" y2="180" stroke="#92400e" stroke-width="3"/>
+  <text x="574" y="173" font-family="Arial, sans-serif" font-size="14" fill="#92400e">r</text>
+  <text x="530" y="258" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#b45309">Circle</text>
+  <text x="512" y="284" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">A = pi x r²</text>
+  <path d="M96 360 A52 52 0 0 1 200 360 Z" fill="#fecdd3" stroke="#be123c" stroke-width="3"/>
+  <line x1="96" y1="360" x2="200" y2="360" stroke="#be123c" stroke-width="3"/>
+  <text x="230" y="366" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#be123c">Semicircle: half of a circle</text>
+  <text x="230" y="392" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">A = 1/2 x pi x r²</text>
+</svg>

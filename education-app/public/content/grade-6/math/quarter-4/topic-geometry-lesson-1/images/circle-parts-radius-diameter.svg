@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Circle parts: radius and diameter</title>
+  <desc id="desc">A circle with radius, diameter, center, and circumference labeled.</desc>
+  <rect width="720" height="360" fill="#f7fafc"/>
+  <circle cx="245" cy="180" r="115" fill="#e6fffb" stroke="#087f8c" stroke-width="5"/>
+  <circle cx="245" cy="180" r="5" fill="#24313f"/>
+  <line x1="245" y1="180" x2="360" y2="180" stroke="#c2415b" stroke-width="5"/>
+  <line x1="130" y1="180" x2="360" y2="180" stroke="#2f855a" stroke-width="3" stroke-dasharray="8 7"/>
+  <path d="M245 65 A115 115 0 0 1 360 180" fill="none" stroke="#b7791f" stroke-width="5"/>
+  <text x="245" y="205" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" fill="#24313f">center</text>
+  <text x="303" y="164" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#c2415b">radius r</text>
+  <text x="245" y="224" text-anchor="middle" font-family="Arial" font-size="19" font-weight="700" fill="#2f855a">diameter = 2r</text>
+  <text x="395" y="105" font-family="Arial" font-size="20" font-weight="700" fill="#b7791f">circumference</text>
+  <text x="430" y="156" font-family="Arial" font-size="19" fill="#24313f">Distance around the circle</text>
+  <text x="430" y="196" font-family="Arial" font-size="19" fill="#24313f">Radius: center to edge</text>
+  <text x="430" y="236" font-family="Arial" font-size="19" fill="#24313f">Diameter: across the center</text>
+</svg>

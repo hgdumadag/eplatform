@@ -1,0 +1,95 @@
+{
+  "id": "grade-6-math-q4-geometry-lesson-9-practice",
+  "examId": "grade-6-math-q4-geometry-lesson-9-practice",
+  "examType": "practice",
+  "title": "Practice: Composite Problem Solving",
+  "description": "Choose area and circumference formulas for multi-step composite geometry problems and justify formula choices.",
+  "totalPoints": 100,
+  "totalQuestions": 8,
+  "timeLimit": 25,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A problem asks how much grass is needed to cover a circular field. Which formula should be used?",
+      "options": [
+        "$C = 2\\pi r$",
+        "$A = \\pi r^2$",
+        "$A = l \\times w$",
+        "$C = \\pi d^2$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Covering the inside of a circle asks for area, so use $A=\\pi r^2$."
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A circular pond has diameter 12 m. Which expression gives the length of edging around it?",
+      "options": [
+        "$3.14(12)$",
+        "$3.14(12^2)$",
+        "$\\frac{1}{2}(3.14)(12^2)$",
+        "$12 \\times 12$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Edging is circumference. With diameter given, use $C=\\pi d=3.14(12)$."
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A rectangle is 15 cm by 8 cm. A semicircle with diameter 8 cm is attached to one short side. What is the total area?",
+      "options": [
+        "145.12 cm²",
+        "170.24 cm²",
+        "220.48 cm²",
+        "245.12 cm²"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rectangle area is $15\\times8=120$. The semicircle radius is 4, so its area is $\\frac{1}{2}(3.14)(4^2)=25.12$. Total area is $145.12\\text{ cm}^2$."
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "points": 10,
+      "question": "If a problem asks for ribbon around the edge of a circular table, circumference is the correct measurement.",
+      "correctAnswer": "true",
+      "explanation": "Ribbon around an edge is a distance around, so circumference is correct."
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "points": 10,
+      "question": "When finding the outside border of a rectangle with a semicircle attached, the shared diameter must always be included in the outside border.",
+      "correctAnswer": "false",
+      "explanation": "A shared diameter is usually inside the composite figure, so it is not part of the outside boundary."
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "points": 15,
+      "question": "A circle has radius 5 m. Find its circumference using $\\pi \\approx 3.14$. Include units.",
+      "correctAnswer": "31.4 m or 31.4 meters",
+      "explanation": "Use $C=2\\pi r=2(3.14)(5)=31.4$ meters."
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "points": 15,
+      "question": "A rectangular garden is 20 m by 10 m with a circular fountain of radius 2 m removed. Find the remaining garden area using $\\pi \\approx 3.14$.",
+      "correctAnswer": "187.44 m^2 or 187.44 square meters",
+      "explanation": "Rectangle area is $200$. Fountain area is $3.14(2^2)=12.56$. Remaining area is $200-12.56=187.44\\text{ m}^2$."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "points": 20,
+      "question": "A semicircular window has diameter 10 ft. Explain which formula you would use to find the length of trim around only the curved edge.",
+      "correctAnswer": "Use half of the circumference, such as 1/2 times pi times diameter, because trim around the curved edge is distance around half of a circle. With diameter 10, the expression is 1/2 x pi x 10.",
+      "explanation": "The answer should justify that trim is a length measurement and that only a semicircular curve is needed, so half circumference is used."
+    }
+  ]
+}

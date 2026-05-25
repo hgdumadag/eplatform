@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quarter Performance Task Lab</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Arial, Helvetica, sans-serif;
+      --ink: #172033;
+      --muted: #5b6475;
+      --line: #cbd5e1;
+      --blue: #2563eb;
+      --green: #15803d;
+      --rose: #be123c;
+      --amber: #b45309;
+      --bg: #f8fafc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+    }
+    main {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 18px;
+    }
+    h1 {
+      margin: 0 0 6px;
+      font-size: 24px;
+      letter-spacing: 0;
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+    p { margin: 6px 0; line-height: 1.4; }
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(310px, 1.05fr) minmax(300px, 0.95fr);
+      gap: 14px;
+      align-items: start;
+    }
+    .panel {
+      background: #ffffff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06);
+    }
+    .wide { grid-column: 1 / -1; }
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 10px 0;
+    }
+    button {
+      border: 1px solid #94a3b8;
+      background: #ffffff;
+      color: var(--ink);
+      min-height: 38px;
+      padding: 8px 11px;
+      border-radius: 6px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    button.active {
+      border-color: var(--blue);
+      background: #dbeafe;
+      color: #1d4ed8;
+    }
+    button.primary {
+      background: var(--blue);
+      border-color: var(--blue);
+      color: #ffffff;
+    }
+    button:focus-visible, input:focus-visible {
+      outline: 3px solid #93c5fd;
+      outline-offset: 2px;
+    }
+    .figure-wrap {
+      min-height: 330px;
+      display: grid;
+      place-items: center;
+      border: 1px dashed #94a3b8;
+      border-radius: 8px;
+      background: #ffffff;
+      overflow: hidden;
+    }
+    svg { width: 100%; max-width: 560px; height: auto; }
+    .row {
+      display: grid;
+      grid-template-columns: minmax(150px, 1fr) auto;
+      gap: 10px;
+      align-items: center;
+      margin: 8px 0;
+    }
+    .pill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-top: 8px;
+    }
+    .pill {
+      border: 1px solid #cbd5e1;
+      background: #f8fafc;
+      border-radius: 999px;
+      padding: 6px 9px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+    .pill.done {
+      color: #166534;
+      background: #dcfce7;
+      border-color: #86efac;
+    }
+    .feedback {
+      min-height: 42px;
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 6px;
+      background: #f1f5f9;
+      color: #334155;
+      font-weight: 700;
+    }
+    .feedback.good { background: #dcfce7; color: #166534; }
+    .feedback.warn { background: #fef3c7; color: #92400e; }
+    .formula {
+      font-family: "Courier New", monospace;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      padding: 10px;
+      border-radius: 6px;
+      white-space: pre-wrap;
+      line-height: 1.35;
+    }
+    label {
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 700;
+    }
+    input[type="number"] {
+      width: 118px;
+      min-height: 38px;
+      border: 1px solid #94a3b8;
+      border-radius: 6px;
+      padding: 8px;
+      font-size: 16px;
+    }
+    .quiz-choice {
+      display: block;
+      width: 100%;
+      text-align: left;
+      margin: 8px 0;
+      font-weight: 600;
+    }
+    .small {
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .checks {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(230px, 1fr));
+      gap: 8px 14px;
+    }
+    @media (max-width: 840px) {
+      .layout { grid-template-columns: 1fr; }
+      main { padding: 12px; }
+      .wide { grid-column: auto; }
+      .checks { grid-template-columns: 1fr; }
+      .row { grid-template-columns: 1fr; }
+      input[type="number"] { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Quarter Performance Task Lab</h1>
+    <p class="small">Choose a floor pattern, make a first attempt, reveal the guided solution, and finish with a short mastery check.</p>
+
+    <div class="layout">
+      <section class="panel">
+        <h2>1. Choose a Design</h2>
+        <div class="toolbar" role="group" aria-label="Choose design">
+          <button id="circleBtn" class="active" type="button">Circular Medallion</button>
+          <button id="hallBtn" type="button">Composite Hall</button>
+          <button id="accentBtn" type="button">Accent Lobby</button>
+        </div>
+        <div class="figure-wrap" id="figureWrap" aria-live="polite"></div>
+      </section>
+
+      <section class="panel">
+        <h2>2. Pre-Check</h2>
+        <p id="precheckPrompt">Which measurements will you need?</p>
+        <div class="toolbar" id="precheckButtons"></div>
+        <div class="feedback" id="precheckFeedback">Select every measurement needed for this task.</div>
+        <div class="pill-list" aria-label="Progress">
+          <span class="pill" id="prePill">pre-check</span>
+          <span class="pill" id="tryPill">try before reveal</span>
+          <span class="pill" id="guidedPill">guided checks</span>
+          <span class="pill" id="quizPill">mini-quiz</span>
+          <span class="pill" id="masteryPill">mastery checklist</span>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>3. Try Before Reveal</h2>
+        <p id="tryPrompt"></p>
+        <div class="row">
+          <label for="areaInput">Total area</label>
+          <input id="areaInput" type="number" step="0.01" inputmode="decimal">
+        </div>
+        <div class="row">
+          <label for="boundaryInput">Boundary length</label>
+          <input id="boundaryInput" type="number" step="0.01" inputmode="decimal">
+        </div>
+        <div class="row">
+          <label for="materialInput" id="materialLabel">Material count</label>
+          <input id="materialInput" type="number" step="1" inputmode="numeric">
+        </div>
+        <div class="toolbar">
+          <button id="checkAttempt" class="primary" type="button">Check Attempt</button>
+          <button id="revealWork" type="button">Reveal Work</button>
+        </div>
+        <div class="feedback" id="attemptFeedback">Estimate all three values before revealing the guided work.</div>
+      </section>
+
+      <section class="panel">
+        <h2>4. Guided Checks</h2>
+        <div class="formula" id="workBox">The guided solution will appear here after you reveal it.</div>
+        <div class="toolbar">
+          <button id="markGuided" type="button">I Checked My Work</button>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>5. Mini-Quiz</h2>
+        <p id="quizQuestion"></p>
+        <div id="quizChoices"></div>
+        <div class="feedback" id="quizFeedback">Choose an answer.</div>
+      </section>
+
+      <section class="panel">
+        <h2>6. Mastery Checklist</h2>
+        <div class="checks">
+          <p><input type="checkbox" id="m1"> <label for="m1">I can sketch and label the pattern.</label></p>
+          <p><input type="checkbox" id="m2"> <label for="m2">I can compute area with square units.</label></p>
+          <p><input type="checkbox" id="m3"> <label for="m3">I can trace the outside boundary.</label></p>
+          <p><input type="checkbox" id="m4"> <label for="m4">I can estimate materials and round up.</label></p>
+        </div>
+        <div class="feedback" id="masteryFeedback">Check each skill as you prove it.</div>
+      </section>
+
+      <section class="panel wide">
+        <h2>Performance Task Sentence Frame</h2>
+        <div class="formula" id="sentenceFrame">My design is a _____. Its total area is _____ square meters, so the surface material estimate is _____. Its outside boundary is _____ meters, so the border material estimate is _____. I rounded _____ because materials are bought as whole packages.</div>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    const designs = {
+      circle: {
+        label: "Circular Medallion",
+        needed: ["radius", "area coverage", "trim length"],
+        prompt: "Circle with radius 4 m. Tile boxes cover 5 square meters. Trim strips are 3 m long.",
+        area: 50.24,
+        boundary: 25.12,
+        material: 11,
+        materialText: "Tile boxes",
+        work: "Circle radius: 4 m\nArea: 3.14 x 4^2 = 50.24 square m\nBoundary: 2 x 3.14 x 4 = 25.12 m\nTile boxes: 50.24 / 5 = 10.048, so round up to 11 boxes\nTrim check: 25.12 / 3 = 8.37, so 9 trim strips",
+        quiz: {
+          q: "Which formula gives the boundary length of the circular medallion?",
+          choices: ["A = pi r^2", "C = 2 pi r", "A = l x w"],
+          correct: 1
+        },
+        frame: "My design is a circular medallion. Its total area is 50.24 square meters, so the surface material estimate is 11 tile boxes. Its outside boundary is 25.12 meters, so the border material estimate is 9 trim strips. I rounded up because materials are bought as whole packages.",
+        svg: `<svg viewBox="0 0 560 330" role="img" aria-label="Circular medallion with radius 4 meters">
+          <rect width="560" height="330" fill="#ffffff"/>
+          <circle cx="278" cy="158" r="104" fill="#dbeafe" stroke="#2563eb" stroke-width="5"/>
+          <circle cx="278" cy="158" r="5" fill="#1d4ed8"/>
+          <line x1="278" y1="158" x2="382" y2="158" stroke="#b45309" stroke-width="5"/>
+          <text x="306" y="144" font-size="20" font-family="Arial" fill="#92400e" font-weight="700">r = 4 m</text>
+          <path d="M166 62a150 150 0 0 1 224 0" fill="none" stroke="#15803d" stroke-width="4" stroke-dasharray="9 8"/>
+          <text x="162" y="292" font-size="18" font-family="Arial" fill="#1d4ed8" font-weight="700">tile area and outside trim</text>
+        </svg>`
+      },
+      hall: {
+        label: "Composite Hall",
+        needed: ["length and width", "radius", "area coverage", "trim length"],
+        prompt: "Rectangle 12 m by 6 m plus a semicircle on one 6 m side. Adhesive covers 20 square meters.",
+        area: 86.13,
+        boundary: 39.42,
+        material: 5,
+        materialText: "Adhesive containers",
+        work: "Rectangle area: 12 x 6 = 72\nSemicircle radius: 6 / 2 = 3\nSemicircle area: 1/2 x 3.14 x 3^2 = 14.13\nTotal area: 72 + 14.13 = 86.13 square m\nBoundary: 12 + 12 + 6 + (3.14 x 3) = 39.42 m\nAdhesive: 86.13 / 20 = 4.3065, so round up to 5 containers",
+        quiz: {
+          q: "Why is the shared diameter not included in the boundary length?",
+          choices: ["It is inside the composite figure.", "It is longer than the arc.", "It is an area measurement."],
+          correct: 0
+        },
+        frame: "My design is a rectangle with a semicircle. Its total area is 86.13 square meters, so the surface material estimate is 5 adhesive containers. Its outside boundary is 39.42 meters. I skipped the shared inside diameter.",
+        svg: `<svg viewBox="0 0 560 330" role="img" aria-label="Composite hall with rectangle and semicircle">
+          <rect width="560" height="330" fill="#ffffff"/>
+          <path d="M112 92h260a78 78 0 0 1 0 156H112z" fill="#e0f2fe" stroke="#0369a1" stroke-width="5"/>
+          <line x1="372" y1="92" x2="372" y2="248" stroke="#0f172a" stroke-width="3" stroke-dasharray="8 8"/>
+          <line x1="372" y1="170" x2="450" y2="170" stroke="#b45309" stroke-width="4"/>
+          <text x="396" y="156" font-size="18" font-family="Arial" fill="#92400e" font-weight="700">r = 3 m</text>
+          <text x="206" y="280" font-size="18" font-family="Arial" fill="#334155" font-weight="700">12 m</text>
+          <text x="68" y="176" font-size="18" font-family="Arial" fill="#334155" font-weight="700">6 m</text>
+        </svg>`
+      },
+      accent: {
+        label: "Accent Lobby",
+        needed: ["length and width", "triangle height", "radius", "area coverage"],
+        prompt: "Rectangle 10 m by 8 m, a semicircle on one 8 m side, and a triangle with base 10 m and height 3 m. Tile boxes cover 6 square meters.",
+        area: 120.12,
+        boundary: 40.56,
+        material: 21,
+        materialText: "Tile boxes",
+        work: "Rectangle area: 10 x 8 = 80\nSemicircle radius: 8 / 2 = 4\nSemicircle area: 1/2 x 3.14 x 4^2 = 25.12\nTriangle area: 1/2 x 10 x 3 = 15\nTotal area: 80 + 25.12 + 15 = 120.12 square m\nBoundary for base shape: 10 + 10 + 8 + (3.14 x 4) = 40.56 m\nTile boxes: 120.12 / 6 = 20.02, so round up to 21 boxes",
+        quiz: {
+          q: "Which value should be rounded up for tile buying?",
+          choices: ["20.02 boxes", "40.56 meters", "8 meter diameter"],
+          correct: 0
+        },
+        frame: "My design combines a rectangle, semicircle, and triangular accent. Its total area is 120.12 square meters, so the surface material estimate is 21 tile boxes. Its base outside boundary is 40.56 meters.",
+        svg: `<svg viewBox="0 0 560 330" role="img" aria-label="Accent lobby with rectangle semicircle and triangle">
+          <rect width="560" height="330" fill="#ffffff"/>
+          <path d="M116 120h260a70 70 0 0 1 0 140H116z" fill="#dcfce7" stroke="#15803d" stroke-width="5"/>
+          <path d="M116 120l130-70 130 70z" fill="#ffe4e6" stroke="#be123c" stroke-width="5"/>
+          <line x1="376" y1="120" x2="376" y2="260" stroke="#0f172a" stroke-width="3" stroke-dasharray="8 8"/>
+          <line x1="376" y1="190" x2="446" y2="190" stroke="#b45309" stroke-width="4"/>
+          <text x="400" y="176" font-size="18" font-family="Arial" fill="#92400e" font-weight="700">r = 4 m</text>
+          <text x="208" y="292" font-size="18" font-family="Arial" fill="#166534" font-weight="700">10 m by 8 m</text>
+          <text x="220" y="44" font-size="18" font-family="Arial" fill="#9f1239" font-weight="700">triangle h = 3 m</text>
+        </svg>`
+      }
+    };
+
+    const allChoices = ["radius", "diameter", "length and width", "triangle height", "area coverage", "trim length", "number of colors"];
+    let currentKey = "circle";
+    let selected = new Set();
+    const progress = { pre: false, attempt: false, guided: false, quiz: false, mastery: false };
+
+    const figureWrap = document.getElementById("figureWrap");
+    const precheckButtons = document.getElementById("precheckButtons");
+    const precheckFeedback = document.getElementById("precheckFeedback");
+    const tryPrompt = document.getElementById("tryPrompt");
+    const materialLabel = document.getElementById("materialLabel");
+    const workBox = document.getElementById("workBox");
+    const quizQuestion = document.getElementById("quizQuestion");
+    const quizChoices = document.getElementById("quizChoices");
+    const attemptFeedback = document.getElementById("attemptFeedback");
+    const sentenceFrame = document.getElementById("sentenceFrame");
+
+    function nearlyEqual(a, b) {
+      return Math.abs(Number(a) - b) <= 0.05;
+    }
+
+    function setFeedback(el, text, mode) {
+      el.textContent = text;
+      el.classList.remove("good", "warn");
+      if (mode) el.classList.add(mode);
+    }
+
+    function updatePills() {
+      document.getElementById("prePill").classList.toggle("done", progress.pre);
+      document.getElementById("tryPill").classList.toggle("done", progress.attempt);
+      document.getElementById("guidedPill").classList.toggle("done", progress.guided);
+      document.getElementById("quizPill").classList.toggle("done", progress.quiz);
+      document.getElementById("masteryPill").classList.toggle("done", progress.mastery);
+    }
+
+    function renderDesign(key) {
+      currentKey = key;
+      selected = new Set();
+      const design = designs[key];
+      figureWrap.innerHTML = design.svg;
+      tryPrompt.textContent = design.prompt;
+      materialLabel.textContent = design.materialText;
+      workBox.textContent = "The guided solution will appear here after you reveal it.";
+      sentenceFrame.textContent = design.frame;
+      setFeedback(precheckFeedback, "Select every measurement needed for this task.", "");
+      setFeedback(attemptFeedback, "Estimate all three values before revealing the guided work.", "");
+      renderPrecheck();
+      renderQuiz();
+      document.querySelectorAll("button[id$='Btn']").forEach(btn => btn.classList.remove("active"));
+      document.getElementById(key + "Btn").classList.add("active");
+    }
+
+    function renderPrecheck() {
+      precheckButtons.innerHTML = "";
+      allChoices.forEach(choice => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.textContent = choice;
+        btn.addEventListener("click", () => {
+          if (selected.has(choice)) selected.delete(choice);
+          else selected.add(choice);
+          btn.classList.toggle("active");
+          checkPre();
+        });
+        precheckButtons.appendChild(btn);
+      });
+    }
+
+    function checkPre() {
+      const needed = designs[currentKey].needed;
+      const selectedList = Array.from(selected);
+      const allNeeded = needed.every(item => selected.has(item));
+      const noExtras = selectedList.every(item => needed.includes(item));
+      if (allNeeded && noExtras) {
+        progress.pre = true;
+        setFeedback(precheckFeedback, "Good. You selected the measurements needed for this design.", "good");
+      } else if (selectedList.length > 0) {
+        setFeedback(precheckFeedback, "Keep checking. You may have missed a needed measurement or selected an extra one.", "warn");
+      }
+      updatePills();
+    }
+
+    function renderQuiz() {
+      const quiz = designs[currentKey].quiz;
+      quizQuestion.textContent = quiz.q;
+      quizChoices.innerHTML = "";
+      document.getElementById("quizFeedback").textContent = "Choose an answer.";
+      quiz.choices.forEach((choice, index) => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "quiz-choice";
+        btn.textContent = choice;
+        btn.addEventListener("click", () => {
+          if (index === quiz.correct) {
+            progress.quiz = true;
+            setFeedback(document.getElementById("quizFeedback"), "Correct. That idea belongs in your performance-task explanation.", "good");
+          } else {
+            setFeedback(document.getElementById("quizFeedback"), "Try again. Think about whether the question asks for area, edge length, or a material count.", "warn");
+          }
+          updatePills();
+        });
+        quizChoices.appendChild(btn);
+      });
+    }
+
+    document.getElementById("circleBtn").addEventListener("click", () => renderDesign("circle"));
+    document.getElementById("hallBtn").addEventListener("click", () => renderDesign("hall"));
+    document.getElementById("accentBtn").addEventListener("click", () => renderDesign("accent"));
+
+    document.getElementById("checkAttempt").addEventListener("click", () => {
+      const design = designs[currentKey];
+      const areaOk = nearlyEqual(document.getElementById("areaInput").value, design.area);
+      const boundaryOk = nearlyEqual(document.getElementById("boundaryInput").value, design.boundary);
+      const materialOk = Number(document.getElementById("materialInput").value) === design.material;
+      if (areaOk && boundaryOk && materialOk) {
+        progress.attempt = true;
+        setFeedback(attemptFeedback, "Excellent. Your area, boundary length, and material estimate match this design.", "good");
+      } else {
+        setFeedback(attemptFeedback, "Not yet. Check radius first, trace only the outside boundary, and round material packages up.", "warn");
+      }
+      updatePills();
+    });
+
+    document.getElementById("revealWork").addEventListener("click", () => {
+      workBox.textContent = designs[currentKey].work;
+      progress.attempt = true;
+      updatePills();
+    });
+
+    document.getElementById("markGuided").addEventListener("click", () => {
+      progress.guided = true;
+      workBox.textContent = designs[currentKey].work + "\n\nChecked: I compared the area formula, boundary trace, material division, and rounding.";
+      updatePills();
+    });
+
+    ["m1", "m2", "m3", "m4"].forEach(id => {
+      document.getElementById(id).addEventListener("change", () => {
+        const complete = ["m1", "m2", "m3", "m4"].every(box => document.getElementById(box).checked);
+        progress.mastery = complete;
+        setFeedback(document.getElementById("masteryFeedback"), complete ? "Mastery checklist complete. You are ready to submit a performance-task solution." : "Keep checking each skill as you prove it.", complete ? "good" : "");
+        updatePills();
+      });
+    });
+
+    renderDesign("circle");
+  </script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+{
+  "examId": "grade-6-math-q4-geometry-lesson-1-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 1 Practice: Circle Area Exploration",
+  "description": "Practice explaining how sector rearrangement forms the circle area formula.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What happens to the total area when a circle is cut into sectors and rearranged without gaps or overlaps?",
+      "options": [
+        "The total area stays the same.",
+        "The total area doubles.",
+        "The total area becomes zero.",
+        "The total area depends on the color of the sectors."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cutting and rearranging pieces does not change total area if no pieces are lost, stretched, overlapped, or separated by gaps.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "In the rearranged sector model for circle area, what measurement becomes the height of the almost rectangle?",
+      "options": [
+        "The radius",
+        "The diameter",
+        "The full circumference",
+        "Twice the diameter"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each sector reaches from the center to the circle, so the height of the rearranged shape is the radius.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "In the rearranged sector model, one long base is about half the circumference of the circle.",
+      "correctAnswer": "true",
+      "explanation": "The curved edges split into two long sides. One side is about half the circumference, which is pi r.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "If the circumference of a circle is 18π cm, the approximate base of the rearranged sector rectangle is ______ cm. Use π notation.",
+      "correctAnswer": "9π or 9 pi",
+      "explanation": "The base is about half the circumference. Half of 18π is 9π.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which expression shows the area of the rearranged sectors using base times height?",
+      "options": [
+        "(πr)(r)",
+        "(2πr)(r)",
+        "(πr)(2r)",
+        "(r)(r) only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The base is about pi r and the height is r, so the area is (pi r)(r).",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A circle has diameter 12 cm. What radius should be used in A = πr²?",
+      "options": [
+        "6 cm",
+        "12 cm",
+        "24 cm",
+        "144 cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The radius is half the diameter. Half of 12 cm is 6 cm.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "Explain in one or two sentences why using more sectors gives a better circle area estimate.",
+      "correctAnswer": "More sectors are thinner, so the rearranged shape becomes less bumpy and closer to a rectangle. That makes the base-times-height estimate closer to the true circle area.",
+      "explanation": "The key idea is that thinner sectors make the rearranged shape more rectangle-like.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Describe how the formula A = πr² is formed from the rearranged sector model.",
+      "correctAnswer": "The circle sectors are rearranged into an almost rectangle with height r and base about half the circumference, pi r. Using area = base times height gives (pi r)(r) = pi r squared.",
+      "explanation": "A complete explanation connects sectors, same area, base pi r, height r, and rectangle area.",
+      "points": 14
+    }
+  ]
+}

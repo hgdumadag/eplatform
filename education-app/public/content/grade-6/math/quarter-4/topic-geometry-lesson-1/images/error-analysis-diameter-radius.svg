@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">Error analysis: diameter used as radius</title>
+  <desc id="desc">A diagram warning not to use diameter as radius in the circle area formula.</desc>
+  <rect width="760" height="360" fill="#f7fafc"/>
+  <circle cx="190" cy="180" r="104" fill="#fff8e6" stroke="#b7791f" stroke-width="5"/>
+  <line x1="86" y1="180" x2="294" y2="180" stroke="#c2415b" stroke-width="5"/>
+  <circle cx="190" cy="180" r="5" fill="#24313f"/>
+  <text x="190" y="164" text-anchor="middle" font-family="Arial" font-size="21" font-weight="700" fill="#c2415b">diameter = 10 cm</text>
+  <text x="370" y="92" font-family="Arial" font-size="24" font-weight="700" fill="#c2415b">Common error</text>
+  <text x="370" y="132" font-family="Arial" font-size="20" fill="#24313f">Wrong: A = π(10²)</text>
+  <text x="370" y="172" font-family="Arial" font-size="20" fill="#24313f">10 is the diameter, not r.</text>
+  <text x="370" y="224" font-family="Arial" font-size="24" font-weight="700" fill="#2f855a">Correct</text>
+  <text x="370" y="264" font-family="Arial" font-size="20" fill="#24313f">r = 5 cm, so A = π(5²)</text>
+</svg>

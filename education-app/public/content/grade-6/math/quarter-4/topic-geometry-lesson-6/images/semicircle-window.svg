@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Rectangle with semicircle removed</title>
+  <desc id="desc">A 16 m by 8 m rectangle with a semicircular cutout of radius 4 m.</desc>
+  <rect width="720" height="360" fill="#f8fbff"/>
+  <rect x="160" y="90" width="400" height="200" rx="6" fill="#dbeafe" stroke="#245a93" stroke-width="4"/>
+  <path d="M280 90a80 80 0 0 0 160 0z" fill="#ffffff" stroke="#b83232" stroke-width="4"/>
+  <line x1="360" y1="90" x2="440" y2="90" stroke="#b83232" stroke-width="3"/>
+  <text x="399" y="80" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#b83232">r = 4 m</text>
+  <text x="360" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#17324d">16 m</text>
+  <text x="135" y="194" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#17324d" transform="rotate(-90 135 194)">8 m</text>
+  <text x="360" y="326" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#17324d">rectangle area - semicircle area</text>
+</svg>

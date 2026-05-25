@@ -1,0 +1,49 @@
+{
+  "id": "grade-6-math-q4-geometry-lesson-10",
+  "grade": 6,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "Geometry - Lesson 10",
+  "description": "Complete a quarter performance task by designing a circular or composite floor pattern, computing area, boundary length, and material estimates.",
+  "learningObjectives": [
+    "Design a circular or composite floor pattern using rectangles, triangles, circles, and semicircles",
+    "Compute the total area of a floor pattern by decomposing it into non-overlapping parts",
+    "Compute boundary length using straight sides and circular arcs",
+    "Estimate tile, border, and adhesive materials using area and boundary measurements",
+    "Explain and check a performance-task solution using correct units and reasonable rounding"
+  ],
+  "estimatedDuration": 75,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "performance task",
+    "floor pattern",
+    "area",
+    "circumference",
+    "material estimates",
+    "grade 6"
+  ],
+  "prerequisites": [
+    "Area of rectangles and triangles",
+    "Area of circles and semicircles",
+    "Circumference of circles",
+    "Meaning of radius and diameter",
+    "Unit conversion and rounding"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/floor-pattern-visual-intro.svg",
+      "images/circular-medallion-plan.svg",
+      "images/composite-hall-plan.svg",
+      "images/boundary-length-map.svg",
+      "images/material-estimate-board.svg",
+      "images/error-analysis-panel.svg",
+      "images/mastery-checklist-flow.svg"
+    ]
+  }
+}

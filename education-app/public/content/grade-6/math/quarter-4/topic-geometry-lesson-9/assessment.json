@@ -1,0 +1,111 @@
+{
+  "id": "grade-6-math-q4-geometry-lesson-9-assessment",
+  "examId": "grade-6-math-q4-geometry-lesson-9-assessment",
+  "examType": "assessment",
+  "title": "Assessment: Multi-Step Area and Circumference Problems",
+  "description": "Solve composite geometry problems and justify the area, circumference, and perimeter formulas selected.",
+  "totalPoints": 100,
+  "totalQuestions": 10,
+  "timeLimit": 35,
+  "passingScore": 75,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 8,
+      "question": "A circular flower bed has diameter 9 m. Which formula choice is best for finding the amount of soil needed to fill the bed?",
+      "options": [
+        "$C = \\pi d$, because soil goes around the flower bed",
+        "$A = \\pi r^2$, because soil covers the inside area",
+        "$A = l \\times w$, because soil is rectangular",
+        "$C = 2\\pi r$, because soil is measured in meters"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Soil covers inside space, so use circle area. The radius would be $9\\div2=4.5$ m."
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 8,
+      "question": "A rectangle is 24 m by 10 m. A semicircle with diameter 10 m is attached to one short side. What is the total area?",
+      "options": [
+        "255.7 m²",
+        "279.25 m²",
+        "318.5 m²",
+        "397.0 m²"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rectangle area is $24\\times10=240$. Semicircle radius is 5, so area is $\\frac{1}{2}(3.14)(25)=39.25$. Total is $279.25\\text{ m}^2$."
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 8,
+      "question": "A track has two straight sides of 30 m and two semicircular ends that together make one circle with diameter 16 m. What is the distance around the track?",
+      "options": [
+        "80.24 m",
+        "94.24 m",
+        "110.24 m",
+        "160.48 m"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The straight sides total $30+30=60$. The two semicircles make one circumference: $3.14(16)=50.24$. Total distance is $110.24$ m."
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "points": 8,
+      "question": "A square unit label, such as cm², is a clue that the answer should be an area measurement.",
+      "correctAnswer": "true",
+      "explanation": "Area measures two-dimensional space, so it is labeled with square units."
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "points": 8,
+      "question": "The formula $C=\\pi d$ can be used to find the area of a circle when the diameter is given.",
+      "correctAnswer": "false",
+      "explanation": "$C=\\pi d$ finds circumference, not area. Circle area uses $A=\\pi r^2$."
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "points": 10,
+      "question": "A circular rug has radius 4 ft. Find the area using $\\pi \\approx 3.14$.",
+      "correctAnswer": "50.24 ft^2 or 50.24 square feet",
+      "explanation": "Use $A=\\pi r^2=3.14(4^2)=50.24\\text{ ft}^2$."
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "points": 10,
+      "question": "A semicircular arch has diameter 18 cm. Find the length of only the curved edge using $\\pi \\approx 3.14$.",
+      "correctAnswer": "28.26 cm or 28.26 centimeters",
+      "explanation": "The curved edge is half the circumference: $\\frac{1}{2}(3.14)(18)=28.26$ cm."
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "points": 13,
+      "question": "A rectangular sign is 12 ft by 5 ft with a semicircle attached to one 12 ft side. Explain how to find the total area and name the formulas you use.",
+      "correctAnswer": "Use rectangle area, A = l x w, for the rectangular part because it covers rectangular space. Use semicircle area, 1/2 pi r^2, for the attached half circle. The diameter is 12 ft, so the radius is 6 ft. Add 12 x 5 and 1/2 x pi x 6^2.",
+      "explanation": "A complete answer names both shapes, justifies area formulas, converts diameter 12 to radius 6, and adds the part areas."
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "points": 13,
+      "question": "A student uses $A=\\pi r^2$ to find the amount of fencing around a circular garden. Explain the error and give the correct formula choice.",
+      "correctAnswer": "The student used an area formula, but fencing is a distance around the garden. The correct formula is circumference, C = 2 pi r or C = pi d, depending on whether radius or diameter is given.",
+      "explanation": "The key idea is that fencing is a length around the outside, so circumference is needed instead of area."
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "points": 14,
+      "question": "A playground is a 20 m by 12 m rectangle with a circular sandbox of diameter 6 m inside it. Explain how to find both the play surface area outside the sandbox and the border length around the sandbox.",
+      "correctAnswer": "Find rectangle area with A = l x w because it is the whole rectangular surface. Find circle area with A = pi r^2 and subtract it because the sandbox is not part of the play surface; the radius is 3 m. For the border around the sandbox, use circumference C = pi d or 2 pi r because the border is distance around the circle.",
+      "explanation": "A strong response separates area from border length, subtracts the circular area from the rectangle, and uses circumference for the sandbox border."
+    }
+  ]
+}

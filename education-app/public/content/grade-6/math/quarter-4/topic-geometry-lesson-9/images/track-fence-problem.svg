@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Track with straight sides and semicircles</title>
+  <desc id="desc">A stadium track made from two straight sides of 40 meters and two semicircular ends with diameter 20 meters.</desc>
+  <rect width="900" height="520" fill="#f8fafc"/>
+  <text x="450" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#111827">Track Distance Around</text>
+  <path d="M310 150 H590 A100 100 0 0 1 590 350 H310 A100 100 0 0 1 310 150 Z" fill="#fee2e2" stroke="#b91c1c" stroke-width="6"/>
+  <path d="M315 190 H585 A60 60 0 0 1 585 310 H315 A60 60 0 0 1 315 190 Z" fill="#f8fafc" stroke="#ef4444" stroke-width="3"/>
+  <line x1="310" y1="132" x2="590" y2="132" stroke="#374151" stroke-width="3"/>
+  <text x="450" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" fill="#374151">40 m straight side</text>
+  <line x1="590" y1="150" x2="590" y2="350" stroke="#1d4ed8" stroke-width="4" stroke-dasharray="8 8"/>
+  <text x="646" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" fill="#1d4ed8" transform="rotate(90 646 260)">20 m diameter</text>
+  <text x="450" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#7f1d1d">Two semicircular curves make one full circumference.</text>
+</svg>

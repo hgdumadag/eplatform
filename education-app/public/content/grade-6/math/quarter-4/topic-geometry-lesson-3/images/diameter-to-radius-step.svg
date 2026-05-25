@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-labelledby="title desc">
+  <title id="title">Diameter to radius step</title>
+  <desc id="desc">A process diagram showing diameter divided by two to get radius.</desc>
+  <rect width="760" height="300" rx="20" fill="#fffaf0"/>
+  <rect x="50" y="90" width="190" height="110" rx="14" fill="#fee2e2" stroke="#ef4444" stroke-width="3"/>
+  <rect x="520" y="90" width="190" height="110" rx="14" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+  <circle cx="380" cy="145" r="56" fill="#ffffff" stroke="#64748b" stroke-width="3"/>
+  <text x="92" y="135" fill="#7f1d1d" font-family="Arial, sans-serif" font-size="24" font-weight="700">diameter</text>
+  <text x="103" y="168" fill="#7f1d1d" font-family="Arial, sans-serif" font-size="28">d</text>
+  <text x="343" y="136" fill="#1f2937" font-family="Arial, sans-serif" font-size="26" font-weight="700">divide</text>
+  <text x="356" y="171" fill="#1f2937" font-family="Arial, sans-serif" font-size="28">by 2</text>
+  <text x="577" y="135" fill="#14532d" font-family="Arial, sans-serif" font-size="24" font-weight="700">radius</text>
+  <text x="602" y="168" fill="#14532d" font-family="Arial, sans-serif" font-size="28">r</text>
+  <path d="M250 145h70" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <path d="M307 126l22 19-22 19" fill="none" stroke="#334155" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M440 145h70" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <path d="M497 126l22 19-22 19" fill="none" stroke="#334155" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="236" y="252" fill="#334155" font-family="Arial, sans-serif" font-size="24" font-weight="700">Always do this before area.</text>
+</svg>

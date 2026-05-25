@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Error analysis for mixed circle problems</title>
+  <desc id="desc">Student work shows using area when the problem asks for fence around a circular garden.</desc>
+  <rect width="760" height="420" fill="#f8fafc"/>
+  <rect x="54" y="46" width="652" height="328" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+  <text x="380" y="86" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#172033">Error Analysis</text>
+  <text x="96" y="130" font-family="Arial, sans-serif" font-size="19" fill="#172033">Problem: A circular garden has radius 5 m. How much fence goes around it?</text>
+  <rect x="96" y="160" width="568" height="116" rx="8" fill="#fff5f5" stroke="#f1a9a9"/>
+  <text x="120" y="198" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#b83232">Student work:</text>
+  <text x="120" y="235" font-family="Arial, sans-serif" font-size="23" fill="#172033">A = 3.14 x 5² = 78.5 square meters</text>
+  <rect x="96" y="300" width="568" height="44" rx="8" fill="#e9f8f0" stroke="#9bd7bd"/>
+  <text x="380" y="329" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#217a52">Fence goes around, so use circumference: C = 2πr = 31.4 m.</text>
+</svg>
