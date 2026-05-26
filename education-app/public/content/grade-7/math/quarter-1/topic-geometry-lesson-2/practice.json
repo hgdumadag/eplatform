@@ -1,0 +1,81 @@
+{
+  "examId": "grade-7-math-q1-geometry-lesson-2-drawing-polygons-practice",
+  "examType": "practice",
+  "title": "Drawing Polygons Practice",
+  "description": "Practice choosing tools, drawing steps, tolerances, and regular versus irregular polygon checks.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which tools are most useful for drawing a polygon with given side lengths and angle measures?",
+      "options": ["Compass and calculator only", "Ruler and protractor", "Tape measure and stopwatch", "Graph paper and colored pencils only"],
+      "correctAnswer": 1,
+      "explanation": "A ruler measures and draws side lengths, while a protractor measures and draws angles.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A student must draw an octagon. How many sides should the finished polygon have?",
+      "options": ["5", "6", "8", "10"],
+      "correctAnswer": 2,
+      "explanation": "An octagon is a polygon with 8 sides.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which drawing is definitely irregular?",
+      "options": ["A hexagon with all sides 4 cm and all angles equal", "A pentagon with all sides 3 cm and all angles equal", "An octagon with side lengths 2 cm, 2 cm, 3 cm, 2 cm, 2 cm, 3 cm, 2 cm, 2 cm", "A decagon with all sides equal and all angles equal"],
+      "correctAnswer": 2,
+      "explanation": "The octagon has unequal side lengths, so it cannot be regular. It is irregular.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A regular hexagon is drawn using equal exterior turns. What exterior turn should be used at each vertex?",
+      "options": ["36 degrees", "45 degrees", "60 degrees", "72 degrees"],
+      "correctAnswer": 2,
+      "explanation": "For a regular hexagon, divide 360 degrees by 6 sides: 360 / 6 = 60 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "A polygon can be called regular if all its sides are equal, even when its angles are not equal.",
+      "correctAnswer": "false",
+      "explanation": "A regular polygon must have both equal side lengths and equal angle measures.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Using the usual classroom tolerance from the lesson, a side meant to be 5 cm should be within how many millimeters of the target length? Write the number only.",
+      "correctAnswer": "1",
+      "explanation": "The lesson uses a side-length tolerance of 1 mm unless a teacher gives a different rule.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A student draws a regular pentagon using exterior turns. Which angle should be used for each exterior turn?",
+      "options": ["36 degrees", "45 degrees", "60 degrees", "72 degrees"],
+      "correctAnswer": 3,
+      "explanation": "For a regular pentagon, divide 360 degrees by 5 sides: 360 / 5 = 72 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A classmate says their drawing is a regular octagon. Name two measurements you should check before agreeing.",
+      "correctAnswer": "Check that all 8 side lengths are equal and all 8 interior angles are equal.",
+      "explanation": "Regularity requires both equal sides and equal angles. For an octagon, there should also be exactly 8 sides.",
+      "points": 10
+    }
+  ]
+}

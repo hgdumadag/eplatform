@@ -1,0 +1,80 @@
+{
+  "examId": "grade-7-math-q1-geometry-lesson-9-practice",
+  "examType": "practice",
+  "title": "Polygon Challenge Problems Practice",
+  "description": "Practice finding unknown sides and angle measures from polygon clues.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A regular polygon has one exterior angle measuring 60 degrees. How many sides does it have?",
+      "options": ["5", "6", "8", "10"],
+      "correctAnswer": 1,
+      "explanation": "For a regular polygon, n = 360 divided by one exterior angle. 360 / 60 = 6.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "An exterior angle adjacent to an interior angle measures 42 degrees. Find the interior angle. Enter just the number.",
+      "correctAnswer": "138",
+      "explanation": "Adjacent interior and exterior angles form a straight angle, so 180 - 42 = 138.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A convex quadrilateral has angles 75 degrees, 95 degrees, 110 degrees, and x. Which equation finds x?",
+      "options": ["75 + 95 + 110 + x = 180", "75 + 95 + 110 + x = 360", "x = 360 / 4", "x + 110 = 180"],
+      "correctAnswer": 1,
+      "explanation": "The interior angles of every quadrilateral add to 360 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "A hexagon has interior angles 120, 110, 130, 100, 140, and x degrees. Find x. Enter just the number.",
+      "correctAnswer": "120",
+      "explanation": "A hexagon has interior angle sum (6 - 2) x 180 = 720. The known angles add to 600, so x = 120.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "A polygon with one interior angle greater than 180 degrees is non-convex.",
+      "correctAnswer": "true",
+      "explanation": "One interior angle greater than 180 degrees proves the polygon has an inward dent, so it is non-convex.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A regular decagon has 10 sides. What is the measure of one exterior angle?",
+      "options": ["18 degrees", "36 degrees", "72 degrees", "144 degrees"],
+      "correctAnswer": 1,
+      "explanation": "For a regular decagon, one exterior angle is 360 / 10 = 36 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A polygon has 8 sides, all angles equal, and all sides equal. What is the most precise classification?",
+      "options": ["Irregular octagon", "Regular octagon", "Regular hexagon", "Non-polygon"],
+      "correctAnswer": 1,
+      "explanation": "Eight sides make it an octagon. Equal sides and equal angles make it regular.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A student says a polygon is regular because all its sides are equal. What extra information is needed?",
+      "correctAnswer": "The student also needs to know that all angles are equal. A regular polygon has equal sides and equal angles.",
+      "explanation": "Equal sides alone are not enough to prove regularity; equal angles are also required.",
+      "points": 10
+    }
+  ]
+}

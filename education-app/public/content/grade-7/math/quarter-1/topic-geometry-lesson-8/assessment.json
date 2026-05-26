@@ -1,0 +1,96 @@
+{
+  "examId": "grade-7-math-q1-geometry-lesson-8-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 8 Assessment: Polygon Angle Sums",
+  "description": "Show mastery of polygon angle-sum patterns, regular polygon angles, missing angles, and side counts.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement best explains why the formula (n - 2) x 180 works for polygon angle sums?",
+      "options": ["Every polygon has exactly 2 triangles.", "Every side of a polygon measures 180 degrees.", "An n-sided polygon can be split into n - 2 triangles from one vertex.", "A polygon always has n - 2 angles."],
+      "correctAnswer": 2,
+      "explanation": "Drawing diagonals from one vertex divides an n-sided polygon into n - 2 triangles, each with angle sum 180 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "Find the interior angle sum of a pentagon. Enter just the number.",
+      "correctAnswer": "540",
+      "explanation": "A pentagon has 5 sides, so (5 - 2) x 180 = 3 x 180 = 540.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "What is the interior angle sum of an octagon?",
+      "options": ["900 degrees", "1080 degrees", "1260 degrees", "1440 degrees"],
+      "correctAnswer": 1,
+      "explanation": "An octagon has 8 sides, so (8 - 2) x 180 = 6 x 180 = 1080 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "A polygon has an interior angle sum of 1260 degrees. How many sides does it have? Enter just the number.",
+      "correctAnswer": "9",
+      "explanation": "(n - 2) x 180 = 1260. Divide by 180 to get n - 2 = 7, so n = 9.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "One interior angle of a regular decagon measures how many degrees?",
+      "options": ["120 degrees", "135 degrees", "144 degrees", "150 degrees"],
+      "correctAnswer": 2,
+      "explanation": "A decagon has total angle sum (10 - 2) x 180 = 1440. Divide by 10 to get 144 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A hexagon has five interior angles measuring 110, 125, 120, 130, and 105 degrees. Find the sixth angle. Enter just the number.",
+      "correctAnswer": "130",
+      "explanation": "A hexagon's angle sum is 720. The known angles add to 590, so the missing angle is 720 - 590 = 130.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "A 12-sided polygon can be divided into 10 triangles from one vertex.",
+      "correctAnswer": "true",
+      "explanation": "For n = 12, the number of triangles is n - 2 = 10.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "Find one interior angle of a regular pentagon. Enter just the number.",
+      "correctAnswer": "108",
+      "explanation": "The total angle sum is (5 - 2) x 180 = 540. Divide by 5: 540 / 5 = 108.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "A polygon has an interior angle sum of 1800 degrees. How many sides does it have?",
+      "options": ["10", "11", "12", "14"],
+      "correctAnswer": 2,
+      "explanation": "(n - 2) x 180 = 1800, so n - 2 = 10 and n = 12.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A student says the interior angle sum of a regular octagon is 135 degrees. Explain the mistake and give the correct total angle sum.",
+      "correctAnswer": "The student found one interior angle, not the total. A regular octagon has total angle sum (8 - 2) x 180 = 1080 degrees, and 1080 divided by 8 is 135 degrees for one angle.",
+      "explanation": "The key distinction is between the total interior angle sum and one interior angle of a regular polygon.",
+      "points": 10
+    }
+  ]
+}

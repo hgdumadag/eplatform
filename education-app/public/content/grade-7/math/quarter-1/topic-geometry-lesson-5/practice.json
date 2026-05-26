@@ -1,0 +1,106 @@
+{
+  "examId": "grade-7-math-q1-geometry-lesson-5-practice",
+  "examType": "practice",
+  "title": "Convex and Non-Convex Polygons Practice",
+  "description": "Practice classifying polygons using interior angles, inward dents, and diagonals.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement best describes a convex polygon?",
+      "options": [
+        "It has at least one curved side.",
+        "It has no inward dent and all interior angles are less than 180 degrees.",
+        "It must have exactly five sides.",
+        "It has at least one interior angle greater than 180 degrees."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A convex polygon has no inward dent, and each interior angle is less than 180 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A polygon has one interior angle measuring 215 degrees. How should it be classified?",
+      "options": [
+        "Convex",
+        "Non-convex",
+        "Regular",
+        "Not a polygon"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Any polygon with an interior angle greater than 180 degrees is non-convex.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "If every diagonal of a polygon stays inside the polygon, the polygon is convex.",
+      "correctAnswer": "true",
+      "explanation": "The diagonal test says a convex polygon has all diagonals inside the polygon.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Which feature proves that a polygon is non-convex?",
+      "options": [
+        "It has more than four sides.",
+        "It has at least one inward dent.",
+        "It has equal side lengths.",
+        "It has a diagonal."
+      ],
+      "correctAnswer": 1,
+      "explanation": "An inward dent creates a reflex interior angle, so the polygon is non-convex.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A triangle is always convex. Why?",
+      "options": [
+        "A triangle has no diagonals and cannot have an inward dent.",
+        "A triangle always has equal sides.",
+        "A triangle always has one angle greater than 180 degrees.",
+        "A triangle is not a polygon."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A triangle cannot cave inward while remaining a simple polygon, so it is always convex.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Complete the sentence: A non-convex polygon has at least one interior angle greater than ___ degrees.",
+      "correctAnswer": "180",
+      "explanation": "A non-convex polygon has at least one reflex interior angle, which is greater than 180 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "A hexagon has one corner pushed inward. Classify it and give one reason.",
+      "correctAnswer": "It is non-convex because it has an inward dent, so at least one interior angle is greater than 180 degrees.",
+      "explanation": "The inward corner is enough evidence that the hexagon is non-convex.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A diagonal from one vertex to another non-adjacent vertex passes outside a polygon. What does this show?",
+      "options": [
+        "The polygon is convex.",
+        "The polygon is non-convex.",
+        "The polygon has equal angles.",
+        "The polygon is regular."
+      ],
+      "correctAnswer": 1,
+      "explanation": "If at least one diagonal goes outside the polygon, the polygon is non-convex.",
+      "points": 10
+    }
+  ]
+}

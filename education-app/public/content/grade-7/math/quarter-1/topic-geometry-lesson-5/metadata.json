@@ -1,0 +1,38 @@
+{
+  "id": "grade-7-math-q1-geometry-lesson-5-convex-and-non-convex-polygons",
+  "grade": 7,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Convex and Non-Convex Polygons",
+  "description": "Classify polygons as convex or non-convex using interior angles, diagonals, and overall shape behavior.",
+  "learningObjectives": [
+    "Identify convex and non-convex polygons from drawings and descriptions",
+    "Explain that a convex polygon has all interior angles less than 180 degrees",
+    "Explain that a non-convex polygon has at least one interior angle greater than 180 degrees",
+    "Use diagonals to justify whether a polygon is convex or non-convex",
+    "Sort polygons by shape behavior using clear geometric evidence"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "polygons",
+    "convex",
+    "non-convex",
+    "interior-angles",
+    "diagonals"
+  ],
+  "lastUpdated": "2026-05-26",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  },
+  "prerequisites": [
+    "Polygon vocabulary",
+    "Sides and vertices",
+    "Interior angles",
+    "Diagonals"
+  ]
+}

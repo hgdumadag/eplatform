@@ -1,0 +1,122 @@
+{
+  "examId": "grade-7-math-q1-geometry-lesson-1-polygon-vocabulary-assessment",
+  "examType": "assessment",
+  "title": "Polygon Vocabulary Assessment",
+  "description": "Classify polygon examples and non-examples, then use vocabulary about sides, vertices, diagonals, regular polygons, and irregular polygons.",
+  "passingScore": 75,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which set of features is required for a figure to be a polygon?",
+      "options": [
+        "Closed, flat, and made only of straight line segments",
+        "Open, flat, and made only of straight line segments",
+        "Closed, flat, and made with at least one curved side",
+        "Three-dimensional and made of flat faces"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A polygon is a closed plane figure made only of straight line segments.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A figure has 5 straight sides, 5 vertices, and no gaps. What can you conclude?",
+      "options": [
+        "It is not a polygon",
+        "It is a polygon",
+        "It must be regular",
+        "It must have a curved side"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The figure is closed and made of straight sides, so it is a polygon. More information is needed to decide if it is regular.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A regular polygon must have all sides equal and all angles equal.",
+      "correctAnswer": "true",
+      "explanation": "Both conditions are required. Equal sides alone or equal angles alone is not enough for regularity.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "In quadrilateral PQRS, which segment is a diagonal?",
+      "options": [
+        "PQ",
+        "QR",
+        "RS",
+        "PR"
+      ],
+      "correctAnswer": 3,
+      "explanation": "PR connects non-adjacent vertices, so it is a diagonal. PQ, QR, and RS are sides.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "The plural form of vertex is ____.",
+      "correctAnswer": "vertices",
+      "explanation": "More than one vertex is called vertices.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Which statement describes an irregular polygon?",
+      "options": [
+        "It is always open.",
+        "It always has a curved side.",
+        "It is a polygon that does not have all sides equal and all angles equal.",
+        "It is not allowed to have vertices."
+      ],
+      "correctAnswer": 2,
+      "explanation": "An irregular polygon is still a polygon, but it is not both equilateral and equiangular.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "A line segment connecting two adjacent vertices is a diagonal.",
+      "correctAnswer": "false",
+      "explanation": "A diagonal connects non-adjacent vertices. Adjacent vertices are connected by a side.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Which object is most likely modeled by a polygon?",
+      "options": [
+        "The circular face of a coin",
+        "The rectangular face of a book cover",
+        "The curved outline of an oval mirror",
+        "The spiral path of a spring"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A rectangle is a closed figure made of straight sides, so the face of a book cover can be modeled by a polygon.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A learner says, \"This shape is closed, but it has one curved side, so it is a polygon.\" Correct the learner's statement.",
+      "correctAnswer": "The shape is not a polygon because polygons must be made only of straight line segments. Being closed is not enough.",
+      "explanation": "A correct response should state that the curved side makes the figure a non-example of a polygon.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Describe how you would check whether a drawn hexagon is regular.",
+      "correctAnswer": "Measure or compare all six side lengths and all six angles. The hexagon is regular only if all sides are equal and all angles are equal.",
+      "explanation": "Regularity requires checking both side lengths and angle measures, not just counting the number of sides.",
+      "points": 10
+    }
+  ]
+}

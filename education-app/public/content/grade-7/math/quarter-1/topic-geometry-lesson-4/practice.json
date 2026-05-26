@@ -1,0 +1,106 @@
+{
+  "examId": "grade-7-math-q1-geometry-lesson-4-practice",
+  "examType": "practice",
+  "title": "Regular Polygons Practice",
+  "description": "Practice identifying regular and irregular polygons using equal sides and equal angles.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement correctly describes a regular polygon?",
+      "options": [
+        "It has at least one pair of equal sides.",
+        "It has all sides equal and all interior angles equal.",
+        "It has all sides equal but angles can be different.",
+        "It has all angles equal but sides can be different."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A regular polygon must pass both tests: all side lengths are equal and all interior angles are equal.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A pentagon has side lengths 5 cm, 5 cm, 5 cm, 5 cm, and 5 cm. Its angles are 108°, 108°, 108°, 108°, and 108°. How should it be classified?",
+      "options": [
+        "Regular pentagon",
+        "Irregular pentagon",
+        "Regular hexagon",
+        "Irregular quadrilateral"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The shape has 5 sides, so it is a pentagon. All sides and all angles match, so it is regular.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A quadrilateral has four equal sides but its angle measures are 70°, 110°, 70°, and 110°. Is it regular?",
+      "options": [
+        "Yes, because all four sides are equal.",
+        "Yes, because opposite angles are equal.",
+        "No, because the angles are not all equal.",
+        "No, because regular polygons cannot have 4 sides."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Equal sides alone are not enough. A regular polygon must also have all interior angles equal.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "A polygon can be irregular even if it has the same number of sides as a regular polygon.",
+      "correctAnswer": "true",
+      "explanation": "Regularity is based on equal side lengths and equal angle measures, not just the number of sides.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which tool is most useful for checking whether the sides of a drawn polygon are equal?",
+      "options": [
+        "Ruler",
+        "Compass rose",
+        "Calculator only",
+        "Clock"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A ruler measures side lengths, so it helps check whether the sides are equal.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Which tool is most useful for checking whether the interior angles of a drawn polygon are equal?",
+      "options": [
+        "Ruler",
+        "Protractor",
+        "Number line",
+        "Scale"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A protractor measures angles, so it helps compare interior angle measures.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "Fill in the blank: A polygon with all sides equal and all angles equal is called a ______ polygon.",
+      "correctAnswer": "regular",
+      "explanation": "A regular polygon has all sides equal and all angles equal.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A hexagon has all six angles equal, but one side is longer than the others. Explain whether it is regular.",
+      "correctAnswer": "It is not regular because a regular polygon must have all sides equal and all angles equal. This hexagon fails the equal-side test.",
+      "explanation": "Even though the angles match, the unequal side length makes the hexagon irregular.",
+      "points": 10
+    }
+  ]
+}
