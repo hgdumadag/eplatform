@@ -3,6 +3,13 @@
 > [!GOAL]
 > Compare a cylinder container and a pyramid container. Calculate capacity, convert units when needed, and justify which design fits a real need.
 
+## Visual Model
+
+![Cylinder and pyramid container volume comparison](images/container-volume-design-comparison.svg)
+
+A design choice should compare computed capacities against the required amount.
+
+
 ## Design Situation
 
 A school club wants a container for a display table. Two possible designs are being considered:

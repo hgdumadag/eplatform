@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Pyramid volume one third</title>
+  <desc id="desc">A rectangular prism next to three pyramids showing the one-third relationship.</desc>
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <rect x="70" y="95" width="170" height="170" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/><text x="85" y="290" font-family="Arial" font-size="20">Prism volume = Bh</text>
+  <g fill="#fef3c7" stroke="#d97706" stroke-width="3">
+    <path d="M350 250 L420 250 L385 100 Z"/><path d="M455 250 L525 250 L490 100 Z"/><path d="M560 250 L630 250 L595 100 Z"/>
+  </g>
+  <text x="365" y="290" font-family="Arial" font-size="20">3 matching pyramids fill 1 prism</text>
+  <text x="360" y="330" font-family="Arial" font-size="24" font-weight="700">Pyramid volume = 1/3 Bh</text>
+</svg>

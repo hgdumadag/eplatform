@@ -5,6 +5,13 @@
 > Understand why the volume of a cylinder is the area of its circular base multiplied by its height:  
 > \(V = \pi r^2 h\)
 
+## Visual Model
+
+![Cylinder volume as circular base area multiplied by height](images/cylinder-volume-layers.svg)
+
+A cylinder can be imagined as many equal circular layers stacked to a height.
+
+
 ## Quick Look
 
 Imagine a stack of identical round coins. One coin shows the **circular base**. The height of the stack tells how many equal layers are piled up.

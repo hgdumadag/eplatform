@@ -19,12 +19,24 @@
   ],
   "estimatedDuration": 45,
   "difficulty": "intermediate",
-  "tags": ["geometry", "measurement", "angles", "angle pairs", "complementary angles", "supplementary angles", "vertical angles", "adjacent angles"],
+  "tags": [
+    "geometry",
+    "measurement",
+    "angles",
+    "angle pairs",
+    "complementary angles",
+    "supplementary angles",
+    "vertical angles",
+    "adjacent angles"
+  ],
   "lastUpdated": "2026-05-26",
   "version": "1.0",
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/angle-pair-relationships.svg"
+    ]
   }
 }

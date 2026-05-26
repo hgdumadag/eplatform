@@ -35,6 +35,9 @@
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/polygon-challenge-diagram.svg"
+    ]
   }
 }

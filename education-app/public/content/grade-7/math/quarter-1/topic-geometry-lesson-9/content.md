@@ -4,6 +4,13 @@
 >
 > Solve polygon challenge problems by combining vocabulary, side count, regularity, convexity, interior angles, exterior angles, and equations.
 
+## Visual Model
+
+![Polygon challenge diagram with exterior angle and unknown interior angle](images/polygon-challenge-diagram.svg)
+
+Challenge problems become manageable when the clue is translated into a labeled diagram and equation.
+
+
 ## Warm-Up: Read the Clues
 
 A floor tile is shaped like a regular octagon. Each corner has the same measure. A second tile is a pentagon with one corner pushed inward.

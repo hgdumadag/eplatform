@@ -33,6 +33,9 @@
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/rectangular-pyramid-volume.svg"
+    ]
   }
 }

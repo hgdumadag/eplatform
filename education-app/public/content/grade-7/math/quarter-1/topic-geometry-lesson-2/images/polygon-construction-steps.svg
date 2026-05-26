@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Polygon construction steps</title>
+  <desc id="desc">A side, angle turn, and completed hexagon with measurement checks.</desc>
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <line x1="80" y1="250" x2="230" y2="250" stroke="#1f2937" stroke-width="5"/>
+  <text x="116" y="280" font-family="Arial" font-size="18">Draw side AB</text>
+  <path d="M230 250 A70 70 0 0 0 195 190" fill="none" stroke="#ef4444" stroke-width="4"/>
+  <line x1="230" y1="250" x2="195" y2="190" stroke="#1f2937" stroke-width="5"/>
+  <text x="250" y="218" font-family="Arial" font-size="18">Turn with protractor</text>
+  <polygon points="470,82 570,130 590,230 510,295 405,265 372,160" fill="#dcfce7" stroke="#15803d" stroke-width="5"/>
+  <g font-family="Arial" font-size="18" fill="#0f172a"><text x="415" y="62">Check sides</text><text x="465" y="330">Check angles</text><text x="82" y="230">A</text><text x="230" y="230">B</text></g>
+</svg>

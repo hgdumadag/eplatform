@@ -3,6 +3,13 @@
 > [!GOAL]
 > Apply cylinder volume to real containers such as cans, tanks, and tubes. Interpret each answer as capacity and check whether it makes sense.
 
+## Visual Model
+
+![Cylindrical tank word problem with labeled dimensions and capacity](images/cylinder-container-word-problem.svg)
+
+In word problems, label the real object first, then calculate and interpret capacity in context.
+
+
 ## Warm-Up: What Does the Number Mean?
 
 Look at a water bottle, food can, paint can, or round tank.

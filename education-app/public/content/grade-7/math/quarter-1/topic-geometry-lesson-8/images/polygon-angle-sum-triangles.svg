@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Polygon angle sum by triangles</title>
+  <desc id="desc">A hexagon split into four triangles from one vertex.</desc>
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <polygon points="150,85 320,70 470,135 500,250 345,305 170,260" fill="#ede9fe" stroke="#6d28d9" stroke-width="5"/>
+  <line x1="150" y1="85" x2="470" y2="135" stroke="#9333ea" stroke-width="4" stroke-dasharray="8 8"/>
+  <line x1="150" y1="85" x2="500" y2="250" stroke="#9333ea" stroke-width="4" stroke-dasharray="8 8"/>
+  <line x1="150" y1="85" x2="345" y2="305" stroke="#9333ea" stroke-width="4" stroke-dasharray="8 8"/>
+  <text x="525" y="120" font-family="Arial" font-size="22">6 sides</text>
+  <text x="525" y="160" font-family="Arial" font-size="22">6 - 2 = 4 triangles</text>
+  <text x="525" y="200" font-family="Arial" font-size="22">4 × 180° = 720°</text>
+</svg>

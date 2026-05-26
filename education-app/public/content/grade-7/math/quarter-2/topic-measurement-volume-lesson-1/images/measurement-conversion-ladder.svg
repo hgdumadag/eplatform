@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Measurement conversion ladder</title>
+  <desc id="desc">Metric units arranged from kilometers to millimeters with powers of ten.</desc>
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <g font-family="Arial" font-size="22" fill="#0f172a" text-anchor="middle">
+    <rect x="80" y="120" width="110" height="70" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/><text x="135" y="162">km</text>
+    <rect x="235" y="120" width="110" height="70" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/><text x="290" y="162">m</text>
+    <rect x="390" y="120" width="110" height="70" fill="#fef3c7" stroke="#d97706" stroke-width="3"/><text x="445" y="162">cm</text>
+    <rect x="545" y="120" width="110" height="70" fill="#fee2e2" stroke="#dc2626" stroke-width="3"/><text x="600" y="162">mm</text>
+    <text x="213" y="105">×1000</text><text x="368" y="105">×100</text><text x="523" y="105">×10</text>
+    <text x="360" y="260">Move right: multiply. Move left: divide.</text>
+  </g>
+</svg>

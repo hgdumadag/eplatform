@@ -26,7 +26,10 @@
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/measurement-conversion-ladder.svg"
+    ]
   },
   "prerequisites": [
     "Multiplying and dividing by 10, 100, and 1000",

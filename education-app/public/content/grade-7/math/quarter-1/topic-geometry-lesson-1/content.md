@@ -4,6 +4,13 @@
 >
 > By the end of this lesson, you should be able to define key polygon terms and use them to describe examples, non-examples, regular polygons, and irregular polygons.
 
+## Visual Model
+
+![Labeled pentagon showing sides, vertices, and diagonals](images/polygon-vocabulary-diagram.svg)
+
+A polygon is easier to read when the sides, vertices, and diagonals are visible.
+
+
 ## Study Setup
 
 | Item | Details |

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Polygon portfolio sample</title>
+  <desc id="desc">A sample reference sheet entry for a regular hexagon with labels and angle facts.</desc>
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <rect x="50" y="40" width="620" height="280" rx="10" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+  <polygon points="190,90 280,135 280,225 190,270 100,225 100,135" fill="#dbeafe" stroke="#1d4ed8" stroke-width="4"/>
+  <g font-family="Arial" font-size="17" fill="#0f172a"><text x="350" y="95">Name: regular hexagon</text><text x="350" y="135">Sides: 6 equal sides</text><text x="350" y="175">Convex: yes</text><text x="350" y="215">Interior sum: (6 - 2)180 = 720°</text><text x="350" y="255">Each angle: 720 ÷ 6 = 120°</text></g>
+  <text x="95" y="305" font-family="Arial" font-size="18">Diagram + labels</text>
+</svg>

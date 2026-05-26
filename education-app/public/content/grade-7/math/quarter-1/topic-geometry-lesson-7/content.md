@@ -3,6 +3,13 @@
 > [!GOAL]
 > Relate an exterior angle of a polygon to the adjacent interior angle beside it. Use that relationship to write and solve angle equations.
 
+## Visual Model
+
+![Exterior angle and adjacent interior angle forming a linear pair](images/interior-exterior-angle-pair.svg)
+
+An exterior angle and its adjacent interior angle form a straight angle, so they add to 180 degrees.
+
+
 ## Visual Prompt
 
 Imagine a student walking around the edge of a basketball court. At each corner, the student can look inside the court and see the corner angle. If the student keeps walking past the corner in a straight line, the turn outside the court creates another angle.

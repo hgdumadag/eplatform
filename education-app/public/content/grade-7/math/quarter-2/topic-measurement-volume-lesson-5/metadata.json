@@ -28,7 +28,10 @@
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/cylinder-volume-radius-diameter.svg"
+    ]
   },
   "prerequisites": [
     "Area of a circle",
