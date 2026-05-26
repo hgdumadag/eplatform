@@ -1,0 +1,106 @@
+{
+  "examId": "grade-7-math-q2-measurement-volume-lesson-5-practice",
+  "examType": "practice",
+  "title": "Cylinder Volume Practice",
+  "description": "Practice calculating cylinder volume from radius or diameter and height, with correct cubic units.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which formula gives the volume of a cylinder?",
+      "options": [
+        "V = pi r h",
+        "V = pi r squared h",
+        "V = 2 pi r h",
+        "V = length times width times height"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A cylinder's volume is the area of its circular base, pi r squared, multiplied by its height.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A cylinder has radius 3 cm and height 8 cm. Use pi = 3.14. What is its volume?",
+      "options": [
+        "75.36 cm^3",
+        "150.72 cm^3",
+        "226.08 cm^3",
+        "301.44 cm^3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "V = 3.14(3 squared)(8) = 3.14(9)(8) = 226.08 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A cylinder has diameter 10 m and height 6 m. Use pi = 3.14. What radius should be used in the formula?",
+      "options": [
+        "5 m",
+        "6 m",
+        "10 m",
+        "20 m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The radius is half the diameter, so 10 divided by 2 equals 5 m.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A cylinder has diameter 10 m and height 6 m. Use pi = 3.14. What is its volume?",
+      "options": [
+        "188.4 m^3",
+        "471 m^3",
+        "600 m^3",
+        "1,884 m^3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The radius is 5 m. V = 3.14(5 squared)(6) = 3.14(25)(6) = 471 m^3.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "If all measurements in a cylinder problem are in inches, the volume should be labeled in square inches.",
+      "correctAnswer": "false",
+      "explanation": "Volume measures three-dimensional space, so the unit should be cubic inches, or in^3.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A cylinder has radius 7 cm and height 4 cm. Use pi = 22/7. Enter the volume as a number only.",
+      "correctAnswer": "616",
+      "explanation": "V = (22/7)(7 squared)(4) = (22/7)(49)(4) = 616, so the volume is 616 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "A cylinder has diameter 12 ft and height 5 ft. Explain the first step before using V = pi r squared h.",
+      "correctAnswer": "Divide the diameter by 2 to find the radius. The radius is 6 ft, which is the value to use in the formula.",
+      "explanation": "The formula uses radius, not diameter. Since 12 divided by 2 is 6, use r = 6 ft.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A cylinder has radius 4 in and height 9 in. Leave the answer in terms of pi. What is the volume?",
+      "options": [
+        "36 pi in^3",
+        "72 pi in^3",
+        "144 pi in^3",
+        "288 pi in^3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "V = pi(4 squared)(9) = pi(16)(9) = 144 pi in^3.",
+      "points": 10
+    }
+  ]
+}

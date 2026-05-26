@@ -1,0 +1,122 @@
+{
+  "examId": "grade-7-math-q2-measurement-volume-lesson-8-assessment",
+  "examType": "assessment",
+  "title": "Square Pyramid Volume Assessment",
+  "description": "Show that you can identify base area and vertical height, calculate square pyramid volume, and use correct cubic units.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A square pyramid has base side length 8 cm and vertical height 12 cm. What is its volume?",
+      "options": [
+        "96 cm^3",
+        "192 cm^3",
+        "256 cm^3",
+        "768 cm^3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The base area is 8^2 = 64 cm^2. V = (1/3)(64)(12) = 256 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which measurement must be used as h in V = (1/3)s^2h?",
+      "options": [
+        "The length around the base",
+        "The side length of the square base",
+        "The slant height along a triangular face",
+        "The vertical height perpendicular to the base"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The h in the volume formula is the vertical height, which is perpendicular to the base.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "A square pyramid has side length 12 m and vertical height 5 m. Enter the volume as a number only.",
+      "correctAnswer": "240",
+      "explanation": "V = (1/3)(12^2)(5) = (1/3)(144)(5) = 240 m^3.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A square pyramid has base area 81 ft^2 and vertical height 10 ft. What is its volume?",
+      "options": [
+        "270 ft^3",
+        "405 ft^3",
+        "810 ft^3",
+        "2,430 ft^3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Use V = (1/3)Bh. V = (1/3)(81)(10) = 270 ft^3.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "If the base side length is measured in meters, the volume of the square pyramid is measured in square meters.",
+      "correctAnswer": "false",
+      "explanation": "Volume is measured in cubic units, so the unit should be cubic meters, or m^3.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A square pyramid has base side length 7 in, vertical height 18 in, and slant height 19.3 in. What information is needed for volume?",
+      "options": [
+        "7 in and 18 in",
+        "7 in and 19.3 in",
+        "18 in and 19.3 in",
+        "Only 19.3 in"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For volume, use the square base side length and the vertical height. The slant height is not needed.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A square pyramid has side length 4.5 cm and vertical height 6 cm. Enter the volume as a number only.",
+      "correctAnswer": "40.5",
+      "explanation": "V = (1/3)(4.5^2)(6) = (1/3)(20.25)(6) = 40.5 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A square pyramid has volume 75 cm^3 and vertical height 9 cm. What is the area of its square base?",
+      "options": [
+        "8.33 cm^2",
+        "25 cm^2",
+        "225 cm^2",
+        "675 cm^2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Use V = (1/3)Bh. Since 75 = (1/3)B(9), 75 = 3B, so B = 25 cm^2.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A student calculates V = (1/3)(10^2)(13) for a square pyramid with side length 10 cm, vertical height 8 cm, and slant height 13 cm. Explain the mistake and give the correct volume.",
+      "correctAnswer": "The student used the slant height, 13 cm, instead of the vertical height, 8 cm. The correct volume is (1/3)(10^2)(8) = 800/3 cm^3, or about 266.67 cm^3.",
+      "explanation": "Volume uses vertical height only. With base area 100 cm^2 and height 8 cm, V = (1/3)(100)(8) = 800/3 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A square pyramid has base side length 15 m and vertical height 12 m. Calculate the volume and include the correct unit.",
+      "correctAnswer": "900 m^3",
+      "explanation": "The base area is 15^2 = 225 m^2. V = (1/3)(225)(12) = 900 m^3.",
+      "points": 10
+    }
+  ]
+}

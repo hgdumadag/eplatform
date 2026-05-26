@@ -1,0 +1,97 @@
+{
+  "examId": "grade-7-math-q2-measurement-volume-lesson-6-assessment",
+  "examType": "assessment",
+  "title": "Cylinder Word Problems Assessment",
+  "description": "Interpret and solve cylinder volume problems involving cans, tanks, containers, capacity, and units.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A cylindrical food can has radius 4 cm and height 9 cm. Using pi = 3.14, what is its volume?",
+      "options": ["113.04 cm^3", "226.08 cm^3", "452.16 cm^3", "904.32 cm^3"],
+      "correctAnswer": 2,
+      "explanation": "V = 3.14(4^2)(9) = 3.14(16)(9) = 452.16 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A cylindrical cookie tin is 14 cm wide and 6 cm tall. What values should be used for r and h?",
+      "options": ["r = 14 cm, h = 6 cm", "r = 7 cm, h = 6 cm", "r = 6 cm, h = 14 cm", "r = 7 cm, h = 14 cm"],
+      "correctAnswer": 1,
+      "explanation": "The width across the circle is the diameter. Half of 14 cm is 7 cm, and the height is 6 cm.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "A cylinder has radius 5 cm and height 10 cm. Using pi = 3.14, find its volume in cm^3. Enter just the number.",
+      "correctAnswer": "785",
+      "explanation": "V = 3.14(5^2)(10) = 3.14(25)(10) = 785 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "The volume of a cylindrical bottle is 785 cm^3. About how much liquid can it hold?",
+      "options": ["7.85 mL", "78.5 mL", "785 mL", "785 L"],
+      "correctAnswer": 2,
+      "explanation": "Since 1 cm^3 equals 1 mL, 785 cm^3 equals 785 mL.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "A volume of 2,400 cm^3 is the same as 2.4 L.",
+      "correctAnswer": "true",
+      "explanation": "2400 cm^3 = 2400 mL, and 2400 mL = 2.4 L.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A cylindrical tank has radius 1.5 m and height 4 m. Using pi = 3.14, find its volume in m^3. Enter just the number.",
+      "correctAnswer": "28.26",
+      "explanation": "V = 3.14(1.5^2)(4) = 3.14(2.25)(4) = 28.26 m^3.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A cylindrical paint can has radius 6 cm and height 12 cm. Its volume is about 1,356.48 cm^3. Which statement best interprets this answer?",
+      "options": ["It holds about 1.36 L of paint.", "It holds about 13.56 L of paint.", "It holds about 135.6 L of paint.", "It holds about 1,356.48 L of paint."],
+      "correctAnswer": 0,
+      "explanation": "1356.48 cm^3 = 1356.48 mL = about 1.36 L.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A container must hold at least 1 L. A cylinder has radius 4 cm and height 18 cm. Using pi = 3.14, does it meet the need?",
+      "options": ["Yes, because it holds about 3.62 L.", "Yes, because it holds about 1.13 L.", "No, because it holds about 904 mL.", "No, because it holds about 452 mL."],
+      "correctAnswer": 2,
+      "explanation": "V = 3.14(4^2)(18) = 904.32 cm^3 = 904.32 mL, which is less than 1 L or 1000 mL.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A cylindrical water bottle has diameter 8 cm and height 20 cm. Use pi = 3.14 to find its capacity in milliliters, then state whether it is more or less than 1 L.",
+      "correctAnswer": "The radius is 4 cm. V = 3.14(4^2)(20) = 1004.8 cm^3, so the bottle holds about 1004.8 mL. That is slightly more than 1 L.",
+      "explanation": "The diameter must be divided by 2 before using the formula. Since 1000 mL = 1 L, 1004.8 mL is just over 1 L.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A student calculates the capacity of a soup can as 0.502 L. Explain why this is reasonable if the can's volume is about 502 cm^3.",
+      "correctAnswer": "It is reasonable because 502 cm^3 equals 502 mL, and 502 mL divided by 1000 is 0.502 L. A soup can holding about half a liter is realistic.",
+      "explanation": "A correct interpretation connects cubic centimeters to milliliters, then milliliters to liters, and compares the result to a real can.",
+      "points": 10
+    }
+  ]
+}

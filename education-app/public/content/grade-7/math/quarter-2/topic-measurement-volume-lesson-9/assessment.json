@@ -1,0 +1,97 @@
+{
+  "examId": "grade-7-math-q2-measurement-volume-lesson-9-assessment",
+  "examType": "assessment",
+  "title": "Rectangular Pyramid Volume Assessment",
+  "description": "Solve rectangular pyramid volume problems, estimate when useful, and write answers with appropriate units and context.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A rectangular pyramid has a base 15 cm long and 8 cm wide. Its height is 6 cm. What is its volume?",
+      "options": ["120 cm^3", "240 cm^3", "360 cm^3", "720 cm^3"],
+      "correctAnswer": 1,
+      "explanation": "V = (1/3)(15)(8)(6). The product is 720, and 720 / 3 = 240 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A rectangular pyramid has l = 7 m, w = 6 m, and h = 9 m. Find the volume in m^3. Enter just the number.",
+      "correctAnswer": "126",
+      "explanation": "V = (1/3)(7)(6)(9) = 378 / 3 = 126 m^3.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A pyramid-shaped roof has a rectangular base area of 96 ft^2 and a perpendicular height of 4 ft. What is the volume under the roof shape?",
+      "options": ["32 ft^3", "96 ft^3", "128 ft^3", "384 ft^3"],
+      "correctAnswer": 2,
+      "explanation": "Use V = (1/3)(base area)(height) = (1/3)(96)(4) = 384 / 3 = 128 ft^3.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "If the dimensions of a rectangular pyramid are measured in meters, its volume should be labeled in square meters.",
+      "correctAnswer": "false",
+      "explanation": "Volume is measured in cubic units. With meter dimensions, the volume should be labeled m^3, not m^2.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Estimate the volume of a rectangular pyramid with dimensions 13.9 cm, 5.1 cm, and 8.8 cm by rounding to 14 cm, 5 cm, and 9 cm.",
+      "options": ["105 cm^3", "210 cm^3", "315 cm^3", "630 cm^3"],
+      "correctAnswer": 1,
+      "explanation": "V = (1/3)(14)(5)(9). The product is 630, and 630 / 3 = 210 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A display container is shaped like a rectangular pyramid with length 4.5 m, width 2 m, and height 3 m. Find its volume in m^3. Enter just the number.",
+      "correctAnswer": "9",
+      "explanation": "V = (1/3)(4.5)(2)(3) = 27 / 3 = 9 m^3.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A rectangular prism and a rectangular pyramid have the same base dimensions and height. The prism volume is 300 cm^3. What is the pyramid volume?",
+      "options": ["100 cm^3", "150 cm^3", "300 cm^3", "900 cm^3"],
+      "correctAnswer": 0,
+      "explanation": "A pyramid with the same base and height has one-third of the prism's volume, so 300 / 3 = 100 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A package insert is shaped like a rectangular pyramid. Its base is 18 cm by 10 cm and its height is 5 cm. Which answer correctly includes the unit?",
+      "options": ["300 cm", "300 cm^2", "300 cm^3", "900 cm^3"],
+      "correctAnswer": 2,
+      "explanation": "V = (1/3)(18)(10)(5) = 900 / 3 = 300. Because this is volume, the correct unit is cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A museum display case is a rectangular pyramid with base 2 m by 1.5 m and height 1.2 m. Find the volume and explain what the answer means in context.",
+      "correctAnswer": "V = (1/3)(2)(1.5)(1.2) = 3.6 / 3 = 1.2 m^3. The display case encloses about 1.2 cubic meters of space.",
+      "explanation": "The calculation uses length, width, and perpendicular height, then labels the answer in cubic meters and connects it to the space inside the case.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A student estimates a rectangular pyramid with dimensions 21 cm, 9 cm, and 5 cm as about 945 cm^3. Explain why this estimate is too large and give a better estimate.",
+      "correctAnswer": "The estimate is too large because 21 x 9 x 5 = 945 is the matching prism volume. A pyramid is one-third of that, so a better estimate is 945 / 3 = 315 cm^3.",
+      "explanation": "The factor one-third must be included even when estimating. The correct estimate is about 315 cm^3.",
+      "points": 10
+    }
+  ]
+}

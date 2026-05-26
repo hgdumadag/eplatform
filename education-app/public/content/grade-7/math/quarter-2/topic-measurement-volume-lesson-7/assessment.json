@@ -1,0 +1,96 @@
+{
+  "examId": "grade-7-math-q2-measurement-volume-lesson-7-assessment",
+  "examType": "assessment",
+  "title": "Measurement and Geometry - Lesson 7 Assessment: Pyramid Volume Exploration",
+  "description": "Show understanding of pyramid volume by comparing matching prisms and pyramids and explaining the one-third factor.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A pyramid and a prism have the same rectangular base and the same height. The prism volume is 96 cm^3. What is the pyramid volume?",
+      "options": ["24 cm^3", "32 cm^3", "48 cm^3", "288 cm^3"],
+      "correctAnswer": 1,
+      "explanation": "The matching pyramid has one-third of the prism volume, so 96 / 3 = 32 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A pyramid has base area 54 m^2 and height 5 m. What is its volume in m^3? Enter just the number.",
+      "correctAnswer": "90",
+      "explanation": "V = (1/3)(54)(5) = 270 / 3 = 90 m^3.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A square pyramid has base side length 9 cm and height 8 cm. What is the first step to find its volume?",
+      "options": ["Add 9 and 8.", "Find the base area by calculating 9 x 9.", "Divide the height by 3 before finding the base area.", "Find the perimeter by calculating 4 x 9."],
+      "correctAnswer": 1,
+      "explanation": "For a square base, first find B by squaring the side length: 9 x 9 = 81 cm^2.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "The height used in V = (1/3)Bh is the perpendicular distance from the base to the top point of the pyramid.",
+      "correctAnswer": "true",
+      "explanation": "Pyramid height is measured straight from the base to the top point, perpendicular to the base.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A rectangular pyramid has base length 12 in, base width 5 in, and height 9 in. What is its volume?",
+      "options": ["60 in^3", "120 in^3", "180 in^3", "540 in^3"],
+      "correctAnswer": 2,
+      "explanation": "The base area is 12 x 5 = 60 in^2. Then V = (1/3)(60)(9) = 180 in^3.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Three matching pyramids fill a prism with volume 420 cm^3. What is the volume of one pyramid in cm^3? Enter just the number.",
+      "correctAnswer": "140",
+      "explanation": "If three matching pyramids fill the prism, one pyramid has 420 / 3 = 140 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which pair of solids can be compared directly using the one-third relationship?",
+      "options": ["Any pyramid and any cylinder", "A pyramid and a prism with the same base area and height", "A prism and a cylinder with the same height only", "Two pyramids with different bases and heights"],
+      "correctAnswer": 1,
+      "explanation": "The one-third relationship works for a pyramid and a matching prism with the same base area and height.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "A rectangular pyramid has a base 7 cm by 6 cm and height 10 cm. What is its volume in cm^3? Enter just the number.",
+      "correctAnswer": "140",
+      "explanation": "The base area is 7 x 6 = 42 cm^2. V = (1/3)(42)(10) = 420 / 3 = 140 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A student says a pyramid with base area 20 cm^2 and height 9 cm has volume 180 cm^3. Explain the mistake and give the correct volume.",
+      "correctAnswer": "The student found the matching prism volume by multiplying 20 x 9 but forgot to take one-third. The correct pyramid volume is (1/3)(20)(9) = 60 cm^3.",
+      "explanation": "For pyramids, Bh gives the matching prism volume. The pyramid volume is one-third of that amount.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "In your own words, explain why V = (1/3)Bh makes sense for a pyramid.",
+      "correctAnswer": "The formula makes sense because Bh is the volume of a prism with the same base area and height, and one pyramid takes up one-third of that matching prism. Three matching pyramids would fill the prism.",
+      "explanation": "A complete explanation should connect B and h to the matching prism and state that the pyramid is one-third of that prism.",
+      "points": 10
+    }
+  ]
+}

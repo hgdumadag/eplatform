@@ -1,0 +1,128 @@
+{
+  "examId": "grade-7-math-q2-measurement-volume-lesson-5-assessment",
+  "examType": "assessment",
+  "title": "Cylinder Volume Practice Assessment",
+  "description": "Show that you can calculate cylinder volume from radius or diameter, choose the requested pi approximation, and use correct cubic units.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A cylinder has radius 6 cm and height 11 cm. Use pi = 3.14. What is its volume?",
+      "options": [
+        "207.24 cm^3",
+        "414.48 cm^3",
+        "1,243.44 cm^3",
+        "2,486.88 cm^3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "V = 3.14(6 squared)(11) = 3.14(36)(11) = 1,243.44 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A cylinder has diameter 16 m and height 5 m. Use pi = 3.14. What is its volume?",
+      "options": [
+        "251.2 m^3",
+        "401.92 m^3",
+        "1,004.8 m^3",
+        "4,019.2 m^3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The radius is 8 m. V = 3.14(8 squared)(5) = 3.14(64)(5) = 1,004.8 m^3.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A cylinder has radius 14 ft and height 9 ft. Use pi = 22/7. What is its volume?",
+      "options": [
+        "396 ft^3",
+        "1,386 ft^3",
+        "5,544 ft^3",
+        "11,088 ft^3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "V = (22/7)(14 squared)(9) = (22/7)(196)(9) = 5,544 ft^3.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "A cylinder has diameter 8 cm and height 10 cm. Use pi = 3.14. Enter the volume as a number only.",
+      "correctAnswer": "502.4",
+      "explanation": "The radius is 4 cm. V = 3.14(4 squared)(10) = 3.14(16)(10) = 502.4 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which answer uses the correct unit for the volume of a cylinder measured in meters?",
+      "options": [
+        "120 m",
+        "120 m^2",
+        "120 m^3",
+        "120 square meters"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cylinder volume measures three-dimensional space, so the correct unit is cubic meters, or m^3.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "When a cylinder problem gives the diameter, you should square the diameter in V = pi r squared h.",
+      "correctAnswer": "false",
+      "explanation": "The formula uses radius. First divide the diameter by 2, then square the radius.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A cylinder has radius 5 in and height 12 in. Leave the answer in terms of pi. What is the volume?",
+      "options": [
+        "60 pi in^3",
+        "120 pi in^3",
+        "300 pi in^3",
+        "600 pi in^3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "V = pi(5 squared)(12) = pi(25)(12) = 300 pi in^3.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A student finds a cylinder's volume and writes 785 cm^2. The numerical calculation is correct. What should be fixed, and why?",
+      "correctAnswer": "The unit should be cm^3, not cm^2, because volume measures three-dimensional space.",
+      "explanation": "A correct volume calculation still needs a cubic unit. Square centimeters are used for area, not volume.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "A cylinder has diameter 21 cm and height 4 cm. Use pi = 22/7. What setup correctly starts the volume calculation?",
+      "options": [
+        "V = (22/7)(21 squared)(4)",
+        "V = (22/7)(10.5 squared)(4)",
+        "V = 3.14(21 squared)(4)",
+        "V = (22/7)(4 squared)(21)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The radius is half of 21 cm, which is 10.5 cm. The correct setup is (22/7)(10.5 squared)(4).",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A cylinder has radius 2 m and height 15 m. Use pi = 3.14. Calculate the volume and include the correct unit.",
+      "correctAnswer": "188.4 m^3",
+      "explanation": "V = 3.14(2 squared)(15) = 3.14(4)(15) = 188.4 m^3.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "grade-7-math-q2-measurement-volume-lesson-1-measurement-systems",
+  "grade": 7,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Measurement Systems",
+  "description": "Review SI units and common conversion paths for length, mass, capacity, area, and volume.",
+  "learningObjectives": [
+    "Identify common SI base units and metric prefixes",
+    "Use conversion ladders to move between metric units",
+    "Choose the correct operation when converting to larger or smaller units",
+    "Complete basic conversion paths for length, mass, capacity, area, and volume"
+  ],
+  "estimatedDuration": 35,
+  "difficulty": "beginner",
+  "tags": [
+    "measurement",
+    "measurement-and-geometry",
+    "si-units",
+    "metric-system",
+    "unit-conversion",
+    "conversion-ladders"
+  ],
+  "lastUpdated": "2026-05-26",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  },
+  "prerequisites": [
+    "Multiplying and dividing by 10, 100, and 1000",
+    "Reading decimals",
+    "Recognizing length, mass, and capacity measurements"
+  ]
+}
