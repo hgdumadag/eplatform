@@ -1,0 +1,39 @@
+{
+  "id": "grade-7-math-q2-measurement-volume-lesson-10",
+  "grade": 7,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Volume Design Task",
+  "description": "Compare cylinder and pyramid containers by calculating volume, converting capacity units, and justifying which design best fits a given need.",
+  "learningObjectives": [
+    "Calculate and compare the volumes of cylindrical and pyramid-shaped containers",
+    "Convert cubic centimeters to milliliters and liters when interpreting capacity",
+    "Use dimensions, units, and context to decide which container fits a design requirement",
+    "Support a container choice with clear computations, labels, and a written justification"
+  ],
+  "prerequisites": [
+    "Use V = pi r squared h to find cylinder volume",
+    "Use V = one-third base area times height to find pyramid volume",
+    "Find the area of a square or rectangular base",
+    "Convert 1 cm^3 to 1 mL and 1000 mL to 1 L"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "measurement",
+    "geometry",
+    "volume",
+    "cylinders",
+    "pyramids",
+    "capacity",
+    "design task",
+    "unit conversion"
+  ],
+  "lastUpdated": "2026-05-26",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "examId": "grade-7-math-q2-measurement-volume-lesson-2-length-area-volume-conversion-assessment",
+  "examType": "assessment",
+  "title": "Length, Area, and Volume Conversion Checkpoint",
+  "description": "Solve mixed conversion drills involving length, area, and volume units.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which conversion statement is correct?",
+      "options": ["1 m = 10 cm", "1 m^2 = 100 cm^2", "1 m^3 = 1,000,000 cm^3", "1 cm^3 = 100 m^3"],
+      "correctAnswer": 2,
+      "explanation": "Because 1 m = 100 cm, 1 m^3 = 100^3 cm^3 = 1,000,000 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Convert 2.75 m to centimeters.",
+      "options": ["0.0275 cm", "27.5 cm", "275 cm", "27,500 cm"],
+      "correctAnswer": 2,
+      "explanation": "Multiply meters by 100 to convert to centimeters: 2.75 x 100 = 275 cm.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Convert 68,000 cm^2 to m^2.",
+      "options": ["0.68 m^2", "6.8 m^2", "680 m^2", "6,800,000 m^2"],
+      "correctAnswer": 1,
+      "explanation": "Divide by 10,000 because 1 m^2 = 10,000 cm^2. So 68,000 cm^2 = 6.8 m^2.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Convert 0.6 m^3 to cm^3.",
+      "options": ["600 cm^3", "6,000 cm^3", "60,000 cm^3", "600,000 cm^3"],
+      "correctAnswer": 3,
+      "explanation": "Multiply by 1,000,000 because 1 m^3 = 1,000,000 cm^3. Then 0.6 m^3 = 600,000 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "A square unit conversion uses the square of the linear conversion factor.",
+      "correctAnswer": "true",
+      "explanation": "Area has two dimensions, so the linear factor is used twice.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A student converts 12 m^2 to cm^2 by multiplying 12 by 100. What is the mistake?",
+      "options": ["They converted in the wrong direction.", "They used the length factor instead of the area factor.", "They should have divided by 1,000,000.", "They should have changed square meters to cubic meters first."],
+      "correctAnswer": 1,
+      "explanation": "For area, the factor is 100^2 = 10,000. The correct conversion is 12 x 10,000 = 120,000 cm^2.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "Convert 9,000,000 cm^3 to m^3. Write the number only.",
+      "correctAnswer": "9",
+      "explanation": "Divide by 1,000,000 because 1 m^3 = 1,000,000 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Which unit would best describe the amount of space inside a small box?",
+      "options": ["cm", "cm^2", "cm^3", "degrees"],
+      "correctAnswer": 2,
+      "explanation": "The amount of space inside a solid is volume, so cubic units such as cm^3 are appropriate.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A rectangle has area 15,000 cm^2. Explain how to convert this area to m^2 and give the result.",
+      "correctAnswer": "Divide by 10,000 because area uses the square of the 100 cm to 1 m conversion factor. The result is 1.5 m^2.",
+      "explanation": "The explanation should identify the area factor 10,000 and compute 15,000 / 10,000 = 1.5 m^2.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A learner says, \"All centimeter-to-meter conversions divide by 100.\" Correct the statement using examples for length, area, and volume.",
+      "correctAnswer": "Only length from cm to m divides by 100, such as 300 cm = 3 m. Area from cm^2 to m^2 divides by 10,000, and volume from cm^3 to m^3 divides by 1,000,000.",
+      "explanation": "A complete answer distinguishes the three dimensions and names the correct factors: 100, 10,000, and 1,000,000.",
+      "points": 10
+    }
+  ]
+}

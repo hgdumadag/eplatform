@@ -1,0 +1,80 @@
+{
+  "examId": "grade-7-math-q2-measurement-volume-lesson-3-practice",
+  "examType": "practice",
+  "title": "Cylinder Anatomy Practice",
+  "description": "Practice identifying the radius, diameter, height, bases, and curved surface of cylinders.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which part of a cylinder is a flat circular face?",
+      "options": ["Base", "Height", "Curved surface", "Vertex"],
+      "correctAnswer": 0,
+      "explanation": "A cylinder has two flat circular bases.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "On the circular top of a can, which segment is the radius?",
+      "options": ["A segment from the center to the edge", "A segment across the circle through the center", "The tall side of the can", "The paper label around the can"],
+      "correctAnswer": 0,
+      "explanation": "The radius runs from the center of a circle to any point on its edge.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "On the same circular base, how is the diameter related to the radius?",
+      "options": ["The diameter is half the radius", "The diameter equals the radius", "The diameter is twice the radius", "The diameter is unrelated to the radius"],
+      "correctAnswer": 2,
+      "explanation": "The diameter goes across the circle through the center, so it is two radii long.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "A circular tank lid has a diameter of 18 cm. What is its radius? Enter just the number.",
+      "correctAnswer": "9",
+      "explanation": "The radius is half the diameter, and 18 / 2 = 9.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "The paper label wrapped around a can covers the curved surface of the cylinder.",
+      "correctAnswer": "true",
+      "explanation": "The label wraps around the rounded side, which is the curved surface.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A can stands upright on a table. Which measurement is its height?",
+      "options": ["The distance around the circular top", "The distance from the center of the top to the rim", "The distance from the bottom base to the top base", "The distance across the top circle"],
+      "correctAnswer": 2,
+      "explanation": "Height is the perpendicular distance between the two circular bases.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A cylinder has radius 6 cm. What is the diameter of its base? Enter just the number.",
+      "correctAnswer": "12",
+      "explanation": "The diameter is twice the radius, so 2 x 6 = 12.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Describe how you would label the radius and diameter on the circular top of a cylindrical can.",
+      "correctAnswer": "Mark the center of the circular top. Draw the radius from the center to the edge, and draw the diameter from one edge to the opposite edge through the center.",
+      "explanation": "A complete answer identifies the center, the center-to-edge radius, and the edge-to-edge-through-center diameter.",
+      "points": 14
+    }
+  ]
+}

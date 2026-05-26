@@ -1,0 +1,38 @@
+{
+  "id": "grade-7-math-q2-measurement-volume-lesson-7",
+  "grade": 7,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Pyramid Volume Exploration",
+  "description": "Compare prisms and pyramids with the same base area and height to discover why pyramid volume is one-third of the matching prism volume.",
+  "learningObjectives": [
+    "Identify the base area and height of square and rectangular pyramids",
+    "Compare a prism and a pyramid that have the same base and height",
+    "Explain why three matching pyramids fill one matching prism",
+    "Use V = (1/3)Bh to find the volume of a pyramid"
+  ],
+  "prerequisites": [
+    "Find the area of squares and rectangles",
+    "Multiply whole numbers and decimals",
+    "Recognize height as the perpendicular distance from base to top",
+    "Understand that volume is measured in cubic units"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "measurement",
+    "geometry",
+    "volume",
+    "pyramids",
+    "prisms",
+    "base area",
+    "height"
+  ],
+  "lastUpdated": "2026-05-26",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

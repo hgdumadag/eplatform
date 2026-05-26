@@ -1,0 +1,94 @@
+{
+  "examId": "grade-7-math-q2-measurement-volume-lesson-1-measurement-systems-practice",
+  "examType": "practice",
+  "title": "Measurement Systems Practice",
+  "description": "Practice identifying SI units and completing common metric conversion paths.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which unit is a common SI unit for length?",
+      "options": [
+        "gram",
+        "liter",
+        "meter",
+        "degree"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The meter is the common SI base unit used for length.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which conversion fact is correct?",
+      "options": [
+        "1 m = 10 cm",
+        "1 m = 100 cm",
+        "1 m = 1000 cm",
+        "1 cm = 100 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "There are 100 centimeters in 1 meter.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "Convert 4 m to centimeters. Write the number only.",
+      "correctAnswer": "400",
+      "explanation": "Meters are larger than centimeters, so multiply by 100: 4 m = 400 cm.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "Convert 3000 g to kilograms. Write the number only.",
+      "correctAnswer": "3",
+      "explanation": "There are 1000 grams in 1 kilogram, so 3000 g divided by 1000 equals 3 kg.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "When converting from meters to centimeters, the number gets larger because centimeters are smaller units.",
+      "correctAnswer": "true",
+      "explanation": "A smaller unit needs more units to describe the same length, so meters to centimeters uses multiplication by 100.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Which unit is most appropriate for the capacity of a small water bottle?",
+      "options": [
+        "milliliters",
+        "kilometers",
+        "grams",
+        "square meters"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Capacity is measured in liters or milliliters. A small bottle is commonly measured in milliliters.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "Convert 2.5 L to milliliters. Write the number only.",
+      "correctAnswer": "2500",
+      "explanation": "There are 1000 milliliters in 1 liter, so 2.5 L = 2500 mL.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain why 100 cm and 1 m describe the same length.",
+      "correctAnswer": "They describe the same length because 1 meter is equal to 100 centimeters; the unit changed but the actual distance did not.",
+      "explanation": "A correct answer should state the conversion fact and explain that converting units does not change the measured amount.",
+      "points": 10
+    }
+  ]
+}

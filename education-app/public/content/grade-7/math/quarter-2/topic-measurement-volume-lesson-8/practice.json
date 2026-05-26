@@ -1,0 +1,100 @@
+{
+  "examId": "grade-7-math-q2-measurement-volume-lesson-8-practice",
+  "examType": "practice",
+  "title": "Measurement and Geometry - Lesson 8 Practice: Square Pyramid Volume",
+  "description": "Practice finding square pyramid volume using base side length, vertical height, and correct cubic units.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which formula finds the volume of a square pyramid with base side length s and vertical height h?",
+      "options": [
+        "V = s^2h",
+        "V = (1/3)s^2h",
+        "V = 4sh",
+        "V = (1/2)sh"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A square pyramid has one-third the volume of a square prism with the same base area and height, so V = (1/3)s^2h.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A square pyramid has base side length 6 cm and vertical height 9 cm. What is its volume?",
+      "options": [
+        "54 cm^3",
+        "108 cm^3",
+        "162 cm^3",
+        "324 cm^3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The base area is 6^2 = 36 cm^2. V = (1/3)(36)(9) = 108 cm^3.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "A square pyramid has side length 3 m and vertical height 12 m. Enter the volume as a number only.",
+      "correctAnswer": "36",
+      "explanation": "V = (1/3)(3^2)(12) = (1/3)(9)(12) = 36 m^3.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "The slant height of a square pyramid is always the height used in the volume formula.",
+      "correctAnswer": "false",
+      "explanation": "Volume uses vertical height, the straight distance from the base to the top vertex. Slant height runs along a triangular face.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A square pyramid has base side length 10 ft and vertical height 6 ft. Which setup correctly finds its volume?",
+      "options": [
+        "V = (1/3)(10)(6)",
+        "V = (1/3)(10^2)(6)",
+        "V = (10^2)(6)",
+        "V = (1/2)(10)(6)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The base area is s^2, so the correct setup is V = (1/3)(10^2)(6).",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A square pyramid has base area 64 in^2 and vertical height 15 in. What is its volume?",
+      "options": [
+        "80 in^3",
+        "160 in^3",
+        "320 in^3",
+        "960 in^3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Use V = (1/3)Bh. V = (1/3)(64)(15) = 320 in^3.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A square pyramid has base side length 9 cm and vertical height 4 cm. Enter the volume as a number only.",
+      "correctAnswer": "108",
+      "explanation": "V = (1/3)(9^2)(4) = (1/3)(81)(4) = 108 cm^3.",
+      "points": 12
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A square pyramid problem gives vertical height 7 cm and slant height 11 cm. Which height should be used for volume, and why?",
+      "correctAnswer": "Use the vertical height, 7 cm, because the volume formula uses the straight height perpendicular to the base, not the slant height along a side face.",
+      "explanation": "The vertical height measures the prism-like height used in V = (1/3)Bh. Slant height is not used for volume.",
+      "points": 16
+    }
+  ]
+}

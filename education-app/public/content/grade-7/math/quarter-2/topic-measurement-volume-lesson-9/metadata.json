@@ -1,0 +1,38 @@
+{
+  "id": "grade-7-math-q2-measurement-volume-lesson-9",
+  "grade": 7,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Rectangular Pyramid Volume",
+  "description": "Calculate and estimate volumes of rectangular pyramids using V = (1/3)lwh, with attention to base area, height, context, and cubic unit labels.",
+  "learningObjectives": [
+    "Identify the length, width, and perpendicular height needed for a rectangular pyramid volume calculation",
+    "Use V = (1/3)lwh to calculate the volume of rectangular pyramids",
+    "Estimate rectangular pyramid volumes by rounding dimensions before computing",
+    "Write volume answers with appropriate cubic units and interpret them in context"
+  ],
+  "prerequisites": [
+    "Find the area of a rectangle using length times width",
+    "Multiply whole numbers and decimals",
+    "Divide by 3",
+    "Recognize that volume is measured in cubic units"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "measurement",
+    "geometry",
+    "volume",
+    "rectangular pyramids",
+    "estimation",
+    "cubic units",
+    "word problems"
+  ],
+  "lastUpdated": "2026-05-26",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

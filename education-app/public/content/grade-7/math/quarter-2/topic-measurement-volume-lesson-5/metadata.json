@@ -1,0 +1,39 @@
+{
+  "id": "grade-7-math-q2-measurement-volume-lesson-5-cylinder-volume-practice",
+  "grade": 7,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Cylinder Volume Practice",
+  "description": "Calculate the volume of cylinders from radius or diameter and height, using appropriate pi approximations and correct cubic units.",
+  "learningObjectives": [
+    "Identify the radius, diameter, and height needed to find cylinder volume",
+    "Use the formula V = pi r squared h to calculate cylinder volume",
+    "Convert diameter to radius before substituting into the volume formula",
+    "Use pi approximations such as 3.14 or 22/7 when appropriate",
+    "Label cylinder volume answers with correct cubic units"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "measurement",
+    "geometry",
+    "volume",
+    "cylinders",
+    "radius",
+    "diameter",
+    "cubic-units"
+  ],
+  "lastUpdated": "2026-05-26",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  },
+  "prerequisites": [
+    "Area of a circle",
+    "Radius and diameter",
+    "Multiplication with decimals",
+    "Cubic units"
+  ]
+}

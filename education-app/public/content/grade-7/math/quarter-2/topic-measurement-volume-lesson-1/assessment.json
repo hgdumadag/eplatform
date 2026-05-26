@@ -1,0 +1,116 @@
+{
+  "examId": "grade-7-math-q2-measurement-volume-lesson-1-measurement-systems-assessment",
+  "examType": "assessment",
+  "title": "Measurement Systems Assessment",
+  "description": "Complete conversion ladders and explain common metric conversion paths for SI units.",
+  "passingScore": 75,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which list contains only common metric units?",
+      "options": [
+        "meter, gram, liter",
+        "inch, foot, yard",
+        "mile, pound, gallon",
+        "degree, hour, peso"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Meters, grams, and liters are common metric units for length, mass, and capacity.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Complete the conversion ladder: km -> m -> cm -> mm. Which factor converts meters to centimeters?",
+      "options": [
+        "multiply by 10",
+        "multiply by 100",
+        "divide by 100",
+        "divide by 1000"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since 1 meter equals 100 centimeters, converting meters to centimeters means multiplying by 100.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "Convert 0.75 km to meters. Write the number only.",
+      "correctAnswer": "750",
+      "explanation": "There are 1000 meters in 1 kilometer, so 0.75 km multiplied by 1000 equals 750 m.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "Convert 125 cm to meters. Write the number only.",
+      "correctAnswer": "1.25",
+      "explanation": "There are 100 centimeters in 1 meter, so 125 cm divided by 100 equals 1.25 m.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "A conversion ladder helps show whether to multiply or divide by powers of 10.",
+      "correctAnswer": "true",
+      "explanation": "Metric conversion ladders organize units by size, which helps you decide whether the number should get larger or smaller.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Which conversion should make the number smaller?",
+      "options": [
+        "meters to centimeters",
+        "liters to milliliters",
+        "kilograms to grams",
+        "millimeters to centimeters"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Millimeters are smaller than centimeters, so converting millimeters to centimeters uses fewer larger units and the number gets smaller.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "Convert 6400 mL to liters. Write the number only.",
+      "correctAnswer": "6.4",
+      "explanation": "There are 1000 milliliters in 1 liter, so 6400 mL divided by 1000 equals 6.4 L.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Which measurement type is matched correctly with its unit?",
+      "options": [
+        "Area: meters",
+        "Mass: liters",
+        "Capacity: grams",
+        "Volume: cubic meters"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Volume measures three-dimensional space and can be measured in cubic meters.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A learner converts 5 kg to 0.005 g. Correct the mistake.",
+      "correctAnswer": "The learner divided instead of multiplying. Since grams are smaller than kilograms, 5 kg = 5000 g.",
+      "explanation": "To convert kilograms to grams, multiply by 1000 because 1 kg equals 1000 g.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Complete and explain this conversion path: 2 m -> ___ cm -> ___ mm.",
+      "correctAnswer": "2 m = 200 cm = 2000 mm. Multiply by 100 to change meters to centimeters, then multiply by 10 to change centimeters to millimeters.",
+      "explanation": "A complete answer should show both steps and use the facts 1 m = 100 cm and 1 cm = 10 mm.",
+      "points": 10
+    }
+  ]
+}

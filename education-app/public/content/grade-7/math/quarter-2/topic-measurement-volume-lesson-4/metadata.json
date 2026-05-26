@@ -1,0 +1,39 @@
+{
+  "id": "grade-7-math-q2-measurement-volume-lesson-4",
+  "grade": 7,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Deriving Cylinder Volume",
+  "description": "Connect the volume of a cylinder to the area of its circular base multiplied by its height.",
+  "learningObjectives": [
+    "Identify the circular base and height of a cylinder",
+    "Explain why a cylinder can be viewed as equal circular layers stacked upward",
+    "Use the circular base area formula A = pi r^2 to derive V = pi r^2 h",
+    "Calculate cylinder volume from radius and height using correct cubic units",
+    "Explain the meaning of each part of V = pi r^2 h in words"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "beginner",
+  "tags": [
+    "measurement",
+    "geometry",
+    "volume",
+    "cylinder",
+    "base-area",
+    "height",
+    "pi"
+  ],
+  "lastUpdated": "2026-05-26",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  },
+  "prerequisites": [
+    "Identify radius and diameter in a circle",
+    "Find the area of a circle using A = pi r^2",
+    "Multiply whole numbers and decimals",
+    "Recognize that volume is measured in cubic units"
+  ]
+}
