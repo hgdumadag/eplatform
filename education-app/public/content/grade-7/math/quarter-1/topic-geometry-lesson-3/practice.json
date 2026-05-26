@@ -1,0 +1,80 @@
+{
+  "examId": "grade-7-math-q1-geometry-lesson-3-practice",
+  "examType": "practice",
+  "title": "Triangles and Quadrilaterals by Angles Practice",
+  "description": "Practice checking triangle and quadrilateral angle conditions.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What is the sum of the interior angles of any triangle?",
+      "options": ["90 degrees", "180 degrees", "270 degrees", "360 degrees"],
+      "correctAnswer": 1,
+      "explanation": "The three interior angles of every triangle add to 180 degrees.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Can a triangle have angles 40 degrees, 60 degrees, and 80 degrees?",
+      "options": ["Yes, because the angles add to 180 degrees", "Yes, because all angles are acute", "No, because the angles add to 160 degrees", "No, because a triangle must have a right angle"],
+      "correctAnswer": 0,
+      "explanation": "40 + 60 + 80 = 180, so the triangle is possible.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "A triangle has angles 55 degrees, 75 degrees, and x. What is x? Enter just the number.",
+      "correctAnswer": "50",
+      "explanation": "55 + 75 = 130, and 180 - 130 = 50.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "A triangle with angles 90 degrees, 60 degrees, and 40 degrees is possible.",
+      "correctAnswer": "false",
+      "explanation": "90 + 60 + 40 = 190, which is greater than 180.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "What is the sum of the interior angles of any quadrilateral?",
+      "options": ["180 degrees", "270 degrees", "360 degrees", "540 degrees"],
+      "correctAnswer": 2,
+      "explanation": "The four interior angles of every quadrilateral add to 360 degrees.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A quadrilateral has angles 80 degrees, 100 degrees, 90 degrees, and x. What is x? Enter just the number.",
+      "correctAnswer": "90",
+      "explanation": "80 + 100 + 90 = 270, and 360 - 270 = 90.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which set of angles can form a quadrilateral?",
+      "options": ["80, 80, 80, 80", "90, 90, 90, 90", "100, 100, 100, 100", "120, 120, 120, 120"],
+      "correctAnswer": 1,
+      "explanation": "90 + 90 + 90 + 90 = 360, so this set can form a quadrilateral.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain whether a triangle with angles 30 degrees, 70 degrees, and 90 degrees is possible.",
+      "correctAnswer": "It is impossible because 30 + 70 + 90 = 190, but triangle angles must add to 180 degrees.",
+      "explanation": "A correct explanation must compare the angle sum to 180 degrees.",
+      "points": 14
+    }
+  ]
+}

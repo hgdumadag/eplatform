@@ -1,0 +1,79 @@
+{
+  "examId": "grade-7-math-q1-geometry-lesson-8-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 8 Practice: Number of Sides and Angle Sums",
+  "description": "Practice using triangle decomposition and polygon angle-sum patterns.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What formula gives the interior angle sum of an n-sided polygon?",
+      "options": ["n x 180", "(n - 1) x 180", "(n - 2) x 180", "(n + 2) x 180"],
+      "correctAnswer": 2,
+      "explanation": "An n-sided polygon can be divided into n - 2 triangles, and each triangle has an angle sum of 180 degrees.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "What is the interior angle sum of a hexagon?",
+      "options": ["360 degrees", "540 degrees", "720 degrees", "900 degrees"],
+      "correctAnswer": 2,
+      "explanation": "A hexagon has 6 sides, so (6 - 2) x 180 = 4 x 180 = 720 degrees.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "A decagon has 10 sides. What is its interior angle sum? Enter just the number.",
+      "correctAnswer": "1440",
+      "explanation": "Use (10 - 2) x 180 = 8 x 180 = 1440.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "From one vertex, how many triangles can a pentagon be divided into?",
+      "options": ["2", "3", "4", "5"],
+      "correctAnswer": 1,
+      "explanation": "A pentagon has 5 sides, so it forms 5 - 2 = 3 triangles from one vertex.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "Find one interior angle of a regular octagon. Enter just the number.",
+      "correctAnswer": "135",
+      "explanation": "The total angle sum is (8 - 2) x 180 = 1080. Divide by 8: 1080 / 8 = 135.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "A regular polygon's total interior angle sum is divided by the number of sides to find one interior angle.",
+      "correctAnswer": "true",
+      "explanation": "A regular polygon has equal interior angles, and it has one interior angle at each vertex.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A polygon has an interior angle sum of 900 degrees. How many sides does it have? Enter just the number.",
+      "correctAnswer": "7",
+      "explanation": "(n - 2) x 180 = 900, so n - 2 = 5 and n = 7.",
+      "points": 12
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain why a quadrilateral has an interior angle sum of 360 degrees.",
+      "correctAnswer": "A quadrilateral can be divided into 2 triangles from one vertex. Each triangle has an angle sum of 180 degrees, so 2 x 180 = 360 degrees.",
+      "explanation": "The explanation should connect triangle decomposition to the total angle sum.",
+      "points": 16
+    }
+  ]
+}

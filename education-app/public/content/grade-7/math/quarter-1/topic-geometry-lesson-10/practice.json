@@ -1,0 +1,80 @@
+{
+  "examId": "grade-7-math-q1-geometry-lesson-10-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 10 Practice: Quarter Polygon Portfolio",
+  "description": "Practice the classification, measurement, and explanation skills needed for a polygon portfolio.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which item best belongs in a polygon portfolio entry?",
+      "options": ["Only the polygon name", "A drawing, labels, classifications, and a reason", "Only a colorful border", "A list of formulas with no examples"],
+      "correctAnswer": 1,
+      "explanation": "A strong portfolio entry includes the figure, labels, classifications, and reasoning.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A polygon has 10 sides, all sides equal, all angles equal, and no interior angle greater than 180 degrees. Which classification is best?",
+      "options": ["Irregular non-convex decagon", "Regular convex decagon", "Regular non-convex octagon", "Irregular convex pentagon"],
+      "correctAnswer": 1,
+      "explanation": "Ten sides make a decagon. Equal sides and equal angles make it regular. No interior angle greater than 180 degrees makes it convex.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A portfolio defense should explain why a classification or measurement is correct.",
+      "correctAnswer": "true",
+      "explanation": "A defense is a reasoned explanation, not just an answer.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "Find the interior angle sum of a hexagon. Enter just the number.",
+      "correctAnswer": "720",
+      "explanation": "A hexagon has 6 sides, so the sum is (6 - 2) x 180 = 720 degrees.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which detail proves that a polygon is irregular?",
+      "options": ["It is closed.", "It has straight sides.", "At least one side or angle is not equal to the others.", "It has vertices."],
+      "correctAnswer": 2,
+      "explanation": "A regular polygon has all sides and all angles equal. If that condition fails, the polygon is irregular.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Each exterior angle of a regular decagon measures how many degrees? Enter just the number.",
+      "correctAnswer": "36",
+      "explanation": "The exterior angles of a convex polygon sum to 360 degrees. For a regular decagon, 360 / 10 = 36.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A student draws an octagon with one inward dent and one interior angle greater than 180 degrees. How should it be classified by convexity?",
+      "options": ["Convex", "Non-convex", "Regular", "Not a polygon"],
+      "correctAnswer": 1,
+      "explanation": "A polygon with an inward dent and an interior angle greater than 180 degrees is non-convex.",
+      "points": 12
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Write a two-sentence defense for this portfolio claim: A figure is a regular hexagon.",
+      "correctAnswer": "The figure is a hexagon because it has 6 sides. It is regular because all 6 sides are equal and all 6 interior angles are equal.",
+      "explanation": "A complete defense should mention the side count and both requirements for regularity: equal sides and equal angles.",
+      "points": 16
+    }
+  ]
+}

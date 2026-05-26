@@ -1,0 +1,36 @@
+{
+  "id": "grade-7-math-q1-geometry-lesson-1-polygon-vocabulary",
+  "grade": 7,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Polygon Vocabulary",
+  "description": "Define and use basic polygon vocabulary, including side, vertex, diagonal, regular polygon, and irregular polygon.",
+  "learningObjectives": [
+    "Define polygon, side, vertex, diagonal, regular polygon, and irregular polygon",
+    "Identify examples and non-examples of polygons",
+    "Label sides, vertices, and diagonals in a polygon",
+    "Classify simple polygons as regular or irregular using side and angle information"
+  ],
+  "estimatedDuration": 35,
+  "difficulty": "beginner",
+  "tags": [
+    "geometry",
+    "measurement-and-geometry",
+    "polygons",
+    "vocabulary",
+    "regular-polygons",
+    "irregular-polygons"
+  ],
+  "lastUpdated": "2026-05-26",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  },
+  "prerequisites": [
+    "Recognizing straight and curved lines",
+    "Counting sides and corners of plane figures",
+    "Using a ruler to compare side lengths"
+  ]
+}

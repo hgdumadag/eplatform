@@ -1,0 +1,96 @@
+{
+  "examId": "grade-7-math-q1-geometry-lesson-9-assessment",
+  "examType": "assessment",
+  "title": "Polygon Challenge Problems Assessment",
+  "description": "Show mastery of polygon side-count, angle, regularity, and convexity reasoning.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "fill-in",
+      "question": "A regular polygon has one exterior angle measuring 30 degrees. How many sides does it have? Enter just the number.",
+      "correctAnswer": "12",
+      "explanation": "The exterior angles total 360 degrees. 360 / 30 = 12 sides.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A side of a polygon is extended. The exterior angle is 72 degrees. What is the adjacent interior angle?",
+      "options": ["18 degrees", "72 degrees", "108 degrees", "144 degrees"],
+      "correctAnswer": 2,
+      "explanation": "The adjacent interior and exterior angles form a straight angle, so 180 - 72 = 108.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "Find the interior angle sum of a decagon. Enter just the number of degrees.",
+      "correctAnswer": "1440",
+      "explanation": "A decagon has 10 sides, so the interior angle sum is (10 - 2) x 180 = 1440 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A convex pentagon has four angles measuring 100 degrees, 105 degrees, 115 degrees, and 120 degrees. What is the fifth angle?",
+      "options": ["80 degrees", "90 degrees", "100 degrees", "110 degrees"],
+      "correctAnswer": 2,
+      "explanation": "A pentagon angle sum is (5 - 2) x 180 = 540. The four known angles add to 440, so the fifth angle is 100 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "If a polygon is regular, then it is both equilateral and equiangular.",
+      "correctAnswer": "true",
+      "explanation": "Regular means all sides are equal and all angles are equal.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Which clue proves that a polygon is non-convex?",
+      "options": ["It has 8 sides.", "It has one interior angle of 205 degrees.", "It has unequal side lengths.", "It has one diagonal."],
+      "correctAnswer": 1,
+      "explanation": "An interior angle greater than 180 degrees proves the polygon is non-convex.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A regular octagon has equal exterior angles. Find one exterior angle. Enter just the number.",
+      "correctAnswer": "45",
+      "explanation": "A regular octagon has 8 equal exterior angles, so 360 / 8 = 45 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A polygon has 6 sides, all sides equal, but its angles are not all equal. What is the best classification?",
+      "options": ["Regular hexagon", "Irregular hexagon", "Regular pentagon", "Not a polygon"],
+      "correctAnswer": 1,
+      "explanation": "Six sides make it a hexagon. Since the angles are not all equal, it is irregular.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A diagram shows a convex quadrilateral with angles 88 degrees, 112 degrees, 75 degrees, and x. Write an equation and solve for x.",
+      "correctAnswer": "88 + 112 + 75 + x = 360, so x = 85 degrees.",
+      "explanation": "A quadrilateral has interior angle sum 360 degrees. The known angles add to 275, so x = 85.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A regular polygon has one exterior angle of 40 degrees. Name the polygon by number of sides and explain your reasoning.",
+      "correctAnswer": "It has 9 sides, so it is a nonagon. Since 360 / 40 = 9, the regular polygon has 9 equal exterior angles.",
+      "explanation": "Regular polygon exterior angles are equal and total 360 degrees. Dividing by 40 gives 9 sides.",
+      "points": 10
+    }
+  ]
+}

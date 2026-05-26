@@ -1,0 +1,39 @@
+{
+  "id": "grade-7-math-q1-geometry-lesson-4",
+  "grade": 7,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Regular Polygons",
+  "description": "Compare equal sides and equal angles to decide whether polygons are regular or irregular.",
+  "learningObjectives": [
+    "Define a regular polygon using equal side lengths and equal angle measures",
+    "Compare measured sides and angles to classify polygons as regular or irregular",
+    "Distinguish between regularity and the number of sides of a polygon",
+    "Use ruler and protractor evidence to justify a polygon classification",
+    "Identify common measurement errors when checking regular polygons"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "beginner",
+  "tags": [
+    "geometry",
+    "measurement",
+    "regular-polygons",
+    "irregular-polygons",
+    "sides",
+    "angles",
+    "classification"
+  ],
+  "lastUpdated": "2026-05-26",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  },
+  "prerequisites": [
+    "Identify polygons by number of sides",
+    "Measure length with a ruler",
+    "Measure angles with a protractor",
+    "Recognize vertices and sides of a polygon"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "grade-7-math-q1-geometry-lesson-7",
+  "grade": 7,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Interior and Exterior Angles",
+  "description": "Relate exterior angles to adjacent interior angles in polygons, then write and solve angle equations.",
+  "learningObjectives": [
+    "Identify an interior angle and its adjacent exterior angle",
+    "Explain why an exterior angle and its adjacent interior angle form a linear pair",
+    "Write equations involving exterior and adjacent interior angles",
+    "Solve for missing interior or exterior angle measures"
+  ],
+  "prerequisites": [
+    "Recognize sides, vertices, and angles of polygons",
+    "Describe adjacent angles",
+    "Know that a straight angle measures 180 degrees",
+    "Solve one-step addition and subtraction equations"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": ["geometry", "measurement", "polygons", "interior angles", "exterior angles", "linear pairs", "angle equations"],
+  "lastUpdated": "2026-05-26",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

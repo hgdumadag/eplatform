@@ -1,0 +1,80 @@
+{
+  "examId": "grade-7-math-q1-geometry-lesson-7-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 7 Practice: Interior and Exterior Angles",
+  "description": "Practice relating adjacent interior and exterior angles and solving angle equations.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "An interior angle of a polygon is 112 degrees. What is the measure of the adjacent exterior angle?",
+      "options": ["58 degrees", "68 degrees", "78 degrees", "112 degrees"],
+      "correctAnswer": 1,
+      "explanation": "Adjacent interior and exterior angles form a straight line, so 180 - 112 = 68.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "An adjacent exterior angle is 47 degrees. What is the measure of the interior angle beside it?",
+      "options": ["43 degrees", "47 degrees", "133 degrees", "143 degrees"],
+      "correctAnswer": 2,
+      "explanation": "The two adjacent angles are supplementary, so 180 - 47 = 133.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "An exterior angle and its adjacent interior angle at the same polygon vertex always add to 180 degrees.",
+      "correctAnswer": "true",
+      "explanation": "They form a linear pair because one side of the polygon has been extended into a straight line.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "An interior angle is 95 degrees. Find the adjacent exterior angle. Enter just the number.",
+      "correctAnswer": "85",
+      "explanation": "Use 95 + e = 180. Then e = 85.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which equation represents an interior angle x and an adjacent exterior angle of 74 degrees?",
+      "options": ["x = 74", "x + 74 = 90", "x + 74 = 180", "x - 74 = 180"],
+      "correctAnswer": 2,
+      "explanation": "Adjacent interior and exterior angles are supplementary, so their measures add to 180.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Solve for x: x + 39 = 180. Enter just the number.",
+      "correctAnswer": "141",
+      "explanation": "Subtract 39 from both sides: x = 180 - 39 = 141.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A polygon side is extended at a vertex. Which angle is called the exterior angle?",
+      "options": ["The angle inside the polygon at the vertex", "The angle outside the polygon formed by the extended side", "Any angle with measure greater than 90 degrees", "The angle across from the vertex"],
+      "correctAnswer": 1,
+      "explanation": "An exterior angle is outside the polygon and is formed when a side is extended.",
+      "points": 12
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A student writes x = 52 for an interior angle x beside an exterior angle of 52 degrees. Explain the mistake and give the correct value of x.",
+      "correctAnswer": "The student treated the adjacent interior and exterior angles as equal. They should add to 180 degrees, so x + 52 = 180 and x = 128 degrees.",
+      "explanation": "The correct relationship is supplementary, not equal. The adjacent interior angle is 180 - 52 = 128 degrees.",
+      "points": 16
+    }
+  ]
+}
