@@ -4,6 +4,13 @@
 >
 > Calculate the volume of cylinders when you are given a radius or a diameter and a height. Your final answer must use correct cubic units.
 
+## Visual Model
+
+![Cylinder volume diagram showing diameter converted to radius](images/cylinder-volume-radius-diameter.svg)
+
+If the problem gives diameter, divide by 2 before using V = pi r squared h.
+
+
 ## Warm-Up: What Do You Notice?
 
 Think about a drinking glass, a can, or a round water tank.

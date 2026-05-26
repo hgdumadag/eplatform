@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Container volume design comparison</title>
+  <desc id="desc">A cylinder and rectangular pyramid container with formulas for comparing capacity.</desc>
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <ellipse cx="160" cy="90" rx="80" ry="28" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/><path d="M80 90 V230 C80 250 240 250 240 230 V90" fill="#eff6ff" stroke="#2563eb" stroke-width="4"/><ellipse cx="160" cy="230" rx="80" ry="28" fill="none" stroke="#2563eb" stroke-width="4"/>
+  <text x="70" y="300" font-family="Arial" font-size="22">Cylinder</text><text x="55" y="330" font-family="Arial" font-size="20">V = πr²h</text>
+  <polygon points="430,240 620,240 675,195 485,195" fill="#fef3c7" stroke="#d97706" stroke-width="4"/><line x1="555" y1="75" x2="430" y2="240" stroke="#d97706" stroke-width="4"/><line x1="555" y1="75" x2="620" y2="240" stroke="#d97706" stroke-width="4"/><line x1="555" y1="75" x2="675" y2="195" stroke="#d97706" stroke-width="4"/>
+  <text x="450" y="300" font-family="Arial" font-size="22">Pyramid</text><text x="420" y="330" font-family="Arial" font-size="20">V = 1/3Bh</text>
+  <text x="292" y="160" font-family="Arial" font-size="24" font-weight="700">Compare capacity</text>
+</svg>

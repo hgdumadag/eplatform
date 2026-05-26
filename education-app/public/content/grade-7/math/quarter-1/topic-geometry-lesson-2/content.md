@@ -4,6 +4,13 @@
 >
 > By the end of this lesson, you should be able to draw polygons with 5, 6, 8, or 10 sides using a ruler and protractor, then check whether the side lengths and angle measures match the given conditions.
 
+## Visual Model
+
+![Ruler and protractor construction steps for drawing a polygon](images/polygon-construction-steps.svg)
+
+Construction work alternates between measuring a side and turning by an angle.
+
+
 ## Estimated Time and Materials
 
 | Item | Details |

@@ -4,6 +4,13 @@
 >
 > Construct or sketch triangles and quadrilaterals from angle conditions, then explain whether the figure is possible.
 
+## Visual Model
+
+![Triangle and quadrilateral angle sum checks](images/angle-condition-check.svg)
+
+A figure can be constructed only when its angle conditions match the shape rules.
+
+
 ## Quick Look
 
 A roof truss, a kite frame, and a folded paper corner all use angles. If the angle conditions do not fit the shape, the drawing cannot be made correctly.

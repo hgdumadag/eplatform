@@ -28,7 +28,10 @@
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/regular-vs-irregular-polygons.svg"
+    ]
   },
   "prerequisites": [
     "Identify polygons by number of sides",

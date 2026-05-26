@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Angle condition checks</title>
+  <desc id="desc">Triangle angle sum equals 180 degrees and quadrilateral angle sum equals 360 degrees.</desc>
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <polygon points="120,270 245,80 370,270" fill="#fee2e2" stroke="#b91c1c" stroke-width="5"/>
+  <text x="105" y="295" font-family="Arial" font-size="20">50°</text><text x="230" y="74" font-family="Arial" font-size="20">60°</text><text x="352" y="295" font-family="Arial" font-size="20">70°</text>
+  <text x="150" y="330" font-family="Arial" font-size="22" font-weight="700">50 + 60 + 70 = 180°</text>
+  <polygon points="460,95 625,120 585,280 430,250" fill="#e0f2fe" stroke="#0369a1" stroke-width="5"/>
+  <text x="452" y="90" font-family="Arial" font-size="20">95°</text><text x="632" y="128" font-family="Arial" font-size="20">85°</text><text x="590" y="298" font-family="Arial" font-size="20">100°</text><text x="382" y="258" font-family="Arial" font-size="20">80°</text>
+  <text x="434" y="330" font-family="Arial" font-size="22" font-weight="700">Sum = 360°</text>
+</svg>

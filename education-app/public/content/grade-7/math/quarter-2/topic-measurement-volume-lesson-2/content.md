@@ -4,6 +4,13 @@
 >
 > By the end of this lesson, you should be able to tell whether a measurement is linear, square, or cubic, then use the correct conversion factor.
 
+## Visual Model
+
+![Comparison of linear square and cubic conversion factors](images/linear-square-cubic-conversions.svg)
+
+When a unit is squared or cubed, the conversion factor is squared or cubed too.
+
+
 ## Estimated Time and Materials
 
 | Item | Details |

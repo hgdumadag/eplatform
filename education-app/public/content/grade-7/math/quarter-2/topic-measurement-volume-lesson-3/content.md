@@ -4,6 +4,13 @@
 >
 > Identify the radius, diameter, height, base, and curved surface of a cylinder so you can label cylinder models correctly.
 
+## Visual Model
+
+![Cylinder showing radius diameter height base and curved surface labels](images/cylinder-anatomy-labels.svg)
+
+Cylinder volume problems depend on identifying the radius, diameter, height, base, and curved surface correctly.
+
+
 ## Quick Look
 
 Think about a can of sardines, a water tank, a tumbler, or a roll of paper towels. Each one is shaped like a cylinder or close to one.

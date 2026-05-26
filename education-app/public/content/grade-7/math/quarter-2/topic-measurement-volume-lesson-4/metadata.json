@@ -28,7 +28,10 @@
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/cylinder-volume-layers.svg"
+    ]
   },
   "prerequisites": [
     "Identify radius and diameter in a circle",

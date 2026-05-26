@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Cylinder volume layers</title>
+  <desc id="desc">Circular base area stacked upward to make cylinder volume.</desc>
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <circle cx="160" cy="190" r="75" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/><line x1="160" y1="190" x2="235" y2="190" stroke="#dc2626" stroke-width="4"/><text x="188" y="180" font-family="Arial" font-size="18">r</text>
+  <text x="80" y="300" font-family="Arial" font-size="22">Base area = πr²</text>
+  <path d="M410 85 C410 60 590 60 590 85 V250 C590 275 410 275 410 250 Z" fill="#e0f2fe" stroke="#0369a1" stroke-width="4"/>
+  <g stroke="#0369a1" stroke-width="2" opacity=".6"><ellipse cx="500" cy="115" rx="90" ry="25" fill="none"/><ellipse cx="500" cy="150" rx="90" ry="25" fill="none"/><ellipse cx="500" cy="185" rx="90" ry="25" fill="none"/><ellipse cx="500" cy="220" rx="90" ry="25" fill="none"/></g>
+  <text x="410" y="315" font-family="Arial" font-size="24" font-weight="700">V = πr²h</text>
+</svg>

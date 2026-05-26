@@ -3,6 +3,13 @@
 > [!GOAL]
 > Create a polygon reference sheet with accurate drawings, labels, classifications, angle relationships, and solved examples. Be ready to defend why each classification and measurement is correct.
 
+## Visual Model
+
+![Sample polygon portfolio entry with drawing labels and solved example](images/polygon-portfolio-sample.svg)
+
+A strong portfolio page combines a diagram, labels, classifications, and a short calculation.
+
+
 ## Warm-Up: What Belongs in a Polygon Portfolio?
 
 Imagine a classmate missed the whole polygon unit. Your portfolio should help that classmate answer three questions:

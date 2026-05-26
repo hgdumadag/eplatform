@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Regular and irregular polygons</title>
+  <desc id="desc">A regular hexagon with equal marks and an irregular hexagon with unequal sides and angles.</desc>
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <polygon points="180,70 280,120 280,240 180,290 80,240 80,120" fill="#ecfccb" stroke="#4d7c0f" stroke-width="5"/>
+  <g stroke="#4d7c0f" stroke-width="4"><line x1="174" y1="96" x2="186" y2="96"/><line x1="260" y1="150" x2="270" y2="142"/><line x1="260" y1="218" x2="270" y2="226"/><line x1="174" y1="264" x2="186" y2="264"/><line x1="90" y1="218" x2="100" y2="226"/><line x1="90" y1="150" x2="100" y2="142"/></g>
+  <text x="96" y="330" font-family="Arial" font-size="24" font-weight="700">Regular</text>
+  <polygon points="470,75 610,120 585,250 455,285 380,205 410,115" fill="#ffedd5" stroke="#c2410c" stroke-width="5"/>
+  <text x="430" y="330" font-family="Arial" font-size="24" font-weight="700">Irregular</text>
+  <text x="64" y="44" font-family="Arial" font-size="18">Equal sides + equal angles</text><text x="384" y="44" font-family="Arial" font-size="18">Measurements do not all match</text>
+</svg>

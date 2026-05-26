@@ -3,6 +3,13 @@
 > [!GOAL]
 > Compare a prism and a pyramid with the same base and height. Use the comparison to explain why a pyramid's volume is `one-third` of the matching prism's volume.
 
+## Visual Model
+
+![Three matching pyramids filling a prism with the same base and height](images/pyramid-prism-one-third.svg)
+
+A pyramid with the same base and height as a prism has one-third of the prism volume.
+
+
 ## Opening: Same Base, Same Height
 
 Imagine a rectangular box and a rectangular pyramid that sit on the same base.

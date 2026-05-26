@@ -4,6 +4,13 @@
 >
 > By the end of this lesson, you should be able to name common SI units and complete simple metric conversion ladders.
 
+## Visual Model
+
+![Metric conversion ladder for kilometers meters centimeters and millimeters](images/measurement-conversion-ladder.svg)
+
+A conversion ladder keeps track of whether each move multiplies or divides by 10, 100, or 1000.
+
+
 ## Study Setup
 
 | Item | Details |

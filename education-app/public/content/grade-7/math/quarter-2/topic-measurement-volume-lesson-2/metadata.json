@@ -29,7 +29,10 @@
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/linear-square-cubic-conversions.svg"
+    ]
   },
   "prerequisites": [
     "Multiply and divide by powers of 10",

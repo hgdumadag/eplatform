@@ -29,7 +29,10 @@
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/polygon-construction-steps.svg"
+    ]
   },
   "prerequisites": [
     "Identify sides and vertices of a polygon",

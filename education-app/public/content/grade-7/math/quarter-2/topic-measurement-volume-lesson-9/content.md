@@ -3,6 +3,13 @@
 > [!GOAL]
 > Calculate and estimate the volume of rectangular pyramids. Use the correct formula, label answers with cubic units, and explain what the volume means in a real situation.
 
+## Visual Model
+
+![Rectangular pyramid with length width and height labels](images/rectangular-pyramid-volume.svg)
+
+For a rectangular pyramid, the base area is length times width.
+
+
 ## Warm-Up: A Box and a Pyramid
 
 Imagine a rectangular gift box and a pyramid-shaped display stand with the same rectangular base and the same height.

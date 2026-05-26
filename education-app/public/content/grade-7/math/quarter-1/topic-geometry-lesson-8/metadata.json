@@ -19,12 +19,23 @@
   ],
   "estimatedDuration": 45,
   "difficulty": "intermediate",
-  "tags": ["geometry", "measurement", "polygons", "angle sums", "interior angles", "regular polygons", "triangle decomposition"],
+  "tags": [
+    "geometry",
+    "measurement",
+    "polygons",
+    "angle sums",
+    "interior angles",
+    "regular polygons",
+    "triangle decomposition"
+  ],
   "lastUpdated": "2026-05-26",
   "version": "1.0",
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/polygon-angle-sum-triangles.svg"
+    ]
   }
 }

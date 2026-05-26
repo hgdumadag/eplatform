@@ -20,12 +20,24 @@
   ],
   "estimatedDuration": 55,
   "difficulty": "intermediate",
-  "tags": ["geometry", "measurement", "polygons", "portfolio", "regular polygons", "irregular polygons", "angle sums", "classification"],
+  "tags": [
+    "geometry",
+    "measurement",
+    "polygons",
+    "portfolio",
+    "regular polygons",
+    "irregular polygons",
+    "angle sums",
+    "classification"
+  ],
   "lastUpdated": "2026-05-26",
   "version": "1.0",
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/polygon-portfolio-sample.svg"
+    ]
   }
 }

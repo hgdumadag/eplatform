@@ -3,6 +3,13 @@
 > [!GOAL]
 > Investigate the pattern in polygon angle sums. Use that pattern to find missing angle measures and to determine how many sides a polygon has.
 
+## Visual Model
+
+![Polygon divided into triangles to show angle sum pattern](images/polygon-angle-sum-triangles.svg)
+
+Drawing diagonals from one vertex shows why an n-sided polygon has n - 2 triangles.
+
+
 ## Warm-Up
 
 Draw a quadrilateral. Pick one vertex and draw one diagonal to split it into triangles.

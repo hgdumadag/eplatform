@@ -4,6 +4,13 @@
 >
 > You will learn how to decide whether a polygon is **regular** by comparing its side lengths and angle measures.
 
+## Visual Model
+
+![Regular polygon compared with irregular polygon](images/regular-vs-irregular-polygons.svg)
+
+Regular polygons have equal sides and equal angles; irregular polygons fail at least one test.
+
+
 ## Start With a Shape Check
 
 Look at a floor tile, a stop sign, or a honeycomb pattern. Some shapes look balanced because every side and every angle match. Other shapes have the same number of sides but still look stretched, slanted, or uneven.

@@ -3,6 +3,13 @@
 > [!GOAL]
 > Calculate the volume of square pyramids by finding the square base area, using the vertical height, and writing the answer in cubic units.
 
+## Visual Model
+
+![Square pyramid with side length and vertical height labels](images/square-pyramid-volume.svg)
+
+For a square pyramid, find the square base area first, then multiply by height and one-third.
+
+
 ## Warm-Up: What Shape Is Being Filled?
 
 Imagine a small square-based display box with four triangular sides meeting at one point.

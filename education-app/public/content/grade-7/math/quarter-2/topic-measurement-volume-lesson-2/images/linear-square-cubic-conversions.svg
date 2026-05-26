@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Linear square and cubic conversions</title>
+  <desc id="desc">Line, square, and cube showing conversion factors by dimension.</desc>
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <line x1="80" y1="120" x2="210" y2="120" stroke="#2563eb" stroke-width="8"/><text x="80" y="165" font-family="Arial" font-size="20">1 m = 100 cm</text>
+  <rect x="295" y="70" width="110" height="110" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/><text x="267" y="220" font-family="Arial" font-size="20">1 m² = 10,000 cm²</text>
+  <polygon points="520,95 610,55 670,100 580,145" fill="#fde68a" stroke="#d97706" stroke-width="3"/><polygon points="520,95 580,145 580,245 520,195" fill="#fef3c7" stroke="#d97706" stroke-width="3"/><polygon points="580,145 670,100 670,200 580,245" fill="#fcd34d" stroke="#d97706" stroke-width="3"/>
+  <text x="485" y="285" font-family="Arial" font-size="20">1 m³ = 1,000,000 cm³</text>
+</svg>

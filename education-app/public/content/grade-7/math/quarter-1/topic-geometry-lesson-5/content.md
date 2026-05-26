@@ -4,6 +4,13 @@
 >
 > Sort polygons by shape behavior. By the end, you should be able to decide whether a polygon is convex or non-convex and justify your answer using interior angles or diagonals.
 
+## Visual Model
+
+![Convex polygon compared with non-convex polygon](images/convex-nonconvex-polygons.svg)
+
+A non-convex polygon has an inward corner and at least one interior angle greater than 180 degrees.
+
+
 ## Warm-Up: What Do You Notice?
 
 Look around a classroom, notebook, or tiled floor. Some shapes look like they bulge outward. Others may have a dent or inward corner.

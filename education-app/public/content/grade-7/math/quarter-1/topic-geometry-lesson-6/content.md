@@ -3,6 +3,13 @@
 > [!GOAL]
 > Describe complementary, supplementary, vertical, and adjacent angles. Use those relationships to find missing angle measures.
 
+## Visual Model
+
+![Complementary supplementary vertical and adjacent angle pairs](images/angle-pair-relationships.svg)
+
+Angle-pair names describe how angles are positioned and how their measures are related.
+
+
 ## Warm-Up
 
 Look at a pair of scissors, a street crossing, or two sticks crossing on a desk.
