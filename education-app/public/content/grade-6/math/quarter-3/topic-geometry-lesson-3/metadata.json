@@ -3,7 +3,7 @@
   "grade": 6,
   "subject": "math",
   "quarter": 3,
-  "topicName": "Geometry - Lesson 3",
+  "topicName": "Geometry - Lesson 3: Volume of Cubes",
   "description": "Model cube volume with unit cubes and use side length to calculate volume.",
   "learningObjectives": [
     "Model the volume of a cube using unit cubes",
@@ -21,7 +21,14 @@
   ],
   "estimatedDuration": 40,
   "difficulty": "beginner",
-  "tags": ["geometry", "measurement", "volume", "cubes", "unit cubes", "cubic units"],
+  "tags": [
+    "geometry",
+    "measurement",
+    "volume",
+    "cubes",
+    "unit cubes",
+    "cubic units"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {

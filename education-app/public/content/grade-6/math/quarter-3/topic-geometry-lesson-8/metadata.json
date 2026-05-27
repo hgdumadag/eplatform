@@ -3,7 +3,7 @@
   "grade": 6,
   "subject": "math",
   "quarter": 3,
-  "topicName": "Geometry - Lesson 8",
+  "topicName": "Geometry - Lesson 8: Perimeter of Composite Figures",
   "description": "Find the perimeter of composite figures by tracing the outside boundary, finding missing side lengths, and adding all outer sides.",
   "learningObjectives": [
     "Trace the outside boundary of a composite figure",
@@ -21,7 +21,15 @@
   ],
   "estimatedDuration": 45,
   "difficulty": "intermediate",
-  "tags": ["geometry", "measurement", "perimeter", "composite figures", "missing sides", "rectangles", "boundary tracing"],
+  "tags": [
+    "geometry",
+    "measurement",
+    "perimeter",
+    "composite figures",
+    "missing sides",
+    "rectangles",
+    "boundary tracing"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {

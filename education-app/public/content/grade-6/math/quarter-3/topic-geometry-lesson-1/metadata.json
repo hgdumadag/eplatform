@@ -3,7 +3,7 @@
   "grade": 6,
   "subject": "math",
   "quarter": 3,
-  "topicName": "Geometry - Lesson 1",
+  "topicName": "Geometry - Lesson 1: Choosing Units",
   "description": "Choose suitable units for measuring volume and capacity, including cubic units and liquid units for everyday objects and containers.",
   "learningObjectives": [
     "Distinguish volume from capacity",
@@ -20,7 +20,15 @@
   ],
   "estimatedDuration": 40,
   "difficulty": "beginner",
-  "tags": ["geometry", "measurement", "volume", "capacity", "units", "cubic units", "liquid units"],
+  "tags": [
+    "geometry",
+    "measurement",
+    "volume",
+    "capacity",
+    "units",
+    "cubic units",
+    "liquid units"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {

@@ -3,7 +3,7 @@
   "grade": 6,
   "subject": "math",
   "quarter": 3,
-  "topicName": "Geometry - Lesson 4",
+  "topicName": "Geometry - Lesson 4: Volume of Rectangular Prisms",
   "description": "Derive and use the length × width × height formula for rectangular prism volume.",
   "learningObjectives": [
     "Model rectangular prism volume with unit cubes",
@@ -21,7 +21,14 @@
   ],
   "estimatedDuration": 45,
   "difficulty": "intermediate",
-  "tags": ["geometry", "measurement", "volume", "rectangular prisms", "unit cubes", "formula"],
+  "tags": [
+    "geometry",
+    "measurement",
+    "volume",
+    "rectangular prisms",
+    "unit cubes",
+    "formula"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {
