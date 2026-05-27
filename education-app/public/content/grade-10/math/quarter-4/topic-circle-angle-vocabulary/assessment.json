@@ -1,0 +1,129 @@
+{
+  "examId": "grade-10-math-q4-circle-angle-vocabulary-assessment",
+  "examType": "assessment",
+  "title": "Circle Angle Vocabulary Assessment",
+  "description": "Show mastery of circle angle vocabulary and basic circle diagram terms.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 12,
+  "totalPoints": 120,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "In circle O, segments OA and OB are radii. What kind of angle is angle AOB?",
+      "options": ["Inscribed angle", "Central angle", "Tangent angle", "Secant angle"],
+      "correctAnswer": 1,
+      "explanation": "Angle AOB has vertex O at the center of the circle, so it is a central angle.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which statement best defines an arc?",
+      "options": [
+        "A straight segment through the center",
+        "A line that never touches the circle",
+        "A connected part of the circle's curved edge",
+        "A point inside the circle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An arc is a connected curved portion of a circle.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A chord must pass through the center of the circle.",
+      "correctAnswer": "false",
+      "explanation": "A chord only needs both endpoints on the circle. A chord through the center is a diameter.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "A chord that passes through the center of a circle is a ____.",
+      "correctAnswer": "diameter",
+      "explanation": "A diameter is a chord through the center of the circle.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A line meets a circle at points R and S. Which term describes the line?",
+      "options": ["Tangent", "Radius", "Secant", "Minor arc"],
+      "correctAnswer": 2,
+      "explanation": "A line that intersects a circle at two points is a secant.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A line touches a circle only at point T. What is point T called?",
+      "options": ["Center", "Endpoint", "Point of tangency", "Major arc"],
+      "correctAnswer": 2,
+      "explanation": "The single contact point between a tangent and a circle is the point of tangency.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "A secant can contain a chord between its two intersection points with the circle.",
+      "correctAnswer": "true",
+      "explanation": "The segment connecting the two intersection points of a secant is a chord.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "The shorter arc between two points on a circle is called a ____ arc.",
+      "correctAnswer": "minor",
+      "explanation": "A minor arc is the shorter arc between two points on a circle.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "Which pair of terms is most directly separated by the number of points where a line meets the circle?",
+      "options": [
+        "Chord and diameter",
+        "Radius and central angle",
+        "Secant and tangent",
+        "Minor arc and major arc"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A secant meets the circle at two points, while a tangent meets it at exactly one point.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Why is every diameter a chord, but not every chord a diameter?",
+      "correctAnswer": "Every diameter has endpoints on the circle, so it is a chord. Not every chord is a diameter because a chord does not have to pass through the center.",
+      "explanation": "The center condition is what makes a chord a diameter.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "question": "A student says, 'Line l is tangent because it crosses the circle twice.' Correct the student's statement.",
+      "correctAnswer": "The line is not tangent; it is a secant. A tangent touches a circle at exactly one point, while a secant crosses it at two points.",
+      "explanation": "Crossing at two points is the defining feature of a secant, not a tangent.",
+      "points": 10
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "question": "Which clue is enough to identify angle XYZ as a central angle?",
+      "options": [
+        "Point X is on the circle",
+        "Point Y is the center of the circle",
+        "Point Z is outside the circle",
+        "Segment XZ is a chord"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The middle letter names the vertex. If Y is the center, angle XYZ has its vertex at the center and is a central angle.",
+      "points": 10
+    }
+  ]
+}

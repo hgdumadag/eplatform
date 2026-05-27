@@ -1,0 +1,124 @@
+{
+  "examId": "grade-10-math-q4-central-and-inscribed-angles-assessment",
+  "examType": "assessment",
+  "title": "Central and Inscribed Angles Assessment",
+  "description": "Show mastery of central angles, inscribed angles, and intercepted arcs.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 12,
+  "totalPoints": 120,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which angle is a central angle?",
+      "options": [
+        "An angle with its vertex at the center of the circle",
+        "An angle with its vertex on the circle",
+        "An angle with its vertex outside the circle",
+        "Any angle that intercepts a major arc"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A central angle has its vertex at the center of the circle.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Central angle angle AOB intercepts arc AB. If m angle AOB = 132 degrees, what is m arc AB?",
+      "options": ["66 degrees", "132 degrees", "228 degrees", "264 degrees"],
+      "correctAnswer": 1,
+      "explanation": "A central angle and its intercepted arc have equal measures.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Inscribed angle angle ACB intercepts arc AB. If m arc AB = 88 degrees, what is m angle ACB?",
+      "options": ["22 degrees", "44 degrees", "88 degrees", "176 degrees"],
+      "correctAnswer": 1,
+      "explanation": "An inscribed angle is half its intercepted arc: 88 divided by 2 is 44.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "An inscribed angle measures 64 degrees. Enter the measure of its intercepted arc in degrees.",
+      "correctAnswer": "128",
+      "explanation": "The intercepted arc is twice the inscribed angle: 2 x 64 = 128.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "If a central angle and an inscribed angle intercept the same arc, then the central angle is twice the inscribed angle.",
+      "correctAnswer": "true",
+      "explanation": "The central angle equals the arc, while the inscribed angle is half the arc.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A central angle and an inscribed angle intercept the same arc. The inscribed angle measures 35 degrees. What is the central angle?",
+      "options": ["17.5 degrees", "35 degrees", "70 degrees", "145 degrees"],
+      "correctAnswer": 2,
+      "explanation": "For the same intercepted arc, the central angle is twice the inscribed angle: 2 x 35 = 70.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "An inscribed angle that intercepts a semicircle measures 90 degrees.",
+      "correctAnswer": "true",
+      "explanation": "A semicircle measures 180 degrees, and half of 180 is 90.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "An inscribed angle measures 41 degrees. Which central angle intercepts the same arc?",
+      "options": ["20.5 degrees", "41 degrees", "82 degrees", "139 degrees"],
+      "correctAnswer": 2,
+      "explanation": "The central angle is twice the inscribed angle when both intercept the same arc: 2 x 41 = 82.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "question": "A central angle intercepts an arc of 115 degrees. Enter the measure of the central angle in degrees.",
+      "correctAnswer": "115",
+      "explanation": "A central angle equals its intercepted arc.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "Which statement is always true?",
+      "options": [
+        "An inscribed angle equals its intercepted arc.",
+        "A central angle is half its intercepted arc.",
+        "An inscribed angle is half its intercepted arc.",
+        "Every arc measures 180 degrees."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The inscribed angle theorem says an inscribed angle is half the measure of its intercepted arc.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "question": "A student says an inscribed angle that intercepts a 150-degree arc also measures 150 degrees. Correct the mistake.",
+      "correctAnswer": "The student used the central angle rule. An inscribed angle is half its intercepted arc, so the angle measures 75 degrees.",
+      "explanation": "Only central angles equal their intercepted arcs. Inscribed angles are half their intercepted arcs.",
+      "points": 10
+    },
+    {
+      "id": "q12",
+      "type": "short-answer",
+      "question": "Explain why a central angle is twice an inscribed angle when both intercept the same arc.",
+      "correctAnswer": "The central angle equals the intercepted arc, but the inscribed angle equals half of that same arc. Therefore the central angle is twice the inscribed angle.",
+      "explanation": "Both relationships point back to the same arc measure: central angle = arc, and inscribed angle = half the arc.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title>Missing Segment Example</title>
+  <desc>Missing Segment Example diagram for a Grade 10 circle geometry lesson.</desc>
+  <title id="title">Missing chord segment example</title>
+  <desc id="desc">A circle with intersecting chords. One chord has segments 6 and 8. The other has segments 4 and x. The equation 6 times 8 equals 4 times x is shown.</desc>
+  <rect width="720" height="420" fill="#fff7ed"/>
+  <circle cx="320" cy="200" r="145" fill="#ffedd5" stroke="#1f2937" stroke-width="4"/>
+  <line x1="190" y1="145" x2="450" y2="255" stroke="#2563eb" stroke-width="8" stroke-linecap="round"/>
+  <line x1="220" y1="290" x2="420" y2="110" stroke="#16a34a" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="320" cy="200" r="8" fill="#111827"/>
+  <text x="250" y="157" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1d4ed8">6</text>
+  <text x="374" y="247" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1d4ed8">8</text>
+  <text x="247" y="257" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#15803d">4</text>
+  <text x="383" y="151" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#15803d">x</text>
+  <text x="333" y="197" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">P</text>
+  <rect x="500" y="92" width="160" height="196" rx="8" fill="#ffffff" stroke="#fed7aa" stroke-width="2"/>
+  <text x="523" y="130" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">Setup</text>
+  <text x="523" y="169" font-family="Arial, sans-serif" font-size="22" fill="#111827">6 x 8 = 4x</text>
+  <text x="523" y="207" font-family="Arial, sans-serif" font-size="22" fill="#111827">48 = 4x</text>
+  <text x="523" y="245" font-family="Arial, sans-serif" font-size="22" fill="#111827">x = 12</text>
+  <text x="92" y="54" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">Find the missing segment</text>
+  <text x="92" y="83" font-family="Arial, sans-serif" font-size="18" fill="#374151">The products on the two chords must match.</text>
+</svg>

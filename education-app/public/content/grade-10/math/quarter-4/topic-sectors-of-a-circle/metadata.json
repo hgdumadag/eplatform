@@ -1,0 +1,43 @@
+{
+  "id": "grade-10-math-q4-sectors-of-a-circle",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "Sectors of a Circle",
+  "description": "Define sectors of a circle and calculate sector area using central-angle fraction reasoning.",
+  "learningObjectives": [
+    "Define a sector as the region bounded by two radii and the included arc",
+    "Recognize the central angle that determines a sector's fraction of the circle",
+    "Calculate sector area using the fraction theta over 360",
+    "Connect common central angles to familiar fractions of a circle",
+    "Explain why sector area is a fraction of the full circle area"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement-and-geometry",
+    "circles",
+    "sectors",
+    "area",
+    "central-angles"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/sector-parts.svg",
+      "images/fraction-of-circle.svg",
+      "images/sector-area-workflow.svg"
+    ]
+  },
+  "prerequisites": [
+    "Recognizing the center, radius, and arc of a circle",
+    "Understanding that a full circle measures 360 degrees",
+    "Finding the area of a circle using A = pi r^2",
+    "Simplifying basic fractions such as 90/360 and 120/360"
+  ]
+}

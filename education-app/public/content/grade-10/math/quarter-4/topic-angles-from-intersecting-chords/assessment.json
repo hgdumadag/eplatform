@@ -1,0 +1,113 @@
+{
+  "examId": "grade-10-math-q4-angles-from-intersecting-chords-assessment",
+  "examType": "assessment",
+  "title": "Angles from Intersecting Chords Assessment",
+  "description": "Show mastery of finding interior chord angles and missing intercepted arcs in circles.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 12,
+  "totalPoints": 120,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Two chords intersect inside a circle. An angle intercepts arcs of 72 degrees and 108 degrees. What is the angle measure?",
+      "options": ["36 degrees", "54 degrees", "90 degrees", "180 degrees"],
+      "correctAnswer": 2,
+      "explanation": "Use half the sum: 1/2(72 + 108) = 1/2(180) = 90 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which expression correctly finds an interior angle formed by intersecting chords with intercepted arcs 85 degrees and 45 degrees?",
+      "options": ["85 - 45", "1/2(85 - 45)", "1/2(85 + 45)", "85 + 45"],
+      "correctAnswer": 2,
+      "explanation": "Interior chord angles use half the sum of the two intercepted arcs.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "Two intercepted arcs measure 114 degrees and 36 degrees. Enter the interior angle measure in degrees.",
+      "correctAnswer": "75",
+      "explanation": "1/2(114 + 36) = 1/2(150) = 75 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "An angle formed by two chords intersecting inside a circle is found by taking half the difference of the intercepted arcs.",
+      "correctAnswer": "false",
+      "explanation": "That is a common mix-up with exterior angle relationships. Inside the circle, use half the sum.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "An interior chord angle measures 74 degrees. One intercepted arc measures 52 degrees. What is the other intercepted arc?",
+      "options": ["22 degrees", "74 degrees", "96 degrees", "126 degrees"],
+      "correctAnswer": 2,
+      "explanation": "The intercepted arcs sum to 2(74) = 148 degrees. The missing arc is 148 - 52 = 96 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "An interior chord angle measures 82 degrees. One intercepted arc is 100 degrees. Enter the other intercepted arc in degrees.",
+      "correctAnswer": "64",
+      "explanation": "The arc sum is 2(82) = 164 degrees. The missing arc is 164 - 100 = 64 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Chords AB and CD intersect at P. If angle APC uses arcs AC and BD, which arcs are used to find the vertical angle BPD?",
+      "options": ["AC and BD", "AB and CD", "AD and BC", "Only arc AC"],
+      "correctAnswer": 0,
+      "explanation": "Vertical angles formed by the same intersecting chords use the same opposite arc pair, so angle BPD also uses arcs AC and BD.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "question": "If two intercepted arcs for an interior chord angle have measures 40 degrees and 140 degrees, the angle is a right angle.",
+      "correctAnswer": "true",
+      "explanation": "1/2(40 + 140) = 1/2(180) = 90 degrees, so the angle is right.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "Two chords intersect inside a circle. One angle is formed using intercepted arcs of 30 degrees and 150 degrees. What can you conclude about its vertical angle?",
+      "options": ["It measures 30 degrees.", "It measures 60 degrees.", "It measures 90 degrees.", "It measures 150 degrees."],
+      "correctAnswer": 2,
+      "explanation": "The original angle is 1/2(30 + 150) = 90 degrees. Its vertical angle is congruent, so it is also 90 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "fill-in",
+      "question": "Two chords intersect inside a circle. An angle has measure 68 degrees, and its intercepted arcs are x degrees and 88 degrees. Enter x.",
+      "correctAnswer": "48",
+      "explanation": "Set 68 = 1/2(x + 88). Double to get 136 = x + 88, so x = 48.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "question": "A student says an interior chord angle with intercepted arcs 112 degrees and 44 degrees measures 156 degrees. Explain the mistake and give the correct angle.",
+      "correctAnswer": "The student added the arcs but forgot to take half of the sum. The correct angle is 1/2(112 + 44) = 1/2(156) = 78 degrees.",
+      "explanation": "The key correction is that an interior chord angle is half the sum, not the full sum.",
+      "points": 10
+    },
+    {
+      "id": "q12",
+      "type": "short-answer",
+      "question": "Two chords intersect inside a circle. An angle measures 70 degrees. One intercepted arc measures 95 degrees. Find the other intercepted arc and show your equation.",
+      "correctAnswer": "Let the missing arc be x. Since 70 = 1/2(95 + x), double both sides to get 140 = 95 + x. Therefore x = 45 degrees.",
+      "explanation": "A complete solution should double the angle first, then subtract the known arc.",
+      "points": 10
+    }
+  ]
+}

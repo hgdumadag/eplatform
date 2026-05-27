@@ -1,0 +1,24 @@
+<svg width="720" height="420" viewBox="0 0 720 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title>Sector Minus Triangle</title>
+  <desc>Sector Minus Triangle diagram for a Grade 10 circle geometry lesson.</desc>
+  <title id="title">Ninety degree sector with triangle removed</title>
+  <desc id="desc">A quarter circle sector of radius 8 with a right triangle formed by the two radii and a chord. The curved segment between arc and triangle is shaded.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <g transform="translate(130 325)">
+    <path d="M0 0 L0 -240 A240 240 0 0 1 240 0 Z" fill="#dbeafe" stroke="#1d4ed8" stroke-width="4"/>
+    <path d="M0 0 L0 -240 L240 0 Z" fill="#ffffff" stroke="#0f172a" stroke-width="3"/>
+    <path d="M0 -240 A240 240 0 0 1 240 0 L0 -240 Z" fill="#60a5fa" opacity="0.7"/>
+    <line x1="0" y1="0" x2="0" y2="-240" stroke="#0f172a" stroke-width="4"/>
+    <line x1="0" y1="0" x2="240" y2="0" stroke="#0f172a" stroke-width="4"/>
+    <path d="M0 -38 L38 -38 L38 0" fill="none" stroke="#475569" stroke-width="3"/>
+    <text x="-34" y="-118" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#0f172a">8</text>
+    <text x="120" y="34" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#0f172a">8</text>
+    <text x="66" y="-42" font-family="Arial, sans-serif" font-size="22" fill="#334155">90°</text>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#0f172a">
+    <text x="420" y="120" font-size="30" font-weight="700">Shaded area</text>
+    <text x="420" y="166" font-size="25">sector area - triangle area</text>
+    <text x="420" y="216" font-size="25">A = (90/360)pi r² - 1/2 bh</text>
+    <text x="420" y="266" font-size="25">A = 16pi - 32</text>
+  </g>
+</svg>

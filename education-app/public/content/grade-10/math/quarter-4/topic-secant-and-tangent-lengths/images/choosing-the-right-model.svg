@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" role="img" aria-labelledby="title desc">
+  <title>Choosing The Right Model</title>
+  <desc>Choosing The Right Model diagram for a Grade 10 circle geometry lesson.</desc>
+  <title id="title">Choosing the right power relationship</title>
+  <desc id="desc">Comparison chart for secant-secant and tangent-secant setups.</desc>
+  <rect width="760" height="430" fill="#f8fafc"/>
+  <text x="62" y="52" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">Choose the model from the diagram</text>
+  <rect x="54" y="82" width="300" height="286" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="406" y="82" width="300" height="286" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="88" y="124" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0369a1">Two secants</text>
+  <circle cx="228" cy="225" r="70" fill="#e0f2fe" stroke="#0369a1" stroke-width="3"/>
+  <line x1="92" y1="178" x2="306" y2="266" stroke="#1f2937" stroke-width="4" stroke-linecap="round"/>
+  <line x1="92" y1="266" x2="314" y2="174" stroke="#1f2937" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="92" cy="178" r="6" fill="#dc2626"/>
+  <circle cx="92" cy="266" r="6" fill="#dc2626"/>
+  <text x="93" y="330" font-family="Arial, sans-serif" font-size="20" fill="#111827">external x whole</text>
+  <text x="123" y="354" font-family="Arial, sans-serif" font-size="20" fill="#111827">equals</text>
+  <text x="93" y="378" font-family="Arial, sans-serif" font-size="20" fill="#111827">external x whole</text>
+  <text x="444" y="124" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#15803d">Tangent + secant</text>
+  <circle cx="580" cy="225" r="70" fill="#dcfce7" stroke="#15803d" stroke-width="3"/>
+  <line x1="438" y1="300" x2="632" y2="158" stroke="#1f2937" stroke-width="4" stroke-linecap="round"/>
+  <line x1="438" y1="300" x2="648" y2="300" stroke="#1f2937" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="438" cy="300" r="6" fill="#dc2626"/>
+  <circle cx="648" cy="300" r="6" fill="#ea580c"/>
+  <text x="450" y="330" font-family="Arial, sans-serif" font-size="20" fill="#111827">tangent² equals</text>
+  <text x="450" y="354" font-family="Arial, sans-serif" font-size="20" fill="#111827">external x whole</text>
+  <path d="M354 225 H406" stroke="#64748b" stroke-width="3" stroke-dasharray="7 7"/>
+  <text x="335" y="410" font-family="Arial, sans-serif" font-size="18" fill="#475569">Start by naming the segments, then write the equation.</text>
+</svg>

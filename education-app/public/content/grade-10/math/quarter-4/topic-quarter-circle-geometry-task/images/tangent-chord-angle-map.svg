@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="500" viewBox="0 0 760 500" role="img" aria-labelledby="title desc">
+  <title>Tangent Chord Angle Map</title>
+  <desc>Tangent Chord Angle Map diagram for a Grade 10 circle geometry lesson.</desc>
+  <title id="title">Tangent and chord angle map</title>
+  <desc id="desc">Angle relationships in a quarter-circle design: tangent perpendicular to radius and the endpoint chord creates a 45-45-90 triangle.</desc>
+  <rect width="760" height="500" fill="#fff7ed"/>
+  <path d="M210 390 L210 120 A270 270 0 0 1 480 390 Z" fill="#ffedd5" stroke="#f97316" stroke-width="4"/>
+  <line x1="210" y1="390" x2="210" y2="120" stroke="#0f172a" stroke-width="4"/>
+  <line x1="210" y1="390" x2="480" y2="390" stroke="#0f172a" stroke-width="4"/>
+  <line x1="210" y1="120" x2="480" y2="390" stroke="#b91c1c" stroke-width="4"/>
+  <line x1="78" y1="120" x2="310" y2="120" stroke="#15803d" stroke-width="4"/>
+  <path d="M210 120 L210 150 L180 150 L180 120" fill="none" stroke="#15803d" stroke-width="3"/>
+  <path d="M210 390 L210 355 L245 390 Z" fill="#fed7aa" stroke="#ea580c" stroke-width="2"/>
+  <path d="M210 120 L238 148 L210 176 Z" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <path d="M480 390 L445 390 L452 355 Z" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <circle cx="210" cy="390" r="6" fill="#0f172a"/>
+  <circle cx="210" cy="120" r="6" fill="#0f172a"/>
+  <circle cx="480" cy="390" r="6" fill="#0f172a"/>
+  <text x="188" y="416" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">O</text>
+  <text x="187" y="104" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">A</text>
+  <text x="493" y="399" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">B</text>
+  <text x="120" y="103" font-family="Arial, sans-serif" font-size="20" fill="#166534">tangent</text>
+  <text x="224" y="154" font-family="Arial, sans-serif" font-size="20" fill="#166534">90 degrees</text>
+  <text x="252" y="375" font-family="Arial, sans-serif" font-size="20" fill="#9a3412">90 degrees</text>
+  <text x="242" y="203" font-family="Arial, sans-serif" font-size="20" fill="#991b1b">45 degrees</text>
+  <text x="404" y="352" font-family="Arial, sans-serif" font-size="20" fill="#991b1b">45 degrees</text>
+  <rect x="535" y="125" width="170" height="178" rx="8" fill="#ffffff" stroke="#fdba74" stroke-width="2"/>
+  <text x="555" y="160" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#9a3412">Angle facts</text>
+  <text x="555" y="198" font-family="Arial, sans-serif" font-size="18" fill="#334155">OA perpendicular tangent</text>
+  <text x="555" y="230" font-family="Arial, sans-serif" font-size="18" fill="#334155">angle AOB = 90 degrees</text>
+  <text x="555" y="262" font-family="Arial, sans-serif" font-size="18" fill="#334155">angle OAB = angle OBA</text>
+</svg>

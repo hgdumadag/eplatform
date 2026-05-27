@@ -1,0 +1,46 @@
+{
+  "id": "grade-10-math-q4-quarter-circle-geometry-task",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "Quarter Circle Geometry Task",
+  "description": "Analyze a circular design that combines chords, tangents, and sectors, then solve angle, length, and area requirements.",
+  "learningObjectives": [
+    "Identify chords, tangents, radii, sectors, and central angles in a circular design",
+    "Use a radius-tangent relationship to solve angle requirements",
+    "Find chord lengths in a quarter-circle design using right-triangle reasoning",
+    "Calculate sector areas and shaded area differences",
+    "Justify design measurements with clear equations and units"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement-and-geometry",
+    "circles",
+    "quarter-circle",
+    "chords",
+    "tangents",
+    "sectors",
+    "area"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/quarter-circle-design-overview.svg",
+      "images/tangent-chord-angle-map.svg",
+      "images/sector-area-breakdown.svg"
+    ]
+  },
+  "prerequisites": [
+    "Parts of a circle",
+    "Central angles and intercepted arcs",
+    "Area of a circle",
+    "Pythagorean theorem",
+    "Solving simple equations with pi"
+  ]
+}
