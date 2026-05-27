@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title>Secant Secant Exterior Angle</title>
+  <desc>Secant Secant Exterior Angle diagram for a Grade 10 circle geometry lesson.</desc>
+  <title id="title">Secant-secant exterior angle</title>
+  <desc id="desc">Two secants from an exterior point intercept a larger far arc and a smaller near arc on a circle.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <circle cx="330" cy="210" r="135" fill="#e0f2fe" stroke="#0f172a" stroke-width="4"/>
+  <path d="M258 96 A135 135 0 0 1 463 152" fill="none" stroke="#2563eb" stroke-width="10" stroke-linecap="round"/>
+  <path d="M444 292 A135 135 0 0 1 280 333" fill="none" stroke="#f97316" stroke-width="10" stroke-linecap="round"/>
+  <line x1="600" y1="105" x2="258" y2="96" stroke="#334155" stroke-width="5"/>
+  <line x1="600" y1="105" x2="280" y2="333" stroke="#334155" stroke-width="5"/>
+  <circle cx="600" cy="105" r="7" fill="#0f172a"/>
+  <circle cx="258" cy="96" r="6" fill="#2563eb"/>
+  <circle cx="463" cy="152" r="6" fill="#2563eb"/>
+  <circle cx="280" cy="333" r="6" fill="#f97316"/>
+  <circle cx="444" cy="292" r="6" fill="#f97316"/>
+  <path d="M562 113 Q569 137 586 153" fill="none" stroke="#ef4444" stroke-width="4"/>
+  <text x="608" y="99" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0f172a">Exterior angle</text>
+  <text x="305" y="76" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1d4ed8">larger arc</text>
+  <text x="285" y="378" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#c2410c">smaller arc</text>
+  <text x="52" y="48" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Secant-Secant Case</text>
+  <text x="52" y="80" font-family="Arial, sans-serif" font-size="19" fill="#334155">Angle = 1/2(larger arc - smaller arc)</text>
+</svg>

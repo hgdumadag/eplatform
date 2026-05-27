@@ -1,0 +1,46 @@
+{
+  "id": "grade-10-math-q4-secant-and-tangent-lengths",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "Secant and Tangent Lengths",
+  "description": "Use secant-secant and tangent-secant power relationships to solve circle length problems.",
+  "learningObjectives": [
+    "Identify secants, tangents, external segments, and whole secant lengths",
+    "Apply the secant-secant power relationship to solve for missing lengths",
+    "Apply the tangent-secant power relationship to solve for missing lengths",
+    "Choose the correct product relationship from a circle diagram",
+    "Check whether a length answer is reasonable in context"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement-and-geometry",
+    "circles",
+    "secants",
+    "tangents",
+    "power-of-a-point",
+    "length-problems"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/secant-secant-relationship.svg",
+      "images/tangent-secant-relationship.svg",
+      "images/choosing-the-right-model.svg",
+      "images/common-length-traps.svg"
+    ]
+  },
+  "prerequisites": [
+    "Parts of a circle",
+    "Solving linear equations",
+    "Solving simple quadratic equations by square roots",
+    "Multiplying binomials and simplifying products",
+    "Reading geometric diagrams"
+  ]
+}

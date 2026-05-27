@@ -1,0 +1,150 @@
+{
+  "examId": "grade-10-math-q4-secant-and-tangent-lengths-assessment",
+  "examType": "assessment",
+  "title": "Secant and Tangent Lengths Assessment",
+  "description": "Show mastery of solving length problems using secant-secant and tangent-secant power relationships.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 12,
+  "totalPoints": 120,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which relationship applies when two secants are drawn from the same external point?",
+      "options": [
+        "(external_1)(whole_1) = (external_2)(whole_2)",
+        "(inside_1)(inside_2) = (external_1)(external_2)",
+        "(tangent)^2 = (inside)(inside)",
+        "whole_1 + whole_2 = external_1 + external_2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The secant-secant relationship multiplies each external segment by its whole secant.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Two secants start at point P. One has outside length 4 and inside length 20. The other has outside length 8 and inside length x. Find x.",
+      "options": [
+        "4",
+        "8",
+        "12",
+        "16"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Use 4(24) = 8(8 + x). Then 96 = 64 + 8x, so x = 4.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A tangent has length 18. A secant from the same point has outside length 9 and inside length x. Find x.",
+      "options": [
+        "18",
+        "27",
+        "36",
+        "45"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Use 18^2 = 9(9 + x). Then 324 = 81 + 9x, so x = 27.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Two secants from point A have outside/inside lengths 2 and 22, and x and 6. Which equation can be used to solve for x?",
+      "options": [
+        "2(22) = x(6)",
+        "2(2 + 22) = x(x + 6)",
+        "2^2 = x(x + 6)",
+        "2(2 + 22) = 6(x + 6)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The first whole secant is 24. The second whole secant is x + 6, so the equation is 2(24) = x(x + 6).",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "A tangent has length 20. A secant from the same point has outside length 16 and inside length x. Fill in x.",
+      "correctAnswer": "9",
+      "explanation": "Use 20^2 = 16(16 + x). Then 400 = 256 + 16x, so x = 9.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "For a secant with outside length 7 and inside length 11, the whole secant length is 18.",
+      "correctAnswer": "true",
+      "explanation": "The whole secant includes both parts: 7 + 11 = 18.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Two secants from the same external point have outside/inside lengths 3 and 13, and 6 and x. Find x.",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "10"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Use 3(16) = 6(6 + x). Then 48 = 36 + 6x, so x = 2.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A learner sees a tangent length of 15 and a secant with outside length 5 and inside length x. Which equation is correct?",
+      "options": [
+        "15(5) = 5x",
+        "15^2 = 5(5 + x)",
+        "15^2 = 5x",
+        "15 + 5 = 5 + x"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Use tangent-secant: the tangent is squared and the secant side is external times whole secant.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "question": "Two secants from point B have outside/inside lengths 8 and 7, and 10 and x. Fill in x.",
+      "correctAnswer": "2",
+      "explanation": "Use 8(15) = 10(10 + x). Then 120 = 100 + 10x, so x = 2.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Set up and solve: a tangent from point P is 14 units. A secant from P has outside length 7 and inside length x. Find x.",
+      "correctAnswer": "Use 14^2 = 7(7 + x). Then 196 = 49 + 7x, so x = 21.",
+      "explanation": "The tangent-secant relationship gives 14^2 = 7(7 + x), and solving gives x = 21.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "question": "A student writes 6(10) = 5x for two secants with outside/inside lengths 6 and 4, and 5 and x. Explain the mistake and give the correct equation.",
+      "correctAnswer": "The student used only the inside part x instead of the whole second secant. The correct equation is 6(6 + 4) = 5(5 + x), or 6(10) = 5(5 + x).",
+      "explanation": "Each side must be external segment times whole secant, not external segment times inside segment.",
+      "points": 10
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "question": "Two secants from point C have outside/inside lengths x and 5, and 4 and 11. Which positive value of x works?",
+      "options": [
+        "3",
+        "5",
+        "10",
+        "15"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Set x(x + 5) = 4(15) = 60. Then x^2 + 5x - 60 = 0, so (x + 12)(x - 5) = 0. The positive length is x = 5.",
+      "points": 10
+    }
+  ]
+}

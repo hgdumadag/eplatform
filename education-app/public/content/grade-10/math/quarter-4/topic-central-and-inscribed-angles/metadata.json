@@ -1,0 +1,43 @@
+{
+  "id": "grade-10-math-q4-central-and-inscribed-angles",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "Central and Inscribed Angles",
+  "description": "Relate central angles, inscribed angles, and intercepted arcs in circles.",
+  "learningObjectives": [
+    "Identify central angles, inscribed angles, and intercepted arcs",
+    "Relate the measure of a central angle to the measure of its intercepted arc",
+    "Relate the measure of an inscribed angle to half the measure of its intercepted arc",
+    "Use angle-arc relationships to solve for missing measures in circles",
+    "Explain common errors when comparing central and inscribed angles"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement-and-geometry",
+    "circles",
+    "central-angles",
+    "inscribed-angles",
+    "intercepted-arcs"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/central-angle-arc.svg",
+      "images/inscribed-angle-arc.svg",
+      "images/same-arc-comparison.svg"
+    ]
+  },
+  "prerequisites": [
+    "Recognizing parts of a circle such as center, radius, chord, and arc",
+    "Measuring angles in degrees",
+    "Solving one-step equations",
+    "Understanding that a full circle measures 360 degrees"
+  ]
+}

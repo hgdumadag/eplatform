@@ -1,0 +1,114 @@
+{
+  "examId": "grade-10-math-q4-segments-of-a-circle-assessment",
+  "examType": "assessment",
+  "title": "Segments of a Circle Assessment",
+  "description": "Show mastery of circular segments, sectors, and segment area calculations.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 12,
+  "totalPoints": 120,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A shaded region is bounded by a chord AB and the minor arc AB. What is the region called?",
+      "options": ["Sector", "Circular segment", "Radius", "Diameter"],
+      "correctAnswer": 1,
+      "explanation": "A circular segment is bounded by a chord and its intercepted arc.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A shaded region is bounded by radii OA and OB and arc AB. What is the region called?",
+      "options": ["Circular segment", "Sector", "Chord", "Secant"],
+      "correctAnswer": 1,
+      "explanation": "A sector is bounded by two radii and an arc.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "To find the area of a minor circular segment, you can subtract the area of the triangle formed by the two radii and the chord from the sector area.",
+      "correctAnswer": "true",
+      "explanation": "The minor segment is the part of the sector left after removing the triangle.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A sector has area 96 square units. The triangle inside it has area 70 square units. What is the segment area?",
+      "options": ["26 square units", "70 square units", "96 square units", "166 square units"],
+      "correctAnswer": 0,
+      "explanation": "Segment area = sector area - triangle area = 96 - 70 = 26 square units.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "A sector has area 120 cm^2, and its triangle has area 85 cm^2. Enter the segment area in cm^2.",
+      "correctAnswer": "35",
+      "explanation": "Subtract: 120 - 85 = 35 cm^2.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A circle has radius 12. What is the area of a 90-degree sector?",
+      "options": ["12pi", "24pi", "36pi", "144pi"],
+      "correctAnswer": 2,
+      "explanation": "A 90-degree sector is one fourth of the circle, so its area is (1/4)pi(12)^2 = 36pi.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A 90-degree sector in a circle of radius 12 contains a right triangle with legs 12 and 12. What is the exact area of the minor segment?",
+      "options": ["36pi - 72", "36pi - 144", "72pi - 36", "144pi - 72"],
+      "correctAnswer": 0,
+      "explanation": "The sector area is 36pi. The triangle area is (1/2)(12)(12) = 72. The segment area is 36pi - 72.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "A 60-degree sector has area 24pi square units. The triangle inside it has area 36 square units. Enter the exact segment area.",
+      "correctAnswer": "24pi - 36 or 24*pi - 36",
+      "explanation": "Use segment area = sector area - triangle area, so the exact area is 24pi - 36.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "The straight boundary of a circular segment is a radius.",
+      "correctAnswer": "false",
+      "explanation": "The straight boundary of a circular segment is a chord. A radius is used as a boundary in a sector.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "A circle has radius 10 and a 72-degree sector. What is the sector area?",
+      "options": ["10pi", "20pi", "25pi", "72pi"],
+      "correctAnswer": 1,
+      "explanation": "The sector area is (72/360)pi(10)^2 = (1/5)(100pi) = 20pi.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "question": "A student finds the sector area and stops. Explain why this may not answer a segment area question.",
+      "correctAnswer": "The sector includes both the triangle formed by the two radii and the circular segment. To find the segment area, subtract the triangle area from the sector area.",
+      "explanation": "The segment is only the cap-shaped part, not the entire sector.",
+      "points": 10
+    },
+    {
+      "id": "q12",
+      "type": "short-answer",
+      "question": "A 90-degree sector has area 25pi square units. The triangle inside the sector has base 10 and height 10. Find the exact segment area and explain your steps.",
+      "correctAnswer": "The triangle area is (1/2)(10)(10) = 50. The segment area is sector area minus triangle area, so the exact segment area is 25pi - 50 square units.",
+      "explanation": "First compute the triangle area, then subtract it from the given sector area.",
+      "points": 10
+    }
+  ]
+}

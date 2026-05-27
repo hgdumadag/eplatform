@@ -1,0 +1,113 @@
+{
+  "examId": "grade-10-math-q4-sectors-of-a-circle-assessment",
+  "examType": "assessment",
+  "title": "Sectors of a Circle Assessment",
+  "description": "Show mastery of sector definitions and area calculations using fraction-of-circle reasoning.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 12,
+  "totalPoints": 120,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A shaded region is bounded by two radii and the arc between their endpoints. What is the shaded region called?",
+      "options": ["Chord", "Sector", "Diameter", "Tangent"],
+      "correctAnswer": 1,
+      "explanation": "A sector is bounded by two radii and their included arc.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A sector has central angle 72 degrees. What fraction of the circle is the sector?",
+      "options": ["1/6", "1/5", "1/4", "1/3"],
+      "correctAnswer": 1,
+      "explanation": "The sector fraction is 72/360 = 1/5.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "A sector has central angle 150 degrees. Write its fraction of the circle in simplest form.",
+      "correctAnswer": "5/12",
+      "explanation": "150/360 simplifies by dividing by 30, giving 5/12.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Find the exact area of a sector with central angle 60 degrees and radius 6.",
+      "options": ["3 pi", "6 pi", "12 pi", "36 pi"],
+      "correctAnswer": 1,
+      "explanation": "60/360 = 1/6. The full circle area is 36 pi, and 1/6 of 36 pi is 6 pi.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "When calculating sector area from a central angle in degrees, the sector fraction is theta/360.",
+      "correctAnswer": "true",
+      "explanation": "A full circle is 360 degrees, so theta degrees represents theta/360 of the circle.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A circle has radius 10. A sector is one fourth of the circle. What is the exact sector area?",
+      "options": ["10 pi", "25 pi", "50 pi", "100 pi"],
+      "correctAnswer": 1,
+      "explanation": "The full circle area is 100 pi. One fourth of 100 pi is 25 pi.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "Find the exact area of a sector with central angle 135 degrees and radius 8. Enter your answer in terms of pi.",
+      "correctAnswer": "24pi or 24 pi or 24π",
+      "explanation": "135/360 = 3/8. The full circle area is 64 pi, and 3/8 of 64 pi is 24 pi.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A sector has exact area 18 pi square units in a circle with radius 6. What fraction of the circle is the sector?",
+      "options": ["1/2", "1/3", "2/3", "3/4"],
+      "correctAnswer": 0,
+      "explanation": "The full circle area is 36 pi. Since 18 pi is half of 36 pi, the sector is 1/2 of the circle.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "question": "A sector is 1/3 of a circle. What is its central angle in degrees?",
+      "correctAnswer": "120",
+      "explanation": "One third of 360 degrees is 120 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "true-false",
+      "question": "A 30-degree sector has a larger area than a 120-degree sector in the same circle.",
+      "correctAnswer": "false",
+      "explanation": "In the same circle, larger central angle means larger sector area. A 30-degree sector is smaller than a 120-degree sector.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "question": "A sector has central angle 240 degrees and radius 5. Explain how to find its exact area.",
+      "correctAnswer": "Compare the angle to a full circle: 240/360 = 2/3. The full circle area is pi(5^2) = 25 pi. The sector area is 2/3 of 25 pi, or 50 pi/3 square units.",
+      "explanation": "A complete explanation identifies the fraction 2/3, the full area 25 pi, and the product 50 pi/3.",
+      "points": 10
+    },
+    {
+      "id": "q12",
+      "type": "short-answer",
+      "question": "A student says, \"The sector area is always theta times pi r squared.\" Correct the student's reasoning.",
+      "correctAnswer": "The angle must be written as a fraction of the full circle. For degrees, the sector area is (theta/360) pi r^2, because theta degrees is theta/360 of a full 360-degree circle.",
+      "explanation": "The correction should mention that theta alone is not the fraction; theta must be divided by 360 when using degrees.",
+      "points": 10
+    }
+  ]
+}

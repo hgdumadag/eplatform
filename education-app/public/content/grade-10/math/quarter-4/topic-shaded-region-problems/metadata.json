@@ -1,0 +1,45 @@
+{
+  "id": "grade-10-math-q4-shaded-region-problems",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "Shaded Region Problems",
+  "description": "Combine circle area, sector area, and polygon area to solve multi-step shaded region problems.",
+  "learningObjectives": [
+    "Identify whether a shaded region should be found by adding or subtracting areas",
+    "Compute circle, semicircle, and sector areas using radius and central angle",
+    "Compute polygon areas that appear inside or around circles",
+    "Organize multi-step area solutions with labels, formulas, substitutions, and final units",
+    "Check whether a shaded area answer is reasonable from the diagram"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement-and-geometry",
+    "circles",
+    "sectors",
+    "polygons",
+    "area",
+    "shaded-regions"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/sector-minus-triangle.svg",
+      "images/square-with-quarter-circles.svg",
+      "images/solution-organizer.svg"
+    ]
+  },
+  "prerequisites": [
+    "Area of a circle",
+    "Area of triangles and quadrilaterals",
+    "Fraction of a circle from a central angle",
+    "Substituting values into formulas",
+    "Using pi in exact and approximate area answers"
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "examId": "grade-10-math-q4-quarter-circle-geometry-task-assessment",
+  "examType": "assessment",
+  "title": "Quarter Circle Geometry Task Assessment",
+  "description": "Show mastery by solving angle, length, and area requirements in quarter-circle designs with chords, tangents, and sectors.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 12,
+  "totalPoints": 120,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A circular design uses a 90-degree sector with radius 12 cm. What is the sector area?",
+      "options": [
+        "12pi square cm",
+        "24pi square cm",
+        "36pi square cm",
+        "144pi square cm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sector is one-fourth of the full circle: (1/4)pi(12^2) = 36pi square centimeters.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "In a quarter-circle design, chord AB connects the endpoints of radii OA and OB. If OA = OB = 9 cm, what is AB?",
+      "options": [
+        "9sqrt(2) cm",
+        "18 cm",
+        "81 cm",
+        "18sqrt(2) cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AB is the hypotenuse of a right triangle with legs 9 and 9, so AB = sqrt(81 + 81) = 9sqrt(2) cm.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "If AT is tangent to the circle at A and OA is a radius, then angle OAT is 90 degrees.",
+      "correctAnswer": "true",
+      "explanation": "A radius drawn to a tangent point is perpendicular to the tangent line.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "A quarter circle has radius 10 cm. Fill in the exact area of triangle AOB formed by the two radii and the endpoint chord.",
+      "correctAnswer": "50",
+      "explanation": "Triangle AOB is right with legs 10 and 10, so its area is (1/2)(10)(10) = 50 square centimeters.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "For a quarter circle with radius 10 cm, what is the exact curved segment area between the endpoint chord and the arc?",
+      "options": [
+        "25pi - 50 square cm",
+        "100pi - 50 square cm",
+        "50pi - 25 square cm",
+        "25pi + 50 square cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The sector area is 25pi and the triangle area is 50, so the segment area is 25pi - 50 square centimeters.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A student says the endpoint chord in a quarter circle with radius 7 cm is 14 cm because it crosses the design. What is the best correction?",
+      "options": [
+        "The chord is 7 cm because every chord equals the radius.",
+        "The chord is 7pi cm because it is part of an arc.",
+        "The chord is 7sqrt(2) cm because it is the hypotenuse of a 7-by-7 right triangle.",
+        "The chord is 49 cm because the radius must be squared."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The endpoint chord is not the diameter. It is the hypotenuse of the right triangle formed by the two perpendicular radii.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "In triangle AOB from a quarter-circle endpoint chord, angle AOB = 90 degrees and OA = OB. Fill in angle OBA in degrees.",
+      "correctAnswer": "45",
+      "explanation": "The two base angles are equal and must total 90 degrees, so each is 45 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "question": "The area of a 90-degree sector is always 90pi square units, no matter what the radius is.",
+      "correctAnswer": "false",
+      "explanation": "Sector area depends on the radius: a 90-degree sector has area (1/4)pi r^2.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "A quarter-circle tile has radius 4 cm. Which expression gives the curved segment area between the chord and the arc?",
+      "options": [
+        "4pi - 8",
+        "16pi - 8",
+        "4pi - 16",
+        "8pi - 4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The sector area is (1/4)pi(4^2) = 4pi. The triangle area is (1/2)(4)(4) = 8, so the segment area is 4pi - 8.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A designer uses a quarter-circle sector of radius 8 cm. Set up and solve for the sector area and the endpoint chord length.",
+      "correctAnswer": "The sector area is (1/4)pi(8^2) = 16pi square centimeters. The endpoint chord is sqrt(8^2 + 8^2) = 8sqrt(2) centimeters.",
+      "explanation": "The 90-degree sector is one-fourth of the circle, and the chord is the hypotenuse of an 8-by-8 right triangle.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "question": "Explain why the tangent requirement and the chord requirement use different relationships in a quarter-circle design.",
+      "correctAnswer": "The tangent requirement uses the fact that a radius to a tangent point is perpendicular to the tangent. The chord requirement uses the Pythagorean theorem because the chord is the hypotenuse of the right triangle formed by two perpendicular radii.",
+      "explanation": "Tangents give a perpendicular angle at the circle, while the endpoint chord length comes from the right triangle inside the sector.",
+      "points": 10
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "question": "A quarter-circle sign has radius 14 cm. Which pair of measurements is correct?",
+      "options": [
+        "Sector area 49pi square cm; chord 14sqrt(2) cm",
+        "Sector area 196pi square cm; chord 28 cm",
+        "Sector area 49pi square cm; chord 14 cm",
+        "Sector area 14pi square cm; chord 196 cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The sector area is (1/4)pi(14^2) = 49pi. The endpoint chord is sqrt(14^2 + 14^2) = 14sqrt(2).",
+      "points": 10
+    }
+  ]
+}

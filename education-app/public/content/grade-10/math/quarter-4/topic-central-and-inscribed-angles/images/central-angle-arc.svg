@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title>Central Angle Arc</title>
+  <desc>Central Angle Arc diagram for a Grade 10 circle geometry lesson.</desc>
+  <title id="title">Central angle and intercepted arc</title>
+  <desc id="desc">A circle with center O, radii to A and B, a central angle of 84 degrees, and the matching intercepted arc AB.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <circle cx="260" cy="210" r="132" fill="#ffffff" stroke="#1f2937" stroke-width="4"/>
+  <path d="M 260 210 L 373 142" stroke="#2563eb" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 260 210 L 355 302" stroke="#2563eb" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 373 142 A 132 132 0 0 1 355 302" fill="none" stroke="#ef4444" stroke-width="10" stroke-linecap="round"/>
+  <path d="M 308 181 A 56 56 0 0 1 300 249" fill="none" stroke="#0f766e" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="260" cy="210" r="6" fill="#111827"/>
+  <circle cx="373" cy="142" r="7" fill="#ef4444"/>
+  <circle cx="355" cy="302" r="7" fill="#ef4444"/>
+  <text x="244" y="202" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">O</text>
+  <text x="385" y="137" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">A</text>
+  <text x="365" y="324" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">B</text>
+  <text x="304" y="222" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#0f766e">84&#176;</text>
+  <text x="430" y="128" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="#111827">Central angle</text>
+  <text x="430" y="168" font-family="Inter, Arial, sans-serif" font-size="22" fill="#374151">vertex at the center</text>
+  <line x1="430" y1="188" x2="335" y2="203" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="430" y="260" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="#ef4444">Intercepted arc</text>
+  <text x="430" y="300" font-family="Inter, Arial, sans-serif" font-size="22" fill="#374151">arc AB also measures 84&#176;</text>
+  <line x1="430" y1="278" x2="378" y2="225" stroke="#ef4444" stroke-width="3" marker-end="url(#arrowRed)"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#64748b"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ef4444"/>
+    </marker>
+  </defs>
+</svg>

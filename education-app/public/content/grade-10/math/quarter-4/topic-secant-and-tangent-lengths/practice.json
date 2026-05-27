@@ -1,0 +1,100 @@
+{
+  "examId": "grade-10-math-q4-secant-and-tangent-lengths-practice",
+  "examType": "practice",
+  "title": "Secant and Tangent Lengths Practice",
+  "description": "Practice applying secant-secant and tangent-secant power relationships to solve missing circle lengths.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Two secants are drawn from the same external point. Secant 1 has outside length 3 and inside length 9. Secant 2 has outside length 4 and inside length x. Which equation is correct?",
+      "options": [
+        "3(9) = 4x",
+        "3(3 + 9) = 4(4 + x)",
+        "3(4) = 9x",
+        "3^2 = 4(4 + x)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For two secants, multiply each external segment by its whole secant. The whole secants are 3 + 9 and 4 + x.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Two secants start at point P. One has outside length 5 and inside length 7. The other has outside length 4 and inside length x. Find x.",
+      "options": [
+        "7",
+        "9",
+        "11",
+        "15"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Use 5(12) = 4(4 + x). Then 60 = 16 + 4x, so x = 11.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A tangent has length 10. A secant from the same external point has outside length 4 and inside length x. Find x.",
+      "options": [
+        "16",
+        "21",
+        "25",
+        "29"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Use 10^2 = 4(4 + x). Then 100 = 16 + 4x, so x = 21.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "In a tangent-secant problem, the tangent length is squared.",
+      "correctAnswer": "true",
+      "explanation": "The tangent-secant relationship is (tangent)^2 = (external secant)(whole secant).",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "A secant has outside length 6 and inside length 8. Fill in the whole secant length.",
+      "correctAnswer": "14",
+      "explanation": "The whole secant is the outside part plus the inside part: 6 + 8 = 14.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Two secants from point A have lengths: outside 6, inside 4; and outside 5, inside x. Find x.",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Use 6(10) = 5(5 + x). Then 60 = 25 + 5x, so x = 7.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A tangent has length 12. A secant from the same point has outside length 8 and inside length x. Fill in x.",
+      "correctAnswer": "10",
+      "explanation": "Use 12^2 = 8(8 + x). Then 144 = 64 + 8x, so x = 10.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "In one or two sentences, explain why the whole secant is not the same as the inside segment.",
+      "correctAnswer": "The whole secant runs from the external point through the circle, so it includes the outside segment and the inside segment. The inside segment is only the part between the two circle intersections.",
+      "explanation": "Power relationships use external segment times whole secant, so the outside part must be included in the whole length.",
+      "points": 10
+    }
+  ]
+}

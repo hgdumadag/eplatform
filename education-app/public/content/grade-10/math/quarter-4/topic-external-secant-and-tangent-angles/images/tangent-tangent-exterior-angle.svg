@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title>Tangent Tangent Exterior Angle</title>
+  <desc>Tangent Tangent Exterior Angle diagram for a Grade 10 circle geometry lesson.</desc>
+  <title id="title">Tangent-tangent exterior angle</title>
+  <desc id="desc">Two tangents from one exterior point touch a circle and create an exterior angle related to the major and minor arcs.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <circle cx="310" cy="215" r="130" fill="#fef3c7" stroke="#0f172a" stroke-width="4"/>
+  <path d="M368 99 A130 130 0 1 1 368 331" fill="none" stroke="#7c3aed" stroke-width="10" stroke-linecap="round"/>
+  <path d="M368 331 A130 130 0 0 0 368 99" fill="none" stroke="#f97316" stroke-width="10" stroke-linecap="round"/>
+  <line x1="590" y1="215" x2="368" y2="99" stroke="#334155" stroke-width="5"/>
+  <line x1="590" y1="215" x2="368" y2="331" stroke="#334155" stroke-width="5"/>
+  <circle cx="590" cy="215" r="7" fill="#0f172a"/>
+  <circle cx="368" cy="99" r="7" fill="#7c3aed"/>
+  <circle cx="368" cy="331" r="7" fill="#f97316"/>
+  <path d="M548 199 Q560 215 548 231" fill="none" stroke="#ef4444" stroke-width="4"/>
+  <text x="48" y="46" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Tangent-Tangent Case</text>
+  <text x="48" y="78" font-family="Arial, sans-serif" font-size="19" fill="#334155">Angle = 1/2(major arc - minor arc)</text>
+  <text x="172" y="214" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#6d28d9">major arc</text>
+  <text x="392" y="219" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#c2410c">minor arc</text>
+  <text x="602" y="220" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0f172a">Exterior angle</text>
+  <text x="92" y="374" font-family="Arial, sans-serif" font-size="20" fill="#334155">Shortcut: exterior angle = 180° - minor arc</text>
+</svg>

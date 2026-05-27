@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title>Secant Vs Tangent</title>
+  <desc>Secant Vs Tangent diagram for a Grade 10 circle geometry lesson.</desc>
+  <title id="title">Secant and tangent compared</title>
+  <desc id="desc">A secant line crossing a circle at two points and a tangent line touching a circle at one point.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <circle cx="350" cy="205" r="120" fill="#ffffff" stroke="#2563eb" stroke-width="5"/>
+  <line x1="120" y1="285" x2="585" y2="120" stroke="#f97316" stroke-width="7" stroke-linecap="round"/>
+  <line x1="210" y1="329" x2="575" y2="329" stroke="#16a34a" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="284" cy="227" r="8" fill="#c2410c"/>
+  <circle cx="430" cy="175" r="8" fill="#c2410c"/>
+  <circle cx="350" cy="325" r="8" fill="#15803d"/>
+  <text x="265" y="215" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#9a3412">R</text>
+  <text x="440" y="169" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#9a3412">S</text>
+  <text x="361" y="318" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#166534">T</text>
+  <text x="67" y="68" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Secant vs. tangent</text>
+  <text x="67" y="107" font-family="Arial, sans-serif" font-size="20" fill="#334155">Count how many times the line meets the circle.</text>
+  <text x="493" y="154" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#c2410c">secant: 2 points</text>
+  <text x="418" y="370" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#15803d">tangent: 1 point</text>
+  <path d="M 410 348 L 356 329" fill="none" stroke="#15803d" stroke-width="3" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#15803d"/>
+    </marker>
+  </defs>
+</svg>

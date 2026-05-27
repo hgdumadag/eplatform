@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title>Chord And Diameter</title>
+  <desc>Chord And Diameter diagram for a Grade 10 circle geometry lesson.</desc>
+  <title id="title">Chord and diameter in a circle</title>
+  <desc id="desc">A circle with a chord CD and a diameter EF passing through center O.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <circle cx="360" cy="210" r="135" fill="#ffffff" stroke="#2563eb" stroke-width="5"/>
+  <line x1="245" y1="139" x2="470" y2="139" stroke="#f97316" stroke-width="7" stroke-linecap="round"/>
+  <line x1="225" y1="210" x2="495" y2="210" stroke="#16a34a" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="360" cy="210" r="7" fill="#0f172a"/>
+  <circle cx="245" cy="139" r="7" fill="#c2410c"/>
+  <circle cx="470" cy="139" r="7" fill="#c2410c"/>
+  <circle cx="225" cy="210" r="7" fill="#15803d"/>
+  <circle cx="495" cy="210" r="7" fill="#15803d"/>
+  <text x="338" y="199" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">O</text>
+  <text x="221" y="126" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#9a3412">C</text>
+  <text x="480" y="126" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#9a3412">D</text>
+  <text x="196" y="219" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#166534">E</text>
+  <text x="505" y="219" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#166534">F</text>
+  <text x="64" y="70" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Chord vs. diameter</text>
+  <text x="64" y="109" font-family="Arial, sans-serif" font-size="20" fill="#334155">A chord has both endpoints on the circle.</text>
+  <text x="64" y="326" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#c2410c">CD is a chord.</text>
+  <text x="64" y="358" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#15803d">EF is a diameter because it passes through O.</text>
+</svg>

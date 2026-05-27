@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="320" viewBox="0 0 760 320" role="img" aria-labelledby="title desc">
+  <title>Segment Vs Sector</title>
+  <desc>Segment Vs Sector diagram for a Grade 10 circle geometry lesson.</desc>
+  <title id="title">Circular segment compared with circular sector</title>
+  <desc id="desc">Two circle diagrams compare a sector bounded by two radii and an arc with a segment bounded by a chord and an arc.</desc>
+  <rect width="760" height="320" fill="#f8fafc"/>
+  <text x="190" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">Sector</text>
+  <text x="570" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">Circular Segment</text>
+
+  <circle cx="190" cy="170" r="105" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+  <path d="M190 170 L276 109 A105 105 0 0 1 276 231 Z" fill="#bfdbfe" stroke="#2563eb" stroke-width="3"/>
+  <circle cx="190" cy="170" r="5" fill="#111827"/>
+  <line x1="190" y1="170" x2="276" y2="109" stroke="#1d4ed8" stroke-width="3"/>
+  <line x1="190" y1="170" x2="276" y2="231" stroke="#1d4ed8" stroke-width="3"/>
+  <text x="246" y="171" font-family="Arial, sans-serif" font-size="15" fill="#1e40af">two radii</text>
+  <text x="288" y="173" font-family="Arial, sans-serif" font-size="15" fill="#1e40af">arc</text>
+
+  <circle cx="570" cy="170" r="105" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+  <path d="M484 109 A105 105 0 0 0 656 109 L484 109 Z" fill="#bbf7d0" stroke="#16a34a" stroke-width="3"/>
+  <line x1="484" y1="109" x2="656" y2="109" stroke="#15803d" stroke-width="4"/>
+  <text x="570" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#166534">arc</text>
+  <text x="570" y="134" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#166534">chord</text>
+
+  <text x="190" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">Bounded by two radii and an arc</text>
+  <text x="570" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#475569">Bounded by a chord and an arc</text>
+</svg>

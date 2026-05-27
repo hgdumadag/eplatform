@@ -1,0 +1,80 @@
+{
+  "examId": "grade-10-math-q4-shaded-region-problems-practice",
+  "examType": "practice",
+  "title": "Shaded Region Problems Practice",
+  "description": "Practice combining circle, sector, and polygon areas in shaded region problems.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A shaded region is inside a circle of radius 6 cm but outside a rectangle with area 20 cm^2. Which expression gives the shaded area?",
+      "options": ["36pi + 20", "36pi - 20", "12pi - 20", "20 - 36pi"],
+      "correctAnswer": 1,
+      "explanation": "The containing region is the circle, with area pi(6^2) = 36pi. Remove the rectangle area, so the shaded area is 36pi - 20.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "Find the area of a 90° sector with radius 10. Give an exact answer in terms of pi.",
+      "correctAnswer": "25pi",
+      "explanation": "A 90° sector is 1/4 of a circle, so the area is (1/4)pi(10^2) = 25pi.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A semicircle with radius 8 has area 32pi.",
+      "correctAnswer": "true",
+      "explanation": "The full circle area is 64pi. Half of that is 32pi.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A 90° sector has radius 8. A right triangle with legs 8 and 8 is removed. What is the shaded area between the arc and the triangle?",
+      "options": ["64pi - 32", "16pi - 32", "16pi + 32", "32 - 16pi"],
+      "correctAnswer": 1,
+      "explanation": "The sector area is (90/360)pi(8^2) = 16pi. The triangle area is (1/2)(8)(8) = 32. Subtract to get 16pi - 32.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A square has side length 12. A circle of radius 6 is removed from the square. Which expression gives the remaining area?",
+      "options": ["144 - 36pi", "36pi - 144", "144 - 12pi", "72pi"],
+      "correctAnswer": 0,
+      "explanation": "The square area is 12^2 = 144. The circle area is pi(6^2) = 36pi. The remaining area is 144 - 36pi.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A 120° sector with radius 9 has area ____ pi. Enter only the coefficient of pi.",
+      "correctAnswer": "27",
+      "explanation": "The sector fraction is 120/360 = 1/3. The area is (1/3)pi(9^2) = 27pi, so the coefficient is 27.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "In one or two sentences, explain why organizing a shaded region problem as 'whole area minus removed area' helps avoid mistakes.",
+      "correctAnswer": "It identifies the larger containing shape first and labels what is not shaded. This prevents subtracting in the wrong order and makes each formula easier to check.",
+      "explanation": "A clear plan reduces sign and formula mistakes because each computed area has a role in the final expression.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A rectangle has area 80 cm^2. Two semicircles of radius 4 cm are removed. What is the remaining area?",
+      "options": ["80 - 8pi", "80 - 16pi", "80 - 32pi", "16pi - 80"],
+      "correctAnswer": 1,
+      "explanation": "Two semicircles make one full circle of radius 4, with area 16pi. The remaining area is 80 - 16pi.",
+      "points": 10
+    }
+  ]
+}
