@@ -1,0 +1,39 @@
+{
+  "id": "grade-9-math-q1-geometry-lesson-1",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Geometry - Lesson 1",
+  "description": "Model and name foundational geometric objects: points, lines, planes, rays, segments, and angles.",
+  "learningObjectives": [
+    "Distinguish undefined terms from defined geometric terms",
+    "Model points, lines, and planes using diagrams and real objects",
+    "Name and draw rays, segments, and angles using correct notation",
+    "Use geometric notation such as line AB, ray AB, segment AB, and angle ABC accurately",
+    "Identify common notation mistakes in diagrams and written descriptions"
+  ],
+  "prerequisites": [
+    "Recognize basic flat shapes and straight edges",
+    "Use letters to label points in a diagram",
+    "Understand that a ruler can model a straight path",
+    "Read simple mathematical symbols and labels"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "beginner",
+  "tags": ["geometry", "measurement and geometry", "undefined terms", "defined terms", "points", "lines", "planes", "rays", "segments", "angles", "notation"],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/real-world-models.svg",
+      "images/undefined-terms-map.svg",
+      "images/ray-segment-line-comparison.svg",
+      "images/angle-naming.svg",
+      "images/worked-diagram.svg",
+      "images/error-analysis-notation.svg"
+    ]
+  }
+}

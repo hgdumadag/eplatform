@@ -1,0 +1,122 @@
+{
+  "examId": "grade-9-math-q1-geometry-lesson-7-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 7 Assessment: Labeling Transversal Angle Pairs",
+  "description": "Show mastery by classifying angle pairs formed by two lines and a transversal and explaining the position clues.",
+  "passingScore": 75,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "In the standard transversal diagram, angles 2 and 6 are both in the upper-right position at their intersections. What type of pair are they?",
+      "options": [
+        "Corresponding",
+        "Alternate interior",
+        "Alternate exterior",
+        "Same-side interior"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Matching positions at the two intersections make a corresponding angle pair.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "In the standard transversal diagram, which pair is same-side interior?",
+      "options": [
+        "$\\angle 4$ and $\\angle 6$",
+        "$\\angle 4$ and $\\angle 5$",
+        "$\\angle 2$ and $\\angle 7$",
+        "$\\angle 1$ and $\\angle 8$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Angles 4 and 6 are both between the two lines and on the same side of the transversal.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which description best matches alternate exterior angles?",
+      "options": [
+        "Outside the two lines and on opposite sides of the transversal",
+        "Between the two lines and on the same side of the transversal",
+        "Matching positions at different intersections",
+        "Adjacent angles at the same intersection"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alternate exterior angles are exterior and on opposite sides of the transversal.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "Angles 3 and 5 are alternate interior angles because they are both between the two lines.",
+      "correctAnswer": "false",
+      "explanation": "They are both interior, but they are on the same side of the transversal, so they are same-side interior angles.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "In transversal vocabulary, angles outside the two lines are called ______ angles.",
+      "correctAnswer": "exterior",
+      "explanation": "Exterior angles are outside the two lines.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Which pair is not one of the four special angle-pair types from this lesson?",
+      "options": [
+        "$\\angle 1$ and $\\angle 6$",
+        "$\\angle 1$ and $\\angle 5$",
+        "$\\angle 3$ and $\\angle 6$",
+        "$\\angle 2$ and $\\angle 7$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Angles 1 and 6 are not in matching positions, not both interior, and not both exterior.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which pair is alternate interior in the standard transversal diagram?",
+      "options": [
+        "$\\angle 4$ and $\\angle 5$",
+        "$\\angle 1$ and $\\angle 8$",
+        "$\\angle 3$ and $\\angle 5$",
+        "$\\angle 4$ and $\\angle 8$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Angles 4 and 5 are both interior and lie on opposite sides of the transversal.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Describe a routine for identifying a transversal angle pair.",
+      "correctAnswer": "First identify the transversal, then decide whether the angles are interior or exterior, then check whether they are in matching positions, on opposite sides, or on the same side of the transversal.",
+      "explanation": "A reliable routine uses the transversal, region, and side or position clues.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Explain why $\\angle 2$ and $\\angle 7$ are alternate exterior angles in the standard transversal diagram.",
+      "correctAnswer": "They are both outside the two lines and they are on opposite sides of the transversal.",
+      "explanation": "Exterior plus opposite sides identifies the pair as alternate exterior.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A student says $\\angle 1$ and $\\angle 5$ are same-side exterior angles. Correct the student's label using vocabulary from this lesson.",
+      "correctAnswer": "Angles 1 and 5 are corresponding angles because they are in matching positions at the two intersections.",
+      "explanation": "Although both are on the same side of the transversal, the vocabulary category used in this lesson is corresponding because the angles occupy matching positions.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img">
+  <title>Worked CPCTC diagram</title>
+  <desc>Two triangles ABD and CBD share side BD. Markings show AB congruent to CB and angle ABD congruent to angle CBD, supporting SAS and then CPCTC.</desc>
+  <rect width="720" height="420" fill="#ffffff"/>
+  <text x="38" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#17324d">Prove triangles congruent, then use CPCTC</text>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <polygon points="150,210 360,80 360,340" fill="#e8f3ff" stroke="#1f6fb2" stroke-width="4"/>
+    <polygon points="570,210 360,80 360,340" fill="#fff7e8" stroke="#c26a00" stroke-width="4"/>
+    <line x1="360" y1="80" x2="360" y2="340" stroke="#455a64" stroke-width="5"/>
+    <path d="M237 152 l12 18" stroke="#1f6fb2" stroke-width="4"/>
+    <path d="M483 152 l-12 18" stroke="#c26a00" stroke-width="4"/>
+    <path d="M235 267 l12 -18" stroke="#1f6fb2" stroke-width="4"/>
+    <path d="M485 267 l-12 -18" stroke="#c26a00" stroke-width="4"/>
+    <path d="M350 116 q-41 25 -63 62" fill="none" stroke="#2e8b57" stroke-width="4"/>
+    <path d="M370 116 q41 25 63 62" fill="none" stroke="#2e8b57" stroke-width="4"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#17324d">
+    <text x="132" y="218">A</text>
+    <text x="354" y="68">B</text>
+    <text x="354" y="370">D</text>
+    <text x="582" y="218">C</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="17" fill="#17324d">
+    <text x="58" y="384">Given: AB congruent CB, angle ABD congruent angle CBD, and BD is shared.</text>
+    <text x="58" y="407">Conclusion: Triangle ABD congruent triangle CBD by SAS, so AD congruent CD by CPCTC.</text>
+  </g>
+</svg>

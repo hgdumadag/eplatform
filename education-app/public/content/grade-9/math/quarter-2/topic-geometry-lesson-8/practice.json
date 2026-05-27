@@ -1,0 +1,94 @@
+{
+  "examId": "grade-9-math-q2-geometry-lesson-8-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 8 Practice: CPCTC and Theorem Problems",
+  "description": "Practice using triangle congruence, CPCTC, and related triangle theorems to prove and solve corresponding-part problems.",
+  "passingScore": 70,
+  "timeLimit": 22,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What does CPCTC stand for?",
+      "options": [
+        "Congruent Parts Create Two Congruent triangles",
+        "Corresponding Parts of Congruent Triangles are Congruent",
+        "Corresponding Proofs Create Triangle Conclusions",
+        "Congruent Points Connect To Congruence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "CPCTC means Corresponding Parts of Congruent Triangles are Congruent.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "If triangle ABC is congruent to triangle DEF, which side corresponds to side AC?",
+      "options": [
+        "DE",
+        "DF",
+        "EF",
+        "AB"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The order gives A matching D, B matching E, and C matching F, so AC corresponds to DF.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which reason can prove two right triangles congruent when their hypotenuses and one pair of legs are congruent?",
+      "options": [
+        "AAS",
+        "SSS",
+        "HL",
+        "CPCTC"
+      ],
+      "correctAnswer": 2,
+      "explanation": "HL is the right-triangle congruence theorem using a congruent hypotenuse and one congruent leg.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "CPCTC should be used only after two triangles have been proven congruent.",
+      "correctAnswer": "true",
+      "explanation": "CPCTC depends on a previous triangle congruence statement.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "A triangle midline is parallel to the third side and equal in length to the third side.",
+      "correctAnswer": "false",
+      "explanation": "A midline is parallel to the third side, but it is half as long as the third side.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "If point P is on the perpendicular bisector of segment AB, then PA = ______.",
+      "correctAnswer": "PB",
+      "explanation": "The Perpendicular Bisector Theorem says a point on the perpendicular bisector is equidistant from the endpoints.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A midline of a triangle measures 13 cm. The parallel third side measures ______ cm.",
+      "correctAnswer": "26",
+      "explanation": "The third side is twice the midline, so 2 times 13 is 26.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A proof shows triangle ABC is congruent to triangle DEF. Explain how you can conclude angle B is congruent to angle E.",
+      "correctAnswer": "Since the triangles are congruent and B corresponds to E in the congruence statement, angle B is congruent to angle E by CPCTC.",
+      "explanation": "Once triangle congruence is established, corresponding angles may be concluded congruent by CPCTC.",
+      "points": 14
+    }
+  ]
+}

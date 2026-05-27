@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="360" viewBox="0 0 820 360" role="img" aria-labelledby="title desc">
+  <title id="title">Error analysis for rectangle diagonals</title>
+  <desc id="desc">A rectangle with crossed diagonals and a student note incorrectly claiming the diagonals must be perpendicular.</desc>
+  <rect width="820" height="360" fill="#f8fafc"/>
+  <text x="410" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#1f2937">Find the property mix-up</text>
+  <rect x="80" y="95" width="270" height="145" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+  <line x1="80" y1="95" x2="350" y2="240" stroke="#dc2626" stroke-width="3"/>
+  <line x1="350" y1="95" x2="80" y2="240" stroke="#dc2626" stroke-width="3"/>
+  <text x="66" y="88" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">A</text>
+  <text x="360" y="88" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">B</text>
+  <text x="360" y="266" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">C</text>
+  <text x="66" y="266" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">D</text>
+  <rect x="445" y="82" width="310" height="190" rx="8" fill="#fff7ed" stroke="#f97316" stroke-width="3"/>
+  <text x="600" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#9a3412">Student claim</text>
+  <text x="470" y="158" font-family="Arial, sans-serif" font-size="17" fill="#1f2937">"It is a rectangle, so</text>
+  <text x="470" y="186" font-family="Arial, sans-serif" font-size="17" fill="#1f2937">the diagonals must be</text>
+  <text x="470" y="214" font-family="Arial, sans-serif" font-size="17" fill="#1f2937">perpendicular."</text>
+  <text x="600" y="252" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#dc2626">Not always true</text>
+  <text x="410" y="322" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#374151">Perpendicular diagonals are a rhombus property, not a rectangle property.</text>
+</svg>

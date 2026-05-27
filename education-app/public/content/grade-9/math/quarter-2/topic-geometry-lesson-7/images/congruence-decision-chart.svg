@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Triangle congruence decision chart</title>
+  <desc id="desc">A chart lists valid triangle congruence evidence: SSS, SAS with included angle, ASA, AAS, and HL for right triangles; it also warns that SSA and AAA are not congruence shortcuts.</desc>
+  <rect width="760" height="420" fill="#fbfdff"/>
+  <text x="380" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#111827">Which congruence reason fits?</text>
+  <rect x="45" y="70" width="205" height="120" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="147" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#1e3a8a">SSS</text>
+  <text x="147" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#1e3a8a">3 side pairs</text>
+  <text x="147" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#1e3a8a">all matching</text>
+  <rect x="278" y="70" width="205" height="120" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="380" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#166534">SAS</text>
+  <text x="380" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#166534">2 sides plus</text>
+  <text x="380" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#166534">included angle</text>
+  <rect x="511" y="70" width="205" height="120" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="613" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#92400e">ASA</text>
+  <text x="613" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#92400e">2 angles plus</text>
+  <text x="613" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#92400e">included side</text>
+  <rect x="105" y="225" width="205" height="120" rx="8" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+  <text x="207" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#5b21b6">AAS</text>
+  <text x="207" y="293" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#5b21b6">2 angles plus</text>
+  <text x="207" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#5b21b6">non-included side</text>
+  <rect x="338" y="225" width="205" height="120" rx="8" fill="#cffafe" stroke="#0891b2" stroke-width="2"/>
+  <text x="440" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#155e75">HL</text>
+  <text x="440" y="293" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#155e75">right triangles</text>
+  <text x="440" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#155e75">hypotenuse + leg</text>
+  <rect x="570" y="225" width="145" height="120" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="642" y="262" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" fill="#991b1b">Reject</text>
+  <text x="642" y="294" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#991b1b">SSA</text>
+  <text x="642" y="321" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#991b1b">AAA</text>
+  <text x="380" y="386" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#374151">Arrangement matters: included vs non-included is the usual deciding detail.</text>
+</svg>

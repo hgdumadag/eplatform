@@ -1,0 +1,110 @@
+{
+  "examId": "grade-9-math-q2-geometry-lesson-9-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 9 Assessment: Geometric Constructions",
+  "description": "Show mastery of construction steps, secondary parts, centers, and congruence-based justifications.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "When copying an angle with compass arcs, why do you copy the distance between the two arc intersection points on the original angle?",
+      "options": [
+        "To copy the chord distance that fixes the opening of the angle",
+        "To measure the angle in degrees",
+        "To make the new angle larger",
+        "To find the triangle's circumcenter"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The chord distance between the arc intersections helps recreate the same angle opening on the copied angle.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which construction should be used to find a triangle's centroid?",
+      "options": [
+        "Construct all angle bisectors",
+        "Construct medians from vertices to opposite side midpoints",
+        "Construct perpendicular bisectors of the sides",
+        "Construct altitudes from vertices"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The centroid is the intersection point of the medians.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "You construct a perpendicular bisector of segment AB using equal-radius arcs from A and B. Which statement is part of the justification?",
+      "options": [
+        "The arc intersection points are equidistant from A and B.",
+        "The line through A and B is always vertical.",
+        "The midpoint can be chosen anywhere on the segment.",
+        "The construction works only if AB is horizontal."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Equal-radius arcs create points that are the same distance from A and B, which supports the perpendicular bisector construction.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "The incenter is found by constructing the angle bisectors of a triangle.",
+      "correctAnswer": "true",
+      "explanation": "Angle bisectors meet at the incenter, which is equidistant from the sides of the triangle.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "A median and an altitude are always the same segment in every triangle.",
+      "correctAnswer": "false",
+      "explanation": "A median must hit a midpoint, while an altitude must be perpendicular. They coincide only in some special triangles.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A ray that divides an angle into two congruent angles is an angle ______.",
+      "correctAnswer": "bisector",
+      "explanation": "An angle bisector creates two congruent smaller angles.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "The intersection of the perpendicular bisectors of a triangle is the ______.",
+      "correctAnswer": "circumcenter",
+      "explanation": "The circumcenter is equidistant from all three vertices.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A student copies a segment but changes the compass width before marking the new endpoint. Explain why the construction is invalid.",
+      "correctAnswer": "The copied endpoint was not marked using the original distance, so there is no valid reason to claim the new segment is congruent to the original segment.",
+      "explanation": "Construction justifications depend on unchanged compass widths when transferring distances.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Describe the main steps for constructing a triangle from three side lengths.",
+      "correctAnswer": "Draw one side as the base. Set the compass to the second side length and draw an arc from one endpoint. Set the compass to the third side length and draw an arc from the other endpoint. Connect the arc intersection to both base endpoints.",
+      "explanation": "The intersecting arcs locate the third vertex so all three side lengths match the given lengths.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Explain how congruence ideas justify an SSS triangle construction.",
+      "correctAnswer": "The constructed triangle has the same three side lengths as the given triangle because the base and two compass-transferred distances match. Therefore the triangles are congruent by SSS.",
+      "explanation": "The construction creates three pairs of congruent sides, which is exactly the condition for SSS congruence.",
+      "points": 10
+    }
+  ]
+}

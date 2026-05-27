@@ -1,0 +1,110 @@
+{
+  "examId": "grade-9-math-q1-geometry-lesson-8-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 8 Assessment: Justifying Parallel Line Angle Measures",
+  "description": "Find missing angle measures and justify each answer with the correct angle relationship.",
+  "passingScore": 75,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "If two parallel lines are cut by a transversal and $m\\angle 3 = 64^\\circ$, what is the measure of an angle corresponding to $\\angle 3$?",
+      "options": [
+        "$26^\\circ$",
+        "$64^\\circ$",
+        "$116^\\circ$",
+        "$180^\\circ$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Corresponding angles are congruent, so the corresponding angle also measures 64°.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "$\\angle 1$ and $\\angle 2$ are same-side interior angles formed by parallel lines. If $m\\angle 1 = 109^\\circ$, what is $m\\angle 2$?",
+      "options": [
+        "$71^\\circ$",
+        "$81^\\circ$",
+        "$109^\\circ$",
+        "$180^\\circ$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Same-side interior angles are supplementary, so $m\\angle 2 = 180 - 109 = 71^\\circ$.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "If two lines are parallel, alternate exterior angles are supplementary.",
+      "correctAnswer": "false",
+      "explanation": "Alternate exterior angles are congruent for parallel lines. Same-side interior angles are supplementary.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "An angle measuring $137^\\circ$ forms a linear pair with angle $x$. The value of $x$ is ______.",
+      "correctAnswer": "43",
+      "explanation": "A linear pair is supplementary, so $x = 180 - 137 = 43$.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which justification best supports the statement $m\\angle A = m\\angle B$ when the angles are between parallel lines on opposite sides of the transversal?",
+      "options": [
+        "Alternate interior angles are congruent.",
+        "Same-side interior angles are supplementary.",
+        "A linear pair adds to $180^\\circ$.",
+        "Adjacent angles are always congruent."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Angles between the parallel lines on opposite sides of the transversal are alternate interior angles.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "Parallel lines are cut by a transversal. $m\\angle 1 = 52^\\circ$. $\\angle 2$ corresponds to $\\angle 1$, and $\\angle 3$ forms a linear pair with $\\angle 2$. Find $m\\angle 3$ and justify the steps.",
+      "correctAnswer": "$m\\angle 2 = 52^\\circ$ because corresponding angles are congruent. Then $m\\angle 3 = 128^\\circ$ because a linear pair is supplementary.",
+      "explanation": "First copy the corresponding angle measure, then subtract from 180° for the linear pair.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "$m\\angle 4 = 126^\\circ$. $\\angle 5$ is vertical to $\\angle 4$. $\\angle 6$ is same-side interior with $\\angle 5$ on parallel lines. Find $m\\angle 6$ and name both relationships.",
+      "correctAnswer": "$m\\angle 5 = 126^\\circ$ because vertical angles are congruent. $m\\angle 6 = 54^\\circ$ because same-side interior angles are supplementary.",
+      "explanation": "Vertical angles preserve the measure, and same-side interior angles on parallel lines add to 180°.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "Two alternate interior angles have measures $(3x + 8)^\\circ$ and $83^\\circ$ on parallel lines. The value of $x$ is ______.",
+      "correctAnswer": "25",
+      "explanation": "Alternate interior angles are congruent, so $3x + 8 = 83$. Then $3x = 75$ and $x = 25$.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A student says, \"The angle is alternate interior, so it must add to 180° with the given angle.\" Correct the student's reasoning.",
+      "correctAnswer": "Alternate interior angles are congruent when the lines are parallel. Same-side interior angles are the ones that are supplementary.",
+      "explanation": "This checks whether the relationship name and operation match: alternate interior means equal, not supplementary.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Parallel lines are cut by a transversal. Angle A is $74^\\circ$. Angle B is alternate exterior to A. Angle C forms a linear pair with B. Find $m\\angle C$ and justify your answer.",
+      "correctAnswer": "$m\\angle B = 74^\\circ$ because alternate exterior angles are congruent. $m\\angle C = 106^\\circ$ because a linear pair is supplementary.",
+      "explanation": "Use the parallel-line theorem first, then the local linear-pair relationship at the intersection.",
+      "points": 10
+    }
+  ]
+}

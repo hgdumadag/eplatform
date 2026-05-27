@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Isosceles trapezoid properties</title>
+  <desc id="desc">An isosceles trapezoid with congruent legs, congruent base angles, and congruent diagonals marked to show relationships used in measure problems.</desc>
+  <rect width="720" height="360" fill="#fffdf8"/>
+  <text x="32" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#28364c">Isosceles trapezoid: one condition, three useful facts</text>
+  <g transform="translate(70 82)">
+    <polygon points="85,198 455,198 355,44 185,44" fill="#fff0d8" stroke="#8a5a00" stroke-width="4"/>
+    <line x1="185" y1="44" x2="85" y2="198" stroke="#b33b35" stroke-width="6"/>
+    <line x1="355" y1="44" x2="455" y2="198" stroke="#b33b35" stroke-width="6"/>
+    <line x1="185" y1="44" x2="455" y2="198" stroke="#395fba" stroke-width="4" stroke-dasharray="8 6"/>
+    <line x1="355" y1="44" x2="85" y2="198" stroke="#395fba" stroke-width="4" stroke-dasharray="8 6"/>
+    <path d="M118 198 A45 45 0 0 1 139 160" fill="none" stroke="#0f7b58" stroke-width="5"/>
+    <path d="M423 198 A45 45 0 0 0 401 160" fill="none" stroke="#0f7b58" stroke-width="5"/>
+    <path d="M210 44 A34 34 0 0 0 226 73" fill="none" stroke="#6d3ca1" stroke-width="5"/>
+    <path d="M330 44 A34 34 0 0 1 314 73" fill="none" stroke="#6d3ca1" stroke-width="5"/>
+    <text x="58" y="122" font-family="Arial, sans-serif" font-size="16" fill="#b33b35">leg</text>
+    <text x="460" y="122" font-family="Arial, sans-serif" font-size="16" fill="#b33b35">leg</text>
+    <text x="198" y="222" font-family="Arial, sans-serif" font-size="16" fill="#0f7b58">lower base angles equal</text>
+    <text x="196" y="34" font-family="Arial, sans-serif" font-size="16" fill="#6d3ca1">top base angles equal</text>
+    <text x="184" y="135" font-family="Arial, sans-serif" font-size="16" fill="#395fba">diagonals equal</text>
+  </g>
+  <g transform="translate(500 105)">
+    <rect x="0" y="0" width="170" height="168" rx="8" fill="#eef6ff" stroke="#395fba" stroke-width="2"/>
+    <text x="16" y="31" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#234b85">Use when given:</text>
+    <text x="16" y="66" font-family="Arial, sans-serif" font-size="15" fill="#333">congruent legs</text>
+    <text x="16" y="98" font-family="Arial, sans-serif" font-size="15" fill="#333">base angle pair</text>
+    <text x="16" y="130" font-family="Arial, sans-serif" font-size="15" fill="#333">diagonal lengths</text>
+  </g>
+</svg>

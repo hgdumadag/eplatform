@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="440" viewBox="0 0 760 440" role="img" aria-labelledby="title desc">
+  <title id="title">Worked geometric map example</title>
+  <desc id="desc">Parallel roads m and n cut by transversal p, with a perpendicular road q and selected angle measures labeled.</desc>
+  <rect width="760" height="440" fill="#f8fafc"/>
+  <g stroke="#334155" stroke-width="9" stroke-linecap="round">
+    <path d="M85 145H690"/>
+    <path d="M85 300H690"/>
+    <path d="M250 365L535 75"/>
+    <path d="M610 145V365"/>
+  </g>
+  <g stroke="#dc2626" stroke-width="3" fill="none">
+    <path d="M610 145h32v32h-32z"/>
+  </g>
+  <g fill="#0f172a" font-family="Arial, sans-serif" font-size="20" font-weight="700">
+    <text x="100" y="132">m</text>
+    <text x="100" y="287">n</text>
+    <text x="540" y="78">p</text>
+    <text x="622" y="360">q</text>
+    <text x="354" y="123">1 = 64</text>
+    <text x="414" y="123">2</text>
+    <text x="511" y="278">5</text>
+    <text x="644" y="174">8</text>
+  </g>
+  <g fill="#2563eb" font-family="Arial, sans-serif" font-size="18">
+    <text x="465" y="40">m || n</text>
+    <text x="630" y="128">q perpendicular m</text>
+  </g>
+</svg>

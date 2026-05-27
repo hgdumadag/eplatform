@@ -1,0 +1,94 @@
+{
+  "examId": "grade-9-math-q1-geometry-lesson-3-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 3 Practice: Constructing Segments and Angles",
+  "description": "Practice choosing tools, following construction steps, and checking precision for segments and angles.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which tool is best for drawing a straight line through two marked points?",
+      "options": [
+        "Straightedge",
+        "Calculator",
+        "Compass only",
+        "Protractor only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A straightedge is used to draw a straight line or segment through points.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "To construct a segment $\\overline{AB}$ that is exactly 6 cm long, what should you do first?",
+      "options": [
+        "Mark point A, align the ruler's 0 mark with A, then mark B at 6 cm.",
+        "Start at the edge of the ruler even if the 0 mark is not there.",
+        "Draw any segment and label it 6 cm.",
+        "Use the protractor scale to measure 6 cm."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The measurement starts at the ruler's 0 mark. If the ruler is not aligned at 0, the segment length will be wrong.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "A segment from 0 cm to 4.5 cm has length ______ cm.",
+      "correctAnswer": "4.5",
+      "explanation": "The endpoint is at 4.5 cm when the starting point is aligned with 0 cm.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "When drawing a $70^\\circ$ angle, the center mark of the protractor should be placed on the vertex.",
+      "correctAnswer": "true",
+      "explanation": "The protractor's center mark must sit on the vertex so the angle is measured from the correct point.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A ray is aligned with the right-side $0^\\circ$ mark of a protractor. Which scale should you read?",
+      "options": [
+        "The scale that begins at the right-side 0 degree mark",
+        "Always the outer scale",
+        "Always the inner scale",
+        "The centimeter scale"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Read the scale that starts at the ray aligned with 0 degrees. This avoids choosing the supplement by mistake.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "If a required segment length is 8 cm and your drawing measures 7.8 cm, the error is ______ cm.",
+      "correctAnswer": "0.2",
+      "explanation": "The absolute error is $8 - 7.8 = 0.2$ cm.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "Write two careful steps for constructing a $45^\\circ$ angle from ray $\\overrightarrow{BA}$.",
+      "correctAnswer": "Place the protractor center on B and align 0 degrees with ray BA. Mark the 45 degree point on the correct scale, then draw a ray from B through the mark.",
+      "explanation": "The vertex, zero line, correct scale, mark, and final ray are the important construction moves.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A classmate draws a segment labeled 5 cm, but it measures 5.6 cm on a ruler. Explain what should be corrected.",
+      "correctAnswer": "The endpoint should be moved so the segment measures 5 cm from the starting point. The ruler should be aligned with 0 at the first endpoint before marking the second endpoint.",
+      "explanation": "A construction label is only valid if the measured drawing matches it within the expected precision.",
+      "points": 14
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Road crossing two parallel streets</title>
+  <desc id="desc">A diagonal road crosses two horizontal roads, creating angle positions similar to a transversal diagram.</desc>
+  <rect width="900" height="420" fill="#f8fafc"/>
+  <g font-family="Arial, sans-serif" fill="#0f172a">
+    <text x="450" y="44" text-anchor="middle" font-size="25" font-weight="700">A Crossing Road Creates Repeated Angle Positions</text>
+    <rect x="80" y="105" width="740" height="54" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+    <rect x="80" y="265" width="740" height="54" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+    <path d="M250 365 L650 70" stroke="#f97316" stroke-width="58" stroke-linecap="round"/>
+    <path d="M250 365 L650 70" stroke="#fff7ed" stroke-width="6" stroke-dasharray="22 18"/>
+    <text x="115" y="139" font-size="19" font-weight="700">Street A</text>
+    <text x="115" y="300" font-size="19" font-weight="700">Street B</text>
+    <text x="642" y="92" font-size="18" font-weight="700" fill="#9a3412">transversal road</text>
+    <circle cx="565" cy="132" r="7" fill="#dc2626"/>
+    <circle cx="348" cy="292" r="7" fill="#dc2626"/>
+    <text x="515" y="205" font-size="18">Each crossing forms four angle positions.</text>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">Property evidence cards</title>
+  <desc id="desc">Three evidence cards show side marks, angle marks, and diagonal marks used for quadrilateral classification.</desc>
+  <rect width="760" height="360" fill="#f8fafc"/>
+  <text x="36" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">What evidence is given?</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="45" y="85" width="200" height="220" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
+    <text x="77" y="122" font-size="20" font-weight="700" fill="#1d4ed8">Side Evidence</text>
+    <polygon points="95,165 195,150 215,225 115,245" fill="#dbeafe" stroke="#0f172a" stroke-width="3"/>
+    <line x1="116" y1="155" x2="121" y2="176" stroke="#0f172a" stroke-width="3"/>
+    <line x1="187" y1="237" x2="192" y2="258" stroke="#0f172a" stroke-width="3"/>
+    <text x="74" y="282" font-size="16" fill="#334155">parallel or congruent?</text>
+    <rect x="280" y="85" width="200" height="220" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="3"/>
+    <text x="310" y="122" font-size="20" font-weight="700" fill="#166534">Angle Evidence</text>
+    <rect x="333" y="160" width="95" height="75" fill="#dcfce7" stroke="#0f172a" stroke-width="3"/>
+    <path d="M333 180 h20 v-20" fill="none" stroke="#16a34a" stroke-width="3"/>
+    <path d="M428 215 h-20 v20" fill="none" stroke="#16a34a" stroke-width="3"/>
+    <text x="314" y="282" font-size="16" fill="#334155">right or congruent?</text>
+    <rect x="515" y="85" width="200" height="220" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="3"/>
+    <text x="545" y="122" font-size="20" font-weight="700" fill="#92400e">Diagonal Evidence</text>
+    <polygon points="570,160 665,160 690,235 545,235" fill="#fef3c7" stroke="#0f172a" stroke-width="3"/>
+    <line x1="570" y1="160" x2="690" y2="235" stroke="#d97706" stroke-width="3"/>
+    <line x1="665" y1="160" x2="545" y2="235" stroke="#d97706" stroke-width="3"/>
+    <circle cx="617.5" cy="197.5" r="5" fill="#d97706"/>
+    <text x="548" y="282" font-size="16" fill="#334155">bisect or perpendicular?</text>
+  </g>
+</svg>

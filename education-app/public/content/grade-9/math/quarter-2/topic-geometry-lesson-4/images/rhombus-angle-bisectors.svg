@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Rhombus diagonals bisect opposite angles</title>
+  <desc id="desc">A rhombus ABCD with diagonal AC splitting angle A into two equal 34 degree angles.</desc>
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <polygon points="360,55 570,180 360,305 150,180" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+  <line x1="360" y1="55" x2="360" y2="305" stroke="#dc2626" stroke-width="3"/>
+  <line x1="150" y1="180" x2="570" y2="180" stroke="#334155" stroke-width="2" stroke-dasharray="8 7"/>
+  <text x="360" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">A</text>
+  <text x="590" y="185" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">B</text>
+  <text x="360" y="332" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">C</text>
+  <text x="130" y="185" text-anchor="end" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">D</text>
+  <path d="M360 88 C342 104 328 124 318 145" fill="none" stroke="#2563eb" stroke-width="3"/>
+  <path d="M360 88 C378 104 392 124 402 145" fill="none" stroke="#2563eb" stroke-width="3"/>
+  <text x="306" y="132" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#1d4ed8">34°</text>
+  <text x="414" y="132" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#1d4ed8">34°</text>
+  <text x="360" y="24" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2937">A rhombus diagonal bisects the angle</text>
+</svg>

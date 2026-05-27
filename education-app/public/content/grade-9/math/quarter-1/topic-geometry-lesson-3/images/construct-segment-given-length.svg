@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="260" viewBox="0 0 720 260" role="img" aria-labelledby="title desc">
+  <title id="title">Construct a segment of a given length</title>
+  <desc id="desc">A ruler aligned with point A at zero and point B marked at six centimeters.</desc>
+  <rect width="720" height="260" fill="#f8fafc"/>
+  <rect x="80" y="105" width="560" height="70" rx="6" fill="#fff7ed" stroke="#c2410c" stroke-width="3"/>
+  <line x1="110" y1="105" x2="110" y2="175" stroke="#7c2d12" stroke-width="3"/>
+  <text x="110" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#0f172a">0</text>
+  <g stroke="#7c2d12" stroke-width="2">
+    <line x1="185" y1="105" x2="185" y2="145"/>
+    <line x1="260" y1="105" x2="260" y2="145"/>
+    <line x1="335" y1="105" x2="335" y2="145"/>
+    <line x1="410" y1="105" x2="410" y2="145"/>
+    <line x1="485" y1="105" x2="485" y2="145"/>
+    <line x1="560" y1="105" x2="560" y2="175"/>
+  </g>
+  <text x="185" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#0f172a">1</text>
+  <text x="260" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#0f172a">2</text>
+  <text x="335" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#0f172a">3</text>
+  <text x="410" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#0f172a">4</text>
+  <text x="485" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#0f172a">5</text>
+  <text x="560" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#0f172a">6 cm</text>
+  <line x1="110" y1="78" x2="560" y2="78" stroke="#0f172a" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="110" cy="78" r="6" fill="#2563eb"/>
+  <circle cx="560" cy="78" r="6" fill="#2563eb"/>
+  <text x="110" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#1e3a8a">A</text>
+  <text x="560" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#1e3a8a">B</text>
+  <text x="335" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">Align 0 with A, then mark B at 6 cm.</text>
+</svg>

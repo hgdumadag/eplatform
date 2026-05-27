@@ -1,0 +1,50 @@
+{
+  "id": "grade-9-math-q2-geometry-lesson-7",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Geometry - Lesson 7",
+  "description": "Apply triangle congruence postulates and theorems, including SSS, SAS, ASA, AAS, and HL, while avoiding invalid shortcuts such as SSA and AAA.",
+  "learningObjectives": [
+    "Identify corresponding sides and angles in two triangles",
+    "Apply SSS, SAS, ASA, AAS, and HL when enough congruence evidence is given",
+    "Distinguish valid triangle congruence reasons from invalid shortcuts such as SSA and AAA",
+    "Decide when the HL theorem applies to right triangles",
+    "Write complete triangle congruence statements using correct vertex order"
+  ],
+  "prerequisites": [
+    "Name triangles and corresponding parts accurately",
+    "Use angle and segment congruence markings in diagrams",
+    "Recognize right angles and hypotenuses in right triangles",
+    "Understand that congruent figures have the same size and shape",
+    "Use geometric notation such as △ABC and ∠A"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "triangle congruence",
+    "SSS",
+    "SAS",
+    "ASA",
+    "AAS",
+    "HL",
+    "proof"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/real-world-triangle-congruence.svg",
+      "images/congruence-decision-chart.svg",
+      "images/marked-triangle-comparison.svg",
+      "images/worked-sas-example.svg",
+      "images/hl-right-triangle-check.svg",
+      "images/error-analysis-invalid-shortcuts.svg"
+    ]
+  }
+}

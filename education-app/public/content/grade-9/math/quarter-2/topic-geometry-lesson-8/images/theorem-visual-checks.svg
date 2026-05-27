@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="520" viewBox="0 0 780 520" role="img">
+  <title>Theorem visual checks</title>
+  <desc>Four small diagrams summarize HL, the isosceles triangle theorem, the perpendicular bisector theorem, and the midline theorem.</desc>
+  <rect width="780" height="520" fill="#fbfcff"/>
+  <text x="36" y="42" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#17324d">Theorem visual checks</text>
+  <g font-family="Arial, sans-serif" fill="#17324d" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="40" y="75" width="320" height="185" rx="10" fill="#ffffff" stroke="#c9d7e6"/>
+    <text x="62" y="105" font-size="19" font-weight="700">HL right triangles</text>
+    <polygon points="80,225 80,135 190,225" fill="#e8f3ff" stroke="#1f6fb2" stroke-width="3"/>
+    <polygon points="225,225 225,135 335,225" fill="#e8f3ff" stroke="#1f6fb2" stroke-width="3"/>
+    <polyline points="80,207 98,207 98,225" fill="none" stroke="#455a64" stroke-width="2"/>
+    <polyline points="225,207 243,207 243,225" fill="none" stroke="#455a64" stroke-width="2"/>
+    <path d="M118 180 l10 -10" stroke="#c26a00" stroke-width="4"/>
+    <path d="M263 180 l10 -10" stroke="#c26a00" stroke-width="4"/>
+    <text x="95" y="248" font-size="14">hypotenuse + leg</text>
+
+    <rect x="420" y="75" width="320" height="185" rx="10" fill="#ffffff" stroke="#c9d7e6"/>
+    <text x="442" y="105" font-size="19" font-weight="700">Isosceles triangle</text>
+    <polygon points="485,225 580,125 675,225" fill="#edf8ef" stroke="#2e8b57" stroke-width="3"/>
+    <path d="M525 180 l12 12" stroke="#c26a00" stroke-width="4"/>
+    <path d="M635 180 l-12 12" stroke="#c26a00" stroke-width="4"/>
+    <path d="M504 216 q20 -21 43 -19" fill="none" stroke="#1f6fb2" stroke-width="3"/>
+    <path d="M656 216 q-20 -21 -43 -19" fill="none" stroke="#1f6fb2" stroke-width="3"/>
+    <text x="502" y="248" font-size="14">equal sides -> equal base angles</text>
+
+    <rect x="40" y="295" width="320" height="185" rx="10" fill="#ffffff" stroke="#c9d7e6"/>
+    <text x="62" y="325" font-size="19" font-weight="700">Perpendicular bisector</text>
+    <line x1="85" y1="430" x2="315" y2="430" stroke="#455a64" stroke-width="4"/>
+    <line x1="200" y1="330" x2="200" y2="470" stroke="#1f6fb2" stroke-width="4"/>
+    <polyline points="200,412 218,412 218,430" fill="none" stroke="#455a64" stroke-width="2"/>
+    <line x1="200" y1="350" x2="85" y2="430" stroke="#c26a00" stroke-width="3"/>
+    <line x1="200" y1="350" x2="315" y2="430" stroke="#c26a00" stroke-width="3"/>
+    <text x="78" y="454" font-size="16">A</text>
+    <text x="312" y="454" font-size="16">B</text>
+    <text x="207" y="348" font-size="16">P</text>
+    <text x="95" y="326" font-size="14">PA = PB</text>
+
+    <rect x="420" y="295" width="320" height="185" rx="10" fill="#ffffff" stroke="#c9d7e6"/>
+    <text x="442" y="325" font-size="19" font-weight="700">Triangle midline</text>
+    <polygon points="475,455 580,330 690,455" fill="#fff7e8" stroke="#c26a00" stroke-width="3"/>
+    <line x1="528" y1="392" x2="635" y2="393" stroke="#1f6fb2" stroke-width="4"/>
+    <text x="542" y="384" font-size="16">midline</text>
+    <text x="497" y="475" font-size="14">parallel to third side, half as long</text>
+  </g>
+</svg>

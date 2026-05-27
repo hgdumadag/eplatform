@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Triangle secondary parts and centers</title>
+  <desc id="desc">A triangle shows medians meeting at a centroid, angle bisectors meeting at an incenter, perpendicular bisectors meeting at a circumcenter, and an altitude.</desc>
+  <rect width="720" height="420" fill="#ffffff"/>
+  <text x="38" y="42" fill="#0f172a" font-family="Arial, sans-serif" font-size="24" font-weight="700">Secondary parts lead to triangle centers</text>
+  <polygon points="140,330 340,80 585,330" fill="#eff6ff" stroke="#0f172a" stroke-width="4"/>
+  <circle cx="140" cy="330" r="5" fill="#0f172a"/><circle cx="340" cy="80" r="5" fill="#0f172a"/><circle cx="585" cy="330" r="5" fill="#0f172a"/>
+  <line x1="340" y1="80" x2="362.5" y2="330" stroke="#16a34a" stroke-width="3"/>
+  <line x1="140" y1="330" x2="462.5" y2="205" stroke="#16a34a" stroke-width="3"/>
+  <circle cx="374" cy="247" r="7" fill="#16a34a"/>
+  <text x="386" y="252" fill="#14532d" font-family="Arial, sans-serif" font-size="15">centroid</text>
+  <line x1="253" y1="189" x2="472" y2="330" stroke="#2563eb" stroke-width="3" stroke-dasharray="7 5"/>
+  <line x1="140" y1="330" x2="370" y2="315" stroke="#2563eb" stroke-width="3" stroke-dasharray="7 5"/>
+  <circle cx="343" cy="315" r="7" fill="#2563eb"/>
+  <text x="356" y="309" fill="#1d4ed8" font-family="Arial, sans-serif" font-size="15">incenter</text>
+  <line x1="240" y1="205" x2="422" y2="350" stroke="#dc2626" stroke-width="3" stroke-dasharray="4 5"/>
+  <line x1="462" y1="205" x2="360" y2="355" stroke="#dc2626" stroke-width="3" stroke-dasharray="4 5"/>
+  <circle cx="392" cy="327" r="7" fill="#dc2626"/>
+  <text x="404" y="350" fill="#991b1b" font-family="Arial, sans-serif" font-size="15">circumcenter</text>
+  <line x1="340" y1="80" x2="340" y2="330" stroke="#7c3aed" stroke-width="3"/>
+  <path d="M340 330 L360 330 L360 310" fill="none" stroke="#7c3aed" stroke-width="2"/>
+  <text x="54" y="382" fill="#334155" font-family="Arial, sans-serif" font-size="16">Green: medians. Blue dashed: angle bisectors. Red dashed: perpendicular bisectors. Purple: altitude.</text>
+</svg>

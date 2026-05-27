@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="380" viewBox="0 0 760 380" role="img" aria-labelledby="title desc">
+  <title id="title">Conjecture disproved by counterexample</title>
+  <desc id="desc">A false conjecture says all quadrilaterals have four right angles. A rectangle supports the conjecture, but a slanted parallelogram disproves it.</desc>
+  <rect width="760" height="380" fill="#fff"/>
+  <text x="34" y="42" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#111827">Conjecture: All quadrilaterals have four right angles</text>
+  <g transform="translate(68 88)">
+    <rect x="0" y="0" width="210" height="145" fill="#eff6ff" stroke="#2563eb" stroke-width="4"/>
+    <path d="M12 12 h20 v20 h-20 z" fill="none" stroke="#1f2937" stroke-width="2"/>
+    <path d="M178 12 h20 v20 h-20 z" fill="none" stroke="#1f2937" stroke-width="2"/>
+    <path d="M12 113 h20 v20 h-20 z" fill="none" stroke="#1f2937" stroke-width="2"/>
+    <path d="M178 113 h20 v20 h-20 z" fill="none" stroke="#1f2937" stroke-width="2"/>
+    <text x="25" y="185" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">Example that fits</text>
+    <text x="48" y="210" font-family="Arial, sans-serif" font-size="14" fill="#475569">rectangle</text>
+  </g>
+  <g transform="translate(455 88)">
+    <polygon points="50,0 255,0 205,145 0,145" fill="#fff7ed" stroke="#ea580c" stroke-width="4"/>
+    <path d="M50 0 L72 10" stroke="#9a3412" stroke-width="2"/>
+    <path d="M255 0 L237 16" stroke="#9a3412" stroke-width="2"/>
+    <text x="10" y="185" font-family="Arial, sans-serif" font-size="16" fill="#1f2937">Counterexample</text>
+    <text x="0" y="210" font-family="Arial, sans-serif" font-size="14" fill="#475569">quadrilateral, but not four right angles</text>
+  </g>
+  <path d="M326 150 h82" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="310" y="126" font-family="Arial, sans-serif" font-size="15" fill="#475569">one clear break</text>
+  <text x="237" y="330" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#991b1b">Conclusion: the conjecture is false.</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

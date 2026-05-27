@@ -1,0 +1,94 @@
+{
+  "examId": "grade-9-math-q1-geometry-lesson-2-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 2 Practice: Angle Names and Measures",
+  "description": "Practice naming angles, identifying vertices, classifying angle measures, and writing complete angle statements.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "fill-in",
+      "question": "In $\\angle ABC$, the vertex is point ______.",
+      "correctAnswer": "B",
+      "explanation": "In a three-letter angle name, the middle letter is the vertex.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which statement is a complete angle measure statement?",
+      "options": [
+        "$m\\angle PQR = 75^\\circ$",
+        "$\\angle PQR$",
+        "$75$",
+        "$PQR = angle$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A complete measure statement uses m∠, the angle name, an equals sign, and degrees.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "An angle measuring $42^\\circ$ is classified as what type of angle?",
+      "options": [
+        "Acute",
+        "Right",
+        "Obtuse",
+        "Straight"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An acute angle is greater than 0° and less than 90°.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "An angle measuring $128^\\circ$ is classified as what type of angle?",
+      "options": [
+        "Acute",
+        "Right",
+        "Obtuse",
+        "Straight"
+      ],
+      "correctAnswer": 2,
+      "explanation": "128° is greater than 90° and less than 180°, so it is obtuse.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "$\\angle ABC$ and $m\\angle ABC$ mean exactly the same thing.",
+      "correctAnswer": "false",
+      "explanation": "∠ABC names the angle. m∠ABC means the measure of the angle.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Write the measure only: A right angle measures ______ degrees.",
+      "correctAnswer": "90",
+      "explanation": "A right angle measures exactly 90°.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "Rays $\\overrightarrow{DE}$ and $\\overrightarrow{DF}$ form an angle. Name the angle using three letters.",
+      "correctAnswer": "The angle can be named angle EDF or angle FDE because D is the vertex.",
+      "explanation": "Both rays start at D, so D must be the middle letter.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Write a complete angle statement for angle XYZ if its measure is 105 degrees.",
+      "correctAnswer": "$m\\angle XYZ = 105^\\circ$",
+      "explanation": "The complete statement names the angle and gives its measure in degrees.",
+      "points": 14
+    }
+  ]
+}

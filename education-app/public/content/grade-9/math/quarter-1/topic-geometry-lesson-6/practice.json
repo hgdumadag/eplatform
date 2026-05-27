@@ -1,0 +1,88 @@
+{
+  "examId": "grade-9-math-q1-geometry-lesson-6-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 6 Practice: Angle Pairs",
+  "description": "Practice identifying adjacent, vertical, linear pair, and supplementary angles, then solving missing-angle relationships.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which description matches adjacent angles?",
+      "options": [
+        "Opposite angles formed by intersecting lines",
+        "Two angles that share a vertex and one side without overlapping",
+        "Any two angles with equal measures",
+        "Any two angles whose measures add to 90 degrees"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Adjacent angles share a vertex and a common side, and their interiors do not overlap.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Two lines intersect. Which pair of angles must be congruent?",
+      "options": [
+        "Adjacent angles",
+        "Vertical angles",
+        "A linear pair",
+        "Supplementary angles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vertical angles are opposite angles formed by intersecting lines, and they have equal measures.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "Every linear pair is supplementary.",
+      "correctAnswer": "true",
+      "explanation": "A linear pair forms a straight angle, so the two measures add to 180 degrees.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "All adjacent angles are supplementary.",
+      "correctAnswer": "false",
+      "explanation": "Adjacent angles only have to share a vertex and side. They are supplementary only when they form a straight line or otherwise add to 180 degrees.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "If $x^\\circ$ and $72^\\circ$ are supplementary, then $x = $ ______.",
+      "correctAnswer": "108",
+      "explanation": "Supplementary angles add to 180 degrees, so x = 180 - 72 = 108.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Two vertical angles have measures $(3x)^\\circ$ and $81^\\circ$. Find $x$.",
+      "correctAnswer": "27",
+      "explanation": "Vertical angles are equal, so 3x = 81 and x = 27.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "Explain why two angles in a linear pair add to $180^\\circ$.",
+      "correctAnswer": "They are adjacent and their non-common sides form a straight line, so together they make a straight angle measuring 180 degrees.",
+      "explanation": "The key idea is that a linear pair forms one straight angle.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A diagram shows two intersecting lines. One angle measures $118^\\circ$. Give the measures of its vertical angle and one adjacent angle.",
+      "correctAnswer": "The vertical angle measures 118 degrees, and each adjacent angle measures 62 degrees.",
+      "explanation": "The vertical angle is equal to 118 degrees. An adjacent angle forms a linear pair with it, so 180 - 118 = 62 degrees.",
+      "points": 14
+    }
+  ]
+}

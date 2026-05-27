@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320" role="img" aria-labelledby="title desc">
+  <title id="title">Precision check for constructions</title>
+  <desc id="desc">A required measure is compared with an actual measured result to calculate error for a segment and an angle.</desc>
+  <rect width="720" height="320" fill="#f8fafc"/>
+  <rect x="40" y="50" width="300" height="220" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="3"/>
+  <text x="190" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">Segment check</text>
+  <line x1="90" y1="145" x2="250" y2="145" stroke="#0f172a" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="90" cy="145" r="6" fill="#2563eb"/>
+  <circle cx="250" cy="145" r="6" fill="#2563eb"/>
+  <text x="170" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#0f172a">required: 8 cm</text>
+  <text x="170" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#0f172a">actual: 7.8 cm</text>
+  <text x="170" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#1d4ed8">error = 0.2 cm</text>
+  <rect x="380" y="50" width="300" height="220" rx="10" fill="#fff7ed" stroke="#ea580c" stroke-width="3"/>
+  <text x="530" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">Angle check</text>
+  <line x1="470" y1="175" x2="610" y2="175" stroke="#0f172a" stroke-width="5" stroke-linecap="round"/>
+  <line x1="470" y1="175" x2="520" y2="90" stroke="#0f172a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M510 175 A40 40 0 0 0 491 141" fill="none" stroke="#ea580c" stroke-width="4"/>
+  <text x="530" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#0f172a">required: 70 degrees</text>
+  <text x="530" y="234" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#0f172a">actual: 72 degrees</text>
+  <text x="530" y="262" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#c2410c">error = 2 degrees</text>
+</svg>

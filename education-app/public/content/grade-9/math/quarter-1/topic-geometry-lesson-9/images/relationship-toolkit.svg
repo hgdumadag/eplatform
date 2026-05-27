@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Toolkit of angle relationships</title>
+  <desc id="desc">Four mini diagrams show vertical angles, a linear pair, parallel lines cut by a transversal, and perpendicular lines.</desc>
+  <rect width="760" height="420" fill="#ffffff"/>
+  <g font-family="Arial, sans-serif" fill="#111827">
+    <text x="42" y="42" font-size="24" font-weight="700">Mixed-Angle Toolkit</text>
+    <text x="42" y="72" font-size="16">Choose the relationship before calculating.</text>
+  </g>
+  <g transform="translate(45 110)">
+    <rect width="150" height="120" rx="8" fill="#eff6ff" stroke="#93c5fd"/>
+    <path d="M30 95L120 25M30 25L120 95" stroke="#1d4ed8" stroke-width="5"/>
+    <text x="48" y="57" font-family="Arial" font-size="18" font-weight="700" fill="#1d4ed8">a</text>
+    <text x="95" y="72" font-family="Arial" font-size="18" font-weight="700" fill="#1d4ed8">a</text>
+    <text x="20" y="145" font-family="Arial" font-size="16" fill="#111827">Vertical: equal</text>
+  </g>
+  <g transform="translate(225 110)">
+    <rect width="150" height="120" rx="8" fill="#f0fdf4" stroke="#86efac"/>
+    <path d="M20 70H130" stroke="#15803d" stroke-width="5"/>
+    <path d="M75 70L120 25" stroke="#15803d" stroke-width="5"/>
+    <path d="M75 70 A35 35 0 0 1 110 55" fill="none" stroke="#166534" stroke-width="3"/>
+    <path d="M40 70 A35 35 0 0 1 75 35" fill="none" stroke="#166534" stroke-width="3"/>
+    <text x="40" y="145" font-family="Arial" font-size="16" fill="#111827">Linear pair: 180°</text>
+  </g>
+  <g transform="translate(405 110)">
+    <rect width="150" height="120" rx="8" fill="#fff7ed" stroke="#fdba74"/>
+    <path d="M20 42H130M20 88H130" stroke="#ea580c" stroke-width="5"/>
+    <path d="M52 105L100 25" stroke="#7c2d12" stroke-width="5"/>
+    <text x="26" y="28" font-family="Arial" font-size="18" fill="#111827">||</text>
+    <text x="104" y="76" font-family="Arial" font-size="18" fill="#111827">||</text>
+    <text x="15" y="145" font-family="Arial" font-size="16" fill="#111827">Parallel rules</text>
+  </g>
+  <g transform="translate(585 110)">
+    <rect width="130" height="120" rx="8" fill="#fdf2f8" stroke="#f9a8d4"/>
+    <path d="M25 70H105M65 30V110" stroke="#be185d" stroke-width="5"/>
+    <path d="M65 70h22v22h-22z" fill="none" stroke="#831843" stroke-width="3"/>
+    <text x="16" y="145" font-family="Arial" font-size="16" fill="#111827">Perpendicular: 90°</text>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#374151" font-size="18">
+    <text x="58" y="335">Equal?</text>
+    <text x="225" y="335">Supplementary?</text>
+    <text x="423" y="335">Parallel theorem?</text>
+    <text x="594" y="335">Right angle?</text>
+  </g>
+</svg>

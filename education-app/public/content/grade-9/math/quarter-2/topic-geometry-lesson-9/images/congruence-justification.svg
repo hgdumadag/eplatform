@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Congruence justification for a perpendicular bisector</title>
+  <desc id="desc">Equal compass arcs from endpoints A and B create points P and Q. Triangles APQ and BPQ share side PQ and have matching sides, proving the bisector idea by SSS.</desc>
+  <rect width="720" height="420" fill="#f8fbff"/>
+  <text x="38" y="42" fill="#0f172a" font-family="Arial, sans-serif" font-size="24" font-weight="700">Why the perpendicular bisector construction works</text>
+  <line x1="180" y1="230" x2="540" y2="230" stroke="#0f172a" stroke-width="4"/>
+  <line x1="360" y1="78" x2="360" y2="360" stroke="#16a34a" stroke-width="4"/>
+  <path d="M180 230 A215 215 0 0 1 360 112" fill="none" stroke="#2563eb" stroke-width="3" stroke-dasharray="7 5"/>
+  <path d="M540 230 A215 215 0 0 0 360 112" fill="none" stroke="#dc2626" stroke-width="3" stroke-dasharray="7 5"/>
+  <path d="M180 230 A215 215 0 0 0 360 348" fill="none" stroke="#2563eb" stroke-width="3" stroke-dasharray="7 5"/>
+  <path d="M540 230 A215 215 0 0 1 360 348" fill="none" stroke="#dc2626" stroke-width="3" stroke-dasharray="7 5"/>
+  <line x1="180" y1="230" x2="360" y2="112" stroke="#64748b" stroke-width="2"/>
+  <line x1="540" y1="230" x2="360" y2="112" stroke="#64748b" stroke-width="2"/>
+  <line x1="180" y1="230" x2="360" y2="348" stroke="#64748b" stroke-width="2"/>
+  <line x1="540" y1="230" x2="360" y2="348" stroke="#64748b" stroke-width="2"/>
+  <circle cx="180" cy="230" r="6" fill="#0f172a"/><circle cx="540" cy="230" r="6" fill="#0f172a"/>
+  <circle cx="360" cy="112" r="6" fill="#16a34a"/><circle cx="360" cy="348" r="6" fill="#16a34a"/>
+  <text x="164" y="254" font-family="Arial, sans-serif" font-size="18">A</text>
+  <text x="548" y="254" font-family="Arial, sans-serif" font-size="18">B</text>
+  <text x="371" y="111" font-family="Arial, sans-serif" font-size="18">P</text>
+  <text x="371" y="355" font-family="Arial, sans-serif" font-size="18">Q</text>
+  <rect x="45" y="70" width="245" height="70" rx="6" fill="#dbeafe" stroke="#2563eb"/>
+  <text x="60" y="96" fill="#1e3a8a" font-family="Arial, sans-serif" font-size="16">AP = BP and AQ = BQ</text>
+  <text x="60" y="122" fill="#1e3a8a" font-family="Arial, sans-serif" font-size="16">because equal radii were used.</text>
+  <rect x="430" y="70" width="240" height="70" rx="6" fill="#dcfce7" stroke="#16a34a"/>
+  <text x="448" y="96" fill="#14532d" font-family="Arial, sans-serif" font-size="16">With shared PQ, the</text>
+  <text x="448" y="122" fill="#14532d" font-family="Arial, sans-serif" font-size="16">triangles match by SSS.</text>
+</svg>

@@ -1,0 +1,94 @@
+{
+  "examId": "grade-9-math-q1-geometry-lesson-4-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 4 Practice: Constructing Perpendicular Lines",
+  "description": "Practice identifying perpendicular lines, choosing tools, following construction steps, and checking right angles.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "fill-in",
+      "question": "Two lines are perpendicular if they intersect to form a ______ angle.",
+      "correctAnswer": "right",
+      "explanation": "Perpendicular lines meet to form right angles.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "What is the measure of the angle formed by perpendicular lines?",
+      "options": [
+        "$45^\\circ$",
+        "$60^\\circ$",
+        "$90^\\circ$",
+        "$180^\\circ$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Perpendicular lines form right angles, and a right angle measures 90 degrees.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which tool is most directly useful for marking a $90^\\circ$ angle during construction?",
+      "options": [
+        "Protractor",
+        "Calculator",
+        "Compass only",
+        "Notebook margin only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A protractor measures and marks angles, including 90 degrees.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "A perpendicular line must always be vertical on the page.",
+      "correctAnswer": "false",
+      "explanation": "Perpendicular lines can be rotated or slanted. The important fact is that they meet at 90 degrees.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "Write the symbol for perpendicular: AB ______ CD.",
+      "correctAnswer": "\\perp or perpendicular to",
+      "explanation": "The symbol $\\perp$ means \"is perpendicular to.\"",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "To construct a perpendicular through point P on line $\\ell$ with a protractor, where should the protractor center go?",
+      "options": [
+        "On point P",
+        "Anywhere on the paper",
+        "At the end of the ruler",
+        "Halfway between any two points"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The new perpendicular must pass through P, so the right angle must be marked from P.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "A student draws a line through P that meets line $\\ell$ at $87^\\circ$. Explain whether the construction is perpendicular.",
+      "correctAnswer": "It is not perpendicular because a perpendicular line must form a 90-degree angle, not an 87-degree angle.",
+      "explanation": "A construction that is close to 90 degrees may look right, but perpendicular requires exactly 90 degrees.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Point Q is not on line m. Describe the point called the foot of the perpendicular when constructing from Q to m.",
+      "correctAnswer": "The foot of the perpendicular is the point where the perpendicular segment from Q meets line m.",
+      "explanation": "For an off-line point, the foot is the meeting point on the original line.",
+      "points": 14
+    }
+  ]
+}

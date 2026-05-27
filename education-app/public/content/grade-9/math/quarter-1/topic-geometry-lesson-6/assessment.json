@@ -1,0 +1,116 @@
+{
+  "examId": "grade-9-math-q1-geometry-lesson-6-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 6 Assessment: Missing Angles from Angle Pairs",
+  "description": "Show mastery by identifying angle-pair relationships, writing equations, and solving missing-angle problems.",
+  "passingScore": 75,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Angles 1 and 2 share a vertex and a side. Their interiors do not overlap. Which relationship is guaranteed?",
+      "options": [
+        "They are adjacent angles.",
+        "They are vertical angles.",
+        "They are congruent angles.",
+        "They are complementary angles."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sharing a vertex and one side without overlapping is the definition of adjacent angles.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Angles 3 and 4 are opposite angles formed by two intersecting lines. If $m\\angle 3 = 46^\\circ$, what is $m\\angle 4$?",
+      "options": [
+        "$44^\\circ$",
+        "$46^\\circ$",
+        "$90^\\circ$",
+        "$134^\\circ$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Opposite angles from intersecting lines are vertical angles, and vertical angles are equal.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Angles A and B form a linear pair. If $m\\angle A = 121^\\circ$, what is $m\\angle B$?",
+      "options": [
+        "$31^\\circ$",
+        "$59^\\circ$",
+        "$121^\\circ$",
+        "$180^\\circ$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A linear pair adds to 180 degrees, so m∠B = 180 - 121 = 59 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "Supplementary angles must always be adjacent.",
+      "correctAnswer": "false",
+      "explanation": "Supplementary angles only need measures that add to 180 degrees. They do not have to touch.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "If $(x + 35)^\\circ$ and $95^\\circ$ form a linear pair, then $x = $ ______.",
+      "correctAnswer": "50",
+      "explanation": "Use (x + 35) + 95 = 180. Then x + 130 = 180, so x = 50.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Vertical angles are labeled $(2x + 14)^\\circ$ and $98^\\circ$. Find $x$.",
+      "correctAnswer": "42",
+      "explanation": "Vertical angles are equal, so 2x + 14 = 98. Then 2x = 84 and x = 42.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which equation correctly represents two supplementary angles with measures $(4x)^\\circ$ and $(x + 30)^\\circ$?",
+      "options": [
+        "$4x = x + 30$",
+        "$4x + x + 30 = 90$",
+        "$4x + x + 30 = 180$",
+        "$4x - x + 30 = 180$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Supplementary angles add to 180 degrees, so the correct equation is 4x + (x + 30) = 180.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A student says, \"These two angles are adjacent, so they must add to 180 degrees.\" Correct the statement.",
+      "correctAnswer": "Adjacent angles share a vertex and side, but they do not always add to 180 degrees. They add to 180 degrees only if they form a linear pair or are otherwise supplementary.",
+      "explanation": "The student confused adjacency with a linear pair. A linear pair is adjacent and straight; adjacency alone is not enough.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Two lines intersect. One angle measures $73^\\circ$. Find the other three angle measures and explain briefly.",
+      "correctAnswer": "The vertical angle is 73 degrees. The two adjacent angles are 107 degrees each because each forms a linear pair with the 73 degree angle.",
+      "explanation": "Vertical angles are equal. Adjacent angles in this intersecting-lines diagram form linear pairs, so 180 - 73 = 107.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Angles $\\angle ABC$ and $\\angle CBD$ form a linear pair. If $m\\angle ABC = (3x - 5)^\\circ$ and $m\\angle CBD = 80^\\circ$, find $x$ and $m\\angle ABC$.",
+      "correctAnswer": "Since the angles form a linear pair, (3x - 5) + 80 = 180. Then 3x + 75 = 180, so 3x = 105 and x = 35. Therefore m∠ABC = 100 degrees.",
+      "explanation": "A linear pair is supplementary. After finding x = 35, substitute into 3x - 5 to get 100 degrees.",
+      "points": 10
+    }
+  ]
+}

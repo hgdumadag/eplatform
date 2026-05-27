@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="430" viewBox="0 0 780 430" role="img" aria-labelledby="title desc">
+  <title id="title">Special quadrilateral reference</title>
+  <desc id="desc">Reference chart showing a parallelogram, rectangle, square, rhombus, trapezoid, and kite with property labels.</desc>
+  <rect width="780" height="430" fill="#f8fafc"/>
+  <text x="35" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Special quadrilaterals by definition</text>
+  <g font-family="Arial, sans-serif" font-size="17" fill="#0f172a" stroke="#0f172a" stroke-width="3">
+    <polygon points="55,105 165,105 140,170 30,170" fill="#dbeafe"/>
+    <text x="45" y="205" stroke="none">Parallelogram</text>
+    <text x="39" y="230" font-size="14" stroke="none">2 pairs parallel</text>
+    <rect x="220" y="105" width="120" height="65" fill="#dcfce7"/>
+    <path d="M220 124 h19 v-19" fill="none" stroke="#16a34a" stroke-width="3"/>
+    <text x="241" y="205" stroke="none">Rectangle</text>
+    <text x="235" y="230" font-size="14" stroke="none">4 right angles</text>
+    <rect x="405" y="95" width="85" height="85" fill="#fee2e2"/>
+    <path d="M405 114 h19 v-19" fill="none" stroke="#dc2626" stroke-width="3"/>
+    <text x="421" y="205" stroke="none">Square</text>
+    <text x="397" y="230" font-size="14" stroke="none">right + equal sides</text>
+    <polygon points="615,85 700,135 615,185 530,135" fill="#fef3c7"/>
+    <text x="586" y="205" stroke="none">Rhombus</text>
+    <text x="560" y="230" font-size="14" stroke="none">4 congruent sides</text>
+    <polygon points="85,290 190,290 165,355 45,355" fill="#ecfeff"/>
+    <text x="83" y="390" stroke="none">Trapezoid</text>
+    <text x="43" y="415" font-size="14" stroke="none">at least 1 pair parallel</text>
+    <polygon points="365,270 455,335 365,390 305,335" fill="#eef2ff"/>
+    <text x="351" y="415" stroke="none">Kite</text>
+    <polygon points="610,270 710,300 690,380 590,350" fill="#ffffff"/>
+    <text x="604" y="415" stroke="none">Quadrilateral</text>
+  </g>
+</svg>

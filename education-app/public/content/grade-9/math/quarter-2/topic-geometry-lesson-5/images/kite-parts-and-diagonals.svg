@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Kite parts and diagonal properties</title>
+  <desc id="desc">A kite diagram showing two pairs of adjacent congruent sides, a vertical symmetry diagonal, a horizontal diagonal bisected into equal parts, and a right angle at the diagonal intersection.</desc>
+  <rect width="720" height="360" fill="#fbfff8"/>
+  <text x="32" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#203a2d">Kite properties are about adjacent sides and diagonals</text>
+  <g transform="translate(88 62)">
+    <polygon points="250,20 405,150 250,290 118,150" fill="#ecf8df" stroke="#3f6f24" stroke-width="4"/>
+    <line x1="250" y1="20" x2="405" y2="150" stroke="#b73838" stroke-width="6"/>
+    <line x1="250" y1="20" x2="118" y2="150" stroke="#b73838" stroke-width="6"/>
+    <line x1="118" y1="150" x2="250" y2="290" stroke="#2e6db7" stroke-width="6"/>
+    <line x1="405" y1="150" x2="250" y2="290" stroke="#2e6db7" stroke-width="6"/>
+    <line x1="250" y1="20" x2="250" y2="290" stroke="#6d3ca1" stroke-width="4"/>
+    <line x1="118" y1="150" x2="405" y2="150" stroke="#6d3ca1" stroke-width="4"/>
+    <circle cx="250" cy="150" r="5" fill="#6d3ca1"/>
+    <path d="M250 150 h18 v18 h-18z" fill="none" stroke="#6d3ca1" stroke-width="2"/>
+    <line x1="177" y1="142" x2="177" y2="158" stroke="#111" stroke-width="3"/>
+    <line x1="322" y1="142" x2="322" y2="158" stroke="#111" stroke-width="3"/>
+    <text x="60" y="95" font-family="Arial, sans-serif" font-size="15" fill="#b73838">adjacent equal pair</text>
+    <text x="324" y="96" font-family="Arial, sans-serif" font-size="15" fill="#b73838">adjacent equal pair</text>
+    <text x="262" y="65" font-family="Arial, sans-serif" font-size="15" fill="#6d3ca1">symmetry diagonal</text>
+    <text x="204" y="136" font-family="Arial, sans-serif" font-size="15" fill="#333">same</text>
+    <text x="286" y="136" font-family="Arial, sans-serif" font-size="15" fill="#333">same</text>
+    <text x="260" y="179" font-family="Arial, sans-serif" font-size="15" fill="#6d3ca1">90 degrees</text>
+  </g>
+  <g transform="translate(518 104)">
+    <rect x="0" y="0" width="156" height="134" rx="8" fill="#f3edff" stroke="#6d3ca1" stroke-width="2"/>
+    <text x="14" y="30" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#4b2478">Remember</text>
+    <text x="14" y="64" font-family="Arial, sans-serif" font-size="14" fill="#333">Diagonals are</text>
+    <text x="14" y="84" font-family="Arial, sans-serif" font-size="14" fill="#333">perpendicular.</text>
+    <text x="14" y="114" font-family="Arial, sans-serif" font-size="14" fill="#333">One bisects the other.</text>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340" role="img" aria-labelledby="title desc">
+  <title id="title">Real-world trapezoid and kite prompt</title>
+  <desc id="desc">A bridge side panel shaped like a trapezoid and a paper kite with adjacent equal sides, used to start the lesson by identifying parallel and congruent parts.</desc>
+  <rect width="720" height="340" fill="#f7fbff"/>
+  <text x="36" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#14324a">What structure do you notice?</text>
+  <g transform="translate(45 80)">
+    <text x="0" y="-16" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#24445c">Bridge side panel: trapezoid idea</text>
+    <polygon points="30,165 265,165 220,35 75,35" fill="#dff1ff" stroke="#1c5d87" stroke-width="4"/>
+    <line x1="75" y1="35" x2="220" y2="35" stroke="#0f7b58" stroke-width="5"/>
+    <line x1="30" y1="165" x2="265" y2="165" stroke="#0f7b58" stroke-width="5"/>
+    <line x1="75" y1="35" x2="30" y2="165" stroke="#a4511a" stroke-width="4"/>
+    <line x1="220" y1="35" x2="265" y2="165" stroke="#a4511a" stroke-width="4"/>
+    <line x1="40" y1="148" x2="255" y2="52" stroke="#7697aa" stroke-width="3" stroke-dasharray="8 7"/>
+    <line x1="254" y1="148" x2="42" y2="52" stroke="#7697aa" stroke-width="3" stroke-dasharray="8 7"/>
+    <text x="102" y="25" font-family="Arial, sans-serif" font-size="14" fill="#0f7b58">parallel base</text>
+    <text x="105" y="190" font-family="Arial, sans-serif" font-size="14" fill="#0f7b58">parallel base</text>
+    <text x="1" y="105" font-family="Arial, sans-serif" font-size="14" fill="#a4511a">leg</text>
+    <text x="270" y="105" font-family="Arial, sans-serif" font-size="14" fill="#a4511a">leg</text>
+  </g>
+  <g transform="translate(430 82)">
+    <text x="-8" y="-18" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#24445c">Paper kite: adjacent equal sides</text>
+    <polygon points="120,8 225,116 120,238 48,116" fill="#fff3da" stroke="#8a5a00" stroke-width="4"/>
+    <line x1="120" y1="8" x2="225" y2="116" stroke="#c0362c" stroke-width="5"/>
+    <line x1="120" y1="8" x2="48" y2="116" stroke="#c0362c" stroke-width="5"/>
+    <line x1="225" y1="116" x2="120" y2="238" stroke="#356bb3" stroke-width="5"/>
+    <line x1="48" y1="116" x2="120" y2="238" stroke="#356bb3" stroke-width="5"/>
+    <line x1="120" y1="8" x2="120" y2="238" stroke="#5d3f8c" stroke-width="3" stroke-dasharray="8 7"/>
+    <line x1="48" y1="116" x2="225" y2="116" stroke="#5d3f8c" stroke-width="3"/>
+    <path d="M116 112 h8 v8 h-8z" fill="none" stroke="#5d3f8c" stroke-width="2"/>
+    <text x="-4" y="82" font-family="Arial, sans-serif" font-size="14" fill="#c0362c">equal pair</text>
+    <text x="197" y="82" font-family="Arial, sans-serif" font-size="14" fill="#c0362c">equal pair</text>
+    <text x="94" y="262" font-family="Arial, sans-serif" font-size="14" fill="#5d3f8c">perpendicular diagonals</text>
+  </g>
+</svg>

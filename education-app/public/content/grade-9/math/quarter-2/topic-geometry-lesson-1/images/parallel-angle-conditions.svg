@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Parallel line angle conditions</title>
+  <desc id="desc">Two slanted lines cut by a transversal. Corresponding and alternate interior angle pairs are marked equal to show conditions that prove parallel lines.</desc>
+  <rect width="720" height="420" fill="#ffffff"/>
+  <line x1="80" y1="130" x2="620" y2="75" stroke="#0f172a" stroke-width="5"/>
+  <line x1="100" y1="285" x2="640" y2="230" stroke="#0f172a" stroke-width="5"/>
+  <line x1="280" y1="40" x2="420" y2="360" stroke="#dc2626" stroke-width="5"/>
+  <text x="624" y="73" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">line m</text>
+  <text x="644" y="232" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">line n</text>
+  <text x="425" y="354" font-family="Arial, sans-serif" font-size="18" fill="#dc2626">t</text>
+  <path d="M291 105 A42 42 0 0 1 330 131" fill="none" stroke="#2563eb" stroke-width="5"/>
+  <path d="M357 256 A42 42 0 0 1 396 282" fill="none" stroke="#2563eb" stroke-width="5"/>
+  <text x="287" y="89" font-family="Arial, sans-serif" font-size="18" fill="#2563eb">1</text>
+  <text x="398" y="302" font-family="Arial, sans-serif" font-size="18" fill="#2563eb">2</text>
+  <path d="M322 127 A42 42 0 0 1 361 151" fill="none" stroke="#16a34a" stroke-width="5"/>
+  <path d="M337 219 A42 42 0 0 0 376 244" fill="none" stroke="#16a34a" stroke-width="5"/>
+  <text x="365" y="150" font-family="Arial, sans-serif" font-size="18" fill="#16a34a">3</text>
+  <text x="313" y="220" font-family="Arial, sans-serif" font-size="18" fill="#16a34a">4</text>
+  <rect x="60" y="330" width="600" height="56" rx="6" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="360" y="354" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1e3a8a">If corresponding angles are congruent or alternate interior angles are congruent,</text>
+  <text x="360" y="376" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1e3a8a">then the two lines are parallel.</text>
+</svg>

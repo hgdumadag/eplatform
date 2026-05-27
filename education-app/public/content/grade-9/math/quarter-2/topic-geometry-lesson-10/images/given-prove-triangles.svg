@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Given and prove triangle proof diagram</title>
+  <desc id="desc">Two triangles ABC and DCB share segment BC. Sides AB and DC are marked congruent, sides AC and DB are marked congruent, and the goal is to prove triangle ABC congruent to triangle DCB.</desc>
+  <rect width="720" height="420" fill="#ffffff"/>
+  <rect x="40" y="35" width="640" height="330" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <line x1="190" y1="90" x2="120" y2="290" stroke="#1d4ed8" stroke-width="4"/>
+  <line x1="120" y1="290" x2="500" y2="290" stroke="#1d4ed8" stroke-width="4"/>
+  <line x1="500" y1="290" x2="190" y2="90" stroke="#1d4ed8" stroke-width="4"/>
+  <line x1="530" y1="90" x2="500" y2="290" stroke="#7c3aed" stroke-width="4"/>
+  <line x1="530" y1="90" x2="120" y2="290" stroke="#7c3aed" stroke-width="4"/>
+  <line x1="120" y1="290" x2="500" y2="290" stroke="#7c3aed" stroke-width="4" opacity=".55"/>
+  <text x="178" y="78" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0f172a">A</text>
+  <text x="98" y="315" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0f172a">B</text>
+  <text x="505" y="315" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0f172a">C</text>
+  <text x="535" y="78" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0f172a">D</text>
+  <path d="M148 180 l24 8 M154 165 l24 8" stroke="#f97316" stroke-width="4"/>
+  <path d="M510 180 l24 4 M512 164 l24 4" stroke="#f97316" stroke-width="4"/>
+  <path d="M345 184 l14 -20" stroke="#059669" stroke-width="4"/>
+  <path d="M326 188 l-14 -20" stroke="#059669" stroke-width="4"/>
+  <path d="M292 296 v-18 M328 296 v-18" stroke="#64748b" stroke-width="4"/>
+  <text x="60" y="58" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Given</text>
+  <text x="60" y="84" font-family="Arial, sans-serif" font-size="15" fill="#334155">AB congruent DC, AC congruent DB</text>
+  <text x="60" y="382" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Prove: triangle ABC congruent triangle DCB</text>
+  <text x="440" y="382" font-family="Arial, sans-serif" font-size="15" fill="#334155">Shared side BC helps finish SSS.</text>
+</svg>

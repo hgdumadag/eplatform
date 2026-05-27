@@ -1,0 +1,106 @@
+{
+  "examId": "grade-9-math-q1-geometry-lesson-7-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 7 Practice: Transversal Vocabulary",
+  "description": "Practice identifying corresponding, alternate interior, alternate exterior, and same-side interior angle pairs.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A line crosses two other lines at different points. What is the crossing line called?",
+      "options": [
+        "Transversal",
+        "Vertex",
+        "Segment bisector",
+        "Angle measure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A transversal is a line that intersects two or more lines at different points.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "In the standard transversal diagram with angles 1-4 at the top intersection and 5-8 at the bottom intersection, which pair is corresponding?",
+      "options": [
+        "$\\angle 1$ and $\\angle 5$",
+        "$\\angle 3$ and $\\angle 6$",
+        "$\\angle 1$ and $\\angle 8$",
+        "$\\angle 3$ and $\\angle 5$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Corresponding angles are in matching positions. Angles 1 and 5 are both upper-left positions.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which pair is alternate interior?",
+      "options": [
+        "$\\angle 1$ and $\\angle 5$",
+        "$\\angle 3$ and $\\angle 6$",
+        "$\\angle 2$ and $\\angle 7$",
+        "$\\angle 4$ and $\\angle 6$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Angles 3 and 6 are between the two lines and on opposite sides of the transversal.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Which pair is alternate exterior?",
+      "options": [
+        "$\\angle 1$ and $\\angle 8$",
+        "$\\angle 4$ and $\\angle 5$",
+        "$\\angle 3$ and $\\angle 5$",
+        "$\\angle 2$ and $\\angle 6$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Angles 1 and 8 are outside the two lines and on opposite sides of the transversal.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which pair is same-side interior?",
+      "options": [
+        "$\\angle 3$ and $\\angle 5$",
+        "$\\angle 2$ and $\\angle 7$",
+        "$\\angle 1$ and $\\angle 5$",
+        "$\\angle 4$ and $\\angle 8$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Angles 3 and 5 are both interior and both lie on the same side of the transversal.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "Alternate interior angles must be between the two lines and on opposite sides of the transversal.",
+      "correctAnswer": "true",
+      "explanation": "Both conditions are needed: interior region and opposite sides of the transversal.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "Angles located between the two lines are called ______ angles.",
+      "correctAnswer": "interior",
+      "explanation": "Interior angles are the angles in the region between the two lines.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain why $\\angle 4$ and $\\angle 6$ are same-side interior angles in the standard transversal diagram.",
+      "correctAnswer": "They are both between the two lines and on the same side of the transversal.",
+      "explanation": "Same-side interior angles must be interior and located on the same side of the transversal.",
+      "points": 14
+    }
+  ]
+}

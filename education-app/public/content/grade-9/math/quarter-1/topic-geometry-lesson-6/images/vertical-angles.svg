@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Vertical angles</title>
+  <desc id="desc">Two intersecting lines create four angles. Opposite angles 1 and 3 are equal, and opposite angles 2 and 4 are equal.</desc>
+  <rect width="640" height="360" fill="#f8fafc"/>
+  <text x="40" y="44" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Vertical Angles Are Opposite</text>
+  <g transform="translate(80 55)">
+    <line x1="65" y1="230" x2="430" y2="45" stroke="#1e293b" stroke-width="5"/>
+    <line x1="60" y1="45" x2="430" y2="230" stroke="#1e293b" stroke-width="5"/>
+    <circle cx="245" cy="137.5" r="5" fill="#0f172a"/>
+    <path d="M245 137.5 L207 118 A43 43 0 0 1 284 118 Z" fill="#bbf7d0" stroke="#16a34a"/>
+    <path d="M245 137.5 L284 157 A43 43 0 0 1 207 157 Z" fill="#bbf7d0" stroke="#16a34a"/>
+    <path d="M245 137.5 L284 118 A43 43 0 0 1 284 157 Z" fill="#bfdbfe" stroke="#2563eb"/>
+    <path d="M245 137.5 L207 157 A43 43 0 0 1 207 118 Z" fill="#bfdbfe" stroke="#2563eb"/>
+    <text x="236" y="100" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#15803d">1</text>
+    <text x="236" y="190" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#15803d">3</text>
+    <text x="310" y="145" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1d4ed8">2</text>
+    <text x="168" y="145" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1d4ed8">4</text>
+  </g>
+  <text x="135" y="318" font-family="Arial, sans-serif" font-size="20" fill="#334155">m∠1 = m∠3 and m∠2 = m∠4</text>
+</svg>

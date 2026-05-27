@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" role="img" aria-labelledby="title desc">
+  <title id="title">Error analysis for trapezoid and kite properties</title>
+  <desc id="desc">A comparison diagram showing two common mistakes: averaging trapezoid legs instead of bases, and assuming both kite diagonals bisect each other.</desc>
+  <rect width="720" height="400" fill="#fffafa"/>
+  <text x="30" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#4a1f1f">Error analysis: choose the correct property</text>
+  <g transform="translate(38 82)">
+    <rect x="0" y="0" width="315" height="270" rx="8" fill="#fff4f4" stroke="#e2b2b2"/>
+    <text x="16" y="32" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#9b2d2d">Mistake: averaging legs</text>
+    <polygon points="48,178 252,178 215,70 88,70" fill="#ffecec" stroke="#9b2d2d" stroke-width="3"/>
+    <line x1="88" y1="70" x2="48" y2="178" stroke="#b35a20" stroke-width="5"/>
+    <line x1="215" y1="70" x2="252" y2="178" stroke="#b35a20" stroke-width="5"/>
+    <line x1="88" y1="70" x2="215" y2="70" stroke="#0a7a57" stroke-width="5"/>
+    <line x1="48" y1="178" x2="252" y2="178" stroke="#0a7a57" stroke-width="5"/>
+    <line x1="68" y1="124" x2="233" y2="124" stroke="#7a3fb0" stroke-width="4"/>
+    <text x="50" y="112" font-family="Arial, sans-serif" font-size="15" fill="#b35a20">11</text>
+    <text x="244" y="112" font-family="Arial, sans-serif" font-size="15" fill="#b35a20">13</text>
+    <text x="139" y="61" font-family="Arial, sans-serif" font-size="15" fill="#0a7a57">8</text>
+    <text x="141" y="202" font-family="Arial, sans-serif" font-size="15" fill="#0a7a57">20</text>
+    <text x="16" y="232" font-family="Arial, sans-serif" font-size="15" fill="#9b2d2d">Wrong: (11 + 13) / 2</text>
+    <text x="16" y="254" font-family="Arial, sans-serif" font-size="15" fill="#1f6b4f">Correct: (8 + 20) / 2 = 14</text>
+  </g>
+  <g transform="translate(386 82)">
+    <rect x="0" y="0" width="300" height="270" rx="8" fill="#fff8ec" stroke="#e6c18a"/>
+    <text x="16" y="32" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#895200">Mistake: both diagonals bisect</text>
+    <polygon points="145,58 244,138 145,228 66,138" fill="#fff0d5" stroke="#895200" stroke-width="3"/>
+    <line x1="145" y1="58" x2="145" y2="228" stroke="#6d3ca1" stroke-width="4"/>
+    <line x1="66" y1="138" x2="244" y2="138" stroke="#6d3ca1" stroke-width="4"/>
+    <path d="M145 138 h15 v15 h-15z" fill="none" stroke="#6d3ca1" stroke-width="2"/>
+    <line x1="102" y1="130" x2="102" y2="146" stroke="#111" stroke-width="3"/>
+    <line x1="188" y1="130" x2="188" y2="146" stroke="#111" stroke-width="3"/>
+    <text x="92" y="124" font-family="Arial, sans-serif" font-size="15" fill="#333">7</text>
+    <text x="184" y="124" font-family="Arial, sans-serif" font-size="15" fill="#333">7</text>
+    <text x="156" y="99" font-family="Arial, sans-serif" font-size="15" fill="#9b2d2d">not automatically equal</text>
+    <text x="18" y="232" font-family="Arial, sans-serif" font-size="15" fill="#9b2d2d">Wrong: every split part is equal</text>
+    <text x="18" y="254" font-family="Arial, sans-serif" font-size="15" fill="#1f6b4f">Correct: use the symmetry diagonal</text>
+  </g>
+</svg>

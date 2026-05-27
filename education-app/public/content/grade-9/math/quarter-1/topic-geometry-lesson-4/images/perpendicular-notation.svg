@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="260" viewBox="0 0 720 260" role="img" aria-labelledby="title desc">
+  <title id="title">Perpendicular notation</title>
+  <desc id="desc">Line AB crosses line CD at point P to form four right angles. The notation AB perpendicular CD is shown.</desc>
+  <rect width="720" height="260" fill="#ffffff"/>
+  <line x1="90" y1="135" x2="390" y2="135" stroke="#2563eb" stroke-width="5"/>
+  <line x1="240" y1="35" x2="240" y2="235" stroke="#dc2626" stroke-width="5"/>
+  <circle cx="90" cy="135" r="5" fill="#2563eb"/>
+  <circle cx="390" cy="135" r="5" fill="#2563eb"/>
+  <circle cx="240" cy="35" r="5" fill="#dc2626"/>
+  <circle cx="240" cy="235" r="5" fill="#dc2626"/>
+  <circle cx="240" cy="135" r="6" fill="#111827"/>
+  <text x="76" y="124" font-family="Arial, sans-serif" font-size="18" fill="#1f2937">A</text>
+  <text x="398" y="124" font-family="Arial, sans-serif" font-size="18" fill="#1f2937">B</text>
+  <text x="250" y="40" font-family="Arial, sans-serif" font-size="18" fill="#1f2937">C</text>
+  <text x="250" y="240" font-family="Arial, sans-serif" font-size="18" fill="#1f2937">D</text>
+  <text x="250" y="126" font-family="Arial, sans-serif" font-size="18" fill="#1f2937">P</text>
+  <path d="M240 135 h30 v30 h-30z" fill="none" stroke="#b45309" stroke-width="4"/>
+  <text x="475" y="118" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#111827">AB perpendicular CD</text>
+  <text x="475" y="154" font-family="Arial, sans-serif" font-size="24" fill="#334155">AB &#8869; CD</text>
+  <text x="475" y="188" font-family="Arial, sans-serif" font-size="18" fill="#475569">The marked angle is 90 degrees.</text>
+</svg>

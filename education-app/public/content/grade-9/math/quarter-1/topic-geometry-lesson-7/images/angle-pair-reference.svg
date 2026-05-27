@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Transversal angle pair reference chart</title>
+  <desc id="desc">Four small diagrams show examples of corresponding, alternate interior, alternate exterior, and same-side interior angle pairs.</desc>
+  <rect width="900" height="520" fill="#f8fafc"/>
+  <g font-family="Arial, sans-serif" fill="#0f172a">
+    <text x="450" y="42" text-anchor="middle" font-size="25" font-weight="700">Angle-Pair Reference</text>
+    <g transform="translate(60 80)">
+      <rect width="360" height="170" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+      <text x="180" y="28" text-anchor="middle" font-size="18" font-weight="700">Corresponding</text>
+      <line x1="50" y1="70" x2="310" y2="70" stroke="#2563eb" stroke-width="4"/>
+      <line x1="50" y1="125" x2="310" y2="125" stroke="#2563eb" stroke-width="4"/>
+      <line x1="145" y1="150" x2="220" y2="45" stroke="#f97316" stroke-width="5"/>
+      <circle cx="203" cy="70" r="18" fill="#fde68a" opacity="0.9"/>
+      <circle cx="164" cy="125" r="18" fill="#fde68a" opacity="0.9"/>
+      <text x="230" y="105" font-size="14">matching positions</text>
+    </g>
+    <g transform="translate(480 80)">
+      <rect width="360" height="170" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+      <text x="180" y="28" text-anchor="middle" font-size="18" font-weight="700">Alternate Interior</text>
+      <line x1="50" y1="70" x2="310" y2="70" stroke="#2563eb" stroke-width="4"/>
+      <line x1="50" y1="125" x2="310" y2="125" stroke="#2563eb" stroke-width="4"/>
+      <line x1="145" y1="150" x2="220" y2="45" stroke="#f97316" stroke-width="5"/>
+      <circle cx="188" cy="92" r="18" fill="#bfdbfe" opacity="0.9"/>
+      <circle cx="178" cy="104" r="18" fill="#bfdbfe" opacity="0.9"/>
+      <text x="230" y="105" font-size="14">inside, opposite sides</text>
+    </g>
+    <g transform="translate(60 290)">
+      <rect width="360" height="170" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+      <text x="180" y="28" text-anchor="middle" font-size="18" font-weight="700">Alternate Exterior</text>
+      <line x1="50" y1="70" x2="310" y2="70" stroke="#2563eb" stroke-width="4"/>
+      <line x1="50" y1="125" x2="310" y2="125" stroke="#2563eb" stroke-width="4"/>
+      <line x1="145" y1="150" x2="220" y2="45" stroke="#f97316" stroke-width="5"/>
+      <circle cx="190" cy="50" r="18" fill="#fecaca" opacity="0.9"/>
+      <circle cx="160" cy="145" r="18" fill="#fecaca" opacity="0.9"/>
+      <text x="230" y="105" font-size="14">outside, opposite sides</text>
+    </g>
+    <g transform="translate(480 290)">
+      <rect width="360" height="170" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+      <text x="180" y="28" text-anchor="middle" font-size="18" font-weight="700">Same-Side Interior</text>
+      <line x1="50" y1="70" x2="310" y2="70" stroke="#2563eb" stroke-width="4"/>
+      <line x1="50" y1="125" x2="310" y2="125" stroke="#2563eb" stroke-width="4"/>
+      <line x1="145" y1="150" x2="220" y2="45" stroke="#f97316" stroke-width="5"/>
+      <circle cx="188" cy="92" r="18" fill="#bbf7d0" opacity="0.9"/>
+      <circle cx="150" cy="104" r="18" fill="#bbf7d0" opacity="0.9"/>
+      <text x="230" y="105" font-size="14">inside, same side</text>
+    </g>
+  </g>
+</svg>

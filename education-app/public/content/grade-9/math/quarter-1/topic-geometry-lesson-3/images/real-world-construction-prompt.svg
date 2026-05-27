@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" role="img" aria-labelledby="title desc">
+  <title id="title">Real-world construction prompt</title>
+  <desc id="desc">A shelf mark, a floor plan, and a geometry sketch showing accurate measured drawing situations.</desc>
+  <rect width="720" height="300" fill="#f8fafc"/>
+  <rect x="40" y="45" width="180" height="190" rx="10" fill="#e0f2fe" stroke="#0369a1" stroke-width="3"/>
+  <text x="130" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">Shelf mark</text>
+  <line x1="70" y1="150" x2="190" y2="150" stroke="#7c2d12" stroke-width="12" stroke-linecap="round"/>
+  <line x1="92" y1="115" x2="92" y2="185" stroke="#0f172a" stroke-width="3"/>
+  <line x1="168" y1="115" x2="168" y2="185" stroke="#0f172a" stroke-width="3"/>
+  <text x="130" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#0f172a">measure first</text>
+  <rect x="270" y="45" width="180" height="190" rx="10" fill="#dcfce7" stroke="#15803d" stroke-width="3"/>
+  <text x="360" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">Floor plan</text>
+  <rect x="305" y="110" width="110" height="80" fill="#ffffff" stroke="#166534" stroke-width="3"/>
+  <line x1="360" y1="110" x2="360" y2="190" stroke="#166534" stroke-width="2"/>
+  <line x1="305" y1="150" x2="415" y2="150" stroke="#166534" stroke-width="2"/>
+  <text x="360" y="214" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#0f172a">straight lines</text>
+  <rect x="500" y="45" width="180" height="190" rx="10" fill="#fef3c7" stroke="#b45309" stroke-width="3"/>
+  <text x="590" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">Geometry sketch</text>
+  <line x1="545" y1="180" x2="645" y2="180" stroke="#0f172a" stroke-width="4" stroke-linecap="round"/>
+  <line x1="545" y1="180" x2="610" y2="115" stroke="#0f172a" stroke-width="4" stroke-linecap="round"/>
+  <path d="M580 180 A35 35 0 0 0 570 155" fill="none" stroke="#b45309" stroke-width="3"/>
+  <text x="606" y="160" font-family="Arial, sans-serif" font-size="16" fill="#92400e">angle</text>
+  <text x="590" y="214" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#0f172a">construct exactly</text>
+</svg>

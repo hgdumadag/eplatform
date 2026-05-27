@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340" role="img" aria-labelledby="title desc">
+  <title id="title">Error analysis for segment and angle construction</title>
+  <desc id="desc">A segment starts at the one centimeter mark instead of zero, and an angle reads the wrong protractor scale.</desc>
+  <rect width="720" height="340" fill="#f8fafc"/>
+  <rect x="40" y="45" width="300" height="240" rx="10" fill="#fee2e2" stroke="#dc2626" stroke-width="3"/>
+  <text x="190" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#7f1d1d">Segment mistake</text>
+  <rect x="75" y="155" width="230" height="50" fill="#ffffff" stroke="#991b1b" stroke-width="2"/>
+  <g stroke="#991b1b" stroke-width="2">
+    <line x1="95" y1="155" x2="95" y2="205"/>
+    <line x1="135" y1="155" x2="135" y2="205"/>
+    <line x1="175" y1="155" x2="175" y2="205"/>
+    <line x1="215" y1="155" x2="215" y2="205"/>
+    <line x1="255" y1="155" x2="255" y2="205"/>
+    <line x1="295" y1="155" x2="295" y2="205"/>
+  </g>
+  <text x="95" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">0</text>
+  <text x="135" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">1</text>
+  <text x="175" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">2</text>
+  <text x="215" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">3</text>
+  <text x="255" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">4</text>
+  <text x="295" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">5</text>
+  <line x1="135" y1="125" x2="295" y2="125" stroke="#0f172a" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="135" cy="125" r="6" fill="#dc2626"/>
+  <circle cx="295" cy="125" r="6" fill="#dc2626"/>
+  <text x="215" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7f1d1d">labeled 5 cm, actually 4 cm</text>
+  <rect x="380" y="45" width="300" height="240" rx="10" fill="#ffedd5" stroke="#ea580c" stroke-width="3"/>
+  <text x="530" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#9a3412">Angle mistake</text>
+  <path d="M420 240 A110 110 0 0 1 640 240" fill="#ffffff" stroke="#c2410c" stroke-width="3"/>
+  <line x1="420" y1="240" x2="640" y2="240" stroke="#c2410c" stroke-width="3"/>
+  <circle cx="530" cy="240" r="6" fill="#dc2626"/>
+  <line x1="530" y1="240" x2="625" y2="240" stroke="#0f172a" stroke-width="5" stroke-linecap="round"/>
+  <line x1="530" y1="240" x2="591" y2="146" stroke="#0f172a" stroke-width="5" stroke-linecap="round"/>
+  <text x="620" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#9a3412">read wrong scale</text>
+  <text x="530" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#0f172a">intended 50 degrees</text>
+  <text x="530" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7f1d1d">may become 130 degrees</text>
+</svg>

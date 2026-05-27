@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320" role="img" aria-labelledby="title desc">
+  <title id="title">Same-side interior angle example</title>
+  <desc id="desc">Two parallel lines r and s are cut by a transversal. Interior angles 3 and 4 are on the same side of the transversal and add to 180 degrees.</desc>
+  <rect width="720" height="320" fill="#ffffff"/>
+  <line x1="90" y1="95" x2="630" y2="95" stroke="#0f172a" stroke-width="4"/>
+  <line x1="90" y1="230" x2="630" y2="230" stroke="#0f172a" stroke-width="4"/>
+  <line x1="315" y1="35" x2="420" y2="285" stroke="#be123c" stroke-width="4"/>
+  <text x="640" y="90" font-family="Arial" font-size="18" fill="#0f172a">r</text>
+  <text x="640" y="225" font-family="Arial" font-size="18" fill="#0f172a">s</text>
+  <path d="M342 96 A45 45 0 0 1 367 139" fill="none" stroke="#7c3aed" stroke-width="6"/>
+  <text x="380" y="141" font-family="Arial" font-size="18" fill="#7c3aed">3 = 115°</text>
+  <path d="M367 187 A45 45 0 0 1 393 230" fill="none" stroke="#059669" stroke-width="6"/>
+  <text x="409" y="197" font-family="Arial" font-size="18" fill="#059669">4 = 65°</text>
+  <text x="105" y="285" font-family="Arial" font-size="18" fill="#0f172a">Same-side interior angles are supplementary: 115° + 65° = 180°.</text>
+</svg>

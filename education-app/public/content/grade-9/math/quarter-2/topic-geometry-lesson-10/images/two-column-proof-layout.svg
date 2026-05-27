@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Two-column proof layout</title>
+  <desc id="desc">A model two-column proof table with statements on the left, reasons on the right, and arrows showing that each proof line needs support.</desc>
+  <rect width="760" height="420" fill="#ffffff"/>
+  <text x="45" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Two-column proof layout</text>
+  <rect x="60" y="75" width="640" height="285" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="380" y1="75" x2="380" y2="360" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="60" y1="125" x2="700" y2="125" stroke="#94a3b8" stroke-width="2"/>
+  <g font-family="Arial, sans-serif">
+    <text x="170" y="108" font-size="18" font-weight="700" fill="#0f172a">Statements</text>
+    <text x="510" y="108" font-size="18" font-weight="700" fill="#0f172a">Reasons</text>
+    <text x="85" y="160" font-size="15" fill="#334155">1. Start with a given</text>
+    <text x="410" y="160" font-size="15" fill="#334155">Given</text>
+    <text x="85" y="205" font-size="15" fill="#334155">2. Add shared or angle facts</text>
+    <text x="410" y="205" font-size="15" fill="#334155">Reflexive, vertical angles, definition</text>
+    <text x="85" y="250" font-size="15" fill="#334155">3. Prove triangles congruent</text>
+    <text x="410" y="250" font-size="15" fill="#334155">SSS, SAS, ASA, AAS, or HL</text>
+    <text x="85" y="295" font-size="15" fill="#334155">4. Prove matching parts</text>
+    <text x="410" y="295" font-size="15" fill="#334155">CPCTC, if needed</text>
+    <text x="85" y="340" font-size="15" fill="#334155">5. State the final conclusion</text>
+    <text x="410" y="340" font-size="15" fill="#334155">Definition or theorem that completes it</text>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <path d="M300 155 L395 155" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M325 245 L395 245" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="60" y="390" font-family="Arial, sans-serif" font-size="16" fill="#475569">Every statement must have a reason that is already known, given, or proven earlier.</text>
+</svg>

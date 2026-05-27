@@ -1,0 +1,116 @@
+{
+  "examId": "grade-9-math-q1-geometry-lesson-1-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 1 Assessment: Modeling Geometric Terms",
+  "description": "Show mastery by identifying, naming, and explaining foundational geometric terms and notation.",
+  "passingScore": 75,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which term is defined as part of a line with two endpoints?",
+      "options": [
+        "Segment",
+        "Line",
+        "Plane",
+        "Ray"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A segment is the part of a line between two endpoints.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which notation means the line through points C and D?",
+      "options": [
+        "$\\overleftrightarrow{CD}$",
+        "$\\overline{CD}$",
+        "$\\overrightarrow{CD}$",
+        "$\\angle CDD$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A line symbol has arrows in both directions over the two point labels.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A plane is modeled by a flat surface, but a mathematical plane extends forever.",
+      "correctAnswer": "true",
+      "explanation": "A real flat surface is only a model. In geometry, a plane has no thickness and extends without end.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "A ray named $\\overrightarrow{MN}$ starts at point ______.",
+      "correctAnswer": "M",
+      "explanation": "The first letter in ray notation names the endpoint.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which pair is made only of defined terms?",
+      "options": [
+        "Ray and angle",
+        "Point and line",
+        "Line and plane",
+        "Point and plane"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Rays and angles can be defined using points and lines. Point, line, and plane are undefined terms.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "In $\\angle RST$, which rays form the angle?",
+      "options": [
+        "$\\overrightarrow{SR}$ and $\\overrightarrow{ST}$",
+        "$\\overrightarrow{RS}$ and $\\overrightarrow{RT}$",
+        "$\\overline{RS}$ and $\\overline{ST}$",
+        "$\\overleftrightarrow{RT}$ and $\\overleftrightarrow{ST}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The vertex is S, so both rays must start at S: ray SR and ray ST.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "Three collinear points are enough to name exactly one plane.",
+      "correctAnswer": "false",
+      "explanation": "Three non-collinear points determine a plane. If the points are collinear, many planes can contain that line.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Give one real-life model for a ray and explain why it fits.",
+      "correctAnswer": "A flashlight beam can model a ray because it starts at the flashlight and travels outward in one direction.",
+      "explanation": "A strong answer identifies one starting point and one direction of extension.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Explain the difference between an undefined term and a defined term in geometry. Include one example of each.",
+      "correctAnswer": "An undefined term is a starting idea that is described rather than defined from earlier terms, such as point. A defined term is built from earlier ideas, such as a segment.",
+      "explanation": "The key idea is that point, line, and plane are foundational, while segment, ray, and angle are built from them.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A student draws $\\overrightarrow{AB}$ but puts the endpoint at B and the arrow past A. What should be corrected?",
+      "correctAnswer": "The endpoint should be at A, and the ray should pass through B and continue beyond B.",
+      "explanation": "For ray AB, A is the endpoint and B shows the direction.",
+      "points": 10
+    }
+  ]
+}

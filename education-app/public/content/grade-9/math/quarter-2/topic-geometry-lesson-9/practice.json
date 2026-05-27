@@ -1,0 +1,94 @@
+{
+  "examId": "grade-9-math-q2-geometry-lesson-9-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 9 Practice: Geometric Constructions",
+  "description": "Practice construction vocabulary, tool choices, triangle centers, and basic congruence justifications.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which tool is best for copying a segment length without reading a numerical measurement?",
+      "options": [
+        "Compass",
+        "Protractor",
+        "Calculator",
+        "Graphing table"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A compass transfers a distance directly, which is why it is central to segment constructions.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A triangle is constructed by drawing a base and then using two compass arcs from the base endpoints to locate the third vertex. Which congruence idea usually justifies the triangle?",
+      "options": [
+        "ASA",
+        "SSS",
+        "Vertical Angles Theorem",
+        "CPCTC only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The base gives one side, and the two arcs set the other two side lengths, so SSS justifies the constructed triangle.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which triangle center is found by constructing perpendicular bisectors of the sides?",
+      "options": [
+        "Incenter",
+        "Centroid",
+        "Circumcenter",
+        "Orthocenter"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The circumcenter is the intersection of the perpendicular bisectors and is equidistant from the triangle vertices.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "An altitude from a triangle vertex must be perpendicular to the line containing the opposite side.",
+      "correctAnswer": "true",
+      "explanation": "An altitude is defined by perpendicularity; in obtuse triangles it may meet an extension of the opposite side.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "The compass width may be changed while copying a segment, as long as the drawing looks about the same length.",
+      "correctAnswer": "false",
+      "explanation": "Changing the compass width breaks the equal-distance reason that proves the copied segment is congruent.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A segment from a triangle vertex to the midpoint of the opposite side is called a ______.",
+      "correctAnswer": "median",
+      "explanation": "A median connects a vertex to the midpoint of the opposite side.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "The intersection of the angle bisectors of a triangle is the ______.",
+      "correctAnswer": "incenter",
+      "explanation": "The incenter is formed by angle bisectors and is equidistant from the sides of the triangle.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain why construction arcs are useful evidence in a geometric construction.",
+      "correctAnswer": "Construction arcs show that the same compass radius or copied distance was used, which supports claims about congruent segments, congruent angles, and the final constructed relationship.",
+      "explanation": "Visible arcs help connect the drawing to the geometric reason behind it.",
+      "points": 14
+    }
+  ]
+}

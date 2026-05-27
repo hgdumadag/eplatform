@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Parallel and perpendicular roads</title>
+  <desc id="desc">Two parallel horizontal roads labeled r and s, a slanted transversal t, and a vertical road u perpendicular to road r.</desc>
+  <rect width="760" height="420" fill="#f8fafc"/>
+  <g stroke="#e2e8f0" stroke-width="1">
+    <path d="M40 70H720M40 130H720M40 190H720M40 250H720M40 310H720"/>
+    <path d="M100 35V370M180 35V370M260 35V370M340 35V370M420 35V370M500 35V370M580 35V370M660 35V370"/>
+  </g>
+  <g stroke="#1f2937" stroke-width="10" stroke-linecap="round">
+    <path d="M70 130H690"/>
+    <path d="M70 290H690"/>
+    <path d="M220 350L545 70"/>
+    <path d="M455 130V365"/>
+  </g>
+  <g stroke="#dc2626" stroke-width="3" fill="none">
+    <path d="M455 130h34v34h-34z"/>
+  </g>
+  <g fill="#0f172a" font-family="Arial, sans-serif" font-size="20" font-weight="700">
+    <text x="86" y="118">r</text>
+    <text x="86" y="278">s</text>
+    <text x="550" y="78">t</text>
+    <text x="466" y="360">u</text>
+  </g>
+  <g fill="#2563eb" font-family="Arial, sans-serif" font-size="18">
+    <text x="575" y="145">r || s</text>
+    <text x="486" y="188">u perpendicular r</text>
+  </g>
+</svg>

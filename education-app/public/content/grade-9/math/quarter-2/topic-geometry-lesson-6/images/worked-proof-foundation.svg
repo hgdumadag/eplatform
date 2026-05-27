@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" role="img" aria-labelledby="title desc">
+  <title id="title">Worked vertical angles proof foundation</title>
+  <desc id="desc">Intersecting lines AC and BD meet at E. Angle AEB is marked 64 degrees, and the opposite angle CED is shown as the target. A statement-reason table summarizes the proof.</desc>
+  <rect width="760" height="430" fill="#ffffff"/>
+  <text x="34" y="40" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#111827">Worked proof: use a theorem, not appearance</text>
+  <g transform="translate(40 86)">
+    <line x1="35" y1="190" x2="295" y2="40" stroke="#1f2937" stroke-width="4"/>
+    <line x1="35" y1="40" x2="295" y2="190" stroke="#1f2937" stroke-width="4"/>
+    <circle cx="165" cy="115" r="4" fill="#111827"/>
+    <text x="18" y="204" font-family="Arial, sans-serif" font-size="16" fill="#111827">A</text>
+    <text x="302" y="38" font-family="Arial, sans-serif" font-size="16" fill="#111827">C</text>
+    <text x="17" y="36" font-family="Arial, sans-serif" font-size="16" fill="#111827">B</text>
+    <text x="302" y="204" font-family="Arial, sans-serif" font-size="16" fill="#111827">D</text>
+    <text x="173" y="112" font-family="Arial, sans-serif" font-size="16" fill="#111827">E</text>
+    <path d="M124 139 A48 48 0 0 1 123 91" fill="none" stroke="#2563eb" stroke-width="4"/>
+    <text x="72" y="119" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#1d4ed8">64°</text>
+    <path d="M207 91 A48 48 0 0 1 207 139" fill="none" stroke="#16a34a" stroke-width="4"/>
+    <text x="223" y="119" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#15803d">?</text>
+  </g>
+  <g transform="translate(390 82)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="330" height="280" rx="8" fill="#f8fafc" stroke="#94a3b8"/>
+    <text x="18" y="32" font-size="18" font-weight="700" fill="#111827">Statement-reason chain</text>
+    <line x1="18" y1="52" x2="312" y2="52" stroke="#cbd5e1"/>
+    <text x="18" y="80" font-size="14" font-weight="700" fill="#334155">Statement</text>
+    <text x="188" y="80" font-size="14" font-weight="700" fill="#334155">Reason</text>
+    <text x="18" y="112" font-size="13" fill="#111827">m∠AEB = 64°</text>
+    <text x="188" y="112" font-size="13" fill="#111827">Given</text>
+    <text x="18" y="150" font-size="13" fill="#111827">∠AEB and ∠CED</text>
+    <text x="18" y="168" font-size="13" fill="#111827">are vertical angles</text>
+    <text x="188" y="150" font-size="13" fill="#111827">Definition of</text>
+    <text x="188" y="168" font-size="13" fill="#111827">vertical angles</text>
+    <text x="18" y="206" font-size="13" fill="#111827">∠AEB ≅ ∠CED</text>
+    <text x="188" y="206" font-size="13" fill="#111827">Vertical Angles Theorem</text>
+    <text x="18" y="244" font-size="13" fill="#111827">m∠CED = 64°</text>
+    <text x="188" y="244" font-size="13" fill="#111827">Definition of</text>
+    <text x="188" y="262" font-size="13" fill="#111827">congruent angles</text>
+  </g>
+</svg>

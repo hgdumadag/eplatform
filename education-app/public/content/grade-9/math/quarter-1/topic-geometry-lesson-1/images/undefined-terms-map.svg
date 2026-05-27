@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="300" viewBox="0 0 860 300" role="img" aria-labelledby="title desc">
+  <title id="title">Undefined terms map</title>
+  <desc id="desc">Point, line, and plane are shown as starting ideas that lead to defined terms.</desc>
+  <rect width="860" height="300" fill="#f8fafc"/>
+  <g font-family="Arial, sans-serif">
+    <text x="430" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#0f172a">Undefined Terms: Starting Ideas</text>
+    <g fill="#eff6ff" stroke="#2563eb" stroke-width="2">
+      <rect x="85" y="80" width="180" height="90" rx="8"/>
+      <rect x="340" y="80" width="180" height="90" rx="8"/>
+      <rect x="595" y="80" width="180" height="90" rx="8"/>
+    </g>
+    <g fill="#1e3a8a" font-size="20" font-weight="700" text-anchor="middle">
+      <text x="175" y="122">Point</text>
+      <text x="430" y="122">Line</text>
+      <text x="685" y="122">Plane</text>
+    </g>
+    <g fill="#334155" font-size="14" text-anchor="middle">
+      <text x="175" y="148">exact location</text>
+      <text x="430" y="148">straight path</text>
+      <text x="685" y="148">flat surface</text>
+    </g>
+    <g stroke="#64748b" stroke-width="2" fill="none">
+      <path d="M175 178 C230 220 305 230 360 238"/>
+      <path d="M430 178 L430 236"/>
+      <path d="M685 178 C630 220 555 230 500 238"/>
+    </g>
+    <rect x="300" y="225" width="260" height="50" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="430" y="256" text-anchor="middle" font-size="18" font-weight="700" fill="#166534">Defined terms build from these</text>
+  </g>
+</svg>

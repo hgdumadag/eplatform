@@ -1,0 +1,94 @@
+{
+  "examId": "grade-9-math-q2-geometry-lesson-3-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 3 Practice: Parallelogram Properties",
+  "description": "Practice using parallelogram side, angle, diagonal, and base-height properties.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "In parallelogram $ABCD$, $AB = 16$. What is $CD$?",
+      "options": [
+        "8",
+        "16",
+        "32",
+        "Cannot be determined"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Opposite sides of a parallelogram are congruent, so $CD = AB = 16$.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "In a parallelogram, one angle measures $72^\\circ$. What is the measure of a consecutive angle?",
+      "options": [
+        "$18^\\circ$",
+        "$72^\\circ$",
+        "$108^\\circ$",
+        "$144^\\circ$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Consecutive angles in a parallelogram are supplementary, so $180 - 72 = 108$.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "The diagonals of every parallelogram bisect each other.",
+      "correctAnswer": "true",
+      "explanation": "A key parallelogram property is that the diagonals cut each other into two congruent parts.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "Diagonals of parallelogram $PQRS$ intersect at $T$. If $PT = 11$, then $TR = $ ______.",
+      "correctAnswer": "11",
+      "explanation": "$PT$ and $TR$ are halves of the same diagonal, so they are congruent.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A parallelogram has base $14$ cm and height $5$ cm. What is its area?",
+      "options": [
+        "$19$ square cm",
+        "$38$ square cm",
+        "$70$ square cm",
+        "$140$ square cm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Use $A = bh$. The area is $14(5) = 70$ square centimeters.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "In parallelogram $WXYZ$, $WX = 3x + 2$ and $YZ = 20$. Since they are opposite sides, $x = $ ______.",
+      "correctAnswer": "6",
+      "explanation": "Set opposite sides equal: $3x + 2 = 20$, so $3x = 18$ and $x = 6$.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "In parallelogram $JKLM$, $m\\angle J = 118^\\circ$. Find $m\\angle K$ and explain the relationship used.",
+      "correctAnswer": "$m\\angle K = 62^\\circ$ because consecutive angles in a parallelogram are supplementary.",
+      "explanation": "$J$ and $K$ are consecutive angles, so their measures add to $180^\\circ$. Thus $180 - 118 = 62$.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A student says that if one half of diagonal $AC$ is $9$, then the whole diagonal $AC$ is $9$. Correct the student's reasoning.",
+      "correctAnswer": "The whole diagonal is $18$ because the diagonals bisect each other, so the other half of $AC$ is also $9$.",
+      "explanation": "Bisect means to split into two congruent parts. If one half is 9, the full diagonal is $9 + 9 = 18$.",
+      "points": 14
+    }
+  ]
+}

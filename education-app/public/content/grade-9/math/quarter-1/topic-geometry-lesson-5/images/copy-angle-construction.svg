@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Copy a corresponding angle to construct a parallel line</title>
+  <desc id="desc">A transversal crosses a given line and a copied corresponding angle at point P creates a new parallel line.</desc>
+  <rect width="900" height="420" fill="#f8fafc"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#0f172a"/>
+    </marker>
+  </defs>
+  <g font-family="Arial, sans-serif" fill="#0f172a">
+    <text x="450" y="40" text-anchor="middle" font-size="25" font-weight="700">Copy the corresponding angle</text>
+    <line x1="90" y1="305" x2="810" y2="305" stroke="#2563eb" stroke-width="5"/>
+    <text x="825" y="312" font-size="20" font-weight="700">l</text>
+    <line x1="170" y1="360" x2="620" y2="75" stroke="#475569" stroke-width="4"/>
+    <text x="622" y="78" font-size="18">transversal</text>
+    <circle cx="505" cy="148" r="7" fill="#dc2626"/>
+    <text x="518" y="143" font-size="20" font-weight="700">P</text>
+    <line x1="95" y1="148" x2="815" y2="148" stroke="#16a34a" stroke-width="5"/>
+    <text x="825" y="155" font-size="20" font-weight="700">m</text>
+    <circle cx="257" cy="305" r="6" fill="#0f172a"/>
+    <text x="235" y="332" font-size="18">A</text>
+    <path d="M291 305 A42 42 0 0 0 279 283" fill="none" stroke="#dc2626" stroke-width="4"/>
+    <path d="M539 148 A42 42 0 0 0 527 126" fill="none" stroke="#dc2626" stroke-width="4"/>
+    <text x="313" y="286" font-size="18" fill="#dc2626">58 degrees</text>
+    <text x="557" y="129" font-size="18" fill="#dc2626">58 degrees</text>
+    <line x1="380" y1="245" x2="465" y2="184" stroke="#0f172a" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="307" y="241" font-size="16">copy angle</text>
+    <text x="450" y="378" text-anchor="middle" font-size="18">Equal corresponding angles show m is parallel to l.</text>
+  </g>
+</svg>
