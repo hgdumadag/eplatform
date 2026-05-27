@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Inductive reasoning and deductive reasoning flowchart</title>
+  <desc id="desc">Two side-by-side flows compare inductive reasoning from examples to conjecture and deductive reasoning from accepted facts to guaranteed conclusion.</desc>
+  <rect width="760" height="420" fill="#f9fafb"/>
+  <text x="34" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">Two kinds of reasoning</text>
+  <g transform="translate(40 82)">
+    <rect width="310" height="280" rx="8" fill="#eef6ff" stroke="#2563eb" stroke-width="2"/>
+    <text x="24" y="34" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1d4ed8">Inductive</text>
+    <rect x="40" y="62" width="230" height="44" rx="6" fill="#ffffff" stroke="#93c5fd"/>
+    <text x="60" y="90" font-family="Arial, sans-serif" font-size="15" fill="#1f2937">Observe examples</text>
+    <path d="M155 108 v34" stroke="#2563eb" stroke-width="3" marker-end="url(#arrowBlue)"/>
+    <rect x="40" y="146" width="230" height="44" rx="6" fill="#ffffff" stroke="#93c5fd"/>
+    <text x="60" y="174" font-family="Arial, sans-serif" font-size="15" fill="#1f2937">Notice a pattern</text>
+    <path d="M155 192 v34" stroke="#2563eb" stroke-width="3" marker-end="url(#arrowBlue)"/>
+    <rect x="40" y="230" width="230" height="44" rx="6" fill="#ffffff" stroke="#93c5fd"/>
+    <text x="60" y="258" font-family="Arial, sans-serif" font-size="15" fill="#1f2937">Make a conjecture</text>
+  </g>
+  <g transform="translate(410 82)">
+    <rect width="310" height="280" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+    <text x="24" y="34" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#15803d">Deductive</text>
+    <rect x="40" y="62" width="230" height="44" rx="6" fill="#ffffff" stroke="#86efac"/>
+    <text x="60" y="90" font-family="Arial, sans-serif" font-size="15" fill="#1f2937">Start with accepted facts</text>
+    <path d="M155 108 v34" stroke="#16a34a" stroke-width="3" marker-end="url(#arrowGreen)"/>
+    <rect x="40" y="146" width="230" height="44" rx="6" fill="#ffffff" stroke="#86efac"/>
+    <text x="60" y="174" font-family="Arial, sans-serif" font-size="15" fill="#1f2937">Apply valid reasons</text>
+    <path d="M155 192 v34" stroke="#16a34a" stroke-width="3" marker-end="url(#arrowGreen)"/>
+    <rect x="40" y="230" width="230" height="44" rx="6" fill="#ffffff" stroke="#86efac"/>
+    <text x="60" y="258" font-family="Arial, sans-serif" font-size="15" fill="#1f2937">Reach proven conclusion</text>
+  </g>
+  <text x="74" y="390" font-family="Arial, sans-serif" font-size="16" fill="#475569">Useful for discovering</text>
+  <text x="474" y="390" font-family="Arial, sans-serif" font-size="16" fill="#475569">Required for proving</text>
+  <defs>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#16a34a"/>
+    </marker>
+  </defs>
+</svg>

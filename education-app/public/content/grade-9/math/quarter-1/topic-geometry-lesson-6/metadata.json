@@ -1,0 +1,39 @@
+{
+  "id": "grade-9-math-q1-geometry-lesson-6",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Geometry - Lesson 6",
+  "description": "Identify vertical, adjacent, linear pair, and supplementary angles, then use those relationships to solve missing-angle equations.",
+  "learningObjectives": [
+    "Identify adjacent angles that share a vertex and a common side",
+    "Identify vertical angles formed by intersecting lines",
+    "Recognize linear pairs and explain why their measures add to 180 degrees",
+    "Recognize supplementary angles and use their sum to find missing measures",
+    "Solve missing-angle equations using angle-pair relationships"
+  ],
+  "prerequisites": [
+    "Name angles using three-letter notation",
+    "Classify acute, right, obtuse, and straight angles",
+    "Write complete angle statements such as m∠ABC = 75°",
+    "Solve one-step equations such as x + 40 = 180"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": ["geometry", "measurement and geometry", "angle pairs", "vertical angles", "adjacent angles", "linear pair", "supplementary angles", "missing angles"],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/real-world-angle-pairs.svg",
+      "images/angle-pair-reference.svg",
+      "images/vertical-angles.svg",
+      "images/linear-pair.svg",
+      "images/worked-missing-angle.svg",
+      "images/error-analysis-angle-pairs.svg"
+    ]
+  }
+}

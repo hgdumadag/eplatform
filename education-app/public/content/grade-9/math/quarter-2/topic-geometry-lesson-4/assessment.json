@@ -1,0 +1,116 @@
+{
+  "examId": "grade-9-math-q2-geometry-lesson-4-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 4 Assessment: Special Parallelogram Properties",
+  "description": "Show mastery by applying rectangle, square, and rhombus properties to classification, comparison, and measure problems.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A parallelogram has four right angles but not all sides are congruent. What is the most precise classification?",
+      "options": [
+        "Rhombus",
+        "Rectangle",
+        "Square",
+        "Kite"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Four right angles make the parallelogram a rectangle. Without all sides congruent, it is not a square or rhombus.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A parallelogram has four congruent sides but its angles are not right angles. What is the most precise classification?",
+      "options": [
+        "Rectangle",
+        "Rhombus",
+        "Square",
+        "Trapezoid"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Four congruent sides make the parallelogram a rhombus. Since the angles are not right angles, it is not a square.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "The diagonals of every rectangle are perpendicular.",
+      "correctAnswer": "false",
+      "explanation": "Rectangle diagonals are congruent and bisect each other, but they are not usually perpendicular.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "The diagonals of every rhombus bisect opposite angles.",
+      "correctAnswer": "true",
+      "explanation": "Rhombus diagonals bisect opposite angles as well as bisecting each other.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "In square ABCD, diagonals AC and BD intersect at E. If AE = 11 cm, what is BD?",
+      "options": [
+        "11 cm",
+        "22 cm",
+        "33 cm",
+        "44 cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "E is the midpoint of AC, so AC = 22 cm. Square diagonals are congruent, so BD = 22 cm.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A rhombus diagonal bisects an angle into two 47-degree angles. The original whole angle measures ______ degrees.",
+      "correctAnswer": "94",
+      "explanation": "The diagonal creates two equal angle parts, so 47 + 47 = 94 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which statement is always true for both rectangles and rhombuses?",
+      "options": [
+        "Their diagonals are congruent.",
+        "Their diagonals are perpendicular.",
+        "Their diagonals bisect each other.",
+        "Their diagonals bisect all angles."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Both are parallelograms, and all parallelograms have diagonals that bisect each other.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "A parallelogram that is both a rectangle and a rhombus is a ______.",
+      "correctAnswer": "square",
+      "explanation": "A square has the right-angle property of a rectangle and the all-sides-congruent property of a rhombus.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A student says, \"All rhombuses are squares because all rhombuses have equal sides.\" Correct the reasoning.",
+      "correctAnswer": "Equal sides are not enough to make a square. A rhombus becomes a square only when it also has four right angles.",
+      "explanation": "A square requires both rhombus properties and rectangle properties.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Explain why square diagonals are both congruent and perpendicular.",
+      "correctAnswer": "A square is a rectangle, so its diagonals are congruent. A square is also a rhombus, so its diagonals are perpendicular.",
+      "explanation": "The strongest way to reason about square diagonals is to combine rectangle and rhombus properties.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-labelledby="title desc">
+  <title id="title">Real-world special parallelograms</title>
+  <desc id="desc">A phone screen as a rectangle, a slanted floor tile as a rhombus, and a board space as a square.</desc>
+  <rect width="760" height="300" fill="#f8fafc"/>
+  <text x="380" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1f2937">Where do these shapes appear?</text>
+  <rect x="80" y="72" width="120" height="170" rx="14" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+  <rect x="118" y="92" width="44" height="8" rx="4" fill="#2563eb"/>
+  <circle cx="140" cy="225" r="8" fill="#2563eb"/>
+  <text x="140" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#1f2937">Rectangle</text>
+  <polygon points="350,72 470,122 410,242 290,192" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+  <line x1="350" y1="72" x2="410" y2="242" stroke="#15803d" stroke-width="2" stroke-dasharray="7 6"/>
+  <line x1="290" y1="192" x2="470" y2="122" stroke="#15803d" stroke-width="2" stroke-dasharray="7 6"/>
+  <text x="380" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#1f2937">Rhombus-like tile</text>
+  <rect x="580" y="92" width="130" height="130" fill="#fef3c7" stroke="#d97706" stroke-width="4"/>
+  <line x1="645" y1="92" x2="645" y2="222" stroke="#d97706" stroke-width="2"/>
+  <line x1="580" y1="157" x2="710" y2="157" stroke="#d97706" stroke-width="2"/>
+  <text x="645" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#1f2937">Square</text>
+</svg>

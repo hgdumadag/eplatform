@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-labelledby="title desc">
+  <title id="title">Construct a perpendicular through a point on a line</title>
+  <desc id="desc">A three-step diagram shows a protractor centered at point P on a line, a 90-degree mark, and a perpendicular line drawn through P.</desc>
+  <rect width="760" height="300" fill="#f8fafc"/>
+  <g transform="translate(35 45)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#111827">1. Center at P</text>
+    <line x1="0" y1="120" x2="190" y2="120" stroke="#2563eb" stroke-width="4"/>
+    <circle cx="95" cy="120" r="6" fill="#111827"/>
+    <text x="103" y="140" font-family="Arial, sans-serif" font-size="16" fill="#111827">P</text>
+    <path d="M35 120 A60 60 0 0 1 155 120" fill="none" stroke="#94a3b8" stroke-width="4"/>
+    <line x1="95" y1="120" x2="95" y2="60" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5 4"/>
+  </g>
+  <g transform="translate(285 45)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#111827">2. Mark 90 degrees</text>
+    <line x1="0" y1="120" x2="190" y2="120" stroke="#2563eb" stroke-width="4"/>
+    <circle cx="95" cy="120" r="6" fill="#111827"/>
+    <line x1="95" y1="120" x2="95" y2="55" stroke="#f59e0b" stroke-width="3" stroke-dasharray="6 4"/>
+    <circle cx="95" cy="55" r="6" fill="#f59e0b"/>
+    <text x="106" y="59" font-family="Arial, sans-serif" font-size="16" fill="#92400e">90 degrees</text>
+  </g>
+  <g transform="translate(535 45)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#111827">3. Draw the line</text>
+    <line x1="0" y1="120" x2="190" y2="120" stroke="#2563eb" stroke-width="4"/>
+    <line x1="95" y1="35" x2="95" y2="205" stroke="#dc2626" stroke-width="4"/>
+    <circle cx="95" cy="120" r="6" fill="#111827"/>
+    <path d="M95 120 h25 v25 h-25z" fill="none" stroke="#b45309" stroke-width="4"/>
+    <text x="104" y="116" font-family="Arial, sans-serif" font-size="16" fill="#111827">P</text>
+    <text x="12" y="150" font-family="Arial, sans-serif" font-size="17" fill="#334155">new line is perpendicular</text>
+  </g>
+</svg>

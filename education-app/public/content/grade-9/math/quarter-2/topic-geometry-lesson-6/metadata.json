@@ -1,0 +1,52 @@
+{
+  "id": "grade-9-math-q2-geometry-lesson-6",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Geometry - Lesson 6",
+  "description": "Distinguish inductive and deductive reasoning, write conjectures, test counterexamples, and build statement-reason foundations for geometry proofs.",
+  "learningObjectives": [
+    "Distinguish inductive reasoning from deductive reasoning",
+    "Write a conjecture from observed patterns without treating it as proven",
+    "Use a counterexample to disprove a false conjecture",
+    "Identify statements and reasons in a geometric argument",
+    "Use definitions, postulates, and theorems as valid proof reasons",
+    "Complete short statement-reason chains for basic geometry claims"
+  ],
+  "prerequisites": [
+    "Recognize points, lines, angles, and basic geometric notation",
+    "Identify parallel, perpendicular, supplementary, and congruent relationships",
+    "Solve simple equations involving angle measures",
+    "Read a labeled geometry diagram carefully"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "reasoning",
+    "proof",
+    "inductive reasoning",
+    "deductive reasoning",
+    "conjecture",
+    "counterexample",
+    "statements and reasons",
+    "postulates",
+    "theorems"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/real-world-reasoning-prompt.svg",
+      "images/inductive-vs-deductive-flow.svg",
+      "images/conjecture-counterexample.svg",
+      "images/statement-reason-chain.svg",
+      "images/worked-proof-foundation.svg",
+      "images/error-analysis-proof.svg"
+    ]
+  }
+}

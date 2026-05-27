@@ -1,0 +1,116 @@
+{
+  "examId": "grade-9-math-q1-geometry-lesson-4-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 4 Assessment: Explaining Perpendicular Constructions",
+  "description": "Show mastery by selecting accurate construction steps, checking precision, and explaining why perpendicular constructions form right angles.",
+  "passingScore": 75,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement best explains why line r is perpendicular to line $\\ell$?",
+      "options": [
+        "Line r is longer than line $\\ell$.",
+        "Line r touches line $\\ell$ at exactly one point and forms a $90^\\circ$ angle.",
+        "Line r is drawn darker than line $\\ell$.",
+        "Line r is above line $\\ell$."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Perpendicular lines intersect to form right angles.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A task says: Construct a perpendicular to line m through point A, where A is on line m. Which result is correct?",
+      "options": [
+        "A line that forms $90^\\circ$ with m but misses point A",
+        "A line through A that forms $90^\\circ$ with m",
+        "A line through A that forms $80^\\circ$ with m",
+        "Any line near point A"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The construction must satisfy both conditions: through A and perpendicular to m.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "If one angle formed by two intersecting lines is $90^\\circ$, the lines are perpendicular.",
+      "correctAnswer": "true",
+      "explanation": "One right angle is enough to identify perpendicular lines.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "The point where a perpendicular segment from an off-line point meets the given line is called the ______ of the perpendicular.",
+      "correctAnswer": "foot",
+      "explanation": "The foot of the perpendicular is the meeting point on the original line.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "When using a set square to draw a perpendicular from point Q to line $\\ell$, what should you do?",
+      "options": [
+        "Keep one side along $\\ell$ and slide it until another side passes through Q.",
+        "Put the calculator on Q and draw around it.",
+        "Choose any point on $\\ell$ and connect it to Q.",
+        "Draw a line parallel to $\\ell$ through Q."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A set square has a right angle, so sliding it while one side stays on the line helps create a perpendicular through Q.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A constructed angle measures $91^\\circ$ when checked with a protractor. What should the student do?",
+      "options": [
+        "Accept it because 91 is close to 90.",
+        "Erase or adjust the construction because perpendicular means exactly $90^\\circ$.",
+        "Call it parallel instead.",
+        "Ignore the measurement."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Construction precision matters. A perpendicular construction should form a right angle.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "If $\\overleftrightarrow{AB} \\perp \\overleftrightarrow{CD}$, then the angle where the lines meet measures ______ degrees.",
+      "correctAnswer": "90",
+      "explanation": "The perpendicular symbol tells us the lines form right angles.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain why a line constructed through point P is not correct if it forms $90^\\circ$ with line $\\ell$ but does not pass through P.",
+      "correctAnswer": "It is not correct because the task requires the perpendicular line to pass through P. Forming 90 degrees is necessary, but the line must also meet the required point condition.",
+      "explanation": "Construction tasks often have both an angle condition and a point condition.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Write a complete explanation for this result: line t was drawn through point B on line n using a protractor mark at $90^\\circ$.",
+      "correctAnswer": "Line t passes through B and forms a 90-degree angle with line n. Since lines that meet at 90 degrees are perpendicular, t is perpendicular to n.",
+      "explanation": "A complete explanation names the point condition, the right-angle evidence, and the perpendicular conclusion.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A student says, \"These lines are not perpendicular because neither line is vertical.\" Correct the student's reasoning.",
+      "correctAnswer": "Lines do not have to be vertical to be perpendicular. They are perpendicular if they intersect to form a 90-degree angle, even when both lines are slanted.",
+      "explanation": "Perpendicular is determined by the angle between the lines, not their orientation on the page.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "examId": "grade-9-math-q1-geometry-lesson-5-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 5 Practice: Constructing Parallel Lines",
+  "description": "Practice vocabulary, construction steps, and checks for drawing a parallel line through a point.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "fill-in",
+      "question": "The symbol $\\parallel$ means ______.",
+      "correctAnswer": "parallel",
+      "explanation": "The symbol $\\parallel$ is read as 'is parallel to.'",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "You are given line $\\ell$ and point $P$ not on the line. What is the goal of the construction?",
+      "options": [
+        "Draw any line through $P$",
+        "Draw a line through $P$ perpendicular to $\\ell$",
+        "Draw a line through $P$ parallel to $\\ell$",
+        "Draw a line segment from $P$ to $\\ell$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The target construction is a line through the given point that has the same direction as the original line.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A transversal makes a $52^\\circ$ angle with line $\\ell$. To construct a parallel through $P$, what corresponding angle should be copied at $P$?",
+      "options": [
+        "$38^\\circ$",
+        "$52^\\circ$",
+        "$90^\\circ$",
+        "$128^\\circ$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Corresponding angles must be equal, so the copied angle is $52^\\circ$.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "When using a set square to draw a parallel line, rotating the set square slightly is acceptable as long as the new line passes through $P$.",
+      "correctAnswer": "false",
+      "explanation": "Rotating changes the direction. The set square must slide without rotating.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which measurement best verifies that two lines are parallel?",
+      "options": [
+        "Two slanted distances between the lines are equal",
+        "Two perpendicular distances between the lines are equal",
+        "One endpoint is labeled clearly",
+        "The lines have different colors"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Parallel lines stay the same perpendicular distance apart.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "If $m \\parallel \\ell$, then line $m$ is ______ to line $\\ell$.",
+      "correctAnswer": "parallel",
+      "explanation": "$m \\parallel \\ell$ is read as 'line m is parallel to line ell.'",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "Why does copying a corresponding angle help construct a parallel line?",
+      "correctAnswer": "If corresponding angles are equal, then the two lines cut by the transversal are parallel.",
+      "explanation": "The copied angle creates the equal corresponding-angle relationship needed for parallel lines.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Describe one accurate method for constructing a line through point $P$ parallel to a given line $\\ell$.",
+      "correctAnswer": "One method is to draw a transversal through P, measure the corresponding angle on line ell, copy that angle at P, and draw the new line through P along the copied angle.",
+      "explanation": "A complete method names the tools or angle relationship and explains how the new line passes through P.",
+      "points": 14
+    }
+  ]
+}

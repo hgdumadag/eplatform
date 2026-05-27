@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img">
+  <title>Congruent triangular roof braces</title>
+  <desc>Two triangular roof braces are drawn with matching side and angle markings to suggest congruent triangles and corresponding parts.</desc>
+  <rect width="720" height="360" fill="#f7fbff"/>
+  <text x="36" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#17324d">Roof braces use repeated congruent triangles</text>
+  <line x1="70" y1="270" x2="650" y2="270" stroke="#2d3e50" stroke-width="8" stroke-linecap="round"/>
+  <polyline points="110,270 220,110 330,270" fill="#e8f3ff" stroke="#1f6fb2" stroke-width="5" stroke-linejoin="round"/>
+  <polyline points="390,270 500,110 610,270" fill="#fff7e8" stroke="#c26a00" stroke-width="5" stroke-linejoin="round"/>
+  <line x1="110" y1="270" x2="330" y2="270" stroke="#1f6fb2" stroke-width="4"/>
+  <line x1="390" y1="270" x2="610" y2="270" stroke="#c26a00" stroke-width="4"/>
+  <path d="M158 200 l18 -10" stroke="#1f6fb2" stroke-width="4"/>
+  <path d="M438 200 l18 -10" stroke="#c26a00" stroke-width="4"/>
+  <path d="M278 200 l-18 -10" stroke="#1f6fb2" stroke-width="4"/>
+  <path d="M558 200 l-18 -10" stroke="#c26a00" stroke-width="4"/>
+  <path d="M134 258 q15 -18 34 -17" fill="none" stroke="#0b7a3b" stroke-width="4"/>
+  <path d="M414 258 q15 -18 34 -17" fill="none" stroke="#0b7a3b" stroke-width="4"/>
+  <text x="188" y="305" font-family="Arial, sans-serif" font-size="18" fill="#17324d">Triangle 1</text>
+  <text x="468" y="305" font-family="Arial, sans-serif" font-size="18" fill="#17324d">Triangle 2</text>
+  <text x="150" y="86" font-family="Arial, sans-serif" font-size="16" fill="#17324d">matching frame</text>
+  <text x="430" y="86" font-family="Arial, sans-serif" font-size="16" fill="#17324d">matching frame</text>
+  <rect x="70" y="315" width="580" height="30" rx="6" fill="#ffffff" stroke="#c9d7e6"/>
+  <text x="92" y="336" font-family="Arial, sans-serif" font-size="16" fill="#17324d">If the triangles are congruent, matching braces and angles are congruent by CPCTC.</text>
+</svg>

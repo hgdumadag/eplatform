@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Angle relationships on parallel roads cut by a transversal</title>
+  <desc id="desc">Two parallel lines cut by a transversal with eight angles labeled to show corresponding, alternate interior, and same-side interior relationships.</desc>
+  <rect width="760" height="420" fill="#ffffff"/>
+  <g stroke="#334155" stroke-width="8" stroke-linecap="round">
+    <path d="M90 145H680"/>
+    <path d="M90 290H680"/>
+    <path d="M270 355L520 70"/>
+  </g>
+  <g fill="#0f172a" font-family="Arial, sans-serif" font-size="20" font-weight="700">
+    <text x="336" y="124">1</text>
+    <text x="395" y="124">2</text>
+    <text x="348" y="177">3</text>
+    <text x="407" y="177">4</text>
+    <text x="468" y="269">5</text>
+    <text x="525" y="269">6</text>
+    <text x="478" y="322">7</text>
+    <text x="536" y="322">8</text>
+  </g>
+  <g fill="#2563eb" font-family="Arial, sans-serif" font-size="17">
+    <text x="92" y="72">Corresponding: 1 and 5, 2 and 6</text>
+    <text x="92" y="98">Alternate interior: 3 and 6, 4 and 5</text>
+    <text x="92" y="124">Same-side interior: 3 and 5, 4 and 6</text>
+  </g>
+  <g stroke="#f97316" stroke-width="3" fill="none">
+    <path d="M330 142Q361 120 391 142"/>
+    <path d="M462 286Q493 264 523 286"/>
+  </g>
+</svg>

@@ -1,0 +1,94 @@
+{
+  "examId": "grade-9-math-q1-geometry-lesson-8-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 8 Practice: Parallel Line Angle Theorems",
+  "description": "Practice using parallel-line angle relationships to find missing measures.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Two parallel lines are cut by a transversal. If one angle is $68^\\circ$, its corresponding angle measures:",
+      "options": [
+        "$68^\\circ$",
+        "$90^\\circ$",
+        "$112^\\circ$",
+        "$180^\\circ$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Corresponding angles are congruent when parallel lines are cut by a transversal.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Two same-side interior angles formed by parallel lines measure $73^\\circ$ and $x^\\circ$. What is $x$?",
+      "options": [
+        "$17$",
+        "$73$",
+        "$107$",
+        "$117$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Same-side interior angles are supplementary, so $x = 180 - 73 = 107$.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "Alternate interior angles are congruent when the two lines cut by the transversal are parallel.",
+      "correctAnswer": "true",
+      "explanation": "For parallel lines, alternate interior angles have equal measures.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "A linear pair contains one angle measuring $124^\\circ$. The other angle measures ______ degrees.",
+      "correctAnswer": "56",
+      "explanation": "Angles in a linear pair are supplementary, so $180 - 124 = 56$.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which relationship can be used to justify that two angles on opposite outside regions of parallel lines are congruent?",
+      "options": [
+        "Same-side interior angles",
+        "Alternate exterior angles",
+        "Linear pair",
+        "Adjacent angles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Alternate exterior angles lie outside the parallel lines on opposite sides of the transversal, and they are congruent.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "If $m\\angle 1 = 42^\\circ$ and $\\angle 1$ and $\\angle 2$ are vertical angles, then $m\\angle 2 = $ ______ degrees.",
+      "correctAnswer": "42",
+      "explanation": "Vertical angles are congruent, so they have equal measures.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "Parallel lines are cut by a transversal. $m\\angle A = 118^\\circ$. Angle B is alternate interior to angle A. Find $m\\angle B$ and name the relationship.",
+      "correctAnswer": "$m\\angle B = 118^\\circ$ because alternate interior angles are congruent.",
+      "explanation": "Alternate interior angles formed by parallel lines are congruent, so the measure is copied exactly.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "An angle is $35^\\circ$. A second angle forms a same-side interior pair with it on parallel lines. Find the second angle and justify your answer.",
+      "correctAnswer": "The second angle is $145^\\circ$ because same-side interior angles are supplementary, and $180 - 35 = 145$.",
+      "explanation": "Same-side interior angles add to 180° when the lines are parallel.",
+      "points": 14
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">Family map of special parallelograms</title>
+  <desc id="desc">A parallelogram family map showing rectangles and rhombuses overlapping at squares.</desc>
+  <rect width="760" height="360" fill="#f8fafc"/>
+  <rect x="70" y="55" width="620" height="250" rx="8" fill="#eef2ff" stroke="#4f46e5" stroke-width="3"/>
+  <text x="380" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#3730a3">Parallelograms</text>
+  <circle cx="300" cy="190" r="105" fill="#bfdbfe" fill-opacity="0.8" stroke="#2563eb" stroke-width="3"/>
+  <circle cx="460" cy="190" r="105" fill="#bbf7d0" fill-opacity="0.8" stroke="#16a34a" stroke-width="3"/>
+  <text x="245" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#1d4ed8">Rectangles</text>
+  <text x="245" y="199" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#1f2937">4 right angles</text>
+  <text x="515" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#15803d">Rhombuses</text>
+  <text x="515" y="199" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#1f2937">4 congruent sides</text>
+  <rect x="342" y="160" width="76" height="76" fill="#fde68a" stroke="#b45309" stroke-width="3"/>
+  <text x="380" y="204" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#78350f">Squares</text>
+  <text x="380" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#374151">A square satisfies both rectangle and rhombus definitions.</text>
+</svg>

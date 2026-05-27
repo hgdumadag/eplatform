@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="390" viewBox="0 0 720 390" role="img" aria-labelledby="title desc">
+  <title id="title">Error analysis for proving parallel lines</title>
+  <desc id="desc">Two nearly parallel-looking lines are shown without angle markings. A warning label explains that appearance alone is not a proof.</desc>
+  <rect width="720" height="390" fill="#fffaf0"/>
+  <line x1="95" y1="130" x2="610" y2="100" stroke="#334155" stroke-width="6"/>
+  <line x1="100" y1="255" x2="615" y2="218" stroke="#334155" stroke-width="6"/>
+  <text x="360" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#7c2d12">They look parallel... but what is given?</text>
+  <rect x="150" y="300" width="420" height="54" rx="6" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <text x="360" y="323" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#7f1d1d">Missing: equal corresponding angles, equal alternate interior angles,</text>
+  <text x="360" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#7f1d1d">or supplementary same-side interior angles.</text>
+  <circle cx="107" cy="128" r="6" fill="#ef4444"/>
+  <circle cx="108" cy="254" r="6" fill="#ef4444"/>
+  <text x="360" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#dc2626">Not enough information</text>
+</svg>

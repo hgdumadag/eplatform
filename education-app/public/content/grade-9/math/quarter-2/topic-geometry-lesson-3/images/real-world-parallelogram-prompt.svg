@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Real-world parallelogram prompt</title>
+  <desc id="desc">A slanted tile pattern and a road sign frame show parallelogram shapes in real-world objects.</desc>
+  <rect width="720" height="360" fill="#f7fafc"/>
+  <text x="40" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#172033">Where do you notice parallelograms?</text>
+  <g transform="translate(58 82)">
+    <rect x="0" y="0" width="275" height="220" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="18" y="30" font-family="Arial, sans-serif" font-size="15" fill="#334155">Slanted tile pattern</text>
+    <g transform="translate(30 56)" stroke="#334155" stroke-width="2">
+      <polygon points="20,0 92,0 72,44 0,44" fill="#dbeafe"/>
+      <polygon points="102,0 174,0 154,44 82,44" fill="#fde68a"/>
+      <polygon points="184,0 226,0 206,44 164,44" fill="#bbf7d0"/>
+      <polygon points="0,56 72,56 52,100 -20,100" fill="#fbcfe8"/>
+      <polygon points="82,56 154,56 134,100 62,100" fill="#ddd6fe"/>
+      <polygon points="164,56 236,56 216,100 144,100" fill="#fed7aa"/>
+      <polygon points="20,112 92,112 72,156 0,156" fill="#dbeafe"/>
+      <polygon points="102,112 174,112 154,156 82,156" fill="#fde68a"/>
+      <polygon points="184,112 226,112 206,156 164,156" fill="#bbf7d0"/>
+    </g>
+  </g>
+  <g transform="translate(388 82)">
+    <rect x="0" y="0" width="275" height="220" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="18" y="30" font-family="Arial, sans-serif" font-size="15" fill="#334155">Tilted sign frame</text>
+    <line x1="55" y1="190" x2="55" y2="110" stroke="#64748b" stroke-width="10"/>
+    <polygon points="83,55 220,55 192,145 55,145" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="4"/>
+    <text x="96" y="107" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1e3a8a">PARK</text>
+    <circle cx="55" cy="110" r="8" fill="#64748b"/>
+  </g>
+  <text x="40" y="330" font-family="Arial, sans-serif" font-size="17" fill="#334155">Notice: opposite sides run in matching directions even when the shape is tilted.</text>
+</svg>

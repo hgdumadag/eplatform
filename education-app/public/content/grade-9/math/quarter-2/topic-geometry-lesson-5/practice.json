@@ -1,0 +1,88 @@
+{
+  "examId": "grade-9-math-q2-geometry-lesson-5-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 5 Practice: Trapezoids and Kites",
+  "description": "Practice using trapezoid and kite properties to identify parts and solve measure problems.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "In a trapezoid, what are the bases?",
+      "options": [
+        "The non-parallel sides",
+        "The diagonals",
+        "The parallel sides",
+        "Any two congruent sides"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The bases of a trapezoid are the parallel sides.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A trapezoid has bases 10 cm and 18 cm. What is the length of its median?",
+      "options": [
+        "8 cm",
+        "14 cm",
+        "18 cm",
+        "28 cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The median is the average of the bases: (10 + 18) / 2 = 14 cm.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "In an isosceles trapezoid, the diagonals are congruent.",
+      "correctAnswer": "true",
+      "explanation": "Congruent diagonals are one of the special properties of an isosceles trapezoid.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "A kite always has two pairs of opposite congruent sides.",
+      "correctAnswer": "false",
+      "explanation": "A kite has two distinct pairs of adjacent congruent sides, not opposite congruent sides.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "A trapezoid has median 16 cm and one base 12 cm. If the other base is b, find b.",
+      "correctAnswer": "20",
+      "explanation": "Use 16 = (12 + b) / 2. Then 32 = 12 + b, so b = 20.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "In a kite, the diagonals are perpendicular. If an angle at their intersection is labeled (5x) degrees, find x.",
+      "correctAnswer": "18",
+      "explanation": "Perpendicular diagonals form 90 degree angles. So 5x = 90 and x = 18.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "Explain why the median of a trapezoid with bases 9 cm and 23 cm is 16 cm.",
+      "correctAnswer": "The trapezoid median is the average of the two base lengths, so (9 + 23) / 2 = 32 / 2 = 16 cm.",
+      "explanation": "A correct explanation should identify the bases and use the average formula.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A kite has one diagonal that is a line of symmetry. What does that diagonal do to the other diagonal?",
+      "correctAnswer": "The symmetry diagonal bisects the other diagonal, cutting it into two congruent segments.",
+      "explanation": "In a kite, the symmetry diagonal bisects the other diagonal. The two split parts of the other diagonal are equal.",
+      "points": 14
+    }
+  ]
+}

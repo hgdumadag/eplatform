@@ -1,0 +1,110 @@
+{
+  "examId": "grade-9-math-q2-geometry-lesson-6-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 6 Assessment: Reasoning and Proof Foundations",
+  "description": "Show mastery of inductive and deductive reasoning, counterexamples, and statement-reason proof foundations.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which situation best shows deductive reasoning?",
+      "options": [
+        "Measuring four drawings and guessing the next one has the same property",
+        "Using the theorem \"vertical angles are congruent\" to conclude two vertical angles are equal",
+        "Noticing that several squares have four equal sides",
+        "Drawing one trapezoid and making a general claim about all trapezoids"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Deductive reasoning uses an accepted theorem to support a conclusion.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Conjecture: \"All supplementary angles form a linear pair.\" Which counterexample disproves it?",
+      "options": [
+        "Two adjacent angles that form a straight line",
+        "Two vertical angles that are both 90 degrees",
+        "A 60 degree angle and a 120 degree angle in separate diagrams",
+        "Two angles with measures 30 degrees and 50 degrees"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The 60 degree and 120 degree angles are supplementary but do not form a linear pair if they are not adjacent.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Given: M is the midpoint of segment AB. Which statement follows by definition of midpoint?",
+      "options": [
+        "AM = AB",
+        "MB = AB",
+        "AM = MB",
+        "AB = 0"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A midpoint divides a segment into two congruent parts, so AM = MB.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "A theorem can be used as a reason in a proof because it has already been proven.",
+      "correctAnswer": "true",
+      "explanation": "Theorems are proven results, so they are valid proof reasons.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "A conjecture is the same as a completed proof.",
+      "correctAnswer": "false",
+      "explanation": "A conjecture is an unproven statement. It may later be proven or disproven.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "In a two-column proof, the claim written on a line is the ______, and the support for that claim is the reason.",
+      "correctAnswer": "statement",
+      "explanation": "A proof line contains a statement and a reason.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "If angles A and B are supplementary, then m∠A + m∠B = ______ degrees.",
+      "correctAnswer": "180",
+      "explanation": "Supplementary angles have measures that add to 180 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Classify the reasoning as inductive or deductive: \"ABCD is a parallelogram. Opposite sides of a parallelogram are congruent. Therefore, AB is congruent to CD.\" Explain briefly.",
+      "correctAnswer": "Deductive reasoning, because it uses a known property of parallelograms to reach a specific conclusion about ABCD.",
+      "explanation": "The argument starts from an accepted property, so it is deductive.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Give a counterexample to the conjecture: \"Every quadrilateral has at least one pair of parallel sides.\"",
+      "correctAnswer": "A kite with no parallel sides is a counterexample because it is a quadrilateral but does not have a pair of parallel sides.",
+      "explanation": "One quadrilateral with no parallel sides is enough to disprove the conjecture.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Complete this proof foundation: Given ∠1 and ∠2 form a linear pair. Statement: m∠1 + m∠2 = 180°. What is a valid reason?",
+      "correctAnswer": "Linear Pair Postulate",
+      "explanation": "The Linear Pair Postulate says angles that form a linear pair are supplementary, so their measures add to 180 degrees.",
+      "points": 10
+    }
+  ]
+}

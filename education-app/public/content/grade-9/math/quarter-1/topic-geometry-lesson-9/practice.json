@@ -1,0 +1,94 @@
+{
+  "examId": "grade-9-math-q1-geometry-lesson-9-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 9 Practice: Mixed Angle Reasoning",
+  "description": "Practice solving missing angles with parallel lines, perpendicular lines, transversals, and organized reasons.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Lines $r$ and $s$ are parallel. A transversal creates corresponding angles $\\angle 1$ and $\\angle 5$. If $m\\angle 1 = 72^\\circ$, what is $m\\angle 5$?",
+      "options": [
+        "$18^\\circ$",
+        "$72^\\circ$",
+        "$90^\\circ$",
+        "$108^\\circ$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Corresponding angles formed by a transversal across parallel lines are congruent, so the measure stays 72°.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "$\\angle A$ and $\\angle B$ form a linear pair. If $m\\angle A = 72^\\circ$, what is $m\\angle B$?",
+      "options": [
+        "$18^\\circ$",
+        "$72^\\circ$",
+        "$108^\\circ$",
+        "$180^\\circ$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A linear pair is supplementary, so $m\\angle B = 180^\\circ - 72^\\circ = 108^\\circ$.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "If two lines are perpendicular, every angle at their intersection measures $90^\\circ$.",
+      "correctAnswer": "true",
+      "explanation": "Perpendicular lines form four right angles, and each right angle measures 90°.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "Same-side interior angles formed by parallel lines have measures $115^\\circ$ and $x^\\circ$. Find $x$.",
+      "correctAnswer": "65",
+      "explanation": "Same-side interior angles are supplementary, so $x = 180 - 115 = 65$.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A right angle is split into two smaller angles. One angle is $34^\\circ$. What is the other angle?",
+      "options": [
+        "$34^\\circ$",
+        "$56^\\circ$",
+        "$90^\\circ$",
+        "$146^\\circ$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The two parts of a right angle sum to 90°, so the missing angle is $90^\\circ - 34^\\circ = 56^\\circ$.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Vertical angles $\\angle C$ and $\\angle D$ are formed by intersecting lines. If $m\\angle C = 127^\\circ$, then $m\\angle D = $____.",
+      "correctAnswer": "127",
+      "explanation": "Vertical angles are congruent, so the opposite angle also measures 127°.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "Parallel lines are cut by a transversal. $m\\angle 1 = 64^\\circ$. Angle 2 corresponds to angle 1, and angle 3 forms a linear pair with angle 2. Find $m\\angle 3$ and give the reason.",
+      "correctAnswer": "$m\\angle 3 = 116^\\circ$. Angle 2 is 64° because corresponding angles are congruent, and angle 3 is supplementary to angle 2 because they form a linear pair.",
+      "explanation": "First copy 64° by corresponding angles. Then subtract from 180° because a linear pair is supplementary.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A transversal makes a $42^\\circ$ angle with a horizontal line. A vertical line is perpendicular to the horizontal line. What is the acute angle between the transversal and the vertical line? Explain.",
+      "correctAnswer": "$48^\\circ$, because the horizontal and vertical lines form a 90° angle and $90^\\circ - 42^\\circ = 48^\\circ$.",
+      "explanation": "The transversal splits a right angle into two complementary parts, so the missing acute angle is 48°.",
+      "points": 14
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "examId": "grade-9-math-q1-geometry-lesson-10-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 10 Assessment: Cumulative Map Reasoning",
+  "description": "Show mastery by planning a geometric map, identifying relationships, solving missing angle measures, and explaining each step.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which set of features best matches the Lesson 10 construction task?",
+      "options": [
+        "Parallel roads, a perpendicular road, a transversal, labels, angle measures, and reasons",
+        "Only one line segment and its midpoint",
+        "A circle with no angle labels",
+        "A table of numbers with no diagram"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cumulative task requires a map that uses parallel and perpendicular roads, a transversal, labels, solved angle measures, and organized reasoning.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Roads $m$ and $n$ are parallel. A transversal creates $m\\angle 1 = 66^\\circ$. Which measure must be true for the corresponding angle?",
+      "options": [
+        "$66^\\circ$",
+        "$24^\\circ$",
+        "$90^\\circ$",
+        "$114^\\circ$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Corresponding angles formed by parallel lines are congruent, so the corresponding angle is $66^\\circ$.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "An angle in a same-side interior pair measures $41^\\circ$. What is the measure of the other same-side interior angle?",
+      "options": [
+        "$139^\\circ$",
+        "$41^\\circ$",
+        "$49^\\circ$",
+        "$90^\\circ$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Same-side interior angles are supplementary, so the other angle is $180^\\circ - 41^\\circ = 139^\\circ$.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "If $p \\perp q$, then the angles formed where $p$ and $q$ intersect are right angles.",
+      "correctAnswer": "true",
+      "explanation": "Perpendicular lines intersect to form right angles, each measuring $90^\\circ$.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "If one angle in a linear pair measures $128^\\circ$, the other angle measures ______ degrees.",
+      "correctAnswer": "52",
+      "explanation": "Linear pair angles sum to $180^\\circ$, so $180 - 128 = 52$.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Which reason best justifies the statement $m\\angle 4 = m\\angle 6$ when the angles are alternate interior angles formed by parallel roads?",
+      "options": [
+        "Alternate interior angles are congruent when lines are parallel",
+        "All angles in a diagram are equal",
+        "Same-side interior angles are congruent",
+        "Perpendicular lines form acute angles"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When parallel lines are cut by a transversal, alternate interior angles are congruent.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A road crossing two parallel roads is called a ______.",
+      "correctAnswer": "transversal",
+      "explanation": "A transversal intersects two or more lines, including two parallel roads in a map diagram.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Write a short construction plan for a map that includes two parallel roads, one perpendicular road, and one transversal.",
+      "correctAnswer": "Draw road a, then construct road b parallel to a. Draw road c crossing both a and b as a transversal. Construct road d perpendicular to road a and label the intersections and angles.",
+      "explanation": "A strong plan names the relationships first, then adds labels so the map can be checked.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A student claims two same-side interior angles are both $82^\\circ$ because the roads are parallel. Correct the mistake.",
+      "correctAnswer": "Same-side interior angles formed by parallel lines are supplementary, not congruent. If one is $82^\\circ$, the other is $98^\\circ$ because $180 - 82 = 98$.",
+      "explanation": "The correction must name the relationship and use subtraction from $180^\\circ$.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "In a final map solution, why is it not enough to list angle answers without reasons?",
+      "correctAnswer": "Geometry solutions need reasons so another person can verify that each measure follows from a relationship such as a linear pair, vertical angles, corresponding angles, or perpendicular lines.",
+      "explanation": "The assessment values organized reasoning, not only numerical answers.",
+      "points": 10
+    }
+  ]
+}

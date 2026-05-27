@@ -1,0 +1,39 @@
+{
+  "id": "grade-9-math-q1-geometry-lesson-2",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Geometry - Lesson 2",
+  "description": "Name angles from diagrams, estimate and measure angle sizes, and write complete angle statements.",
+  "learningObjectives": [
+    "Name angles using one-letter and three-letter notation when appropriate",
+    "Identify the vertex and sides of an angle from a diagram",
+    "Classify angles as acute, right, obtuse, straight, or reflex",
+    "Measure angles from diagrams using degree notation",
+    "Write complete angle statements such as m∠ABC = 45°"
+  ],
+  "prerequisites": [
+    "Identify rays and angles from a diagram",
+    "Recognize the vertex of a three-letter angle name",
+    "Understand degree notation such as 30°, 90°, and 180°",
+    "Use a ruler or protractor carefully when a diagram is provided"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "beginner",
+  "tags": ["geometry", "measurement and geometry", "angle notation", "angle measurement", "degrees", "protractor", "acute angles", "obtuse angles", "right angles"],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/real-world-angle-prompt.svg",
+      "images/angle-naming-map.svg",
+      "images/angle-types-reference.svg",
+      "images/protractor-reading.svg",
+      "images/worked-angle-statement.svg",
+      "images/error-analysis-angle-measure.svg"
+    ]
+  }
+}

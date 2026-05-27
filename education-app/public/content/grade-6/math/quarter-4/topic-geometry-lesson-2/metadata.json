@@ -3,7 +3,7 @@
   "grade": 6,
   "subject": "math",
   "quarter": 4,
-  "topicName": "Geometry - Lesson 2",
+  "topicName": "Geometry - Lesson 2: Using A = pi r squared",
   "description": "Use the formula A = pi r squared to compute the area of a circle when the radius is given, including correct square units.",
   "learningObjectives": [
     "Identify the radius as the distance from the center of a circle to its edge",
@@ -14,8 +14,20 @@
   ],
   "estimatedDuration": 45,
   "difficulty": "beginner",
-  "tags": ["grade-6", "math", "geometry", "circles", "area", "pi", "radius"],
-  "prerequisites": ["Multiplication facts", "Exponents as repeated multiplication", "Basic circle vocabulary"],
+  "tags": [
+    "grade-6",
+    "math",
+    "geometry",
+    "circles",
+    "area",
+    "pi",
+    "radius"
+  ],
+  "prerequisites": [
+    "Multiplication facts",
+    "Exponents as repeated multiplication",
+    "Basic circle vocabulary"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {

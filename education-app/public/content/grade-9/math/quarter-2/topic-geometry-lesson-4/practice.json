@@ -1,0 +1,94 @@
+{
+  "examId": "grade-9-math-q2-geometry-lesson-4-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 4 Practice: Rectangle, Square, and Rhombus Problems",
+  "description": "Practice comparing special parallelogram properties and solving basic side, angle, and diagonal problems.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which property always holds for every rectangle?",
+      "options": [
+        "All sides are congruent.",
+        "All angles are right angles.",
+        "Diagonals are perpendicular.",
+        "Diagonals bisect opposite angles."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A rectangle is defined as a parallelogram with four right angles.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which property always holds for every rhombus?",
+      "options": [
+        "All angles are right angles.",
+        "Diagonals are congruent.",
+        "All sides are congruent.",
+        "Only one pair of opposite sides is parallel."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A rhombus is a parallelogram with four congruent sides.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "Every square is both a rectangle and a rhombus.",
+      "correctAnswer": "true",
+      "explanation": "A square has four right angles and four congruent sides, so it satisfies both definitions.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "In a rectangle, the diagonals are ______ in length.",
+      "correctAnswer": "congruent or equal",
+      "explanation": "Rectangle diagonals are congruent, meaning they have equal length.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A rhombus has diagonals that intersect at point E. If AE = 9 cm on diagonal AC, what is EC?",
+      "options": [
+        "4.5 cm",
+        "9 cm",
+        "18 cm",
+        "Cannot be determined because rhombus diagonals never bisect each other"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A rhombus is a parallelogram, so its diagonals bisect each other. Therefore AE = EC = 9 cm.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A rhombus diagonal bisects an angle into two angles of 32 degrees each. The whole angle measures ______ degrees.",
+      "correctAnswer": "64",
+      "explanation": "The diagonal splits the angle into two equal parts, so 32 + 32 = 64 degrees.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "A student says, \"This shape is a square because it looks like a square.\" Write a better way to justify that a parallelogram is a square.",
+      "correctAnswer": "Show that the parallelogram has both four right angles and four congruent sides, or show enough rectangle and rhombus properties to prove both conditions.",
+      "explanation": "Geometry classification should use definitions and measured or proven properties, not appearance.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Compare the diagonals of a rectangle and a rhombus in one or two sentences.",
+      "correctAnswer": "Rectangle diagonals are congruent and bisect each other. Rhombus diagonals are perpendicular, bisect each other, and bisect opposite angles, but they are not always congruent.",
+      "explanation": "The shared property is diagonal bisection; the distinguishing properties are congruent diagonals for rectangles and perpendicular angle-bisecting diagonals for rhombuses.",
+      "points": 14
+    }
+  ]
+}

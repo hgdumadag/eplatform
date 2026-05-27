@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340" role="img" aria-labelledby="title desc">
+  <title id="title">Error analysis for same-side interior angles</title>
+  <desc id="desc">A student incorrectly copies a same-side interior angle measure instead of subtracting from 180 degrees.</desc>
+  <rect width="720" height="340" fill="#fff7ed"/>
+  <line x1="90" y1="100" x2="630" y2="100" stroke="#1f2937" stroke-width="4"/>
+  <line x1="90" y1="230" x2="630" y2="230" stroke="#1f2937" stroke-width="4"/>
+  <line x1="300" y1="35" x2="430" y2="295" stroke="#b91c1c" stroke-width="4"/>
+  <path d="M334 100 A38 38 0 0 1 355 135" fill="none" stroke="#2563eb" stroke-width="6"/>
+  <text x="368" y="137" font-family="Arial" font-size="18" fill="#2563eb">1 = 74°</text>
+  <path d="M367 192 A40 40 0 0 1 394 230" fill="none" stroke="#dc2626" stroke-width="6"/>
+  <text x="408" y="198" font-family="Arial" font-size="18" fill="#dc2626">2 should be 106°</text>
+  <rect x="82" y="268" width="560" height="44" rx="6" fill="#ffffff" stroke="#fb923c" stroke-width="2"/>
+  <text x="105" y="296" font-family="Arial" font-size="18" fill="#7c2d12">Same-side interior means supplementary, not congruent.</text>
+</svg>

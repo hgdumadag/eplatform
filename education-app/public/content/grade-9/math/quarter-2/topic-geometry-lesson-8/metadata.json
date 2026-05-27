@@ -1,0 +1,52 @@
+{
+  "id": "grade-9-math-q2-geometry-lesson-8",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Geometry - Lesson 8",
+  "description": "Use congruent triangles and CPCTC to prove corresponding parts, then apply related right triangle, isosceles triangle, perpendicular bisector, and midline theorem results.",
+  "learningObjectives": [
+    "Explain what CPCTC means and when it may be used",
+    "Use triangle congruence to prove corresponding sides or angles congruent",
+    "Solve measures using right triangle congruence, isosceles triangle, perpendicular bisector, and midline theorem relationships",
+    "Write short statement-reason arguments that move from triangle congruence to corresponding parts",
+    "Identify common errors such as using CPCTC before proving triangles congruent",
+    "Connect theorem diagrams to algebraic measure problems"
+  ],
+  "prerequisites": [
+    "Identify corresponding sides and angles in congruent triangles",
+    "Apply SSS, SAS, ASA, AAS, and HL triangle congruence conditions",
+    "Recognize right triangles, isosceles triangles, perpendicular bisectors, and triangle midlines",
+    "Solve one-step and two-step linear equations",
+    "Read congruence markings and geometric notation accurately"
+  ],
+  "estimatedDuration": 60,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "triangle congruence",
+    "CPCTC",
+    "right triangle congruence",
+    "isosceles triangle theorem",
+    "perpendicular bisector theorem",
+    "midline theorem",
+    "proof",
+    "theorems"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/real-world-cpctc-prompt.svg",
+      "images/cpctc-proof-flow.svg",
+      "images/worked-cpctc-diagram.svg",
+      "images/theorem-visual-checks.svg",
+      "images/midline-worked-example.svg",
+      "images/error-analysis-cpctc.svg"
+    ]
+  }
+}

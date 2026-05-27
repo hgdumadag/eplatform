@@ -3,7 +3,7 @@
   "grade": 6,
   "subject": "math",
   "quarter": 3,
-  "topicName": "Geometry - Lesson 5",
+  "topicName": "Geometry - Lesson 5: Volume Word Problems",
   "description": "Apply cube and rectangular prism volume to storage and packing word problems with complete solutions and units.",
   "learningObjectives": [
     "Identify the shape and needed dimensions in a volume word problem",
@@ -21,7 +21,15 @@
   ],
   "estimatedDuration": 45,
   "difficulty": "intermediate",
-  "tags": ["geometry", "measurement", "volume", "word problems", "storage", "packing", "units"],
+  "tags": [
+    "geometry",
+    "measurement",
+    "volume",
+    "word problems",
+    "storage",
+    "packing",
+    "units"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {

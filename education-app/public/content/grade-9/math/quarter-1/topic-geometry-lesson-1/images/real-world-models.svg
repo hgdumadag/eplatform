@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="360" viewBox="0 0 920 360" role="img" aria-labelledby="title desc">
+  <title id="title">Real-world models of basic geometric ideas</title>
+  <desc id="desc">Six panels show simple models for point, line, plane, segment, ray, and angle.</desc>
+  <rect width="920" height="360" fill="#f8fafc"/>
+  <g font-family="Arial, sans-serif" fill="#0f172a">
+    <g transform="translate(30 35)">
+      <rect width="130" height="120" rx="8" fill="#e0f2fe" stroke="#0284c7"/>
+      <circle cx="65" cy="58" r="6" fill="#dc2626"/>
+      <text x="65" y="94" text-anchor="middle" font-size="16" font-weight="700">Point</text>
+      <text x="65" y="114" text-anchor="middle" font-size="12">pencil tip</text>
+    </g>
+    <g transform="translate(180 35)">
+      <rect width="130" height="120" rx="8" fill="#ecfdf5" stroke="#059669"/>
+      <line x1="22" y1="60" x2="108" y2="60" stroke="#047857" stroke-width="5"/>
+      <polygon points="22,60 35,52 35,68" fill="#047857"/>
+      <polygon points="108,60 95,52 95,68" fill="#047857"/>
+      <text x="65" y="94" text-anchor="middle" font-size="16" font-weight="700">Line</text>
+      <text x="65" y="114" text-anchor="middle" font-size="12">ruler edge</text>
+    </g>
+    <g transform="translate(330 35)">
+      <rect width="130" height="120" rx="8" fill="#fef3c7" stroke="#d97706"/>
+      <polygon points="28,78 95,52 112,78 45,104" fill="#fde68a" stroke="#92400e" stroke-width="2"/>
+      <text x="65" y="94" text-anchor="middle" font-size="16" font-weight="700">Plane</text>
+      <text x="65" y="114" text-anchor="middle" font-size="12">flat surface</text>
+    </g>
+    <g transform="translate(480 35)">
+      <rect width="130" height="120" rx="8" fill="#fce7f3" stroke="#db2777"/>
+      <line x1="30" y1="62" x2="100" y2="62" stroke="#be185d" stroke-width="5"/>
+      <circle cx="30" cy="62" r="6" fill="#be185d"/>
+      <circle cx="100" cy="62" r="6" fill="#be185d"/>
+      <text x="65" y="94" text-anchor="middle" font-size="16" font-weight="700">Segment</text>
+      <text x="65" y="114" text-anchor="middle" font-size="12">notebook edge</text>
+    </g>
+    <g transform="translate(630 35)">
+      <rect width="130" height="120" rx="8" fill="#ede9fe" stroke="#7c3aed"/>
+      <line x1="34" y1="64" x2="105" y2="64" stroke="#6d28d9" stroke-width="5"/>
+      <circle cx="34" cy="64" r="6" fill="#6d28d9"/>
+      <polygon points="105,64 91,55 91,73" fill="#6d28d9"/>
+      <text x="65" y="94" text-anchor="middle" font-size="16" font-weight="700">Ray</text>
+      <text x="65" y="114" text-anchor="middle" font-size="12">flashlight beam</text>
+    </g>
+    <g transform="translate(780 35)">
+      <rect width="110" height="120" rx="8" fill="#fee2e2" stroke="#ef4444"/>
+      <line x1="30" y1="84" x2="82" y2="36" stroke="#b91c1c" stroke-width="5" stroke-linecap="round"/>
+      <line x1="30" y1="84" x2="88" y2="84" stroke="#b91c1c" stroke-width="5" stroke-linecap="round"/>
+      <path d="M48 84 A18 18 0 0 0 43 70" fill="none" stroke="#b91c1c" stroke-width="2"/>
+      <text x="55" y="104" text-anchor="middle" font-size="16" font-weight="700">Angle</text>
+      <text x="55" y="122" text-anchor="middle" font-size="12">open scissors</text>
+    </g>
+    <text x="460" y="210" text-anchor="middle" font-size="18" font-weight="700">Real objects are only models.</text>
+    <text x="460" y="242" text-anchor="middle" font-size="15">The mathematical objects are ideal: no thickness, perfect straightness, and extension without end when needed.</text>
+  </g>
+</svg>

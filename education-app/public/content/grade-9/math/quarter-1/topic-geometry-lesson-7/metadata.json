@@ -1,0 +1,49 @@
+{
+  "id": "grade-9-math-q1-geometry-lesson-7",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Geometry - Lesson 7",
+  "description": "Identify corresponding, alternate interior, alternate exterior, and same-side interior angle pairs formed by two lines and a transversal.",
+  "learningObjectives": [
+    "Identify the transversal in a diagram with two lines",
+    "Distinguish interior angles from exterior angles",
+    "Name corresponding, alternate interior, alternate exterior, and same-side interior angle pairs",
+    "Label angle pairs from numbered diagrams",
+    "Explain why a pair belongs to a specific transversal vocabulary category"
+  ],
+  "prerequisites": [
+    "Name angles from diagrams using accurate notation",
+    "Recognize intersecting lines and parallel-looking lines",
+    "Identify when two angles are on the same side or opposite sides of a line",
+    "Use angle labels such as angle 1 or angle ABC clearly"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "transversal",
+    "parallel lines",
+    "corresponding angles",
+    "alternate interior angles",
+    "alternate exterior angles",
+    "same-side interior angles",
+    "angle pairs"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/real-world-transversal-prompt.svg",
+      "images/transversal-angle-map.svg",
+      "images/corresponding-angles.svg",
+      "images/alternate-interior-angles.svg",
+      "images/angle-pair-reference.svg",
+      "images/error-analysis-transversal.svg"
+    ]
+  }
+}

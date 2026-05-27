@@ -1,0 +1,100 @@
+{
+  "examId": "grade-9-math-q1-geometry-lesson-1-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 1 Practice: Foundations and Notation",
+  "description": "Practice identifying points, lines, planes, rays, segments, angles, and their notation.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which list contains the three undefined terms in geometry?",
+      "options": [
+        "Point, line, plane",
+        "Ray, segment, angle",
+        "Triangle, circle, square",
+        "Length, width, height"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Point, line, and plane are the starting ideas of geometry. Rays, segments, and angles are defined using those ideas.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which notation represents a segment with endpoints A and B?",
+      "options": [
+        "$\\overline{AB}$",
+        "$\\overleftrightarrow{AB}$",
+        "$\\overrightarrow{AB}$",
+        "$\\angle AB$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A bar over two letters names a segment with two endpoints.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "$\\overrightarrow{AB}$ and $\\overrightarrow{BA}$ always name the same ray.",
+      "correctAnswer": "false",
+      "explanation": "The first letter names the endpoint of a ray. Reversing the letters usually changes the endpoint and direction.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "In $\\angle PQR$, the vertex is point ______.",
+      "correctAnswer": "Q",
+      "explanation": "The vertex is the middle letter in a three-letter angle name.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which object is the best real-life model of a plane?",
+      "options": [
+        "A flat tabletop",
+        "The point of a pencil",
+        "A single corner of a book",
+        "A flashlight beam"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A flat tabletop can model a plane because a plane is flat, even though a true plane extends forever.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A straight figure has one endpoint and an arrow on the other end. What is it?",
+      "options": [
+        "Ray",
+        "Segment",
+        "Plane",
+        "Angle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A ray has one endpoint and continues forever in one direction.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "Explain in one or two sentences why a segment can be measured but a line cannot be measured as a whole.",
+      "correctAnswer": "A segment has two endpoints, so it has a fixed length. A line extends forever in both directions, so it has no total finite length.",
+      "explanation": "The key distinction is endpoints. A segment has two endpoints; a line extends without end.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A student says the vertex of $\\angle ABC$ is A because A is written first. Correct the student's mistake.",
+      "correctAnswer": "The vertex is B because the vertex is the middle letter in a three-letter angle name.",
+      "explanation": "For angle names with three letters, the middle letter is always the vertex.",
+      "points": 14
+    }
+  ]
+}

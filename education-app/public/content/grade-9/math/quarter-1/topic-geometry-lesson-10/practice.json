@@ -1,0 +1,100 @@
+{
+  "examId": "grade-9-math-q1-geometry-lesson-10-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 10 Practice: Geometric Map Construction",
+  "description": "Practice construction planning, angle relationships, and reasoning for a geometric map with parallel and perpendicular roads.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A map has roads $a$ and $b$ with $a \\parallel b$. Road $c$ crosses both roads. What is road $c$ called?",
+      "options": [
+        "Transversal",
+        "Vertex",
+        "Ray",
+        "Bisector"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A transversal is a line that intersects two or more lines, such as a road crossing both parallel roads.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which statement should appear on a geometric map if road $d$ crosses road $a$ at right angles?",
+      "options": [
+        "$d \\perp a$",
+        "$d \\parallel a$",
+        "$d = a$",
+        "$d \\angle a$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The symbol $\\perp$ means perpendicular, so $d \\perp a$ states that the roads meet at right angles.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "If two roads are perpendicular, each angle at their intersection measures ______ degrees.",
+      "correctAnswer": "90",
+      "explanation": "Perpendicular lines form four right angles, and each right angle measures $90^\\circ$.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Two parallel roads are cut by a transversal. A corresponding angle to a $58^\\circ$ angle has measure:",
+      "options": [
+        "$58^\\circ$",
+        "$90^\\circ$",
+        "$122^\\circ$",
+        "$180^\\circ$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Corresponding angles formed by parallel lines are congruent, so the matching angle is also $58^\\circ$.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "In a map diagram, one angle in a linear pair measures $73^\\circ$. What is the other angle?",
+      "options": [
+        "$107^\\circ$",
+        "$73^\\circ$",
+        "$17^\\circ$",
+        "$90^\\circ$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Linear pairs are supplementary, so the other angle is $180^\\circ - 73^\\circ = 107^\\circ$.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "Same-side interior angles formed by parallel lines and a transversal are always congruent.",
+      "correctAnswer": "false",
+      "explanation": "Same-side interior angles are supplementary. They add to $180^\\circ$; they are not usually congruent.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "A student writes, \"The roads look parallel, so my map is correct.\" What should the student add to make the reasoning stronger?",
+      "correctAnswer": "The student should state or show how the roads were constructed parallel, then use a relationship such as corresponding angles or equal distance to verify the parallel roads.",
+      "explanation": "A geometric construction needs evidence. A clear statement, construction mark, or angle relationship is stronger than appearance.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "In one or two sentences, explain why a perpendicular road is useful in a geometric map construction task.",
+      "correctAnswer": "A perpendicular road creates right angles, so it gives known $90^\\circ$ measures that can anchor the map and support later angle reasoning.",
+      "explanation": "The important idea is that perpendicular lines give reliable $90^\\circ$ angles, which makes the map easier to verify and solve.",
+      "points": 14
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-labelledby="title desc">
+  <title id="title">Construct a perpendicular from a point off a line</title>
+  <desc id="desc">A point Q above line l is connected to a foot F on line l with a perpendicular segment marked as 90 degrees.</desc>
+  <rect width="760" height="300" fill="#ffffff"/>
+  <line x1="90" y1="215" x2="670" y2="215" stroke="#2563eb" stroke-width="5"/>
+  <text x="680" y="220" font-family="Arial, sans-serif" font-size="20" fill="#1d4ed8">line l</text>
+  <circle cx="385" cy="70" r="7" fill="#dc2626"/>
+  <text x="398" y="75" font-family="Arial, sans-serif" font-size="20" fill="#111827">Q</text>
+  <line x1="385" y1="70" x2="385" y2="215" stroke="#dc2626" stroke-width="5"/>
+  <circle cx="385" cy="215" r="7" fill="#111827"/>
+  <text x="397" y="238" font-family="Arial, sans-serif" font-size="20" fill="#111827">F</text>
+  <path d="M385 215 h32 v-32 h-32z" fill="none" stroke="#b45309" stroke-width="4"/>
+  <text x="420" y="190" font-family="Arial, sans-serif" font-size="18" fill="#92400e">90 degrees</text>
+  <path d="M170 192 h120 v-80 h45" fill="none" stroke="#94a3b8" stroke-width="4"/>
+  <text x="122" y="120" font-family="Arial, sans-serif" font-size="17" fill="#475569">Slide a set square along line l</text>
+  <text x="122" y="145" font-family="Arial, sans-serif" font-size="17" fill="#475569">until a side passes through Q.</text>
+  <text x="405" y="143" font-family="Arial, sans-serif" font-size="18" fill="#334155">QF is perpendicular to line l</text>
+</svg>

@@ -3,7 +3,7 @@
   "grade": 6,
   "subject": "math",
   "quarter": 1,
-  "topicName": "Geometry - Lesson 1",
+  "topicName": "Geometry - Lesson 1: Tessellation Hunt",
   "description": "Identify repeating shape patterns in tiles, textiles, and local designs by deciding whether shapes tessellate without gaps or overlaps.",
   "learningObjectives": [
     "Define tessellation using the ideas of repeating patterns, gaps, and overlaps",
@@ -20,7 +20,14 @@
   ],
   "estimatedDuration": 40,
   "difficulty": "beginner",
-  "tags": ["geometry", "tessellations", "patterns", "tiles", "textiles", "visual reasoning"],
+  "tags": [
+    "geometry",
+    "tessellations",
+    "patterns",
+    "tiles",
+    "textiles",
+    "visual reasoning"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {

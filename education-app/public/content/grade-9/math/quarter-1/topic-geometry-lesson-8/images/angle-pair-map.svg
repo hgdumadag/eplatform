@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Angle pair map for parallel lines</title>
+  <desc id="desc">Two horizontal parallel lines cut by a slanted transversal. Eight angles are numbered around the two intersections.</desc>
+  <rect width="720" height="360" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <line x1="80" y1="115" x2="640" y2="115" stroke="#1f2937" stroke-width="4"/>
+  <line x1="80" y1="245" x2="640" y2="245" stroke="#1f2937" stroke-width="4"/>
+  <line x1="255" y1="40" x2="470" y2="320" stroke="#b91c1c" stroke-width="4"/>
+  <text x="650" y="109" font-family="Arial" font-size="18" fill="#1f2937">p</text>
+  <text x="650" y="239" font-family="Arial" font-size="18" fill="#1f2937">q</text>
+  <text x="278" y="92" font-family="Arial" font-size="20" fill="#0f172a">1</text>
+  <text x="344" y="92" font-family="Arial" font-size="20" fill="#0f172a">2</text>
+  <text x="286" y="148" font-family="Arial" font-size="20" fill="#0f172a">3</text>
+  <text x="358" y="148" font-family="Arial" font-size="20" fill="#0f172a">4</text>
+  <text x="378" y="222" font-family="Arial" font-size="20" fill="#0f172a">5</text>
+  <text x="444" y="222" font-family="Arial" font-size="20" fill="#0f172a">6</text>
+  <text x="392" y="279" font-family="Arial" font-size="20" fill="#0f172a">7</text>
+  <text x="460" y="279" font-family="Arial" font-size="20" fill="#0f172a">8</text>
+  <path d="M292 100 C310 78, 333 78, 351 100" fill="none" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="105" y="44" font-family="Arial" font-size="16" fill="#2563eb">Corresponding examples: 1 and 5, 2 and 6</text>
+  <text x="105" y="318" font-family="Arial" font-size="16" fill="#7c3aed">Alternate interior example: 3 and 6</text>
+  <text x="390" y="44" font-family="Arial" font-size="16" fill="#059669">Same-side interior example: 4 and 5</text>
+</svg>

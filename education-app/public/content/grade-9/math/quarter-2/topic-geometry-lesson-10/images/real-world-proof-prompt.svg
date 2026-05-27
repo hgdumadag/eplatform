@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Bridge truss triangles as a real-world proof prompt</title>
+  <desc id="desc">A bridge-like frame made from repeated triangles, with matching bars marked to suggest that congruent triangles can make structures stable.</desc>
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <rect x="60" y="245" width="600" height="24" rx="4" fill="#334155"/>
+  <line x1="80" y1="245" x2="170" y2="95" stroke="#0f766e" stroke-width="8" stroke-linecap="round"/>
+  <line x1="170" y1="95" x2="260" y2="245" stroke="#0f766e" stroke-width="8" stroke-linecap="round"/>
+  <line x1="260" y1="245" x2="350" y2="95" stroke="#0f766e" stroke-width="8" stroke-linecap="round"/>
+  <line x1="350" y1="95" x2="440" y2="245" stroke="#0f766e" stroke-width="8" stroke-linecap="round"/>
+  <line x1="440" y1="245" x2="530" y2="95" stroke="#0f766e" stroke-width="8" stroke-linecap="round"/>
+  <line x1="530" y1="95" x2="620" y2="245" stroke="#0f766e" stroke-width="8" stroke-linecap="round"/>
+  <line x1="170" y1="95" x2="350" y2="95" stroke="#475569" stroke-width="6" stroke-linecap="round"/>
+  <line x1="350" y1="95" x2="530" y2="95" stroke="#475569" stroke-width="6" stroke-linecap="round"/>
+  <path d="M120 178 l18 -10 M125 187 l18 -10" stroke="#f59e0b" stroke-width="4"/>
+  <path d="M215 178 l18 10 M210 187 l18 10" stroke="#f59e0b" stroke-width="4"/>
+  <path d="M395 178 l18 10 M390 187 l18 10" stroke="#f59e0b" stroke-width="4"/>
+  <path d="M575 178 l18 10 M570 187 l18 10" stroke="#f59e0b" stroke-width="4"/>
+  <circle cx="170" cy="95" r="8" fill="#dc2626"/>
+  <circle cx="350" cy="95" r="8" fill="#dc2626"/>
+  <circle cx="530" cy="95" r="8" fill="#dc2626"/>
+  <text x="60" y="45" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Where does proof show up?</text>
+  <text x="60" y="75" font-family="Arial, sans-serif" font-size="16" fill="#334155">Matching triangle parts help engineers justify stable, repeated shapes.</text>
+  <text x="230" y="314" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">Question: What facts would prove two triangles match exactly?</text>
+</svg>

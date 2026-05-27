@@ -1,0 +1,116 @@
+{
+  "examId": "grade-9-math-q1-geometry-lesson-5-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 5 Assessment: Construct and Verify Parallel Lines",
+  "description": "Show mastery by choosing construction steps, checking accuracy, and explaining why a constructed line is parallel.",
+  "passingScore": 75,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement describes parallel lines?",
+      "options": [
+        "Lines that cross at one point",
+        "Lines in the same plane that do not intersect",
+        "Lines that always form right angles",
+        "Lines with one shared endpoint"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Parallel lines are coplanar lines that do not intersect.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which reason best justifies a copied-angle parallel construction?",
+      "options": [
+        "Vertical angles are always supplementary",
+        "Equal corresponding angles imply the lines are parallel",
+        "All acute angles create parallel lines",
+        "A longer line is more likely to be parallel"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The copied-angle method works because equal corresponding angles are a test for parallel lines.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A corresponding angle on the original line measures $117^\\circ$. What angle should be copied at point $P$?",
+      "options": [
+        "$27^\\circ$",
+        "$63^\\circ$",
+        "$90^\\circ$",
+        "$117^\\circ$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The corresponding angle must be copied with the same measure, $117^\\circ$.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "A line drawn through $P$ is automatically parallel to $\\ell$ because it passes through the required point.",
+      "correctAnswer": "false",
+      "explanation": "Passing through P is only one condition. The new line must also have the same direction as the given line.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "The shortest distance between two parallel lines is measured along a line that is ______ to both lines.",
+      "correctAnswer": "perpendicular",
+      "explanation": "Distance between parallel lines is measured perpendicularly.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Which sequence is best for the protractor method?",
+      "options": [
+        "Draw a random line through P, then label it parallel",
+        "Measure the angle at the given line, copy the corresponding angle at P, then draw through P",
+        "Measure the length of the given line, then draw a line with the same length",
+        "Draw two perpendicular lines and erase one"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The protractor method relies on copying the same corresponding angle at P.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "If two perpendicular distances between two drawn lines are equal, that supports the conclusion that the lines are parallel.",
+      "correctAnswer": "true",
+      "explanation": "Parallel lines remain the same perpendicular distance apart.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A student uses a set square and ruler but rotates the set square before drawing through $P$. Explain the error.",
+      "correctAnswer": "Rotating the set square changes the direction of the edge, so the new line may not be parallel. The set square should slide without rotating.",
+      "explanation": "The set-square method works only when the tool keeps the same orientation while sliding.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Write a complete conclusion if line $m$ was constructed through $P$ parallel to line $\\ell$.",
+      "correctAnswer": "Line m passes through P and m is parallel to ell, written $m \\parallel \\ell$.",
+      "explanation": "A complete conclusion names the point condition and the parallel relationship.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "You copied a $74^\\circ$ corresponding angle at point $P$ and drew line $m$. Explain why $m \\parallel \\ell$.",
+      "correctAnswer": "The corresponding angles are both 74 degrees, so they are congruent. Equal corresponding angles imply the two lines are parallel, so $m \\parallel \\ell$.",
+      "explanation": "The reasoning must connect the equal angle measures to the parallel-line relationship.",
+      "points": 10
+    }
+  ]
+}

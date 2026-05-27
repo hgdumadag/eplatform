@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" role="img" aria-labelledby="title desc">
+  <title id="title">Statement and reason chain in a proof</title>
+  <desc id="desc">A diagram shows that every statement in a proof must be supported by a valid reason such as given, definition, postulate, or theorem.</desc>
+  <rect width="760" height="430" fill="#f8fafc"/>
+  <text x="34" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">Proof line = statement + reason</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="70" y="88" width="260" height="72" rx="8" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+    <text x="94" y="118" font-size="17" font-weight="700" fill="#0f172a">Statement</text>
+    <text x="94" y="143" font-size="15" fill="#334155">What you claim is true</text>
+    <rect x="430" y="88" width="260" height="72" rx="8" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+    <text x="454" y="118" font-size="17" font-weight="700" fill="#0f172a">Reason</text>
+    <text x="454" y="143" font-size="15" fill="#334155">Why the claim is allowed</text>
+    <path d="M332 124 H428" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="70" y="215" width="620" height="54" rx="7" fill="#ecfdf5" stroke="#16a34a"/>
+    <text x="94" y="249" font-size="16" fill="#14532d">Valid reasons: Given, Definition, Postulate, Theorem, Property</text>
+    <rect x="70" y="294" width="620" height="54" rx="7" fill="#fef2f2" stroke="#dc2626"/>
+    <text x="94" y="328" font-size="16" fill="#7f1d1d">Invalid reasons: looks equal, seems parallel, I measured it</text>
+    <text x="76" y="397" font-size="16" fill="#475569">Ask: What exact fact supports this statement?</text>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

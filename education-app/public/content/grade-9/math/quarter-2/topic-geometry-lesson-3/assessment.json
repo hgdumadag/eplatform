@@ -1,0 +1,116 @@
+{
+  "examId": "grade-9-math-q2-geometry-lesson-3-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 3 Assessment: Parallelogram Property Problems",
+  "description": "Show that you can choose and apply parallelogram properties in side, angle, diagonal, and area problems.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement is always true for parallelogram $ABCD$?",
+      "options": [
+        "$AB = BC$",
+        "$AB = CD$",
+        "$AC = BD$",
+        "All four angles are right angles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Opposite sides of a parallelogram are congruent, so $AB = CD$.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "In parallelogram $MNPQ$, $m\\angle M = 47^\\circ$. What is $m\\angle P$?",
+      "options": [
+        "$47^\\circ$",
+        "$86^\\circ$",
+        "$133^\\circ$",
+        "$180^\\circ$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$\\angle M$ and $\\angle P$ are opposite angles, and opposite angles in a parallelogram are congruent.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "In parallelogram $RSTU$, $m\\angle R = 124^\\circ$. What is $m\\angle S$?",
+      "options": [
+        "$56^\\circ$",
+        "$62^\\circ$",
+        "$124^\\circ$",
+        "$248^\\circ$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Consecutive angles in a parallelogram are supplementary, so $180 - 124 = 56$.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "Diagonals of parallelogram $ABCD$ intersect at $E$. If $BE = 2x + 3$ and $ED = 17$, then $x = $ ______.",
+      "correctAnswer": "7",
+      "explanation": "The diagonals bisect each other, so $BE = ED$. Then $2x + 3 = 17$, so $x = 7$.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "A parallelogram has area $135$ square units and base $15$ units. Its height is ______ units.",
+      "correctAnswer": "9",
+      "explanation": "Use $A = bh$. Since $135 = 15h$, the height is $9$ units.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "In every parallelogram, consecutive angles are congruent.",
+      "correctAnswer": "false",
+      "explanation": "Consecutive angles are supplementary. Opposite angles are congruent.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "In parallelogram $DEFG$, $DE = 4x - 1$ and $FG = 31$. What is $x$?",
+      "options": [
+        "7",
+        "8",
+        "15",
+        "32"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Opposite sides are congruent, so $4x - 1 = 31$. Then $4x = 32$ and $x = 8$.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "In parallelogram $ABCD$, $m\\angle A = 3x + 5$ and $m\\angle B = 2x + 25$. Find $x$.",
+      "correctAnswer": "$x = 30$ because consecutive angles are supplementary: $(3x + 5) + (2x + 25) = 180$.",
+      "explanation": "$A$ and $B$ are consecutive angles, so their sum is $180^\\circ$. This gives $5x + 30 = 180$, so $x = 30$.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Explain why a slanted side length of $10$ cm cannot automatically be used as the height of a parallelogram.",
+      "correctAnswer": "Height is the perpendicular distance from the base to the opposite side. A slanted side can be used as the height only if it is perpendicular to the base.",
+      "explanation": "The area formula $A = bh$ requires perpendicular height, not just any side length.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Diagonals of parallelogram $JKLM$ intersect at $N$. If $JN = 12$ and $LN = 15$, what can you conclude about $NK$ and $NM$?",
+      "correctAnswer": "$NK = 12$ and $NM = 15$ because diagonals of a parallelogram bisect each other.",
+      "explanation": "$JN$ and $NK$ are halves of one diagonal, while $LN$ and $NM$ are halves of the other diagonal.",
+      "points": 10
+    }
+  ]
+}

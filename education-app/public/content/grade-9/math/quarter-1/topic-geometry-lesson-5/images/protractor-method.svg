@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Protractor method for constructing a parallel line</title>
+  <desc id="desc">A transversal and equal 64 degree corresponding angles are used to draw a parallel line through point P.</desc>
+  <rect width="900" height="420" fill="#f8fafc"/>
+  <g font-family="Arial, sans-serif" fill="#0f172a">
+    <text x="450" y="42" text-anchor="middle" font-size="25" font-weight="700">Protractor method</text>
+    <line x1="90" y1="310" x2="810" y2="310" stroke="#2563eb" stroke-width="5"/>
+    <text x="825" y="317" font-size="20" font-weight="700">l</text>
+    <line x1="210" y1="360" x2="560" y2="85" stroke="#475569" stroke-width="4"/>
+    <circle cx="488" cy="142" r="7" fill="#dc2626"/>
+    <text x="503" y="147" font-size="20" font-weight="700">P</text>
+    <line x1="95" y1="142" x2="815" y2="142" stroke="#16a34a" stroke-width="5"/>
+    <text x="825" y="149" font-size="20" font-weight="700">m</text>
+    <path d="M276 310 A58 58 0 0 0 321 274" fill="none" stroke="#dc2626" stroke-width="4"/>
+    <path d="M546 142 A58 58 0 0 0 533 107" fill="none" stroke="#dc2626" stroke-width="4"/>
+    <text x="334" y="282" font-size="18" fill="#dc2626">64 degrees</text>
+    <text x="560" y="116" font-size="18" fill="#dc2626">64 degrees</text>
+    <path d="M195 310 A85 85 0 0 1 365 310" fill="#e0f2fe" stroke="#0284c7" stroke-width="3" opacity="0.75"/>
+    <line x1="195" y1="310" x2="365" y2="310" stroke="#0284c7" stroke-width="3"/>
+    <text x="280" y="330" text-anchor="middle" font-size="15">measure</text>
+    <path d="M408 142 A80 80 0 0 1 568 142" fill="#dcfce7" stroke="#16a34a" stroke-width="3" opacity="0.55"/>
+    <line x1="408" y1="142" x2="568" y2="142" stroke="#16a34a" stroke-width="3"/>
+    <text x="488" y="164" text-anchor="middle" font-size="15">copy</text>
+    <text x="450" y="378" text-anchor="middle" font-size="18">Measure at the given line, then copy the same angle at P.</text>
+  </g>
+</svg>
