@@ -1,0 +1,116 @@
+{
+  "examId": "grade-9-math-q3-geometry-lesson-7-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 7 Assessment: Missing Sides in 45-45-90 Triangles",
+  "description": "Demonstrate mastery of deriving and applying 45-45-90 triangle side relationships to find missing sides.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A square has side length 5 cm. What is the length of its diagonal?",
+      "options": [
+        "5 cm",
+        "10 cm",
+        "5sqrt(2) cm",
+        "25sqrt(2) cm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A square diagonal forms the hypotenuse of a 45-45-90 triangle with legs 5 and 5, so the diagonal is 5sqrt(2) cm.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A 45-45-90 triangle has a hypotenuse of 20 units. What is the exact length of each leg?",
+      "options": [
+        "10 units",
+        "10sqrt(2) units",
+        "20sqrt(2) units",
+        "40 units"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each leg is 20/sqrt(2). Rationalizing gives 20sqrt(2)/2 = 10sqrt(2).",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "An isosceles right triangle has one leg of 13 m. What are the three side lengths?",
+      "options": [
+        "13 m, 13 m, 13sqrt(2) m",
+        "13 m, 13sqrt(2) m, 26 m",
+        "13 m, 13 m, 26 m",
+        "13 m, 26 m, 13sqrt(2) m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An isosceles right triangle is a 45-45-90 triangle. The legs are both 13, and the hypotenuse is 13sqrt(2).",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A 45-45-90 triangle has a hypotenuse of 7sqrt(2) inches. What is its perimeter?",
+      "options": [
+        "14 + 7sqrt(2) inches",
+        "21sqrt(2) inches",
+        "7 + 14sqrt(2) inches",
+        "28 inches"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each leg is 7 because 7sqrt(2)/sqrt(2) = 7. The perimeter is 7 + 7 + 7sqrt(2) = 14 + 7sqrt(2).",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "A right triangle with one acute angle of 45 degrees must be a 45-45-90 triangle.",
+      "correctAnswer": "true",
+      "explanation": "The angles in a triangle sum to 180 degrees. After 90 degrees and 45 degrees, the remaining angle is 45 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "If a leg of a 45-45-90 triangle is 5sqrt(2), then the hypotenuse is 10.",
+      "correctAnswer": "true",
+      "explanation": "Multiply the leg by sqrt(2): 5sqrt(2) x sqrt(2) = 5 x 2 = 10.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A 45-45-90 triangle has a leg of 12. Its hypotenuse is ___.",
+      "correctAnswer": "12sqrt(2) or 12 sqrt(2)",
+      "explanation": "Multiply the leg by sqrt(2). The hypotenuse is 12sqrt(2).",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "A 45-45-90 triangle has a hypotenuse of 16sqrt(2). Each leg is ___.",
+      "correctAnswer": "16",
+      "explanation": "Divide the hypotenuse by sqrt(2): 16sqrt(2)/sqrt(2) = 16.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A classmate says a 45-45-90 triangle with hypotenuse 18 has legs of 18sqrt(2). Explain the mistake and give the correct leg length.",
+      "correctAnswer": "The classmate multiplied when they should have divided. Since 18 is the hypotenuse, each leg is 18/sqrt(2) = 9sqrt(2).",
+      "explanation": "The hypotenuse is already the longest side. Multiplying by sqrt(2) would make the leg longer than the hypotenuse, so the correct operation is division.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Derive the 45-45-90 side relationship using a square with side length x.",
+      "correctAnswer": "A diagonal of the square makes a right triangle with equal legs x and x. By the Pythagorean Theorem, x^2 + x^2 = c^2, so 2x^2 = c^2 and c = xsqrt(2). The ratio is x:x:xsqrt(2).",
+      "explanation": "The derivation comes from the square diagonal: equal square sides become the equal legs, and the diagonal becomes the hypotenuse.",
+      "points": 10
+    }
+  ]
+}

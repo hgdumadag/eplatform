@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Side ratio of a 45-45-90 triangle</title>
+  <desc id="desc">A right isosceles triangle shows equal legs labeled x and a hypotenuse labeled x sqrt(2), summarized as x to x to x sqrt(2).</desc>
+  <polygon points="150,285 150,85 350,285" fill="#f7fbf2" stroke="#2f6b3c" stroke-width="4"/>
+  <line x1="150" y1="285" x2="350" y2="285" stroke="#2f6b3c" stroke-width="6"/>
+  <line x1="150" y1="285" x2="150" y2="85" stroke="#2f6b3c" stroke-width="6"/>
+  <line x1="150" y1="85" x2="350" y2="285" stroke="#b03030" stroke-width="6"/>
+  <path d="M150 255 L180 255 L180 285" fill="none" stroke="#234" stroke-width="3"/>
+  <text x="250" y="318" font-family="Arial, sans-serif" font-size="26" text-anchor="middle">x</text>
+  <text x="118" y="190" font-family="Arial, sans-serif" font-size="26" text-anchor="middle">x</text>
+  <text x="270" y="170" font-family="Arial, sans-serif" font-size="24" fill="#b03030" transform="rotate(45 270 170)">x sqrt(2)</text>
+  <text x="405" y="135" font-family="Arial, sans-serif" font-size="30" font-weight="700">Ratio</text>
+  <text x="405" y="185" font-family="Arial, sans-serif" font-size="30">x : x : x sqrt(2)</text>
+  <text x="405" y="235" font-family="Arial, sans-serif" font-size="22">leg : leg : hypotenuse</text>
+</svg>

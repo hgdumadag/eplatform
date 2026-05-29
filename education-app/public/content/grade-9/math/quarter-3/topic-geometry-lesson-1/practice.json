@@ -1,0 +1,100 @@
+{
+  "examId": "grade-9-math-q3-geometry-lesson-1-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 1 Practice: Similar Figures",
+  "description": "Practice identifying similar figures, matching corresponding parts, checking proportional sides, and writing similarity statements.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which description best defines similar figures?",
+      "options": [
+        "Figures with the same shape, but not necessarily the same size",
+        "Figures with the same area only",
+        "Figures with the same perimeter only",
+        "Figures with no equal angles"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Similar figures have the same shape. Their corresponding angles are equal and their corresponding sides are proportional.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "true-false",
+      "question": "Congruent figures are always similar.",
+      "correctAnswer": "true",
+      "explanation": "Congruent figures have the same shape and size, so their corresponding side ratios are all 1.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "If $\\triangle ABC \\sim \\triangle DEF$, which angle corresponds to $\\angle B$?",
+      "options": [
+        "$\\angle D$",
+        "$\\angle E$",
+        "$\\angle F$",
+        "$\\angle A$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The vertex order matches $A$ with $D$, $B$ with $E$, and $C$ with $F$.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Side lengths $3, 4, 5$ correspond to side lengths $6, 8, 10$. What is the scale factor from the first figure to the second?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each corresponding side in the second figure is twice the matching side in the first figure.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A rectangle is $4$ cm by $6$ cm. A second rectangle is $8$ cm by $12$ cm. Are the rectangles similar?",
+      "options": [
+        "Yes, because both dimensions were multiplied by 2",
+        "Yes, because all rectangles are similar",
+        "No, because the areas are different",
+        "No, because the rectangles are different sizes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The width ratio is $8/4=2$ and the height ratio is $12/6=2$, so the rectangles are similar.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "If $P$ corresponds to $X$, $Q$ corresponds to $Y$, and $R$ corresponds to $Z$, complete the statement: $\\triangle PQR \\sim \\triangle$ ______.",
+      "correctAnswer": "XYZ",
+      "explanation": "Matching vertices must appear in the same order, so $PQR$ matches $XYZ$.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "Explain why a $3$ by $5$ rectangle is not similar to a $6$ by $8$ rectangle.",
+      "correctAnswer": "The side ratios are not equal. The width ratio is 6/3 = 2, but the height ratio is 8/5 = 1.6, so the figure was distorted.",
+      "explanation": "Similar rectangles must have the same scale factor for width and height.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "In $\\triangle ABC \\sim \\triangle RST$, name the side that corresponds to $\\overline{BC}$ and explain how you know.",
+      "correctAnswer": "$\\overline{ST}$ corresponds to $\\overline{BC}$ because the order matches $A$ with $R$, $B$ with $S$, and $C$ with $T$.",
+      "explanation": "Use the similarity statement order to match vertices first, then match the sides between those vertices.",
+      "points": 14
+    }
+  ]
+}

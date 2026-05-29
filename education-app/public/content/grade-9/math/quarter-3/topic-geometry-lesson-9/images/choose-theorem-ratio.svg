@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">Choosing the theorem or ratio</title>
+  <desc id="desc">A decision chart shows how to choose similarity proportions, 45-45-90 ratios, or 30-60-90 ratios from diagram clues.</desc>
+  <rect width="760" height="360" fill="#f8fafc"/>
+  <text x="32" y="42" font-family="Arial" font-size="24" font-weight="700" fill="#0f172a">Which Tool Fits the Clue?</text>
+  <g font-family="Arial" font-size="17" fill="#0f172a">
+    <rect x="285" y="75" width="190" height="58" rx="8" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
+    <text x="320" y="110" font-weight="700">Read the diagram</text>
+    <rect x="45" y="205" width="190" height="75" rx="8" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+    <text x="68" y="232" font-weight="700">Equal angles?</text>
+    <text x="68" y="258">Use similarity and</text>
+    <text x="68" y="278">a proportion.</text>
+    <rect x="285" y="205" width="190" height="75" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="308" y="232" font-weight="700">45,45,90?</text>
+    <text x="308" y="258">Use 1:1:sqrt(2).</text>
+    <text x="308" y="278">Legs are equal.</text>
+    <rect x="525" y="205" width="190" height="75" rx="8" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+    <text x="548" y="232" font-weight="700">30,60,90?</text>
+    <text x="548" y="258">Use 1:sqrt(3):2.</text>
+    <text x="548" y="278">Name the short leg.</text>
+  </g>
+  <g stroke="#475569" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M335 134 L155 198"/>
+    <path d="M380 134 L380 198"/>
+    <path d="M425 134 L605 198"/>
+  </g>
+  <text x="182" y="326" font-family="Arial" font-size="19" fill="#0f172a">Choose the relationship before calculating.</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#475569"/>
+    </marker>
+  </defs>
+</svg>

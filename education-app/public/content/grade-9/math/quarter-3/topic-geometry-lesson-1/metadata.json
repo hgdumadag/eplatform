@@ -1,0 +1,49 @@
+{
+  "id": "grade-9-math-q3-geometry-lesson-1",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Geometry - Lesson 1: Similar Figures",
+  "description": "Identify similar figures by checking shape, corresponding angle equality, and proportional side lengths, then write correct similarity statements.",
+  "learningObjectives": [
+    "Recognize that similar figures have the same shape but may have different sizes",
+    "Match corresponding vertices, sides, and angles in two figures",
+    "Use equal corresponding angles as evidence for similarity",
+    "Use proportional corresponding side lengths as evidence for similarity",
+    "Reject non-examples where a figure has been distorted instead of scaled",
+    "Write similarity statements with vertices in the correct order"
+  ],
+  "prerequisites": [
+    "Name polygons and vertices in order",
+    "Identify corresponding sides and angles from a diagram",
+    "Compare ratios and simplify fractions",
+    "Understand that congruent figures have the same shape and the same size",
+    "Use geometric notation such as $\\triangle ABC$ and $\\angle A$"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "similar figures",
+    "similarity statements",
+    "corresponding angles",
+    "proportional sides",
+    "scale factor"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/same-shape-different-size.svg",
+      "images/equal-angles.svg",
+      "images/proportional-side-pairs.svg",
+      "images/corresponding-vertices.svg",
+      "images/non-example-distortion.svg",
+      "images/similarity-statement-mapping.svg"
+    ]
+  }
+}

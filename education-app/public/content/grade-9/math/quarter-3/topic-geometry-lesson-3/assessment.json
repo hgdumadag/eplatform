@@ -1,0 +1,116 @@
+{
+  "examId": "grade-9-math-q3-geometry-lesson-3-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 3 Assessment: Justifying AA Similarity",
+  "description": "Show that you can justify triangle similarity from angle information and write correct correspondence statements.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which conclusion follows from $\\angle A \\cong \\angle X$ and $\\angle C \\cong \\angle Z$?",
+      "options": [
+        "$\\triangle ABC \\sim \\triangle XYZ$",
+        "$\\triangle ABC \\sim \\triangle XZY$",
+        "$\\triangle ABC \\cong \\triangle XYZ$",
+        "No similarity conclusion is possible"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Two angle pairs prove similarity by AA. Since $A \\leftrightarrow X$ and $C \\leftrightarrow Z$, the remaining vertices match as $B \\leftrightarrow Y$.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "In $\\triangle ABC$, $D$ is on $\\overline{AB}$, $E$ is on $\\overline{AC}$, and $\\overline{DE} \\parallel \\overline{BC}$. Which angle pair helps prove $\\triangle ADE \\sim \\triangle ABC$?",
+      "options": [
+        "$\\angle ADE \\cong \\angle ABC$",
+        "$\\angle ADE \\cong \\angle ACB$",
+        "$\\angle AED \\cong \\angle ABC$",
+        "$\\angle DAE \\cong \\angle BCA$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Because $\\overline{DE} \\parallel \\overline{BC}$, $\\angle ADE$ and $\\angle ABC$ are corresponding angles.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "If two triangles are similar by AA, they must also be congruent.",
+      "correctAnswer": "false",
+      "explanation": "AA proves the triangles have the same shape. It does not prove they have the same size, so congruence is not guaranteed.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "If $\\triangle JKL \\sim \\triangle PQR$, then vertex $L$ corresponds to vertex ______.",
+      "correctAnswer": "R",
+      "explanation": "The third vertex in $\\triangle JKL$ corresponds to the third vertex in $\\triangle PQR$, so $L \\leftrightarrow R$.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A proof shows $\\angle 1 \\cong \\angle 2$ because they are vertical angles and $\\angle 3 \\cong \\angle 4$ because they are alternate interior angles formed by parallel lines. What conclusion is justified?",
+      "options": [
+        "The triangles are similar by AA",
+        "The triangles are congruent by AA",
+        "The triangles are not similar",
+        "Only one angle pair has been justified"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The proof gives two pairs of congruent angles, so AA similarity is justified.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Complete the statement in the correct order: If $\\angle R \\cong \\angle A$ and $\\angle T \\cong \\angle C$, then $\\triangle RST \\sim \\triangle$ ______.",
+      "correctAnswer": "ABC",
+      "explanation": "$R$ matches $A$ and $T$ matches $C$, so the remaining vertices match as $S \\leftrightarrow B$. The order is $ABC$.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "In a diagram, $\\overline{MN} \\parallel \\overline{QR}$, $M$ lies on $\\overline{PQ}$, and $N$ lies on $\\overline{PR}$. Explain why $\\triangle PMN \\sim \\triangle PQR$.",
+      "correctAnswer": "Since $MN \\parallel QR$, corresponding angles give $\\angle PMN \\cong \\angle PQR$ and $\\angle PNM \\cong \\angle PRQ$. With two angle pairs congruent, $\\triangle PMN \\sim \\triangle PQR$ by AA.",
+      "explanation": "The parallel segment creates two corresponding angle matches, which is enough for AA similarity.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A student writes $\\triangle ABC \\sim \\triangle FED$ after showing $\\angle A \\cong \\angle D$ and $\\angle B \\cong \\angle E$. Correct the similarity statement and explain the error.",
+      "correctAnswer": "The correct statement is $\\triangle ABC \\sim \\triangle DEF$. The student reversed the order of the second triangle, so the corresponding vertices did not match the angle evidence.",
+      "explanation": "The angle evidence requires $A \\leftrightarrow D$ and $B \\leftrightarrow E$, leaving $C \\leftrightarrow F$.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "Which situation is a non-example for AA similarity?",
+      "options": [
+        "Two triangles have two marked pairs of congruent corresponding angles",
+        "Two triangles share one angle and have another pair of vertical angles",
+        "Two triangles have one marked pair of congruent angles and no other angle information",
+        "A smaller triangle is formed inside a larger triangle by a segment parallel to the base"
+      ],
+      "correctAnswer": 2,
+      "explanation": "One marked angle pair alone is not enough for AA similarity. The other choices provide or imply two angle pairs.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Write a two-step angle justification for proving $\\triangle ABE \\sim \\triangle DCE$ when segments $\\overline{AB}$ and $\\overline{DC}$ are parallel and the triangles intersect at $E$.",
+      "correctAnswer": "$\\angle ABE \\cong \\angle DCE$ because $AB \\parallel DC$ creates alternate interior angles, and $\\angle AEB \\cong \\angle DEC$ because they are vertical angles. Therefore the triangles are similar by AA.",
+      "explanation": "A complete AA justification names two angle pairs and gives a reason for each before concluding similarity.",
+      "points": 10
+    }
+  ]
+}

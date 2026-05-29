@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+  <title id="title">Embedded nested similar triangles</title>
+  <desc id="desc">A large triangle ABC containing smaller triangle ADE with DE parallel to BC, showing small sides AD and AE corresponding to whole sides AB and AC.</desc>
+  <rect width="900" height="500" fill="#f7fbff"/>
+  <text x="450" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#1f2937">Nested triangles: compare small side to matching whole side</text>
+  <polygon points="160,410 760,410 430,80" fill="#e0f2fe" stroke="#0369a1" stroke-width="5"/>
+  <line x1="300" y1="270" x2="560" y2="270" stroke="#f97316" stroke-width="5"/>
+  <circle cx="430" cy="80" r="5" fill="#111827"/>
+  <circle cx="160" cy="410" r="5" fill="#111827"/>
+  <circle cx="760" cy="410" r="5" fill="#111827"/>
+  <circle cx="300" cy="270" r="5" fill="#111827"/>
+  <circle cx="560" cy="270" r="5" fill="#111827"/>
+  <text x="430" y="66" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700">A</text>
+  <text x="145" y="438" font-family="Arial, sans-serif" font-size="22" font-weight="700">B</text>
+  <text x="765" y="438" font-family="Arial, sans-serif" font-size="22" font-weight="700">C</text>
+  <text x="278" y="268" font-family="Arial, sans-serif" font-size="22" font-weight="700">D</text>
+  <text x="569" y="268" font-family="Arial, sans-serif" font-size="22" font-weight="700">E</text>
+  <text x="320" y="180" font-family="Arial, sans-serif" font-size="21" fill="#0f766e">AD = 6</text>
+  <text x="200" y="345" font-family="Arial, sans-serif" font-size="21" fill="#0369a1">AB = 10</text>
+  <text x="505" y="180" font-family="Arial, sans-serif" font-size="21" fill="#0f766e">AE = 9</text>
+  <text x="630" y="345" font-family="Arial, sans-serif" font-size="21" fill="#0369a1">AC = x</text>
+  <text x="430" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#c2410c">DE parallel BC</text>
+  <rect x="250" y="440" width="400" height="38" rx="6" fill="#ffffff" stroke="#94a3b8"/>
+  <text x="450" y="466" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#111827">AD/AB = AE/AC, so 6/10 = 9/x</text>
+</svg>

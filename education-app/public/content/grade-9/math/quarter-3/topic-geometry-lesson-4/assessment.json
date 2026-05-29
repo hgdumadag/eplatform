@@ -1,0 +1,128 @@
+{
+  "examId": "grade-9-math-q3-geometry-lesson-4-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 4 Assessment: Choose the Similarity Theorem",
+  "description": "Show mastery by choosing the correct theorem from proportional side and included angle evidence.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Triangles ABC and DEF have AB/DE = BC/EF = AC/DF. Which theorem proves the triangles are similar?",
+      "options": [
+        "SAS Similarity",
+        "SSS Similarity",
+        "ASA Congruence",
+        "No theorem applies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "All three pairs of corresponding sides are proportional, so the correct theorem is SSS Similarity.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Two triangles have side pairs 9 and 12, 15 and 20, and the included angles between those sides are both 38 degrees. Which theorem proves similarity?",
+      "options": [
+        "SSS Similarity",
+        "SAS Similarity",
+        "HL Congruence",
+        "Not enough evidence"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ratios 9/12 and 15/20 both simplify to 3/4, and the included angles are congruent. That is SAS Similarity.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which evidence is enough to prove triangle similarity by SSS?",
+      "options": [
+        "Two pairs of sides are proportional and one angle is congruent.",
+        "Three pairs of corresponding sides are proportional.",
+        "Two angles are congruent.",
+        "Three pairs of sides are congruent."
+      ],
+      "correctAnswer": 1,
+      "explanation": "SSS Similarity needs three proportional corresponding side pairs.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Which evidence is enough to prove triangle similarity by SAS?",
+      "options": [
+        "Two proportional side pairs and the included angle congruent",
+        "Two proportional side pairs and any non-included angle congruent",
+        "Only one proportional side pair and one angle congruent",
+        "Three angle measures in one triangle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "SAS Similarity requires two proportional side pairs and the included angle between them.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "If two triangles have side ratios 4/6, 7/10, and 8/12, then SSS Similarity proves the triangles are similar.",
+      "correctAnswer": "false",
+      "explanation": "The ratios do not all match: 4/6 and 8/12 simplify to 2/3, but 7/10 is different.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "In SAS Similarity, the angle between the two proportional sides is called the ______ angle.",
+      "correctAnswer": "included",
+      "explanation": "The included angle is formed by the two sides being compared.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Triangles PQR and XYZ have PQ/XY = 6/9 and PR/XZ = 10/15. Angle Q is congruent to angle Y, but angle Q is not between PQ and PR. Which conclusion is best?",
+      "options": [
+        "Similar by SAS Similarity",
+        "Similar by SSS Similarity",
+        "Not enough evidence for SSS or SAS Similarity",
+        "Congruent by SAS"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The given angle is not included between the two proportional side pairs, so SAS cannot be used. SSS cannot be used because the third side ratio is not given.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Triangles have corresponding side lengths 7, 11, 13 and 21, 33, 39. What is the correct theorem choice?",
+      "options": [
+        "SSS Similarity",
+        "SAS Similarity",
+        "Not enough evidence because no angles are given",
+        "Not similar because the triangles are different sizes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The three ratios 7/21, 11/33, and 13/39 all equal 1/3. Three proportional side pairs prove SSS Similarity.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "question": "If similar triangles have corresponding sides 8 and 20, then the ratio from the smaller triangle to the larger triangle is ______ in simplest form.",
+      "correctAnswer": "2/5",
+      "explanation": "The ratio from smaller to larger is 8/20, which simplifies to 2/5.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A student chooses SAS Similarity because two side ratios match and one angle pair is congruent. What extra detail must the student verify?",
+      "correctAnswer": "The student must verify that the congruent angle is the included angle between the two proportional sides in both triangles.",
+      "explanation": "SAS Similarity only works when the congruent angle is between the two proportional sides.",
+      "points": 10
+    }
+  ]
+}

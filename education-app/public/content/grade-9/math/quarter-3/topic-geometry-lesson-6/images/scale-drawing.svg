@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Scale drawing for real measurements</title>
+  <desc id="desc">A small floor plan measurement is converted to a real hallway length using a scale of one centimeter to three meters.</desc>
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <rect x="82" y="82" width="260" height="150" fill="#ecfeff" stroke="#0891b2" stroke-width="4"/>
+  <line x1="110" y1="130" x2="315" y2="130" stroke="#0e7490" stroke-width="10"/>
+  <text x="142" y="118" font-family="Arial, sans-serif" font-size="17" fill="#155e75">drawing hallway</text>
+  <line x1="110" y1="252" x2="315" y2="252" stroke="#334155" stroke-width="3"/>
+  <path d="M110 244 L110 260 M315 244 L315 260" stroke="#334155" stroke-width="3"/>
+  <text x="176" y="278" font-family="Arial, sans-serif" font-size="18" fill="#334155">4.5 cm</text>
+  <rect x="420" y="82" width="220" height="150" fill="#fef3c7" stroke="#d97706" stroke-width="4"/>
+  <line x1="448" y1="130" x2="612" y2="130" stroke="#b45309" stroke-width="16"/>
+  <text x="470" y="118" font-family="Arial, sans-serif" font-size="17" fill="#92400e">real hallway</text>
+  <text x="476" y="270" font-family="Arial, sans-serif" font-size="20" fill="#334155">4.5 x 2 = 9 m</text>
+  <rect x="245" y="305" width="230" height="36" rx="6" fill="#ffffff" stroke="#94a3b8"/>
+  <text x="274" y="329" font-family="Arial, sans-serif" font-size="18" fill="#334155">Scale: 1 cm represents 2 m</text>
+</svg>

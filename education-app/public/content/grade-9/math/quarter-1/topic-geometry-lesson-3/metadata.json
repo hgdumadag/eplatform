@@ -3,7 +3,7 @@
   "grade": 9,
   "subject": "math",
   "quarter": 1,
-  "topicName": "Geometry - Lesson 3",
+  "topicName": "Geometry - Lesson 3: Constructing Segments and Angles",
   "description": "Construct segments and angles accurately using a straightedge, ruler, and protractor, then check the precision of each drawing.",
   "learningObjectives": [
     "Construct a line segment with a given length using a ruler",
@@ -21,7 +21,17 @@
   ],
   "estimatedDuration": 50,
   "difficulty": "beginner",
-  "tags": ["geometry", "measurement and geometry", "construction", "segments", "angles", "ruler", "protractor", "straightedge", "precision"],
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "construction",
+    "segments",
+    "angles",
+    "ruler",
+    "protractor",
+    "straightedge",
+    "precision"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {

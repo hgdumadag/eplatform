@@ -1,0 +1,52 @@
+{
+  "id": "grade-9-math-q3-geometry-lesson-9",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Geometry - Lesson 9: Mixed Similarity and Special Triangle Problems",
+  "description": "Solve mixed similarity and special right triangle problems by combining proportions with 45-45-90 and 30-60-90 ratios.",
+  "learningObjectives": [
+    "Recognize when a problem needs both triangle similarity and a special right triangle ratio",
+    "Use 45-45-90 side ratios to find unknown lengths after setting a scale factor",
+    "Use 30-60-90 side ratios to connect short leg, long leg, and hypotenuse",
+    "Write proportion chains that keep corresponding sides in the same order",
+    "Choose the correct theorem or ratio from diagram markings",
+    "Write complete solutions that include setup, calculation, units, and reasoning"
+  ],
+  "prerequisites": [
+    "Solve proportions",
+    "Identify corresponding sides in similar triangles",
+    "Know that 45-45-90 triangles have side ratio 1:1:sqrt(2)",
+    "Know that 30-60-90 triangles have side ratio 1:sqrt(3):2",
+    "Read triangle markings and angle labels from diagrams",
+    "Simplify basic radical expressions"
+  ],
+  "estimatedDuration": 60,
+  "difficulty": "advanced",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "similar triangles",
+    "special right triangles",
+    "45-45-90",
+    "30-60-90",
+    "proportions",
+    "radicals",
+    "complete solutions"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/similarity-45-45-90.svg",
+      "images/similarity-30-60-90.svg",
+      "images/proportion-chain.svg",
+      "images/multistep-labels.svg",
+      "images/choose-theorem-ratio.svg",
+      "images/error-analysis-visual.svg"
+    ]
+  }
+}

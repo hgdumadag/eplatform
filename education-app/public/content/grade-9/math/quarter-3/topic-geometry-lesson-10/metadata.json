@@ -1,0 +1,52 @@
+{
+  "id": "grade-9-math-q3-geometry-lesson-10",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Geometry - Lesson 10: Quarter Scale Model Task",
+  "description": "Create a quarter scale drawing or model by applying scale factor, similar polygons, and special triangle measurements.",
+  "learningObjectives": [
+    "Interpret a quarter scale as a scale factor of 1/4 from actual size to model size",
+    "Create a scale drawing or model with corresponding lengths multiplied by the same scale factor",
+    "Use similar polygons to keep shape, angle measures, and side ratios consistent",
+    "Apply 45-45-90 and 30-60-90 triangle relationships to roof, ramp, or support measurements",
+    "Organize actual and model measurements in a table",
+    "Explain the scale factor and measurement choices used in a final scale model"
+  ],
+  "prerequisites": [
+    "Multiply and divide decimals and fractions",
+    "Recognize corresponding sides and angles in similar polygons",
+    "Use proportions to solve missing lengths",
+    "Know the side relationships in 45-45-90 and 30-60-90 triangles",
+    "Read simple floor plans and labeled geometry diagrams"
+  ],
+  "estimatedDuration": 60,
+  "difficulty": "advanced",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "scale model",
+    "scale drawing",
+    "quarter scale",
+    "scale factor",
+    "similar polygons",
+    "special right triangles",
+    "measurement table",
+    "project task"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/scale-model-overview.svg",
+      "images/floor-plan-grid.svg",
+      "images/similar-polygon-scaling.svg",
+      "images/special-triangle-model-parts.svg",
+      "images/measurement-table-visual.svg",
+      "images/final-model-checklist.svg"
+    ]
+  }
+}

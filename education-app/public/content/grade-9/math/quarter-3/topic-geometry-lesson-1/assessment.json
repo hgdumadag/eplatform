@@ -1,0 +1,122 @@
+{
+  "examId": "grade-9-math-q3-geometry-lesson-1-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 1 Assessment: Similar Figures",
+  "description": "Show mastery by identifying similarity through shape, equal angles, proportional sides, and correct similarity statement order.",
+  "passingScore": 75,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which evidence is enough to show that two polygons are similar?",
+      "options": [
+        "Corresponding angles are equal and corresponding sides are proportional",
+        "Only one pair of sides is equal",
+        "Only the perimeters are equal",
+        "The figures have the same color and orientation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Similarity requires equal corresponding angles and proportional corresponding sides.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "If $\\triangle MNO \\sim \\triangle TUV$, which side corresponds to $\\overline{MO}$?",
+      "options": [
+        "$\\overline{TU}$",
+        "$\\overline{TV}$",
+        "$\\overline{UV}$",
+        "$\\overline{MN}$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The order matches $M$ with $T$ and $O$ with $V$, so $\\overline{MO}$ corresponds to $\\overline{TV}$.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Two triangles have corresponding sides $5, 7, 9$ and $15, 21, 27$. What is the scale factor from the first triangle to the second?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each side in the second triangle is 3 times the matching side in the first triangle.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "If a rectangle's width is doubled but its height is tripled, the new rectangle is similar to the original rectangle.",
+      "correctAnswer": "false",
+      "explanation": "The width and height use different scale factors, so the shape is distorted and the rectangles are not similar.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which pair of rectangles is similar?",
+      "options": [
+        "$2$ by $3$ and $4$ by $6$",
+        "$2$ by $3$ and $4$ by $7$",
+        "$3$ by $5$ and $6$ by $9$",
+        "$4$ by $5$ and $8$ by $12$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For $2$ by $3$ and $4$ by $6$, both dimensions are multiplied by 2.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "If $A$ corresponds to $D$, $B$ corresponds to $E$, and $C$ corresponds to $F$, complete the statement: $\\triangle ABC \\sim \\triangle$ ______.",
+      "correctAnswer": "DEF",
+      "explanation": "The matching vertices must be written in order, so $ABC$ matches $DEF$.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Given $\\triangle ABC \\sim \\triangle XYZ$, which ratio correctly compares corresponding sides in the same direction?",
+      "options": [
+        "$\\frac{AB}{XY}=\\frac{BC}{YZ}=\\frac{AC}{XZ}$",
+        "$\\frac{AB}{YZ}=\\frac{BC}{XY}=\\frac{AC}{XZ}$",
+        "$\\frac{AB}{XZ}=\\frac{BC}{YZ}=\\frac{AC}{XY}$",
+        "$\\frac{AB}{BC}=\\frac{XY}{XZ}=\\frac{AC}{YZ}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The order matches $A$ with $X$, $B$ with $Y$, and $C$ with $Z$, so the corresponding sides are $AB$ with $XY$, $BC$ with $YZ$, and $AC$ with $XZ$.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A student writes $\\triangle ABC \\sim \\triangle DFE$ after matching $A$ with $D$, $B$ with $E$, and $C$ with $F$. Correct the statement and explain the mistake.",
+      "correctAnswer": "The correct statement is $\\triangle ABC \\sim \\triangle DEF$. The student reversed $E$ and $F$, which changes the corresponding vertices.",
+      "explanation": "Similarity statements must keep matching vertices in the same positions.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Two triangles have side pairs $4$ and $10$, $6$ and $15$, and $8$ and $20$. Explain whether the side lengths support similarity.",
+      "correctAnswer": "Yes. The ratios are 10/4 = 2.5, 15/6 = 2.5, and 20/8 = 2.5, so all corresponding sides have the same scale factor.",
+      "explanation": "Equal corresponding side ratios support similarity because every side is scaled by the same multiplier.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Write one sentence explaining how angle equality and proportional sides work together to prove figures are similar.",
+      "correctAnswer": "Equal corresponding angles show the figures have the same shape, and proportional corresponding sides show every length was scaled by the same factor.",
+      "explanation": "Similarity combines shape evidence from angles with size-change evidence from side ratios.",
+      "points": 10
+    }
+  ]
+}

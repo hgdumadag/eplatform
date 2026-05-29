@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Missing side setup</title>
+  <desc id="desc">Two similar triangles use one known pair of corresponding sides to find the scale factor and then solve a missing side.</desc>
+  <rect width="720" height="360" fill="#ffffff"/>
+  <text x="360" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a" text-anchor="middle">Use the Known Pair First</text>
+  <polygon points="95,240 235,240 95,100" fill="#ede9fe" stroke="#7c3aed" stroke-width="4"/>
+  <polygon points="420,285 645,285 420,60" fill="#fef3c7" stroke="#d97706" stroke-width="4"/>
+  <text x="165" y="266" font-family="Arial, sans-serif" font-size="18" fill="#4c1d95" text-anchor="middle">5 cm</text>
+  <text x="72" y="175" font-family="Arial, sans-serif" font-size="18" fill="#4c1d95" text-anchor="middle">7 cm</text>
+  <text x="535" y="314" font-family="Arial, sans-serif" font-size="18" fill="#92400e" text-anchor="middle">20 cm</text>
+  <text x="392" y="176" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#92400e" text-anchor="middle">x</text>
+  <path d="M270 175 H375" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="245" y="80" width="180" height="74" rx="4" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="335" y="110" font-family="Arial, sans-serif" font-size="18" fill="#0f172a" text-anchor="middle">k = 20/5 = 4</text>
+  <text x="335" y="138" font-family="Arial, sans-serif" font-size="18" fill="#0f172a" text-anchor="middle">x = 7 x 4 = 28</text>
+  <text x="360" y="335" font-family="Arial, sans-serif" font-size="19" fill="#0f172a" text-anchor="middle">Known corresponding sides give the multiplier for every other side.</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#475569"/>
+    </marker>
+  </defs>
+</svg>

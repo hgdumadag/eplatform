@@ -3,7 +3,7 @@
   "grade": 9,
   "subject": "math",
   "quarter": 1,
-  "topicName": "Geometry - Lesson 6",
+  "topicName": "Geometry - Lesson 6: Angle Pairs",
   "description": "Identify vertical, adjacent, linear pair, and supplementary angles, then use those relationships to solve missing-angle equations.",
   "learningObjectives": [
     "Identify adjacent angles that share a vertex and a common side",
@@ -20,7 +20,16 @@
   ],
   "estimatedDuration": 50,
   "difficulty": "intermediate",
-  "tags": ["geometry", "measurement and geometry", "angle pairs", "vertical angles", "adjacent angles", "linear pair", "supplementary angles", "missing angles"],
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "angle pairs",
+    "vertical angles",
+    "adjacent angles",
+    "linear pair",
+    "supplementary angles",
+    "missing angles"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {

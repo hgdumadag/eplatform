@@ -1,0 +1,48 @@
+{
+  "id": "grade-9-math-q3-geometry-lesson-2",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Geometry - Lesson 2: Scale Factor",
+  "description": "Find and use scale factors between similar polygons to solve missing-side problems.",
+  "learningObjectives": [
+    "Identify corresponding sides in similar polygons",
+    "Find a scale factor from a pair of corresponding side lengths",
+    "Use a scale factor to solve for missing side lengths",
+    "Distinguish enlargement scale factors from reduction scale factors",
+    "Describe how scale factor affects perimeter and area"
+  ],
+  "prerequisites": [
+    "Match corresponding vertices and sides in polygons",
+    "Simplify ratios and fractions",
+    "Solve one-step equations",
+    "Understand that similar figures have equal angle measures and proportional side lengths"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "scale factor",
+    "similar polygons",
+    "proportions",
+    "missing sides",
+    "perimeter",
+    "area"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/original-image-polygons.svg",
+      "images/enlargement-reduction.svg",
+      "images/side-ratio-table.svg",
+      "images/missing-side-setup.svg",
+      "images/perimeter-effect.svg",
+      "images/area-intuition.svg"
+    ]
+  }
+}

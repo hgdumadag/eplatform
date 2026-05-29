@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Non-example caused by distortion</title>
+  <desc id="desc">A small rectangle is compared with a correctly scaled rectangle and a distorted rectangle. The distorted rectangle has unequal width and height scale factors, so it is not similar.</desc>
+  <rect width="760" height="420" fill="#fbfdff"/>
+  <text x="380" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#111827">Bigger is not enough: avoid distortion</text>
+  <rect x="80" y="145" width="120" height="80" rx="6" fill="#dbeafe" stroke="#1d4ed8" stroke-width="4"/>
+  <rect x="300" y="105" width="240" height="160" rx="6" fill="#dcfce7" stroke="#15803d" stroke-width="4"/>
+  <rect x="585" y="145" width="120" height="160" rx="6" fill="#fee2e2" stroke="#dc2626" stroke-width="4"/>
+  <text x="140" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#1f2937">original</text>
+  <text x="420" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#166534">similar: x2 and x2</text>
+  <text x="645" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#991b1b">not similar</text>
+  <path d="M220 185 H278" stroke="#334155" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M560 185 H580" stroke="#334155" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="646" y="96" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#991b1b">width x1</text>
+  <text x="646" y="119" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#991b1b">height x2</text>
+  <line x1="585" y1="328" x2="705" y2="118" stroke="#dc2626" stroke-width="5"/>
+  <line x1="705" y1="328" x2="585" y2="118" stroke="#dc2626" stroke-width="5"/>
+  <text x="380" y="382" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#111827">Similarity needs one scale factor for every corresponding length.</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#334155"/>
+    </marker>
+  </defs>
+</svg>

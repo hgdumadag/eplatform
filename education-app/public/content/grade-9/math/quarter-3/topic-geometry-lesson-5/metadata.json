@@ -1,0 +1,49 @@
+{
+  "id": "grade-9-math-q3-geometry-lesson-5",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Geometry - Lesson 5: Proportional Parts",
+  "description": "Set up and solve proportions from similar triangles, with careful attention to corresponding side labels.",
+  "learningObjectives": [
+    "Identify corresponding sides in correctly ordered similar triangles",
+    "Write proportional side ratios from a similarity statement",
+    "Use cross-products to solve for a missing side length",
+    "Apply proportions in embedded and nested triangle diagrams",
+    "Use a parallel side splitter to form similar triangles and solve missing measures",
+    "Detect and correct wrong side correspondences before solving"
+  ],
+  "prerequisites": [
+    "Recognize similar triangles from matching angle markings",
+    "Write equivalent ratios and fractions",
+    "Solve one-step and two-step linear equations",
+    "Read side labels and vertex order carefully in geometry diagrams"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "similar triangles",
+    "proportions",
+    "corresponding sides",
+    "cross-products",
+    "nested triangles",
+    "parallel side splitter"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/corresponding-side-labels.svg",
+      "images/ratio-setup-map.svg",
+      "images/cross-products-worked.svg",
+      "images/embedded-nested-triangles.svg",
+      "images/parallel-side-splitter.svg",
+      "images/wrong-correspondence-alert.svg"
+    ]
+  }
+}

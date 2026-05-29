@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="330" viewBox="0 0 720 330" role="img" aria-labelledby="title desc">
+  <title id="title">Corresponding vertex map for similar triangles</title>
+  <desc id="desc">A map connects A to X, B to Y, and C to Z so the similarity statement keeps vertices in matching order.</desc>
+  <rect width="720" height="330" fill="#f8fafc"/>
+  <g fill="none" stroke="#334155" stroke-width="4" stroke-linejoin="round">
+    <path d="M75 255 L210 70 L335 255 Z"/>
+    <path d="M430 255 L545 100 L655 255 Z"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">
+    <text x="55" y="280">A</text><text x="204" y="58">B</text><text x="342" y="280">C</text>
+    <text x="410" y="280">X</text><text x="540" y="88">Y</text><text x="662" y="280">Z</text>
+  </g>
+  <g stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M95 270 C210 310, 300 310, 430 270" stroke="#2563eb"/>
+    <path d="M220 72 C330 20, 430 30, 545 100" stroke="#dc2626"/>
+    <path d="M345 257 C440 300, 555 300, 655 257" stroke="#16a34a"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#334155">
+    <text x="236" y="303">A to X</text>
+    <text x="362" y="48">B to Y</text>
+    <text x="486" y="303">C to Z</text>
+    <text x="242" y="155" font-weight="700">triangle ABC ~ triangle XYZ</text>
+  </g>
+</svg>

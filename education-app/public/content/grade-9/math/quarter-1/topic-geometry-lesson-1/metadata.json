@@ -3,7 +3,7 @@
   "grade": 9,
   "subject": "math",
   "quarter": 1,
-  "topicName": "Geometry - Lesson 1",
+  "topicName": "Geometry - Lesson 1: Undefined and Defined Terms",
   "description": "Model and name foundational geometric objects: points, lines, planes, rays, segments, and angles.",
   "learningObjectives": [
     "Distinguish undefined terms from defined geometric terms",
@@ -20,7 +20,19 @@
   ],
   "estimatedDuration": 45,
   "difficulty": "beginner",
-  "tags": ["geometry", "measurement and geometry", "undefined terms", "defined terms", "points", "lines", "planes", "rays", "segments", "angles", "notation"],
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "undefined terms",
+    "defined terms",
+    "points",
+    "lines",
+    "planes",
+    "rays",
+    "segments",
+    "angles",
+    "notation"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {

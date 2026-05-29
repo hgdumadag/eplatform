@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Worked building height example</title>
+  <desc id="desc">A signpost and building cast shadows. The diagram shows a proportion setup and solution for finding a twelve meter building height.</desc>
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <line x1="45" y1="292" x2="400" y2="292" stroke="#334155" stroke-width="3"/>
+  <line x1="100" y1="292" x2="100" y2="208" stroke="#0f766e" stroke-width="8"/>
+  <line x1="100" y1="208" x2="182" y2="292" stroke="#f59e0b" stroke-width="4"/>
+  <line x1="100" y1="292" x2="182" y2="292" stroke="#64748b" stroke-width="5"/>
+  <rect x="260" y="82" width="68" height="210" fill="#94a3b8" stroke="#475569" stroke-width="3"/>
+  <rect x="276" y="108" width="14" height="18" fill="#e0f2fe"/>
+  <rect x="300" y="108" width="14" height="18" fill="#e0f2fe"/>
+  <rect x="276" y="146" width="14" height="18" fill="#e0f2fe"/>
+  <rect x="300" y="146" width="14" height="18" fill="#e0f2fe"/>
+  <line x1="260" y1="82" x2="380" y2="292" stroke="#f59e0b" stroke-width="4"/>
+  <line x1="260" y1="292" x2="380" y2="292" stroke="#64748b" stroke-width="5"/>
+  <text x="58" y="198" font-family="Arial, sans-serif" font-size="16" fill="#0f766e">1.8 m</text>
+  <text x="110" y="318" font-family="Arial, sans-serif" font-size="16" fill="#334155">2.4 m</text>
+  <text x="335" y="182" font-family="Arial, sans-serif" font-size="18" fill="#334155">x</text>
+  <text x="292" y="318" font-family="Arial, sans-serif" font-size="16" fill="#334155">16 m</text>
+  <rect x="430" y="72" width="245" height="215" rx="8" fill="#ffffff" stroke="#94a3b8"/>
+  <text x="455" y="112" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1e293b">Setup</text>
+  <text x="455" y="150" font-family="Arial, sans-serif" font-size="22" fill="#1e293b">1.8 / 2.4 = x / 16</text>
+  <text x="455" y="196" font-family="Arial, sans-serif" font-size="22" fill="#1e293b">2.4x = 28.8</text>
+  <text x="455" y="242" font-family="Arial, sans-serif" font-size="22" fill="#1e293b">x = 12 m</text>
+</svg>

@@ -1,0 +1,51 @@
+{
+  "id": "grade-9-math-q3-geometry-lesson-6",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Geometry - Lesson 6: Indirect Measurement",
+  "description": "Use indirect measurement with shadows, mirrors, and scale drawings to solve real-world similarity problems.",
+  "learningObjectives": [
+    "Identify similar triangles formed by shadows, mirrors, or scale drawings",
+    "Set up and solve proportions for indirect measurement",
+    "Use mirror sightlines to relate eye height, mirror distance, and object height",
+    "Convert units before comparing corresponding lengths",
+    "Interpret scale drawings to estimate real distances and heights",
+    "Check whether a real-world similarity answer is reasonable"
+  ],
+  "prerequisites": [
+    "Solve one-step and two-step proportions",
+    "Recognize corresponding sides in similar triangles",
+    "Convert common metric and customary units",
+    "Read labeled geometry diagrams"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "indirect measurement",
+    "similarity",
+    "similar triangles",
+    "shadows",
+    "mirrors",
+    "scale drawings",
+    "proportions",
+    "real-world problems"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/shadow-triangles.svg",
+      "images/mirror-sightline.svg",
+      "images/scale-drawing.svg",
+      "images/proportion-setup.svg",
+      "images/unit-consistency.svg",
+      "images/real-world-worked-example.svg"
+    ]
+  }
+}

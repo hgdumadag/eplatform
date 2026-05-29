@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" role="img" aria-labelledby="title desc">
+  <title id="title">Final labeled model checklist</title>
+  <desc id="desc">A final model sketch is surrounded by checklist items: scale factor, labels, measurement table, equal ratios, special triangle, and units.</desc>
+  <rect width="760" height="430" fill="#ffffff"/>
+  <text x="36" y="44" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Final labeled model checklist</text>
+  <g transform="translate(82 92)">
+    <rect x="0" y="80" width="270" height="180" fill="#fef3c7" stroke="#b45309" stroke-width="4"/>
+    <polygon points="0,80 135,0 270,80" fill="#fde68a" stroke="#b45309" stroke-width="4"/>
+    <rect x="110" y="170" width="52" height="90" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="3"/>
+    <line x1="0" y1="282" x2="270" y2="282" stroke="#334155" stroke-width="3"/>
+    <text x="100" y="310" font-family="Arial, sans-serif" font-size="18" fill="#334155">6 cm</text>
+    <line x1="294" y1="80" x2="294" y2="260" stroke="#334155" stroke-width="3"/>
+    <text x="306" y="176" font-family="Arial, sans-serif" font-size="18" fill="#334155">4 cm</text>
+    <text x="92" y="58" font-family="Arial, sans-serif" font-size="17" fill="#92400e">45-45-90 roof</text>
+  </g>
+  <g transform="translate(455 92)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="250" height="286" rx="4" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="22" y="36" font-size="20" font-weight="700" fill="#0f172a">Check before submitting</text>
+    <text x="24" y="78" font-size="17" fill="#166534">✓ Scale factor = 1/4</text>
+    <text x="24" y="116" font-size="17" fill="#166534">✓ Labels and units</text>
+    <text x="24" y="154" font-size="17" fill="#166534">✓ Measurement table</text>
+    <text x="24" y="192" font-size="17" fill="#166534">✓ Equal side ratios</text>
+    <text x="24" y="230" font-size="17" fill="#166534">✓ Special triangle fact</text>
+    <text x="24" y="268" font-size="17" fill="#166534">✓ Written explanation</text>
+  </g>
+  <rect x="64" y="386" width="632" height="30" fill="#ecfeff" stroke="#0891b2"/>
+  <text x="84" y="407" font-family="Arial, sans-serif" font-size="17" fill="#0e7490">The final model should show the drawing and the reasoning behind its measurements.</text>
+</svg>

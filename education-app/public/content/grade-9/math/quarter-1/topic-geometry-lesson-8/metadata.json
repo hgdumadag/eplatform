@@ -3,7 +3,7 @@
   "grade": 9,
   "subject": "math",
   "quarter": 1,
-  "topicName": "Geometry - Lesson 8",
+  "topicName": "Geometry - Lesson 8: Parallel Line Angle Theorems",
   "description": "Use parallel line angle theorems to find missing angle measures and justify each step with the correct relationship.",
   "learningObjectives": [
     "Identify corresponding, alternate interior, alternate exterior, same-side interior, vertical, and linear-pair angle relationships",
@@ -21,7 +21,17 @@
   ],
   "estimatedDuration": 50,
   "difficulty": "intermediate",
-  "tags": ["geometry", "measurement and geometry", "parallel lines", "transversal", "corresponding angles", "alternate interior angles", "same-side interior angles", "supplementary angles", "angle theorems"],
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "parallel lines",
+    "transversal",
+    "corresponding angles",
+    "alternate interior angles",
+    "same-side interior angles",
+    "supplementary angles",
+    "angle theorems"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {

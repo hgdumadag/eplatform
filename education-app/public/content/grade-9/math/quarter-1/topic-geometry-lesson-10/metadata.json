@@ -3,7 +3,7 @@
   "grade": 9,
   "subject": "math",
   "quarter": 1,
-  "topicName": "Geometry - Lesson 10",
+  "topicName": "Geometry - Lesson 10: Quarter Construction Task",
   "description": "Complete a cumulative geometry construction task by creating a map with parallel and perpendicular roads, labeling angle relationships, solving measures, and organizing reasoning.",
   "learningObjectives": [
     "Create a geometric map using parallel and perpendicular roads",
@@ -20,7 +20,17 @@
   ],
   "estimatedDuration": 55,
   "difficulty": "intermediate",
-  "tags": ["geometry", "measurement and geometry", "construction", "parallel lines", "perpendicular lines", "transversals", "angle relationships", "geometric map", "reasoning"],
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "construction",
+    "parallel lines",
+    "perpendicular lines",
+    "transversals",
+    "angle relationships",
+    "geometric map",
+    "reasoning"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {

@@ -1,0 +1,122 @@
+{
+  "examId": "grade-9-math-q3-geometry-lesson-2-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 2 Assessment: Scale Factor and Missing Sides",
+  "description": "Show mastery by finding scale factors, solving missing-side problems, and reasoning about perimeter and area changes.",
+  "passingScore": 75,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Polygon P is similar to Polygon Q. A 6 cm side in Polygon P corresponds to an 18 cm side in Polygon Q. What is the scale factor from P to Q?",
+      "options": [
+        "1/3",
+        "3",
+        "12",
+        "24"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Use Q divided by P: 18/6 = 3.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Two similar quadrilaterals have a scale factor of 5/4 from the smaller figure to the larger figure. A side of the smaller figure is 16 cm. What is the corresponding larger side?",
+      "options": [
+        "12.8 cm",
+        "20 cm",
+        "25 cm",
+        "64 cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Multiply by the scale factor: 16 x 5/4 = 20 cm.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "The scale factor from original to image is 4. An image side is 52 cm. The corresponding original side is ______ cm.",
+      "correctAnswer": "13",
+      "explanation": "Set 4x = 52. Dividing by 4 gives x = 13.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "If two polygons are similar, all pairs of corresponding side lengths have the same ratio.",
+      "correctAnswer": "true",
+      "explanation": "Similar polygons have proportional corresponding side lengths, so the side ratios are equal.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A triangle is reduced by scale factor 2/3. A side originally measures 21 cm. What is the image side length?",
+      "options": [
+        "14 cm",
+        "18 cm",
+        "23 cm",
+        "31.5 cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Multiply the original length by 2/3: 21 x 2/3 = 14 cm.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "In similar pentagons, a 10 cm side corresponds to a 25 cm side. Another side in the first pentagon is 8 cm. What is its corresponding side in the second pentagon?",
+      "options": [
+        "16 cm",
+        "18 cm",
+        "20 cm",
+        "33 cm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The scale factor is 25/10 = 2.5. Then 8 x 2.5 = 20 cm.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A polygon has perimeter 42 cm. A similar polygon is made with scale factor 1/2. The new perimeter is ______ cm.",
+      "correctAnswer": "21",
+      "explanation": "Perimeter scales by the same factor as side length: 42 x 1/2 = 21.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A square is enlarged by scale factor 3. By what factor does its area change?",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "27"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Area scales by the square of the scale factor: 3^2 = 9.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Two similar polygons have corresponding sides 12 cm and 30 cm. Find the scale factor from the 12 cm polygon to the 30 cm polygon, then use it to find the image of a 14 cm side.",
+      "correctAnswer": "The scale factor is 30/12 = 5/2 or 2.5. The image of a 14 cm side is 14 x 2.5 = 35 cm.",
+      "explanation": "First find the common multiplier from corresponding sides, then multiply the other original side by that same multiplier.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A similar image has a 40 cm side. The matching original side is 16 cm. Explain why the scale factor is 2.5, not 24.",
+      "correctAnswer": "Scale factor is a ratio, not a difference. It is image/original = 40/16 = 2.5. The number 24 is only the difference between the lengths.",
+      "explanation": "Missing-side problems for similar figures require multiplication by a constant ratio, so the correct comparison is 40 divided by 16.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "grade-9-math-q3-geometry-lesson-4",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Geometry - Lesson 4: Triangle Similarity: SSS and SAS",
+  "description": "Use proportional side evidence to decide whether triangles are similar by SSS or SAS similarity.",
+  "learningObjectives": [
+    "Identify corresponding sides and angles in two triangles",
+    "Test three pairs of sides for SSS similarity using equal ratios",
+    "Test two pairs of sides and the included angle for SAS similarity",
+    "Choose the correct similarity theorem from given evidence",
+    "Recognize non-examples when side ratios do not match or the angle is not included",
+    "Set up proportions to find missing side lengths in similar triangles"
+  ],
+  "prerequisites": [
+    "Write and simplify ratios",
+    "Solve simple proportions",
+    "Identify corresponding parts of triangles",
+    "Recognize included angles between two given sides",
+    "Understand that similar figures have the same shape but may have different sizes"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "triangle similarity",
+    "SSS similarity",
+    "SAS similarity",
+    "proportions",
+    "side ratios",
+    "theorem selection"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/proportional-side-triplets.svg",
+      "images/included-angle-evidence.svg",
+      "images/side-ratio-comparison.svg",
+      "images/theorem-decision-tree.svg",
+      "images/non-example-mismatched-ratios.svg",
+      "images/worked-missing-side-setup.svg"
+    ]
+  }
+}

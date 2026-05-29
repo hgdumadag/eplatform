@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320" role="img" aria-labelledby="title desc">
+  <title id="title">Two triangles with two matching angle pairs</title>
+  <desc id="desc">Triangle ABC and triangle DEF show two pairs of congruent angles, enough to prove AA similarity.</desc>
+  <rect width="720" height="320" fill="#f8fafc"/>
+  <g fill="none" stroke="#334155" stroke-width="4" stroke-linejoin="round">
+    <path d="M70 245 L205 70 L330 245 Z"/>
+    <path d="M420 245 L540 95 L655 245 Z"/>
+  </g>
+  <g fill="none" stroke-width="4">
+    <path d="M95 213 Q115 235 143 245" stroke="#2563eb"/>
+    <path d="M445 214 Q465 235 492 245" stroke="#2563eb"/>
+    <path d="M201 100 Q223 116 229 144" stroke="#dc2626"/>
+    <path d="M537 123 Q558 140 563 166" stroke="#dc2626"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#0f172a" font-size="22" font-weight="700">
+    <text x="52" y="270">A</text><text x="197" y="58">B</text><text x="334" y="270">C</text>
+    <text x="401" y="270">D</text><text x="535" y="83">E</text><text x="660" y="270">F</text>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#334155" font-size="18">
+    <text x="114" y="288">Angle A matches angle D</text>
+    <text x="420" y="288">Angle B matches angle E</text>
+  </g>
+</svg>

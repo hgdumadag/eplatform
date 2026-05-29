@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">Ratio and proportion chain</title>
+  <desc id="desc">A four-step chain shows identify corresponding sides, solve the scale factor, transfer a side length, then apply a special right triangle ratio.</desc>
+  <rect width="760" height="360" fill="#f8fafc"/>
+  <text x="32" y="42" font-family="Arial" font-size="24" font-weight="700" fill="#0f172a">Proportion Chain</text>
+  <g font-family="Arial" font-size="16" fill="#0f172a">
+    <g>
+      <rect x="50" y="90" width="145" height="105" rx="8" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+      <text x="70" y="122" font-weight="700">1. Match sides</text>
+      <text x="70" y="154">small/large</text>
+      <text x="70" y="178">3/9</text>
+    </g>
+    <g>
+      <rect x="230" y="90" width="145" height="105" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+      <text x="250" y="122" font-weight="700">2. Scale</text>
+      <text x="250" y="154">9/3 = 3</text>
+      <text x="250" y="178">multiply by 3</text>
+    </g>
+    <g>
+      <rect x="410" y="90" width="145" height="105" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+      <text x="430" y="122" font-weight="700">3. Bridge side</text>
+      <text x="430" y="154">short leg = 9</text>
+      <text x="430" y="178">now use ratio</text>
+    </g>
+    <g>
+      <rect x="590" y="90" width="145" height="105" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+      <text x="610" y="122" font-weight="700">4. Special</text>
+      <text x="610" y="154">long = 9sqrt(3)</text>
+      <text x="610" y="178">hyp = 18</text>
+    </g>
+  </g>
+  <g stroke="#475569" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M198 142 L224 142"/>
+    <path d="M378 142 L404 142"/>
+    <path d="M558 142 L584 142"/>
+  </g>
+  <text x="98" y="268" font-family="Arial" font-size="20" fill="#0f172a">Do not skip the middle: proportion first, special ratio second.</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#475569"/>
+    </marker>
+  </defs>
+</svg>
