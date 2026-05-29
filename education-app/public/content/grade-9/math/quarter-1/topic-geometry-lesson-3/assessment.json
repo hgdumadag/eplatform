@@ -1,0 +1,116 @@
+{
+  "examId": "grade-9-math-q1-geometry-lesson-3-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 3 Assessment: Construction Precision",
+  "description": "Show mastery by selecting construction steps, measuring accurately, and explaining precision checks for segments and angles.",
+  "passingScore": 75,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which sequence correctly constructs $\\overline{CD}$ with length 7.2 cm?",
+      "options": [
+        "Mark C, align 0 cm with C, mark D at 7.2 cm, then draw the segment.",
+        "Mark C, align 1 cm with C, mark D at 7.2 cm, then label the result 7.2 cm.",
+        "Draw any line and write 7.2 cm beside it.",
+        "Use the protractor center to mark D."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A measured segment starts from 0 cm unless you carefully subtract readings. Aligning 0 cm with C is the cleanest method.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which construction most likely has the best precision?",
+      "options": [
+        "Endpoints are marked with small dots and the ruler is aligned exactly with 0 cm.",
+        "Endpoints are thick circles and the ruler begins near, but not on, 0 cm.",
+        "The segment is estimated by sight.",
+        "The segment is drawn first and measured only after labeling."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Small endpoint marks and exact ruler alignment reduce measurement error.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "A required angle is $120^\\circ$. A student's angle measures $118^\\circ$. The measurement error is ______ degrees.",
+      "correctAnswer": "2",
+      "explanation": "The absolute error is $120 - 118 = 2$ degrees.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "A protractor can measure or construct angles, but it is not the best tool for measuring segment length.",
+      "correctAnswer": "true",
+      "explanation": "A ruler measures length. A protractor measures angle size in degrees.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "You need to draw $m\\angle PQR = 35^\\circ$. Where should the protractor center be placed?",
+      "options": [
+        "On point Q",
+        "On point P",
+        "On point R",
+        "Halfway between P and R"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In $\\angle PQR$, the middle letter Q is the vertex, so the protractor center belongs on Q.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A base ray points to the left and is aligned with the left-side $0^\\circ$ mark. To construct $60^\\circ$, what should you do?",
+      "options": [
+        "Read the scale that begins at the left-side 0 degree mark and mark 60 degrees.",
+        "Read the scale that begins at the right-side 0 degree mark and mark 60 degrees.",
+        "Mark 120 degrees because all angles must be obtuse.",
+        "Use the centimeter markings."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Use the scale that begins at the same 0 degree mark as the base ray.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "If one segment endpoint is at the 2 cm mark and the other is at the 9.5 cm mark, the segment length is ______ cm.",
+      "correctAnswer": "7.5",
+      "explanation": "Subtract the readings: $9.5 - 2 = 7.5$ cm.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain how to check whether a constructed segment labeled 6.4 cm is accurate.",
+      "correctAnswer": "Place the ruler along the segment with 0 cm at one endpoint, then read the other endpoint. The reading should be 6.4 cm, allowing only a small expected drawing error.",
+      "explanation": "A precision check compares the actual measured drawing with the required measurement.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A student constructs $80^\\circ$ but reads the opposite protractor scale and draws $100^\\circ$. Describe the mistake and correction.",
+      "correctAnswer": "The student used the scale that did not start at the aligned 0 degree mark. They should align the base ray with 0 degrees, read the scale that begins at that zero, mark 80 degrees, and redraw the ray.",
+      "explanation": "Reading the wrong scale often gives the supplement, such as 100 degrees instead of 80 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Describe how to construct a copy of segment $\\overline{AB}$ on a new ray starting at point C using a ruler.",
+      "correctAnswer": "Measure the length of segment AB with the ruler. On the new ray, align 0 cm with point C and mark point D at the same length. Then segment CD is a copy of segment AB.",
+      "explanation": "Copying a segment means transferring the same length from the original segment to the new starting point.",
+      "points": 10
+    }
+  ]
+}

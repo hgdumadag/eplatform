@@ -1,0 +1,122 @@
+{
+  "examId": "grade-9-math-q1-geometry-lesson-2-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 2 Assessment: Complete Angle Statements",
+  "description": "Show mastery by naming, measuring, classifying, and writing complete statements for angles from diagram descriptions.",
+  "passingScore": 75,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "In $\\angle RST$, which point is the vertex?",
+      "options": [
+        "R",
+        "S",
+        "T",
+        "There is no vertex"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The vertex is the middle letter, S.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which angle type has measure exactly $180^\\circ$?",
+      "options": [
+        "Acute",
+        "Right",
+        "Obtuse",
+        "Straight"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A straight angle measures exactly 180°.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A protractor diagram has one ray aligned with $0^\\circ$ and the other ray crossing $63^\\circ$. What is the angle measure?",
+      "options": [
+        "$27^\\circ$",
+        "$63^\\circ$",
+        "$90^\\circ$",
+        "$117^\\circ$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If the starting ray is at 0°, the measure is where the other ray crosses the correct scale: 63°.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "If several angles share vertex B, using only $\\angle B$ may be unclear.",
+      "correctAnswer": "true",
+      "explanation": "When multiple angles share a vertex, three-letter notation clarifies exactly which angle is meant.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "An angle that measures greater than $90^\\circ$ and less than $180^\\circ$ is called ______.",
+      "correctAnswer": "obtuse",
+      "explanation": "Obtuse angles are between 90° and 180°.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Rays $\\overrightarrow{BA}$ and $\\overrightarrow{BC}$ form an angle. Which name is correct?",
+      "options": [
+        "$\\angle ABC$",
+        "$\\angle BAC$",
+        "$\\angle ACB$",
+        "$\\angle BCA$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both rays start at B, so B is the vertex and must be the middle letter.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which statement correctly classifies $89^\\circ$?",
+      "options": [
+        "$89^\\circ$ is acute because it is less than $90^\\circ$.",
+        "$89^\\circ$ is right because it is close to $90^\\circ$.",
+        "$89^\\circ$ is obtuse because it is almost $90^\\circ$.",
+        "$89^\\circ$ is straight because it is measured in degrees."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Classification uses exact boundaries. Since 89° is less than 90°, it is acute.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Write a complete angle statement: angle LMN measures 36 degrees.",
+      "correctAnswer": "$m\\angle LMN = 36^\\circ$",
+      "explanation": "A complete statement uses m∠, the angle name, equals sign, and degree measure.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Explain the difference between $\\angle DEF$ and $m\\angle DEF$.",
+      "correctAnswer": "$\\angle DEF$ names the angle, while $m\\angle DEF$ means the measure of the angle.",
+      "explanation": "The m changes the expression from the angle itself to its numerical measure.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A student writes: \"$\\angle PQR = 140^\\circ$, so it is acute.\" Correct the notation and classification.",
+      "correctAnswer": "The correct statement is $m\\angle PQR = 140^\\circ$, and the angle is obtuse.",
+      "explanation": "Use m∠ for a measure statement. Since 140° is greater than 90° and less than 180°, it is obtuse.",
+      "points": 10
+    }
+  ]
+}

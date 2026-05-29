@@ -1,0 +1,134 @@
+{
+  "examId": "grade-10-math-q1-law-of-cosines-sas-practice",
+  "examType": "practice",
+  "title": "Trigonometry: Law of Cosines for SAS Practice",
+  "description": "Practice using the Law of Cosines to find a missing side from two sides and the included angle.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which information matches a SAS missing-side problem?",
+      "options": [
+        "Two angles and the side between them",
+        "Two sides and the included angle",
+        "Three angles only",
+        "One side and two non-included angles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "SAS means two sides and the included angle. For a missing side, this is a standard Law of Cosines setup.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Why might the Law of Sines be unable to start a SAS problem?",
+      "options": [
+        "There may be no complete known side-angle opposite pair.",
+        "The Law of Sines never uses angles.",
+        "The Law of Sines works only with right triangles.",
+        "The Law of Sines requires all three sides first."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Law of Sines needs a known side and its opposite angle to form a usable ratio. SAS gives two sides and the angle between them, so that opposite pair may be missing.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which formula finds side c when sides a and b include angle C?",
+      "options": [
+        "c^2 = a^2 + b^2 + 2ab cos C",
+        "c^2 = a^2 + b^2 - 2ab cos C",
+        "c = a^2 + b^2 - 2ab cos C",
+        "c^2 = a^2 - b^2 - 2ab cos C"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The side form of the Law of Cosines is c^2 = a^2 + b^2 - 2ab cos C.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Two sides are 8 cm and 11 cm. The included angle is 60 degrees. What is the missing opposite side to the nearest tenth?",
+      "options": [
+        "7.5 cm",
+        "9.8 cm",
+        "13.8 cm",
+        "19.0 cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "x^2 = 8^2 + 11^2 - 2(8)(11)cos60 degrees = 64 + 121 - 88 = 97, so x is about 9.8 cm.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Two sides are 9 and 14. The included angle is 42 degrees. What is the missing opposite side to the nearest tenth?",
+      "options": [
+        "9.5",
+        "13.2",
+        "16.7",
+        "21.4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "x^2 = 9^2 + 14^2 - 2(9)(14)cos42 degrees, so x^2 is about 89.7 and x is about 9.5.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Two sides are 6 m and 10 m. The included angle is 120 degrees. What is the missing opposite side?",
+      "options": [
+        "8 m",
+        "10 m",
+        "14 m",
+        "16 m"
+      ],
+      "correctAnswer": 2,
+      "explanation": "x^2 = 6^2 + 10^2 - 2(6)(10)cos120 degrees = 36 + 100 - 120(-0.5) = 196, so x = 14 m.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "In a SAS Law of Cosines problem, the unknown side is opposite the included angle.",
+      "correctAnswer": "true",
+      "explanation": "The included angle is between the two known sides, and the missing side across from it is found using the Law of Cosines.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "If a Law of Cosines calculation gives x^2 = 196, the positive side length x is ____.",
+      "correctAnswer": "14",
+      "explanation": "A side length is a distance, so use the positive square root. The positive square root of 196 is 14.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "For sides 12 and 16 with included angle 75 degrees, which setup is correct for the opposite side x?",
+      "options": [
+        "x^2 = 12^2 + 16^2 - 2(12)(16)cos75 degrees",
+        "x^2 = 12^2 + 16^2 + 2(12)(16)cos75 degrees",
+        "x = 12 + 16 - 2(12)(16)cos75 degrees",
+        "x^2 = 12^2 - 16^2 - 2(12)(16)cos75 degrees"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Law of Cosines subtracts 2ab cos C from the sum of the squares of the two known sides.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "In one or two sentences, explain why the Law of Cosines is appropriate when a problem gives two sides and the included angle.",
+      "correctAnswer": "The Law of Cosines is appropriate because it uses two known sides and the included angle to find the side opposite that angle. This matches the SAS information in the problem.",
+      "explanation": "A strong answer names the SAS information and connects it to the formula c^2 = a^2 + b^2 - 2ab cos C.",
+      "points": 10
+    }
+  ]
+}

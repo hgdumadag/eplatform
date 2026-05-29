@@ -1,0 +1,94 @@
+{
+  "examId": "grade-9-math-q3-geometry-lesson-9-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 9 Practice: Mixed Similarity and Special Triangles",
+  "description": "Practice combining similar triangle proportions with 45-45-90 and 30-60-90 ratios.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Two similar triangles have corresponding sides 5 and 15. The larger triangle is a 45-45-90 triangle with one leg 15. What is its hypotenuse?",
+      "options": [
+        "15",
+        "15sqrt(2)",
+        "30",
+        "30sqrt(2)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a 45-45-90 triangle, the hypotenuse is leg times sqrt(2). With leg 15, the hypotenuse is 15sqrt(2).",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A 30-60-90 triangle has short leg 8. A similar triangle is twice as large. What is the long leg of the larger triangle?",
+      "options": [
+        "8sqrt(3)",
+        "16",
+        "16sqrt(3)",
+        "32sqrt(3)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The larger short leg is 8 x 2 = 16. In a 30-60-90 triangle, long leg = short leg x sqrt(3), so the long leg is 16sqrt(3).",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A small triangle and a large triangle are similar. The small hypotenuse is 6 and the large hypotenuse is 18. If the small triangle's leg is 4, what is the corresponding large leg?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "24"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The scale factor from small to large is 18/6 = 3. The corresponding large leg is 4 x 3 = 12.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "If a 45-45-90 triangle has hypotenuse 10sqrt(2), then each leg is 10.",
+      "correctAnswer": "true",
+      "explanation": "In a 45-45-90 triangle, hypotenuse = leg x sqrt(2). If the hypotenuse is 10sqrt(2), the leg is 10.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "In a 30-60-90 triangle, the long leg is always twice the short leg.",
+      "correctAnswer": "false",
+      "explanation": "The hypotenuse is twice the short leg. The long leg is short leg times sqrt(3).",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Two similar triangles have scale factor 4 from small to large. If the small triangle has a 45-45-90 leg of 3, the corresponding large leg is ___.",
+      "correctAnswer": "12",
+      "explanation": "Multiply the corresponding small leg by the scale factor: 3 x 4 = 12.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A 30-60-90 triangle has hypotenuse 20. Its short leg is ___.",
+      "correctAnswer": "10",
+      "explanation": "The hypotenuse is twice the short leg, so the short leg is 20/2 = 10.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain why matching corresponding sides is necessary before using a proportion in a similarity problem.",
+      "correctAnswer": "Corresponding sides occupy matching positions in similar triangles, so their ratios are equal. If the sides are mismatched, the proportion compares unrelated lengths and can give a wrong scale factor.",
+      "explanation": "Similarity proportions are valid only when each ratio compares matching sides in a consistent order.",
+      "points": 14
+    }
+  ]
+}

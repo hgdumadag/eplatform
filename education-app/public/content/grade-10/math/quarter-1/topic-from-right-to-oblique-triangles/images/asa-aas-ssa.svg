@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="380" viewBox="0 0 920 380" role="img" aria-labelledby="title desc">
+  <title id="title">ASA AAS and SSA triangle cases</title>
+  <desc id="desc">Three triangle diagrams show ASA with a known side between two angles, AAS with a side not between two angles, and SSA with two sides and a non-included angle.</desc>
+  <rect width="920" height="380" fill="#ffffff"/>
+  <g transform="translate(40 34)">
+    <text x="93" y="0" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1e3a8a">ASA</text>
+    <polygon points="35,255 245,255 132,75" fill="#eff6ff" stroke="#2563eb" stroke-width="4"/>
+    <line x1="35" y1="255" x2="245" y2="255" stroke="#ef4444" stroke-width="7"/>
+    <path d="M62 245 A36 36 0 0 1 83 219" fill="none" stroke="#7c3aed" stroke-width="5"/>
+    <path d="M217 245 A36 36 0 0 0 196 219" fill="none" stroke="#7c3aed" stroke-width="5"/>
+    <text x="79" y="292" font-family="Arial, sans-serif" font-size="17" fill="#334155">angle-side-angle</text>
+    <text x="70" y="320" font-family="Arial, sans-serif" font-size="15" fill="#475569">side is included</text>
+  </g>
+  <g transform="translate(335 34)">
+    <text x="93" y="0" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1e3a8a">AAS</text>
+    <polygon points="35,255 245,255 132,75" fill="#eff6ff" stroke="#2563eb" stroke-width="4"/>
+    <line x1="132" y1="75" x2="245" y2="255" stroke="#ef4444" stroke-width="7"/>
+    <path d="M62 245 A36 36 0 0 1 83 219" fill="none" stroke="#7c3aed" stroke-width="5"/>
+    <path d="M217 245 A36 36 0 0 0 196 219" fill="none" stroke="#7c3aed" stroke-width="5"/>
+    <text x="78" y="292" font-family="Arial, sans-serif" font-size="17" fill="#334155">angle-angle-side</text>
+    <text x="53" y="320" font-family="Arial, sans-serif" font-size="15" fill="#475569">side is not included</text>
+  </g>
+  <g transform="translate(630 34)">
+    <text x="93" y="0" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#14532d">SSA</text>
+    <polygon points="35,255 245,255 132,75" fill="#f0fdf4" stroke="#16a34a" stroke-width="4"/>
+    <line x1="35" y1="255" x2="132" y2="75" stroke="#ef4444" stroke-width="7"/>
+    <line x1="132" y1="75" x2="245" y2="255" stroke="#ef4444" stroke-width="7"/>
+    <path d="M218 246 A36 36 0 0 0 197 219" fill="none" stroke="#7c3aed" stroke-width="5"/>
+    <text x="78" y="292" font-family="Arial, sans-serif" font-size="17" fill="#334155">side-side-angle</text>
+    <text x="45" y="320" font-family="Arial, sans-serif" font-size="15" fill="#475569">angle is not included</text>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">SSA Law of Sines setup</title>
+  <desc id="desc">Triangle ABC with angle A, side a opposite angle A, and side b from A to C labeled for a Law of Sines setup.</desc>
+  <rect width="760" height="360" fill="#fffdf7"/>
+  <polygon points="110,290 610,290 265,82" fill="#ecfeff" stroke="#0f172a" stroke-width="4"/>
+  <path d="M155 290 A45 45 0 0 0 148 264" fill="none" stroke="#7c3aed" stroke-width="5"/>
+  <text x="96" y="324" font-family="Arial, sans-serif" font-size="24" fill="#111827">A</text>
+  <text x="612" y="324" font-family="Arial, sans-serif" font-size="24" fill="#111827">B</text>
+  <text x="254" y="62" font-family="Arial, sans-serif" font-size="24" fill="#111827">C</text>
+  <text x="410" y="172" font-family="Arial, sans-serif" font-size="24" fill="#dc2626">a</text>
+  <text x="162" y="176" font-family="Arial, sans-serif" font-size="24" fill="#0f766e">b</text>
+  <text x="166" y="270" font-family="Arial, sans-serif" font-size="20" fill="#7c3aed">known ∠A</text>
+  <text x="340" y="327" font-family="Arial, sans-serif" font-size="20" fill="#64748b">side c</text>
+  <rect x="430" y="38" width="270" height="102" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="448" y="70" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0f172a">Known pair</text>
+  <text x="448" y="100" font-family="Arial, sans-serif" font-size="19" fill="#0f172a">∠A is opposite side a</text>
+  <text x="448" y="128" font-family="Arial, sans-serif" font-size="19" fill="#0f172a">Use it to find ∠B</text>
+</svg>

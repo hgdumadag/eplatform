@@ -1,0 +1,100 @@
+{
+  "examId": "grade-9-math-q2-geometry-lesson-1-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 1 Practice: Conditions for Parallel and Perpendicular Lines",
+  "description": "Practice deciding whether lines must be parallel, perpendicular, or neither based on angle conditions.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Two lines are cut by a transversal. A pair of corresponding angles both measure $58^\\circ$. What can you conclude?",
+      "options": [
+        "The two lines are parallel.",
+        "The two lines are perpendicular.",
+        "The two lines must intersect at $58^\\circ$.",
+        "There is not enough information."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Congruent corresponding angles prove that the two lines cut by the transversal are parallel.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Two lines intersect and one angle is marked $90^\\circ$. What can you conclude?",
+      "options": [
+        "The lines are parallel.",
+        "The lines are perpendicular.",
+        "The lines are skew.",
+        "The lines are only approximately perpendicular."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Perpendicular lines are lines that intersect to form right angles.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "If same-side interior angles formed by two lines and a transversal add to $180^\\circ$, then the two lines are parallel.",
+      "correctAnswer": "true",
+      "explanation": "Supplementary same-side interior angles are a valid condition for proving parallel lines.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Alternate interior angles measure $74^\\circ$ and $74^\\circ$. Which conclusion is valid?",
+      "options": [
+        "The lines are perpendicular.",
+        "The lines are parallel.",
+        "The angles are supplementary.",
+        "No conclusion is possible."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Congruent alternate interior angles prove that the lines are parallel.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "Same-side interior angles measure $119^\\circ$ and another angle. If the lines are parallel, the missing angle measure is ______ degrees.",
+      "correctAnswer": "61",
+      "explanation": "Same-side interior angles are supplementary for parallel lines, so the missing measure is $180 - 119 = 61$.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A diagram shows two slanted lines that appear to rise in the same direction, but no angle measures, marks, or relationships are given. What is the safest conclusion?",
+      "options": [
+        "The lines must be parallel.",
+        "The lines must be perpendicular.",
+        "The lines must be the same line.",
+        "There is not enough information to prove a relationship."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Visual appearance can suggest a relationship, but it does not prove parallelism or perpendicularity without given conditions.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "Two lines are cut by a transversal. Same-side interior angles measure $103^\\circ$ and $77^\\circ$. Decide whether the two lines must be parallel and explain why.",
+      "correctAnswer": "Yes. The angles are same-side interior and $103 + 77 = 180$, so they are supplementary. Therefore, the lines are parallel.",
+      "explanation": "The same-side interior angle condition proves parallel lines when the two angle measures add to 180°.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A student says, \"The lines are perpendicular because the angle is $91^\\circ$, which is close to $90^\\circ$.\" Correct the statement.",
+      "correctAnswer": "The lines are not proven perpendicular. Perpendicular lines form exact $90^\\circ$ angles, and $91^\\circ$ is not a right angle.",
+      "explanation": "Perpendicularity requires an exact right angle, not an approximate measure.",
+      "points": 14
+    }
+  ]
+}

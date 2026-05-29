@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="390" viewBox="0 0 760 390" role="img" aria-labelledby="title desc">
+  <title id="title">Similar polygon scaling</title>
+  <desc id="desc">Two corresponding polygons show actual and quarter scale model side lengths. Each model side divided by the matching actual side equals one fourth.</desc>
+  <rect width="760" height="390" fill="#f8fafc"/>
+  <text x="36" y="44" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Similar polygons keep equal side ratios</text>
+  <polygon points="90,95 330,95 390,210 250,310 90,250" fill="#fde68a" stroke="#b45309" stroke-width="4"/>
+  <text x="190" y="202" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#92400e">Actual</text>
+  <text x="172" y="82" font-family="Arial, sans-serif" font-size="17" fill="#334155">24 cm</text>
+  <text x="338" y="156" font-family="Arial, sans-serif" font-size="17" fill="#334155">12 cm</text>
+  <text x="232" y="334" font-family="Arial, sans-serif" font-size="17" fill="#334155">16 cm</text>
+  <polygon points="520,150 580,150 595,179 560,204 520,189" fill="#bbf7d0" stroke="#15803d" stroke-width="4"/>
+  <text x="524" y="236" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#166534">Model</text>
+  <text x="535" y="138" font-family="Arial, sans-serif" font-size="16" fill="#334155">6 cm</text>
+  <text x="600" y="174" font-family="Arial, sans-serif" font-size="16" fill="#334155">3 cm</text>
+  <text x="550" y="224" font-family="Arial, sans-serif" font-size="16" fill="#334155">4 cm</text>
+  <path d="M425 197 H495" stroke="#0f766e" stroke-width="5" marker-end="url(#arrow)"/>
+  <text x="421" y="176" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f766e">scale factor 1/4</text>
+  <rect x="82" y="342" width="604" height="34" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="104" y="365" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">6/24 = 3/12 = 4/16 = 1/4, so corresponding sides are proportional.</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#0f766e"/>
+    </marker>
+  </defs>
+</svg>

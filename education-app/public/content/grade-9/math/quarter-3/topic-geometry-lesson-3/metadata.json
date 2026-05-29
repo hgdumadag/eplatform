@@ -1,0 +1,49 @@
+{
+  "id": "grade-9-math-q3-geometry-lesson-3",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Geometry - Lesson 3: Triangle Similarity: AA",
+  "description": "Apply AA similarity in diagrams by using two pairs of equal angles to justify that two triangles are similar.",
+  "learningObjectives": [
+    "State the AA similarity criterion for triangles",
+    "Identify two pairs of corresponding congruent angles in a diagram",
+    "Match corresponding vertices before writing a triangle similarity statement",
+    "Use parallel-line angle relationships as evidence for AA similarity",
+    "Justify triangle similarity from angle information in a short proof chain",
+    "Recognize when angle information is not enough to prove AA similarity"
+  ],
+  "prerequisites": [
+    "Name triangles and angles from a diagram",
+    "Use corresponding, alternate interior, and vertical angle relationships",
+    "Understand that similar figures have the same shape",
+    "Read parallel-line marks and congruent angle marks"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "triangle similarity",
+    "AA similarity",
+    "angle relationships",
+    "parallel lines",
+    "proof",
+    "corresponding vertices"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/aa-two-triangles.svg",
+      "images/parallel-line-angle-evidence.svg",
+      "images/nested-triangles-aa.svg",
+      "images/corresponding-vertices-map.svg",
+      "images/non-example-one-angle.svg",
+      "images/short-proof-chain.svg"
+    ]
+  }
+}

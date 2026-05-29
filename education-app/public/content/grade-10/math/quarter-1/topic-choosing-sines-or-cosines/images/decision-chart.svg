@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="520" viewBox="0 0 820 520" role="img" aria-labelledby="title desc">
+  <title id="title">Decision chart for choosing a trigonometry law</title>
+  <desc id="desc">A flowchart asks whether an opposite side-angle pair is known. AAS, ASA, and SSA lead to Law of Sines. SAS and SSS lead to Law of Cosines.</desc>
+  <rect width="820" height="520" fill="#ffffff"/>
+  <g font-family="Arial, sans-serif" fill="#111827">
+    <text x="410" y="42" text-anchor="middle" font-size="24" font-weight="700">Choosing the First Law</text>
+    <rect x="255" y="72" width="310" height="66" rx="8" fill="#f1f5f9" stroke="#334155" stroke-width="2"/>
+    <text x="410" y="99" text-anchor="middle" font-size="17" font-weight="700">What information is given?</text>
+    <text x="410" y="122" text-anchor="middle" font-size="15">Classify it before calculating.</text>
+    <line x1="410" y1="138" x2="410" y2="170" stroke="#334155" stroke-width="2"/>
+    <rect x="235" y="170" width="350" height="74" rx="8" fill="#eef6ff" stroke="#2563eb" stroke-width="2"/>
+    <text x="410" y="199" text-anchor="middle" font-size="17" font-weight="700">Is a complete opposite pair known?</text>
+    <text x="410" y="222" text-anchor="middle" font-size="15">Example: side a and angle A</text>
+    <line x1="310" y1="244" x2="210" y2="298" stroke="#334155" stroke-width="2"/>
+    <line x1="510" y1="244" x2="610" y2="298" stroke="#334155" stroke-width="2"/>
+    <text x="260" y="276" font-size="16" font-weight="700" fill="#1d4ed8">Yes</text>
+    <text x="548" y="276" font-size="16" font-weight="700" fill="#b45309">No</text>
+    <rect x="65" y="298" width="290" height="112" rx="8" fill="#e8f3ff" stroke="#2563eb" stroke-width="2"/>
+    <text x="210" y="326" text-anchor="middle" font-size="18" font-weight="700" fill="#1e40af">Law of Sines first</text>
+    <text x="210" y="354" text-anchor="middle" font-size="15">AAS: find third angle if needed</text>
+    <text x="210" y="378" text-anchor="middle" font-size="15">ASA: find third angle first</text>
+    <text x="210" y="402" text-anchor="middle" font-size="15">SSA: check ambiguity</text>
+    <rect x="465" y="298" width="290" height="112" rx="8" fill="#fff4e6" stroke="#d97706" stroke-width="2"/>
+    <text x="610" y="326" text-anchor="middle" font-size="18" font-weight="700" fill="#92400e">Law of Cosines first</text>
+    <text x="610" y="358" text-anchor="middle" font-size="15">SAS: find the opposite side</text>
+    <text x="610" y="386" text-anchor="middle" font-size="15">SSS: find an angle</text>
+    <line x1="210" y1="410" x2="410" y2="456" stroke="#334155" stroke-width="2"/>
+    <line x1="610" y1="410" x2="410" y2="456" stroke="#334155" stroke-width="2"/>
+    <rect x="250" y="456" width="320" height="42" rx="8" fill="#edf7ed" stroke="#15803d" stroke-width="2"/>
+    <text x="410" y="482" text-anchor="middle" font-size="16" font-weight="700" fill="#166534">After one part is found, either law may continue.</text>
+  </g>
+</svg>

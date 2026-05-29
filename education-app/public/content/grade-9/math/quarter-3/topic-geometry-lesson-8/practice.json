@@ -1,0 +1,100 @@
+{
+  "examId": "grade-9-math-q3-geometry-lesson-8-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 8 Practice: 30-60-90 Triangles",
+  "description": "Practice finding missing sides and angles in 30-60-90 triangles using the side ratio.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "In a 30-60-90 triangle, which side is the short leg?",
+      "options": [
+        "The side opposite 30 degrees",
+        "The side opposite 60 degrees",
+        "The hypotenuse",
+        "The side opposite 90 degrees"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The short leg is opposite the 30 degree angle. The long leg is opposite 60 degrees, and the hypotenuse is opposite 90 degrees.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A 30-60-90 triangle has short leg 6. What are the long leg and hypotenuse?",
+      "options": [
+        "6\\sqrt{3} and 12",
+        "12 and 6\\sqrt{3}",
+        "3\\sqrt{3} and 12",
+        "6\\sqrt{3} and 6"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Use x : x\\sqrt{3} : 2x. When x = 6, the long leg is 6\\sqrt{3} and the hypotenuse is 12.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A 30-60-90 triangle has hypotenuse 20. What is the short leg?",
+      "options": [
+        "5",
+        "10",
+        "10\\sqrt{3}",
+        "40"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The hypotenuse is 2x. If 2x = 20, then x = 10, so the short leg is 10.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A 30-60-90 triangle has long leg 9\\sqrt{3}. What is the hypotenuse?",
+      "options": [
+        "9",
+        "18",
+        "27",
+        "18\\sqrt{3}"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The long leg is x\\sqrt{3}. If x\\sqrt{3} = 9\\sqrt{3}, then x = 9, so the hypotenuse is 2x = 18.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "In every 30-60-90 triangle, the hypotenuse is twice the short leg.",
+      "correctAnswer": "true",
+      "explanation": "The side ratio is x : x\\sqrt{3} : 2x, so the hypotenuse is 2x, twice the short leg x.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "The side opposite 60 degrees in a 30-60-90 triangle is the short leg.",
+      "correctAnswer": "false",
+      "explanation": "The side opposite 60 degrees is the long leg, x\\sqrt{3}. The side opposite 30 degrees is the short leg.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A 30-60-90 triangle has short leg 8. The hypotenuse is ___.",
+      "correctAnswer": "16",
+      "explanation": "The hypotenuse is twice the short leg, so 2(8) = 16.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain how to find the missing acute angle in a right triangle when one acute angle is 30 degrees.",
+      "correctAnswer": "The two acute angles in a right triangle add to 90 degrees, so the missing acute angle is 90 - 30 = 60 degrees.",
+      "explanation": "A triangle has 180 degrees total, and the right angle uses 90 degrees. The two remaining acute angles must add to 90 degrees.",
+      "points": 14
+    }
+  ]
+}

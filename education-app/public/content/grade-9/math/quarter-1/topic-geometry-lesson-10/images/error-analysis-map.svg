@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Error analysis for same-side interior angles</title>
+  <desc id="desc">Two parallel roads and a transversal show one same-side interior angle marked 70 degrees and the other incorrectly labeled 70 degrees.</desc>
+  <rect width="760" height="420" fill="#fff7ed"/>
+  <g stroke="#475569" stroke-width="9" stroke-linecap="round">
+    <path d="M90 140H680"/>
+    <path d="M90 290H680"/>
+    <path d="M260 350L520 75"/>
+  </g>
+  <g fill="#0f172a" font-family="Arial, sans-serif" font-size="20" font-weight="700">
+    <text x="365" y="176">70</text>
+    <text x="494" y="264">70?</text>
+  </g>
+  <g stroke="#ef4444" stroke-width="4">
+    <path d="M515 244l42 42M557 244l-42 42"/>
+  </g>
+  <g fill="#9f1239" font-family="Arial, sans-serif" font-size="18" font-weight="700">
+    <text x="95" y="70">Mistake: same-side interior angles add to 180, not equal.</text>
+    <text x="95" y="98">Correct missing angle: 110</text>
+  </g>
+</svg>

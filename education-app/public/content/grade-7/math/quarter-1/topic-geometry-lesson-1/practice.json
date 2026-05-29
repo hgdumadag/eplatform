@@ -1,0 +1,100 @@
+{
+  "examId": "grade-7-math-q1-geometry-lesson-1-polygon-vocabulary-practice",
+  "examType": "practice",
+  "title": "Polygon Vocabulary Practice",
+  "description": "Practice defining polygon vocabulary and identifying examples, non-examples, sides, vertices, diagonals, regular polygons, and irregular polygons.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which description best defines a polygon?",
+      "options": [
+        "Any shape with a curve",
+        "A closed plane figure made only of straight line segments",
+        "Any figure with at least one angle",
+        "An open figure made of straight and curved parts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A polygon must be closed and made only of straight line segments.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "What is a vertex of a polygon?",
+      "options": [
+        "The space inside the polygon",
+        "A straight line segment on the boundary",
+        "A corner where two sides meet",
+        "A line through the center"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A vertex is a corner formed where two sides of a polygon meet.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A circle is a polygon because it is closed.",
+      "correctAnswer": "false",
+      "explanation": "A circle is closed, but it has a curved boundary. Polygons must have only straight sides.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "In pentagon ABCDE, which segment is a diagonal?",
+      "options": [
+        "AB",
+        "BC",
+        "CD",
+        "AC"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A and C are non-adjacent vertices in pentagon ABCDE, so AC is a diagonal. AB, BC, and CD are sides.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "A polygon with all sides equal and all angles equal is called a ____ polygon.",
+      "correctAnswer": "regular",
+      "explanation": "A regular polygon has both equal side lengths and equal angle measures.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Which figure is a non-example of a polygon?",
+      "options": [
+        "A triangle",
+        "A rectangle",
+        "A closed pentagon",
+        "A shape with one curved side"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A figure with a curved side is not a polygon because polygon sides must be straight line segments.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "An irregular polygon can still be a polygon.",
+      "correctAnswer": "true",
+      "explanation": "Irregular means the polygon does not have all sides and all angles equal. It can still be closed and made of straight sides.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain why a square is a regular polygon.",
+      "correctAnswer": "A square is a regular polygon because it is closed, has straight sides, all four sides are equal, and all four angles are equal.",
+      "explanation": "A complete explanation should mention that a square is a polygon and that both its sides and angles are equal.",
+      "points": 10
+    }
+  ]
+}

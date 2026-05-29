@@ -1,0 +1,49 @@
+{
+  "id": "grade-9-math-q1-geometry-lesson-4",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Geometry - Lesson 4: Constructing Perpendicular Lines",
+  "description": "Construct perpendicular lines using a straightedge, ruler, protractor, or set square, then explain why the result forms right angles.",
+  "learningObjectives": [
+    "Identify perpendicular lines and right angles in diagrams and real-life objects",
+    "Use correct notation such as AB perpendicular CD",
+    "Construct a perpendicular line through a point on a given line",
+    "Construct a perpendicular line from a point not on a given line",
+    "Check a construction by verifying 90-degree angles",
+    "Explain why a construction forms perpendicular lines"
+  ],
+  "prerequisites": [
+    "Name points, lines, rays, and segments from diagrams",
+    "Measure angles in degrees",
+    "Recognize that a right angle measures exactly 90 degrees",
+    "Use a ruler, straightedge, protractor, or set square with care"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "beginner",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "perpendicular lines",
+    "construction",
+    "right angles",
+    "protractor",
+    "set square",
+    "straightedge"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/real-world-perpendicular-prompt.svg",
+      "images/perpendicular-notation.svg",
+      "images/construct-through-point.svg",
+      "images/construct-from-off-line-point.svg",
+      "images/checking-right-angles.svg",
+      "images/error-analysis-perpendicular.svg"
+    ]
+  }
+}

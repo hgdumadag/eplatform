@@ -3,7 +3,7 @@
   "grade": 6,
   "subject": "math",
   "quarter": 4,
-  "topicName": "Geometry - Lesson 1",
+  "topicName": "Geometry - Lesson 1: Circle Area Exploration",
   "description": "Explore how cutting a circle into sectors and rearranging them helps estimate and explain the area formula.",
   "learningObjectives": [
     "Cut a circle into equal sectors and describe how rearranging them forms a nearly rectangular shape",

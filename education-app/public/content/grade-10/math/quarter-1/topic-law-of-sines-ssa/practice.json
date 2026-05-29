@@ -1,0 +1,128 @@
+{
+  "examId": "grade-10-math-q1-law-of-sines-ssa-practice",
+  "examType": "practice",
+  "title": "Trigonometry: Law of Sines for SSA Practice",
+  "description": "Practice setting up SSA Law of Sines problems and checking possible angle values.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 40°, a = 8, and b = 10. Which equation correctly begins solving for ∠B?",
+      "options": [
+        "sin B / 10 = sin 40° / 8",
+        "sin B / 8 = sin 40° / 10",
+        "10 / sin 40° = 8 / sin B",
+        "sin 40° / sin B = 10 / 8"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Side a = 8 is opposite ∠A = 40°, and side b = 10 is opposite ∠B, so sin B / 10 = sin 40° / 8.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "In an SSA Law of Sines problem, why should you check 180° minus the calculator angle?",
+      "options": [
+        "The supplement may have the same sine and may form a second triangle.",
+        "The supplement always gives the correct triangle.",
+        "The calculator angle is never valid in SSA.",
+        "Triangle angles must always include one obtuse angle."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sine has the same value for an acute angle and its obtuse supplement, so an SSA case may have two possible angles.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 40°, a = 8, and b = 10. The calculator gives ∠B ≈ 53.5°. What supplementary angle should also be checked?",
+      "options": [
+        "36.5°",
+        "86.5°",
+        "126.5°",
+        "143.5°"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The supplement is 180° - 53.5° = 126.5°.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 40°, a = 8, and b = 10. Which statement is true?",
+      "options": [
+        "No triangle is possible.",
+        "Exactly one triangle is possible.",
+        "Two triangles are possible.",
+        "The information is SAS, not SSA."
+      ],
+      "correctAnswer": 2,
+      "explanation": "sin B ≈ 0.8035 gives B ≈ 53.5° or 126.5°. Both leave a positive third angle with A = 40°, so two triangles are possible.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 42°, a = 11, and b = 8. The calculator gives ∠B ≈ 29.1°. Why is 150.9° not valid?",
+      "options": [
+        "It is not a supplement of 29.1°.",
+        "42° + 150.9° is greater than 180°.",
+        "The side b must always be the longest side.",
+        "Obtuse angles are never allowed in SSA."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The angle sum 42° + 150.9° = 192.9°, which leaves no positive third angle.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 35°, a = 4, and b = 9. What does sin B ≈ 1.29 mean?",
+      "options": [
+        "Two triangles are possible.",
+        "One triangle is possible.",
+        "No triangle is possible.",
+        "∠B is 129°."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A real angle cannot have a sine greater than 1, so the given measurements cannot form a triangle.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "In an SSA case, if both B and 180° - B leave a positive third angle, two triangles are possible.",
+      "correctAnswer": "true",
+      "explanation": "Both angle choices can fit the same sine value, so both produce valid triangles if the angle sums stay below 180°.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "In △ABC, ∠A = 30°, a = 6, and b = 10. Find the smaller possible value of ∠B to the nearest tenth of a degree.",
+      "correctAnswer": "56.4",
+      "explanation": "sin B = 10 sin 30° / 6 = 0.8333..., so the smaller possible angle is B ≈ 56.4°.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "question": "In △ABC, ∠A = 30°, a = 6, and b = 10. Find the larger possible value of ∠B to the nearest tenth of a degree.",
+      "correctAnswer": "123.6",
+      "explanation": "The larger possible angle is the supplement of 56.4°, so B ≈ 180° - 56.4° = 123.6°.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "In one or two sentences, explain how you decide whether the supplementary angle is valid in an SSA problem.",
+      "correctAnswer": "Add the supplementary angle to the given angle. If the sum is less than 180°, it leaves a positive third angle and is valid; if the sum is 180° or more, it is not valid.",
+      "explanation": "A valid triangle must have three positive angles that total 180°, so the known angle plus the possible second angle must be less than 180°.",
+      "points": 10
+    }
+  ]
+}

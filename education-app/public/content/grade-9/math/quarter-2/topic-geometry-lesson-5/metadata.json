@@ -1,0 +1,49 @@
+{
+  "id": "grade-9-math-q2-geometry-lesson-5",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Geometry - Lesson 5: Trapezoids and Kites",
+  "description": "Derive and use properties of trapezoids and kites, including medians, isosceles trapezoid relationships, kite diagonals, and measure problems.",
+  "learningObjectives": [
+    "Identify bases, legs, base angles, diagonals, medians, and symmetry diagonals in trapezoids and kites",
+    "Use the trapezoid median formula to find missing lengths",
+    "Apply isosceles trapezoid properties involving base angles and diagonals",
+    "Use kite properties involving adjacent congruent sides and perpendicular diagonals",
+    "Solve measure problems using properties of trapezoids and kites"
+  ],
+  "prerequisites": [
+    "Recognize parallel and perpendicular lines",
+    "Measure and name angles accurately",
+    "Solve one-step and two-step equations",
+    "Use congruent side and congruent angle markings in diagrams"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "trapezoids",
+    "kites",
+    "quadrilaterals",
+    "midsegment",
+    "median",
+    "diagonals",
+    "isosceles trapezoid"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/real-world-trapezoid-kite-prompt.svg",
+      "images/trapezoid-parts-and-median.svg",
+      "images/isosceles-trapezoid-properties.svg",
+      "images/kite-parts-and-diagonals.svg",
+      "images/worked-measure-problems.svg",
+      "images/error-analysis-trapezoid-kite.svg"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Multiply or divide by sqrt(2) trap</title>
+  <desc id="desc">Two arrows compare the correct operations: multiply a leg by sqrt(2) to get the hypotenuse and divide the hypotenuse by sqrt(2) to get a leg.</desc>
+  <rect x="55" y="70" width="235" height="220" rx="8" fill="#f0f8ff" stroke="#235d8c" stroke-width="3"/>
+  <rect x="350" y="70" width="235" height="220" rx="8" fill="#fff3f0" stroke="#a33b2a" stroke-width="3"/>
+  <text x="172" y="115" font-family="Arial, sans-serif" font-size="25" font-weight="700" text-anchor="middle">Given leg</text>
+  <text x="467" y="115" font-family="Arial, sans-serif" font-size="25" font-weight="700" text-anchor="middle">Given hypotenuse</text>
+  <text x="172" y="165" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">leg = x</text>
+  <path d="M105 190 H240" stroke="#235d8c" stroke-width="5" marker-end="url(#arrowBlue)"/>
+  <text x="172" y="225" font-family="Arial, sans-serif" font-size="23" text-anchor="middle">multiply by sqrt(2)</text>
+  <text x="172" y="260" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">hypotenuse = x sqrt(2)</text>
+  <text x="467" y="165" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">hypotenuse = x sqrt(2)</text>
+  <path d="M535 190 H400" stroke="#a33b2a" stroke-width="5" marker-end="url(#arrowRed)"/>
+  <text x="467" y="225" font-family="Arial, sans-serif" font-size="23" text-anchor="middle">divide by sqrt(2)</text>
+  <text x="467" y="260" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">leg = x</text>
+  <defs>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#235d8c"/>
+    </marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#a33b2a"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,50 @@
+{
+  "id": "grade-9-math-q1-geometry-lesson-3",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Geometry - Lesson 3: Constructing Segments and Angles",
+  "description": "Construct segments and angles accurately using a straightedge, ruler, and protractor, then check the precision of each drawing.",
+  "learningObjectives": [
+    "Construct a line segment with a given length using a ruler",
+    "Copy or mark a segment accurately from a reference length",
+    "Draw an angle with a given measure using a protractor",
+    "Use straightedge, ruler, and protractor markings carefully",
+    "Check construction precision and explain reasonable measurement error"
+  ],
+  "prerequisites": [
+    "Identify points, lines, rays, segments, and angles",
+    "Name angles using correct notation",
+    "Read ruler markings in centimeters or millimeters",
+    "Read a protractor scale in degrees",
+    "Understand that construction accuracy depends on careful alignment"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "beginner",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "construction",
+    "segments",
+    "angles",
+    "ruler",
+    "protractor",
+    "straightedge",
+    "precision"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/real-world-construction-prompt.svg",
+      "images/construct-segment-given-length.svg",
+      "images/copy-segment-reference.svg",
+      "images/protractor-angle-construction.svg",
+      "images/precision-check.svg",
+      "images/error-analysis-construction.svg"
+    ]
+  }
+}

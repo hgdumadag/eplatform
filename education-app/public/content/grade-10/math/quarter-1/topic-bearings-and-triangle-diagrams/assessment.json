@@ -1,0 +1,136 @@
+{
+  "examId": "grade-10-math-q1-bearings-and-triangle-diagrams-assessment",
+  "examType": "assessment",
+  "title": "Trigonometry: Bearings and Triangle Diagrams Checkpoint",
+  "description": "Check whether you can build and evaluate bearing diagrams with correct orientation, local north lines, labels, and included angles.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 11,
+  "totalPoints": 110,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which bearing points directly west?",
+      "options": [
+        "000°",
+        "090°",
+        "180°",
+        "270°"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A 270° clockwise turn from north points west.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A bearing of 135° should be drawn in which general direction?",
+      "options": [
+        "Northeast",
+        "Southeast",
+        "Southwest",
+        "Northwest"
+      ],
+      "correctAnswer": 1,
+      "explanation": "135° is between 090° and 180°, so the direction is southeast.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "From station S, point T has bearing 018° and point U has bearing 096°. What included angle should be marked at S?",
+      "correctAnswer": "78° or 78 degrees or 78",
+      "explanation": "Both rays start at S, so subtract the bearings: 096° - 018° = 78°.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A route says: From A, travel 8 km on bearing 055° to B. From B, travel 6 km on bearing 150° to C. Which drawing step is correct?",
+      "options": [
+        "Measure both 055° and 150° from the north line at A",
+        "Draw a new north line at B before measuring the 150° bearing",
+        "Draw BC before drawing AB",
+        "Place the 150° label on segment AC"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The second bearing begins at B, so it must be measured from a north line at B.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "From P, Q is 9 km away on bearing 300°. Which statement describes segment PQ?",
+      "options": [
+        "It points generally northeast from P",
+        "It points generally southeast from P",
+        "It points generally southwest from P",
+        "It points generally northwest from P"
+      ],
+      "correctAnswer": 3,
+      "explanation": "300° is between 270° and 360°, so PQ points northwest from P.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "From X to Y, the bearing is 215°. What is the back bearing from Y to X?",
+      "correctAnswer": "035° or 35° or 035 degrees or 35 degrees or 035 or 35",
+      "explanation": "Subtract 180° because 215° is greater than 180°: 215° - 180° = 035°.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "In triangle ABC, AB and BC are the two traveled legs. Which vertex is the turn point where the included angle between BA and BC may be marked?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "Any point on AC"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The route turns at B. The angle between BA and BC is inside the triangle at vertex B.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Describe how to draw this diagram: From M, N is 4 km away on bearing 020° and O is 7 km away on bearing 110°.",
+      "correctAnswer": "Draw point M with a north line. From M, draw MN 20° clockwise from north and label it 4 km. From M, draw MO 110° clockwise from north and label it 7 km, then connect N to O.",
+      "explanation": "Both bearings start at M, so both rays use the same north line at M, and NO completes the triangle.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "If a diagram shows a bearing angle measured counterclockwise from north, the bearing has been marked incorrectly.",
+      "correctAnswer": "true",
+      "explanation": "Standard bearings are measured clockwise from north, so counterclockwise measurement reverses the intended direction.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A student draws AB on bearing 040° and BC on bearing 125°, then marks 85° at A as the included angle of triangle ABC. Explain what should be checked or corrected.",
+      "correctAnswer": "The 85° difference compares bearings only if both bearings start from the same point. In a route A to B to C, the included angle between BA and BC is at B, so the student should use the back bearing from B to A and the bearing from B to C.",
+      "explanation": "For a two-leg route, the included angle at the turn point uses BA and BC, not the two forward bearings measured from different points.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "question": "Which checklist best matches a complete bearing triangle diagram?",
+      "options": [
+        "Points labeled, distances labeled, bearings measured clockwise from local north lines, and the direct side drawn when needed",
+        "Only the final answer written, with no compass directions",
+        "All angles measured from east because east is horizontal",
+        "One north line drawn anywhere on the page for every route leg"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A complete diagram needs labeled points and sides, clockwise bearings from the correct local north lines, and the direct side that completes the triangle.",
+      "points": 10
+    }
+  ]
+}

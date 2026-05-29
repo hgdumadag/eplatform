@@ -1,0 +1,43 @@
+{
+  "id": "grade-7-math-q2-measurement-volume-lesson-2-length-area-volume-conversion",
+  "grade": 7,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Length, Area, and Volume Conversion",
+  "description": "Distinguish linear, square, and cubic unit conversions, including why area conversion factors are squared and volume conversion factors are cubed.",
+  "learningObjectives": [
+    "Convert between common SI length units such as centimeters and meters",
+    "Distinguish linear units, square units, and cubic units",
+    "Convert area measurements by squaring the linear conversion factor",
+    "Convert volume measurements by cubing the linear conversion factor",
+    "Solve mixed conversion drills involving length, area, and volume units"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "beginner",
+  "tags": [
+    "measurement",
+    "geometry",
+    "unit-conversion",
+    "si-units",
+    "area",
+    "volume",
+    "length",
+    "conversion-factors"
+  ],
+  "lastUpdated": "2026-05-26",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/linear-square-cubic-conversions.svg"
+    ]
+  },
+  "prerequisites": [
+    "Multiply and divide by powers of 10",
+    "Recognize centimeters, meters, square centimeters, square meters, cubic centimeters, and cubic meters",
+    "Find area by multiplying two lengths",
+    "Find volume by multiplying three lengths"
+  ]
+}

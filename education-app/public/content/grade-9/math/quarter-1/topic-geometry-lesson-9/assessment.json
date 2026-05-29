@@ -1,0 +1,116 @@
+{
+  "examId": "grade-9-math-q1-geometry-lesson-9-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 9 Assessment: Multi-Step Parallel and Perpendicular Problems",
+  "description": "Show mastery by solving mixed missing-angle problems and justifying each step with the correct relationship.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Two parallel lines are cut by a transversal. Alternate interior angles $\\angle 3$ and $\\angle 6$ are shown. If $m\\angle 3 = 79^\\circ$, what is $m\\angle 6$?",
+      "options": [
+        "$79^\\circ$",
+        "$90^\\circ$",
+        "$101^\\circ$",
+        "$180^\\circ$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Alternate interior angles are congruent when the lines are parallel, so angle 6 is 79°.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Same-side interior angles formed by parallel lines measure $x^\\circ$ and $124^\\circ$. Which equation finds $x$?",
+      "options": [
+        "$x = 124$",
+        "$x + 124 = 180$",
+        "$x - 124 = 90$",
+        "$2x = 124$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Same-side interior angles are supplementary, so their measures add to 180°.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "A line perpendicular to another line forms angles that each measure ______ degrees.",
+      "correctAnswer": "90",
+      "explanation": "Perpendicular lines form right angles, and each right angle measures 90°.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A $90^\\circ$ angle is split into angles of $27^\\circ$ and $y^\\circ$. What is $y$?",
+      "options": [
+        "$27^\\circ$",
+        "$63^\\circ$",
+        "$90^\\circ$",
+        "$153^\\circ$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The two angles split a right angle, so $y = 90 - 27 = 63$.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "In a mixed diagram, all angles formed by a transversal across parallel lines must have the same measure.",
+      "correctAnswer": "false",
+      "explanation": "Some pairs are congruent, but adjacent linear pairs and same-side interior angles are supplementary.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Angle 1 measures $68^\\circ$. Angle 2 corresponds to angle 1. Angle 3 forms a linear pair with angle 2. What is $m\\angle 3$?",
+      "options": [
+        "$22^\\circ$",
+        "$68^\\circ$",
+        "$90^\\circ$",
+        "$112^\\circ$"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Angle 2 is 68° by corresponding angles. Angle 3 is supplementary to angle 2, so $180 - 68 = 112$.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "Same-side interior angles have measures $3x^\\circ$ and $120^\\circ$. Find $x$.",
+      "correctAnswer": "20",
+      "explanation": "Because same-side interior angles are supplementary, $3x + 120 = 180$, so $3x = 60$ and $x = 20$.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Parallel lines are cut by a transversal. Angle A is $52^\\circ$. Angle B is alternate interior to angle A. Angle C is vertical to angle B. Find $m\\angle C$ and justify the answer.",
+      "correctAnswer": "$m\\angle C = 52^\\circ$. Angle B is 52° because alternate interior angles are congruent, and angle C is 52° because vertical angles are congruent.",
+      "explanation": "This is a two-step congruent-angle chain: alternate interior first, then vertical angles.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A diagonal transversal makes a $36^\\circ$ angle with a horizontal line. A vertical line is perpendicular to the horizontal line. Find the acute angle between the diagonal transversal and the vertical line, and explain your reasoning.",
+      "correctAnswer": "$54^\\circ$, because the horizontal and vertical lines form a right angle and $90^\\circ - 36^\\circ = 54^\\circ$.",
+      "explanation": "The transversal and vertical angle complete the right angle after the 36° angle is removed.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A student says: 'The given angle is $70^\\circ$, so the adjacent linear-pair angle is also $70^\\circ$.' Correct the reasoning.",
+      "correctAnswer": "The adjacent linear-pair angle is $110^\\circ$, not 70°. Linear pairs are supplementary, so $180^\\circ - 70^\\circ = 110^\\circ$.",
+      "explanation": "Adjacent linear-pair angles usually are not equal; they add to 180°.",
+      "points": 10
+    }
+  ]
+}

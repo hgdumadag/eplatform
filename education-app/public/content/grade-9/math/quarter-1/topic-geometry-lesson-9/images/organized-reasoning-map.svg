@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="440" viewBox="0 0 760 440" role="img" aria-labelledby="title desc">
+  <title id="title">Organized reasoning map for a mixed angle problem</title>
+  <desc id="desc">A flowchart shows a given 58 degree angle leading to a corresponding angle, then a linear pair, then a perpendicular complement.</desc>
+  <rect width="760" height="440" fill="#f8fafc"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#334155"/>
+    </marker>
+  </defs>
+  <g font-family="Arial, sans-serif">
+    <text x="48" y="48" font-size="24" font-weight="700" fill="#111827">Organized Reasoning Chain</text>
+    <g fill="#ffffff" stroke="#cbd5e1" stroke-width="2">
+      <rect x="55" y="95" width="150" height="95" rx="8"/>
+      <rect x="275" y="95" width="170" height="95" rx="8"/>
+      <rect x="515" y="95" width="170" height="95" rx="8"/>
+      <rect x="275" y="265" width="170" height="95" rx="8"/>
+      <rect x="515" y="265" width="170" height="95" rx="8"/>
+    </g>
+    <g stroke="#334155" stroke-width="3" marker-end="url(#arrow)" fill="none">
+      <path d="M205 142H270"/>
+      <path d="M445 142H510"/>
+      <path d="M600 190V260"/>
+      <path d="M515 312H450"/>
+    </g>
+    <g fill="#111827" font-size="17">
+      <text x="78" y="125" font-weight="700">Given</text>
+      <text x="78" y="155">58°</text>
+      <text x="298" y="125" font-weight="700">Parallel lines</text>
+      <text x="298" y="155">Corresponding</text>
+      <text x="298" y="178">angle = 58°</text>
+      <text x="538" y="125" font-weight="700">Linear pair</text>
+      <text x="538" y="155">180 - 58</text>
+      <text x="538" y="178">= 122°</text>
+      <text x="538" y="295" font-weight="700">Perpendicular</text>
+      <text x="538" y="325">Right angle</text>
+      <text x="538" y="348">= 90°</text>
+      <text x="298" y="295" font-weight="700">Complement</text>
+      <text x="298" y="325">90 - 58</text>
+      <text x="298" y="348">= 32°</text>
+    </g>
+  </g>
+</svg>

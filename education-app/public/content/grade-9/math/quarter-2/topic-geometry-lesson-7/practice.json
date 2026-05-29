@@ -1,0 +1,100 @@
+{
+  "examId": "grade-9-math-q2-geometry-lesson-7-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 7 Practice: Triangle Congruence Postulates",
+  "description": "Practice identifying SSS, SAS, ASA, AAS, HL, and invalid triangle congruence shortcuts.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Two triangles have all three pairs of corresponding sides congruent. Which reason proves the triangles congruent?",
+      "options": [
+        "AAA",
+        "SSS",
+        "SSA",
+        "HL"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Three congruent side pairs prove triangle congruence by SSS.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Two triangles have two pairs of congruent sides and the included angle congruent. Which reason applies?",
+      "options": [
+        "SAS",
+        "AAS",
+        "AAA",
+        "SSA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Two sides and the angle between them prove congruence by SAS.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "AAA is enough to prove that two triangles are congruent.",
+      "correctAnswer": "false",
+      "explanation": "AAA proves the same shape, but the triangles may be different sizes, so it does not prove congruence.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Which condition is required before using HL?",
+      "options": [
+        "Both triangles must be right triangles.",
+        "Both triangles must be equilateral.",
+        "Three angles must be congruent.",
+        "The included angle must be obtuse."
+      ],
+      "correctAnswer": 0,
+      "explanation": "HL is a right triangle congruence theorem, so both triangles must be right triangles.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "Two angles and a non-included side prove triangle congruence by ______.",
+      "correctAnswer": "AAS",
+      "explanation": "AAS uses two congruent angle pairs and a side that is not between those angles.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Given $\\angle A \\cong \\angle D$, $\\angle B \\cong \\angle E$, and $AB \\cong DE$, which reason proves $\\triangle ABC \\cong \\triangle DEF$?",
+      "options": [
+        "ASA",
+        "AAS",
+        "SSS",
+        "HL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Side $AB$ is included between $\\angle A$ and $\\angle B$, and side $DE$ is included between $\\angle D$ and $\\angle E$, so the reason is ASA.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "Explain why SSA is not the same as SAS.",
+      "correctAnswer": "SAS uses the included angle between two congruent sides. SSA uses a non-included angle, which may not force one unique triangle.",
+      "explanation": "The position of the angle matters. In SAS the included angle locks the two side lengths into one triangle; in SSA it may not.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "In $\\triangle PQR \\cong \\triangle XYZ$, which side corresponds to $\\overline{QR}$? Explain how you know.",
+      "correctAnswer": "$\\overline{YZ}$ corresponds to $\\overline{QR}$ because the vertex order matches $P$ with $X$, $Q$ with $Y$, and $R$ with $Z$.",
+      "explanation": "Use the order of the congruence statement to match vertices and then match sides.",
+      "points": 14
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "grade-7-math-q2-measurement-volume-lesson-8",
+  "grade": 7,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Square Pyramid Volume",
+  "description": "Calculate the volume of square pyramids by identifying the square base area, using the vertical height, and writing answers with correct cubic units.",
+  "learningObjectives": [
+    "Identify the side length of the square base and the vertical height of a square pyramid",
+    "Use V = (1/3)s^2h to calculate the volume of a square pyramid",
+    "Distinguish vertical height from slant height in pyramid volume problems",
+    "Write pyramid volume answers with appropriate cubic units"
+  ],
+  "prerequisites": [
+    "Find the area of a square using side times side",
+    "Multiply whole numbers and decimals",
+    "Recognize cubic units as volume units",
+    "Understand that a pyramid has one base and triangular side faces"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "measurement",
+    "geometry",
+    "volume",
+    "square pyramids",
+    "base area",
+    "height",
+    "cubic units"
+  ],
+  "lastUpdated": "2026-05-26",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/square-pyramid-volume.svg"
+    ]
+  }
+}

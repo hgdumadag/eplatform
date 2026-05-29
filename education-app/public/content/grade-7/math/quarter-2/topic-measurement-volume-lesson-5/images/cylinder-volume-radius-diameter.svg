@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Cylinder radius and diameter volume setup</title>
+  <desc id="desc">A cylinder with diameter 10 centimeters, radius 5 centimeters, and height 12 centimeters.</desc>
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <ellipse cx="330" cy="90" rx="110" ry="38" fill="#fef3c7" stroke="#d97706" stroke-width="4"/>
+  <path d="M220 90 V245 C220 268 440 268 440 245 V90" fill="#fffbeb" stroke="#d97706" stroke-width="4"/>
+  <ellipse cx="330" cy="245" rx="110" ry="38" fill="none" stroke="#d97706" stroke-width="4"/>
+  <line x1="220" y1="90" x2="440" y2="90" stroke="#ef4444" stroke-width="4"/><text x="292" y="70" font-family="Arial" font-size="20">d = 10 cm</text>
+  <line x1="330" y1="90" x2="440" y2="90" stroke="#2563eb" stroke-width="5"/><text x="358" y="123" font-family="Arial" font-size="20">r = 5 cm</text>
+  <line x1="485" y1="90" x2="485" y2="245" stroke="#16a34a" stroke-width="5"/><text x="500" y="175" font-family="Arial" font-size="20">h = 12 cm</text>
+  <text x="180" y="320" font-family="Arial" font-size="24" font-weight="700">V = π(5)²(12) cm³</text>
+</svg>

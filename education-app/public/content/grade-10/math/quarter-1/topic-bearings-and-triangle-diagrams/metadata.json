@@ -1,0 +1,44 @@
+{
+  "id": "grade-10-math-q1-bearings-and-triangle-diagrams",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Trigonometry: Bearings and Triangle Diagrams",
+  "description": "Translate bearing descriptions into clear oblique triangle diagrams by drawing north lines, marking clockwise bearings, and placing included angles correctly.",
+  "learningObjectives": [
+    "Draw a local north line before measuring a bearing",
+    "Interpret three-digit bearings as clockwise turns from north",
+    "Translate one-leg and two-leg navigation statements into labeled triangle diagrams",
+    "Identify where the included angle belongs in a bearing diagram",
+    "Check whether a route diagram has correct orientation, labels, and angle placement"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "intermediate",
+  "tags": [
+    "trigonometry",
+    "bearings",
+    "navigation",
+    "triangle-diagrams",
+    "oblique-triangles",
+    "geometry"
+  ],
+  "lastUpdated": "2026-05-29",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/compass-bearing-060.svg",
+      "images/two-bearings-same-point.svg",
+      "images/two-leg-route-local-north.svg",
+      "images/included-angle-back-bearing.svg"
+    ]
+  },
+  "prerequisites": [
+    "Basic compass directions",
+    "Measuring angles with a protractor",
+    "Triangle vertices, sides, and angles",
+    "Angle subtraction"
+  ]
+}

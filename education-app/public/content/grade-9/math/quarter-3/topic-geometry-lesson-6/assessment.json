@@ -1,0 +1,116 @@
+{
+  "examId": "grade-9-math-q3-geometry-lesson-6-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 6 Assessment: Real-World Similarity Problems",
+  "description": "Demonstrate mastery of indirect measurement using shadows, mirrors, scale drawings, proportions, and unit consistency.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A 1.2 m post casts a 1.8 m shadow. At the same time, a statue casts a 7.5 m shadow. What is the statue's height?",
+      "options": [
+        "4 m",
+        "5 m",
+        "6.1 m",
+        "11.25 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Use 1.2/1.8 = x/7.5. Since 1.2/1.8 = 2/3, x = 7.5 x 2/3 = 5 m.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A learner with eye height 1.5 m stands 2.5 m from a mirror. A building is 30 m from the mirror. How tall is the building?",
+      "options": [
+        "12 m",
+        "18 m",
+        "20 m",
+        "50 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Use 1.5/2.5 = x/30. Then 2.5x = 45, so x = 18 m.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A scale drawing uses 2 cm to represent 5 m. A fence is 14 cm long on the drawing. What is the real fence length?",
+      "options": [
+        "21 m",
+        "28 m",
+        "35 m",
+        "70 m"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The scale is 2 cm : 5 m, so each 2 cm group represents 5 m. Since 14/2 = 7, the real length is 7 x 5 = 35 m.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A 180 cm student casts a 240 cm shadow. A nearby tree casts a 6 m shadow. What is the tree height?",
+      "options": [
+        "3 m",
+        "4.5 m",
+        "6.75 m",
+        "8 m"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Convert 180 cm = 1.8 m and 240 cm = 2.4 m. Use 1.8/2.4 = x/6, so x = 4.5 m.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "A scale drawing and the real object are similar figures when the same scale factor is used throughout the drawing.",
+      "correctAnswer": "true",
+      "explanation": "A constant scale factor preserves corresponding side ratios, which is the key condition for similarity.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "If a 2 m pole has a 5 m shadow and a tower has a 10 m shadow at the same time, the tower must be 25 m tall.",
+      "correctAnswer": "false",
+      "explanation": "Use 2/5 = x/10, so x = 4 m. The answer 25 m comes from mismatching the ratio.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A map scale is 1 cm : 8 km. Two towns are 3.5 cm apart on the map. They are ___ km apart in real life.",
+      "correctAnswer": "28",
+      "explanation": "Multiply 3.5 by 8 because each centimeter represents 8 km. The real distance is 28 km.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "A 1.7 m person casts a 2.5 m shadow. A lamp post casts a 10 m shadow. The lamp post is ___ m tall.",
+      "correctAnswer": "6.8",
+      "explanation": "Use 1.7/2.5 = x/10. Then 2.5x = 17, so x = 6.8 m.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A classmate writes x/12 = 1.4/2 to solve this shadow problem: a 1.4 m stick has a 2 m shadow, and a pole has a 12 m shadow. Explain whether the setup is correct.",
+      "correctAnswer": "The setup is correct because it compares height to shadow on both sides: pole height over pole shadow equals stick height over stick shadow.",
+      "explanation": "The order is consistent: height/shadow = height/shadow. Solving would give x = 8.4 m.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Describe a reliable four-step method for solving an indirect measurement problem.",
+      "correctAnswer": "Identify the similar triangles or figures, match corresponding lengths, write and solve a proportion with consistent units, then state the answer with units and check reasonableness.",
+      "explanation": "Indirect measurement depends on organized setup before calculation. The method should include correspondence, proportion solving, units, and a reasonableness check.",
+      "points": 10
+    }
+  ]
+}

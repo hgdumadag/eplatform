@@ -1,0 +1,122 @@
+{
+  "examId": "grade-9-math-q2-geometry-lesson-7-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 7 Assessment: Triangle Congruence Postulates",
+  "description": "Show mastery by choosing valid triangle congruence reasons, rejecting invalid shortcuts, and writing complete congruence statements.",
+  "passingScore": 75,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Given $AB \\cong DE$, $BC \\cong EF$, and $AC \\cong DF$, which statement is justified?",
+      "options": [
+        "$\\triangle ABC \\cong \\triangle DEF$ by SSS",
+        "$\\triangle ABC \\cong \\triangle DEF$ by SAS",
+        "$\\triangle ABC \\cong \\triangle DEF$ by AAA",
+        "The triangles cannot be proven congruent"
+      ],
+      "correctAnswer": 0,
+      "explanation": "All three corresponding side pairs are congruent, so SSS proves the triangles congruent.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Given $AB \\cong DE$, $AC \\cong DF$, and $\\angle A \\cong \\angle D$, which reason applies?",
+      "options": [
+        "SAS",
+        "SSA",
+        "AAS",
+        "HL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$\\angle A$ is between $AB$ and $AC$, and $\\angle D$ is between $DE$ and $DF$, so the evidence is SAS.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Given $\\angle A \\cong \\angle D$, $\\angle B \\cong \\angle E$, and $AC \\cong DF$, which reason applies?",
+      "options": [
+        "ASA",
+        "AAS",
+        "SSS",
+        "SSA"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The given side is not between the two given angles, so the valid reason is AAS.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "HL can be used whenever two triangles have one congruent side and one congruent angle.",
+      "correctAnswer": "false",
+      "explanation": "HL requires two right triangles with congruent hypotenuses and one pair of corresponding legs.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Two right triangles have congruent hypotenuses and a pair of corresponding legs congruent. Which reason proves congruence?",
+      "options": [
+        "AAA",
+        "SSA",
+        "HL",
+        "AAS only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Right triangles with congruent hypotenuses and one congruent leg are congruent by HL.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "The invalid shortcut using two sides and a non-included angle is called ______.",
+      "correctAnswer": "SSA",
+      "explanation": "SSA means side-side-angle, where the angle is not included between the two sides.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which set of information is not enough to prove triangle congruence?",
+      "options": [
+        "Three pairs of congruent sides",
+        "Two angles and the included side",
+        "Three pairs of congruent angles",
+        "Two angles and a non-included side"
+      ],
+      "correctAnswer": 2,
+      "explanation": "AAA proves similarity, not congruence, because the triangles may have different sizes.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Given $\\triangle LMN \\cong \\triangle RST$, name the side that corresponds to $\\overline{MN}$ and explain the vertex order.",
+      "correctAnswer": "$\\overline{ST}$ corresponds to $\\overline{MN}$ because $L$ matches $R$, $M$ matches $S$, and $N$ matches $T$.",
+      "explanation": "The order of the triangle names determines the matching vertices and corresponding sides.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A student says two triangles are congruent by SAS because two sides and one angle are marked, but the angle is not between the marked sides. Correct the student's reasoning.",
+      "correctAnswer": "The evidence is SSA, not SAS, because the angle is not included between the two marked sides. SSA is not a valid congruence shortcut, so more information is needed.",
+      "explanation": "SAS depends on the included angle. Without the included angle, the information may not determine one unique triangle.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Two triangles have $\\angle P \\cong \\angle X$, $\\angle Q \\cong \\angle Y$, and $PQ \\cong XY$. Write a complete congruence conclusion if the third vertices are $R$ and $Z$.",
+      "correctAnswer": "$\\triangle PQR \\cong \\triangle XYZ$ by ASA.",
+      "explanation": "The side $PQ$ is included between $\\angle P$ and $\\angle Q$, and $XY$ is included between $\\angle X$ and $\\angle Y$, so ASA proves the congruence.",
+      "points": 10
+    }
+  ]
+}

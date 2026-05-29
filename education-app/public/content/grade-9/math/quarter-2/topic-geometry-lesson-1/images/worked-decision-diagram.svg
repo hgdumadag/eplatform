@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Worked example decision diagram</title>
+  <desc id="desc">Left side shows corresponding angles both labeled 64 degrees proving parallel lines. Right side shows two lines meeting at a right angle proving perpendicular lines.</desc>
+  <rect width="760" height="420" fill="#fbfdff"/>
+  <text x="205" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#1f2937">Parallel decision</text>
+  <line x1="60" y1="110" x2="350" y2="85" stroke="#111827" stroke-width="5"/>
+  <line x1="70" y1="250" x2="360" y2="225" stroke="#111827" stroke-width="5"/>
+  <line x1="205" y1="60" x2="245" y2="300" stroke="#dc2626" stroke-width="5"/>
+  <path d="M211 100 A38 38 0 0 1 246 126" fill="none" stroke="#2563eb" stroke-width="5"/>
+  <path d="M234 238 A38 38 0 0 1 269 264" fill="none" stroke="#2563eb" stroke-width="5"/>
+  <text x="250" y="124" font-family="Arial, sans-serif" font-size="20" fill="#2563eb">64°</text>
+  <text x="274" y="266" font-family="Arial, sans-serif" font-size="20" fill="#2563eb">64°</text>
+  <text x="65" y="84" font-family="Arial, sans-serif" font-size="17" fill="#111827">m</text>
+  <text x="72" y="278" font-family="Arial, sans-serif" font-size="17" fill="#111827">n</text>
+  <text x="205" y="344" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#1e3a8a">corresponding angles congruent</text>
+  <text x="205" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#1e3a8a">m ∥ n</text>
+  <text x="570" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#1f2937">Perpendicular decision</text>
+  <line x1="430" y1="210" x2="705" y2="210" stroke="#111827" stroke-width="6"/>
+  <line x1="570" y1="80" x2="570" y2="335" stroke="#111827" stroke-width="6"/>
+  <path d="M570 210 h42 v-42 h-42" fill="none" stroke="#16a34a" stroke-width="5"/>
+  <text x="618" y="177" font-family="Arial, sans-serif" font-size="20" fill="#16a34a">90°</text>
+  <text x="705" y="235" font-family="Arial, sans-serif" font-size="17" fill="#111827">r</text>
+  <text x="582" y="85" font-family="Arial, sans-serif" font-size="17" fill="#111827">s</text>
+  <text x="570" y="344" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#166534">right angle formed</text>
+  <text x="570" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#166534">r ⟂ s</text>
+</svg>

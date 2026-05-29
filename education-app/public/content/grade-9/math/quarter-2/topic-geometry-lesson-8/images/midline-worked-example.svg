@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="410" viewBox="0 0 720 410" role="img">
+  <title>Midline worked example</title>
+  <desc>A triangle PQR has midpoint M on PQ and midpoint N on PR. Segment MN is labeled 14 and the parallel third side QR is unknown.</desc>
+  <rect width="720" height="410" fill="#ffffff"/>
+  <text x="38" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#17324d">Midline theorem measure setup</text>
+  <polygon points="130,330 360,80 610,330" fill="#fff7e8" stroke="#c26a00" stroke-width="4" stroke-linejoin="round"/>
+  <line x1="245" y1="205" x2="485" y2="205" stroke="#1f6fb2" stroke-width="5" stroke-linecap="round"/>
+  <path d="M188 268 l12 10" stroke="#2e8b57" stroke-width="4"/>
+  <path d="M300 145 l12 10" stroke="#2e8b57" stroke-width="4"/>
+  <path d="M425 145 l-12 10" stroke="#2e8b57" stroke-width="4"/>
+  <path d="M548 268 l-12 10" stroke="#2e8b57" stroke-width="4"/>
+  <g font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#17324d">
+    <text x="356" y="66">P</text>
+    <text x="108" y="352">Q</text>
+    <text x="622" y="352">R</text>
+    <text x="226" y="199">M</text>
+    <text x="497" y="199">N</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#17324d">
+    <text x="340" y="195">MN = 14</text>
+    <text x="320" y="360">QR = ?</text>
+    <rect x="70" y="20" width="0" height="0" fill="none"/>
+    <text x="86" y="386">Since MN joins two midpoints, MN = one-half QR, so QR = 28.</text>
+  </g>
+</svg>

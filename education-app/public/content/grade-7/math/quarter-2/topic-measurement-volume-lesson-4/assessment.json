@@ -1,0 +1,128 @@
+{
+  "examId": "grade-7-math-q2-measurement-volume-lesson-4-assessment",
+  "examType": "assessment",
+  "title": "Deriving Cylinder Volume Assessment",
+  "description": "Show that you can explain and use V = pi r^2 h as circular base area times height.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement best explains the formula V = pi r^2 h?",
+      "options": [
+        "A cylinder's volume is its diameter multiplied by its height.",
+        "A cylinder's volume is the area of its circular base multiplied by its height.",
+        "A cylinder's volume is the circumference of its base multiplied by its radius.",
+        "A cylinder's volume is found by adding pi, radius, and height."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The base is a circle with area pi r^2, and the cylinder stacks that base area through height h.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A cylinder has radius 6 cm and height 10 cm. What is its volume in terms of pi?",
+      "options": [
+        "60pi cm^3",
+        "120pi cm^3",
+        "360pi cm^3",
+        "600pi cm^3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "V = pi r^2 h = pi(6)^2(10) = 360pi cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A cylinder has diameter 8 m and height 9 m. What should be used for r in V = pi r^2 h?",
+      "options": [
+        "4 m",
+        "8 m",
+        "9 m",
+        "16 m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The radius is half the diameter, so r = 8 / 2 = 4 m.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A cylinder has radius 2 m and height 12 m. Using pi approximately 3.14, what is its volume?",
+      "options": [
+        "75.36 m^3",
+        "150.72 m^3",
+        "301.44 m^3",
+        "48 m^3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "V = 3.14(2)^2(12) = 3.14(4)(12) = 150.72 m^3.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "The height in V = pi r^2 h represents the distance between the two circular bases of the cylinder.",
+      "correctAnswer": "true",
+      "explanation": "The height is the perpendicular distance between the congruent circular bases.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A cylinder has circular base area 32 cm^2 and height 5 cm. Its volume is ______ cm^3.",
+      "correctAnswer": "160",
+      "explanation": "Volume equals base area times height: 32 x 5 = 160 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which unit is appropriate for the volume of a cylinder with measurements in centimeters?",
+      "options": [
+        "cm",
+        "cm^2",
+        "cm^3",
+        "degrees"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Volume measures three-dimensional space, so centimeter measurements lead to cubic centimeters, or cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A student writes V = pi d^2 h for cylinder volume, where d is diameter. What is the mistake?",
+      "options": [
+        "The formula should use radius squared, not diameter squared.",
+        "The formula should not include height.",
+        "The formula should use base perimeter only.",
+        "The formula should divide pi by height."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The circular base area formula is pi r^2. If diameter is given, first divide it by 2 to find the radius.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A cylinder is made from many equal circular layers stacked upward. Explain how this model supports V = pi r^2 h.",
+      "correctAnswer": "Each circular layer has area pi r^2, which is the base area. Stacking those equal layers through height h gives base area times height, so V = pi r^2 h.",
+      "explanation": "The key reasoning is that equal circular cross-sections are repeated along the height.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A cylinder has radius 5 cm and height 4 cm. Find its volume in terms of pi and explain what the answer means.",
+      "correctAnswer": "V = pi(5)^2(4) = 100pi cm^3. This means the cylinder contains the same amount of space as a circular base of area 25pi cm^2 stacked through 4 cm of height.",
+      "explanation": "The calculation uses pi r^2 h, and the explanation should connect 25pi cm^2 base area to the 4 cm height.",
+      "points": 10
+    }
+  ]
+}

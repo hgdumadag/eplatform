@@ -1,0 +1,41 @@
+{
+  "id": "grade-7-math-q1-geometry-lesson-8",
+  "grade": 7,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Number of Sides and Angle Sums",
+  "description": "Investigate patterns in polygon angle sums, use triangle decomposition, apply the formula (n - 2)180, and determine missing angle measures or number of sides.",
+  "learningObjectives": [
+    "Explain why an n-sided polygon can be divided into n - 2 triangles from one vertex",
+    "Use the formula (n - 2)180 to find the sum of the interior angles of a polygon",
+    "Find one interior angle of a regular polygon using the angle sum divided by the number of sides",
+    "Determine the number of sides of a polygon from its interior angle sum"
+  ],
+  "prerequisites": [
+    "Identify polygons by number of sides",
+    "Know that the angles of a triangle add to 180 degrees",
+    "Divide whole numbers",
+    "Solve one-step equations"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement",
+    "polygons",
+    "angle sums",
+    "interior angles",
+    "regular polygons",
+    "triangle decomposition"
+  ],
+  "lastUpdated": "2026-05-26",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/polygon-angle-sum-triangles.svg"
+    ]
+  }
+}

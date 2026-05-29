@@ -1,0 +1,80 @@
+{
+  "examId": "grade-7-math-q1-geometry-lesson-6-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 6 Practice: Angle Pair Relationships",
+  "description": "Practice identifying angle pairs and solving missing-angle tasks.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Two angles are complementary. One angle measures 38 degrees. What is the other angle?",
+      "options": ["42 degrees", "52 degrees", "62 degrees", "142 degrees"],
+      "correctAnswer": 1,
+      "explanation": "Complementary angles add to 90 degrees, so 90 - 38 = 52.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Two angles are supplementary. One angle measures 115 degrees. What is the other angle?",
+      "options": ["25 degrees", "65 degrees", "75 degrees", "115 degrees"],
+      "correctAnswer": 1,
+      "explanation": "Supplementary angles add to 180 degrees, so 180 - 115 = 65.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "Vertical angles are always equal in measure.",
+      "correctAnswer": "true",
+      "explanation": "Vertical angles are opposite angles formed by intersecting lines, and each pair has equal measures.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "Two adjacent angles form a straight line. One angle is 47 degrees. Find the other angle. Enter just the number.",
+      "correctAnswer": "133",
+      "explanation": "Angles on a straight line are supplementary: 180 - 47 = 133.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which description best identifies adjacent angles?",
+      "options": ["They are opposite each other when two lines cross.", "They share a vertex and a side without overlapping.", "They always add to 90 degrees.", "They always have the same measure."],
+      "correctAnswer": 1,
+      "explanation": "Adjacent angles are next to each other and share a vertex and a side.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Two vertical angles are formed by intersecting lines. One angle is 126 degrees. Find the opposite angle. Enter just the number.",
+      "correctAnswer": "126",
+      "explanation": "Vertical angles are equal, so the opposite angle is also 126 degrees.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "An angle pair adds to 90 degrees. What is the correct name for the pair?",
+      "options": ["Adjacent", "Vertical", "Complementary", "Supplementary"],
+      "correctAnswer": 2,
+      "explanation": "Complementary angles have measures that add to 90 degrees.",
+      "points": 12
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A student says all adjacent angles are supplementary. Explain why this is not always true.",
+      "correctAnswer": "Adjacent angles share a vertex and a side, but they are supplementary only when they form a straight line. Some adjacent angles can add to 90 degrees or another total.",
+      "explanation": "The key idea is that adjacent describes position, while supplementary describes a sum of 180 degrees.",
+      "points": 16
+    }
+  ]
+}

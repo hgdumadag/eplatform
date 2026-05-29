@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" role="img" aria-labelledby="title desc">
+  <title id="title">Included angle size comparison</title>
+  <desc id="desc">Two triangles compare included angles. A smaller included angle has a shorter opposite side, while a larger included angle has a longer opposite side.</desc>
+  <rect width="760" height="430" fill="#fffbeb"/>
+  <text x="85" y="62" font-family="Arial, sans-serif" font-size="24" fill="#78350f" font-weight="700">Smaller included angle</text>
+  <path d="M95 320 L315 320 L258 170 Z" fill="#ffffff" stroke="#92400e" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M132 320 A42 42 0 0 1 126 296" fill="none" stroke="#0284c7" stroke-width="5"/>
+  <text x="145" y="303" font-family="Arial, sans-serif" font-size="19" fill="#0369a1">35 degrees</text>
+  <text x="176" y="348" font-family="Arial, sans-serif" font-size="20" fill="#92400e">known side</text>
+  <text x="111" y="238" font-family="Arial, sans-serif" font-size="20" fill="#92400e" transform="rotate(-69 111 238)">known side</text>
+  <text x="293" y="245" font-family="Arial, sans-serif" font-size="20" fill="#7c2d12" transform="rotate(69 293 245)">shorter opposite side</text>
+  <text x="440" y="62" font-family="Arial, sans-serif" font-size="24" fill="#78350f" font-weight="700">Larger included angle</text>
+  <path d="M430 320 L685 320 L520 125 Z" fill="#ffffff" stroke="#92400e" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M475 320 A62 62 0 0 1 451 272" fill="none" stroke="#dc2626" stroke-width="5"/>
+  <text x="482" y="294" font-family="Arial, sans-serif" font-size="19" fill="#b91c1c">120 degrees</text>
+  <text x="525" y="348" font-family="Arial, sans-serif" font-size="20" fill="#92400e">known side</text>
+  <text x="444" y="230" font-family="Arial, sans-serif" font-size="20" fill="#92400e" transform="rotate(-50 444 230)">known side</text>
+  <text x="622" y="231" font-family="Arial, sans-serif" font-size="20" fill="#7c2d12" transform="rotate(50 622 231)">longer opposite side</text>
+  <rect x="182" y="92" width="400" height="54" rx="6" fill="#ecfeff" stroke="#0891b2" stroke-width="2"/>
+  <text x="205" y="126" font-family="Arial, sans-serif" font-size="19" fill="#155e75">The side opposite a larger angle is longer.</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="410" viewBox="0 0 760 410" role="img" aria-labelledby="title desc">
+  <title id="title">Special triangle model parts</title>
+  <desc id="desc">A roof brace uses a 45-45-90 triangle with equal three centimeter legs and a ramp uses a 30-60-90 triangle with short leg two centimeters and hypotenuse four centimeters.</desc>
+  <rect width="760" height="410" fill="#ffffff"/>
+  <text x="36" y="44" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Use special triangles for precise slanted parts</text>
+  <g transform="translate(70 90)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1e3a8a">45-45-90 roof brace</text>
+    <polygon points="40,220 220,220 40,40" fill="#dbeafe" stroke="#1d4ed8" stroke-width="4"/>
+    <path d="M40 196 H64 V220" fill="none" stroke="#1d4ed8" stroke-width="3"/>
+    <text x="103" y="244" font-family="Arial, sans-serif" font-size="18" fill="#334155">3 cm</text>
+    <text x="0" y="136" font-family="Arial, sans-serif" font-size="18" fill="#334155">3 cm</text>
+    <text x="130" y="120" font-family="Arial, sans-serif" font-size="18" fill="#334155">3√2 cm</text>
+    <text x="56" y="62" font-family="Arial, sans-serif" font-size="17" fill="#1e3a8a">45°</text>
+    <text x="180" y="212" font-family="Arial, sans-serif" font-size="17" fill="#1e3a8a">45°</text>
+  </g>
+  <g transform="translate(430 90)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#166534">30-60-90 ramp</text>
+    <polygon points="30,220 270,220 30,82" fill="#dcfce7" stroke="#15803d" stroke-width="4"/>
+    <path d="M30 196 H54 V220" fill="none" stroke="#15803d" stroke-width="3"/>
+    <text x="4" y="158" font-family="Arial, sans-serif" font-size="18" fill="#334155">2 cm</text>
+    <text x="124" y="245" font-family="Arial, sans-serif" font-size="18" fill="#334155">2√3 cm</text>
+    <text x="154" y="130" font-family="Arial, sans-serif" font-size="18" fill="#334155">4 cm</text>
+    <text x="42" y="102" font-family="Arial, sans-serif" font-size="17" fill="#166534">60°</text>
+    <text x="232" y="212" font-family="Arial, sans-serif" font-size="17" fill="#166534">30°</text>
+  </g>
+  <rect x="112" y="348" width="536" height="36" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="130" y="372" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">Label triangle type, known sides, and calculated slanted side.</text>
+</svg>

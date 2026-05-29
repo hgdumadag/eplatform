@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">Street map with parallel, perpendicular, and diagonal roads</title>
+  <desc id="desc">Two horizontal parallel roads are crossed by a vertical perpendicular road and a diagonal transversal, creating marked angle relationships.</desc>
+  <rect width="760" height="360" fill="#f8fafc"/>
+  <g stroke="#cbd5e1" stroke-width="1">
+    <path d="M0 60H760M0 120H760M0 180H760M0 240H760M0 300H760"/>
+    <path d="M80 0V360M160 0V360M240 0V360M320 0V360M400 0V360M480 0V360M560 0V360M640 0V360"/>
+  </g>
+  <g stroke-linecap="round">
+    <path d="M60 115H700" stroke="#2563eb" stroke-width="18"/>
+    <path d="M60 245H700" stroke="#2563eb" stroke-width="18"/>
+    <path d="M420 35V325" stroke="#0f766e" stroke-width="18"/>
+    <path d="M145 320L620 45" stroke="#dc2626" stroke-width="14"/>
+  </g>
+  <g fill="none" stroke="#111827" stroke-width="3">
+    <path d="M420 115h34v34h-34z"/>
+    <path d="M420 245h34v-34h-34z"/>
+  </g>
+  <g fill="#111827" font-family="Arial, sans-serif" font-size="20" font-weight="700">
+    <text x="74" y="96">Parallel Road r</text>
+    <text x="74" y="229">Parallel Road s</text>
+    <text x="438" y="56">Perpendicular Ave</text>
+    <text x="522" y="96">Diagonal transversal</text>
+  </g>
+  <g fill="#fef3c7" stroke="#92400e" stroke-width="2">
+    <path d="M248 252 A48 48 0 0 1 288 218 L288 252 Z"/>
+  </g>
+  <text x="265" y="238" fill="#92400e" font-family="Arial, sans-serif" font-size="18" font-weight="700">?</text>
+</svg>

@@ -1,0 +1,110 @@
+{
+  "examId": "grade-9-math-q2-geometry-lesson-5-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 5 Assessment: Trapezoid and Kite Measure Problems",
+  "description": "Show mastery by choosing the correct trapezoid or kite property and explaining measure relationships.",
+  "passingScore": 75,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement must be true for the median of a trapezoid?",
+      "options": [
+        "It is perpendicular to both bases.",
+        "It joins the midpoints of the legs.",
+        "It has the same length as each leg.",
+        "It bisects both diagonals."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The trapezoid median, or midsegment, joins the midpoints of the legs.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A trapezoid has bases 15 and 31. What is its median?",
+      "options": [
+        "16",
+        "23",
+        "31",
+        "46"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The median is (15 + 31) / 2 = 46 / 2 = 23.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "An isosceles trapezoid has diagonals labeled (4x - 5) and 27. Which equation should be used?",
+      "options": [
+        "4x - 5 + 27 = 180",
+        "4x - 5 = 27",
+        "4x - 5 = 90",
+        "27 - 5 = 4x"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Diagonals of an isosceles trapezoid are congruent, so set their lengths equal.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "In a kite, the diagonals are perpendicular.",
+      "correctAnswer": "true",
+      "explanation": "A kite's diagonals intersect at right angles.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "The median of a trapezoid is found by averaging the two legs.",
+      "correctAnswer": "false",
+      "explanation": "The median of a trapezoid is found by averaging the two bases, not the legs.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A trapezoid has median 21 and bases 14 and b. Find b.",
+      "correctAnswer": "28",
+      "explanation": "Use 21 = (14 + b) / 2. Then 42 = 14 + b, so b = 28.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "In an isosceles trapezoid, the lower base angles are labeled (2x + 6) degrees and 70 degrees. Find x.",
+      "correctAnswer": "32",
+      "explanation": "Base angles in an isosceles trapezoid are congruent, so 2x + 6 = 70. Then 2x = 64 and x = 32.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A kite has adjacent congruent sides labeled (3x + 2) cm and 20 cm. Find x and explain the equation.",
+      "correctAnswer": "Since adjacent marked sides in a kite are congruent, set 3x + 2 = 20. Then 3x = 18, so x = 6.",
+      "explanation": "The important move is matching adjacent congruent sides, not opposite sides.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A student says, \"This trapezoid has one angle of 64 degrees, so all trapezoids must have another base angle of 64 degrees.\" Correct the statement.",
+      "correctAnswer": "Base angles are guaranteed congruent only in an isosceles trapezoid. A general trapezoid does not necessarily have congruent base angles.",
+      "explanation": "The student used an isosceles trapezoid property without being told the legs are congruent.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "In a kite, the symmetry diagonal cuts the other diagonal into segments labeled (x + 4) cm and 15 cm. The diagonals are perpendicular. Find x and state the angle formed where the diagonals meet.",
+      "correctAnswer": "The symmetry diagonal bisects the other diagonal, so x + 4 = 15 and x = 11. The diagonals are perpendicular, so the angle where they meet is 90 degrees.",
+      "explanation": "This problem uses two kite properties: one diagonal bisects the other, and the diagonals are perpendicular.",
+      "points": 10
+    }
+  ]
+}

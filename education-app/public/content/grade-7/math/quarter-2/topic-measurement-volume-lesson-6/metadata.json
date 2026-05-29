@@ -1,0 +1,41 @@
+{
+  "id": "grade-7-math-q2-measurement-volume-lesson-6",
+  "grade": 7,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Cylinder Word Problems",
+  "description": "Apply cylinder volume to real containers such as cans, tanks, and tubes, then interpret capacity answers with correct units and reasonableness checks.",
+  "learningObjectives": [
+    "Identify the radius, diameter, and height needed in cylinder word problems",
+    "Use V = pi r squared h to find the volume of cylindrical containers",
+    "Convert cubic centimeters to milliliters and liters when interpreting capacity",
+    "Check whether a cylinder volume answer is reasonable for the situation"
+  ],
+  "prerequisites": [
+    "Identify radius, diameter, height, and circular base of a cylinder",
+    "Find the area of a circle using A = pi r squared",
+    "Multiply decimals and whole numbers",
+    "Convert 1000 cubic centimeters to 1 liter and 1 cubic centimeter to 1 milliliter"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "measurement",
+    "geometry",
+    "volume",
+    "cylinders",
+    "capacity",
+    "unit conversion",
+    "word problems"
+  ],
+  "lastUpdated": "2026-05-26",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/cylinder-container-word-problem.svg"
+    ]
+  }
+}

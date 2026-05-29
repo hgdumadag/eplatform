@@ -3,7 +3,7 @@
   "grade": 6,
   "subject": "math",
   "quarter": 3,
-  "topicName": "Geometry - Lesson 7",
+  "topicName": "Geometry - Lesson 7: Composite Area",
   "description": "Find the area of composite figures by breaking them into triangles, rectangles, parallelograms, and trapezoids.",
   "learningObjectives": [
     "Identify simple shapes inside a composite figure",
@@ -22,7 +22,17 @@
   ],
   "estimatedDuration": 45,
   "difficulty": "intermediate",
-  "tags": ["geometry", "measurement", "area", "composite figures", "decomposition", "triangles", "rectangles", "trapezoids", "parallelograms"],
+  "tags": [
+    "geometry",
+    "measurement",
+    "area",
+    "composite figures",
+    "decomposition",
+    "triangles",
+    "rectangles",
+    "trapezoids",
+    "parallelograms"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {

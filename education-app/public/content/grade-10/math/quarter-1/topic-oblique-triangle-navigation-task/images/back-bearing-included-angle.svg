@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Back bearing creates the included angle</title>
+  <desc id="desc">A close view at point B showing the back bearing from B to A as 220 degrees, the bearing from B to C as 115 degrees, and the included triangle angle as 105 degrees.</desc>
+  <rect width="720" height="420" fill="#ffffff"/>
+  <circle cx="360" cy="210" r="145" fill="#eff6ff" stroke="#bfdbfe" stroke-width="2"/>
+  <path d="M360 210V58" stroke="#334155" stroke-width="3"/>
+  <path d="M360 58l-9 18M360 58l9 18" stroke="#334155" stroke-width="3" fill="none"/>
+  <text x="347" y="43" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#334155">N</text>
+  <path d="M360 210 L233 308" stroke="#2563eb" stroke-width="5" stroke-linecap="round"/>
+  <path d="M360 210 L496 264" stroke="#2563eb" stroke-width="5" stroke-linecap="round"/>
+  <path d="M360 210 L445 75" stroke="#94a3b8" stroke-width="3" stroke-dasharray="8 7" stroke-linecap="round"/>
+  <path d="M322 239 A52 52 0 0 1 408 231" fill="none" stroke="#dc2626" stroke-width="5"/>
+  <text x="350" y="293" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#b91c1c">105°</text>
+  <g font-family="Arial, sans-serif" fill="#111827">
+    <circle cx="360" cy="210" r="8" fill="#0f766e"/>
+    <text x="371" y="214" font-size="20" font-weight="700">B</text>
+    <text x="170" y="322" font-size="18">toward A</text>
+    <text x="502" y="276" font-size="18">toward C</text>
+    <text x="458" y="77" font-size="16" fill="#475569">old forward bearing 040°</text>
+    <text x="128" y="360" font-size="18" font-weight="700" fill="#1d4ed8">Back bearing B to A: 220°</text>
+    <text x="441" y="326" font-size="18" font-weight="700" fill="#1d4ed8">Bearing B to C: 115°</text>
+    <text x="238" y="390" font-size="18" fill="#111827">Included angle = 220° - 115° = 105°</text>
+  </g>
+</svg>

@@ -1,0 +1,122 @@
+{
+  "examId": "grade-10-math-q1-law-of-sines-aas-asa-assessment",
+  "examType": "assessment",
+  "title": "Trigonometry: Law of Sines for AAS and ASA Checkpoint",
+  "description": "Show that you can solve oblique triangles with two known angles using the Law of Sines.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "In △ABC, side c is opposite which angle?",
+      "options": [
+        "∠A",
+        "∠B",
+        "∠C",
+        "The smallest angle only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "By standard triangle notation, lowercase side c is opposite uppercase angle C.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 58°, ∠B = 40°, and a = 26. What is ∠C?",
+      "options": [
+        "72°",
+        "78°",
+        "82°",
+        "92°"
+      ],
+      "correctAnswer": 2,
+      "explanation": "C = 180° - 58° - 40° = 82°.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 58°, ∠B = 40°, and a = 26. What is c to the nearest tenth?",
+      "options": [
+        "19.7",
+        "26.0",
+        "30.4",
+        "32.2"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Since C = 82°, c = 26 sin 82° / sin 58° ≈ 32.2.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 43°, ∠B = 69°, and b = 19. What is c to the nearest tenth?",
+      "options": [
+        "13.9",
+        "18.9",
+        "21.2",
+        "26.0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "C = 68°. Then c = 19 sin 68° / sin 69° ≈ 18.9.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠B = 57°, ∠C = 81°, and c = 28. Which expression finds b?",
+      "options": [
+        "b = 28 sin 57° / sin 81°",
+        "b = 28 sin 81° / sin 57°",
+        "b = 28 sin 42° / sin 57°",
+        "b = 57 sin 28° / sin 81°"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Match b with ∠B and c with ∠C: b/sin 57° = 28/sin 81°, so b = 28 sin 57° / sin 81°.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "In △ABC, ∠A = 47°, ∠B = 48°, and b = 30. Find a to the nearest tenth.",
+      "correctAnswer": "29.5",
+      "explanation": "Use the complete pair B = 48° and b = 30. Then a = 30 sin 47° / sin 48° ≈ 29.5.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "In △ABC, ∠A = 31°, ∠C = 47°, and a = 12. Find b to the nearest tenth.",
+      "correctAnswer": "22.8",
+      "explanation": "B = 180° - 31° - 47° = 102°. Then b = 12 sin 102° / sin 31° ≈ 22.8.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "In △ABC, ∠A = 35°, ∠B = 75°, and a = 9.6. Find b to the nearest tenth.",
+      "correctAnswer": "16.2",
+      "explanation": "b = 9.6 sin 75° / sin 35° ≈ 16.2.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "In △ABC, ∠A = 38°, ∠B = 76°, and b = 17. Find ∠C and side c to the nearest tenth. Show the angle sum step.",
+      "correctAnswer": "C = 66° because 180° - 38° - 76° = 66°. Then c/sin 66° = 17/sin 76°, so c = 17 sin 66° / sin 76° ≈ 16.0.",
+      "explanation": "The angle sum gives C = 66°. The complete pair is B = 76° and b = 17, so c = 17 sin 66° / sin 76° ≈ 16.0.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Complete a Law of Sines solution: In △ABC, ∠A = 57°, ∠B = 84°, and a = 32. Find ∠C, b, and c to the nearest tenth, and include an angle sum check.",
+      "correctAnswer": "C = 39° because 57° + 84° + 39° = 180°. Use a/sin A = b/sin B = c/sin C. b = 32 sin 84° / sin 57° ≈ 37.5 and c = 32 sin 39° / sin 57° ≈ 23.7.",
+      "explanation": "The missing angle is C = 180° - 57° - 84° = 39°. Then b = 32 sin 84° / sin 57° ≈ 37.5 and c = 32 sin 39° / sin 57° ≈ 23.7. The angle sum check is 57° + 84° + 39° = 180°.",
+      "points": 10
+    }
+  ]
+}

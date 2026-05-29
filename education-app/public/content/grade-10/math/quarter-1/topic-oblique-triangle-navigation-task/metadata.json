@@ -1,0 +1,47 @@
+{
+  "id": "grade-10-math-q1-oblique-triangle-navigation-task",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Trigonometry: Oblique Triangle Navigation Task",
+  "description": "Apply the Law of Sines and Law of Cosines in a multi-step route-planning task involving landmarks, bearings, distances, and a final navigation recommendation.",
+  "learningObjectives": [
+    "Draw an accurate navigation diagram from landmark bearings and distances",
+    "Determine included angles in a two-leg route using forward bearings and back bearings",
+    "Choose the Law of Cosines or Law of Sines based on the information available",
+    "Compute direct distance and final bearing in a multi-step oblique-triangle task",
+    "Interpret calculated results in a clear route-planning explanation"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "trigonometry",
+    "oblique-triangles",
+    "bearings",
+    "law-of-sines",
+    "law-of-cosines",
+    "navigation",
+    "performance-task"
+  ],
+  "lastUpdated": "2026-05-29",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/route-planning-challenge.svg",
+      "images/back-bearing-included-angle.svg",
+      "images/law-choice-map.svg",
+      "images/rubric-navigation-solution.svg"
+    ]
+  },
+  "prerequisites": [
+    "Bearing notation measured clockwise from north",
+    "Back bearings found by adding or subtracting 180 degrees",
+    "Angle sum of a triangle",
+    "Law of Sines",
+    "Law of Cosines",
+    "Rounding distances and angles to a stated precision"
+  ]
+}

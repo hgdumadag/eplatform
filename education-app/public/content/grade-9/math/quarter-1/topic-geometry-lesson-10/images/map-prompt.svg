@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">Real-world road map prompt</title>
+  <desc id="desc">A simplified town map with parallel main roads, a crossing avenue, and a perpendicular side street.</desc>
+  <rect width="760" height="360" fill="#f8fafc"/>
+  <g stroke="#d7dee8" stroke-width="1">
+    <path d="M40 40H720M40 90H720M40 140H720M40 190H720M40 240H720M40 290H720"/>
+    <path d="M80 24V330M160 24V330M240 24V330M320 24V330M400 24V330M480 24V330M560 24V330M640 24V330"/>
+  </g>
+  <path d="M40 115H720" stroke="#334155" stroke-width="24" stroke-linecap="round"/>
+  <path d="M40 245H720" stroke="#334155" stroke-width="24" stroke-linecap="round"/>
+  <path d="M210 315L520 45" stroke="#64748b" stroke-width="22" stroke-linecap="round"/>
+  <path d="M430 115V320" stroke="#475569" stroke-width="18" stroke-linecap="round"/>
+  <g fill="#fff" font-family="Arial, sans-serif" font-size="20" font-weight="700">
+    <text x="70" y="122">Main Road r</text>
+    <text x="70" y="252">Main Road s</text>
+  </g>
+  <g fill="#111827" font-family="Arial, sans-serif" font-size="18">
+    <text x="530" y="65">transversal avenue</text>
+    <text x="448" y="190">perpendicular street?</text>
+  </g>
+  <g fill="#f97316">
+    <circle cx="440" cy="115" r="7"/>
+    <circle cx="360" cy="245" r="7"/>
+    <circle cx="430" cy="115" r="7"/>
+  </g>
+</svg>

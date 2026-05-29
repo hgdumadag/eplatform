@@ -1,0 +1,96 @@
+{
+  "examId": "grade-7-math-q2-measurement-volume-lesson-3-assessment",
+  "examType": "assessment",
+  "title": "Cylinder Anatomy Assessment",
+  "description": "Checkpoint on labeling cylinder models and distinguishing radius, diameter, height, bases, and curved surface.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A cylindrical water tank has a circular top and a circular bottom. What are these two circles called?",
+      "options": ["Vertices", "Bases", "Diameters", "Curved surfaces"],
+      "correctAnswer": 1,
+      "explanation": "The two flat circular faces of a cylinder are its bases.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which label best describes the rounded side wall of a cylinder?",
+      "options": ["Base", "Radius", "Curved surface", "Diameter"],
+      "correctAnswer": 2,
+      "explanation": "The rounded side wall connecting the bases is the curved surface.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "A circular can lid has radius 4 cm. What is its diameter? Enter just the number.",
+      "correctAnswer": "8",
+      "explanation": "The diameter is twice the radius, so 2 x 4 = 8.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "A round tank opening has diameter 26 cm. What is its radius? Enter just the number.",
+      "correctAnswer": "13",
+      "explanation": "The radius is half the diameter, and 26 / 2 = 13.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "The radius of a circular base is always longer than the diameter of the same base.",
+      "correctAnswer": "false",
+      "explanation": "The radius is half the diameter, so it is shorter than the diameter.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A diagram of a cylinder shows a vertical segment from the bottom circular base to the top circular base. What should this segment be labeled?",
+      "options": ["Height", "Radius", "Diameter", "Curved surface"],
+      "correctAnswer": 0,
+      "explanation": "The height is the perpendicular distance between the two bases.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A diagram shows a line across the circular top of a cylinder, from one edge to the opposite edge, passing through the center. What is this line?",
+      "options": ["Radius", "Diameter", "Height", "Curved surface"],
+      "correctAnswer": 1,
+      "explanation": "A diameter crosses the circle through the center from one edge to the opposite edge.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "question": "A cylinder has two circular bases and one curved surface.",
+      "correctAnswer": "true",
+      "explanation": "A cylinder is made of two congruent circular bases connected by a curved surface.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A student labels the full width across a can lid as the radius. Explain the mistake and give the correct label.",
+      "correctAnswer": "The full width across the lid through the center is the diameter, not the radius. The radius is only the distance from the center to the edge.",
+      "explanation": "A correct explanation distinguishes edge-to-edge through the center from center-to-edge.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Describe how to label a simple cylinder model with all five terms: base, radius, diameter, height, and curved surface.",
+      "correctAnswer": "Label the top and bottom circles as bases. On one circular base, draw the radius from the center to the edge and the diameter across the center from edge to edge. Label the perpendicular distance between the bases as height, and label the rounded side as the curved surface.",
+      "explanation": "A complete answer places each term on the correct part of the cylinder model.",
+      "points": 10
+    }
+  ]
+}

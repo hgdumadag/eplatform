@@ -1,0 +1,49 @@
+{
+  "id": "grade-9-math-q3-geometry-lesson-7",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Geometry - Lesson 7: 45-45-90 Triangles",
+  "description": "Derive and apply the side relationships in 45-45-90 triangles to find missing side lengths.",
+  "learningObjectives": [
+    "Derive the 45-45-90 triangle relationship from the diagonal of a square",
+    "Identify the side ratio x:x:x sqrt(2) in an isosceles right triangle",
+    "Find the hypotenuse when a leg is given",
+    "Find each leg when the hypotenuse is given",
+    "Choose whether to multiply or divide by sqrt(2)",
+    "Check missing side answers for reasonableness"
+  ],
+  "prerequisites": [
+    "Recognize right triangles and angle measures",
+    "Apply the Pythagorean Theorem",
+    "Simplify square roots such as sqrt(50) = 5sqrt(2)",
+    "Solve one-step equations involving multiplication and division"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "45-45-90 triangles",
+    "special right triangles",
+    "isosceles right triangles",
+    "square diagonal",
+    "missing sides",
+    "radicals"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/square-diagonal-derivation.svg",
+      "images/side-ratio.svg",
+      "images/given-leg.svg",
+      "images/given-hypotenuse.svg",
+      "images/isosceles-right-labels.svg",
+      "images/multiply-divide-trap.svg"
+    ]
+  }
+}

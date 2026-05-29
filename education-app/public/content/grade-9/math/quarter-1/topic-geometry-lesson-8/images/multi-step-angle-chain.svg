@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Multi-step angle chain</title>
+  <desc id="desc">A diagram showing angle 1 as 63 degrees, angle 5 corresponding to it, angle 6 forming a linear pair, and angle 8 vertical to angle 6.</desc>
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <line x1="80" y1="115" x2="640" y2="115" stroke="#111827" stroke-width="4"/>
+  <line x1="80" y1="245" x2="640" y2="245" stroke="#111827" stroke-width="4"/>
+  <line x1="250" y1="40" x2="485" y2="320" stroke="#b91c1c" stroke-width="4"/>
+  <path d="M286 115 A34 34 0 0 1 307 84" fill="none" stroke="#2563eb" stroke-width="5"/>
+  <text x="266" y="84" font-family="Arial" font-size="17" fill="#2563eb">1</text>
+  <text x="305" y="72" font-family="Arial" font-size="15" fill="#2563eb">63°</text>
+  <path d="M395 245 A35 35 0 0 1 417 213" fill="none" stroke="#2563eb" stroke-width="5"/>
+  <text x="376" y="214" font-family="Arial" font-size="17" fill="#2563eb">5</text>
+  <text x="420" y="214" font-family="Arial" font-size="15" fill="#2563eb">63°</text>
+  <path d="M417 213 A44 44 0 0 1 458 245" fill="none" stroke="#ea580c" stroke-width="5"/>
+  <text x="463" y="218" font-family="Arial" font-size="17" fill="#ea580c">6</text>
+  <text x="487" y="236" font-family="Arial" font-size="15" fill="#ea580c">117°</text>
+  <path d="M395 245 A43 43 0 0 0 438 288" fill="none" stroke="#16a34a" stroke-width="5"/>
+  <text x="445" y="291" font-family="Arial" font-size="17" fill="#16a34a">8 = 117°</text>
+  <text x="95" y="322" font-family="Arial" font-size="18" fill="#0f172a">Chain: corresponding, then linear pair, then vertical angles.</text>
+</svg>

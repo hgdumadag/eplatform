@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">SSS triangle with no angle measures</title>
+  <desc id="desc">A triangle labeled with side lengths 8 centimeters, 11 centimeters, and 13 centimeters. The angle positions are marked with question marks.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <path d="M120 320 L560 320 L220 90 Z" fill="#e0f2fe" stroke="#0f172a" stroke-width="5" stroke-linejoin="round"/>
+  <circle cx="120" cy="320" r="7" fill="#0f172a"/>
+  <circle cx="560" cy="320" r="7" fill="#0f172a"/>
+  <circle cx="220" cy="90" r="7" fill="#0f172a"/>
+  <text x="101" y="352" font-family="Arial, sans-serif" font-size="24" fill="#0f172a">A</text>
+  <text x="568" y="352" font-family="Arial, sans-serif" font-size="24" fill="#0f172a">B</text>
+  <text x="205" y="72" font-family="Arial, sans-serif" font-size="24" fill="#0f172a">C</text>
+  <text x="320" y="354" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" fill="#075985">13 cm</text>
+  <text x="143" y="195" transform="rotate(-66 143 195)" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" fill="#075985">8 cm</text>
+  <text x="402" y="184" transform="rotate(34 402 184)" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" fill="#075985">11 cm</text>
+  <text x="159" y="292" font-family="Arial, sans-serif" font-size="30" fill="#be123c">?</text>
+  <text x="518" y="292" font-family="Arial, sans-serif" font-size="30" fill="#be123c">?</text>
+  <text x="237" y="124" font-family="Arial, sans-serif" font-size="30" fill="#be123c">?</text>
+  <text x="360" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">All sides are known. Angles are unknown.</text>
+</svg>

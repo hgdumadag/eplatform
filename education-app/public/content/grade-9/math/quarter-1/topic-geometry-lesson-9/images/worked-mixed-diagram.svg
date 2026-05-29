@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" role="img" aria-labelledby="title desc">
+  <title id="title">Worked mixed parallel and perpendicular angle diagram</title>
+  <desc id="desc">Parallel lines r and s are crossed by a diagonal transversal. A vertical line is perpendicular to the lower parallel line. Angles 1, 2, 3, and 4 are labeled.</desc>
+  <rect width="760" height="430" fill="#f8fafc"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#475569"/>
+    </marker>
+  </defs>
+  <path d="M80 130H680M80 280H680" stroke="#2563eb" stroke-width="6" stroke-linecap="round"/>
+  <path d="M210 350L560 65" stroke="#dc2626" stroke-width="6" stroke-linecap="round"/>
+  <path d="M535 210V350" stroke="#0f766e" stroke-width="6" stroke-linecap="round"/>
+  <path d="M535 280h28v28h-28z" fill="none" stroke="#0f766e" stroke-width="3"/>
+  <g font-family="Arial, sans-serif" font-size="20" fill="#111827" font-weight="700">
+    <text x="690" y="136">r</text>
+    <text x="690" y="286">s</text>
+    <text x="360" y="94">transversal</text>
+  </g>
+  <g fill="#fef3c7" stroke="#92400e" stroke-width="2">
+    <path d="M470 130 A50 50 0 0 1 509 98 L509 130 Z"/>
+    <path d="M286 280 A52 52 0 0 1 326 247 L326 280 Z"/>
+    <path d="M326 280 A54 54 0 0 1 280 310 L326 280 Z"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="24" fill="#92400e" font-weight="700">
+    <text x="486" y="117">1</text>
+    <text x="304" y="268">2</text>
+    <text x="287" y="305">3</text>
+    <text x="548" y="305">4</text>
+  </g>
+  <g stroke="#475569" stroke-width="2" marker-end="url(#arrow)">
+    <path d="M126 92h55"/>
+    <path d="M126 108h55"/>
+    <path d="M126 242h55"/>
+    <path d="M126 258h55"/>
+  </g>
+  <text x="110" y="390" font-family="Arial, sans-serif" font-size="18" fill="#374151">Given m∠1 = 68°. Find ∠2, ∠3, and ∠4.</text>
+</svg>

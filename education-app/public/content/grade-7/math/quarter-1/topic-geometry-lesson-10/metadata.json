@@ -1,0 +1,43 @@
+{
+  "id": "grade-7-math-q1-geometry-lesson-10",
+  "grade": 7,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Quarter Polygon Portfolio",
+  "description": "Create a polygon portfolio reference sheet with accurate drawings, labels, classifications, angle relationships, and solved examples from the Grade 7 Quarter 1 polygon unit.",
+  "learningObjectives": [
+    "Create a polygon reference sheet with drawings, labels, and solved examples",
+    "Classify polygons by number of sides, regularity, and convexity",
+    "Use interior, exterior, and adjacent angle relationships to justify measurements",
+    "Defend polygon classifications and measurements using clear mathematical reasoning"
+  ],
+  "prerequisites": [
+    "Define polygon, side, vertex, diagonal, regular, and irregular",
+    "Draw polygons using a ruler and protractor",
+    "Classify convex and non-convex polygons",
+    "Describe complementary, supplementary, vertical, adjacent, interior, and exterior angles",
+    "Use polygon angle-sum patterns"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement",
+    "polygons",
+    "portfolio",
+    "regular polygons",
+    "irregular polygons",
+    "angle sums",
+    "classification"
+  ],
+  "lastUpdated": "2026-05-26",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/polygon-portfolio-sample.svg"
+    ]
+  }
+}

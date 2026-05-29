@@ -1,0 +1,52 @@
+{
+  "id": "grade-9-math-q2-geometry-lesson-3",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Geometry - Lesson 3: Parallelogram Properties",
+  "description": "Find missing side lengths, angle measures, heights, and diagonal parts in parallelograms using their defining properties.",
+  "learningObjectives": [
+    "Identify the defining properties of a parallelogram",
+    "Use opposite side and opposite angle relationships to solve for unknown measures",
+    "Use consecutive angle relationships to find missing angles",
+    "Use diagonal bisection to find missing segment lengths",
+    "Apply base-height reasoning to solve area and height problems"
+  ],
+  "prerequisites": [
+    "Identify parallel lines and angle relationships",
+    "Use supplementary angles that add to 180 degrees",
+    "Solve one-step and two-step equations",
+    "Find area of rectangles using base times height",
+    "Read basic geometric diagrams and labels"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "parallelograms",
+    "quadrilaterals",
+    "opposite sides",
+    "opposite angles",
+    "supplementary angles",
+    "diagonals",
+    "height",
+    "area"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/real-world-parallelogram-prompt.svg",
+      "images/parallelogram-properties-map.svg",
+      "images/opposite-sides-angles.svg",
+      "images/diagonals-bisect.svg",
+      "images/worked-parallelogram-example.svg",
+      "images/base-height-area.svg",
+      "images/error-analysis-parallelogram.svg"
+    ]
+  }
+}

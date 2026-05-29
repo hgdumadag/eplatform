@@ -1,0 +1,49 @@
+{
+  "id": "grade-9-math-q1-geometry-lesson-9",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Geometry - Lesson 9: Mixed Parallel and Perpendicular Problems",
+  "description": "Solve multi-step angle problems involving parallel lines, perpendicular lines, transversals, and organized written reasoning.",
+  "learningObjectives": [
+    "Identify angle relationships in diagrams with parallel and perpendicular lines",
+    "Use vertical, linear pair, supplementary, corresponding, alternate interior, and same-side interior relationships",
+    "Apply perpendicular-line facts to find right angles and connected missing measures",
+    "Solve multi-step missing-angle problems involving transversals",
+    "Write organized reasoning that justifies each angle measure"
+  ],
+  "prerequisites": [
+    "Name and measure angles from diagrams",
+    "Identify vertical angles, adjacent angles, linear pairs, and supplementary angles",
+    "Recognize corresponding, alternate interior, alternate exterior, and same-side interior angles",
+    "Use parallel-line angle theorems",
+    "Know that perpendicular lines form four right angles"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "parallel lines",
+    "perpendicular lines",
+    "transversals",
+    "angle relationships",
+    "missing angles",
+    "organized reasoning"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/street-map-prompt.svg",
+      "images/relationship-toolkit.svg",
+      "images/worked-mixed-diagram.svg",
+      "images/perpendicular-transversal-chain.svg",
+      "images/organized-reasoning-map.svg",
+      "images/error-analysis-mixed-angles.svg"
+    ]
+  }
+}

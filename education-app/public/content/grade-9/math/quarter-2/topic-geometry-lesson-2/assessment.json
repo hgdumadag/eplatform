@@ -1,0 +1,122 @@
+{
+  "examId": "grade-9-math-q2-geometry-lesson-2-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 2 Assessment: Formal Quadrilateral Classification",
+  "description": "Show mastery by classifying quadrilaterals from definitions, properties, hierarchy, and written evidence.",
+  "passingScore": 75,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which set of properties guarantees that a quadrilateral is a square?",
+      "options": [
+        "Exactly one pair of parallel sides",
+        "Four right angles and four congruent sides",
+        "Two pairs of adjacent congruent sides",
+        "Two pairs of parallel sides only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A square has both rectangle properties and rhombus properties: four right angles and four congruent sides.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A quadrilateral has four congruent sides, but no right angles are given. What is the most specific classification guaranteed?",
+      "options": [
+        "Rectangle",
+        "Rhombus",
+        "Square",
+        "Trapezoid only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Four congruent sides guarantee a rhombus. A square would also require right-angle evidence.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which statement best explains the quadrilateral hierarchy?",
+      "options": [
+        "A square belongs only to the square category.",
+        "A rectangle cannot be a parallelogram.",
+        "A square is a special rectangle and a special rhombus.",
+        "A kite must always be a rectangle."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A square satisfies the definitions of square, rectangle, rhombus, parallelogram, and quadrilateral.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "A shape that looks like a diamond is automatically a rhombus.",
+      "correctAnswer": "false",
+      "explanation": "A rhombus must have four congruent sides. The drawing's appearance is not enough proof.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "A parallelogram with four right angles is called a ______.",
+      "correctAnswer": "rectangle",
+      "explanation": "A rectangle is a parallelogram with four right angles.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Which property best distinguishes a kite from a rhombus?",
+      "options": [
+        "A kite has no sides.",
+        "A kite has exactly three right angles.",
+        "A kite has two distinct pairs of adjacent congruent sides, while a rhombus has all four sides congruent.",
+        "A kite always has two pairs of opposite parallel sides."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A kite is based on adjacent congruent side pairs. A rhombus has all four sides congruent and is a parallelogram.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A quadrilateral has diagonals that bisect each other. What family is guaranteed by this property?",
+      "options": [
+        "Parallelogram",
+        "Kite",
+        "Trapezoid with exactly one pair of parallel sides",
+        "No quadrilateral family"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Diagonals that bisect each other are a standard parallelogram condition.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A quadrilateral has exactly one pair of parallel sides. Explain why it is not a parallelogram.",
+      "correctAnswer": "A parallelogram must have two pairs of parallel opposite sides. Exactly one pair of parallel sides makes it a trapezoid but not a parallelogram.",
+      "explanation": "The word exactly limits the parallel-side evidence to one pair, so the parallelogram definition is not satisfied.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A quadrilateral has four right angles and side lengths 6 cm, 6 cm, 6 cm, and 6 cm. Give the most specific classification and one broader correct classification.",
+      "correctAnswer": "The most specific classification is square. A broader correct classification is rectangle, rhombus, parallelogram, or quadrilateral.",
+      "explanation": "Four right angles and four congruent sides make a square. Since a square satisfies broader definitions, several broader classifications are also correct.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A student says, \"This quadrilateral is a rectangle because it looks like a window.\" Correct the reasoning.",
+      "correctAnswer": "The student needs geometric evidence, such as four right angles or a statement that it is a parallelogram with a right angle. Appearance alone does not prove rectangle.",
+      "explanation": "Formal classification must cite definitions, measurements, markings, or given statements rather than real-world appearance.",
+      "points": 10
+    }
+  ]
+}

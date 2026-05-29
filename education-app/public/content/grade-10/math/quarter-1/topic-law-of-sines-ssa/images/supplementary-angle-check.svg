@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">Supplementary angle check</title>
+  <desc id="desc">A sine wave and angle markers show that an acute angle and its obtuse supplement can have the same sine value.</desc>
+  <rect width="760" height="360" fill="#f8fafc"/>
+  <line x1="80" y1="260" x2="700" y2="260" stroke="#334155" stroke-width="3"/>
+  <line x1="100" y1="300" x2="100" y2="60" stroke="#334155" stroke-width="3"/>
+  <path d="M100 260 C180 76 280 76 360 260 C440 444 540 444 620 260" fill="none" stroke="#2563eb" stroke-width="5"/>
+  <line x1="100" y1="150" x2="620" y2="150" stroke="#f97316" stroke-width="3" stroke-dasharray="10 8"/>
+  <circle cx="170" cy="150" r="7" fill="#dc2626"/>
+  <circle cx="290" cy="150" r="7" fill="#dc2626"/>
+  <line x1="170" y1="260" x2="170" y2="150" stroke="#dc2626" stroke-width="3"/>
+  <line x1="290" y1="260" x2="290" y2="150" stroke="#dc2626" stroke-width="3"/>
+  <text x="136" y="292" font-family="Arial, sans-serif" font-size="21" fill="#111827">B</text>
+  <text x="232" y="292" font-family="Arial, sans-serif" font-size="21" fill="#111827">180° - B</text>
+  <text x="424" y="98" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Same sine value</text>
+  <text x="424" y="132" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">Check both angle candidates</text>
+  <text x="424" y="162" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">when the information is SSA.</text>
+  <text x="112" y="88" font-family="Arial, sans-serif" font-size="18" fill="#64748b">sin angle</text>
+  <text x="602" y="288" font-family="Arial, sans-serif" font-size="18" fill="#64748b">angle</text>
+</svg>

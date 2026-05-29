@@ -1,0 +1,110 @@
+{
+  "examId": "grade-9-math-q2-geometry-lesson-10-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 10 Assessment: Building Congruence Proofs",
+  "description": "Assess complete reasoning for two-column triangle congruence proofs, including givens, shared parts, congruence shortcuts, and CPCTC.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Given $\\overline{AB} \\cong \\overline{DE}$, $\\angle B \\cong \\angle E$, and $\\overline{BC} \\cong \\overline{EF}$, which reason proves $\\triangle ABC \\cong \\triangle DEF$?",
+      "options": [
+        "SSS",
+        "SAS",
+        "ASA",
+        "CPCTC"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The angle is included between the two given side pairs, so the congruence shortcut is SAS.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which line should usually come before using CPCTC?",
+      "options": [
+        "A line proving the two triangles congruent",
+        "A line saying the diagram looks accurate",
+        "A line using SSA",
+        "A line measuring the drawing with a ruler"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CPCTC can be used only after the proof establishes that the triangles are congruent.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Two right triangles have congruent hypotenuses and one pair of congruent legs. Which shortcut applies?",
+      "options": [
+        "AAA",
+        "SSA",
+        "HL",
+        "CPCTC"
+      ],
+      "correctAnswer": 2,
+      "explanation": "HL proves right triangles congruent when their hypotenuses and one pair of legs are congruent.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "If $\\triangle ABC \\cong \\triangle DEF$, then vertex $B$ corresponds to vertex $E$.",
+      "correctAnswer": "true",
+      "explanation": "Corresponding vertices are matched by order: A with D, B with E, and C with F.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "AAA is a valid way to prove two triangles congruent.",
+      "correctAnswer": "false",
+      "explanation": "AAA can show triangles are similar, but it does not prove they are the same size.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A valid reason for the statement $\\angle AEB \\cong \\angle CED$ when two lines intersect at $E$ is the ______ Angles Theorem.",
+      "correctAnswer": "Vertical",
+      "explanation": "Opposite angles formed by intersecting lines are vertical angles, and vertical angles are congruent.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "The abbreviation CPCTC stands for Corresponding Parts of Congruent Triangles are ______.",
+      "correctAnswer": "Congruent",
+      "explanation": "CPCTC lets you prove matching sides or angles after proving triangles congruent.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Given $M$ is the midpoint of $\\overline{AB}$, write one statement and reason that can be used in a proof.",
+      "correctAnswer": "$\\overline{AM} \\cong \\overline{MB}$ by the definition of midpoint.",
+      "explanation": "A midpoint divides a segment into two congruent segments.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A proof has $\\overline{PQ} \\cong \\overline{XY}$, $\\angle Q \\cong \\angle Y$, and $\\angle P \\cong \\angle X$. Identify the congruence shortcut and explain whether the side is included.",
+      "correctAnswer": "ASA. The side $\\overline{PQ}$ is included between angles P and Q, and $\\overline{XY}$ is included between angles X and Y.",
+      "explanation": "Two angle pairs and the included side pair prove triangle congruence by ASA.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Complete the proof idea: Given $\\overline{AE} \\cong \\overline{CE}$ and $\\overline{BE} \\cong \\overline{DE}$, lines $AC$ and $BD$ intersect at $E$. Prove $\\overline{AB} \\cong \\overline{CD}$.",
+      "correctAnswer": "Use the Vertical Angles Theorem to get $\\angle AEB \\cong \\angle CED$. Then $\\triangle AEB \\cong \\triangle CED$ by SAS. Therefore, $\\overline{AB} \\cong \\overline{CD}$ by CPCTC.",
+      "explanation": "The proof needs two given side pairs, the included vertical angle pair, SAS triangle congruence, and then CPCTC for the final side pair.",
+      "points": 10
+    }
+  ]
+}

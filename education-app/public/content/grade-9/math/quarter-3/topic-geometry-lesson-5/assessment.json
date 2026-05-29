@@ -1,0 +1,110 @@
+{
+  "examId": "grade-9-math-q3-geometry-lesson-5-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 5 Assessment: Similar Triangle Proportions",
+  "description": "Show mastery of corresponding side labels, proportions, cross-products, nested triangles, and side splitter relationships.",
+  "passingScore": 75,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Given $\\triangle LMN \\sim \\triangle PQR$, which side corresponds to $LN$?",
+      "options": [
+        "$PQ$",
+        "$QR$",
+        "$PR$",
+        "$MN$"
+      ],
+      "correctAnswer": 2,
+      "explanation": "$L$ matches $P$ and $N$ matches $R$, so $LN$ corresponds to $PR$.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "$\\triangle ABC \\sim \\triangle XYZ$. If $AB = 5$, $XY = 8$, $BC = 15$, and $YZ = x$, which equation should be used?",
+      "options": [
+        "$\\dfrac{5}{8} = \\dfrac{15}{x}$",
+        "$\\dfrac{5}{15} = \\dfrac{8}{x}$",
+        "$\\dfrac{5}{x} = \\dfrac{15}{8}$",
+        "$\\dfrac{5}{8} = \\dfrac{x}{15}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$AB$ corresponds to $XY$ and $BC$ corresponds to $YZ$, so the consistent proportion is $\\frac{5}{8} = \\frac{15}{x}$.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "In $\\triangle ABC$, segment $DE$ is parallel to $BC$, with $D$ on $AB$ and $E$ on $AC$. Which similarity statement is correct?",
+      "options": [
+        "$\\triangle ADE \\sim \\triangle ABC$",
+        "$\\triangle ADE \\sim \\triangle ACB$",
+        "$\\triangle DBE \\sim \\triangle ABC$",
+        "$\\triangle DEC \\sim \\triangle BAC$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The smaller triangle $ADE$ shares angle $A$ with the larger triangle, and $DE \\parallel BC$ creates matching angles, so $\\triangle ADE \\sim \\triangle ABC$.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "If $\\triangle ABC \\sim \\triangle DEF$, then $\\dfrac{AB}{BC} = \\dfrac{DE}{EF}$ is a valid proportion.",
+      "correctAnswer": "true",
+      "explanation": "This compares two sides within the first triangle to their corresponding sides within the second triangle in the same order.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "In a side splitter problem, $\\dfrac{AD}{DB} = \\dfrac{AE}{EC}$ is valid only when the inside segment is parallel to the third side.",
+      "correctAnswer": "true",
+      "explanation": "The side splitter relationship depends on the parallel segment creating similar triangles and proportional side divisions.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Solve for $x$: $\\dfrac{9}{12} = \\dfrac{x}{20}$.",
+      "correctAnswer": "15",
+      "explanation": "Cross-multiply to get $12x = 180$, so $x = 15$.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "$\\triangle RST \\sim \\triangle UVW$. If $RS = 8$, $UV = 12$, $RT = 10$, and $UW = x$, find $x$.",
+      "correctAnswer": "15",
+      "explanation": "$RS$ corresponds to $UV$ and $RT$ corresponds to $UW$, so $\\frac{8}{12} = \\frac{10}{x}$. Then $8x = 120$, so $x = 15$.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "In a nested triangle, $DE \\parallel BC$, $AD = 6$, $AB = 14$, $AE = 9$, and $AC = x$. Find $x$ and explain which sides correspond.",
+      "correctAnswer": "The small triangle ADE is similar to the large triangle ABC. AD corresponds to AB and AE corresponds to AC, so 6/14 = 9/x. Then 6x = 126 and x = 21.",
+      "explanation": "The key is comparing the small side to the whole matching large side for both side pairs.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A student writes $\\dfrac{AB}{DE} = \\dfrac{AC}{EF}$ for $\\triangle ABC \\sim \\triangle DEF$. Correct the proportion and explain the error.",
+      "correctAnswer": "The corrected proportion is AB/DE = AC/DF. The error is that AC corresponds to DF, not EF, because A matches D and C matches F.",
+      "explanation": "Corresponding sides must follow the matching vertices in the similarity statement.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A side splitter diagram has $DE \\parallel BC$, $AD = 5$, $DB = 7$, $AE = x + 1$, and $EC = 12$. Find $x$.",
+      "correctAnswer": "Use AD/DB = AE/EC, so 5/7 = (x + 1)/12. Cross-multiply to get 7(x + 1) = 60, so 7x + 7 = 60, 7x = 53, and x = 53/7.",
+      "explanation": "Because the inner segment is parallel to the third side, the split side ratios are proportional. The expression x + 1 represents the segment AE.",
+      "points": 10
+    }
+  ]
+}

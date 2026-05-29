@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="460" viewBox="0 0 720 460" role="img" aria-labelledby="title desc">
+  <title id="title">Compass bearing measured clockwise from north</title>
+  <desc id="desc">A compass diagram showing north at zero degrees, east at ninety degrees, and a sample bearing of fifty degrees measured clockwise from north.</desc>
+  <rect width="720" height="460" fill="#f8fafc"/>
+  <circle cx="360" cy="230" r="150" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+  <line x1="360" y1="80" x2="360" y2="380" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="210" y1="230" x2="510" y2="230" stroke="#94a3b8" stroke-width="2"/>
+  <text x="360" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">N / 000 deg</text>
+  <text x="536" y="238" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">E / 090 deg</text>
+  <text x="360" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">S / 180 deg</text>
+  <text x="145" y="238" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">W / 270 deg</text>
+  <path d="M360 230 L475 134" stroke="#dc2626" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="475,134 457,140 469,154" fill="#dc2626"/>
+  <path d="M360 126 A104 104 0 0 1 440 164" fill="none" stroke="#2563eb" stroke-width="5"/>
+  <polygon points="440,164 421,160 432,180" fill="#2563eb"/>
+  <text x="441" y="107" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#2563eb">050 deg</text>
+  <text x="360" y="226" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#334155">start</text>
+  <text x="360" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#475569">measure clockwise</text>
+</svg>

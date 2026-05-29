@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Standard transversal angle map</title>
+  <desc id="desc">Two horizontal lines are crossed by a diagonal transversal. The eight angles are labeled 1 through 8.</desc>
+  <rect width="900" height="520" fill="#f8fafc"/>
+  <g font-family="Arial, sans-serif" fill="#0f172a">
+    <text x="450" y="42" text-anchor="middle" font-size="26" font-weight="700">Standard Transversal Diagram</text>
+    <rect x="130" y="205" width="640" height="110" fill="#ecfdf5" stroke="#10b981" stroke-width="2" stroke-dasharray="10 8"/>
+    <text x="730" y="260" font-size="18" fill="#047857">interior region</text>
+    <line x1="120" y1="205" x2="780" y2="205" stroke="#2563eb" stroke-width="5"/>
+    <line x1="120" y1="315" x2="780" y2="315" stroke="#2563eb" stroke-width="5"/>
+    <text x="795" y="211" font-size="18" font-weight="700">line a</text>
+    <text x="795" y="321" font-size="18" font-weight="700">line b</text>
+    <line x1="310" y1="470" x2="590" y2="70" stroke="#f97316" stroke-width="6"/>
+    <text x="598" y="82" font-size="18" font-weight="700" fill="#9a3412">transversal t</text>
+    <circle cx="495.5" cy="205" r="7" fill="#111827"/>
+    <circle cx="418.5" cy="315" r="7" fill="#111827"/>
+    <text x="430" y="180" font-size="24" font-weight="700">1</text>
+    <text x="535" y="180" font-size="24" font-weight="700">2</text>
+    <text x="432" y="247" font-size="24" font-weight="700">3</text>
+    <text x="524" y="247" font-size="24" font-weight="700">4</text>
+    <text x="354" y="292" font-size="24" font-weight="700">5</text>
+    <text x="456" y="292" font-size="24" font-weight="700">6</text>
+    <text x="352" y="358" font-size="24" font-weight="700">7</text>
+    <text x="445" y="358" font-size="24" font-weight="700">8</text>
+    <text x="146" y="110" font-size="18">Exterior angles: 1, 2, 7, 8</text>
+    <text x="146" y="138" font-size="18">Interior angles: 3, 4, 5, 6</text>
+  </g>
+</svg>

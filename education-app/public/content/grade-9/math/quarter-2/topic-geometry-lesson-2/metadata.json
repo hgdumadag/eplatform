@@ -1,0 +1,50 @@
+{
+  "id": "grade-9-math-q2-geometry-lesson-2",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Geometry - Lesson 2: Formal Quadrilateral Classification",
+  "description": "Classify quadrilaterals by definition, not appearance, using side, angle, diagonal, and hierarchy properties.",
+  "learningObjectives": [
+    "Classify quadrilaterals using formal definitions and given properties",
+    "Distinguish parallelograms, rectangles, squares, rhombuses, trapezoids, and kites",
+    "Explain the hierarchy of special quadrilaterals",
+    "Use side, angle, and diagonal properties to justify a classification",
+    "Avoid classification errors caused by relying only on appearance"
+  ],
+  "prerequisites": [
+    "Identify parallel and perpendicular lines",
+    "Recognize congruent segments and congruent angles",
+    "Use basic angle relationships from parallel lines",
+    "Know that a quadrilateral has four sides"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "quadrilaterals",
+    "classification",
+    "parallelogram",
+    "rectangle",
+    "square",
+    "rhombus",
+    "trapezoid",
+    "kite"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/real-world-quadrilateral-prompt.svg",
+      "images/quadrilateral-hierarchy.svg",
+      "images/property-evidence-cards.svg",
+      "images/worked-classification.svg",
+      "images/special-quadrilaterals.svg",
+      "images/error-analysis-appearance.svg"
+    ]
+  }
+}

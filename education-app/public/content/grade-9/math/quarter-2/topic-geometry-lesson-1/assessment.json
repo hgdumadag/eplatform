@@ -1,0 +1,116 @@
+{
+  "examId": "grade-9-math-q2-geometry-lesson-1-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 1 Assessment: Proving Parallel and Perpendicular Conditions",
+  "description": "Assess whether students can decide if lines must be parallel or perpendicular using angle relationships and right-angle conditions.",
+  "passingScore": 75,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which condition is enough to prove that two lines cut by a transversal are parallel?",
+      "options": [
+        "A pair of corresponding angles are congruent.",
+        "One angle is acute.",
+        "The lines look close together.",
+        "A pair of adjacent angles are unequal."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Congruent corresponding angles are a valid condition for proving parallel lines.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Two lines intersect and form four angles. One angle measures $90^\\circ$. Which statement must be true?",
+      "options": [
+        "Only one angle is a right angle.",
+        "The two lines are perpendicular.",
+        "The two lines are parallel.",
+        "The two lines do not intersect."
+      ],
+      "correctAnswer": 1,
+      "explanation": "If intersecting lines form a right angle, the lines are perpendicular. The other angles are also right angles.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "Congruent alternate interior angles can prove that two lines are parallel.",
+      "correctAnswer": "true",
+      "explanation": "The alternate interior angles converse says that if alternate interior angles are congruent, then the lines are parallel.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "Same-side interior angles measure $x^\\circ$ and $124^\\circ$. If the lines are parallel, $x = $ ______.",
+      "correctAnswer": "56",
+      "explanation": "Same-side interior angles are supplementary for parallel lines, so $x = 180 - 124 = 56$.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Alternate interior angles measure $68^\\circ$ and $112^\\circ$. What conclusion can you make about parallel lines from this information alone?",
+      "options": [
+        "The lines must be parallel because the angles are supplementary.",
+        "The lines must be perpendicular because the angles are different.",
+        "The lines are not proven parallel by alternate interior angles.",
+        "The lines must be parallel because all interior angles prove parallel lines."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Alternate interior angles prove parallel lines when they are congruent. Since $68 \\ne 112$, this condition is not met.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Which pair of angle measures could be same-side interior angles that prove two lines are parallel?",
+      "options": [
+        "$40^\\circ$ and $40^\\circ$",
+        "$95^\\circ$ and $85^\\circ$",
+        "$90^\\circ$ and $45^\\circ$",
+        "$120^\\circ$ and $30^\\circ$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Same-side interior angles prove parallel lines when their measures add to 180°. $95 + 85 = 180$.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "Lines $a$ and $b$ are cut by transversal $t$. One pair of corresponding angles measures $(3x + 4)^\\circ$ and $79^\\circ$. If $x = 25$, decide whether $a$ and $b$ are parallel and explain.",
+      "correctAnswer": "Yes. $3(25) + 4 = 79$, so the corresponding angles are congruent. Therefore, $a \\parallel b$.",
+      "explanation": "Substitute first, then use the corresponding angles condition for parallel lines.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Two lines intersect. The angles formed are labeled $90^\\circ$, $90^\\circ$, $90^\\circ$, and $90^\\circ$. Write a complete conclusion.",
+      "correctAnswer": "The two lines are perpendicular because they intersect to form right angles.",
+      "explanation": "A complete conclusion names the relationship and gives the right-angle reason.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A student sees two horizontal-looking lines in a drawing and writes, \"They are definitely parallel.\" What is missing from the student's reasoning?",
+      "correctAnswer": "The student needs a given condition, such as congruent corresponding angles, congruent alternate interior angles, supplementary same-side interior angles, or markings that prove the same direction. Appearance alone is not enough.",
+      "explanation": "Geometry conclusions should be based on given measurements, markings, or theorems, not only on the way a sketch looks.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Same-side interior angles are labeled $(2x + 15)^\\circ$ and $(3x - 10)^\\circ$. If the two lines are parallel, find $x$ and both angle measures.",
+      "correctAnswer": "Because same-side interior angles are supplementary, $(2x + 15) + (3x - 10) = 180$. Then $5x + 5 = 180$, $5x = 175$, and $x = 35$. The angles are $85^\\circ$ and $95^\\circ$.",
+      "explanation": "Use the supplementary condition for same-side interior angles on parallel lines, then solve the linear equation.",
+      "points": 10
+    }
+  ]
+}

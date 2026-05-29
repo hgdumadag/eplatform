@@ -1,0 +1,128 @@
+{
+  "examId": "grade-7-math-q1-geometry-lesson-5-assessment",
+  "examType": "assessment",
+  "title": "Convex and Non-Convex Polygons Assessment",
+  "description": "Show that you can classify polygons and justify your answer using angles and diagonals.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which condition guarantees that a polygon is convex?",
+      "options": [
+        "It has exactly one diagonal.",
+        "All its interior angles are less than 180 degrees.",
+        "It has at least one angle greater than 180 degrees.",
+        "It has unequal side lengths."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A polygon is convex when every interior angle is less than 180 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A pentagon has interior angles 85 degrees, 95 degrees, 110 degrees, 250 degrees, and 180 degrees in a rough sketch. Which classification is supported by the 250-degree angle?",
+      "options": [
+        "Convex",
+        "Non-convex",
+        "Equiangular",
+        "Regular"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The 250-degree angle is greater than 180 degrees, so it supports a non-convex classification.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A polygon with one inward dent can still be convex if it has many sides.",
+      "correctAnswer": "false",
+      "explanation": "Any inward dent makes the polygon non-convex, no matter how many sides it has.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Which observation is the best diagonal-based evidence that a polygon is non-convex?",
+      "options": [
+        "One diagonal connects two non-adjacent vertices.",
+        "One diagonal lies outside the polygon for part of its length.",
+        "The polygon has several diagonals.",
+        "The diagonals have different lengths."
+      ],
+      "correctAnswer": 1,
+      "explanation": "For a non-convex polygon, at least one diagonal goes outside the polygon.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A quadrilateral has interior angles 70 degrees, 110 degrees, 80 degrees, and 100 degrees. How should it be classified by convexity?",
+      "options": [
+        "Convex",
+        "Non-convex",
+        "Not a polygon",
+        "Cannot be classified because the sides are unknown"
+      ],
+      "correctAnswer": 0,
+      "explanation": "All four interior angles are less than 180 degrees, so the quadrilateral is convex.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A polygon with at least one interior angle greater than 180 degrees is called ____.",
+      "correctAnswer": "non-convex",
+      "explanation": "The term is non-convex. It is also sometimes called concave.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "Explain why side count alone cannot tell whether a hexagon is convex or non-convex.",
+      "correctAnswer": "Side count alone is not enough because a hexagon can have no inward dents and be convex, or it can have an inward dent and be non-convex.",
+      "explanation": "Convexity depends on shape behavior, interior angles, and diagonals, not only the number of sides.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A student says, 'This polygon is convex because it has all straight sides.' What is the best correction?",
+      "options": [
+        "Straight sides only show that it may be a polygon; convexity depends on inward dents, angles, or diagonals.",
+        "Straight sides prove the shape is regular.",
+        "Straight sides prove the shape is non-convex.",
+        "Only curved sides can form polygons."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Having straight sides is part of being a polygon, but it does not prove convexity.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A diagonal from vertex B to vertex E of a polygon passes outside the shape. Classify the polygon and justify your answer.",
+      "correctAnswer": "The polygon is non-convex because at least one diagonal passes outside the polygon.",
+      "explanation": "The diagonal test gives direct evidence: convex polygons keep all diagonals inside.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "Which pair of statements correctly compares convex and non-convex polygons?",
+      "options": [
+        "Convex polygons have an inward dent; non-convex polygons do not.",
+        "Convex polygons keep all diagonals inside; non-convex polygons have at least one diagonal outside.",
+        "Convex polygons must be regular; non-convex polygons must be irregular.",
+        "Convex polygons have curved sides; non-convex polygons have straight sides."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The diagonal comparison is correct and is a reliable way to justify the classification.",
+      "points": 10
+    }
+  ]
+}

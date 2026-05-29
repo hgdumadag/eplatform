@@ -1,0 +1,50 @@
+{
+  "id": "grade-9-math-q1-geometry-lesson-8",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Geometry - Lesson 8: Parallel Line Angle Theorems",
+  "description": "Use parallel line angle theorems to find missing angle measures and justify each step with the correct relationship.",
+  "learningObjectives": [
+    "Identify corresponding, alternate interior, alternate exterior, same-side interior, vertical, and linear-pair angle relationships",
+    "Use congruent angle relationships to transfer a known measure to another angle",
+    "Use supplementary angle relationships to calculate missing measures",
+    "Solve multi-step parallel-line angle problems",
+    "Justify each angle-measure step with a named relationship"
+  ],
+  "prerequisites": [
+    "Name angles from diagrams using correct notation",
+    "Identify angle pairs formed by a transversal",
+    "Recognize that vertical angles are congruent",
+    "Recognize that a linear pair is supplementary",
+    "Solve one-step equations involving sums of 180"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "parallel lines",
+    "transversal",
+    "corresponding angles",
+    "alternate interior angles",
+    "same-side interior angles",
+    "supplementary angles",
+    "angle theorems"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/real-world-parallel-lines.svg",
+      "images/angle-pair-map.svg",
+      "images/corresponding-worked-example.svg",
+      "images/same-side-interior-example.svg",
+      "images/multi-step-angle-chain.svg",
+      "images/error-analysis-parallel-lines.svg"
+    ]
+  }
+}

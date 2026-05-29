@@ -1,0 +1,53 @@
+{
+  "id": "grade-9-math-q2-geometry-lesson-9",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Geometry - Lesson 9: Geometric Constructions",
+  "description": "Construct segments, angles, triangles, secondary parts, and triangle centers, then justify each construction using congruence ideas.",
+  "learningObjectives": [
+    "Copy a segment and an angle accurately using construction tools",
+    "Construct triangles from given side and angle information",
+    "Construct perpendicular bisectors, angle bisectors, medians, and altitudes",
+    "Locate triangle centers from intersecting secondary parts",
+    "Justify construction steps using congruent segments, congruent angles, and triangle congruence ideas",
+    "Identify and correct common construction errors"
+  ],
+  "prerequisites": [
+    "Use a ruler, straightedge, compass, and protractor carefully",
+    "Recognize congruent segments and congruent angles in diagrams",
+    "Name perpendicular, parallel, midpoint, and angle bisector relationships",
+    "Apply basic triangle congruence ideas such as SSS and SAS"
+  ],
+  "estimatedDuration": 60,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "constructions",
+    "segments",
+    "angles",
+    "triangles",
+    "perpendicular bisector",
+    "angle bisector",
+    "median",
+    "altitude",
+    "triangle centers",
+    "congruence"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/construction-toolkit-prompt.svg",
+      "images/copy-segment-angle.svg",
+      "images/triangle-sss-construction.svg",
+      "images/secondary-parts-centers.svg",
+      "images/congruence-justification.svg",
+      "images/error-analysis-construction.svg"
+    ]
+  }
+}

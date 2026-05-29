@@ -1,0 +1,42 @@
+{
+  "id": "grade-7-math-q1-geometry-lesson-6",
+  "grade": 7,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Angle Pair Relationships",
+  "description": "Describe complementary, supplementary, vertical, and adjacent angles, then use angle-pair relationships to solve missing-angle tasks.",
+  "learningObjectives": [
+    "Identify complementary, supplementary, vertical, and adjacent angles",
+    "Describe angle-pair relationships using precise geometry vocabulary",
+    "Write equations for missing-angle problems",
+    "Solve missing-angle tasks involving common angle pairs"
+  ],
+  "prerequisites": [
+    "Measure angles in degrees",
+    "Recognize rays, vertices, and angles",
+    "Add and subtract whole numbers",
+    "Understand that a straight angle measures 180 degrees"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement",
+    "angles",
+    "angle pairs",
+    "complementary angles",
+    "supplementary angles",
+    "vertical angles",
+    "adjacent angles"
+  ],
+  "lastUpdated": "2026-05-26",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/angle-pair-relationships.svg"
+    ]
+  }
+}

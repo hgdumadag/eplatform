@@ -1,0 +1,42 @@
+{
+  "id": "grade-7-math-q2-measurement-volume-lesson-3",
+  "grade": 7,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Cylinder Anatomy",
+  "description": "Identify and describe the main parts of a cylinder, including radius, diameter, height, base, and curved surface, using everyday cans, tanks, and containers.",
+  "learningObjectives": [
+    "Identify the two circular bases of a cylinder",
+    "Distinguish between radius and diameter on a circular base",
+    "Identify the height of a cylinder as the perpendicular distance between the bases",
+    "Describe the curved surface of a cylinder",
+    "Label cylinder models using correct measurement vocabulary"
+  ],
+  "prerequisites": [
+    "Recognize circles and basic three-dimensional solids",
+    "Measure length with a ruler",
+    "Know that a radius goes from the center of a circle to its edge",
+    "Know that a diameter goes across a circle through the center"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "beginner",
+  "tags": [
+    "measurement and geometry",
+    "volume",
+    "cylinders",
+    "radius",
+    "diameter",
+    "height",
+    "solid figures"
+  ],
+  "lastUpdated": "2026-05-26",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/cylinder-anatomy-labels.svg"
+    ]
+  }
+}

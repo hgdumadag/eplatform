@@ -1,0 +1,106 @@
+{
+  "examId": "grade-7-math-q2-measurement-volume-lesson-4-practice",
+  "examType": "practice",
+  "title": "Deriving Cylinder Volume Practice",
+  "description": "Practice connecting cylinder volume to circular base area times height.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "In the formula V = pi r^2 h, what does pi r^2 represent?",
+      "options": [
+        "The diameter of the cylinder",
+        "The area of the circular base",
+        "The height of the cylinder",
+        "The curved surface of the cylinder"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The expression pi r^2 is the formula for the area of a circle, so it gives the area of one circular base.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Why is the base area multiplied by height when finding cylinder volume?",
+      "options": [
+        "The height changes the circle into a triangle.",
+        "The height tells how far equal circular layers are stacked.",
+        "The height is always equal to the radius.",
+        "The height removes the need to use pi."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A cylinder can be viewed as many equal circular layers stacked through its height.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "Fill in the blank: The volume formula for a cylinder is V = ______. Use pi for the symbol pi.",
+      "correctAnswer": "pi r^2 h",
+      "explanation": "Cylinder volume equals circular base area times height, so V = pi r^2 h.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A cylinder has radius 4 cm. What is the area of its circular base in terms of pi?",
+      "options": [
+        "4pi cm^2",
+        "8pi cm^2",
+        "16pi cm^2",
+        "64pi cm^2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Base area is pi r^2. With r = 4, the base area is pi(4)^2 = 16pi cm^2.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A cylinder has radius 3 cm and height 5 cm. Which expression gives its volume?",
+      "options": [
+        "pi(3)(5)",
+        "pi(3)^2(5)",
+        "pi(5)^2(3)",
+        "2pi(3)(5)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Use V = pi r^2 h with r = 3 and h = 5, giving pi(3)^2(5).",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A cylinder has base area 50 cm^2 and height 7 cm. What is its volume?",
+      "options": [
+        "57 cm^3",
+        "100 cm^3",
+        "350 cm^3",
+        "700 cm^3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Volume equals base area times height: 50 x 7 = 350 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "If a cylinder's radius is doubled while its height stays the same, its base area becomes four times as large.",
+      "correctAnswer": "true",
+      "explanation": "The radius is squared in pi r^2, so doubling the radius makes the base area 2^2 = 4 times as large.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain in one or two sentences why V = pi r^2 h finds the volume of a cylinder.",
+      "correctAnswer": "The expression pi r^2 finds the area of the circular base. Multiplying by h stacks that base area through the height of the cylinder, giving the total space inside.",
+      "explanation": "A complete explanation should name the circular base area and connect the height to stacked layers.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "examId": "grade-7-math-q2-measurement-volume-lesson-10-assessment",
+  "examType": "assessment",
+  "title": "Volume Design Task Assessment",
+  "description": "Compute and compare the capacity of cylinder and pyramid container designs, then justify which design fits a stated need.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A cylindrical container has radius 5 cm and height 10 cm. Using pi = 3.14, what is its volume?",
+      "options": ["157 cm^3", "314 cm^3", "785 cm^3", "1570 cm^3"],
+      "correctAnswer": 2,
+      "explanation": "V = 3.14(5^2)(10) = 3.14(25)(10) = 785 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A square pyramid has side length 12 cm and vertical height 9 cm. What is its volume?",
+      "options": ["144 cm^3", "432 cm^3", "648 cm^3", "1296 cm^3"],
+      "correctAnswer": 1,
+      "explanation": "The base area is 12^2 = 144 cm^2. V = (1/3)(144)(9) = 432 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "A volume of 1,240 cm^3 is equal to how many liters? Enter the decimal number only.",
+      "correctAnswer": "1.24",
+      "explanation": "1,240 cm^3 = 1,240 mL. Divide by 1000 to get 1.24 L.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A rectangular pyramid has length 15 cm, width 8 cm, and height 12 cm. What is its volume?",
+      "options": ["480 cm^3", "720 cm^3", "960 cm^3", "1440 cm^3"],
+      "correctAnswer": 0,
+      "explanation": "V = (1/3)(15)(8)(12) = (1/3)(1440) = 480 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "When comparing capacity, 950 cm^3 is enough for a container that must hold at least 1 L.",
+      "correctAnswer": "false",
+      "explanation": "950 cm^3 = 950 mL, which is less than 1000 mL or 1 L.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A design task requires at least 750 mL. A cylinder holds 706.5 cm^3 and a square pyramid holds 768 cm^3. Which statement is correct?",
+      "options": ["Only the cylinder meets the need.", "Only the square pyramid meets the need.", "Both meet the need.", "Neither meets the need."],
+      "correctAnswer": 1,
+      "explanation": "706.5 cm^3 = 706.5 mL, which is less than 750 mL. 768 cm^3 = 768 mL, which is greater than 750 mL.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A cylinder has diameter 8 cm and height 15 cm. Using pi = 3.14, find its volume in cm^3. Enter just the number.",
+      "correctAnswer": "753.6",
+      "explanation": "The radius is 4 cm. V = 3.14(4^2)(15) = 3.14(16)(15) = 753.6 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A design answer says, 'Choose the pyramid because it looks taller.' What is missing from this justification?",
+      "options": ["A color choice only", "A comparison of computed capacity to the required need", "The name of the student", "A drawing of a circle only"],
+      "correctAnswer": 1,
+      "explanation": "A design justification must use computed volume or capacity and compare it to the design requirement.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A water station needs a container that holds at least 1.2 L. A cylinder has radius 6 cm and height 10 cm. A rectangular pyramid has length 18 cm, width 10 cm, and height 20 cm. Use pi = 3.14. Which design fits the need? Show the capacity of each.",
+      "correctAnswer": "The cylinder volume is 3.14(6^2)(10) = 1130.4 cm^3, or 1130.4 mL, which is 1.1304 L. The rectangular pyramid volume is (1/3)(18)(10)(20) = 1200 cm^3, or 1200 mL, which is 1.2 L. The pyramid fits the need exactly, while the cylinder is a little short.",
+      "explanation": "The key comparison is to 1.2 L, or 1200 mL. The cylinder is below that amount and the pyramid reaches it.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A gift shop wants a container for 900 mL of candy. Design A is a cylinder with radius 5 cm and height 12 cm. Design B is a square pyramid with side length 15 cm and height 12 cm. Use pi = 3.14. Choose the better design and justify your choice in context.",
+      "correctAnswer": "Design A is better if the container must hold 900 mL. Its volume is 3.14(5^2)(12) = 942 cm^3, or 942 mL. Design B has volume (1/3)(15^2)(12) = 900 cm^3, or 900 mL. Both meet the need, but the cylinder gives a 42 mL safety margin, which helps prevent overflow.",
+      "explanation": "Both capacities meet 900 mL, but the better design depends on context. A strong answer calculates both and explains why the extra margin or exact fit matters.",
+      "points": 10
+    }
+  ]
+}

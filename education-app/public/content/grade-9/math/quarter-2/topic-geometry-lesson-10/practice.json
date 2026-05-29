@@ -1,0 +1,88 @@
+{
+  "examId": "grade-9-math-q2-geometry-lesson-10-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 10 Practice: Two-Column Congruence Proofs",
+  "description": "Practice choosing valid proof reasons, triangle congruence shortcuts, and CPCTC steps for two-column congruence proofs.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which reason justifies the statement $\\overline{BC} \\cong \\overline{BC}$ in a triangle proof?",
+      "options": [
+        "CPCTC",
+        "Reflexive Property",
+        "SAS Congruence",
+        "Vertical Angles Theorem"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A segment is congruent to itself by the Reflexive Property.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "You know two side pairs are congruent and the included angle pair is congruent. Which shortcut proves the triangles congruent?",
+      "options": [
+        "SSS",
+        "SAS",
+        "ASA",
+        "SSA"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Two sides and the included angle prove triangle congruence by SAS.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "CPCTC can be used only after two triangles have already been proven congruent.",
+      "correctAnswer": "true",
+      "explanation": "CPCTC depends on a proven triangle congruence statement.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "SSA is always a valid triangle congruence shortcut.",
+      "correctAnswer": "false",
+      "explanation": "SSA is not a valid triangle congruence shortcut in general.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "The theorem that says vertical angles are congruent is the ______ Angles Theorem.",
+      "correctAnswer": "Vertical",
+      "explanation": "The Vertical Angles Theorem states that vertical angles are congruent.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "In a two-column proof, the left column usually contains statements and the right column contains ______.",
+      "correctAnswer": "reasons",
+      "explanation": "Every proof statement needs a supporting reason.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "After proving $\\triangle ABC \\cong \\triangle DEF$, what reason justifies $\\overline{AC} \\cong \\overline{DF}$?",
+      "correctAnswer": "CPCTC, because corresponding parts of congruent triangles are congruent.",
+      "explanation": "Once triangle congruence is proven, matching sides and angles can be proven with CPCTC.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain why 'the triangles look congruent' is not a valid proof reason.",
+      "correctAnswer": "A diagram may not be drawn accurately, so proof must use givens, markings, definitions, postulates, theorems, or properties rather than appearance.",
+      "explanation": "Geometry proofs require justified facts, not visual guesses from a sketch.",
+      "points": 14
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "grade-9-math-q1-geometry-lesson-5",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Geometry - Lesson 5: Constructing Parallel Lines",
+  "description": "Construct a line parallel to a given line through a point and verify the result using equal angle or equal distance relationships.",
+  "learningObjectives": [
+    "Identify parallel lines and use correct parallel-line notation",
+    "Construct a line parallel to a given line through a point using copied corresponding angles",
+    "Use a ruler, set square, or protractor to create an accurate parallel line",
+    "Verify a construction by checking equal corresponding angles or equal perpendicular distances",
+    "Explain why the constructed line is parallel to the original line"
+  ],
+  "prerequisites": [
+    "Measure and name angles from diagrams",
+    "Construct accurate segments and angles using tools",
+    "Recognize perpendicular lines and right angles",
+    "Understand corresponding angles from a transversal diagram"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "parallel lines",
+    "construction",
+    "corresponding angles",
+    "set square",
+    "protractor",
+    "ruler",
+    "verification"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/real-world-parallel-prompt.svg",
+      "images/copy-angle-construction.svg",
+      "images/set-square-method.svg",
+      "images/protractor-method.svg",
+      "images/verify-parallel-lines.svg",
+      "images/error-analysis-parallel-construction.svg"
+    ]
+  }
+}

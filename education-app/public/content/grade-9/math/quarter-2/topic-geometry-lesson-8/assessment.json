@@ -1,0 +1,116 @@
+{
+  "examId": "grade-9-math-q2-geometry-lesson-8-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 8 Assessment: CPCTC and Theorem Problems",
+  "description": "Show mastery of using congruent triangles, CPCTC, and related triangle theorems in measure and proof tasks.",
+  "passingScore": 75,
+  "timeLimit": 32,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A proof already established triangle WXY is congruent to triangle ZYX. Which conclusion follows by CPCTC?",
+      "options": [
+        "WX is congruent to ZY",
+        "WX is congruent to YX",
+        "XY is congruent to ZX",
+        "Angle W is congruent to angle X"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The order WXY congruent to ZYX means W corresponds to Z and X corresponds to Y, so WX corresponds to ZY.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which proof sequence uses CPCTC correctly?",
+      "options": [
+        "Use CPCTC, then prove the triangles congruent",
+        "Prove the triangles congruent, then use CPCTC for a corresponding side or angle",
+        "Use CPCTC whenever two triangles look equal",
+        "Use CPCTC to prove that two right angles exist"
+      ],
+      "correctAnswer": 1,
+      "explanation": "CPCTC is used after triangle congruence has been proven.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "In triangle ABC, AB is congruent to AC. Which statement follows from the Isosceles Triangle Theorem?",
+      "options": [
+        "Angle A is congruent to angle B",
+        "Angle B is congruent to angle C",
+        "AB is parallel to AC",
+        "BC is half of AB"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The angles opposite the congruent sides AB and AC are angles C and B, so angle B is congruent to angle C.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Segment MN joins the midpoints of two sides of triangle PQR. If QR = 34 and MN is parallel to QR, what is MN?",
+      "options": [
+        "8.5",
+        "17",
+        "34",
+        "68"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A midline is half the length of the parallel third side, so MN = 17.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "HL can be used only when the triangles are right triangles.",
+      "correctAnswer": "true",
+      "explanation": "HL is a special congruence theorem for right triangles.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "If a point lies on the perpendicular bisector of a segment, then it is equidistant from the endpoints of the segment.",
+      "correctAnswer": "true",
+      "explanation": "This is the Perpendicular Bisector Theorem.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "If triangle ABC is congruent to triangle JKL, then angle C corresponds to angle ______.",
+      "correctAnswer": "L",
+      "explanation": "The order pairs A with J, B with K, and C with L.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "Point R lies on the perpendicular bisector of segment ST. If RS = 2x + 5 and RT = 31, then x = ______.",
+      "correctAnswer": "13",
+      "explanation": "Set RS = RT: 2x + 5 = 31, so 2x = 26 and x = 13.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Given triangle ABD is congruent to triangle CBD, write a valid CPCTC conclusion involving side AD.",
+      "correctAnswer": "AD is congruent to CD by CPCTC.",
+      "explanation": "In triangle ABD congruent to triangle CBD, A corresponds to C and D corresponds to D, so AD corresponds to CD.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Explain the error: A student writes \"angle A is congruent to angle D by CPCTC\" before proving any triangles congruent.",
+      "correctAnswer": "The student used CPCTC too early. CPCTC can only justify corresponding parts after the triangles have already been proven congruent.",
+      "explanation": "CPCTC is a result of triangle congruence, not a reason for assuming it.",
+      "points": 10
+    }
+  ]
+}

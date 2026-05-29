@@ -1,0 +1,88 @@
+{
+  "examId": "grade-9-math-q3-geometry-lesson-5-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 5 Practice: Proportional Parts",
+  "description": "Practice matching corresponding sides, setting up proportions, and solving missing side lengths in similar triangles.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Given $\\triangle ABC \\sim \\triangle DEF$, which side corresponds to $BC$?",
+      "options": [
+        "$DE$",
+        "$EF$",
+        "$DF$",
+        "$AB$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The second and third letters in $\\triangle ABC$ are $B$ and $C$. They match the second and third letters in $\\triangle DEF$, so $BC$ corresponds to $EF$.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Given $\\triangle RST \\sim \\triangle XYZ$, which proportion is valid?",
+      "options": [
+        "$\\dfrac{RS}{XY} = \\dfrac{ST}{YZ}$",
+        "$\\dfrac{RS}{YZ} = \\dfrac{ST}{XY}$",
+        "$\\dfrac{RT}{XY} = \\dfrac{ST}{XZ}$",
+        "$\\dfrac{RS}{XZ} = \\dfrac{RT}{YZ}$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$R$ matches $X$, $S$ matches $Y$, and $T$ matches $Z$. Therefore $RS$ matches $XY$ and $ST$ matches $YZ$.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "If $\\triangle ABC \\sim \\triangle DEF$, then $AC$ corresponds to $DF$.",
+      "correctAnswer": "true",
+      "explanation": "$A$ matches $D$ and $C$ matches $F$, so side $AC$ corresponds to side $DF$.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "After writing a proportion with wrong corresponding sides, cross-products will automatically fix the setup.",
+      "correctAnswer": "false",
+      "explanation": "Cross-products solve the proportion that was written. If the side correspondence is wrong, the equation and answer can also be wrong.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "Solve for $x$: $\\dfrac{6}{9} = \\dfrac{8}{x}$.",
+      "correctAnswer": "12",
+      "explanation": "Cross-multiply to get $6x = 72$, so $x = 12$.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "In $\\triangle JKL \\sim \\triangle MNP$, $JK = 7$, $MN = 14$, $KL = 9$, and $NP = x$. Find $x$.",
+      "correctAnswer": "18",
+      "explanation": "$JK$ corresponds to $MN$ and $KL$ corresponds to $NP$, so $\\frac{7}{14} = \\frac{9}{x}$. Then $7x = 126$ and $x = 18$.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "Given $\\triangle ABC \\sim \\triangle DEF$, explain why $\\dfrac{AB}{DE} = \\dfrac{AC}{DF}$ is a valid proportion.",
+      "correctAnswer": "The order shows that A matches D, B matches E, and C matches F. Therefore AB corresponds to DE and AC corresponds to DF, so the ratios compare matching sides in the same order.",
+      "explanation": "A correct explanation should use the vertex order or corresponding side pairs, not just the appearance of a drawing.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A line $DE$ is parallel to side $BC$ in $\\triangle ABC$. Points $D$ and $E$ lie on $AB$ and $AC$. If $AD = 4$, $DB = 6$, $AE = x$, and $EC = 9$, find $x$ and state the proportion used.",
+      "correctAnswer": "Use the split-side proportion AD/DB = AE/EC. Then 4/6 = x/9, so 6x = 36 and x = 6.",
+      "explanation": "A segment parallel to one side of a triangle divides the other two sides proportionally, so the split parts can be compared.",
+      "points": 14
+    }
+  ]
+}

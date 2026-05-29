@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" role="img" aria-labelledby="title desc">
+  <title id="title">Real-world parallel lines and transversals</title>
+  <desc id="desc">A crosswalk and rail track scene showing parallel lines crossed by transversal lines.</desc>
+  <rect width="720" height="300" fill="#f8fafc"/>
+  <rect x="40" y="35" width="280" height="220" rx="8" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
+  <text x="180" y="64" text-anchor="middle" font-family="Arial" font-size="18" fill="#0f172a">Crosswalk</text>
+  <line x1="80" y1="95" x2="280" y2="95" stroke="#334155" stroke-width="5"/>
+  <line x1="80" y1="135" x2="280" y2="135" stroke="#334155" stroke-width="5"/>
+  <line x1="80" y1="175" x2="280" y2="175" stroke="#334155" stroke-width="5"/>
+  <line x1="80" y1="215" x2="280" y2="215" stroke="#334155" stroke-width="5"/>
+  <line x1="130" y1="82" x2="235" y2="232" stroke="#dc2626" stroke-width="4"/>
+  <text x="235" y="248" font-family="Arial" font-size="14" fill="#991b1b">transversal</text>
+  <rect x="400" y="35" width="280" height="220" rx="8" fill="#ecfeff" stroke="#0e7490" stroke-width="2"/>
+  <text x="540" y="64" text-anchor="middle" font-family="Arial" font-size="18" fill="#0f172a">Train tracks</text>
+  <line x1="440" y1="92" x2="640" y2="210" stroke="#0f766e" stroke-width="6"/>
+  <line x1="465" y1="68" x2="665" y2="186" stroke="#0f766e" stroke-width="6"/>
+  <line x1="472" y1="114" x2="521" y2="86" stroke="#92400e" stroke-width="4"/>
+  <line x1="515" y1="140" x2="564" y2="112" stroke="#92400e" stroke-width="4"/>
+  <line x1="558" y1="166" x2="607" y2="138" stroke="#92400e" stroke-width="4"/>
+  <line x1="600" y1="192" x2="649" y2="164" stroke="#92400e" stroke-width="4"/>
+  <text x="538" y="249" text-anchor="middle" font-family="Arial" font-size="14" fill="#0f172a">parallel rails crossed by ties</text>
+</svg>

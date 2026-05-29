@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Worked missing angle diagram</title>
+  <desc id="desc">Lines AC and DE intersect at B. Angle ABD is labeled 128 degrees, angle DBC is unknown, and angle CBE is vertical to angle ABD.</desc>
+  <rect width="760" height="420" fill="#f8fafc"/>
+  <text x="38" y="44" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Worked Example: Use the Pair First</text>
+  <g transform="translate(80 70)">
+    <line x1="40" y1="180" x2="560" y2="180" stroke="#1e293b" stroke-width="5"/>
+    <line x1="110" y1="300" x2="490" y2="60" stroke="#1e293b" stroke-width="5"/>
+    <circle cx="300" cy="180" r="7" fill="#0f172a"/>
+    <text x="25" y="185" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">A</text>
+    <text x="570" y="185" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">C</text>
+    <text x="492" y="56" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">D</text>
+    <text x="92" y="318" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">E</text>
+    <text x="309" y="202" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">B</text>
+    <path d="M300 180 L225 180 A75 75 0 0 1 364 139 Z" fill="#fecaca" stroke="#dc2626" stroke-width="2"/>
+    <text x="245" y="133" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#991b1b">128°</text>
+    <path d="M300 180 L364 139 A75 75 0 0 1 375 180 Z" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/>
+    <text x="385" y="152" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1d4ed8">x</text>
+    <path d="M300 180 L375 180 A75 75 0 0 1 236 221 Z" fill="#fee2e2" stroke="#ef4444" stroke-width="2" opacity="0.8"/>
+    <text x="342" y="246" font-family="Arial, sans-serif" font-size="18" fill="#991b1b">vertical to 128°</text>
+  </g>
+  <text x="172" y="378" font-family="Arial, sans-serif" font-size="20" fill="#334155">Linear pair: 128° + x = 180°, so x = 52°</text>
+</svg>

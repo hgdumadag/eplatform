@@ -1,0 +1,43 @@
+{
+  "id": "grade-7-math-q1-geometry-lesson-9-polygon-challenge-problems",
+  "grade": 7,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Polygon Challenge Problems",
+  "description": "Use polygon vocabulary, regularity, convexity, interior and exterior angles, and side-count reasoning to solve challenge problems.",
+  "learningObjectives": [
+    "Determine unknown angle measures in polygon problems using clear equations",
+    "Use interior and exterior angle relationships to reason about polygons",
+    "Find the number of sides of a regular polygon from angle clues",
+    "Justify polygon classifications using sides, regularity, and convexity",
+    "Show reasoning with diagrams described in words and labeled measurements"
+  ],
+  "prerequisites": [
+    "Polygon vocabulary including side, vertex, diagonal, regular, and irregular",
+    "Classifying polygons by number of sides",
+    "Convex and non-convex polygons",
+    "Complementary, supplementary, adjacent, and vertical angles",
+    "Interior and exterior angle relationships"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "polygons",
+    "challenge problems",
+    "interior angles",
+    "exterior angles",
+    "regular polygons",
+    "side count"
+  ],
+  "lastUpdated": "2026-05-26",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/polygon-challenge-diagram.svg"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "grade-9-math-q2-geometry-lesson-1",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Geometry - Lesson 1: Conditions for Parallel and Perpendicular Lines",
+  "description": "Determine when lines must be parallel or perpendicular using direction, angle relationships, and right-angle intersections.",
+  "learningObjectives": [
+    "Recognize visual conditions that suggest lines have the same direction or meet at right angles",
+    "Use corresponding and alternate interior angle relationships to decide whether two lines are parallel",
+    "Use same-side interior angle relationships to test for parallel lines",
+    "Identify perpendicular lines from right-angle intersections",
+    "Justify whether lines must be parallel, perpendicular, both impossible, or not enough information"
+  ],
+  "prerequisites": [
+    "Name angles from diagrams using correct notation",
+    "Identify corresponding, alternate interior, and same-side interior angles",
+    "Recognize vertical angles, linear pairs, and supplementary angles",
+    "Understand that perpendicular lines form right angles",
+    "Solve simple angle equations involving 90 and 180"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "parallel lines",
+    "perpendicular lines",
+    "transversal",
+    "angle relationships",
+    "corresponding angles",
+    "alternate interior angles",
+    "same-side interior angles",
+    "right angles"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/real-world-directions.svg",
+      "images/parallel-angle-conditions.svg",
+      "images/perpendicular-right-angle.svg",
+      "images/same-side-interior-test.svg",
+      "images/worked-decision-diagram.svg",
+      "images/error-analysis-conditions.svg"
+    ]
+  }
+}

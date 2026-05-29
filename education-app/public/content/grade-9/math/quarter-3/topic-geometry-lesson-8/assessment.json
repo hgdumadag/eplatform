@@ -1,0 +1,122 @@
+{
+  "examId": "grade-9-math-q3-geometry-lesson-8-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 8 Assessment: Missing Sides and Angles",
+  "description": "Demonstrate mastery of 30-60-90 triangle side relationships, angle relationships, and correspondence.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A 30-60-90 triangle has short leg 11. What is the hypotenuse?",
+      "options": [
+        "11\\sqrt{3}",
+        "22",
+        "22\\sqrt{3}",
+        "33"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The hypotenuse is twice the short leg. Since x = 11, 2x = 22.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A 30-60-90 triangle has hypotenuse 34. What is the long leg?",
+      "options": [
+        "17",
+        "34\\sqrt{3}",
+        "17\\sqrt{3}",
+        "68"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The hypotenuse is 2x. If 2x = 34, then x = 17. The long leg is x\\sqrt{3} = 17\\sqrt{3}.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "The side opposite 60 degrees in a 30-60-90 triangle is 14\\sqrt{3}. What is the side opposite 30 degrees?",
+      "options": [
+        "7",
+        "14",
+        "28",
+        "14\\sqrt{3}"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The side opposite 60 degrees is the long leg x\\sqrt{3}. If x\\sqrt{3} = 14\\sqrt{3}, then x = 14.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A right triangle has one acute angle of 60 degrees. Which statement must be true?",
+      "options": [
+        "The other acute angle is 45 degrees.",
+        "The other acute angle is 30 degrees.",
+        "The triangle is isosceles.",
+        "The hypotenuse equals the long leg."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The acute angles in a right triangle add to 90 degrees. If one is 60 degrees, the other is 30 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "An equilateral triangle with side length 24 is split by an altitude. What is the length of the shorter leg in one of the two right triangles?",
+      "options": [
+        "6",
+        "12",
+        "12\\sqrt{3}",
+        "24\\sqrt{3}"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The altitude bisects the base of the equilateral triangle. Half of 24 is 12, which is the short leg of each 30-60-90 triangle.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "If the long leg of a 30-60-90 triangle is 10\\sqrt{3}, then the hypotenuse is 20.",
+      "correctAnswer": "true",
+      "explanation": "The long leg is x\\sqrt{3}. If x\\sqrt{3} = 10\\sqrt{3}, then x = 10, and the hypotenuse is 2x = 20.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "In a 30-60-90 triangle, the side opposite 30 degrees is longer than the side opposite 60 degrees.",
+      "correctAnswer": "false",
+      "explanation": "The side opposite 30 degrees is x, while the side opposite 60 degrees is x\\sqrt{3}. Since \\sqrt{3} is greater than 1, x\\sqrt{3} is longer.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "A 30-60-90 triangle has hypotenuse 50. The short leg is ___.",
+      "correctAnswer": "25",
+      "explanation": "The hypotenuse is 2x. If 2x = 50, then x = 25.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "question": "A 30-60-90 triangle has short leg 13. The long leg is ___ (use sqrt notation if needed).",
+      "correctAnswer": "13sqrt(3) or 13\\sqrt{3} or 13 sqrt(3)",
+      "explanation": "The long leg is x\\sqrt{3}. With x = 13, the long leg is 13\\sqrt{3}.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A classmate says that in a 30-60-90 triangle with hypotenuse 18, the long leg is 9 and the short leg is 9\\sqrt{3}. Explain the error and give the correct legs.",
+      "correctAnswer": "The classmate switched the short and long legs. The hypotenuse is 2x = 18, so x = 9. The short leg is 9, and the long leg is 9\\sqrt{3}.",
+      "explanation": "The short leg is opposite 30 degrees and equals half the hypotenuse. The long leg is the short leg times \\sqrt{3}.",
+      "points": 10
+    }
+  ]
+}

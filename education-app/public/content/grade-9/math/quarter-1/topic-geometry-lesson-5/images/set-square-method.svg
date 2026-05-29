@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Set square method for a parallel line</title>
+  <desc id="desc">A set square slides along a ruler from a given line until its edge reaches point P, keeping the same direction.</desc>
+  <rect width="900" height="420" fill="#f8fafc"/>
+  <g font-family="Arial, sans-serif" fill="#0f172a">
+    <text x="450" y="42" text-anchor="middle" font-size="25" font-weight="700">Slide without rotating</text>
+    <line x1="100" y1="310" x2="800" y2="310" stroke="#2563eb" stroke-width="5"/>
+    <text x="815" y="317" font-size="20" font-weight="700">l</text>
+    <circle cx="560" cy="145" r="7" fill="#dc2626"/>
+    <text x="575" y="150" font-size="20" font-weight="700">P</text>
+    <rect x="120" y="235" width="620" height="36" rx="6" fill="#e2e8f0" stroke="#64748b" stroke-width="3"/>
+    <text x="430" y="259" text-anchor="middle" font-size="16">ruler guide</text>
+    <polygon points="235,310 385,310 235,160" fill="#dbeafe" stroke="#2563eb" stroke-width="4" opacity="0.85"/>
+    <line x1="235" y1="310" x2="385" y2="310" stroke="#1d4ed8" stroke-width="6"/>
+    <polygon points="410,145 560,145 410,-5" fill="#dcfce7" stroke="#16a34a" stroke-width="4" opacity="0.85"/>
+    <line x1="410" y1="145" x2="560" y2="145" stroke="#16a34a" stroke-width="6"/>
+    <line x1="100" y1="145" x2="800" y2="145" stroke="#16a34a" stroke-width="5" stroke-dasharray="12 8"/>
+    <text x="815" y="152" font-size="20" font-weight="700">m</text>
+    <path d="M305 205 C360 165 400 150 470 145" fill="none" stroke="#0f172a" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="303" y="189" font-size="16">slide</text>
+    <text x="450" y="372" text-anchor="middle" font-size="18">The set square edge keeps the same direction as it moves to P.</text>
+  </g>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#0f172a"/>
+    </marker>
+  </defs>
+</svg>

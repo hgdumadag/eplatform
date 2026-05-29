@@ -1,0 +1,43 @@
+{
+  "id": "grade-7-math-q1-geometry-lesson-2-drawing-polygons",
+  "grade": 7,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Drawing Polygons",
+  "description": "Use a ruler and protractor to draw polygons with 5, 6, 8, or 10 sides, then check side lengths and angle measures for accuracy.",
+  "learningObjectives": [
+    "Draw polygons with 5, 6, 8, or 10 sides using a ruler and protractor",
+    "Follow construction steps for regular and irregular polygons",
+    "Measure sides and angles to check whether a drawing matches given conditions",
+    "Apply reasonable measurement tolerances when checking hand-drawn figures",
+    "Distinguish regular and irregular polygons using side and angle measurements"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "beginner",
+  "tags": [
+    "geometry",
+    "measurement",
+    "polygons",
+    "drawing",
+    "ruler",
+    "protractor",
+    "regular-polygons",
+    "irregular-polygons"
+  ],
+  "lastUpdated": "2026-05-26",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/polygon-construction-steps.svg"
+    ]
+  },
+  "prerequisites": [
+    "Identify sides and vertices of a polygon",
+    "Measure line segments with a ruler",
+    "Measure angles with a protractor",
+    "Recognize regular and irregular polygons"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "grade-9-math-q2-geometry-lesson-4",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Geometry - Lesson 4: Rectangle, Square, and Rhombus Problems",
+  "description": "Compare and apply the special properties of rectangles, squares, and rhombuses, including side, angle, and diagonal relationships.",
+  "learningObjectives": [
+    "Classify rectangles, squares, and rhombuses using definitions and always-true properties",
+    "Compare diagonal properties: congruent, perpendicular, bisecting each other, and bisecting angles",
+    "Use side and angle properties to solve measure problems",
+    "Identify which properties always hold for each special parallelogram",
+    "Explain why a square has both rectangle and rhombus properties",
+    "Avoid relying only on appearance when classifying quadrilaterals"
+  ],
+  "prerequisites": [
+    "Identify parallelograms and their basic properties",
+    "Recognize congruent sides and congruent angles",
+    "Use angle measures such as 90 degrees",
+    "Understand that diagonals connect opposite vertices",
+    "Solve simple equations from geometric relationships"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "quadrilaterals",
+    "rectangle",
+    "square",
+    "rhombus",
+    "parallelogram",
+    "diagonals",
+    "properties"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/real-world-special-parallelograms.svg",
+      "images/property-family-map.svg",
+      "images/diagonal-comparison.svg",
+      "images/rhombus-angle-bisectors.svg",
+      "images/worked-measure-problem.svg",
+      "images/error-analysis-special-parallelograms.svg"
+    ]
+  }
+}

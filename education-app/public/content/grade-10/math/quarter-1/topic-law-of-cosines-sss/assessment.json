@@ -1,0 +1,108 @@
+{
+  "examId": "grade-10-math-q1-law-of-cosines-sss-assessment",
+  "examType": "assessment",
+  "title": "Trigonometry: Law of Cosines for SSS Assessment",
+  "description": "Solve one SSS triangle for all angles using the Law of Cosines and angle-sum checks.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "For the whole assessment, use △ABC with side lengths a = 9, b = 12, and c = 14. Which angle should be largest?",
+      "options": ["∠A", "∠B", "∠C", "All three angles should be equal"],
+      "correctAnswer": 2,
+      "explanation": "Side c = 14 is the longest side, so ∠C should be the largest angle.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which expression correctly finds ∠C for △ABC with a = 9, b = 12, and c = 14?",
+      "options": [
+        "cos^-1((12^2 + 14^2 - 9^2) / (2(12)(14)))",
+        "cos^-1((9^2 + 14^2 - 12^2) / (2(9)(14)))",
+        "cos^-1((9^2 + 12^2 - 14^2) / (2(9)(12)))",
+        "cos^-1((9^2 + 12^2 + 14^2) / (2(9)(12)))"
+      ],
+      "correctAnswer": 2,
+      "explanation": "To find ∠C, subtract c^2 and divide by 2ab: cos^-1((9^2 + 12^2 - 14^2) / (2(9)(12))).",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "For △ABC with a = 9, b = 12, and c = 14, what is ∠C to the nearest degree?",
+      "options": ["40°", "58°", "82°", "98°"],
+      "correctAnswer": 2,
+      "explanation": "C = cos^-1((9^2 + 12^2 - 14^2) / (2(9)(12))) = cos^-1(29/216), which is about 82°.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Which expression correctly finds ∠B for △ABC with a = 9, b = 12, and c = 14?",
+      "options": [
+        "cos^-1((12^2 + 14^2 - 9^2) / (2(12)(14)))",
+        "cos^-1((9^2 + 14^2 - 12^2) / (2(9)(14)))",
+        "cos^-1((9^2 + 12^2 - 14^2) / (2(9)(12)))",
+        "cos^-1(12 / 14)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "To find ∠B, subtract b^2 and divide by 2ac: cos^-1((9^2 + 14^2 - 12^2) / (2(9)(14))).",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "For △ABC with a = 9, b = 12, and c = 14, what is ∠B to the nearest degree?",
+      "options": ["40°", "58°", "82°", "100°"],
+      "correctAnswer": 1,
+      "explanation": "B = cos^-1((9^2 + 14^2 - 12^2) / (2(9)(14))) = cos^-1(133/252), which is about 58°.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Using the rounded results ∠C ≈ 82° and ∠B ≈ 58°, what is ∠A?",
+      "options": ["36°", "40°", "46°", "50°"],
+      "correctAnswer": 1,
+      "explanation": "A = 180° - 82° - 58° = 40° using the rounded angle values.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "For △ABC with a = 9, b = 12, and c = 14, the angle order should be A < B < C.",
+      "correctAnswer": "true",
+      "explanation": "The side order is 9 < 12 < 14, so the opposite angle order should be A < B < C.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "For △ABC with a = 9, b = 12, and c = 14, ∠A is about how many degrees to the nearest whole number?",
+      "correctAnswer": "40",
+      "explanation": "A = cos^-1((12^2 + 14^2 - 9^2) / (2(12)(14))) = cos^-1(259/336), which is about 40°.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "State the approximate angle measures for △ABC with a = 9, b = 12, and c = 14, then give one check that supports your answer.",
+      "correctAnswer": "A ≈ 40°, B ≈ 58°, and C ≈ 82°. The angles add to about 180°, and the largest angle C is opposite the longest side c = 14.",
+      "explanation": "A complete solution gives all three angles and checks both angle sum and side-angle order.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A classmate claims ∠A is the largest angle because it is listed first in the triangle name △ABC. Explain the error.",
+      "correctAnswer": "The order of letters in the triangle name does not determine angle size. Angle size is related to the opposite side length; since side c = 14 is longest, ∠C should be largest.",
+      "explanation": "Triangle labels identify corresponding sides and angles, but side lengths determine which angle is largest.",
+      "points": 10
+    }
+  ]
+}

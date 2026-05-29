@@ -1,0 +1,96 @@
+{
+  "examId": "grade-7-math-q1-geometry-lesson-7-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 7 Assessment: Interior and Exterior Angles",
+  "description": "Show mastery of adjacent interior and exterior angle relationships by writing equations and solving missing measures.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A polygon has an interior angle of 126 degrees. A side is extended to form the adjacent exterior angle. What is the exterior angle?",
+      "options": ["44 degrees", "54 degrees", "64 degrees", "126 degrees"],
+      "correctAnswer": 1,
+      "explanation": "Adjacent interior and exterior angles add to 180 degrees, so 180 - 126 = 54.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "An adjacent exterior angle is 28 degrees. Find the interior angle beside it. Enter just the number.",
+      "correctAnswer": "152",
+      "explanation": "Use i + 28 = 180. Then i = 152.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which statement correctly describes an adjacent interior and exterior angle pair?",
+      "options": ["They are always equal.", "They always add to 90 degrees.", "They form a linear pair and add to 180 degrees.", "They are never connected to the same vertex."],
+      "correctAnswer": 2,
+      "explanation": "The interior angle and its adjacent exterior angle share a vertex and form a straight line, so they are supplementary.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "An exterior angle is formed by extending a side of a polygon.",
+      "correctAnswer": "true",
+      "explanation": "Extending one side past a vertex creates the outside angle called an exterior angle.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "Solve for x: 118 + x = 180. Enter just the number.",
+      "correctAnswer": "62",
+      "explanation": "Subtract 118 from 180: x = 62.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "The adjacent exterior angle of a polygon is 102 degrees. Which equation can be used to find the interior angle x?",
+      "options": ["x + 102 = 180", "x + 102 = 90", "x = 102", "102 - x = 180"],
+      "correctAnswer": 0,
+      "explanation": "The interior angle and adjacent exterior angle are supplementary, so x + 102 = 180.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "At a polygon vertex, the interior angle is 3 times the adjacent exterior angle. Find the exterior angle. Enter just the number.",
+      "correctAnswer": "45",
+      "explanation": "Let the exterior angle be x. The interior angle is 3x, so 3x + x = 180. Then 4x = 180 and x = 45.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Which pair could be an adjacent interior and exterior angle pair at one polygon vertex?",
+      "options": ["35 degrees and 55 degrees", "72 degrees and 72 degrees", "84 degrees and 96 degrees", "120 degrees and 80 degrees"],
+      "correctAnswer": 2,
+      "explanation": "Adjacent interior and exterior angles must add to 180 degrees. Only 84 + 96 = 180.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Explain why an interior angle and its adjacent exterior angle are supplementary.",
+      "correctAnswer": "They share a vertex and one side, and the other sides lie on a straight line because a side of the polygon was extended. Together they form a straight angle of 180 degrees, so they are supplementary.",
+      "explanation": "A complete answer should mention the side extension, the linear pair, and the total of 180 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "An exterior angle is 67 degrees. Write an equation for the adjacent interior angle x and solve it.",
+      "correctAnswer": "x + 67 = 180, so x = 113 degrees.",
+      "explanation": "Use the supplementary relationship for adjacent interior and exterior angles. Subtract 67 from 180 to get 113.",
+      "points": 10
+    }
+  ]
+}

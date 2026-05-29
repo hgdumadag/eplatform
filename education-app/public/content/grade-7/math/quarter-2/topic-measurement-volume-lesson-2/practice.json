@@ -1,0 +1,81 @@
+{
+  "examId": "grade-7-math-q2-measurement-volume-lesson-2-length-area-volume-conversion-practice",
+  "examType": "practice",
+  "title": "Length, Area, and Volume Conversion Practice",
+  "description": "Practice identifying linear, square, and cubic units and choosing the correct conversion factor.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which unit is used for area?",
+      "options": ["cm", "cm^2", "cm^3", "m/s"],
+      "correctAnswer": 1,
+      "explanation": "Area measures a flat surface, so it uses square units such as cm^2.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Convert 450 cm to meters.",
+      "options": ["0.45 m", "4.5 m", "45 m", "45,000 m"],
+      "correctAnswer": 1,
+      "explanation": "Since 100 cm = 1 m, divide 450 by 100. The result is 4.5 m.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Convert 30,000 cm^2 to m^2.",
+      "options": ["0.3 m^2", "3 m^2", "300 m^2", "3,000,000 m^2"],
+      "correctAnswer": 1,
+      "explanation": "Since 1 m^2 = 10,000 cm^2, divide 30,000 by 10,000 to get 3 m^2.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Convert 5,000,000 cm^3 to m^3.",
+      "options": ["0.5 m^3", "5 m^3", "50 m^3", "500 m^3"],
+      "correctAnswer": 1,
+      "explanation": "Since 1 m^3 = 1,000,000 cm^3, divide 5,000,000 by 1,000,000 to get 5 m^3.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "To convert from cm^2 to m^2, divide by 100 because 100 cm = 1 m.",
+      "correctAnswer": "false",
+      "explanation": "Area uses two dimensions, so the factor is 100^2 = 10,000, not 100.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "How many cm^2 are in 1 m^2? Write the number only.",
+      "correctAnswer": "10000",
+      "explanation": "A 1 m by 1 m square is 100 cm by 100 cm, so it contains 10,000 cm^2.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A measurement is written as 8 m^3. What kind of measurement is it?",
+      "options": ["Length", "Area", "Volume", "Angle"],
+      "correctAnswer": 2,
+      "explanation": "The exponent 3 means cubic units, which measure volume.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain why converting from cm^3 to m^3 uses 1,000,000 instead of 100.",
+      "correctAnswer": "Volume has three dimensions, so the linear factor 100 is cubed: 100 x 100 x 100 = 1,000,000.",
+      "explanation": "Cubic units come from three length measurements. That is why the conversion factor is 100^3.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "grade-9-math-q1-geometry-lesson-10",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Geometry - Lesson 10: Quarter Construction Task",
+  "description": "Complete a cumulative geometry construction task by creating a map with parallel and perpendicular roads, labeling angle relationships, solving measures, and organizing reasoning.",
+  "learningObjectives": [
+    "Create a geometric map using parallel and perpendicular roads",
+    "Use notation to label lines, segments, angles, and intersections accurately",
+    "Identify angle relationships formed by parallel lines, perpendicular lines, and transversals",
+    "Solve missing angle measures using vertical angles, linear pairs, supplementary angles, and parallel-line angle theorems",
+    "Write organized reasoning that connects each answer to a geometric relationship"
+  ],
+  "prerequisites": [
+    "Name points, lines, segments, rays, and angles using correct notation",
+    "Measure and classify angles",
+    "Construct segments, angles, perpendicular lines, and parallel lines with tools",
+    "Identify vertical, adjacent, linear pair, supplementary, corresponding, alternate interior, alternate exterior, and same-side interior angles"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "construction",
+    "parallel lines",
+    "perpendicular lines",
+    "transversals",
+    "angle relationships",
+    "geometric map",
+    "reasoning"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/map-prompt.svg",
+      "images/map-construction-plan.svg",
+      "images/parallel-perpendicular-roads.svg",
+      "images/angle-relationship-map.svg",
+      "images/worked-map-example.svg",
+      "images/error-analysis-map.svg"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="380" viewBox="0 0 760 380" role="img" aria-labelledby="title desc">
+  <title id="title">Perpendicular and transversal angle chain</title>
+  <desc id="desc">A horizontal line and vertical line form a right angle. A diagonal ray splits the right angle into 37 degrees and an unknown angle.</desc>
+  <rect width="760" height="380" fill="#ffffff"/>
+  <path d="M130 280H630" stroke="#1d4ed8" stroke-width="7" stroke-linecap="round"/>
+  <path d="M380 70V320" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/>
+  <path d="M380 280L575 160" stroke="#dc2626" stroke-width="7" stroke-linecap="round"/>
+  <path d="M380 280h36v-36h-36z" fill="none" stroke="#0f766e" stroke-width="3"/>
+  <path d="M430 280 A50 50 0 0 0 423 252" fill="none" stroke="#92400e" stroke-width="4"/>
+  <path d="M397 234 A62 62 0 0 0 437 229" fill="none" stroke="#7c3aed" stroke-width="4"/>
+  <g font-family="Arial, sans-serif" font-weight="700">
+    <text x="442" y="265" font-size="22" fill="#92400e">37°</text>
+    <text x="409" y="215" font-size="22" fill="#7c3aed">x°</text>
+    <text x="405" y="310" font-size="18" fill="#0f766e">90° total</text>
+  </g>
+  <text x="120" y="62" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">The diagonal splits a right angle.</text>
+  <text x="120" y="92" font-family="Arial, sans-serif" font-size="18" fill="#374151">So x + 37 = 90.</text>
+</svg>

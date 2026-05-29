@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Worked quadrilateral classification</title>
+  <desc id="desc">Quadrilateral ABCD has all four sides marked congruent, opposite sides parallel, and one right angle, supporting a square classification.</desc>
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <text x="35" y="44" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Worked example: what is guaranteed?</text>
+  <g stroke="#0f172a" stroke-width="4" fill="#ffffff" font-family="Arial, sans-serif">
+    <polygon points="260,85 465,85 465,290 260,290"/>
+    <text x="244" y="78" font-size="20" fill="#0f172a" stroke="none">A</text>
+    <text x="473" y="78" font-size="20" fill="#0f172a" stroke="none">B</text>
+    <text x="473" y="315" font-size="20" fill="#0f172a" stroke="none">C</text>
+    <text x="244" y="315" font-size="20" fill="#0f172a" stroke="none">D</text>
+    <path d="M260 112 h24 v-24" fill="none" stroke="#dc2626" stroke-width="3"/>
+    <line x1="355" y1="78" x2="370" y2="92" stroke="#2563eb" stroke-width="3"/>
+    <line x1="355" y1="283" x2="370" y2="297" stroke="#2563eb" stroke-width="3"/>
+    <line x1="253" y1="180" x2="267" y2="195" stroke="#2563eb" stroke-width="3"/>
+    <line x1="458" y1="180" x2="472" y2="195" stroke="#2563eb" stroke-width="3"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#334155">
+    <text x="35" y="105">Evidence:</text>
+    <text x="35" y="140">1. four congruent sides</text>
+    <text x="35" y="170">2. one right angle</text>
+    <text x="35" y="200">3. opposite sides parallel</text>
+    <text x="515" y="140">Rhombus +</text>
+    <text x="515" y="170">Rectangle =</text>
+    <text x="515" y="210" font-size="25" font-weight="700" fill="#991b1b">Square</text>
+  </g>
+</svg>

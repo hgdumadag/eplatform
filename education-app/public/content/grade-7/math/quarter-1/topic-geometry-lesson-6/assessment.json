@@ -1,0 +1,95 @@
+{
+  "examId": "grade-7-math-q1-geometry-lesson-6-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 6 Assessment: Angle Pair Relationships",
+  "description": "Show mastery of complementary, supplementary, vertical, and adjacent angle relationships.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which equation represents two complementary angles with measures x and 64 degrees?",
+      "options": ["x + 64 = 90", "x + 64 = 180", "x = 64", "x - 64 = 90"],
+      "correctAnswer": 0,
+      "explanation": "Complementary angles add to 90 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "Find the complement of a 17-degree angle. Enter just the number.",
+      "correctAnswer": "73",
+      "explanation": "90 - 17 = 73.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "Find the supplement of a 139-degree angle. Enter just the number.",
+      "correctAnswer": "41",
+      "explanation": "180 - 139 = 41.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "Adjacent angles must share a vertex and one side.",
+      "correctAnswer": "true",
+      "explanation": "Sharing a vertex and a side is part of the definition of adjacent angles.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Two lines intersect. One angle is 58 degrees. What is the measure of the vertical angle opposite it?",
+      "options": ["32 degrees", "58 degrees", "122 degrees", "180 degrees"],
+      "correctAnswer": 1,
+      "explanation": "Vertical angles are equal, so the opposite angle is 58 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Two adjacent angles form a straight line. One angle is 82 degrees. Find the other angle. Enter just the number.",
+      "correctAnswer": "98",
+      "explanation": "A straight line measures 180 degrees, and 180 - 82 = 98.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which pair of angle measures is supplementary?",
+      "options": ["35 degrees and 55 degrees", "44 degrees and 46 degrees", "72 degrees and 108 degrees", "80 degrees and 80 degrees"],
+      "correctAnswer": 2,
+      "explanation": "72 + 108 = 180, so the pair is supplementary.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "Two intersecting lines form an angle of 121 degrees. Find the measure of an adjacent angle. Enter just the number.",
+      "correctAnswer": "59",
+      "explanation": "Adjacent angles formed by intersecting lines make a straight angle, so 180 - 121 = 59.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Explain the difference between vertical angles and adjacent angles.",
+      "correctAnswer": "Vertical angles are opposite angles formed by intersecting lines and have equal measures. Adjacent angles are next to each other and share a vertex and a side without overlapping.",
+      "explanation": "A complete answer should compare position and relationship: opposite and equal for vertical angles, side-by-side and sharing a side for adjacent angles.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A missing angle x is adjacent to a 146-degree angle on a straight line. Write the equation and solve for x.",
+      "correctAnswer": "x + 146 = 180, so x = 34 degrees.",
+      "explanation": "The angles are supplementary because they form a straight line. Subtract 146 from 180 to get 34.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "examId": "grade-7-math-q1-geometry-lesson-2-drawing-polygons-assessment",
+  "examType": "assessment",
+  "title": "Drawing Polygons Checkpoint",
+  "description": "Show that you can plan, draw, measure, and justify polygon constructions with 5, 6, 8, or 10 sides.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which sequence best describes a careful way to draw a polygon from given side and angle measurements?",
+      "options": ["Guess the shape, color it, then count sides", "Plan the sides, draw with a ruler, turn with a protractor, close the figure, then check measurements", "Measure only one side because the rest will match", "Draw a circle first and place random points on it"],
+      "correctAnswer": 1,
+      "explanation": "A careful construction uses a ruler for lengths, a protractor for angles, closure of the figure, and a final measurement check.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A task says to draw a decagon. What is the first feature you should check after drawing?",
+      "options": ["It has exactly 10 sides", "It has exactly 8 sides", "It has only right angles", "It has one curved side"],
+      "correctAnswer": 0,
+      "explanation": "A decagon must have exactly 10 sides. Counting sides is the first basic check.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A regular octagon is drawn using equal exterior turns. What exterior turn should be used?",
+      "options": ["36 degrees", "45 degrees", "60 degrees", "72 degrees"],
+      "correctAnswer": 1,
+      "explanation": "For 8 sides, the exterior turn is 360 / 8 = 45 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A regular decagon is drawn using equal exterior turns. What exterior turn should be used?",
+      "options": ["36 degrees", "45 degrees", "60 degrees", "72 degrees"],
+      "correctAnswer": 0,
+      "explanation": "For 10 sides, the exterior turn is 360 / 10 = 36 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "If a hand-drawn angle is supposed to be 110 degrees and measures 111 degrees, it is within a 2-degree tolerance.",
+      "correctAnswer": "true",
+      "explanation": "The difference is 1 degree, which is within the 2-degree tolerance from the lesson.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A side should be 4 cm long. Which measurement is outside a 1 mm tolerance?",
+      "options": ["3.85 cm", "3.95 cm", "4.0 cm", "4.05 cm"],
+      "correctAnswer": 0,
+      "explanation": "A 1 mm tolerance equals 0.1 cm. A length of 3.85 cm is 0.15 cm, or 1.5 mm, away from 4 cm, so it is outside the tolerance.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A polygon has 6 straight sides. What is its name?",
+      "correctAnswer": "hexagon",
+      "explanation": "A polygon with 6 sides is called a hexagon.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Which statement correctly explains why a drawn pentagon is irregular?",
+      "options": ["It has five sides", "It has straight sides", "Its side lengths are not all equal", "It is closed"],
+      "correctAnswer": 2,
+      "explanation": "Unequal side lengths are enough to show that the pentagon is not regular.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A student draws a hexagon and measures the sides as 3 cm, 3 cm, 3 cm, 3 cm, 3 cm, and 3 cm. The angles are 100 degrees, 140 degrees, 120 degrees, 110 degrees, 130 degrees, and 120 degrees. Is the hexagon regular? Explain.",
+      "correctAnswer": "No. Even though all six sides are equal, the angle measures are not all equal, so the hexagon is irregular.",
+      "explanation": "A regular polygon must have all sides equal and all angles equal. Equal sides alone are not enough.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Describe how you would check whether your drawing of a regular pentagon with 4 cm sides is accurate.",
+      "correctAnswer": "I would count 5 sides, measure each side to see that it is about 4 cm within the allowed tolerance, and measure each interior angle to check that the angles are equal and close to 108 degrees.",
+      "explanation": "The answer should include side count, side-length checks, angle checks, and a regularity decision.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "examId": "grade-7-math-q1-geometry-lesson-10-assessment",
+  "examType": "assessment",
+  "title": "Geometry - Lesson 10 Assessment: Quarter Polygon Portfolio",
+  "description": "Show that you can synthesize the polygon unit by classifying figures, using angle relationships, and defending measurements.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which set of labels is most useful for a polygon reference-sheet drawing?",
+      "options": ["Only colors", "Side tick marks, vertex labels, angle measures, and diagonals when needed", "Only the page title", "Only the student's name"],
+      "correctAnswer": 1,
+      "explanation": "Useful mathematical labels show side equality, vertices, angle measures, and diagonals when they support reasoning.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "Find the interior angle sum of an octagon. Enter just the number.",
+      "correctAnswer": "1080",
+      "explanation": "An octagon has 8 sides, so (8 - 2) x 180 = 1080 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "Each interior angle of a regular pentagon measures 108 degrees. What is the adjacent exterior angle? Enter just the number.",
+      "correctAnswer": "72",
+      "explanation": "An interior angle and its adjacent exterior angle are supplementary, so 180 - 108 = 72.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A polygon has 8 sides. Its side lengths are not all equal. Its interior angles are all less than 180 degrees. Which classification is best?",
+      "options": ["Regular convex octagon", "Irregular convex octagon", "Regular non-convex octagon", "Irregular non-convex pentagon"],
+      "correctAnswer": 1,
+      "explanation": "Eight sides make an octagon. Unequal side lengths make it irregular. Interior angles less than 180 degrees make it convex.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "A polygon can be irregular and still be convex.",
+      "correctAnswer": "true",
+      "explanation": "Regularity is about equal sides and equal angles. Convexity is about the shape not caving inward; these are different classifications.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A regular polygon has each exterior angle equal to 45 degrees. How many sides does it have? Enter just the number.",
+      "correctAnswer": "8",
+      "explanation": "The exterior angles sum to 360 degrees. 360 / 45 = 8 sides.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which portfolio entry gives the strongest mathematical defense?",
+      "options": ["This is an octagon because it looks like one.", "This is regular because I used a ruler.", "This is a convex regular octagon because it has 8 sides, equal side markings, equal angle markings, and no interior angle greater than 180 degrees.", "This is a polygon because it is colorful."],
+      "correctAnswer": 2,
+      "explanation": "The strongest defense uses side count, regularity evidence, and convexity evidence.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "A decagon has how many vertices? Enter just the number.",
+      "correctAnswer": "10",
+      "explanation": "A polygon has the same number of sides and vertices, so a decagon has 10 vertices.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A student says, 'This pentagon is regular because it has 5 sides.' Explain the mistake and fix the statement.",
+      "correctAnswer": "Having 5 sides only proves the figure is a pentagon. To prove it is regular, the student must show that all 5 sides are equal and all 5 angles are equal.",
+      "explanation": "The side count names the polygon, but regularity requires equal sides and equal angles.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Write a short portfolio entry for a regular decagon. Include its side count, regularity, convexity, and one angle calculation.",
+      "correctAnswer": "A regular decagon has 10 sides. It is regular because all sides and all angles are equal, and it is convex because each interior angle is less than 180 degrees. Its interior angle sum is (10 - 2) x 180 = 1440 degrees, so each interior angle is 1440 / 10 = 144 degrees.",
+      "explanation": "A complete entry should classify by side count, regularity, and convexity, then include a correct angle calculation.",
+      "points": 10
+    }
+  ]
+}

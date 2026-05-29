@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" role="img" aria-labelledby="title desc">
+  <title id="title">Equilateral triangle split into two 30-60-90 triangles</title>
+  <desc id="desc">An equilateral triangle with side length 2x is split by an altitude, creating two right triangles with angles 30 degrees, 60 degrees, and 90 degrees.</desc>
+  <rect width="760" height="430" fill="#f8fafc"/>
+  <text x="380" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Deriving the 30-60-90 Ratio</text>
+  <polygon points="170,342 380,82 590,342" fill="#dbeafe" stroke="#1d4ed8" stroke-width="4"/>
+  <line x1="380" y1="82" x2="380" y2="342" stroke="#dc2626" stroke-width="4" stroke-dasharray="10 8"/>
+  <path d="M380 322 H400 V342" fill="none" stroke="#dc2626" stroke-width="3"/>
+  <text x="238" y="228" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1d4ed8">2x</text>
+  <text x="522" y="228" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1d4ed8">2x</text>
+  <text x="275" y="374" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">x</text>
+  <text x="485" y="374" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">x</text>
+  <text x="405" y="218" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#dc2626">h = x&#8730;3</text>
+  <text x="380" y="116" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">30 degrees each</text>
+  <text x="204" y="326" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">60 degrees</text>
+  <text x="556" y="326" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">60 degrees</text>
+  <text x="380" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">Altitude splits the base and creates the short leg x, long leg x&#8730;3, hypotenuse 2x.</text>
+</svg>

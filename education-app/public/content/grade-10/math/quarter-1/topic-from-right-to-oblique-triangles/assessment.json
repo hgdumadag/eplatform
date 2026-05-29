@@ -1,0 +1,148 @@
+{
+  "examId": "grade-10-math-q1-from-right-to-oblique-triangles-assessment",
+  "examType": "assessment",
+  "title": "Trigonometry: From Right to Oblique Triangles Exit Ticket",
+  "description": "Checkpoint on distinguishing triangle types and classifying given triangle-solving cases.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 11,
+  "totalPoints": 110,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A triangle has one angle measuring exactly 90 degrees. Which classification should you choose first?",
+      "options": [
+        "Right triangle",
+        "Acute oblique triangle",
+        "Obtuse oblique triangle",
+        "SSS triangle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The exact 90-degree angle makes it a right triangle before any other solving case is considered.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A triangle has angles 54 degrees, 58 degrees, and 68 degrees. Which classification is most precise?",
+      "options": [
+        "Right triangle",
+        "Acute oblique triangle",
+        "Obtuse oblique triangle",
+        "Not enough information"
+      ],
+      "correctAnswer": 1,
+      "explanation": "None of the angles is 90 degrees, so the triangle is oblique. All angles are acute, so it is an acute oblique triangle.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A triangle has angles 18 degrees, 47 degrees, and 115 degrees. Which classification is most precise?",
+      "options": [
+        "Right triangle",
+        "Acute oblique triangle",
+        "Obtuse oblique triangle",
+        "ASA case"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The triangle has no 90-degree angle, so it is oblique. The 115-degree angle makes it obtuse.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "In triangle ABC, angles A and B are known, and side AB is also known. Side AB lies between the two known angles. Which case is this?",
+      "options": [
+        "AAS",
+        "ASA",
+        "SSA",
+        "SAS"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Two angles with the included side form ASA.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "In triangle ABC, angles A and B are known, and side AC is known. Side AC is not between the two known angles. Which case is this?",
+      "options": [
+        "ASA",
+        "AAS",
+        "SAS",
+        "SSS"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Two angles and a non-included side form AAS.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A triangle has side lengths 9 cm and 13 cm, and the angle between those sides is 71 degrees. Which case is this?",
+      "options": [
+        "SAS",
+        "SSA",
+        "ASA",
+        "AAS"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The known angle is included between the two known sides, so the case is SAS.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A triangle has side lengths 8 cm and 12 cm, and a known angle that is not between those two sides. Which case is this?",
+      "options": [
+        "SAS",
+        "SSA",
+        "ASA",
+        "SSS"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Two known sides and a non-included angle form SSA.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A triangle has sides 6 m, 10 m, and 12 m known. Which case is this?",
+      "options": [
+        "SSS",
+        "SAS",
+        "SSA",
+        "AAA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "All three side lengths are known, so the case is SSS.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "AAS and ASA both involve two known angles, but ASA uses the included side while AAS uses a non-included side.",
+      "correctAnswer": "true",
+      "explanation": "The difference between ASA and AAS is the position of the known side.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A student sees a triangle with no 90-degree angle and immediately uses right-triangle sine, cosine, and tangent. In one or two sentences, explain the mistake.",
+      "correctAnswer": "Right-triangle sine, cosine, and tangent ratios directly apply to right triangles. A triangle with no 90-degree angle is oblique, so the student should first identify the given case and then consider tools such as the Law of Sines or Law of Cosines.",
+      "explanation": "The key idea is that right-triangle trig depends on a right angle; oblique triangles need a different starting plan.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "question": "Classify this situation and explain briefly: A triangle has two sides given and the angle between them given.",
+      "correctAnswer": "The case is SAS because the known angle is included between the two known sides.",
+      "explanation": "A complete answer names SAS and uses the word included or explains that the angle is between the known sides.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "grade-9-math-q2-geometry-lesson-10",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Geometry - Lesson 10: Two-Column Congruence Proofs",
+  "description": "Build complete two-column triangle congruence proofs using givens, shared parts, vertical angles, congruence shortcuts, and CPCTC.",
+  "learningObjectives": [
+    "Identify the givens and prove statement in a triangle congruence proof",
+    "Use reflexive shared parts and vertical angles as proof evidence",
+    "Choose a valid triangle congruence shortcut: SSS, SAS, ASA, AAS, or HL",
+    "Organize a two-column proof with statements and valid reasons",
+    "Use CPCTC after proving triangles congruent",
+    "Recognize and correct invalid proof shortcuts such as SSA"
+  ],
+  "prerequisites": [
+    "Name corresponding parts of triangles in the correct order",
+    "Identify congruent segments and congruent angles from markings",
+    "Apply SSS, SAS, ASA, AAS, and HL congruence conditions",
+    "Use the Vertical Angles Theorem and Reflexive Property",
+    "Understand statements and reasons in geometry proofs"
+  ],
+  "estimatedDuration": 60,
+  "difficulty": "advanced",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "triangle congruence",
+    "two-column proof",
+    "proofs",
+    "SSS",
+    "SAS",
+    "ASA",
+    "AAS",
+    "HL",
+    "CPCTC",
+    "deductive reasoning"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/real-world-proof-prompt.svg",
+      "images/given-prove-triangles.svg",
+      "images/congruence-evidence-map.svg",
+      "images/two-column-proof-layout.svg",
+      "images/worked-congruence-proof.svg",
+      "images/error-analysis-proof.svg"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Mirror sightline similar triangles</title>
+  <desc id="desc">A person sees the top of a flagpole in a mirror on the ground, creating two similar right triangles with distances measured to the mirror.</desc>
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <line x1="50" y1="300" x2="670" y2="300" stroke="#334155" stroke-width="3"/>
+  <rect x="340" y="291" width="54" height="9" fill="#38bdf8" stroke="#0369a1" stroke-width="2"/>
+  <text x="346" y="282" font-family="Arial, sans-serif" font-size="16" fill="#0369a1">mirror</text>
+  <circle cx="170" cy="156" r="15" fill="#f97316"/>
+  <line x1="170" y1="171" x2="170" y2="300" stroke="#f97316" stroke-width="6"/>
+  <line x1="152" y1="218" x2="188" y2="218" stroke="#f97316" stroke-width="5"/>
+  <line x1="170" y1="300" x2="154" y2="333" stroke="#f97316" stroke-width="5"/>
+  <line x1="170" y1="300" x2="190" y2="333" stroke="#f97316" stroke-width="5"/>
+  <line x1="570" y1="300" x2="570" y2="78" stroke="#475569" stroke-width="12"/>
+  <polygon points="540,86 570,35 600,86" fill="#64748b"/>
+  <line x1="170" y1="156" x2="367" y2="296" stroke="#7c3aed" stroke-width="4"/>
+  <line x1="367" y1="296" x2="570" y2="78" stroke="#7c3aed" stroke-width="4"/>
+  <path d="M170 300 L367 300" stroke="#64748b" stroke-width="5"/>
+  <path d="M367 300 L570 300" stroke="#64748b" stroke-width="5"/>
+  <text x="112" y="149" font-family="Arial, sans-serif" font-size="17" fill="#9a3412">eye height 1.6 m</text>
+  <text x="225" y="324" font-family="Arial, sans-serif" font-size="17" fill="#334155">2 m</text>
+  <text x="448" y="324" font-family="Arial, sans-serif" font-size="17" fill="#334155">15 m</text>
+  <text x="588" y="184" font-family="Arial, sans-serif" font-size="18" fill="#475569">x m</text>
+  <text x="280" y="74" font-family="Arial, sans-serif" font-size="18" fill="#4c1d95">eye to mirror to top</text>
+</svg>

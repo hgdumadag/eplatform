@@ -1,0 +1,41 @@
+{
+  "id": "grade-7-math-q1-geometry-lesson-3",
+  "grade": 7,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Triangles and Quadrilaterals by Angles",
+  "description": "Construct triangles and quadrilaterals from angle conditions, then decide whether each construction is possible using angle sums and angle constraints.",
+  "learningObjectives": [
+    "Use the triangle angle sum of 180 degrees to test angle conditions",
+    "Use the quadrilateral angle sum of 360 degrees to test angle conditions",
+    "Construct or sketch figures that match given angle measures",
+    "Explain why a triangle or quadrilateral construction is possible or impossible",
+    "Check angle constraints such as positive angle measures and angle sums"
+  ],
+  "prerequisites": [
+    "Measure angles with a protractor",
+    "Know acute, right, obtuse, and straight angles",
+    "Add whole-number angle measures",
+    "Recognize triangles and quadrilaterals"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "beginner",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "triangles",
+    "quadrilaterals",
+    "angle sums",
+    "construction"
+  ],
+  "lastUpdated": "2026-05-26",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/angle-condition-check.svg"
+    ]
+  }
+}
