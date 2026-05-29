@@ -1,4 +1,4 @@
-# Trigonometry: Oblique Triangle Navigation Task
+# Trigonometry - Lesson 10: Oblique Triangle Navigation Task
 
 > [!GOAL] Learning Goal
 >

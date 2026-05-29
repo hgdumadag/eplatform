@@ -3,7 +3,7 @@
   "grade": 10,
   "subject": "math",
   "quarter": 1,
-  "topicName": "Trigonometry: Ambiguous Case Decisions",
+  "topicName": "Trigonometry - Lesson 4: Ambiguous Case Decisions",
   "description": "Classify SSA trigonometry data as producing zero, one, or two possible triangles using angle type, height, and side-length comparisons.",
   "learningObjectives": [
     "Identify SSA information in an oblique triangle",

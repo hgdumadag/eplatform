@@ -1,4 +1,4 @@
-# Trigonometry: Solving Bearing Problems
+# Trigonometry - Lesson 9: Solving Bearing Problems
 
 > [!GOAL] Learning Goal
 >

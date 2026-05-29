@@ -1,4 +1,4 @@
-# Trigonometry: Choosing Law of Sines or Law of Cosines
+# Trigonometry - Lesson 7: Choosing Law of Sines or Law of Cosines
 
 > [!GOAL] Learning Goal
 >
