@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">ASA example triangle</title>
+  <desc id="desc">Triangle ABC has angle A of forty-eight degrees, angle B of seventy-two degrees, and included side c of fifteen centimeters between those angles.</desc>
+  <rect width="760" height="360" fill="#ffffff"/>
+  <text x="380" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">ASA: two angles and the included side</text>
+  <path d="M125 285 L635 285 L415 75 Z" fill="#fef3c7" stroke="#d97706" stroke-width="4" stroke-linejoin="round"/>
+  <text x="100" y="312" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#78350f">A</text>
+  <text x="646" y="312" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#78350f">B</text>
+  <text x="410" y="60" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#78350f">C</text>
+  <path d="M170 285 Q178 250 210 228" fill="none" stroke="#b45309" stroke-width="3"/>
+  <text x="218" y="255" font-family="Arial, sans-serif" font-size="20" fill="#92400e">48°</text>
+  <path d="M596 285 Q587 244 549 222" fill="none" stroke="#b45309" stroke-width="3"/>
+  <text x="532" y="255" font-family="Arial, sans-serif" font-size="20" fill="#92400e">72°</text>
+  <text x="380" y="312" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#be123c">c = 15 cm</text>
+  <text x="380" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">The known side is between the two known angles.</text>
+</svg>

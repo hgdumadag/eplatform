@@ -1,0 +1,131 @@
+{
+  "examId": "grade-10-math-q1-choosing-sines-or-cosines-assessment",
+  "examType": "assessment",
+  "title": "Trigonometry: Choosing Law of Sines or Law of Cosines Assessment",
+  "description": "Show decision-chart reasoning for mixed oblique triangle problems, then choose the correct first law.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 11,
+  "totalPoints": 110,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which given case starts with Law of Cosines because no opposite side-angle pair is known?",
+      "options": ["AAS", "ASA", "SAS", "SSA"],
+      "correctAnswer": 2,
+      "explanation": "SAS gives two sides and the included angle. There is no complete opposite pair, so Law of Cosines is the first law.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "In triangle ABC, A = 36 degrees, B = 81 degrees, and c = 18. What is the best first move?",
+      "options": [
+        "Use Law of Cosines to find side a",
+        "Find C, then use Law of Sines",
+        "Use Law of Cosines to find angle C",
+        "Use the ambiguous-case height test"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Two angles and one side are known. First find C = 180 degrees - 36 degrees - 81 degrees, then use Law of Sines with the complete pair C and c.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "In triangle ABC, a = 8, b = 13, and C = 47 degrees. Which expression is the correct first setup?",
+      "options": [
+        "c^2 = 8^2 + 13^2 - 2(8)(13)cos 47 degrees",
+        "sin C / c = sin 47 degrees / 13",
+        "a^2 = 8^2 + 13^2 - 2(8)(13)cos 47 degrees",
+        "C = 180 degrees - 8 degrees - 13 degrees"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is SAS with included angle C between sides a and b, so the Law of Cosines finds the opposite side c.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "In triangle ABC, a = 9, b = 14, and c = 16. Which angle is a sensible first angle to find, and why?",
+      "options": [
+        "A, because it is listed first",
+        "B, because b is between a and c",
+        "C, because it is opposite the longest side",
+        "Any angle using Law of Sines immediately"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For SSS, Law of Cosines finds an angle first. Choosing C is sensible because side c = 16 is longest, so angle C should be largest and easy to check.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "SSA problems should start with Law of Cosines because two sides are known.",
+      "correctAnswer": "false",
+      "explanation": "SSA has a known angle opposite a known side, so Law of Sines is the usual first law. However, the ambiguous case must be considered.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A learner writes: 'A = 52 degrees, a = 17, b = 12 gives a complete pair A and a.' What should the learner choose first?",
+      "options": [
+        "Law of Sines, with an SSA ambiguity check",
+        "Law of Cosines, because b is known",
+        "Triangle angle sum first",
+        "No law is possible"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The data is SSA. The complete pair A and a makes Law of Sines available, but SSA requires checking whether the measurements make one or two possible triangles.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which note best explains why ASA starts with Law of Sines?",
+      "options": [
+        "ASA always has three known sides after drawing a diagram.",
+        "Two known angles let you find the third angle, creating an opposite side-angle pair.",
+        "The included side must be the longest side.",
+        "Law of Cosines cannot use angles."
+      ],
+      "correctAnswer": 1,
+      "explanation": "ASA gives two angles, so the third angle is found by subtraction. Then the known side can be matched with its opposite angle for Law of Sines.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "Write the three-letter case only: two sides and a non-included angle.",
+      "correctAnswer": "SSA",
+      "explanation": "Two sides and a non-included angle form the SSA case.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "question": "Write the three-letter case only: three side lengths are known.",
+      "correctAnswer": "SSS",
+      "explanation": "When all three side lengths are known, the case is SSS.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Decision chart notes: In triangle ABC, A = 41 degrees, B = 74 degrees, and a = 15. State the case, complete pair, first law, and reason.",
+      "correctAnswer": "The case is AAS. A complete pair is A = 41 degrees with a = 15. Use the Law of Sines first because a known side is paired with its opposite known angle, and the third angle can be found from the angle sum.",
+      "explanation": "A complete answer identifies AAS, names A and a as the complete pair, selects Law of Sines, and gives the opposite-pair reason.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "question": "Decision chart notes: In triangle ABC, b = 10, c = 18, and A = 67 degrees. State the case, whether a complete pair is known, first law, and reason.",
+      "correctAnswer": "The case is SAS because angle A is included between sides b and c. No complete opposite side-angle pair is known at first. Use the Law of Cosines first to find side a.",
+      "explanation": "A strong response recognizes that b and c meet at angle A, so the data is SAS. Since there is no complete pair, Law of Cosines is the correct first law.",
+      "points": 10
+    }
+  ]
+}

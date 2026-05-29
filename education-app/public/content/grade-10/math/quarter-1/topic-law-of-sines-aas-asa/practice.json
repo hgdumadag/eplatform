@@ -1,0 +1,128 @@
+{
+  "examId": "grade-10-math-q1-law-of-sines-aas-asa-practice",
+  "examType": "practice",
+  "title": "Trigonometry: Law of Sines for AAS and ASA Practice",
+  "description": "Practice solving AAS and ASA oblique triangles with the Law of Sines.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Why are ordinary right-triangle ratios not enough for a general oblique triangle?",
+      "options": [
+        "An oblique triangle has no guaranteed right angle or hypotenuse.",
+        "An oblique triangle always has three equal sides.",
+        "The angles of an oblique triangle do not add to 180°.",
+        "Sine cannot be used with oblique triangles."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Right-triangle ratios are organized around a right angle and a hypotenuse. Oblique triangles need relationships such as the Law of Sines.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which formula shows the Law of Sines?",
+      "options": [
+        "a² = b² + c² - 2bc cos A",
+        "a/sin A = b/sin B = c/sin C",
+        "sin A = opposite/hypotenuse",
+        "A + B + C = 90°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Law of Sines compares every side with the sine of its opposite angle.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 39° and ∠B = 87°. What is ∠C?",
+      "options": [
+        "44°",
+        "54°",
+        "64°",
+        "74°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "C = 180° - 39° - 87° = 54°.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 54°, ∠B = 64°, and a = 16. Which expression finds b?",
+      "options": [
+        "b = 16 sin 54° / sin 64°",
+        "b = 16 sin 64° / sin 54°",
+        "b = 16 sin 62° / sin 54°",
+        "b = 64 sin 16° / sin 54°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Use b/sin 64° = 16/sin 54°, so b = 16 sin 64° / sin 54°.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 52°, ∠B = 73°, and b = 24. What is a to the nearest tenth?",
+      "options": [
+        "18.2",
+        "19.8",
+        "25.3",
+        "29.1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "a = 24 sin 52° / sin 73° ≈ 19.8.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 37°, ∠B = 69°, and a = 10. What are b and c to the nearest tenth?",
+      "options": [
+        "b ≈ 11.2, c ≈ 13.4",
+        "b ≈ 15.5, c ≈ 16.0",
+        "b ≈ 16.0, c ≈ 15.5",
+        "b ≈ 18.7, c ≈ 20.1"
+      ],
+      "correctAnswer": 1,
+      "explanation": "C = 74°. Then b = 10 sin 69° / sin 37° ≈ 15.5 and c = 10 sin 74° / sin 37° ≈ 16.0.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "In an ASA triangle, the known side is between the two known angles.",
+      "correctAnswer": "true",
+      "explanation": "ASA means angle-side-angle, so the given side is included between the two given angles.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "In △ABC, ∠A = 49°, ∠B = 58°, and a = 14. Find b to the nearest tenth.",
+      "correctAnswer": "15.7",
+      "explanation": "b = 14 sin 58° / sin 49° ≈ 15.7.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "question": "In △ABC, ∠A = 71°, ∠C = 44°, and a = 21. Find b to the nearest tenth.",
+      "correctAnswer": "21.9",
+      "explanation": "First B = 180° - 71° - 44° = 65°. Then b = 21 sin 65° / sin 71° ≈ 21.9.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A student sets up a Law of Sines proportion as a/sin B = b/sin A. Explain the mistake.",
+      "correctAnswer": "The student switched the opposite pairs. Side a must be paired with sin A, and side b must be paired with sin B.",
+      "explanation": "The Law of Sines works only when every side is matched with the sine of its opposite angle.",
+      "points": 10
+    }
+  ]
+}

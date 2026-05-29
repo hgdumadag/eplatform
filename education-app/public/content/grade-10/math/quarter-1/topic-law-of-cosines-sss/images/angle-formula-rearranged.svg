@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Rearranged Law of Cosines angle formula</title>
+  <desc id="desc">A formula flow showing a squared side formula rearranged into cosine of A and then angle A using inverse cosine.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <text x="360" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Rearrange to isolate the angle</text>
+  <rect x="70" y="86" width="580" height="70" rx="8" fill="#ecfeff" stroke="#0891b2" stroke-width="3"/>
+  <text x="360" y="131" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#0f172a">a² = b² + c² - 2bc cos A</text>
+  <path d="M360 162 L360 206" stroke="#64748b" stroke-width="4"/>
+  <path d="M348 194 L360 210 L372 194" fill="none" stroke="#64748b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="70" y="214" width="580" height="70" rx="8" fill="#eef2ff" stroke="#4f46e5" stroke-width="3"/>
+  <text x="360" y="259" text-anchor="middle" font-family="Arial, sans-serif" font-size="29" fill="#0f172a">cos A = (b² + c² - a²) / 2bc</text>
+  <path d="M360 290 L360 334" stroke="#64748b" stroke-width="4"/>
+  <path d="M348 322 L360 338 L372 322" fill="none" stroke="#64748b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="70" y="342" width="580" height="60" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+  <text x="360" y="381" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#0f172a">A = cos⁻¹((b² + c² - a²) / 2bc)</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Largest side opposite largest angle</title>
+  <desc id="desc">A triangle showing side c equals 13 as the longest side and angle C as the largest angle to find first.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <path d="M130 320 L560 320 L238 96 Z" fill="#f0fdf4" stroke="#0f172a" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M130 320 L560 320" stroke="#dc2626" stroke-width="8" stroke-linecap="round"/>
+  <path d="M202 176 Q239 156 274 183" fill="none" stroke="#dc2626" stroke-width="5"/>
+  <text x="220" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#dc2626">largest angle</text>
+  <text x="345" y="356" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#dc2626">longest side, c = 13</text>
+  <text x="105" y="350" font-family="Arial, sans-serif" font-size="24" fill="#0f172a">A</text>
+  <text x="568" y="350" font-family="Arial, sans-serif" font-size="24" fill="#0f172a">B</text>
+  <text x="229" y="78" font-family="Arial, sans-serif" font-size="24" fill="#0f172a">C</text>
+  <text x="164" y="202" transform="rotate(-65 164 202)" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#166534">b = 11</text>
+  <text x="405" y="192" transform="rotate(35 405 192)" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#166534">a = 8</text>
+  <text x="360" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Find the angle opposite the longest side first</text>
+</svg>

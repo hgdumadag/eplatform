@@ -1,0 +1,150 @@
+{
+  "examId": "grade-10-math-q1-law-of-sines-ssa-assessment",
+  "examType": "assessment",
+  "title": "Trigonometry: Law of Sines for SSA Assessment",
+  "description": "Checkpoint on applying the Law of Sines to SSA cases and identifying one, two, or no possible triangle solutions.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 12,
+  "totalPoints": 120,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which given information is an SSA case for △ABC?",
+      "options": [
+        "∠A, ∠B, and side c",
+        "Sides a, b, and c",
+        "∠A, side a, and side b",
+        "Sides a and b with the included angle ∠C"
+      ],
+      "correctAnswer": 2,
+      "explanation": "∠A with opposite side a and another side b gives two sides and a non-included angle.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 28°, a = 7, and b = 10. Which value is closest to sin B?",
+      "options": [
+        "0.329",
+        "0.469",
+        "0.671",
+        "1.489"
+      ],
+      "correctAnswer": 2,
+      "explanation": "sin B = 10 sin 28° / 7 ≈ 0.671.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 28°, a = 7, and b = 10. The smaller possible ∠B is about 42.1°. How many triangles are possible?",
+      "options": [
+        "No triangle",
+        "One triangle",
+        "Two triangles",
+        "Cannot be decided from this information"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The supplement is 137.9°. Since 28° + 137.9° = 165.9°, both B values are valid, so two triangles are possible.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 70°, a = 12, and b = 8. Which conclusion is correct?",
+      "options": [
+        "No triangle is possible because sin B is greater than 1.",
+        "Exactly one triangle is possible.",
+        "Two triangles are possible.",
+        "The supplement of B must be used instead of the calculator angle."
+      ],
+      "correctAnswer": 1,
+      "explanation": "sin B = 8 sin 70° / 12 ≈ 0.6265, so B ≈ 38.8°. Its supplement, 141.2°, is invalid because 70° + 141.2° > 180°.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 25°, a = 5, and b = 14. Which conclusion is correct?",
+      "options": [
+        "No triangle is possible.",
+        "Exactly one triangle is possible.",
+        "Two triangles are possible.",
+        "The triangle must be right."
+      ],
+      "correctAnswer": 0,
+      "explanation": "sin B = 14 sin 25° / 5 ≈ 1.183, which is impossible for a real angle, so no triangle is possible.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 55°, a = 15, and b = 13. What is the smaller possible value of ∠B to the nearest tenth?",
+      "options": [
+        "35.3°",
+        "45.2°",
+        "54.8°",
+        "134.8°"
+      ],
+      "correctAnswer": 1,
+      "explanation": "sin B = 13 sin 55° / 15 ≈ 0.7099, so B ≈ 45.2°.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "In △ABC, ∠A = 55°, a = 15, and b = 13. Why is the supplementary angle not valid?",
+      "options": [
+        "It has a different sine value.",
+        "It makes side b negative.",
+        "55° plus the supplement is greater than 180°.",
+        "Supplements are checked only for right triangles."
+      ],
+      "correctAnswer": 2,
+      "explanation": "The supplement is about 134.8°, and 55° + 134.8° = 189.8°, which cannot leave a positive third angle.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "question": "If sin B = 0.6 in an SSA problem, both B = sin⁻¹(0.6) and 180° - sin⁻¹(0.6) should be checked.",
+      "correctAnswer": "true",
+      "explanation": "Both angles have the same sine value, so both are possible candidates until the triangle angle sum rejects one.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "If the given angle and the supplementary candidate add to exactly 180°, the supplementary candidate forms a valid triangle.",
+      "correctAnswer": "false",
+      "explanation": "A third angle of 0° is not possible in a triangle, so the two known angles must add to less than 180°.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "fill-in",
+      "question": "In △ABC, ∠A = 36°, a = 9, and b = 12. Find the smaller possible value of ∠B to the nearest tenth of a degree.",
+      "correctAnswer": "51.6",
+      "explanation": "sin B = 12 sin 36° / 9 ≈ 0.7837, so the smaller possible angle is B ≈ 51.6°.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "fill-in",
+      "question": "In △ABC, ∠A = 36°, a = 9, and b = 12. Find the larger possible value of ∠B to the nearest tenth of a degree.",
+      "correctAnswer": "128.4",
+      "explanation": "The larger possible angle is the supplement of 51.6°, so B ≈ 180° - 51.6° = 128.4°. It is valid because 36° + 128.4° < 180°.",
+      "points": 10
+    },
+    {
+      "id": "q12",
+      "type": "short-answer",
+      "question": "A classmate says, “My calculator gave one angle, so there can only be one SSA triangle.” Explain the mistake.",
+      "correctAnswer": "The calculator gives the principal inverse sine angle, but a supplementary angle has the same sine. In SSA, the supplement must also be checked because it may form a second valid triangle.",
+      "explanation": "The ambiguity comes from sine having the same value for two angles between 0° and 180°. The second angle is accepted only if it leaves a positive third angle.",
+      "points": 10
+    }
+  ]
+}

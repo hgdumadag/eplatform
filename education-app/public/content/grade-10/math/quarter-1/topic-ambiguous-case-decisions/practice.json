@@ -1,0 +1,126 @@
+{
+  "examId": "grade-10-math-q1-ambiguous-case-decisions-practice",
+  "examType": "practice",
+  "title": "Trigonometry: Ambiguous Case Decisions Practice",
+  "description": "Practice classifying SSA trigonometry data as producing zero, one, or two possible triangles before solving.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 9,
+  "totalPoints": 90,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which set of information is the SSA ambiguous-case pattern?",
+      "options": [
+        "Two sides and the included angle",
+        "Two sides and a non-included angle",
+        "Two angles and one side",
+        "Three side lengths"
+      ],
+      "correctAnswer": 1,
+      "explanation": "SSA means two side lengths and an angle that is not between those two sides. This pattern can produce zero, one, or two triangles.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "For acute angle A with opposite side a and adjacent known side b, which height is used in the decision test?",
+      "options": [
+        "h = a sin A",
+        "h = b sin A",
+        "h = a / sin A",
+        "h = a + b"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For the acute SSA height test, the height from the end of side b is h = b sin A.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Given A = 32 degrees, a = 5, and b = 12. Since h = 12 sin 32 degrees is about 6.36, how many triangles are possible?",
+      "options": [
+        "0 triangles",
+        "1 triangle",
+        "2 triangles",
+        "The number cannot be decided"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The angle is acute and a = 5 is less than h about 6.36, so side a is too short to reach the base ray.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Given A = 45 degrees, a = 7.07, and b = 10. Since h = 10 sin 45 degrees is about 7.07, how many triangles are possible?",
+      "options": [
+        "0 triangles",
+        "1 triangle",
+        "2 triangles",
+        "Infinitely many triangles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For an acute SSA case, a = h means the swinging side reaches exactly one point, forming one right triangle.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Given A = 40 degrees, a = 8, and b = 11. Since h = 11 sin 40 degrees is about 7.07, how many triangles are possible?",
+      "options": [
+        "0 triangles",
+        "1 triangle",
+        "2 triangles",
+        "No triangle because a is less than b"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The angle is acute and h < a < b, or 7.07 < 8 < 11, so the data can make two triangles.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Given A = 25 degrees, a = 14, and b = 9. How many triangles are possible?",
+      "options": [
+        "0 triangles",
+        "1 triangle",
+        "2 triangles",
+        "Two triangles because A is acute"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For an acute SSA case, a >= b gives exactly one triangle. Here 14 >= 9.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Given A = 110 degrees, a = 13, and b = 9. How many triangles are possible?",
+      "options": [
+        "0 triangles",
+        "1 triangle",
+        "2 triangles",
+        "Cannot be classified without height"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The known angle is obtuse. Since the opposite side a is longer than b, one triangle is possible.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "question": "If A is obtuse in an SSA case and a <= b, no triangle is possible.",
+      "correctAnswer": "true",
+      "explanation": "The side opposite an obtuse angle must be longer than the adjacent known side. If a <= b, the data cannot form a triangle.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Explain why the comparison h < a < b gives two possible triangles when A is acute.",
+      "correctAnswer": "Side a is longer than the shortest distance h, so it can reach the base ray, but it is still shorter than b. That lets the swinging side hit the base ray in two different positions.",
+      "explanation": "The key justification is that a is long enough to reach the base but not long enough to force only one forward intersection.",
+      "points": 10
+    }
+  ]
+}

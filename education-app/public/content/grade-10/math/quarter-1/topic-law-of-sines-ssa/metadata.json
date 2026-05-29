@@ -1,0 +1,45 @@
+{
+  "id": "grade-10-math-q1-law-of-sines-ssa",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Trigonometry: Law of Sines for SSA",
+  "description": "Apply the Law of Sines to side-side-angle cases and decide when one or two possible triangles may fit the same information.",
+  "learningObjectives": [
+    "Recognize an SSA setup in an oblique triangle",
+    "Use the Law of Sines to find a possible missing angle",
+    "Check the supplementary angle in SSA cases",
+    "Decide whether an SSA case gives one triangle, two triangles, or no triangle",
+    "Compare possible angle values before completing a triangle solution"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "trigonometry",
+    "geometry",
+    "law-of-sines",
+    "ssa",
+    "ambiguous-case",
+    "oblique-triangles"
+  ],
+  "lastUpdated": "2026-05-29",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/two-ssa-triangles.svg",
+      "images/ssa-law-of-sines-setup.svg",
+      "images/supplementary-angle-check.svg",
+      "images/ssa-decision-flow.svg"
+    ]
+  },
+  "prerequisites": [
+    "Triangle angle sum",
+    "Sine ratio and inverse sine",
+    "Opposite side-angle pairs",
+    "Basic Law of Sines",
+    "Rounding with a calculator"
+  ]
+}

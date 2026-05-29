@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Law choice map for navigation trigonometry</title>
+  <desc id="desc">A decision chart showing when to use Law of Cosines or Law of Sines in a route-planning triangle.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <g font-family="Arial, sans-serif">
+    <rect x="230" y="28" width="260" height="62" rx="8" fill="#0f766e"/>
+    <text x="360" y="65" font-size="20" font-weight="700" text-anchor="middle" fill="#ffffff">What does the diagram give?</text>
+    <path d="M360 90V128" stroke="#475569" stroke-width="3"/>
+    <path d="M360 128H170M360 128H550" stroke="#475569" stroke-width="3"/>
+    <path d="M170 128V166M550 128V166" stroke="#475569" stroke-width="3"/>
+    <rect x="70" y="166" width="200" height="76" rx="8" fill="#dbeafe" stroke="#60a5fa" stroke-width="2"/>
+    <text x="170" y="197" font-size="18" font-weight="700" text-anchor="middle" fill="#1e3a8a">SAS or SSS</text>
+    <text x="170" y="224" font-size="15" text-anchor="middle" fill="#1e40af">Need a side or angle?</text>
+    <rect x="450" y="166" width="200" height="76" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+    <text x="550" y="197" font-size="18" font-weight="700" text-anchor="middle" fill="#78350f">ASA, AAS, or SSA</text>
+    <text x="550" y="224" font-size="15" text-anchor="middle" fill="#92400e">Have opposite pair?</text>
+    <path d="M170 242V290M550 242V290" stroke="#475569" stroke-width="3"/>
+    <rect x="65" y="290" width="210" height="84" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
+    <text x="170" y="321" font-size="18" font-weight="700" text-anchor="middle" fill="#1d4ed8">Law of Cosines</text>
+    <text x="170" y="349" font-size="14" text-anchor="middle" fill="#334155">c² = a² + b² - 2ab cos C</text>
+    <rect x="445" y="290" width="210" height="84" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="3"/>
+    <text x="550" y="321" font-size="18" font-weight="700" text-anchor="middle" fill="#b45309">Law of Sines</text>
+    <text x="550" y="349" font-size="14" text-anchor="middle" fill="#334155">a/sin A = b/sin B</text>
+    <text x="360" y="398" font-size="16" text-anchor="middle" fill="#111827">A clear bearing diagram makes the law choice visible.</text>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+  <title id="title">Decision map for acute SSA cases</title>
+  <desc id="desc">Four panels show that a less than h gives zero triangles, a equals h gives one, h less than a less than b gives two, and a greater than or equal to b gives one.</desc>
+  <rect width="900" height="500" fill="#f8fafc"/>
+  <text x="45" y="48" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#111827">Acute SSA decision map</text>
+  <g transform="translate(45,85)">
+    <rect width="185" height="330" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="22" y="42" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#b42318">a &lt; h</text>
+    <text x="22" y="72" font-family="Arial, sans-serif" font-size="20" fill="#111827">0 triangles</text>
+    <line x1="28" y1="260" x2="158" y2="260" stroke="#263238" stroke-width="4"/>
+    <line x1="55" y1="260" x2="120" y2="125" stroke="#2f80ed" stroke-width="5"/>
+    <line x1="120" y1="125" x2="120" y2="260" stroke="#d64545" stroke-width="3" stroke-dasharray="7 7"/>
+    <line x1="120" y1="125" x2="84" y2="220" stroke="#f2994a" stroke-width="5"/>
+    <text x="78" y="306" font-family="Arial, sans-serif" font-size="18" fill="#4b5563">too short</text>
+  </g>
+  <g transform="translate(255,85)">
+    <rect width="185" height="330" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="22" y="42" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1f7a3f">a = h</text>
+    <text x="22" y="72" font-family="Arial, sans-serif" font-size="20" fill="#111827">1 triangle</text>
+    <line x1="28" y1="260" x2="158" y2="260" stroke="#263238" stroke-width="4"/>
+    <line x1="55" y1="260" x2="120" y2="125" stroke="#2f80ed" stroke-width="5"/>
+    <line x1="120" y1="125" x2="120" y2="260" stroke="#f2994a" stroke-width="5"/>
+    <path d="M120 260 L120 235 L145 235" fill="none" stroke="#d64545" stroke-width="3"/>
+    <text x="45" y="306" font-family="Arial, sans-serif" font-size="18" fill="#4b5563">exact reach</text>
+  </g>
+  <g transform="translate(465,85)">
+    <rect width="185" height="330" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="22" y="42" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#a65613">h &lt; a &lt; b</text>
+    <text x="22" y="72" font-family="Arial, sans-serif" font-size="20" fill="#111827">2 triangles</text>
+    <line x1="28" y1="260" x2="165" y2="260" stroke="#263238" stroke-width="4"/>
+    <line x1="55" y1="260" x2="120" y2="125" stroke="#2f80ed" stroke-width="5"/>
+    <line x1="120" y1="125" x2="78" y2="260" stroke="#f2994a" stroke-width="5"/>
+    <line x1="120" y1="125" x2="158" y2="260" stroke="#f2994a" stroke-width="5" stroke-dasharray="9 8"/>
+    <text x="43" y="306" font-family="Arial, sans-serif" font-size="18" fill="#4b5563">two hits</text>
+  </g>
+  <g transform="translate(675,85)">
+    <rect width="185" height="330" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="22" y="42" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0f5fb8">a &gt;= b</text>
+    <text x="22" y="72" font-family="Arial, sans-serif" font-size="20" fill="#111827">1 triangle</text>
+    <line x1="28" y1="260" x2="165" y2="260" stroke="#263238" stroke-width="4"/>
+    <line x1="55" y1="260" x2="120" y2="125" stroke="#2f80ed" stroke-width="5"/>
+    <line x1="120" y1="125" x2="165" y2="260" stroke="#f2994a" stroke-width="5"/>
+    <text x="34" y="306" font-family="Arial, sans-serif" font-size="18" fill="#4b5563">one forward hit</text>
+  </g>
+</svg>

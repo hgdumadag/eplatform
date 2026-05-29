@@ -1,0 +1,114 @@
+{
+  "examId": "grade-10-math-q1-oblique-triangle-navigation-task-assessment",
+  "examType": "assessment",
+  "title": "Trigonometry Oblique Triangle Navigation Checkpoint",
+  "description": "Checkpoint assessment for solving and explaining an oblique-triangle bearings task using diagram accuracy, mathematical method, precision, and interpretation.",
+  "passingScore": 75,
+  "timeLimit": 40,
+  "totalQuestions": 12,
+  "totalPoints": 120,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A survey team walks from P to Q on a bearing of 070°, then from Q to R on a bearing of 150°. Which bearing should be used for the direction from Q back to P?",
+      "options": ["070°", "110°", "250°", "330°"],
+      "correctAnswer": 2,
+      "explanation": "The back bearing from Q to P is 070° + 180° = 250°.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "Using the route in q1, what is the included angle at Q between QP and QR? Give the answer in degrees.",
+      "correctAnswer": "100° or 100 degrees or 100",
+      "explanation": "At Q, compare the back bearing 250° with the forward bearing 150°: 250° - 150° = 100°.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "If PQ = 8 km, QR = 11 km, and ∠Q = 100°, which expression correctly finds PR²?",
+      "options": ["8² + 11² - 2(8)(11)cos100°", "8² + 11² + 2(8)(11)cos100°", "8² - 11² - 2(8)(11)cos100°", "8 + 11 - 2(8)(11)cos100°"],
+      "correctAnswer": 0,
+      "explanation": "For the side opposite the included angle, the Law of Cosines gives PR² = 8² + 11² - 2(8)(11)cos100°.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "For PQ = 8 km, QR = 11 km, and ∠Q = 100°, what is PR to the nearest tenth?",
+      "options": ["11.2 km", "13.2 km", "14.7 km", "18.9 km"],
+      "correctAnswer": 2,
+      "explanation": "PR² = 64 + 121 - 176cos100° ≈ 215.56, so PR ≈ 14.7 km.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "short-answer",
+      "question": "A classmate writes only: \"PR = 14.7.\" Explain what is missing from the answer according to the rubric.",
+      "correctAnswer": "The answer needs units, a stated rounding level, and an interpretation in the route context. A complete answer would say the direct distance from P to R is about 14.7 km.",
+      "explanation": "Rubric-quality work includes precision and interpretation, not just an unlabeled number.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A triangle has side a = 10, side b = 14, and side c = 18. Which law is a good choice for finding angle C?",
+      "options": ["Law of Cosines", "Law of Sines only", "Pythagorean Theorem only", "No trigonometric law applies"],
+      "correctAnswer": 0,
+      "explanation": "With all three sides known, the Law of Cosines can find an angle, such as cos C = (a² + b² - c²)/(2ab).",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "In a route triangle, you know side AC, angle A, and angle B. Which law is usually useful for finding a missing side opposite one of those angles?",
+      "options": ["Law of Sines", "Law of Cosines for SSS", "Distance formula", "Area formula"],
+      "correctAnswer": 0,
+      "explanation": "Two angles and one side give an AAS or ASA situation, and the Law of Sines connects side-angle opposite pairs.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "question": "If a route problem asks for a final bearing, a direct distance alone is not enough for a complete navigation answer.",
+      "correctAnswer": "true",
+      "explanation": "A navigator needs both how far to travel and what direction to travel.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Describe two features of an accurate bearing diagram for an oblique-triangle navigation task.",
+      "correctAnswer": "An accurate diagram should show local north lines at the points where bearings are measured and label the route legs, distances, bearings, and triangle vertices.",
+      "explanation": "The answer should mention diagram evidence that makes the angle and law choice traceable.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "Which statement best justifies using the Law of Cosines in a two-leg route task?",
+      "options": ["The route has a compass bearing, so Law of Cosines always applies.", "The diagram shows two known sides and the included angle between them.", "The final answer needs units.", "The route has exactly three points."],
+      "correctAnswer": 1,
+      "explanation": "The Law of Cosines is justified by the triangle evidence, especially SAS for a missing side.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "fill-in",
+      "question": "A hiker goes from L to M on a bearing of 125°. What is the back bearing from M to L?",
+      "correctAnswer": "305° or 305 degrees or 305",
+      "explanation": "Add 180° because the result is below 360°: 125° + 180° = 305°.",
+      "points": 10
+    },
+    {
+      "id": "q12",
+      "type": "short-answer",
+      "question": "Write a rubric-quality final sentence for this navigation result: direct distance = 14.7 km, final bearing = 092°, original two-leg route = 19 km.",
+      "correctAnswer": "The direct route is about 14.7 km on a bearing of 092°, which is shorter than the 19 km two-leg route by about 4.3 km if a straight path is available.",
+      "explanation": "A strong final sentence includes distance, bearing, comparison to the original route, units, and a realistic navigation condition.",
+      "points": 10
+    }
+  ]
+}

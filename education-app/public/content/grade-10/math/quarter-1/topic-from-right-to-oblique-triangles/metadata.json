@@ -1,0 +1,47 @@
+{
+  "id": "grade-10-math-q1-from-right-to-oblique-triangles",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Trigonometry: From Right to Oblique Triangles",
+  "description": "Distinguish right and oblique triangles, then identify common triangle-solving given cases such as ASA, AAS, SSA, SAS, and SSS.",
+  "learningObjectives": [
+    "Distinguish right triangles from oblique triangles using angle information",
+    "Describe why right-triangle trigonometry does not directly fit non-right triangles",
+    "Identify given information in a triangle diagram or word description",
+    "Classify triangle-solving cases as ASA, AAS, SSA, SAS, or SSS",
+    "Explain whether a triangle situation begins with right-triangle tools, Law of Sines thinking, or Law of Cosines thinking"
+  ],
+  "estimatedDuration": 35,
+  "difficulty": "intermediate",
+  "tags": [
+    "trigonometry",
+    "geometry",
+    "triangles",
+    "right-triangles",
+    "oblique-triangles",
+    "given-cases",
+    "law-of-sines",
+    "law-of-cosines"
+  ],
+  "lastUpdated": "2026-05-29",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/right-vs-oblique-opening.svg",
+      "images/oblique-types.svg",
+      "images/given-case-map.svg",
+      "images/asa-aas-ssa.svg",
+      "images/sas-sss.svg"
+    ]
+  },
+  "prerequisites": [
+    "Triangle angle sum is 180 degrees",
+    "Right angle, acute angle, and obtuse angle vocabulary",
+    "Basic triangle notation for vertices, sides, and angles",
+    "Familiarity with sine, cosine, and tangent in right triangles"
+  ]
+}

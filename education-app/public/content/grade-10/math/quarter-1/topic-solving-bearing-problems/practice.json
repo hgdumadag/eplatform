@@ -1,0 +1,134 @@
+{
+  "examId": "grade-10-math-q1-solving-bearing-problems-practice",
+  "examType": "practice",
+  "title": "Trigonometry: Solving Bearing Problems Practice",
+  "description": "Practice drawing bearing triangles, choosing the Law of Sines or Law of Cosines, and stating final distances or directions.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What does a bearing of 090 degrees mean?",
+      "options": [
+        "North",
+        "East",
+        "South",
+        "West"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bearings are measured clockwise from north. A bearing of 090 degrees points east.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Two paths leave the same point on bearings of 028 degrees and 112 degrees. What is the included angle between the paths?",
+      "options": [
+        "56 degrees",
+        "84 degrees",
+        "112 degrees",
+        "140 degrees"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When both paths start from the same point, subtract the bearings: 112 degrees - 28 degrees = 84 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A rescue boat travels 6 km from a dock on a bearing of 040 degrees. A drone travels 10 km from the same dock on a bearing of 100 degrees. Which law should be used first to find the distance between them?",
+      "options": [
+        "Pythagorean Theorem",
+        "Law of Cosines",
+        "Law of Sines only",
+        "Triangle angle sum only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The diagram gives two sides and the included angle of 60 degrees, so the Law of Cosines is the best first step.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A rescue boat travels 6 km from a dock on a bearing of 040 degrees. A drone travels 10 km from the same dock on a bearing of 100 degrees. How far apart are they, to the nearest tenth?",
+      "options": [
+        "8.7 km",
+        "11.7 km",
+        "13.9 km",
+        "16.0 km"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The included angle is 60 degrees. Using d^2 = 6^2 + 10^2 - 2(6)(10)cos 60 degrees gives d = sqrt(76), so d is about 8.7 km.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A survey drone flies 12 km on a bearing of 025 degrees. A rescue team leaves the same point and travels 9 km on a bearing of 080 degrees. How far apart are they, to the nearest tenth?",
+      "options": [
+        "7.4 km",
+        "10.1 km",
+        "15.0 km",
+        "18.2 km"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The included angle is 55 degrees. d^2 = 12^2 + 9^2 - 2(12)(9)cos 55 degrees, so d is about 10.1 km.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A boat first travels 7 km on a bearing of 015 degrees, then travels 9 km on a bearing of 095 degrees. What interior angle should be used at the turning point?",
+      "options": [
+        "80 degrees",
+        "95 degrees",
+        "100 degrees",
+        "180 degrees"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The reverse bearing of 015 degrees is 195 degrees. The smaller angle between 195 degrees and 095 degrees is 100 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A boat first travels 7 km on a bearing of 015 degrees, then travels 9 km on a bearing of 095 degrees. How far is the final point from the start, to the nearest tenth?",
+      "options": [
+        "10.4 km",
+        "12.3 km",
+        "14.6 km",
+        "16.0 km"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Use the Law of Cosines with included angle 100 degrees: x^2 = 7^2 + 9^2 - 2(7)(9)cos 100 degrees, so x is about 12.3 km.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "question": "The angle inside a triangle is always the same as the final bearing you report.",
+      "correctAnswer": "false",
+      "explanation": "An interior triangle angle may help you compute a direction, but the final bearing must be measured clockwise from north at the starting point of that final direction.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "question": "Two rescue teams leave the same station. Team A travels 18 km on a bearing of 032 degrees. Team B travels 12 km on a bearing of 112 degrees. Find the distance between them to the nearest tenth. Enter the number only.",
+      "correctAnswer": "19.8",
+      "explanation": "The included angle is 80 degrees. d^2 = 18^2 + 12^2 - 2(18)(12)cos 80 degrees, so d is about 19.8 km.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A student solves a bearing problem and gets a distance of 14.6 but writes only 14.6 as the final answer. What should be improved?",
+      "correctAnswer": "The student should include the unit from the problem, such as 14.6 km, and state what the distance represents in the context.",
+      "explanation": "Navigation answers need units and context. A number alone does not fully answer a map-style problem.",
+      "points": 10
+    }
+  ]
+}

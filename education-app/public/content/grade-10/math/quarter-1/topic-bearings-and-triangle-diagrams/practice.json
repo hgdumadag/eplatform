@@ -1,0 +1,114 @@
+{
+  "examId": "grade-10-math-q1-bearings-and-triangle-diagrams-practice",
+  "examType": "practice",
+  "title": "Trigonometry: Bearings and Triangle Diagrams Practice",
+  "description": "Practice translating bearing statements into correctly oriented triangle diagrams without solving for unknown lengths.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 9,
+  "totalPoints": 90,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A standard bearing is measured in which way?",
+      "options": [
+        "Clockwise from north",
+        "Counterclockwise from east",
+        "Clockwise from south",
+        "Counterclockwise from west"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bearings are measured clockwise from a north line and are usually written with three digits.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A bearing of 060° should be drawn in which general direction?",
+      "options": [
+        "Northeast",
+        "Southeast",
+        "Southwest",
+        "Northwest"
+      ],
+      "correctAnswer": 0,
+      "explanation": "060° is between 000° and 090°, so the ray points generally northeast.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "From the same point, two rays have bearings 025° and 105°. What is the included angle between the rays? Give the answer in degrees.",
+      "correctAnswer": "80° or 80 degrees or 80",
+      "explanation": "Both bearings use the same north line, so subtract: 105° - 025° = 80°.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "From point A, B is 6 km away on bearing 040°. Which diagram feature is required?",
+      "options": [
+        "A north line at A and segment AB pointing generally northeast",
+        "A north line at B before drawing segment AB",
+        "Segment AB pointing generally southwest",
+        "An included angle at B"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The bearing begins at A, so the north line is drawn at A. A 040° bearing points northeast.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "In a two-leg route from A to B to C, the bearing for BC should be measured from a new north line at B.",
+      "correctAnswer": "true",
+      "explanation": "The phrase 'from B' means the direction starts at B, so BC needs its own local north line at B.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "From P, Q is 5 km away on bearing 030° and R is 7 km away on bearing 115°. Where should the included angle be marked?",
+      "options": [
+        "At P",
+        "At Q",
+        "At R",
+        "On the north line only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both known sides, PQ and PR, start at P, so the included angle is inside the triangle at P.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "From A to B, the bearing is 070°. What is the back bearing from B to A? Write a three-digit bearing.",
+      "correctAnswer": "250° or 250 degrees or 250",
+      "explanation": "The back bearing is 180° from the original direction: 070° + 180° = 250°.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A boat travels from A to B, then from B to C. Which segment completes the route triangle as the direct distance from start to finish?",
+      "options": [
+        "AB",
+        "BC",
+        "AC",
+        "The north line at B"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The route legs are AB and BC. The direct distance from the start A to the finish C is AC.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A student draws the second leg of a route using the north line at the original starting point instead of the turning point. Explain the diagram error in one or two sentences.",
+      "correctAnswer": "The second bearing must be measured from a north line at the point where the second leg begins. If the route turns at B, the bearing for BC must be measured from north at B, not from north at A.",
+      "explanation": "Bearings are local to their starting point, so each new leg begins with a new north reference.",
+      "points": 10
+    }
+  ]
+}

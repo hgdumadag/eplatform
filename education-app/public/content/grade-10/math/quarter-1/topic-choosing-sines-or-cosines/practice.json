@@ -1,0 +1,100 @@
+{
+  "examId": "grade-10-math-q1-choosing-sines-or-cosines-practice",
+  "examType": "practice",
+  "title": "Trigonometry: Choosing Law of Sines or Law of Cosines Practice",
+  "description": "Practice identifying triangle cases, choosing the first law, and explaining the reason before solving.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 9,
+  "totalPoints": 90,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A triangle has A = 42 degrees, B = 63 degrees, and side a = 14. Which case is this?",
+      "options": ["AAS", "SSA", "SAS", "SSS"],
+      "correctAnswer": 0,
+      "explanation": "Two angles and a non-included side are known, so the case is AAS.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "For the AAS data A = 42 degrees, B = 63 degrees, and a = 14, which law should be used first?",
+      "options": ["Law of Cosines", "Law of Sines", "Pythagorean Theorem", "Either law before finding another part"],
+      "correctAnswer": 1,
+      "explanation": "AAS gives enough angle information and a complete pair A with a, so the Law of Sines is the direct first law.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A triangle has sides a = 9, b = 12, and included angle C = 58 degrees. Which law should start the solution?",
+      "options": ["Law of Sines, because two sides are known", "Law of Cosines, because this is SAS", "Law of Sines, because C is known", "Neither law can be used"],
+      "correctAnswer": 1,
+      "explanation": "The known angle C is included between sides a and b, so this is SAS. SAS starts with the Law of Cosines to find side c.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A triangle has side lengths 6, 8, and 11. Which first move is best?",
+      "options": ["Use Law of Sines immediately", "Use Law of Cosines to find an angle", "Find the third angle by subtracting from 180 degrees", "Use tangent with the longest side"],
+      "correctAnswer": 1,
+      "explanation": "Three sides are known, so the case is SSS. SSS starts with the Law of Cosines to find an angle.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "If a problem gives ASA information, the Law of Sines is usually ready after finding the third angle if needed.",
+      "correctAnswer": "true",
+      "explanation": "ASA gives two angles and one side. The third angle completes an opposite angle-side pair, so the Law of Sines is the natural first method.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A triangle has A = 35 degrees, a = 10, and b = 16. What annotation should come before solving?",
+      "options": [
+        "SSA; Law of Sines first, with an ambiguous-case check",
+        "SAS; Law of Cosines first",
+        "AAS; find the third angle first",
+        "SSS; Law of Cosines first"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The given angle A is opposite known side a, and another side b is known. This is SSA, so use Law of Sines only after checking the ambiguous case.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "Fill in the first law only: For SAS data, use the Law of ____ first.",
+      "correctAnswer": "Cosines",
+      "explanation": "SAS has two sides and the included angle but no complete opposite pair, so it starts with the Law of Cosines.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "After a SAS problem uses the Law of Cosines to find the third side, why might either law become possible?",
+      "options": [
+        "The triangle becomes right automatically",
+        "The problem now has more known parts, possibly including complete opposite pairs",
+        "The original included angle disappears",
+        "All remaining angles must be equal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "After the first missing side is found, the triangle has more known information. If a complete opposite pair is available, Law of Sines can be used; Law of Cosines can also continue from side lengths.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Annotate this problem before solving: In triangle ABC, A = 46 degrees, C = 59 degrees, and b = 20. State the case, first law, and reason.",
+      "correctAnswer": "This is ASA because two angles and the included side are known. Use the Law of Sines first after finding B, because then side b has its opposite angle B as a complete pair.",
+      "explanation": "A strong annotation names ASA, chooses Law of Sines, and explains that finding the third angle creates the complete pair B and b.",
+      "points": 10
+    }
+  ]
+}

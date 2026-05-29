@@ -1,0 +1,45 @@
+{
+  "id": "grade-10-math-q1-choosing-sines-or-cosines",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Trigonometry: Choosing Law of Sines or Law of Cosines",
+  "description": "Choose the Law of Sines or the Law of Cosines for oblique triangle problems by reading the given information before solving.",
+  "learningObjectives": [
+    "Classify triangle information as AAS, ASA, SSA, SAS, or SSS",
+    "Select the Law of Sines for AAS, ASA, and SSA cases when an opposite angle-side pair is available",
+    "Select the Law of Cosines for SAS and SSS cases when no opposite angle-side pair is available at first",
+    "Identify cases where either law may be useful after a first missing part is found",
+    "Annotate a mixed triangle problem with the given case, first move, and reason for the chosen law"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "trigonometry",
+    "law-of-sines",
+    "law-of-cosines",
+    "oblique-triangles",
+    "decision-chart",
+    "problem-solving"
+  ],
+  "lastUpdated": "2026-05-29",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/sort-mat.svg",
+      "images/decision-chart.svg",
+      "images/annotated-mixed-cases.svg",
+      "images/after-first-step.svg"
+    ]
+  },
+  "prerequisites": [
+    "Triangle angle sum",
+    "Opposite side and angle pairs",
+    "Law of Sines",
+    "Law of Cosines",
+    "AAS, ASA, SSA, SAS, and SSS triangle cases"
+  ]
+}

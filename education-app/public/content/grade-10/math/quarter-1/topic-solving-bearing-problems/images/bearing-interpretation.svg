@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="500" viewBox="0 0 760 500" role="img" aria-labelledby="title desc">
+  <title id="title">Interpreting a final bearing from a solved triangle</title>
+  <desc id="desc">A boat point has a north arrow, a reverse bearing of two hundred thirty degrees back to dock, and an interior angle of seventy-one degrees leading to a final bearing of one hundred fifty-nine degrees toward the drone.</desc>
+  <rect width="760" height="500" fill="#f8fafc"/>
+  <circle cx="320" cy="270" r="10" fill="#2563eb"/>
+  <text x="285" y="305" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1e40af">Boat</text>
+  <line x1="320" y1="270" x2="320" y2="120" stroke="#64748b" stroke-width="3"/>
+  <polygon points="320,110 311,130 329,130" fill="#64748b"/>
+  <text x="320" y="98" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#334155">N</text>
+  <line x1="320" y1="270" x2="205" y2="407" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <polygon points="205,407 211,387 225,399" fill="#334155"/>
+  <text x="95" y="422" font-family="Arial, sans-serif" font-size="22" fill="#334155">to dock: 230 deg</text>
+  <line x1="320" y1="270" x2="382" y2="435" stroke="#dc2626" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="382,435 366,421 386,414" fill="#dc2626"/>
+  <text x="397" y="438" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#991b1b">to drone: 159 deg</text>
+  <path d="M255 347 A93 93 0 0 0 353 357" fill="none" stroke="#f59e0b" stroke-width="5"/>
+  <text x="292" y="375" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#92400e">71 deg</text>
+  <path d="M320 170 A100 100 0 0 1 385 248" fill="none" stroke="#2563eb" stroke-width="5"/>
+  <text x="407" y="220" font-family="Arial, sans-serif" font-size="22" fill="#1e40af">bearing measured</text>
+  <text x="407" y="250" font-family="Arial, sans-serif" font-size="22" fill="#1e40af">clockwise from north</text>
+</svg>

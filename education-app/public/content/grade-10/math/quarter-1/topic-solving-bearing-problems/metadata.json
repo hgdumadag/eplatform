@@ -1,0 +1,46 @@
+{
+  "id": "grade-10-math-q1-solving-bearing-problems",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Trigonometry: Solving Bearing Problems",
+  "description": "Solve navigation and rescue-route bearing problems by drawing oblique triangles and choosing the Law of Sines or Law of Cosines.",
+  "learningObjectives": [
+    "Interpret three-digit bearings as clockwise angles measured from north",
+    "Draw and label a bearing diagram from a two-leg travel scenario",
+    "Identify when a bearing problem creates SAS, ASA, AAS, or SSA information",
+    "Use the Law of Cosines to find a missing distance when two legs and the included angle are known",
+    "Use the Law of Sines to find a missing direction or bearing after a distance is known",
+    "State final answers with units and practical navigation meaning"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "trigonometry",
+    "bearings",
+    "navigation",
+    "law-of-sines",
+    "law-of-cosines",
+    "oblique-triangles"
+  ],
+  "lastUpdated": "2026-05-29",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/bearing-compass.svg",
+      "images/two-leg-rescue-route.svg",
+      "images/law-selection-map.svg",
+      "images/bearing-interpretation.svg"
+    ]
+  },
+  "prerequisites": [
+    "Angle measure in degrees",
+    "Triangle angle sum",
+    "Law of Sines",
+    "Law of Cosines",
+    "Calculator use with sine, cosine, inverse sine, and inverse cosine"
+  ]
+}

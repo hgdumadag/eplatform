@@ -1,0 +1,140 @@
+{
+  "examId": "grade-10-math-q1-from-right-to-oblique-triangles-practice",
+  "examType": "practice",
+  "title": "From Right to Oblique Triangles Practice",
+  "description": "Practice identifying right and oblique triangles and naming triangle-solving given cases.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which triangle is an oblique triangle?",
+      "options": [
+        "A triangle with one 90-degree angle",
+        "A triangle with no 90-degree angle",
+        "A triangle with one angle equal to 180 degrees",
+        "A triangle that must have three equal sides"
+      ],
+      "correctAnswer": 1,
+      "explanation": "An oblique triangle is any triangle with no right angle.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A triangle has angles 30 degrees, 60 degrees, and 90 degrees. How should it be classified first?",
+      "options": [
+        "Right triangle",
+        "Acute oblique triangle",
+        "Obtuse oblique triangle",
+        "SSA case"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 90-degree angle makes it a right triangle. The given-case labels are used after noticing the triangle type.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A triangle has angles 42 degrees, 63 degrees, and 75 degrees. How should it be classified?",
+      "options": [
+        "Right triangle",
+        "Acute oblique triangle",
+        "Obtuse oblique triangle",
+        "Not a triangle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "There is no 90-degree angle, so the triangle is oblique. All three angles are less than 90 degrees, so it is acute.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A triangle has angles 25 degrees, 35 degrees, and 120 degrees. How should it be classified?",
+      "options": [
+        "Right triangle",
+        "Acute oblique triangle",
+        "Obtuse oblique triangle",
+        "Equiangular triangle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The triangle has no 90-degree angle, so it is oblique. The 120-degree angle makes it obtuse.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "You know two angles of a triangle and the side between those two angles. Which case is this?",
+      "options": [
+        "AAS",
+        "ASA",
+        "SSA",
+        "SSS"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Two known angles with the included side form the ASA case.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "You know two angles and a side that is not between the two known angles. Which case is this?",
+      "options": [
+        "AAS",
+        "ASA",
+        "SAS",
+        "SSS"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Two angles and a non-included side form the AAS case.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "You know two side lengths and the angle between those side lengths. Which case is this?",
+      "options": [
+        "SSA",
+        "ASA",
+        "SAS",
+        "AAS"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Two sides with their included angle form the SAS case.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "You know all three side lengths of a triangle. Which case is this?",
+      "options": [
+        "AAA",
+        "SSS",
+        "SAS",
+        "ASA"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Three known side lengths form the SSS case.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "SSA means two sides and a non-included angle are known.",
+      "correctAnswer": "true",
+      "explanation": "SSA has two known sides and an angle that is not between those sides.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "fill-in",
+      "question": "Write the three-letter case for this information: two sides and the included angle.",
+      "correctAnswer": "SAS",
+      "explanation": "Two sides and the included angle are named in order as Side-Angle-Side, or SAS.",
+      "points": 10
+    }
+  ]
+}
