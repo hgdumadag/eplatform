@@ -1,4 +1,4 @@
-# Ambiguous SSA Case
+# Geometry - Lesson 3: Ambiguous SSA Case
 
 > [!GOAL] Learning Goal
 >

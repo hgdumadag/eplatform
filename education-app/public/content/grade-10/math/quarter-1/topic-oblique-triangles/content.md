@@ -1,4 +1,4 @@
-# Oblique Triangles
+# Geometry - Lesson 1: Oblique Triangles
 
 > [!GOAL] Learning Goal
 >
