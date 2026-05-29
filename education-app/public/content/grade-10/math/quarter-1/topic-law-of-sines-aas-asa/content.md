@@ -1,4 +1,4 @@
-# Trigonometry: Law of Sines for AAS and ASA
+# Trigonometry - Lesson 2: Law of Sines for AAS and ASA
 
 > [!GOAL] Learning Goal
 >

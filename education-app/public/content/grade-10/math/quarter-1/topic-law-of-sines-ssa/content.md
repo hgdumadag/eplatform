@@ -1,4 +1,4 @@
-# Trigonometry: Law of Sines for SSA
+# Trigonometry - Lesson 3: Law of Sines for SSA
 
 > [!GOAL] Learning Goal
 >

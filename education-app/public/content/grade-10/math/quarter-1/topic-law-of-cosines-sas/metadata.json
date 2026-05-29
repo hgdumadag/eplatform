@@ -3,7 +3,7 @@
   "grade": 10,
   "subject": "math",
   "quarter": 1,
-  "topicName": "Trigonometry: Law of Cosines for SAS",
+  "topicName": "Trigonometry - Lesson 5: Law of Cosines for SAS",
   "description": "Apply the Law of Cosines to find an unknown side when two sides and the included angle of a triangle are known.",
   "learningObjectives": [
     "Identify when a missing-side problem has SAS information",

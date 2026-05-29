@@ -1,4 +1,4 @@
-# Trigonometry: From Right to Oblique Triangles
+# Trigonometry - Lesson 1: From Right to Oblique Triangles
 
 > [!GOAL] Learning Goal
 >
