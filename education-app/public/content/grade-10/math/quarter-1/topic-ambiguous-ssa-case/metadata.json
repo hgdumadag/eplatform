@@ -3,7 +3,7 @@
   "grade": 10,
   "subject": "math",
   "quarter": 1,
-  "topicName": "Ambiguous SSA Case",
+  "topicName": "Geometry - Lesson 3: Ambiguous SSA Case",
   "description": "Determine whether SSA information creates zero, one, or two possible triangles by using the height test and angle-side evidence.",
   "learningObjectives": [
     "Recognize SSA information in an oblique triangle",

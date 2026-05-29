@@ -1,4 +1,4 @@
-# Law of Sines
+# Geometry - Lesson 2: Law of Sines
 
 > [!GOAL] Learning Goal
 >
