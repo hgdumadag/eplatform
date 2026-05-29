@@ -3,7 +3,7 @@
   "grade": 10,
   "subject": "math",
   "quarter": 4,
-  "topicName": "Segments of a Circle",
+  "topicName": "Geometry - Lesson 8: Segments of a Circle",
   "description": "Define circular segments, compare them with sectors, and find segment areas by subtracting triangle area from sector area.",
   "learningObjectives": [
     "Define a circular segment as the region between a chord and its intercepted arc",

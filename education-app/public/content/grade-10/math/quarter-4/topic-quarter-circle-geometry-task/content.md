@@ -1,4 +1,4 @@
-# Quarter Circle Geometry Task
+# Geometry - Lesson 10: Quarter Circle Geometry Task
 
 > [!GOAL] Learning Goal
 >

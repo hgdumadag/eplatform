@@ -1,4 +1,4 @@
-# Circle Equation Basics
+# Geometry - Lesson 1: Circle Equation Basics
 
 > [!GOAL] Learning Goal
 >

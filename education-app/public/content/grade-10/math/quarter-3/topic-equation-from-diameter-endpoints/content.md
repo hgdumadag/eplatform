@@ -1,4 +1,4 @@
-# Equation from Diameter Endpoints
+# Geometry - Lesson 7: Equation from Diameter Endpoints
 
 > [!GOAL] Learning Goal
 >

@@ -1,4 +1,4 @@
-# External Secant and Tangent Angles
+# Geometry - Lesson 4: External Secant and Tangent Angles
 
 > [!GOAL] Learning Goal
 >

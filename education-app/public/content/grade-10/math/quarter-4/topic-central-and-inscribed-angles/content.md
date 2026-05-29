@@ -1,4 +1,4 @@
-# Central and Inscribed Angles
+# Geometry - Lesson 2: Central and Inscribed Angles
 
 > [!GOAL] Learning Goal
 >

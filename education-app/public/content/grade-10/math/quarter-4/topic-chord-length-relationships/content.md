@@ -1,4 +1,4 @@
-# Chord Length Relationships
+# Geometry - Lesson 5: Chord Length Relationships
 
 > [!GOAL] Learning Goal
 >

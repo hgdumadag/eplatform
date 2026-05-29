@@ -1,4 +1,4 @@
-# Reflections and Rotations with Coordinates
+# Geometry - Lesson 3: Reflections and Rotations with Coordinates
 
 > [!GOAL] Learning Goal
 >

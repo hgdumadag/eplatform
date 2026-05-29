@@ -1,4 +1,4 @@
-# Sectors of a Circle
+# Geometry - Lesson 7: Sectors of a Circle
 
 > [!GOAL] Learning Goal
 >

@@ -1,4 +1,4 @@
-# Finding Equations from Center and Radius
+# Geometry - Lesson 6: Finding Equations from Center and Radius
 
 > [!GOAL] Learning Goal
 >

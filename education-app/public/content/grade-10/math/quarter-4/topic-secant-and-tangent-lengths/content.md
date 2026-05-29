@@ -1,4 +1,4 @@
-# Secant and Tangent Lengths
+# Geometry - Lesson 6: Secant and Tangent Lengths
 
 > [!GOAL] Learning Goal
 >

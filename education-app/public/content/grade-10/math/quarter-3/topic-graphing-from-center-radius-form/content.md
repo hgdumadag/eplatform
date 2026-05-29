@@ -1,4 +1,4 @@
-# Graphing from Center-Radius Form
+# Geometry - Lesson 2: Graphing from Center-Radius Form
 
 > [!GOAL] Learning Goal
 >
