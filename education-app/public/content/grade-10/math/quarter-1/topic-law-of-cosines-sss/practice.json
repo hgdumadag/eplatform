@@ -1,0 +1,95 @@
+{
+  "examId": "grade-10-math-q1-law-of-cosines-sss-practice",
+  "examType": "practice",
+  "title": "Trigonometry: Law of Cosines for SSS Practice",
+  "description": "Practice finding unknown angles from three known side lengths, starting with the largest angle and checking angle sums.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 9,
+  "totalPoints": 90,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A triangle has side lengths 7, 10, and 12. Which angle should be found first if you want the largest angle?",
+      "options": ["The angle opposite 7", "The angle opposite 10", "The angle opposite 12", "Any angle must be the largest"],
+      "correctAnswer": 2,
+      "explanation": "The largest angle is opposite the longest side. Since 12 is the longest side, find the angle opposite 12 first.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "In △ABC, a = 9, b = 10, and c = 15. Which formula expression finds ∠C?",
+      "options": [
+        "cos^-1((10^2 + 15^2 - 9^2) / (2(10)(15)))",
+        "cos^-1((9^2 + 15^2 - 10^2) / (2(9)(15)))",
+        "cos^-1((9^2 + 10^2 - 15^2) / (2(9)(10)))",
+        "cos^-1(15 / (9 + 10))"
+      ],
+      "correctAnswer": 2,
+      "explanation": "To find ∠C, subtract c^2 and divide by 2ab: cos^-1((9^2 + 10^2 - 15^2) / (2(9)(10))).",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "In △ABC, a = 8, b = 11, and c = 13. What is ∠C to the nearest degree?",
+      "options": ["38°", "57°", "85°", "103°"],
+      "correctAnswer": 2,
+      "explanation": "C = cos^-1((8^2 + 11^2 - 13^2) / (2(8)(11))) = cos^-1(16/176), which is about 85°.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A triangle has sides 5, 6, and 8. What is the largest angle to the nearest degree?",
+      "options": ["39°", "49°", "77°", "93°"],
+      "correctAnswer": 3,
+      "explanation": "The largest angle is opposite side 8. Its measure is cos^-1((5^2 + 6^2 - 8^2) / (2(5)(6))) = cos^-1(-3/60), about 93°.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "In △ABC, a = 10, b = 13, and c = 15. What is ∠A to the nearest degree?",
+      "options": ["41°", "59°", "80°", "99°"],
+      "correctAnswer": 0,
+      "explanation": "A = cos^-1((13^2 + 15^2 - 10^2) / (2(13)(15))) = cos^-1(294/390), which is about 41°.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A student finds two angles of an SSS triangle: 36° and 56°. What is the third angle?",
+      "options": ["78°", "88°", "92°", "100°"],
+      "correctAnswer": 1,
+      "explanation": "The triangle angle sum is 180°, so the third angle is 180° - 36° - 56° = 88°.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "When finding ∠B from sides a, b, and c, the numerator should subtract b^2.",
+      "correctAnswer": "true",
+      "explanation": "The side opposite the target angle is the squared side that gets subtracted, so ∠B uses a^2 + c^2 - b^2.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "In a triangle with sides a = 6, b = 8, and c = 11, ∠C is about how many degrees? Enter the nearest whole number.",
+      "correctAnswer": "103",
+      "explanation": "C = cos^-1((6^2 + 8^2 - 11^2) / (2(6)(8))) = cos^-1(-21/96), which is about 103°.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Why is it useful to find the largest angle first in an SSS triangle?",
+      "correctAnswer": "The largest angle is opposite the longest side, so it is easy to identify before calculating. Finding it first gives a quick reasonableness check for the Law of Cosines result.",
+      "explanation": "The longest side-largest angle relationship helps catch label, substitution, and calculator errors early.",
+      "points": 10
+    }
+  ]
+}

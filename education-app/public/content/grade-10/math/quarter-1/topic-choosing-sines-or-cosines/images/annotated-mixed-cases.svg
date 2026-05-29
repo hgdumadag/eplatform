@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="430" viewBox="0 0 820 430" role="img" aria-labelledby="title desc">
+  <title id="title">Annotated mixed triangle cases</title>
+  <desc id="desc">Three triangles show AAS with a complete pair, SSA with an ambiguity warning, and SAS with no complete pair at first.</desc>
+  <rect width="820" height="430" fill="#f8fafc"/>
+  <g font-family="Arial, sans-serif" fill="#111827">
+    <text x="410" y="38" text-anchor="middle" font-size="24" font-weight="700">Annotate Before Solving</text>
+    <g transform="translate(45 75)">
+      <rect x="0" y="0" width="220" height="300" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+      <text x="110" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#1e40af">AAS</text>
+      <polygon points="45,230 175,230 92,85" fill="#dbeafe" stroke="#1e40af" stroke-width="3"/>
+      <text x="35" y="248" font-size="15">A=42 deg</text>
+      <text x="150" y="248" font-size="15">B=63 deg</text>
+      <text x="68" y="154" font-size="15">a=14</text>
+      <line x1="92" y1="85" x2="175" y2="230" stroke="#ef4444" stroke-width="5" opacity="0.55"/>
+      <text x="110" y="272" text-anchor="middle" font-size="14">Complete pair: A and a</text>
+    </g>
+    <g transform="translate(300 75)">
+      <rect x="0" y="0" width="220" height="300" rx="8" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+      <text x="110" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#5b21b6">SSA</text>
+      <polygon points="45,230 180,230 100,82" fill="#ede9fe" stroke="#6d28d9" stroke-width="3"/>
+      <text x="28" y="248" font-size="15">A=35 deg</text>
+      <text x="82" y="153" font-size="15">a=10</text>
+      <text x="103" y="246" font-size="15">b=16</text>
+      <path d="M92 86 C120 140, 144 180, 176 230" fill="none" stroke="#ef4444" stroke-width="5" opacity="0.55"/>
+      <text x="110" y="272" text-anchor="middle" font-size="14">Pair exists, check ambiguity</text>
+    </g>
+    <g transform="translate(555 75)">
+      <rect x="0" y="0" width="220" height="300" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="2"/>
+      <text x="110" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="#92400e">SAS</text>
+      <polygon points="45,230 178,230 102,88" fill="#ffedd5" stroke="#b45309" stroke-width="3"/>
+      <text x="50" y="248" font-size="15">a=8</text>
+      <text x="130" y="248" font-size="15">b=13</text>
+      <text x="106" y="113" font-size="15">C=47 deg</text>
+      <path d="M45 230 L102 88 L178 230" fill="none" stroke="#ef4444" stroke-width="5" opacity="0.45"/>
+      <text x="110" y="272" text-anchor="middle" font-size="14">No complete pair yet</text>
+    </g>
+  </g>
+</svg>

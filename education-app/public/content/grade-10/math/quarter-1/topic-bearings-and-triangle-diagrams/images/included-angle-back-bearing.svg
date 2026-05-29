@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Included angle at a turn point using a back bearing</title>
+  <desc id="desc">At point B, the back bearing from B to A is 240 degrees and the bearing from B to C is 130 degrees, creating a 110 degree included angle inside triangle ABC.</desc>
+  <rect width="800" height="520" fill="#f8fafc"/>
+  <line x1="400" y1="270" x2="400" y2="65" stroke="#0f172a" stroke-width="3"/>
+  <path d="M400 270 L230 370" stroke="#16a34a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M400 270 L505 395" stroke="#dc2626" stroke-width="6" stroke-linecap="round"/>
+  <line x1="230" y1="370" x2="505" y2="395" stroke="#64748b" stroke-width="4" stroke-dasharray="10 8"/>
+  <path d="M334 309 A77 77 0 0 0 449 329" fill="none" stroke="#2563eb" stroke-width="5"/>
+  <path d="M400 158 A112 112 0 0 1 306 327" fill="none" stroke="#16a34a" stroke-width="3" stroke-dasharray="6 6"/>
+  <path d="M400 158 A112 112 0 0 1 472 356" fill="none" stroke="#dc2626" stroke-width="3" stroke-dasharray="6 6"/>
+  <text x="218" y="394" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">A</text>
+  <text x="390" y="262" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">B</text>
+  <text x="514" y="417" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">C</text>
+  <text x="387" y="50" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">N</text>
+  <text x="252" y="310" font-family="Arial, sans-serif" font-size="21" fill="#166534">BA back bearing 240°</text>
+  <text x="486" y="314" font-family="Arial, sans-serif" font-size="21" fill="#991b1b">BC bearing 130°</text>
+  <text x="373" y="372" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#2563eb">110°</text>
+  <text x="95" y="475" font-family="Arial, sans-serif" font-size="21" fill="#0f172a">The included angle at B is between BA and BC, inside the triangle.</text>
+</svg>

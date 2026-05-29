@@ -1,0 +1,142 @@
+{
+  "examId": "grade-10-math-q1-law-of-cosines-sas-assessment",
+  "examType": "assessment",
+  "title": "Trigonometry: Law of Cosines for SAS Checkpoint",
+  "description": "Show that you can identify SAS cases, use the Law of Cosines to find an unknown side, and explain why the method is appropriate.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 11,
+  "totalPoints": 110,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A triangle has sides 10 and 13 with included angle 105 degrees. Which method should be used first to find the side opposite the 105 degree angle?",
+      "options": [
+        "Law of Cosines",
+        "Law of Sines",
+        "Triangle angle sum only",
+        "Pythagorean Theorem only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The problem gives two sides and the included angle, so the Law of Cosines directly finds the opposite side.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Two sides are 10 and 13 with included angle 105 degrees. What is the opposite side to the nearest tenth?",
+      "options": [
+        "9.2",
+        "15.1",
+        "18.3",
+        "22.9"
+      ],
+      "correctAnswer": 2,
+      "explanation": "x^2 = 10^2 + 13^2 - 2(10)(13)cos105 degrees, so x^2 is about 336.3 and x is about 18.3.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A triangle has AB = 4.5, AC = 7.2, and angle A = 58 degrees. Which side is opposite the included angle?",
+      "options": [
+        "AB",
+        "AC",
+        "BC",
+        "Angle C"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Angle A is formed by AB and AC. The side across from angle A is BC.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Using AB = 4.5, AC = 7.2, and angle A = 58 degrees, what is BC to the nearest tenth?",
+      "options": [
+        "4.2",
+        "6.1",
+        "8.4",
+        "11.7"
+      ],
+      "correctAnswer": 1,
+      "explanation": "BC^2 = 4.5^2 + 7.2^2 - 2(4.5)(7.2)cos58 degrees, so BC is about 6.1.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "If the known angle is not between the two known sides, the information is not SAS.",
+      "correctAnswer": "true",
+      "explanation": "SAS requires the angle to be included between the two known sides.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "For side b, complete the formula: b^2 = a^2 + c^2 - 2ac cos ____.",
+      "correctAnswer": "B",
+      "explanation": "Side b is opposite angle B, so the matching Law of Cosines formula uses cos B.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A surveyor marks paths of 18 m and 24 m from the same point with an included angle of 40 degrees. What is the distance between the two endpoints to the nearest tenth?",
+      "options": [
+        "15.4 m",
+        "21.0 m",
+        "29.8 m",
+        "39.7 m"
+      ],
+      "correctAnswer": 0,
+      "explanation": "d^2 = 18^2 + 24^2 - 2(18)(24)cos40 degrees, so d is about 15.4 m.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Two sides are 15 and 20 with included angle 110 degrees. Which estimate is most reasonable for the opposite side?",
+      "options": [
+        "8.5",
+        "18.1",
+        "28.8",
+        "36.2"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An obtuse included angle should create a long opposite side, but it must be less than 35. The Law of Cosines gives about 28.8.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "Two sides are 7 and 9 with included angle 25 degrees. What is the missing side to the nearest tenth?",
+      "options": [
+        "4.0",
+        "7.8",
+        "11.3",
+        "15.6"
+      ],
+      "correctAnswer": 0,
+      "explanation": "x^2 = 7^2 + 9^2 - 2(7)(9)cos25 degrees, so x is about 4.0. A small included angle gives a shorter opposite side.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A problem gives two sides of a triangle and the angle between them, then asks for the third side. State why the Law of Cosines is appropriate.",
+      "correctAnswer": "The Law of Cosines is appropriate because the problem gives SAS information: two sides and their included angle. The formula uses those values to find the third side opposite the included angle.",
+      "explanation": "The answer should identify the given information as SAS and connect it to the side form of the Law of Cosines.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "question": "A classmate uses c^2 = a^2 + b^2 for a triangle with sides 12 and 16 and included angle 75 degrees. Explain the correction.",
+      "correctAnswer": "The classmate used the Pythagorean Theorem, which applies directly only to a right triangle. Since the included angle is 75 degrees, they should use c^2 = a^2 + b^2 - 2ab cos C.",
+      "explanation": "The correction should point out that the angle is not 90 degrees and that the cosine adjustment is needed.",
+      "points": 10
+    }
+  ]
+}

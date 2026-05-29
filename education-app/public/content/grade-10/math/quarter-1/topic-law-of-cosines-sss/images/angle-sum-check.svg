@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Angle sum check for solved SSS triangle</title>
+  <desc id="desc">A triangle labeled with angles 36 degrees, 56 degrees, and 88 degrees, plus an equation showing the angles add to 180 degrees.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <path d="M130 315 L570 315 L250 95 Z" fill="#fff7ed" stroke="#0f172a" stroke-width="5" stroke-linejoin="round"/>
+  <text x="170" y="290" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#7c2d12">36°</text>
+  <text x="520" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#7c2d12">56°</text>
+  <text x="258" y="142" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#7c2d12">88°</text>
+  <text x="112" y="348" font-family="Arial, sans-serif" font-size="24" fill="#0f172a">A</text>
+  <text x="578" y="348" font-family="Arial, sans-serif" font-size="24" fill="#0f172a">B</text>
+  <text x="244" y="78" font-family="Arial, sans-serif" font-size="24" fill="#0f172a">C</text>
+  <rect x="105" y="32" width="510" height="50" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+  <text x="360" y="66" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#14532d">36° + 56° + 88° = 180°</text>
+  <text x="360" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#0f172a">The angle-sum check confirms the triangle is solved.</text>
+</svg>

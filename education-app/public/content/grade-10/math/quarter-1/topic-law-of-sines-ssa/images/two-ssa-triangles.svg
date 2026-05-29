@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">Two possible SSA triangles</title>
+  <desc id="desc">Two triangles share point A, point C, side AC, side CB, and angle A, showing that the same SSA information can form two triangles.</desc>
+  <rect width="760" height="360" fill="#f7fbff"/>
+  <line x1="88" y1="292" x2="690" y2="292" stroke="#334155" stroke-width="3"/>
+  <line x1="88" y1="292" x2="348" y2="100" stroke="#0f766e" stroke-width="4"/>
+  <line x1="348" y1="100" x2="260" y2="292" stroke="#dc2626" stroke-width="4"/>
+  <line x1="348" y1="100" x2="520" y2="292" stroke="#dc2626" stroke-width="4"/>
+  <path d="M126 292 A44 44 0 0 0 123 266" fill="none" stroke="#7c3aed" stroke-width="4"/>
+  <circle cx="88" cy="292" r="6" fill="#111827"/>
+  <circle cx="348" cy="100" r="6" fill="#111827"/>
+  <circle cx="260" cy="292" r="6" fill="#111827"/>
+  <circle cx="520" cy="292" r="6" fill="#111827"/>
+  <text x="68" y="320" font-family="Arial, sans-serif" font-size="22" fill="#111827">A</text>
+  <text x="346" y="76" font-family="Arial, sans-serif" font-size="22" fill="#111827">C</text>
+  <text x="244" y="326" font-family="Arial, sans-serif" font-size="22" fill="#111827">B₁</text>
+  <text x="506" y="326" font-family="Arial, sans-serif" font-size="22" fill="#111827">B₂</text>
+  <text x="188" y="174" font-family="Arial, sans-serif" font-size="20" fill="#0f766e">b</text>
+  <text x="285" y="196" font-family="Arial, sans-serif" font-size="20" fill="#dc2626">a</text>
+  <text x="448" y="190" font-family="Arial, sans-serif" font-size="20" fill="#dc2626">a</text>
+  <text x="138" y="268" font-family="Arial, sans-serif" font-size="19" fill="#7c3aed">given ∠A</text>
+  <text x="120" y="38" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Same SSA information, two possible triangles</text>
+</svg>

@@ -1,0 +1,136 @@
+{
+  "examId": "grade-10-math-q1-solving-bearing-problems-assessment",
+  "examType": "assessment",
+  "title": "Trigonometry: Solving Bearing Problems Checkpoint",
+  "description": "Show that you can solve contextual bearing problems using accurate diagrams, Laws of Sines and Cosines, units, and interpretation.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 11,
+  "totalPoints": 110,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Bearings are measured from which reference direction?",
+      "options": [
+        "East, counterclockwise",
+        "North, clockwise",
+        "South, clockwise",
+        "West, counterclockwise"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A standard three-digit bearing is measured clockwise from north.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Two routes leave the same point on bearings of 035 degrees and 100 degrees. What is the included angle between them?",
+      "options": [
+        "35 degrees",
+        "65 degrees",
+        "100 degrees",
+        "135 degrees"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The included angle is the difference between the two bearings: 100 degrees - 35 degrees = 65 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A ranger walks 14 km from base on a bearing of 035 degrees. A medic travels 20 km from the same base on a bearing of 100 degrees. How far apart are they, to the nearest tenth?",
+      "options": [
+        "12.3 km",
+        "19.0 km",
+        "24.5 km",
+        "32.0 km"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Use the included angle of 65 degrees: d^2 = 14^2 + 20^2 - 2(14)(20)cos 65 degrees. This gives d about 19.0 km.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A hiker travels 12 km on a bearing of 040 degrees, then 8 km on a bearing of 125 degrees. What is the interior angle at the turning point?",
+      "options": [
+        "85 degrees",
+        "95 degrees",
+        "125 degrees",
+        "180 degrees"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The reverse of 040 degrees is 220 degrees. The smaller angle between 220 degrees and 125 degrees is 95 degrees.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A hiker travels 12 km on a bearing of 040 degrees, then 8 km on a bearing of 125 degrees. How far is the hiker from the starting point, to the nearest tenth?",
+      "options": [
+        "10.6 km",
+        "15.0 km",
+        "19.4 km",
+        "20.0 km"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Use x^2 = 12^2 + 8^2 - 2(12)(8)cos 95 degrees. This gives x about 15.0 km.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A patrol boat is 8 km from a port on a bearing of 300 degrees. A supply boat is 15 km from the same port on a bearing of 020 degrees. How far apart are the boats, to the nearest tenth?",
+      "options": [
+        "9.8 km",
+        "15.7 km",
+        "17.0 km",
+        "22.0 km"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The smaller included angle between 300 degrees and 020 degrees is 80 degrees. The Law of Cosines gives d about 15.7 km.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "If two travel legs start from the same point, the smaller difference between their bearings can be the included angle of the triangle.",
+      "correctAnswer": "true",
+      "explanation": "When both rays begin at the same point, the angle between the rays is found from the smaller difference between their bearings.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "Two boats leave the same harbor. Boat A travels 13 km on a bearing of 055 degrees. Boat B travels 17 km on a bearing of 130 degrees. Find the distance between them to the nearest tenth. Enter the number only.",
+      "correctAnswer": "18.5",
+      "explanation": "The included angle is 75 degrees. d^2 = 13^2 + 17^2 - 2(13)(17)cos 75 degrees, so d is about 18.5 km.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "question": "A drone flies 10 km on a bearing of 020 degrees, then 16 km on a bearing of 095 degrees. Find the straight-line distance from the start to the final point to the nearest tenth. Enter the number only.",
+      "correctAnswer": "20.9",
+      "explanation": "The reverse of 020 degrees is 200 degrees, and the angle between 200 degrees and 095 degrees is 105 degrees. The Law of Cosines gives about 20.9 km.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "When a bearing problem asks for direction instead of distance, why might the Law of Sines be needed after the Law of Cosines?",
+      "correctAnswer": "The Law of Cosines can find the missing side first. Then the Law of Sines can find an interior angle, which can be converted into the requested bearing from north.",
+      "explanation": "Many bearing problems require both a distance and an angle. The final direction often comes from converting an interior triangle angle into a bearing.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "question": "Complete the contextual solution: A rescue station sends Team A 14 km on a bearing of 035 degrees and Team B 20 km on a bearing of 100 degrees. Describe the diagram, choose the law, compute the distance between the teams to the nearest tenth, and include units.",
+      "correctAnswer": "Draw both paths from the rescue station with north arrows, one ray labeled 14 km at 035 degrees and the other labeled 20 km at 100 degrees. The included angle is 65 degrees, so use the Law of Cosines: d^2 = 14^2 + 20^2 - 2(14)(20)cos 65 degrees. The distance is about 19.0 km, so the teams are about 19.0 km apart.",
+      "explanation": "A complete solution includes a labeled diagram description, the included angle, the Law of Cosines setup, the computed distance, and the unit km.",
+      "points": 10
+    }
+  ]
+}

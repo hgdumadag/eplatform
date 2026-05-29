@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="460" viewBox="0 0 720 460" role="img" aria-labelledby="title desc">
+  <title id="title">Route-planning challenge with three landmarks</title>
+  <desc id="desc">A navigation map showing Ranger Station A, Beacon B, and Cove C. Segment AB is 6 kilometers on bearing 040 degrees, segment BC is 9 kilometers on bearing 115 degrees, and dashed segment AC is the direct route to solve.</desc>
+  <rect width="720" height="460" fill="#f8fafc"/>
+  <g stroke="#cbd5e1" stroke-width="1">
+    <path d="M80 60H660M80 120H660M80 180H660M80 240H660M80 300H660M80 360H660"/>
+    <path d="M120 40V400M200 40V400M280 40V400M360 40V400M440 40V400M520 40V400M600 40V400"/>
+  </g>
+  <path d="M150 335 L275 185 L565 280" fill="none" stroke="#2563eb" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M150 335 L565 280" fill="none" stroke="#dc2626" stroke-width="4" stroke-dasharray="10 8" stroke-linecap="round"/>
+  <g fill="#111827" font-family="Arial, sans-serif">
+    <circle cx="150" cy="335" r="8" fill="#0f766e"/>
+    <circle cx="275" cy="185" r="8" fill="#0f766e"/>
+    <circle cx="565" cy="280" r="8" fill="#0f766e"/>
+    <text x="116" y="362" font-size="20" font-weight="700">A</text>
+    <text x="281" y="177" font-size="20" font-weight="700">B</text>
+    <text x="574" y="287" font-size="20" font-weight="700">C</text>
+    <text x="64" y="388" font-size="15">Ranger Station</text>
+    <text x="228" y="154" font-size="15">Beacon</text>
+    <text x="573" y="314" font-size="15">Cove</text>
+    <text x="176" y="248" font-size="16" font-weight="700" fill="#1d4ed8">6 km, 040°</text>
+    <text x="386" y="214" font-size="16" font-weight="700" fill="#1d4ed8">9 km, 115°</text>
+    <text x="336" y="344" font-size="16" font-weight="700" fill="#b91c1c">direct route AC</text>
+  </g>
+  <g stroke="#334155" stroke-width="2" font-family="Arial, sans-serif" fill="#334155">
+    <path d="M150 335V270"/>
+    <path d="M150 270l-7 14M150 270l7 14"/>
+    <text x="137" y="263" font-size="14">N</text>
+    <path d="M275 185V120"/>
+    <path d="M275 120l-7 14M275 120l7 14"/>
+    <text x="262" y="113" font-size="14">N</text>
+    <path d="M178 302 A42 42 0 0 1 204 287" fill="none" stroke="#f59e0b" stroke-width="3"/>
+    <text x="198" y="315" font-size="14" fill="#92400e">040°</text>
+    <path d="M309 197 A48 48 0 0 1 324 236" fill="none" stroke="#f59e0b" stroke-width="3"/>
+    <text x="329" y="210" font-size="14" fill="#92400e">115°</text>
+  </g>
+</svg>

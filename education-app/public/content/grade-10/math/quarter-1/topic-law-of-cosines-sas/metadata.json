@@ -1,0 +1,45 @@
+{
+  "id": "grade-10-math-q1-law-of-cosines-sas",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Trigonometry: Law of Cosines for SAS",
+  "description": "Apply the Law of Cosines to find an unknown side when two sides and the included angle of a triangle are known.",
+  "learningObjectives": [
+    "Identify when a missing-side problem has SAS information",
+    "Explain why the Law of Sines cannot always start a SAS problem",
+    "Use c squared = a squared + b squared minus 2ab cosine C to find the side opposite an included angle",
+    "Round missing side lengths to a requested precision",
+    "Check whether a computed side length is reasonable for the given angle"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "intermediate",
+  "tags": [
+    "trigonometry",
+    "law-of-cosines",
+    "sas",
+    "oblique-triangles",
+    "missing-side",
+    "cosine"
+  ],
+  "lastUpdated": "2026-05-29",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/sas-missing-information.svg",
+      "images/law-of-cosines-labels.svg",
+      "images/worked-sas-substitution.svg",
+      "images/angle-size-comparison.svg"
+    ]
+  },
+  "prerequisites": [
+    "Triangle side and angle labels",
+    "Included angles in SAS triangles",
+    "Cosine values on a calculator",
+    "Squares and square roots",
+    "Rounding decimals"
+  ]
+}

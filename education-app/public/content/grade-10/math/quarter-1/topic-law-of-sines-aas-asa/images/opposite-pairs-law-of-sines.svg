@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">Opposite angle and side pairs for the Law of Sines</title>
+  <desc id="desc">Triangle ABC shows side a opposite angle A, side b opposite angle B, and side c opposite angle C. The formula a over sine A equals b over sine B equals c over sine C is shown.</desc>
+  <rect width="760" height="360" fill="#ffffff"/>
+  <path d="M130 275 L630 250 L365 70 Z" fill="#eef2ff" stroke="#4f46e5" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="130" cy="275" r="6" fill="#4f46e5"/>
+  <circle cx="630" cy="250" r="6" fill="#4f46e5"/>
+  <circle cx="365" cy="70" r="6" fill="#4f46e5"/>
+  <text x="108" y="303" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#312e81">A</text>
+  <text x="646" y="258" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#312e81">B</text>
+  <text x="360" y="48" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#312e81">C</text>
+  <text x="497" y="146" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#be123c">a</text>
+  <text x="246" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#047857">b</text>
+  <text x="382" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#b45309">c</text>
+  <path d="M170 260 Q185 238 210 235" fill="none" stroke="#be123c" stroke-width="3"/>
+  <path d="M591 242 Q564 230 548 209" fill="none" stroke="#047857" stroke-width="3"/>
+  <path d="M350 92 Q368 105 388 92" fill="none" stroke="#b45309" stroke-width="3"/>
+  <text x="380" y="333" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#0f172a">a/sin A = b/sin B = c/sin C</text>
+</svg>

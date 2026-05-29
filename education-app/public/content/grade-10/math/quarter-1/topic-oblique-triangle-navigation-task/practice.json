@@ -1,0 +1,97 @@
+{
+  "examId": "grade-10-math-q1-oblique-triangle-navigation-task-practice",
+  "examType": "practice",
+  "title": "Trigonometry Navigation Task Practice",
+  "description": "Practice the diagram, law choice, computations, and interpretation needed for a multi-step bearings task.",
+  "passingScore": 70,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A boat travels from A to B on a bearing of 035°. What is the back bearing from B to A?",
+      "options": ["035°", "145°", "215°", "325°"],
+      "correctAnswer": 2,
+      "explanation": "The back bearing is 180° from the forward bearing. Since 035° + 180° = 215°, the bearing from B to A is 215°.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A route goes from A to B on bearing 040°, then from B to C on bearing 115°. What is the included angle at B? Give the answer in degrees.",
+      "correctAnswer": "105° or 105 degrees or 105",
+      "explanation": "At B, the direction back to A is 220°. Compare it with the bearing from B to C: 220° - 115° = 105°.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "In the route A to B to C, AB = 6 km, BC = 9 km, and the included angle at B is 105°. Which law should be used first to find AC?",
+      "options": ["Pythagorean Theorem", "Law of Cosines", "Law of Sines", "Area formula"],
+      "correctAnswer": 1,
+      "explanation": "Two sides and the included angle are known, so this is an SAS case. The Law of Cosines is the direct way to find the opposite side AC.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Using AB = 6 km, BC = 9 km, and ∠B = 105°, what is AC to the nearest tenth?",
+      "options": ["7.0 km", "9.8 km", "12.0 km", "15.0 km"],
+      "correctAnswer": 2,
+      "explanation": "AC² = 6² + 9² - 2(6)(9)cos105° ≈ 144.95, so AC ≈ 12.0 km.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "A complete navigation recommendation should include both the direct distance and the bearing or direction of travel.",
+      "correctAnswer": "true",
+      "explanation": "Distance alone tells how far to travel, but a navigator also needs the direction. A complete recommendation includes both.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A student subtracts the two forward bearings, 115° - 040° = 75°, to find the angle at B. What is the main error?",
+      "options": ["They rounded too early.", "They used the north line at A instead of the back bearing from B to A.", "They should have used 360° - 75°.", "They forgot that 115° is southeast."],
+      "correctAnswer": 1,
+      "explanation": "The angle at B is between BA and BC. The direction BA uses the back bearing 220°, not the forward bearing 040° from A.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "If the bearing from A to B is 320°, what is the back bearing from B to A? Write a three-digit bearing.",
+      "correctAnswer": "140° or 140 degrees or 140",
+      "explanation": "Since 320° + 180° is greater than 360°, subtract 180° instead: 320° - 180° = 140°.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "For the main route, the angle from AB to AC at A is about 46°. Since AB has bearing 040° and AC is clockwise from AB, what is the approximate bearing of AC?",
+      "options": ["006°", "046°", "086°", "220°"],
+      "correctAnswer": 2,
+      "explanation": "Add the angle from AB to AC to the bearing of AB: 040° + 46° = 086°.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "In one or two sentences, compare these strategies: drawing the navigation diagram first versus choosing a formula immediately.",
+      "correctAnswer": "Drawing first is safer because it shows the local north lines, back bearing, included angle, and known triangle parts. Choosing a formula immediately can lead to using the wrong angle.",
+      "explanation": "The strongest comparison explains that the diagram controls the law choice and helps prevent bearing-angle errors.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Write a complete final interpretation for this result: AC ≈ 12.0 km and the bearing from A to C is about 086°.",
+      "correctAnswer": "The direct route from A to C is about 12.0 km on a bearing of about 086°, so a navigator should travel almost due east from A if a straight route is possible.",
+      "explanation": "A complete interpretation includes the distance, bearing, units, and route meaning rather than only listing numbers.",
+      "points": 10
+    }
+  ]
+}

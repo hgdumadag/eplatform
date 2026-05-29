@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">AAS example triangle</title>
+  <desc id="desc">Triangle ABC has angle A of forty-one degrees, angle B of seventy-seven degrees, and side a of eighteen meters opposite angle A. This is an AAS case.</desc>
+  <rect width="760" height="360" fill="#f8fafc"/>
+  <text x="380" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">AAS: two angles and a non-included side</text>
+  <path d="M130 285 L645 285 L365 75 Z" fill="#ecfeff" stroke="#0891b2" stroke-width="4" stroke-linejoin="round"/>
+  <text x="105" y="312" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#164e63">A</text>
+  <text x="655" y="312" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#164e63">B</text>
+  <text x="360" y="60" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#164e63">C</text>
+  <path d="M175 285 Q180 252 207 230" fill="none" stroke="#0e7490" stroke-width="3"/>
+  <text x="214" y="255" font-family="Arial, sans-serif" font-size="20" fill="#155e75">41°</text>
+  <path d="M606 285 Q595 245 559 229" fill="none" stroke="#0e7490" stroke-width="3"/>
+  <text x="548" y="258" font-family="Arial, sans-serif" font-size="20" fill="#155e75">77°</text>
+  <text x="520" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#be123c">a = 18 m</text>
+  <text x="380" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">Find C first, then solve for b and c.</text>
+</svg>

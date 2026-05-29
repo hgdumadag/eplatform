@@ -1,0 +1,148 @@
+{
+  "examId": "grade-10-math-q1-ambiguous-case-decisions-assessment",
+  "examType": "assessment",
+  "title": "Trigonometry: Ambiguous Case Decisions Checkpoint",
+  "description": "Classify SSA cases and justify each decision using height, side lengths, and angle constraints.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 11,
+  "totalPoints": 110,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A triangle has A = 36 degrees, a = 6, and b = 10. What is the correct first step for classifying the case?",
+      "options": [
+        "Compute h = b sin A",
+        "Assume there are two triangles because the case is SSA",
+        "Add a and b",
+        "Subtract A from 90 degrees"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since A is acute, the height test h = b sin A is the correct first classification step.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Given A = 36 degrees, a = 5, and b = 10. Since h = 10 sin 36 degrees is about 5.88, how many triangles are possible?",
+      "options": [
+        "0 triangles",
+        "1 triangle",
+        "2 triangles",
+        "Cannot be classified"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Because a = 5 is less than h about 5.88, side a cannot reach the base ray, so no triangle is possible.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Given A = 30 degrees, a = 5, and b = 10. How many triangles are possible?",
+      "options": [
+        "0 triangles",
+        "1 triangle",
+        "2 triangles",
+        "Exactly one obtuse triangle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Here h = 10 sin 30 degrees = 5. Since a = h, the swinging side touches the base at exactly one point.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Given A = 52 degrees, a = 10, and b = 14. Since h = 14 sin 52 degrees is about 11.03, how many triangles are possible?",
+      "options": [
+        "0 triangles",
+        "1 triangle",
+        "2 triangles",
+        "Two triangles because a < b"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Even though a < b, side a is still shorter than h. The comparison a < h gives zero triangles.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Given A = 42 degrees, a = 9, and b = 12. Since h = 12 sin 42 degrees is about 8.03, how many triangles are possible?",
+      "options": [
+        "0 triangles",
+        "1 triangle",
+        "2 triangles",
+        "No triangle because A is acute"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The comparison is h < a < b, or 8.03 < 9 < 12, so the data creates two possible triangles.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Given A = 18 degrees, a = 20, and b = 20. How many triangles are possible?",
+      "options": [
+        "0 triangles",
+        "1 triangle",
+        "2 triangles",
+        "Cannot be decided because h was not computed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For an acute SSA case, a >= b gives one triangle. Equality a = b is included in the one-triangle condition.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Given A = 90 degrees, a = 8, and b = 10. How many triangles are possible?",
+      "options": [
+        "0 triangles",
+        "1 triangle",
+        "2 triangles",
+        "Infinitely many triangles"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If A is right, the side opposite A must be longer than the other known side. Since a = 8 is not greater than b = 10, no triangle is possible.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Given A = 118 degrees, a = 16, and b = 11. How many triangles are possible?",
+      "options": [
+        "0 triangles",
+        "1 triangle",
+        "2 triangles",
+        "Two triangles because SSA is ambiguous"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When A is obtuse, there can be at most one triangle. Since a > b, one triangle is possible.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "For an acute SSA case, a < h means the side opposite A is too short to form a triangle.",
+      "correctAnswer": "true",
+      "explanation": "The height h is the shortest distance needed to reach the base ray. If a is shorter than h, it cannot reach.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "fill-in",
+      "question": "For acute A, a = 7, b = 12, and h = 6. Since h < a < b, how many triangles are possible? Answer with a number.",
+      "correctAnswer": "2",
+      "explanation": "The comparison 6 < 7 < 12 matches the two-triangle condition for acute SSA cases.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "question": "A classmate says, \"The diagram looks like one triangle, so we do not need the height test.\" Give a better classification method in one or two sentences.",
+      "correctAnswer": "Use the measurements, not the sketch. First decide whether A is acute, right, or obtuse; if A is acute, compute h = b sin A and compare a with h and b to classify zero, one, or two triangles.",
+      "explanation": "A drawing can hide a second position or exaggerate lengths. The reliable method is angle type plus side comparison.",
+      "points": 10
+    }
+  ]
+}

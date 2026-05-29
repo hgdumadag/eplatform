@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="500" viewBox="0 0 760 500" role="img" aria-labelledby="title desc">
+  <title id="title">Two-leg rescue route forming an oblique triangle</title>
+  <desc id="desc">A dock connects to a boat by an eight kilometer bearing of fifty degrees and to a drone by an eleven kilometer bearing of one hundred fifteen degrees. The included angle at the dock is sixty-five degrees.</desc>
+  <rect width="760" height="500" fill="#f8fafc"/>
+  <line x1="145" y1="390" x2="145" y2="260" stroke="#64748b" stroke-width="3"/>
+  <polygon points="145,250 136,270 154,270" fill="#64748b"/>
+  <text x="145" y="238" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#334155">N</text>
+  <circle cx="145" cy="390" r="9" fill="#0f766e"/>
+  <text x="100" y="425" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">Dock</text>
+  <line x1="145" y1="390" x2="329" y2="236" stroke="#2563eb" stroke-width="6" stroke-linecap="round"/>
+  <line x1="145" y1="390" x2="410" y2="266" stroke="#dc2626" stroke-width="6" stroke-linecap="round"/>
+  <line x1="329" y1="236" x2="410" y2="266" stroke="#16a34a" stroke-width="5" stroke-dasharray="10 8"/>
+  <circle cx="329" cy="236" r="9" fill="#2563eb"/>
+  <circle cx="410" cy="266" r="9" fill="#dc2626"/>
+  <text x="285" y="220" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1e40af">Boat</text>
+  <text x="422" y="270" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#991b1b">Drone</text>
+  <text x="214" y="295" font-family="Arial, sans-serif" font-size="22" fill="#1e40af">8 km, 050 deg</text>
+  <text x="283" y="354" font-family="Arial, sans-serif" font-size="22" fill="#991b1b">11 km, 115 deg</text>
+  <text x="365" y="246" font-family="Arial, sans-serif" font-size="22" fill="#166534">d?</text>
+  <path d="M192 350 A72 72 0 0 1 211 363" fill="none" stroke="#f59e0b" stroke-width="5"/>
+  <text x="214" y="344" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#92400e">65 deg</text>
+</svg>

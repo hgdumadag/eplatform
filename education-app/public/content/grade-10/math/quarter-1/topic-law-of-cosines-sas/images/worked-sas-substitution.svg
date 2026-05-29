@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" role="img" aria-labelledby="title desc">
+  <title id="title">Worked Law of Cosines substitution for SAS</title>
+  <desc id="desc">A triangle with known sides 8 and 11 and included angle 60 degrees. The formula panel shows c squared equals 8 squared plus 11 squared minus 2 times 8 times 11 times cosine 60 degrees, leading to c about 9.8.</desc>
+  <rect width="760" height="430" fill="#f8fafc"/>
+  <path d="M105 315 L415 315 L235 110 Z" fill="#eefdf5" stroke="#14532d" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M145 315 A45 45 0 0 1 134 286" fill="none" stroke="#dc2626" stroke-width="5"/>
+  <circle cx="105" cy="315" r="6" fill="#14532d"/>
+  <circle cx="415" cy="315" r="6" fill="#14532d"/>
+  <circle cx="235" cy="110" r="6" fill="#14532d"/>
+  <text x="122" y="292" font-family="Arial, sans-serif" font-size="22" fill="#dc2626">60 degrees</text>
+  <text x="235" y="348" font-family="Arial, sans-serif" font-size="22" fill="#166534">11</text>
+  <text x="130" y="204" font-family="Arial, sans-serif" font-size="22" fill="#166534" transform="rotate(-58 130 204)">8</text>
+  <text x="325" y="205" font-family="Arial, sans-serif" font-size="22" fill="#7c2d12" transform="rotate(49 325 205)">c = ?</text>
+  <rect x="465" y="70" width="245" height="250" rx="8" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+  <text x="488" y="108" font-family="Arial, sans-serif" font-size="21" fill="#0f172a" font-weight="700">Substitute carefully</text>
+  <text x="488" y="151" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">c^2 = 8^2 + 11^2</text>
+  <text x="488" y="181" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">      - 2(8)(11)cos60</text>
+  <text x="488" y="226" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">c^2 = 64 + 121 - 88</text>
+  <text x="488" y="270" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">c^2 = 97</text>
+  <text x="488" y="300" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">c is about 9.8</text>
+</svg>

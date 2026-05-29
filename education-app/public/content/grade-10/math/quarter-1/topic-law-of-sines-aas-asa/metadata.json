@@ -1,0 +1,46 @@
+{
+  "id": "grade-10-math-q1-law-of-sines-aas-asa",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Trigonometry: Law of Sines for AAS and ASA",
+  "description": "Apply the Law of Sines to solve oblique triangles when two angles and one side are known.",
+  "learningObjectives": [
+    "Explain why right-triangle ratios alone are not enough for oblique triangles",
+    "Identify AAS and ASA given information in an oblique triangle",
+    "Use the triangle angle sum to find a missing angle before applying the Law of Sines",
+    "Set up and solve Law of Sines proportions for missing sides",
+    "Check a complete Law of Sines solution using angle sum and opposite side-angle relationships"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "intermediate",
+  "tags": [
+    "trigonometry",
+    "geometry",
+    "triangles",
+    "oblique-triangles",
+    "law-of-sines",
+    "aas",
+    "asa"
+  ],
+  "lastUpdated": "2026-05-29",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/oblique-vs-right-triangle.svg",
+      "images/opposite-pairs-law-of-sines.svg",
+      "images/aas-example-triangle.svg",
+      "images/asa-example-triangle.svg"
+    ]
+  },
+  "prerequisites": [
+    "Triangle angle sum",
+    "Angle and side naming in triangles",
+    "Sine function and calculator use",
+    "Solving proportions",
+    "Rounding decimals to the nearest tenth"
+  ]
+}

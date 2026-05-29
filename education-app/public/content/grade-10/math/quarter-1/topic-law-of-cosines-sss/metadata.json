@@ -1,0 +1,46 @@
+{
+  "id": "grade-10-math-q1-law-of-cosines-sss",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 1,
+  "topicName": "Trigonometry: Law of Cosines for SSS",
+  "description": "Apply the Law of Cosines to find unknown angles when all three side lengths of a triangle are known.",
+  "learningObjectives": [
+    "Recognize an SSS triangle as a Law of Cosines angle problem",
+    "Rearrange the Law of Cosines to solve for an unknown angle",
+    "Find the largest angle first by using the longest side",
+    "Use inverse cosine in degree mode to calculate triangle angles",
+    "Check that calculated angles add to about 180°"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "intermediate",
+  "tags": [
+    "trigonometry",
+    "geometry",
+    "triangles",
+    "oblique-triangles",
+    "law-of-cosines",
+    "sss",
+    "angles"
+  ],
+  "lastUpdated": "2026-05-29",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/sss-triangle-no-angles.svg",
+      "images/angle-formula-rearranged.svg",
+      "images/largest-angle-first.svg",
+      "images/angle-sum-check.svg"
+    ]
+  },
+  "prerequisites": [
+    "Triangle angle sum",
+    "Sides opposite angles",
+    "Squares and substitution",
+    "Cosine and inverse cosine on a calculator",
+    "Law of Cosines for finding a side"
+  ]
+}

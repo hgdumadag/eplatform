@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="460" viewBox="0 0 780 460" role="img" aria-labelledby="title desc">
+  <title id="title">Choosing between Law of Sines and Law of Cosines</title>
+  <desc id="desc">A decision chart for bearing triangles: use Law of Cosines for two sides and included angle or three sides, and use Law of Sines when an opposite side and angle pair is known.</desc>
+  <rect width="780" height="460" fill="#f8fafc"/>
+  <rect x="40" y="40" width="700" height="80" rx="8" fill="#0f172a"/>
+  <text x="390" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">After drawing the bearing triangle, what do you know?</text>
+  <rect x="70" y="175" width="280" height="190" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
+  <rect x="430" y="175" width="280" height="190" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="3"/>
+  <text x="210" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#1e40af">SAS or SSS</text>
+  <text x="570" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#166534">Opposite pair</text>
+  <text x="210" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#334155">Two sides with included</text>
+  <text x="210" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#334155">angle, or all sides</text>
+  <text x="570" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#334155">An angle and its opposite</text>
+  <text x="570" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#334155">side are known</text>
+  <text x="210" y="342" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1e40af">Use Law of Cosines</text>
+  <text x="570" y="342" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#166534">Use Law of Sines</text>
+  <line x1="390" y1="120" x2="210" y2="175" stroke="#64748b" stroke-width="4"/>
+  <line x1="390" y1="120" x2="570" y2="175" stroke="#64748b" stroke-width="4"/>
+</svg>

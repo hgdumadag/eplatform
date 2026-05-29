@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Height test for acute SSA data</title>
+  <desc id="desc">An acute angle A has side b fixed, and the perpendicular height h from C to the base ray is labeled h equals b sin A.</desc>
+  <rect width="720" height="420" fill="#fffaf2"/>
+  <line x1="90" y1="330" x2="650" y2="330" stroke="#263238" stroke-width="5" stroke-linecap="round"/>
+  <line x1="90" y1="330" x2="390" y2="120" stroke="#2f80ed" stroke-width="8" stroke-linecap="round"/>
+  <line x1="390" y1="120" x2="390" y2="330" stroke="#d64545" stroke-width="5" stroke-dasharray="10 10"/>
+  <path d="M390 330 L390 296 L424 296" fill="none" stroke="#d64545" stroke-width="4"/>
+  <line x1="390" y1="120" x2="260" y2="330" stroke="#f2994a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M147 330 A75 75 0 0 1 152 286" fill="none" stroke="#27ae60" stroke-width="4"/>
+  <circle cx="90" cy="330" r="8" fill="#263238"/>
+  <circle cx="390" cy="120" r="8" fill="#2f80ed"/>
+  <circle cx="390" cy="330" r="7" fill="#d64545"/>
+  <text x="77" y="360" font-family="Arial, sans-serif" font-size="24" fill="#17212b">A</text>
+  <text x="398" y="112" font-family="Arial, sans-serif" font-size="24" fill="#17212b">C</text>
+  <text x="232" y="220" font-family="Arial, sans-serif" font-size="26" fill="#0f5fb8">b</text>
+  <text x="403" y="235" font-family="Arial, sans-serif" font-size="26" fill="#b42318">h</text>
+  <text x="284" y="253" font-family="Arial, sans-serif" font-size="26" fill="#a65613">a</text>
+  <text x="156" y="306" font-family="Arial, sans-serif" font-size="22" fill="#1f7a3f">A acute</text>
+  <text x="130" y="56" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#17212b">Height test: h = b sin A</text>
+  <text x="430" y="330" font-family="Arial, sans-serif" font-size="22" fill="#4b5563">base ray</text>
+</svg>
