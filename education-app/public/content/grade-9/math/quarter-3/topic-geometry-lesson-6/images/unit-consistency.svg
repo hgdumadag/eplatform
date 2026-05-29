@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Unit consistency for proportions</title>
+  <desc id="desc">Measurements in centimeters are converted to meters before writing a shadow proportion, preventing mixed units in corresponding ratios.</desc>
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <rect x="60" y="60" width="270" height="210" rx="8" fill="#fff7ed" stroke="#f97316" stroke-width="3"/>
+  <text x="90" y="100" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#9a3412">Before converting</text>
+  <text x="88" y="148" font-family="Arial, sans-serif" font-size="19" fill="#334155">student height: 180 cm</text>
+  <text x="88" y="188" font-family="Arial, sans-serif" font-size="19" fill="#334155">student shadow: 240 cm</text>
+  <text x="88" y="228" font-family="Arial, sans-serif" font-size="19" fill="#334155">tree shadow: 6 m</text>
+  <path d="M358 165 L420 165" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <path d="M400 145 L425 165 L400 185" fill="none" stroke="#334155" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="450" y="60" width="220" height="210" rx="8" fill="#ecfdf5" stroke="#10b981" stroke-width="3"/>
+  <text x="488" y="100" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#047857">After converting</text>
+  <text x="488" y="148" font-family="Arial, sans-serif" font-size="19" fill="#334155">1.8 m</text>
+  <text x="488" y="188" font-family="Arial, sans-serif" font-size="19" fill="#334155">2.4 m</text>
+  <text x="488" y="228" font-family="Arial, sans-serif" font-size="19" fill="#334155">6 m</text>
+  <text x="175" y="318" font-family="Arial, sans-serif" font-size="22" fill="#1e293b">Use 1.8 / 2.4 = x / 6</text>
+</svg>

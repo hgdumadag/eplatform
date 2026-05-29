@@ -1,0 +1,49 @@
+{
+  "id": "grade-9-math-q3-geometry-lesson-8",
+  "grade": 9,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Geometry - Lesson 8: 30-60-90 Triangles",
+  "description": "Derive and apply 30-60-90 triangle side relationships to find missing sides and angles.",
+  "learningObjectives": [
+    "Derive the 30-60-90 side ratio from an equilateral triangle split by an altitude",
+    "Match the short leg, long leg, and hypotenuse to the 30 degree, 60 degree, and 90 degree angles",
+    "Use the ratio x : x\\sqrt{3} : 2x to find missing side lengths",
+    "Find missing sides when the short leg, long leg, or hypotenuse is given",
+    "Identify and avoid common correspondence errors in special right triangles",
+    "Find missing angles in 30-60-90 triangle problems"
+  ],
+  "prerequisites": [
+    "Recognize right triangles and complementary acute angles",
+    "Use square roots in exact form",
+    "Apply the Pythagorean Theorem",
+    "Identify opposite sides in a triangle"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "special right triangles",
+    "30-60-90 triangles",
+    "side ratios",
+    "square roots",
+    "missing sides",
+    "missing angles"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/equilateral-split-derivation.svg",
+      "images/side-ratio-reference.svg",
+      "images/given-short-leg.svg",
+      "images/given-long-leg.svg",
+      "images/given-hypotenuse.svg",
+      "images/correspondence-trap.svg"
+    ]
+  }
+}

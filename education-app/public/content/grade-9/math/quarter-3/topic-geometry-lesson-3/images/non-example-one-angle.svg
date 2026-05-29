@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320" role="img" aria-labelledby="title desc">
+  <title id="title">Non-example with only one matching angle</title>
+  <desc id="desc">Two triangles have only one congruent angle pair marked, which is not enough to prove AA similarity.</desc>
+  <rect width="720" height="320" fill="#f8fafc"/>
+  <g fill="none" stroke="#334155" stroke-width="4" stroke-linejoin="round">
+    <path d="M70 245 L195 75 L330 245 Z"/>
+    <path d="M420 245 L510 125 L660 245 Z"/>
+  </g>
+  <g fill="none" stroke="#2563eb" stroke-width="4">
+    <path d="M96 213 Q116 235 145 245"/>
+    <path d="M446 214 Q467 235 497 245"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">
+    <text x="52" y="270">A</text><text x="188" y="63">B</text><text x="337" y="270">C</text>
+    <text x="402" y="270">D</text><text x="505" y="113">E</text><text x="667" y="270">F</text>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#334155">
+    <text x="187" y="288" font-size="19">Only one angle pair is marked.</text>
+    <text x="214" y="38" font-size="22" font-weight="700">Not enough for AA</text>
+  </g>
+</svg>

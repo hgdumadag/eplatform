@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="380" viewBox="0 0 760 380" role="img" aria-labelledby="title desc">
+  <title id="title">Error analysis for mixed similarity problems</title>
+  <desc id="desc">A visual compares an incorrect mismatched proportion and incorrect 30-60-90 multiplier with corrected reasoning using corresponding sides and the right special triangle ratio.</desc>
+  <rect width="760" height="380" fill="#fff1f2"/>
+  <text x="32" y="42" font-family="Arial" font-size="24" font-weight="700" fill="#0f172a">Error Analysis</text>
+  <g font-family="Arial" font-size="17" fill="#0f172a">
+    <rect x="45" y="80" width="305" height="230" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+    <text x="70" y="115" font-weight="700" fill="#991b1b">Incorrect</text>
+    <text x="70" y="150">6/18 = 15/x</text>
+    <text x="70" y="185">Problem: sides are not</text>
+    <text x="70" y="208">matched by position.</text>
+    <text x="70" y="248">short leg x 2 = long leg</text>
+    <text x="70" y="282">Problem: x2 gives hypotenuse.</text>
+    <line x1="60" y1="130" x2="330" y2="300" stroke="#dc2626" stroke-width="4"/>
+    <rect x="410" y="80" width="305" height="230" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="435" y="115" font-weight="700" fill="#166534">Correct</text>
+    <text x="435" y="150">AB/AD = BC/DE</text>
+    <text x="435" y="185">Same order:</text>
+    <text x="435" y="208">small/large = small/large</text>
+    <text x="435" y="248">30-60-90:</text>
+    <text x="435" y="275">long = short x sqrt(3)</text>
+  </g>
+  <path d="M355 195 L400 195" stroke="#475569" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="222" y="342" font-family="Arial" font-size="19" fill="#0f172a">Fix the setup before solving the arithmetic.</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#475569"/>
+    </marker>
+  </defs>
+</svg>

@@ -3,7 +3,7 @@
   "grade": 9,
   "subject": "math",
   "quarter": 2,
-  "topicName": "Geometry - Lesson 1",
+  "topicName": "Geometry - Lesson 1: Conditions for Parallel and Perpendicular Lines",
   "description": "Determine when lines must be parallel or perpendicular using direction, angle relationships, and right-angle intersections.",
   "learningObjectives": [
     "Recognize visual conditions that suggest lines have the same direction or meet at right angles",
@@ -21,7 +21,18 @@
   ],
   "estimatedDuration": 50,
   "difficulty": "intermediate",
-  "tags": ["geometry", "measurement and geometry", "parallel lines", "perpendicular lines", "transversal", "angle relationships", "corresponding angles", "alternate interior angles", "same-side interior angles", "right angles"],
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "parallel lines",
+    "perpendicular lines",
+    "transversal",
+    "angle relationships",
+    "corresponding angles",
+    "alternate interior angles",
+    "same-side interior angles",
+    "right angles"
+  ],
   "lastUpdated": "2026-05-27",
   "version": "1.0",
   "resources": {

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="390" viewBox="0 0 760 390" role="img" aria-labelledby="title desc">
+  <title id="title">Multi-step diagram labels</title>
+  <desc id="desc">A nested triangle diagram labels corresponding sides AB, AD, BC, and DE, then connects side BC to a 30-60-90 triangle as the short leg.</desc>
+  <rect width="760" height="390" fill="#f0fdf4"/>
+  <text x="32" y="42" font-family="Arial" font-size="24" font-weight="700" fill="#0f172a">Label Every Role</text>
+  <g stroke="#166534" stroke-width="4" fill="none" stroke-linejoin="round">
+    <path d="M80 310 L380 310 L380 80 Z"/>
+    <path d="M80 310 L200 310 L200 218 Z"/>
+  </g>
+  <line x1="200" y1="218" x2="380" y2="80" stroke="#16a34a" stroke-width="3" stroke-dasharray="8 7"/>
+  <g stroke="#92400e" stroke-width="4" fill="none" stroke-linejoin="round">
+    <path d="M500 310 L650 310 L650 180 Z"/>
+  </g>
+  <g fill="#dcfce7" stroke="#16a34a" stroke-width="2">
+    <rect x="187" y="297" width="13" height="13"/>
+    <rect x="367" y="297" width="13" height="13"/>
+  </g>
+  <g fill="#ffedd5" stroke="#ea580c" stroke-width="2">
+    <rect x="637" y="297" width="13" height="13"/>
+  </g>
+  <g font-family="Arial" fill="#0f172a" font-size="17">
+    <text x="120" y="334">AB = 6</text>
+    <text x="250" y="334">AD = 18</text>
+    <text x="208" y="270">BC = x</text>
+    <text x="390" y="205">DE = 15</text>
+    <text x="535" y="334">short leg = x</text>
+    <text x="660" y="252">long leg = x sqrt(3)</text>
+    <text x="610" y="292">60 deg</text>
+  </g>
+  <path d="M410 235 C450 215 465 220 492 240" fill="none" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="438" y="202" font-family="Arial" font-size="18" font-weight="700" fill="#1d4ed8">bridge side</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+</svg>

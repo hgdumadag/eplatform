@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="340" viewBox="0 0 760 340" role="img" aria-labelledby="title desc">
+  <title id="title">Included angle evidence for SAS similarity</title>
+  <desc id="desc">Two triangles show two pairs of proportional sides and congruent included angles. The included angle lies between the compared sides.</desc>
+  <rect width="760" height="340" fill="#fff7ed"/>
+  <text x="380" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#7c2d12">SAS Similarity: two side ratios plus the included angle</text>
+  <polygon points="110,260 260,260 110,100" fill="#ffedd5" stroke="#ea580c" stroke-width="4"/>
+  <polygon points="480,260 705,260 480,20" fill="#fee2e2" stroke="#dc2626" stroke-width="4" transform="translate(0 55) scale(1 0.82)"/>
+  <path d="M110 145 A45 45 0 0 1 152 260" fill="none" stroke="#9333ea" stroke-width="5"/>
+  <path d="M480 120 A60 60 0 0 1 535 260" fill="none" stroke="#9333ea" stroke-width="5"/>
+  <text x="91" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#9a3412">6</text>
+  <text x="185" y="286" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#9a3412">10</text>
+  <text x="456" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#991b1b">9</text>
+  <text x="593" y="286" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#991b1b">15</text>
+  <text x="143" y="234" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#581c87">50°</text>
+  <text x="520" y="234" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#581c87">50°</text>
+  <rect x="292" y="102" width="178" height="118" rx="8" fill="#ffffff" stroke="#fed7aa" stroke-width="2"/>
+  <text x="381" y="136" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#334155">6/9 = 10/15</text>
+  <text x="381" y="169" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#0f766e">both 2/3</text>
+  <text x="381" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#334155">angle is included</text>
+</svg>

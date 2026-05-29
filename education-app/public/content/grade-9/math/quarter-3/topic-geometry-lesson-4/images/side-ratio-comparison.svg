@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="350" viewBox="0 0 760 350" role="img" aria-labelledby="title desc">
+  <title id="title">Side ratio comparison table for SSS similarity</title>
+  <desc id="desc">A table compares three pairs of corresponding sides. Each ratio equals one half, so the triangles are similar by SSS.</desc>
+  <rect width="760" height="350" fill="#f8fafc"/>
+  <text x="380" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">Compare side ratios before naming the theorem</text>
+  <polygon points="70,255 190,255 130,100" fill="#e0f2fe" stroke="#0284c7" stroke-width="4"/>
+  <polygon points="245,255 485,255 365,60" fill="#ecfccb" stroke="#65a30d" stroke-width="4"/>
+  <text x="130" y="282" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#075985">AB = 5</text>
+  <text x="82" y="176" font-family="Arial, sans-serif" font-size="17" fill="#075985">AC = 8</text>
+  <text x="166" y="176" font-family="Arial, sans-serif" font-size="17" fill="#075985">BC = 7</text>
+  <text x="365" y="282" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#3f6212">DE = 10</text>
+  <text x="260" y="165" font-family="Arial, sans-serif" font-size="17" fill="#3f6212">DF = 16</text>
+  <text x="430" y="165" font-family="Arial, sans-serif" font-size="17" fill="#3f6212">EF = 14</text>
+  <rect x="525" y="92" width="190" height="170" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <line x1="525" y1="132" x2="715" y2="132" stroke="#cbd5e1" stroke-width="2"/>
+  <line x1="618" y1="92" x2="618" y2="262" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="572" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#334155">Pair</text>
+  <text x="667" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#334155">Ratio</text>
+  <text x="572" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#334155">AB/DE</text>
+  <text x="667" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#334155">5/10 = 1/2</text>
+  <text x="572" y="202" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#334155">BC/EF</text>
+  <text x="667" y="202" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#334155">7/14 = 1/2</text>
+  <text x="572" y="244" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#334155">AC/DF</text>
+  <text x="667" y="244" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#334155">8/16 = 1/2</text>
+  <text x="380" y="322" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#0f766e">All three ratios match, so use SSS Similarity.</text>
+</svg>

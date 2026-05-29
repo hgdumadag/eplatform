@@ -1,0 +1,94 @@
+{
+  "examId": "grade-9-math-q3-geometry-lesson-7-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 7 Practice: 45-45-90 Triangles",
+  "description": "Practice finding missing side lengths in 45-45-90 triangles using the x:x:x sqrt(2) relationship.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A 45-45-90 triangle has a leg of 6 units. What is the hypotenuse?",
+      "options": [
+        "6 units",
+        "6sqrt(2) units",
+        "12 units",
+        "3sqrt(2) units"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a 45-45-90 triangle, hypotenuse = leg x sqrt(2). With leg 6, the hypotenuse is 6sqrt(2).",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A 45-45-90 triangle has a hypotenuse of 8sqrt(2) cm. What is the length of each leg?",
+      "options": [
+        "4 cm",
+        "8 cm",
+        "8sqrt(2) cm",
+        "16 cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Divide the hypotenuse by sqrt(2): 8sqrt(2)/sqrt(2) = 8. Each leg is 8 cm.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which side ratio matches every 45-45-90 triangle?",
+      "options": [
+        "x : 2x : x sqrt(3)",
+        "x : x : x sqrt(2)",
+        "x : x sqrt(2) : 2x",
+        "x : x : 2x"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A 45-45-90 triangle is an isosceles right triangle, so the legs are equal and the hypotenuse is leg x sqrt(2).",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "In a 45-45-90 triangle, the two legs are congruent.",
+      "correctAnswer": "true",
+      "explanation": "The two acute angles are equal, so the sides opposite them are equal. The triangle is isosceles.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "If the hypotenuse of a 45-45-90 triangle is known, multiply it by sqrt(2) to find a leg.",
+      "correctAnswer": "false",
+      "explanation": "A leg is shorter than the hypotenuse, so divide the hypotenuse by sqrt(2) to find a leg.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A 45-45-90 triangle has one leg of 9. The other leg is ___.",
+      "correctAnswer": "9",
+      "explanation": "The legs of a 45-45-90 triangle are equal, so the other leg is also 9.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A 45-45-90 triangle has a hypotenuse of 14sqrt(2). Each leg is ___.",
+      "correctAnswer": "14",
+      "explanation": "Divide 14sqrt(2) by sqrt(2). The result is 14.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain how to decide whether to multiply or divide by sqrt(2) in a 45-45-90 triangle.",
+      "correctAnswer": "Multiply a leg by sqrt(2) to find the hypotenuse. Divide the hypotenuse by sqrt(2) to find a leg because the hypotenuse is the longest side.",
+      "explanation": "The direction matters. Moving from a leg to the longer hypotenuse uses multiplication, while moving from the hypotenuse to a shorter leg uses division.",
+      "points": 14
+    }
+  ]
+}

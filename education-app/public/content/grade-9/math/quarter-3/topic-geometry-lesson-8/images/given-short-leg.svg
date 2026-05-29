@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" role="img" aria-labelledby="title desc">
+  <title id="title">Finding missing sides when the short leg is given</title>
+  <desc id="desc">A 30-60-90 triangle with short leg 7 shows the long leg as 7 square root of 3 and the hypotenuse as 14.</desc>
+  <rect width="760" height="430" fill="#f8fafc"/>
+  <text x="380" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Given the Short Leg</text>
+  <polygon points="170,338 520,338 520,136" fill="#f0fdf4" stroke="#16a34a" stroke-width="4"/>
+  <path d="M520 313 H495 V338" fill="none" stroke="#0f172a" stroke-width="3"/>
+  <text x="345" y="374" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#166534">short leg = 7</text>
+  <text x="548" y="245" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">7&#8730;3</text>
+  <text x="330" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">14</text>
+  <text x="205" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#be123c">30 degrees</text>
+  <text x="485" y="162" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#be123c">60 degrees</text>
+  <rect x="90" y="82" width="245" height="112" rx="8" fill="#ffffff" stroke="#bbf7d0" stroke-width="2"/>
+  <text x="112" y="116" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#166534">Use x = 7</text>
+  <text x="112" y="149" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">long leg = x&#8730;3</text>
+  <text x="112" y="176" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">hypotenuse = 2x</text>
+</svg>

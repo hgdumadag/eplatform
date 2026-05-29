@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-labelledby="title desc">
+  <title id="title">Ratio setup map for similar triangles</title>
+  <desc id="desc">A visual map showing side pairs from triangle ABC similar to triangle DEF and three equivalent correct proportion setups.</desc>
+  <rect width="900" height="460" fill="#fffdf7"/>
+  <text x="450" y="44" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#1f2937">Set up ratios in a consistent order</text>
+  <rect x="60" y="92" width="260" height="280" rx="8" fill="#eef6ff" stroke="#1d4ed8" stroke-width="3"/>
+  <rect x="580" y="92" width="260" height="280" rx="8" fill="#edf9f0" stroke="#15803d" stroke-width="3"/>
+  <text x="190" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1d4ed8">Triangle ABC</text>
+  <text x="710" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#15803d">Triangle DEF</text>
+  <text x="110" y="190" font-family="Arial, sans-serif" font-size="24" fill="#111827">AB = 6</text>
+  <text x="110" y="250" font-family="Arial, sans-serif" font-size="24" fill="#111827">BC = 8</text>
+  <text x="110" y="310" font-family="Arial, sans-serif" font-size="24" fill="#111827">AC = 10</text>
+  <text x="630" y="190" font-family="Arial, sans-serif" font-size="24" fill="#111827">DE = 9</text>
+  <text x="630" y="250" font-family="Arial, sans-serif" font-size="24" fill="#111827">EF = x</text>
+  <text x="630" y="310" font-family="Arial, sans-serif" font-size="24" fill="#111827">DF = 15</text>
+  <line x1="235" y1="182" x2="635" y2="182" stroke="#7c3aed" stroke-width="4"/>
+  <line x1="235" y1="242" x2="635" y2="242" stroke="#ea580c" stroke-width="4"/>
+  <line x1="235" y1="302" x2="635" y2="302" stroke="#dc2626" stroke-width="4"/>
+  <rect x="338" y="100" width="210" height="250" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="443" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#111827">Correct setups</text>
+  <text x="443" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#111827">6/9 = 8/x</text>
+  <text x="443" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#111827">6/8 = 9/x</text>
+  <text x="443" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#111827">10/15 = 6/9</text>
+  <text x="450" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#374151">Small over large stays small over large; side within triangle stays side within triangle.</text>
+</svg>

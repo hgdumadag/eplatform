@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">Quarter scale model overview</title>
+  <desc id="desc">An actual rectangle measuring 24 centimeters by 16 centimeters is reduced by scale factor one fourth to a model rectangle measuring 6 centimeters by 4 centimeters.</desc>
+  <rect width="760" height="360" fill="#f8fafc"/>
+  <text x="40" y="44" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Quarter scale: multiply each length by 1/4</text>
+  <rect x="70" y="92" width="360" height="240" fill="#dbeafe" stroke="#1d4ed8" stroke-width="4"/>
+  <text x="200" y="214" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1e3a8a">Actual</text>
+  <line x1="70" y1="342" x2="430" y2="342" stroke="#334155" stroke-width="3"/>
+  <text x="206" y="356" font-family="Arial, sans-serif" font-size="18" fill="#334155">24 cm</text>
+  <line x1="50" y1="92" x2="50" y2="332" stroke="#334155" stroke-width="3"/>
+  <text x="10" y="220" font-family="Arial, sans-serif" font-size="18" fill="#334155">16 cm</text>
+  <path d="M470 212 H555" stroke="#0f766e" stroke-width="5" marker-end="url(#arrow)"/>
+  <text x="469" y="190" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0f766e">x 1/4</text>
+  <rect x="590" y="212" width="90" height="60" fill="#dcfce7" stroke="#15803d" stroke-width="4"/>
+  <text x="602" y="247" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#166534">Model</text>
+  <line x1="590" y1="288" x2="680" y2="288" stroke="#334155" stroke-width="3"/>
+  <text x="613" y="310" font-family="Arial, sans-serif" font-size="16" fill="#334155">6 cm</text>
+  <line x1="704" y1="212" x2="704" y2="272" stroke="#334155" stroke-width="3"/>
+  <text x="712" y="248" font-family="Arial, sans-serif" font-size="16" fill="#334155">4 cm</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#0f766e"/>
+    </marker>
+  </defs>
+</svg>

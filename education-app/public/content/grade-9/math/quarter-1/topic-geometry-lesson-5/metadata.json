@@ -3,7 +3,7 @@
   "grade": 9,
   "subject": "math",
   "quarter": 1,
-  "topicName": "Geometry - Lesson 5",
+  "topicName": "Geometry - Lesson 5: Constructing Parallel Lines",
   "description": "Construct a line parallel to a given line through a point and verify the result using equal angle or equal distance relationships.",
   "learningObjectives": [
     "Identify parallel lines and use correct parallel-line notation",
@@ -20,7 +20,17 @@
   ],
   "estimatedDuration": 50,
   "difficulty": "intermediate",
-  "tags": ["geometry", "measurement and geometry", "parallel lines", "construction", "corresponding angles", "set square", "protractor", "ruler", "verification"],
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "parallel lines",
+    "construction",
+    "corresponding angles",
+    "set square",
+    "protractor",
+    "ruler",
+    "verification"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {

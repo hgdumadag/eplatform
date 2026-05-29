@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Original and image polygons</title>
+  <desc id="desc">Two similar pentagons show corresponding side lengths from an original polygon to a larger image polygon.</desc>
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <text x="155" y="42" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a" text-anchor="middle">Original</text>
+  <text x="515" y="42" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a" text-anchor="middle">Image</text>
+  <polygon points="110,110 190,90 245,155 205,245 95,235" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+  <polygon points="425,85 545,55 628,153 568,288 403,273" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+  <line x1="110" y1="110" x2="190" y2="90" stroke="#1e40af" stroke-width="3"/>
+  <line x1="425" y1="85" x2="545" y2="55" stroke="#15803d" stroke-width="3"/>
+  <text x="145" y="88" font-family="Arial, sans-serif" font-size="18" fill="#1e3a8a">4 cm</text>
+  <text x="480" y="44" font-family="Arial, sans-serif" font-size="18" fill="#14532d">6 cm</text>
+  <text x="72" y="178" font-family="Arial, sans-serif" font-size="18" fill="#1e3a8a">6 cm</text>
+  <text x="372" y="185" font-family="Arial, sans-serif" font-size="18" fill="#14532d">9 cm</text>
+  <path d="M285 170 H365" stroke="#334155" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="325" y="150" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#334155" text-anchor="middle">scale</text>
+  <text x="325" y="202" font-family="Arial, sans-serif" font-size="18" fill="#334155" text-anchor="middle">same shape</text>
+  <text x="360" y="325" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0f172a" text-anchor="middle">Scale factor = image/original = 6/4 = 9/6 = 1.5</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#334155"/>
+    </marker>
+  </defs>
+</svg>

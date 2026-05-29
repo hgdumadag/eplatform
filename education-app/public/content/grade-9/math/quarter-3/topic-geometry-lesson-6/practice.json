@@ -1,0 +1,94 @@
+{
+  "examId": "grade-9-math-q3-geometry-lesson-6-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 6 Practice: Indirect Measurement",
+  "description": "Practice using shadows, mirrors, and scale drawings to solve indirect measurement problems with similar figures.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A 1.5 m student casts a 2 m shadow. At the same time, a pole casts an 8 m shadow. How tall is the pole?",
+      "options": [
+        "4 m",
+        "5 m",
+        "6 m",
+        "10.67 m"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Use corresponding ratios: 1.5/2 = x/8. Then 2x = 12, so x = 6 m.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "In a mirror problem, a person's eye height is 1.6 m, the person is 2 m from the mirror, and a tree is 10 m from the mirror. Which proportion can find the tree height x?",
+      "options": [
+        "1.6/10 = x/2",
+        "1.6/2 = x/10",
+        "2/1.6 = x/10",
+        "1.6/x = 10/2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Eye height corresponds to object height, and person-to-mirror distance corresponds to object-to-mirror distance, so 1.6/2 = x/10.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A scale drawing uses 1 cm to represent 4 m. A hallway is 6 cm long on the drawing. What is the real hallway length?",
+      "options": [
+        "10 m",
+        "18 m",
+        "24 m",
+        "30 m"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Each centimeter represents 4 m, so 6 x 4 = 24 m.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "When two objects cast shadows at the same time on level ground, their height-shadow triangles can be treated as similar triangles.",
+      "correctAnswer": "true",
+      "explanation": "The objects are vertical, the ground is horizontal, and the sun angle is the same, so the right triangles are similar.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "In a mirror sightline problem, the two ground distances should always be added before writing the proportion.",
+      "correctAnswer": "false",
+      "explanation": "Each triangle uses its own distance to the mirror. Adding the distances usually breaks the corresponding-side relationship.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Convert 150 cm to meters before using it in a meter-based proportion.",
+      "correctAnswer": "1.5 m or 1.5",
+      "explanation": "Since 100 cm = 1 m, 150 cm = 1.5 m.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A 2 m pole casts a 3 m shadow. A tower casts a 15 m shadow at the same time. The tower is ___ m tall.",
+      "correctAnswer": "10",
+      "explanation": "Use 2/3 = x/15. Then 3x = 30, so x = 10 m.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain why unit consistency matters when setting up an indirect measurement proportion.",
+      "correctAnswer": "Units must be consistent so the ratios compare like measurements. For example, heights should both be in meters or both be in centimeters before solving.",
+      "explanation": "A proportion compares corresponding quantities. Mixing meters and centimeters without converting changes the ratio and can produce a wrong answer.",
+      "points": 14
+    }
+  ]
+}

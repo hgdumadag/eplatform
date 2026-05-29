@@ -1,0 +1,106 @@
+{
+  "examId": "grade-9-math-q3-geometry-lesson-4-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 4 Practice: Triangle Similarity SSS and SAS",
+  "description": "Practice choosing SSS Similarity, SAS Similarity, or not enough evidence from proportional side information.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Two triangles have corresponding side lengths 4, 6, 8 and 10, 15, 20. Which theorem proves the triangles are similar?",
+      "options": [
+        "SSS Similarity",
+        "SAS Similarity",
+        "ASA Congruence",
+        "Not enough evidence"
+      ],
+      "correctAnswer": 0,
+      "explanation": "All three corresponding side ratios match: 4/10 = 6/15 = 8/20 = 2/5. That is SSS Similarity.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Two triangles have side pairs 6 and 9, 8 and 12, and the included angles between those sides are congruent. Which theorem proves similarity?",
+      "options": [
+        "SSS Similarity",
+        "SAS Similarity",
+        "AA Similarity",
+        "No theorem applies because only two side pairs are given"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The side ratios match, 6/9 = 8/12 = 2/3, and the congruent angle is included between those sides. That is SAS Similarity.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "SSS Similarity requires all three pairs of corresponding sides to be proportional.",
+      "correctAnswer": "true",
+      "explanation": "SSS Similarity is based on three matching side ratios.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Which set of side lengths can prove two triangles are similar by SSS Similarity?",
+      "options": [
+        "3, 5, 7 and 6, 10, 15",
+        "4, 6, 9 and 8, 12, 18",
+        "5, 6, 8 and 10, 13, 16",
+        "7, 9, 12 and 14, 20, 24"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The ratios 4/8, 6/12, and 9/18 all equal 1/2, so the triangles are similar by SSS Similarity.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "For SAS Similarity, where must the congruent angle be located?",
+      "options": [
+        "Opposite the longest side only",
+        "Outside the triangle",
+        "Between the two proportional sides",
+        "Anywhere in either triangle"
+      ],
+      "correctAnswer": 2,
+      "explanation": "SAS uses two proportional side pairs and the included angle, which is the angle between those two sides.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Two triangles have corresponding side ratios 5/15, 7/21, and 9/27. These ratios all simplify to ______.",
+      "correctAnswer": "1/3",
+      "explanation": "Each ratio simplifies to 1/3, so the side evidence would support SSS Similarity.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Two triangles have side pairs 5 and 10, 8 and 16, and a congruent angle that is not between those two sides. Which conclusion is best?",
+      "options": [
+        "The triangles are similar by SAS Similarity.",
+        "The triangles are similar by SSS Similarity.",
+        "The evidence is not enough for SSS or SAS Similarity.",
+        "The triangles are congruent by SAS."
+      ],
+      "correctAnswer": 2,
+      "explanation": "SAS Similarity requires the congruent angle to be included between the proportional sides. SSS also cannot be used because only two side pairs are given.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain how to decide between SSS Similarity and SAS Similarity when reading triangle evidence.",
+      "correctAnswer": "Use SSS Similarity when all three corresponding side pairs are proportional. Use SAS Similarity when two corresponding side pairs are proportional and the included angles are congruent.",
+      "explanation": "The theorem depends on the evidence: three side ratios for SSS, or two side ratios plus the included angle for SAS.",
+      "points": 14
+    }
+  ]
+}

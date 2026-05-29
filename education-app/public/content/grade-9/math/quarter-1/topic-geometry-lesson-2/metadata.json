@@ -3,7 +3,7 @@
   "grade": 9,
   "subject": "math",
   "quarter": 1,
-  "topicName": "Geometry - Lesson 2",
+  "topicName": "Geometry - Lesson 2: Angle Notation and Measurement",
   "description": "Name angles from diagrams, estimate and measure angle sizes, and write complete angle statements.",
   "learningObjectives": [
     "Name angles using one-letter and three-letter notation when appropriate",
@@ -20,7 +20,17 @@
   ],
   "estimatedDuration": 45,
   "difficulty": "beginner",
-  "tags": ["geometry", "measurement and geometry", "angle notation", "angle measurement", "degrees", "protractor", "acute angles", "obtuse angles", "right angles"],
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "angle notation",
+    "angle measurement",
+    "degrees",
+    "protractor",
+    "acute angles",
+    "obtuse angles",
+    "right angles"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {

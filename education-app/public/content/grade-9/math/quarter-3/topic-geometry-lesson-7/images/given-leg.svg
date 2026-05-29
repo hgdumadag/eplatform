@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Finding the hypotenuse when a leg is given</title>
+  <desc id="desc">A 45-45-90 triangle with a leg of 7 shows that the other leg is 7 and the hypotenuse is found by multiplying by sqrt(2).</desc>
+  <polygon points="130,280 130,90 320,280" fill="#fff7e8" stroke="#8a5a14" stroke-width="4"/>
+  <path d="M130 252 L158 252 L158 280" fill="none" stroke="#333" stroke-width="3"/>
+  <text x="225" y="313" font-family="Arial, sans-serif" font-size="26" text-anchor="middle">7</text>
+  <text x="98" y="190" font-family="Arial, sans-serif" font-size="26" text-anchor="middle">7</text>
+  <text x="248" y="172" font-family="Arial, sans-serif" font-size="24" fill="#9a2d1f" transform="rotate(45 248 172)">7sqrt(2)</text>
+  <text x="390" y="120" font-family="Arial, sans-serif" font-size="28" font-weight="700">Given a leg</text>
+  <text x="390" y="168" font-family="Arial, sans-serif" font-size="24">other leg = 7</text>
+  <text x="390" y="210" font-family="Arial, sans-serif" font-size="24">hypotenuse = 7 x sqrt(2)</text>
+  <text x="390" y="252" font-family="Arial, sans-serif" font-size="24">multiply to get longer</text>
+</svg>

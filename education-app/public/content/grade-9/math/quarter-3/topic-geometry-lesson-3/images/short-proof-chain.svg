@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">Short proof chain for AA similarity</title>
+  <desc id="desc">A four-step proof chain starts with parallel lines, identifies two angle pairs, and concludes triangle similarity by AA.</desc>
+  <rect width="760" height="360" fill="#f8fafc"/>
+  <g font-family="Arial, sans-serif">
+    <g>
+      <rect x="40" y="45" width="165" height="72" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+      <text x="61" y="78" font-size="18" font-weight="700" fill="#0f172a">1. Given</text>
+      <text x="61" y="101" font-size="16" fill="#334155">DE parallel BC</text>
+    </g>
+    <g>
+      <rect x="225" y="45" width="205" height="72" rx="6" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+      <text x="246" y="78" font-size="18" font-weight="700" fill="#0f172a">2. Angle pair</text>
+      <text x="246" y="101" font-size="16" fill="#334155">angle ADE = angle ABC</text>
+    </g>
+    <g>
+      <rect x="455" y="45" width="205" height="72" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+      <text x="476" y="78" font-size="18" font-weight="700" fill="#0f172a">3. Angle pair</text>
+      <text x="476" y="101" font-size="16" fill="#334155">angle AED = angle ACB</text>
+    </g>
+    <g>
+      <rect x="250" y="220" width="260" height="78" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+      <text x="284" y="253" font-size="18" font-weight="700" fill="#0f172a">4. Conclusion</text>
+      <text x="284" y="278" font-size="16" fill="#334155">triangle ADE similar to ABC by AA</text>
+    </g>
+    <g fill="none" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)">
+      <path d="M205 82 L225 82"/>
+      <path d="M430 82 L455 82"/>
+      <path d="M558 118 C545 170 490 205 455 220"/>
+      <path d="M330 118 C325 160 340 195 360 220"/>
+    </g>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

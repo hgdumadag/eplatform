@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="410" viewBox="0 0 760 410" role="img" aria-labelledby="title desc">
+  <title id="title">Measurement table visual</title>
+  <desc id="desc">A sample measurement table lists model parts, actual lengths, scale factor one fourth, model lengths, and reasons for each calculation.</desc>
+  <rect width="760" height="410" fill="#f8fafc"/>
+  <text x="36" y="44" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Measurement table for checking the model</text>
+  <g transform="translate(55 82)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="650" height="270" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+    <rect x="0" y="0" width="650" height="48" fill="#e0f2fe"/>
+    <g stroke="#94a3b8" stroke-width="2">
+      <line x1="130" y1="0" x2="130" y2="270"/>
+      <line x1="280" y1="0" x2="280" y2="270"/>
+      <line x1="410" y1="0" x2="410" y2="270"/>
+      <line x1="525" y1="0" x2="525" y2="270"/>
+      <line x1="0" y1="48" x2="650" y2="48"/>
+      <line x1="0" y1="102" x2="650" y2="102"/>
+      <line x1="0" y1="156" x2="650" y2="156"/>
+      <line x1="0" y1="210" x2="650" y2="210"/>
+    </g>
+    <text x="18" y="31" font-size="16" font-weight="700" fill="#0f172a">Part</text>
+    <text x="148" y="31" font-size="16" font-weight="700" fill="#0f172a">Actual</text>
+    <text x="298" y="31" font-size="16" font-weight="700" fill="#0f172a">Scale</text>
+    <text x="428" y="31" font-size="16" font-weight="700" fill="#0f172a">Model</text>
+    <text x="543" y="31" font-size="16" font-weight="700" fill="#0f172a">Reason</text>
+    <text x="18" y="82" font-size="16" fill="#334155">Base length</text><text x="148" y="82" font-size="16" fill="#334155">24 cm</text><text x="304" y="82" font-size="16" fill="#334155">1/4</text><text x="438" y="82" font-size="16" fill="#334155">6 cm</text><text x="543" y="82" font-size="16" fill="#334155">24 ÷ 4</text>
+    <text x="18" y="136" font-size="16" fill="#334155">Base width</text><text x="148" y="136" font-size="16" fill="#334155">16 cm</text><text x="304" y="136" font-size="16" fill="#334155">1/4</text><text x="438" y="136" font-size="16" fill="#334155">4 cm</text><text x="543" y="136" font-size="16" fill="#334155">16 ÷ 4</text>
+    <text x="18" y="190" font-size="16" fill="#334155">Door</text><text x="148" y="190" font-size="16" fill="#334155">8 cm</text><text x="304" y="190" font-size="16" fill="#334155">1/4</text><text x="438" y="190" font-size="16" fill="#334155">2 cm</text><text x="543" y="190" font-size="16" fill="#334155">8 ÷ 4</text>
+    <text x="18" y="244" font-size="16" fill="#334155">Roof leg</text><text x="148" y="244" font-size="16" fill="#334155">12 cm</text><text x="304" y="244" font-size="16" fill="#334155">1/4</text><text x="438" y="244" font-size="16" fill="#334155">3 cm</text><text x="543" y="244" font-size="16" fill="#334155">12 ÷ 4</text>
+  </g>
+  <text x="92" y="382" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">A table makes the scale factor visible and catches inconsistent measurements.</text>
+</svg>

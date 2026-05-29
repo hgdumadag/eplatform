@@ -3,7 +3,7 @@
   "grade": 9,
   "subject": "math",
   "quarter": 1,
-  "topicName": "Geometry - Lesson 4",
+  "topicName": "Geometry - Lesson 4: Constructing Perpendicular Lines",
   "description": "Construct perpendicular lines using a straightedge, ruler, protractor, or set square, then explain why the result forms right angles.",
   "learningObjectives": [
     "Identify perpendicular lines and right angles in diagrams and real-life objects",
@@ -21,7 +21,16 @@
   ],
   "estimatedDuration": 50,
   "difficulty": "beginner",
-  "tags": ["geometry", "measurement and geometry", "perpendicular lines", "construction", "right angles", "protractor", "set square", "straightedge"],
+  "tags": [
+    "geometry",
+    "measurement and geometry",
+    "perpendicular lines",
+    "construction",
+    "right angles",
+    "protractor",
+    "set square",
+    "straightedge"
+  ],
   "lastUpdated": "2026-05-25",
   "version": "1.0",
   "resources": {

@@ -1,0 +1,94 @@
+{
+  "examId": "grade-9-math-q3-geometry-lesson-3-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 3 Practice: Triangle Similarity by AA",
+  "description": "Practice identifying AA similarity from angle marks, parallel-line evidence, and vertex correspondence.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which evidence is enough to prove two triangles are similar by AA?",
+      "options": [
+        "One pair of congruent angles",
+        "Two pairs of congruent angles",
+        "One pair of congruent sides",
+        "Two pairs of equal side lengths only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "AA similarity requires two pairs of congruent corresponding angles.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "If $\\angle A \\cong \\angle D$ and $\\angle B \\cong \\angle E$, which similarity statement has the correct order?",
+      "options": [
+        "$\\triangle ABC \\sim \\triangle DEF$",
+        "$\\triangle ABC \\sim \\triangle DFE$",
+        "$\\triangle ABC \\sim \\triangle EDF$",
+        "$\\triangle ABC \\sim \\triangle FED$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$A$ matches $D$ and $B$ matches $E$, so the remaining vertices match as $C \\leftrightarrow F$.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "One pair of congruent angles is enough to prove two triangles are similar by AA.",
+      "correctAnswer": "false",
+      "explanation": "AA similarity needs two pairs of congruent angles, not just one.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "Complete the reason: If two pairs of corresponding angles in two triangles are congruent, then the triangles are similar by ______ similarity.",
+      "correctAnswer": "AA",
+      "explanation": "The shortcut based on two angle pairs is called AA similarity.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "In $\\triangle ABC$, points $D$ and $E$ lie on $\\overline{AB}$ and $\\overline{AC}$, and $\\overline{DE} \\parallel \\overline{BC}$. Which statement is correct?",
+      "options": [
+        "$\\triangle ADE \\sim \\triangle ABC$",
+        "$\\triangle ADE \\cong \\triangle ABC$",
+        "$\\triangle ADE \\sim \\triangle ACB$",
+        "No similarity can be concluded"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The parallel segment creates matching corresponding angles, so the smaller triangle is similar to the larger triangle in the order $A \\leftrightarrow A$, $D \\leftrightarrow B$, and $E \\leftrightarrow C$.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "If $\\triangle PQR \\sim \\triangle XYZ$, then vertex $Q$ corresponds to vertex ______.",
+      "correctAnswer": "Y",
+      "explanation": "Corresponding vertices appear in the same position in the similarity statement: $P \\leftrightarrow X$, $Q \\leftrightarrow Y$, and $R \\leftrightarrow Z$.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "A diagram gives $\\angle M \\cong \\angle R$ and $\\angle N \\cong \\angle S$. Explain why $\\triangle MNP \\sim \\triangle RST$.",
+      "correctAnswer": "The triangles are similar by AA similarity because two pairs of corresponding angles are congruent: $M \\leftrightarrow R$ and $N \\leftrightarrow S$.",
+      "explanation": "The two angle pairs satisfy the AA similarity criterion, and the order $MNP$ with $RST$ preserves the stated correspondence.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A student says $\\triangle ABC \\sim \\triangle DEF$ because $\\angle A \\cong \\angle D$. What is missing from the student's justification?",
+      "correctAnswer": "The student needs a second pair of corresponding congruent angles. One angle pair is not enough for AA similarity.",
+      "explanation": "AA similarity requires two angle matches. The student has only identified one, so the proof is incomplete.",
+      "points": 14
+    }
+  ]
+}

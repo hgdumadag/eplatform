@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Finding each leg when the hypotenuse is given</title>
+  <desc id="desc">A 45-45-90 triangle with hypotenuse 10 sqrt(2) shows each leg is found by dividing by sqrt(2), giving legs of 10.</desc>
+  <polygon points="135,285 135,85 335,285" fill="#f3f0ff" stroke="#60449a" stroke-width="4"/>
+  <path d="M135 255 L165 255 L165 285" fill="none" stroke="#333" stroke-width="3"/>
+  <text x="235" y="318" font-family="Arial, sans-serif" font-size="26" text-anchor="middle">10</text>
+  <text x="102" y="190" font-family="Arial, sans-serif" font-size="26" text-anchor="middle">10</text>
+  <text x="252" y="165" font-family="Arial, sans-serif" font-size="23" fill="#7b2d8e" transform="rotate(45 252 165)">10sqrt(2)</text>
+  <text x="390" y="115" font-family="Arial, sans-serif" font-size="28" font-weight="700">Given hypotenuse</text>
+  <text x="390" y="165" font-family="Arial, sans-serif" font-size="24">leg = hypotenuse / sqrt(2)</text>
+  <text x="390" y="207" font-family="Arial, sans-serif" font-size="24">leg = 10sqrt(2) / sqrt(2)</text>
+  <text x="390" y="249" font-family="Arial, sans-serif" font-size="24">leg = 10</text>
+</svg>

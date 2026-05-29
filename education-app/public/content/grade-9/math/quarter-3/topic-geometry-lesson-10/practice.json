@@ -1,0 +1,94 @@
+{
+  "examId": "grade-9-math-q3-geometry-lesson-10-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 10 Practice: Quarter Scale Model Task",
+  "description": "Practice quarter scale conversions, similar polygon checks, special triangle measurements, and model explanations.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A quarter scale model is made from an actual 20 cm length. What is the model length?",
+      "options": [
+        "4 cm",
+        "5 cm",
+        "16 cm",
+        "80 cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Quarter scale uses a scale factor of 1/4. Compute 20 x 1/4 = 5, so the model length is 5 cm.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "An actual rectangle is 24 cm by 16 cm. Which model rectangle is quarter scale and similar to the actual rectangle?",
+      "options": [
+        "6 cm by 4 cm",
+        "6 cm by 5 cm",
+        "8 cm by 4 cm",
+        "20 cm by 12 cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both dimensions must be multiplied by 1/4. Since 24/4 = 6 and 16/4 = 4, the correct model is 6 cm by 4 cm.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A 45-45-90 roof support in a model has legs of 3 cm and 3 cm. What is the hypotenuse?",
+      "options": [
+        "3 cm",
+        "3√2 cm",
+        "6 cm",
+        "9 cm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In a 45-45-90 triangle, the hypotenuse equals leg x √2. With leg 3 cm, the hypotenuse is 3√2 cm.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "If every corresponding length in a model is multiplied by 1/4, then the model and actual object have the same shape at different sizes.",
+      "correctAnswer": "true",
+      "explanation": "Using the same scale factor for every corresponding length preserves side ratios and angle measures, which creates similar figures.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "A quarter scale model of a 12 cm by 8 cm rectangle can be 3 cm by 3 cm because both model sides are smaller.",
+      "correctAnswer": "false",
+      "explanation": "The actual dimensions must both be divided by 4. The quarter scale model should be 3 cm by 2 cm, not 3 cm by 3 cm.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "An actual door is 8 cm wide. In a quarter scale model, the door is ___ cm wide.",
+      "correctAnswer": "2",
+      "explanation": "Quarter scale means multiply by 1/4 or divide by 4. Since 8/4 = 2, the model door is 2 cm wide.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A 30-60-90 model ramp has short leg 2 cm. Its hypotenuse is ___ cm.",
+      "correctAnswer": "4",
+      "explanation": "In a 30-60-90 triangle, the hypotenuse is twice the short leg. Twice 2 cm is 4 cm.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain how you would check whether a model rectangle is truly quarter scale.",
+      "correctAnswer": "I would compare each model side to the corresponding actual side and check that every ratio is 1/4. For example, model length/actual length and model width/actual width should both equal 1/4.",
+      "explanation": "A quarter scale model must use the same 1/4 scale factor for all corresponding linear measurements. Equal ratios show the rectangles are similar.",
+      "points": 14
+    }
+  ]
+}
