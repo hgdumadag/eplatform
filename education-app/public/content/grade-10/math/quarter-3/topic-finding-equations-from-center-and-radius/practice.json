@@ -1,0 +1,128 @@
+{
+  "examId": "grade-10-math-q3-finding-equations-from-center-and-radius-practice",
+  "examType": "practice",
+  "title": "Finding Equations from Center and Radius Practice",
+  "description": "Practice writing circle equations from directly given centers and radii.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What is the center-radius form of a circle?",
+      "options": [
+        "(x + h)^2 + (y + k)^2 = r",
+        "(x - h)^2 + (y - k)^2 = r^2",
+        "x^2 + y^2 = h + k",
+        "y = mx + b"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The standard center-radius form is (x - h)^2 + (y - k)^2 = r^2, where (h, k) is the center and r is the radius.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Write the equation of a circle with center (3, 4) and radius 5.",
+      "options": [
+        "(x - 3)^2 + (y - 4)^2 = 25",
+        "(x + 3)^2 + (y + 4)^2 = 25",
+        "(x - 3)^2 + (y - 4)^2 = 5",
+        "(x + 3)^2 + (y - 4)^2 = 10"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Substitute h = 3, k = 4, and r^2 = 25 into center-radius form.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Write the equation of a circle with center (-2, 1) and radius 6.",
+      "options": [
+        "(x - 2)^2 + (y - 1)^2 = 36",
+        "(x + 2)^2 + (y - 1)^2 = 36",
+        "(x + 2)^2 + (y + 1)^2 = 6",
+        "(x - 2)^2 + (y + 1)^2 = 36"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Since h = -2, x - h becomes x + 2. Since r = 6, the right side is 36.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "A circle has radius 9. What value should appear on the right side of its center-radius equation?",
+      "correctAnswer": "81",
+      "explanation": "The right side is r^2. Since 9^2 = 81, the right side is 81.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Write the equation of a circle with center (0, -3) and radius 4.",
+      "options": [
+        "x^2 + (y + 3)^2 = 16",
+        "x^2 + (y - 3)^2 = 16",
+        "(x + 3)^2 + y^2 = 16",
+        "x^2 + (y + 3)^2 = 4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The x-coordinate of the center is 0, so the x-part is x^2. Since k = -3, y - (-3) becomes y + 3.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "For a circle with center (5, -2), the y-part of the equation is (y + 2)^2.",
+      "correctAnswer": "true",
+      "explanation": "The formula uses y - k. If k = -2, then y - (-2) simplifies to y + 2.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "Complete the equation for a circle with center (7, 2) and radius 3: (x - 7)^2 + (y - 2)^2 = ____.",
+      "correctAnswer": "9",
+      "explanation": "The right side is the squared radius. Since 3^2 = 9, the missing value is 9.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Which equation has center (-4, -6) and radius 2?",
+      "options": [
+        "(x - 4)^2 + (y - 6)^2 = 4",
+        "(x + 4)^2 + (y + 6)^2 = 4",
+        "(x + 4)^2 + (y + 6)^2 = 2",
+        "(x - 4)^2 + (y + 6)^2 = 4"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Center (-4, -6) gives (x + 4)^2 and (y + 6)^2. Radius 2 gives right side 4.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Explain why the equation for center (1, -5) and radius 8 is (x - 1)^2 + (y + 5)^2 = 64.",
+      "correctAnswer": "The center gives h = 1 and k = -5, so x - h is x - 1 and y - k is y + 5. The radius is 8, so r^2 is 64.",
+      "explanation": "A complete explanation should mention the substituted center coordinates and the squared radius.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "A circle has center (2, 0) and radius sqrt(11). Which equation is correct?",
+      "options": [
+        "(x - 2)^2 + y^2 = 11",
+        "(x + 2)^2 + y^2 = 11",
+        "(x - 2)^2 + y^2 = sqrt(11)",
+        "x^2 + (y - 2)^2 = 11"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The center (2, 0) gives (x - 2)^2 + y^2. If r = sqrt(11), then r^2 = 11.",
+      "points": 10
+    }
+  ]
+}

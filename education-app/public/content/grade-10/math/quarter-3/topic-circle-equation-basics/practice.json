@@ -1,0 +1,97 @@
+{
+  "examId": "grade-10-math-q3-circle-equation-basics-practice",
+  "examType": "practice",
+  "title": "Circle Equation Basics Practice",
+  "description": "Practice identifying centers, radii, and points on circles in center-radius form.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What is the center of the circle (x - 4)^2 + (y - 1)^2 = 9?",
+      "options": ["(-4, -1)", "(-4, 1)", "(4, 1)", "(4, -1)"],
+      "correctAnswer": 2,
+      "explanation": "In (x - h)^2 + (y - k)^2 = r^2, the center is (h, k), so the center is (4, 1).",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "What is the radius of the circle (x + 2)^2 + (y - 3)^2 = 25?",
+      "options": ["2", "3", "5", "25"],
+      "correctAnswer": 2,
+      "explanation": "The right side is r^2. Since r^2 = 25, the radius is r = 5.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "The circle (x + 6)^2 + (y - 2)^2 = 49 has center (-6, 2).",
+      "correctAnswer": "true",
+      "explanation": "x + 6 is the same as x - (-6), so the center is (-6, 2).",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Which equation has center (0, 0) and radius 8?",
+      "options": ["x^2 + y^2 = 8", "x^2 + y^2 = 16", "x^2 + y^2 = 64", "(x - 8)^2 + y^2 = 64"],
+      "correctAnswer": 2,
+      "explanation": "A circle centered at the origin has equation x^2 + y^2 = r^2. With r = 8, r^2 = 64.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "Fill in the radius: (x - 5)^2 + (y + 4)^2 = 36 has radius ____.",
+      "correctAnswer": "6",
+      "explanation": "The right side is 36, so r^2 = 36 and r = 6.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Which point lies on the circle x^2 + y^2 = 25?",
+      "options": ["(1, 2)", "(3, 4)", "(5, 5)", "(6, 0)"],
+      "correctAnswer": 1,
+      "explanation": "For (3, 4), 3^2 + 4^2 = 9 + 16 = 25, so the point lies on the circle.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "In a circle equation, the number on the right side is always the radius.",
+      "correctAnswer": "false",
+      "explanation": "The number on the right side is r^2, the squared radius. The radius is the positive square root of that number.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "Write the center of (x + 1)^2 + (y + 7)^2 = 16 as an ordered pair.",
+      "correctAnswer": "(-1, -7)",
+      "explanation": "x + 1 means h = -1, and y + 7 means k = -7.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "A circle has center (2, -3) and radius 4. Which equation matches it?",
+      "options": ["(x - 2)^2 + (y + 3)^2 = 16", "(x + 2)^2 + (y - 3)^2 = 16", "(x - 2)^2 + (y + 3)^2 = 4", "(x + 2)^2 + (y - 3)^2 = 4"],
+      "correctAnswer": 0,
+      "explanation": "The center (2, -3) gives (x - 2)^2 + (y + 3)^2, and radius 4 gives r^2 = 16.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Explain how to check whether (6, 1) lies on (x - 2)^2 + (y - 1)^2 = 16.",
+      "correctAnswer": "Substitute x = 6 and y = 1. Then (6 - 2)^2 + (1 - 1)^2 = 16 + 0 = 16, so the point lies on the circle.",
+      "explanation": "Point checking uses substitution. If the left side equals the right side, the point is on the circle.",
+      "points": 10
+    }
+  ]
+}

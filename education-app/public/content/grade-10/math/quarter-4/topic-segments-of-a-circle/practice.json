@@ -1,0 +1,90 @@
+{
+  "examId": "grade-10-math-q4-segments-of-a-circle-practice",
+  "examType": "practice",
+  "title": "Segments of a Circle Practice",
+  "description": "Practice defining circular segments, comparing them with sectors, and finding segment areas.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which description defines a circular segment?",
+      "options": [
+        "A region bounded by two radii and an arc",
+        "A region bounded by a chord and its intercepted arc",
+        "A line through the center with endpoints on the circle",
+        "The distance from the center to the circle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A circular segment is the region between a chord and the arc intercepted by that chord.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which description defines a sector of a circle?",
+      "options": [
+        "A region bounded by a chord and an arc",
+        "A region bounded by two radii and an arc",
+        "A segment connecting two points on a circle",
+        "A point at the center of a circle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A sector is bounded by two radii and the arc between them.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A circular segment and a sector are always the same region.",
+      "correctAnswer": "false",
+      "explanation": "A sector uses two radii as straight boundaries, while a circular segment uses a chord as its straight boundary.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "A sector has area 50 square units, and the triangle inside it has area 32 square units. Enter the segment area.",
+      "correctAnswer": "18",
+      "explanation": "Segment area equals sector area minus triangle area: 50 - 32 = 18.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A sector has area 84 cm^2. The triangle formed by the two radii and chord has area 61 cm^2. What is the segment area?",
+      "options": ["23 cm^2", "61 cm^2", "84 cm^2", "145 cm^2"],
+      "correctAnswer": 0,
+      "explanation": "Subtract the triangle from the sector: 84 - 61 = 23 cm^2.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A circle has radius 6 and a 90-degree sector. What is the sector area?",
+      "options": ["6pi", "9pi", "18pi", "36pi"],
+      "correctAnswer": 1,
+      "explanation": "The sector is one fourth of the circle, so its area is (90/360)pi(6)^2 = 9pi.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A 90-degree sector in a circle of radius 6 has area 9pi. If the triangle inside it has area 18, enter the exact segment area.",
+      "correctAnswer": "9pi - 18 or 9*pi - 18",
+      "explanation": "The segment area is sector area minus triangle area: 9pi - 18.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain how a circular segment is different from a sector.",
+      "correctAnswer": "A circular segment is bounded by a chord and an arc, while a sector is bounded by two radii and an arc.",
+      "explanation": "The straight boundaries are the key difference: chord for a segment, two radii for a sector.",
+      "points": 10
+    }
+  ]
+}

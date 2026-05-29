@@ -1,0 +1,122 @@
+{
+  "examId": "grade-10-math-q3-equation-from-conditions-practice",
+  "examType": "practice",
+  "title": "Equation from Conditions Practice",
+  "description": "Practice writing circle equations from a center and a point on the circle.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A circle has center (2, 3) and passes through (6, 3). What is its radius?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The points have the same y-coordinate, so the radius is the horizontal distance from x = 2 to x = 6, which is 4.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which equation represents a circle with center (2, 3) passing through (6, 3)?",
+      "options": [
+        "(x - 2)^2 + (y - 3)^2 = 16",
+        "(x - 6)^2 + (y - 3)^2 = 16",
+        "(x - 2)^2 + (y - 3)^2 = 4",
+        "(x + 2)^2 + (y + 3)^2 = 16"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The center gives (x - 2)^2 + (y - 3)^2. The radius is 4, so r^2 = 16.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "A circle has center (0, 0) and passes through (3, 4). What value should appear on the right side of its equation?",
+      "correctAnswer": "25",
+      "explanation": "The squared radius is 3^2 + 4^2 = 9 + 16 = 25.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A circle has center (-1, 5) and passes through (-1, 9). Which equation is correct?",
+      "options": [
+        "(x + 1)^2 + (y - 5)^2 = 16",
+        "(x - 1)^2 + (y + 5)^2 = 16",
+        "(x + 1)^2 + (y - 9)^2 = 16",
+        "(x + 1)^2 + (y - 5)^2 = 4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The center is (-1, 5), so the left side is (x + 1)^2 + (y - 5)^2. The vertical radius is 4, so r^2 = 16.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "If a circle has center (4, -2) and passes through (4, 5), then r^2 = 49.",
+      "correctAnswer": "true",
+      "explanation": "The vertical distance from -2 to 5 is 7, so r^2 = 7^2 = 49.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "For center (1, -2) and point (4, 2), compute r^2.",
+      "correctAnswer": "25",
+      "explanation": "Use r^2 = (4 - 1)^2 + (2 - (-2))^2 = 3^2 + 4^2 = 25.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A circle has center (-3, -4) and passes through (0, 0). Which equation is correct?",
+      "options": [
+        "(x + 3)^2 + (y + 4)^2 = 25",
+        "(x - 3)^2 + (y - 4)^2 = 25",
+        "(x + 3)^2 + (y + 4)^2 = 5",
+        "x^2 + y^2 = 25"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The center gives (x + 3)^2 + (y + 4)^2. The squared radius is 3^2 + 4^2 = 25.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "question": "The point on the circle should be used as the center in the final equation.",
+      "correctAnswer": "false",
+      "explanation": "The given center determines the binomials. The point on the circle is used to find the radius.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Write the equation of a circle with center (5, 1) that passes through (2, 5). Briefly show how you found r^2.",
+      "correctAnswer": "(x - 5)^2 + (y - 1)^2 = 25 because r^2 = (2 - 5)^2 + (5 - 1)^2 = 9 + 16 = 25.",
+      "explanation": "A complete answer uses center (5, 1) in the binomials and computes the squared radius from the point condition.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "Which point lies on the circle (x - 2)^2 + (y + 1)^2 = 25?",
+      "options": [
+        "(7, -1)",
+        "(2, 1)",
+        "(5, 3)",
+        "(-2, -1)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Substitute (7, -1): (7 - 2)^2 + (-1 + 1)^2 = 25 + 0 = 25, so it lies on the circle.",
+      "points": 10
+    }
+  ]
+}

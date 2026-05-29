@@ -1,0 +1,44 @@
+{
+  "id": "grade-10-math-q4-external-secant-and-tangent-angles",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "Geometry - Lesson 4: External Secant and Tangent Angles",
+  "description": "Apply exterior angle relationships to solve secant-secant, tangent-tangent, and tangent-secant circle angle problems.",
+  "learningObjectives": [
+    "Identify exterior angles formed by secants and tangents",
+    "Use half the difference of intercepted arcs to find an exterior angle",
+    "Solve secant-secant angle problems",
+    "Solve tangent-secant angle problems",
+    "Solve tangent-tangent angle problems using arc relationships"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "measurement-and-geometry",
+    "geometry",
+    "circles",
+    "exterior-angles",
+    "secants",
+    "tangents",
+    "intercepted-arcs"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/secant-secant-exterior-angle.svg",
+      "images/tangent-secant-exterior-angle.svg",
+      "images/tangent-tangent-exterior-angle.svg"
+    ]
+  },
+  "prerequisites": [
+    "Central angles and intercepted arcs",
+    "Inscribed angles",
+    "Secant and tangent vocabulary",
+    "Solving one-step and two-step equations"
+  ]
+}

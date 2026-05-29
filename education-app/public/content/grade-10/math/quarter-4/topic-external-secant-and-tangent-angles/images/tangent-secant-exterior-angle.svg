@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title>Tangent Secant Exterior Angle</title>
+  <desc>Tangent Secant Exterior Angle diagram for a Grade 10 circle geometry lesson.</desc>
+  <title id="title">Tangent-secant exterior angle</title>
+  <desc id="desc">A tangent and a secant meet outside a circle and intercept two arcs.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <circle cx="330" cy="220" r="130" fill="#dcfce7" stroke="#0f172a" stroke-width="4"/>
+  <path d="M256 113 A130 130 0 1 1 458 239" fill="none" stroke="#16a34a" stroke-width="10" stroke-linecap="round"/>
+  <path d="M458 239 A130 130 0 0 1 256 113" fill="none" stroke="#f97316" stroke-width="10" stroke-linecap="round"/>
+  <line x1="600" y1="93" x2="258" y2="112" stroke="#334155" stroke-width="5"/>
+  <line x1="600" y1="93" x2="458" y2="239" stroke="#334155" stroke-width="5"/>
+  <line x1="186" y1="70" x2="606" y2="70" stroke="#334155" stroke-width="5"/>
+  <circle cx="330" cy="90" r="6" fill="#0f172a"/>
+  <line x1="330" y1="220" x2="330" y2="90" stroke="#64748b" stroke-width="3" stroke-dasharray="8 8"/>
+  <path d="M562 91 Q570 116 590 130" fill="none" stroke="#ef4444" stroke-width="4"/>
+  <circle cx="600" cy="93" r="7" fill="#0f172a"/>
+  <circle cx="258" cy="112" r="6" fill="#16a34a"/>
+  <circle cx="458" cy="239" r="6" fill="#f97316"/>
+  <text x="48" y="46" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Tangent-Secant Case</text>
+  <text x="48" y="78" font-family="Arial, sans-serif" font-size="19" fill="#334155">Same rule: half the difference of intercepted arcs</text>
+  <text x="202" y="58" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#334155">tangent</text>
+  <text x="462" y="285" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#c2410c">near arc</text>
+  <text x="206" y="358" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#15803d">far arc</text>
+  <text x="606" y="102" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0f172a">Exterior angle</text>
+</svg>

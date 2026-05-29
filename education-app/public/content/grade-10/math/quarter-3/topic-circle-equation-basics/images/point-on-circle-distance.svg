@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Point on a circle has radius distance from the center</title>
+  <desc id="desc">A circle centered at the origin with point 3 comma 4 on the circle and a right triangle showing 3 and 4 coordinate distances.</desc>
+  <rect width="720" height="420" fill="#fffaf3"/>
+  <g transform="translate(345 230)" stroke="#e4d8c8" stroke-width="1">
+    <path d="M-260 0H280M0-170V140"/>
+    <path d="M-240 -150H260M-240 -100H260M-240 -50H260M-240 50H260M-240 100H260"/>
+    <path d="M-200 -160V130M-150 -160V130M-100 -160V130M-50 -160V130M50 -160V130M100 -160V130M150 -160V130M200 -160V130M250 -160V130"/>
+  </g>
+  <g transform="translate(345 230)">
+    <circle cx="0" cy="0" r="125" fill="#fee2e2" stroke="#ef4444" stroke-width="5"/>
+    <line x1="0" y1="0" x2="75" y2="-100" stroke="#7c3aed" stroke-width="5"/>
+    <line x1="0" y1="0" x2="75" y2="0" stroke="#0f766e" stroke-width="4" stroke-dasharray="8 7"/>
+    <line x1="75" y1="0" x2="75" y2="-100" stroke="#0f766e" stroke-width="4" stroke-dasharray="8 7"/>
+    <circle cx="0" cy="0" r="7" fill="#111827"/>
+    <circle cx="75" cy="-100" r="8" fill="#7c3aed"/>
+    <text x="-38" y="28" font-family="Arial, sans-serif" font-size="20" fill="#111827">(0, 0)</text>
+    <text x="88" y="-106" font-family="Arial, sans-serif" font-size="22" fill="#4c1d95">P(3, 4)</text>
+    <text x="30" y="30" font-family="Arial, sans-serif" font-size="20" fill="#0f766e">3</text>
+    <text x="86" y="-45" font-family="Arial, sans-serif" font-size="20" fill="#0f766e">4</text>
+    <text x="18" y="-66" font-family="Arial, sans-serif" font-size="20" fill="#4c1d95">r = 5</text>
+  </g>
+  <text x="42" y="52" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">Checking a Point</text>
+  <text x="42" y="84" font-family="Arial, sans-serif" font-size="19" fill="#475569">For x² + y² = 25, point (3, 4) works because 3² + 4² = 25.</text>
+</svg>

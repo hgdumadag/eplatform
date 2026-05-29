@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title>Sector Minus Triangle</title>
+  <desc>Sector Minus Triangle diagram for a Grade 10 circle geometry lesson.</desc>
+  <title id="title">Segment area as sector minus triangle</title>
+  <desc id="desc">A sector is split into a triangular region and a circular segment, showing the subtraction relationship.</desc>
+  <rect width="760" height="360" fill="#f8fafc"/>
+  <text x="380" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">Segment Area = Sector Area - Triangle Area</text>
+
+  <g transform="translate(40 18)">
+    <circle cx="150" cy="190" r="110" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+    <path d="M150 190 L246 135 A110 110 0 0 1 246 245 Z" fill="#bfdbfe" stroke="#2563eb" stroke-width="3"/>
+    <line x1="150" y1="190" x2="246" y2="135" stroke="#1d4ed8" stroke-width="3"/>
+    <line x1="150" y1="190" x2="246" y2="245" stroke="#1d4ed8" stroke-width="3"/>
+    <text x="150" y="326" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1e40af">Sector</text>
+  </g>
+
+  <text x="325" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#64748b">-</text>
+
+  <g transform="translate(340 18)">
+    <circle cx="150" cy="190" r="110" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+    <polygon points="150,190 246,135 246,245" fill="#fed7aa" stroke="#ea580c" stroke-width="3"/>
+    <line x1="246" y1="135" x2="246" y2="245" stroke="#c2410c" stroke-width="4"/>
+    <text x="150" y="326" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#9a3412">Triangle</text>
+  </g>
+
+  <text x="620" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#64748b">=</text>
+
+  <g transform="translate(570 18)">
+    <path d="M39 135 A110 110 0 0 1 39 245 L39 135 Z" fill="#bbf7d0" stroke="#16a34a" stroke-width="3" transform="translate(56 0) scale(-1 1)"/>
+    <line x1="95" y1="135" x2="95" y2="245" stroke="#15803d" stroke-width="4"/>
+    <text x="55" y="326" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#166534">Segment</text>
+  </g>
+</svg>

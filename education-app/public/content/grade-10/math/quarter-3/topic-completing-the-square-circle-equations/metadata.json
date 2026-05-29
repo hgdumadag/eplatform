@@ -1,0 +1,46 @@
+{
+  "id": "grade-10-math-q3-completing-the-square-circle-equations",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Geometry - Lesson 4: Completing the Square",
+  "description": "Transform a circle equation from general form to center-radius form by completing the square, then identify the center and radius.",
+  "learningObjectives": [
+    "Recognize the general form of a circle equation",
+    "Group x-terms and y-terms before completing the square",
+    "Add the correct square-completion constants to both sides",
+    "Rewrite perfect-square trinomials as binomial squares",
+    "Identify the center and radius from center-radius form"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "coordinate-geometry",
+    "circles",
+    "circle-equations",
+    "completing-the-square",
+    "center-radius-form",
+    "general-form"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/general-to-center-radius-flow.svg",
+      "images/circle-center-radius-graph.svg",
+      "images/completing-square-algebra-tiles.svg",
+      "images/common-sign-trap.svg"
+    ]
+  },
+  "prerequisites": [
+    "Circle center-radius form",
+    "Graphing points on the coordinate plane",
+    "Squaring binomials",
+    "Solving simple equations",
+    "Square roots"
+  ]
+}

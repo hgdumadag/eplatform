@@ -1,0 +1,114 @@
+{
+  "examId": "grade-10-math-q4-external-secant-and-tangent-angles-assessment",
+  "examType": "assessment",
+  "title": "External Secant and Tangent Angles Assessment",
+  "description": "Show mastery of secant-secant, tangent-tangent, and tangent-secant exterior angle cases.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 12,
+  "totalPoints": 120,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Two secants from an exterior point intercept arcs of 184° and 76°. What is the exterior angle?",
+      "options": ["54°", "76°", "108°", "130°"],
+      "correctAnswer": 0,
+      "explanation": "Use half the difference: 1/2(184 - 76) = 1/2(108) = 54°.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A tangent and a secant form an exterior angle. The larger intercepted arc is 230° and the smaller arc is 90°. Find the angle.",
+      "options": ["45°", "70°", "90°", "160°"],
+      "correctAnswer": 1,
+      "explanation": "The angle is 1/2(230 - 90) = 70°.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Two tangents touch a circle at points that cut off a minor arc of 64°. What is the exterior angle?",
+      "options": ["32°", "64°", "116°", "148°"],
+      "correctAnswer": 2,
+      "explanation": "For two tangents, angle = 180 - minor arc = 180 - 64 = 116°.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "If a tangent-tangent exterior angle is 90°, then the minor arc between the tangent points is also 90°.",
+      "correctAnswer": "true",
+      "explanation": "For two tangents, angle = 180 - minor arc. If the angle is 90°, then the minor arc is 90°.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "A secant-secant exterior angle intercepts arcs of 125° and 35°. Enter the angle measure in degrees.",
+      "correctAnswer": "45",
+      "explanation": "1/2(125 - 35) = 1/2(90) = 45°.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "An exterior angle is 42°. The smaller intercepted arc is 58°. What is the larger intercepted arc?",
+      "options": ["84°", "100°", "142°", "158°"],
+      "correctAnswer": 2,
+      "explanation": "42 = 1/2(x - 58). Double: 84 = x - 58, so x = 142°.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Two tangents form an exterior angle of 36°. What is the minor arc between the tangent points?",
+      "options": ["72°", "108°", "144°", "324°"],
+      "correctAnswer": 2,
+      "explanation": "36 = 180 - minor arc, so the minor arc is 144°.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "A tangent-secant angle intercepts arcs of 246° and 114°. Enter the exterior angle measure in degrees.",
+      "correctAnswer": "66",
+      "explanation": "1/2(246 - 114) = 1/2(132) = 66°.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "The exterior angle formed by a tangent and a secant can be found with the same half-difference formula used for two secants.",
+      "correctAnswer": "true",
+      "explanation": "Both secant-secant and tangent-secant exterior angles use half the difference of intercepted arcs.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "A secant-secant exterior angle measures 25°. The larger arc is 150°. What is the smaller arc?",
+      "options": ["50°", "75°", "100°", "125°"],
+      "correctAnswer": 2,
+      "explanation": "25 = 1/2(150 - x). Double: 50 = 150 - x, so x = 100°.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "question": "Two tangents form an exterior angle. The major arc between the tangent points is 280°. Find the exterior angle and explain your steps.",
+      "correctAnswer": "The minor arc is 360 - 280 = 80°. The exterior angle is 1/2(280 - 80) = 100°, or 180 - 80 = 100°.",
+      "explanation": "Tangent-tangent problems use the major and minor arcs between the tangent points.",
+      "points": 10
+    },
+    {
+      "id": "q12",
+      "type": "short-answer",
+      "question": "A learner claims that arcs 210° and 40° give an exterior angle of 125° because 210 + 40 = 250 and half of 250 is 125. Correct the reasoning.",
+      "correctAnswer": "Exterior secant and tangent angles use half the difference of intercepted arcs, not half the sum. The correct angle is 1/2(210 - 40) = 85°.",
+      "explanation": "The key relationship is half the difference between the larger and smaller intercepted arcs.",
+      "points": 10
+    }
+  ]
+}

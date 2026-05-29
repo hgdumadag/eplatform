@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title>Sector Parts</title>
+  <desc>Sector Parts diagram for a Grade 10 circle geometry lesson.</desc>
+  <title id="title">Sector parts of a circle</title>
+  <desc id="desc">A circle with a shaded sector labeled central angle, radius, and arc.</desc>
+  <rect width="760" height="420" fill="#f8fafc"/>
+  <circle cx="270" cy="210" r="135" fill="#ffffff" stroke="#334155" stroke-width="4"/>
+  <path d="M270 210 L405 210 A135 135 0 0 1 310.5 81.2 Z" fill="#fde68a" stroke="#d97706" stroke-width="3"/>
+  <line x1="270" y1="210" x2="405" y2="210" stroke="#1d4ed8" stroke-width="4"/>
+  <line x1="270" y1="210" x2="310.5" y2="81.2" stroke="#1d4ed8" stroke-width="4"/>
+  <circle cx="270" cy="210" r="6" fill="#0f172a"/>
+  <path d="M305 210 A35 35 0 0 1 280.5 176.6" fill="none" stroke="#be123c" stroke-width="4"/>
+  <text x="292" y="181" font-family="Arial, sans-serif" font-size="22" fill="#be123c">72°</text>
+  <text x="470" y="105" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">Sector</text>
+  <text x="470" y="140" font-family="Arial, sans-serif" font-size="20" fill="#334155">Region bounded by</text>
+  <text x="470" y="168" font-family="Arial, sans-serif" font-size="20" fill="#334155">two radii and an arc</text>
+  <line x1="455" y1="116" x2="335" y2="150" stroke="#d97706" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="445" y="244" font-family="Arial, sans-serif" font-size="21" fill="#1d4ed8">radius</text>
+  <line x1="438" y1="236" x2="346" y2="210" stroke="#1d4ed8" stroke-width="3" marker-end="url(#arrow-blue)"/>
+  <text x="105" y="72" font-family="Arial, sans-serif" font-size="21" fill="#d97706">arc</text>
+  <path d="M145 82 C185 48 251 43 303 58" fill="none" stroke="#d97706" stroke-width="3" marker-end="url(#arrow-orange)"/>
+  <text x="84" y="340" font-family="Arial, sans-serif" font-size="21" fill="#be123c">central angle</text>
+  <line x1="220" y1="332" x2="286" y2="190" stroke="#be123c" stroke-width="3" marker-end="url(#arrow-red)"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#d97706"/>
+    </marker>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1d4ed8"/>
+    </marker>
+    <marker id="arrow-orange" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#d97706"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#be123c"/>
+    </marker>
+  </defs>
+</svg>

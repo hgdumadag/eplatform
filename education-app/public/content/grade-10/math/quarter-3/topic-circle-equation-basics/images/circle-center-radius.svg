@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Circle with center and radius marked</title>
+  <desc id="desc">A coordinate grid showing a circle centered at 2 comma 1 with a radius drawn to a point on the circle.</desc>
+  <rect width="720" height="420" fill="#f8fbff"/>
+  <g transform="translate(360 210)" stroke="#d5dee8" stroke-width="1">
+    <path d="M-300 0H300M0-170V170"/>
+    <g>
+      <path d="M-300 -150H300M-300 -100H300M-300 -50H300M-300 50H300M-300 100H300M-300 150H300"/>
+      <path d="M-250 -170V170M-200 -170V170M-150 -170V170M-100 -170V170M-50 -170V170M50 -170V170M100 -170V170M150 -170V170M200 -170V170M250 -170V170"/>
+    </g>
+  </g>
+  <g transform="translate(360 210)">
+    <circle cx="100" cy="-50" r="120" fill="#dff3ff" stroke="#2563eb" stroke-width="5"/>
+    <line x1="100" y1="-50" x2="220" y2="-50" stroke="#dc2626" stroke-width="5"/>
+    <circle cx="100" cy="-50" r="7" fill="#111827"/>
+    <circle cx="220" cy="-50" r="7" fill="#dc2626"/>
+    <text x="74" y="-66" font-family="Arial, sans-serif" font-size="22" fill="#111827">C(2, 1)</text>
+    <text x="150" y="-64" font-family="Arial, sans-serif" font-size="22" fill="#991b1b">radius = 4</text>
+    <text x="-312" y="-178" font-family="Arial, sans-serif" font-size="20" fill="#334155">y</text>
+    <text x="310" y="28" font-family="Arial, sans-serif" font-size="20" fill="#334155">x</text>
+  </g>
+  <text x="42" y="52" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">Center and Radius</text>
+  <text x="42" y="84" font-family="Arial, sans-serif" font-size="19" fill="#475569">Every point on the circle is the same distance from the center.</text>
+</svg>

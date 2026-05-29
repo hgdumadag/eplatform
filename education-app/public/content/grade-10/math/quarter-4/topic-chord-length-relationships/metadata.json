@@ -1,0 +1,43 @@
+{
+  "id": "grade-10-math-q4-chord-length-relationships",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "Geometry - Lesson 5: Chord Length Relationships",
+  "description": "Use the intersecting chords theorem to solve for missing segment lengths inside circles.",
+  "learningObjectives": [
+    "Identify the two segment lengths formed on each chord when chords intersect inside a circle",
+    "State and use the intersecting chords theorem",
+    "Set up equations of the form segment times segment equals segment times segment",
+    "Solve for missing segment lengths in intersecting chord diagrams",
+    "Check whether a computed length is reasonable in the context of the diagram"
+  ],
+  "estimatedDuration": 35,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement-and-geometry",
+    "circles",
+    "chords",
+    "intersecting-chords",
+    "segment-lengths"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/intersecting-chords-product.svg",
+      "images/missing-segment-example.svg",
+      "images/setup-checklist.svg"
+    ]
+  },
+  "prerequisites": [
+    "Multiplying whole numbers and decimals",
+    "Solving one-step equations",
+    "Recognizing chords in a circle",
+    "Understanding that segment lengths are positive"
+  ]
+}

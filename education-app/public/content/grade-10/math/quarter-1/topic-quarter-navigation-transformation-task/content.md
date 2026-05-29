@@ -1,4 +1,4 @@
-# Quarter Navigation and Transformation Task
+# Geometry - Lesson 4: Quarter Navigation and Transformation Task
 
 > [!GOAL] Learning Goal
 >

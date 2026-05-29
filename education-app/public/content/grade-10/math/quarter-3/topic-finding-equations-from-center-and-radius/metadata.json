@@ -1,0 +1,42 @@
+{
+  "id": "grade-10-math-q3-finding-equations-from-center-and-radius",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Geometry - Lesson 6: Finding Equations from Center and Radius",
+  "description": "Write circle equations in center-radius form when the center and radius are given directly.",
+  "learningObjectives": [
+    "Identify the center and radius from direct information",
+    "Write a circle equation in the form (x - h)^2 + (y - k)^2 = r^2",
+    "Use the correct signs for h and k in center-radius form",
+    "Square the radius correctly before writing the final equation",
+    "Check whether a point belongs to a circle by substituting its coordinates"
+  ],
+  "estimatedDuration": 35,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "coordinate-geometry",
+    "circles",
+    "circle-equations",
+    "center-radius-form"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/center-radius-map.svg",
+      "images/circle-equation-template.svg",
+      "images/radius-squared-check.svg"
+    ]
+  },
+  "prerequisites": [
+    "Plotting ordered pairs on the Cartesian plane",
+    "Squaring whole numbers and simple radicals",
+    "Substituting values into algebraic expressions",
+    "Recognizing the center-radius form of a circle"
+  ]
+}

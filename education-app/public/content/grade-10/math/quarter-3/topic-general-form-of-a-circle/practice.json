@@ -1,0 +1,116 @@
+{
+  "examId": "grade-10-math-q3-general-form-of-a-circle-practice",
+  "examType": "practice",
+  "title": "General Form of a Circle Practice",
+  "description": "Practice identifying circle equations written in expanded or general form.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which equation is in the usual general form of a circle?",
+      "options": [
+        "x^2 + y^2 + 4x - 6y + 9 = 0",
+        "x^2 - y^2 + 4x - 6y + 9 = 0",
+        "x + y + 4 = 0",
+        "x^2 + 3y^2 - 2x + 5 = 0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The equation has both x^2 and y^2 with equal positive coefficients.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "true-false",
+      "question": "In a circle equation, the coefficients of x^2 and y^2 must be equal and nonzero.",
+      "correctAnswer": "true",
+      "explanation": "Matching nonzero squared coefficients are a key structural clue for a circle.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "In x^2 + y^2 - 8x + 10y - 15 = 0, what is the value of D in x^2 + y^2 + Dx + Ey + F = 0?",
+      "correctAnswer": "-8",
+      "explanation": "D is the coefficient of x, so D = -8.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "In x^2 + y^2 - 8x + 10y - 15 = 0, what is the value of E?",
+      "correctAnswer": "10",
+      "explanation": "E is the coefficient of y, so E = 10.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Why is x^2 + 4y^2 - 6x + 2y - 1 = 0 not a circle equation?",
+      "options": [
+        "It has no constant term",
+        "The coefficients of x^2 and y^2 are not equal",
+        "It has linear terms",
+        "The y-term is positive"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The coefficient of x^2 is 1, but the coefficient of y^2 is 4.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "In x^2 + y^2 + 12x - 14y + 30 = 0, what is F?",
+      "options": [
+        "12",
+        "-14",
+        "30",
+        "0"
+      ],
+      "correctAnswer": 2,
+      "explanation": "F is the constant term, which is 30.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "2x^2 + 2y^2 - 4x + 8y - 10 = 0 can represent a circle.",
+      "correctAnswer": "true",
+      "explanation": "The squared coefficients are both 2. Dividing by 2 gives the usual general-form pattern.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "After dividing 3x^2 + 3y^2 + 9x - 12y + 6 = 0 by 3, what is the constant term F?",
+      "correctAnswer": "2",
+      "explanation": "Dividing every term by 3 gives x^2 + y^2 + 3x - 4y + 2 = 0, so F = 2.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Explain why x^2 - y^2 + 5x + 7 = 0 is not the general form of a circle.",
+      "correctAnswer": "The squared terms have opposite signs, so the x^2 and y^2 terms do not have equal matching coefficients. Therefore it is not a circle equation.",
+      "explanation": "A circle needs matching nonzero coefficients on x^2 and y^2. Opposite signs fail that test.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "Which values match x^2 + y^2 - 6x + 4y - 3 = 0?",
+      "options": [
+        "D = 6, E = 4, F = 3",
+        "D = -6, E = 4, F = -3",
+        "D = -6, E = -4, F = -3",
+        "D = 1, E = 1, F = -3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The coefficient of x is -6, the coefficient of y is 4, and the constant is -3.",
+      "points": 10
+    }
+  ]
+}

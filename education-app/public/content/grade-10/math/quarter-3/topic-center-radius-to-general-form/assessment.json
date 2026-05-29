@@ -1,0 +1,116 @@
+{
+  "examId": "grade-10-math-q3-center-radius-to-general-form-assessment",
+  "examType": "assessment",
+  "title": "Center-Radius to General Form Assessment",
+  "description": "Show mastery of expanding and simplifying center-radius circle equations into general form.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Convert (x - 5)^2 + (y + 4)^2 = 49 to general form.",
+      "options": [
+        "x^2 + y^2 - 10x + 8y - 8 = 0",
+        "x^2 + y^2 + 10x - 8y - 8 = 0",
+        "x^2 + y^2 - 10x + 8y + 90 = 0",
+        "x^2 + y^2 - 5x + 4y - 49 = 0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Expand to x^2 - 10x + 25 + y^2 + 8y + 16 = 49. Since 25 + 16 - 49 = -8, the general form is x^2 + y^2 - 10x + 8y - 8 = 0.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "What is the expansion of (y - 7)^2?",
+      "options": [
+        "y^2 - 49",
+        "y^2 + 14y + 49",
+        "y^2 - 14y + 49",
+        "y^2 - 7y + 49"
+      ],
+      "correctAnswer": 2,
+      "explanation": "(y - 7)^2 = (y - 7)(y - 7) = y^2 - 14y + 49.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "For (x + 2)^2 + (y - 8)^2 = 64, what is the coefficient of y in general form?",
+      "correctAnswer": "-16",
+      "explanation": "(y - 8)^2 expands to y^2 - 16y + 64, so the y coefficient is -16.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "The equation (x - 1)^2 + (y - 1)^2 = 2 has general form x^2 + y^2 - 2x - 2y = 0.",
+      "correctAnswer": "true",
+      "explanation": "Expanding gives x^2 - 2x + 1 + y^2 - 2y + 1 = 2. The constants cancel after subtracting 2.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Convert (x + 6)^2 + (y - 2)^2 = 13 to general form.",
+      "options": [
+        "x^2 + y^2 + 12x - 4y + 27 = 0",
+        "x^2 + y^2 - 12x + 4y + 27 = 0",
+        "x^2 + y^2 + 12x - 4y - 53 = 0",
+        "x^2 + y^2 + 6x - 2y + 13 = 0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Expand to x^2 + 12x + 36 + y^2 - 4y + 4 = 13. The constant is 36 + 4 - 13 = 27.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "Convert (x - 3)^2 + (y + 5)^2 = 34 to general form. Show the final equation.",
+      "correctAnswer": "x^2 + y^2 - 6x + 10y = 0",
+      "explanation": "The expansion is x^2 - 6x + 9 + y^2 + 10y + 25 = 34. Since 9 + 25 - 34 = 0, the constant term is 0.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which equation is equivalent to (x - 9)^2 + y^2 = 81?",
+      "options": [
+        "x^2 + y^2 - 18x = 0",
+        "x^2 + y^2 + 18x = 0",
+        "x^2 + y^2 - 9x = 0",
+        "x^2 + y^2 - 18x + 162 = 0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "(x - 9)^2 = x^2 - 18x + 81. Subtracting 81 leaves x^2 + y^2 - 18x = 0.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "For (x + 4)^2 + (y + 4)^2 = 16, write the constant term F in x^2 + y^2 + 8x + 8y + F = 0.",
+      "correctAnswer": "16",
+      "explanation": "The constants are 16 and 16. Then 16 + 16 - 16 = 16.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "The center-radius equation (x + 3)^2 + (y - 2)^2 = 25 produces a positive x-term and a negative y-term in general form.",
+      "correctAnswer": "true",
+      "explanation": "(x + 3)^2 gives +6x, while (y - 2)^2 gives -4y.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A learner writes (x - 4)^2 + (y + 2)^2 = 20 as x^2 + y^2 - 8x + 4y + 20 = 0. Identify the error and give the correct final constant.",
+      "correctAnswer": "The learner did not subtract the right side correctly after expanding. The constants are 16 and 4, and 16 + 4 - 20 = 0, so the correct final constant is 0.",
+      "explanation": "The middle terms are correct, but the constant should be 16 + 4 - 20 = 0, not 20.",
+      "points": 10
+    }
+  ]
+}

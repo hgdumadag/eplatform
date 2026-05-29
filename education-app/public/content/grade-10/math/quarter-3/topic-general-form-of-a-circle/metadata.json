@@ -1,0 +1,44 @@
+{
+  "id": "grade-10-math-q3-general-form-of-a-circle",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Geometry - Lesson 3: General Form of a Circle",
+  "description": "Identify circle equations written in expanded form by recognizing squared x- and y-terms, matching coefficients, and interpreting constants.",
+  "learningObjectives": [
+    "Recognize the general form of a circle equation",
+    "Distinguish circle equations from non-circle equations using coefficients",
+    "Identify the x-coefficient, y-coefficient, and constant term in expanded form",
+    "Connect expanded form to center-radius form",
+    "Explain why an equation does or does not represent a circle"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "intermediate",
+  "tags": [
+    "analytic-geometry",
+    "circle-equations",
+    "general-form",
+    "expanded-form",
+    "coordinate-plane",
+    "algebra"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/general-form-anatomy.svg",
+      "images/circle-vs-not-circle.svg",
+      "images/expanded-to-center-radius-preview.svg"
+    ]
+  },
+  "prerequisites": [
+    "Coordinate plane basics",
+    "Squares of binomials",
+    "Combining like terms",
+    "Center-radius form of a circle",
+    "Basic equation vocabulary: coefficient, constant, and term"
+  ]
+}

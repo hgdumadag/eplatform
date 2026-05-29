@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title>Central Angle And Arcs</title>
+  <desc>Central Angle And Arcs diagram for a Grade 10 circle geometry lesson.</desc>
+  <title id="title">Central angle and arcs in a circle</title>
+  <desc id="desc">A circle centered at O with radii to A and B, a central angle, and minor and major arcs marked.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <circle cx="330" cy="210" r="130" fill="#ffffff" stroke="#2563eb" stroke-width="5"/>
+  <path d="M 443 145 A 130 130 0 0 1 397 322" fill="none" stroke="#f97316" stroke-width="12" stroke-linecap="round"/>
+  <path d="M 397 322 A 130 130 0 1 1 443 145" fill="none" stroke="#94a3b8" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 10"/>
+  <line x1="330" y1="210" x2="443" y2="145" stroke="#0f172a" stroke-width="4"/>
+  <line x1="330" y1="210" x2="397" y2="322" stroke="#0f172a" stroke-width="4"/>
+  <path d="M 371 186 A 48 48 0 0 1 355 251" fill="none" stroke="#16a34a" stroke-width="5"/>
+  <circle cx="330" cy="210" r="6" fill="#0f172a"/>
+  <circle cx="443" cy="145" r="7" fill="#dc2626"/>
+  <circle cx="397" cy="322" r="7" fill="#dc2626"/>
+  <text x="310" y="203" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">O</text>
+  <text x="454" y="139" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#991b1b">A</text>
+  <text x="404" y="350" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#991b1b">B</text>
+  <text x="70" y="82" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Central angle</text>
+  <text x="70" y="118" font-family="Arial, sans-serif" font-size="20" fill="#334155">Angle AOB has vertex at center O.</text>
+  <line x1="238" y1="111" x2="359" y2="222" stroke="#16a34a" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="486" y="218" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#c2410c">minor arc AB</text>
+  <text x="78" y="320" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#64748b">major arc AB</text>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#16a34a"/>
+    </marker>
+  </defs>
+</svg>

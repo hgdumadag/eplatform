@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title>Same Arc Comparison</title>
+  <desc>Same Arc Comparison diagram for a Grade 10 circle geometry lesson.</desc>
+  <title id="title">Central and inscribed angles intercepting the same arc</title>
+  <desc id="desc">A circle showing a central angle of 96 degrees and an inscribed angle of 48 degrees intercepting the same arc AB.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <circle cx="270" cy="210" r="132" fill="#ffffff" stroke="#1f2937" stroke-width="4"/>
+  <path d="M 270 210 L 384 144" stroke="#2563eb" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 270 210 L 384 276" stroke="#2563eb" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 179 306 L 384 144" stroke="#7c3aed" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 179 306 L 384 276" stroke="#7c3aed" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 384 144 A 132 132 0 0 1 384 276" fill="none" stroke="#ef4444" stroke-width="10" stroke-linecap="round"/>
+  <path d="M 318 182 A 56 56 0 0 1 318 238" fill="none" stroke="#0f766e" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 201 289 A 34 34 0 0 1 215 279" fill="none" stroke="#7c3aed" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="270" cy="210" r="6" fill="#111827"/>
+  <circle cx="384" cy="144" r="7" fill="#ef4444"/>
+  <circle cx="384" cy="276" r="7" fill="#ef4444"/>
+  <circle cx="179" cy="306" r="7" fill="#7c3aed"/>
+  <text x="254" y="203" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">O</text>
+  <text x="397" y="139" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">A</text>
+  <text x="397" y="292" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">B</text>
+  <text x="150" y="328" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#111827">C</text>
+  <text x="322" y="217" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#0f766e">96&#176;</text>
+  <text x="212" y="296" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#7c3aed">48&#176;</text>
+  <text x="430" y="106" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="#111827">Same intercepted arc</text>
+  <text x="430" y="152" font-family="Inter, Arial, sans-serif" font-size="22" fill="#374151">arc AB = 96&#176;</text>
+  <text x="430" y="204" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#2563eb">central angle = 96&#176;</text>
+  <text x="430" y="244" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#7c3aed">inscribed angle = 48&#176;</text>
+  <text x="430" y="300" font-family="Inter, Arial, sans-serif" font-size="22" fill="#374151">central angle = 2 x inscribed angle</text>
+  <line x1="430" y1="164" x2="397" y2="210" stroke="#ef4444" stroke-width="3" marker-end="url(#arrowRed)"/>
+  <defs>
+    <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ef4444"/>
+    </marker>
+  </defs>
+</svg>

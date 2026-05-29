@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Flow from general form to center-radius form</title>
+  <desc id="desc">A four-step flow showing a general circle equation becoming grouped terms, completed squares, and center-radius form.</desc>
+  <rect width="900" height="360" fill="#f8fafc"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <g font-family="Arial, sans-serif">
+    <rect x="32" y="78" width="170" height="150" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+    <text x="117" y="115" text-anchor="middle" font-size="20" font-weight="700" fill="#1e3a8a">General form</text>
+    <text x="117" y="155" text-anchor="middle" font-size="18" fill="#0f172a">x² + y² + Dx</text>
+    <text x="117" y="183" text-anchor="middle" font-size="18" fill="#0f172a">+ Ey + F = 0</text>
+
+    <line x1="213" y1="153" x2="286" y2="153" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+
+    <rect x="298" y="78" width="170" height="150" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+    <text x="383" y="115" text-anchor="middle" font-size="20" font-weight="700" fill="#14532d">Group terms</text>
+    <text x="383" y="153" text-anchor="middle" font-size="17" fill="#0f172a">(x² + Dx)</text>
+    <text x="383" y="181" text-anchor="middle" font-size="17" fill="#0f172a">+ (y² + Ey)</text>
+    <text x="383" y="209" text-anchor="middle" font-size="17" fill="#0f172a">= -F</text>
+
+    <line x1="479" y1="153" x2="552" y2="153" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+
+    <rect x="564" y="78" width="170" height="150" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+    <text x="649" y="115" text-anchor="middle" font-size="20" font-weight="700" fill="#92400e">Complete</text>
+    <text x="649" y="147" text-anchor="middle" font-size="17" fill="#0f172a">add (D/2)²</text>
+    <text x="649" y="175" text-anchor="middle" font-size="17" fill="#0f172a">add (E/2)²</text>
+    <text x="649" y="203" text-anchor="middle" font-size="17" fill="#0f172a">to both sides</text>
+
+    <line x1="649" y1="238" x2="649" y2="286" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+
+    <rect x="474" y="292" width="350" height="48" rx="12" fill="#fee2e2" stroke="#dc2626" stroke-width="3"/>
+    <text x="649" y="323" text-anchor="middle" font-size="20" font-weight="700" fill="#7f1d1d">(x - h)² + (y - k)² = r²</text>
+  </g>
+</svg>

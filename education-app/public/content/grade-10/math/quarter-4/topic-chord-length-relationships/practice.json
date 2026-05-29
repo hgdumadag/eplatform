@@ -1,0 +1,80 @@
+{
+  "examId": "grade-10-math-q4-chord-length-relationships-practice",
+  "examType": "practice",
+  "title": "Chord Length Relationships Practice",
+  "description": "Practice using intersecting chord products to solve missing segment lengths.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Two chords AB and CD intersect at P. Which equation matches the intersecting chords theorem?",
+      "options": ["AP + PB = CP + PD", "AP · PB = CP · PD", "AP · CP = PB · PD", "AB · CD = AP · PB"],
+      "correctAnswer": 1,
+      "explanation": "For intersecting chords, the product of the two segments on one chord equals the product of the two segments on the other chord: AP · PB = CP · PD.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "One chord has segments 6 and 8. The other chord has segments 4 and x. What is x?",
+      "options": ["8", "10", "12", "14"],
+      "correctAnswer": 2,
+      "explanation": "Set 6 · 8 = 4x. Then 48 = 4x, so x = 12.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "When two chords intersect inside a circle, you multiply the two pieces on the same chord to form each product.",
+      "correctAnswer": "true",
+      "explanation": "Each product uses the two segment lengths from one chord.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "Two chords intersect. One chord has segments 9 and 4. The other chord has segments 6 and x. Enter the value of x.",
+      "correctAnswer": "6",
+      "explanation": "Use 9 · 4 = 6x. Since 36 = 6x, x = 6.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Chords AB and CD intersect at P. If AP = 5, PB = 12, CP = 10, and PD = x, what is x?",
+      "options": ["4", "5", "6", "7"],
+      "correctAnswer": 2,
+      "explanation": "Set 5 · 12 = 10x. Then 60 = 10x, so x = 6.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A chord has total length 15. One segment is 6. What is the other segment?",
+      "correctAnswer": "9",
+      "explanation": "The whole chord is 15, so the other segment is 15 - 6 = 9.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "One chord has segments 7 and 12. The other chord has segments x and 6. What equation should you solve?",
+      "options": ["7 + 12 = 6x", "7 · 6 = 12x", "7 · 12 = 6x", "12 · 6 = 7x"],
+      "correctAnswer": 2,
+      "explanation": "The two pieces on the first chord are 7 and 12, so their product equals the product x · 6.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain why the setup 8 · 3 = 4 · x is correct when one chord has segments 8 and 3 and the other has segments 4 and x.",
+      "correctAnswer": "The intersecting chords theorem says the product of the two segments on one chord equals the product of the two segments on the other chord, so 8 and 3 are multiplied together and set equal to 4 times x.",
+      "explanation": "A correct explanation should mention that each product uses the two pieces from the same chord.",
+      "points": 10
+    }
+  ]
+}

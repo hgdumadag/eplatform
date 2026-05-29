@@ -1,0 +1,42 @@
+{
+  "id": "grade-10-math-q3-circle-equation-basics",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Geometry - Lesson 1: Circle Equation Basics",
+  "description": "Connect the center, radius, and points on a circle using the center-radius form of a circle equation.",
+  "learningObjectives": [
+    "Identify the center and radius in center-radius form",
+    "Explain why every point on a circle is the same distance from the center",
+    "Check whether a point lies on a circle using substitution",
+    "Connect circle graphs to equations of the form (x - h)^2 + (y - k)^2 = r^2",
+    "Distinguish the radius from the squared radius in a circle equation"
+  ],
+  "estimatedDuration": 35,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "coordinate-geometry",
+    "circles",
+    "circle-equations",
+    "center-radius-form"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/circle-center-radius.svg",
+      "images/point-on-circle-distance.svg",
+      "images/center-radius-form-map.svg"
+    ]
+  },
+  "prerequisites": [
+    "Plotting points on the Cartesian plane",
+    "Understanding ordered pairs",
+    "Evaluating squares such as 3^2 and 5^2",
+    "Using the distance formula or recognizing horizontal and vertical distances"
+  ]
+}

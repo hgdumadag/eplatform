@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Distance from center to endpoint gives radius</title>
+  <desc id="desc">A right triangle from center C to endpoint A showing horizontal and vertical changes used in the distance formula.</desc>
+  <rect width="720" height="420" fill="#fff7ed"/>
+  <circle cx="360" cy="210" r="150" fill="#ffedd5" stroke="#ea580c" stroke-width="4"/>
+  <line x1="360" y1="210" x2="270" y2="330" stroke="#2563eb" stroke-width="5" stroke-linecap="round"/>
+  <line x1="360" y1="210" x2="270" y2="210" stroke="#64748b" stroke-width="3" stroke-dasharray="8 8"/>
+  <line x1="270" y1="210" x2="270" y2="330" stroke="#64748b" stroke-width="3" stroke-dasharray="8 8"/>
+  <circle cx="360" cy="210" r="10" fill="#16a34a"/>
+  <circle cx="270" cy="330" r="10" fill="#dc2626"/>
+  <text x="374" y="204" font-family="Arial, sans-serif" font-size="24" fill="#166534">C(5,5)</text>
+  <text x="214" y="354" font-family="Arial, sans-serif" font-size="24" fill="#991b1b">A(2,1)</text>
+  <text x="298" y="198" font-family="Arial, sans-serif" font-size="22" fill="#334155">3 units</text>
+  <text x="178" y="276" font-family="Arial, sans-serif" font-size="22" fill="#334155">4 units</text>
+  <text x="310" y="286" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#1d4ed8">r = 5</text>
+  <text x="76" y="62" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#0f172a">Radius from center to endpoint</text>
+  <text x="76" y="102" font-family="Arial, sans-serif" font-size="20" fill="#334155">r = sqrt(3^2 + 4^2) = 5, so r^2 = 25</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Diameter endpoints and midpoint center</title>
+  <desc id="desc">A coordinate grid showing diameter endpoints A and B with center C at the midpoint.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <g stroke="#dbe4ee" stroke-width="1">
+    <path d="M80 40 V360 M140 40 V360 M200 40 V360 M260 40 V360 M320 40 V360 M380 40 V360 M440 40 V360 M500 40 V360 M560 40 V360 M620 40 V360"/>
+    <path d="M60 60 H660 M60 120 H660 M60 180 H660 M60 240 H660 M60 300 H660 M60 360 H660"/>
+  </g>
+  <line x1="60" y1="240" x2="660" y2="240" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="360" y1="40" x2="360" y2="360" stroke="#94a3b8" stroke-width="2"/>
+  <circle cx="360" cy="210" r="150" fill="#e0f2fe" stroke="#0284c7" stroke-width="4"/>
+  <line x1="270" y1="330" x2="450" y2="90" stroke="#f97316" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="270" cy="330" r="9" fill="#dc2626"/>
+  <circle cx="450" cy="90" r="9" fill="#dc2626"/>
+  <circle cx="360" cy="210" r="10" fill="#16a34a"/>
+  <text x="246" y="355" font-family="Arial, sans-serif" font-size="24" fill="#991b1b">A(2,1)</text>
+  <text x="462" y="82" font-family="Arial, sans-serif" font-size="24" fill="#991b1b">B(8,9)</text>
+  <text x="374" y="204" font-family="Arial, sans-serif" font-size="24" fill="#166534">C(5,5)</text>
+  <text x="84" y="55" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">The center is the midpoint of the diameter.</text>
+  <text x="86" y="90" font-family="Arial, sans-serif" font-size="19" fill="#334155">Average x-values and average y-values to find C.</text>
+</svg>

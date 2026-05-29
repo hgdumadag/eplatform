@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="500" viewBox="0 0 760 500" role="img" aria-labelledby="title desc">
+  <title>Quarter Circle Design Overview</title>
+  <desc>Quarter Circle Design Overview diagram for a Grade 10 circle geometry lesson.</desc>
+  <title id="title">Quarter-circle design overview</title>
+  <desc id="desc">A quarter circle with center O, radii OA and OB, chord AB, tangent at A, and the sector region highlighted.</desc>
+  <rect width="760" height="500" fill="#f8fafc"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#334155"/>
+    </marker>
+  </defs>
+  <path d="M180 390 L180 110 A280 280 0 0 1 460 390 Z" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+  <path d="M180 110 A280 280 0 0 1 460 390" fill="none" stroke="#1d4ed8" stroke-width="6"/>
+  <line x1="180" y1="390" x2="180" y2="110" stroke="#0f172a" stroke-width="4"/>
+  <line x1="180" y1="390" x2="460" y2="390" stroke="#0f172a" stroke-width="4"/>
+  <line x1="180" y1="110" x2="460" y2="390" stroke="#dc2626" stroke-width="4"/>
+  <line x1="180" y1="70" x2="180" y2="180" stroke="#16a34a" stroke-width="4"/>
+  <line x1="180" y1="110" x2="78" y2="110" stroke="#16a34a" stroke-width="4"/>
+  <path d="M180 390 L180 352 L218 352 L218 390" fill="none" stroke="#475569" stroke-width="3"/>
+  <circle cx="180" cy="390" r="6" fill="#0f172a"/>
+  <circle cx="180" cy="110" r="6" fill="#0f172a"/>
+  <circle cx="460" cy="390" r="6" fill="#0f172a"/>
+  <text x="158" y="414" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">O</text>
+  <text x="154" y="100" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">A</text>
+  <text x="471" y="400" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">B</text>
+  <text x="129" y="247" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">r = 8 cm</text>
+  <text x="295" y="418" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">r = 8 cm</text>
+  <text x="317" y="247" font-family="Arial, sans-serif" font-size="20" fill="#991b1b">chord AB</text>
+  <text x="65" y="86" font-family="Arial, sans-serif" font-size="20" fill="#166534">tangent at A</text>
+  <path d="M222 348 A60 60 0 0 0 222 390" fill="none" stroke="#f59e0b" stroke-width="5"/>
+  <text x="235" y="372" font-family="Arial, sans-serif" font-size="20" fill="#92400e">90 degrees</text>
+  <line x1="555" y1="150" x2="465" y2="265" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="548" y="132" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#334155">sector AOB</text>
+  <text x="548" y="160" font-family="Arial, sans-serif" font-size="18" fill="#334155">one fourth of the circle</text>
+</svg>

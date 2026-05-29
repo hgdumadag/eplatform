@@ -1,0 +1,43 @@
+{
+  "id": "grade-10-math-q4-angles-from-intersecting-chords",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "Geometry - Lesson 3: Angles from Intersecting Chords",
+  "description": "Use the relationship between intersecting chords and intercepted arcs to find angle and arc measures inside circles.",
+  "learningObjectives": [
+    "Identify the intercepted arcs formed by two chords intersecting inside a circle",
+    "Use the formula m angle = 1/2(sum of intercepted arcs) for intersecting chords",
+    "Find missing angle measures from two intercepted arcs",
+    "Find a missing arc measure from an interior angle and one intercepted arc",
+    "Explain why vertical angles formed by intersecting chords use opposite arc pairs"
+  ],
+  "estimatedDuration": 35,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement-and-geometry",
+    "circles",
+    "chords",
+    "arc-measure",
+    "interior-angles"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/intersecting-chords-angle-rule.svg",
+      "images/vertical-angles-arc-pairs.svg",
+      "images/missing-arc-workflow.svg"
+    ]
+  },
+  "prerequisites": [
+    "Recognizing chords, arcs, and central angle measures",
+    "Using vertical angles",
+    "Solving one-step and two-step linear equations",
+    "Adding and subtracting angle measures in degrees"
+  ]
+}

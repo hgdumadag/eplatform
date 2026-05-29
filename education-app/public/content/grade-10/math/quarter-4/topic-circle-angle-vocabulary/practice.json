@@ -1,0 +1,89 @@
+{
+  "examId": "grade-10-math-q4-circle-angle-vocabulary-practice",
+  "examType": "practice",
+  "title": "Circle Angle Vocabulary Practice",
+  "description": "Practice defining and identifying central angles, arcs, chords, secants, and tangents.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which description defines a central angle?",
+      "options": [
+        "An angle whose vertex is outside the circle",
+        "An angle whose vertex is at the center of the circle",
+        "A line that touches the circle once",
+        "A segment with endpoints on the circle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A central angle has its vertex at the center of the circle.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A segment has both endpoints on a circle. What is it called?",
+      "options": ["Arc", "Chord", "Secant", "Tangent"],
+      "correctAnswer": 1,
+      "explanation": "A chord is a segment whose endpoints both lie on the circle.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A tangent line intersects a circle at exactly two points.",
+      "correctAnswer": "false",
+      "explanation": "A tangent touches a circle at exactly one point. A secant intersects it at two points.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "Fill in the vocabulary word: A connected part of the circle's curved edge is an ____.",
+      "correctAnswer": "arc",
+      "explanation": "An arc is a curved part of a circle.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which object is a secant?",
+      "options": [
+        "A line that cuts a circle at two points",
+        "A line that touches a circle at one point",
+        "A curved part of a circle",
+        "An angle with vertex at the center"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A secant is a line that intersects a circle at two points.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "Every diameter is also a chord.",
+      "correctAnswer": "true",
+      "explanation": "A diameter is a chord that passes through the center of the circle.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A line that touches a circle at exactly one point is called a ____.",
+      "correctAnswer": "tangent",
+      "explanation": "A tangent line has exactly one point of contact with the circle.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain the difference between a secant and a tangent in one or two sentences.",
+      "correctAnswer": "A secant intersects a circle at two points, while a tangent touches a circle at exactly one point.",
+      "explanation": "The key difference is the number of intersection points with the circle.",
+      "points": 10
+    }
+  ]
+}

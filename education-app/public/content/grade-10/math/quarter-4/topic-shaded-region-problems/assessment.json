@@ -1,0 +1,118 @@
+{
+  "examId": "grade-10-math-q4-shaded-region-problems-assessment",
+  "examType": "assessment",
+  "title": "Shaded Region Problems Assessment",
+  "description": "Show that you can organize and solve multi-step shaded region problems using circles, sectors, and polygons.",
+  "passingScore": 75,
+  "timeLimit": 40,
+  "totalQuestions": 12,
+  "totalPoints": 120,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A shaded region is inside a square of side 14 cm but outside a circle of radius 7 cm. Which expression gives the shaded area?",
+      "options": ["196 - 49pi", "49pi - 196", "196 + 49pi", "14pi - 196"],
+      "correctAnswer": 0,
+      "explanation": "The square area is 14^2 = 196. The circle area is pi(7^2) = 49pi. The shaded area is square minus circle: 196 - 49pi.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "Find the area of a 45° sector with radius 8. Give an exact answer in terms of pi.",
+      "correctAnswer": "8pi",
+      "explanation": "The sector fraction is 45/360 = 1/8. The area is (1/8)pi(8^2) = 8pi.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A circle has radius 10. A triangle with base 12 and height 8 is removed from inside the circle. What is the shaded area inside the circle but outside the triangle?",
+      "options": ["100pi - 96", "100pi - 48", "20pi - 48", "48 - 100pi"],
+      "correctAnswer": 1,
+      "explanation": "The circle area is 100pi. The triangle area is (1/2)(12)(8) = 48. Subtract to get 100pi - 48.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "For a 150° sector, the sector area is found by multiplying the full circle area by 150/360.",
+      "correctAnswer": "true",
+      "explanation": "Sector area uses the fraction of the circle represented by the central angle, theta/360.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A 60° sector has radius 12. A triangle with base 12 and height 6 is removed. What is the shaded area?",
+      "options": ["24pi - 36", "24pi - 72", "72pi - 36", "36 - 24pi"],
+      "correctAnswer": 0,
+      "explanation": "The sector area is (60/360)pi(12^2) = 24pi. The triangle area is (1/2)(12)(6) = 36. The shaded area is 24pi - 36.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A full circle has radius 5. Three quarter-circles of radius 5 have a total area of ____ pi. Enter only the coefficient of pi.",
+      "correctAnswer": "75/4 or 18.75",
+      "explanation": "Each quarter-circle has area (1/4)pi(5^2) = 25pi/4. Three of them have area 75pi/4.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "A rectangle measures 18 cm by 10 cm. A semicircle with radius 5 cm is removed from one side. Write the expression for the remaining area and explain your setup.",
+      "correctAnswer": "The rectangle area is 18(10) = 180. The removed semicircle area is (1/2)pi(5^2) = 25pi/2, so the remaining area is 180 - 25pi/2 cm^2.",
+      "explanation": "The solution should identify the rectangle as the whole region and subtract the semicircular part that was removed.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Which solution plan best fits a shaded region that is the overlap-free combination of two separate semicircles, each with radius 3?",
+      "options": [
+        "Subtract one semicircle from the other",
+        "Add the two semicircle areas",
+        "Multiply the two semicircle areas",
+        "Find the area of a triangle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If the shaded region is made of two separate non-overlapping shaded pieces, add their areas. Two semicircles of the same radius make one full circle.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "If an exact shaded area is 64 - 16pi, then the answer should be rejected because it contains pi.",
+      "correctAnswer": "false",
+      "explanation": "Exact area answers often contain pi. It should only be converted to a decimal if the problem asks for an approximation.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A student finds a shaded area by calculating 25pi - 100 for a circle of radius 5 inside a square of side 10. Explain the error and give the correct expression.",
+      "correctAnswer": "The student subtracted in the wrong order. The shaded area inside the square but outside the circle is square area minus circle area: 100 - 25pi.",
+      "explanation": "The containing square has area 100 and the removed circle has area 25pi, so the correct order is 100 - 25pi.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "question": "A regular hexagon with area 72 square units is inside a circle of radius 6. What is the area inside the circle but outside the hexagon?",
+      "options": ["36pi - 72", "72 - 36pi", "12pi - 72", "36pi + 72"],
+      "correctAnswer": 0,
+      "explanation": "The circle area is pi(6^2) = 36pi. The shaded area outside the hexagon but inside the circle is 36pi - 72.",
+      "points": 10
+    },
+    {
+      "id": "q12",
+      "type": "short-answer",
+      "question": "Organize a solution for this problem: A 120° sector has radius 9, and a triangle of area 30 is removed from it. Find the shaded area.",
+      "correctAnswer": "Sector area: (120/360)pi(9^2) = 27pi. Removed triangle area: 30. Shaded area: 27pi - 30 square units.",
+      "explanation": "A complete response should show the sector fraction, compute the sector area, identify the removed triangle area, and subtract.",
+      "points": 10
+    }
+  ]
+}

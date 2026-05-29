@@ -1,4 +1,4 @@
-# Coordinate Position
+# Geometry - Lesson 1: Coordinate Position
 
 > [!GOAL] Learning Goal
 >

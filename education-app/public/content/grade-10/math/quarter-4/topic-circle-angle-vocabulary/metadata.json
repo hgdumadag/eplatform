@@ -1,0 +1,42 @@
+{
+  "id": "grade-10-math-q4-circle-angle-vocabulary",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "Geometry - Lesson 1: Circle Angle Vocabulary",
+  "description": "Define and identify central angles, arcs, chords, secants, and tangents in circle diagrams.",
+  "learningObjectives": [
+    "Define a central angle using the center and two radii",
+    "Distinguish minor arcs, major arcs, and semicircles",
+    "Identify chords, diameters, secants, and tangents in diagrams",
+    "Explain how a tangent differs from a secant",
+    "Use correct circle vocabulary in short written descriptions"
+  ],
+  "estimatedDuration": 35,
+  "difficulty": "introductory",
+  "tags": [
+    "geometry",
+    "measurement-and-geometry",
+    "circles",
+    "circle-angles",
+    "vocabulary"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/central-angle-and-arcs.svg",
+      "images/chord-and-diameter.svg",
+      "images/secant-vs-tangent.svg",
+      "images/vocabulary-summary-map.svg"
+    ]
+  },
+  "prerequisites": [
+    "Recognizing points, line segments, and lines",
+    "Knowing that a circle has a center and radius",
+    "Reading simple geometric diagrams with labeled points"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "grade-10-math-q3-equation-from-diameter-endpoints",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Geometry - Lesson 7: Equation from Diameter Endpoints",
+  "description": "Find the midpoint and radius from diameter endpoints, then write the equation of a circle.",
+  "learningObjectives": [
+    "Identify the center of a circle as the midpoint of a diameter",
+    "Use the midpoint formula with two endpoint coordinates",
+    "Use distance or half the diameter length to determine the radius",
+    "Write a circle equation in center-radius form",
+    "Check that both diameter endpoints satisfy the circle equation"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "coordinate-geometry",
+    "circles",
+    "circle-equations",
+    "diameter",
+    "midpoint",
+    "distance-formula"
+  ],
+  "lastUpdated": "2026-05-25",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/diameter-midpoint-center.svg",
+      "images/distance-to-radius.svg",
+      "images/diameter-equation-workflow.svg"
+    ]
+  },
+  "prerequisites": [
+    "Plotting ordered pairs on the Cartesian plane",
+    "Using the midpoint formula",
+    "Using the distance formula",
+    "Recognizing center-radius form of a circle",
+    "Squaring integers and simple radicals"
+  ]
+}

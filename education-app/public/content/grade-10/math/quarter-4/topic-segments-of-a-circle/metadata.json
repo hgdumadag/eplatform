@@ -1,0 +1,43 @@
+{
+  "id": "grade-10-math-q4-segments-of-a-circle",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 4,
+  "topicName": "Geometry - Lesson 8: Segments of a Circle",
+  "description": "Define circular segments, compare them with sectors, and find segment areas by subtracting triangle area from sector area.",
+  "learningObjectives": [
+    "Define a circular segment as the region between a chord and its intercepted arc",
+    "Compare circular segments with sectors using boundaries and included regions",
+    "Identify the sector and triangle that form a circular segment",
+    "Find sector area using the central angle and radius",
+    "Find segment area by subtracting triangle area from sector area"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "measurement-and-geometry",
+    "circles",
+    "segments",
+    "sectors",
+    "area"
+  ],
+  "lastUpdated": "2026-05-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/segment-vs-sector.svg",
+      "images/sector-minus-triangle.svg",
+      "images/segment-area-worked-example.svg"
+    ]
+  },
+  "prerequisites": [
+    "Recognizing parts of a circle such as radius, chord, arc, and central angle",
+    "Using the area formula for a circle",
+    "Using the area formula for a triangle",
+    "Working with fractions of 360 degrees"
+  ]
+}
