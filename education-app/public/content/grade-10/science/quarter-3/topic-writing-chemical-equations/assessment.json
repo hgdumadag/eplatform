@@ -1,0 +1,114 @@
+{
+  "examId": "grade-10-science-q3-writing-chemical-equations-assessment",
+  "examType": "assessment",
+  "title": "Writing Chemical Equations Assessment",
+  "description": "Show mastery of word equations, formula equations, reactants, products, arrows, coefficients, and subscripts.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 12,
+  "totalPoints": 120,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement best describes a formula equation?",
+      "options": ["A reaction written only with substance names", "A reaction written using chemical symbols and formulas", "A list of element symbols with no arrow", "A sentence that describes color changes only"],
+      "correctAnswer": 1,
+      "explanation": "A formula equation uses chemical symbols and formulas to represent reactants and products.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "In `magnesium + oxygen -> magnesium oxide`, which substances are reactants?",
+      "options": ["Magnesium only", "Magnesium oxide only", "Magnesium and oxygen", "Oxygen and magnesium oxide"],
+      "correctAnswer": 2,
+      "explanation": "Reactants are written before the arrow, so magnesium and oxygen are the reactants.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which substance is the product in `hydrogen + chlorine -> hydrogen chloride`?",
+      "options": ["Hydrogen", "Chlorine", "Hydrogen chloride", "Hydrogen and chlorine"],
+      "correctAnswer": 2,
+      "explanation": "The product is written after the arrow. Hydrogen chloride is the substance formed.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "The plus sign in a chemical equation separates substances on the same side of the reaction.",
+      "correctAnswer": "true",
+      "explanation": "The plus sign is read as 'and' or 'reacts with' on the reactant side, and it separates multiple products on the product side.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Translate `hydrogen + oxygen -> water` using H2, O2, and H2O.",
+      "options": ["H + O -> HO", "H2 + O2 -> H2O", "H2O -> H2 + O2", "H2 + O -> H2O2"],
+      "correctAnswer": 1,
+      "explanation": "Hydrogen gas is H2, oxygen gas is O2, and water is H2O, so the translation is H2 + O2 -> H2O.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A small number written within a chemical formula, such as the 2 in H2O, is called a __________.",
+      "correctAnswer": "subscript",
+      "explanation": "A subscript is a small number in a formula that shows the number of atoms of an element in one particle of the substance.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which interpretation of `3CO2` is correct?",
+      "options": ["Three carbon atoms and two oxygen atoms total", "Three carbon dioxide molecules, each with one carbon atom and two oxygen atoms", "One molecule with three carbon atoms and two oxygen atoms", "Carbon monoxide with a charge of 3"],
+      "correctAnswer": 1,
+      "explanation": "The coefficient 3 means three CO2 molecules. The subscript 2 means each CO2 molecule has two oxygen atoms.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "question": "`2H2O` and `H2O2` mean the same thing because both contain H, O, and the number 2.",
+      "correctAnswer": "false",
+      "explanation": "They do not mean the same thing. 2H2O means two water molecules, while H2O2 is hydrogen peroxide.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "Which formula equation correctly translates `calcium carbonate -> calcium oxide + carbon dioxide`?",
+      "options": ["Ca + CO3 -> CaO + CO2", "CaCO3 -> CaO + CO2", "CaO + CO2 -> CaCO3", "CaCO2 -> CaO + C"],
+      "correctAnswer": 1,
+      "explanation": "Calcium carbonate is CaCO3, calcium oxide is CaO, and carbon dioxide is CO2. Keep the same direction as the word equation.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "fill-in",
+      "question": "Fill in the missing product formula: carbon + oxygen -> __________. Use the formula for carbon dioxide.",
+      "correctAnswer": "CO2",
+      "explanation": "Carbon dioxide has the formula CO2, with one carbon atom and two oxygen atoms in each molecule.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "question": "In one or two sentences, explain the difference between a coefficient and a subscript.",
+      "correctAnswer": "A coefficient is written before a formula and shows how many particles or formula units are present. A subscript is written inside a formula and shows how many atoms of an element are in one particle of that substance.",
+      "explanation": "The key distinction is position and meaning: coefficients count whole particles, while subscripts are part of the formula.",
+      "points": 10
+    },
+    {
+      "id": "q12",
+      "type": "short-answer",
+      "question": "A student writes `H + O -> HO` for hydrogen + oxygen -> water. Identify one error and correct it.",
+      "correctAnswer": "One error is writing water as HO; the correct formula is H2O. Hydrogen and oxygen gases should also be written as H2 and O2, so the formula equation is H2 + O2 -> H2O.",
+      "explanation": "Correct formulas must be used: hydrogen gas is H2, oxygen gas is O2, and water is H2O. HO is not the formula for water.",
+      "points": 10
+    }
+  ]
+}

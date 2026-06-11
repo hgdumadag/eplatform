@@ -1,0 +1,150 @@
+{
+  "examId": "grade-10-science-q3-indicators-chemical-reaction-assessment",
+  "examType": "assessment",
+  "title": "Assessment: How Do You Know a Reaction Happened?",
+  "description": "Checkpoint assessment on identifying indicators of chemical reactions and distinguishing chemical changes from physical changes.",
+  "totalQuestions": 12,
+  "totalPoints": 120,
+  "timeLimit": 30,
+  "passingScore": 75,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which statement best describes a chemical reaction?",
+      "options": [
+        "A substance changes size but keeps the same properties.",
+        "A substance changes state from solid to liquid.",
+        "Atoms are rearranged to form one or more new substances.",
+        "A material is moved from one container to another."
+      ],
+      "correctAnswer": 2,
+      "explanation": "In a chemical reaction, atoms are rearranged and new substances with new properties are formed."
+    },
+    {
+      "id": "q2",
+      "questionId": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Two clear liquids are mixed. The mixture becomes cloudy and a white solid settles at the bottom. What indicator is shown?",
+      "options": [
+        "Gas release",
+        "Precipitate formation",
+        "Boiling",
+        "Change in size"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A solid forming from mixed solutions is a precipitate, which is a common indicator of a chemical reaction."
+    },
+    {
+      "id": "q3",
+      "questionId": "q3",
+      "type": "true-false",
+      "points": 10,
+      "question": "True or False: A physical change can change the appearance of a material without forming a new substance.",
+      "correctAnswer": "true",
+      "explanation": "Physical changes can alter size, shape, or state, but the material's identity stays the same."
+    },
+    {
+      "id": "q4",
+      "questionId": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which example is most likely a physical change?",
+      "options": [
+        "A match burns.",
+        "Milk turns sour.",
+        "Iron forms rust.",
+        "Glass breaks into pieces."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Broken glass is still glass. Its shape changed, but no new substance necessarily formed."
+    },
+    {
+      "id": "q5",
+      "questionId": "q5",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A sealed cold pack becomes colder after it is squeezed. Which indicator is being observed?",
+      "options": [
+        "Temperature change",
+        "Shape change only",
+        "Precipitate formation only",
+        "Color mixing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A temperature change that happens on its own after materials mix can indicate that a chemical process is absorbing or releasing energy."
+    },
+    {
+      "id": "q6",
+      "questionId": "q6",
+      "type": "fill-in",
+      "points": 10,
+      "question": "The starting substances in a chemical reaction are called ________.",
+      "correctAnswer": "reactants",
+      "explanation": "Reactants are the substances present before the reaction. They change into products."
+    },
+    {
+      "id": "q7",
+      "questionId": "q7",
+      "type": "fill-in",
+      "points": 10,
+      "question": "The new substances formed in a chemical reaction are called ________.",
+      "correctAnswer": "products",
+      "explanation": "Products are the substances formed by a chemical reaction."
+    },
+    {
+      "id": "q8",
+      "questionId": "q8",
+      "type": "true-false",
+      "points": 10,
+      "question": "True or False: A color change is always proof that a chemical reaction happened.",
+      "correctAnswer": "false",
+      "explanation": "A color change can be a clue, but it is not always proof. Mixing colored dyes can change color without making a new substance."
+    },
+    {
+      "id": "q9",
+      "questionId": "q9",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which situation shows gas release as evidence of a chemical reaction rather than boiling?",
+      "options": [
+        "Water bubbles after being heated to its boiling point.",
+        "Vinegar and baking soda fizz at room temperature.",
+        "Steam rises from hot soup.",
+        "Water vapor appears on a bathroom mirror."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Vinegar and baking soda produce carbon dioxide gas at room temperature. This gas is a new product of a chemical reaction."
+    },
+    {
+      "id": "q10",
+      "questionId": "q10",
+      "type": "short-answer",
+      "points": 10,
+      "question": "Name three common indicators of a chemical reaction.",
+      "correctAnswer": "Examples include color change, formation of a precipitate, release of gas, production of odor, and temperature change.",
+      "explanation": "Any three of the five lesson indicators are acceptable: color change, precipitate formation, gas release, odor production, or temperature change."
+    },
+    {
+      "id": "q11",
+      "questionId": "q11",
+      "type": "short-answer",
+      "points": 10,
+      "question": "A banana peel turns dark over time. Explain why this may be evidence of a chemical change.",
+      "correctAnswer": "The darkening is a color change caused by reactions with substances in the banana peel and oxygen in the air, forming new substances.",
+      "explanation": "The important idea is that the color change is connected to new substances forming, not just a change in shape or state."
+    },
+    {
+      "id": "q12",
+      "questionId": "q12",
+      "type": "short-answer",
+      "points": 10,
+      "question": "Why should you ask whether a new substance formed before deciding that a change is chemical?",
+      "correctAnswer": "Many physical changes also look noticeable, such as melting, boiling, cutting, or dissolving. A chemical change requires formation of a new substance with new properties.",
+      "explanation": "Indicators are clues, but the strongest test is whether reactants became products with new properties."
+    }
+  ]
+}

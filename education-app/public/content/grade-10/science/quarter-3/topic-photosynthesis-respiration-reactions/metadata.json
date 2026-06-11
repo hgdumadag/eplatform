@@ -1,0 +1,38 @@
+{
+  "id": "grade-10-science-q3-photosynthesis-respiration-reactions",
+  "grade": 10,
+  "subject": "Science",
+  "quarter": 3,
+  "topicName": "Life's Reactions: Photosynthesis and Respiration",
+  "description": "Study photosynthesis and cellular respiration as connected chemical reactions that store and release energy while cycling carbon dioxide, oxygen, glucose, and water through living systems.",
+  "learningObjectives": [
+    "Describe photosynthesis and cellular respiration as chemical reactions",
+    "Identify the reactants, products, and energy changes in photosynthesis and respiration",
+    "Compare how the two reactions store and release energy",
+    "Explain how photosynthesis and respiration help cycle gases in the atmosphere"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "chemistry",
+    "living-systems",
+    "photosynthesis",
+    "cellular-respiration",
+    "chemical-reactions",
+    "energy-transfer",
+    "gas-cycle"
+  ],
+  "prerequisites": [
+    "Reactants and products in a chemical equation",
+    "Basic chemical formulas for carbon dioxide, water, oxygen, and glucose",
+    "Law of conservation of mass",
+    "Food chains and the role of producers"
+  ],
+  "lastUpdated": "2026-06-11",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

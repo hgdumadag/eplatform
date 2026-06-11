@@ -1,0 +1,37 @@
+{
+  "id": "grade-10-science-q3-single-double-replacement-reactions",
+  "grade": 10,
+  "subject": "Science",
+  "quarter": 3,
+  "topicName": "Single and Double Replacement Reactions",
+  "description": "Identify single and double replacement reactions by tracking which elements or ion groups switch places, using the patterns A + BC -> AC + B and AB + CD -> AD + CB.",
+  "learningObjectives": [
+    "Describe single replacement reactions using the pattern A + BC -> AC + B",
+    "Describe double replacement reactions using the pattern AB + CD -> AD + CB",
+    "Identify which atom, ion, or group switches partners in a chemical equation",
+    "Use reaction clues such as precipitate, gas, or water formation to recognize double replacement reactions"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "intermediate",
+  "tags": [
+    "chemistry",
+    "chemical-reactions",
+    "single-replacement",
+    "double-replacement",
+    "precipitate",
+    "reaction-patterns"
+  ],
+  "prerequisites": [
+    "Recognize reactants and products in a chemical equation",
+    "Understand element symbols and simple chemical formulas",
+    "Distinguish elements from compounds",
+    "Identify synthesis and decomposition reaction patterns"
+  ],
+  "lastUpdated": "2026-06-11",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

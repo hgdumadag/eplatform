@@ -1,0 +1,102 @@
+{
+  "examId": "grade-10-science-q3-balancing-chemical-equations-practice",
+  "examType": "practice",
+  "title": "Practice: Balancing Chemical Equations",
+  "description": "Low-stakes practice on coefficients, subscripts, atom counting, and balancing simple chemical equations.",
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "timeLimit": 20,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": 1,
+      "type": "multiple-choice",
+      "points": 12,
+      "question": "When balancing a chemical equation, which part may you change?",
+      "options": [
+        "Subscripts inside formulas",
+        "Element symbols",
+        "Coefficients in front of formulas",
+        "The identities of the products"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Balancing changes coefficients only. Changing subscripts or symbols changes the substances in the reaction."
+    },
+    {
+      "id": "q2",
+      "questionId": 2,
+      "type": "multiple-choice",
+      "points": 12,
+      "question": "How many hydrogen atoms are represented by 2H2O?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Each H2O molecule has 2 hydrogen atoms. The coefficient 2 means there are two water molecules, so 2 x 2 = 4 hydrogen atoms."
+    },
+    {
+      "id": "q3",
+      "questionId": 3,
+      "type": "true-false",
+      "points": 12,
+      "question": "True or False: A missing coefficient in front of a formula means the coefficient is 1.",
+      "correctAnswer": "true",
+      "explanation": "True. If no coefficient is written, one particle or formula unit is understood."
+    },
+    {
+      "id": "q4",
+      "questionId": 4,
+      "type": "true-false",
+      "points": 12,
+      "question": "True or False: Changing H2O to H2O2 is an acceptable way to balance oxygen atoms when water is the product.",
+      "correctAnswer": "false",
+      "explanation": "False. H2O is water and H2O2 is hydrogen peroxide. Changing a subscript changes the substance."
+    },
+    {
+      "id": "q5",
+      "questionId": 5,
+      "type": "fill-in",
+      "points": 13,
+      "question": "Fill in the missing coefficient: __ H2 + O2 -> 2H2O",
+      "correctAnswer": "2",
+      "explanation": "The products contain 4 hydrogen atoms in 2H2O, so the reactant side needs 2H2."
+    },
+    {
+      "id": "q6",
+      "questionId": 6,
+      "type": "fill-in",
+      "points": 13,
+      "question": "Balance the equation: Mg + O2 -> MgO",
+      "correctAnswer": "2Mg + O2 -> 2MgO or 2 Mg + O2 -> 2 MgO",
+      "explanation": "O2 has 2 oxygen atoms, so place 2 before MgO. Then place 2 before Mg to balance magnesium."
+    },
+    {
+      "id": "q7",
+      "questionId": 7,
+      "type": "multiple-choice",
+      "points": 13,
+      "question": "Which equation is balanced?",
+      "options": [
+        "N2 + H2 -> NH3",
+        "N2 + 3H2 -> 2NH3",
+        "2N2 + H2 -> NH3",
+        "N2 + 2H2 -> 2NH3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "N2 + 3H2 -> 2NH3 has 2 nitrogen atoms and 6 hydrogen atoms on both sides."
+    },
+    {
+      "id": "q8",
+      "questionId": 8,
+      "type": "short-answer",
+      "points": 13,
+      "question": "In one or two sentences, explain why subscripts should not be changed when balancing chemical equations.",
+      "correctAnswer": "Subscripts should not be changed because they are part of the chemical formula and determine the identity of the substance. Balancing should change only coefficients.",
+      "explanation": "A subscript tells how many atoms are in one particle of a substance. Changing it creates a different substance instead of balancing the original reaction."
+    }
+  ]
+}

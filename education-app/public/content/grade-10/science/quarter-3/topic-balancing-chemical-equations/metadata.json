@@ -1,0 +1,39 @@
+{
+  "id": "grade-10-science-q3-balancing-chemical-equations",
+  "grade": 10,
+  "subject": "Science",
+  "quarter": 3,
+  "topicName": "Balancing Chemical Equations: Practice and Strategies",
+  "description": "Practice balancing simple chemical equations by changing coefficients, counting atoms on both sides, and checking that each equation follows the Law of Conservation of Mass.",
+  "learningObjectives": [
+    "Balance simple chemical equations by adjusting coefficients",
+    "Count atoms of each element on both sides of a chemical equation",
+    "Explain why coefficients may be changed but subscripts must stay fixed",
+    "Use a systematic strategy to balance equations involving hydrogen, oxygen, metals, and simple compounds"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "chemistry",
+    "chemical-equations",
+    "balancing-equations",
+    "coefficients",
+    "subscripts",
+    "conservation-of-mass",
+    "atom-counting"
+  ],
+  "prerequisites": [
+    "Reactants and products in a chemical equation",
+    "Chemical symbols and formulas",
+    "Difference between coefficients and subscripts",
+    "Law of Conservation of Mass",
+    "Counting atoms in formulas such as H2O, O2, CO2, and NH3"
+  ],
+  "lastUpdated": "2026-06-11",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

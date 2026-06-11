@@ -1,0 +1,114 @@
+{
+  "examId": "grade-10-science-q3-combination-decomposition-reactions-assessment",
+  "examType": "assessment",
+  "title": "Combination and Decomposition Reactions Assessment",
+  "description": "Checkpoint assessment for classifying and explaining combination and decomposition reaction patterns.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 12,
+  "totalPoints": 120,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement best describes a combination reaction?",
+      "options": ["One compound breaks into simpler substances.", "Two or more substances form one product.", "Two compounds exchange parts.", "One element replaces another element."],
+      "correctAnswer": 1,
+      "explanation": "Combination reactions build one product from two or more reactants.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which statement best describes a decomposition reaction?",
+      "options": ["One substance breaks into two or more products.", "Two elements form one compound only when oxygen is present.", "Two compounds trade ions.", "A metal reacts with an acid."],
+      "correctAnswer": 0,
+      "explanation": "Decomposition reactions follow AB -> A + B, where one reactant forms multiple products.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Classify the reaction: N2 + 3H2 -> 2NH3.",
+      "options": ["Decomposition", "Combination", "Double replacement", "No reaction"],
+      "correctAnswer": 1,
+      "explanation": "Nitrogen and hydrogen are two reactant substances that form one product substance, ammonia. This is combination.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Classify the reaction: 2KClO3 -> 2KCl + 3O2.",
+      "options": ["Combination", "Decomposition", "Single replacement", "Double replacement"],
+      "correctAnswer": 1,
+      "explanation": "One reactant substance, KClO3, forms two product substances, KCl and O2. This is decomposition.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "The reaction pattern AB -> A + B represents decomposition.",
+      "correctAnswer": "true",
+      "explanation": "AB starts as one substance and breaks into A and B, so the pattern shows decomposition.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "If a reaction has oxygen as a reactant, it must be a combination reaction.",
+      "correctAnswer": "false",
+      "explanation": "Oxygen can appear in many reaction types. Classification depends on the full reactant-product pattern.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "Fill in the missing product pattern: In a combination reaction, A + B -> ____.",
+      "correctAnswer": "AB",
+      "explanation": "Combination means A and B join to form a single product, AB.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "Fill in the reaction type: 2H2O2 -> 2H2O + O2 is __________.",
+      "correctAnswer": "decomposition",
+      "explanation": "One reactant substance, H2O2, forms two product substances, H2O and O2.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "Which equation is a combination reaction?",
+      "options": ["2NaCl -> 2Na + Cl2", "CaCO3 -> CaO + CO2", "4Fe + 3O2 -> 2Fe2O3", "2H2O2 -> 2H2O + O2"],
+      "correctAnswer": 2,
+      "explanation": "Fe and O2 are two reactant substances forming one product substance, Fe2O3.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "Which equation is a decomposition reaction?",
+      "options": ["2Na + Cl2 -> 2NaCl", "CaO + CO2 -> CaCO3", "2HgO -> 2Hg + O2", "2H2 + O2 -> 2H2O"],
+      "correctAnswer": 2,
+      "explanation": "One reactant substance, HgO, forms two product substances, Hg and O2. That is decomposition.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "question": "A student says 4Fe + 3O2 -> 2Fe2O3 is decomposition because the coefficient 4 is large. Explain the mistake.",
+      "correctAnswer": "The mistake is using coefficients to decide the reaction type. Fe and O2 are two reactant substances that form one product, Fe2O3, so the reaction is combination.",
+      "explanation": "Coefficients balance atom counts. For this lesson's classification, the important clue is many reactant substances forming one product substance.",
+      "points": 10
+    },
+    {
+      "id": "q12",
+      "type": "short-answer",
+      "question": "Explain how reversing 2Na + Cl2 -> 2NaCl would change the reaction type.",
+      "correctAnswer": "The forward reaction is combination because Na and Cl2 form NaCl. If reversed as 2NaCl -> 2Na + Cl2, one compound breaks into simpler substances, so it becomes decomposition.",
+      "explanation": "The arrow direction matters. The same substances can show opposite reaction patterns when the equation is reversed.",
+      "points": 10
+    }
+  ]
+}

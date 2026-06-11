@@ -1,0 +1,80 @@
+{
+  "examId": "grade-10-science-q3-combination-decomposition-reactions-practice",
+  "examType": "practice",
+  "title": "Combination and Decomposition Reactions Practice",
+  "description": "Practice recognizing the patterns A + B -> AB and AB -> A + B.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which general pattern represents a combination reaction?",
+      "options": ["AB -> A + B", "A + B -> AB", "A + BC -> AC + B", "AB + CD -> AD + CB"],
+      "correctAnswer": 1,
+      "explanation": "A combination reaction forms one product from two or more reactants, so the pattern is A + B -> AB.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Classify the reaction: 2Mg + O2 -> 2MgO.",
+      "options": ["Combination", "Decomposition", "Single replacement", "Double replacement"],
+      "correctAnswer": 0,
+      "explanation": "Two reactant substances, Mg and O2, form one product substance, MgO. That matches combination.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A decomposition reaction starts with one reactant and forms two or more products.",
+      "correctAnswer": "true",
+      "explanation": "Decomposition follows the pattern AB -> A + B, where one substance breaks into simpler substances.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Classify the reaction: 2H2O -> 2H2 + O2.",
+      "options": ["Combination", "Decomposition", "Combustion", "Neutralization"],
+      "correctAnswer": 1,
+      "explanation": "One reactant substance, H2O, forms two product substances, H2 and O2. That is decomposition.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "Fill in the reaction type: A + B -> AB is a __________ reaction.",
+      "correctAnswer": "combination or synthesis",
+      "explanation": "Combination reactions are also called synthesis reactions because substances join to build one product.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Which clue best identifies a decomposition reaction?",
+      "options": ["Many products join into one reactant", "One reactant forms two or more products", "The equation contains oxygen", "The equation has large coefficients"],
+      "correctAnswer": 1,
+      "explanation": "The main pattern clue for decomposition is one reactant breaking into two or more products.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "Coefficients alone determine whether a reaction is combination or decomposition.",
+      "correctAnswer": "false",
+      "explanation": "Coefficients help balance the equation. Reaction type is identified by the pattern of different reactant and product substances.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "In one or two sentences, explain why CaO + CO2 -> CaCO3 is a combination reaction.",
+      "correctAnswer": "It is a combination reaction because two reactant substances, CaO and CO2, join to form one product substance, CaCO3.",
+      "explanation": "The equation matches A + B -> AB: multiple reactants make a single product.",
+      "points": 10
+    }
+  ]
+}

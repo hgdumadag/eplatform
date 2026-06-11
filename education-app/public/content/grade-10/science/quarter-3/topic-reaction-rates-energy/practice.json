@@ -1,0 +1,108 @@
+{
+  "examId": "grade-10-science-q3-reaction-rates-energy-practice",
+  "examType": "practice",
+  "title": "Practice: Reaction Rates and Energy",
+  "description": "Low-stakes practice on factors affecting reaction rate and exothermic versus endothermic reactions.",
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "timeLimit": 25,
+  "passingScore": 70,
+  "questions": [
+    {
+      "questionId": 1,
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which statement best defines reaction rate?",
+      "options": [
+        "How fast reactants are converted into products",
+        "How heavy the products are after a reaction",
+        "How colorful the reactants are before mixing",
+        "How many atoms are shown in a formula"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Reaction rate describes the speed of a reaction, or how quickly reactants change into products."
+    },
+    {
+      "questionId": 2,
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Why does refrigeration help preserve food?",
+      "options": [
+        "It increases the concentration of food particles",
+        "It lowers temperature and slows many spoilage reactions",
+        "It turns all bacteria into catalysts",
+        "It removes all oxygen from the food"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Lower temperature slows particle motion and reduces the rate of many chemical and microbial spoilage processes."
+    },
+    {
+      "questionId": 3,
+      "id": "q3",
+      "type": "true-false",
+      "points": 10,
+      "question": "True or False: Crushing a solid into powder usually increases its reaction rate because more surface area is exposed.",
+      "correctAnswer": "true",
+      "explanation": "True. Powder exposes more solid surface to the other reactant, allowing more collisions at the same time."
+    },
+    {
+      "questionId": 4,
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A catalyst is best described as a substance that:",
+      "options": [
+        "slows every reaction by lowering temperature",
+        "speeds up a reaction without being used up overall",
+        "is always the main product of the reaction",
+        "changes a chemical reaction into a physical change"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A catalyst increases reaction rate and is not consumed overall, so it can continue helping the reaction."
+    },
+    {
+      "questionId": 5,
+      "id": "q5",
+      "type": "fill-in",
+      "points": 10,
+      "question": "A reaction that releases energy to the surroundings is called ____.",
+      "correctAnswer": "exothermic",
+      "explanation": "Exothermic reactions release energy, often making the surroundings warmer."
+    },
+    {
+      "questionId": 6,
+      "id": "q6",
+      "type": "true-false",
+      "points": 10,
+      "question": "True or False: Increasing reactant concentration usually increases reaction rate because there are more reacting particles in the same volume.",
+      "correctAnswer": "true",
+      "explanation": "True. More particles in the same space usually means more collisions per second."
+    },
+    {
+      "questionId": 7,
+      "id": "q7",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "An instant cold pack becomes cold when activated. Which energy description best fits?",
+      "options": [
+        "Exothermic, because energy leaves the surroundings",
+        "Endothermic, because energy is absorbed from the surroundings",
+        "Catalytic, because no energy is involved",
+        "Combustion, because oxygen is released"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A cold pack absorbs energy from its surroundings, so the surroundings feel cooler. That is endothermic behavior."
+    },
+    {
+      "questionId": 8,
+      "id": "q8",
+      "type": "short-answer",
+      "points": 10,
+      "question": "Explain why sawdust or thin wood shavings can catch fire more easily than a thick log.",
+      "correctAnswer": "Sawdust or thin shavings have much greater surface area exposed to oxygen, so combustion can happen faster than in a thick log.",
+      "explanation": "Greater surface area allows more fuel particles to contact oxygen at once, increasing the rate of combustion."
+    }
+  ]
+}

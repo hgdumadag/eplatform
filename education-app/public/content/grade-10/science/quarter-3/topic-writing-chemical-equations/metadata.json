@@ -1,0 +1,41 @@
+{
+  "id": "grade-10-science-q3-writing-chemical-equations",
+  "grade": 10,
+  "subject": "Science",
+  "quarter": 3,
+  "topicName": "Chemistry - Lesson 7: Writing Chemical Equations: Word Form and Formula Form",
+  "description": "Translate chemical reactions from word equations into formula equations by identifying reactants, products, the meaning of the arrow, coefficients, and subscripts.",
+  "learningObjectives": [
+    "Write a chemical reaction in word equation form using reactant and product names",
+    "Translate a word equation into formula form using correct chemical symbols and formulas",
+    "Identify reactants, products, and the meaning of the reaction arrow",
+    "Distinguish coefficients from subscripts in chemical formulas and equations",
+    "Explain why subscripts should not be changed when writing a correct formula equation"
+  ],
+  "estimatedDuration": 35,
+  "difficulty": "beginner",
+  "tags": [
+    "chemistry",
+    "chemical-equations",
+    "word-equations",
+    "formula-equations",
+    "reactants",
+    "products",
+    "coefficients",
+    "subscripts"
+  ],
+  "lastUpdated": "2026-06-11",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  },
+  "prerequisites": [
+    "Recognizing common element symbols such as H, O, C, Mg, and Na",
+    "Understanding that atoms and molecules make up substances",
+    "Knowing that compounds have fixed chemical formulas",
+    "Basic familiarity with chemical reactions forming new substances",
+    "Recall from Grade 9 bonding that subscripts show atoms within one particle of a substance"
+  ]
+}

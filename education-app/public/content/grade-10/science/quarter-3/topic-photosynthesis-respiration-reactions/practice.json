@@ -1,0 +1,102 @@
+{
+  "examId": "grade-10-science-q3-photosynthesis-respiration-reactions-practice",
+  "examType": "practice",
+  "title": "Practice: Photosynthesis and Respiration Reactions",
+  "description": "Low-stakes practice on reactants, products, energy storage and release, and gas cycling in photosynthesis and cellular respiration.",
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "timeLimit": 20,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": 1,
+      "type": "multiple-choice",
+      "points": 12,
+      "question": "Which word equation best represents photosynthesis?",
+      "options": [
+        "glucose + oxygen -> carbon dioxide + water + energy",
+        "carbon dioxide + water + light energy -> glucose + oxygen",
+        "oxygen + water -> glucose + carbon dioxide",
+        "glucose + carbon dioxide -> oxygen + water + energy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Photosynthesis uses carbon dioxide, water, and light energy to produce glucose and oxygen."
+    },
+    {
+      "id": "q2",
+      "questionId": 2,
+      "type": "multiple-choice",
+      "points": 12,
+      "question": "In cellular respiration, which pair of substances are the main reactants?",
+      "options": [
+        "carbon dioxide and water",
+        "glucose and oxygen",
+        "glucose and carbon dioxide",
+        "oxygen and water"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cellular respiration begins with glucose and oxygen, then produces carbon dioxide, water, and energy."
+    },
+    {
+      "id": "q3",
+      "questionId": 3,
+      "type": "true-false",
+      "points": 12,
+      "question": "True or False: Photosynthesis stores energy in glucose.",
+      "correctAnswer": "true",
+      "explanation": "True. Light energy is converted into chemical energy stored in the bonds of glucose."
+    },
+    {
+      "id": "q4",
+      "questionId": 4,
+      "type": "true-false",
+      "points": 12,
+      "question": "True or False: Plants perform photosynthesis but never perform cellular respiration.",
+      "correctAnswer": "false",
+      "explanation": "False. Plant cells also perform cellular respiration to release usable energy from glucose."
+    },
+    {
+      "id": "q5",
+      "questionId": 5,
+      "type": "fill-in",
+      "points": 13,
+      "question": "Complete the product of photosynthesis: carbon dioxide + water + light energy -> glucose + _____.",
+      "correctAnswer": "oxygen or O2",
+      "explanation": "Photosynthesis produces glucose and oxygen. Oxygen may be written as the word oxygen or as O2."
+    },
+    {
+      "id": "q6",
+      "questionId": 6,
+      "type": "fill-in",
+      "points": 13,
+      "question": "Complete the missing reactant in respiration: glucose + _____ -> carbon dioxide + water + energy.",
+      "correctAnswer": "oxygen or O2",
+      "explanation": "Oxygen is required in aerobic cellular respiration to help release energy from glucose."
+    },
+    {
+      "id": "q7",
+      "questionId": 7,
+      "type": "multiple-choice",
+      "points": 13,
+      "question": "Which statement best explains how photosynthesis and respiration are connected?",
+      "options": [
+        "Both reactions use oxygen as a reactant.",
+        "Both reactions release energy from glucose.",
+        "The products of one reaction can become reactants of the other.",
+        "Only animals use the products of photosynthesis."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Photosynthesis produces glucose and oxygen, which respiration uses. Respiration produces carbon dioxide and water, which photosynthesis uses."
+    },
+    {
+      "id": "q8",
+      "questionId": 8,
+      "type": "short-answer",
+      "points": 13,
+      "question": "In one or two sentences, explain why cellular respiration is important to plant cells.",
+      "correctAnswer": "Plant cells need cellular respiration to release usable energy from glucose for growth, repair, transport, and other cell activities.",
+      "explanation": "Plants can make glucose, but cells still need to break glucose down through respiration to access usable energy."
+    }
+  ]
+}

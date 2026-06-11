@@ -1,0 +1,156 @@
+{
+  "examId": "grade-10-science-q3-environmental-chemical-reactions-assessment",
+  "examType": "assessment",
+  "title": "Assessment: Chemical Reactions in the Environment",
+  "description": "Checkpoint assessment on environmental chemical reactions, local examples, reaction products, and common misconceptions.",
+  "totalQuestions": 12,
+  "totalPoints": 120,
+  "timeLimit": 40,
+  "passingScore": 75,
+  "questions": [
+    {
+      "questionId": 1,
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which situation is the best example of combustion in the environment?",
+      "options": [
+        "Rainwater slowly evaporating from a road",
+        "LPG burning in a kitchen stove",
+        "Sugar dissolving in coffee",
+        "A magnet sticking to an iron gate"
+      ],
+      "correctAnswer": 1,
+      "explanation": "LPG burning is combustion because fuel reacts with oxygen and releases heat and light. Evaporation and dissolving are physical changes."
+    },
+    {
+      "questionId": 2,
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A student observes bubbles when dilute acid touches a strip of magnesium. Which product explains the bubbles?",
+      "options": [
+        "Hydrogen gas",
+        "Carbon dioxide gas",
+        "Water vapor only",
+        "Nitrogen gas"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Acids reacting with many active metals produce a salt and hydrogen gas. The bubbles are evidence of the hydrogen gas."
+    },
+    {
+      "questionId": 3,
+      "id": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which product set is expected when acid reacts with calcium carbonate in limestone?",
+      "options": [
+        "salt + hydrogen gas",
+        "salt + water + carbon dioxide",
+        "oxygen + water + metal",
+        "carbon dioxide + hydrogen gas only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Acid + carbonate reactions produce a salt, water, and carbon dioxide. This is why carbonate materials fizz with acid."
+    },
+    {
+      "questionId": 4,
+      "id": "q4",
+      "type": "true-false",
+      "points": 10,
+      "question": "True or False: Acid rain is usually weak, but repeated exposure can still damage stone and metal surfaces over time.",
+      "correctAnswer": "true",
+      "explanation": "True. Acid rain does not instantly destroy materials, but repeated wetting can slowly corrode metals and dissolve carbonate surfaces."
+    },
+    {
+      "questionId": 5,
+      "id": "q5",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which pair of pollutants can help form acid rain after reacting in the atmosphere?",
+      "options": [
+        "Sulfur dioxide and nitrogen oxides",
+        "Oxygen and table salt",
+        "Hydrogen gas and helium",
+        "Water vapor and pure nitrogen only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sulfur dioxide and nitrogen oxides from burning fuels can react with oxygen and water in air to form acidic substances."
+    },
+    {
+      "questionId": 6,
+      "id": "q6",
+      "type": "short-answer",
+      "points": 10,
+      "question": "Explain one way combustion is helpful and one way it can harm the environment.",
+      "correctAnswer": "Combustion is helpful because it releases energy for cooking, transportation, or electricity. It can harm the environment by releasing carbon dioxide and pollutants such as smoke, nitrogen oxides, or carbon monoxide when burning is incomplete.",
+      "explanation": "A complete answer should show the tradeoff: combustion supplies useful energy, but its products can affect climate and air quality."
+    },
+    {
+      "questionId": 7,
+      "id": "q7",
+      "type": "fill-in",
+      "points": 10,
+      "question": "The general pattern for acid + metal is: acid + metal -> salt + ____ gas.",
+      "correctAnswer": "hydrogen",
+      "explanation": "Acids reacting with many metals produce a salt and hydrogen gas."
+    },
+    {
+      "questionId": 8,
+      "id": "q8",
+      "type": "true-false",
+      "points": 10,
+      "question": "True or False: Bubbles always prove that water is boiling and never indicate a chemical reaction.",
+      "correctAnswer": "false",
+      "explanation": "False. Bubbles can come from boiling, but they can also show gas production in a chemical reaction, such as hydrogen or carbon dioxide forming."
+    },
+    {
+      "questionId": 9,
+      "id": "q9",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A marble marker near a busy road becomes dull and pitted after years of rain exposure. Which explanation best fits the lesson?",
+      "options": [
+        "The marble changed only because sunlight melted it",
+        "Acidic rainwater reacted slowly with carbonate in the marble",
+        "The marble absorbed oxygen and became gasoline",
+        "The rain turned the marble into pure iron"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Marble contains calcium carbonate. Acidic rainwater can react with carbonate and gradually etch or pit the surface."
+    },
+    {
+      "questionId": 10,
+      "id": "q10",
+      "type": "short-answer",
+      "points": 10,
+      "question": "A student says, 'Acid + metal and acid + carbonate both make the same gas because both fizz.' Correct the statement.",
+      "correctAnswer": "They can both fizz, but the gases are different. Acid + metal usually produces hydrogen gas, while acid + carbonate produces carbon dioxide gas.",
+      "explanation": "The same visible evidence, bubbles, can come from different gases. The reactants determine which gas forms."
+    },
+    {
+      "questionId": 11,
+      "id": "q11",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which action would best reduce corrosion risk for an outdoor metal gate in a humid Philippine coastal community?",
+      "options": [
+        "Remove all paint so rain can wash the metal directly",
+        "Keep it scratched to expose fresh metal",
+        "Apply and maintain a protective coating or paint",
+        "Sprinkle saltwater on it weekly"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Protective coatings limit contact between the metal and water, oxygen, salt, and acidic pollutants, reducing corrosion risk."
+    },
+    {
+      "questionId": 12,
+      "id": "q12",
+      "type": "fill-in",
+      "points": 10,
+      "question": "In acid rain damage to limestone, the gas produced by the acid-carbonate reaction is ____.",
+      "correctAnswer": "carbon dioxide or CO2",
+      "explanation": "Limestone contains calcium carbonate. Acid + carbonate reactions produce a salt, water, and carbon dioxide gas."
+    }
+  ]
+}

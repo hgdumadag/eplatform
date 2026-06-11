@@ -1,0 +1,150 @@
+{
+  "examId": "grade-10-science-q3-single-double-replacement-reactions-assessment",
+  "examType": "assessment",
+  "title": "Assessment: Single and Double Replacement Reactions",
+  "description": "Checkpoint assessment on classifying replacement reactions and explaining partner switches.",
+  "totalQuestions": 12,
+  "totalPoints": 60,
+  "timeLimit": 30,
+  "passingScore": 75,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": 1,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which reaction best matches A + BC -> AC + B?",
+      "options": [
+        "2H2 + O2 -> 2H2O",
+        "Zn + CuCl2 -> ZnCl2 + Cu",
+        "AgNO3 + NaCl -> AgCl + NaNO3",
+        "CaCO3 -> CaO + CO2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Zn is a free element replacing Cu in CuCl2, so it follows A + BC -> AC + B."
+    },
+    {
+      "id": "q2",
+      "questionId": 2,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which reaction best matches AB + CD -> AD + CB?",
+      "options": [
+        "Mg + 2HCl -> MgCl2 + H2",
+        "2KClO3 -> 2KCl + 3O2",
+        "HCl + NaOH -> NaCl + H2O",
+        "2Na + Cl2 -> 2NaCl"
+      ],
+      "correctAnswer": 2,
+      "explanation": "HCl and NaOH are two compounds that exchange partners to form NaCl and H2O, so this is double replacement."
+    },
+    {
+      "id": "q3",
+      "questionId": 3,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "In Fe + CuSO4 -> FeSO4 + Cu, which element is replaced?",
+      "options": [
+        "Fe",
+        "Cu",
+        "S",
+        "O"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fe replaces Cu in copper(II) sulfate. Cu is released as a product."
+    },
+    {
+      "id": "q4",
+      "questionId": 4,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "In AgNO3 + NaCl -> AgCl + NaNO3, which pair forms after the partner switch?",
+      "options": [
+        "AgCl",
+        "AgNa",
+        "NO3Cl",
+        "NaAg"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Silver ions pair with chloride ions after the switch, forming AgCl."
+    },
+    {
+      "id": "q5",
+      "questionId": 5,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A cloudy solid appears when two clear solutions are mixed. Which clue for double replacement is this?",
+      "options": [
+        "Combustion",
+        "Precipitate formation",
+        "Melting",
+        "Sublimation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A cloudy solid is evidence that an insoluble precipitate formed, a common clue for double replacement."
+    },
+    {
+      "id": "q6",
+      "questionId": 6,
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: In double replacement, both reactants are usually compounds.",
+      "correctAnswer": "true",
+      "explanation": "True. Double replacement involves two compounds exchanging positive and negative partners."
+    },
+    {
+      "id": "q7",
+      "questionId": 7,
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: In Cu + 2AgNO3 -> Cu(NO3)2 + 2Ag, copper replaces silver.",
+      "correctAnswer": "true",
+      "explanation": "True. Copper starts as a free element and replaces silver in silver nitrate."
+    },
+    {
+      "id": "q8",
+      "questionId": 8,
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: The polyatomic ion NO3 should often be tracked as a group in replacement reaction patterns.",
+      "correctAnswer": "true",
+      "explanation": "True. Groups such as NO3 and SO4 often move together when identifying partner switches."
+    },
+    {
+      "id": "q9",
+      "questionId": 9,
+      "type": "fill-in",
+      "points": 5,
+      "question": "Fill in the word: AB + CD -> AD + CB is the pattern for _____ replacement.",
+      "correctAnswer": "double",
+      "explanation": "The pattern shows two compounds exchanging partners, so it is double replacement."
+    },
+    {
+      "id": "q10",
+      "questionId": 10,
+      "type": "fill-in",
+      "points": 5,
+      "question": "Fill in the missing product pattern: A + BC -> AC + _____.",
+      "correctAnswer": "B",
+      "explanation": "In single replacement, A joins C and B is released, giving AC + B."
+    },
+    {
+      "id": "q11",
+      "questionId": 11,
+      "type": "short-answer",
+      "points": 5,
+      "question": "A classmate says Zn + CuSO4 -> ZnSO4 + Cu is double replacement because there are two products. Correct the error in one or two sentences.",
+      "correctAnswer": "It is single replacement because Zn is a free element that replaces Cu in CuSO4. The number of products alone does not determine the reaction type.",
+      "explanation": "The classification depends on the partner change. Element plus compound forming compound plus element is single replacement."
+    },
+    {
+      "id": "q12",
+      "questionId": 12,
+      "type": "short-answer",
+      "points": 5,
+      "question": "For Pb(NO3)2 + 2KI -> PbI2 + 2KNO3, identify the reaction type and describe the partner switch.",
+      "correctAnswer": "It is a double replacement reaction. Pb pairs with I to form PbI2, and K pairs with NO3 to form KNO3.",
+      "explanation": "Both reactants are compounds, and the ions exchange partners. The nitrate group stays together as NO3."
+    }
+  ]
+}

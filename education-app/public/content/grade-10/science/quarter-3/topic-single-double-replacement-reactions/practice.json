@@ -1,0 +1,108 @@
+{
+  "examId": "grade-10-science-q3-single-double-replacement-reactions-practice",
+  "examType": "practice",
+  "title": "Practice: Single and Double Replacement Reactions",
+  "description": "Low-stakes practice on identifying single replacement and double replacement reaction patterns.",
+  "totalQuestions": 8,
+  "totalPoints": 40,
+  "timeLimit": 20,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": 1,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which general pattern represents a single replacement reaction?",
+      "options": [
+        "AB -> A + B",
+        "A + B -> AB",
+        "A + BC -> AC + B",
+        "AB + CD -> AD + CB"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Single replacement has one free element replacing one part of a compound: A + BC -> AC + B."
+    },
+    {
+      "id": "q2",
+      "questionId": 2,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which general pattern represents a double replacement reaction?",
+      "options": [
+        "AB + CD -> AD + CB",
+        "AB -> A + B",
+        "A + BC -> AC + B",
+        "A + B -> AB"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Double replacement happens when two compounds exchange partners, matching AB + CD -> AD + CB."
+    },
+    {
+      "id": "q3",
+      "questionId": 3,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Classify the reaction: Fe + CuSO4 -> FeSO4 + Cu",
+      "options": [
+        "Synthesis",
+        "Decomposition",
+        "Single replacement",
+        "Double replacement"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fe is a free element that replaces Cu in CuSO4, so the reaction is single replacement."
+    },
+    {
+      "id": "q4",
+      "questionId": 4,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Classify the reaction: AgNO3 + NaCl -> AgCl + NaNO3",
+      "options": [
+        "Double replacement",
+        "Single replacement",
+        "Combustion",
+        "Decomposition"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both reactants are compounds, and their partners switch: Ag pairs with Cl, while Na pairs with NO3."
+    },
+    {
+      "id": "q5",
+      "questionId": 5,
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: In a single replacement reaction, one free element replaces another element in a compound.",
+      "correctAnswer": "true",
+      "explanation": "True. That is the core idea of the single replacement pattern A + BC -> AC + B."
+    },
+    {
+      "id": "q6",
+      "questionId": 6,
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: A reaction with two products must always be a double replacement reaction.",
+      "correctAnswer": "false",
+      "explanation": "False. Single replacement reactions also often have two products. You must track the partner changes."
+    },
+    {
+      "id": "q7",
+      "questionId": 7,
+      "type": "fill-in",
+      "points": 5,
+      "question": "Fill in the reaction type: Zn + 2HCl -> ZnCl2 + H2 is a _____ replacement reaction.",
+      "correctAnswer": "single",
+      "explanation": "Zn is a free element that replaces hydrogen in HCl, so it is a single replacement reaction."
+    },
+    {
+      "id": "q8",
+      "questionId": 8,
+      "type": "short-answer",
+      "points": 5,
+      "question": "In one or two sentences, explain why BaCl2 + Na2SO4 -> BaSO4 + 2NaCl is a double replacement reaction.",
+      "correctAnswer": "It is double replacement because two compounds exchange partners. Ba pairs with SO4, and Na pairs with Cl.",
+      "explanation": "The key evidence is that both reactants are compounds and the positive and negative parts switch partners."
+    }
+  ]
+}

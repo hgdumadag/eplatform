@@ -1,0 +1,39 @@
+{
+  "id": "grade-10-science-q3-conservation-of-mass-equations",
+  "grade": 10,
+  "subject": "Science",
+  "quarter": 3,
+  "topicName": "Chemistry - Lesson 8: Conservation of Mass: Why Equations Must Balance",
+  "description": "Explain the Law of Conservation of Mass, use simple mass-in equals mass-out calculations, and check whether chemical equations have equal atom counts on both sides.",
+  "learningObjectives": [
+    "State the Law of Conservation of Mass in your own words",
+    "Explain that atoms are rearranged, not created or destroyed, during chemical reactions",
+    "Use conservation of mass to solve simple reactant-product mass problems",
+    "Count atoms of each element on both sides of a chemical equation",
+    "Explain why balanced equations must have equal atom counts on both sides",
+    "Distinguish between changing coefficients and changing subscripts when balancing equations"
+  ],
+  "estimatedDuration": 35,
+  "difficulty": "beginner",
+  "tags": [
+    "chemistry",
+    "chemical-equations",
+    "conservation-of-mass",
+    "balanced-equations",
+    "atom-counting"
+  ],
+  "lastUpdated": "2026-06-11",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  },
+  "prerequisites": [
+    "Identifying reactants and products in a chemical equation",
+    "Reading chemical formulas with element symbols and subscripts",
+    "Understanding coefficients as numbers placed before formulas",
+    "Basic addition of whole-number masses in grams",
+    "Recognizing that chemical reactions rearrange atoms into new substances"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "examId": "grade-10-science-q3-indicators-chemical-reaction-practice",
+  "examType": "practice",
+  "title": "Practice: Indicators of a Chemical Reaction",
+  "description": "A short practice set on five common indicators of chemical reactions and the difference between chemical and physical changes.",
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "timeLimit": 20,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which observation is the best evidence that a chemical reaction may have happened?",
+      "options": [
+        "A piece of paper is folded in half.",
+        "Ice changes into liquid water.",
+        "A new solid forms when two clear liquids are mixed.",
+        "A pencil is sharpened."
+      ],
+      "correctAnswer": 2,
+      "explanation": "A new solid forming from two liquids is called a precipitate. It is a common indicator that a new substance may have formed."
+    },
+    {
+      "id": "q2",
+      "questionId": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which list contains only common indicators of a chemical reaction?",
+      "options": [
+        "Color change, gas release, precipitate formation, odor production, temperature change",
+        "Melting, freezing, cutting, bending, tearing",
+        "Measuring, weighing, stirring, pouring, filtering",
+        "Size change, shape change, location change, speed change, sound change"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The five common indicators are color change, formation of a precipitate, release of gas, production of odor, and a temperature change."
+    },
+    {
+      "id": "q3",
+      "questionId": "q3",
+      "type": "true-false",
+      "points": 10,
+      "question": "True or False: Bubbles always prove that a chemical reaction has occurred.",
+      "correctAnswer": "false",
+      "explanation": "Boiling water forms bubbles, but it is a physical change. Bubbles are stronger evidence when they are not caused by boiling and represent a new gas product."
+    },
+    {
+      "id": "q4",
+      "questionId": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Melting ice is best classified as a physical change because",
+      "options": [
+        "it produces a new gas.",
+        "the substance is still water.",
+        "it produces a new odor.",
+        "a precipitate forms."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Melting changes the state from solid to liquid, but the substance remains water. No new substance forms."
+    },
+    {
+      "id": "q5",
+      "questionId": "q5",
+      "type": "fill-in",
+      "points": 10,
+      "question": "A solid that forms when two solutions are mixed is called a ________.",
+      "correctAnswer": "precipitate",
+      "explanation": "A precipitate is an insoluble solid that forms during some chemical reactions in solution."
+    },
+    {
+      "id": "q6",
+      "questionId": "q6",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A sliced apple slowly turns brown after being exposed to air. Which indicator is most obvious?",
+      "options": [
+        "Color change",
+        "Formation of a precipitate",
+        "Change in shape only",
+        "Boiling"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The browning of a sliced apple is an observable color change caused by chemical reactions with oxygen in the air."
+    },
+    {
+      "id": "q7",
+      "questionId": "q7",
+      "type": "true-false",
+      "points": 10,
+      "question": "True or False: A chemical change forms one or more new substances.",
+      "correctAnswer": "true",
+      "explanation": "This is the central idea of a chemical change: reactants are changed into products with new properties."
+    },
+    {
+      "id": "q8",
+      "questionId": "q8",
+      "type": "short-answer",
+      "points": 10,
+      "question": "A student says, \"Boiling water is a chemical reaction because bubbles appear.\" In one or two sentences, explain the mistake.",
+      "correctAnswer": "Boiling water is a physical change because liquid water becomes water vapor, which is still water. Bubbles alone do not prove a chemical reaction.",
+      "explanation": "The key correction is that bubbles can come from a change of state. A chemical reaction requires evidence that a new substance formed."
+    }
+  ]
+}

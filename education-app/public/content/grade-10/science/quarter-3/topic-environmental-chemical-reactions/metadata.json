@@ -1,0 +1,38 @@
+{
+  "id": "grade-10-science-q3-environmental-chemical-reactions",
+  "grade": 10,
+  "subject": "Science",
+  "quarter": 3,
+  "topicName": "Chemical Reactions in the Environment",
+  "description": "Explain combustion, reactions of acids with metals, reactions of acids with carbonates, and acid rain damage using environmental and Philippine local contexts.",
+  "learningObjectives": [
+    "Describe combustion as a rapid reaction with oxygen that releases heat and light",
+    "Explain how acids react with many metals to produce a salt and hydrogen gas",
+    "Explain how acids react with carbonates to produce a salt, water, and carbon dioxide",
+    "Connect environmental chemical reactions to fuel use, corrosion, acid rain, and damage to natural and built structures"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "chemical reactions",
+    "combustion",
+    "acid metal reaction",
+    "acid carbonate reaction",
+    "acid rain",
+    "environmental chemistry",
+    "corrosion"
+  ],
+  "prerequisites": [
+    "Common indicators of chemical reactions",
+    "Basic properties of acids, bases, and salts",
+    "Combination, decomposition, single replacement, and double replacement reaction patterns",
+    "Reactants and products in word equations"
+  ],
+  "lastUpdated": "2026-06-11",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}
