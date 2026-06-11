@@ -391,7 +391,7 @@ Use this checklist before opening `practice.json`.
 
 Environmental chemistry is chemistry happening around you. Combustion gives energy for cooking, travel, and electricity, but it also releases carbon dioxide and sometimes harmful pollutants. Acids can react with metals to form salts and hydrogen gas, contributing to corrosion problems. Acids can react with carbonates to form salts, water, and carbon dioxide, explaining fizzing with shells or chalk and long-term damage to limestone or marble. Acid rain connects air pollution to material damage because pollutants can become acidic substances in rainwater.
 
-## PRACTICE callout telling learner to complete practice.json then assessment.json
+## Practice and Assessment
 
 > [!PRACTICE] Your Next Step
 >

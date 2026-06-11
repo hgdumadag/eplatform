@@ -1,9 +1,9 @@
 {
-  "id": "grade-10-science-q3-combination-decomposition-reactions",
+  "id": "grade-10-science-q3-topic-combination-decomposition-reactions",
   "grade": 10,
-  "subject": "Science",
+  "subject": "science",
   "quarter": 3,
-  "topicName": "Chemistry - Lesson 3: Combination and Decomposition Reactions",
+  "topicName": "Combination and Decomposition Reactions",
   "description": "Identify combination and decomposition reactions by reading reaction patterns, counting reactants and products, and connecting the patterns to real examples.",
   "learningObjectives": [
     "Describe a combination reaction as two or more reactants forming one product",

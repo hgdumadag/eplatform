@@ -158,7 +158,8 @@ For photosynthesis:
 
 | Question | Answer |
 |---|---|
-| Reactants | `CO2`, `H2O`, and light energy |
+| Material reactants | `CO2` and `H2O` |
+| Energy input | Light energy powers the reaction, but it is not a material substance like carbon dioxide or water. |
 | Products | `C6H12O6` and `O2` |
 | Energy change | Energy is stored in glucose |
 

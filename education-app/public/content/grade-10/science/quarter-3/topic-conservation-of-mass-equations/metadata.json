@@ -1,9 +1,9 @@
 {
-  "id": "grade-10-science-q3-conservation-of-mass-equations",
+  "id": "grade-10-science-q3-topic-conservation-of-mass-equations",
   "grade": 10,
-  "subject": "Science",
+  "subject": "science",
   "quarter": 3,
-  "topicName": "Chemistry - Lesson 8: Conservation of Mass: Why Equations Must Balance",
+  "topicName": "Conservation of Mass: Why Equations Must Balance",
   "description": "Explain the Law of Conservation of Mass, use simple mass-in equals mass-out calculations, and check whether chemical equations have equal atom counts on both sides.",
   "learningObjectives": [
     "State the Law of Conservation of Mass in your own words",
