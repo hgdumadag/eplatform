@@ -1,0 +1,34 @@
+{
+  "id": "grade-9-science-q4-topic-bonds-chemical-change",
+  "grade": 9,
+  "subject": "science",
+  "quarter": 4,
+  "topicName": "Bonds and Chemical Change",
+  "description": "A self-paced lesson connecting observable chemical evidence to bond breaking, bond formation, and new substances.",
+  "learningObjectives": [
+    "Explain that reactions involve breaking and forming bonds",
+    "Connect atom rearrangement to new properties",
+    "Use evidence to infer that products differ from reactants"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "beginner",
+  "tags": [
+    "chemistry",
+    "chemical-bonding",
+    "science-of-materials",
+    "grade-9",
+    "matatag"
+  ],
+  "prerequisites": [
+    "Atoms make up matter",
+    "Chemical change forms new substances",
+    "Particles can be rearranged"
+  ],
+  "lastUpdated": "2026-06-11",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

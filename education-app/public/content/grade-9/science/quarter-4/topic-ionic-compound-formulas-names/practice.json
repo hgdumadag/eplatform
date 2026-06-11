@@ -1,0 +1,108 @@
+{
+  "examId": "grade-9-science-q4-topic-ionic-compound-formulas-names-practice",
+  "examType": "practice",
+  "title": "Practice: Writing Formulas and Names of Ionic Compounds",
+  "description": "Practice questions for Writing Formulas and Names of Ionic Compounds.",
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "timeLimit": 20,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "What formula balances Mg²⁺ and Cl⁻?",
+      "options": [
+        "MgCl",
+        "MgCl₂",
+        "Mg₂Cl",
+        "Mg₂Cl₂"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is: MgCl₂. This matches the main idea of Writing Formulas and Names of Ionic Compounds."
+    },
+    {
+      "id": "q2",
+      "questionId": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "What is the name of MgO?",
+      "options": [
+        "Magnesium oxygen",
+        "Magnesium oxide",
+        "Manganese oxide",
+        "Magnesium chloride"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is: Magnesium oxide. This matches the main idea of Writing Formulas and Names of Ionic Compounds."
+    },
+    {
+      "id": "q3",
+      "questionId": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Why are ionic formulas neutral?",
+      "options": [
+        "They have no atoms",
+        "Positive and negative charges balance",
+        "Only metals are present",
+        "Electrons disappear"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is: Positive and negative charges balance. This matches the main idea of Writing Formulas and Names of Ionic Compounds."
+    },
+    {
+      "id": "q4",
+      "questionId": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "In NaCl, the ion ratio is",
+      "options": [
+        "1:1",
+        "1:2",
+        "2:1",
+        "2:3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is: 1:1. This matches the main idea of Writing Formulas and Names of Ionic Compounds."
+    },
+    {
+      "id": "q5",
+      "questionId": "q5",
+      "type": "true-false",
+      "points": 10,
+      "question": "True or False: The nonmetal name often changes to an -ide ending in binary ionic compounds.",
+      "correctAnswer": "true",
+      "explanation": "This statement is true based on the lesson concepts."
+    },
+    {
+      "id": "q6",
+      "questionId": "q6",
+      "type": "true-false",
+      "points": 10,
+      "question": "True or False: MgCl₂ means there are two magnesium ions for every chlorine ion.",
+      "correctAnswer": "false",
+      "explanation": "This statement is false based on the lesson concepts."
+    },
+    {
+      "id": "q7",
+      "questionId": "q7",
+      "type": "fill-in",
+      "points": 10,
+      "question": "The formula for magnesium chloride is ________.",
+      "correctAnswer": "MgCl2",
+      "explanation": "The expected answer is MgCl2."
+    },
+    {
+      "id": "q8",
+      "questionId": "q8",
+      "type": "short-answer",
+      "points": 10,
+      "question": "Why is MgCl₂ neutral overall?",
+      "correctAnswer": "One Mg²⁺ gives +2 and two Cl⁻ ions give -2, so the total charge is zero.",
+      "explanation": "A complete answer should use the key idea from the lesson and support it with reasoning."
+    }
+  ]
+}

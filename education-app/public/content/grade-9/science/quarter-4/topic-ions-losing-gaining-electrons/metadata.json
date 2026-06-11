@@ -1,0 +1,35 @@
+{
+  "id": "grade-9-science-q4-topic-ions-losing-gaining-electrons",
+  "grade": 9,
+  "subject": "science",
+  "quarter": 4,
+  "topicName": "Ions: Losing and Gaining Electrons",
+  "description": "A Grade 9 chemistry lesson on cations, anions, electron loss, electron gain, and stable outer shells.",
+  "learningObjectives": [
+    "Define ion, cation, and anion",
+    "Explain how electron loss creates positive ions",
+    "Explain how electron gain creates negative ions",
+    "Predict common ion charges for simple metals and nonmetals"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "beginner",
+  "tags": [
+    "chemistry",
+    "chemical-bonding",
+    "science-of-materials",
+    "grade-9",
+    "matatag"
+  ],
+  "prerequisites": [
+    "Electrons are negatively charged",
+    "Atoms have protons and electrons",
+    "Valence electrons affect bonding"
+  ],
+  "lastUpdated": "2026-06-11",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

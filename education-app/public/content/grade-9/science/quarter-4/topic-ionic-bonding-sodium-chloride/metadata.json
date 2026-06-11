@@ -1,0 +1,35 @@
+{
+  "id": "grade-9-science-q4-topic-ionic-bonding-sodium-chloride",
+  "grade": 9,
+  "subject": "science",
+  "quarter": 4,
+  "topicName": "Ionic Bonding: The Story of Sodium Chloride",
+  "description": "A Grade 9 chemistry lesson using sodium chloride to model ionic bonding between a metal and a nonmetal.",
+  "learningObjectives": [
+    "Describe electron transfer in ionic bonding",
+    "Explain formation of Na⁺ and Cl⁻",
+    "Explain why opposite charges attract",
+    "Identify metal-nonmetal bonding as typically ionic"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "beginner",
+  "tags": [
+    "chemistry",
+    "chemical-bonding",
+    "science-of-materials",
+    "grade-9",
+    "matatag"
+  ],
+  "prerequisites": [
+    "Valence electrons",
+    "Cations and anions",
+    "Basic periodic table groups"
+  ],
+  "lastUpdated": "2026-06-11",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

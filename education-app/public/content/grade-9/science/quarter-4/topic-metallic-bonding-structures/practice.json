@@ -1,0 +1,108 @@
+{
+  "examId": "grade-9-science-q4-topic-metallic-bonding-structures-practice",
+  "examType": "practice",
+  "title": "Practice: Metallic Bonding and Structures",
+  "description": "Practice questions for Metallic Bonding and Structures.",
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "timeLimit": 20,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "What is mobile in the sea of electrons model?",
+      "options": [
+        "Protons",
+        "Valence electrons",
+        "Nuclei",
+        "Whole atoms only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is: Valence electrons. This matches the main idea of Metallic Bonding and Structures."
+    },
+    {
+      "id": "q2",
+      "questionId": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Why can metals often be bent?",
+      "options": [
+        "Layers can slide while electrons hold ions together",
+        "All bonds vanish",
+        "Metals are liquids",
+        "Ions become gases"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is: Layers can slide while electrons hold ions together. This matches the main idea of Metallic Bonding and Structures."
+    },
+    {
+      "id": "q3",
+      "questionId": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which structure best describes a metal?",
+      "options": [
+        "Individual molecules only",
+        "Positive ions in a sea of electrons",
+        "Only negative ions",
+        "No particles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is: Positive ions in a sea of electrons. This matches the main idea of Metallic Bonding and Structures."
+    },
+    {
+      "id": "q4",
+      "questionId": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Copper wire conducts mainly because of",
+      "options": [
+        "mobile electrons",
+        "fixed neutrons",
+        "evaporating atoms",
+        "salt water"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is: mobile electrons. This matches the main idea of Metallic Bonding and Structures."
+    },
+    {
+      "id": "q5",
+      "questionId": "q5",
+      "type": "true-false",
+      "points": 10,
+      "question": "True or False: Metals can conduct electricity as solids.",
+      "correctAnswer": "true",
+      "explanation": "This statement is true based on the lesson concepts."
+    },
+    {
+      "id": "q6",
+      "questionId": "q6",
+      "type": "true-false",
+      "points": 10,
+      "question": "True or False: Metallic bonding is the same as covalent sharing in separate molecules.",
+      "correctAnswer": "false",
+      "explanation": "This statement is false based on the lesson concepts."
+    },
+    {
+      "id": "q7",
+      "questionId": "q7",
+      "type": "fill-in",
+      "points": 10,
+      "question": "The model of metallic bonding is often called the sea of ________.",
+      "correctAnswer": "electrons",
+      "explanation": "The expected answer is electrons."
+    },
+    {
+      "id": "q8",
+      "questionId": "q8",
+      "type": "short-answer",
+      "points": 10,
+      "question": "Why are metals usually good electrical conductors?",
+      "correctAnswer": "They contain mobile electrons that can move through the solid and carry electric charge.",
+      "explanation": "A complete answer should use the key idea from the lesson and support it with reasoning."
+    }
+  ]
+}

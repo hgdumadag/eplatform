@@ -1,0 +1,35 @@
+{
+  "id": "grade-9-science-q4-topic-covalent-compound-formulas-names",
+  "grade": 9,
+  "subject": "science",
+  "quarter": 4,
+  "topicName": "Writing Formulas and Names of Covalent Compounds",
+  "description": "A Grade 9 chemistry lesson on simple covalent formulas such as H₂O, CO₂, and NH₃.",
+  "learningObjectives": [
+    "Interpret subscripts in covalent formulas",
+    "Count atoms in H₂O, CO₂, and NH₃",
+    "Recognize common covalent compound names",
+    "Distinguish formula subscripts from charges"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "beginner",
+  "tags": [
+    "chemistry",
+    "chemical-bonding",
+    "science-of-materials",
+    "grade-9",
+    "matatag"
+  ],
+  "prerequisites": [
+    "Element symbols",
+    "Covalent bonds form molecules",
+    "Subscripts in formulas"
+  ],
+  "lastUpdated": "2026-06-11",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

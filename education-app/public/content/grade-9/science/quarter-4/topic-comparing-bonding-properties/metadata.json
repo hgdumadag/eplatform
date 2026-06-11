@@ -1,0 +1,35 @@
+{
+  "id": "grade-9-science-q4-topic-comparing-bonding-properties",
+  "grade": 9,
+  "subject": "science",
+  "quarter": 4,
+  "topicName": "Comparing the Properties of Ionic, Covalent, and Metallic Substances",
+  "description": "A Grade 9 chemistry lesson comparing bonding types using melting point, hardness, conductivity, structure, and everyday examples.",
+  "learningObjectives": [
+    "Compare properties of ionic, covalent, and metallic substances",
+    "Explain conductivity patterns using particle movement",
+    "Connect structure to melting point and brittleness",
+    "Use evidence to identify likely bonding type"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "chemistry",
+    "chemical-bonding",
+    "science-of-materials",
+    "grade-9",
+    "matatag"
+  ],
+  "prerequisites": [
+    "Ionic bonding and lattices",
+    "Covalent molecules",
+    "Metallic bonding and sea of electrons"
+  ],
+  "lastUpdated": "2026-06-11",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}
