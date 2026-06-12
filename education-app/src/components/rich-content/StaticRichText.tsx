@@ -8,6 +8,8 @@ import rehypeRaw from 'rehype-raw';
 import rehypeSanitize from 'rehype-sanitize';
 import 'katex/dist/katex.min.css';
 import type { InteractiveMode, RichContentContext } from '../../types';
+import { parseLessonKey } from '../../utils/lessonKey';
+import { resolveLessonRelativePath } from '../../services/richContentService';
 import './RichContentRenderer.css';
 
 interface StaticRichTextProps {
@@ -114,8 +116,46 @@ function extractInteractiveCode(children: ReactNode): string | null {
   return codeChildren.trim();
 }
 
+function resolveMarkdownImageSrc(
+  src: string | undefined,
+  lessonKey: string,
+  basePath = 'content.md',
+): string | undefined {
+  if (!src) {
+    return src;
+  }
+
+  if (
+    src.startsWith('http://') ||
+    src.startsWith('https://') ||
+    src.startsWith('data:') ||
+    src.startsWith('blob:') ||
+    src.startsWith('/') ||
+    src.startsWith('#')
+  ) {
+    return src;
+  }
+
+  const lesson = parseLessonKey(lessonKey);
+  if (!lesson) {
+    return src;
+  }
+
+  const resolvedPath = resolveLessonRelativePath(src, basePath);
+  const [pathPart, suffix = ''] = resolvedPath.split(/([?#].*)/, 2);
+  const encodedPath = pathPart
+    .split('/')
+    .filter(Boolean)
+    .map((segment) => encodeURIComponent(segment))
+    .join('/');
+
+  return `/content/grade-${lesson.grade}/${lesson.subject}/quarter-${lesson.quarter}/${lesson.topicName}/${encodedPath}${suffix}`;
+}
+
 export function StaticRichText({
   markdown,
+  lessonKey,
+  basePath,
   className,
   interactiveRenderer,
 }: StaticRichTextProps) {
@@ -156,7 +196,7 @@ export function StaticRichText({
           },
           img: ({ src, alt, ...props }) => (
             <img
-              src={src}
+              src={resolveMarkdownImageSrc(src, lessonKey, basePath)}
               alt={alt || ''}
               loading="lazy"
               {...props}
