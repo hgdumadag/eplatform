@@ -1,0 +1,150 @@
+{
+  "examId": "grade-9-science-q4-topic-evidence-chemical-change-assessment",
+  "examType": "assessment",
+  "title": "Assessment: Evidence of a Chemical Change",
+  "description": "Checkpoint assessment for Evidence of a Chemical Change.",
+  "totalQuestions": 12,
+  "totalPoints": 120,
+  "timeLimit": 30,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which observation is strongest evidence that a new substance may have formed?",
+      "options": [
+        "A candle is cut in half",
+        "Ice melts",
+        "A solid appears after two clear liquids are mixed",
+        "Water is poured into another cup"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is: A solid appears after two clear liquids are mixed. This matches the main idea of Evidence of a Chemical Change."
+    },
+    {
+      "id": "q2",
+      "questionId": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "What does cloudy limewater usually show?",
+      "options": [
+        "Oxygen was removed",
+        "Carbon dioxide formed calcium carbonate",
+        "The water evaporated",
+        "Salt dissolved completely"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is: Carbon dioxide formed calcium carbonate. This matches the main idea of Evidence of a Chemical Change."
+    },
+    {
+      "id": "q3",
+      "questionId": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which action improves reliability?",
+      "options": [
+        "Changing many variables at once",
+        "Repeating trials",
+        "Skipping measurements",
+        "Using only one observation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is: Repeating trials. This matches the main idea of Evidence of a Chemical Change."
+    },
+    {
+      "id": "q4",
+      "questionId": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which is usually a physical change by itself?",
+      "options": [
+        "Forming a precipitate",
+        "Rusting iron",
+        "Melting ice",
+        "Burning paper"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is: Melting ice. This matches the main idea of Evidence of a Chemical Change."
+    },
+    {
+      "id": "q5",
+      "questionId": "q5",
+      "type": "true-false",
+      "points": 10,
+      "question": "True or False: A chemical change forms one or more new substances.",
+      "correctAnswer": "true",
+      "explanation": "This statement is true based on the lesson concepts."
+    },
+    {
+      "id": "q6",
+      "questionId": "q6",
+      "type": "true-false",
+      "points": 10,
+      "question": "True or False: Bubbles always prove a chemical reaction occurred.",
+      "correctAnswer": "false",
+      "explanation": "This statement is false based on the lesson concepts."
+    },
+    {
+      "id": "q7",
+      "questionId": "q7",
+      "type": "fill-in",
+      "points": 10,
+      "question": "A solid that forms when two solutions are mixed is called a ________.",
+      "correctAnswer": "precipitate",
+      "explanation": "The expected answer is precipitate."
+    },
+    {
+      "id": "q8",
+      "questionId": "q8",
+      "type": "short-answer",
+      "points": 10,
+      "question": "Why does repeating an experiment make the evidence more reliable?",
+      "correctAnswer": "Repeating checks whether the same result happens again, reducing the chance that the observation was caused by accident or error.",
+      "explanation": "A complete answer should use the key idea from the lesson and support it with reasoning."
+    },
+    {
+      "id": "q9",
+      "questionId": "q9",
+      "points": 10,
+      "type": "multiple-choice",
+      "question": "Which study strategy best checks mastery of \"Evidence of a Chemical Change\"?",
+      "options": [
+        "Memorize one word only",
+        "Explain the idea using evidence and an example",
+        "Skip the diagrams",
+        "Change all formulas randomly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Explaining with evidence and examples shows deeper understanding."
+    },
+    {
+      "id": "q10",
+      "questionId": "q10",
+      "points": 10,
+      "type": "true-false",
+      "question": "True or False: The ideas in Evidence of a Chemical Change should be connected to particle-level reasoning, not just memorized words.",
+      "correctAnswer": "true",
+      "explanation": "Chemistry explanations should connect observations and formulas to particles, bonds, or structure."
+    },
+    {
+      "id": "q11",
+      "questionId": "q11",
+      "points": 10,
+      "type": "fill-in",
+      "question": "The part of an explanation that supports a claim using observations or facts is called ________.",
+      "correctAnswer": "evidence",
+      "explanation": "Evidence supports scientific claims."
+    },
+    {
+      "id": "q12",
+      "questionId": "q12",
+      "points": 10,
+      "type": "short-answer",
+      "question": "In one or two sentences, connect evidence of a chemical change to the big Grade 9 chemistry idea that bonding affects properties.",
+      "correctAnswer": "A good answer explains how particles, electrons, bonds, or structures determine what a substance does or how it changes.",
+      "explanation": "The module goal is to connect bonding and structure to properties and chemical changes."
+    }
+  ]
+}

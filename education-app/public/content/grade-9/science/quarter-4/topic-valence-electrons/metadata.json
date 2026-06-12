@@ -1,0 +1,34 @@
+{
+  "id": "grade-9-science-q4-topic-valence-electrons",
+  "grade": 9,
+  "subject": "science",
+  "quarter": 4,
+  "topicName": "Valence Electrons Revisited",
+  "description": "A self-paced Grade 9 lesson on valence electrons, outer shells, group numbers, and stable electron arrangements.",
+  "learningObjectives": [
+    "Define valence electron",
+    "Use main-group positions to infer valence electrons",
+    "Explain why valence electrons matter in bonding"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "beginner",
+  "tags": [
+    "chemistry",
+    "chemical-bonding",
+    "science-of-materials",
+    "grade-9",
+    "matatag"
+  ],
+  "prerequisites": [
+    "Atoms have electrons in shells",
+    "The periodic table has groups and periods",
+    "Elements in the same group often behave similarly"
+  ],
+  "lastUpdated": "2026-06-11",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

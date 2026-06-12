@@ -1,0 +1,35 @@
+{
+  "id": "grade-9-science-q4-topic-metallic-bonding-structures",
+  "grade": 9,
+  "subject": "science",
+  "quarter": 4,
+  "topicName": "Metallic Bonding and Structures",
+  "description": "A Grade 9 chemistry lesson on metallic bonding, metal lattices, mobile electrons, and structure comparison.",
+  "learningObjectives": [
+    "Describe metallic bonding using the sea of electrons model",
+    "Explain why metals conduct heat and electricity",
+    "Explain why metals are malleable",
+    "Compare metallic, ionic, and covalent structures"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "chemistry",
+    "chemical-bonding",
+    "science-of-materials",
+    "grade-9",
+    "matatag"
+  ],
+  "prerequisites": [
+    "Valence electrons",
+    "Ions and lattices",
+    "Covalent molecules"
+  ],
+  "lastUpdated": "2026-06-11",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

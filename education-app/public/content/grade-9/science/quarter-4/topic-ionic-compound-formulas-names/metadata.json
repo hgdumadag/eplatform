@@ -1,0 +1,35 @@
+{
+  "id": "grade-9-science-q4-topic-ionic-compound-formulas-names",
+  "grade": 9,
+  "subject": "science",
+  "quarter": 4,
+  "topicName": "Writing Formulas and Names of Ionic Compounds",
+  "description": "A Grade 9 chemistry lesson on simple ionic formulas, charge balance, and -ide naming.",
+  "learningObjectives": [
+    "Write simple ionic formulas from ion charges",
+    "Explain why ionic formulas are neutral",
+    "Name simple ionic compounds using metal name plus nonmetal -ide",
+    "Interpret formulas such as NaCl, MgO, KCl, and MgCl₂"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "chemistry",
+    "chemical-bonding",
+    "science-of-materials",
+    "grade-9",
+    "matatag"
+  ],
+  "prerequisites": [
+    "Common ion charges",
+    "Cations and anions",
+    "Element symbols"
+  ],
+  "lastUpdated": "2026-06-11",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

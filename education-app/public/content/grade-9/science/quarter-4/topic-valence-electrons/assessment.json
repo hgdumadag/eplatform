@@ -1,0 +1,150 @@
+{
+  "examId": "grade-9-science-q4-topic-valence-electrons-assessment",
+  "examType": "assessment",
+  "title": "Assessment: Valence Electrons Revisited",
+  "description": "Checkpoint assessment for Valence Electrons Revisited.",
+  "totalQuestions": 12,
+  "totalPoints": 120,
+  "timeLimit": 30,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Where are valence electrons located?",
+      "options": [
+        "In the nucleus",
+        "In the outermost shell",
+        "Only between protons",
+        "Outside the atom but not in shells"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is: In the outermost shell. This matches the main idea of Valence Electrons Revisited."
+    },
+    {
+      "id": "q2",
+      "questionId": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "How many valence electrons does oxygen have?",
+      "options": [
+        "2",
+        "6",
+        "8",
+        "16"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is: 6. This matches the main idea of Valence Electrons Revisited."
+    },
+    {
+      "id": "q3",
+      "questionId": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which group usually has 1 valence electron?",
+      "options": [
+        "Group 1",
+        "Group 2",
+        "Group 16",
+        "Group 18"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is: Group 1. This matches the main idea of Valence Electrons Revisited."
+    },
+    {
+      "id": "q4",
+      "questionId": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "What is an octet?",
+      "options": [
+        "Eight protons",
+        "Eight valence electrons",
+        "Eight atoms",
+        "Eight compounds"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is: Eight valence electrons. This matches the main idea of Valence Electrons Revisited."
+    },
+    {
+      "id": "q5",
+      "questionId": "q5",
+      "type": "true-false",
+      "points": 10,
+      "question": "True or False: Valence electrons are the electrons most involved in bonding.",
+      "correctAnswer": "true",
+      "explanation": "This statement is true based on the lesson concepts."
+    },
+    {
+      "id": "q6",
+      "questionId": "q6",
+      "type": "true-false",
+      "points": 10,
+      "question": "True or False: Chlorine in Group 17 typically has 1 valence electron.",
+      "correctAnswer": "false",
+      "explanation": "This statement is false based on the lesson concepts."
+    },
+    {
+      "id": "q7",
+      "questionId": "q7",
+      "type": "fill-in",
+      "points": 10,
+      "question": "An electron in the outermost shell is a ________ electron.",
+      "correctAnswer": "valence",
+      "explanation": "The expected answer is valence."
+    },
+    {
+      "id": "q8",
+      "questionId": "q8",
+      "type": "short-answer",
+      "points": 10,
+      "question": "Why are valence electrons important in bonding?",
+      "correctAnswer": "They are the outermost electrons, so they are the electrons gained, lost, or shared when atoms form bonds.",
+      "explanation": "A complete answer should use the key idea from the lesson and support it with reasoning."
+    },
+    {
+      "id": "q9",
+      "questionId": "q9",
+      "points": 10,
+      "type": "multiple-choice",
+      "question": "Which study strategy best checks mastery of \"Valence Electrons Revisited\"?",
+      "options": [
+        "Memorize one word only",
+        "Explain the idea using evidence and an example",
+        "Skip the diagrams",
+        "Change all formulas randomly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Explaining with evidence and examples shows deeper understanding."
+    },
+    {
+      "id": "q10",
+      "questionId": "q10",
+      "points": 10,
+      "type": "true-false",
+      "question": "True or False: The ideas in Valence Electrons Revisited should be connected to particle-level reasoning, not just memorized words.",
+      "correctAnswer": "true",
+      "explanation": "Chemistry explanations should connect observations and formulas to particles, bonds, or structure."
+    },
+    {
+      "id": "q11",
+      "questionId": "q11",
+      "points": 10,
+      "type": "fill-in",
+      "question": "The part of an explanation that supports a claim using observations or facts is called ________.",
+      "correctAnswer": "evidence",
+      "explanation": "Evidence supports scientific claims."
+    },
+    {
+      "id": "q12",
+      "questionId": "q12",
+      "points": 10,
+      "type": "short-answer",
+      "question": "In one or two sentences, connect valence electrons revisited to the big Grade 9 chemistry idea that bonding affects properties.",
+      "correctAnswer": "A good answer explains how particles, electrons, bonds, or structures determine what a substance does or how it changes.",
+      "explanation": "The module goal is to connect bonding and structure to properties and chemical changes."
+    }
+  ]
+}

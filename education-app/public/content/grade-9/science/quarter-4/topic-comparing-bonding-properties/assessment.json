@@ -1,0 +1,150 @@
+{
+  "examId": "grade-9-science-q4-topic-comparing-bonding-properties-assessment",
+  "examType": "assessment",
+  "title": "Assessment: Comparing the Properties of Ionic, Covalent, and Metallic Substances",
+  "description": "Checkpoint assessment for Comparing the Properties of Ionic, Covalent, and Metallic Substances.",
+  "totalQuestions": 12,
+  "totalPoints": 120,
+  "timeLimit": 30,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which substance is most likely metallic?",
+      "options": [
+        "Sugar crystal",
+        "Copper wire",
+        "Table salt",
+        "Carbon dioxide gas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is: Copper wire. This matches the main idea of Comparing the Properties of Ionic, Covalent, and Metallic Substances."
+    },
+    {
+      "id": "q2",
+      "questionId": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Why does solid NaCl not conduct well?",
+      "options": [
+        "It has no atoms",
+        "Its ions are locked in place",
+        "Its electrons are all gone",
+        "It is covalent"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is: Its ions are locked in place. This matches the main idea of Comparing the Properties of Ionic, Covalent, and Metallic Substances."
+    },
+    {
+      "id": "q3",
+      "questionId": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which bonding type often forms small individual molecules?",
+      "options": [
+        "Covalent",
+        "Metallic",
+        "Ionic only",
+        "All are the same"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is: Covalent. This matches the main idea of Comparing the Properties of Ionic, Covalent, and Metallic Substances."
+    },
+    {
+      "id": "q4",
+      "questionId": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which property is typical of many metals?",
+      "options": [
+        "Conducts electricity as a solid",
+        "Always brittle like salt",
+        "Never conducts heat",
+        "Always low melting"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct answer is: Conducts electricity as a solid. This matches the main idea of Comparing the Properties of Ionic, Covalent, and Metallic Substances."
+    },
+    {
+      "id": "q5",
+      "questionId": "q5",
+      "type": "true-false",
+      "points": 10,
+      "question": "True or False: Bond type helps explain the properties of a substance.",
+      "correctAnswer": "true",
+      "explanation": "This statement is true based on the lesson concepts."
+    },
+    {
+      "id": "q6",
+      "questionId": "q6",
+      "type": "true-false",
+      "points": 10,
+      "question": "True or False: Covalent small molecules usually conduct electricity well because they contain mobile ions.",
+      "correctAnswer": "false",
+      "explanation": "This statement is false based on the lesson concepts."
+    },
+    {
+      "id": "q7",
+      "questionId": "q7",
+      "type": "fill-in",
+      "points": 10,
+      "question": "A metal conducts electricity well because it has mobile ________.",
+      "correctAnswer": "electrons",
+      "explanation": "The expected answer is electrons."
+    },
+    {
+      "id": "q8",
+      "questionId": "q8",
+      "type": "short-answer",
+      "points": 10,
+      "question": "Why does salt water conduct electricity better than solid salt?",
+      "correctAnswer": "In salt water, ions are free to move and carry charge. In solid salt, ions are locked in a crystal lattice.",
+      "explanation": "A complete answer should use the key idea from the lesson and support it with reasoning."
+    },
+    {
+      "id": "q9",
+      "questionId": "q9",
+      "points": 10,
+      "type": "multiple-choice",
+      "question": "Which study strategy best checks mastery of \"Comparing the Properties of Ionic, Covalent, and Metallic Substances\"?",
+      "options": [
+        "Memorize one word only",
+        "Explain the idea using evidence and an example",
+        "Skip the diagrams",
+        "Change all formulas randomly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Explaining with evidence and examples shows deeper understanding."
+    },
+    {
+      "id": "q10",
+      "questionId": "q10",
+      "points": 10,
+      "type": "true-false",
+      "question": "True or False: The ideas in Comparing the Properties of Ionic, Covalent, and Metallic Substances should be connected to particle-level reasoning, not just memorized words.",
+      "correctAnswer": "true",
+      "explanation": "Chemistry explanations should connect observations and formulas to particles, bonds, or structure."
+    },
+    {
+      "id": "q11",
+      "questionId": "q11",
+      "points": 10,
+      "type": "fill-in",
+      "question": "The part of an explanation that supports a claim using observations or facts is called ________.",
+      "correctAnswer": "evidence",
+      "explanation": "Evidence supports scientific claims."
+    },
+    {
+      "id": "q12",
+      "questionId": "q12",
+      "points": 10,
+      "type": "short-answer",
+      "question": "In one or two sentences, connect comparing the properties of ionic, covalent, and metallic substances to the big Grade 9 chemistry idea that bonding affects properties.",
+      "correctAnswer": "A good answer explains how particles, electrons, bonds, or structures determine what a substance does or how it changes.",
+      "explanation": "The module goal is to connect bonding and structure to properties and chemical changes."
+    }
+  ]
+}

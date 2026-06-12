@@ -1,0 +1,108 @@
+{
+  "examId": "grade-9-science-q4-topic-evidence-chemical-change-practice",
+  "examType": "practice",
+  "title": "Practice: Evidence of a Chemical Change",
+  "description": "Practice questions for Evidence of a Chemical Change.",
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "timeLimit": 20,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which observation is strongest evidence that a new substance may have formed?",
+      "options": [
+        "A candle is cut in half",
+        "Ice melts",
+        "A solid appears after two clear liquids are mixed",
+        "Water is poured into another cup"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is: A solid appears after two clear liquids are mixed. This matches the main idea of Evidence of a Chemical Change."
+    },
+    {
+      "id": "q2",
+      "questionId": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "What does cloudy limewater usually show?",
+      "options": [
+        "Oxygen was removed",
+        "Carbon dioxide formed calcium carbonate",
+        "The water evaporated",
+        "Salt dissolved completely"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is: Carbon dioxide formed calcium carbonate. This matches the main idea of Evidence of a Chemical Change."
+    },
+    {
+      "id": "q3",
+      "questionId": "q3",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which action improves reliability?",
+      "options": [
+        "Changing many variables at once",
+        "Repeating trials",
+        "Skipping measurements",
+        "Using only one observation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The correct answer is: Repeating trials. This matches the main idea of Evidence of a Chemical Change."
+    },
+    {
+      "id": "q4",
+      "questionId": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which is usually a physical change by itself?",
+      "options": [
+        "Forming a precipitate",
+        "Rusting iron",
+        "Melting ice",
+        "Burning paper"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The correct answer is: Melting ice. This matches the main idea of Evidence of a Chemical Change."
+    },
+    {
+      "id": "q5",
+      "questionId": "q5",
+      "type": "true-false",
+      "points": 10,
+      "question": "True or False: A chemical change forms one or more new substances.",
+      "correctAnswer": "true",
+      "explanation": "This statement is true based on the lesson concepts."
+    },
+    {
+      "id": "q6",
+      "questionId": "q6",
+      "type": "true-false",
+      "points": 10,
+      "question": "True or False: Bubbles always prove a chemical reaction occurred.",
+      "correctAnswer": "false",
+      "explanation": "This statement is false based on the lesson concepts."
+    },
+    {
+      "id": "q7",
+      "questionId": "q7",
+      "type": "fill-in",
+      "points": 10,
+      "question": "A solid that forms when two solutions are mixed is called a ________.",
+      "correctAnswer": "precipitate",
+      "explanation": "The expected answer is precipitate."
+    },
+    {
+      "id": "q8",
+      "questionId": "q8",
+      "type": "short-answer",
+      "points": 10,
+      "question": "Why does repeating an experiment make the evidence more reliable?",
+      "correctAnswer": "Repeating checks whether the same result happens again, reducing the chance that the observation was caused by accident or error.",
+      "explanation": "A complete answer should use the key idea from the lesson and support it with reasoning."
+    }
+  ]
+}
