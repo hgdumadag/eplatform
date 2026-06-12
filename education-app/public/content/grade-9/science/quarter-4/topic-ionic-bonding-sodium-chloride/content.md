@@ -42,7 +42,7 @@ Write a one-sentence prediction in your notebook. Then compare it with the expla
 
 ## Visual Introduction
 
-<svg role="img" aria-label="Sodium transfers electron to chlorine forming NaCl" viewBox="0 0 720 260" width="100%" style="max-width:740px"><rect width="720" height="260" rx="18" fill="#f8fafc"/><text x="35" y="35" font-size="18" font-family="Arial">Electron transfer creates oppositely charged ions</text><circle cx="120" cy="130" r="42" fill="#60a5fa"/><text x="96" y="137" font-size="22">Na</text><circle cx="182" cy="83" r="8" fill="#1d4ed8"/><text x="210" y="90" font-size="24">e⁻</text><path d="M230 90 C300 45 380 45 455 92" stroke="#1d4ed8" stroke-width="4" fill="none" marker-end="url(#a)"/><defs><marker id="a" markerWidth="10" markerHeight="10" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L6,3 z" fill="#1d4ed8"/></marker></defs><circle cx="520" cy="130" r="48" fill="#f97316"/><text x="500" y="137" font-size="22">Cl</text><text x="80" y="215" font-size="16">Na → Na⁺</text><text x="480" y="215" font-size="16">Cl → Cl⁻</text><text x="285" y="205" font-size="18">Na⁺ attracts Cl⁻ → NaCl</text></svg>
+![Sodium transfers electron to chlorine forming NaCl](./images/visual-introduction.svg)
 
 Use the visual as a model. Identify what is being observed, counted, transferred, shared, or compared.
 

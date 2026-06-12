@@ -42,7 +42,7 @@ Write a one-sentence prediction in your notebook. Then compare it with the expla
 
 ## Visual Introduction
 
-<svg role="img" aria-label="Bonds break and new bonds form" viewBox="0 0 700 230" width="100%" style="max-width:720px"><rect width="700" height="230" rx="18" fill="#f8fafc"/><text x="35" y="35" font-size="18" font-family="Arial">Atoms rearrange during chemical change</text><g transform="translate(70 80)"><circle cx="0" cy="30" r="22" fill="#60a5fa"/><circle cx="70" cy="30" r="22" fill="#f97316"/><line x1="22" y1="30" x2="48" y2="30" stroke="#334155" stroke-width="5"/><text x="5" y="88" font-size="14">old bond</text></g><text x="220" y="120" font-size="32">+</text><g transform="translate(270 80)"><circle cx="0" cy="30" r="22" fill="#a78bfa"/><circle cx="70" cy="30" r="22" fill="#22c55e"/><line x1="22" y1="30" x2="48" y2="30" stroke="#334155" stroke-width="5"/><text x="-5" y="88" font-size="14">old bond</text></g><text x="425" y="120" font-size="32">→</text><g transform="translate(500 80)"><circle cx="0" cy="30" r="22" fill="#60a5fa"/><circle cx="70" cy="30" r="22" fill="#22c55e"/><line x1="22" y1="30" x2="48" y2="30" stroke="#334155" stroke-width="5"/><text x="-10" y="88" font-size="14">new bond/product</text></g></svg>
+![Bonds break and new bonds form](./images/visual-introduction.svg)
 
 Use the visual as a model. Identify what is being observed, counted, transferred, shared, or compared.
 
