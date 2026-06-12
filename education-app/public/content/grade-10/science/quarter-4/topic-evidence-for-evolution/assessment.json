@@ -1,0 +1,150 @@
+{
+  "examId": "grade-10-science-q4-topic-evidence-for-evolution-assessment",
+  "examType": "assessment",
+  "title": "Evidence for Evolution Assessment Exam",
+  "description": "Check your understanding of Evidence for Evolution.",
+  "passingScore": 0.75,
+  "timeLimit": 30,
+  "totalQuestions": 12,
+  "totalPoints": 12,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement best matches Evidence for Evolution?",
+      "correctAnswer": 0,
+      "explanation": "The correct choice states the central idea of the lesson: Different lines of evidence point to the same conclusion: organisms have changed over long periods of time and share relationships of descent.",
+      "points": 1,
+      "options": [
+        "Different lines of evidence point to the same conclusion: organisms have changed over long periods of time and share relationships of descent.",
+        "It is only a vocabulary list.",
+        "It is unrelated to living systems.",
+        "It can be explained without evidence."
+      ]
+    },
+    {
+      "id": "q2",
+      "questionId": "q2",
+      "type": "true-false",
+      "question": "Evidence for Evolution should be explained using evidence and cause-and-effect reasoning.",
+      "correctAnswer": "true",
+      "explanation": "Grade 10 Biology expects explanation, examples, and evidence.",
+      "points": 1
+    },
+    {
+      "id": "q3",
+      "questionId": "q3",
+      "type": "fill-in",
+      "question": "Complete the sentence: A key term in this lesson is ________.",
+      "correctAnswer": "fossils",
+      "explanation": "The expected key term is fossils.",
+      "points": 1
+    },
+    {
+      "id": "q4",
+      "questionId": "q4",
+      "type": "short-answer",
+      "question": "In 1-2 sentences, explain why Fossil matters in biology.",
+      "correctAnswer": "Fossil matters because it helps explain Different lines of evidence point to the same conclusion: organisms have changed over long periods of time and share relationships of descent.",
+      "explanation": "A good answer connects Fossil to the process and its biological importance.",
+      "points": 1
+    },
+    {
+      "id": "q5",
+      "questionId": "q5",
+      "type": "multiple-choice",
+      "question": "Which study habit best shows mastery of this lesson?",
+      "correctAnswer": 2,
+      "explanation": "Applying the concept to a new case shows deeper understanding than copying definitions.",
+      "points": 1,
+      "options": [
+        "Copy the title only.",
+        "Memorize the first sentence only.",
+        "Apply the concept to a new example.",
+        "Ignore the diagram."
+      ]
+    },
+    {
+      "id": "q6",
+      "questionId": "q6",
+      "type": "true-false",
+      "question": "A common misconception about this lesson is accurate and should be used as the final explanation.",
+      "correctAnswer": "false",
+      "explanation": "Misconception alerts are included so you can avoid the error and use the more accurate explanation from the lesson.",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "questionId": "q7",
+      "type": "multiple-choice",
+      "question": "Which item is part of good scientific reasoning for this topic?",
+      "correctAnswer": 1,
+      "explanation": "Evidence helps decide whether an explanation is reliable.",
+      "points": 1,
+      "options": [
+        "Guessing from the title",
+        "Using evidence from the situation",
+        "Choosing the longest answer",
+        "Ignoring exceptions"
+      ]
+    },
+    {
+      "id": "q8",
+      "questionId": "q8",
+      "type": "short-answer",
+      "question": "Describe the visual introduction as a three-step process.",
+      "correctAnswer": "Answers should mention the starting condition, the change or mechanism, and the result.",
+      "explanation": "A strong answer follows the three boxes in the local SVG diagram.",
+      "points": 1
+    },
+    {
+      "id": "q9",
+      "questionId": "q9",
+      "type": "multiple-choice",
+      "question": "Which example best connects to Evidence for Evolution?",
+      "correctAnswer": 0,
+      "explanation": "The first option is drawn from the lesson examples and matches the concept.",
+      "points": 1,
+      "options": [
+        "Fossil sequence",
+        "A random spelling rule",
+        "A purely historical date",
+        "A geometry proof with no biology context"
+      ]
+    },
+    {
+      "id": "q10",
+      "questionId": "q10",
+      "type": "fill-in",
+      "question": "A biological explanation should connect cause, process, and ________.",
+      "correctAnswer": "evidence",
+      "explanation": "Evidence supports the explanation and prevents guessing.",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "questionId": "q11",
+      "type": "short-answer",
+      "question": "Give one real-life situation where Fossil could help explain what is happening.",
+      "correctAnswer": "Answers will vary but should give a relevant biological, health, environmental, or biotechnology example.",
+      "explanation": "The response should transfer the concept to a new situation.",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "questionId": "q12",
+      "type": "multiple-choice",
+      "question": "What should you do if one example seems to contradict the lesson idea?",
+      "correctAnswer": 3,
+      "explanation": "Scientific reasoning checks context and evidence instead of forcing a memorized rule.",
+      "points": 1,
+      "options": [
+        "Ignore the contradiction",
+        "Delete the lesson",
+        "Assume science is random",
+        "Check the context and evidence carefully"
+      ]
+    }
+  ]
+}
