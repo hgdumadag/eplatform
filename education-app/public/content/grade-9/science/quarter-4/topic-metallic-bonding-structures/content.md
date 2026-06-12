@@ -42,7 +42,7 @@ Write a one-sentence prediction in your notebook. Then compare it with the expla
 
 ## Visual Introduction
 
-<svg role="img" aria-label="Metallic lattice in sea of electrons" viewBox="0 0 700 270" width="100%" style="max-width:720px"><rect width="700" height="270" rx="18" fill="#f8fafc"/><text x="35" y="35" font-size="18" font-family="Arial">Metal ions in a sea of mobile electrons</text><g fill="#f59e0b" stroke="#92400e"><circle cx="160" cy="100" r="24"/><circle cx="260" cy="100" r="24"/><circle cx="360" cy="100" r="24"/><circle cx="160" cy="180" r="24"/><circle cx="260" cy="180" r="24"/><circle cx="360" cy="180" r="24"/></g><g fill="#2563eb"><circle cx="120" cy="135" r="7"/><circle cx="210" cy="150" r="7"/><circle cx="305" cy="130" r="7"/><circle cx="415" cy="160" r="7"/><circle cx="235" cy="210" r="7"/><circle cx="335" cy="70" r="7"/></g><text x="465" y="115" font-size="16">positive metal ions</text><text x="465" y="145" font-size="16">mobile electrons</text><text x="465" y="175" font-size="16">conducts electricity and heat</text></svg>
+![Metallic lattice in sea of electrons](./images/visual-introduction.svg)
 
 Use the visual as a model. Identify what is being observed, counted, transferred, shared, or compared.
 

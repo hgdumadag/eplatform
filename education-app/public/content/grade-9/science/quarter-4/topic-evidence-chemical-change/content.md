@@ -42,7 +42,7 @@ Write a one-sentence prediction in your notebook. Then compare it with the expla
 
 ## Visual Introduction
 
-<svg role="img" aria-label="Two clear liquids form a cloudy precipitate" viewBox="0 0 640 220" width="100%" style="max-width:680px"><rect width="640" height="220" rx="18" fill="#f8fafc"/><text x="40" y="35" font-size="18" font-family="Arial" fill="#0f172a">Evidence model: new substance forms</text><g transform="translate(55 65)"><rect x="0" y="0" width="90" height="110" rx="12" fill="#dbeafe" stroke="#2563eb"/><text x="12" y="130" font-size="14">clear solution A</text></g><text x="175" y="125" font-size="34" fill="#334155">+</text><g transform="translate(235 65)"><rect x="0" y="0" width="90" height="110" rx="12" fill="#ecfeff" stroke="#0891b2"/><text x="12" y="130" font-size="14">clear solution B</text></g><text x="360" y="125" font-size="34" fill="#334155">→</text><g transform="translate(425 65)"><rect x="0" y="0" width="120" height="110" rx="12" fill="#f1f5f9" stroke="#64748b"/><circle cx="35" cy="55" r="8" fill="#94a3b8"/><circle cx="62" cy="78" r="7" fill="#94a3b8"/><circle cx="88" cy="48" r="8" fill="#94a3b8"/><text x="0" y="130" font-size="14">cloudy mixture + solid</text></g></svg>
+![Two clear liquids form a cloudy precipitate](./images/visual-introduction.svg)
 
 Use the visual as a model. Identify what is being observed, counted, transferred, shared, or compared.
 

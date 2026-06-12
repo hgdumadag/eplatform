@@ -42,7 +42,7 @@ Write a one-sentence prediction in your notebook. Then compare it with the expla
 
 ## Visual Introduction
 
-<svg role="img" aria-label="Subscripts count atoms in covalent formulas" viewBox="0 0 700 250" width="100%" style="max-width:720px"><rect width="700" height="250" rx="18" fill="#f8fafc"/><text x="35" y="35" font-size="18" font-family="Arial">Subscripts count atoms in one molecule</text><text x="80" y="110" font-size="42">H₂O</text><text x="80" y="145" font-size="16">2 H atoms + 1 O atom</text><text x="300" y="110" font-size="42">CO₂</text><text x="300" y="145" font-size="16">1 C atom + 2 O atoms</text><text x="520" y="110" font-size="42">NH₃</text><text x="500" y="145" font-size="16">1 N atom + 3 H atoms</text><text x="160" y="205" font-size="15" fill="#334155">No subscript means 1 atom of that element.</text></svg>
+![Subscripts count atoms in covalent formulas](./images/visual-introduction.svg)
 
 Use the visual as a model. Identify what is being observed, counted, transferred, shared, or compared.
 

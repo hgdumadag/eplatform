@@ -42,7 +42,7 @@ Write a one-sentence prediction in your notebook. Then compare it with the expla
 
 ## Visual Introduction
 
-<svg role="img" aria-label="Charge balance for magnesium chloride" viewBox="0 0 700 250" width="100%" style="max-width:720px"><rect width="700" height="250" rx="18" fill="#f8fafc"/><text x="35" y="35" font-size="18" font-family="Arial">Charge balance: total positive = total negative</text><rect x="90" y="90" width="120" height="70" rx="12" fill="#dbeafe" stroke="#2563eb"/><text x="125" y="132" font-size="24">Mg²⁺</text><text x="250" y="132" font-size="32">+</text><rect x="315" y="75" width="100" height="55" rx="12" fill="#ffedd5" stroke="#f97316"/><text x="342" y="110" font-size="20">Cl⁻</text><rect x="315" y="145" width="100" height="55" rx="12" fill="#ffedd5" stroke="#f97316"/><text x="342" y="180" font-size="20">Cl⁻</text><text x="455" y="132" font-size="32">→</text><text x="520" y="132" font-size="26">MgCl₂</text><text x="520" y="165" font-size="15">+2 and -2 balance</text></svg>
+![Charge balance for magnesium chloride](./images/visual-introduction.svg)
 
 Use the visual as a model. Identify what is being observed, counted, transferred, shared, or compared.
 
