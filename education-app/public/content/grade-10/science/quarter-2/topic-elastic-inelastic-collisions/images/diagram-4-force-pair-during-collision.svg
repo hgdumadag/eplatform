@@ -1,22 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="470" viewBox="0 0 920 470" role="img" aria-labelledby="title desc">
-<title id="title">Force pair during collision</title><desc id="desc">Collisions: Elastic and Inelastic</desc>
-<rect width="920" height="470" rx="28" fill="#f8fafc"/>
-<rect x="24" y="24" width="872" height="422" rx="22" fill="#fce7f3" stroke="#0f172a" stroke-width="2"/>
-<text x="460" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Force pair during collision</text>
-<rect x="120" y="128" width="250" height="170" rx="18" fill="#ffffff" stroke="#db2777" stroke-width="4"/>
-<rect x="550" y="128" width="250" height="170" rx="18" fill="#ffffff" stroke="#db2777" stroke-width="4"/>
-<path d="M395 213 L525 213" stroke="#db2777" stroke-width="8" marker-end="url(#arrow2)"/>
-<defs><marker id="arrow2" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10 Z" fill="#db2777"/></marker></defs>
-<rect x="45" y="385" width="250" height="42" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="59" y="403" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">Topic: Collisions: Elastic</text>
-<text x="59" y="418" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">and Inelastic</text>
-<rect x="625" y="385" width="250" height="42" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="639" y="403" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">Diagram: Force pair during</text>
-<text x="639" y="418" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">collision</text>
-<rect x="45" y="96" width="250" height="42" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="59" y="114" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">Read arrows and shapes</text>
-<rect x="625" y="96" width="250" height="42" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="639" y="114" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">Compare the variables</text>
-<rect x="335" y="385" width="250" height="42" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="349" y="403" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">Explain cause → effect</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="500" viewBox="0 0 920 500" role="img" aria-labelledby="title desc">
+<title id="title">Force pair during collision</title><desc id="desc">Each object pushes on the other with equal-size opposite-direction forces</desc>
+<rect width="920" height="500" rx="28" fill="#f8fafc"/>
+<rect x="22" y="22" width="876" height="456" rx="24" fill="#fce7f3" stroke="#0f172a" stroke-width="2"/>
+<text x="460" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="800" fill="#0f172a">Force pair during collision</text>
+<text x="460" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">Each object pushes on the other with equal-size opposite-direction</text>
+<text x="460" y="106" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">forces</text>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10 Z" fill="#ea580c"/></marker></defs>
+<circle cx="250" cy="245" r="56" fill="#bfdbfe" stroke="#1e3a8a" stroke-width="4"/>
+<circle cx="670" cy="245" r="56" fill="#fecaca" stroke="#7f1d1d" stroke-width="4"/>
+<path d="M325 245 L590 245" stroke="#ea580c" stroke-width="10" marker-end="url(#arrow)"/>
+<path d="M590 275 L325 275" stroke="#7c3aed" stroke-width="8" marker-end="url(#arrow)"/>
+<text x="250" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#0f172a">A</text>
+<text x="670" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#0f172a">B</text>
+<rect x="38" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+<text x="50" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">force on object A</text>
+<rect x="648" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+<text x="660" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">force on object B</text>
+<rect x="38" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+<text x="50" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">same interaction</text>
+<rect x="342" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+<text x="354" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">opposite directions</text>
 </svg>

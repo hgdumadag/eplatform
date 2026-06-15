@@ -1,20 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="470" viewBox="0 0 920 470" role="img" aria-labelledby="title desc">
-<title id="title">Examples of motors and generators</title><desc id="desc">Motors and Generators</desc>
-<rect width="920" height="470" rx="28" fill="#f8fafc"/>
-<rect x="24" y="24" width="872" height="422" rx="22" fill="#ede9fe" stroke="#0f172a" stroke-width="2"/>
-<text x="460" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Examples of motors and generators</text>
-<circle cx="460" cy="220" r="92" fill="#ffffff" stroke="#7c3aed" stroke-width="5"/>
-<path d="M460 128 L460 312 M368 220 L552 220" stroke="#7c3aed" stroke-width="5"/>
-<circle cx="460" cy="220" r="18" fill="#0f172a"/>
-<rect x="45" y="385" width="250" height="42" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="59" y="403" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">Topic: Motors and Generators</text>
-<rect x="625" y="385" width="250" height="42" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="639" y="403" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">Diagram: Examples of motors</text>
-<text x="639" y="418" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">and generators</text>
-<rect x="45" y="96" width="250" height="42" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="59" y="114" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">Read arrows and shapes</text>
-<rect x="625" y="96" width="250" height="42" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="639" y="114" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">Compare the variables</text>
-<rect x="335" y="385" width="250" height="42" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="349" y="403" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">Explain cause → effect</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="500" viewBox="0 0 920 500" role="img" aria-labelledby="title desc">
+<title id="title">Examples of motors and generators</title><desc id="desc">Classify devices by the direction of energy transformation</desc>
+<rect width="920" height="500" rx="28" fill="#f8fafc"/>
+<rect x="22" y="22" width="876" height="456" rx="24" fill="#ede9fe" stroke="#0f172a" stroke-width="2"/>
+<text x="460" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="800" fill="#0f172a">Examples of motors and generators</text>
+<text x="460" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">Classify devices by the direction of energy transformation</text>
+<rect x="110" y="170" width="310" height="170" rx="18" fill="#ffffff" stroke="#2563eb" stroke-width="4"/>
+<rect x="500" y="170" width="310" height="170" rx="18" fill="#ffffff" stroke="#dc2626" stroke-width="4"/>
+<line x1="460" y1="160" x2="460" y2="350" stroke="#64748b" stroke-dasharray="8 8"/>
+<rect x="38" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+<text x="50" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">fan: motor</text>
+<rect x="648" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+<text x="660" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">blender: motor</text>
+<rect x="38" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+<text x="50" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">power plant: generator</text>
+<rect x="342" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+<text x="354" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">bicycle dynamo: generator</text>
 </svg>
