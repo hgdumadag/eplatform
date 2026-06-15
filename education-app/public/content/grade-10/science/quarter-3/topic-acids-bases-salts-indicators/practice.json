@@ -1,0 +1,102 @@
+{
+  "examId": "grade-10-science-q3-topic-acids-bases-salts-indicators-practice",
+  "examType": "practice",
+  "title": "Practice: Acids, Bases, Salts, and Indicators",
+  "description": "Low-stakes practice on classifying acids, bases, and salts using pH, litmus, and red cabbage indicator evidence.",
+  "totalQuestions": 8,
+  "totalPoints": 40,
+  "timeLimit": 20,
+  "passingScore": 70,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": 1,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A sample turns blue litmus paper red. What is the best classification?",
+      "options": [
+        "Acid",
+        "Base",
+        "Neutral salt only",
+        "Pure metal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Blue litmus turning red is a standard indicator result for an acidic substance."
+    },
+    {
+      "id": "q2",
+      "questionId": 2,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which household material is commonly acidic?",
+      "options": [
+        "Soap solution",
+        "Baking soda solution",
+        "Vinegar",
+        "Table salt crystals"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Vinegar contains acetic acid, so it is commonly used as a household example of an acid."
+    },
+    {
+      "id": "q3",
+      "questionId": 3,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Red cabbage indicator turns greenish in a sample. What does this most likely show?",
+      "options": [
+        "The sample is acidic.",
+        "The sample is basic.",
+        "The sample is pure water.",
+        "The sample is a metal."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Red cabbage indicator often appears green, blue-green, or yellow in basic solutions."
+    },
+    {
+      "id": "q4",
+      "questionId": 4,
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: It is safe to identify an unknown substance by tasting it if it is found at home.",
+      "correctAnswer": "false",
+      "explanation": "Unknown substances should never be tasted. Indicators and labeled samples are safer ways to gather evidence."
+    },
+    {
+      "id": "q5",
+      "questionId": 5,
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: A substance with pH greater than 7 is classified as basic.",
+      "correctAnswer": "true",
+      "explanation": "On the pH scale, values below 7 are acidic, 7 is neutral, and values above 7 are basic."
+    },
+    {
+      "id": "q6",
+      "questionId": 6,
+      "type": "fill-in",
+      "points": 5,
+      "question": "The reaction of an acid with a base is called _____.",
+      "correctAnswer": "neutralization",
+      "explanation": "Neutralization is the reaction between an acid and a base, often producing water and a salt."
+    },
+    {
+      "id": "q7",
+      "questionId": 7,
+      "type": "fill-in",
+      "points": 5,
+      "question": "A solution with pH 7 is usually described as _____.",
+      "correctAnswer": "neutral",
+      "explanation": "A pH of 7 is neutral, as in pure water under standard conditions."
+    },
+    {
+      "id": "q8",
+      "questionId": 8,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Why should a student use an indicator instead of tasting a sample to decide whether it is an acid or a base?",
+      "correctAnswer": "An indicator gives observable color evidence without putting the substance in the mouth. Tasting unknown or laboratory substances is unsafe.",
+      "explanation": "Indicators reduce risk by allowing students to observe color changes instead of tasting or touching potentially harmful substances."
+    }
+  ]
+}

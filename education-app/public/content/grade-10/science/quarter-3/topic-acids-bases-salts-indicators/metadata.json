@@ -1,0 +1,39 @@
+{
+  "id": "grade-10-science-q3-topic-acids-bases-salts-indicators",
+  "grade": 10,
+  "subject": "science",
+  "quarter": 3,
+  "topicName": "Acids, Bases, and Salts: Identifying Them with Indicators",
+  "description": "Classify common acids, bases, and salts using pH, litmus, and natural indicators such as red cabbage juice, while applying safe household investigation practices.",
+  "learningObjectives": [
+    "Identify common acids, bases, and salts from everyday examples",
+    "Describe how litmus and red cabbage indicators change color in acids and bases",
+    "Use indicator evidence and pH ranges to classify a substance as acidic, basic, or neutral",
+    "Explain that salts can form when acids and bases react in neutralization"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "chemistry",
+    "acids",
+    "bases",
+    "salts",
+    "indicators",
+    "pH",
+    "neutralization",
+    "red cabbage"
+  ],
+  "prerequisites": [
+    "Observable signs of chemical reactions",
+    "Difference between physical and chemical changes",
+    "Basic particle model of matter",
+    "Safe handling of household materials without tasting or mixing unknown substances"
+  ],
+  "lastUpdated": "2026-06-11",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

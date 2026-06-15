@@ -1,0 +1,90 @@
+{
+  "examId": "grade-10-science-q3-topic-conservation-of-mass-equations-practice",
+  "examType": "practice",
+  "title": "Conservation of Mass and Balanced Equations Practice",
+  "description": "Practice using mass conservation and atom counts to explain why chemical equations must balance.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement best describes the Law of Conservation of Mass?",
+      "options": [
+        "Matter is created whenever a new substance forms.",
+        "Matter is neither created nor destroyed in a chemical reaction.",
+        "Products always have less mass than reactants.",
+        "Atoms disappear when they become gases."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The law says matter is not created or destroyed. Atoms are rearranged, so total mass is conserved in a closed system.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "In a closed container, 6 g of hydrogen reacts with 48 g of oxygen. What total mass of product forms?",
+      "options": ["42 g", "48 g", "54 g", "288 g"],
+      "correctAnswer": 2,
+      "explanation": "Add the reactant masses: 6 g + 48 g = 54 g. In a closed system, product mass equals total reactant mass.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A balanced chemical equation has the same number of each kind of atom on both sides of the arrow.",
+      "correctAnswer": "true",
+      "explanation": "Balanced equations show conservation of atoms by matching each element's atom count on the reactant and product sides.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Which equation shows the formation of water as a balanced equation?",
+      "options": [
+        "H2 + O2 -> H2O",
+        "H2 + O2 -> H2O2",
+        "2H2 + O2 -> 2H2O",
+        "2H + O -> H2O"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In 2H2 + O2 -> 2H2O, both sides have 4 H atoms and 2 O atoms.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "Fill in the missing mass: 12 g of carbon reacts with 32 g of oxygen to form ____ g of carbon dioxide.",
+      "correctAnswer": "44 g or 44",
+      "explanation": "The total reactant mass is 12 g + 32 g = 44 g, so 44 g of product forms in a closed system.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "For the equation N2 + 3H2 -> 2NH3, how many hydrogen atoms are on the reactant side?",
+      "options": ["2", "3", "5", "6"],
+      "correctAnswer": 3,
+      "explanation": "The coefficient 3 means three H2 molecules. Each H2 has 2 H atoms, so 3 x 2 = 6 hydrogen atoms.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "Changing H2O to H2O2 is a valid way to balance an equation for making water.",
+      "correctAnswer": "false",
+      "explanation": "Changing a subscript changes the substance. H2O is water, while H2O2 is hydrogen peroxide.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "In one or two sentences, explain why chemical equations must be balanced.",
+      "correctAnswer": "Chemical equations must be balanced because atoms are not created or destroyed in a chemical reaction. The same number of each kind of atom must appear on the reactant and product sides.",
+      "explanation": "A balanced equation is the symbolic way to show conservation of mass and conservation of atoms.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "grade-10-science-q3-topic-combination-decomposition-reactions",
+  "grade": 10,
+  "subject": "science",
+  "quarter": 3,
+  "topicName": "Combination and Decomposition Reactions",
+  "description": "Identify combination and decomposition reactions by reading reaction patterns, counting reactants and products, and connecting the patterns to real examples.",
+  "learningObjectives": [
+    "Describe a combination reaction as two or more reactants forming one product",
+    "Describe a decomposition reaction as one reactant breaking into two or more products",
+    "Recognize the general patterns A + B -> AB and AB -> A + B",
+    "Classify common chemical equations as combination or decomposition reactions",
+    "Explain why counting reactants and products helps identify reaction type"
+  ],
+  "estimatedDuration": 35,
+  "difficulty": "beginner",
+  "tags": [
+    "chemistry",
+    "chemical-reactions",
+    "combination-reactions",
+    "decomposition-reactions",
+    "reaction-patterns"
+  ],
+  "lastUpdated": "2026-06-11",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  },
+  "prerequisites": [
+    "Recognizing reactants and products in a chemical equation",
+    "Reading the arrow in a chemical equation as 'yields' or 'produces'",
+    "Understanding that chemical formulas represent substances",
+    "Basic familiarity with atoms, molecules, and conservation of matter"
+  ]
+}

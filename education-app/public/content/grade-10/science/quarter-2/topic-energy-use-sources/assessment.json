@@ -1,0 +1,150 @@
+{
+  "examId": "grade-10-science-q2-topic-energy-use-sources-assessment",
+  "examType": "assessment",
+  "title": "Energy Use and Energy Sources Assessment",
+  "description": "Mastery assessment for the lesson.",
+  "passingScore": 9,
+  "timeLimit": 30,
+  "totalQuestions": 12,
+  "totalPoints": 14,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": "q1",
+      "type": "multiple-choice",
+      "question": "Which source is renewable?",
+      "correctAnswer": 0,
+      "explanation": "Solar energy is naturally replenished.",
+      "points": 1,
+      "options": [
+        "Solar",
+        "Coal",
+        "Oil",
+        "Natural gas"
+      ]
+    },
+    {
+      "id": "q2",
+      "questionId": "q2",
+      "type": "multiple-choice",
+      "question": "Which action saves electricity?",
+      "correctAnswer": 0,
+      "explanation": "Turning off unused lights reduces energy use.",
+      "points": 1,
+      "options": [
+        "Turning off unused lights",
+        "Leaving chargers plugged in all day",
+        "Using damaged cords",
+        "Opening the refrigerator repeatedly"
+      ]
+    },
+    {
+      "id": "q3",
+      "questionId": "q3",
+      "type": "true-false",
+      "question": "Coal is a non-renewable energy source.",
+      "correctAnswer": "true",
+      "explanation": "Coal forms over very long time scales and can run out.",
+      "points": 1
+    },
+    {
+      "id": "q4",
+      "questionId": "q4",
+      "type": "true-false",
+      "question": "Energy efficiency means wasting more energy for the same task.",
+      "correctAnswer": "false",
+      "explanation": "Efficiency means using less energy for the same useful output.",
+      "points": 1
+    },
+    {
+      "id": "q5",
+      "questionId": "q5",
+      "type": "fill-in",
+      "question": "Solar, wind, hydro, and geothermal are examples of ________ energy sources.",
+      "correctAnswer": "renewable",
+      "explanation": "They are naturally replenished.",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "questionId": "q6",
+      "type": "short-answer",
+      "question": "Why should a community consider both people and the environment when choosing energy sources?",
+      "correctAnswer": "A good answer mentions cost, reliability, pollution, health, climate, land/water effects, or community impacts.",
+      "explanation": "Energy choices affect electricity reliability and cost, but also air quality, climate, land, water, and local communities.",
+      "points": 2
+    },
+    {
+      "id": "q7",
+      "questionId": "q7",
+      "type": "multiple-choice",
+      "question": "Which statement best matches this lesson?",
+      "correctAnswer": 0,
+      "explanation": "The first option states a central idea from the lesson.",
+      "points": 1,
+      "options": [
+        "Saving electricity reduces cost and environmental impact.",
+        "The topic is unrelated to force, motion, or electricity.",
+        "Only memorized definitions matter.",
+        "The safest answer is always to ignore evidence."
+      ]
+    },
+    {
+      "id": "q8",
+      "questionId": "q8",
+      "type": "multiple-choice",
+      "question": "Which vocabulary term means: energy source naturally replenished on human time scales?",
+      "correctAnswer": 0,
+      "explanation": "The definition describes renewable energy.",
+      "points": 1,
+      "options": [
+        "renewable energy",
+        "non-renewable energy",
+        "efficiency",
+        "greenhouse gas"
+      ]
+    },
+    {
+      "id": "q9",
+      "questionId": "q9",
+      "type": "true-false",
+      "question": "A useful diagram for this lesson should show relationships, not just decoration.",
+      "correctAnswer": "true",
+      "explanation": "Science diagrams help learners connect variables, parts, or processes.",
+      "points": 1
+    },
+    {
+      "id": "q10",
+      "questionId": "q10",
+      "type": "fill-in",
+      "question": "One key term in this lesson is ________.",
+      "correctAnswer": "renewable energy",
+      "explanation": "renewable energy is central to the lesson.",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "questionId": "q11",
+      "type": "short-answer",
+      "question": "In 1-2 sentences, connect this idea to daily life: Renewable sources include solar, wind, hydro, and geothermal.",
+      "correctAnswer": "A good answer gives a real situation and explains the concept correctly.",
+      "explanation": "The answer should apply the concept to a realistic observation or safety decision.",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "questionId": "q12",
+      "type": "multiple-choice",
+      "question": "Which study action best builds mastery?",
+      "correctAnswer": 1,
+      "explanation": "Self-explaining diagrams checks understanding.",
+      "points": 1,
+      "options": [
+        "Skip diagrams",
+        "Explain each diagram in your own words",
+        "Memorize only the title",
+        "Ignore examples"
+      ]
+    }
+  ]
+}

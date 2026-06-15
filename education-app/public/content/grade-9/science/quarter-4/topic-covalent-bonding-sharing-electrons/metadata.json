@@ -1,0 +1,35 @@
+{
+  "id": "grade-9-science-q4-topic-covalent-bonding-sharing-electrons",
+  "grade": 9,
+  "subject": "science",
+  "quarter": 4,
+  "topicName": "Covalent Bonding: Sharing Electrons",
+  "description": "A Grade 9 lesson on covalent bonds, shared electrons, water, carbon dioxide, and molecules.",
+  "learningObjectives": [
+    "Describe covalent bonding as sharing electrons",
+    "Identify covalent bonding as common between nonmetals",
+    "Model water and carbon dioxide as molecules",
+    "Contrast molecules with ionic lattices"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "beginner",
+  "tags": [
+    "chemistry",
+    "chemical-bonding",
+    "science-of-materials",
+    "grade-9",
+    "matatag"
+  ],
+  "prerequisites": [
+    "Valence electrons",
+    "Stable outer shells",
+    "Difference between metals and nonmetals"
+  ],
+  "lastUpdated": "2026-06-11",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

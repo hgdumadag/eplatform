@@ -1,0 +1,39 @@
+{
+  "id": "grade-10-science-q3-topic-indicators-chemical-reaction",
+  "grade": 10,
+  "subject": "science",
+  "quarter": 3,
+  "topicName": "How Do You Know a Reaction Happened?",
+  "description": "A self-paced Grade 10 chemistry lesson on observable indicators of chemical reactions and how to distinguish chemical changes from physical changes using evidence.",
+  "learningObjectives": [
+    "Describe five common indicators that may signal a chemical reaction has occurred",
+    "Distinguish chemical changes from physical changes using observable evidence",
+    "Explain why one observation alone is not always enough to prove that a new substance formed",
+    "Use everyday examples such as rusting, bubbling, browning, spoiling, and temperature change to identify possible reactions"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "beginner",
+  "tags": [
+    "chemistry",
+    "chemical-reactions",
+    "chemical-change",
+    "physical-change",
+    "reaction-indicators",
+    "grade-10",
+    "matatag"
+  ],
+  "prerequisites": [
+    "Matter is made of particles",
+    "Basic properties of solids, liquids, and gases",
+    "Physical changes such as melting, freezing, boiling, and dissolving",
+    "Chemical changes can form new substances",
+    "Safe observation of household materials"
+  ],
+  "lastUpdated": "2026-06-11",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

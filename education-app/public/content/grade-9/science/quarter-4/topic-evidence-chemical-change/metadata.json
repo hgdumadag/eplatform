@@ -1,0 +1,35 @@
+{
+  "id": "grade-9-science-q4-topic-evidence-chemical-change",
+  "grade": 9,
+  "subject": "science",
+  "quarter": 4,
+  "topicName": "Evidence of a Chemical Change",
+  "description": "A self-paced Grade 9 chemistry lesson on evidence of chemical change, precipitates, limewater, and valid/reliable investigations.",
+  "learningObjectives": [
+    "Identify observations that suggest a new substance formed",
+    "Explain limewater and precipitate evidence",
+    "Distinguish chemical evidence from physical changes",
+    "Describe why controlled variables and repeated trials improve reliability"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "beginner",
+  "tags": [
+    "chemistry",
+    "chemical-bonding",
+    "science-of-materials",
+    "grade-9",
+    "matatag"
+  ],
+  "prerequisites": [
+    "Basic particle model of matter",
+    "Physical changes such as melting and dissolving",
+    "Safe observation skills"
+  ],
+  "lastUpdated": "2026-06-11",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

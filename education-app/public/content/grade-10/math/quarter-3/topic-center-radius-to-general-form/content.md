@@ -1,4 +1,4 @@
-# Center-Radius to General Form
+# Geometry - Lesson 5: Center-Radius to General Form
 
 > [!GOAL] Learning Goal
 >

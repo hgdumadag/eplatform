@@ -1,4 +1,4 @@
-# Bearings and Oblique Triangles
+# Geometry - Lesson 6: Bearings and Oblique Triangles
 
 > [!GOAL] Learning Goal
 >

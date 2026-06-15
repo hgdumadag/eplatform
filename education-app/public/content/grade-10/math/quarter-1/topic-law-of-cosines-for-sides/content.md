@@ -1,4 +1,4 @@
-# Law of Cosines for Sides
+# Geometry - Lesson 4: Law of Cosines for Sides
 
 > [!GOAL] Learning Goal
 >

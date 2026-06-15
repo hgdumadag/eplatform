@@ -1,4 +1,4 @@
-# Trigonometry: Law of Cosines for SAS
+# Trigonometry - Lesson 5: Law of Cosines for SAS
 
 > [!GOAL] Learning Goal
 >

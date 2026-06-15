@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="500" viewBox="0 0 920 500" role="img" aria-labelledby="title desc">
+<title id="title">Horizontal and vertical components</title><desc id="desc">Projectile motion is easier when velocity is separated into x and y components</desc>
+<rect width="920" height="500" rx="28" fill="#f8fafc"/>
+<rect x="22" y="22" width="876" height="456" rx="24" fill="#fef3c7" stroke="#0f172a" stroke-width="2"/>
+<text x="460" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="800" fill="#0f172a">Horizontal and vertical components</text>
+<text x="460" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">Projectile motion is easier when velocity is separated into x and y</text>
+<text x="460" y="106" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">components</text>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10 Z" fill="#ea580c"/></marker></defs>
+<circle cx="250" cy="245" r="56" fill="#bfdbfe" stroke="#1e3a8a" stroke-width="4"/>
+<circle cx="670" cy="245" r="56" fill="#fecaca" stroke="#7f1d1d" stroke-width="4"/>
+<path d="M325 245 L590 245" stroke="#ea580c" stroke-width="10" marker-end="url(#arrow)"/>
+<text x="250" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#0f172a">A</text>
+<text x="670" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#0f172a">B</text>
+<rect x="38" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+<text x="50" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">horizontal component vₓ</text>
+<rect x="648" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+<text x="660" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">vertical component vᵧ</text>
+<rect x="38" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+<text x="50" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">gravity changes vᵧ</text>
+<rect x="342" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+<text x="354" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">vₓ stays nearly constant</text>
+</svg>

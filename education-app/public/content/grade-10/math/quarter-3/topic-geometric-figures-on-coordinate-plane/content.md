@@ -1,4 +1,4 @@
-# Geometric Figures on the Coordinate Plane
+# Geometry - Lesson 9: Geometric Figures on the Coordinate Plane
 
 > [!GOAL] Learning Goal
 >

@@ -1,0 +1,12 @@
+{
+  "id": "grade-9-science-q3-topic-protecting-conserving-species",
+  "grade": 9,
+  "subject": "science",
+  "quarter": 3,
+  "topicName": "Protecting and Conserving Species",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

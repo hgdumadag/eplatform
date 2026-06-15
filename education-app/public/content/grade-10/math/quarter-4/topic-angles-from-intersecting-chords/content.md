@@ -1,4 +1,4 @@
-# Angles from Intersecting Chords
+# Geometry - Lesson 3: Angles from Intersecting Chords
 
 > [!GOAL] Learning Goal
 >

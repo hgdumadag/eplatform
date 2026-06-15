@@ -1,0 +1,108 @@
+{
+  "examId": "grade-10-science-q3-topic-environmental-chemical-reactions-practice",
+  "examType": "practice",
+  "title": "Practice: Chemical Reactions in the Environment",
+  "description": "Low-stakes practice on combustion, acids on metals, acids on carbonates, and acid rain damage.",
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "timeLimit": 25,
+  "passingScore": 70,
+  "questions": [
+    {
+      "questionId": 1,
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which word equation best represents complete combustion of a hydrocarbon fuel?",
+      "options": [
+        "fuel + oxygen -> carbon dioxide + water + energy",
+        "acid + metal -> salt + hydrogen gas",
+        "acid + carbonate -> salt + water + carbon dioxide",
+        "metal + oxygen -> salt + water"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Complete combustion of a hydrocarbon uses oxygen and produces carbon dioxide, water, and energy as heat and often light."
+    },
+    {
+      "questionId": 2,
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Vinegar is poured on crushed eggshell and bubbles form. Which gas is most likely produced?",
+      "options": [
+        "Hydrogen",
+        "Oxygen",
+        "Carbon dioxide",
+        "Nitrogen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Eggshell contains calcium carbonate. Acids react with carbonates to produce a salt, water, and carbon dioxide gas."
+    },
+    {
+      "questionId": 3,
+      "id": "q3",
+      "type": "true-false",
+      "points": 10,
+      "question": "True or False: Acid rain can slowly damage marble or limestone because these materials contain carbonate compounds.",
+      "correctAnswer": "true",
+      "explanation": "True. Acid reacts with carbonate materials such as limestone and marble, slowly dissolving or etching their surfaces."
+    },
+    {
+      "questionId": 4,
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "An acid reacts with zinc metal. What is the expected product pattern?",
+      "options": [
+        "salt + water + oxygen",
+        "salt + hydrogen gas",
+        "carbon dioxide + water only",
+        "metal oxide + carbon dioxide"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Many acids react with active metals to form a salt and hydrogen gas. Bubbles may be observed as the hydrogen gas forms."
+    },
+    {
+      "questionId": 5,
+      "id": "q5",
+      "type": "fill-in",
+      "points": 10,
+      "question": "In complete combustion, the gas linked to climate change that is commonly produced is ____.",
+      "correctAnswer": "carbon dioxide or CO2",
+      "explanation": "Complete combustion of carbon-containing fuels produces carbon dioxide, a greenhouse gas linked to climate change."
+    },
+    {
+      "questionId": 6,
+      "id": "q6",
+      "type": "true-false",
+      "points": 10,
+      "question": "True or False: Combustion is useful only in laboratories and does not occur in daily life.",
+      "correctAnswer": "false",
+      "explanation": "False. Combustion occurs in daily life when LPG, charcoal, gasoline, diesel, or other fuels burn."
+    },
+    {
+      "questionId": 7,
+      "id": "q7",
+      "type": "short-answer",
+      "points": 10,
+      "question": "Why can coastal metal roofs or railings corrode faster than similar objects kept indoors?",
+      "correctAnswer": "Coastal metal objects are exposed to moisture, oxygen, and salt spray, and acidic pollutants may also speed corrosion. Indoor objects usually have less exposure to these factors.",
+      "explanation": "Corrosion is faster when metals are exposed to water, oxygen, salts, and acids. Coastal environments often provide several of these conditions at once."
+    },
+    {
+      "questionId": 8,
+      "id": "q8",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which observation best suggests acid reacting with a carbonate material?",
+      "options": [
+        "A solid melts into liquid metal",
+        "A clear liquid evaporates with no residue",
+        "Fizzing occurs and carbon dioxide is produced",
+        "A magnet attracts the sample"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Acid + carbonate reactions release carbon dioxide gas, which appears as fizzing or bubbles."
+    }
+  ]
+}

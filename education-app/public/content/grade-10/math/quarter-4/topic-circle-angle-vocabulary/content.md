@@ -1,4 +1,4 @@
-# Circle Angle Vocabulary
+# Geometry - Lesson 1: Circle Angle Vocabulary
 
 > [!GOAL] Learning Goal
 >

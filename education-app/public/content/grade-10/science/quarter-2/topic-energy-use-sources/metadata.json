@@ -1,0 +1,12 @@
+{
+  "id": "grade-10-science-q2-topic-energy-use-sources",
+  "grade": 10,
+  "subject": "science",
+  "quarter": 2,
+  "topicName": "Energy Use and Energy Sources",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

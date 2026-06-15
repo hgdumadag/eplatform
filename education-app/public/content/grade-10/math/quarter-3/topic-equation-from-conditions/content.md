@@ -1,4 +1,4 @@
-# Equation from Conditions
+# Geometry - Lesson 8: Equation from Conditions
 
 > [!GOAL] Learning Goal
 >

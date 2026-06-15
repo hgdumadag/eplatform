@@ -1,0 +1,80 @@
+{
+  "examId": "grade-10-science-q3-topic-writing-chemical-equations-practice",
+  "examType": "practice",
+  "title": "Writing Chemical Equations Practice",
+  "description": "Practice identifying reactants and products, reading arrows, and translating word equations into formula equations.",
+  "passingScore": 70,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "In a chemical equation, where are the reactants written?",
+      "options": ["On the right side of the arrow", "On the left side of the arrow", "Above the arrow", "Only inside parentheses"],
+      "correctAnswer": 1,
+      "explanation": "Reactants are the starting substances, so they are written on the left side of the arrow.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "What does the arrow (->) mean in a chemical equation?",
+      "options": ["Is equal to exactly the same substance", "Is less than", "Yields or produces", "Must be heated"],
+      "correctAnswer": 2,
+      "explanation": "The arrow is read as yields, produces, or forms. It points from reactants to products.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A word equation uses substance names instead of chemical formulas.",
+      "correctAnswer": "true",
+      "explanation": "A word equation is written with names, such as hydrogen + oxygen -> water.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Which is the formula equation for carbon + oxygen -> carbon dioxide?",
+      "options": ["C + O2 -> CO2", "Ca + O -> CaO", "C + O -> CO", "CO2 -> C + O2"],
+      "correctAnswer": 0,
+      "explanation": "Carbon is C, oxygen gas is O2, and carbon dioxide is CO2, so the correct translation is C + O2 -> CO2.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "In `2H2O`, the number 2 written in front of H2O is called a __________.",
+      "correctAnswer": "coefficient",
+      "explanation": "A coefficient is a number written before a formula to show how many particles or formula units are present.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "In `H2O`, what does the subscript 2 tell you?",
+      "options": ["There are two water molecules", "There are two hydrogen atoms in each water molecule", "There are two oxygen atoms in each water molecule", "The equation is balanced"],
+      "correctAnswer": 1,
+      "explanation": "The subscript 2 after H means each water molecule contains two hydrogen atoms.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "Changing a subscript can change the identity of a substance.",
+      "correctAnswer": "true",
+      "explanation": "For example, H2O is water but H2O2 is hydrogen peroxide. Subscripts are part of the formula.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Translate this word equation into formula form: methane + oxygen -> carbon dioxide + water. Use CH4, O2, CO2, and H2O.",
+      "correctAnswer": "CH4 + O2 -> CO2 + H2O",
+      "explanation": "Keep reactants on the left and products on the right, then replace each name with its formula: CH4 + O2 -> CO2 + H2O.",
+      "points": 10
+    }
+  ]
+}

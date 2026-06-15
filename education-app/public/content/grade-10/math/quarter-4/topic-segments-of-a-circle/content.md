@@ -1,4 +1,4 @@
-# Segments of a Circle
+# Geometry - Lesson 8: Segments of a Circle
 
 > [!GOAL] Learning Goal
 >

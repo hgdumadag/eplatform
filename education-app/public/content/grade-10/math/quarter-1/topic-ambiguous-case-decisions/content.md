@@ -1,4 +1,4 @@
-# Trigonometry: Ambiguous Case Decisions
+# Trigonometry - Lesson 4: Ambiguous Case Decisions
 
 > [!GOAL] Learning Goal
 >

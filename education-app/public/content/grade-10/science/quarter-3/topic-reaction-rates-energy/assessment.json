@@ -1,0 +1,156 @@
+{
+  "examId": "grade-10-science-q3-topic-reaction-rates-energy-assessment",
+  "examType": "assessment",
+  "title": "Assessment: Reaction Rates and Energy",
+  "description": "Checkpoint assessment on reaction-rate factors, energy flow, and real-world control of chemical reactions.",
+  "totalQuestions": 12,
+  "totalPoints": 120,
+  "timeLimit": 40,
+  "passingScore": 75,
+  "questions": [
+    {
+      "questionId": 1,
+      "id": "q1",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which set lists the four rate factors emphasized in this lesson?",
+      "options": [
+        "Color, odor, mass, and magnetism",
+        "Temperature, concentration, surface area, and catalysts",
+        "Density, volume, melting point, and boiling point",
+        "Gravity, pressure, sound, and light only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The lesson focuses on temperature, concentration, surface area, and catalysts as major factors affecting reaction rate."
+    },
+    {
+      "questionId": 2,
+      "id": "q2",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "A student compares a whole antacid tablet and a crushed antacid tablet in equal amounts of vinegar. Which prediction is best?",
+      "options": [
+        "The crushed tablet reacts faster because it has greater surface area",
+        "The whole tablet reacts faster because it has lower surface area",
+        "Both must react at exactly the same rate because their mass is similar",
+        "Neither can react because vinegar is a liquid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Crushing increases exposed surface area, allowing more collisions between the tablet and vinegar."
+    },
+    {
+      "questionId": 3,
+      "id": "q3",
+      "type": "true-false",
+      "points": 10,
+      "question": "True or False: A catalyst speeds up a reaction by being permanently used up as the main reactant.",
+      "correctAnswer": "false",
+      "explanation": "False. A catalyst speeds up a reaction but is not consumed overall."
+    },
+    {
+      "questionId": 4,
+      "id": "q4",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which action is most directly based on lowering temperature to slow reaction rates?",
+      "options": [
+        "Keeping fish on ice after harvest",
+        "Crushing a solid into powder",
+        "Adding a catalyst to a reactor",
+        "Using a more concentrated acid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ice lowers temperature and slows many spoilage reactions and microbial processes."
+    },
+    {
+      "questionId": 5,
+      "id": "q5",
+      "type": "fill-in",
+      "points": 10,
+      "question": "A reaction that absorbs energy from the surroundings is called ____.",
+      "correctAnswer": "endothermic",
+      "explanation": "Endothermic reactions absorb energy from surroundings, which may make the surroundings feel cooler."
+    },
+    {
+      "questionId": 6,
+      "id": "q6",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Burning LPG in a stove releases heat to cook food. This reaction is:",
+      "options": [
+        "endothermic because heat enters the kitchen",
+        "exothermic because energy is released to the surroundings",
+        "not a chemical reaction because heat is involved",
+        "a catalyst because it is useful"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Combustion of LPG is exothermic because it releases energy as heat and light to the surroundings."
+    },
+    {
+      "questionId": 7,
+      "id": "q7",
+      "type": "short-answer",
+      "points": 10,
+      "question": "Explain how lowering concentration can slow a reaction in terms of particle collisions.",
+      "correctAnswer": "Lower concentration means fewer reactant particles in the same volume, so there are fewer collisions per second and the reaction usually slows down.",
+      "explanation": "Reaction rate depends partly on collision frequency. Fewer particles per volume usually means fewer effective collisions."
+    },
+    {
+      "questionId": 8,
+      "id": "q8",
+      "type": "true-false",
+      "points": 10,
+      "question": "True or False: A reaction can be slow and exothermic at the same time.",
+      "correctAnswer": "true",
+      "explanation": "True. Rate and energy change are different ideas. A reaction may happen slowly while still releasing energy overall."
+    },
+    {
+      "questionId": 9,
+      "id": "q9",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "Which choice best explains why protective paint can help reduce corrosion of a metal gate?",
+      "options": [
+        "It increases the surface area of bare metal",
+        "It acts as food for rust",
+        "It limits contact between the metal and reactants such as water and oxygen",
+        "It makes all corrosion endothermic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Paint forms a barrier that slows contact between metal and substances involved in corrosion."
+    },
+    {
+      "questionId": 10,
+      "id": "q10",
+      "type": "short-answer",
+      "points": 10,
+      "question": "A student says, 'If a reaction is faster, it must be exothermic.' Correct the statement.",
+      "correctAnswer": "Fast describes reaction rate, while exothermic describes energy flow. A reaction can be fast or slow and can be exothermic or endothermic depending on whether it releases or absorbs energy.",
+      "explanation": "Rate and energy change are separate properties. Speed does not automatically tell whether energy is released or absorbed."
+    },
+    {
+      "questionId": 11,
+      "id": "q11",
+      "type": "multiple-choice",
+      "points": 10,
+      "question": "In manufacturing useful materials, why are catalysts often valuable?",
+      "options": [
+        "They can speed selected reactions without being consumed overall",
+        "They always make reactions colder and stop production",
+        "They remove the need for reactants",
+        "They turn every product into oxygen gas"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Catalysts help reactions proceed faster or under milder conditions and are not used up overall, which can improve efficiency."
+    },
+    {
+      "questionId": 12,
+      "id": "q12",
+      "type": "fill-in",
+      "points": 10,
+      "question": "For a solid reactant, crushing it into smaller pieces increases exposed ____ area.",
+      "correctAnswer": "surface",
+      "explanation": "Crushing a solid increases surface area, giving more contact between reactants and often increasing reaction rate."
+    }
+  ]
+}

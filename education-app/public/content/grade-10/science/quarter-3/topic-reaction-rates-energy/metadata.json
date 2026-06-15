@@ -1,0 +1,39 @@
+{
+  "id": "grade-10-science-q3-topic-reaction-rates-energy",
+  "grade": 10,
+  "subject": "science",
+  "quarter": 3,
+  "topicName": "Reaction Rates and Energy",
+  "description": "Explain how temperature, concentration, surface area, and catalysts affect reaction rate, and distinguish exothermic from endothermic reactions using everyday materials and safety contexts.",
+  "learningObjectives": [
+    "Describe reaction rate as how fast reactants are converted into products",
+    "Explain how temperature, concentration, surface area, and catalysts affect reaction rate",
+    "Distinguish exothermic reactions from endothermic reactions using energy flow and temperature change",
+    "Connect reaction-rate control to food preservation, corrosion prevention, fire control, and useful materials production"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "reaction rate",
+    "temperature",
+    "concentration",
+    "surface area",
+    "catalyst",
+    "exothermic",
+    "endothermic",
+    "materials science"
+  ],
+  "prerequisites": [
+    "Indicators of chemical reactions such as gas formation, color change, and temperature change",
+    "Reactants and products in word equations",
+    "Basic particle model of matter",
+    "Combustion, corrosion, and acid-carbonate reactions from environmental chemistry"
+  ],
+  "lastUpdated": "2026-06-11",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

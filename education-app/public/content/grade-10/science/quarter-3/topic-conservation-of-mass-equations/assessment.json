@@ -1,0 +1,134 @@
+{
+  "examId": "grade-10-science-q3-topic-conservation-of-mass-equations-assessment",
+  "examType": "assessment",
+  "title": "Conservation of Mass and Balanced Equations Assessment",
+  "description": "Checkpoint assessment for mass conservation, atom counting, and explaining why chemical equations must balance.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 12,
+  "totalPoints": 120,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A reaction takes place in a sealed container. The reactants have a total mass of 25 g. What should be the total mass of the products?",
+      "options": ["0 g", "20 g", "25 g", "50 g"],
+      "correctAnswer": 2,
+      "explanation": "In a sealed or closed container, mass is conserved, so the products must have the same total mass as the reactants.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which statement explains why products can be new substances even though atoms are conserved?",
+      "options": [
+        "The atoms are rearranged into different combinations.",
+        "The old atoms are destroyed and replaced.",
+        "Reactants turn into energy only.",
+        "Subscripts disappear during reactions."
+      ],
+      "correctAnswer": 0,
+      "explanation": "New substances form when the same atoms are connected and arranged in new ways.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "If an equation is balanced, each element has the same number of atoms on the reactant side and product side.",
+      "correctAnswer": "true",
+      "explanation": "Balancing requires matching the atom count for every element across the arrow.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Which equation is balanced?",
+      "options": [
+        "Mg + O2 -> MgO",
+        "2Mg + O2 -> 2MgO",
+        "Mg + O -> MgO",
+        "Mg2 + O2 -> MgO"
+      ],
+      "correctAnswer": 1,
+      "explanation": "2Mg + O2 -> 2MgO has 2 Mg atoms and 2 O atoms on both sides.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Count the oxygen atoms on the product side of CH4 + 2O2 -> CO2 + 2H2O.",
+      "options": ["2", "3", "4", "6"],
+      "correctAnswer": 2,
+      "explanation": "CO2 has 2 oxygen atoms, and 2H2O has 2 more oxygen atoms. The product side has 4 oxygen atoms total.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "In a closed system, 15 g of reactant A combines with 20 g of reactant B. The total mass of products is ____ g.",
+      "correctAnswer": "35 g or 35",
+      "explanation": "Add the reactant masses: 15 g + 20 g = 35 g.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "Balancing a chemical equation should be done by changing subscripts inside correct chemical formulas.",
+      "correctAnswer": "false",
+      "explanation": "Balancing is done by changing coefficients. Subscripts are part of a substance's formula and changing them changes the substance.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "The equation H2 + O2 -> H2O is not balanced because:",
+      "options": [
+        "Hydrogen atoms are not equal.",
+        "Oxygen atoms are not equal.",
+        "There are no products.",
+        "The arrow points the wrong way."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The reactant side has 2 oxygen atoms in O2, but the product side has only 1 oxygen atom in H2O.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "question": "Fill in the coefficient that balances the product side: 2H2 + O2 -> ____H2O.",
+      "correctAnswer": "2",
+      "explanation": "Placing 2 before H2O gives 4 H atoms and 2 O atoms on the product side, matching the reactants.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "A student heats a substance in an open beaker and finds less mass afterward. Which explanation best fits conservation of mass?",
+      "options": [
+        "The law of conservation of mass stopped working.",
+        "Some matter may have escaped as a gas.",
+        "The missing mass turned into nothing.",
+        "The product has no atoms."
+      ],
+      "correctAnswer": 1,
+      "explanation": "In an open container, gas can escape. The law is clearest when all matter is kept in a closed system.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "question": "Explain why 2Na + Cl2 -> 2NaCl is balanced.",
+      "correctAnswer": "It is balanced because both sides have 2 sodium atoms and 2 chlorine atoms. The atoms are rearranged into sodium chloride, but the counts stay the same.",
+      "explanation": "A correct explanation names the atom counts for Na and Cl on both sides.",
+      "points": 10
+    },
+    {
+      "id": "q12",
+      "type": "short-answer",
+      "question": "A student writes C + O2 -> CO and says it is balanced because there is one carbon atom on each side. Explain the error.",
+      "correctAnswer": "The student counted carbon but ignored oxygen. The reactant side has 2 oxygen atoms in O2, while CO has only 1 oxygen atom, so the equation is not balanced.",
+      "explanation": "Every element must be counted. Matching only one element is not enough to prove an equation is balanced.",
+      "points": 10
+    }
+  ]
+}

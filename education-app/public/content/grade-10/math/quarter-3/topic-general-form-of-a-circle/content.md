@@ -1,4 +1,4 @@
-# General Form of a Circle
+# Geometry - Lesson 3: General Form of a Circle
 
 > [!GOAL] Learning Goal
 >

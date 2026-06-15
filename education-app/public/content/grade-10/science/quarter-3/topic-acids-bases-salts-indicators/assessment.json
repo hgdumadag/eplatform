@@ -1,0 +1,150 @@
+{
+  "examId": "grade-10-science-q3-topic-acids-bases-salts-indicators-assessment",
+  "examType": "assessment",
+  "title": "Assessment: Identifying Acids, Bases, and Salts with Indicators",
+  "description": "Checkpoint assessment on using indicator evidence, pH, neutralization, and safe household investigation practices.",
+  "totalQuestions": 12,
+  "totalPoints": 60,
+  "timeLimit": 30,
+  "passingScore": 75,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": 1,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A liquid has pH 3 and turns blue litmus red. Which classification is best supported?",
+      "options": [
+        "Acid",
+        "Base",
+        "Neutral substance",
+        "Insoluble solid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both pieces of evidence point to an acid: pH below 7 and blue litmus turning red."
+    },
+    {
+      "id": "q2",
+      "questionId": 2,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "A safe sample of soap solution turns red litmus blue. What does the indicator show?",
+      "options": [
+        "The solution is acidic.",
+        "The solution is basic.",
+        "The solution is a neutral salt.",
+        "The solution contains no water."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Red litmus turning blue is evidence that a solution is basic."
+    },
+    {
+      "id": "q3",
+      "questionId": 3,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which observation best suggests that a sample is neutral or nearly neutral?",
+      "options": [
+        "Blue litmus turns red.",
+        "Red litmus turns blue.",
+        "Both red and blue litmus show no change.",
+        "Red cabbage indicator turns bright pink."
+      ],
+      "correctAnswer": 2,
+      "explanation": "No change in both red and blue litmus suggests the sample may be neutral or nearly neutral, though a more detailed indicator can provide more evidence."
+    },
+    {
+      "id": "q4",
+      "questionId": 4,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which word equation shows a common neutralization pattern?",
+      "options": [
+        "acid + base -> salt + water",
+        "metal + oxygen -> acid + light",
+        "salt + water -> acid + oxygen",
+        "base + base -> metal + gas"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A common neutralization pattern is acid plus base forming salt and water."
+    },
+    {
+      "id": "q5",
+      "questionId": 5,
+      "type": "multiple-choice",
+      "points": 5,
+      "question": "Which pair is correctly matched?",
+      "options": [
+        "Lemon juice - base",
+        "Baking soda solution - acid",
+        "Vinegar - acid",
+        "Soap solution - neutral only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Vinegar contains acetic acid, so vinegar is correctly matched with acid."
+    },
+    {
+      "id": "q6",
+      "questionId": 6,
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: Red cabbage juice can be used as a natural indicator for acids and bases.",
+      "correctAnswer": "true",
+      "explanation": "Red cabbage juice contains pigments that change color in acidic and basic solutions."
+    },
+    {
+      "id": "q7",
+      "questionId": 7,
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: If blue litmus does not turn red, the sample is definitely a base.",
+      "correctAnswer": "false",
+      "explanation": "Blue litmus staying blue does not prove a base. The sample could be neutral, basic, or unclear. Red litmus or another indicator should be used too."
+    },
+    {
+      "id": "q8",
+      "questionId": 8,
+      "type": "true-false",
+      "points": 5,
+      "question": "True or False: Household cleaners should not be mixed with other chemicals during an indicator activity.",
+      "correctAnswer": "true",
+      "explanation": "Mixing cleaners or unknown chemicals can create dangerous reactions or fumes. Indicator activities should use labeled, safe samples only."
+    },
+    {
+      "id": "q9",
+      "questionId": 9,
+      "type": "fill-in",
+      "points": 5,
+      "question": "The scale from 0 to 14 used to describe how acidic or basic a solution is called the _____ scale.",
+      "correctAnswer": "pH",
+      "explanation": "The pH scale describes acidity and basicity, with 7 as neutral."
+    },
+    {
+      "id": "q10",
+      "questionId": 10,
+      "type": "fill-in",
+      "points": 5,
+      "question": "Blue litmus turning red is evidence that a sample is _____.",
+      "correctAnswer": "acidic",
+      "explanation": "Blue litmus turns red in acidic substances."
+    },
+    {
+      "id": "q11",
+      "questionId": 11,
+      "type": "short-answer",
+      "points": 5,
+      "question": "A student tests saltwater with red and blue litmus. Neither paper changes color. What classification is most likely, and what is one limitation of this evidence?",
+      "correctAnswer": "The saltwater is most likely neutral or nearly neutral. A limitation is that litmus gives only a simple acid/base result, so a pH meter or universal indicator would give more detailed evidence.",
+      "explanation": "No litmus change often suggests neutral or near-neutral behavior, but litmus is not precise enough to give an exact pH."
+    },
+    {
+      "id": "q12",
+      "questionId": 12,
+      "type": "short-answer",
+      "points": 5,
+      "question": "Explain how you could safely compare vinegar, water, and baking soda solution using red cabbage indicator.",
+      "correctAnswer": "Place small labeled samples in separate containers, add the same amount of red cabbage indicator to each, and record the color changes. Do not taste the samples or mix unknown chemicals. Vinegar should look pink or red, water purple, and baking soda solution greenish or blue-green.",
+      "explanation": "A safe comparison uses small labeled samples, equal indicator amounts, observation of color, and no tasting or unsafe mixing."
+    }
+  ]
+}

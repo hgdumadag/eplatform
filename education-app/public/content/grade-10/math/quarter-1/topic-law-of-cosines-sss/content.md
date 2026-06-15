@@ -1,4 +1,4 @@
-# Trigonometry: Law of Cosines for SSS
+# Trigonometry - Lesson 6: Law of Cosines for SSS
 
 > [!GOAL] Learning Goal
 >

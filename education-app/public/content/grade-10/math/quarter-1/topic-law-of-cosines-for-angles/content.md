@@ -1,4 +1,4 @@
-# Law of Cosines for Angles
+# Geometry - Lesson 5: Law of Cosines for Angles
 
 > [!GOAL] Learning Goal
 >

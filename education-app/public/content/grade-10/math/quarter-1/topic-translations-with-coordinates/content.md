@@ -1,4 +1,4 @@
-# Translations with Coordinates
+# Geometry - Lesson 8: Translations with Coordinates
 
 > [!GOAL] Learning Goal
 >

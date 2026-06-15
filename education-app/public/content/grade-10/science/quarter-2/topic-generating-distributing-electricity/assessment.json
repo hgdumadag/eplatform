@@ -1,0 +1,150 @@
+{
+  "examId": "grade-10-science-q2-topic-generating-distributing-electricity-assessment",
+  "examType": "assessment",
+  "title": "Generating and Distributing Electricity Assessment",
+  "description": "Mastery assessment for the lesson.",
+  "passingScore": 9,
+  "timeLimit": 30,
+  "totalQuestions": 12,
+  "totalPoints": 14,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": "q1",
+      "type": "multiple-choice",
+      "question": "What are the three main stages of delivering electricity?",
+      "correctAnswer": 0,
+      "explanation": "Electricity is generated, transmitted, then distributed.",
+      "points": 1,
+      "options": [
+        "Generation, transmission, distribution",
+        "Cooking, cleaning, sleeping",
+        "Evaporation, condensation, precipitation",
+        "Reflection, rotation, translation"
+      ]
+    },
+    {
+      "id": "q2",
+      "questionId": "q2",
+      "type": "multiple-choice",
+      "question": "What does a substation often do before electricity reaches homes?",
+      "correctAnswer": 0,
+      "explanation": "Substations change voltage levels, often stepping down for distribution.",
+      "points": 1,
+      "options": [
+        "Raises or lowers voltage",
+        "Makes gasoline",
+        "Measures rainfall",
+        "Stores food"
+      ]
+    },
+    {
+      "id": "q3",
+      "questionId": "q3",
+      "type": "true-false",
+      "question": "High voltage helps reduce energy loss during long-distance transmission.",
+      "correctAnswer": "true",
+      "explanation": "Higher voltage transmission can be more efficient.",
+      "points": 1
+    },
+    {
+      "id": "q4",
+      "questionId": "q4",
+      "type": "true-false",
+      "question": "An electric meter measures how tall a house is.",
+      "correctAnswer": "false",
+      "explanation": "It measures electrical energy use.",
+      "points": 1
+    },
+    {
+      "id": "q5",
+      "questionId": "q5",
+      "type": "fill-in",
+      "question": "The facility that changes voltage levels is called a ________.",
+      "correctAnswer": "substation",
+      "explanation": "Substations step voltage up or down.",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "questionId": "q6",
+      "type": "short-answer",
+      "question": "Why is electricity transmitted at high voltage over long distances?",
+      "correctAnswer": "A good answer mentions reducing energy loss and efficient transmission.",
+      "explanation": "High voltage reduces energy loss in transmission lines, making long-distance delivery more efficient.",
+      "points": 2
+    },
+    {
+      "id": "q7",
+      "questionId": "q7",
+      "type": "multiple-choice",
+      "question": "Which statement best matches this lesson?",
+      "correctAnswer": 0,
+      "explanation": "The first option states a central idea from the lesson.",
+      "points": 1,
+      "options": [
+        "Electricity delivery has three major stages: generation, transmission, and distribution.",
+        "The topic is unrelated to force, motion, or electricity.",
+        "Only memorized definitions matter.",
+        "The safest answer is always to ignore evidence."
+      ]
+    },
+    {
+      "id": "q8",
+      "questionId": "q8",
+      "type": "multiple-choice",
+      "question": "Which vocabulary term means: production of electrical energy?",
+      "correctAnswer": 0,
+      "explanation": "The definition describes generation.",
+      "points": 1,
+      "options": [
+        "generation",
+        "transmission",
+        "distribution",
+        "substation"
+      ]
+    },
+    {
+      "id": "q9",
+      "questionId": "q9",
+      "type": "true-false",
+      "question": "A useful diagram for this lesson should show relationships, not just decoration.",
+      "correctAnswer": "true",
+      "explanation": "Science diagrams help learners connect variables, parts, or processes.",
+      "points": 1
+    },
+    {
+      "id": "q10",
+      "questionId": "q10",
+      "type": "fill-in",
+      "question": "One key term in this lesson is ________.",
+      "correctAnswer": "generation",
+      "explanation": "generation is central to the lesson.",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "questionId": "q11",
+      "type": "short-answer",
+      "question": "In 1-2 sentences, connect this idea to daily life: High voltage is used for long-distance transmission to reduce energy loss.",
+      "correctAnswer": "A good answer gives a real situation and explains the concept correctly.",
+      "explanation": "The answer should apply the concept to a realistic observation or safety decision.",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "questionId": "q12",
+      "type": "multiple-choice",
+      "question": "Which study action best builds mastery?",
+      "correctAnswer": 1,
+      "explanation": "Self-explaining diagrams checks understanding.",
+      "points": 1,
+      "options": [
+        "Skip diagrams",
+        "Explain each diagram in your own words",
+        "Memorize only the title",
+        "Ignore examples"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "examId": "grade-10-science-q2-topic-momentum-assessment",
+  "examType": "assessment",
+  "title": "Momentum Assessment",
+  "description": "Mastery assessment for the lesson.",
+  "passingScore": 9,
+  "timeLimit": 30,
+  "totalQuestions": 12,
+  "totalPoints": 14,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": "q1",
+      "type": "multiple-choice",
+      "question": "Momentum depends on which two quantities?",
+      "correctAnswer": 0,
+      "explanation": "Momentum is mass times velocity.",
+      "points": 1,
+      "options": [
+        "Mass and velocity",
+        "Color and shape",
+        "Temperature and volume",
+        "Voltage and current"
+      ]
+    },
+    {
+      "id": "q2",
+      "questionId": "q2",
+      "type": "multiple-choice",
+      "question": "At the same speed, which has more momentum?",
+      "correctAnswer": 1,
+      "explanation": "The loaded truck has much greater mass.",
+      "points": 1,
+      "options": [
+        "A bicycle",
+        "A loaded truck",
+        "A tennis ball",
+        "A paper cup"
+      ]
+    },
+    {
+      "id": "q3",
+      "questionId": "q3",
+      "type": "true-false",
+      "question": "A faster object of the same mass has more momentum.",
+      "correctAnswer": "true",
+      "explanation": "Momentum increases as velocity increases.",
+      "points": 1
+    },
+    {
+      "id": "q4",
+      "questionId": "q4",
+      "type": "true-false",
+      "question": "Momentum depends only on velocity.",
+      "correctAnswer": "false",
+      "explanation": "Momentum depends on both mass and velocity.",
+      "points": 1
+    },
+    {
+      "id": "q5",
+      "questionId": "q5",
+      "type": "fill-in",
+      "question": "Momentum = mass \u00d7 ________.",
+      "correctAnswer": "velocity",
+      "explanation": "Momentum is calculated from mass and velocity.",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "questionId": "q6",
+      "type": "short-answer",
+      "question": "Why is a fast heavy vehicle harder to stop than a slow light object?",
+      "correctAnswer": "A good answer mentions both mass and velocity producing larger momentum.",
+      "explanation": "The heavy fast vehicle has much more momentum, so a larger impulse is needed to stop it.",
+      "points": 2
+    },
+    {
+      "id": "q7",
+      "questionId": "q7",
+      "type": "multiple-choice",
+      "question": "Which statement best matches this lesson?",
+      "correctAnswer": 0,
+      "explanation": "The first option states a central idea from the lesson.",
+      "points": 1,
+      "options": [
+        "Momentum equals mass \u00d7 velocity.",
+        "The topic is unrelated to force, motion, or electricity.",
+        "Only memorized definitions matter.",
+        "The safest answer is always to ignore evidence."
+      ]
+    },
+    {
+      "id": "q8",
+      "questionId": "q8",
+      "type": "multiple-choice",
+      "question": "Which vocabulary term means: quantity of motion, equal to mass times velocity?",
+      "correctAnswer": 0,
+      "explanation": "The definition describes momentum.",
+      "points": 1,
+      "options": [
+        "momentum",
+        "mass",
+        "velocity",
+        "impact"
+      ]
+    },
+    {
+      "id": "q9",
+      "questionId": "q9",
+      "type": "true-false",
+      "question": "A useful diagram for this lesson should show relationships, not just decoration.",
+      "correctAnswer": "true",
+      "explanation": "Science diagrams help learners connect variables, parts, or processes.",
+      "points": 1
+    },
+    {
+      "id": "q10",
+      "questionId": "q10",
+      "type": "fill-in",
+      "question": "One key term in this lesson is ________.",
+      "correctAnswer": "momentum",
+      "explanation": "momentum is central to the lesson.",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "questionId": "q11",
+      "type": "short-answer",
+      "question": "In 1-2 sentences, connect this idea to daily life: A heavy object and a fast object both can have large momentum.",
+      "correctAnswer": "A good answer gives a real situation and explains the concept correctly.",
+      "explanation": "The answer should apply the concept to a realistic observation or safety decision.",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "questionId": "q12",
+      "type": "multiple-choice",
+      "question": "Which study action best builds mastery?",
+      "correctAnswer": 1,
+      "explanation": "Self-explaining diagrams checks understanding.",
+      "points": 1,
+      "options": [
+        "Skip diagrams",
+        "Explain each diagram in your own words",
+        "Memorize only the title",
+        "Ignore examples"
+      ]
+    }
+  ]
+}

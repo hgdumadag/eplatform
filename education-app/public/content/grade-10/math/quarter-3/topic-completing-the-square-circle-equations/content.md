@@ -1,4 +1,4 @@
-# Completing the Square for Circle Equations
+# Geometry - Lesson 4: Completing the Square
 
 > [!GOAL] Learning Goal
 >

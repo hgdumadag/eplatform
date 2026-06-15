@@ -1,4 +1,4 @@
-# Shaded Region Problems
+# Geometry - Lesson 9: Shaded Region Problems
 
 > [!GOAL] Learning Goal
 >

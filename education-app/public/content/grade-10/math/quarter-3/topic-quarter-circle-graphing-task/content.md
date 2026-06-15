@@ -1,4 +1,4 @@
-# Quarter Circle Graphing Task
+# Geometry - Lesson 10: Quarter Circle Graphing Task
 
 > [!GOAL] Learning Goal
 >

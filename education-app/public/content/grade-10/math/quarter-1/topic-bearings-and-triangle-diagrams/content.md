@@ -1,4 +1,4 @@
-# Trigonometry: Bearings and Triangle Diagrams
+# Trigonometry - Lesson 8: Bearings and Triangle Diagrams
 
 > [!GOAL] Learning Goal
 >

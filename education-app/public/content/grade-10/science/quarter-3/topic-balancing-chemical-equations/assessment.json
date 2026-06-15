@@ -1,0 +1,144 @@
+{
+  "examId": "grade-10-science-q3-topic-balancing-chemical-equations-assessment",
+  "examType": "assessment",
+  "title": "Assessment: Balancing Chemical Equations",
+  "description": "Checkpoint assessment on balancing chemical equations using coefficients, atom counts, and the Law of Conservation of Mass.",
+  "totalQuestions": 12,
+  "totalPoints": 100,
+  "timeLimit": 35,
+  "passingScore": 75,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": 1,
+      "type": "multiple-choice",
+      "points": 8,
+      "question": "Which statement best explains why chemical equations must be balanced?",
+      "options": [
+        "Balanced equations make all products more reactive.",
+        "Atoms are conserved, so each element must have the same atom count on both sides.",
+        "Subscripts must always be increased during reactions.",
+        "Products must always have smaller coefficients than reactants."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Balanced equations show conservation of mass: atoms are rearranged but not created or destroyed."
+    },
+    {
+      "id": "q2",
+      "questionId": 2,
+      "type": "multiple-choice",
+      "points": 8,
+      "question": "In 3CO2, how many oxygen atoms are represented?",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "6"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Each CO2 molecule has 2 oxygen atoms. The coefficient 3 means 3 x 2 = 6 oxygen atoms."
+    },
+    {
+      "id": "q3",
+      "questionId": 3,
+      "type": "multiple-choice",
+      "points": 8,
+      "question": "Which coefficient set balances CH4 + O2 -> CO2 + H2O?",
+      "options": [
+        "1, 1, 1, 1",
+        "1, 2, 1, 2",
+        "2, 1, 2, 1",
+        "1, 3, 1, 2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "CH4 + 2O2 -> CO2 + 2H2O has 1 C, 4 H, and 4 O atoms on both sides."
+    },
+    {
+      "id": "q4",
+      "questionId": 4,
+      "type": "multiple-choice",
+      "points": 8,
+      "question": "Which equation correctly balances aluminum reacting with chlorine: Al + Cl2 -> AlCl3?",
+      "options": [
+        "Al + Cl2 -> AlCl3",
+        "2Al + Cl2 -> 2AlCl3",
+        "2Al + 3Cl2 -> 2AlCl3",
+        "3Al + 2Cl2 -> 3AlCl3"
+      ],
+      "correctAnswer": 2,
+      "explanation": "2Al + 3Cl2 -> 2AlCl3 gives 2 Al atoms and 6 Cl atoms on each side."
+    },
+    {
+      "id": "q5",
+      "questionId": 5,
+      "type": "true-false",
+      "points": 8,
+      "question": "True or False: The equation 2Mg + O2 -> 2MgO is balanced.",
+      "correctAnswer": "true",
+      "explanation": "True. Both sides have 2 Mg atoms and 2 O atoms."
+    },
+    {
+      "id": "q6",
+      "questionId": 6,
+      "type": "true-false",
+      "points": 8,
+      "question": "True or False: The equation N2 + H2 -> 2NH3 is balanced.",
+      "correctAnswer": "false",
+      "explanation": "False. The nitrogen atoms are balanced, but hydrogen is not: left side has 2 H atoms and right side has 6 H atoms."
+    },
+    {
+      "id": "q7",
+      "questionId": 7,
+      "type": "fill-in",
+      "points": 8,
+      "question": "Write the missing coefficient: N2 + __ H2 -> 2NH3",
+      "correctAnswer": "3",
+      "explanation": "The product side has 6 hydrogen atoms in 2NH3, so the reactant side needs 3H2."
+    },
+    {
+      "id": "q8",
+      "questionId": 8,
+      "type": "fill-in",
+      "points": 8,
+      "question": "Balance the equation: H2 + O2 -> H2O",
+      "correctAnswer": "2H2 + O2 -> 2H2O or 2 H2 + O2 -> 2 H2O",
+      "explanation": "First place 2 before H2O to balance oxygen, then place 2 before H2 to balance hydrogen."
+    },
+    {
+      "id": "q9",
+      "questionId": 9,
+      "type": "fill-in",
+      "points": 9,
+      "question": "Balance the equation: Fe + O2 -> Fe2O3",
+      "correctAnswer": "4Fe + 3O2 -> 2Fe2O3 or 4 Fe + 3 O2 -> 2 Fe2O3",
+      "explanation": "Use 2Fe2O3 to make 6 oxygen atoms on the product side, then use 3O2 and 4Fe on the reactant side."
+    },
+    {
+      "id": "q10",
+      "questionId": 10,
+      "type": "fill-in",
+      "points": 9,
+      "question": "Balance the equation: C2H6 + O2 -> CO2 + H2O",
+      "correctAnswer": "2C2H6 + 7O2 -> 4CO2 + 6H2O or 2 C2H6 + 7 O2 -> 4 CO2 + 6 H2O",
+      "explanation": "Balance carbon and hydrogen first, then oxygen. Multiplying by 2 avoids a fractional oxygen coefficient."
+    },
+    {
+      "id": "q11",
+      "questionId": 11,
+      "type": "short-answer",
+      "points": 9,
+      "question": "A student balances H2 + O2 -> H2O by writing H2 + O2 -> H2O2. Explain the error and give the correct balanced equation.",
+      "correctAnswer": "The student changed the product formula, which changes water into hydrogen peroxide. The correct balanced equation is 2H2 + O2 -> 2H2O.",
+      "explanation": "Balancing must use coefficients, not changed subscripts. H2O and H2O2 are different substances."
+    },
+    {
+      "id": "q12",
+      "questionId": 12,
+      "type": "short-answer",
+      "points": 9,
+      "question": "Describe a systematic strategy for balancing a simple chemical equation.",
+      "correctAnswer": "Write correct formulas, count atoms on both sides, adjust coefficients one element at a time, save hydrogen and oxygen for last when helpful, then recount every element and reduce to the smallest whole-number coefficients.",
+      "explanation": "A systematic strategy prevents random guessing and catches mistakes after each coefficient change."
+    }
+  ]
+}
