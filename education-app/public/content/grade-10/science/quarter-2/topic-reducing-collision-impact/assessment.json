@@ -1,0 +1,150 @@
+{
+  "examId": "grade-10-science-q2-topic-reducing-collision-impact-assessment",
+  "examType": "assessment",
+  "title": "Reducing the Impact of Collisions Assessment",
+  "description": "Mastery assessment for the lesson.",
+  "passingScore": 9,
+  "timeLimit": 30,
+  "totalQuestions": 12,
+  "totalPoints": 14,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": "q1",
+      "type": "multiple-choice",
+      "question": "Which device inflates to cushion a passenger?",
+      "correctAnswer": 0,
+      "explanation": "An airbag cushions the body during a crash.",
+      "points": 1,
+      "options": [
+        "Airbag",
+        "Ammeter",
+        "Substation",
+        "Generator"
+      ]
+    },
+    {
+      "id": "q2",
+      "questionId": "q2",
+      "type": "multiple-choice",
+      "question": "Crumple zones make crashes safer mainly by",
+      "correctAnswer": 1,
+      "explanation": "They deform to extend the collision and absorb energy.",
+      "points": 1,
+      "options": [
+        "shortening stopping time",
+        "extending stopping time and absorbing energy",
+        "removing momentum from the universe",
+        "increasing speed"
+      ]
+    },
+    {
+      "id": "q3",
+      "questionId": "q3",
+      "type": "true-false",
+      "question": "Seatbelts and airbags help reduce peak force on the body.",
+      "correctAnswer": "true",
+      "explanation": "They increase stopping time and manage force.",
+      "points": 1
+    },
+    {
+      "id": "q4",
+      "questionId": "q4",
+      "type": "true-false",
+      "question": "Crumple zones are designed to keep every part of a car perfectly rigid.",
+      "correctAnswer": "false",
+      "explanation": "Crumple zones are designed to deform.",
+      "points": 1
+    },
+    {
+      "id": "q5",
+      "questionId": "q5",
+      "type": "fill-in",
+      "question": "A vehicle part designed to fold during a crash is a ________ zone.",
+      "correctAnswer": "crumple",
+      "explanation": "Crumple zones deform to absorb energy.",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "questionId": "q6",
+      "type": "short-answer",
+      "question": "How does a helmet reduce injury during impact?",
+      "correctAnswer": "A good answer mentions foam compression increasing stopping time and spreading force.",
+      "explanation": "The foam compresses, increasing stopping time and reducing peak force on the head.",
+      "points": 2
+    },
+    {
+      "id": "q7",
+      "questionId": "q7",
+      "type": "multiple-choice",
+      "question": "Which statement best matches this lesson?",
+      "correctAnswer": 0,
+      "explanation": "The first option states a central idea from the lesson.",
+      "points": 1,
+      "options": [
+        "Safety devices reduce peak force by increasing the time over which momentum changes.",
+        "The topic is unrelated to force, motion, or electricity.",
+        "Only memorized definitions matter.",
+        "The safest answer is always to ignore evidence."
+      ]
+    },
+    {
+      "id": "q8",
+      "questionId": "q8",
+      "type": "multiple-choice",
+      "question": "Which vocabulary term means: a restraint that holds a passenger during sudden stops?",
+      "correctAnswer": 0,
+      "explanation": "The definition describes seatbelt.",
+      "points": 1,
+      "options": [
+        "seatbelt",
+        "airbag",
+        "crumple zone",
+        "impact force"
+      ]
+    },
+    {
+      "id": "q9",
+      "questionId": "q9",
+      "type": "true-false",
+      "question": "A useful diagram for this lesson should show relationships, not just decoration.",
+      "correctAnswer": "true",
+      "explanation": "Science diagrams help learners connect variables, parts, or processes.",
+      "points": 1
+    },
+    {
+      "id": "q10",
+      "questionId": "q10",
+      "type": "fill-in",
+      "question": "One key term in this lesson is ________.",
+      "correctAnswer": "seatbelt",
+      "explanation": "seatbelt is central to the lesson.",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "questionId": "q11",
+      "type": "short-answer",
+      "question": "In 1-2 sentences, connect this idea to daily life: Seatbelts hold passengers securely and stretch slightly.",
+      "correctAnswer": "A good answer gives a real situation and explains the concept correctly.",
+      "explanation": "The answer should apply the concept to a realistic observation or safety decision.",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "questionId": "q12",
+      "type": "multiple-choice",
+      "question": "Which study action best builds mastery?",
+      "correctAnswer": 1,
+      "explanation": "Self-explaining diagrams checks understanding.",
+      "points": 1,
+      "options": [
+        "Skip diagrams",
+        "Explain each diagram in your own words",
+        "Memorize only the title",
+        "Ignore examples"
+      ]
+    }
+  ]
+}

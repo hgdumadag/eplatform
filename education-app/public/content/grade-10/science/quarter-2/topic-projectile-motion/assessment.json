@@ -1,0 +1,150 @@
+{
+  "examId": "grade-10-science-q2-topic-projectile-motion-assessment",
+  "examType": "assessment",
+  "title": "Projectile Motion Assessment",
+  "description": "Mastery assessment for the lesson.",
+  "passingScore": 9,
+  "timeLimit": 30,
+  "totalQuestions": 12,
+  "totalPoints": 14,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": "q1",
+      "type": "multiple-choice",
+      "question": "Which launch angle usually gives the greatest range on level ground?",
+      "correctAnswer": 2,
+      "explanation": "On level ground without air resistance, 45\u00b0 balances vertical and horizontal components for maximum range.",
+      "points": 1,
+      "options": [
+        "10\u00b0",
+        "30\u00b0",
+        "45\u00b0",
+        "80\u00b0"
+      ]
+    },
+    {
+      "id": "q2",
+      "questionId": "q2",
+      "type": "multiple-choice",
+      "question": "What force pulls a projectile downward after release?",
+      "correctAnswer": 1,
+      "explanation": "Gravity accelerates the projectile downward.",
+      "points": 1,
+      "options": [
+        "Friction",
+        "Gravity",
+        "Magnetism",
+        "Electric current"
+      ]
+    },
+    {
+      "id": "q3",
+      "questionId": "q3",
+      "type": "true-false",
+      "question": "Increasing launch speed can increase projectile range.",
+      "correctAnswer": "true",
+      "explanation": "More speed gives the projectile more horizontal motion and often more time aloft.",
+      "points": 1
+    },
+    {
+      "id": "q4",
+      "questionId": "q4",
+      "type": "true-false",
+      "question": "A projectile must have a continuous forward force to keep moving forward.",
+      "correctAnswer": "false",
+      "explanation": "After release, inertia keeps horizontal motion while gravity acts vertically.",
+      "points": 1
+    },
+    {
+      "id": "q5",
+      "questionId": "q5",
+      "type": "fill-in",
+      "question": "The horizontal distance traveled by a projectile is called its ________.",
+      "correctAnswer": "range",
+      "explanation": "Range is the horizontal distance from launch to landing.",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "questionId": "q6",
+      "type": "short-answer",
+      "question": "Explain why a basketball shot follows a curved path.",
+      "correctAnswer": "A good answer mentions forward motion plus downward acceleration due to gravity.",
+      "explanation": "The ball keeps moving forward while gravity pulls it downward, making an arc.",
+      "points": 2
+    },
+    {
+      "id": "q7",
+      "questionId": "q7",
+      "type": "multiple-choice",
+      "question": "Which statement best matches this lesson?",
+      "correctAnswer": 0,
+      "explanation": "The first option states a central idea from the lesson.",
+      "points": 1,
+      "options": [
+        "A projectile moves forward horizontally while gravity pulls it downward vertically.",
+        "The topic is unrelated to force, motion, or electricity.",
+        "Only memorized definitions matter.",
+        "The safest answer is always to ignore evidence."
+      ]
+    },
+    {
+      "id": "q8",
+      "questionId": "q8",
+      "type": "multiple-choice",
+      "question": "Which vocabulary term means: an object launched into the air that moves mainly under gravity?",
+      "correctAnswer": 0,
+      "explanation": "The definition describes projectile.",
+      "points": 1,
+      "options": [
+        "projectile",
+        "trajectory",
+        "range",
+        "launch angle"
+      ]
+    },
+    {
+      "id": "q9",
+      "questionId": "q9",
+      "type": "true-false",
+      "question": "A useful diagram for this lesson should show relationships, not just decoration.",
+      "correctAnswer": "true",
+      "explanation": "Science diagrams help learners connect variables, parts, or processes.",
+      "points": 1
+    },
+    {
+      "id": "q10",
+      "questionId": "q10",
+      "type": "fill-in",
+      "question": "One key term in this lesson is ________.",
+      "correctAnswer": "projectile",
+      "explanation": "projectile is central to the lesson.",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "questionId": "q11",
+      "type": "short-answer",
+      "question": "In 1-2 sentences, connect this idea to daily life: A launch angle near 45\u00b0 usually gives the greatest range when launch and landing heights are the same.",
+      "correctAnswer": "A good answer gives a real situation and explains the concept correctly.",
+      "explanation": "The answer should apply the concept to a realistic observation or safety decision.",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "questionId": "q12",
+      "type": "multiple-choice",
+      "question": "Which study action best builds mastery?",
+      "correctAnswer": 1,
+      "explanation": "Self-explaining diagrams checks understanding.",
+      "points": 1,
+      "options": [
+        "Skip diagrams",
+        "Explain each diagram in your own words",
+        "Memorize only the title",
+        "Ignore examples"
+      ]
+    }
+  ]
+}

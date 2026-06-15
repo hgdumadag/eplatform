@@ -1,0 +1,12 @@
+{
+  "id": "grade-10-science-q2-topic-electrical-safety-home",
+  "grade": 10,
+  "subject": "science",
+  "quarter": 2,
+  "topicName": "Electrical Safety at Home",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

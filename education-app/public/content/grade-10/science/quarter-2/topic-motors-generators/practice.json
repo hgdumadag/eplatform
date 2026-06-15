@@ -1,0 +1,108 @@
+{
+  "examId": "grade-10-science-q2-topic-motors-generators-practice",
+  "examType": "practice",
+  "title": "Motors and Generators Practice",
+  "description": "Self-check questions for the lesson.",
+  "passingScore": 6,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 8,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": "q1",
+      "type": "multiple-choice",
+      "question": "An electric motor converts electrical energy into",
+      "correctAnswer": 0,
+      "explanation": "A motor produces mechanical motion.",
+      "points": 1,
+      "options": [
+        "motion",
+        "coal",
+        "rain",
+        "mass"
+      ]
+    },
+    {
+      "id": "q2",
+      "questionId": "q2",
+      "type": "multiple-choice",
+      "question": "A generator converts motion into",
+      "correctAnswer": 0,
+      "explanation": "A generator produces electrical energy from mechanical motion.",
+      "points": 1,
+      "options": [
+        "electrical energy",
+        "plastic",
+        "sound only",
+        "gravity"
+      ]
+    },
+    {
+      "id": "q3",
+      "questionId": "q3",
+      "type": "true-false",
+      "question": "Motors and generators both involve electricity and magnetism.",
+      "correctAnswer": "true",
+      "explanation": "Both are electromagnetic devices.",
+      "points": 1
+    },
+    {
+      "id": "q4",
+      "questionId": "q4",
+      "type": "true-false",
+      "question": "A generator in a power plant turns electricity into blade motion only.",
+      "correctAnswer": "false",
+      "explanation": "The generator converts turbine motion into electrical energy.",
+      "points": 1
+    },
+    {
+      "id": "q5",
+      "questionId": "q5",
+      "type": "fill-in",
+      "question": "A device that changes motion into electrical energy is a ________.",
+      "correctAnswer": "generator",
+      "explanation": "Generators produce electrical energy from mechanical motion.",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "questionId": "q6",
+      "type": "short-answer",
+      "question": "How is a generator like the reverse of a motor?",
+      "correctAnswer": "A good answer compares energy transformations.",
+      "explanation": "A motor uses electrical energy to make motion, while a generator uses motion to make electrical energy.",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "questionId": "q7",
+      "type": "multiple-choice",
+      "question": "Which statement best matches this lesson?",
+      "correctAnswer": 0,
+      "explanation": "The first option states a central idea from the lesson.",
+      "points": 1,
+      "options": [
+        "A motor converts electrical energy into mechanical motion.",
+        "The topic is unrelated to force, motion, or electricity.",
+        "Only memorized definitions matter.",
+        "The safest answer is always to ignore evidence."
+      ]
+    },
+    {
+      "id": "q8",
+      "questionId": "q8",
+      "type": "multiple-choice",
+      "question": "Which vocabulary term means: device that changes electrical energy into motion?",
+      "correctAnswer": 0,
+      "explanation": "The definition describes electric motor.",
+      "points": 1,
+      "options": [
+        "electric motor",
+        "generator",
+        "electromagnetism",
+        "mechanical energy"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "examId": "grade-10-science-q2-topic-reducing-collision-impact-practice",
+  "examType": "practice",
+  "title": "Reducing the Impact of Collisions Practice",
+  "description": "Self-check questions for the lesson.",
+  "passingScore": 6,
+  "timeLimit": 20,
+  "totalQuestions": 8,
+  "totalPoints": 8,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": "q1",
+      "type": "multiple-choice",
+      "question": "Which device inflates to cushion a passenger?",
+      "correctAnswer": 0,
+      "explanation": "An airbag cushions the body during a crash.",
+      "points": 1,
+      "options": [
+        "Airbag",
+        "Ammeter",
+        "Substation",
+        "Generator"
+      ]
+    },
+    {
+      "id": "q2",
+      "questionId": "q2",
+      "type": "multiple-choice",
+      "question": "Crumple zones make crashes safer mainly by",
+      "correctAnswer": 1,
+      "explanation": "They deform to extend the collision and absorb energy.",
+      "points": 1,
+      "options": [
+        "shortening stopping time",
+        "extending stopping time and absorbing energy",
+        "removing momentum from the universe",
+        "increasing speed"
+      ]
+    },
+    {
+      "id": "q3",
+      "questionId": "q3",
+      "type": "true-false",
+      "question": "Seatbelts and airbags help reduce peak force on the body.",
+      "correctAnswer": "true",
+      "explanation": "They increase stopping time and manage force.",
+      "points": 1
+    },
+    {
+      "id": "q4",
+      "questionId": "q4",
+      "type": "true-false",
+      "question": "Crumple zones are designed to keep every part of a car perfectly rigid.",
+      "correctAnswer": "false",
+      "explanation": "Crumple zones are designed to deform.",
+      "points": 1
+    },
+    {
+      "id": "q5",
+      "questionId": "q5",
+      "type": "fill-in",
+      "question": "A vehicle part designed to fold during a crash is a ________ zone.",
+      "correctAnswer": "crumple",
+      "explanation": "Crumple zones deform to absorb energy.",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "questionId": "q6",
+      "type": "short-answer",
+      "question": "How does a helmet reduce injury during impact?",
+      "correctAnswer": "A good answer mentions foam compression increasing stopping time and spreading force.",
+      "explanation": "The foam compresses, increasing stopping time and reducing peak force on the head.",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "questionId": "q7",
+      "type": "multiple-choice",
+      "question": "Which statement best matches this lesson?",
+      "correctAnswer": 0,
+      "explanation": "The first option states a central idea from the lesson.",
+      "points": 1,
+      "options": [
+        "Safety devices reduce peak force by increasing the time over which momentum changes.",
+        "The topic is unrelated to force, motion, or electricity.",
+        "Only memorized definitions matter.",
+        "The safest answer is always to ignore evidence."
+      ]
+    },
+    {
+      "id": "q8",
+      "questionId": "q8",
+      "type": "multiple-choice",
+      "question": "Which vocabulary term means: a restraint that holds a passenger during sudden stops?",
+      "correctAnswer": 0,
+      "explanation": "The definition describes seatbelt.",
+      "points": 1,
+      "options": [
+        "seatbelt",
+        "airbag",
+        "crumple zone",
+        "impact force"
+      ]
+    }
+  ]
+}
