@@ -1,0 +1,144 @@
+{
+  "examId": "grade-9-science-q3-topic-survey-reducing-human-impact-assessment",
+  "examType": "assessment",
+  "title": "Taking Action: Surveying to Reduce Human Impact Assessment Exam",
+  "description": "Check your understanding of Taking Action: Surveying to Reduce Human Impact.",
+  "passingScore": 9,
+  "timeLimit": 30,
+  "totalQuestions": 12,
+  "totalPoints": 15,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement best matches this lesson: Taking Action: Surveying to Reduce Human Impact?",
+      "correctAnswer": 0,
+      "explanation": "The first option states the central science idea from the lesson.",
+      "points": 1,
+      "options": [
+        "A survey gathers information about a local environmental problem so people can understand patterns, identify causes, and choose practical actions.",
+        "It is unrelated to Grade 9 Biology.",
+        "It only applies to geometry.",
+        "It is only a memorized word list."
+      ]
+    },
+    {
+      "id": "q2",
+      "questionId": "q2",
+      "type": "multiple-choice",
+      "question": "Which vocabulary term is most central to this lesson?",
+      "correctAnswer": 0,
+      "explanation": "Survey is one key term for this biology lesson.",
+      "points": 1,
+      "options": [
+        "Survey",
+        "Quadrilateral",
+        "Magma",
+        "Tangent line"
+      ]
+    },
+    {
+      "id": "q3",
+      "questionId": "q3",
+      "type": "true-false",
+      "question": "A diagram can help explain relationships among the parts or steps in this lesson.",
+      "correctAnswer": "true",
+      "explanation": "The lesson includes diagrams because relationships and processes are easier to understand visually.",
+      "points": 1
+    },
+    {
+      "id": "q4",
+      "questionId": "q4",
+      "type": "fill-in",
+      "question": "Name one key term from this lesson: _____.",
+      "correctAnswer": "Survey",
+      "explanation": "Survey is an acceptable key term from the lesson.",
+      "points": 1
+    },
+    {
+      "id": "q5",
+      "questionId": "q5",
+      "type": "short-answer",
+      "question": "Explain the lesson idea in one or two sentences using one vocabulary term.",
+      "correctAnswer": "A strong answer defines or applies Survey accurately.",
+      "explanation": "A correct response should use lesson vocabulary and explain a relationship, process, or example.",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "questionId": "q6",
+      "type": "multiple-choice",
+      "question": "Which study habit best fits this lesson?",
+      "correctAnswer": 2,
+      "explanation": "Grade 9 Biology requires connecting terms, diagrams, examples, and evidence.",
+      "points": 1,
+      "options": [
+        "Memorize only the title.",
+        "Skip all diagrams.",
+        "Connect vocabulary to examples and evidence.",
+        "Ignore local Philippine examples."
+      ]
+    },
+    {
+      "id": "q7",
+      "questionId": "q7",
+      "type": "true-false",
+      "question": "A survey is not just asking random questions; it needs a focus and a recording plan.",
+      "correctAnswer": "true",
+      "explanation": "This misconception alert is included to prevent a common error.",
+      "points": 1
+    },
+    {
+      "id": "q8",
+      "questionId": "q8",
+      "type": "short-answer",
+      "question": "Give one real or local example that could connect to this topic.",
+      "correctAnswer": "A strong answer gives a relevant biological or Philippine ecosystem example.",
+      "explanation": "Examples show that you can transfer the concept beyond the page.",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "questionId": "q9",
+      "type": "multiple-choice",
+      "question": "When checking a scientific claim related to this lesson, what should you prefer?",
+      "correctAnswer": 1,
+      "explanation": "Reliable sources and evidence are needed for science claims.",
+      "points": 1,
+      "options": [
+        "A random comment online",
+        "Reliable secondary sources or observed evidence",
+        "The shortest answer",
+        "A guess that sounds familiar"
+      ]
+    },
+    {
+      "id": "q10",
+      "questionId": "q10",
+      "type": "fill-in",
+      "question": "Complete the idea: This lesson asks you to plan...",
+      "correctAnswer": "plan",
+      "explanation": "The answer begins the lesson learning objective.",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "questionId": "q11",
+      "type": "true-false",
+      "question": "Understanding cause-and-effect relationships is better than memorizing isolated words.",
+      "correctAnswer": "true",
+      "explanation": "Science understanding depends on relationships and evidence, not isolated definitions.",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "questionId": "q12",
+      "type": "short-answer",
+      "question": "Describe how one of the diagrams supports the main concept.",
+      "correctAnswer": "A strong answer explains what the diagram shows and connects it to the lesson goal.",
+      "explanation": "The learner should interpret a diagram, not just say it exists.",
+      "points": 2
+    }
+  ]
+}

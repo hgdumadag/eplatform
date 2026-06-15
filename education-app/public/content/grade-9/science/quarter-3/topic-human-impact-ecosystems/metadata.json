@@ -1,0 +1,12 @@
+{
+  "id": "grade-9-science-q3-topic-human-impact-ecosystems",
+  "grade": 9,
+  "subject": "science",
+  "quarter": 3,
+  "topicName": "Human Impact on Ecosystems",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "grade-9-science-q3-topic-philippine-ecosystems-features",
+  "grade": 9,
+  "subject": "science",
+  "quarter": 3,
+  "topicName": "Philippine Ecosystems: Biotic and Abiotic Features",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

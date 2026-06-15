@@ -1,0 +1,12 @@
+{
+  "id": "grade-9-science-q3-topic-biodiversity-ecosystem-stability",
+  "grade": 9,
+  "subject": "science",
+  "quarter": 3,
+  "topicName": "Biodiversity and Ecosystem Stability",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

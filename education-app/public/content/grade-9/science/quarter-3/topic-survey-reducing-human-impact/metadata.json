@@ -1,0 +1,12 @@
+{
+  "id": "grade-9-science-q3-topic-survey-reducing-human-impact",
+  "grade": 9,
+  "subject": "science",
+  "quarter": 3,
+  "topicName": "Taking Action: Surveying to Reduce Human Impact",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}
