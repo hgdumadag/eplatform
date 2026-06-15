@@ -1,0 +1,42 @@
+{
+  "id": "grade-9-science-q1-topic-electromagnetic-spectrum",
+  "grade": 9,
+  "subject": "science",
+  "quarter": 1,
+  "topicName": "The Electromagnetic Spectrum",
+  "description": "Self-paced Grade 9 Physics lesson on electromagnetic spectrum, aligned to MATATAG Quarter 1 Force, Motion, and Energy.",
+  "learningObjectives": [
+    "List the major parts of the electromagnetic spectrum",
+    "Compare wavelength, frequency, and energy across the spectrum",
+    "Locate visible light within the spectrum",
+    "Infer which waves have higher or lower energy"
+  ],
+  "prerequisites": [
+    "Balanced and unbalanced forces",
+    "Basic motion descriptions",
+    "Simple circuit and wave ideas from earlier grades"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "science",
+    "grade 9",
+    "physics",
+    "quarter 1",
+    "electromagnetic spectrum"
+  ],
+  "lastUpdated": "2026-06-15",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/diagram-1-full-em-spectrum-order.svg",
+      "images/diagram-2-wavelength-vs-frequency-trend.svg",
+      "images/diagram-3-visible-light-band.svg",
+      "images/diagram-4-energy-from-radio-to-gamma.svg",
+      "images/diagram-5-spectrum-comparison-table.svg"
+    ]
+  }
+}

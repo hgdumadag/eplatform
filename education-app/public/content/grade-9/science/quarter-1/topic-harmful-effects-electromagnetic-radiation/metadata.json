@@ -1,0 +1,42 @@
+{
+  "id": "grade-9-science-q1-topic-harmful-effects-electromagnetic-radiation",
+  "grade": 9,
+  "subject": "science",
+  "quarter": 1,
+  "topicName": "Harmful Effects of Electromagnetic Radiation",
+  "description": "Self-paced Grade 9 Physics lesson on harmful effects of EM radiation, aligned to MATATAG Quarter 1 Force, Motion, and Energy.",
+  "learningObjectives": [
+    "Explain why higher-energy EM waves can harm living cells",
+    "Describe harmful effects of UV, X-rays, and gamma rays",
+    "Identify protective actions such as sunscreen and shielding",
+    "Interpret risk as depending on energy, intensity, and exposure time"
+  ],
+  "prerequisites": [
+    "Balanced and unbalanced forces",
+    "Basic motion descriptions",
+    "Simple circuit and wave ideas from earlier grades"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "science",
+    "grade 9",
+    "physics",
+    "quarter 1",
+    "harmful effects of EM radiation"
+  ],
+  "lastUpdated": "2026-06-15",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/diagram-1-energy-and-cell-risk.svg",
+      "images/diagram-2-uv-protection-choices.svg",
+      "images/diagram-3-x-ray-shielding.svg",
+      "images/diagram-4-exposure-time-and-dose.svg",
+      "images/diagram-5-risk-benefit-decision-map.svg"
+    ]
+  }
+}

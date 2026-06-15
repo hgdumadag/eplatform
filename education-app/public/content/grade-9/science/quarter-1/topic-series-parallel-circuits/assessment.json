@@ -1,0 +1,150 @@
+{
+  "examId": "grade-9-science-q1-topic-series-parallel-circuits-assessment",
+  "examType": "assessment",
+  "title": "Series and Parallel Circuits Assessment",
+  "description": "Check understanding of series and parallel circuits.",
+  "passingScore": 70,
+  "timeLimit": 30,
+  "totalQuestions": 12,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement best matches the lesson idea of series and parallel circuits?",
+      "correctAnswer": 0,
+      "explanation": "The lesson focuses on this objective: compare series and parallel circuit paths.",
+      "points": 8,
+      "options": [
+        "Compare series and parallel circuit paths",
+        "Only memorize the title without using evidence",
+        "Ignore diagrams when explaining Physics",
+        "Use household outlets for experiments"
+      ]
+    },
+    {
+      "id": "q2",
+      "questionId": "q2",
+      "type": "true-false",
+      "question": "Diagrams can help explain series and parallel circuits by showing variables, arrows, or relationships.",
+      "correctAnswer": "true",
+      "explanation": "Physics diagrams connect observations to causes and effects.",
+      "points": 8
+    },
+    {
+      "id": "q3",
+      "questionId": "q3",
+      "type": "multiple-choice",
+      "question": "Which question is most useful when analyzing Series and Parallel Circuits?",
+      "correctAnswer": 0,
+      "explanation": "Cause-and-effect reasoning is central to Physics.",
+      "points": 8,
+      "options": [
+        "What is changing, and what causes the change?",
+        "What answer sounds longest?",
+        "Can I skip the vocabulary?",
+        "Can I ignore safety rules?"
+      ]
+    },
+    {
+      "id": "q4",
+      "questionId": "q4",
+      "type": "fill-in",
+      "question": "The overall force after forces are combined is called the ____ force.",
+      "correctAnswer": "net",
+      "explanation": "Net force means the overall or combined force on an object.",
+      "points": 8
+    },
+    {
+      "id": "q5",
+      "questionId": "q5",
+      "type": "short-answer",
+      "question": "In 1\u20132 sentences, explain one everyday example of series and parallel circuits.",
+      "correctAnswer": "Answers should name an example and connect it to the lesson concept.",
+      "explanation": "A good answer names an everyday situation and explains it using the lesson vocabulary.",
+      "points": 8
+    },
+    {
+      "id": "q6",
+      "questionId": "q6",
+      "type": "multiple-choice",
+      "question": "Which practice habit best supports mastery of this lesson?",
+      "correctAnswer": 0,
+      "explanation": "Drawing and labeling helps reveal the relationships.",
+      "points": 8,
+      "options": [
+        "Draw and label the situation before explaining it",
+        "Guess without reading the diagram",
+        "Memorize only the first sentence",
+        "Avoid checking explanations"
+      ]
+    },
+    {
+      "id": "q7",
+      "questionId": "q7",
+      "type": "true-false",
+      "question": "A complete scientific explanation should include evidence or a reason, not just a one-word answer.",
+      "correctAnswer": "true",
+      "explanation": "Science explanations should justify the answer.",
+      "points": 8
+    },
+    {
+      "id": "q8",
+      "questionId": "q8",
+      "type": "multiple-choice",
+      "question": "Which safety rule is always correct for student circuit work?",
+      "correctAnswer": 0,
+      "explanation": "Student circuit activities should use low-voltage batteries and safe materials only.",
+      "points": 8,
+      "options": [
+        "Use only safe low-voltage batteries when doing circuit activities",
+        "Test household outlets with bare wire",
+        "Use wet hands near electrical devices",
+        "Remove insulation from live wires"
+      ]
+    },
+    {
+      "id": "q9",
+      "questionId": "q9",
+      "type": "fill-in",
+      "question": "A quantity with size and direction can be represented by an arrow called a ____.",
+      "correctAnswer": "vector",
+      "explanation": "A vector has magnitude and direction and is often shown by an arrow.",
+      "points": 9
+    },
+    {
+      "id": "q10",
+      "questionId": "q10",
+      "type": "short-answer",
+      "question": "What is one misconception about series and parallel circuits that you should avoid?",
+      "correctAnswer": "Parallel circuits are not \u201cweaker\u201d because current splits. Each branch can receive the source voltage, while total current depends on the branch loads.",
+      "explanation": "The misconception alert in the lesson identifies a common incorrect idea.",
+      "points": 9
+    },
+    {
+      "id": "q11",
+      "questionId": "q11",
+      "type": "multiple-choice",
+      "question": "If a diagram for Series and Parallel Circuits has arrows, what should you check first?",
+      "correctAnswer": 0,
+      "explanation": "Arrows have meaning only when you know what they represent.",
+      "points": 9,
+      "options": [
+        "What each arrow represents and which object or wave it acts on",
+        "Only the arrow color",
+        "Whether the page has many words",
+        "Whether the answer is the longest option"
+      ]
+    },
+    {
+      "id": "q12",
+      "questionId": "q12",
+      "type": "true-false",
+      "question": "The topic Series and Parallel Circuits belongs to Grade 9 Quarter 1 Physics: Force, Motion, and Energy.",
+      "correctAnswer": "true",
+      "explanation": "The source module places this topic in Grade 9 Science Quarter 1 Physics.",
+      "points": 9
+    }
+  ]
+}

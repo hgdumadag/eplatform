@@ -1,0 +1,42 @@
+{
+  "id": "grade-9-science-q1-topic-newtons-first-law-inertia",
+  "grade": 9,
+  "subject": "science",
+  "quarter": 1,
+  "topicName": "Newton's First Law: Inertia",
+  "description": "Self-paced Grade 9 Physics lesson on inertia, aligned to MATATAG Quarter 1 Force, Motion, and Energy.",
+  "learningObjectives": [
+    "Identify inertia as resistance to changes in motion",
+    "State Newton's First Law in everyday language",
+    "Use net force to explain rest and constant straight-line motion",
+    "Explain car-stop and seatbelt examples using inertia"
+  ],
+  "prerequisites": [
+    "Balanced and unbalanced forces",
+    "Basic motion descriptions",
+    "Simple circuit and wave ideas from earlier grades"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "science",
+    "grade 9",
+    "physics",
+    "quarter 1",
+    "inertia"
+  ],
+  "lastUpdated": "2026-06-15",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/diagram-1-balanced-vs-unbalanced-forces.svg",
+      "images/diagram-2-seatbelt-stopping-a-passenger.svg",
+      "images/diagram-3-mass-and-inertia-comparison.svg",
+      "images/diagram-4-motion-with-low-friction.svg",
+      "images/diagram-5-free-body-diagram-for-a-book.svg"
+    ]
+  }
+}
