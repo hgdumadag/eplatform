@@ -1,0 +1,42 @@
+{
+  "id": "grade-9-science-q1-topic-uses-electromagnetic-radiation",
+  "grade": 9,
+  "subject": "science",
+  "quarter": 1,
+  "topicName": "Uses of Electromagnetic Radiation",
+  "description": "Self-paced Grade 9 Physics lesson on uses of EM radiation, aligned to MATATAG Quarter 1 Force, Motion, and Energy.",
+  "learningObjectives": [
+    "Match EM wave types to common technologies",
+    "Explain why different wavelengths suit different uses",
+    "Identify examples in communication, medicine, and daily life",
+    "Recognize benefits and limits of EM applications"
+  ],
+  "prerequisites": [
+    "Balanced and unbalanced forces",
+    "Basic motion descriptions",
+    "Simple circuit and wave ideas from earlier grades"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "science",
+    "grade 9",
+    "physics",
+    "quarter 1",
+    "uses of EM radiation"
+  ],
+  "lastUpdated": "2026-06-15",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/diagram-1-uses-across-em-spectrum.svg",
+      "images/diagram-2-communication-waves.svg",
+      "images/diagram-3-infrared-heat-detection.svg",
+      "images/diagram-4-x-ray-imaging-idea.svg",
+      "images/diagram-5-fiber-optic-light-path.svg"
+    ]
+  }
+}

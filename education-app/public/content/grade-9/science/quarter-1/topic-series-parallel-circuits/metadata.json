@@ -1,0 +1,42 @@
+{
+  "id": "grade-9-science-q1-topic-series-parallel-circuits",
+  "grade": 9,
+  "subject": "science",
+  "quarter": 1,
+  "topicName": "Series and Parallel Circuits",
+  "description": "Self-paced Grade 9 Physics lesson on series and parallel circuits, aligned to MATATAG Quarter 1 Force, Motion, and Energy.",
+  "learningObjectives": [
+    "Compare series and parallel circuit paths",
+    "Predict what happens when one load fails",
+    "Identify circuit symbols for common parts",
+    "Explain why homes use parallel wiring"
+  ],
+  "prerequisites": [
+    "Balanced and unbalanced forces",
+    "Basic motion descriptions",
+    "Simple circuit and wave ideas from earlier grades"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "science",
+    "grade 9",
+    "physics",
+    "quarter 1",
+    "series and parallel circuits"
+  ],
+  "lastUpdated": "2026-06-15",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/diagram-1-series-circuit-path.svg",
+      "images/diagram-2-parallel-circuit-branches.svg",
+      "images/diagram-3-one-failed-bulb-comparison.svg",
+      "images/diagram-4-common-circuit-symbols.svg",
+      "images/diagram-5-ammeter-and-voltmeter-placement.svg"
+    ]
+  }
+}

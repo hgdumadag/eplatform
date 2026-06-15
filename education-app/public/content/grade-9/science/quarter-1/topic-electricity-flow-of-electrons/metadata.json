@@ -1,0 +1,42 @@
+{
+  "id": "grade-9-science-q1-topic-electricity-flow-of-electrons",
+  "grade": 9,
+  "subject": "science",
+  "quarter": 1,
+  "topicName": "Electricity: A Flow of Electrons",
+  "description": "Self-paced Grade 9 Physics lesson on electric current and safety, aligned to MATATAG Quarter 1 Force, Motion, and Energy.",
+  "learningObjectives": [
+    "Describe electric current as a flow of electrons",
+    "Distinguish conductors from insulators",
+    "Explain why circuits need a closed path",
+    "Apply low-voltage electrical safety rules"
+  ],
+  "prerequisites": [
+    "Balanced and unbalanced forces",
+    "Basic motion descriptions",
+    "Simple circuit and wave ideas from earlier grades"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "science",
+    "grade 9",
+    "physics",
+    "quarter 1",
+    "electric current and safety"
+  ],
+  "lastUpdated": "2026-06-15",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/diagram-1-electron-flow-in-a-wire.svg",
+      "images/diagram-2-conductor-vs-insulator.svg",
+      "images/diagram-3-open-and-closed-circuit.svg",
+      "images/diagram-4-safe-low-voltage-setup.svg",
+      "images/diagram-5-electric-safety-reminders.svg"
+    ]
+  }
+}

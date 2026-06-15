@@ -1,0 +1,42 @@
+{
+  "id": "grade-9-science-q1-topic-newtons-second-law-force-mass-acceleration",
+  "grade": 9,
+  "subject": "science",
+  "quarter": 1,
+  "topicName": "Newton's Second Law: Force, Mass, and Acceleration",
+  "description": "Self-paced Grade 9 Physics lesson on force, mass, and acceleration, aligned to MATATAG Quarter 1 Force, Motion, and Energy.",
+  "learningObjectives": [
+    "Describe acceleration as caused by a net force",
+    "Explain the relationship F = ma qualitatively and numerically",
+    "Predict how changing force affects acceleration",
+    "Predict how changing mass affects acceleration"
+  ],
+  "prerequisites": [
+    "Balanced and unbalanced forces",
+    "Basic motion descriptions",
+    "Simple circuit and wave ideas from earlier grades"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "science",
+    "grade 9",
+    "physics",
+    "quarter 1",
+    "force, mass, and acceleration"
+  ],
+  "lastUpdated": "2026-06-15",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/diagram-1-f-ma-relationship-map.svg",
+      "images/diagram-2-same-mass-with-different-forces.svg",
+      "images/diagram-3-same-force-with-different-masses.svg",
+      "images/diagram-4-cart-acceleration-example.svg",
+      "images/diagram-5-solving-triangle-for-f-m-a.svg"
+    ]
+  }
+}
