@@ -1,0 +1,12 @@
+{
+  "id": "grade-9-science-q3-topic-dna-double-helix",
+  "grade": 9,
+  "subject": "science",
+  "quarter": 3,
+  "topicName": "The Structure of DNA: The Double Helix",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

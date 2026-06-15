@@ -1,0 +1,12 @@
+{
+  "id": "grade-9-science-q3-topic-mutations-changes-in-dna",
+  "grade": 9,
+  "subject": "science",
+  "quarter": 3,
+  "topicName": "Mutations: Changes in DNA",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

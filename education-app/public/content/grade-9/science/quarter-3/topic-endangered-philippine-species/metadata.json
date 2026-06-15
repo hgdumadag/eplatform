@@ -1,0 +1,12 @@
+{
+  "id": "grade-9-science-q3-topic-endangered-philippine-species",
+  "grade": 9,
+  "subject": "science",
+  "quarter": 3,
+  "topicName": "Endangered Species of the Philippines",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}
