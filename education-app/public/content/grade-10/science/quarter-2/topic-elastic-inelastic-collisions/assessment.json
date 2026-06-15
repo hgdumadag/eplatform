@@ -1,0 +1,150 @@
+{
+  "examId": "grade-10-science-q2-topic-elastic-inelastic-collisions-assessment",
+  "examType": "assessment",
+  "title": "Collisions: Elastic and Inelastic Assessment",
+  "description": "Mastery assessment for the lesson.",
+  "passingScore": 9,
+  "timeLimit": 30,
+  "totalQuestions": 12,
+  "totalPoints": 14,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": "q1",
+      "type": "multiple-choice",
+      "question": "Which event is closest to an elastic collision?",
+      "correctAnswer": 1,
+      "explanation": "Billiard balls bounce apart with little deformation.",
+      "points": 1,
+      "options": [
+        "Clay sticking to a wall",
+        "Two billiard balls bouncing apart",
+        "A car crumpling",
+        "A dropped egg breaking"
+      ]
+    },
+    {
+      "id": "q2",
+      "questionId": "q2",
+      "type": "multiple-choice",
+      "question": "In an inelastic collision, kinetic energy may become",
+      "correctAnswer": 0,
+      "explanation": "Some kinetic energy changes into other forms.",
+      "points": 1,
+      "options": [
+        "sound, heat, or deformation",
+        "only more kinetic energy",
+        "electric charge only",
+        "mass only"
+      ]
+    },
+    {
+      "id": "q3",
+      "questionId": "q3",
+      "type": "true-false",
+      "question": "Objects often stick together or deform in an inelastic collision.",
+      "correctAnswer": "true",
+      "explanation": "Sticking and deformation are common in inelastic collisions.",
+      "points": 1
+    },
+    {
+      "id": "q4",
+      "questionId": "q4",
+      "type": "true-false",
+      "question": "Momentum is never considered in collision analysis.",
+      "correctAnswer": "false",
+      "explanation": "Momentum is central to collision analysis.",
+      "points": 1
+    },
+    {
+      "id": "q5",
+      "questionId": "q5",
+      "type": "fill-in",
+      "question": "A collision where objects bounce apart and kinetic energy is mostly conserved is ________.",
+      "correctAnswer": "elastic",
+      "explanation": "Elastic collisions conserve kinetic energy approximately.",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "questionId": "q6",
+      "type": "short-answer",
+      "question": "How can a model show the difference between elastic and inelastic collisions?",
+      "correctAnswer": "A good answer compares bouncing apart with sticking/deforming.",
+      "explanation": "A model can use balls that bounce for elastic collisions and clay that sticks for inelastic collisions.",
+      "points": 2
+    },
+    {
+      "id": "q7",
+      "questionId": "q7",
+      "type": "multiple-choice",
+      "question": "Which statement best matches this lesson?",
+      "correctAnswer": 0,
+      "explanation": "The first option states a central idea from the lesson.",
+      "points": 1,
+      "options": [
+        "In elastic collisions, objects bounce apart and kinetic energy is mostly preserved.",
+        "The topic is unrelated to force, motion, or electricity.",
+        "Only memorized definitions matter.",
+        "The safest answer is always to ignore evidence."
+      ]
+    },
+    {
+      "id": "q8",
+      "questionId": "q8",
+      "type": "multiple-choice",
+      "question": "Which vocabulary term means: an interaction in which objects hit each other?",
+      "correctAnswer": 0,
+      "explanation": "The definition describes collision.",
+      "points": 1,
+      "options": [
+        "collision",
+        "elastic collision",
+        "inelastic collision",
+        "deformation"
+      ]
+    },
+    {
+      "id": "q9",
+      "questionId": "q9",
+      "type": "true-false",
+      "question": "A useful diagram for this lesson should show relationships, not just decoration.",
+      "correctAnswer": "true",
+      "explanation": "Science diagrams help learners connect variables, parts, or processes.",
+      "points": 1
+    },
+    {
+      "id": "q10",
+      "questionId": "q10",
+      "type": "fill-in",
+      "question": "One key term in this lesson is ________.",
+      "correctAnswer": "collision",
+      "explanation": "collision is central to the lesson.",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "questionId": "q11",
+      "type": "short-answer",
+      "question": "In 1-2 sentences, connect this idea to daily life: In inelastic collisions, objects may stick together or crumple, changing some kinetic energy into heat, sound, and deformation.",
+      "correctAnswer": "A good answer gives a real situation and explains the concept correctly.",
+      "explanation": "The answer should apply the concept to a realistic observation or safety decision.",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "questionId": "q12",
+      "type": "multiple-choice",
+      "question": "Which study action best builds mastery?",
+      "correctAnswer": 1,
+      "explanation": "Self-explaining diagrams checks understanding.",
+      "points": 1,
+      "options": [
+        "Skip diagrams",
+        "Explain each diagram in your own words",
+        "Memorize only the title",
+        "Ignore examples"
+      ]
+    }
+  ]
+}

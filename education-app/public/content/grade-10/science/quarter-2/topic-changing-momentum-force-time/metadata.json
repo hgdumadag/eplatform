@@ -1,0 +1,12 @@
+{
+  "id": "grade-10-science-q2-topic-changing-momentum-force-time",
+  "grade": 10,
+  "subject": "science",
+  "quarter": 2,
+  "topicName": "Changing Momentum: Force and Time",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}

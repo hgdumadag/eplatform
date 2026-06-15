@@ -1,0 +1,150 @@
+{
+  "examId": "grade-10-science-q2-topic-conservation-of-momentum-assessment",
+  "examType": "assessment",
+  "title": "Conservation of Momentum Assessment",
+  "description": "Mastery assessment for the lesson.",
+  "passingScore": 9,
+  "timeLimit": 30,
+  "totalQuestions": 12,
+  "totalPoints": 14,
+  "questions": [
+    {
+      "id": "q1",
+      "questionId": "q1",
+      "type": "multiple-choice",
+      "question": "In an isolated collision, total momentum after is",
+      "correctAnswer": 2,
+      "explanation": "Total momentum is conserved in an isolated system.",
+      "points": 1,
+      "options": [
+        "greater than before",
+        "less than before",
+        "equal to before",
+        "always zero"
+      ]
+    },
+    {
+      "id": "q2",
+      "questionId": "q2",
+      "type": "multiple-choice",
+      "question": "Momentum can be",
+      "correctAnswer": 0,
+      "explanation": "Objects exchange momentum in collisions.",
+      "points": 1,
+      "options": [
+        "transferred between objects",
+        "destroyed by collision",
+        "seen as color",
+        "measured only in volts"
+      ]
+    },
+    {
+      "id": "q3",
+      "questionId": "q3",
+      "type": "true-false",
+      "question": "Individual objects can change momentum while total system momentum is conserved.",
+      "correctAnswer": "true",
+      "explanation": "Momentum can transfer among objects.",
+      "points": 1
+    },
+    {
+      "id": "q4",
+      "questionId": "q4",
+      "type": "true-false",
+      "question": "Conservation of momentum applies best when external forces dominate the system.",
+      "correctAnswer": "false",
+      "explanation": "It applies best when external forces are negligible.",
+      "points": 1
+    },
+    {
+      "id": "q5",
+      "questionId": "q5",
+      "type": "fill-in",
+      "question": "In an isolated system, total momentum before equals total momentum ________.",
+      "correctAnswer": "after",
+      "explanation": "That is the conservation statement.",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "questionId": "q6",
+      "type": "short-answer",
+      "question": "What happens to momentum when a moving ball hits a still ball and stops?",
+      "correctAnswer": "A good answer says momentum transfers to the second ball and total remains conserved.",
+      "explanation": "The first ball transfers momentum to the second ball, so the total system momentum remains the same.",
+      "points": 2
+    },
+    {
+      "id": "q7",
+      "questionId": "q7",
+      "type": "multiple-choice",
+      "question": "Which statement best matches this lesson?",
+      "correctAnswer": 0,
+      "explanation": "The first option states a central idea from the lesson.",
+      "points": 1,
+      "options": [
+        "In an isolated system, total momentum before a collision equals total momentum after.",
+        "The topic is unrelated to force, motion, or electricity.",
+        "Only memorized definitions matter.",
+        "The safest answer is always to ignore evidence."
+      ]
+    },
+    {
+      "id": "q8",
+      "questionId": "q8",
+      "type": "multiple-choice",
+      "question": "Which vocabulary term means: a quantity staying the same in an isolated system?",
+      "correctAnswer": 0,
+      "explanation": "The definition describes conservation.",
+      "points": 1,
+      "options": [
+        "conservation",
+        "system",
+        "before-and-after model",
+        "external force"
+      ]
+    },
+    {
+      "id": "q9",
+      "questionId": "q9",
+      "type": "true-false",
+      "question": "A useful diagram for this lesson should show relationships, not just decoration.",
+      "correctAnswer": "true",
+      "explanation": "Science diagrams help learners connect variables, parts, or processes.",
+      "points": 1
+    },
+    {
+      "id": "q10",
+      "questionId": "q10",
+      "type": "fill-in",
+      "question": "One key term in this lesson is ________.",
+      "correctAnswer": "conservation",
+      "explanation": "conservation is central to the lesson.",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "questionId": "q11",
+      "type": "short-answer",
+      "question": "In 1-2 sentences, connect this idea to daily life: Momentum can transfer from one object to another.",
+      "correctAnswer": "A good answer gives a real situation and explains the concept correctly.",
+      "explanation": "The answer should apply the concept to a realistic observation or safety decision.",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "questionId": "q12",
+      "type": "multiple-choice",
+      "question": "Which study action best builds mastery?",
+      "correctAnswer": 1,
+      "explanation": "Self-explaining diagrams checks understanding.",
+      "points": 1,
+      "options": [
+        "Skip diagrams",
+        "Explain each diagram in your own words",
+        "Memorize only the title",
+        "Ignore examples"
+      ]
+    }
+  ]
+}

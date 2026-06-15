@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="470" viewBox="0 0 920 470" role="img" aria-labelledby="title desc">
+<title id="title">Seatbelt force management</title><desc id="desc">Reducing the Impact of Collisions</desc>
+<rect width="920" height="470" rx="28" fill="#f8fafc"/>
+<rect x="24" y="24" width="872" height="422" rx="22" fill="#e0f2fe" stroke="#0f172a" stroke-width="2"/>
+<text x="460" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Seatbelt force management</text>
+<path d="M100 315 C240 130, 470 120, 725 305" fill="none" stroke="#0284c7" stroke-width="8"/>
+<line x1="100" y1="320" x2="785" y2="320" stroke="#334155" stroke-width="3"/>
+<circle cx="100" cy="315" r="18" fill="#ef4444"/><circle cx="725" cy="305" r="18" fill="#22c55e"/>
+<rect x="45" y="385" width="250" height="42" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+<text x="59" y="403" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">Topic: Reducing the Impact</text>
+<text x="59" y="418" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">of Collisions</text>
+<rect x="625" y="385" width="250" height="42" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+<text x="639" y="403" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">Diagram: Seatbelt force</text>
+<text x="639" y="418" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">management</text>
+<rect x="45" y="96" width="250" height="42" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+<text x="59" y="114" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">Read arrows and shapes</text>
+<rect x="625" y="96" width="250" height="42" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+<text x="639" y="114" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">Compare the variables</text>
+<rect x="335" y="385" width="250" height="42" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+<text x="349" y="403" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">Explain cause → effect</text>
+</svg>

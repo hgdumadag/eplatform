@@ -1,0 +1,12 @@
+{
+  "id": "grade-10-science-q2-topic-conservation-of-momentum",
+  "grade": 10,
+  "subject": "science",
+  "quarter": 2,
+  "topicName": "Conservation of Momentum",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json"
+  }
+}
