@@ -1,20 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="470" viewBox="0 0 920 470" role="img" aria-labelledby="title desc">
-<title id="title">Motor energy transformation</title><desc id="desc">Motors and Generators</desc>
-<rect width="920" height="470" rx="28" fill="#f8fafc"/>
-<rect x="24" y="24" width="872" height="422" rx="22" fill="#e0f2fe" stroke="#0f172a" stroke-width="2"/>
-<text x="460" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Motor energy transformation</text>
-<path d="M100 315 C240 130, 470 120, 725 305" fill="none" stroke="#0284c7" stroke-width="8"/>
-<line x1="100" y1="320" x2="785" y2="320" stroke="#334155" stroke-width="3"/>
-<circle cx="100" cy="315" r="18" fill="#ef4444"/><circle cx="725" cy="305" r="18" fill="#22c55e"/>
-<rect x="45" y="385" width="250" height="42" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="59" y="403" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">Topic: Motors and Generators</text>
-<rect x="625" y="385" width="250" height="42" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="639" y="403" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">Diagram: Motor energy</text>
-<text x="639" y="418" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">transformation</text>
-<rect x="45" y="96" width="250" height="42" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="59" y="114" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">Read arrows and shapes</text>
-<rect x="625" y="96" width="250" height="42" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="639" y="114" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">Compare the variables</text>
-<rect x="335" y="385" width="250" height="42" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="349" y="403" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">Explain cause → effect</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="500" viewBox="0 0 920 500" role="img" aria-labelledby="title desc">
+<title id="title">Motor energy transformation</title><desc id="desc">A motor uses electrical energy to produce mechanical motion</desc>
+<rect width="920" height="500" rx="28" fill="#f8fafc"/>
+<rect x="22" y="22" width="876" height="456" rx="24" fill="#e0f2fe" stroke="#0f172a" stroke-width="2"/>
+<text x="460" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="800" fill="#0f172a">Motor energy transformation</text>
+<text x="460" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">A motor uses electrical energy to produce mechanical motion</text>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10 Z" fill="#7c3aed"/></marker></defs>
+<rect x="170" y="155" width="580" height="175" rx="24" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+<path d="M260 245 L660 245" stroke="#7c3aed" stroke-width="8" marker-end="url(#arrow)"/>
+<circle cx="250" cy="245" r="42" fill="#bfdbfe" stroke="#1e40af" stroke-width="4"/>
+<rect x="610" y="205" width="85" height="80" rx="16" fill="#fed7aa" stroke="#9a3412" stroke-width="4"/>
+<rect x="38" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+<text x="50" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">electrical input</text>
+<rect x="648" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+<text x="660" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">magnetic interaction</text>
+<rect x="38" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+<text x="50" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">shaft rotation</text>
+<rect x="342" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+<text x="354" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">mechanical output</text>
 </svg>

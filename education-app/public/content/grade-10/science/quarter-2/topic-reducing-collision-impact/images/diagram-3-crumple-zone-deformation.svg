@@ -1,22 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="470" viewBox="0 0 920 470" role="img" aria-labelledby="title desc">
-<title id="title">Crumple zone deformation</title><desc id="desc">Reducing the Impact of Collisions</desc>
-<rect width="920" height="470" rx="28" fill="#f8fafc"/>
-<rect x="24" y="24" width="872" height="422" rx="22" fill="#fef3c7" stroke="#0f172a" stroke-width="2"/>
-<text x="460" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Crumple zone deformation</text>
-<circle cx="205" cy="220" r="54" fill="#93c5fd" stroke="#1e3a8a" stroke-width="4"/>
-<circle cx="690" cy="220" r="54" fill="#fca5a5" stroke="#7f1d1d" stroke-width="4"/>
-<path d="M285 220 L610 220" stroke="#d97706" stroke-width="9" marker-end="url(#arrow)"/>
-<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10 Z" fill="#d97706"/></marker></defs>
-<rect x="45" y="385" width="250" height="42" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="59" y="403" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">Topic: Reducing the Impact</text>
-<text x="59" y="418" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">of Collisions</text>
-<rect x="625" y="385" width="250" height="42" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="639" y="403" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">Diagram: Crumple zone</text>
-<text x="639" y="418" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">deformation</text>
-<rect x="45" y="96" width="250" height="42" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="59" y="114" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">Read arrows and shapes</text>
-<rect x="625" y="96" width="250" height="42" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="639" y="114" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">Compare the variables</text>
-<rect x="335" y="385" width="250" height="42" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="349" y="403" font-family="Arial, sans-serif" font-size="14" fill="#0f172a">Explain cause → effect</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="500" viewBox="0 0 920 500" role="img" aria-labelledby="title desc">
+<title id="title">Crumple zone deformation</title><desc id="desc">Crumple zones deform so the passenger cabin slows more gradually</desc>
+<rect width="920" height="500" rx="28" fill="#f8fafc"/>
+<rect x="22" y="22" width="876" height="456" rx="24" fill="#fef3c7" stroke="#0f172a" stroke-width="2"/>
+<text x="460" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="800" fill="#0f172a">Crumple zone deformation</text>
+<text x="460" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">Crumple zones deform so the passenger cabin slows more gradually</text>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10 Z" fill="#7c3aed"/></marker></defs>
+<rect x="170" y="155" width="580" height="175" rx="24" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+<path d="M260 245 L660 245" stroke="#7c3aed" stroke-width="8" marker-end="url(#arrow)"/>
+<circle cx="250" cy="245" r="42" fill="#bfdbfe" stroke="#1e40af" stroke-width="4"/>
+<rect x="610" y="205" width="85" height="80" rx="16" fill="#fed7aa" stroke="#9a3412" stroke-width="4"/>
+<rect x="38" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+<text x="50" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">front end folds</text>
+<rect x="648" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+<text x="660" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">energy absorbed</text>
+<rect x="38" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+<text x="50" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">longer crash time</text>
+<rect x="342" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+<text x="354" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">cabin protected</text>
 </svg>
