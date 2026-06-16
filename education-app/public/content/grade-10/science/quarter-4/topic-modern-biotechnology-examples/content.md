@@ -2,144 +2,94 @@
 
 > [!GOAL] Learning Goal
 >
-> By the end of this lesson, you should be able to identify examples of modern biotechnology and explain how they differ from traditional biotechnology.
+> By the end of this lesson, you should be able to identify modern biotechnology examples and explain the cell, gene, or reproductive process that makes each one work.
 
-## Estimated Time and Difficulty
+## Start Here
 
-| Estimated Time | Difficulty | Best Study Setup |
-|---|---|---|
-| 45-60 minutes | Grade 10 Life Science | Notebook, pen, and a quiet place to sketch the concept map |
+Some medicines are made by microorganisms that have been given human instructions in DNA. Some crops carry traits that help them resist pests. Some families use IVF to have children.
 
-## What You Should Already Know
+**Estimated time:** 45-60 minutes  
+**Difficulty:** Grade 10 Life Science  
+**Materials:** notebook, pen, and the lesson diagram
 
-Before starting, recall these ideas from earlier science lessons:
+## Warm-Up Recall
 
-- Body systems work together to keep an organism alive.
-- Traits can be inherited through genes and can vary among individuals.
-- Organisms interact with each other and with limited resources in ecosystems.
-- Evidence in science is stronger when different observations point to the same explanation.
+Answer before reading, then revise after the lesson.
 
-## Quick Readiness Check
-
-Answer these in your notebook before reading the explanation.
-
-| Prompt | Your Answer |
-|---|---|
-| What key word or phrase do you already associate with this lesson title? | |
-| What is one example from daily life that may connect to this idea? | |
-| What would count as evidence that you understand this idea? | |
-
-Check yourself after reading: your answers should connect the lesson to real biological systems, not just memorized words.
+1. What do you already know from earlier grades that connects to this topic?
+2. What variable, organism, or process is changing in this lesson?
+3. What evidence would convince you that your explanation is correct?
 
 ## Key Vocabulary
 
-| Term | Student-Friendly Meaning | Example |
+| Term | Meaning | Example |
 |---|---|---|
-| **GMO** | genetically modified organism with altered genetic material | a crop modified for pest resistance |
-| **IVF** | in vitro fertilization, joining egg and sperm outside the body | fertility treatment |
-| **Genetic engineering** | directly changing DNA for a desired trait | microbes producing insulin |
-| **Trait** | an observable characteristic | pest resistance or vitamin content |
+| **GMO** | organism with genetic material changed using biotechnology | crop with pest resistance |
+| **Genetic engineering** | directly changing DNA for a purpose | adding a gene to bacteria |
+| **IVF** | joining egg and sperm outside the body | in vitro fertilization |
+| **Recombinant DNA** | DNA made by combining genetic material from different sources | bacteria carrying a human insulin gene |
+| **Vaccine** | biological preparation that trains immune response | some vaccines made using modern biotechnology |
 
-## Predict Before You Read
+## Visual Overview
 
-Write a quick prediction for each statement.
+![Modern Biotechnology visual overview](./images/visual-introduction.svg)
 
-1. The main concept in this lesson can be explained using a cause-and-effect chain.
-2. A biological process can have benefits in one situation and costs in another.
-3. Evidence matters more than memorizing a definition.
-4. A diagram or flowchart can help explain the process.
+Read the diagram left to right. In your notebook, rewrite the arrows as one cause-and-effect sentence.
 
-Keep your predictions. Revise them after the worked examples.
+## Core Explanation
 
-## Visual Introduction
+- Modern biotechnology often works with DNA, cells, embryos, or purified biological molecules.
+- A GMO is one example, not the whole field. Modern biotechnology also includes medical testing, vaccine design, insulin production, IVF, and some environmental applications.
+- Scientific explanation and social decision are different tasks. First explain how the technology works; then evaluate risks, benefits, access, and ethics.
 
-![Modern Biotechnology concept flow](./images/visual-introduction.svg)
-
-Use the diagram as a guide: identify what starts the process, what changes during the process, and what result the system reaches.
-
-## Main Concept Explanation
-
-Modern biotechnology often uses advanced tools to work with genes, cells, embryos, or microorganisms in more targeted ways.
-
-Key points to remember:
-
-- Modern biotechnology can be more targeted than traditional selection or fermentation.
-- GMOs, IVF, and medicine production are common examples.
-- Modern biotechnology depends on careful testing, regulation, and ethical discussion.
-- The same technology can have benefits, risks, and trade-offs.
-
-The important study move is to connect the vocabulary word to a process. Instead of asking only “What is the definition?”, ask: **What causes it, what changes, and what evidence would show that it happened?**
-
-> [!IMPORTANT] Key Idea Box
+> [!IMPORTANT] Core Idea
 >
-> Modern biotechnology often uses advanced tools to work with genes, cells, embryos, or microorganisms in more targeted ways. In Grade 10 Biology, you should explain this idea using evidence, examples, and cause-and-effect reasoning.
+> Modern biotechnology often works with DNA, cells, embryos, or purified biological molecules.
 
-## Worked Examples
+## Worked Example: Insulin from modified bacteria
 
-| Situation | Biological Explanation |
-|---|---|
-| GMO crop | A plant may be modified to resist pests or improve nutrition. |
-| Insulin production | Modified microorganisms can produce human insulin. |
-| IVF | Egg and sperm are joined outside the body before embryo transfer. |
+1. Scientists identify the human gene for insulin.
+2. The gene is inserted into bacteria using biotechnology tools.
+3. The bacteria produce insulin protein.
+4. The insulin is purified and used by people with diabetes.
 
-### How to reason through an example
+**What this shows:** Modern biotechnology can use cells as production systems for useful biological molecules.
 
-1. Identify the system: body, population, ecosystem, cell, or society.
-2. Identify the change or problem.
-3. Name the process from this lesson.
-4. Explain the result using evidence from the situation.
+## Compare The Cases
 
-## Guided Practice
+| Case | What happens | Why it matters |
+|---|---|---|
+| GMO crop | DNA is changed | adds a useful crop trait |
+| IVF | eggs and sperm handled outside the body | helps with reproduction |
+| Insulin production | modified microbes make protein | supports diabetes treatment |
+| DNA testing | DNA sequences are analyzed | identifies relationships or disease risk |
 
-Try these without looking back first.
+> [!WARNING] Common Trap
+>
+> Modern does not automatically mean better or worse. Evaluate the specific use, evidence, risks, and context.
 
-1. Define **GMO** in one student-friendly sentence.
-2. Choose one worked example and explain the cause-and-effect chain.
-3. Write one question a careful scientist or citizen should ask about this topic.
-4. Draw a three-box flowchart similar to the visual introduction.
+## Check Your Understanding
 
-## Misconception Alerts
+Choose one example and explain the biological tool used and the problem it addresses.
 
-- Modern does not automatically mean unsafe, and natural does not automatically mean safe. Evidence and context matter.
-- Do not memorize an example without understanding why it fits the concept.
-- Do not treat one observation as final proof; compare it with the full context.
+Use this answer frame if you get stuck:
 
-## Error Analysis
+> The starting condition is ____. The process is ____. The result is ____. This supports the idea because ____.
 
-A student says: “I know the term, so I understand the lesson.”
+## Extension
 
-**What is wrong with that reasoning?** Knowing the word is only the start. A strong answer also explains the process, gives an example, and uses evidence.
-
-Improved response frame:
-
-> The process is called **GMO**. It matters because modern biotechnology often uses advanced tools to work with genes, cells, embryos, or microorganisms in more targeted ways. One example is ________, where ________ leads to ________.
-
-## Self-Explanation Prompts
-
-Write 2-3 sentences for each prompt.
-
-1. How does the visual introduction summarize the lesson?
-2. Which vocabulary word is easiest for you? Which one needs more review?
-3. How could this concept appear in a real health, environmental, or biotechnology issue?
-
-## Extension Challenge
-
-Compare fermentation and genetic engineering using purpose, organism used, and level of control.
+Compare GMO crop development and IVF: what biological material is handled in each case?
 
 ## Mastery Checklist
 
 Before taking the practice exam, confirm that you can:
 
-- [ ] Explain the lesson goal without copying the definition.
-- [ ] Use at least two vocabulary terms correctly.
-- [ ] Interpret the visual introduction.
-- [ ] Apply the concept to a new example.
-- [ ] Avoid the misconception listed above.
-
-## Final Summary
-
-Modern Biotechnology is part of Grade 10 Life Science because it connects living systems to stability, change, technology, or ecosystem limits. Mastery means you can explain the process, not just name it.
+- [ ] define the main vocabulary without copying the lesson word-for-word
+- [ ] explain the visual overview as a cause-and-effect chain
+- [ ] apply the idea to a new example
+- [ ] avoid the common trap
+- [ ] support an answer with evidence from the situation
 
 > [!PRACTICE] Exam Plan
 >
-> Complete `practice.json` first. Review any explanation you miss, then take `assessment.json` when you can explain the lesson in your own words.
+> Take the practice exam first as a recall check. Use the explanations to fix gaps. Take the assessment only after you can explain the worked example without looking back.

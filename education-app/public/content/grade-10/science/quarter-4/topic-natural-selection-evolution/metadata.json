@@ -4,9 +4,33 @@
   "subject": "science",
   "quarter": 4,
   "topicName": "Natural Selection: The Engine of Evolution",
+  "description": "Students explain natural selection as differential survival and reproduction of organisms with heritable traits in a particular environment.",
+  "learningObjectives": [
+    "Identify the conditions needed for natural selection.",
+    "Explain why populations evolve but individuals do not.",
+    "Apply natural selection to camouflage, beak size, and antibiotic resistance."
+  ],
+  "prerequisites": [
+    "Variation",
+    "Inherited traits",
+    "Populations"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "biology",
+    "evolution",
+    "natural selection",
+    "adaptation"
+  ],
+  "lastUpdated": "2026-06-16",
+  "version": "2.0.0",
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/visual-introduction.svg"
+    ]
   }
 }

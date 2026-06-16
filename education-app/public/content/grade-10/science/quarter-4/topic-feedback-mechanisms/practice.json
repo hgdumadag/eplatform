@@ -2,101 +2,101 @@
   "examId": "grade-10-science-q4-topic-feedback-mechanisms-practice",
   "examType": "practice",
   "title": "Feedback Mechanisms: Positive and Negative Practice Exam",
-  "description": "Check your understanding of Feedback Mechanisms: Positive and Negative.",
-  "passingScore": 0.75,
+  "description": "Recall and guided drill for Feedback Mechanisms: Positive and Negative.",
+  "passingScore": 0.7,
   "timeLimit": 20,
   "totalQuestions": 8,
   "totalPoints": 8,
   "questions": [
     {
-      "id": "q1",
-      "questionId": "q1",
       "type": "multiple-choice",
-      "question": "Which statement best matches Feedback Mechanisms: Positive and Negative?",
+      "question": "What makes a feedback loop a negative feedback loop?",
+      "options": [
+        "The response reverses the original change.",
+        "The response is harmful.",
+        "The response always stops the body.",
+        "The response has no sensor."
+      ],
       "correctAnswer": 0,
-      "explanation": "The correct choice states the central idea of the lesson: Feedback mechanisms use information about a condition to adjust the body's response.",
+      "explanation": "Negative feedback reverses movement away from the target range.",
       "points": 1,
-      "options": [
-        "Feedback mechanisms use information about a condition to adjust the body's response.",
-        "It is only a vocabulary list.",
-        "It is unrelated to living systems.",
-        "It can be explained without evidence."
-      ]
+      "id": "q1",
+      "questionId": "q1"
     },
     {
+      "type": "multiple-choice",
+      "question": "Which sequence correctly traces a feedback loop?",
+      "options": [
+        "stimulus -> receptor -> control center -> effector -> response",
+        "effector -> fossil -> gene -> species -> response",
+        "response -> no stimulus -> no sensor -> no result",
+        "control center -> no information -> no change -> no response"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A feedback loop starts with a detected stimulus and ends with a response.",
+      "points": 1,
       "id": "q2",
-      "questionId": "q2",
-      "type": "true-false",
-      "question": "Feedback Mechanisms: Positive and Negative should be explained using evidence and cause-and-effect reasoning.",
-      "correctAnswer": "true",
-      "explanation": "Grade 10 Biology expects explanation, examples, and evidence.",
-      "points": 1
+      "questionId": "q2"
     },
     {
-      "id": "q3",
-      "questionId": "q3",
       "type": "fill-in",
-      "question": "Complete the sentence: A key term in this lesson is ________.",
-      "correctAnswer": "negative feedback",
-      "explanation": "The expected key term is negative feedback.",
-      "points": 1
-    },
-    {
-      "id": "q4",
-      "questionId": "q4",
-      "type": "short-answer",
-      "question": "In 1-2 sentences, explain why Feedback mechanism matters in biology.",
-      "correctAnswer": "Feedback mechanism matters because it helps explain Feedback mechanisms use information about a condition to adjust the body's response.",
-      "explanation": "A good answer connects Feedback mechanism to the process and its biological importance.",
-      "points": 1
-    },
-    {
-      "id": "q5",
-      "questionId": "q5",
-      "type": "multiple-choice",
-      "question": "Which study habit best shows mastery of this lesson?",
-      "correctAnswer": 2,
-      "explanation": "Applying the concept to a new case shows deeper understanding than copying definitions.",
+      "question": "The body structure or tissue that carries out a response is called an ________.",
+      "correctAnswer": "effector",
+      "explanation": "Effectors carry out the response.",
       "points": 1,
-      "options": [
-        "Copy the title only.",
-        "Memorize the first sentence only.",
-        "Apply the concept to a new example.",
-        "Ignore the diagram."
-      ]
+      "id": "q3",
+      "questionId": "q3"
     },
     {
-      "id": "q6",
-      "questionId": "q6",
       "type": "true-false",
-      "question": "A common misconception about this lesson is accurate and should be used as the final explanation.",
-      "correctAnswer": "false",
-      "explanation": "Misconception alerts are included so you can avoid the error and use the more accurate explanation from the lesson.",
-      "points": 1
-    },
-    {
-      "id": "q7",
-      "questionId": "q7",
-      "type": "multiple-choice",
-      "question": "Which item is part of good scientific reasoning for this topic?",
-      "correctAnswer": 1,
-      "explanation": "Evidence helps decide whether an explanation is reliable.",
+      "question": "Positive feedback amplifies a change until a process reaches an endpoint.",
+      "correctAnswer": "true",
+      "explanation": "Positive feedback drives a process forward.",
       "points": 1,
-      "options": [
-        "Guessing from the title",
-        "Using evidence from the situation",
-        "Choosing the longest answer",
-        "Ignoring exceptions"
-      ]
+      "id": "q4",
+      "questionId": "q4"
     },
     {
-      "id": "q8",
-      "questionId": "q8",
       "type": "short-answer",
-      "question": "Describe the visual introduction as a three-step process.",
-      "correctAnswer": "Answers should mention the starting condition, the change or mechanism, and the result.",
-      "explanation": "A strong answer follows the three boxes in the local SVG diagram.",
-      "points": 1
+      "question": "Explain why sweating when hot is negative feedback.",
+      "correctAnswer": "Sweating is negative feedback because it reduces the original temperature increase by helping the body lose heat.",
+      "explanation": "The answer should mention reversal of the original change.",
+      "points": 1,
+      "id": "q5",
+      "questionId": "q5"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which is an example of positive feedback?",
+      "options": [
+        "contractions during childbirth becoming stronger until delivery",
+        "sweating to lower body temperature",
+        "insulin lowering blood glucose after a meal",
+        "shivering to raise body temperature"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Childbirth contractions intensify until the endpoint.",
+      "points": 1,
+      "id": "q6",
+      "questionId": "q6"
+    },
+    {
+      "type": "true-false",
+      "question": "Negative feedback is called negative because it is bad for the body.",
+      "correctAnswer": "false",
+      "explanation": "Negative means reversing the change, not bad.",
+      "points": 1,
+      "id": "q7",
+      "questionId": "q7"
+    },
+    {
+      "type": "short-answer",
+      "question": "Name the stimulus and effector in body temperature control when a person becomes too hot.",
+      "correctAnswer": "The stimulus is rising body temperature; effectors include sweat glands and skin blood vessels.",
+      "explanation": "The answer should identify both parts.",
+      "points": 1,
+      "id": "q8",
+      "questionId": "q8"
     }
   ]
 }

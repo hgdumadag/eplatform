@@ -4,9 +4,34 @@
   "subject": "science",
   "quarter": 4,
   "topicName": "Evidence for Evolution",
+  "description": "Students evaluate fossils, biogeography, comparative anatomy, and molecular evidence as independent lines supporting evolution.",
+  "learningObjectives": [
+    "Describe several lines of evidence for evolution.",
+    "Explain why independent evidence makes a scientific explanation stronger.",
+    "Distinguish homologous structures from superficial similarity."
+  ],
+  "prerequisites": [
+    "Natural selection",
+    "Geologic time",
+    "Body structures"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "biology",
+    "evolution",
+    "fossils",
+    "biogeography",
+    "homology"
+  ],
+  "lastUpdated": "2026-06-16",
+  "version": "2.0.0",
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/visual-introduction.svg"
+    ]
   }
 }

@@ -4,9 +4,33 @@
   "subject": "science",
   "quarter": 4,
   "topicName": "Traditional Biotechnology: Fermentation",
+  "description": "Students explain fermentation as a traditional biotechnology process that uses microorganisms to transform food and other materials.",
+  "learningObjectives": [
+    "Describe fermentation as a microbial process.",
+    "Identify common fermented products including Filipino examples.",
+    "Explain why conditions such as temperature, cleanliness, and ingredients affect fermentation."
+  ],
+  "prerequisites": [
+    "Microorganisms",
+    "Biotechnology",
+    "Food chemistry"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "biology",
+    "fermentation",
+    "traditional biotechnology",
+    "microorganisms"
+  ],
+  "lastUpdated": "2026-06-16",
+  "version": "2.0.0",
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/visual-introduction.svg"
+    ]
   }
 }

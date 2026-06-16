@@ -4,9 +4,33 @@
   "subject": "science",
   "quarter": 4,
   "topicName": "What Is Biotechnology?",
+  "description": "Students define biotechnology broadly as using organisms, cells, or biological processes to make products or solve problems.",
+  "learningObjectives": [
+    "Define biotechnology in traditional and modern contexts.",
+    "Identify examples from food, medicine, agriculture, and environment.",
+    "Explain why living systems are useful in biotechnology."
+  ],
+  "prerequisites": [
+    "Microorganisms",
+    "Cells",
+    "Chemical reactions"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "biology",
+    "biotechnology",
+    "microorganisms",
+    "applied science"
+  ],
+  "lastUpdated": "2026-06-16",
+  "version": "2.0.0",
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/visual-introduction.svg"
+    ]
   }
 }

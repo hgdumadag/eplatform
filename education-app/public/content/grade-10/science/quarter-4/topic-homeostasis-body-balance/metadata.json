@@ -4,9 +4,33 @@
   "subject": "science",
   "quarter": 4,
   "topicName": "Homeostasis: Keeping the Body in Balance",
+  "description": "Students explain homeostasis as active regulation of internal conditions and identify measurable indicators such as temperature, glucose, blood pressure, water balance, and breathing rate.",
+  "learningObjectives": [
+    "Define homeostasis as active regulation within a healthy range.",
+    "Identify common indicators of homeostasis in humans.",
+    "Explain why body systems must work together to maintain stable internal conditions."
+  ],
+  "prerequisites": [
+    "Body systems",
+    "Cells need stable conditions",
+    "Basic measurement"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "biology",
+    "homeostasis",
+    "body systems",
+    "life science"
+  ],
+  "lastUpdated": "2026-06-16",
+  "version": "2.0.0",
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/visual-introduction.svg"
+    ]
   }
 }

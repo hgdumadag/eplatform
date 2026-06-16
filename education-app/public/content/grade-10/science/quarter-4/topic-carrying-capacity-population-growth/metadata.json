@@ -4,9 +4,33 @@
   "subject": "science",
   "quarter": 4,
   "topicName": "Carrying Capacity and Population Growth",
+  "description": "Students explain carrying capacity, limiting factors, logistic growth, overshoot, and population decline using ecosystem examples.",
+  "learningObjectives": [
+    "Define carrying capacity and limiting factors.",
+    "Explain why growth slows as resources become limited.",
+    "Interpret S-shaped growth and overshoot scenarios."
+  ],
+  "prerequisites": [
+    "Ecosystems",
+    "Resources",
+    "Populations"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "biology",
+    "ecology",
+    "carrying capacity",
+    "population growth"
+  ],
+  "lastUpdated": "2026-06-16",
+  "version": "2.0.0",
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/visual-introduction.svg"
+    ]
   }
 }

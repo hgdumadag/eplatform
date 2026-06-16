@@ -2,144 +2,94 @@
 
 > [!GOAL] Learning Goal
 >
-> By the end of this lesson, you should be able to discuss variation, heredity, selection, adaptation, and isolation as connected ideas in evolution.
+> By the end of this lesson, you should be able to connect the vocabulary of evolution into one explanation of how populations change and may become new species.
 
-## Estimated Time and Difficulty
+## Start Here
 
-| Estimated Time | Difficulty | Best Study Setup |
-|---|---|---|
-| 45-60 minutes | Grade 10 Life Science | Notebook, pen, and a quiet place to sketch the concept map |
+Two groups of the same lizard population are separated by a wide river. Over many generations, each group faces different predators, food, and climate.
 
-## What You Should Already Know
+**Estimated time:** 45-60 minutes  
+**Difficulty:** Grade 10 Life Science  
+**Materials:** notebook, pen, and the lesson diagram
 
-Before starting, recall these ideas from earlier science lessons:
+## Warm-Up Recall
 
-- Body systems work together to keep an organism alive.
-- Traits can be inherited through genes and can vary among individuals.
-- Organisms interact with each other and with limited resources in ecosystems.
-- Evidence in science is stronger when different observations point to the same explanation.
+Answer before reading, then revise after the lesson.
 
-## Quick Readiness Check
-
-Answer these in your notebook before reading the explanation.
-
-| Prompt | Your Answer |
-|---|---|
-| What key word or phrase do you already associate with this lesson title? | |
-| What is one example from daily life that may connect to this idea? | |
-| What would count as evidence that you understand this idea? | |
-
-Check yourself after reading: your answers should connect the lesson to real biological systems, not just memorized words.
+1. What do you already know from earlier grades that connects to this topic?
+2. What variable, organism, or process is changing in this lesson?
+3. What evidence would convince you that your explanation is correct?
 
 ## Key Vocabulary
 
-| Term | Student-Friendly Meaning | Example |
+| Term | Meaning | Example |
 |---|---|---|
-| **Variation** | differences among individuals | different shell colors |
+| **Evolution** | change in inherited traits of populations over generations | average beak size shifts |
 | **Heredity** | passing traits from parents to offspring | genes inherited from parents |
-| **Adaptation** | a heritable trait that improves success in an environment | thick fur in cold habitats |
-| **Isolation** | separation that limits breeding between groups | islands or mountains separating populations |
+| **Adaptation** | inherited trait that improves fitness | thick fur in cold environments |
+| **Isolation** | separation that reduces breeding between groups | mountains, islands, rivers |
+| **Speciation** | formation of new species | isolated groups can no longer interbreed successfully |
 
-## Predict Before You Read
+## Visual Overview
 
-Write a quick prediction for each statement.
+![Key Concepts in Evolution visual overview](./images/visual-introduction.svg)
 
-1. The main concept in this lesson can be explained using a cause-and-effect chain.
-2. A biological process can have benefits in one situation and costs in another.
-3. Evidence matters more than memorizing a definition.
-4. A diagram or flowchart can help explain the process.
+Read the diagram left to right. In your notebook, rewrite the arrows as one cause-and-effect sentence.
 
-Keep your predictions. Revise them after the worked examples.
+## Core Explanation
 
-## Visual Introduction
+- Evolution is about populations and generations. It is not a single animal changing because it wants to.
+- Variation supplies the raw material. Heredity allows helpful traits to persist. Selection changes which traits become common.
+- Isolation can make two populations follow different evolutionary paths. Over enough time, differences can accumulate into speciation.
 
-![Key Concepts in Evolution concept flow](./images/visual-introduction.svg)
-
-Use the diagram as a guide: identify what starts the process, what changes during the process, and what result the system reaches.
-
-## Main Concept Explanation
-
-Evolutionary explanations combine several concepts: variation supplies differences, heredity passes traits on, and selection changes trait frequencies over time.
-
-Key points to remember:
-
-- Variation can come from mutation and sexual reproduction.
-- Heredity matters because selected traits must be passed to offspring.
-- Adaptations are built over many generations, not chosen instantly.
-- Isolation can allow separated groups to evolve in different directions.
-
-The important study move is to connect the vocabulary word to a process. Instead of asking only “What is the definition?”, ask: **What causes it, what changes, and what evidence would show that it happened?**
-
-> [!IMPORTANT] Key Idea Box
+> [!IMPORTANT] Core Idea
 >
-> Evolutionary explanations combine several concepts: variation supplies differences, heredity passes traits on, and selection changes trait frequencies over time. In Grade 10 Biology, you should explain this idea using evidence, examples, and cause-and-effect reasoning.
+> Evolution is about populations and generations. It is not a single animal changing because it wants to.
 
-## Worked Examples
+## Worked Example: Island insects
 
-| Situation | Biological Explanation |
-|---|---|
-| Geographic isolation | A river separates two populations, reducing interbreeding. |
-| Behavioral isolation | Animals have different mating calls. |
-| Adaptation | A plant population becomes more drought-tolerant over generations. |
+1. A storm carries some insects from the mainland to an island.
+2. The island population is isolated from the mainland population.
+3. Different food and predators favor different traits.
+4. After many generations, the island group may become genetically and physically different.
 
-### How to reason through an example
+**What this shows:** Isolation does not automatically create a new species, but it can allow populations to diverge.
 
-1. Identify the system: body, population, ecosystem, cell, or society.
-2. Identify the change or problem.
-3. Name the process from this lesson.
-4. Explain the result using evidence from the situation.
+## Compare The Cases
 
-## Guided Practice
+| Case | What happens | Why it matters |
+|---|---|---|
+| Variation | differences exist | different wing lengths |
+| Heredity | traits pass on | offspring resemble parents |
+| Selection | environment filters traits | predators catch slower insects |
+| Isolation | gene flow decreases | island and mainland groups separate |
 
-Try these without looking back first.
+> [!WARNING] Common Trap
+>
+> Adaptation is not an individual deciding to improve. It is a heritable trait becoming common because it improves fitness in a specific environment.
 
-1. Define **Variation** in one student-friendly sentence.
-2. Choose one worked example and explain the cause-and-effect chain.
-3. Write one question a careful scientist or citizen should ask about this topic.
-4. Draw a three-box flowchart similar to the visual introduction.
+## Check Your Understanding
 
-## Misconception Alerts
+Explain how variation and heredity must both be present for evolution by natural selection.
 
-- A trait is adaptive only in a particular environment; a useful trait in one habitat may be useless or harmful in another.
-- Do not memorize an example without understanding why it fits the concept.
-- Do not treat one observation as final proof; compare it with the full context.
+Use this answer frame if you get stuck:
 
-## Error Analysis
+> The starting condition is ____. The process is ____. The result is ____. This supports the idea because ____.
 
-A student says: “I know the term, so I understand the lesson.”
+## Extension
 
-**What is wrong with that reasoning?** Knowing the word is only the start. A strong answer also explains the process, gives an example, and uses evidence.
-
-Improved response frame:
-
-> The process is called **Variation**. It matters because evolutionary explanations combine several concepts: variation supplies differences, heredity passes traits on, and selection changes trait frequencies over time. One example is ________, where ________ leads to ________.
-
-## Self-Explanation Prompts
-
-Write 2-3 sentences for each prompt.
-
-1. How does the visual introduction summarize the lesson?
-2. Which vocabulary word is easiest for you? Which one needs more review?
-3. How could this concept appear in a real health, environmental, or biotechnology issue?
-
-## Extension Challenge
-
-Draw a two-island scenario showing how one starting population could become two different populations over time.
+Create a concept map linking variation, selection, adaptation, isolation, and speciation.
 
 ## Mastery Checklist
 
 Before taking the practice exam, confirm that you can:
 
-- [ ] Explain the lesson goal without copying the definition.
-- [ ] Use at least two vocabulary terms correctly.
-- [ ] Interpret the visual introduction.
-- [ ] Apply the concept to a new example.
-- [ ] Avoid the misconception listed above.
-
-## Final Summary
-
-Key Concepts in Evolution is part of Grade 10 Life Science because it connects living systems to stability, change, technology, or ecosystem limits. Mastery means you can explain the process, not just name it.
+- [ ] define the main vocabulary without copying the lesson word-for-word
+- [ ] explain the visual overview as a cause-and-effect chain
+- [ ] apply the idea to a new example
+- [ ] avoid the common trap
+- [ ] support an answer with evidence from the situation
 
 > [!PRACTICE] Exam Plan
 >
-> Complete `practice.json` first. Review any explanation you miss, then take `assessment.json` when you can explain the lesson in your own words.
+> Take the practice exam first as a recall check. Use the explanations to fix gaps. Take the assessment only after you can explain the worked example without looking back.

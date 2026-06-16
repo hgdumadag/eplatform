@@ -2,144 +2,94 @@
 
 > [!GOAL] Learning Goal
 >
-> By the end of this lesson, you should be able to describe natural selection as the main mechanism that drives evolutionary change across generations.
+> By the end of this lesson, you should be able to explain natural selection using variation, heredity, selection pressure, survival, reproduction, and change across generations.
 
-## Estimated Time and Difficulty
+## Start Here
 
-| Estimated Time | Difficulty | Best Study Setup |
-|---|---|---|
-| 45-60 minutes | Grade 10 Life Science | Notebook, pen, and a quiet place to sketch the concept map |
+If a drought leaves mostly hard seeds, birds with slightly stronger beaks may leave more offspring. Over many generations, the average beak type in the population can shift.
 
-## What You Should Already Know
+**Estimated time:** 45-60 minutes  
+**Difficulty:** Grade 10 Life Science  
+**Materials:** notebook, pen, and the lesson diagram
 
-Before starting, recall these ideas from earlier science lessons:
+## Warm-Up Recall
 
-- Body systems work together to keep an organism alive.
-- Traits can be inherited through genes and can vary among individuals.
-- Organisms interact with each other and with limited resources in ecosystems.
-- Evidence in science is stronger when different observations point to the same explanation.
+Answer before reading, then revise after the lesson.
 
-## Quick Readiness Check
-
-Answer these in your notebook before reading the explanation.
-
-| Prompt | Your Answer |
-|---|---|
-| What key word or phrase do you already associate with this lesson title? | |
-| What is one example from daily life that may connect to this idea? | |
-| What would count as evidence that you understand this idea? | |
-
-Check yourself after reading: your answers should connect the lesson to real biological systems, not just memorized words.
+1. What do you already know from earlier grades that connects to this topic?
+2. What variable, organism, or process is changing in this lesson?
+3. What evidence would convince you that your explanation is correct?
 
 ## Key Vocabulary
 
-| Term | Student-Friendly Meaning | Example |
+| Term | Meaning | Example |
 |---|---|---|
-| **Evolution** | change in inherited characteristics of populations over generations | a population becoming better camouflaged |
-| **Natural selection** | differential survival and reproduction because of traits | darker moths surviving on dark bark |
 | **Variation** | differences among individuals | different beak sizes |
-| **Fitness** | reproductive success in a particular environment | leaving more offspring |
+| **Heritable trait** | a trait that can be passed to offspring | beak shape influenced by genes |
+| **Selection pressure** | environmental factor that affects survival or reproduction | predators, drought, disease |
+| **Fitness** | reproductive success in a given environment | leaving more surviving offspring |
+| **Adaptation** | inherited trait that improves fitness in an environment | camouflage in a habitat |
 
-## Predict Before You Read
+## Visual Overview
 
-Write a quick prediction for each statement.
+![Natural Selection: The Engine of Evolution visual overview](./images/visual-introduction.svg)
 
-1. The main concept in this lesson can be explained using a cause-and-effect chain.
-2. A biological process can have benefits in one situation and costs in another.
-3. Evidence matters more than memorizing a definition.
-4. A diagram or flowchart can help explain the process.
+Read the diagram left to right. In your notebook, rewrite the arrows as one cause-and-effect sentence.
 
-Keep your predictions. Revise them after the worked examples.
+## Core Explanation
 
-## Visual Introduction
+- Natural selection requires variation. If all individuals are identical, the environment has no different traits to favor.
+- The useful variation must be heritable. A scar gained during life is not passed on like a genetic trait.
+- The environment affects survival and reproduction. Traits that increase reproductive success become more common over generations.
+- Individuals are selected, but populations evolve. One organism does not evolve during its lifetime.
 
-![Natural Selection: The Engine of Evolution concept flow](./images/visual-introduction.svg)
-
-Use the diagram as a guide: identify what starts the process, what changes during the process, and what result the system reaches.
-
-## Main Concept Explanation
-
-Natural selection happens when heritable traits that improve survival or reproduction become more common in a population over generations.
-
-Key points to remember:
-
-- Individuals vary, and some variation is inherited.
-- The environment affects which traits help survival and reproduction.
-- Populations evolve; individual organisms do not evolve during their lifetime.
-- Natural selection does not plan ahead. It works on traits already present in a population.
-
-The important study move is to connect the vocabulary word to a process. Instead of asking only “What is the definition?”, ask: **What causes it, what changes, and what evidence would show that it happened?**
-
-> [!IMPORTANT] Key Idea Box
+> [!IMPORTANT] Core Idea
 >
-> Natural selection happens when heritable traits that improve survival or reproduction become more common in a population over generations. In Grade 10 Biology, you should explain this idea using evidence, examples, and cause-and-effect reasoning.
+> Natural selection requires variation. If all individuals are identical, the environment has no different traits to favor.
 
-## Worked Examples
+## Worked Example: Antibiotic resistance in bacteria
 
-| Situation | Biological Explanation |
-|---|---|
-| Camouflage | Better-hidden prey are less likely to be eaten. |
-| Antibiotic resistance | Bacteria with resistance survive treatment and reproduce. |
-| Beak size | Birds with beaks suited to available food leave more offspring. |
+1. A bacterial population contains a few cells with resistance.
+2. Antibiotic treatment kills many non-resistant bacteria.
+3. Resistant bacteria survive and reproduce.
+4. After repeated exposure, resistance becomes more common in the population.
 
-### How to reason through an example
+**What this shows:** Natural selection changes trait frequency in a population when a heritable trait affects survival and reproduction.
 
-1. Identify the system: body, population, ecosystem, cell, or society.
-2. Identify the change or problem.
-3. Name the process from this lesson.
-4. Explain the result using evidence from the situation.
+## Compare The Cases
 
-## Guided Practice
+| Case | What happens | Why it matters |
+|---|---|---|
+| Variation | individuals differ | some bacteria are resistant |
+| Selection pressure | environment favors some traits | antibiotic kills susceptible bacteria |
+| Inheritance | survivors reproduce | resistance becomes common |
 
-Try these without looking back first.
+> [!WARNING] Common Trap
+>
+> Do not say organisms evolve because they need to. Natural selection works on existing heritable variation.
 
-1. Define **Evolution** in one student-friendly sentence.
-2. Choose one worked example and explain the cause-and-effect chain.
-3. Write one question a careful scientist or citizen should ask about this topic.
-4. Draw a three-box flowchart similar to the visual introduction.
+## Check Your Understanding
 
-## Misconception Alerts
+Use four words in a chain: variation -> environment -> survival/reproduction -> population change.
 
-- Natural selection is not a choice made by organisms. It is the result of survival and reproduction differences.
-- Do not memorize an example without understanding why it fits the concept.
-- Do not treat one observation as final proof; compare it with the full context.
+Use this answer frame if you get stuck:
 
-## Error Analysis
+> The starting condition is ____. The process is ____. The result is ____. This supports the idea because ____.
 
-A student says: “I know the term, so I understand the lesson.”
+## Extension
 
-**What is wrong with that reasoning?** Knowing the word is only the start. A strong answer also explains the process, gives an example, and uses evidence.
-
-Improved response frame:
-
-> The process is called **Evolution**. It matters because natural selection happens when heritable traits that improve survival or reproduction become more common in a population over generations. One example is ________, where ________ leads to ________.
-
-## Self-Explanation Prompts
-
-Write 2-3 sentences for each prompt.
-
-1. How does the visual introduction summarize the lesson?
-2. Which vocabulary word is easiest for you? Which one needs more review?
-3. How could this concept appear in a real health, environmental, or biotechnology issue?
-
-## Extension Challenge
-
-Explain how a drought could change the average beak size in a bird population if only hard seeds remain common.
+Explain how a change in predator color or habitat color could affect camouflage over generations.
 
 ## Mastery Checklist
 
 Before taking the practice exam, confirm that you can:
 
-- [ ] Explain the lesson goal without copying the definition.
-- [ ] Use at least two vocabulary terms correctly.
-- [ ] Interpret the visual introduction.
-- [ ] Apply the concept to a new example.
-- [ ] Avoid the misconception listed above.
-
-## Final Summary
-
-Natural Selection: The Engine of Evolution is part of Grade 10 Life Science because it connects living systems to stability, change, technology, or ecosystem limits. Mastery means you can explain the process, not just name it.
+- [ ] define the main vocabulary without copying the lesson word-for-word
+- [ ] explain the visual overview as a cause-and-effect chain
+- [ ] apply the idea to a new example
+- [ ] avoid the common trap
+- [ ] support an answer with evidence from the situation
 
 > [!PRACTICE] Exam Plan
 >
-> Complete `practice.json` first. Review any explanation you miss, then take `assessment.json` when you can explain the lesson in your own words.
+> Take the practice exam first as a recall check. Use the explanations to fix gaps. Take the assessment only after you can explain the worked example without looking back.

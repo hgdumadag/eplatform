@@ -4,9 +4,34 @@
   "subject": "science",
   "quarter": 4,
   "topicName": "Feedback Mechanisms: Positive and Negative",
+  "description": "Students compare negative and positive feedback and trace stimulus, receptor, control center, effector, and response in common biological examples.",
+  "learningObjectives": [
+    "Describe the parts of a feedback loop.",
+    "Distinguish negative feedback from positive feedback.",
+    "Apply feedback-loop reasoning to temperature, blood glucose, and childbirth examples."
+  ],
+  "prerequisites": [
+    "Homeostasis",
+    "Body systems",
+    "Signals and responses"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "biology",
+    "feedback",
+    "homeostasis",
+    "negative feedback",
+    "positive feedback"
+  ],
+  "lastUpdated": "2026-06-16",
+  "version": "2.0.0",
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/visual-introduction.svg"
+    ]
   }
 }

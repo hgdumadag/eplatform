@@ -2,149 +2,149 @@
   "examId": "grade-10-science-q4-topic-biotechnology-benefits-risks-ethics-assessment",
   "examType": "assessment",
   "title": "The Biotechnology Debate Assessment Exam",
-  "description": "Check your understanding of The Biotechnology Debate.",
+  "description": "Checkpoint assessment for The Biotechnology Debate.",
   "passingScore": 0.75,
-  "timeLimit": 30,
+  "timeLimit": 35,
   "totalQuestions": 12,
   "totalPoints": 12,
   "questions": [
     {
+      "type": "multiple-choice",
+      "question": "In the worked example **Evaluating a GMO crop claim**, what is the best conclusion?",
+      "options": [
+        "A balanced decision explains both the science and the values involved.",
+        "the example is unrelated to the lesson",
+        "only the title matters",
+        "the process cannot be explained"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The conclusion comes from the worked example.",
+      "points": 1,
       "id": "q1",
-      "questionId": "q1",
-      "type": "multiple-choice",
-      "question": "Which statement best matches The Biotechnology Debate?",
-      "correctAnswer": 0,
-      "explanation": "The correct choice states the central idea of the lesson: Biotechnology decisions require weighing benefits, risks, who gains, who may be harmed, and what evidence supports each claim.",
-      "points": 1,
-      "options": [
-        "Biotechnology decisions require weighing benefits, risks, who gains, who may be harmed, and what evidence supports each claim.",
-        "It is only a vocabulary list.",
-        "It is unrelated to living systems.",
-        "It can be explained without evidence."
-      ]
+      "questionId": "q1"
     },
     {
+      "type": "multiple-choice",
+      "question": "Which pair is correctly matched for Biotechnology debate?",
+      "options": [
+        "Societal - seed price, medicine access",
+        "Societal - unrelated to living systems",
+        "Environmental - no evidence needed",
+        "Ethical - only a spelling rule"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct pair is from the comparison table.",
+      "points": 1,
       "id": "q2",
-      "questionId": "q2",
-      "type": "true-false",
-      "question": "The Biotechnology Debate should be explained using evidence and cause-and-effect reasoning.",
-      "correctAnswer": "true",
-      "explanation": "Grade 10 Biology expects explanation, examples, and evidence.",
-      "points": 1
+      "questionId": "q2"
     },
     {
+      "type": "fill-in",
+      "question": "The term meaning 'possible helpful effect' is ________.",
+      "correctAnswer": "benefit",
+      "explanation": "The answer comes from the vocabulary table.",
+      "points": 1,
       "id": "q3",
-      "questionId": "q3",
-      "type": "fill-in",
-      "question": "Complete the sentence: A key term in this lesson is ________.",
-      "correctAnswer": "ethical",
-      "explanation": "The expected key term is ethical.",
-      "points": 1
+      "questionId": "q3"
     },
     {
-      "id": "q4",
-      "questionId": "q4",
-      "type": "short-answer",
-      "question": "In 1-2 sentences, explain why Societal implication matters in biology.",
-      "correctAnswer": "Societal implication matters because it helps explain Biotechnology decisions require weighing benefits, risks, who gains, who may be harmed, and what evidence supports each claim.",
-      "explanation": "A good answer connects Societal implication to the process and its biological importance.",
-      "points": 1
-    },
-    {
-      "id": "q5",
-      "questionId": "q5",
-      "type": "multiple-choice",
-      "question": "Which study habit best shows mastery of this lesson?",
-      "correctAnswer": 2,
-      "explanation": "Applying the concept to a new case shows deeper understanding than copying definitions.",
-      "points": 1,
-      "options": [
-        "Copy the title only.",
-        "Memorize the first sentence only.",
-        "Apply the concept to a new example.",
-        "Ignore the diagram."
-      ]
-    },
-    {
-      "id": "q6",
-      "questionId": "q6",
       "type": "true-false",
-      "question": "A common misconception about this lesson is accurate and should be used as the final explanation.",
-      "correctAnswer": "false",
-      "explanation": "Misconception alerts are included so you can avoid the error and use the more accurate explanation from the lesson.",
-      "points": 1
-    },
-    {
-      "id": "q7",
-      "questionId": "q7",
-      "type": "multiple-choice",
-      "question": "Which item is part of good scientific reasoning for this topic?",
-      "correctAnswer": 1,
-      "explanation": "Evidence helps decide whether an explanation is reliable.",
+      "question": "The statement 'A debate is not two unsupported opinions. A strong position uses evidence and admits trade-offs.' is an important caution for this topic.",
+      "correctAnswer": "true",
+      "explanation": "The statement is the lesson's common trap.",
       "points": 1,
-      "options": [
-        "Guessing from the title",
-        "Using evidence from the situation",
-        "Choosing the longest answer",
-        "Ignoring exceptions"
-      ]
+      "id": "q4",
+      "questionId": "q4"
     },
     {
-      "id": "q8",
-      "questionId": "q8",
       "type": "short-answer",
-      "question": "Describe the visual introduction as a three-step process.",
-      "correctAnswer": "Answers should mention the starting condition, the change or mechanism, and the result.",
-      "explanation": "A strong answer follows the three boxes in the local SVG diagram.",
-      "points": 1
+      "question": "Explain why this caution matters: A debate is not two unsupported opinions. A strong position uses evidence and admits trade-offs.",
+      "correctAnswer": "A strong answer should explain the accurate idea behind Biotechnology debate and show how the caution prevents a common error.",
+      "explanation": "The answer should explain the caution, not just repeat it.",
+      "points": 1,
+      "id": "q5",
+      "questionId": "q5"
     },
     {
-      "id": "q9",
-      "questionId": "q9",
       "type": "multiple-choice",
-      "question": "Which example best connects to The Biotechnology Debate?",
+      "question": "Which observation would best support an explanation about Biotechnology debate?",
+      "options": [
+        "Environmental",
+        "a confident claim with no observations",
+        "an unrelated grammar example",
+        "a guess based only on the title"
+      ],
       "correctAnswer": 0,
-      "explanation": "The first option is drawn from the lesson examples and matches the concept.",
+      "explanation": "The first option is an observable case from the lesson.",
       "points": 1,
-      "options": [
-        "GMO crop",
-        "A random spelling rule",
-        "A purely historical date",
-        "A geometry proof with no biology context"
-      ]
+      "id": "q6",
+      "questionId": "q6"
     },
     {
-      "id": "q10",
-      "questionId": "q10",
-      "type": "fill-in",
-      "question": "A biological explanation should connect cause, process, and ________.",
-      "correctAnswer": "evidence",
-      "explanation": "Evidence supports the explanation and prevents guessing.",
-      "points": 1
-    },
-    {
-      "id": "q11",
-      "questionId": "q11",
       "type": "short-answer",
-      "question": "Give one real-life situation where Societal implication could help explain what is happening.",
-      "correctAnswer": "Answers will vary but should give a relevant biological, health, environmental, or biotechnology example.",
-      "explanation": "The response should transfer the concept to a new situation.",
-      "points": 1
+      "question": "Apply Biotechnology debate to a new example not listed in the lesson.",
+      "correctAnswer": "A correct answer should choose a relevant biological example and explain it using the vocabulary of Biotechnology debate.",
+      "explanation": "Transfer to a new example is the goal.",
+      "points": 1,
+      "id": "q7",
+      "questionId": "q7"
     },
     {
-      "id": "q12",
-      "questionId": "q12",
       "type": "multiple-choice",
-      "question": "What should you do if one example seems to contradict the lesson idea?",
-      "correctAnswer": 3,
-      "explanation": "Scientific reasoning checks context and evidence instead of forcing a memorized rule.",
-      "points": 1,
+      "question": "Which sentence best reflects the second core idea of this lesson?",
       "options": [
-        "Ignore the contradiction",
-        "Delete the lesson",
-        "Assume science is random",
-        "Check the context and evidence carefully"
-      ]
+        "Societal questions include cost, access, food security, patient welfare, farmer livelihood, and fairness.",
+        "The topic has no causes or effects.",
+        "Examples should be ignored.",
+        "Only memorized terms matter."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The sentence comes from the core explanation.",
+      "points": 1,
+      "id": "q8",
+      "questionId": "q8"
+    },
+    {
+      "type": "true-false",
+      "question": "A strong biology explanation should connect claim, evidence, and reasoning.",
+      "correctAnswer": "true",
+      "explanation": "Scientific explanations need more than a claim.",
+      "points": 1,
+      "id": "q9",
+      "questionId": "q9"
+    },
+    {
+      "type": "fill-in",
+      "question": "A cause-and-effect explanation should include a starting condition, a process, and a ________.",
+      "correctAnswer": "result",
+      "explanation": "A result completes the chain.",
+      "points": 1,
+      "id": "q10",
+      "questionId": "q10"
+    },
+    {
+      "type": "short-answer",
+      "question": "Explain why **Ethical** is a useful case for understanding this lesson.",
+      "correctAnswer": "A strong answer should connect Ethical to What is fair or responsible? and explain why that matters: consent, ownership, animal welfare.",
+      "explanation": "The answer should use the case accurately.",
+      "points": 1,
+      "id": "q11",
+      "questionId": "q11"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Why is the visual overview useful?",
+      "options": [
+        "It organizes the relationship among the main parts of the concept.",
+        "It replaces all reading and practice.",
+        "It proves the idea without evidence.",
+        "It makes vocabulary unnecessary."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The visual is a guide, not a replacement for reasoning.",
+      "points": 1,
+      "id": "q12",
+      "questionId": "q12"
     }
   ]
 }

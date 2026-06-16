@@ -4,9 +4,34 @@
   "subject": "science",
   "quarter": 4,
   "topicName": "Modern Biotechnology",
+  "description": "Students identify modern biotechnology examples such as GMOs, IVF, vaccines, and insulin production and explain the biological idea behind each.",
+  "learningObjectives": [
+    "Describe examples of modern biotechnology.",
+    "Explain how DNA, cells, or reproductive technology can be used to solve problems.",
+    "Distinguish the scientific process from the social decision about whether to use it."
+  ],
+  "prerequisites": [
+    "Biotechnology",
+    "Genes and DNA",
+    "Cells"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "biology",
+    "modern biotechnology",
+    "GMO",
+    "IVF",
+    "medicine"
+  ],
+  "lastUpdated": "2026-06-16",
+  "version": "2.0.0",
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/visual-introduction.svg"
+    ]
   }
 }

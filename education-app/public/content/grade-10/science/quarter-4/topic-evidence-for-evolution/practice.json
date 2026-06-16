@@ -2,101 +2,107 @@
   "examId": "grade-10-science-q4-topic-evidence-for-evolution-practice",
   "examType": "practice",
   "title": "Evidence for Evolution Practice Exam",
-  "description": "Check your understanding of Evidence for Evolution.",
-  "passingScore": 0.75,
+  "description": "Recall and guided drill for Evidence for Evolution.",
+  "passingScore": 0.7,
   "timeLimit": 20,
   "totalQuestions": 8,
   "totalPoints": 8,
   "questions": [
     {
-      "id": "q1",
-      "questionId": "q1",
       "type": "multiple-choice",
-      "question": "Which statement best matches Evidence for Evolution?",
+      "question": "Which statement best matches Evidence for evolution?",
+      "options": [
+        "Fossils show that different organisms lived at different times and that forms can change through rock layers.",
+        "It is only a vocabulary word with no process behind it.",
+        "It applies only outside living systems.",
+        "It can be explained without examples or evidence."
+      ],
       "correctAnswer": 0,
-      "explanation": "The correct choice states the central idea of the lesson: Different lines of evidence point to the same conclusion: organisms have changed over long periods of time and share relationships of descent.",
+      "explanation": "The correct answer states the central scientific idea for this lesson.",
       "points": 1,
-      "options": [
-        "Different lines of evidence point to the same conclusion: organisms have changed over long periods of time and share relationships of descent.",
-        "It is only a vocabulary list.",
-        "It is unrelated to living systems.",
-        "It can be explained without evidence."
-      ]
+      "id": "q1",
+      "questionId": "q1"
     },
     {
+      "type": "multiple-choice",
+      "question": "What does **Fossil** mean in this lesson?",
+      "options": [
+        "preserved remains or traces of past life",
+        "a random label unrelated to the topic",
+        "a process that never affects living systems",
+        "a term that can be used without context"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The answer matches the vocabulary table.",
+      "points": 1,
       "id": "q2",
-      "questionId": "q2",
-      "type": "true-false",
-      "question": "Evidence for Evolution should be explained using evidence and cause-and-effect reasoning.",
-      "correctAnswer": "true",
-      "explanation": "Grade 10 Biology expects explanation, examples, and evidence.",
-      "points": 1
+      "questionId": "q2"
     },
     {
-      "id": "q3",
-      "questionId": "q3",
       "type": "fill-in",
-      "question": "Complete the sentence: A key term in this lesson is ________.",
-      "correctAnswer": "fossils",
-      "explanation": "The expected key term is fossils.",
-      "points": 1
+      "question": "Complete the sentence: Biogeography is an important idea in this lesson. The missing term is ________.",
+      "correctAnswer": "biogeography",
+      "explanation": "The expected term is Biogeography.",
+      "points": 1,
+      "id": "q3",
+      "questionId": "q3"
     },
     {
+      "type": "multiple-choice",
+      "question": "Which case from the lesson connects directly to Evidence for evolution?",
+      "options": [
+        "Fossils",
+        "a random spelling rule",
+        "a date with no biology context",
+        "a shape proof unrelated to living systems"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The first option is the biological case from the lesson.",
+      "points": 1,
       "id": "q4",
-      "questionId": "q4",
-      "type": "short-answer",
-      "question": "In 1-2 sentences, explain why Fossil matters in biology.",
-      "correctAnswer": "Fossil matters because it helps explain Different lines of evidence point to the same conclusion: organisms have changed over long periods of time and share relationships of descent.",
-      "explanation": "A good answer connects Fossil to the process and its biological importance.",
-      "points": 1
+      "questionId": "q4"
     },
     {
+      "type": "short-answer",
+      "question": "Use the worked example, **Mammal forelimbs**, to explain Evidence for evolution.",
+      "correctAnswer": "Evolutionary evidence is strongest when independent lines support the same explanation.",
+      "explanation": "A complete answer should use the worked example to explain the core idea.",
+      "points": 1,
       "id": "q5",
-      "questionId": "q5",
-      "type": "multiple-choice",
-      "question": "Which study habit best shows mastery of this lesson?",
-      "correctAnswer": 2,
-      "explanation": "Applying the concept to a new case shows deeper understanding than copying definitions.",
-      "points": 1,
-      "options": [
-        "Copy the title only.",
-        "Memorize the first sentence only.",
-        "Apply the concept to a new example.",
-        "Ignore the diagram."
-      ]
+      "questionId": "q5"
     },
     {
+      "type": "multiple-choice",
+      "question": "In the case **Biogeography**, why does it matter?",
+      "options": [
+        "island species resembling nearby mainland relatives",
+        "it proves memorization is enough",
+        "it has no connection to biology",
+        "it removes the need for evidence"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The answer comes from the compare-the-cases table.",
+      "points": 1,
       "id": "q6",
-      "questionId": "q6",
+      "questionId": "q6"
+    },
+    {
       "type": "true-false",
-      "question": "A common misconception about this lesson is accurate and should be used as the final explanation.",
-      "correctAnswer": "false",
-      "explanation": "Misconception alerts are included so you can avoid the error and use the more accurate explanation from the lesson.",
-      "points": 1
-    },
-    {
-      "id": "q7",
-      "questionId": "q7",
-      "type": "multiple-choice",
-      "question": "Which item is part of good scientific reasoning for this topic?",
-      "correctAnswer": 1,
-      "explanation": "Evidence helps decide whether an explanation is reliable.",
+      "question": "One fossil does not prove every detail. Scientists compare many observations and test which explanation fits best.",
+      "correctAnswer": "true",
+      "explanation": "This is one of the lesson's important cautions.",
       "points": 1,
-      "options": [
-        "Guessing from the title",
-        "Using evidence from the situation",
-        "Choosing the longest answer",
-        "Ignoring exceptions"
-      ]
+      "id": "q7",
+      "questionId": "q7"
     },
     {
-      "id": "q8",
-      "questionId": "q8",
       "type": "short-answer",
-      "question": "Describe the visual introduction as a three-step process.",
-      "correctAnswer": "Answers should mention the starting condition, the change or mechanism, and the result.",
-      "explanation": "A strong answer follows the three boxes in the local SVG diagram.",
-      "points": 1
+      "question": "Describe one cause-and-effect chain from this lesson.",
+      "correctAnswer": "An acceptable answer should identify a starting condition, a biological process related to Evidence for evolution, and a result.",
+      "explanation": "The answer should use cause and effect, not just a definition.",
+      "points": 1,
+      "id": "q8",
+      "questionId": "q8"
     }
   ]
 }

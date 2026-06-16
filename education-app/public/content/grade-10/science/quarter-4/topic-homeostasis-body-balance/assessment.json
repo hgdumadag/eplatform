@@ -2,149 +2,149 @@
   "examId": "grade-10-science-q4-topic-homeostasis-body-balance-assessment",
   "examType": "assessment",
   "title": "Homeostasis: Keeping the Body in Balance Assessment Exam",
-  "description": "Check your understanding of Homeostasis: Keeping the Body in Balance.",
+  "description": "Checkpoint assessment for Homeostasis: Keeping the Body in Balance.",
   "passingScore": 0.75,
-  "timeLimit": 30,
+  "timeLimit": 35,
   "totalQuestions": 12,
   "totalPoints": 12,
   "questions": [
     {
+      "type": "multiple-choice",
+      "question": "A student says, 'My temperature rose during exercise, so homeostasis failed.' What is the best correction?",
+      "options": [
+        "A temporary rise can trigger responses that return temperature toward the healthy range.",
+        "Any change means the body has no regulation.",
+        "Homeostasis only controls blood sugar, not temperature.",
+        "Exercise stops all body systems from working."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Homeostasis includes temporary change and response.",
+      "points": 1,
       "id": "q1",
-      "questionId": "q1",
-      "type": "multiple-choice",
-      "question": "Which statement best matches Homeostasis: Keeping the Body in Balance?",
-      "correctAnswer": 0,
-      "explanation": "The correct choice states the central idea of the lesson: Homeostasis is the ability of an organism to keep internal conditions within a healthy range even when the outside environment changes.",
-      "points": 1,
-      "options": [
-        "Homeostasis is the ability of an organism to keep internal conditions within a healthy range even when the outside environment changes.",
-        "It is only a vocabulary list.",
-        "It is unrelated to living systems.",
-        "It can be explained without evidence."
-      ]
+      "questionId": "q1"
     },
     {
+      "type": "multiple-choice",
+      "question": "Which sequence best represents a homeostatic response?",
+      "options": [
+        "change detected -> signal sent -> response occurs -> condition moves toward range",
+        "response occurs -> no signal -> condition ignored -> system stops",
+        "trait inherited -> species changes -> fossil forms -> population grows",
+        "food eaten -> no digestion -> no absorption -> no energy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Regulation requires detection, communication, response, and adjustment.",
+      "points": 1,
       "id": "q2",
-      "questionId": "q2",
-      "type": "true-false",
-      "question": "Homeostasis: Keeping the Body in Balance should be explained using evidence and cause-and-effect reasoning.",
-      "correctAnswer": "true",
-      "explanation": "Grade 10 Biology expects explanation, examples, and evidence.",
-      "points": 1
+      "questionId": "q2"
     },
     {
+      "type": "fill-in",
+      "question": "The hormone that helps lower blood glucose after a meal is ________.",
+      "correctAnswer": "insulin",
+      "explanation": "Insulin helps cells take in glucose from the blood.",
+      "points": 1,
       "id": "q3",
-      "questionId": "q3",
-      "type": "fill-in",
-      "question": "Complete the sentence: A key term in this lesson is ________.",
-      "correctAnswer": "homeostasis",
-      "explanation": "The expected key term is homeostasis.",
-      "points": 1
+      "questionId": "q3"
     },
     {
-      "id": "q4",
-      "questionId": "q4",
-      "type": "short-answer",
-      "question": "In 1-2 sentences, explain why Homeostasis matters in biology.",
-      "correctAnswer": "Homeostasis matters because it helps explain Homeostasis is the ability of an organism to keep internal conditions within a healthy range even when the outside environment changes.",
-      "explanation": "A good answer connects Homeostasis to the process and its biological importance.",
-      "points": 1
-    },
-    {
-      "id": "q5",
-      "questionId": "q5",
-      "type": "multiple-choice",
-      "question": "Which study habit best shows mastery of this lesson?",
-      "correctAnswer": 2,
-      "explanation": "Applying the concept to a new case shows deeper understanding than copying definitions.",
-      "points": 1,
-      "options": [
-        "Copy the title only.",
-        "Memorize the first sentence only.",
-        "Apply the concept to a new example.",
-        "Ignore the diagram."
-      ]
-    },
-    {
-      "id": "q6",
-      "questionId": "q6",
       "type": "true-false",
-      "question": "A common misconception about this lesson is accurate and should be used as the final explanation.",
-      "correctAnswer": "false",
-      "explanation": "Misconception alerts are included so you can avoid the error and use the more accurate explanation from the lesson.",
-      "points": 1
-    },
-    {
-      "id": "q7",
-      "questionId": "q7",
-      "type": "multiple-choice",
-      "question": "Which item is part of good scientific reasoning for this topic?",
-      "correctAnswer": 1,
-      "explanation": "Evidence helps decide whether an explanation is reliable.",
+      "question": "Water balance can be part of homeostasis.",
+      "correctAnswer": "true",
+      "explanation": "Water balance is an internal condition that must be regulated.",
       "points": 1,
-      "options": [
-        "Guessing from the title",
-        "Using evidence from the situation",
-        "Choosing the longest answer",
-        "Ignoring exceptions"
-      ]
+      "id": "q4",
+      "questionId": "q4"
     },
     {
-      "id": "q8",
-      "questionId": "q8",
       "type": "short-answer",
-      "question": "Describe the visual introduction as a three-step process.",
-      "correctAnswer": "Answers should mention the starting condition, the change or mechanism, and the result.",
-      "explanation": "A strong answer follows the three boxes in the local SVG diagram.",
-      "points": 1
+      "question": "A person becomes dehydrated after heavy sweating. Explain one homeostatic response that could help.",
+      "correctAnswer": "The person may feel thirst and the kidneys may conserve water by producing less urine, helping restore water balance.",
+      "explanation": "The response should address water balance.",
+      "points": 1,
+      "id": "q5",
+      "questionId": "q5"
     },
     {
-      "id": "q9",
-      "questionId": "q9",
       "type": "multiple-choice",
-      "question": "Which example best connects to Homeostasis: Keeping the Body in Balance?",
+      "question": "Which organ pair is most directly involved in controlling breathing rate in response to carbon dioxide?",
+      "options": [
+        "brain and lungs",
+        "bones and hair",
+        "teeth and skin",
+        "stomach and nails"
+      ],
       "correctAnswer": 0,
-      "explanation": "The first option is drawn from the lesson examples and matches the concept.",
+      "explanation": "The brain detects changes and the lungs adjust gas exchange.",
       "points": 1,
-      "options": [
-        "Hot afternoon",
-        "A random spelling rule",
-        "A purely historical date",
-        "A geometry proof with no biology context"
-      ]
+      "id": "q6",
+      "questionId": "q6"
     },
     {
-      "id": "q10",
-      "questionId": "q10",
-      "type": "fill-in",
-      "question": "A biological explanation should connect cause, process, and ________.",
-      "correctAnswer": "evidence",
-      "explanation": "Evidence supports the explanation and prevents guessing.",
-      "points": 1
-    },
-    {
-      "id": "q11",
-      "questionId": "q11",
-      "type": "short-answer",
-      "question": "Give one real-life situation where Homeostasis could help explain what is happening.",
-      "correctAnswer": "Answers will vary but should give a relevant biological, health, environmental, or biotechnology example.",
-      "explanation": "The response should transfer the concept to a new situation.",
-      "points": 1
-    },
-    {
-      "id": "q12",
-      "questionId": "q12",
       "type": "multiple-choice",
-      "question": "What should you do if one example seems to contradict the lesson idea?",
-      "correctAnswer": 3,
-      "explanation": "Scientific reasoning checks context and evidence instead of forcing a memorized rule.",
-      "points": 1,
+      "question": "Which is the best evidence that a body response is regulatory?",
       "options": [
-        "Ignore the contradiction",
-        "Delete the lesson",
-        "Assume science is random",
-        "Check the context and evidence carefully"
-      ]
+        "The response reduces or corrects the original disturbance.",
+        "The response is random and unrelated.",
+        "The response always makes the disturbance larger.",
+        "The response happens only once in life."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Regulation moves a condition toward a workable range.",
+      "points": 1,
+      "id": "q7",
+      "questionId": "q7"
+    },
+    {
+      "type": "short-answer",
+      "question": "Explain the difference between a homeostasis indicator and a homeostasis response.",
+      "correctAnswer": "An indicator is a measurable condition such as temperature; a response is an action such as sweating that helps adjust the condition.",
+      "explanation": "The answer should separate measurement from action.",
+      "points": 1,
+      "id": "q8",
+      "questionId": "q8"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which condition would most directly threaten cell function if not regulated?",
+      "options": [
+        "blood pH moving too far from its safe range",
+        "the color of a shirt",
+        "the day of the week",
+        "the brand of a notebook"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cell chemistry depends on safe pH ranges.",
+      "points": 1,
+      "id": "q9",
+      "questionId": "q9"
+    },
+    {
+      "type": "true-false",
+      "question": "The nervous and endocrine systems can both contribute to homeostasis.",
+      "correctAnswer": "true",
+      "explanation": "The nervous system sends rapid signals; the endocrine system sends hormonal signals.",
+      "points": 1,
+      "id": "q10",
+      "questionId": "q10"
+    },
+    {
+      "type": "fill-in",
+      "question": "Homeostasis keeps conditions within a healthy ________, not at one exact value forever.",
+      "correctAnswer": "range",
+      "explanation": "Range is the key idea.",
+      "points": 1,
+      "id": "q11",
+      "questionId": "q11"
+    },
+    {
+      "type": "short-answer",
+      "question": "Use cause and effect to explain how the body responds to a hot environment.",
+      "correctAnswer": "Heat raises body temperature, sensors detect the change, and responses such as sweating and widened skin blood vessels release heat so temperature moves back toward the healthy range.",
+      "explanation": "A strong answer includes change, detection, response, and result.",
+      "points": 1,
+      "id": "q12",
+      "questionId": "q12"
     }
   ]
 }

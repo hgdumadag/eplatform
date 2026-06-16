@@ -4,9 +4,34 @@
   "subject": "science",
   "quarter": 4,
   "topicName": "The Biotechnology Debate",
+  "description": "Students analyze biotechnology decisions by comparing benefits, risks, stakeholders, evidence quality, and ethical questions.",
+  "learningObjectives": [
+    "Identify societal, environmental, and ethical considerations in biotechnology.",
+    "Build a balanced claim using evidence and trade-offs.",
+    "Distinguish evidence-based concerns from unsupported fear or hype."
+  ],
+  "prerequisites": [
+    "Biotechnology",
+    "Modern biotechnology",
+    "Ecosystems"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "biology",
+    "biotechnology",
+    "ethics",
+    "environment",
+    "society"
+  ],
+  "lastUpdated": "2026-06-16",
+  "version": "2.0.0",
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/visual-introduction.svg"
+    ]
   }
 }

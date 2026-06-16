@@ -2,101 +2,101 @@
   "examId": "grade-10-science-q4-topic-homeostasis-body-balance-practice",
   "examType": "practice",
   "title": "Homeostasis: Keeping the Body in Balance Practice Exam",
-  "description": "Check your understanding of Homeostasis: Keeping the Body in Balance.",
-  "passingScore": 0.75,
+  "description": "Recall and guided drill for Homeostasis: Keeping the Body in Balance.",
+  "passingScore": 0.7,
   "timeLimit": 20,
   "totalQuestions": 8,
   "totalPoints": 8,
   "questions": [
     {
-      "id": "q1",
-      "questionId": "q1",
       "type": "multiple-choice",
-      "question": "Which statement best matches Homeostasis: Keeping the Body in Balance?",
+      "question": "Which statement best describes homeostasis?",
+      "options": [
+        "The body keeps internal conditions within healthy ranges through active regulation.",
+        "The body keeps every condition at one exact number all day.",
+        "Only the skeletal system controls internal balance.",
+        "Homeostasis happens only when a person is asleep."
+      ],
       "correctAnswer": 0,
-      "explanation": "The correct choice states the central idea of the lesson: Homeostasis is the ability of an organism to keep internal conditions within a healthy range even when the outside environment changes.",
+      "explanation": "Homeostasis is active regulation within safe ranges.",
       "points": 1,
-      "options": [
-        "Homeostasis is the ability of an organism to keep internal conditions within a healthy range even when the outside environment changes.",
-        "It is only a vocabulary list.",
-        "It is unrelated to living systems.",
-        "It can be explained without evidence."
-      ]
+      "id": "q1",
+      "questionId": "q1"
     },
     {
-      "id": "q2",
-      "questionId": "q2",
       "type": "true-false",
-      "question": "Homeostasis: Keeping the Body in Balance should be explained using evidence and cause-and-effect reasoning.",
+      "question": "A homeostatic condition can change slightly and still remain healthy.",
       "correctAnswer": "true",
-      "explanation": "Grade 10 Biology expects explanation, examples, and evidence.",
-      "points": 1
+      "explanation": "Healthy regulation usually works within a range, not a single unchanging number.",
+      "points": 1,
+      "id": "q2",
+      "questionId": "q2"
     },
     {
-      "id": "q3",
-      "questionId": "q3",
       "type": "fill-in",
-      "question": "Complete the sentence: A key term in this lesson is ________.",
-      "correctAnswer": "homeostasis",
-      "explanation": "The expected key term is homeostasis.",
-      "points": 1
+      "question": "A measurable sign such as body temperature or blood pressure is an example of a homeostasis ________.",
+      "correctAnswer": "indicator",
+      "explanation": "An indicator is something that can be measured or observed.",
+      "points": 1,
+      "id": "q3",
+      "questionId": "q3"
     },
     {
+      "type": "multiple-choice",
+      "question": "After exercise, sweating helps the body mainly by",
+      "options": [
+        "releasing heat as sweat evaporates",
+        "adding glucose to the blood",
+        "stopping oxygen from entering cells",
+        "making bones contract"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sweating helps remove excess heat.",
+      "points": 1,
       "id": "q4",
-      "questionId": "q4",
-      "type": "short-answer",
-      "question": "In 1-2 sentences, explain why Homeostasis matters in biology.",
-      "correctAnswer": "Homeostasis matters because it helps explain Homeostasis is the ability of an organism to keep internal conditions within a healthy range even when the outside environment changes.",
-      "explanation": "A good answer connects Homeostasis to the process and its biological importance.",
-      "points": 1
+      "questionId": "q4"
     },
     {
+      "type": "short-answer",
+      "question": "Explain why several body systems are involved in homeostasis.",
+      "correctAnswer": "Several systems are needed because detecting change, sending signals, moving materials, and carrying out responses require different organs working together.",
+      "explanation": "A strong answer connects homeostasis to cooperation among systems.",
+      "points": 1,
       "id": "q5",
-      "questionId": "q5",
-      "type": "multiple-choice",
-      "question": "Which study habit best shows mastery of this lesson?",
-      "correctAnswer": 2,
-      "explanation": "Applying the concept to a new case shows deeper understanding than copying definitions.",
-      "points": 1,
-      "options": [
-        "Copy the title only.",
-        "Memorize the first sentence only.",
-        "Apply the concept to a new example.",
-        "Ignore the diagram."
-      ]
+      "questionId": "q5"
     },
     {
+      "type": "multiple-choice",
+      "question": "Which pair is a good example of an indicator and response?",
+      "options": [
+        "body temperature rises; sweating increases",
+        "eye color changes; digestion stops forever",
+        "bone length changes; oxygen disappears",
+        "hair color changes; blood pressure cannot change"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The first pair shows a measurable change and a regulatory response.",
+      "points": 1,
       "id": "q6",
-      "questionId": "q6",
+      "questionId": "q6"
+    },
+    {
       "type": "true-false",
-      "question": "A common misconception about this lesson is accurate and should be used as the final explanation.",
-      "correctAnswer": "false",
-      "explanation": "Misconception alerts are included so you can avoid the error and use the more accurate explanation from the lesson.",
-      "points": 1
-    },
-    {
-      "id": "q7",
-      "questionId": "q7",
-      "type": "multiple-choice",
-      "question": "Which item is part of good scientific reasoning for this topic?",
-      "correctAnswer": 1,
-      "explanation": "Evidence helps decide whether an explanation is reliable.",
+      "question": "Homeostasis is important because cells work best only under certain internal conditions.",
+      "correctAnswer": "true",
+      "explanation": "Cells depend on suitable temperature, water, pH, nutrients, and oxygen.",
       "points": 1,
-      "options": [
-        "Guessing from the title",
-        "Using evidence from the situation",
-        "Choosing the longest answer",
-        "Ignoring exceptions"
-      ]
+      "id": "q7",
+      "questionId": "q7"
     },
     {
-      "id": "q8",
-      "questionId": "q8",
       "type": "short-answer",
-      "question": "Describe the visual introduction as a three-step process.",
-      "correctAnswer": "Answers should mention the starting condition, the change or mechanism, and the result.",
-      "explanation": "A strong answer follows the three boxes in the local SVG diagram.",
-      "points": 1
+      "question": "Give one everyday situation that shows homeostasis and identify the condition being regulated.",
+      "correctAnswer": "An acceptable answer names a real situation and the regulated condition, such as sweating on a hot day to regulate body temperature.",
+      "explanation": "The answer should include both the situation and the variable.",
+      "points": 1,
+      "id": "q8",
+      "questionId": "q8"
     }
   ]
 }

@@ -2,149 +2,149 @@
   "examId": "grade-10-science-q4-topic-feedback-mechanisms-assessment",
   "examType": "assessment",
   "title": "Feedback Mechanisms: Positive and Negative Assessment Exam",
-  "description": "Check your understanding of Feedback Mechanisms: Positive and Negative.",
+  "description": "Checkpoint assessment for Feedback Mechanisms: Positive and Negative.",
   "passingScore": 0.75,
-  "timeLimit": 30,
+  "timeLimit": 35,
   "totalQuestions": 12,
   "totalPoints": 12,
   "questions": [
     {
+      "type": "multiple-choice",
+      "question": "A person's blood glucose rises after a meal, and insulin helps lower it. What type of feedback is this?",
+      "options": [
+        "negative feedback",
+        "positive feedback",
+        "speciation",
+        "fermentation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The response reverses the rise in blood glucose.",
+      "points": 1,
       "id": "q1",
-      "questionId": "q1",
-      "type": "multiple-choice",
-      "question": "Which statement best matches Feedback Mechanisms: Positive and Negative?",
-      "correctAnswer": 0,
-      "explanation": "The correct choice states the central idea of the lesson: Feedback mechanisms use information about a condition to adjust the body's response.",
-      "points": 1,
-      "options": [
-        "Feedback mechanisms use information about a condition to adjust the body's response.",
-        "It is only a vocabulary list.",
-        "It is unrelated to living systems.",
-        "It can be explained without evidence."
-      ]
+      "questionId": "q1"
     },
     {
+      "type": "multiple-choice",
+      "question": "Which part of a feedback loop detects the change?",
+      "options": [
+        "receptor or sensor",
+        "effector only",
+        "offspring",
+        "fossil"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Receptors or sensors detect change.",
+      "points": 1,
       "id": "q2",
-      "questionId": "q2",
-      "type": "true-false",
-      "question": "Feedback Mechanisms: Positive and Negative should be explained using evidence and cause-and-effect reasoning.",
-      "correctAnswer": "true",
-      "explanation": "Grade 10 Biology expects explanation, examples, and evidence.",
-      "points": 1
+      "questionId": "q2"
     },
     {
+      "type": "fill-in",
+      "question": "A response that reverses the original change is called ________ feedback.",
+      "correctAnswer": "negative",
+      "explanation": "Negative feedback reverses a change.",
+      "points": 1,
       "id": "q3",
-      "questionId": "q3",
-      "type": "fill-in",
-      "question": "Complete the sentence: A key term in this lesson is ________.",
-      "correctAnswer": "negative feedback",
-      "explanation": "The expected key term is negative feedback.",
-      "points": 1
+      "questionId": "q3"
     },
     {
-      "id": "q4",
-      "questionId": "q4",
-      "type": "short-answer",
-      "question": "In 1-2 sentences, explain why Feedback mechanism matters in biology.",
-      "correctAnswer": "Feedback mechanism matters because it helps explain Feedback mechanisms use information about a condition to adjust the body's response.",
-      "explanation": "A good answer connects Feedback mechanism to the process and its biological importance.",
-      "points": 1
-    },
-    {
-      "id": "q5",
-      "questionId": "q5",
-      "type": "multiple-choice",
-      "question": "Which study habit best shows mastery of this lesson?",
-      "correctAnswer": 2,
-      "explanation": "Applying the concept to a new case shows deeper understanding than copying definitions.",
-      "points": 1,
-      "options": [
-        "Copy the title only.",
-        "Memorize the first sentence only.",
-        "Apply the concept to a new example.",
-        "Ignore the diagram."
-      ]
-    },
-    {
-      "id": "q6",
-      "questionId": "q6",
       "type": "true-false",
-      "question": "A common misconception about this lesson is accurate and should be used as the final explanation.",
-      "correctAnswer": "false",
-      "explanation": "Misconception alerts are included so you can avoid the error and use the more accurate explanation from the lesson.",
-      "points": 1
-    },
-    {
-      "id": "q7",
-      "questionId": "q7",
-      "type": "multiple-choice",
-      "question": "Which item is part of good scientific reasoning for this topic?",
-      "correctAnswer": 1,
-      "explanation": "Evidence helps decide whether an explanation is reliable.",
+      "question": "Positive feedback is useful only if it has a control or endpoint.",
+      "correctAnswer": "true",
+      "explanation": "Uncontrolled amplification can be harmful.",
       "points": 1,
-      "options": [
-        "Guessing from the title",
-        "Using evidence from the situation",
-        "Choosing the longest answer",
-        "Ignoring exceptions"
-      ]
+      "id": "q4",
+      "questionId": "q4"
     },
     {
-      "id": "q8",
-      "questionId": "q8",
       "type": "short-answer",
-      "question": "Describe the visual introduction as a three-step process.",
-      "correctAnswer": "Answers should mention the starting condition, the change or mechanism, and the result.",
-      "explanation": "A strong answer follows the three boxes in the local SVG diagram.",
-      "points": 1
+      "question": "Trace a negative feedback loop for body temperature after a person enters a cold room.",
+      "correctAnswer": "Cold lowers body temperature; sensors detect the change; the brain signals effectors such as muscles and blood vessels; shivering and reduced skin blood flow help raise or conserve heat.",
+      "explanation": "The answer should include loop parts and reversal.",
+      "points": 1,
+      "id": "q5",
+      "questionId": "q5"
     },
     {
-      "id": "q9",
-      "questionId": "q9",
       "type": "multiple-choice",
-      "question": "Which example best connects to Feedback Mechanisms: Positive and Negative?",
+      "question": "Which example is mismatched?",
+      "options": [
+        "blood clotting - negative feedback",
+        "temperature control - negative feedback",
+        "childbirth contractions - positive feedback",
+        "blood glucose regulation - negative feedback"
+      ],
       "correctAnswer": 0,
-      "explanation": "The first option is drawn from the lesson examples and matches the concept.",
+      "explanation": "Blood clotting is usually treated as positive feedback.",
       "points": 1,
-      "options": [
-        "Temperature rises",
-        "A random spelling rule",
-        "A purely historical date",
-        "A geometry proof with no biology context"
-      ]
+      "id": "q6",
+      "questionId": "q6"
     },
     {
-      "id": "q10",
-      "questionId": "q10",
-      "type": "fill-in",
-      "question": "A biological explanation should connect cause, process, and ________.",
-      "correctAnswer": "evidence",
-      "explanation": "Evidence supports the explanation and prevents guessing.",
-      "points": 1
-    },
-    {
-      "id": "q11",
-      "questionId": "q11",
       "type": "short-answer",
-      "question": "Give one real-life situation where Feedback mechanism could help explain what is happening.",
-      "correctAnswer": "Answers will vary but should give a relevant biological, health, environmental, or biotechnology example.",
-      "explanation": "The response should transfer the concept to a new situation.",
-      "points": 1
+      "question": "Why are positive and negative feedback poor labels if a student thinks they mean good and bad?",
+      "correctAnswer": "They describe whether a response amplifies or reverses a change, not whether the response is helpful or harmful.",
+      "explanation": "The answer should clarify the meaning of the terms.",
+      "points": 1,
+      "id": "q7",
+      "questionId": "q7"
     },
     {
-      "id": "q12",
-      "questionId": "q12",
       "type": "multiple-choice",
-      "question": "What should you do if one example seems to contradict the lesson idea?",
-      "correctAnswer": 3,
-      "explanation": "Scientific reasoning checks context and evidence instead of forcing a memorized rule.",
-      "points": 1,
+      "question": "What ends the positive feedback loop during childbirth?",
       "options": [
-        "Ignore the contradiction",
-        "Delete the lesson",
-        "Assume science is random",
-        "Check the context and evidence carefully"
-      ]
+        "delivery of the baby",
+        "more insulin",
+        "lower body temperature",
+        "formation of fossils"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Delivery removes the stimulus that maintained contractions.",
+      "points": 1,
+      "id": "q8",
+      "questionId": "q8"
+    },
+    {
+      "type": "true-false",
+      "question": "An effector can be a muscle or gland.",
+      "correctAnswer": "true",
+      "explanation": "Muscles and glands commonly carry out responses.",
+      "points": 1,
+      "id": "q9",
+      "questionId": "q9"
+    },
+    {
+      "type": "fill-in",
+      "question": "In a feedback loop, the ________ center compares information with the target range.",
+      "correctAnswer": "control",
+      "explanation": "The control center coordinates the response.",
+      "points": 1,
+      "id": "q10",
+      "questionId": "q10"
+    },
+    {
+      "type": "short-answer",
+      "question": "Create a feedback-loop chain using these terms: stimulus, receptor, effector, response.",
+      "correctAnswer": "A complete answer orders the terms logically: a stimulus is detected by a receptor, information leads to an effector action, and the response changes the condition.",
+      "explanation": "The chain should be coherent.",
+      "points": 1,
+      "id": "q11",
+      "questionId": "q11"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Why is negative feedback common in homeostasis?",
+      "options": [
+        "It stabilizes conditions by opposing change.",
+        "It always makes changes larger.",
+        "It prevents all body responses.",
+        "It works only in ecosystems."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Negative feedback restores conditions toward range.",
+      "points": 1,
+      "id": "q12",
+      "questionId": "q12"
     }
   ]
 }

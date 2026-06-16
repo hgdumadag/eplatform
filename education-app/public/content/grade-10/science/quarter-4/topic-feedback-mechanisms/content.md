@@ -2,143 +2,94 @@
 
 > [!GOAL] Learning Goal
 >
-> By the end of this lesson, you should be able to explain how negative and positive feedback mechanisms help living systems regulate processes.
+> By the end of this lesson, you should be able to trace the parts of a feedback loop and explain why negative feedback stabilizes conditions while positive feedback drives a process to completion.
 
-## Estimated Time and Difficulty
+## Start Here
 
-| Estimated Time | Difficulty | Best Study Setup |
-|---|---|---|
-| 45-60 minutes | Grade 10 Life Science | Notebook, pen, and a quiet place to sketch the concept map |
+A thermostat turns cooling on when a room gets too hot and turns it off after the room cools. Your body uses a more complex version of this idea.
 
-## What You Should Already Know
+**Estimated time:** 45-60 minutes  
+**Difficulty:** Grade 10 Life Science  
+**Materials:** notebook, pen, and the lesson diagram
 
-Before starting, recall these ideas from earlier science lessons:
+## Warm-Up Recall
 
-- Body systems work together to keep an organism alive.
-- Traits can be inherited through genes and can vary among individuals.
-- Organisms interact with each other and with limited resources in ecosystems.
-- Evidence in science is stronger when different observations point to the same explanation.
+Answer before reading, then revise after the lesson.
 
-## Quick Readiness Check
-
-Answer these in your notebook before reading the explanation.
-
-| Prompt | Your Answer |
-|---|---|
-| What key word or phrase do you already associate with this lesson title? | |
-| What is one example from daily life that may connect to this idea? | |
-| What would count as evidence that you understand this idea? | |
-
-Check yourself after reading: your answers should connect the lesson to real biological systems, not just memorized words.
+1. What do you already know from earlier grades that connects to this topic?
+2. What variable, organism, or process is changing in this lesson?
+3. What evidence would convince you that your explanation is correct?
 
 ## Key Vocabulary
 
-| Term | Student-Friendly Meaning | Example |
+| Term | Meaning | Example |
 |---|---|---|
-| **Feedback mechanism** | a response loop that uses information to adjust a process | temperature control |
-| **Negative feedback** | a response that reverses a change | sweating when hot |
-| **Positive feedback** | a response that amplifies a change until a process ends | childbirth contractions |
-| **Stimulus** | a detected change | body temperature rising |
+| **Stimulus** | a change that is detected | body temperature rises |
+| **Receptor** | sensor that detects the change | temperature receptors |
+| **Control center** | part that compares the condition with a target range | brain region regulating temperature |
+| **Effector** | organ or tissue that carries out the response | sweat glands |
+| **Negative feedback** | response that reverses the original change | sweating cools the body |
+| **Positive feedback** | response that intensifies a change until an endpoint | contractions during childbirth |
 
-## Predict Before You Read
+## Visual Overview
 
-Write a quick prediction for each statement.
+![Feedback Mechanisms: Positive and Negative visual overview](./images/visual-introduction.svg)
 
-1. The main concept in this lesson can be explained using a cause-and-effect chain.
-2. A biological process can have benefits in one situation and costs in another.
-3. Evidence matters more than memorizing a definition.
-4. A diagram or flowchart can help explain the process.
+Read the diagram left to right. In your notebook, rewrite the arrows as one cause-and-effect sentence.
 
-Keep your predictions. Revise them after the worked examples.
+## Core Explanation
 
-## Visual Introduction
+- A feedback loop uses information about a condition to guide a response.
+- Negative feedback is the main homeostasis pattern. If a condition rises too high, the response lowers it; if it falls too low, the response raises it.
+- Positive feedback is different. It amplifies a change, but it normally has a clear endpoint. It is useful for processes such as childbirth and blood clotting.
 
-![Feedback Mechanisms: Positive and Negative concept flow](./images/visual-introduction.svg)
-
-Use the diagram as a guide: identify what starts the process, what changes during the process, and what result the system reaches.
-
-## Main Concept Explanation
-
-Feedback mechanisms use information about a condition to adjust the body's response.
-
-Key points to remember:
-
-- Negative feedback is the main homeostasis pattern because it reverses movement away from normal conditions.
-- Positive feedback is less common but useful when a process must be driven to completion.
-- A feedback loop includes a stimulus, receptor or sensor, control center, effector, and response.
-
-The important study move is to connect the vocabulary word to a process. Instead of asking only “What is the definition?”, ask: **What causes it, what changes, and what evidence would show that it happened?**
-
-> [!IMPORTANT] Key Idea Box
+> [!IMPORTANT] Core Idea
 >
-> Feedback mechanisms use information about a condition to adjust the body's response. In Grade 10 Biology, you should explain this idea using evidence, examples, and cause-and-effect reasoning.
+> A feedback loop uses information about a condition to guide a response.
 
-## Worked Examples
+## Worked Example: Body temperature rises
 
-| Situation | Biological Explanation |
-|---|---|
-| Temperature rises | Sweat glands produce sweat; cooling reduces the original change. |
-| Blood glucose rises | Insulin lowers blood glucose toward the target range. |
-| Childbirth | Pressure signals cause stronger contractions until delivery ends the loop. |
+1. Stimulus: body temperature rises above the comfortable range.
+2. Receptors detect the change and the brain acts as the control center.
+3. Effectors such as sweat glands and skin blood vessels respond.
+4. The response releases heat, reversing the original increase.
 
-### How to reason through an example
+**What this shows:** Because the response reverses the original change, this is negative feedback.
 
-1. Identify the system: body, population, ecosystem, cell, or society.
-2. Identify the change or problem.
-3. Name the process from this lesson.
-4. Explain the result using evidence from the situation.
+## Compare The Cases
 
-## Guided Practice
+| Case | What happens | Why it matters |
+|---|---|---|
+| Negative feedback | reverses a change | temperature control, blood glucose control |
+| Positive feedback | amplifies a change until an endpoint | childbirth contractions, blood clotting |
+| No feedback | no adjustment based on results | not useful for homeostasis |
 
-Try these without looking back first.
+> [!WARNING] Common Trap
+>
+> Positive and negative do not mean good and bad. They describe the direction of the response.
 
-1. Define **Feedback mechanism** in one student-friendly sentence.
-2. Choose one worked example and explain the cause-and-effect chain.
-3. Write one question a careful scientist or citizen should ask about this topic.
-4. Draw a three-box flowchart similar to the visual introduction.
+## Check Your Understanding
 
-## Misconception Alerts
+Label the stimulus, receptor/control center, effector, and response in one feedback example.
 
-- Positive feedback is not always “good” and negative feedback is not “bad.” The terms describe whether the response amplifies or reverses the change.
-- Do not memorize an example without understanding why it fits the concept.
-- Do not treat one observation as final proof; compare it with the full context.
+Use this answer frame if you get stuck:
 
-## Error Analysis
+> The starting condition is ____. The process is ____. The result is ____. This supports the idea because ____.
 
-A student says: “I know the term, so I understand the lesson.”
+## Extension
 
-**What is wrong with that reasoning?** Knowing the word is only the start. A strong answer also explains the process, gives an example, and uses evidence.
-
-Improved response frame:
-
-> The process is called **Feedback mechanism**. It matters because feedback mechanisms use information about a condition to adjust the body's response. One example is ________, where ________ leads to ________.
-
-## Self-Explanation Prompts
-
-Write 2-3 sentences for each prompt.
-
-1. How does the visual introduction summarize the lesson?
-2. Which vocabulary word is easiest for you? Which one needs more review?
-3. How could this concept appear in a real health, environmental, or biotechnology issue?
-
-## Extension Challenge
-
-Choose a body process and label the stimulus, sensor, control center, effector, and response.
+Compare a thermostat to body temperature control. Where is the analogy useful, and where is it too simple?
 
 ## Mastery Checklist
 
 Before taking the practice exam, confirm that you can:
 
-- [ ] Explain the lesson goal without copying the definition.
-- [ ] Use at least two vocabulary terms correctly.
-- [ ] Interpret the visual introduction.
-- [ ] Apply the concept to a new example.
-- [ ] Avoid the misconception listed above.
-
-## Final Summary
-
-Feedback Mechanisms: Positive and Negative is part of Grade 10 Life Science because it connects living systems to stability, change, technology, or ecosystem limits. Mastery means you can explain the process, not just name it.
+- [ ] define the main vocabulary without copying the lesson word-for-word
+- [ ] explain the visual overview as a cause-and-effect chain
+- [ ] apply the idea to a new example
+- [ ] avoid the common trap
+- [ ] support an answer with evidence from the situation
 
 > [!PRACTICE] Exam Plan
 >
-> Complete `practice.json` first. Review any explanation you miss, then take `assessment.json` when you can explain the lesson in your own words.
+> Take the practice exam first as a recall check. Use the explanations to fix gaps. Take the assessment only after you can explain the worked example without looking back.

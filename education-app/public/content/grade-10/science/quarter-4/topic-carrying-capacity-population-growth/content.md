@@ -2,144 +2,95 @@
 
 > [!GOAL] Learning Goal
 >
-> By the end of this lesson, you should be able to discuss factors that limit carrying capacity and explain why population growth slows near the carrying capacity of an ecosystem.
+> By the end of this lesson, you should be able to explain how resources and limiting factors shape population growth and why populations tend to slow near carrying capacity.
 
-## Estimated Time and Difficulty
+## Start Here
 
-| Estimated Time | Difficulty | Best Study Setup |
-|---|---|---|
-| 45-60 minutes | Grade 10 Life Science | Notebook, pen, and a quiet place to sketch the concept map |
+A pond can support only so many fish. At first, a small fish population may grow quickly. Later, oxygen, food, space, disease, and waste can limit further growth.
 
-## What You Should Already Know
+**Estimated time:** 45-60 minutes  
+**Difficulty:** Grade 10 Life Science  
+**Materials:** notebook, pen, and the lesson diagram
 
-Before starting, recall these ideas from earlier science lessons:
+## Warm-Up Recall
 
-- Body systems work together to keep an organism alive.
-- Traits can be inherited through genes and can vary among individuals.
-- Organisms interact with each other and with limited resources in ecosystems.
-- Evidence in science is stronger when different observations point to the same explanation.
+Answer before reading, then revise after the lesson.
 
-## Quick Readiness Check
-
-Answer these in your notebook before reading the explanation.
-
-| Prompt | Your Answer |
-|---|---|
-| What key word or phrase do you already associate with this lesson title? | |
-| What is one example from daily life that may connect to this idea? | |
-| What would count as evidence that you understand this idea? | |
-
-Check yourself after reading: your answers should connect the lesson to real biological systems, not just memorized words.
+1. What do you already know from earlier grades that connects to this topic?
+2. What variable, organism, or process is changing in this lesson?
+3. What evidence would convince you that your explanation is correct?
 
 ## Key Vocabulary
 
-| Term | Student-Friendly Meaning | Example |
+| Term | Meaning | Example |
 |---|---|---|
-| **Population** | members of the same species living in an area | fish in a pond |
+| **Population** | members of one species in an area | tilapia in a pond |
 | **Carrying capacity** | largest population an ecosystem can support over time | maximum deer a forest can sustain |
-| **Limiting factor** | resource or condition that restricts growth | food, water, shelter, space |
-| **Logistic growth** | S-shaped growth that levels off near carrying capacity | population growth slowing as resources become scarce |
+| **Limiting factor** | resource or condition that restricts growth | food, water, space, disease |
+| **Logistic growth** | growth that slows and levels near carrying capacity | S-shaped curve |
+| **Overshoot** | population temporarily rises above carrying capacity | too many animals for available food |
 
-## Predict Before You Read
+## Visual Overview
 
-Write a quick prediction for each statement.
+![Carrying Capacity and Population Growth visual overview](./images/visual-introduction.svg)
 
-1. The main concept in this lesson can be explained using a cause-and-effect chain.
-2. A biological process can have benefits in one situation and costs in another.
-3. Evidence matters more than memorizing a definition.
-4. A diagram or flowchart can help explain the process.
+Read the diagram left to right. In your notebook, rewrite the arrows as one cause-and-effect sentence.
 
-Keep your predictions. Revise them after the worked examples.
+## Core Explanation
 
-## Visual Introduction
+- Populations can grow rapidly when resources are abundant and death rates are low.
+- As population size increases, individuals compete more for food, water, shelter, mates, space, and other needs.
+- Carrying capacity is not a permanent fixed number. It can change with climate, habitat quality, disease, predators, human activity, and resource supply.
+- If a population overshoots carrying capacity, resource shortage can cause decline.
 
-![Carrying Capacity and Population Growth concept flow](./images/visual-introduction.svg)
-
-Use the diagram as a guide: identify what starts the process, what changes during the process, and what result the system reaches.
-
-## Main Concept Explanation
-
-Carrying capacity is the largest population an ecosystem can support over time because resources are limited.
-
-Key points to remember:
-
-- Population growth can be fast when resources are abundant.
-- As population size increases, competition for food, water, shelter, mates, and space also increases.
-- Growth slows and may level off near carrying capacity.
-- Overshooting carrying capacity can cause decline because resources cannot support all individuals.
-
-The important study move is to connect the vocabulary word to a process. Instead of asking only “What is the definition?”, ask: **What causes it, what changes, and what evidence would show that it happened?**
-
-> [!IMPORTANT] Key Idea Box
+> [!IMPORTANT] Core Idea
 >
-> Carrying capacity is the largest population an ecosystem can support over time because resources are limited. In Grade 10 Biology, you should explain this idea using evidence, examples, and cause-and-effect reasoning.
+> Populations can grow rapidly when resources are abundant and death rates are low.
 
-## Worked Examples
+## Worked Example: Deer in a forest
 
-| Situation | Biological Explanation |
-|---|---|
-| Pond fish | Too many fish compete for oxygen, food, and space. |
-| Grassland grazers | Food supply limits how many herbivores can survive. |
-| Bacteria culture | Growth slows when nutrients run out and wastes build up. |
+1. A small deer population has enough food and shelter, so it grows.
+2. As the population becomes larger, food becomes harder to find.
+3. Competition, disease, and predation increase pressure.
+4. Growth slows near carrying capacity; if deer exceed it, starvation or migration may reduce numbers.
 
-### How to reason through an example
+**What this shows:** Carrying capacity is controlled by limiting factors, not by the population's wishes.
 
-1. Identify the system: body, population, ecosystem, cell, or society.
-2. Identify the change or problem.
-3. Name the process from this lesson.
-4. Explain the result using evidence from the situation.
+## Compare The Cases
 
-## Guided Practice
+| Case | What happens | Why it matters |
+|---|---|---|
+| Food | less energy for survival and reproduction | grassland grazers decline after drought |
+| Space | more crowding and competition | nesting sites become limited |
+| Disease | spreads faster in dense populations | crowded animals get sick more easily |
+| Predation | prey population pressure | more prey can support more predators |
 
-Try these without looking back first.
+> [!WARNING] Common Trap
+>
+> Do not describe carrying capacity as a simple maximum that never changes. Ecosystems change, so carrying capacity can change too.
 
-1. Define **Population** in one student-friendly sentence.
-2. Choose one worked example and explain the cause-and-effect chain.
-3. Write one question a careful scientist or citizen should ask about this topic.
-4. Draw a three-box flowchart similar to the visual introduction.
+## Check Your Understanding
 
-## Misconception Alerts
+Sketch an S-shaped graph and label rapid growth, slowing growth, carrying capacity, and possible overshoot.
 
-- Carrying capacity is not fixed forever. It can change if resources, climate, habitat, disease, or human activity changes.
-- Do not memorize an example without understanding why it fits the concept.
-- Do not treat one observation as final proof; compare it with the full context.
+Use this answer frame if you get stuck:
 
-## Error Analysis
+> The starting condition is ____. The process is ____. The result is ____. This supports the idea because ____.
 
-A student says: “I know the term, so I understand the lesson.”
+## Extension
 
-**What is wrong with that reasoning?** Knowing the word is only the start. A strong answer also explains the process, gives an example, and uses evidence.
-
-Improved response frame:
-
-> The process is called **Population**. It matters because carrying capacity is the largest population an ecosystem can support over time because resources are limited. One example is ________, where ________ leads to ________.
-
-## Self-Explanation Prompts
-
-Write 2-3 sentences for each prompt.
-
-1. How does the visual introduction summarize the lesson?
-2. Which vocabulary word is easiest for you? Which one needs more review?
-3. How could this concept appear in a real health, environmental, or biotechnology issue?
-
-## Extension Challenge
-
-Sketch an S-shaped population graph and label rapid growth, slowing growth, carrying capacity, and possible overshoot.
+Explain how a drought could lower carrying capacity in a grassland ecosystem.
 
 ## Mastery Checklist
 
 Before taking the practice exam, confirm that you can:
 
-- [ ] Explain the lesson goal without copying the definition.
-- [ ] Use at least two vocabulary terms correctly.
-- [ ] Interpret the visual introduction.
-- [ ] Apply the concept to a new example.
-- [ ] Avoid the misconception listed above.
-
-## Final Summary
-
-Carrying Capacity and Population Growth is part of Grade 10 Life Science because it connects living systems to stability, change, technology, or ecosystem limits. Mastery means you can explain the process, not just name it.
+- [ ] define the main vocabulary without copying the lesson word-for-word
+- [ ] explain the visual overview as a cause-and-effect chain
+- [ ] apply the idea to a new example
+- [ ] avoid the common trap
+- [ ] support an answer with evidence from the situation
 
 > [!PRACTICE] Exam Plan
 >
-> Complete `practice.json` first. Review any explanation you miss, then take `assessment.json` when you can explain the lesson in your own words.
+> Take the practice exam first as a recall check. Use the explanations to fix gaps. Take the assessment only after you can explain the worked example without looking back.

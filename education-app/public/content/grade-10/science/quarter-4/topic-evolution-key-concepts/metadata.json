@@ -4,9 +4,34 @@
   "subject": "science",
   "quarter": 4,
   "topicName": "Key Concepts in Evolution",
+  "description": "Students connect variation, heredity, selection, adaptation, isolation, and speciation as parts of evolutionary explanation.",
+  "learningObjectives": [
+    "Define major terms used in evolutionary biology.",
+    "Explain how isolation can lead populations to diverge.",
+    "Distinguish adaptation as a population-level result from individual effort."
+  ],
+  "prerequisites": [
+    "Natural selection",
+    "Genes",
+    "Populations"
+  ],
+  "estimatedDuration": 55,
+  "difficulty": "intermediate",
+  "tags": [
+    "biology",
+    "evolution",
+    "adaptation",
+    "speciation",
+    "variation"
+  ],
+  "lastUpdated": "2026-06-16",
+  "version": "2.0.0",
   "resources": {
     "contentFile": "content.md",
     "practiceExam": "practice.json",
-    "assessmentExam": "assessment.json"
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/visual-introduction.svg"
+    ]
   }
 }

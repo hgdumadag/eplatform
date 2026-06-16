@@ -2,149 +2,149 @@
   "examId": "grade-10-science-q4-topic-carrying-capacity-population-growth-assessment",
   "examType": "assessment",
   "title": "Carrying Capacity and Population Growth Assessment Exam",
-  "description": "Check your understanding of Carrying Capacity and Population Growth.",
+  "description": "Checkpoint assessment for Carrying Capacity and Population Growth.",
   "passingScore": 0.75,
-  "timeLimit": 30,
+  "timeLimit": 35,
   "totalQuestions": 12,
   "totalPoints": 12,
   "questions": [
     {
+      "type": "multiple-choice",
+      "question": "A lake supports 500 fish for several years, but after pollution reduces oxygen, it supports only 300. What changed?",
+      "options": [
+        "carrying capacity decreased",
+        "the population became a new species",
+        "limiting factors disappeared",
+        "logistic growth became impossible"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lower oxygen reduces supportable population size.",
+      "points": 1,
       "id": "q1",
-      "questionId": "q1",
-      "type": "multiple-choice",
-      "question": "Which statement best matches Carrying Capacity and Population Growth?",
-      "correctAnswer": 0,
-      "explanation": "The correct choice states the central idea of the lesson: Carrying capacity is the largest population an ecosystem can support over time because resources are limited.",
-      "points": 1,
-      "options": [
-        "Carrying capacity is the largest population an ecosystem can support over time because resources are limited.",
-        "It is only a vocabulary list.",
-        "It is unrelated to living systems.",
-        "It can be explained without evidence."
-      ]
+      "questionId": "q1"
     },
     {
+      "type": "multiple-choice",
+      "question": "Which graph shape usually represents logistic growth?",
+      "options": [
+        "S-shaped curve",
+        "perfect vertical line",
+        "circle only",
+        "random letters"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Logistic growth is S-shaped.",
+      "points": 1,
       "id": "q2",
-      "questionId": "q2",
-      "type": "true-false",
-      "question": "Carrying Capacity and Population Growth should be explained using evidence and cause-and-effect reasoning.",
-      "correctAnswer": "true",
-      "explanation": "Grade 10 Biology expects explanation, examples, and evidence.",
-      "points": 1
+      "questionId": "q2"
     },
     {
+      "type": "fill-in",
+      "question": "A population that rises above carrying capacity has experienced an ________.",
+      "correctAnswer": "overshoot",
+      "explanation": "Overshoot means exceeding supportable size.",
+      "points": 1,
       "id": "q3",
-      "questionId": "q3",
-      "type": "fill-in",
-      "question": "Complete the sentence: A key term in this lesson is ________.",
-      "correctAnswer": "carrying capacity",
-      "explanation": "The expected key term is carrying capacity.",
-      "points": 1
+      "questionId": "q3"
     },
     {
-      "id": "q4",
-      "questionId": "q4",
-      "type": "short-answer",
-      "question": "In 1-2 sentences, explain why Population matters in biology.",
-      "correctAnswer": "Population matters because it helps explain Carrying capacity is the largest population an ecosystem can support over time because resources are limited.",
-      "explanation": "A good answer connects Population to the process and its biological importance.",
-      "points": 1
-    },
-    {
-      "id": "q5",
-      "questionId": "q5",
-      "type": "multiple-choice",
-      "question": "Which study habit best shows mastery of this lesson?",
-      "correctAnswer": 2,
-      "explanation": "Applying the concept to a new case shows deeper understanding than copying definitions.",
-      "points": 1,
-      "options": [
-        "Copy the title only.",
-        "Memorize the first sentence only.",
-        "Apply the concept to a new example.",
-        "Ignore the diagram."
-      ]
-    },
-    {
-      "id": "q6",
-      "questionId": "q6",
       "type": "true-false",
-      "question": "A common misconception about this lesson is accurate and should be used as the final explanation.",
-      "correctAnswer": "false",
-      "explanation": "Misconception alerts are included so you can avoid the error and use the more accurate explanation from the lesson.",
-      "points": 1
-    },
-    {
-      "id": "q7",
-      "questionId": "q7",
-      "type": "multiple-choice",
-      "question": "Which item is part of good scientific reasoning for this topic?",
-      "correctAnswer": 1,
-      "explanation": "Evidence helps decide whether an explanation is reliable.",
+      "question": "Competition generally increases as population density increases.",
+      "correctAnswer": "true",
+      "explanation": "More individuals compete for limited resources.",
       "points": 1,
-      "options": [
-        "Guessing from the title",
-        "Using evidence from the situation",
-        "Choosing the longest answer",
-        "Ignoring exceptions"
-      ]
+      "id": "q4",
+      "questionId": "q4"
     },
     {
-      "id": "q8",
-      "questionId": "q8",
       "type": "short-answer",
-      "question": "Describe the visual introduction as a three-step process.",
-      "correctAnswer": "Answers should mention the starting condition, the change or mechanism, and the result.",
-      "explanation": "A strong answer follows the three boxes in the local SVG diagram.",
-      "points": 1
+      "question": "Explain how drought can change carrying capacity.",
+      "correctAnswer": "Drought can reduce water and plant growth, lowering food and water availability, so the ecosystem supports fewer organisms.",
+      "explanation": "The answer should connect drought to limiting resources.",
+      "points": 1,
+      "id": "q5",
+      "questionId": "q5"
     },
     {
-      "id": "q9",
-      "questionId": "q9",
       "type": "multiple-choice",
-      "question": "Which example best connects to Carrying Capacity and Population Growth?",
+      "question": "Which is a density-dependent limiting factor?",
+      "options": [
+        "disease spreading faster in crowded populations",
+        "a volcanic eruption destroying habitat suddenly",
+        "a meteor impact",
+        "a single storm unrelated to population density"
+      ],
       "correctAnswer": 0,
-      "explanation": "The first option is drawn from the lesson examples and matches the concept.",
+      "explanation": "Disease often spreads more easily at high density.",
       "points": 1,
-      "options": [
-        "Pond fish",
-        "A random spelling rule",
-        "A purely historical date",
-        "A geometry proof with no biology context"
-      ]
+      "id": "q6",
+      "questionId": "q6"
     },
     {
-      "id": "q10",
-      "questionId": "q10",
-      "type": "fill-in",
-      "question": "A biological explanation should connect cause, process, and ________.",
-      "correctAnswer": "evidence",
-      "explanation": "Evidence supports the explanation and prevents guessing.",
-      "points": 1
-    },
-    {
-      "id": "q11",
-      "questionId": "q11",
       "type": "short-answer",
-      "question": "Give one real-life situation where Population could help explain what is happening.",
-      "correctAnswer": "Answers will vary but should give a relevant biological, health, environmental, or biotechnology example.",
-      "explanation": "The response should transfer the concept to a new situation.",
-      "points": 1
+      "question": "A bacteria culture grows rapidly, then levels off. Explain why.",
+      "correctAnswer": "Nutrients and space become limited and wastes build up, so reproduction slows and deaths may increase.",
+      "explanation": "The answer should identify limiting factors.",
+      "points": 1,
+      "id": "q7",
+      "questionId": "q7"
     },
     {
-      "id": "q12",
-      "questionId": "q12",
       "type": "multiple-choice",
-      "question": "What should you do if one example seems to contradict the lesson idea?",
-      "correctAnswer": 3,
-      "explanation": "Scientific reasoning checks context and evidence instead of forcing a memorized rule.",
-      "points": 1,
+      "question": "Which statement is most accurate?",
       "options": [
-        "Ignore the contradiction",
-        "Delete the lesson",
-        "Assume science is random",
-        "Check the context and evidence carefully"
-      ]
+        "Carrying capacity can change over time.",
+        "Carrying capacity is always the same everywhere.",
+        "No population has limiting factors.",
+        "Overshoot always improves survival."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carrying capacity depends on conditions.",
+      "points": 1,
+      "id": "q8",
+      "questionId": "q8"
+    },
+    {
+      "type": "true-false",
+      "question": "Predators can be a limiting factor for prey populations.",
+      "correctAnswer": "true",
+      "explanation": "Predation can reduce survival.",
+      "points": 1,
+      "id": "q9",
+      "questionId": "q9"
+    },
+    {
+      "type": "fill-in",
+      "question": "The largest population an ecosystem can support over time is its carrying ________.",
+      "correctAnswer": "capacity",
+      "explanation": "The term is carrying capacity.",
+      "points": 1,
+      "id": "q10",
+      "questionId": "q10"
+    },
+    {
+      "type": "short-answer",
+      "question": "Describe the difference between rapid growth and slowing growth on an S-shaped curve.",
+      "correctAnswer": "Rapid growth occurs when resources are abundant; slowing growth occurs near carrying capacity as limiting factors increase.",
+      "explanation": "The answer should compare resource conditions.",
+      "points": 1,
+      "id": "q11",
+      "questionId": "q11"
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Which management action could raise carrying capacity for a pond fish population?",
+      "options": [
+        "improving water quality and habitat",
+        "removing oxygen from the water",
+        "adding unlimited fish with no food",
+        "blocking all space"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Better habitat can increase supportable population size.",
+      "points": 1,
+      "id": "q12",
+      "questionId": "q12"
     }
   ]
 }
