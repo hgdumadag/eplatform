@@ -1,0 +1,45 @@
+{
+  "id": "grade-8-math-q2-geometry-lesson-3",
+  "grade": 8,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Geometry - Lesson 3: Midpoint of a Segment",
+  "description": "Locate the midpoint of a segment visually on a grid and by using the midpoint formula with endpoint coordinates.",
+  "learningObjectives": [
+    "Identify the midpoint of a segment as the point halfway between two endpoints",
+    "Locate a midpoint visually on horizontal, vertical, and diagonal grid segments",
+    "Use the midpoint formula to average endpoint coordinates",
+    "Solve midpoint problems from endpoint coordinates",
+    "Avoid common midpoint mistakes such as averaging the wrong values"
+  ],
+  "prerequisites": [
+    "Read ordered pairs on the coordinate plane",
+    "Add and divide integers and rational numbers",
+    "Understand endpoints and line segments"
+  ],
+  "estimatedDuration": 35,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "midpoint",
+    "coordinate-plane",
+    "ordered-pairs",
+    "segments",
+    "number-and-algebra",
+    "measurement-and-geometry"
+  ],
+  "lastUpdated": "2026-06-16",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/segment-midpoint-grid.svg",
+      "images/averaging-coordinates.svg",
+      "images/endpoint-table.svg",
+      "images/midpoint-formula-walkthrough.svg",
+      "images/common-average-trap.svg"
+    ]
+  }
+}

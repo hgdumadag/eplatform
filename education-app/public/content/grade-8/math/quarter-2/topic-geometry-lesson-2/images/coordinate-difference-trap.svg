@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Common coordinate-difference trap</title>
+  <desc id="desc">A comparison warns that adding coordinate differences gives a path distance, not the straight diagonal distance.</desc>
+  <rect width="760" height="420" fill="#f8fafc"/>
+  <g font-family="Arial, sans-serif">
+    <text x="380" y="42" text-anchor="middle" font-size="26" font-weight="700" fill="#0f172a">Trap: adding changes is not diagonal distance</text>
+    <rect x="48" y="78" width="300" height="270" rx="8" fill="#fff7ed" stroke="#f97316" stroke-width="2"/>
+    <rect x="412" y="78" width="300" height="270" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+    <text x="198" y="113" text-anchor="middle" font-size="22" font-weight="700" fill="#9a3412">Path distance</text>
+    <text x="562" y="113" text-anchor="middle" font-size="22" font-weight="700" fill="#166534">Straight distance</text>
+    <g transform="translate(80 140)">
+      <path d="M25 130H185V50" fill="none" stroke="#f97316" stroke-width="10" stroke-linejoin="round"/>
+      <path d="M25 130L185 50" stroke="#94a3b8" stroke-width="3" stroke-dasharray="8 7"/>
+      <circle cx="25" cy="130" r="8" fill="#dc2626"/>
+      <circle cx="185" cy="50" r="8" fill="#16a34a"/>
+      <text x="105" y="162" text-anchor="middle" font-size="19" fill="#9a3412">6 + 3 = 9</text>
+      <text x="105" y="192" text-anchor="middle" font-size="17" fill="#9a3412">This walks right, then up.</text>
+    </g>
+    <g transform="translate(444 140)">
+      <path d="M25 130H185V50" fill="none" stroke="#94a3b8" stroke-width="4" stroke-dasharray="8 7"/>
+      <path d="M25 130L185 50" stroke="#16a34a" stroke-width="10" stroke-linecap="round"/>
+      <circle cx="25" cy="130" r="8" fill="#dc2626"/>
+      <circle cx="185" cy="50" r="8" fill="#16a34a"/>
+      <text x="105" y="162" text-anchor="middle" font-size="19" fill="#166534">sqrt(6^2 + 3^2)</text>
+      <text x="105" y="192" text-anchor="middle" font-size="17" fill="#166534">This measures the direct segment.</text>
+    </g>
+    <text x="380" y="386" text-anchor="middle" font-size="20" font-weight="700" fill="#334155">Use the distance formula when both x and y change.</text>
+  </g>
+</svg>

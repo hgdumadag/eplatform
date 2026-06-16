@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Distance and Midpoint Design Map</title>
+  <desc id="desc">A diagonal segment from A to C with a midpoint labeled M and formula cards for distance and midpoint.</desc>
+  <rect width="720" height="360" fill="#ffffff"/>
+  <rect x="40" y="38" width="380" height="284" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <g transform="translate(80 290)" stroke="#e2e8f0" stroke-width="1">
+    <path d="M0 0H300M0 -40H300M0 -80H300M0 -120H300M0 -160H300M0 -200H300"/>
+    <path d="M0 0V-220M40 0V-220M80 0V-220M120 0V-220M160 0V-220M200 0V-220M240 0V-220M280 0V-220"/>
+  </g>
+  <path d="M120 250L360 90" stroke="#dc2626" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="120" cy="250" r="8" fill="#0f172a"/>
+  <circle cx="360" cy="90" r="8" fill="#0f172a"/>
+  <circle cx="240" cy="170" r="9" fill="#f59e0b" stroke="#92400e" stroke-width="2"/>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#0f172a" font-weight="700">
+    <text x="82" y="276">A(1, 1)</text>
+    <text x="368" y="92">C(7, 5)</text>
+    <text x="252" y="176">M</text>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <rect x="462" y="64" width="210" height="86" rx="8" fill="#eff6ff" stroke="#60a5fa"/>
+    <text x="482" y="94" font-size="18" font-weight="700" fill="#1e3a8a">Distance</text>
+    <text x="482" y="124" font-size="16" fill="#1f2937">d = sqrt(dx^2 + dy^2)</text>
+    <rect x="462" y="190" width="210" height="94" rx="8" fill="#fefce8" stroke="#facc15"/>
+    <text x="482" y="220" font-size="18" font-weight="700" fill="#854d0e">Midpoint</text>
+    <text x="482" y="250" font-size="16" fill="#1f2937">M = averages of x</text>
+    <text x="482" y="272" font-size="16" fill="#1f2937">and y coordinates</text>
+  </g>
+</svg>

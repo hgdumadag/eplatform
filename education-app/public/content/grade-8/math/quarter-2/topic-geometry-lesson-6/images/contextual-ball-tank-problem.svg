@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Contextual sphere volume problem</title>
+  <desc id="desc">A spherical sports ball and a spherical water tank show how radius labels are used in real-world sphere volume problems.</desc>
+  <defs>
+    <radialGradient id="ball" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#fff7ed"/>
+      <stop offset="45%" stop-color="#fdba74"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </radialGradient>
+    <radialGradient id="tank" cx="35%" cy="28%" r="72%">
+      <stop offset="0%" stop-color="#ecfeff"/>
+      <stop offset="50%" stop-color="#67e8f9"/>
+      <stop offset="100%" stop-color="#0e7490"/>
+    </radialGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#111827"/>
+    </marker>
+  </defs>
+  <rect width="760" height="420" rx="18" fill="#f8fafc"/>
+  <text x="52" y="52" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">Sphere volume appears in real objects</text>
+  <circle cx="190" cy="210" r="92" fill="url(#ball)" stroke="#9a3412" stroke-width="3"/>
+  <path d="M125 145 C165 190 205 225 255 262" fill="none" stroke="#7c2d12" stroke-width="5" opacity="0.45"/>
+  <path d="M254 145 C213 190 174 225 124 262" fill="none" stroke="#7c2d12" stroke-width="5" opacity="0.45"/>
+  <circle cx="190" cy="210" r="5" fill="#111827"/>
+  <line x1="190" y1="210" x2="254" y2="145" stroke="#111827" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="222" y="185" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">r</text>
+  <text x="112" y="330" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#111827">sports ball</text>
+  <circle cx="535" cy="210" r="112" fill="url(#tank)" stroke="#155e75" stroke-width="3"/>
+  <ellipse cx="535" cy="210" rx="112" ry="30" fill="none" stroke="#155e75" stroke-width="2" stroke-dasharray="8 7"/>
+  <rect x="488" y="85" width="94" height="24" rx="7" fill="#155e75"/>
+  <line x1="535" y1="85" x2="535" y2="60" stroke="#155e75" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="535" cy="210" r="5" fill="#111827"/>
+  <line x1="535" y1="210" x2="535" y2="98" stroke="#111827" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="548" y="153" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#111827">r = 2 m</text>
+  <text x="438" y="350" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#111827">spherical water tank</text>
+  <rect x="70" y="78" width="250" height="46" rx="10" fill="#ffffff" stroke="#fed7aa"/>
+  <text x="88" y="108" font-family="Arial, sans-serif" font-size="18" fill="#9a3412">Small object: cubic centimeters</text>
+  <rect x="424" y="78" width="260" height="46" rx="10" fill="#ffffff" stroke="#a5f3fc"/>
+  <text x="442" y="108" font-family="Arial, sans-serif" font-size="18" fill="#155e75">Large object: cubic meters</text>
+</svg>

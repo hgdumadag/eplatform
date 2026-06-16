@@ -1,0 +1,97 @@
+{
+  "examId": "grade-8-math-q2-geometry-lesson-10-assessment",
+  "examType": "assessment",
+  "title": "Quarter Application Task Assessment",
+  "description": "Checkpoint assessment for designing and justifying a coordinate-based structure with triangular and solid components.",
+  "passingScore": 75,
+  "timeLimit": 40,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A rectangular platform has A(1, 2), B(9, 2), C(9, 7), and D(1, 7). What are the platform's length and width?",
+      "options": ["7 units by 5 units", "8 units by 5 units", "8 units by 9 units", "10 units by 7 units"],
+      "correctAnswer": 1,
+      "explanation": "AB is horizontal from x = 1 to x = 9, so its length is 8 units. BC is vertical from y = 2 to y = 7, so its width is 5 units.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "Find the midpoint of A(1, 2) and C(9, 7). Enter the ordered pair.",
+      "correctAnswer": "(5, 4.5)",
+      "explanation": "Use the midpoint formula: ((1 + 9) / 2, (2 + 7) / 2) = (5, 4.5).",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "What is the distance between P(3, 4) and Q(9, 12)?",
+      "options": ["8 units", "10 units", "12 units", "14 units"],
+      "correctAnswer": 1,
+      "explanation": "d = sqrt((9 - 3)^2 + (12 - 4)^2) = sqrt(6^2 + 8^2) = sqrt(100) = 10 units.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "Side lengths 6, 8, and 14 form a valid triangle because 6 + 8 = 14.",
+      "correctAnswer": "false",
+      "explanation": "The sum of two sides must be greater than the third side. Equal is not enough, so 6, 8, and 14 do not form a triangle.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A triangular support has side lengths 7, 9, and 12. Which statement proves it is valid?",
+      "options": ["7 + 9 = 16, and 16 > 12", "7 + 9 = 16, and 16 < 12", "7 + 12 = 19, and 19 = 9", "9 + 12 = 21, and 21 < 7"],
+      "correctAnswer": 0,
+      "explanation": "The shortest two sides are 7 and 9. Since 7 + 9 = 16 is greater than 12, the hardest triangle inequality check passes; the triangle is valid.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A rectangular prism base measures 8 units by 5 units by 2 units. What is its volume? Enter just the number.",
+      "correctAnswer": "80",
+      "explanation": "Use V = lwh. The volume is 8 * 5 * 2 = 80.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A cylindrical column has radius 1.5 units and height 6 units. Using pi = 3.14, what is its volume?",
+      "options": ["14.13 units^3", "28.26 units^3", "42.39 units^3", "84.78 units^3"],
+      "correctAnswer": 2,
+      "explanation": "V = pi r^2 h = 3.14 * 1.5^2 * 6 = 3.14 * 2.25 * 6 = 42.39 units^3.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A triangular prism roof has triangular base 10 units, triangular height 4 units, and prism length 6 units. What is its volume?",
+      "options": ["60 units^3", "120 units^3", "160 units^3", "240 units^3"],
+      "correctAnswer": 1,
+      "explanation": "Use V = (1/2)b h L. The volume is (1/2)(10)(4)(6) = 120 units^3.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A design includes a rectangular prism base with volume 80 units^3, a cylinder with volume 42.39 units^3, and a triangular prism roof with volume 120 units^3. Find the total volume and state the unit.",
+      "correctAnswer": "The total volume is 242.39 units^3 because 80 + 42.39 + 120 = 242.39.",
+      "explanation": "Add the volumes of all solid components. The result is 242.39, and volume must be written in cubic units.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Write a brief justification for a structure with points A(0, 0), B(6, 0), C(6, 4), D(0, 4), and roof support side lengths 5, 5, and 6. Include one coordinate fact and one triangle validity fact.",
+      "correctAnswer": "The platform is 6 units by 4 units because AB is horizontal from x = 0 to x = 6 and BC is vertical from y = 0 to y = 4. The roof support is valid because 5 + 5 > 6, 5 + 6 > 5, and 5 + 6 > 5.",
+      "explanation": "A complete justification connects the coordinates to dimensions and uses the triangle inequality to prove the support can form a real triangle.",
+      "points": 10
+    }
+  ]
+}

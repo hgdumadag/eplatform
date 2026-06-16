@@ -1,0 +1,55 @@
+{
+  "id": "grade-8-math-q2-geometry-lesson-5",
+  "grade": 8,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Geometry - Lesson 5: Cone Volume",
+  "description": "Derive cone volume from a matching cylinder, then solve cone volume problems using radius, diameter, height, and unit reasoning.",
+  "contentDomains": [
+    "Number and Algebra",
+    "Measurement and Geometry"
+  ],
+  "learningObjectives": [
+    "Compare a cone with a cylinder that has the same base radius and height",
+    "Explain why a cone has one-third the volume of its matching cylinder",
+    "Use V = one-third pi r squared h to calculate cone volume",
+    "Identify radius, diameter, and height from diagrams and word problems",
+    "Avoid using diameter as radius when substituting into the formula",
+    "Label cone volume answers with cubic units"
+  ],
+  "prerequisites": [
+    "Find the area of a circle using A = pi r squared",
+    "Know that diameter is twice the radius",
+    "Multiply fractions, decimals, and whole numbers",
+    "Understand volume as cubic units",
+    "Substitute values into a formula"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "number-and-algebra",
+    "measurement-and-geometry",
+    "geometry",
+    "volume",
+    "cone",
+    "cylinder",
+    "radius",
+    "diameter",
+    "formula-substitution"
+  ],
+  "lastUpdated": "2026-06-16",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/cone-matching-cylinder.svg",
+      "images/one-third-comparison.svg",
+      "images/radius-diameter-height-labels.svg",
+      "images/formula-substitution-flow.svg",
+      "images/diameter-radius-trap.svg",
+      "images/real-world-cone-problems.svg"
+    ]
+  }
+}

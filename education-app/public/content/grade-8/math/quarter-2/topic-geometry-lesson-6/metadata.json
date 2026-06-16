@@ -1,0 +1,47 @@
+{
+  "id": "grade-8-math-q2-geometry-lesson-6",
+  "grade": 8,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Geometry - Lesson 6: Sphere Volume",
+  "description": "Use the sphere volume formula in direct and contextual problems, with special attention to interpreting radius and diameter correctly.",
+  "learningObjectives": [
+    "Identify the radius and diameter of a sphere from diagrams and word problems",
+    "Use V = 4/3 pi r cubed to find the volume of a sphere",
+    "Convert a given diameter to radius before substituting into the formula",
+    "Interpret sphere volume answers in cubic units and contextual situations",
+    "Avoid the common error of cubing the diameter instead of the radius"
+  ],
+  "prerequisites": [
+    "Recognize radius and diameter in circles and spheres",
+    "Evaluate powers such as r cubed",
+    "Multiply fractions, decimals, and pi approximations",
+    "Use cubic units for volume"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "number and algebra",
+    "measurement and geometry",
+    "geometry",
+    "sphere",
+    "volume",
+    "radius",
+    "diameter",
+    "formula"
+  ],
+  "lastUpdated": "2026-06-16",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/sphere-radius-diameter.svg",
+      "images/sphere-formula-parts.svg",
+      "images/diameter-to-radius-conversion.svg",
+      "images/contextual-ball-tank-problem.svg",
+      "images/cubing-radius-trap.svg"
+    ]
+  }
+}

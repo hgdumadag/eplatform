@@ -1,0 +1,122 @@
+{
+  "examId": "grade-8-math-q2-geometry-lesson-4-assessment",
+  "examType": "assessment",
+  "title": "Pyramid Volume Beyond Rectangular Bases Assessment",
+  "description": "Checkpoint assessment for using one-third base area times height with varied pyramid bases and identifying base area correctly.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which expression correctly finds the volume of a pyramid with base area 84 cm^2 and height 15 cm?",
+      "options": [
+        "$\\frac{1}{3}(84)(15)$",
+        "$(84)(15)$",
+        "$\\frac{1}{2}(84)(15)$",
+        "$3(84)(15)$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The pyramid volume formula is $V = \\frac{1}{3}Bh$. With $B = 84$ and $h = 15$, the correct setup is $\\frac{1}{3}(84)(15)$.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A pyramid has base area 96 m^2 and perpendicular height 18 m. What is its volume? Enter just the number.",
+      "correctAnswer": "576",
+      "explanation": "$V = \\frac{1}{3}(96)(18) = 32(18) = 576$ m^3.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A triangular-base pyramid has triangular base length 14 cm, triangular height 9 cm, and pyramid height 20 cm. What is its volume?",
+      "options": [
+        "420 cm^3",
+        "1260 cm^3",
+        "840 cm^3",
+        "210 cm^3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The triangular base area is $B = \\frac{1}{2}(14)(9) = 63$ cm^2. Then $V = \\frac{1}{3}(63)(20) = 420$ cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "For volume, the slant height of a pyramid can always be used as $h$.",
+      "correctAnswer": "false",
+      "explanation": "Volume uses perpendicular height. Slant height lies along a face and is not the same measurement.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A regular hexagonal pyramid has base perimeter 42 cm, apothem 6 cm, and pyramid height 11 cm. What is its volume?",
+      "options": [
+        "462 cm^3",
+        "1386 cm^3",
+        "252 cm^3",
+        "231 cm^3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Base area: $B = \\frac{1}{2}(6)(42) = 126$ cm^2. Volume: $V = \\frac{1}{3}(126)(11) = 462$ cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "State the two measurements you must know before using $V = \\frac{1}{3}Bh$ for any pyramid.",
+      "correctAnswer": "You must know the base area B and the perpendicular height h.",
+      "explanation": "The formula needs $B$, the area of the base, and $h$, the perpendicular height from the base to the apex.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A rectangular-base pyramid has base length 13 m, base width 4 m, and height 9 m. Which value is $B$?",
+      "options": [
+        "52 m^2",
+        "17 m",
+        "9 m",
+        "468 m^3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$B$ is the area of the rectangular base: $13 \\times 4 = 52$ m^2. The height 9 m is used after $B$ is found.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "A rectangular-base pyramid has base length 13 m, base width 4 m, and height 9 m. What is its volume? Enter just the number.",
+      "correctAnswer": "156",
+      "explanation": "From the base, $B = 13 \\times 4 = 52$ m^2. Then $V = \\frac{1}{3}(52)(9) = 156$ m^3.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "A pyramid has a base shaped like a triangle. Which step should happen first?",
+      "options": [
+        "Find the triangular base area",
+        "Multiply the pyramid height by 3",
+        "Use the slant height as the height",
+        "Add all visible side lengths"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For any pyramid, identify the base area first. A triangular base uses $B = \\frac{1}{2}bh$ before the volume formula is applied.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A pyramid has base area 75 cm^2, perpendicular height 12 cm, and slant height 13 cm. Find the volume and name the unused measurement.",
+      "correctAnswer": "The volume is 300 cm^3, and the unused measurement is the 13 cm slant height.",
+      "explanation": "Use $V = \\frac{1}{3}(75)(12) = 300$ cm^3. The 13 cm slant height is not used for volume.",
+      "points": 10
+    }
+  ]
+}

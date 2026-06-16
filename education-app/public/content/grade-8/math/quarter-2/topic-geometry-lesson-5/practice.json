@@ -1,0 +1,101 @@
+{
+  "id": "grade-8-math-q2-geometry-lesson-5-practice",
+  "examId": "grade-8-math-q2-geometry-lesson-5-practice",
+  "examType": "practice",
+  "title": "Cone Volume Practice Exam",
+  "description": "Practice deriving and applying cone volume from a matching cylinder comparison.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A cone and a cylinder have the same radius and height. If the cylinder's volume is $90\\text{ cm}^3$, what is the cone's volume?",
+      "options": [
+        "$30\\text{ cm}^3$",
+        "$45\\text{ cm}^3$",
+        "$90\\text{ cm}^3$",
+        "$270\\text{ cm}^3$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A cone with the same base and height has one-third the volume of the cylinder. $90 \\div 3 = 30$, so the cone volume is $30\\text{ cm}^3$.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A cone has radius 3 cm and height 6 cm. Use $\\pi = 3.14$. What is its volume in cubic centimeters? Enter a number only.",
+      "correctAnswer": "56.52",
+      "explanation": "Use $V = \\frac{1}{3}\\pi r^2h = \\frac{1}{3}(3.14)(3^2)(6) = \\frac{1}{3}(169.56) = 56.52$.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which formula finds the volume of a cone?",
+      "options": [
+        "$V = \\pi r^2h$",
+        "$V = \\frac{1}{3}\\pi r^2h$",
+        "$V = 2\\pi rh$",
+        "$V = \\pi d h$"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A cylinder has volume $\\pi r^2h$. A matching cone has one-third of that volume, so $V = \\frac{1}{3}\\pi r^2h$.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "If a cone's diameter is 12 m, then $r = 12$ should be used in the volume formula.",
+      "correctAnswer": "false",
+      "explanation": "The formula uses radius, not diameter. If the diameter is 12 m, then the radius is $12 \\div 2 = 6$ m.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A cone has diameter 8 in. and height 9 in. Use $\\pi = 3.14$. What is the volume?",
+      "options": [
+        "$150.72\\text{ in}^3$",
+        "$301.44\\text{ in}^3$",
+        "$602.88\\text{ in}^3$",
+        "$1808.64\\text{ in}^3$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The radius is $8 \\div 2 = 4$ in. Then $V = \\frac{1}{3}(3.14)(4^2)(9) = \\frac{1}{3}(452.16) = 150.72\\text{ in}^3$.",
+      "points": 14
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "In one or two sentences, explain why cone volume is one-third of the matching cylinder volume.",
+      "correctAnswer": "A cone with the same circular base and height as a cylinder has one-third of the cylinder's volume. Three congruent cones fill the matching cylinder.",
+      "explanation": "The key idea is the matching base and height. The cylinder volume is $\\pi r^2h$, and the cone is one-third of that amount.",
+      "points": 14
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A cone has radius 5 ft and height 12 ft. Use $\\pi = 3.14$. What is its volume in cubic feet? Enter a number only.",
+      "correctAnswer": "314",
+      "explanation": "$V = \\frac{1}{3}(3.14)(5^2)(12) = \\frac{1}{3}(3.14)(25)(12) = \\frac{942}{3} = 314$.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A cone-shaped cup has radius 2 cm and height 15 cm. Which unit should be used for its volume?",
+      "options": [
+        "cm",
+        "$\\text{cm}^2$",
+        "$\\text{cm}^3$",
+        "degrees"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Volume measures three-dimensional space, so the correct unit is cubic centimeters, written $\\text{cm}^3$.",
+      "points": 14
+    }
+  ]
+}

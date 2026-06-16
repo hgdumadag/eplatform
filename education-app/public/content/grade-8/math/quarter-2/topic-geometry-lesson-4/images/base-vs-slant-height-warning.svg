@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Base height versus slant height warning</title>
+  <desc id="desc">A pyramid diagram distinguishes the perpendicular height used for volume from the slant height along a face.</desc>
+  <rect width="900" height="520" fill="#f8fafc"/>
+  <rect x="45" y="42" width="810" height="436" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <polygon points="230,390 520,390 620,315 332,315" fill="#fee2e2" stroke="#dc2626" stroke-width="3"/>
+  <polygon points="230,390 332,315 430,100" fill="#fef2f2" stroke="#dc2626" stroke-width="3"/>
+  <polygon points="520,390 620,315 430,100" fill="#fecaca" stroke="#dc2626" stroke-width="3" opacity="0.72"/>
+  <polygon points="332,315 620,315 430,100" fill="#fff7ed" stroke="#ea580c" stroke-width="3" opacity="0.7"/>
+  <line x1="430" y1="100" x2="430" y2="352" stroke="#16a34a" stroke-width="5"/>
+  <path d="M430 352 L458 352 L458 324" fill="none" stroke="#16a34a" stroke-width="3"/>
+  <line x1="430" y1="100" x2="476" y2="315" stroke="#dc2626" stroke-width="5" stroke-dasharray="9 7"/>
+  <text x="452" y="222" font-family="Arial, sans-serif" font-size="26" fill="#15803d" font-weight="700">use h</text>
+  <text x="498" y="212" font-family="Arial, sans-serif" font-size="24" fill="#b91c1c" font-weight="700">slant height</text>
+  <text x="612" y="150" font-family="Arial, sans-serif" font-size="34" fill="#0f172a" font-weight="700">Volume warning</text>
+  <text x="612" y="206" font-family="Arial, sans-serif" font-size="25" fill="#15803d" font-weight="700">Use perpendicular height.</text>
+  <text x="612" y="252" font-family="Arial, sans-serif" font-size="25" fill="#b91c1c" font-weight="700">Do not use slant height.</text>
+  <text x="612" y="314" font-family="Arial, sans-serif" font-size="23" fill="#334155">Slant height belongs to a face.</text>
+</svg>

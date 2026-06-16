@@ -1,0 +1,97 @@
+{
+  "examId": "grade-8-math-q2-geometry-lesson-8-assessment",
+  "examType": "assessment",
+  "title": "Converse of Pythagorean Theorem Assessment",
+  "description": "Checkpoint assessment for classifying triangles using side lengths and square comparisons.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A triangle has side lengths 8, 15, and 17. What type of triangle is it?",
+      "options": ["Right", "Acute", "Obtuse", "Not a triangle"],
+      "correctAnswer": 0,
+      "explanation": "8^2 + 15^2 = 64 + 225 = 289, and 17^2 = 289. Equal values mean the triangle is right.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A triangle has side lengths 6, 7, and 8. What type of triangle is it?",
+      "options": ["Right", "Acute", "Obtuse", "Not a triangle"],
+      "correctAnswer": 1,
+      "explanation": "6^2 + 7^2 = 36 + 49 = 85, and 8^2 = 64. Since 85 > 64, the triangle is acute.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A triangle has side lengths 5, 7, and 11. What type of triangle is it?",
+      "options": ["Right", "Acute", "Obtuse", "Not a triangle"],
+      "correctAnswer": 2,
+      "explanation": "5^2 + 7^2 = 25 + 49 = 74, and 11^2 = 121. Since 74 < 121, the triangle is obtuse.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Which set of side lengths does not form a triangle?",
+      "options": ["4, 5, 6", "7, 24, 25", "2, 3, 6", "10, 10, 12"],
+      "correctAnswer": 2,
+      "explanation": "For 2, 3, and 6, the two shorter sides add to 5, which is not greater than 6. So the lengths do not form a triangle.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "If a^2 + b^2 is greater than c^2, then the triangle is obtuse.",
+      "correctAnswer": "false",
+      "explanation": "If a^2 + b^2 > c^2, the triangle is acute. If a^2 + b^2 < c^2, the triangle is obtuse.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Side lengths are 10, 26, and 24. After sorting, what is the value of c? Enter just the number.",
+      "correctAnswer": "26",
+      "explanation": "After sorting, the side lengths are 10, 24, and 26. The longest side is 26, so c = 26.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "For side lengths 10, 24, and 26, which comparison correctly classifies the triangle?",
+      "options": ["10^2 + 24^2 = 26^2, so it is right", "10^2 + 24^2 > 26^2, so it is acute", "10^2 + 24^2 < 26^2, so it is obtuse", "10 + 24 is not greater than 26, so it is not a triangle"],
+      "correctAnswer": 0,
+      "explanation": "10^2 + 24^2 = 100 + 576 = 676, and 26^2 = 676. Equal values mean the triangle is right.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "For side lengths 9, 10, and 13, enter the triangle type: right, acute, or obtuse.",
+      "correctAnswer": "acute",
+      "explanation": "9^2 + 10^2 = 81 + 100 = 181, and 13^2 = 169. Since 181 > 169, the triangle is acute.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A student classifies side lengths 13, 5, and 12 as obtuse because 13^2 + 5^2 > 12^2. Explain the mistake and give the correct classification.",
+      "correctAnswer": "The student used 12 as c even though 13 is the longest side. Sort the sides as 5, 12, 13. Since 5^2 + 12^2 = 13^2, the triangle is right.",
+      "explanation": "The longest side must be c. After sorting, 5^2 + 12^2 = 25 + 144 = 169, and 13^2 = 169, so the triangle is right.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "Classify a triangle with side lengths 12, 16, and 21. Show the square comparison.",
+      "correctAnswer": "The triangle is obtuse. The longest side is 21. Since 12^2 + 16^2 = 144 + 256 = 400 and 21^2 = 441, a^2 + b^2 < c^2.",
+      "explanation": "The side lengths form a triangle because 12 + 16 > 21. Then 400 < 441, so the triangle is obtuse.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "examId": "grade-8-math-q2-geometry-lesson-6-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 6 Practice: Sphere Volume",
+  "description": "Practice using the sphere volume formula and interpreting radius and diameter correctly.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A sphere has radius 3 cm. Using pi = 3.14, what is its volume?",
+      "options": ["37.68 cm^3", "84.78 cm^3", "113.04 cm^3", "339.12 cm^3"],
+      "correctAnswer": 2,
+      "explanation": "Use V = (4/3)pi r^3. Since r = 3, V = (4/3)(3.14)(27) = 113.04 cm^3.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A sphere has diameter 14 cm. What radius should be used in the volume formula?",
+      "options": ["3.5 cm", "7 cm", "14 cm", "28 cm"],
+      "correctAnswer": 1,
+      "explanation": "The radius is half the diameter, so 14 / 2 = 7 cm.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "A sphere has radius 4 m. What is r cubed? Enter just the number.",
+      "correctAnswer": "64",
+      "explanation": "r cubed means r * r * r. For r = 4, 4^3 = 4 * 4 * 4 = 64.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "If a sphere's diameter is 10 cm, the value substituted for r should be 5 cm.",
+      "correctAnswer": "true",
+      "explanation": "The radius is half of the diameter. Half of 10 cm is 5 cm.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which expression correctly finds the volume of a sphere with diameter 12 in using pi = 3.14?",
+      "options": ["(4/3)(3.14)(12^3)", "(4/3)(3.14)(6^3)", "(3.14)(12^2)", "(3.14)(6^2)"],
+      "correctAnswer": 1,
+      "explanation": "The radius is half of 12, which is 6. The correct sphere volume expression is (4/3)(3.14)(6^3).",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A sphere has radius 6 cm. Using pi = 3.14, find its volume in cm^3. Round to the nearest hundredth and enter just the number.",
+      "correctAnswer": "904.32",
+      "explanation": "V = (4/3)(3.14)(6^3) = (4/3)(3.14)(216) = 904.32 cm^3.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A spherical decoration has volume about 33.49 m^3. Which unit makes sense for this volume?",
+      "options": ["m", "m^2", "m^3", "cm"],
+      "correctAnswer": 2,
+      "explanation": "Volume measures three-dimensional space, so it uses cubic units such as m^3.",
+      "points": 12
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A student finds the volume of a sphere with diameter 8 cm by cubing 8. Explain the mistake and state the correct number to cube.",
+      "correctAnswer": "The student cubed the diameter instead of the radius. The radius is 8 / 2 = 4 cm, so the student should cube 4.",
+      "explanation": "The formula V = (4/3)pi r^3 uses radius. A diameter must be divided by 2 before cubing.",
+      "points": 16
+    }
+  ]
+}

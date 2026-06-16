@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="340" viewBox="0 0 760 340" role="img">
+  <title>Equality is not enough trap</title>
+  <desc>A trap diagram showing side lengths 4, 6, and 10 lying flat because 4 plus 6 equals 10, so no triangle forms.</desc>
+  <rect width="760" height="340" fill="#f8fafc"/>
+  <text x="52" y="48" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#0f172a">Common Trap: Equality Is Not Enough</text>
+  <rect x="70" y="84" width="620" height="184" rx="8" fill="#ffffff" stroke="#fecaca" stroke-width="3"/>
+  <line x1="146" y1="182" x2="610" y2="182" stroke="#ef4444" stroke-width="10" stroke-linecap="round"/>
+  <line x1="146" y1="158" x2="330" y2="158" stroke="#2563eb" stroke-width="10" stroke-linecap="round"/>
+  <line x1="330" y1="158" x2="610" y2="158" stroke="#f97316" stroke-width="10" stroke-linecap="round"/>
+  <text x="238" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#1d4ed8">4</text>
+  <text x="470" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#c2410c">6</text>
+  <text x="378" y="214" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#991b1b">10</text>
+  <text x="380" y="252" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#991b1b">4 + 6 = 10, so the sides lie flat.</text>
+  <rect x="154" y="286" width="452" height="34" rx="6" fill="#fff7ed" stroke="#fed7aa" stroke-width="2"/>
+  <text x="380" y="309" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#9a3412">A triangle needs 4 + 6 &gt; 10, not 4 + 6 = 10.</text>
+</svg>

@@ -1,0 +1,80 @@
+{
+  "examId": "grade-8-math-q2-geometry-lesson-8-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 8 Practice: Converse of Pythagorean Theorem",
+  "description": "Practice classifying triangles from side lengths by comparing a^2 + b^2 with c^2.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A triangle has side lengths 6, 8, and 10. What type of triangle is it?",
+      "options": ["Right", "Acute", "Obtuse", "Not a triangle"],
+      "correctAnswer": 0,
+      "explanation": "The longest side is 10. Since 6^2 + 8^2 = 36 + 64 = 100 and 10^2 = 100, the triangle is right.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "For side lengths 5, 6, and 7, which comparison is correct?",
+      "options": ["5^2 + 6^2 = 7^2", "5^2 + 6^2 > 7^2", "5^2 + 6^2 < 7^2", "5 + 6 is not greater than 7"],
+      "correctAnswer": 1,
+      "explanation": "5^2 + 6^2 = 25 + 36 = 61, and 7^2 = 49. Since 61 > 49, this comparison is correct.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "A triangle has side lengths 9, 12, and 15. Enter the triangle type: right, acute, or obtuse.",
+      "correctAnswer": "right",
+      "explanation": "9^2 + 12^2 = 81 + 144 = 225, and 15^2 = 225. Equal values mean the triangle is right.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "When classifying a triangle by side lengths, c should be the longest side.",
+      "correctAnswer": "true",
+      "explanation": "The comparison a^2 + b^2 with c^2 requires c to be the longest side.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A triangle has side lengths 4, 6, and 9. What type of triangle is it?",
+      "options": ["Right", "Acute", "Obtuse", "Not a triangle"],
+      "correctAnswer": 2,
+      "explanation": "The longest side is 9. Since 4^2 + 6^2 = 52 and 9^2 = 81, a^2 + b^2 < c^2, so the triangle is obtuse.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "The side lengths are listed as 13, 5, and 12. Which side should be c?",
+      "options": ["13", "5", "12", "The first listed side is always c"],
+      "correctAnswer": 0,
+      "explanation": "The longest side is 13, so c = 13 even though the lengths were not listed in order.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "For side lengths 7, 8, and 9, what is a^2 + b^2 after sorting? Enter just the number.",
+      "correctAnswer": "113",
+      "explanation": "The two shorter sides are 7 and 8. Their squares add to 7^2 + 8^2 = 49 + 64 = 113.",
+      "points": 12
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Classify side lengths 3, 4, and 8. Explain the first check you should make.",
+      "correctAnswer": "They do not form a triangle because the two shorter sides add to 7, and 7 is not greater than the longest side 8.",
+      "explanation": "Before comparing squares, check the triangle inequality. Since 3 + 4 <= 8, the lengths do not form a triangle.",
+      "points": 16
+    }
+  ]
+}

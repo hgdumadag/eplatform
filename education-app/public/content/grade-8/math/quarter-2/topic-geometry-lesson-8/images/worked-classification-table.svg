@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc">
+  <title id="title">Worked triangle classification table</title>
+  <desc id="desc">A table compares sorted side lengths, square sums, c squared, and triangle classification.</desc>
+  <rect width="1000" height="560" fill="#f8fafc"/>
+  <rect x="40" y="40" width="920" height="460" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+  <text x="80" y="96" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#0f172a">Worked classification table</text>
+  <g font-family="Arial, sans-serif" font-size="18">
+    <rect x="80" y="130" width="840" height="56" fill="#e2e8f0"/>
+    <text x="118" y="165" font-weight="700" fill="#0f172a">Sides</text>
+    <text x="300" y="165" font-weight="700" fill="#0f172a">a^2 + b^2</text>
+    <text x="540" y="165" font-weight="700" fill="#0f172a">c^2</text>
+    <text x="720" y="165" font-weight="700" fill="#0f172a">Type</text>
+    <line x1="80" y1="186" x2="920" y2="186" stroke="#cbd5e1" stroke-width="2"/>
+    <line x1="250" y1="130" x2="250" y2="410" stroke="#cbd5e1" stroke-width="2"/>
+    <line x1="500" y1="130" x2="500" y2="410" stroke="#cbd5e1" stroke-width="2"/>
+    <line x1="660" y1="130" x2="660" y2="410" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="118" y="230" fill="#334155">9, 12, 15</text>
+    <text x="300" y="230" fill="#334155">81 + 144 = 225</text>
+    <text x="540" y="230" fill="#334155">225</text>
+    <rect x="704" y="204" width="125" height="38" rx="8" fill="#dbeafe"/>
+    <text x="766" y="230" text-anchor="middle" font-weight="700" fill="#1e40af">Right</text>
+    <line x1="80" y1="260" x2="920" y2="260" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="118" y="306" fill="#334155">5, 6, 7</text>
+    <text x="300" y="306" fill="#334155">25 + 36 = 61</text>
+    <text x="540" y="306" fill="#334155">49</text>
+    <rect x="704" y="280" width="125" height="38" rx="8" fill="#dcfce7"/>
+    <text x="766" y="306" text-anchor="middle" font-weight="700" fill="#166534">Acute</text>
+    <line x1="80" y1="336" x2="920" y2="336" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="118" y="382" fill="#334155">8, 10, 15</text>
+    <text x="300" y="382" fill="#334155">64 + 100 = 164</text>
+    <text x="540" y="382" fill="#334155">225</text>
+    <rect x="704" y="356" width="125" height="38" rx="8" fill="#fee2e2"/>
+    <text x="766" y="382" text-anchor="middle" font-weight="700" fill="#991b1b">Obtuse</text>
+  </g>
+  <text x="80" y="458" font-family="Arial, sans-serif" font-size="20" fill="#475569">Compare the middle columns, then name the triangle type.</text>
+</svg>

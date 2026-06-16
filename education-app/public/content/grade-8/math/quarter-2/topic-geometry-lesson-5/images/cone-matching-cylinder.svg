@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" role="img" aria-labelledby="title desc">
+  <title id="title">Cone and Matching Cylinder</title>
+  <desc id="desc">A cone and a cylinder shown with the same circular base radius and the same height.</desc>
+  <rect width="900" height="440" fill="#f8fafc"/>
+  <text x="450" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Matching Base and Height</text>
+  <g transform="translate(90 80)">
+    <text x="150" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1e3a8a">Cylinder</text>
+    <ellipse cx="150" cy="50" rx="95" ry="28" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+    <path d="M55 50 V250" fill="none" stroke="#2563eb" stroke-width="4"/>
+    <path d="M245 50 V250" fill="none" stroke="#2563eb" stroke-width="4"/>
+    <ellipse cx="150" cy="250" rx="95" ry="28" fill="#bfdbfe" stroke="#2563eb" stroke-width="4"/>
+    <line x1="150" y1="250" x2="245" y2="250" stroke="#dc2626" stroke-width="4"/>
+    <circle cx="150" cy="250" r="5" fill="#dc2626"/>
+    <text x="205" y="239" font-family="Arial, sans-serif" font-size="18" fill="#991b1b">r</text>
+    <line x1="280" y1="50" x2="280" y2="250" stroke="#475569" stroke-width="3"/>
+    <path d="M270 50 H290 M270 250 H290" stroke="#475569" stroke-width="3"/>
+    <text x="300" y="156" font-family="Arial, sans-serif" font-size="18" fill="#334155">h</text>
+    <text x="150" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#0f172a">Volume: πr²h</text>
+  </g>
+  <g transform="translate(520 80)">
+    <text x="150" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#166534">Cone</text>
+    <ellipse cx="150" cy="250" rx="95" ry="28" fill="#bbf7d0" stroke="#16a34a" stroke-width="4"/>
+    <path d="M55 250 L150 50 L245 250" fill="#dcfce7" stroke="#16a34a" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M55 250 A95 28 0 0 0 245 250" fill="none" stroke="#16a34a" stroke-width="4"/>
+    <line x1="150" y1="250" x2="245" y2="250" stroke="#dc2626" stroke-width="4"/>
+    <circle cx="150" cy="250" r="5" fill="#dc2626"/>
+    <text x="205" y="239" font-family="Arial, sans-serif" font-size="18" fill="#991b1b">r</text>
+    <line x1="280" y1="50" x2="280" y2="250" stroke="#475569" stroke-width="3"/>
+    <path d="M270 50 H290 M270 250 H290" stroke="#475569" stroke-width="3"/>
+    <text x="300" y="156" font-family="Arial, sans-serif" font-size="18" fill="#334155">h</text>
+    <text x="150" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#0f172a">Volume: ⅓πr²h</text>
+  </g>
+</svg>

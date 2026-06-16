@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Diagonal distance as a right triangle</title>
+  <desc id="desc">A diagonal segment from P negative two comma one to Q four comma four forms a right triangle with horizontal leg six and vertical leg three.</desc>
+  <rect width="760" height="420" fill="#f8fafc"/>
+  <g transform="translate(360 250)">
+    <g stroke="#d8dee9" stroke-width="1">
+      <path d="M-240 -180H320 M-240 -140H320 M-240 -100H320 M-240 -60H320 M-240 -20H320 M-240 20H320 M-240 60H320 M-240 100H320"/>
+      <path d="M-240 -180V100 M-200 -180V100 M-160 -180V100 M-120 -180V100 M-80 -180V100 M-40 -180V100 M0 -180V100 M40 -180V100 M80 -180V100 M120 -180V100 M160 -180V100 M200 -180V100 M240 -180V100 M280 -180V100 M320 -180V100"/>
+    </g>
+    <path d="M-260 60H340" stroke="#334155" stroke-width="2"/>
+    <path d="M-80 120V-200" stroke="#334155" stroke-width="2"/>
+    <path d="M-80 20H160V-100" fill="none" stroke="#0891b2" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M-80 20L160 -100" stroke="#dc2626" stroke-width="8" stroke-linecap="round"/>
+    <path d="M130 -100V-70H160" fill="none" stroke="#475569" stroke-width="3"/>
+    <circle cx="-80" cy="20" r="9" fill="#dc2626"/>
+    <circle cx="160" cy="-100" r="9" fill="#16a34a"/>
+    <text x="-130" y="8" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#991b1b">P(-2, 1)</text>
+    <text x="172" y="-104" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#166534">Q(4, 4)</text>
+    <text x="40" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0e7490">Delta x = 6</text>
+    <text x="190" y="-36" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0e7490">Delta y = 3</text>
+    <text x="42" y="-54" text-anchor="middle" transform="rotate(-27 42 -54)" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#b91c1c">d = sqrt(45)</text>
+  </g>
+</svg>

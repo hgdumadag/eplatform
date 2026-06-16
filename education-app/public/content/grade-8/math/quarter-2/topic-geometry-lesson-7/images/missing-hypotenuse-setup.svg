@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" role="img" aria-labelledby="title desc">
+  <title id="title">Missing hypotenuse setup</title>
+  <desc id="desc">A right triangle with legs 6 and 8 and missing hypotenuse c, showing the equation 6 squared plus 8 squared equals c squared.</desc>
+  <rect width="760" height="430" fill="#f8fafc"/>
+  <path d="M110 310 L110 110 L430 310 Z" fill="#eef6ff" stroke="#234b73" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M110 310 L110 270 L150 270 L150 310 Z" fill="none" stroke="#234b73" stroke-width="4"/>
+  <text x="68" y="214" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#24515f">6</text>
+  <text x="260" y="352" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#24515f">8</text>
+  <text x="284" y="196" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#8a3b12" transform="rotate(32 284 196)">c</text>
+  <rect x="470" y="96" width="235" height="210" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+  <text x="492" y="142" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Missing hypotenuse</text>
+  <text x="492" y="188" font-family="Arial, sans-serif" font-size="30" fill="#0f172a">6^2 + 8^2 = c^2</text>
+  <text x="492" y="232" font-family="Arial, sans-serif" font-size="30" fill="#0f172a">36 + 64 = c^2</text>
+  <text x="492" y="276" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#166534">100 = c^2</text>
+  <text x="135" y="70" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">Add the leg squares.</text>
+</svg>

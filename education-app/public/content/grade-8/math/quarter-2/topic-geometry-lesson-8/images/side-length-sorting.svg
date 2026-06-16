@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Side-length sorting for triangle classification</title>
+  <desc id="desc">Unordered side lengths are sorted from least to greatest so the longest side can be labeled c.</desc>
+  <rect width="900" height="420" fill="#f7fafc"/>
+  <rect x="40" y="40" width="820" height="340" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+  <text x="80" y="95" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#0f172a">Sort before comparing squares</text>
+  <text x="80" y="138" font-family="Arial, sans-serif" font-size="20" fill="#475569">Problem order: 10, 6, 8</text>
+  <g font-family="Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle">
+    <rect x="88" y="174" width="110" height="70" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="143" y="218" fill="#1e3a8a">10</text>
+    <rect x="228" y="174" width="110" height="70" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="283" y="218" fill="#1e3a8a">6</text>
+    <rect x="368" y="174" width="110" height="70" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="423" y="218" fill="#1e3a8a">8</text>
+  </g>
+  <path d="M520 210 H660" stroke="#64748b" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="590" y="190" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#334155">sort</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="700" y="145" width="72" height="86" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="736" y="180" font-size="24" font-weight="700" fill="#14532d">6</text>
+    <text x="736" y="212" font-size="18" fill="#166534">a</text>
+    <rect x="780" y="145" width="72" height="86" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="816" y="180" font-size="24" font-weight="700" fill="#14532d">8</text>
+    <text x="816" y="212" font-size="18" fill="#166534">b</text>
+    <rect x="740" y="250" width="92" height="92" rx="10" fill="#fee2e2" stroke="#dc2626" stroke-width="3"/>
+    <text x="786" y="288" font-size="26" font-weight="700" fill="#7f1d1d">10</text>
+    <text x="786" y="322" font-size="18" fill="#991b1b">c</text>
+  </g>
+  <text x="80" y="320" font-family="Arial, sans-serif" font-size="22" fill="#0f172a">Use c for the longest side, not the first or last side listed.</text>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

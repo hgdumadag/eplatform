@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Common cubing radius trap</title>
+  <desc id="desc">A comparison of an incorrect calculation that cubes diameter 12 and a correct calculation that first converts diameter 12 to radius 6.</desc>
+  <rect width="760" height="420" rx="18" fill="#f8fafc"/>
+  <text x="50" y="52" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">Common trap: cubing the diameter</text>
+  <rect x="54" y="92" width="308" height="254" rx="16" fill="#fff1f2" stroke="#fecdd3" stroke-width="2"/>
+  <rect x="398" y="92" width="308" height="254" rx="16" fill="#ecfdf5" stroke="#99f6e4" stroke-width="2"/>
+  <text x="84" y="132" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#991b1b">Wrong path</text>
+  <text x="428" y="132" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#047857">Correct path</text>
+  <circle cx="208" cy="205" r="58" fill="#fecdd3" stroke="#e11d48" stroke-width="3"/>
+  <line x1="150" y1="205" x2="266" y2="205" stroke="#991b1b" stroke-width="4"/>
+  <text x="174" y="194" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#991b1b">12 cm</text>
+  <text x="91" y="298" font-family="Arial, sans-serif" font-size="20" fill="#991b1b">cubes 12: 12^3</text>
+  <text x="91" y="326" font-family="Arial, sans-serif" font-size="16" fill="#7f1d1d">This uses the diameter.</text>
+  <circle cx="552" cy="205" r="58" fill="#ccfbf1" stroke="#0f766e" stroke-width="3"/>
+  <line x1="494" y1="205" x2="610" y2="205" stroke="#0f766e" stroke-width="3" opacity="0.45"/>
+  <line x1="552" y1="205" x2="610" y2="205" stroke="#047857" stroke-width="5"/>
+  <circle cx="552" cy="205" r="5" fill="#111827"/>
+  <text x="565" y="194" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#047857">6 cm</text>
+  <text x="429" y="298" font-family="Arial, sans-serif" font-size="20" fill="#047857">halve first, then cube 6</text>
+  <text x="429" y="326" font-family="Arial, sans-serif" font-size="16" fill="#065f46">This uses the radius.</text>
+  <rect x="160" y="366" width="440" height="34" rx="9" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="181" y="389" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#111827">Formula check: V = (4/3)pi r^3, so r must be the radius.</text>
+</svg>

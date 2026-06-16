@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">Endpoint table for midpoint computation</title>
+  <desc id="desc">A table organizes x and y coordinates from two endpoints before averaging them to find the midpoint.</desc>
+  <rect width="760" height="360" fill="#f8fafc"/>
+  <text x="48" y="52" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">Use a table to avoid mixing coordinates</text>
+  <g transform="translate(80 92)" font-family="Arial, sans-serif">
+    <rect width="600" height="204" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+    <rect width="600" height="52" rx="8" fill="#0f766e"/>
+    <path d="M0 52H600M0 104H600M0 156H600M150 0V204M300 0V204M450 0V204" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="34" y="34" font-size="18" font-weight="700" fill="#ffffff">Coordinate</text>
+    <text x="186" y="34" font-size="18" font-weight="700" fill="#ffffff">Endpoint P</text>
+    <text x="336" y="34" font-size="18" font-weight="700" fill="#ffffff">Endpoint Q</text>
+    <text x="492" y="34" font-size="18" font-weight="700" fill="#ffffff">Average</text>
+    <text x="64" y="86" font-size="22" font-weight="700" fill="#1d4ed8">x</text>
+    <text x="216" y="86" font-size="22" fill="#0f172a">5</text>
+    <text x="362" y="86" font-size="22" fill="#0f172a">11</text>
+    <text x="498" y="86" font-size="22" fill="#0f172a">8</text>
+    <text x="64" y="138" font-size="22" font-weight="700" fill="#b45309">y</text>
+    <text x="216" y="138" font-size="22" fill="#0f172a">-3</text>
+    <text x="370" y="138" font-size="22" fill="#0f172a">9</text>
+    <text x="498" y="138" font-size="22" fill="#0f172a">3</text>
+    <text x="178" y="188" font-size="20" font-weight="700" fill="#0f172a">Midpoint = (8, 3)</text>
+  </g>
+</svg>

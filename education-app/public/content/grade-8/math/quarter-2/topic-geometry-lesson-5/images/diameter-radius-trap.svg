@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 470" role="img" aria-labelledby="title desc">
+  <title id="title">Diameter as Radius Trap</title>
+  <desc id="desc">A side-by-side comparison shows the wrong substitution using diameter 10 as radius and the correct substitution using radius 5.</desc>
+  <rect width="940" height="470" fill="#fff7ed"/>
+  <text x="470" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">Common Trap: Diameter Is Not Radius</text>
+  <g transform="translate(65 82)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="370" height="310" rx="8" fill="#fee2e2" stroke="#ef4444" stroke-width="3"/>
+    <text x="185" y="38" text-anchor="middle" font-size="23" font-weight="700" fill="#991b1b">Incorrect</text>
+    <circle cx="185" cy="128" r="62" fill="#fecaca" stroke="#dc2626" stroke-width="4"/>
+    <line x1="123" y1="128" x2="247" y2="128" stroke="#991b1b" stroke-width="5"/>
+    <text x="185" y="213" text-anchor="middle" font-size="19" fill="#7f1d1d">diameter = 10 m</text>
+    <text x="185" y="252" text-anchor="middle" font-size="20" fill="#7f1d1d">Uses r = 10</text>
+    <text x="185" y="282" text-anchor="middle" font-size="18" fill="#7f1d1d">This squares the wrong number.</text>
+  </g>
+  <g transform="translate(505 82)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="370" height="310" rx="8" fill="#dcfce7" stroke="#22c55e" stroke-width="3"/>
+    <text x="185" y="38" text-anchor="middle" font-size="23" font-weight="700" fill="#166534">Correct</text>
+    <circle cx="185" cy="128" r="62" fill="#bbf7d0" stroke="#16a34a" stroke-width="4"/>
+    <line x1="185" y1="128" x2="247" y2="128" stroke="#166534" stroke-width="5"/>
+    <circle cx="185" cy="128" r="5" fill="#166534"/>
+    <text x="185" y="213" text-anchor="middle" font-size="19" fill="#14532d">diameter = 10 m</text>
+    <text x="185" y="252" text-anchor="middle" font-size="20" fill="#14532d">r = 10 ÷ 2 = 5</text>
+    <text x="185" y="282" text-anchor="middle" font-size="18" fill="#14532d">Use 5² in the formula.</text>
+  </g>
+  <text x="470" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#7c2d12">Always convert diameter to radius before substituting.</text>
+</svg>

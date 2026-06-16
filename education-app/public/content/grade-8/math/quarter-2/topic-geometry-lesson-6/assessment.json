@@ -1,0 +1,97 @@
+{
+  "examId": "grade-8-math-q2-geometry-lesson-6-assessment",
+  "examType": "assessment",
+  "title": "Sphere Volume Assessment",
+  "description": "Checkpoint assessment for using sphere volume in direct and contextual problems, with focus on radius and diameter interpretation.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A sphere has radius 5 cm. Using pi = 3.14, what is its volume?",
+      "options": ["157 cm^3", "392.5 cm^3", "523.33 cm^3", "628 cm^3"],
+      "correctAnswer": 2,
+      "explanation": "V = (4/3)(3.14)(5^3) = (4/3)(3.14)(125) = 523.33 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A spherical ball is 20 cm wide through its center. What value should be used for r?",
+      "options": ["5 cm", "10 cm", "20 cm", "40 cm"],
+      "correctAnswer": 1,
+      "explanation": "The width through the center is the diameter. The radius is half of 20 cm, so r = 10 cm.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "A sphere has diameter 18 m. What is its radius in meters? Enter just the number.",
+      "correctAnswer": "9",
+      "explanation": "The radius is half the diameter: 18 / 2 = 9.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Which setup correctly finds the volume of a sphere with radius 7 in using pi = 3.14?",
+      "options": ["(4/3)(3.14)(7^2)", "(4/3)(3.14)(7^3)", "(3.14)(7^3)", "(4)(3.14)(7^2)"],
+      "correctAnswer": 1,
+      "explanation": "Sphere volume is V = (4/3)pi r^3. With r = 7, the correct setup is (4/3)(3.14)(7^3).",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "A sphere with diameter 6 cm has the same volume as a sphere with radius 6 cm.",
+      "correctAnswer": "false",
+      "explanation": "A sphere with diameter 6 cm has radius 3 cm. A sphere with radius 6 cm is much larger.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A sphere has radius 2 m. Using pi = 3.14, find its volume in m^3. Round to the nearest hundredth and enter just the number.",
+      "correctAnswer": "33.49",
+      "explanation": "V = (4/3)(3.14)(2^3) = (4/3)(3.14)(8) = 33.49 m^3.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A spherical tank has diameter 12 m. Using pi = 3.14, what is its approximate volume?",
+      "options": ["288.00 m^3", "452.16 m^3", "904.32 m^3", "7234.56 m^3"],
+      "correctAnswer": 2,
+      "explanation": "First find the radius: 12 / 2 = 6 m. Then V = (4/3)(3.14)(6^3) = 904.32 m^3.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A small marble has radius 1.5 cm. Using pi = 3.14, which is closest to its volume?",
+      "options": ["4.71 cm^3", "9.42 cm^3", "14.13 cm^3", "28.26 cm^3"],
+      "correctAnswer": 2,
+      "explanation": "1.5^3 = 3.375. V = (4/3)(3.14)(3.375) = 14.13 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A spherical sports ball has diameter 22 cm. Use pi = 3.14 to find its approximate volume. Show the radius you used.",
+      "correctAnswer": "The radius is 11 cm. V = (4/3)(3.14)(11^3) = (4/3)(3.14)(1331) = about 5572.45 cm^3.",
+      "explanation": "The diameter must be halved before using the formula. With r = 11, the volume is about 5572.45 cm^3.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A student says a sphere with diameter 10 cm has volume about 4186.67 cm^3 because V = (4/3)(3.14)(10^3). Explain why this is incorrect and give the correct volume.",
+      "correctAnswer": "The student used the diameter as the radius. The correct radius is 5 cm, so V = (4/3)(3.14)(5^3) = about 523.33 cm^3.",
+      "explanation": "The formula requires r, not d. Halving the diameter changes the cubed value from 1000 to 125, so the correct volume is much smaller.",
+      "points": 10
+    }
+  ]
+}

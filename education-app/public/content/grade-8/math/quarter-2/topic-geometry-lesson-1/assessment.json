@@ -1,0 +1,97 @@
+{
+  "examId": "grade-8-math-q2-geometry-lesson-1-assessment",
+  "examType": "assessment",
+  "title": "Coordinate Plane Basics Assessment",
+  "description": "Show that you can identify axes, origin, quadrants, ordered pairs, and plot or name points accurately.",
+  "passingScore": 75,
+  "timeLimit": 30,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement correctly describes the y-axis?",
+      "options": ["It is the horizontal axis.", "It is the vertical axis.", "It is the point (0, 0).", "It is any point in Quadrant I."],
+      "correctAnswer": 1,
+      "explanation": "The y-axis is the vertical number line on the coordinate plane.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which point is 6 units left and 1 unit up from the origin?",
+      "options": ["(6, 1)", "(-6, 1)", "(1, -6)", "(-1, 6)"],
+      "correctAnswer": 1,
+      "explanation": "Left gives a negative x-coordinate and up gives a positive y-coordinate, so the point is (-6, 1).",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which quadrant contains the point (-4, -8)?",
+      "options": ["Quadrant I", "Quadrant II", "Quadrant III", "Quadrant IV"],
+      "correctAnswer": 2,
+      "explanation": "Both coordinates are negative, so the point has sign pattern (-, -), which is Quadrant III.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "The point (7, 0) is on the x-axis.",
+      "correctAnswer": "true",
+      "explanation": "A point is on the x-axis when its y-coordinate is 0.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A point has sign pattern (-, +). Which location matches it?",
+      "options": ["Quadrant I", "Quadrant II", "Quadrant III", "Quadrant IV"],
+      "correctAnswer": 1,
+      "explanation": "Negative x means left of the y-axis, and positive y means above the x-axis. That region is Quadrant II.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Write the ordered pair for a point 5 units left and 3 units down from the origin.",
+      "correctAnswer": "(-5, -3)",
+      "explanation": "Left gives x = -5, and down gives y = -3. The ordered pair is (-5, -3).",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which point is located on the y-axis?",
+      "options": ["(-2, 0)", "(0, 9)", "(4, 4)", "(8, -1)"],
+      "correctAnswer": 1,
+      "explanation": "A point is on the y-axis when x = 0, so (0, 9) is on the y-axis.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "A plotted point is 4 units right of the origin and 2 units above the x-axis. Write its ordered pair.",
+      "correctAnswer": "(4, 2)",
+      "explanation": "Right gives x = 4, and above the x-axis means y = 2. The ordered pair is (4, 2).",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Explain why (0, -3) is not in Quadrant IV.",
+      "correctAnswer": "The point (0, -3) has x-coordinate 0, so it lies on the y-axis. Points on an axis are not in any quadrant.",
+      "explanation": "Quadrant IV has positive x-values and negative y-values. Since x = 0, the point is on the y-axis instead.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A learner plots (-2, 5) by moving 2 units right and 5 units up. Identify the mistake and give the correct movement.",
+      "correctAnswer": "The mistake is using the wrong direction for the x-coordinate. Since x = -2, the correct movement is 2 units left and 5 units up.",
+      "explanation": "A negative x-coordinate means left, not right. The y-coordinate 5 still means up.",
+      "points": 10
+    }
+  ]
+}
