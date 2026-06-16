@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Diameter to radius conversion</title>
+  <desc id="desc">A three-step visual conversion from an 18 centimeter diameter to a 9 centimeter radius before substituting into the sphere volume formula.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect width="760" height="420" rx="18" fill="#f8fafc"/>
+  <text x="54" y="54" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">When diameter is given, halve it first</text>
+  <circle cx="158" cy="200" r="82" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+  <line x1="76" y1="200" x2="240" y2="200" stroke="#111827" stroke-width="4" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="109" y="189" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">18 cm</text>
+  <text x="91" y="313" font-family="Arial, sans-serif" font-size="18" fill="#334155">given diameter</text>
+  <line x1="272" y1="200" x2="350" y2="200" stroke="#334155" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="360" y="137" width="174" height="126" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="397" y="177" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">18 / 2</text>
+  <line x1="390" y1="198" x2="504" y2="198" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="413" y="233" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f766e">9 cm</text>
+  <line x1="548" y1="200" x2="622" y2="200" stroke="#334155" stroke-width="3" marker-end="url(#arrow)"/>
+  <circle cx="652" cy="200" r="64" fill="#ccfbf1" stroke="#0f766e" stroke-width="3"/>
+  <line x1="652" y1="200" x2="716" y2="200" stroke="#0f766e" stroke-width="4" marker-end="url(#arrow)"/>
+  <circle cx="652" cy="200" r="5" fill="#111827"/>
+  <text x="664" y="190" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#0f766e">r = 9</text>
+  <text x="574" y="313" font-family="Arial, sans-serif" font-size="18" fill="#334155">use radius in formula</text>
+  <text x="180" y="372" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">V = (4/3)(3.14)(9^3)</text>
+</svg>

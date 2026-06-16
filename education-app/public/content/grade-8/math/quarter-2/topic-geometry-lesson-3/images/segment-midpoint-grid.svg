@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Segment midpoint on a coordinate grid</title>
+  <desc id="desc">A coordinate grid showing segment AB with midpoint M exactly halfway between A at negative four comma one and B at four comma five.</desc>
+  <rect width="760" height="420" fill="#f8fafc"/>
+  <g transform="translate(380 220)">
+    <g stroke="#d6dee8" stroke-width="1">
+      <path d="M-320 -160H320M-320 -120H320M-320 -80H320M-320 -40H320M-320 0H320M-320 40H320M-320 80H320M-320 120H320M-320 160H320"/>
+      <path d="M-320 -160V160M-280 -160V160M-240 -160V160M-200 -160V160M-160 -160V160M-120 -160V160M-80 -160V160M-40 -160V160M0 -160V160M40 -160V160M80 -160V160M120 -160V160M160 -160V160M200 -160V160M240 -160V160M280 -160V160M320 -160V160"/>
+    </g>
+    <path d="M-320 0H320" stroke="#334155" stroke-width="2"/>
+    <path d="M0 -160V160" stroke="#334155" stroke-width="2"/>
+    <path d="M-160 -40L160 -120" stroke="#2563eb" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="-160" cy="-40" r="10" fill="#dc2626"/>
+    <circle cx="0" cy="-80" r="11" fill="#0f766e"/>
+    <circle cx="160" cy="-120" r="10" fill="#dc2626"/>
+    <text x="-192" y="-55" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#991b1b">A</text>
+    <text x="174" y="-126" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#991b1b">B</text>
+    <text x="15" y="-92" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0f766e">M</text>
+    <path d="M-160 -10C-95 28 -55 28 0 -50" fill="none" stroke="#0f766e" stroke-width="2" stroke-dasharray="6 6"/>
+    <path d="M0 -50C62 0 103 -25 160 -90" fill="none" stroke="#0f766e" stroke-width="2" stroke-dasharray="6 6"/>
+    <text x="-132" y="34" font-family="Arial, sans-serif" font-size="18" fill="#0f766e">same distance</text>
+    <text x="28" y="-18" font-family="Arial, sans-serif" font-size="18" fill="#0f766e">same distance</text>
+  </g>
+  <text x="40" y="44" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">Midpoint means halfway</text>
+  <text x="40" y="76" font-family="Arial, sans-serif" font-size="18" fill="#475569">M divides segment AB into two equal parts.</text>
+</svg>

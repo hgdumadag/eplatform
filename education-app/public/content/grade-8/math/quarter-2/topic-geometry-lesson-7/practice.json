@@ -1,0 +1,80 @@
+{
+  "examId": "grade-8-math-q2-geometry-lesson-7-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 7 Practice: Pythagorean Theorem",
+  "description": "Practice identifying legs and hypotenuse, then setting up squared-side equations for missing sides of right triangles.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "In a right triangle, which side is the hypotenuse?",
+      "options": ["Either side that forms the right angle", "The side across from the right angle", "The shortest side", "The side drawn horizontally"],
+      "correctAnswer": 1,
+      "explanation": "The hypotenuse is always the side across from the right angle. It is not defined by the diagram's orientation.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A right triangle has legs 3 cm and 4 cm. Which equation correctly sets up the missing hypotenuse?",
+      "options": ["3 + 4 = c", "3^2 + 4^2 = c^2", "c^2 + 3^2 = 4^2", "3^2 - 4^2 = c^2"],
+      "correctAnswer": 1,
+      "explanation": "For a missing hypotenuse, add the squares of the two legs: 3^2 + 4^2 = c^2.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "A right triangle has legs 6 and 8. What is the value of c^2? Enter just the number.",
+      "correctAnswer": "100",
+      "explanation": "Set up 6^2 + 8^2 = c^2. Then 36 + 64 = 100, so c^2 = 100.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A right triangle has hypotenuse 10 m and one leg 6 m. Which setup should be used to find the missing leg b?",
+      "options": ["6^2 + b^2 = 10^2", "10^2 + 6^2 = b^2", "6 + b = 10", "10^2 - b^2 = 6"],
+      "correctAnswer": 0,
+      "explanation": "The hypotenuse must be in the c position, so the correct setup is 6^2 + b^2 = 10^2.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "A right triangle has hypotenuse 13 and one leg 5. What is the missing leg? Enter just the number.",
+      "correctAnswer": "12",
+      "explanation": "Use 5^2 + b^2 = 13^2. Then 25 + b^2 = 169, so b^2 = 144 and b = 12.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "If the missing side is the hypotenuse, the two known leg squares should be added.",
+      "correctAnswer": "true",
+      "explanation": "A missing hypotenuse setup has leg^2 + leg^2 = c^2, so the two known squares are added.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A ladder reaches 12 ft up a wall and its base is 5 ft from the wall. Which equation finds the ladder length c?",
+      "options": ["12^2 - 5^2 = c^2", "5^2 + 12^2 = c^2", "c^2 + 5^2 = 12^2", "5 + 12 = c^2"],
+      "correctAnswer": 1,
+      "explanation": "The wall and ground distances are legs, and the ladder is the hypotenuse. Use 5^2 + 12^2 = c^2.",
+      "points": 12
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A student solves a triangle with hypotenuse 15 and one leg 9 by writing 15^2 + 9^2 = b^2. Explain the mistake and write the correct setup.",
+      "correctAnswer": "The student added the hypotenuse square as if it were a leg. The hypotenuse belongs alone on the c^2 side, so the correct setup is 9^2 + b^2 = 15^2.",
+      "explanation": "In a^2 + b^2 = c^2, c is the hypotenuse. A known hypotenuse is not added to a leg square; it is placed on the right side of the equation.",
+      "points": 16
+    }
+  ]
+}

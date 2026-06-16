@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="330" viewBox="0 0 760 330" role="img">
+  <title>Missing side range on a number line</title>
+  <desc>A number line showing the possible third side values for known sides 6 and 11, with open endpoints at 5 and 17.</desc>
+  <rect width="760" height="330" fill="#f8fafc"/>
+  <text x="52" y="48" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#0f172a">Missing Side Range</text>
+  <text x="52" y="86" font-family="Arial, sans-serif" font-size="18" fill="#334155">Known sides: 6 cm and 11 cm</text>
+  <rect x="82" y="112" width="596" height="54" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="380" y="146" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">11 - 6 &lt; x &lt; 11 + 6</text>
+  <line x1="106" y1="234" x2="654" y2="234" stroke="#475569" stroke-width="4" stroke-linecap="round"/>
+  <line x1="224" y1="234" x2="536" y2="234" stroke="#2563eb" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="224" cy="234" r="12" fill="#ffffff" stroke="#2563eb" stroke-width="4"/>
+  <circle cx="536" cy="234" r="12" fill="#ffffff" stroke="#2563eb" stroke-width="4"/>
+  <text x="224" y="274" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">5</text>
+  <text x="536" y="274" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">17</text>
+  <text x="380" y="214" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1d4ed8">5 &lt; x &lt; 17</text>
+  <text x="380" y="302" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#64748b">Open circles mean 5 and 17 are not included.</text>
+</svg>

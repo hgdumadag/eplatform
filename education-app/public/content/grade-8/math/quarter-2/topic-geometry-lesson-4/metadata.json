@@ -1,0 +1,46 @@
+{
+  "id": "grade-8-math-q2-geometry-lesson-4-pyramid-volume-beyond-rectangular-bases",
+  "grade": 8,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Geometry - Lesson 4: Pyramid Volume Beyond Rectangular Bases",
+  "description": "Apply the pyramid volume formula V = one-third base area times height to pyramids with triangular, hexagonal, and other non-rectangular bases, with emphasis on identifying the correct base area before substituting.",
+  "learningObjectives": [
+    "Use V = (1/3)Bh to find the volume of pyramids with varied bases",
+    "Identify B as the area of the base, not just one base length",
+    "Distinguish perpendicular height from slant height in pyramid diagrams",
+    "Compute base areas for triangular, rectangular, and regular polygon bases before finding volume",
+    "Explain why volume is measured in cubic units"
+  ],
+  "estimatedDuration": 60,
+  "difficulty": "intermediate",
+  "tags": [
+    "number-and-algebra",
+    "measurement-and-geometry",
+    "geometry",
+    "pyramids",
+    "volume",
+    "base-area"
+  ],
+  "prerequisites": [
+    "Area of triangles",
+    "Area of rectangles",
+    "Area of regular polygons",
+    "Substitution into formulas",
+    "Multiplication with fractions"
+  ],
+  "lastUpdated": "2026-06-16",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/pyramid-formula-anatomy.svg",
+      "images/triangular-base-pyramid.svg",
+      "images/hexagonal-base-area.svg",
+      "images/base-vs-slant-height-warning.svg",
+      "images/worked-volume-setup.svg"
+    ]
+  }
+}

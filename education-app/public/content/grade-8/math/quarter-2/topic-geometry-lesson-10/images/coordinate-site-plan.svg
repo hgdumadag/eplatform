@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="440" viewBox="0 0 720 440" role="img" aria-labelledby="title desc">
+  <title id="title">Coordinate Site Plan</title>
+  <desc id="desc">A coordinate grid showing a rectangular platform with points A, B, C, D and a triangular roof point E.</desc>
+  <rect width="720" height="440" fill="#f8fafc"/>
+  <g transform="translate(70 360)">
+    <g stroke="#d6dde8" stroke-width="1">
+      <path d="M0 0H560M0 -40H560M0 -80H560M0 -120H560M0 -160H560M0 -200H560M0 -240H560M0 -280H560M0 -320H560"/>
+      <path d="M0 0V-320M40 0V-320M80 0V-320M120 0V-320M160 0V-320M200 0V-320M240 0V-320M280 0V-320M320 0V-320M360 0V-320M400 0V-320M440 0V-320M480 0V-320M520 0V-320M560 0V-320"/>
+    </g>
+    <path d="M0 0H585" stroke="#334155" stroke-width="2"/>
+    <path d="M0 0V-345" stroke="#334155" stroke-width="2"/>
+    <path d="M40 -40H360V-240H40Z" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+    <path d="M40 -240L200 -360L360 -240Z" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+    <g fill="#0f172a" font-family="Arial, sans-serif" font-size="18" font-weight="700">
+      <text x="28" y="-18">A(1,1)</text>
+      <text x="340" y="-18">B(9,1)</text>
+      <text x="370" y="-232">C(9,6)</text>
+      <text x="20" y="-252">D(1,6)</text>
+      <text x="212" y="-360">E(5,9)</text>
+    </g>
+    <g fill="#0f172a">
+      <circle cx="40" cy="-40" r="6"/>
+      <circle cx="360" cy="-40" r="6"/>
+      <circle cx="360" cy="-240" r="6"/>
+      <circle cx="40" cy="-240" r="6"/>
+      <circle cx="200" cy="-360" r="6"/>
+    </g>
+    <g fill="#64748b" font-family="Arial, sans-serif" font-size="14">
+      <text x="560" y="28">x</text>
+      <text x="-26" y="-326">y</text>
+      <text x="175" y="-125">platform</text>
+      <text x="152" y="-265">triangular support</text>
+    </g>
+  </g>
+</svg>

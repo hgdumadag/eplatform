@@ -1,0 +1,80 @@
+{
+  "examId": "grade-8-math-q2-geometry-lesson-9-practice",
+  "examType": "practice",
+  "title": "Geometry - Lesson 9 Practice: Triangle Inequality",
+  "description": "Practice deciding whether side lengths form a triangle and finding possible missing-side ranges.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which set of side lengths can form a triangle?",
+      "options": ["2, 3, 5", "4, 5, 10", "6, 7, 8", "1, 6, 8"],
+      "correctAnswer": 2,
+      "explanation": "For 6, 7, and 8, the two shorter sides add to 13, and 13 > 8. The other choices have shorter sides whose sum is equal to or less than the longest side.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "true-false",
+      "question": "Side lengths 3 cm, 4 cm, and 7 cm form a triangle because 3 + 4 = 7.",
+      "correctAnswer": "false",
+      "explanation": "The sum of the two shorter sides must be greater than the longest side. Equality makes a straight line, not a triangle.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Two sides of a triangle are 5 cm and 9 cm. Which inequality shows the possible values of the third side, x?",
+      "options": ["4 < x < 14", "5 < x < 9", "x < 4 or x > 14", "4 <= x <= 14"],
+      "correctAnswer": 0,
+      "explanation": "Use difference < x < sum. Since 9 - 5 = 4 and 9 + 5 = 14, the range is 4 < x < 14.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "Do side lengths 8, 10, and 17 form a triangle? Enter yes or no.",
+      "correctAnswer": "yes",
+      "explanation": "The two shorter sides are 8 and 10. Their sum is 18, and 18 > 17, so the lengths can form a triangle.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Two sides of a triangle are 7 m and 12 m. Which value could be the third side?",
+      "options": ["5 m", "19 m", "4 m", "10 m"],
+      "correctAnswer": 3,
+      "explanation": "The third side must satisfy 5 < x < 19. Only 10 m is inside that range. The values 5 and 19 are endpoints, and 4 is too small.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Two sides are 6 units and 15 units. If x is a whole-number third side, what is the smallest possible value of x?",
+      "options": ["8", "9", "10", "21"],
+      "correctAnswer": 2,
+      "explanation": "The range is 15 - 6 < x < 15 + 6, so 9 < x < 21. The smallest whole number greater than 9 is 10.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "For side lengths 4, 11, and 16, add the two shorter sides. Enter just the sum.",
+      "correctAnswer": "15",
+      "explanation": "The two shorter sides are 4 and 11. Their sum is 15, which is less than 16, so these lengths do not form a triangle.",
+      "points": 12
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Two sides of a triangle are 8 cm and 13 cm. Explain how to find the possible range for the third side x.",
+      "correctAnswer": "Subtract and add the known sides. The difference is 13 - 8 = 5 and the sum is 13 + 8 = 21, so the third side must satisfy 5 < x < 21.",
+      "explanation": "The lower limit comes from the difference of the known sides, and the upper limit comes from their sum. Both limits use strict inequalities.",
+      "points": 16
+    }
+  ]
+}

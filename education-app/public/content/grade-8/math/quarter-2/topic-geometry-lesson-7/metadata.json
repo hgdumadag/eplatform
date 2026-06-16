@@ -1,0 +1,47 @@
+{
+  "id": "grade-8-math-q2-geometry-lesson-7",
+  "grade": 8,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Geometry - Lesson 7: Pythagorean Theorem",
+  "description": "Use the Pythagorean Theorem to set up squared-side equations and find missing side lengths in right triangles.",
+  "learningObjectives": [
+    "Identify the legs and hypotenuse of a right triangle",
+    "Use a^2 + b^2 = c^2 to set up an equation for a missing side",
+    "Find a missing hypotenuse by adding the squares of the legs",
+    "Find a missing leg by subtracting the known leg square from the hypotenuse square",
+    "Check whether a word problem needs the hypotenuse or a leg"
+  ],
+  "prerequisites": [
+    "Recognize right angles in geometric figures",
+    "Evaluate squares such as 6^2 and 10^2",
+    "Use square roots to undo squaring",
+    "Solve one-step equations involving addition or subtraction"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "number and algebra",
+    "measurement and geometry",
+    "geometry",
+    "right triangles",
+    "pythagorean theorem",
+    "hypotenuse",
+    "square roots",
+    "equations"
+  ],
+  "lastUpdated": "2026-06-16",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/right-triangle-parts.svg",
+      "images/squares-on-sides-model.svg",
+      "images/missing-hypotenuse-setup.svg",
+      "images/missing-leg-setup.svg",
+      "images/ladder-hypotenuse-trap.svg"
+    ]
+  }
+}

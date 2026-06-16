@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Horizontal distance on a coordinate grid</title>
+  <desc id="desc">Points A at negative three comma two and B at four comma two are connected by a horizontal segment with distance seven units.</desc>
+  <rect width="760" height="420" fill="#f8fafc"/>
+  <g transform="translate(380 210)">
+    <g stroke="#d8dee9" stroke-width="1">
+      <path d="M-300 -160H300 M-300 -120H300 M-300 -80H300 M-300 -40H300 M-300 0H300 M-300 40H300 M-300 80H300 M-300 120H300 M-300 160H300"/>
+      <path d="M-300 -160V160 M-260 -160V160 M-220 -160V160 M-180 -160V160 M-140 -160V160 M-100 -160V160 M-60 -160V160 M-20 -160V160 M20 -160V160 M60 -160V160 M100 -160V160 M140 -160V160 M180 -160V160 M220 -160V160 M260 -160V160 M300 -160V160"/>
+    </g>
+    <path d="M-320 0H320" stroke="#334155" stroke-width="2"/>
+    <path d="M0 175V-175" stroke="#334155" stroke-width="2"/>
+    <path d="M-120 -80H160" stroke="#2563eb" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="-120" cy="-80" r="9" fill="#dc2626"/>
+    <circle cx="160" cy="-80" r="9" fill="#16a34a"/>
+    <text x="-150" y="-100" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#991b1b">A(-3, 2)</text>
+    <text x="172" y="-100" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#166534">B(4, 2)</text>
+    <text x="-20" y="-106" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1d4ed8">|4 - (-3)| = 7</text>
+    <text x="-20" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#475569">Same y-coordinate: compare x-values</text>
+  </g>
+</svg>

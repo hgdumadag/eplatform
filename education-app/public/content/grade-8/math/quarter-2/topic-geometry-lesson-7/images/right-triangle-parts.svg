@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Right triangle parts</title>
+  <desc id="desc">A right triangle with legs labeled a and b and hypotenuse labeled c opposite the right angle.</desc>
+  <rect width="720" height="420" fill="#f7fafc"/>
+  <path d="M150 315 L150 95 L510 315 Z" fill="#e8f4ff" stroke="#1f4e79" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M150 315 L150 270 L195 270 L195 315 Z" fill="none" stroke="#1f4e79" stroke-width="4"/>
+  <text x="119" y="210" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#24515f">leg a</text>
+  <text x="300" y="354" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#24515f">leg b</text>
+  <text x="350" y="185" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#8a3b12" transform="rotate(31 350 185)">hypotenuse c</text>
+  <circle cx="150" cy="315" r="8" fill="#1f4e79"/>
+  <text x="72" y="350" font-family="Arial, sans-serif" font-size="20" fill="#334155">right angle</text>
+  <text x="118" y="62" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">The hypotenuse is across from the right angle.</text>
+</svg>

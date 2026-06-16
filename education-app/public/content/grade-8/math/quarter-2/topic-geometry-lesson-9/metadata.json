@@ -1,0 +1,47 @@
+{
+  "id": "grade-8-math-q2-geometry-lesson-9",
+  "grade": 8,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Geometry - Lesson 9: Triangle Inequality",
+  "description": "Determine whether three side lengths can form a triangle and find possible ranges for a missing side length.",
+  "learningObjectives": [
+    "State the triangle inequality rule for three side lengths",
+    "Determine whether three given lengths can form a triangle",
+    "Explain why equality is not enough to form a triangle",
+    "Find the possible range for a missing side using the difference and sum of the other two sides",
+    "Represent missing side ranges with inequalities and number-line diagrams"
+  ],
+  "prerequisites": [
+    "Compare whole numbers and decimals",
+    "Add and subtract positive numbers",
+    "Use inequality symbols such as < and >",
+    "Recognize that a triangle is a closed three-sided figure"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "number and algebra",
+    "measurement and geometry",
+    "geometry",
+    "triangle inequality",
+    "triangles",
+    "inequalities",
+    "missing side",
+    "side lengths"
+  ],
+  "lastUpdated": "2026-06-16",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/side-strips-triangle.svg",
+      "images/triangle-inequality-rule-map.svg",
+      "images/valid-invalid-examples.svg",
+      "images/missing-side-range-number-line.svg",
+      "images/equality-not-enough-trap.svg"
+    ]
+  }
+}

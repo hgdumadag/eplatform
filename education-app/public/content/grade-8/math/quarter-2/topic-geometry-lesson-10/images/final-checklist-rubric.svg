@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Final Checklist and Rubric</title>
+  <desc id="desc">A four-part rubric visual for coordinates, measurement, triangle validity, and volume evidence.</desc>
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <g font-family="Arial, sans-serif">
+    <text x="218" y="40" font-size="24" font-weight="700" fill="#0f172a">Application Task Evidence</text>
+    <g transform="translate(46 78)">
+      <rect width="296" height="96" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+      <circle cx="36" cy="48" r="18" fill="#2563eb"/>
+      <path d="M27 48l7 7 14-18" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="38" font-size="19" font-weight="700" fill="#1e3a8a">Coordinates</text>
+      <text x="70" y="64" font-size="15" fill="#1f2937">Points are labeled and explained.</text>
+    </g>
+    <g transform="translate(378 78)">
+      <rect width="296" height="96" rx="8" fill="#fefce8" stroke="#eab308" stroke-width="2"/>
+      <circle cx="36" cy="48" r="18" fill="#ca8a04"/>
+      <path d="M27 48l7 7 14-18" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="38" font-size="19" font-weight="700" fill="#713f12">Measurement</text>
+      <text x="70" y="64" font-size="15" fill="#1f2937">Distance and midpoint are shown.</text>
+    </g>
+    <g transform="translate(46 206)">
+      <rect width="296" height="96" rx="8" fill="#ecfdf5" stroke="#22c55e" stroke-width="2"/>
+      <circle cx="36" cy="48" r="18" fill="#16a34a"/>
+      <path d="M27 48l7 7 14-18" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="38" font-size="19" font-weight="700" fill="#14532d">Triangle validity</text>
+      <text x="70" y="64" font-size="15" fill="#1f2937">Side lengths pass inequality checks.</text>
+    </g>
+    <g transform="translate(378 206)">
+      <rect width="296" height="96" rx="8" fill="#fff1f2" stroke="#fb7185" stroke-width="2"/>
+      <circle cx="36" cy="48" r="18" fill="#e11d48"/>
+      <path d="M27 48l7 7 14-18" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="38" font-size="19" font-weight="700" fill="#881337">Volume</text>
+      <text x="70" y="64" font-size="15" fill="#1f2937">Each solid uses the correct formula.</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,97 @@
+{
+  "examId": "grade-8-math-q2-geometry-lesson-2-assessment",
+  "examType": "assessment",
+  "title": "Distance on the Coordinate Plane Assessment",
+  "description": "Show mastery of horizontal, vertical, and diagonal coordinate-plane distance with coordinate-difference reasoning.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A segment has endpoints (-7, -2) and (3, -2). What is its length?",
+      "options": ["4 units", "5 units", "10 units", "14 units"],
+      "correctAnswer": 2,
+      "explanation": "The y-coordinates are equal, so compare x-coordinates: |3 - (-7)| = 10 units.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A segment has endpoints (6, 8) and (6, -1). What is its length?",
+      "options": ["7 units", "9 units", "14 units", "15 units"],
+      "correctAnswer": 1,
+      "explanation": "The x-coordinates are equal, so compare y-coordinates: |8 - (-1)| = 9 units.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "Find the distance between (0, 0) and (8, 15). Give the number of units.",
+      "correctAnswer": "17",
+      "explanation": "The coordinate differences are 8 and 15, so d = sqrt(8^2 + 15^2) = sqrt(289) = 17 units.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Which pair of points is exactly 12 units apart?",
+      "options": ["(-2, 5) and (10, 4)", "(3, -6) and (3, 6)", "(-1, -1) and (7, 7)", "(0, 2) and (6, 8)"],
+      "correctAnswer": 1,
+      "explanation": "The points (3, -6) and (3, 6) have the same x-coordinate and |6 - (-6)| = 12.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "short-answer",
+      "question": "Find the distance between A(-4, 1) and B(2, 9). Show the coordinate differences you used.",
+      "correctAnswer": "The coordinate differences are |2 - (-4)| = 6 and |9 - 1| = 8. The distance is sqrt(6^2 + 8^2) = sqrt(100) = 10 units.",
+      "explanation": "A complete solution uses both coordinate differences, 6 and 8, then applies the distance formula to get 10 units.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "The distance between (-5, 4) and (-1, 1) is 7 units because 4 + 3 = 7.",
+      "correctAnswer": "false",
+      "explanation": "The coordinate differences are 4 and 3, but a diagonal distance is sqrt(4^2 + 3^2) = 5 units, not 7 units.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "For points M(-8, -3) and N(-2, 5), which expression correctly starts the distance formula?",
+      "options": ["sqrt(6^2 + 8^2)", "sqrt((-10)^2 + 2^2)", "sqrt(8^2 + 3^2)", "sqrt(6 + 8)"],
+      "correctAnswer": 0,
+      "explanation": "The positive coordinate differences are |-2 - (-8)| = 6 and |5 - (-3)| = 8, so start with sqrt(6^2 + 8^2).",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "Find the vertical distance between ( -2, -9 ) and ( -2, -3 ). Give the number of units.",
+      "correctAnswer": "6",
+      "explanation": "The x-coordinates are the same. Compare y-coordinates: |-3 - (-9)| = 6 units.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "A map grid shows a library at (-1, 2) and a school at (11, 7). What is the straight-line distance?",
+      "options": ["13 units", "17 units", "sqrt(119) units", "sqrt(194) units"],
+      "correctAnswer": 0,
+      "explanation": "The coordinate differences are 12 and 5. The distance is sqrt(12^2 + 5^2) = sqrt(169) = 13 units.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A student says the distance between P(2, -4) and Q(8, 4) is -10 because one coordinate is negative. Correct the student's reasoning.",
+      "correctAnswer": "Distance cannot be negative. The coordinate differences are |8 - 2| = 6 and |4 - (-4)| = 8, so the diagonal distance is sqrt(6^2 + 8^2) = 10 units.",
+      "explanation": "A correct correction states that distance is nonnegative and uses the coordinate differences 6 and 8 to find a distance of 10 units.",
+      "points": 10
+    }
+  ]
+}

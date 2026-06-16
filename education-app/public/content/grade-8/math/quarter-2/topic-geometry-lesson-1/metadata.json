@@ -1,0 +1,44 @@
+{
+  "id": "grade-8-math-q2-geometry-lesson-1",
+  "grade": 8,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Geometry - Lesson 1: Coordinate Plane Basics",
+  "description": "Identify the axes, origin, quadrants, and ordered pairs on the coordinate plane, then plot and name points accurately.",
+  "learningObjectives": [
+    "Identify the x-axis, y-axis, and origin on a coordinate plane",
+    "Read ordered pairs in the form (x, y)",
+    "Use coordinate signs to name the correct quadrant",
+    "Plot points from ordered pairs accurately",
+    "Name plotted points using ordered pairs"
+  ],
+  "estimatedDuration": 35,
+  "difficulty": "beginner",
+  "tags": [
+    "number-and-algebra",
+    "measurement-and-geometry",
+    "coordinate-plane",
+    "ordered-pairs",
+    "quadrants",
+    "plotting-points"
+  ],
+  "lastUpdated": "2026-06-16",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/coordinate-plane-axes-origin.svg",
+      "images/quadrant-map.svg",
+      "images/ordered-pair-walking-path.svg",
+      "images/plotted-points-examples.svg",
+      "images/common-sign-error.svg"
+    ]
+  },
+  "prerequisites": [
+    "Positive and negative integers",
+    "Horizontal and vertical directions",
+    "Reading values on a number line"
+  ]
+}

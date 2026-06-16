@@ -1,0 +1,122 @@
+{
+  "examId": "grade-8-math-q2-geometry-lesson-3-assessment",
+  "examType": "assessment",
+  "title": "Midpoint of a Segment Assessment",
+  "description": "Demonstrate mastery of solving midpoint problems from endpoint coordinates.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Find the midpoint of $(4, -2)$ and $(12, 6)$.",
+      "options": [
+        "$(8, 2)",
+        "$(16, 4)",
+        "$(6, 8)",
+        "$(4, 12)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$\\frac{4 + 12}{2} = 8$ and $\\frac{-2 + 6}{2} = 2$, so the midpoint is $(8, 2)$.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "Find the midpoint of $(-5, 7)$ and $(9, -1)$. Enter as an ordered pair.",
+      "correctAnswer": "(2, 3)",
+      "explanation": "$\\frac{-5 + 9}{2} = 2$ and $\\frac{7 + (-1)}{2} = 3$, so the midpoint is $(2, 3)$.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A vertical segment has endpoints $(6, -8)$ and $(6, 4)$. What is its midpoint?",
+      "options": [
+        "$(6, -2)",
+        "$(0, -2)",
+        "$(6, 6)",
+        "$(3, -4)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The x-coordinate stays $6$. Average the y-values: $\\frac{-8 + 4}{2} = -2$. The midpoint is $(6, -2)$.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "The midpoint of $(-10, -4)$ and $(2, 8)$ is $(-4, 2)$.",
+      "correctAnswer": "true",
+      "explanation": "$\\frac{-10 + 2}{2} = -4$ and $\\frac{-4 + 8}{2} = 2$, so $(-4, 2)$ is correct.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which point is halfway between $A(-7, 2)$ and $B(1, 10)$?",
+      "options": [
+        "$(-3, 6)$",
+        "$(-4, 8)$",
+        "$(4, 6)$",
+        "$(-6, 12)$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Halfway from $-7$ to $1$ is $-3$, and halfway from $2$ to $10$ is $6$. The midpoint is $(-3, 6)$.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Find the y-coordinate of the midpoint of $(14, -9)$ and $(-2, 5)$. Enter just the number.",
+      "correctAnswer": "-2",
+      "explanation": "Average the y-coordinates only: $\\frac{-9 + 5}{2} = \\frac{-4}{2} = -2$.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A student finds the midpoint of $(3, 11)$ and $(9, -1)$ by calculating $\\left(\\frac{3+11}{2}, \\frac{9+(-1)}{2}\\right)$. What mistake did the student make?",
+      "options": [
+        "The student averaged an x-coordinate with a y-coordinate.",
+        "The student forgot to divide by 2.",
+        "The student changed the signs of both endpoints.",
+        "The student used the distance formula instead."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The setup should average x with x and y with y: $\\left(\\frac{3+9}{2}, \\frac{11+(-1)}{2}\\right)$.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "Find the midpoint of $(-12, 0)$ and $(0, -6)$. Enter as an ordered pair.",
+      "correctAnswer": "(-6, -3)",
+      "explanation": "$\\frac{-12 + 0}{2} = -6$ and $\\frac{0 + (-6)}{2} = -3$, so the midpoint is $(-6, -3)$.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A map shows a school at $(2, 3)$ and a library at $(10, 7)$. A park is built exactly halfway between them. What are the park's coordinates, and how did you find them?",
+      "correctAnswer": "The park is at (6, 5). I averaged the x-coordinates, (2 + 10)/2 = 6, and the y-coordinates, (3 + 7)/2 = 5.",
+      "explanation": "The midpoint represents the halfway location. Average the coordinates separately: $\\frac{2+10}{2}=6$ and $\\frac{3+7}{2}=5$.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "The midpoint of a segment is $(1, -4)$. One endpoint is $(-3, 2)$ and the other endpoint is $(5, -10)$. Which statement confirms this?",
+      "options": [
+        "$\\frac{-3 + 5}{2} = 1$ and $\\frac{2 + (-10)}{2} = -4$",
+        "$\\frac{-3 + 2}{2} = 1$ and $\\frac{5 + (-10)}{2} = -4$",
+        "$-3 + 5 = 1$ and $2 + (-10) = -4$",
+        "$\\frac{1 + (-4)}{2} = -3$ and $\\frac{2 + 5}{2} = -10$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "To confirm a midpoint, average the endpoints. The x-average is $1$ and the y-average is $-4$, matching $(1, -4)$.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="470" viewBox="0 0 760 470" role="img" aria-labelledby="title desc">
+  <title id="title">Squares on the sides model</title>
+  <desc id="desc">A right triangle with squares built on each side to show that the areas on the legs add to the area on the hypotenuse.</desc>
+  <rect width="760" height="470" fill="#fbfbf7"/>
+  <g opacity="0.96">
+    <rect x="110" y="160" width="120" height="120" fill="#d6eadf" stroke="#2f6f4e" stroke-width="4"/>
+    <rect x="230" y="280" width="160" height="160" fill="#dce8ff" stroke="#315f9f" stroke-width="4"/>
+    <path d="M230 280 L390 280 L230 160 Z" fill="#ffffff" stroke="#17324d" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M230 280 L230 160 L390 280 Z" fill="#eef6ff"/>
+    <path d="M230 280 L230 160 L390 280 Z" fill="none" stroke="#17324d" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M230 160 L390 280 L510 120 L350 0 Z" fill="#ffe8cc" stroke="#a65f00" stroke-width="4" transform="translate(0 28)"/>
+  </g>
+  <text x="135" y="228" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#22543d">a^2</text>
+  <text x="286" y="370" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#244f8f">b^2</text>
+  <text x="378" y="165" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#8a3b12">c^2</text>
+  <text x="92" y="74" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#0f172a">Pythagorean model</text>
+  <text x="92" y="112" font-family="Arial, sans-serif" font-size="24" fill="#334155">area on leg + area on leg = area on hypotenuse</text>
+  <text x="214" y="432" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#0f172a">a^2 + b^2 = c^2</text>
+</svg>

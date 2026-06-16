@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Midpoint formula walkthrough</title>
+  <desc id="desc">A step-by-step midpoint formula example for endpoints negative six comma four and two comma ten, resulting in midpoint negative two comma seven.</desc>
+  <rect width="760" height="420" fill="#ffffff"/>
+  <text x="48" y="50" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#0f172a">Formula walkthrough</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="48" y="82" width="664" height="62" rx="8" fill="#eef2ff" stroke="#818cf8"/>
+    <text x="72" y="121" font-size="24" font-weight="700" fill="#3730a3">Endpoints: A(-6, 4) and B(2, 10)</text>
+    <rect x="48" y="166" width="664" height="62" rx="8" fill="#f1f5f9" stroke="#cbd5e1"/>
+    <text x="72" y="205" font-size="24" fill="#0f172a">M = ((-6 + 2) / 2, (4 + 10) / 2)</text>
+    <rect x="48" y="250" width="664" height="62" rx="8" fill="#ecfeff" stroke="#67e8f9"/>
+    <text x="72" y="289" font-size="24" fill="#164e63">M = (-4 / 2, 14 / 2)</text>
+    <rect x="48" y="334" width="664" height="50" rx="8" fill="#dcfce7" stroke="#22c55e"/>
+    <text x="72" y="367" font-size="25" font-weight="700" fill="#166534">M = (-2, 7)</text>
+  </g>
+</svg>

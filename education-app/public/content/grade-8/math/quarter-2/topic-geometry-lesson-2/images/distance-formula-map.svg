@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Distance formula map</title>
+  <desc id="desc">A flow chart shows coordinates leading to x difference and y difference, then squares, sum, square root, and distance.</desc>
+  <rect width="760" height="420" fill="#f8fafc"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#475569"/>
+    </marker>
+  </defs>
+  <g font-family="Arial, sans-serif">
+    <rect x="45" y="55" width="180" height="84" rx="8" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+    <text x="135" y="88" text-anchor="middle" font-size="20" font-weight="700" fill="#075985">Two points</text>
+    <text x="135" y="116" text-anchor="middle" font-size="18" fill="#075985">(x1, y1), (x2, y2)</text>
+    <rect x="300" y="35" width="175" height="70" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+    <text x="387" y="65" text-anchor="middle" font-size="19" font-weight="700" fill="#166534">x-difference</text>
+    <text x="387" y="91" text-anchor="middle" font-size="18" fill="#166534">x2 - x1</text>
+    <rect x="300" y="135" width="175" height="70" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+    <text x="387" y="165" text-anchor="middle" font-size="19" font-weight="700" fill="#92400e">y-difference</text>
+    <text x="387" y="191" text-anchor="middle" font-size="18" fill="#92400e">y2 - y1</text>
+    <rect x="545" y="85" width="170" height="100" rx="8" fill="#f3e8ff" stroke="#7c3aed" stroke-width="2"/>
+    <text x="630" y="119" text-anchor="middle" font-size="19" font-weight="700" fill="#5b21b6">Square and add</text>
+    <text x="630" y="151" text-anchor="middle" font-size="18" fill="#5b21b6">(Delta x)^2 + (Delta y)^2</text>
+    <rect x="242" y="275" width="278" height="82" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+    <text x="381" y="307" text-anchor="middle" font-size="20" font-weight="700" fill="#991b1b">Take the square root</text>
+    <text x="381" y="336" text-anchor="middle" font-size="20" fill="#991b1b">d = sqrt((x2-x1)^2 + (y2-y1)^2)</text>
+    <path d="M225 86H292" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M225 106C255 125 270 150 292 164" fill="none" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M475 70C510 72 520 98 538 118" fill="none" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M475 170C510 168 520 148 538 140" fill="none" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M630 185C620 250 540 295 528 310" fill="none" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+  </g>
+</svg>

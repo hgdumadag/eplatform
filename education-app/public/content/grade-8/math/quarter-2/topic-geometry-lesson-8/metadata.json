@@ -1,0 +1,49 @@
+{
+  "id": "grade-8-math-q2-geometry-lesson-8",
+  "grade": 8,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Geometry - Lesson 8: Converse of Pythagorean Theorem",
+  "description": "Classify triangles as right, acute, or obtuse by comparing the square of the longest side with the sum of the squares of the two shorter sides.",
+  "learningObjectives": [
+    "Order triangle side lengths and identify the longest side as c",
+    "Use the converse of the Pythagorean Theorem to test whether a triangle is right",
+    "Compare a^2 + b^2 with c^2 to classify triangles as right, acute, or obtuse",
+    "Decide when side lengths do not form a triangle before attempting classification",
+    "Avoid the common error of choosing c before sorting the side lengths"
+  ],
+  "prerequisites": [
+    "Find squares of whole numbers and decimals",
+    "Use the Pythagorean Theorem for right triangles",
+    "Compare numerical expressions",
+    "Apply the triangle inequality informally"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "number and algebra",
+    "measurement and geometry",
+    "geometry",
+    "triangles",
+    "pythagorean theorem",
+    "converse",
+    "classification",
+    "right triangle",
+    "acute triangle",
+    "obtuse triangle"
+  ],
+  "lastUpdated": "2026-06-16",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/side-length-sorting.svg",
+      "images/right-triangle-converse-check.svg",
+      "images/acute-obtuse-comparison.svg",
+      "images/worked-classification-table.svg",
+      "images/common-longest-side-trap.svg"
+    ]
+  }
+}

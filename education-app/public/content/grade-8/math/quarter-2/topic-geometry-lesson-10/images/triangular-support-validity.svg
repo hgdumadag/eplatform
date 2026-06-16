@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Triangular Support Validity</title>
+  <desc id="desc">Two triangular support checks: a valid triangle with sides 5, 5, 8 and an invalid set with sides 3, 4, 8.</desc>
+  <rect width="720" height="360" fill="#f8fafc"/>
+  <g font-family="Arial, sans-serif">
+    <rect x="52" y="46" width="280" height="260" rx="8" fill="#ecfdf5" stroke="#22c55e" stroke-width="2"/>
+    <path d="M96 238L288 238L192 92Z" fill="#bbf7d0" stroke="#15803d" stroke-width="5"/>
+    <text x="176" y="86" font-size="18" font-weight="700" fill="#14532d">5</text>
+    <text x="86" y="170" font-size="18" font-weight="700" fill="#14532d">5</text>
+    <text x="184" y="264" font-size="18" font-weight="700" fill="#14532d">8</text>
+    <text x="90" y="286" font-size="20" font-weight="700" fill="#166534">Valid: 5 + 5 &gt; 8</text>
+    <rect x="388" y="46" width="280" height="260" rx="8" fill="#fff1f2" stroke="#fb7185" stroke-width="2"/>
+    <path d="M434 238L626 238L496 188" fill="none" stroke="#be123c" stroke-width="5" stroke-linejoin="round"/>
+    <text x="456" y="204" font-size="18" font-weight="700" fill="#881337">3</text>
+    <text x="552" y="204" font-size="18" font-weight="700" fill="#881337">4</text>
+    <text x="520" y="264" font-size="18" font-weight="700" fill="#881337">8</text>
+    <text x="418" y="286" font-size="20" font-weight="700" fill="#9f1239">Invalid: 3 + 4 &lt; 8</text>
+    <text x="238" y="32" font-size="22" font-weight="700" fill="#0f172a">Triangle Inequality Check</text>
+  </g>
+</svg>

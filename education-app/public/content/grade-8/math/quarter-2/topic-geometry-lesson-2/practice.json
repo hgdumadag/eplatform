@@ -1,0 +1,81 @@
+{
+  "examId": "grade-8-math-q2-geometry-lesson-2-practice",
+  "examType": "practice",
+  "title": "Distance on the Coordinate Plane Practice",
+  "description": "Practice finding horizontal, vertical, and diagonal distances using coordinate differences.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Find the distance between A(-4, 3) and B(2, 3).",
+      "options": ["2 units", "4 units", "6 units", "7 units"],
+      "correctAnswer": 2,
+      "explanation": "The y-coordinates are the same, so this is horizontal distance. Compare x-values: |2 - (-4)| = 6 units.",
+      "points": 13
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Find the distance between C(5, -2) and D(5, 4).",
+      "options": ["2 units", "5 units", "6 units", "9 units"],
+      "correctAnswer": 2,
+      "explanation": "The x-coordinates are the same, so this is vertical distance. Compare y-values: |4 - (-2)| = 6 units.",
+      "points": 13
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "If two points have the same y-coordinate, their distance can be found by comparing the x-coordinates.",
+      "correctAnswer": "true",
+      "explanation": "Points with the same y-coordinate are horizontally aligned, so the horizontal distance is the absolute difference of the x-coordinates.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Which formula finds the diagonal distance between (x1, y1) and (x2, y2)?",
+      "options": ["d = |x2 - x1| + |y2 - y1|", "d = sqrt((x2 - x1)^2 + (y2 - y1)^2)", "d = (x2 - x1)(y2 - y1)", "d = |x2 + x1| + |y2 + y1|"],
+      "correctAnswer": 1,
+      "explanation": "Diagonal distance comes from the Pythagorean Theorem, so use d = sqrt((x2 - x1)^2 + (y2 - y1)^2).",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "Find the distance between E(0, 0) and F(3, 4). Give the number of units.",
+      "correctAnswer": "5",
+      "explanation": "The coordinate differences are 3 and 4, so d = sqrt(3^2 + 4^2) = sqrt(25) = 5 units.",
+      "points": 13
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "For points P(-2, -1) and Q(4, 7), what are the positive coordinate differences?",
+      "options": ["Delta x = 2, Delta y = 6", "Delta x = 6, Delta y = 8", "Delta x = -6, Delta y = -8", "Delta x = 8, Delta y = 6"],
+      "correctAnswer": 1,
+      "explanation": "Compare x-values: |4 - (-2)| = 6. Compare y-values: |7 - (-1)| = 8.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "Explain why the distance between G(-3, 2) and H(-3, -5) is 7 units.",
+      "correctAnswer": "The x-coordinates are the same, so the segment is vertical. Compare the y-coordinates: |2 - (-5)| = 7, so the distance is 7 units.",
+      "explanation": "A correct explanation identifies the same x-coordinate and uses the absolute difference of the y-coordinates.",
+      "points": 13
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Find the distance between R(-1, 2) and S(5, 10).",
+      "options": ["10 units", "14 units", "sqrt(28) units", "sqrt(100) units"],
+      "correctAnswer": 0,
+      "explanation": "The coordinate differences are 6 and 8. Then d = sqrt(6^2 + 8^2) = sqrt(100) = 10 units.",
+      "points": 12
+    }
+  ]
+}

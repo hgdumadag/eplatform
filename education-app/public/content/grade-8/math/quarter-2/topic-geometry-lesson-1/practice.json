@@ -1,0 +1,81 @@
+{
+  "examId": "grade-8-math-q2-geometry-lesson-1-practice",
+  "examType": "practice",
+  "title": "Coordinate Plane Basics Practice",
+  "description": "Practice identifying axes, origin, quadrants, and ordered pairs.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which axis is horizontal on a coordinate plane?",
+      "options": ["x-axis", "y-axis", "origin", "quadrant"],
+      "correctAnswer": 0,
+      "explanation": "The x-axis is the horizontal number line. The y-axis is vertical.",
+      "points": 12.5
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "What is the origin written as an ordered pair?",
+      "options": ["(1, 1)", "(0, 0)", "(0, 1)", "(1, 0)"],
+      "correctAnswer": 1,
+      "explanation": "The origin is where the x-axis and y-axis meet, so both coordinates are 0.",
+      "points": 12.5
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "In the ordered pair (6, -2), the x-coordinate is 6.",
+      "correctAnswer": "true",
+      "explanation": "The x-coordinate is the first number in an ordered pair.",
+      "points": 12.5
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Which movement matches the point (-3, 4)?",
+      "options": ["3 right, 4 up", "3 left, 4 up", "4 left, 3 up", "3 left, 4 down"],
+      "correctAnswer": 1,
+      "explanation": "A negative x-coordinate means left, and a positive y-coordinate means up.",
+      "points": 12.5
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which quadrant contains the point (5, -7)?",
+      "options": ["Quadrant I", "Quadrant II", "Quadrant III", "Quadrant IV"],
+      "correctAnswer": 3,
+      "explanation": "The signs (+, -) place the point in Quadrant IV.",
+      "points": 12.5
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Write the ordered pair for a point 2 units right and 5 units down from the origin.",
+      "correctAnswer": "(2, -5)",
+      "explanation": "Right gives a positive x-coordinate, and down gives a negative y-coordinate, so the ordered pair is (2, -5).",
+      "points": 12.5
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Where is the point (0, -6) located?",
+      "options": ["On the x-axis", "On the y-axis", "In Quadrant III", "In Quadrant IV"],
+      "correctAnswer": 1,
+      "explanation": "When x = 0, the point lies on the y-axis. Axis points are not in quadrants.",
+      "points": 12.5
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "In one sentence, explain why (4, 3) and (3, 4) are different points.",
+      "correctAnswer": "The order matters because (4, 3) means 4 right and 3 up, while (3, 4) means 3 right and 4 up.",
+      "explanation": "Ordered pairs are read as (x, y), so switching the numbers changes the horizontal and vertical movements.",
+      "points": 12.5
+    }
+  ]
+}

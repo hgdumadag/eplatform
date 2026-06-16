@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 430" role="img" aria-labelledby="title desc">
+  <title id="title">Cone Volume Formula Substitution Flow</title>
+  <desc id="desc">A step-by-step flow substitutes radius 6 centimeters and height 9 centimeters into the cone volume formula.</desc>
+  <rect width="980" height="430" fill="#ffffff"/>
+  <text x="490" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">Formula Substitution Routine</text>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2 2 L10 6 L2 10 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <g font-family="Arial, sans-serif">
+    <rect x="40" y="95" width="200" height="116" rx="8" fill="#eef2ff" stroke="#6366f1" stroke-width="2"/>
+    <text x="140" y="128" text-anchor="middle" font-size="18" font-weight="700" fill="#3730a3">1. Formula</text>
+    <text x="140" y="170" text-anchor="middle" font-size="24" fill="#111827">V = ⅓πr²h</text>
+    <line x1="250" y1="153" x2="315" y2="153" stroke="#64748b" stroke-width="4" marker-end="url(#arrow)"/>
+    <rect x="330" y="95" width="260" height="116" rx="8" fill="#ecfeff" stroke="#06b6d4" stroke-width="2"/>
+    <text x="460" y="128" text-anchor="middle" font-size="18" font-weight="700" fill="#0e7490">2. Substitute</text>
+    <text x="460" y="170" text-anchor="middle" font-size="23" fill="#111827">V = ⅓(3.14)(6²)(9)</text>
+    <line x1="600" y1="153" x2="665" y2="153" stroke="#64748b" stroke-width="4" marker-end="url(#arrow)"/>
+    <rect x="680" y="95" width="250" height="116" rx="8" fill="#f0fdf4" stroke="#22c55e" stroke-width="2"/>
+    <text x="805" y="128" text-anchor="middle" font-size="18" font-weight="700" fill="#15803d">3. Simplify</text>
+    <text x="805" y="170" text-anchor="middle" font-size="23" fill="#111827">V = 339.12 cm³</text>
+    <rect x="140" y="268" width="700" height="82" rx="8" fill="#fefce8" stroke="#facc15" stroke-width="2"/>
+    <text x="490" y="300" text-anchor="middle" font-size="20" font-weight="700" fill="#854d0e">Order Check</text>
+    <text x="490" y="331" text-anchor="middle" font-size="19" fill="#713f12">Square the radius first, multiply, then divide by 3.</text>
+  </g>
+</svg>

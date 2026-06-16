@@ -1,0 +1,100 @@
+{
+  "examId": "grade-8-math-q2-geometry-lesson-4-practice",
+  "examType": "practice",
+  "title": "Pyramid Volume Beyond Rectangular Bases Practice",
+  "description": "Practice identifying base area and applying V = (1/3)Bh to pyramids with varied bases.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "In the pyramid volume formula $V = \\frac{1}{3}Bh$, what does $B$ represent?",
+      "options": [
+        "The area of the base",
+        "The length of one base side",
+        "The slant height",
+        "The total surface area"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$B$ represents the area of the base. This is the most important value to identify before substituting into the pyramid volume formula.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "true-false",
+      "question": "A triangular-base pyramid still uses the formula $V = \\frac{1}{3}Bh$.",
+      "correctAnswer": "true",
+      "explanation": "The formula works for any pyramid. What changes is how you find $B$, because a triangular base uses $B = \\frac{1}{2}bh$.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A pyramid has base area 45 cm^2 and perpendicular height 12 cm. What is its volume?",
+      "options": [
+        "180 cm^3",
+        "540 cm^3",
+        "57 cm^3",
+        "135 cm^3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Use $V = \\frac{1}{3}Bh = \\frac{1}{3}(45)(12) = 15(12) = 180$ cm^3.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "A triangular base has base length 8 cm and triangle height 6 cm. What is the area of the triangular base? Enter just the number.",
+      "correctAnswer": "24",
+      "explanation": "The base area is $B = \\frac{1}{2}(8)(6) = 24$ cm^2. This 24 is the value of $B$ in the pyramid formula.",
+      "points": 13
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A triangular-base pyramid has triangular base length 8 m, triangular height 6 m, and pyramid height 9 m. What is its volume?",
+      "options": [
+        "72 m^3",
+        "216 m^3",
+        "108 m^3",
+        "24 m^3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "First find the base area: $B = \\frac{1}{2}(8)(6) = 24$ m^2. Then $V = \\frac{1}{3}(24)(9) = 72$ m^3.",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A diagram gives a pyramid's slant height as 15 cm and perpendicular height as 12 cm. Which value should be used for $h$ in the volume formula?",
+      "options": [
+        "12 cm",
+        "15 cm",
+        "27 cm",
+        "3 cm"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The volume formula uses perpendicular height, not slant height. The correct $h$ is 12 cm.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A regular polygon base has apothem 5 cm and perimeter 28 cm. What is its area using $A = \\frac{1}{2}ap$? Enter just the number.",
+      "correctAnswer": "70",
+      "explanation": "$A = \\frac{1}{2}(5)(28) = 70$ cm^2. That base area can then be used as $B$ in $V = \\frac{1}{3}Bh$.",
+      "points": 15
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A learner says, 'The base side is 10 cm, so $B = 10$.' Explain the mistake in one or two sentences.",
+      "correctAnswer": "B is the area of the base, not just a side length. The base shape's area formula must be used first.",
+      "explanation": "$B$ means base area. A side length may help find the area, but it is not usually the whole base area by itself.",
+      "points": 15
+    }
+  ]
+}

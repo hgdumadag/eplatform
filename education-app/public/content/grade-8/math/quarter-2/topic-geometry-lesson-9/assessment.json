@@ -1,0 +1,97 @@
+{
+  "examId": "grade-8-math-q2-geometry-lesson-9-assessment",
+  "examType": "assessment",
+  "title": "Triangle Inequality Assessment",
+  "description": "Checkpoint assessment for determining whether side lengths form a triangle and finding possible ranges for a missing side.",
+  "passingScore": 75,
+  "timeLimit": 35,
+  "totalQuestions": 10,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which set of side lengths does not form a triangle?",
+      "options": ["9, 10, 11", "4, 8, 9", "6, 13, 20", "12, 15, 20"],
+      "correctAnswer": 2,
+      "explanation": "For 6, 13, and 20, the two shorter sides add to 19, and 19 is less than 20. The sides cannot close into a triangle.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Two sides of a triangle are 10 cm and 16 cm. Which inequality gives the possible values of the third side x?",
+      "options": ["6 < x < 26", "10 < x < 16", "x < 6 or x > 26", "6 <= x <= 26"],
+      "correctAnswer": 0,
+      "explanation": "The third side must be greater than the difference and less than the sum: 16 - 10 = 6 and 16 + 10 = 26, so 6 < x < 26.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "If two sides are 12 and 5, then a third side of 7 makes a triangle.",
+      "correctAnswer": "false",
+      "explanation": "The range is 12 - 5 < x < 12 + 5, so 7 < x < 17. A third side of 7 is an endpoint and does not form a triangle.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "For side lengths 14, 9, and 6, add the two shorter sides. Enter just the sum.",
+      "correctAnswer": "15",
+      "explanation": "The two shorter sides are 6 and 9. Their sum is 15, which is greater than 14, so the lengths form a triangle.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Two sides of a triangle are 3.5 m and 8 m. Which range is correct for the third side x?",
+      "options": ["4.5 < x < 11.5", "3.5 < x < 8", "4.5 <= x <= 11.5", "x < 4.5"],
+      "correctAnswer": 0,
+      "explanation": "The difference is 8 - 3.5 = 4.5 and the sum is 8 + 3.5 = 11.5. The third side must satisfy 4.5 < x < 11.5.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Two sides are 11 units and 18 units. If x is a whole-number third side, how many possible values can x have?",
+      "options": ["17", "18", "21", "29"],
+      "correctAnswer": 2,
+      "explanation": "The range is 7 < x < 29. The whole-number values are 8 through 28, which gives 21 possible values.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A student says side lengths 5, 5, and 10 form a triangle because the two smaller sides exactly reach the longest side. What is the best correction?",
+      "options": ["The student is correct because equality is allowed.", "The student is wrong because the sum must be greater than 10.", "The student is wrong because all triangles need three different side lengths.", "The student is correct only if the triangle is isosceles."],
+      "correctAnswer": 1,
+      "explanation": "The triangle inequality requires the two shorter sides to add to more than the longest side. Since 5 + 5 = 10, the sides form a straight line, not a triangle.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "Two sides of a triangle are 20 and 27. What is the smallest whole-number value possible for the third side x? Enter just the number.",
+      "correctAnswer": "8",
+      "explanation": "The range is 27 - 20 < x < 27 + 20, so 7 < x < 47. The smallest whole number greater than 7 is 8.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "A triangle has two known sides of 9 cm and 15 cm. Write the possible range for the third side x and explain why the endpoints are not included.",
+      "correctAnswer": "The range is 6 < x < 24. The endpoints are not included because x = 6 or x = 24 would make two sides add exactly to the third side, creating a straight line instead of a triangle.",
+      "explanation": "Use difference < x < sum. The difference is 15 - 9 = 6 and the sum is 15 + 9 = 24. Triangle inequality uses strict inequalities.",
+      "points": 10
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A builder has rods of lengths 7 ft and 12 ft and wants to choose a third rod that is a whole number of feet. List the possible whole-number lengths from smallest to largest.",
+      "correctAnswer": "The range is 5 < x < 19, so the possible whole-number lengths are 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, and 18 feet.",
+      "explanation": "The lower limit is 12 - 7 = 5 and the upper limit is 12 + 7 = 19. Whole-number values strictly between 5 and 19 are 6 through 18.",
+      "points": 10
+    }
+  ]
+}

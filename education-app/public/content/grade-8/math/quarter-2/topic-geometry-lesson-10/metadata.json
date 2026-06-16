@@ -1,0 +1,50 @@
+{
+  "id": "grade-8-math-q2-geometry-lesson-10",
+  "grade": 8,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Geometry - Lesson 10: Quarter Application Task",
+  "description": "Apply coordinate geometry, triangle validity, midpoint, distance, and solid volume skills to design a coordinate-based structure with triangular supports and solid components.",
+  "learningObjectives": [
+    "Design a coordinate-based structure using ordered pairs on a site plan",
+    "Compute horizontal, vertical, and diagonal distances between points",
+    "Find the midpoint of a segment and explain what it represents in a design",
+    "Check whether three given side lengths can form a valid triangle",
+    "Compute volumes of rectangular prisms, cylinders, and triangular prisms in a combined structure",
+    "Justify design decisions using coordinate and measurement evidence"
+  ],
+  "prerequisites": [
+    "Plot and read ordered pairs on the coordinate plane",
+    "Use the distance formula for coordinate pairs",
+    "Find the midpoint of two coordinate points",
+    "Apply the triangle inequality theorem",
+    "Use volume formulas for common solids"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "number and algebra",
+    "measurement and geometry",
+    "geometry",
+    "coordinate plane",
+    "distance",
+    "midpoint",
+    "triangle inequality",
+    "volume",
+    "application task"
+  ],
+  "lastUpdated": "2026-06-16",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/coordinate-site-plan.svg",
+      "images/distance-midpoint-design-map.svg",
+      "images/triangular-support-validity.svg",
+      "images/solid-components-volume-plan.svg",
+      "images/final-checklist-rubric.svg"
+    ]
+  }
+}

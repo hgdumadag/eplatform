@@ -1,0 +1,100 @@
+{
+  "examId": "grade-8-math-q2-geometry-lesson-3-practice",
+  "examType": "practice",
+  "title": "Midpoint of a Segment Practice Exam",
+  "description": "Practice locating midpoint visually and by formula using endpoint coordinates.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What does the midpoint of a segment represent?",
+      "options": [
+        "The point exactly halfway between the endpoints",
+        "The first endpoint of the segment",
+        "Any point on the segment",
+        "The point where the segment crosses the y-axis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The midpoint is the point exactly halfway between the endpoints, so it divides the segment into two equal parts.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Find the midpoint of $(2, 4)$ and $(8, 10)$.",
+      "options": [
+        "$(5, 7)$",
+        "$(6, 6)$",
+        "$(10, 14)$",
+        "$(3, 3)$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Average the x-values and y-values separately: $\\left(\\frac{2 + 8}{2}, \\frac{4 + 10}{2}\\right) = (5, 7)$.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "Find the x-coordinate of the midpoint of $(-4, 6)$ and $(10, 2)$. Enter just the number.",
+      "correctAnswer": "3",
+      "explanation": "Average the x-coordinates only: $\\frac{-4 + 10}{2} = \\frac{6}{2} = 3$.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "To find a midpoint, you average the two x-coordinates and average the two y-coordinates.",
+      "correctAnswer": "true",
+      "explanation": "This is exactly what the midpoint formula does: $M = \\left(\\frac{x_1+x_2}{2}, \\frac{y_1+y_2}{2}\\right)$.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Find the midpoint of $(-6, 1)$ and $(2, 9)$.",
+      "options": [
+        "$(-2, 5)$",
+        "$(4, 10)$",
+        "$(-4, 8)$",
+        "$(2, -5)$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "$\\frac{-6 + 2}{2} = -2$ and $\\frac{1 + 9}{2} = 5$, so the midpoint is $(-2, 5)$.",
+      "points": 13
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A horizontal segment has endpoints $(-3, 5)$ and $(7, 5)$. What is its midpoint? Enter as an ordered pair.",
+      "correctAnswer": "(2, 5)",
+      "explanation": "Average the x-values: $\\frac{-3 + 7}{2} = 2$. The y-values are both $5$, so the midpoint is $(2, 5)$.",
+      "points": 13
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which setup correctly finds the midpoint of $A(-8, 3)$ and $B(4, -5)$?",
+      "options": [
+        "$\\left(\\frac{-8 + 4}{2}, \\frac{3 + (-5)}{2}\\right)$",
+        "$\\left(\\frac{-8 + 3}{2}, \\frac{4 + (-5)}{2}\\right)$",
+        "$\\left(\\frac{-8 + (-5)}{2}, \\frac{3 + 4}{2}\\right)$",
+        "$\\left(\\frac{-8}{2}, \\frac{-5}{2}\\right)$"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The correct setup averages x with x and y with y: $\\left(\\frac{-8 + 4}{2}, \\frac{3 + (-5)}{2}\\right)$.",
+      "points": 13
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Explain in one or two sentences why $(3, 4)$ is the midpoint of $(0, 0)$ and $(6, 8)$.",
+      "correctAnswer": "The x-coordinate is the average of 0 and 6, which is 3, and the y-coordinate is the average of 0 and 8, which is 4. Therefore the midpoint is (3, 4).",
+      "explanation": "A complete explanation should show both coordinate averages: $\\frac{0+6}{2}=3$ and $\\frac{0+8}{2}=4$.",
+      "points": 13
+    }
+  ]
+}

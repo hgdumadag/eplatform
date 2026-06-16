@@ -1,0 +1,47 @@
+{
+  "id": "grade-8-math-q2-geometry-lesson-2",
+  "grade": 8,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Geometry - Lesson 2: Distance on the Coordinate Plane",
+  "description": "Find horizontal, vertical, and diagonal distances between points on the coordinate plane using coordinate differences and the distance formula.",
+  "learningObjectives": [
+    "Find horizontal distance by comparing x-coordinates",
+    "Find vertical distance by comparing y-coordinates",
+    "Build a right triangle from coordinate differences",
+    "Use the distance formula for diagonal distance",
+    "Explain distance solutions using positive coordinate differences"
+  ],
+  "prerequisites": [
+    "Plotting ordered pairs",
+    "Reading x- and y-coordinates",
+    "Absolute value as distance from zero",
+    "Squares and square roots",
+    "The Pythagorean Theorem"
+  ],
+  "estimatedDuration": 40,
+  "difficulty": "intermediate",
+  "tags": [
+    "geometry",
+    "coordinate-plane",
+    "distance",
+    "absolute-value",
+    "pythagorean-theorem",
+    "number-and-algebra",
+    "measurement-and-geometry"
+  ],
+  "lastUpdated": "2026-06-16",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/horizontal-distance-grid.svg",
+      "images/vertical-distance-grid.svg",
+      "images/diagonal-right-triangle.svg",
+      "images/distance-formula-map.svg",
+      "images/coordinate-difference-trap.svg"
+    ]
+  }
+}

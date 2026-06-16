@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" role="img" aria-labelledby="title desc">
+  <title id="title">Missing leg setup</title>
+  <desc id="desc">A right triangle with hypotenuse 13, one leg 5, and missing leg b, showing subtraction after setting up 5 squared plus b squared equals 13 squared.</desc>
+  <rect width="760" height="430" fill="#f8fafc"/>
+  <path d="M120 315 L120 115 L455 315 Z" fill="#fff7ed" stroke="#7c3f13" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M120 315 L120 275 L160 275 L160 315 Z" fill="none" stroke="#7c3f13" stroke-width="4"/>
+  <text x="78" y="220" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#24515f">5</text>
+  <text x="278" y="356" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#24515f">b</text>
+  <text x="305" y="192" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#8a3b12" transform="rotate(31 305 192)">13</text>
+  <rect x="487" y="82" width="230" height="245" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+  <text x="510" y="126" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Missing leg</text>
+  <text x="510" y="170" font-family="Arial, sans-serif" font-size="27" fill="#0f172a">5^2 + b^2 = 13^2</text>
+  <text x="510" y="211" font-family="Arial, sans-serif" font-size="27" fill="#0f172a">25 + b^2 = 169</text>
+  <text x="510" y="252" font-family="Arial, sans-serif" font-size="27" fill="#0f172a">b^2 = 169 - 25</text>
+  <text x="510" y="293" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#166534">b^2 = 144</text>
+  <text x="128" y="70" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">Subtract when the hypotenuse is known.</text>
+</svg>

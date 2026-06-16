@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+  <title id="title">Quadrant Map with Sign Patterns</title>
+  <desc id="desc">Four quadrants of the coordinate plane labeled with Roman numerals and coordinate sign patterns.</desc>
+  <rect width="760" height="520" fill="#ffffff"/>
+  <g transform="translate(380 260)">
+    <rect x="0" y="-210" width="310" height="210" fill="#e0f2fe"/>
+    <rect x="-310" y="-210" width="310" height="210" fill="#ecfdf5"/>
+    <rect x="-310" y="0" width="310" height="210" fill="#fef3c7"/>
+    <rect x="0" y="0" width="310" height="210" fill="#fee2e2"/>
+    <g stroke="#cbd5e1" stroke-width="1">
+      <path d="M-310 -160 H310"/><path d="M-310 -80 H310"/><path d="M-310 80 H310"/><path d="M-310 160 H310"/>
+      <path d="M-240 -210 V210"/><path d="M-160 -210 V210"/><path d="M-80 -210 V210"/><path d="M80 -210 V210"/><path d="M160 -210 V210"/><path d="M240 -210 V210"/>
+    </g>
+    <path d="M-330 0 H330" stroke="#111827" stroke-width="4"/>
+    <path d="M0 230 V-230" stroke="#111827" stroke-width="4"/>
+    <g font-family="Arial, sans-serif" text-anchor="middle">
+      <text x="155" y="-118" font-size="38" font-weight="700" fill="#075985">Quadrant I</text>
+      <text x="155" y="-72" font-size="28" fill="#075985">(+,+)</text>
+      <text x="-155" y="-118" font-size="38" font-weight="700" fill="#047857">Quadrant II</text>
+      <text x="-155" y="-72" font-size="28" fill="#047857">(-,+)</text>
+      <text x="-155" y="112" font-size="38" font-weight="700" fill="#92400e">Quadrant III</text>
+      <text x="-155" y="158" font-size="28" fill="#92400e">(-,-)</text>
+      <text x="155" y="112" font-size="38" font-weight="700" fill="#b91c1c">Quadrant IV</text>
+      <text x="155" y="158" font-size="28" fill="#b91c1c">(+,-)</text>
+      <text x="286" y="-14" font-size="22" font-weight="700" fill="#111827">x</text>
+      <text x="18" y="-190" font-size="22" font-weight="700" fill="#111827">y</text>
+    </g>
+  </g>
+</svg>
