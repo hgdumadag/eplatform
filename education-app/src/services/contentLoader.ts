@@ -1015,20 +1015,6 @@ export class ContentLoader {
       {
         grade: 8,
         subject: 'math',
-        quarter: 1,
-        topicName: 'topic-algebra-intro',
-        displayName: 'Algebra Introduction',
-      },
-      {
-        grade: 8,
-        subject: 'math',
-        quarter: 1,
-        topicName: 'topic-linear-equations',
-        displayName: 'Linear Equations',
-      },
-      {
-        grade: 8,
-        subject: 'math',
         quarter: 2,
         topicName: 'topic-geometry-lesson-1',
         displayName: 'Geometry - Lesson 1: Coordinate Plane Basics',
