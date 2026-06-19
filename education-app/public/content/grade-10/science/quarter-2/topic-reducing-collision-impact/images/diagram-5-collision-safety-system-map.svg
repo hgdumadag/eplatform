@@ -1,24 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="500" viewBox="0 0 920 500" role="img" aria-labelledby="title desc">
-<title id="title">Collision safety system map</title><desc id="desc">Safety systems manage momentum change by increasing time, spreading force, or absorbing energy</desc>
-<rect width="920" height="500" rx="28" fill="#f8fafc"/>
-<rect x="22" y="22" width="876" height="456" rx="24" fill="#ede9fe" stroke="#0f172a" stroke-width="2"/>
-<text x="460" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="800" fill="#0f172a">Collision safety system map</text>
-<text x="460" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">Safety systems manage momentum change by increasing time, spreading</text>
-<text x="460" y="106" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">force, or absorbing energy</text>
-<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10 Z" fill="#2563eb"/></marker></defs>
-<rect x="120" y="198" width="130" height="82" rx="16" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
-<path d="M255 239 L298 239" stroke="#2563eb" stroke-width="6" marker-end="url(#arrow)"/>
-<rect x="305" y="198" width="130" height="82" rx="16" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
-<path d="M440 239 L483 239" stroke="#2563eb" stroke-width="6" marker-end="url(#arrow)"/>
-<rect x="490" y="198" width="130" height="82" rx="16" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
-<path d="M625 239 L668 239" stroke="#2563eb" stroke-width="6" marker-end="url(#arrow)"/>
-<rect x="675" y="198" width="130" height="82" rx="16" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
-<rect x="38" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="50" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">seatbelt restrains</text>
-<rect x="648" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="660" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">airbag cushions</text>
-<rect x="38" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="50" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">crumple zone absorbs</text>
-<rect x="342" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="354" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">helmet foam compresses</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="540" viewBox="0 0 960 540" role="img" aria-label="Collision Safety System Map">
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#dc2626"/></marker>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-opacity="0.18"/></filter>
+</defs>
+<rect width="960" height="540" fill="#fff1f2"/>
+<rect x="28" y="24" width="904" height="72" rx="22" fill="white" filter="url(#shadow)"/>
+<text x="52" y="56" font-size="26" font-weight="800" fill="#0f172a">Collision Safety System Map</text>
+<text x="52" y="82" font-size="15" font-weight="500" fill="#475569">Safety devices manage momentum change by time, area, and energy absorption</text>
+<ellipse cx="480" cy="284" rx="130" ry="54" fill="white" stroke="#dc2626" stroke-width="3" filter="url(#shadow)"/>
+<text x="480" y="276" font-size="20" fill="#dc2626" font-weight="800" text-anchor="middle">system idea</text>
+<rect x="94" y="145" width="300" height="112" rx="18" fill="white" stroke="#dc2626" stroke-width="2"/>
+<circle cx="118" cy="173" r="10" fill="#dc2626" opacity="0.9"/>
+<text x="138" y="177" font-size="18" fill="#111827" font-weight="700" text-anchor="start">Seatbelt</text>
+<text x="116" y="211" font-size="15" fill="#334155" font-weight="500" text-anchor="start">restrains body • increases</text>
+<text x="116" y="230" font-size="15" fill="#334155" font-weight="500" text-anchor="start">stopping time</text>
+<line x1="244" y1="201" x2="480" y2="284" stroke="#dc2626" stroke-width="3" marker-end="url(#arrow)" opacity="0.75"/>
+<rect x="560" y="145" width="300" height="112" rx="18" fill="white" stroke="#dc2626" stroke-width="2"/>
+<circle cx="584" cy="173" r="10" fill="#dc2626" opacity="0.9"/>
+<text x="604" y="177" font-size="18" fill="#111827" font-weight="700" text-anchor="start">Airbag</text>
+<text x="582" y="211" font-size="15" fill="#334155" font-weight="500" text-anchor="start">cushions impact • spreads</text>
+<text x="582" y="230" font-size="15" fill="#334155" font-weight="500" text-anchor="start">force</text>
+<line x1="710" y1="201" x2="480" y2="284" stroke="#dc2626" stroke-width="3" marker-end="url(#arrow)" opacity="0.75"/>
+<rect x="94" y="330" width="300" height="112" rx="18" fill="white" stroke="#dc2626" stroke-width="2"/>
+<circle cx="118" cy="358" r="10" fill="#dc2626" opacity="0.9"/>
+<text x="138" y="362" font-size="18" fill="#111827" font-weight="700" text-anchor="start">Crumple zone</text>
+<text x="116" y="396" font-size="15" fill="#334155" font-weight="500" text-anchor="start">absorbs energy • protects</text>
+<text x="116" y="415" font-size="15" fill="#334155" font-weight="500" text-anchor="start">cabin</text>
+<line x1="244" y1="386" x2="480" y2="284" stroke="#dc2626" stroke-width="3" marker-end="url(#arrow)" opacity="0.75"/>
+<rect x="560" y="330" width="300" height="112" rx="18" fill="white" stroke="#dc2626" stroke-width="2"/>
+<circle cx="584" cy="358" r="10" fill="#dc2626" opacity="0.9"/>
+<text x="604" y="362" font-size="18" fill="#111827" font-weight="700" text-anchor="start">Helmet/foam</text>
+<text x="582" y="396" font-size="15" fill="#334155" font-weight="500" text-anchor="start">compresses • lowers peak force</text>
+<line x1="710" y1="386" x2="480" y2="284" stroke="#dc2626" stroke-width="3" marker-end="url(#arrow)" opacity="0.75"/>
+<text x="480" y="518" text-anchor="middle" font-size="13" fill="#64748b">Read the labels, follow the arrows, then explain the relationship in your own words.</text>
 </svg>

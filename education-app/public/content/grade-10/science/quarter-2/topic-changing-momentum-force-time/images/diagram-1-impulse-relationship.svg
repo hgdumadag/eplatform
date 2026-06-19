@@ -1,17 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="500" viewBox="0 0 920 500" role="img" aria-labelledby="title desc">
-<title id="title">Impulse relationship</title><desc id="desc">Changing momentum depends on force multiplied by time</desc>
-<rect width="920" height="500" rx="28" fill="#f8fafc"/>
-<rect x="22" y="22" width="876" height="456" rx="24" fill="#e0f2fe" stroke="#0f172a" stroke-width="2"/>
-<text x="460" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="800" fill="#0f172a">Impulse relationship</text>
-<text x="460" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">Changing momentum depends on force multiplied by time</text>
-<rect x="185" y="158" width="550" height="150" rx="24" fill="#ffffff" stroke="#334155" stroke-width="3"/>
-<text x="460" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="800" fill="#2563eb">relationship model</text>
-<rect x="38" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="50" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">Impulse = F × Δt</text>
-<rect x="648" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="660" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">Impulse = Δp</text>
-<rect x="38" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="50" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">bigger force changes p</text>
-<rect x="342" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="354" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">longer time changes p</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="540" viewBox="0 0 960 540" role="img" aria-label="Impulse Changes Momentum">
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#0f766e"/></marker>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-opacity="0.18"/></filter>
+</defs>
+<rect width="960" height="540" fill="#f0fdfa"/>
+<rect x="28" y="24" width="904" height="72" rx="22" fill="white" filter="url(#shadow)"/>
+<text x="52" y="56" font-size="26" font-weight="800" fill="#0f172a">Impulse Changes Momentum</text>
+<text x="52" y="82" font-size="15" font-weight="500" fill="#475569">A force acting over time changes momentum: F × Δt = Δp</text>
+<rect x="256" y="145" width="448" height="96" rx="24" fill="white" stroke="#0f766e" stroke-width="3" filter="url(#shadow)"/>
+<text x="480" y="205" font-size="38" font-weight="800" fill="#0f766e" text-anchor="middle">Impulse = F × Δt</text>
+<rect x="70" y="300" width="180" height="108" rx="18" fill="white" stroke="#0f766e" stroke-width="2"/>
+<text x="160" y="338" text-anchor="middle" font-size="30" font-weight="800" fill="#0f766e">F</text>
+<text x="160" y="366" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">force</text>
+<text x="160" y="390" text-anchor="middle" font-size="14" fill="#475569">newtons</text>
+<rect x="275" y="300" width="180" height="108" rx="18" fill="white" stroke="#0f766e" stroke-width="2"/>
+<text x="365" y="338" text-anchor="middle" font-size="30" font-weight="800" fill="#0f766e">Δt</text>
+<text x="365" y="366" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">contact time</text>
+<text x="365" y="390" text-anchor="middle" font-size="14" fill="#475569">seconds</text>
+<rect x="480" y="300" width="180" height="108" rx="18" fill="white" stroke="#0f766e" stroke-width="2"/>
+<text x="570" y="338" text-anchor="middle" font-size="30" font-weight="800" fill="#0f766e">Impulse</text>
+<text x="570" y="366" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">F × Δt</text>
+<text x="570" y="390" text-anchor="middle" font-size="14" fill="#475569">N·s</text>
+<rect x="685" y="300" width="180" height="108" rx="18" fill="white" stroke="#0f766e" stroke-width="2"/>
+<text x="775" y="338" text-anchor="middle" font-size="30" font-weight="800" fill="#0f766e">Δp</text>
+<text x="775" y="366" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">momentum change</text>
+<text x="775" y="390" text-anchor="middle" font-size="14" fill="#475569">kg·m/s</text>
+<text x="480" y="518" text-anchor="middle" font-size="13" fill="#64748b">Read the labels, follow the arrows, then explain the relationship in your own words.</text>
 </svg>

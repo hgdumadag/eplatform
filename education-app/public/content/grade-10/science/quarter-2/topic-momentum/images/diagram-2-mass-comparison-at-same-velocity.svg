@@ -1,20 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="500" viewBox="0 0 920 500" role="img" aria-labelledby="title desc">
-<title id="title">Mass comparison at same velocity</title><desc id="desc">At the same speed, the larger mass has more momentum</desc>
-<rect width="920" height="500" rx="28" fill="#f8fafc"/>
-<rect x="22" y="22" width="876" height="456" rx="24" fill="#dcfce7" stroke="#0f172a" stroke-width="2"/>
-<text x="460" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="800" fill="#0f172a">Mass comparison at same velocity</text>
-<text x="460" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">At the same speed, the larger mass has more momentum</text>
-<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10 Z" fill="#7c3aed"/></marker></defs>
-<rect x="170" y="155" width="580" height="175" rx="24" fill="#ffffff" stroke="#334155" stroke-width="3"/>
-<path d="M260 245 L660 245" stroke="#7c3aed" stroke-width="8" marker-end="url(#arrow)"/>
-<circle cx="250" cy="245" r="42" fill="#bfdbfe" stroke="#1e40af" stroke-width="4"/>
-<rect x="610" y="205" width="85" height="80" rx="16" fill="#fed7aa" stroke="#9a3412" stroke-width="4"/>
-<rect x="38" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="50" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">bike: smaller mass</text>
-<rect x="648" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="660" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">truck: larger mass</text>
-<rect x="38" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="50" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">same velocity</text>
-<rect x="342" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="354" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">truck has greater p</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="540" viewBox="0 0 960 540" role="img" aria-label="Same Velocity, Different Mass">
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#7c3aed"/></marker>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-opacity="0.18"/></filter>
+</defs>
+<rect width="960" height="540" fill="#f5f3ff"/>
+<rect x="28" y="24" width="904" height="72" rx="22" fill="white" filter="url(#shadow)"/>
+<text x="52" y="56" font-size="26" font-weight="800" fill="#0f172a">Same Velocity, Different Mass</text>
+<text x="52" y="82" font-size="15" font-weight="500" fill="#475569">At the same speed, the larger mass has greater momentum</text>
+<line x1="480" y1="128" x2="480" y2="455" stroke="#7c3aed" stroke-width="3" stroke-dasharray="8 8"/>
+<rect x="68" y="150" width="354" height="120" rx="18" fill="white" stroke="#7c3aed" stroke-width="2"/>
+<circle cx="92" cy="178" r="10" fill="#7c3aed" opacity="0.9"/>
+<text x="112" y="182" font-size="18" fill="#111827" font-weight="700" text-anchor="start">Bicycle</text>
+<text x="90" y="216" font-size="15" fill="#334155" font-weight="500" text-anchor="start">small mass • same speed →</text>
+<text x="90" y="235" font-size="15" fill="#334155" font-weight="500" text-anchor="start">smaller p</text>
+<rect x="538" y="150" width="354" height="120" rx="18" fill="white" stroke="#7c3aed" stroke-width="2"/>
+<circle cx="562" cy="178" r="10" fill="#7c3aed" opacity="0.9"/>
+<text x="582" y="182" font-size="18" fill="#111827" font-weight="700" text-anchor="start">Loaded truck</text>
+<text x="560" y="216" font-size="15" fill="#334155" font-weight="500" text-anchor="start">large mass • same speed →</text>
+<text x="560" y="235" font-size="15" fill="#334155" font-weight="500" text-anchor="start">larger p</text>
+<rect x="68" y="320" width="354" height="120" rx="18" fill="white" stroke="#7c3aed" stroke-width="2"/>
+<circle cx="92" cy="348" r="10" fill="#7c3aed" opacity="0.9"/>
+<text x="112" y="352" font-size="18" fill="#111827" font-weight="700" text-anchor="start">Stopping need</text>
+<text x="90" y="386" font-size="15" fill="#334155" font-weight="500" text-anchor="start">more momentum • requires</text>
+<text x="90" y="405" font-size="15" fill="#334155" font-weight="500" text-anchor="start">larger impulse</text>
+<rect x="538" y="320" width="354" height="120" rx="18" fill="white" stroke="#7c3aed" stroke-width="2"/>
+<circle cx="562" cy="348" r="10" fill="#7c3aed" opacity="0.9"/>
+<text x="582" y="352" font-size="18" fill="#111827" font-weight="700" text-anchor="start">Safety lesson</text>
+<text x="560" y="386" font-size="15" fill="#334155" font-weight="500" text-anchor="start">give trucks space • longer</text>
+<text x="560" y="405" font-size="15" fill="#334155" font-weight="500" text-anchor="start">stopping distance</text>
+<text x="480" y="518" text-anchor="middle" font-size="13" fill="#64748b">Read the labels, follow the arrows, then explain the relationship in your own words.</text>
 </svg>

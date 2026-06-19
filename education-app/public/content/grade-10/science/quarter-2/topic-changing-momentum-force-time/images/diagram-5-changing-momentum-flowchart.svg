@@ -1,24 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="500" viewBox="0 0 920 500" role="img" aria-labelledby="title desc">
-<title id="title">Changing momentum flowchart</title><desc id="desc">Analyze changes by identifying initial momentum, force-time interaction, and final momentum</desc>
-<rect width="920" height="500" rx="28" fill="#f8fafc"/>
-<rect x="22" y="22" width="876" height="456" rx="24" fill="#ede9fe" stroke="#0f172a" stroke-width="2"/>
-<text x="460" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="800" fill="#0f172a">Changing momentum flowchart</text>
-<text x="460" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">Analyze changes by identifying initial momentum, force-time</text>
-<text x="460" y="106" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">interaction, and final momentum</text>
-<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10 Z" fill="#2563eb"/></marker></defs>
-<rect x="120" y="198" width="130" height="82" rx="16" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
-<path d="M255 239 L298 239" stroke="#2563eb" stroke-width="6" marker-end="url(#arrow)"/>
-<rect x="305" y="198" width="130" height="82" rx="16" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
-<path d="M440 239 L483 239" stroke="#2563eb" stroke-width="6" marker-end="url(#arrow)"/>
-<rect x="490" y="198" width="130" height="82" rx="16" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
-<path d="M625 239 L668 239" stroke="#2563eb" stroke-width="6" marker-end="url(#arrow)"/>
-<rect x="675" y="198" width="130" height="82" rx="16" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
-<rect x="38" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="50" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">initial p</text>
-<rect x="648" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="660" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">force over time</text>
-<rect x="38" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="50" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">change in p</text>
-<rect x="342" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="354" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">final p</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="540" viewBox="0 0 960 540" role="img" aria-label="Changing Momentum Flowchart">
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#0f766e"/></marker>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-opacity="0.18"/></filter>
+</defs>
+<rect width="960" height="540" fill="#f0fdfa"/>
+<rect x="28" y="24" width="904" height="72" rx="22" fill="white" filter="url(#shadow)"/>
+<text x="52" y="56" font-size="26" font-weight="800" fill="#0f172a">Changing Momentum Flowchart</text>
+<text x="52" y="82" font-size="15" font-weight="500" fill="#475569">Analyze any momentum-change problem in four steps</text>
+<rect x="58" y="188" width="196" height="150" rx="18" fill="white" stroke="#0f766e" stroke-width="2"/>
+<circle cx="82" cy="216" r="10" fill="#0f766e" opacity="0.9"/>
+<text x="102" y="220" font-size="18" fill="#111827" font-weight="700" text-anchor="start">1. Initial p</text>
+<text x="80" y="254" font-size="15" fill="#334155" font-weight="500" text-anchor="start">mass × starting velocity</text>
+<line x1="254" y1="263" x2="258" y2="263" stroke="#0f766e" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="274" y="188" width="196" height="150" rx="18" fill="white" stroke="#0f766e" stroke-width="2"/>
+<circle cx="298" cy="216" r="10" fill="#0f766e" opacity="0.9"/>
+<text x="318" y="220" font-size="18" fill="#111827" font-weight="700" text-anchor="start">2. Interaction</text>
+<text x="296" y="254" font-size="15" fill="#334155" font-weight="500" text-anchor="start">force acts during time</text>
+<line x1="470" y1="263" x2="474" y2="263" stroke="#0f766e" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="490" y="188" width="196" height="150" rx="18" fill="white" stroke="#0f766e" stroke-width="2"/>
+<circle cx="514" cy="216" r="10" fill="#0f766e" opacity="0.9"/>
+<text x="534" y="220" font-size="18" fill="#111827" font-weight="700" text-anchor="start">3. Δp</text>
+<text x="512" y="254" font-size="15" fill="#334155" font-weight="500" text-anchor="start">momentum increases, decreases,</text>
+<text x="512" y="273" font-size="15" fill="#334155" font-weight="500" text-anchor="start">or reverses</text>
+<line x1="686" y1="263" x2="690" y2="263" stroke="#0f766e" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="706" y="188" width="196" height="150" rx="18" fill="white" stroke="#0f766e" stroke-width="2"/>
+<circle cx="730" cy="216" r="10" fill="#0f766e" opacity="0.9"/>
+<text x="750" y="220" font-size="18" fill="#111827" font-weight="700" text-anchor="start">4. Final p</text>
+<text x="728" y="254" font-size="15" fill="#334155" font-weight="500" text-anchor="start">predict new motion</text>
+<text x="480" y="518" text-anchor="middle" font-size="13" fill="#64748b">Read the labels, follow the arrows, then explain the relationship in your own words.</text>
 </svg>

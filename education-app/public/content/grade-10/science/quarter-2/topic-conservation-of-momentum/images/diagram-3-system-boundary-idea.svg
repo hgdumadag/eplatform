@@ -1,22 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="500" viewBox="0 0 920 500" role="img" aria-labelledby="title desc">
-<title id="title">System boundary idea</title><desc id="desc">Choose the system carefully; conservation works best when external forces are small</desc>
-<rect width="920" height="500" rx="28" fill="#f8fafc"/>
-<rect x="22" y="22" width="876" height="456" rx="24" fill="#fef3c7" stroke="#0f172a" stroke-width="2"/>
-<text x="460" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="800" fill="#0f172a">System boundary idea</text>
-<text x="460" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">Choose the system carefully; conservation works best when external</text>
-<text x="460" y="106" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">forces are small</text>
-<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10 Z" fill="#7c3aed"/></marker></defs>
-<rect x="170" y="155" width="580" height="175" rx="24" fill="#ffffff" stroke="#334155" stroke-width="3"/>
-<path d="M260 245 L660 245" stroke="#7c3aed" stroke-width="8" marker-end="url(#arrow)"/>
-<circle cx="250" cy="245" r="42" fill="#bfdbfe" stroke="#1e40af" stroke-width="4"/>
-<rect x="610" y="205" width="85" height="80" rx="16" fill="#fed7aa" stroke="#9a3412" stroke-width="4"/>
-<rect x="38" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="50" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">objects inside system</text>
-<rect x="648" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="660" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">external forces outside</text>
-<rect x="38" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="50" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">track total p</text>
-<rect x="342" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="354" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">ignore tiny outside</text>
-<text x="354" y="413" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">effects</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="540" viewBox="0 0 960 540" role="img" aria-label="System Boundary Idea">
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#2563eb"/></marker>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-opacity="0.18"/></filter>
+</defs>
+<rect width="960" height="540" fill="#eff6ff"/>
+<rect x="28" y="24" width="904" height="72" rx="22" fill="white" filter="url(#shadow)"/>
+<text x="52" y="56" font-size="26" font-weight="800" fill="#0f172a">System Boundary Idea</text>
+<text x="52" y="82" font-size="15" font-weight="500" fill="#475569">Choose the system before claiming momentum is conserved</text>
+<ellipse cx="480" cy="284" rx="130" ry="54" fill="white" stroke="#2563eb" stroke-width="3" filter="url(#shadow)"/>
+<text x="480" y="276" font-size="20" fill="#2563eb" font-weight="800" text-anchor="middle">system idea</text>
+<rect x="94" y="145" width="300" height="112" rx="18" fill="white" stroke="#2563eb" stroke-width="2"/>
+<circle cx="118" cy="173" r="10" fill="#2563eb" opacity="0.9"/>
+<text x="138" y="177" font-size="18" fill="#111827" font-weight="700" text-anchor="start">Inside boundary</text>
+<text x="116" y="211" font-size="15" fill="#334155" font-weight="500" text-anchor="start">objects you track • their</text>
+<text x="116" y="230" font-size="15" fill="#334155" font-weight="500" text-anchor="start">momenta are added</text>
+<line x1="244" y1="201" x2="480" y2="284" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)" opacity="0.75"/>
+<rect x="560" y="145" width="300" height="112" rx="18" fill="white" stroke="#2563eb" stroke-width="2"/>
+<circle cx="584" cy="173" r="10" fill="#2563eb" opacity="0.9"/>
+<text x="604" y="177" font-size="18" fill="#111827" font-weight="700" text-anchor="start">External force</text>
+<text x="582" y="211" font-size="15" fill="#334155" font-weight="500" text-anchor="start">friction or wall push • can</text>
+<text x="582" y="230" font-size="15" fill="#334155" font-weight="500" text-anchor="start">change total p</text>
+<line x1="710" y1="201" x2="480" y2="284" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)" opacity="0.75"/>
+<rect x="94" y="330" width="300" height="112" rx="18" fill="white" stroke="#2563eb" stroke-width="2"/>
+<circle cx="118" cy="358" r="10" fill="#2563eb" opacity="0.9"/>
+<text x="138" y="362" font-size="18" fill="#111827" font-weight="700" text-anchor="start">Isolated model</text>
+<text x="116" y="396" font-size="15" fill="#334155" font-weight="500" text-anchor="start">external forces small •</text>
+<text x="116" y="415" font-size="15" fill="#334155" font-weight="500" text-anchor="start">conservation works best</text>
+<line x1="244" y1="386" x2="480" y2="284" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)" opacity="0.75"/>
+<rect x="560" y="330" width="300" height="112" rx="18" fill="white" stroke="#2563eb" stroke-width="2"/>
+<circle cx="584" cy="358" r="10" fill="#2563eb" opacity="0.9"/>
+<text x="604" y="362" font-size="18" fill="#111827" font-weight="700" text-anchor="start">Real world</text>
+<text x="582" y="396" font-size="15" fill="#334155" font-weight="500" text-anchor="start">approximation • state</text>
+<text x="582" y="415" font-size="15" fill="#334155" font-weight="500" text-anchor="start">assumptions</text>
+<line x1="710" y1="386" x2="480" y2="284" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)" opacity="0.75"/>
+<text x="480" y="518" text-anchor="middle" font-size="13" fill="#64748b">Read the labels, follow the arrows, then explain the relationship in your own words.</text>
 </svg>

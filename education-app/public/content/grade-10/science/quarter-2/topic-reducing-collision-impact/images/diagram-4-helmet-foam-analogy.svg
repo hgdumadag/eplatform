@@ -1,20 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="500" viewBox="0 0 920 500" role="img" aria-labelledby="title desc">
-<title id="title">Helmet foam analogy</title><desc id="desc">Foam compression increases stopping time for the head</desc>
-<rect width="920" height="500" rx="28" fill="#f8fafc"/>
-<rect x="22" y="22" width="876" height="456" rx="24" fill="#fce7f3" stroke="#0f172a" stroke-width="2"/>
-<text x="460" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="800" fill="#0f172a">Helmet foam analogy</text>
-<text x="460" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">Foam compression increases stopping time for the head</text>
-<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10 Z" fill="#7c3aed"/></marker></defs>
-<rect x="170" y="155" width="580" height="175" rx="24" fill="#ffffff" stroke="#334155" stroke-width="3"/>
-<path d="M260 245 L660 245" stroke="#7c3aed" stroke-width="8" marker-end="url(#arrow)"/>
-<circle cx="250" cy="245" r="42" fill="#bfdbfe" stroke="#1e40af" stroke-width="4"/>
-<rect x="610" y="205" width="85" height="80" rx="16" fill="#fed7aa" stroke="#9a3412" stroke-width="4"/>
-<rect x="38" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="50" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">outer shell</text>
-<rect x="648" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="660" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">foam compresses</text>
-<rect x="38" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="50" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">head slows gradually</text>
-<rect x="342" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="354" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">reduced peak force</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="540" viewBox="0 0 960 540" role="img" aria-label="Helmet Foam Analogy">
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#dc2626"/></marker>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-opacity="0.18"/></filter>
+</defs>
+<rect width="960" height="540" fill="#fff1f2"/>
+<rect x="28" y="24" width="904" height="72" rx="22" fill="white" filter="url(#shadow)"/>
+<text x="52" y="56" font-size="26" font-weight="800" fill="#0f172a">Helmet Foam Analogy</text>
+<text x="52" y="82" font-size="15" font-weight="500" fill="#475569">Foam crushes to lengthen stopping time for the head</text>
+<line x1="480" y1="128" x2="480" y2="455" stroke="#dc2626" stroke-width="3" stroke-dasharray="8 8"/>
+<rect x="68" y="150" width="354" height="120" rx="18" fill="white" stroke="#dc2626" stroke-width="2"/>
+<circle cx="92" cy="178" r="10" fill="#dc2626" opacity="0.9"/>
+<text x="112" y="182" font-size="18" fill="#111827" font-weight="700" text-anchor="start">No helmet</text>
+<text x="90" y="216" font-size="15" fill="#334155" font-weight="500" text-anchor="start">short stop • large force on</text>
+<text x="90" y="235" font-size="15" fill="#334155" font-weight="500" text-anchor="start">skull</text>
+<rect x="538" y="150" width="354" height="120" rx="18" fill="white" stroke="#dc2626" stroke-width="2"/>
+<circle cx="562" cy="178" r="10" fill="#dc2626" opacity="0.9"/>
+<text x="582" y="182" font-size="18" fill="#111827" font-weight="700" text-anchor="start">With helmet</text>
+<text x="560" y="216" font-size="15" fill="#334155" font-weight="500" text-anchor="start">foam compresses • longer stop</text>
+<rect x="68" y="320" width="354" height="120" rx="18" fill="white" stroke="#dc2626" stroke-width="2"/>
+<circle cx="92" cy="348" r="10" fill="#dc2626" opacity="0.9"/>
+<text x="112" y="352" font-size="18" fill="#111827" font-weight="700" text-anchor="start">Energy path</text>
+<text x="90" y="386" font-size="15" fill="#334155" font-weight="500" text-anchor="start">kinetic → deformation + heat •</text>
+<text x="90" y="405" font-size="15" fill="#334155" font-weight="500" text-anchor="start">less transferred to head</text>
+<rect x="538" y="320" width="354" height="120" rx="18" fill="white" stroke="#dc2626" stroke-width="2"/>
+<circle cx="562" cy="348" r="10" fill="#dc2626" opacity="0.9"/>
+<text x="582" y="352" font-size="18" fill="#111827" font-weight="700" text-anchor="start">Rule</text>
+<text x="560" y="386" font-size="15" fill="#334155" font-weight="500" text-anchor="start">replace damaged helmet •</text>
+<text x="560" y="405" font-size="15" fill="#334155" font-weight="500" text-anchor="start">crushed foam cannot protect</text>
+<text x="560" y="424" font-size="15" fill="#334155" font-weight="500" text-anchor="start">well</text>
+<text x="480" y="518" text-anchor="middle" font-size="13" fill="#64748b">Read the labels, follow the arrows, then explain the relationship in your own words.</text>
 </svg>
