@@ -1,23 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="500" viewBox="0 0 920 500" role="img" aria-labelledby="title desc">
-<title id="title">Conservation checklist</title><desc id="desc">Use a before-after table to keep momentum accounting clear</desc>
-<rect width="920" height="500" rx="28" fill="#f8fafc"/>
-<rect x="22" y="22" width="876" height="456" rx="24" fill="#ede9fe" stroke="#0f172a" stroke-width="2"/>
-<text x="460" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="800" fill="#0f172a">Conservation checklist</text>
-<text x="460" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">Use a before-after table to keep momentum accounting clear</text>
-<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10 Z" fill="#2563eb"/></marker></defs>
-<rect x="120" y="198" width="130" height="82" rx="16" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
-<path d="M255 239 L298 239" stroke="#2563eb" stroke-width="6" marker-end="url(#arrow)"/>
-<rect x="305" y="198" width="130" height="82" rx="16" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
-<path d="M440 239 L483 239" stroke="#2563eb" stroke-width="6" marker-end="url(#arrow)"/>
-<rect x="490" y="198" width="130" height="82" rx="16" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
-<path d="M625 239 L668 239" stroke="#2563eb" stroke-width="6" marker-end="url(#arrow)"/>
-<rect x="675" y="198" width="130" height="82" rx="16" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
-<rect x="38" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="50" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">define system</text>
-<rect x="648" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="660" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">find p before</text>
-<rect x="38" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="50" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">find p after</text>
-<rect x="342" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="354" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">compare totals</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="540" viewBox="0 0 960 540" role="img" aria-label="Conservation Checklist">
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#2563eb"/></marker>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-opacity="0.18"/></filter>
+</defs>
+<rect width="960" height="540" fill="#eff6ff"/>
+<rect x="28" y="24" width="904" height="72" rx="22" fill="white" filter="url(#shadow)"/>
+<text x="52" y="56" font-size="26" font-weight="800" fill="#0f172a">Conservation Checklist</text>
+<text x="52" y="82" font-size="15" font-weight="500" fill="#475569">Use a before-after table to avoid guessing</text>
+<rect x="130" y="130" width="700" height="58" rx="16" fill="white" stroke="#2563eb" stroke-width="2"/>
+<circle cx="166" cy="159" r="17" fill="#2563eb"/>
+<text x="166" y="165" text-anchor="middle" font-size="16" font-weight="800" fill="white">1</text>
+<text x="202" y="166" font-size="18" fill="#0f172a" font-weight="700" text-anchor="start">Define the system</text>
+<rect x="130" y="198" width="700" height="58" rx="16" fill="white" stroke="#2563eb" stroke-width="2"/>
+<circle cx="166" cy="227" r="17" fill="#2563eb"/>
+<text x="166" y="233" text-anchor="middle" font-size="16" font-weight="800" fill="white">2</text>
+<text x="202" y="234" font-size="18" fill="#0f172a" font-weight="700" text-anchor="start">List masses and velocities before</text>
+<rect x="130" y="266" width="700" height="58" rx="16" fill="white" stroke="#2563eb" stroke-width="2"/>
+<circle cx="166" cy="295" r="17" fill="#2563eb"/>
+<text x="166" y="301" text-anchor="middle" font-size="16" font-weight="800" fill="white">3</text>
+<text x="202" y="302" font-size="18" fill="#0f172a" font-weight="700" text-anchor="start">List masses and velocities after</text>
+<rect x="130" y="334" width="700" height="58" rx="16" fill="white" stroke="#2563eb" stroke-width="2"/>
+<circle cx="166" cy="363" r="17" fill="#2563eb"/>
+<text x="166" y="369" text-anchor="middle" font-size="16" font-weight="800" fill="white">4</text>
+<text x="202" y="370" font-size="18" fill="#0f172a" font-weight="700" text-anchor="start">Compare total p before and after</text>
+<rect x="130" y="402" width="700" height="58" rx="16" fill="white" stroke="#2563eb" stroke-width="2"/>
+<circle cx="166" cy="431" r="17" fill="#2563eb"/>
+<text x="166" y="437" text-anchor="middle" font-size="16" font-weight="800" fill="white">5</text>
+<text x="202" y="438" font-size="18" fill="#0f172a" font-weight="700" text-anchor="start">Explain external forces, if any</text>
+<text x="480" y="518" text-anchor="middle" font-size="13" fill="#64748b">Read the labels, follow the arrows, then explain the relationship in your own words.</text>
 </svg>

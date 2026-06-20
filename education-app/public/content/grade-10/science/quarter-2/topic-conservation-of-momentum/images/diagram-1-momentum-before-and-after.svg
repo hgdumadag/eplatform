@@ -1,23 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="500" viewBox="0 0 920 500" role="img" aria-labelledby="title desc">
-<title id="title">Momentum before and after</title><desc id="desc">In an isolated system, total momentum before equals total momentum after</desc>
-<rect width="920" height="500" rx="28" fill="#f8fafc"/>
-<rect x="22" y="22" width="876" height="456" rx="24" fill="#e0f2fe" stroke="#0f172a" stroke-width="2"/>
-<text x="460" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="800" fill="#0f172a">Momentum before and after</text>
-<text x="460" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">In an isolated system, total momentum before equals total momentum</text>
-<text x="460" y="106" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">after</text>
-<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10 Z" fill="#16a34a"/></marker></defs>
-<rect x="105" y="175" width="280" height="140" rx="18" fill="#ffffff" stroke="#64748b"/>
-<rect x="535" y="175" width="280" height="140" rx="18" fill="#ffffff" stroke="#64748b"/>
-<path d="M405 245 L510 245" stroke="#16a34a" stroke-width="8" marker-end="url(#arrow)"/>
-<text x="245" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="800" fill="#0f172a">before</text>
-<text x="675" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="800" fill="#0f172a">after</text>
-<circle cx="200" cy="245" r="30" fill="#93c5fd"/><circle cx="300" cy="245" r="30" fill="#fca5a5"/><circle cx="640" cy="245" r="30" fill="#93c5fd"/><circle cx="730" cy="245" r="30" fill="#fca5a5"/>
-<rect x="38" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="50" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">total p before</text>
-<rect x="648" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="660" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">collision event</text>
-<rect x="38" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="50" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">total p after</text>
-<rect x="342" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="354" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">same system total</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="540" viewBox="0 0 960 540" role="img" aria-label="Momentum Before and After">
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#2563eb"/></marker>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-opacity="0.18"/></filter>
+</defs>
+<rect width="960" height="540" fill="#eff6ff"/>
+<rect x="28" y="24" width="904" height="72" rx="22" fill="white" filter="url(#shadow)"/>
+<text x="52" y="56" font-size="26" font-weight="800" fill="#0f172a">Momentum Before and After</text>
+<text x="52" y="82" font-size="15" font-weight="500" fill="#475569">In an isolated system, total momentum before equals total momentum after</text>
+<rect x="70" y="150" width="175" height="180" rx="18" fill="white" stroke="#2563eb" stroke-width="2"/>
+<circle cx="94" cy="178" r="10" fill="#2563eb" opacity="0.9"/>
+<text x="114" y="182" font-size="18" fill="#111827" font-weight="700" text-anchor="start">Before</text>
+<text x="92" y="216" font-size="15" fill="#334155" font-weight="500" text-anchor="start">add all object momenta</text>
+<circle cx="128" cy="285" r="22" fill="#2563eb" opacity="0.78"/>
+<line x1="245" y1="240" x2="269" y2="240" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="285" y="150" width="175" height="180" rx="18" fill="white" stroke="#2563eb" stroke-width="2"/>
+<circle cx="309" cy="178" r="10" fill="#2563eb" opacity="0.9"/>
+<text x="329" y="182" font-size="18" fill="#111827" font-weight="700" text-anchor="start">Collision/push</text>
+<text x="307" y="216" font-size="15" fill="#334155" font-weight="500" text-anchor="start">objects exert internal forces</text>
+<circle cx="343" cy="285" r="22" fill="#2563eb" opacity="0.78"/>
+<line x1="460" y1="240" x2="484" y2="240" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="500" y="150" width="175" height="180" rx="18" fill="white" stroke="#2563eb" stroke-width="2"/>
+<circle cx="524" cy="178" r="10" fill="#2563eb" opacity="0.9"/>
+<text x="544" y="182" font-size="18" fill="#111827" font-weight="700" text-anchor="start">After</text>
+<text x="522" y="216" font-size="15" fill="#334155" font-weight="500" text-anchor="start">add all object momenta again</text>
+<circle cx="558" cy="285" r="22" fill="#2563eb" opacity="0.78"/>
+<line x1="675" y1="240" x2="699" y2="240" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="715" y="150" width="175" height="180" rx="18" fill="white" stroke="#2563eb" stroke-width="2"/>
+<circle cx="739" cy="178" r="10" fill="#2563eb" opacity="0.9"/>
+<text x="759" y="182" font-size="18" fill="#111827" font-weight="700" text-anchor="start">Check</text>
+<text x="737" y="216" font-size="15" fill="#334155" font-weight="500" text-anchor="start">totals match if external</text>
+<text x="737" y="235" font-size="15" fill="#334155" font-weight="500" text-anchor="start">forces are small</text>
+<circle cx="773" cy="285" r="22" fill="#2563eb" opacity="0.78"/>
+<text x="480" y="518" text-anchor="middle" font-size="13" fill="#64748b">Read the labels, follow the arrows, then explain the relationship in your own words.</text>
 </svg>

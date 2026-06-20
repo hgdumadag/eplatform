@@ -1,17 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="500" viewBox="0 0 920 500" role="img" aria-labelledby="title desc">
-<title id="title">Energy changes in collisions</title><desc id="desc">Inelastic impacts redirect kinetic energy into other forms</desc>
-<rect width="920" height="500" rx="28" fill="#f8fafc"/>
-<rect x="22" y="22" width="876" height="456" rx="24" fill="#fef3c7" stroke="#0f172a" stroke-width="2"/>
-<text x="460" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="800" fill="#0f172a">Energy changes in collisions</text>
-<text x="460" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">Inelastic impacts redirect kinetic energy into other forms</text>
-<rect x="185" y="158" width="550" height="150" rx="24" fill="#ffffff" stroke="#334155" stroke-width="3"/>
-<text x="460" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="800" fill="#2563eb">energy changes form</text>
-<rect x="38" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="50" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">kinetic energy before</text>
-<rect x="648" y="104" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="660" y="128" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">motion after</text>
-<rect x="38" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="50" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">heat and sound</text>
-<rect x="342" y="372" width="235" height="58" rx="12" fill="#ffffff" stroke="#94a3b8"/>
-<text x="354" y="396" text-anchor="start" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">deformation</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="540" viewBox="0 0 960 540" role="img" aria-label="Where Kinetic Energy Goes">
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#1d4ed8"/></marker>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-opacity="0.18"/></filter>
+</defs>
+<rect width="960" height="540" fill="#eff6ff"/>
+<rect x="28" y="24" width="904" height="72" rx="22" fill="white" filter="url(#shadow)"/>
+<text x="52" y="56" font-size="26" font-weight="800" fill="#0f172a">Where Kinetic Energy Goes</text>
+<text x="52" y="82" font-size="15" font-weight="500" fill="#475569">In inelastic collisions, energy is not destroyed; it changes form</text>
+<rect x="58" y="188" width="196" height="150" rx="18" fill="white" stroke="#1d4ed8" stroke-width="2"/>
+<circle cx="82" cy="216" r="10" fill="#1d4ed8" opacity="0.9"/>
+<text x="102" y="220" font-size="18" fill="#111827" font-weight="700" text-anchor="start">Moving objects</text>
+<text x="80" y="254" font-size="15" fill="#334155" font-weight="500" text-anchor="start">Kinetic energy before impact</text>
+<line x1="254" y1="263" x2="258" y2="263" stroke="#1d4ed8" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="274" y="188" width="196" height="150" rx="18" fill="white" stroke="#1d4ed8" stroke-width="2"/>
+<circle cx="298" cy="216" r="10" fill="#1d4ed8" opacity="0.9"/>
+<text x="318" y="220" font-size="18" fill="#111827" font-weight="700" text-anchor="start">Impact zone</text>
+<text x="296" y="254" font-size="15" fill="#334155" font-weight="500" text-anchor="start">Forces act while shapes change</text>
+<line x1="470" y1="263" x2="474" y2="263" stroke="#1d4ed8" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="490" y="188" width="196" height="150" rx="18" fill="white" stroke="#1d4ed8" stroke-width="2"/>
+<circle cx="514" cy="216" r="10" fill="#1d4ed8" opacity="0.9"/>
+<text x="534" y="220" font-size="18" fill="#111827" font-weight="700" text-anchor="start">Energy transfers</text>
+<text x="512" y="254" font-size="15" fill="#334155" font-weight="500" text-anchor="start">Heat, sound, deformation</text>
+<line x1="686" y1="263" x2="690" y2="263" stroke="#1d4ed8" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="706" y="188" width="196" height="150" rx="18" fill="white" stroke="#1d4ed8" stroke-width="2"/>
+<circle cx="730" cy="216" r="10" fill="#1d4ed8" opacity="0.9"/>
+<text x="750" y="220" font-size="18" fill="#111827" font-weight="700" text-anchor="start">Motion after</text>
+<text x="728" y="254" font-size="15" fill="#334155" font-weight="500" text-anchor="start">Less kinetic energy remains</text>
+<text x="480" y="518" text-anchor="middle" font-size="13" fill="#64748b">Read the labels, follow the arrows, then explain the relationship in your own words.</text>
 </svg>
