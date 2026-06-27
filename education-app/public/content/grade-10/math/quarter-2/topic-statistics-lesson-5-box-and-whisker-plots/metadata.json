@@ -1,0 +1,49 @@
+{
+  "id": "grade-10-math-q2-statistics-lesson-5-box-and-whisker-plots",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Statistics - Lesson 5: Box-and-Whisker Plots",
+  "description": "Construct box-and-whisker plots from a five-number summary and interpret center and spread.",
+  "learningObjectives": [
+    "Construct box-and-whisker plots from a five-number summary.",
+    "Identify the minimum, Q1, median, Q3, and maximum from ordered data.",
+    "Draw the box, median line, and whiskers on a scaled number line.",
+    "Interpret center, spread, and skew from a box-and-whisker plot.",
+    "Avoid common errors such as using the minimum and maximum as the box edges."
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "statistics",
+    "data-analysis",
+    "grade-10",
+    "data-and-probability",
+    "box-and-whisker-plots",
+    "five-number-summary",
+    "quartiles",
+    "median",
+    "spread"
+  ],
+  "lastUpdated": "2026-06-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/box-plot-reading-minutes.svg",
+      "images/five-number-summary-anatomy.svg",
+      "images/quartile-split-ordered-data.svg",
+      "images/box-plot-construction-steps.svg",
+      "images/box-plot-shape-comparison.svg",
+      "images/worked-example-quiz-scores.svg"
+    ]
+  },
+  "prerequisites": [
+    "Order numbers from least to greatest",
+    "Find the median of odd and even data sets",
+    "Find Q1 and Q3 from ordered data",
+    "Read and label a number line scale"
+  ]
+}

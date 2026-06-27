@@ -1,0 +1,48 @@
+{
+  "id": "grade-10-math-q3-statistics-lesson-8-conditional-probability",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Statistics - Lesson 8: Conditional Probability",
+  "description": "Solve conditional probability using contingency tables or Venn diagrams.",
+  "learningObjectives": [
+    "Identify the given condition and restricted denominator in a probability question.",
+    "Solve conditional probability using contingency tables.",
+    "Solve conditional probability using Venn diagrams.",
+    "Use the formula P(A | B) = P(A and B) / P(B) when probabilities are given.",
+    "Explain conditional probability answers in context."
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "statistics",
+    "probability",
+    "grade-10",
+    "data-and-probability",
+    "given",
+    "restricted denominator",
+    "conditional probability",
+    "contingency table",
+    "venn diagram"
+  ],
+  "lastUpdated": "2026-06-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/lesson-visual.svg",
+      "images/two-way-table-review-pass.svg",
+      "images/venn-conditional-overlap.svg",
+      "images/conditional-formula-map.svg",
+      "images/tree-diagram-without-replacement.svg"
+    ]
+  },
+  "prerequisites": [
+    "Find simple probabilities from counts",
+    "Read row and column totals in a table",
+    "Recognize overlap in a Venn diagram",
+    "Simplify fractions and convert to percents"
+  ]
+}

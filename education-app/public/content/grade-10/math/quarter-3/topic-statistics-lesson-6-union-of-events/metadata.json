@@ -1,0 +1,48 @@
+{
+  "id": "grade-10-math-q3-statistics-lesson-6-union-of-events",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Statistics - Lesson 6: Union of Events",
+  "description": "Solve probability problems involving the union of events using tables or Venn diagrams.",
+  "learningObjectives": [
+    "Explain the union of two events as outcomes in A, B, or both.",
+    "Use Venn diagrams and two-way tables to identify overlap and union counts.",
+    "Apply the addition rule P(A union B) = P(A) + P(B) - P(A intersection B).",
+    "Distinguish overlapping events from mutually exclusive events.",
+    "Interpret union probabilities in the context of surveys and experiments."
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "statistics",
+    "probability",
+    "grade-10",
+    "data-and-probability",
+    "union",
+    "venn-diagram",
+    "two-way-table",
+    "addition-rule",
+    "overlap"
+  ],
+  "lastUpdated": "2026-06-27",
+  "version": "1.1",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/union-venn-overview.svg",
+      "images/double-counting-overlap.svg",
+      "images/worked-example-clubs.svg",
+      "images/two-way-table-union.svg",
+      "images/error-analysis-union.svg"
+    ]
+  },
+  "prerequisites": [
+    "Read simple Venn diagrams and tables",
+    "Use fractions, decimals, and percents",
+    "Identify a total group or sample space",
+    "Explain a probability answer in context"
+  ]
+}

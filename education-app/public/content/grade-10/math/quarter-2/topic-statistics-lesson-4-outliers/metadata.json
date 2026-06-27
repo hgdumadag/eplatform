@@ -1,0 +1,47 @@
+{
+  "id": "grade-10-math-q2-statistics-lesson-4-outliers",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Statistics - Lesson 4: Outliers",
+  "description": "Identify possible outliers using the 1.5 x IQR rule and explain their effect on conclusions.",
+  "learningObjectives": [
+    "Identify possible outliers using the 1.5 x IQR rule.",
+    "Compute Q1, Q3, IQR, lower fence, and upper fence for an ordered data set.",
+    "Explain how an outlier can affect the mean, median, and a statistical conclusion.",
+    "Decide whether a possible outlier should be investigated before it is removed or reported."
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "statistics",
+    "data-analysis",
+    "grade-10",
+    "data-and-probability",
+    "quartiles",
+    "interquartile range",
+    "outliers",
+    "1.5 x IQR"
+  ],
+  "lastUpdated": "2026-06-27",
+  "version": "1.1",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/lesson-visual.svg",
+      "images/iqr-boxplot.svg",
+      "images/fence-number-line.svg",
+      "images/mean-median-impact.svg",
+      "images/outlier-decision-flow.svg"
+    ]
+  },
+  "prerequisites": [
+    "Order numbers from least to greatest",
+    "Find the median of a data set",
+    "Find quartiles from ordered data",
+    "Subtract decimals and multiply by 1.5",
+    "Write a short explanation using evidence"
+  ]
+}

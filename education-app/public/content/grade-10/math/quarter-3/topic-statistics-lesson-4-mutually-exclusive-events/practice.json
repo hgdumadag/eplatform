@@ -1,0 +1,98 @@
+{
+  "examId": "grade-10-math-q3-statistics-lesson-4-mutually-exclusive-events-practice",
+  "examType": "practice",
+  "title": "Statistics - Lesson 4: Mutually Exclusive Events Practice",
+  "description": "Practice identifying mutually exclusive and non-mutually exclusive events and using the correct addition rule.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which pair of events is mutually exclusive when one card is drawn from a standard deck?",
+      "options": [
+        "Drawing a heart and drawing a spade",
+        "Drawing a red card and drawing a heart",
+        "Drawing a face card and drawing a queen",
+        "Drawing a black card and drawing a club"
+      ],
+      "correctAnswer": 0,
+      "explanation": "One card cannot be both a heart and a spade because a card has only one suit.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "true-false",
+      "question": "If two events are mutually exclusive, then P(A and B) = 0.",
+      "correctAnswer": "true",
+      "explanation": "Mutually exclusive events cannot happen together, so their intersection has probability 0.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A number cube is rolled once. Let A = rolling an even number and B = rolling a number greater than 4. Which statement is correct?",
+      "options": [
+        "A and B are non-mutually exclusive because 6 is in both events.",
+        "A and B are mutually exclusive because even numbers are never greater than 4.",
+        "A and B are mutually exclusive because there are two event names.",
+        "A and B are non-mutually exclusive because every number is even."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A = {2, 4, 6} and B = {5, 6}. The shared outcome 6 means the events overlap.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "If P(A) = 0.35, P(B) = 0.25, and A and B are mutually exclusive, what is P(A or B)? Enter a decimal.",
+      "correctAnswer": "0.60 or 0.6",
+      "explanation": "For mutually exclusive events, add directly: 0.35 + 0.25 = 0.60.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Why do we subtract P(A and B) in the general addition rule?",
+      "options": [
+        "To correct double-counting of outcomes that are in both events",
+        "To make every probability smaller than 1/2",
+        "To remove outcomes that are impossible separately",
+        "To change fractions into decimals"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When events overlap, adding P(A) and P(B) counts the shared outcomes twice, so the overlap is subtracted once.",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "In a class of 30 learners, 12 joined dance club, 10 joined drama club, and 4 joined both. How many joined dance club or drama club?",
+      "options": [
+        "18",
+        "22",
+        "26",
+        "4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Use 12 + 10 - 4 = 18. The 4 learners in both clubs should not be counted twice.",
+      "points": 15
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "In one sentence, explain how to decide whether two events are mutually exclusive.",
+      "correctAnswer": "Check whether the same outcome can belong to both events in one trial; if not, they are mutually exclusive.",
+      "explanation": "The key idea is whether there is a possible overlap in the same trial.",
+      "points": 15
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Give one example of two non-mutually exclusive events from school life and explain why they overlap.",
+      "correctAnswer": "Being in the math club and being in the science club are non-mutually exclusive because one student can join both.",
+      "explanation": "A correct response should name two events that can happen for the same person or outcome.",
+      "points": 15
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Box plot comparison</title>
+  <desc id="desc">Two horizontal box plots comparing Section A and Section B quiz scores.</desc>
+  <rect width="900" height="420" fill="#f8fafc"/>
+  <rect x="42" y="34" width="816" height="342" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="72" y="76" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Compare groups with median and IQR</text>
+  <text x="72" y="108" font-family="Arial, sans-serif" font-size="16" fill="#475569">Section B has a slightly higher median and a smaller middle-half spread.</text>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#475569" text-anchor="middle">
+    <line x1="140" y1="310" x2="780" y2="310" stroke="#334155" stroke-width="3"/>
+    <g stroke="#94a3b8" stroke-width="2">
+      <line x1="140" y1="300" x2="140" y2="320"/>
+      <line x1="300" y1="300" x2="300" y2="320"/>
+      <line x1="460" y1="300" x2="460" y2="320"/>
+      <line x1="620" y1="300" x2="620" y2="320"/>
+      <line x1="780" y1="300" x2="780" y2="320"/>
+    </g>
+    <text x="140" y="344">40</text>
+    <text x="300" y="344">55</text>
+    <text x="460" y="344">70</text>
+    <text x="620" y="344">85</text>
+    <text x="780" y="344">100</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">
+    <text x="74" y="174">Section A</text>
+    <text x="74" y="254">Section B</text>
+  </g>
+  <g stroke-linecap="round">
+    <line x1="162" y1="168" x2="695" y2="168" stroke="#475569" stroke-width="4"/>
+    <line x1="162" y1="150" x2="162" y2="186" stroke="#475569" stroke-width="4"/>
+    <line x1="695" y1="150" x2="695" y2="186" stroke="#475569" stroke-width="4"/>
+    <rect x="268" y="136" width="277" height="64" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+    <line x1="396" y1="136" x2="396" y2="200" stroke="#1e3a8a" stroke-width="4"/>
+    <line x1="184" y1="248" x2="578" y2="248" stroke="#475569" stroke-width="4"/>
+    <line x1="184" y1="230" x2="184" y2="266" stroke="#475569" stroke-width="4"/>
+    <line x1="578" y1="230" x2="578" y2="266" stroke="#475569" stroke-width="4"/>
+    <rect x="354" y="216" width="149" height="64" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+    <line x1="439" y1="216" x2="439" y2="280" stroke="#166534" stroke-width="4"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="15" text-anchor="middle">
+    <text x="396" y="128" fill="#1e3a8a">median 64</text>
+    <text x="407" y="212" fill="#166534">median 68</text>
+    <text x="406" y="114" fill="#475569">IQR 26</text>
+    <text x="429" y="298" fill="#475569">IQR 14</text>
+  </g>
+</svg>

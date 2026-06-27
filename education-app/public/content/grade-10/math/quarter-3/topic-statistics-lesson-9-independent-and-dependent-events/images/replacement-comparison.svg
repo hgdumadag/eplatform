@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">With replacement and without replacement comparison</title>
+  <desc id="desc">Two side-by-side bags show that replacement keeps the count at eight while no replacement reduces the second draw to seven.</desc>
+  <rect width="960" height="420" fill="#f8fafc"/>
+  <text x="480" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Replacement Changes the Second Probability</text>
+  <rect x="50" y="78" width="405" height="300" rx="18" fill="#ecfeff" stroke="#0891b2" stroke-width="3"/>
+  <rect x="505" y="78" width="405" height="300" rx="18" fill="#fff7ed" stroke="#ea580c" stroke-width="3"/>
+  <text x="252" y="116" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#155e75">With replacement</text>
+  <text x="707" y="116" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#9a3412">Without replacement</text>
+  <g transform="translate(122 148)">
+    <rect x="0" y="0" width="112" height="120" rx="20" fill="#bae6fd" stroke="#0369a1" stroke-width="3"/>
+    <text x="56" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#075985">Draw 1: 5/8</text>
+    <circle cx="32" cy="36" r="13" fill="#ef4444"/><circle cx="62" cy="38" r="13" fill="#ef4444"/><circle cx="85" cy="68" r="13" fill="#ef4444"/>
+    <circle cx="32" cy="78" r="13" fill="#ef4444"/><circle cx="66" cy="88" r="13" fill="#ef4444"/><circle cx="82" cy="30" r="13" fill="#3b82f6"/>
+    <circle cx="48" cy="62" r="13" fill="#3b82f6"/><circle cx="26" cy="104" r="13" fill="#3b82f6"/>
+  </g>
+  <path d="M260 208 C295 176 330 176 365 208" stroke="#0891b2" stroke-width="4" fill="none" marker-end="url(#arrowBlue)"/>
+  <text x="312" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#155e75">put back</text>
+  <g transform="translate(328 148)">
+    <rect x="0" y="0" width="112" height="120" rx="20" fill="#bae6fd" stroke="#0369a1" stroke-width="3"/>
+    <text x="56" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#075985">Draw 2: 3/8</text>
+    <circle cx="32" cy="36" r="13" fill="#ef4444"/><circle cx="62" cy="38" r="13" fill="#ef4444"/><circle cx="85" cy="68" r="13" fill="#ef4444"/>
+    <circle cx="32" cy="78" r="13" fill="#ef4444"/><circle cx="66" cy="88" r="13" fill="#ef4444"/><circle cx="82" cy="30" r="13" fill="#3b82f6"/>
+    <circle cx="48" cy="62" r="13" fill="#3b82f6"/><circle cx="26" cy="104" r="13" fill="#3b82f6"/>
+  </g>
+  <g transform="translate(577 148)">
+    <rect x="0" y="0" width="112" height="120" rx="20" fill="#fed7aa" stroke="#c2410c" stroke-width="3"/>
+    <text x="56" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#9a3412">Draw 1: 5/8</text>
+    <circle cx="32" cy="36" r="13" fill="#ef4444"/><circle cx="62" cy="38" r="13" fill="#ef4444"/><circle cx="85" cy="68" r="13" fill="#ef4444"/>
+    <circle cx="32" cy="78" r="13" fill="#ef4444"/><circle cx="66" cy="88" r="13" fill="#ef4444"/><circle cx="82" cy="30" r="13" fill="#3b82f6"/>
+    <circle cx="48" cy="62" r="13" fill="#3b82f6"/><circle cx="26" cy="104" r="13" fill="#3b82f6"/>
+  </g>
+  <path d="M715 208 C750 176 785 176 820 208" stroke="#ea580c" stroke-width="4" fill="none" marker-end="url(#arrowOrange)"/>
+  <text x="768" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#9a3412">keep out</text>
+  <g transform="translate(783 148)">
+    <rect x="0" y="0" width="112" height="120" rx="20" fill="#fed7aa" stroke="#c2410c" stroke-width="3"/>
+    <text x="56" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#9a3412">Draw 2: 3/7</text>
+    <circle cx="62" cy="38" r="13" fill="#ef4444"/><circle cx="85" cy="68" r="13" fill="#ef4444"/>
+    <circle cx="32" cy="78" r="13" fill="#ef4444"/><circle cx="66" cy="88" r="13" fill="#ef4444"/><circle cx="82" cy="30" r="13" fill="#3b82f6"/>
+    <circle cx="48" cy="62" r="13" fill="#3b82f6"/><circle cx="26" cy="104" r="13" fill="#3b82f6"/>
+  </g>
+  <text x="252" y="344" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#155e75">Total resets: 8 then 8</text>
+  <text x="707" y="344" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#9a3412">Total changes: 8 then 7</text>
+  <defs>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10 Z" fill="#0891b2"/></marker>
+    <marker id="arrowOrange" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10 Z" fill="#ea580c"/></marker>
+  </defs>
+</svg>

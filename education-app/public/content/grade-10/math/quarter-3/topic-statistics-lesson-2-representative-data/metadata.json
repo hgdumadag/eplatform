@@ -1,0 +1,47 @@
+{
+  "id": "grade-10-math-q3-statistics-lesson-2-representative-data",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Statistics - Lesson 2: Representative Data",
+  "description": "Evaluate whether data are representative of the population named in a claim.",
+  "learningObjectives": [
+    "Identify the population and sample in a statistical claim.",
+    "Recognize common sources of sampling bias, including convenience and voluntary response samples.",
+    "Compare random, stratified, convenience, and voluntary response sampling methods.",
+    "Evaluate whether a sample fairly supports a population claim.",
+    "Write a careful conclusion that includes both the statistic and the limits of the data."
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "statistics",
+    "grade-10",
+    "data-and-probability",
+    "representative-data",
+    "population",
+    "sample",
+    "bias",
+    "sampling-methods"
+  ],
+  "lastUpdated": "2026-06-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/population-sample-map.svg",
+      "images/biased-vs-representative-sample.svg",
+      "images/sampling-methods-grid.svg",
+      "images/bias-checklist.svg",
+      "images/claim-support-scale.svg"
+    ]
+  },
+  "prerequisites": [
+    "Use fractions, decimals, and percents",
+    "Read tables and simple graphs",
+    "Distinguish a part from a whole",
+    "Write a short explanation using evidence"
+  ]
+}

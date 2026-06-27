@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="300" viewBox="0 0 920 300" role="img" aria-labelledby="title desc">
+  <title id="title">Five-number summary line</title>
+  <desc id="desc">A number line labels minimum, Q1, Q2, Q3, and maximum as the five-number summary.</desc>
+  <rect width="920" height="300" fill="#ffffff"/>
+  <text x="54" y="42" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#111827">Five-number summary</text>
+  <text x="54" y="72" font-family="Arial, sans-serif" font-size="16" fill="#475569">Quartiles sit inside the minimum and maximum.</text>
+  <line x1="105" y1="158" x2="815" y2="158" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(105 158)"><circle r="12" fill="#64748b"/><text y="-28" font-size="16" font-weight="700" fill="#334155">Minimum</text><text y="48" font-size="20" fill="#111827">6</text></g>
+    <g transform="translate(285 158)"><circle r="14" fill="#2563eb"/><text y="-28" font-size="18" font-weight="700" fill="#1d4ed8">Q1</text><text y="48" font-size="20" fill="#111827">11</text></g>
+    <g transform="translate(460 158)"><circle r="16" fill="#059669"/><text y="-28" font-size="18" font-weight="700" fill="#047857">Q2</text><text y="48" font-size="20" fill="#111827">15</text></g>
+    <g transform="translate(635 158)"><circle r="14" fill="#d97706"/><text y="-28" font-size="18" font-weight="700" fill="#b45309">Q3</text><text y="48" font-size="20" fill="#111827">23</text></g>
+    <g transform="translate(815 158)"><circle r="12" fill="#64748b"/><text y="-28" font-size="16" font-weight="700" fill="#334155">Maximum</text><text y="48" font-size="20" fill="#111827">31</text></g>
+  </g>
+  <rect x="260" y="230" width="400" height="34" rx="6" fill="#f1f5f9"/>
+  <text x="460" y="252" font-family="Arial, sans-serif" font-size="15" text-anchor="middle" fill="#334155">minimum, Q1, Q2, Q3, maximum</text>
+</svg>

@@ -1,0 +1,92 @@
+{
+  "examId": "grade-10-math-q2-statistics-lesson-2-quartiles-practice",
+  "examType": "practice",
+  "title": "Statistics - Lesson 2: Quartiles Practice",
+  "description": "Practice ordering data, calculating Q1, Q2, and Q3, and interpreting quartiles.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which action should come first when finding quartiles for an ungrouped data set?",
+      "options": [
+        "Order the data from least to greatest",
+        "Find the largest value only",
+        "Add all values and divide by the number of values",
+        "Choose the value that appears most often"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Quartiles are position measures, so the data must be ordered before the median and halves can be identified.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "For the ordered data 4, 7, 9, 12, 15, what is Q2? Enter just the number.",
+      "correctAnswer": "9",
+      "explanation": "There are five values, so Q2 is the middle value, 9.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "For the ordered data 4, 7, 9, 12, 15, what is Q1 using this lesson's method?",
+      "options": [
+        "5.5",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Exclude the median 9. The lower half is 4 and 7, so Q1 = (4 + 7) / 2 = 5.5.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "For the ordered data 3, 6, 8, 10, 14, 18, what is Q2? Enter just the number.",
+      "correctAnswer": "9",
+      "explanation": "There are six values, so Q2 is the average of the two middle values: (8 + 10) / 2 = 9.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "For the ordered data 3, 6, 8, 10, 14, 18, which pair gives Q1 and Q3?",
+      "options": [
+        "Q1 = 6 and Q3 = 14",
+        "Q1 = 8 and Q3 = 10",
+        "Q1 = 4.5 and Q3 = 16",
+        "Q1 = 3 and Q3 = 18"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lower half is 3, 6, 8, so Q1 = 6. The upper half is 10, 14, 18, so Q3 = 14.",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "Q3 is always the same as the maximum value of the data set.",
+      "correctAnswer": "false",
+      "explanation": "Q3 is the third quartile, located around the 75% position. The maximum is the largest value.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "In one sentence, interpret this result for quiz scores: Q1 = 12.",
+      "correctAnswer": "About one-fourth of the quiz scores are at or below 12.",
+      "explanation": "A correct interpretation should connect Q1 to the lower quarter of the quiz score data.",
+      "points": 15
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Why should the median be excluded from the halves when this lesson finds Q1 and Q3 for an odd number of data values?",
+      "correctAnswer": "Because the median is the middle of the whole data set, so this lesson uses only the values below it for Q1 and only the values above it for Q3.",
+      "explanation": "The convention keeps the lower and upper halves separate from the overall median.",
+      "points": 20
+    }
+  ]
+}

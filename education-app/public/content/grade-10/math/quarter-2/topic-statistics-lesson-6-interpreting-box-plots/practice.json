@@ -1,0 +1,98 @@
+{
+  "examId": "grade-10-math-q2-statistics-lesson-6-interpreting-box-plots-practice",
+  "examType": "practice",
+  "title": "Statistics - Lesson 6: Interpreting Box Plots Practice",
+  "description": "Practice reading and interpreting medians, IQRs, ranges, whiskers, and context from box plots.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "In a box plot, which feature shows the median?",
+      "options": [
+        "The line inside the box",
+        "The full length from minimum to maximum",
+        "The left whisker only",
+        "The title of the graph"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The median is represented by the line drawn inside the box.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A box plot has Q1 = 18 and Q3 = 31. What is the IQR? Enter just the number.",
+      "correctAnswer": "13",
+      "explanation": "IQR = Q3 - Q1 = 31 - 18 = 13.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Class A has median score 84. Class B has median score 79. Which statement is supported?",
+      "options": [
+        "Class B has the higher typical score.",
+        "Class A has the higher typical score.",
+        "Class A must have the smaller range.",
+        "Class B must have no outliers."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The higher median indicates the higher typical value, so Class A has the higher typical score.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "A wider box means the middle 50% of data values are more spread out.",
+      "correctAnswer": "true",
+      "explanation": "The box width represents the interquartile range, which measures spread in the middle 50% of the data.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Group X has IQR 8. Group Y has IQR 20. Which group is more consistent in the middle 50%?",
+      "options": [
+        "Group Y",
+        "They are equally consistent",
+        "Group X",
+        "There is not enough information to compare medians"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A smaller IQR means the middle half of the data is less spread out, so Group X is more consistent.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A box plot has minimum 12 and maximum 47. What is the range? Enter just the number.",
+      "correctAnswer": "35",
+      "explanation": "Range = maximum - minimum = 47 - 12 = 35.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A box plot has a much longer right whisker than left whisker. What does this suggest?",
+      "options": [
+        "The data must have a larger sample size.",
+        "The median is equal to the maximum.",
+        "The IQR is zero.",
+        "The data may be right-skewed."
+      ],
+      "correctAnswer": 3,
+      "explanation": "A longer right whisker suggests that higher values are more spread out, which is a right-skew clue.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "In one or two sentences, explain why using only the maximum value can lead to a weak comparison of two box plots.",
+      "correctAnswer": "The maximum may be only one value and may not represent the typical data. A stronger comparison also uses the median, IQR, and range in context.",
+      "explanation": "A complete comparison should not rely on a single extreme value; it should consider center and spread.",
+      "points": 30
+    }
+  ]
+}

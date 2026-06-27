@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+  <title id="title">Decile ladder</title>
+  <desc id="desc">A ladder of ten bands showing decile cut points from D1 through D9.</desc>
+  <rect width="960" height="360" fill="#f0fdf4"/>
+  <text x="48" y="56" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#14532d">Deciles divide ordered data into ten parts</text>
+  <text x="48" y="91" font-family="Arial, sans-serif" font-size="16" fill="#166534">Each decile step represents another tenth of the ordered data.</text>
+  <g transform="translate(94 132)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="772" height="116" rx="10" fill="#ffffff" stroke="#15803d" stroke-width="3"/>
+    <g stroke="#15803d" stroke-width="2">
+      <line x1="77.2" y1="0" x2="77.2" y2="116"/>
+      <line x1="154.4" y1="0" x2="154.4" y2="116"/>
+      <line x1="231.6" y1="0" x2="231.6" y2="116"/>
+      <line x1="308.8" y1="0" x2="308.8" y2="116"/>
+      <line x1="386" y1="0" x2="386" y2="116"/>
+      <line x1="463.2" y1="0" x2="463.2" y2="116"/>
+      <line x1="540.4" y1="0" x2="540.4" y2="116"/>
+      <line x1="617.6" y1="0" x2="617.6" y2="116"/>
+      <line x1="694.8" y1="0" x2="694.8" y2="116"/>
+    </g>
+    <g fill="#bbf7d0">
+      <rect x="0" y="0" width="77.2" height="116" rx="10"/>
+      <rect x="154.4" y="0" width="77.2" height="116"/>
+      <rect x="308.8" y="0" width="77.2" height="116"/>
+      <rect x="463.2" y="0" width="77.2" height="116"/>
+      <rect x="617.6" y="0" width="77.2" height="116"/>
+    </g>
+    <g font-size="15" text-anchor="middle" fill="#14532d">
+      <text x="77.2" y="-16">D1</text>
+      <text x="154.4" y="-16">D2</text>
+      <text x="231.6" y="-16">D3</text>
+      <text x="308.8" y="-16">D4</text>
+      <text x="386" y="-16" font-weight="700">D5</text>
+      <text x="463.2" y="-16">D6</text>
+      <text x="540.4" y="-16">D7</text>
+      <text x="617.6" y="-16">D8</text>
+      <text x="694.8" y="-16">D9</text>
+      <text x="38.6" y="66">10%</text>
+      <text x="193" y="66">30%</text>
+      <text x="347.4" y="66">50%</text>
+      <text x="501.8" y="66">70%</text>
+      <text x="656.2" y="66">90%</text>
+    </g>
+  </g>
+  <text x="480" y="304" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#14532d">D5 is the halfway point, so it lines up with the median and P50.</text>
+</svg>

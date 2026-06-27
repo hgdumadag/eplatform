@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">Misleading scale comparison</title>
+  <desc id="desc">Two bar charts compare 42 and 45 learners, one with a zero baseline and one with a cut-off baseline.</desc>
+  <rect width="760" height="360" fill="#f8fafc"/>
+  <g font-family="Arial, sans-serif" fill="#0f172a">
+    <text x="180" y="38" text-anchor="middle" font-size="18" font-weight="700">Full scale starts at 0</text>
+    <text x="580" y="38" text-anchor="middle" font-size="18" font-weight="700">Cut-off scale starts at 40</text>
+  </g>
+  <g transform="translate(58,70)">
+    <line x1="55" y1="230" x2="300" y2="230" stroke="#475569" stroke-width="2"/>
+    <line x1="55" y1="30" x2="55" y2="230" stroke="#475569" stroke-width="2"/>
+    <rect x="105" y="62" width="55" height="168" fill="#38bdf8"/>
+    <rect x="205" y="50" width="55" height="180" fill="#0ea5e9"/>
+    <text x="132" y="252" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#334155">Aug</text>
+    <text x="232" y="252" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#334155">Sept</text>
+    <text x="132" y="54" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#0f172a">42</text>
+    <text x="232" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#0f172a">45</text>
+    <text x="26" y="234" font-family="Arial, sans-serif" font-size="12" fill="#475569">0</text>
+    <text x="20" y="34" font-family="Arial, sans-serif" font-size="12" fill="#475569">50</text>
+  </g>
+  <g transform="translate(458,70)">
+    <line x1="55" y1="230" x2="300" y2="230" stroke="#475569" stroke-width="2"/>
+    <line x1="55" y1="30" x2="55" y2="230" stroke="#475569" stroke-width="2"/>
+    <path d="M47 222 l16 -18 M47 236 l16 -18" stroke="#ef4444" stroke-width="3"/>
+    <rect x="105" y="110" width="55" height="120" fill="#fbbf24"/>
+    <rect x="205" y="50" width="55" height="180" fill="#f59e0b"/>
+    <text x="132" y="252" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#334155">Aug</text>
+    <text x="232" y="252" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#334155">Sept</text>
+    <text x="132" y="102" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#0f172a">42</text>
+    <text x="232" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#0f172a">45</text>
+    <text x="14" y="234" font-family="Arial, sans-serif" font-size="12" fill="#475569">40</text>
+    <text x="14" y="34" font-family="Arial, sans-serif" font-size="12" fill="#475569">45</text>
+  </g>
+  <text x="380" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#334155">Same data: 45 - 42 = 3 more learners. The second graph makes the difference look larger.</text>
+</svg>

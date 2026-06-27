@@ -1,0 +1,172 @@
+{
+  "examId": "grade-10-math-q3-statistics-lesson-4-mutually-exclusive-events-assessment",
+  "examType": "assessment",
+  "title": "Statistics - Lesson 4: Mutually Exclusive Events Assessment",
+  "description": "Assessment for illustrating mutually exclusive and non-mutually exclusive events and applying probability addition rules.",
+  "passingScore": 75,
+  "timeLimit": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement best defines mutually exclusive events?",
+      "options": [
+        "Events that cannot happen at the same time in one trial",
+        "Events that always have probability 1",
+        "Events that have the same number of outcomes",
+        "Events that must be written as percentages"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mutually exclusive events have no shared outcome in the same trial.",
+      "points": 5
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A number cube is rolled once. Which pair is mutually exclusive?",
+      "options": [
+        "Rolling an odd number and rolling an even number",
+        "Rolling an even number and rolling a number greater than 4",
+        "Rolling a number less than 5 and rolling an odd number",
+        "Rolling a 3 and rolling an odd number"
+      ],
+      "correctAnswer": 0,
+      "explanation": "One number cannot be odd and even at the same time.",
+      "points": 5
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "Two events with different names are always mutually exclusive.",
+      "correctAnswer": "false",
+      "explanation": "Different event names can overlap. For example, a card can be both red and a heart.",
+      "points": 5
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "For mutually exclusive events A and B, P(A) = 1/5 and P(B) = 2/5. What is P(A or B)? Enter a fraction.",
+      "correctAnswer": "3/5",
+      "explanation": "Since the events are mutually exclusive, P(A or B) = 1/5 + 2/5 = 3/5.",
+      "points": 5
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "One card is drawn from a standard deck. Which pair is non-mutually exclusive?",
+      "options": [
+        "Drawing a queen and drawing a diamond",
+        "Drawing a heart and drawing a spade",
+        "Drawing a club and drawing a diamond",
+        "Drawing a red card and drawing a black card"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The queen of diamonds belongs to both events, so the events overlap.",
+      "points": 5
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A spinner has 10 equal sections: 4 red, 3 blue, and 3 green. What is P(red or blue)?",
+      "options": [
+        "7/10",
+        "12/10",
+        "1/10",
+        "3/10"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Color sections do not overlap, so P(red or blue) = 4/10 + 3/10 = 7/10.",
+      "points": 5
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "If P(A and B) is greater than 0, then A and B are non-mutually exclusive.",
+      "correctAnswer": "true",
+      "explanation": "A positive intersection means at least one outcome can be in both events.",
+      "points": 5
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "In a survey of 50 learners, 22 like documentaries, 18 like dramas, and 7 like both. How many like documentaries or dramas?",
+      "options": [
+        "33",
+        "40",
+        "47",
+        "7"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Use 22 + 18 - 7 = 33. The 7 learners in both groups are counted once.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "question": "Using the survey in Question 8, what is the probability that a randomly selected learner likes documentaries or dramas? Enter a fraction.",
+      "correctAnswer": "33/50",
+      "explanation": "There are 33 favorable learners out of 50 total learners, so the probability is 33/50.",
+      "points": 5
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "Which formula is always safe for finding P(A or B), whether or not events overlap?",
+      "options": [
+        "P(A or B) = P(A) + P(B) - P(A and B)",
+        "P(A or B) = P(A) + P(B) + P(A and B)",
+        "P(A or B) = P(A) - P(B)",
+        "P(A or B) = P(A and B)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The general addition rule works for all cases. If events are mutually exclusive, P(A and B) = 0.",
+      "points": 5
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "question": "A learner says, \"Heart and red are mutually exclusive because they are different words.\" Explain the mistake.",
+      "correctAnswer": "The events are not mutually exclusive because a heart card is also red, so the events overlap.",
+      "explanation": "The decision depends on shared outcomes, not on whether the event names sound different.",
+      "points": 10
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "question": "A spinner has sections numbered 1 to 8. Let A = landing on an even number and B = landing on a multiple of 4. Which statement is true?",
+      "options": [
+        "A and B are non-mutually exclusive because 4 and 8 are in both events.",
+        "A and B are mutually exclusive because multiples of 4 are not even.",
+        "A and B are mutually exclusive because A has more outcomes.",
+        "A and B are non-mutually exclusive because every number is a multiple of 4."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A = {2, 4, 6, 8} and B = {4, 8}, so the events overlap at 4 and 8.",
+      "points": 10
+    },
+    {
+      "id": "q13",
+      "type": "fill-in",
+      "question": "If P(A) = 0.52, P(B) = 0.31, and P(A and B) = 0.18, what is P(A or B)? Enter a decimal.",
+      "correctAnswer": "0.65",
+      "explanation": "Use the general addition rule: 0.52 + 0.31 - 0.18 = 0.65.",
+      "points": 10
+    },
+    {
+      "id": "q14",
+      "type": "short-answer",
+      "question": "Why is it important to identify the experiment before deciding whether events are mutually exclusive?",
+      "correctAnswer": "The experiment tells what one trial is and which outcomes can occur together; the same words may overlap in one situation but not another.",
+      "explanation": "Mutual exclusivity depends on the trial and sample space, so the context must be read first.",
+      "points": 10
+    },
+    {
+      "id": "q15",
+      "type": "short-answer",
+      "question": "Create a pair of mutually exclusive events and a pair of non-mutually exclusive events. Briefly explain both choices.",
+      "correctAnswer": "Mutually exclusive: drawing a heart and drawing a spade in one card draw, because one card has one suit. Non-mutually exclusive: drawing a queen and drawing a diamond, because the queen of diamonds is both.",
+      "explanation": "A full-credit response should include one no-overlap pair and one overlap pair, with the reason for each.",
+      "points": 10
+    }
+  ]
+}

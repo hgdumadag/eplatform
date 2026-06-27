@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="360" viewBox="0 0 920 360" role="img" aria-labelledby="title desc">
+  <title id="title">Worked example quartile split</title>
+  <desc id="desc">Nine ordered review times split around median 24, showing lower and upper halves used to find Q1 and Q3.</desc>
+  <rect width="920" height="360" fill="#f8fafc"/>
+  <text x="50" y="44" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#111827">Worked example: split after finding Q2</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle" font-size="18">
+    <g transform="translate(72 105)"><rect width="76" height="56" rx="8" fill="#bfdbfe"/><text x="38" y="36" fill="#111827">12</text></g>
+    <g transform="translate(160 105)"><rect width="76" height="56" rx="8" fill="#bfdbfe"/><text x="38" y="36" fill="#111827">16</text></g>
+    <g transform="translate(248 105)"><rect width="76" height="56" rx="8" fill="#bfdbfe"/><text x="38" y="36" fill="#111827">18</text></g>
+    <g transform="translate(336 105)"><rect width="76" height="56" rx="8" fill="#bfdbfe"/><text x="38" y="36" fill="#111827">20</text></g>
+    <g transform="translate(424 105)"><rect width="76" height="56" rx="8" fill="#bbf7d0" stroke="#047857" stroke-width="3"/><text x="38" y="36" fill="#111827">24</text></g>
+    <g transform="translate(512 105)"><rect width="76" height="56" rx="8" fill="#fde68a"/><text x="38" y="36" fill="#111827">28</text></g>
+    <g transform="translate(600 105)"><rect width="76" height="56" rx="8" fill="#fde68a"/><text x="38" y="36" fill="#111827">30</text></g>
+    <g transform="translate(688 105)"><rect width="76" height="56" rx="8" fill="#fde68a"/><text x="38" y="36" fill="#111827">35</text></g>
+    <g transform="translate(776 105)"><rect width="76" height="56" rx="8" fill="#fde68a"/><text x="38" y="36" fill="#111827">45</text></g>
+  </g>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <path d="M110 178 C160 225 310 225 374 178" fill="none" stroke="#2563eb" stroke-width="4"/>
+    <text x="242" y="240" font-size="18" font-weight="700" fill="#1d4ed8">Lower half</text>
+    <text x="242" y="268" font-size="17" fill="#111827">Q1 = (16 + 18) / 2 = 17</text>
+    <path d="M550 178 C600 225 750 225 814 178" fill="none" stroke="#d97706" stroke-width="4"/>
+    <text x="682" y="240" font-size="18" font-weight="700" fill="#b45309">Upper half</text>
+    <text x="682" y="268" font-size="17" fill="#111827">Q3 = (30 + 35) / 2 = 32.5</text>
+    <line x1="462" y1="166" x2="462" y2="286" stroke="#047857" stroke-width="4"/>
+    <text x="462" y="316" font-size="18" font-weight="700" fill="#047857">Q2 = 24</text>
+  </g>
+</svg>

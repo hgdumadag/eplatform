@@ -1,0 +1,92 @@
+{
+  "examId": "grade-10-math-q2-statistics-lesson-5-box-and-whisker-plots-practice",
+  "examType": "practice",
+  "title": "Statistics - Lesson 5: Box-and-Whisker Plots Practice",
+  "description": "Practice constructing and interpreting box-and-whisker plots from five-number summaries.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which list shows the values in a five-number summary in the correct order?",
+      "options": [
+        "Minimum, Q1, median, Q3, maximum",
+        "Minimum, median, Q1, Q3, maximum",
+        "Q1, minimum, median, maximum, Q3",
+        "Maximum, Q3, median, Q1, minimum"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A five-number summary is always written as minimum, Q1, median, Q3, and maximum.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "For the ordered data set 4, 7, 9, 10, 13, what is the median? Enter just the number.",
+      "correctAnswer": "9",
+      "explanation": "There are five values, so the middle value is the third value, 9.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A five-number summary is 6, 11, 15, 19, 24. Which values are the ends of the box?",
+      "options": [
+        "11 and 19",
+        "6 and 24",
+        "6 and 15",
+        "15 and 24"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The box runs from Q1 to Q3, so its ends are 11 and 19.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "In a box-and-whisker plot, the median is shown as a line inside the box.",
+      "correctAnswer": "true",
+      "explanation": "The box goes from Q1 to Q3, and the median is marked with a line inside the box.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "For the five-number summary 8, 12, 17, 20, 29, what is the interquartile range? Enter just the number.",
+      "correctAnswer": "8",
+      "explanation": "The IQR is Q3 - Q1 = 20 - 12 = 8.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Which statement correctly interprets a long right whisker?",
+      "options": [
+        "The highest quarter of values is more spread out.",
+        "Most values are in the right whisker.",
+        "The median must be the largest value.",
+        "The data set has no maximum."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Each section represents about one quarter of the data. A longer section means more spread, not more data points.",
+      "points": 15
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "A student draws the box from the minimum to the maximum. Explain the mistake in one or two sentences.",
+      "correctAnswer": "The box should be drawn from Q1 to Q3, not from the minimum to the maximum. The whiskers extend from the box to the minimum and maximum.",
+      "explanation": "This checks the main structure of a box plot: box edges are quartiles, and whisker ends are extremes.",
+      "points": 15
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Describe the steps for constructing a box-and-whisker plot from a five-number summary.",
+      "correctAnswer": "Draw a scaled number line, mark the minimum, Q1, median, Q3, and maximum, draw a box from Q1 to Q3, draw the median line, and extend whiskers to the minimum and maximum.",
+      "explanation": "A complete construction response includes the scale, the five marked values, the box, median line, and whiskers.",
+      "points": 20
+    }
+  ]
+}

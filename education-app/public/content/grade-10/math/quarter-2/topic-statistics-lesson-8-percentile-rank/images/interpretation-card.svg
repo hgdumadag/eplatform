@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+  <title id="title">Percentile rank interpretation card</title>
+  <desc id="desc">A card separates the score, percentile rank, and context sentence for a complete interpretation.</desc>
+  <rect width="960" height="360" fill="#f8fafc"/>
+  <text x="60" y="58" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#111827">A complete answer needs meaning</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="80" y="98" width="800" height="210" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <rect x="118" y="138" width="190" height="112" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="213" y="174" font-size="18" font-weight="700" text-anchor="middle" fill="#1e3a8a">Score</text>
+    <text x="213" y="218" font-size="42" font-weight="700" text-anchor="middle" fill="#1d4ed8">82</text>
+    <rect x="385" y="138" width="190" height="112" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="480" y="174" font-size="18" font-weight="700" text-anchor="middle" fill="#166534">Rank</text>
+    <text x="480" y="218" font-size="42" font-weight="700" text-anchor="middle" fill="#15803d">60th</text>
+    <rect x="652" y="138" width="190" height="112" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+    <text x="747" y="174" font-size="18" font-weight="700" text-anchor="middle" fill="#92400e">Group</text>
+    <text x="747" y="211" font-size="20" font-weight="700" text-anchor="middle" fill="#78350f">quiz scores</text>
+    <path d="M318 194 H374" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M586 194 H642" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="480" y="286" font-size="22" font-weight="700" text-anchor="middle" fill="#111827">82 is higher than 60% of the quiz scores in this class.</text>
+  </g>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,100 @@
+{
+  "examId": "grade-10-math-q2-statistics-lesson-10-conclusions-from-position-measures-practice",
+  "examType": "practice",
+  "title": "Statistics - Lesson 10: Conclusions from Position Measures Practice",
+  "description": "Practice using quartiles, IQR, percentile rank, and displays to support statistical conclusions.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "The ordered scores are 42, 48, 52, 55, 60, 64, 68, 70, 74, 78, 82. What is the median?",
+      "options": [
+        "64",
+        "60",
+        "68",
+        "52"
+      ],
+      "correctAnswer": 0,
+      "explanation": "There are 11 values, so the median is the 6th value in the ordered list, which is 64.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "For the data 42, 48, 52, 55, 60, 64, 68, 70, 74, 78, 82, the lower quartile is 52 and the upper quartile is 78. What is the IQR?",
+      "options": [
+        "26",
+        "30",
+        "64",
+        "36"
+      ],
+      "correctAnswer": 0,
+      "explanation": "IQR is Q3 - Q1, so 78 - 52 = 26.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A smaller IQR means the middle half of the data is less spread out.",
+      "correctAnswer": "true",
+      "explanation": "IQR measures the spread of the middle half. A smaller IQR means those middle values are closer together.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "If Q1 = 30 and Q3 = 46, what is the IQR? Enter just the number.",
+      "correctAnswer": "16",
+      "explanation": "IQR = Q3 - Q1 = 46 - 30 = 16.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A learner scored 74. In a group of 11 learners, 9 scores were at or below 74. About what percentile rank is this?",
+      "options": [
+        "82nd percentile",
+        "74th percentile",
+        "9th percentile",
+        "11th percentile"
+      ],
+      "correctAnswer": 0,
+      "explanation": "9/11 x 100 is about 81.8, so the learner is at about the 82nd percentile.",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Class A has median 64 and IQR 26. Class B has median 68 and IQR 14. Which conclusion is best supported?",
+      "options": [
+        "Class B has a slightly higher typical score and a more consistent middle half.",
+        "Class A must have every score lower than Class B.",
+        "Class B has no low scores.",
+        "Class A and Class B have the same spread."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Class B's median is higher, and its smaller IQR shows a less spread-out middle half. The other statements overclaim.",
+      "points": 15
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "In one or two sentences, explain why the statement 'The maximum is higher, so the whole group did better' is weak statistical reasoning.",
+      "correctAnswer": "A maximum describes only one value. A stronger conclusion should compare measures such as the median and IQR to describe more of the group.",
+      "explanation": "The answer should identify that the maximum is an extreme value and does not represent the entire distribution.",
+      "points": 15
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Write an evidence-based conclusion from this information: Group B has median 34 minutes and IQR 8 minutes; Group A has median 32 minutes and IQR 15 minutes.",
+      "correctAnswer": "Group B has a slightly higher typical review time and more consistent middle-half review times because its median is 34 minutes and its IQR is 8 minutes, compared with Group A's median of 32 and IQR of 15.",
+      "explanation": "A strong response cites the median and IQR, then explains the meaning in the context of review time.",
+      "points": 15
+    }
+  ]
+}

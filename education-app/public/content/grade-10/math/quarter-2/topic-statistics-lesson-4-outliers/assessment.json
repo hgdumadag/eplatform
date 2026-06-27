@@ -1,0 +1,158 @@
+{
+  "examId": "grade-10-math-q2-statistics-lesson-4-outliers-assessment",
+  "examType": "assessment",
+  "title": "Statistics - Lesson 4: Outliers Assessment",
+  "description": "Checkpoint assessment for identifying possible outliers with the 1.5 x IQR rule and interpreting their effect.",
+  "passingScore": 75,
+  "timeLimit": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which value is used to measure the spread of the middle half of a data set?",
+      "options": [
+        "IQR",
+        "Maximum",
+        "Sample size",
+        "Mode"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The IQR measures the distance from Q1 to Q3, which is the spread of the middle half of the data.",
+      "points": 5
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "Find the median of 4, 7, 9, 12, 15. Enter just the number.",
+      "correctAnswer": "9",
+      "explanation": "The data are already ordered, and the middle value is 9.",
+      "points": 5
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "If Q1 = 6 and Q3 = 14, what is the IQR? Enter just the number.",
+      "correctAnswer": "8",
+      "explanation": "IQR = Q3 - Q1 = 14 - 6 = 8.",
+      "points": 5
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "For the data 3, 4, 5, 6, 7, 8, 24, suppose the upper fence is 12. Which statement is correct?",
+      "options": [
+        "24 is a possible high outlier.",
+        "8 is a possible high outlier.",
+        "3 is a possible high outlier.",
+        "There cannot be an outlier because the data are ordered."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A value greater than the upper fence is a possible high outlier. Since 24 > 12, 24 is flagged.",
+      "points": 5
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Use the data 10, 12, 13, 15, 16, 18, 19, 45. What are Q1 and Q3?",
+      "options": [
+        "Q1 = 12.5 and Q3 = 18.5",
+        "Q1 = 13 and Q3 = 18",
+        "Q1 = 10 and Q3 = 45",
+        "Q1 = 14 and Q3 = 17"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lower half is 10, 12, 13, 15, so Q1 = (12 + 13)/2 = 12.5. The upper half is 16, 18, 19, 45, so Q3 = (18 + 19)/2 = 18.5.",
+      "points": 8
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "For Q1 = 12.5 and Q3 = 18.5, what is the IQR? Enter just the number.",
+      "correctAnswer": "6",
+      "explanation": "IQR = 18.5 - 12.5 = 6.",
+      "points": 5
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "For Q3 = 18.5 and IQR = 6, what is the upper fence? Enter just the number.",
+      "correctAnswer": "27.5",
+      "explanation": "Upper fence = 18.5 + 1.5(6) = 18.5 + 9 = 27.5.",
+      "points": 7
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Using the data 10, 12, 13, 15, 16, 18, 19, 45 and upper fence 27.5, which conclusion is best?",
+      "options": [
+        "45 is a possible high outlier because it is greater than 27.5.",
+        "45 is not an outlier because it is part of the data set.",
+        "19 is an outlier because it is the largest non-extreme value.",
+        "All values above Q3 are outliers."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Only values beyond a fence are flagged. Since 45 is greater than 27.5, it is a possible high outlier.",
+      "points": 8
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "The lower and upper fences are cutoffs; they do not have to be actual data values.",
+      "correctAnswer": "true",
+      "explanation": "Fences are calculated boundaries used to check the actual data values.",
+      "points": 5
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "A student says, \"The IQR is 6, so every value greater than 6 is an outlier.\" What is the mistake?",
+      "options": [
+        "The student used the IQR as a fence instead of using it to calculate fences.",
+        "The student should have used the mode instead of quartiles.",
+        "The student should compare only Q1 and Q3.",
+        "The student ordered the data too carefully."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The IQR is part of the fence formulas. It is not itself the cutoff for outliers.",
+      "points": 7
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "question": "Which conclusion is most responsible when a possible outlier appears in real data?",
+      "options": [
+        "Investigate whether it is an error, special case, or meaningful extreme value.",
+        "Delete it immediately.",
+        "Ignore it and report only the mean.",
+        "Assume every other value is wrong."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A possible outlier should be examined in context before deciding how to report or handle it.",
+      "points": 7
+    },
+    {
+      "id": "q12",
+      "type": "short-answer",
+      "question": "The scores are 72, 74, 75, 77, 78, 80, 100. Explain why the score 100 may affect the mean more than the median.",
+      "correctAnswer": "The score 100 is far above the main cluster, so it can pull the mean upward. The median is based on the middle position, so it stays near the typical scores.",
+      "explanation": "A strong answer explains that the mean uses every value while the median depends on position.",
+      "points": 10
+    },
+    {
+      "id": "q13",
+      "type": "short-answer",
+      "question": "In one or two sentences, explain why a possible outlier should not automatically be removed from a data set.",
+      "correctAnswer": "A possible outlier may be a real value that reveals an important special case. It should be checked for errors or special conditions before deciding whether to remove it or report it separately.",
+      "explanation": "Outliers are signals to investigate, not automatic mistakes.",
+      "points": 8
+    },
+    {
+      "id": "q14",
+      "type": "short-answer",
+      "question": "A report says the average delivery time was 26.4 minutes, but most delivery times were between 18 and 26 minutes and one was 55 minutes. Write a better conclusion.",
+      "correctAnswer": "The 55-minute delivery appears unusually high and may pull the mean upward. Most deliveries were between 18 and 26 minutes, so the median or typical cluster should also be reported.",
+      "explanation": "A better conclusion mentions the possible outlier and avoids using the mean alone to describe a typical delivery.",
+      "points": 15
+    }
+  ]
+}

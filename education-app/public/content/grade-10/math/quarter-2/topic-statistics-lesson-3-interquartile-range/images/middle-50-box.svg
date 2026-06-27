@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Middle 50 percent in a box plot</title>
+  <desc id="desc">A box plot where the box from Q1 to Q3 is highlighted as the middle 50 percent.</desc>
+  <rect width="960" height="420" fill="#f8fafc"/>
+  <text x="58" y="60" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#111827">The box is the IQR</text>
+  <text x="58" y="96" font-family="Arial, sans-serif" font-size="18" fill="#475569">In a box plot, the rectangle shows the middle 50 percent of values.</text>
+  <line x1="110" y1="232" x2="850" y2="232" stroke="#334155" stroke-width="4"/>
+  <line x1="110" y1="204" x2="110" y2="260" stroke="#334155" stroke-width="4"/>
+  <line x1="850" y1="204" x2="850" y2="260" stroke="#334155" stroke-width="4"/>
+  <rect x="296" y="174" width="344" height="116" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+  <line x1="468" y1="174" x2="468" y2="290" stroke="#475569" stroke-width="4"/>
+  <g font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#334155">
+    <text x="110" y="324">min</text>
+    <text x="296" y="324">Q1</text>
+    <text x="468" y="324">median</text>
+    <text x="640" y="324">Q3</text>
+    <text x="850" y="324">max</text>
+  </g>
+  <text x="468" y="238" font-family="Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle" fill="#166534">Middle 50%</text>
+  <path d="M296 136 C360 112 576 112 640 136" fill="none" stroke="#16a34a" stroke-width="4"/>
+  <polygon points="296,136 313,130 307,147" fill="#16a34a"/>
+  <polygon points="640,136 623,130 629,147" fill="#16a34a"/>
+  <text x="468" y="126" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#166534">IQR</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Card deck intersection example</title>
+  <desc id="desc">A card deck sample space showing that red face cards are both red and face cards.</desc>
+  <rect width="960" height="520" fill="#f8fafc"/>
+  <text x="72" y="72" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0f172a">Sample space: a 52-card deck</text>
+  <text x="72" y="108" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#475569">Intersection question: What is red and a face card?</text>
+  <rect x="78" y="154" width="260" height="230" rx="10" fill="#fee2e2" stroke="#dc2626" stroke-width="3"/>
+  <text x="208" y="198" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#991b1b">Red cards</text>
+  <text x="208" y="246" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#b91c1c">26</text>
+  <rect x="622" y="154" width="260" height="230" rx="10" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/>
+  <text x="752" y="198" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#075985">Face cards</text>
+  <text x="752" y="246" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#0369a1">12</text>
+  <rect x="382" y="144" width="196" height="250" rx="14" fill="#fef3c7" stroke="#ca8a04" stroke-width="4"/>
+  <text x="480" y="188" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#854d0e">Red face cards</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">
+    <rect x="414" y="220" width="50" height="66" rx="6" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+    <text x="439" y="260" text-anchor="middle" fill="#dc2626">J</text>
+    <rect x="454" y="220" width="50" height="66" rx="6" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+    <text x="479" y="260" text-anchor="middle" fill="#dc2626">Q</text>
+    <rect x="494" y="220" width="50" height="66" rx="6" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+    <text x="519" y="260" text-anchor="middle" fill="#dc2626">K</text>
+    <rect x="414" y="303" width="50" height="66" rx="6" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+    <text x="439" y="343" text-anchor="middle" fill="#dc2626">J</text>
+    <rect x="454" y="303" width="50" height="66" rx="6" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+    <text x="479" y="343" text-anchor="middle" fill="#dc2626">Q</text>
+    <rect x="494" y="303" width="50" height="66" rx="6" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+    <text x="519" y="343" text-anchor="middle" fill="#dc2626">K</text>
+  </g>
+  <text x="480" y="435" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#0f172a">P(red and face card) = 6/52 = 3/26</text>
+</svg>

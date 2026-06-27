@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="390" viewBox="0 0 760 390" role="img" aria-labelledby="title desc">
+  <title id="title">Worked Example Clubs Venn Diagram</title>
+  <desc id="desc">A Venn diagram shows Math Club only 11, both clubs 7, Science Club only 8, and neither 14 out of 40 students.</desc>
+  <rect width="760" height="390" fill="#f8fafc"/>
+  <rect x="32" y="28" width="696" height="332" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="380" y="66" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">Grade 10 Club Survey: 40 students</text>
+  <rect x="106" y="95" width="548" height="210" rx="14" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2"/>
+  <circle cx="328" cy="200" r="86" fill="#bfdbfe" fill-opacity="0.8" stroke="#2563eb" stroke-width="4"/>
+  <circle cx="432" cy="200" r="86" fill="#bbf7d0" fill-opacity="0.8" stroke="#16a34a" stroke-width="4"/>
+  <text x="294" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#1d4ed8">11</text>
+  <text x="380" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#14532d">7</text>
+  <text x="466" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#15803d">8</text>
+  <text x="590" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#475569">14</text>
+  <text x="328" y="303" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1d4ed8">Math Club</text>
+  <text x="432" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#15803d">Science Club</text>
+  <text x="380" y="352" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#0f172a">Union count: 11 + 7 + 8 = 26, so P = 26/40</text>
+</svg>

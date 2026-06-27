@@ -1,0 +1,174 @@
+{
+  "examId": "grade-10-math-q3-statistics-lesson-5-complementary-events-assessment",
+  "examType": "assessment",
+  "title": "Statistics - Lesson 5: Complementary Events Assessment",
+  "description": "Assessment on identifying complementary events, computing complement probabilities, and explaining probability statements in context.",
+  "passingScore": 75,
+  "timeLimit": 40,
+  "totalQuestions": 15,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which equation is always true for an event A and its complement?",
+      "options": [
+        "P(A) + P(not A) = 1",
+        "P(A) - P(not A) = 1",
+        "P(A) = P(not A)",
+        "P(A) + P(not A) = 0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The event and its complement split the whole sample space, so their probabilities add to 1.",
+      "points": 6
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "The complement of \"a randomly selected number is even\" is:",
+      "options": [
+        "the number is odd",
+        "the number is prime",
+        "the number is greater than 2",
+        "the number is divisible by 4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For whole numbers, a number that is not even is odd. Prime, greater than 2, and divisible by 4 do not cover the exact leftover outcomes.",
+      "points": 6
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "If P(A) = 0.08, what is P(not A)? Enter a decimal.",
+      "correctAnswer": "0.92",
+      "explanation": "P(not A) = 1 - 0.08 = 0.92.",
+      "points": 6
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "In a box of 36 markers, 11 are dry. What is the probability of selecting a marker that is not dry?",
+      "options": [
+        "11/36",
+        "25/36",
+        "25/11",
+        "36/25"
+      ],
+      "correctAnswer": 1,
+      "explanation": "There are 36 - 11 = 25 markers that are not dry, so the probability is 25/36.",
+      "points": 7
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "The complement of \"at least one item is defective\" is \"no items are defective.\"",
+      "correctAnswer": "true",
+      "explanation": "\"At least one\" means one or more. The only way that event does not happen is if there are zero defective items.",
+      "points": 6
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A school survey reports that 64% of respondents joined a club. What percent did not join a club?",
+      "options": [
+        "26%",
+        "36%",
+        "64%",
+        "164%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Use 100% - 64% = 36%. Joining and not joining are complements for the respondents.",
+      "points": 6
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A spinner has 10 equal sections. Four sections are yellow. How many sections are not yellow? Enter just the number.",
+      "correctAnswer": "6",
+      "explanation": "Use total sections minus yellow sections: 10 - 4 = 6 sections are not yellow.",
+      "points": 6
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Which pair of events is definitely complementary?",
+      "options": [
+        "passes the exam; does not pass the exam",
+        "likes math; likes science",
+        "chooses blue; chooses red",
+        "is tall; is athletic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Passing and not passing split the possible outcomes into exact non-overlapping parts. The other pairs may overlap or leave out outcomes.",
+      "points": 7
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "What is the complement of \"a score is at least 90\"?",
+      "options": [
+        "a score is greater than 90",
+        "a score is at most 90",
+        "a score is less than 90",
+        "a score is equal to 90"
+      ],
+      "correctAnswer": 2,
+      "explanation": "\"At least 90\" means 90 or higher. The complement is every score below 90.",
+      "points": 7
+    },
+    {
+      "id": "q10",
+      "type": "fill-in",
+      "question": "If P(no absent students) = 0.27, what is P(at least one absent student)? Enter a decimal.",
+      "correctAnswer": "0.73",
+      "explanation": "\"At least one absent\" is the complement of \"no absent students,\" so 1 - 0.27 = 0.73.",
+      "points": 7
+    },
+    {
+      "id": "q11",
+      "type": "true-false",
+      "question": "If two events are complements, they cover the whole sample space.",
+      "correctAnswer": "true",
+      "explanation": "Complements include event A and everything outside event A, so together they cover all possible outcomes.",
+      "points": 6
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "question": "A student computes P(not A) = 1 - 0.38 = 0.62. What should the final answer also include?",
+      "options": [
+        "A sentence explaining what not A means in the situation",
+        "A different formula",
+        "A graph even when none is needed",
+        "A probability greater than 1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A complete probability answer connects the number back to the event and context.",
+      "points": 6
+    },
+    {
+      "id": "q13",
+      "type": "short-answer",
+      "question": "A bag contains blue, red, and green marbles. Explain why the complement of choosing blue is not necessarily choosing red.",
+      "correctAnswer": "The complement of choosing blue is choosing a marble that is not blue. That includes red and green marbles, so red alone may not cover the whole leftover sample space.",
+      "explanation": "The complement must include every non-blue outcome, not just one category that is different from blue.",
+      "points": 8
+    },
+    {
+      "id": "q14",
+      "type": "short-answer",
+      "question": "A device works with probability 0.97. Find the probability it fails and explain your answer in one sentence.",
+      "correctAnswer": "The probability the device fails is 0.03 because failure is the complement of working and 1 - 0.97 = 0.03.",
+      "explanation": "Working and failing are complements in this setup, so subtract the working probability from 1 and state what the result means.",
+      "points": 8
+    },
+    {
+      "id": "q15",
+      "type": "short-answer",
+      "question": "In one or two sentences, describe when the complement rule is more efficient than direct counting.",
+      "correctAnswer": "The complement rule is more efficient when the desired event has many cases but the opposite event is simple to count or already given. For example, finding at least one success is often easier by subtracting the probability of no successes from 1.",
+      "explanation": "A strong answer should mention that complements simplify problems when the opposite event is easier to identify, count, or calculate.",
+      "points": 8
+    }
+  ]
+}

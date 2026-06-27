@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="380" viewBox="0 0 760 380" role="img" aria-labelledby="title desc">
+  <title id="title">Double Counting Overlap</title>
+  <desc id="desc">A Venn diagram for volleyball and basketball shows 10, 6, and 8 in the regions, with the overlap subtracted once.</desc>
+  <rect width="760" height="380" fill="#f8fafc"/>
+  <rect x="30" y="26" width="700" height="328" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="380" y="64" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">Why 16 + 14 is too large</text>
+  <circle cx="315" cy="180" r="92" fill="#93c5fd" fill-opacity="0.68" stroke="#2563eb" stroke-width="4"/>
+  <circle cx="445" cy="180" r="92" fill="#fbbf24" fill-opacity="0.68" stroke="#d97706" stroke-width="4"/>
+  <text x="271" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1e3a8a">10</text>
+  <text x="380" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#064e3b">6</text>
+  <text x="489" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#92400e">8</text>
+  <text x="315" y="288" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1e40af">Volleyball = 16</text>
+  <text x="445" y="316" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#92400e">Basketball = 14</text>
+  <path d="M208 94h120" stroke="#ef4444" stroke-width="4" stroke-linecap="round"/>
+  <path d="M552 94h-120" stroke="#ef4444" stroke-width="4" stroke-linecap="round"/>
+  <text x="380" y="104" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#991b1b">The 6 in both gets counted twice unless you subtract it once.</text>
+  <text x="380" y="344" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">16 + 14 - 6 = 24 students</text>
+</svg>

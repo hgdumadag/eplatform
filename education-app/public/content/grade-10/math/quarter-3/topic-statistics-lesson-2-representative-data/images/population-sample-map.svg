@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Population and sample map</title>
+  <desc id="desc">A large population group connects to a smaller sample group and then to a cautious conclusion.</desc>
+  <rect width="900" height="420" fill="#f7fbff"/>
+  <rect x="44" y="42" width="812" height="336" rx="18" fill="#ffffff" stroke="#1f4e79" stroke-width="3"/>
+  <text x="450" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#14324a">Representative Data Starts With a Match</text>
+  <circle cx="225" cy="220" r="110" fill="#d9ecff" stroke="#246b9f" stroke-width="3"/>
+  <text x="225" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#14324a">Population</text>
+  <text x="225" y="172" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#14324a">whole group in the claim</text>
+  <g fill="#2f7fb8">
+    <circle cx="172" cy="210" r="10"/><circle cx="205" cy="190" r="10"/><circle cx="238" cy="210" r="10"/><circle cx="270" cy="190" r="10"/>
+    <circle cx="175" cy="250" r="10"/><circle cx="210" cy="240" r="10"/><circle cx="245" cy="255" r="10"/><circle cx="285" cy="235" r="10"/>
+  </g>
+  <path d="M350 220 H480" stroke="#557084" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="500" y="130" width="170" height="180" rx="16" fill="#e8f5e9" stroke="#2e7d32" stroke-width="3"/>
+  <text x="585" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#1f5d24">Sample</text>
+  <text x="585" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#1f5d24">group actually studied</text>
+  <g fill="#43a047">
+    <circle cx="545" cy="238" r="11"/><circle cx="585" cy="218" r="11"/><circle cx="625" cy="238" r="11"/><circle cx="585" cy="265" r="11"/>
+  </g>
+  <path d="M682 220 H762" stroke="#557084" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="776" y="164" width="72" height="112" rx="10" fill="#fff3d6" stroke="#b7791f" stroke-width="3"/>
+  <text x="812" y="202" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#70480c">Claim</text>
+  <text x="812" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#70480c">careful</text>
+  <text x="812" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#70480c">conclusion</text>
+  <text x="450" y="356" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#14324a">Ask: Can this sample fairly speak for that population?</text>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#557084"/>
+    </marker>
+  </defs>
+</svg>

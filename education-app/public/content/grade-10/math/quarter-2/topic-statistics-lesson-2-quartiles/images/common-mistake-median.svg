@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="360" viewBox="0 0 920 360" role="img" aria-labelledby="title desc">
+  <title id="title">Common median inclusion mistake</title>
+  <desc id="desc">A comparison showing the lesson method excludes the median from halves for odd data sets, while the mistake includes it twice.</desc>
+  <rect width="920" height="360" fill="#f8fafc"/>
+  <text x="52" y="46" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#111827">Common mistake: using the median twice</text>
+  <text x="52" y="76" font-family="Arial, sans-serif" font-size="16" fill="#475569">For odd data sets, this lesson excludes Q2 from both halves.</text>
+  <g font-family="Arial, sans-serif" font-size="16" text-anchor="middle">
+    <rect x="58" y="112" width="380" height="185" rx="10" fill="#ecfdf5" stroke="#10b981" stroke-width="2"/>
+    <text x="248" y="142" font-size="20" font-weight="700" fill="#047857">Lesson method</text>
+    <text x="248" y="172" fill="#111827">3, 5, 8, 9, 12</text>
+    <text x="248" y="204" fill="#047857" font-weight="700">Q2 = 8</text>
+    <text x="248" y="236" fill="#111827">Lower half: 3, 5</text>
+    <text x="248" y="264" fill="#111827">Upper half: 9, 12</text>
+    <rect x="482" y="112" width="380" height="185" rx="10" fill="#fff1f2" stroke="#f43f5e" stroke-width="2"/>
+    <text x="672" y="142" font-size="20" font-weight="700" fill="#be123c">Mistake</text>
+    <text x="672" y="172" fill="#111827">3, 5, 8, 9, 12</text>
+    <text x="672" y="204" fill="#be123c" font-weight="700">Q2 = 8</text>
+    <text x="672" y="236" fill="#111827">Lower half: 3, 5, 8</text>
+    <text x="672" y="264" fill="#111827">Upper half: 8, 9, 12</text>
+  </g>
+  <text x="460" y="330" font-family="Arial, sans-serif" font-size="17" text-anchor="middle" fill="#334155">The median belongs to the whole set, not both halves.</text>
+</svg>

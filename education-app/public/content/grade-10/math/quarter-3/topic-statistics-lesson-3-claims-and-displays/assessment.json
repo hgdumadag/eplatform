@@ -1,0 +1,174 @@
+{
+  "examId": "grade-10-math-q3-statistics-lesson-3-claims-and-displays-assessment",
+  "examType": "assessment",
+  "title": "Statistics - Lesson 3: Claims and Displays Assessment",
+  "description": "Assessment on judging statistical claims, displays, scales, sources, and evidence-based conclusions.",
+  "passingScore": 75,
+  "timeLimit": 40,
+  "totalQuestions": 15,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which question best begins a check of any statistical claim?",
+      "options": [
+        "What exactly is the claim saying?",
+        "How bright are the graph colors?",
+        "Can the graph fit on one page?",
+        "Does the conclusion sound confident?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "You must identify the exact claim before deciding which evidence would support it.",
+      "points": 6
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A survey found that 27 out of 45 students use video lessons. What percent is this? Enter a percent such as 60%.",
+      "correctAnswer": "60%",
+      "explanation": "27 divided by 45 is 0.60, which is 60%.",
+      "points": 6
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A report claims, \"Attendance steadily increased all week.\" Which display would best support that claim?",
+      "options": [
+        "A line graph of attendance by day",
+        "A pie chart of favorite subjects",
+        "A bar graph with no labels",
+        "A table showing only Friday attendance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A line graph by day can show whether the values increased steadily over time.",
+      "points": 6
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "If a graph has clear labels and a source, you should still check whether the scale exaggerates differences.",
+      "correctAnswer": "true",
+      "explanation": "Labels and source help, but scale can still affect how large a pattern appears.",
+      "points": 6
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A class has 12 students who chose A, 10 who chose B, and 8 who chose C. Which claim is supported?",
+      "options": [
+        "A was the most selected option",
+        "Most students chose A",
+        "Almost everyone chose A",
+        "No one chose C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A has the highest count, but 12 out of 30 is only 40%, so it is not most or almost everyone.",
+      "points": 6
+    },
+    {
+      "id": "q6",
+      "type": "short-answer",
+      "question": "A graph shows test averages of 86 and 88, but the y-axis runs only from 84 to 89. Explain why the display may be misleading.",
+      "correctAnswer": "The shortened y-axis can make the 2-point difference look much larger than it is.",
+      "explanation": "The values may be correct, but the scale visually exaggerates a small difference.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which detail most directly helps you decide whether a survey represents all Grade 10 students?",
+      "options": [
+        "How the students were selected",
+        "The font used in the title",
+        "The number of colors in the graph",
+        "Whether the bars are vertical or horizontal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sampling method affects whether the data fairly represent the group named in the claim.",
+      "points": 6
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "Section A has 19 club members and Section B has 26. How many more club members does Section B have? Enter just the number.",
+      "correctAnswer": "7",
+      "explanation": "26 minus 19 equals 7.",
+      "points": 6
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "A data set is 60, 62, 63, 64, 99. Which statistic may better describe a typical value if the claim should avoid the outlier's effect?",
+      "options": [
+        "Median",
+        "Maximum only",
+        "Range only",
+        "Sample size only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The median resists the effect of the high outlier 99 better than the mean.",
+      "points": 6
+    },
+    {
+      "id": "q10",
+      "type": "true-false",
+      "question": "A conclusion should be limited to the group and data that were actually studied.",
+      "correctAnswer": "true",
+      "explanation": "Statistical conclusions should not generalize beyond the data source without evidence that the sample represents the larger group.",
+      "points": 6
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "question": "A table says 31 of 40 students passed. Which wording is best supported?",
+      "options": [
+        "Most students in the surveyed group passed",
+        "Every student mastered the lesson",
+        "Nearly no one had difficulty",
+        "The lesson guarantees passing"
+      ],
+      "correctAnswer": 0,
+      "explanation": "31 out of 40 is 77.5%, so most passed, but the stronger claims are not supported.",
+      "points": 6
+    },
+    {
+      "id": "q12",
+      "type": "short-answer",
+      "question": "A school announcement says, \"Students prefer digital assignments,\" but gives no counts or percentages. What evidence would you ask for?",
+      "correctAnswer": "I would ask for the number or percent who preferred digital assignments, the total surveyed, and how the students were selected.",
+      "explanation": "Counts, total sample size, and sampling method help judge whether the claim is supported and representative.",
+      "points": 8
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "question": "Which claim is best supported by a pie chart or percent bar?",
+      "options": [
+        "About one-fourth of the class chose option D",
+        "The quiz average increased each week",
+        "The median score was 82",
+        "Scores are spread from 50 to 100"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pie charts and percent bars are useful for showing parts of a whole.",
+      "points": 6
+    },
+    {
+      "id": "q14",
+      "type": "short-answer",
+      "question": "Write a careful conclusion for this evidence: In a survey of 100 Grade 10 students, 54 preferred group review, 31 preferred video lessons, and 15 preferred printed notes.",
+      "correctAnswer": "In this survey of 100 Grade 10 students, group review was the most preferred option and was chosen by a small majority, 54%.",
+      "explanation": "A strong conclusion names the group, gives the key value, and avoids extending the claim beyond the survey.",
+      "points": 8
+    },
+    {
+      "id": "q15",
+      "type": "short-answer",
+      "question": "Explain the difference between \"the largest category\" and \"most of the group\" in a statistical claim.",
+      "correctAnswer": "The largest category has more responses than any other single category, while most of the group means more than half of the total.",
+      "explanation": "This distinction prevents overclaiming when the top category is still less than 50%.",
+      "points": 8
+    }
+  ]
+}

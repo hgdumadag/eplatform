@@ -1,0 +1,46 @@
+{
+  "id": "grade-10-math-q2-statistics-lesson-2-quartiles",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Statistics - Lesson 2: Quartiles",
+  "description": "Calculate Q1, Q2, and Q3 from ungrouped data and interpret what each quartile means.",
+  "learningObjectives": [
+    "Order ungrouped data and identify the median as Q2.",
+    "Calculate Q1 and Q3 by finding the medians of the lower and upper halves.",
+    "Interpret Q1, Q2, and Q3 in the context of a data set.",
+    "Avoid common quartile errors, including using unordered data or confusing Q3 with the maximum."
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "statistics",
+    "quartiles",
+    "data-analysis",
+    "grade-10",
+    "data-and-probability",
+    "Q1",
+    "Q2",
+    "Q3"
+  ],
+  "lastUpdated": "2026-06-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/lesson-visual.svg",
+      "images/five-number-summary.svg",
+      "images/worked-example-split.svg",
+      "images/even-data-quartiles.svg",
+      "images/common-mistake-median.svg"
+    ]
+  },
+  "prerequisites": [
+    "Order numbers from least to greatest",
+    "Find the median of odd and even data sets",
+    "Average two middle values",
+    "Write a short interpretation using evidence"
+  ]
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+  <title id="title">Complement versus overlap warning</title>
+  <desc id="desc">Two diagrams compare a true complement split with overlapping events that are not complements.</desc>
+  <rect width="900" height="430" fill="#f8fafc"/>
+  <text x="450" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#172033">Complement or just different?</text>
+  <g font-family="Arial, sans-serif">
+    <text x="225" y="92" text-anchor="middle" font-size="23" font-weight="700" fill="#15803d">True complements</text>
+    <rect x="75" y="120" width="300" height="180" rx="12" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+    <rect x="75" y="120" width="130" height="180" rx="12" fill="#2f80ed"/>
+    <path d="M205 120v180" stroke="#172033" stroke-width="4"/>
+    <text x="140" y="216" text-anchor="middle" font-size="24" font-weight="700" fill="#ffffff">A</text>
+    <text x="290" y="216" text-anchor="middle" font-size="24" font-weight="700" fill="#172033">not A</text>
+    <text x="225" y="338" text-anchor="middle" font-size="20" fill="#172033">No overlap. No gaps.</text>
+    <text x="675" y="92" text-anchor="middle" font-size="23" font-weight="700" fill="#b91c1c">Not complements</text>
+    <rect x="525" y="120" width="300" height="180" rx="12" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+    <circle cx="640" cy="210" r="78" fill="#60a5fa" fill-opacity="0.72" stroke="#1d4ed8" stroke-width="3"/>
+    <circle cx="710" cy="210" r="78" fill="#f97316" fill-opacity="0.62" stroke="#c2410c" stroke-width="3"/>
+    <text x="610" y="215" text-anchor="middle" font-size="20" font-weight="700" fill="#172033">Likes</text>
+    <text x="610" y="240" text-anchor="middle" font-size="20" font-weight="700" fill="#172033">math</text>
+    <text x="742" y="215" text-anchor="middle" font-size="20" font-weight="700" fill="#172033">Likes</text>
+    <text x="742" y="240" text-anchor="middle" font-size="20" font-weight="700" fill="#172033">science</text>
+    <text x="675" y="338" text-anchor="middle" font-size="20" fill="#172033">May overlap or leave gaps.</text>
+    <text x="450" y="390" text-anchor="middle" font-size="21" fill="#475569">Complements must cover the whole sample space exactly once.</text>
+  </g>
+</svg>

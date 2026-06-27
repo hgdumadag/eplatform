@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="260" viewBox="0 0 760 260" role="img" aria-labelledby="title desc">
+  <title id="title">Percentile ruler</title>
+  <desc id="desc">A ruler labeled from P0 to P100 with highlighted P25, P50, and P75 positions.</desc>
+  <rect width="760" height="260" fill="#f8fafc"/>
+  <text x="40" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1f2937">Percentiles use a 0 to 100 position scale</text>
+  <text x="40" y="72" font-family="Arial, sans-serif" font-size="15" fill="#4b5563">The percentile number tells the relative cut point in the ordered data.</text>
+  <g transform="translate(80 132)" font-family="Arial, sans-serif">
+    <line x1="0" y1="0" x2="600" y2="0" stroke="#1e293b" stroke-width="4" stroke-linecap="round"/>
+    <g stroke="#475569" stroke-width="2">
+      <line x1="0" y1="-18" x2="0" y2="18"/><line x1="60" y1="-10" x2="60" y2="10"/><line x1="120" y1="-10" x2="120" y2="10"/>
+      <line x1="180" y1="-10" x2="180" y2="10"/><line x1="240" y1="-10" x2="240" y2="10"/><line x1="300" y1="-18" x2="300" y2="18"/>
+      <line x1="360" y1="-10" x2="360" y2="10"/><line x1="420" y1="-10" x2="420" y2="10"/><line x1="480" y1="-10" x2="480" y2="10"/>
+      <line x1="540" y1="-10" x2="540" y2="10"/><line x1="600" y1="-18" x2="600" y2="18"/>
+    </g>
+    <g fill="#0369a1" font-size="13" font-weight="700" text-anchor="middle">
+      <circle cx="150" cy="0" r="17" fill="#bae6fd"/><text x="150" y="-31">P25</text>
+      <circle cx="300" cy="0" r="17" fill="#bae6fd"/><text x="300" y="-31">P50</text>
+      <circle cx="450" cy="0" r="17" fill="#bae6fd"/><text x="450" y="-31">P75</text>
+    </g>
+    <g fill="#475569" font-size="13" text-anchor="middle">
+      <text x="0" y="46">P0</text><text x="300" y="46">middle</text><text x="600" y="46">P100</text>
+    </g>
+  </g>
+  <text x="380" y="225" font-family="Arial, sans-serif" font-size="14" fill="#475569" text-anchor="middle">Higher percentile means farther to the right in the ordered data.</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Worked example quiz scores box plot</title>
+  <desc id="desc">A completed box plot for quiz scores with minimum 14, Q1 19, median 22.5, Q3 27.5, and maximum 30.</desc>
+  <rect width="900" height="360" fill="#f9fafb"/>
+  <rect x="42" y="34" width="816" height="292" rx="18" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="72" y="76" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#1f2937">Worked example: quiz scores</text>
+  <text x="72" y="108" font-family="Arial, sans-serif" font-size="15" fill="#475569">Five-number summary: 14, 19, 22.5, 27.5, 30</text>
+  <line x1="120" y1="250" x2="800" y2="250" stroke="#374151" stroke-width="3"/>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#374151" text-anchor="middle">
+    <line x1="120" y1="242" x2="120" y2="258" stroke="#374151" stroke-width="2"/><text x="120" y="283">14</text>
+    <line x1="290" y1="242" x2="290" y2="258" stroke="#374151" stroke-width="2"/><text x="290" y="283">18</text>
+    <line x1="460" y1="242" x2="460" y2="258" stroke="#374151" stroke-width="2"/><text x="460" y="283">22</text>
+    <line x1="630" y1="242" x2="630" y2="258" stroke="#374151" stroke-width="2"/><text x="630" y="283">26</text>
+    <line x1="800" y1="242" x2="800" y2="258" stroke="#374151" stroke-width="2"/><text x="800" y="283">30</text>
+  </g>
+  <line x1="120" y1="174" x2="332.5" y2="174" stroke="#059669" stroke-width="5" stroke-linecap="round"/>
+  <line x1="693.75" y1="174" x2="800" y2="174" stroke="#059669" stroke-width="5" stroke-linecap="round"/>
+  <rect x="332.5" y="132" width="361.25" height="84" rx="7" fill="#d1fae5" stroke="#059669" stroke-width="4"/>
+  <line x1="481.25" y1="124" x2="481.25" y2="224" stroke="#e11d48" stroke-width="5"/>
+  <line x1="120" y1="144" x2="120" y2="204" stroke="#059669" stroke-width="5"/>
+  <line x1="800" y1="144" x2="800" y2="204" stroke="#059669" stroke-width="5"/>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#334155" text-anchor="middle">
+    <text x="120" y="132">min 14</text>
+    <text x="332.5" y="118">Q1 19</text>
+    <text x="481.25" y="112">median 22.5</text>
+    <text x="693.75" y="118">Q3 27.5</text>
+    <text x="800" y="132">max 30</text>
+  </g>
+</svg>

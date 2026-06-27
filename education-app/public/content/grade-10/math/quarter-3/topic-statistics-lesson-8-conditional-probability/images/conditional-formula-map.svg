@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Conditional probability formula map</title>
+  <desc id="desc">A flow map connecting the conditional probability formula to numerator and denominator choices.</desc>
+  <rect width="960" height="540" fill="#f9fafb"/>
+  <text x="80" y="74" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#111827">Formula map</text>
+  <rect x="110" y="120" width="740" height="92" rx="16" fill="#111827"/>
+  <text x="480" y="178" font-family="Arial, sans-serif" font-size="36" font-weight="700" text-anchor="middle" fill="#ffffff">P(A | B) = P(A and B) / P(B)</text>
+  <path d="M340 226v70M620 226v70" stroke="#64748b" stroke-width="5" stroke-linecap="round"/>
+  <path d="M340 296l-17-24h34zM620 296l-17-24h34z" fill="#64748b"/>
+  <rect x="150" y="306" width="380" height="126" rx="14" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+  <text x="340" y="350" font-family="Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle" fill="#1e3a8a">Numerator</text>
+  <text x="340" y="386" font-family="Arial, sans-serif" font-size="22" text-anchor="middle" fill="#1e3a8a">Count outcomes in both</text>
+  <text x="340" y="416" font-family="Arial, sans-serif" font-size="22" text-anchor="middle" fill="#1e3a8a">A and B</text>
+  <rect x="570" y="306" width="240" height="126" rx="14" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+  <text x="690" y="350" font-family="Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle" fill="#166534">Denominator</text>
+  <text x="690" y="386" font-family="Arial, sans-serif" font-size="22" text-anchor="middle" fill="#166534">Count outcomes</text>
+  <text x="690" y="416" font-family="Arial, sans-serif" font-size="22" text-anchor="middle" fill="#166534">in B only</text>
+  <rect x="215" y="462" width="530" height="44" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="480" y="491" font-family="Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#92400e">Read the condition after the vertical bar first.</text>
+</svg>

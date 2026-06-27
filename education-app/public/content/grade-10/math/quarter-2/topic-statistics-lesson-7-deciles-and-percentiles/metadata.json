@@ -1,0 +1,48 @@
+{
+  "id": "grade-10-math-q2-statistics-lesson-7-deciles-and-percentiles",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Statistics - Lesson 7: Deciles and Percentiles",
+  "description": "Calculate deciles and percentiles from ungrouped data, use locator positions, interpolate between ordered values, and interpret results in context.",
+  "learningObjectives": [
+    "Order ungrouped data before finding measures of position",
+    "Calculate deciles using the locator formula",
+    "Calculate percentiles using the locator formula",
+    "Interpolate between ordered values when a locator is not a whole number",
+    "Interpret decile and percentile values in context"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "statistics",
+    "data-analysis",
+    "grade-10",
+    "data-and-probability",
+    "measures-of-position",
+    "deciles",
+    "percentiles",
+    "interpolation"
+  ],
+  "lastUpdated": "2026-06-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/ordered-data-ladder.svg",
+      "images/decile-strip.svg",
+      "images/percentile-ruler.svg",
+      "images/locator-interpolation.svg",
+      "images/interpretation-card.svg"
+    ]
+  },
+  "prerequisites": [
+    "Order numbers from least to greatest",
+    "Count data values in a set",
+    "Use fractions, decimals, and percents",
+    "Read positions in an ordered list",
+    "Write a short explanation using evidence"
+  ]
+}

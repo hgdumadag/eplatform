@@ -1,0 +1,174 @@
+{
+  "examId": "grade-10-math-q2-statistics-lesson-7-deciles-and-percentiles-assessment",
+  "examType": "assessment",
+  "title": "Statistics - Lesson 7: Deciles and Percentiles Assessment",
+  "description": "Assessment on deciles, percentiles, locator positions, interpolation, and context-based interpretation for ungrouped data.",
+  "passingScore": 75,
+  "timeLimit": 40,
+  "totalQuestions": 15,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement best describes a percentile?",
+      "options": [
+        "A position measure that divides ordered data into 100 equal position regions",
+        "The difference between the highest and lowest data values",
+        "The most common value in a data set",
+        "A graph that shows categorical data"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A percentile is a measure of position based on an ordered data set divided into 100 position regions.",
+      "points": 5
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which decile is equivalent to P70?",
+      "options": [
+        "D3",
+        "D5",
+        "D7",
+        "D9"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Deciles count by tens of percentiles, so P70 is D7.",
+      "points": 5
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "For n = 19, what is the locator for D2? Enter just the number.",
+      "correctAnswer": "4",
+      "explanation": "For D2, L = 2(19 + 1)/10 = 40/10 = 4.",
+      "points": 5
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Use the ordered data 14, 18, 21, 27, 33, 38, 44, 49, 55. What is D5?",
+      "options": [
+        "27",
+        "33",
+        "38",
+        "44"
+      ],
+      "correctAnswer": 1,
+      "explanation": "There are 9 values. L = 5(10)/10 = 5, so D5 is the 5th value, 33.",
+      "points": 5
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Use the ordered data 20, 24, 30, 35, 40, 48, 54, 60, 66. What is P30?",
+      "options": [
+        "24",
+        "30",
+        "35",
+        "40"
+      ],
+      "correctAnswer": 1,
+      "explanation": "With n = 9, L = 30(10)/100 = 3. The 3rd ordered value is 30.",
+      "points": 5
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A percentile locator is L = 4.75. Between which two ordered positions does it fall? Answer in the form '4th and 5th'.",
+      "correctAnswer": "4th and 5th or fourth and fifth",
+      "explanation": "The locator 4.75 lies after position 4 and before position 5.",
+      "points": 5
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "The 4th ordered value is 32 and the 5th ordered value is 40. If L = 4.75, what is the interpolated value? Enter just the number.",
+      "correctAnswer": "38",
+      "explanation": "Move 0.75 of the way from 32 to 40: 32 + 0.75(8) = 38.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Use the ordered data 10, 12, 17, 20, 25, 31, 37, 42, 48, 55, 61. What is P75?",
+      "options": [
+        "42",
+        "45",
+        "48",
+        "51.5"
+      ],
+      "correctAnswer": 2,
+      "explanation": "With n = 11, L = 75(12)/100 = 9. The 9th ordered value is 48, so P75 is 48.",
+      "points": 5
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "If the locator is not a whole number, the percentile value may be different from every original data value.",
+      "correctAnswer": "true",
+      "explanation": "Interpolation can produce a cut point between two data values, so the percentile value may not appear in the original list.",
+      "points": 5
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "A learner says D8 equals P8. What is the correction?",
+      "options": [
+        "D8 equals P80 because each decile represents ten percentile points",
+        "D8 equals P18 because deciles add 10",
+        "D8 has no relationship to percentiles",
+        "D8 equals the 8th data value in every data set"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 8th decile corresponds to the 80th percentile.",
+      "points": 5
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "question": "Use the lesson convention to explain how you would find P60 for an ungrouped data set.",
+      "correctAnswer": "Order the data, count n, compute L = 60(n + 1)/100, then use the ordered position or interpolate if L is not a whole number.",
+      "explanation": "The process must include ordering, computing the locator, and reading or interpolating the value.",
+      "points": 10
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "question": "Which answer is the strongest interpretation of P25 = 58 for reading scores?",
+      "options": [
+        "The answer is 58.",
+        "A score of 58 is the cut point near the 25th percentile, so about 25% of the ordered reading score positions are at or below 58.",
+        "The average reading score is 58.",
+        "Exactly 58 students passed the reading test."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The strongest interpretation names the percentile, the cut point, and the reading-score context without claiming it is an average or count.",
+      "points": 5
+    },
+    {
+      "id": "q13",
+      "type": "fill-in",
+      "question": "For n = 14, what is the locator for P40? Enter just the number.",
+      "correctAnswer": "6",
+      "explanation": "L = 40(14 + 1)/100 = 600/100 = 6.",
+      "points": 5
+    },
+    {
+      "id": "q14",
+      "type": "short-answer",
+      "question": "A student finds P65 by immediately choosing the 6th value because 65 is close to 6. Explain the mistake.",
+      "correctAnswer": "The student skipped the locator formula. P65 requires L = 65(n + 1)/100, and the result may be between two ordered positions rather than exactly the 6th value.",
+      "explanation": "Percentile numbers are not direct position numbers. The locator must be computed from k and n.",
+      "points": 10
+    },
+    {
+      "id": "q15",
+      "type": "short-answer",
+      "question": "In one or two sentences, explain why deciles and percentiles are useful when comparing a student's score to a class data set.",
+      "correctAnswer": "They show the student's relative position in the ordered class data, not just the raw score. This helps describe whether the score is low, middle, or high compared with the group.",
+      "explanation": "A good response should focus on relative standing within an ordered data set.",
+      "points": 15
+    }
+  ]
+}

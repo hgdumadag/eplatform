@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+  <title id="title">Interpretation cards</title>
+  <desc id="desc">Two cards compare an incorrect percentile interpretation with a correct context-based interpretation.</desc>
+  <rect width="960" height="360" fill="#fdf2f8"/>
+  <text x="48" y="56" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#831843">Interpret position, not just notation</text>
+  <text x="48" y="91" font-family="Arial, sans-serif" font-size="16" fill="#9d174d">The strongest answer tells what the position means for this data set.</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="92" y="132" width="350" height="150" rx="12" fill="#ffffff" stroke="#be123c" stroke-width="3"/>
+    <circle cx="132" cy="172" r="24" fill="#ffe4e6" stroke="#be123c" stroke-width="3"/>
+    <line x1="120" y1="160" x2="144" y2="184" stroke="#be123c" stroke-width="4"/>
+    <line x1="144" y1="160" x2="120" y2="184" stroke="#be123c" stroke-width="4"/>
+    <text x="176" y="168" font-size="20" font-weight="700" fill="#831843">Weak interpretation</text>
+    <text x="176" y="202" font-size="16" fill="#831843">"P80 means the score is 80."</text>
+    <text x="176" y="232" font-size="15" fill="#9d174d">This confuses position with value.</text>
+    <rect x="518" y="132" width="350" height="150" rx="12" fill="#ffffff" stroke="#059669" stroke-width="3"/>
+    <circle cx="558" cy="172" r="24" fill="#d1fae5" stroke="#059669" stroke-width="3"/>
+    <path d="M546 172 L555 181 L572 159" fill="none" stroke="#059669" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="602" y="168" font-size="20" font-weight="700" fill="#065f46">Stronger interpretation</text>
+    <text x="602" y="202" font-size="16" fill="#065f46">"About 80% are at or below</text>
+    <text x="602" y="224" font-size="16" fill="#065f46">that score in this group."</text>
+    <text x="602" y="254" font-size="15" fill="#047857">This connects position to context.</text>
+  </g>
+  <text x="480" y="322" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#831843">Always ask: position among which values, and what does that position mean?</text>
+</svg>

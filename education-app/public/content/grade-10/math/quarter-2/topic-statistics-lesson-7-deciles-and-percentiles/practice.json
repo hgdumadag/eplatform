@@ -1,0 +1,100 @@
+{
+  "examId": "grade-10-math-q2-statistics-lesson-7-deciles-and-percentiles-practice",
+  "examType": "practice",
+  "title": "Statistics - Lesson 7: Deciles and Percentiles Practice",
+  "description": "Practice ordering data, calculating decile and percentile locators, interpolating values, and interpreting results.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Before finding a decile or percentile for ungrouped data, what should you do first?",
+      "options": [
+        "Order the data from least to greatest",
+        "Find the range",
+        "Round every value to the nearest ten",
+        "Divide the largest value by the smallest value"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Deciles and percentiles are measures of position, so the positions only make sense after the data are ordered.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which percentile is equivalent to the sixth decile, D6?",
+      "options": [
+        "P6",
+        "P16",
+        "P60",
+        "P66"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Each decile represents ten percentile points, so D6 is the same position as P60.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "For a data set with n = 9, what is the locator for D4? Enter just the number.",
+      "correctAnswer": "4",
+      "explanation": "For a decile, L = k(n + 1)/10. Thus L = 4(9 + 1)/10 = 4.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Use the ordered data 12, 18, 20, 25, 31, 36, 40, 44, 50. What is D4?",
+      "options": [
+        "18",
+        "25",
+        "31",
+        "36"
+      ],
+      "correctAnswer": 1,
+      "explanation": "There are 9 values, so L = 4(10)/10 = 4. The 4th ordered value is 25.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "For n = 11, what is the locator for P25? Enter just the number.",
+      "correctAnswer": "3",
+      "explanation": "For a percentile, L = k(n + 1)/100. Thus L = 25(12)/100 = 3.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A locator is L = 6.5. What should you do?",
+      "options": [
+        "Use only the 6th value",
+        "Use only the 7th value",
+        "Interpolate halfway between the 6th and 7th values",
+        "Change the locator to 65"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A locator of 6.5 is halfway between positions 6 and 7, so interpolation is needed.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "The 5th ordered value is 42 and the 6th ordered value is 50. If L = 5.25, what is the interpolated value? Enter just the number.",
+      "correctAnswer": "44",
+      "explanation": "Move 0.25 of the way from 42 to 50: 42 + 0.25(8) = 44.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "In one sentence, interpret P80 = 72 for a set of test scores.",
+      "correctAnswer": "In this set of test scores, about 80% of the ordered score positions are at or below 72.",
+      "explanation": "A good interpretation names the data context, the percentile level, and the cut point value.",
+      "points": 10
+    }
+  ]
+}

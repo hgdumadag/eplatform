@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+  <title id="title">Decision flow for using complement rule</title>
+  <desc id="desc">A flowchart showing when to use direct probability or the complement rule.</desc>
+  <rect width="900" height="430" fill="#f8fafc"/>
+  <text x="450" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#172033">Should I use the complement rule?</text>
+  <g font-family="Arial, sans-serif" font-size="20" fill="#172033">
+    <rect x="305" y="82" width="290" height="64" rx="10" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+    <text x="450" y="121" text-anchor="middle" font-weight="700">Name the event A</text>
+    <path d="M450 146v34" stroke="#334155" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="260" y="180" width="380" height="74" rx="10" fill="#e0f2fe" stroke="#0369a1" stroke-width="3"/>
+    <text x="450" y="209" text-anchor="middle" font-weight="700">Is not A easier to find</text>
+    <text x="450" y="235" text-anchor="middle" font-weight="700">or already given?</text>
+    <path d="M260 217H130v74" stroke="#334155" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+    <path d="M640 217h130v74" stroke="#334155" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+    <text x="195" y="207" text-anchor="middle" font-size="18" font-weight="700">No</text>
+    <text x="705" y="207" text-anchor="middle" font-size="18" font-weight="700">Yes</text>
+    <rect x="55" y="292" width="250" height="78" rx="10" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+    <text x="180" y="323" text-anchor="middle" font-weight="700">Count or compute</text>
+    <text x="180" y="350" text-anchor="middle" font-weight="700">A directly</text>
+    <rect x="595" y="292" width="250" height="78" rx="10" fill="#dcfce7" stroke="#15803d" stroke-width="3"/>
+    <text x="720" y="323" text-anchor="middle" font-weight="700">Use 1 - P(not A)</text>
+    <text x="720" y="350" text-anchor="middle" font-weight="700">or 1 - P(A)</text>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#334155"/>
+    </marker>
+  </defs>
+</svg>

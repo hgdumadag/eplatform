@@ -1,0 +1,178 @@
+{
+  "examId": "grade-10-math-q2-statistics-lesson-8-percentile-rank-assessment",
+  "examType": "assessment",
+  "title": "Statistics - Lesson 8: Percentile Rank Assessment",
+  "description": "Assessment for calculating, comparing, and interpreting percentile rank.",
+  "passingScore": 75,
+  "timeLimit": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which formula matches the below-score convention for percentile rank?",
+      "options": [
+        "(number of values below the score / total number of values) x 100",
+        "(score / highest score) x 100",
+        "(total number of values / number of values below the score) x 100",
+        "(highest score - lowest score) / 2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The below-score convention compares the number of values below the target score with the total number of values.",
+      "points": 5
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "Order is not required in your answer. In the data set 72, 65, 80, 58, 74, how many values are below 74? Enter just the number.",
+      "correctAnswer": "3",
+      "explanation": "The values below 74 are 72, 65, and 58, so the correct count is 3.",
+      "points": 5
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "In the ordered data set 55, 60, 66, 71, 77, 84, 90, 95, what is the percentile rank of 77 using the below-score convention?",
+      "options": [
+        "37.5th percentile",
+        "50th percentile",
+        "62.5th percentile",
+        "77th percentile"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Four of the eight values are below 77, so (4/8) x 100 = 50.",
+      "points": 5
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "The 90th percentile means the score is exactly 90% correct.",
+      "correctAnswer": "false",
+      "explanation": "Percentile rank describes relative standing in a data set, not the percent correct on an assignment.",
+      "points": 5
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A score has 18 values below it in a data set of 30 values. Which percentile rank is correct?",
+      "options": [
+        "48th percentile",
+        "60th percentile",
+        "67th percentile",
+        "90th percentile"
+      ],
+      "correctAnswer": 1,
+      "explanation": "(18/30) x 100 = 60, so the score is at the 60th percentile.",
+      "points": 5
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Use the ordered data set 31, 35, 39, 42, 46, 50, 54, 58, 62, 66. What is the percentile rank of 54 using the at-or-below convention?",
+      "options": [
+        "50th percentile",
+        "60th percentile",
+        "70th percentile",
+        "80th percentile"
+      ],
+      "correctAnswer": 2,
+      "explanation": "At-or-below counts 31, 35, 39, 42, 46, 50, and 54. That is 7 out of 10, so the rank is 70.",
+      "points": 5
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A score has 11 values below it out of 20 total values. What is the percentile rank? Enter the percent without the percent sign.",
+      "correctAnswer": "55",
+      "explanation": "(11/20) x 100 = 55, so the score is at the 55th percentile.",
+      "points": 5
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Which interpretation is strongest for this result: Maya's typing speed is at the 85th percentile among 40 students?",
+      "options": [
+        "Maya's typing speed is higher than about 85% of the typing speeds in this group of 40 students.",
+        "Maya typed 85 words correctly.",
+        "Maya's score is 85%.",
+        "Maya is better than everyone in the school."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The strongest interpretation connects the percentile rank to the comparison group and avoids overclaiming.",
+      "points": 5
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "If a problem says to use the below-score convention, you should not count the target score itself.",
+      "correctAnswer": "true",
+      "explanation": "Below-score means strictly less than the target score.",
+      "points": 5
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "A data set has 12 values. A target score is the 9th value in the ordered list, and all values are different. Using the below-score convention, what is its percentile rank?",
+      "options": [
+        "67th percentile",
+        "75th percentile",
+        "83rd percentile",
+        "90th percentile"
+      ],
+      "correctAnswer": 0,
+      "explanation": "If the target is the 9th value, then 8 values are below it. (8/12) x 100 = 66.7, which rounds to the 67th percentile.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "question": "Use the below-score convention. In the ordered data set 44, 49, 53, 59, 63, 68, 72, 77, find and interpret the percentile rank of 63.",
+      "correctAnswer": "Four of the eight values are below 63, so (4/8) x 100 = 50. The score 63 is higher than 50% of the values in the data set.",
+      "explanation": "The answer should include the count below, the computation, and a sentence explaining the relative standing.",
+      "points": 10
+    },
+    {
+      "id": "q12",
+      "type": "short-answer",
+      "question": "A learner says, \"My score is at the 70th percentile, so I got 70 points.\" Explain why this may be wrong.",
+      "correctAnswer": "Percentile rank is not the raw score. It means the learner's score is higher than about 70% of the scores in the comparison group.",
+      "explanation": "This response corrects the common confusion between a score and a percentile rank.",
+      "points": 10
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "question": "Use the ordered data set 5, 8, 11, 14, 17, 20, 23, 26, 29, 32. Which score is at the 40th percentile using the below-score convention?",
+      "options": [
+        "11",
+        "14",
+        "17",
+        "20"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The 40th percentile means 40% of 10 values, or 4 values, are below the target. The score with four values below it is 17.",
+      "points": 10
+    },
+    {
+      "id": "q14",
+      "type": "short-answer",
+      "question": "A score of 76 has 15 scores below it in a set of 24 scores. Find the percentile rank to the nearest whole percentile and interpret it.",
+      "correctAnswer": "(15/24) x 100 = 62.5, which rounds to the 63rd percentile. A score of 76 is higher than about 63% of the scores in the data set.",
+      "explanation": "The computation gives 62.5, and rounding to the nearest whole percentile gives 63. The interpretation must mention relative standing.",
+      "points": 10
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "question": "Which mistake would most likely make a percentile rank too high?",
+      "options": [
+        "Counting values above the score as if they were below it",
+        "Ordering the data from least to greatest",
+        "Dividing by the total number of values",
+        "Writing an interpretation sentence"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Including values above the target score in the count below would inflate the numerator and make the percentile rank too high.",
+      "points": 10
+    }
+  ]
+}

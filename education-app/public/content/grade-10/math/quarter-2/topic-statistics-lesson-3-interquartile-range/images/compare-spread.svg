@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500" role="img" aria-labelledby="title desc">
+  <title id="title">Comparing data sets by IQR</title>
+  <desc id="desc">Two horizontal box plots. Group A has a narrow box and Group B has a wider box, showing different IQRs.</desc>
+  <rect width="960" height="500" fill="#ffffff"/>
+  <text x="58" y="62" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#111827">Compare the middle 50 percent</text>
+  <text x="58" y="98" font-family="Arial, sans-serif" font-size="18" fill="#475569">Smaller IQR means the middle half is more consistent.</text>
+  <g font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#111827">
+    <text x="80" y="205">Group A</text>
+    <text x="80" y="345">Group B</text>
+  </g>
+  <line x1="190" y1="198" x2="830" y2="198" stroke="#334155" stroke-width="4"/>
+  <line x1="190" y1="338" x2="830" y2="338" stroke="#334155" stroke-width="4"/>
+  <rect x="356" y="160" width="148" height="76" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+  <line x1="430" y1="160" x2="430" y2="236" stroke="#1e40af" stroke-width="4"/>
+  <rect x="306" y="300" width="296" height="76" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="4"/>
+  <line x1="454" y1="300" x2="454" y2="376" stroke="#991b1b" stroke-width="4"/>
+  <text x="430" y="148" font-family="Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#1d4ed8">IQR = 6</text>
+  <text x="454" y="288" font-family="Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#b91c1c">IQR = 12</text>
+  <text x="650" y="205" font-family="Arial, sans-serif" font-size="20" fill="#1d4ed8">more consistent</text>
+  <text x="650" y="345" font-family="Arial, sans-serif" font-size="20" fill="#b91c1c">more spread out</text>
+  <line x1="250" y1="420" x2="780" y2="420" stroke="#64748b" stroke-width="2"/>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#475569" text-anchor="middle">
+    <text x="250" y="450">0</text>
+    <text x="426" y="450">10</text>
+    <text x="603" y="450">20</text>
+    <text x="780" y="450">30</text>
+  </g>
+</svg>

@@ -1,0 +1,166 @@
+{
+  "examId": "grade-10-math-q2-statistics-lesson-2-quartiles-assessment",
+  "examType": "assessment",
+  "title": "Statistics - Lesson 2: Quartiles Assessment",
+  "description": "Assessment for calculating and interpreting Q1, Q2, and Q3 from ungrouped data.",
+  "passingScore": 75,
+  "timeLimit": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement best describes quartiles?",
+      "options": [
+        "They divide ordered data into four parts with about the same number of values",
+        "They show only the most common value",
+        "They measure the total of all data values",
+        "They divide a circle into four equal angles"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Quartiles are position measures that split ordered data into four roughly equal parts.",
+      "points": 5
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "Order the data 18, 10, 14, 22, 16 and enter Q2. Enter just the number.",
+      "correctAnswer": "16",
+      "explanation": "The ordered data are 10, 14, 16, 18, 22. The middle value is 16, so Q2 = 16.",
+      "points": 5
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "For the ordered data 10, 14, 16, 18, 22, what are Q1 and Q3 using this lesson's method?",
+      "options": [
+        "Q1 = 12 and Q3 = 20",
+        "Q1 = 14 and Q3 = 18",
+        "Q1 = 10 and Q3 = 22",
+        "Q1 = 15 and Q3 = 19"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Exclude Q2 = 16. The lower half is 10, 14, so Q1 = 12. The upper half is 18, 22, so Q3 = 20.",
+      "points": 5
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "For the ordered data 5, 8, 11, 13, 17, 20, 24, 29, what is Q2? Enter just the number.",
+      "correctAnswer": "15",
+      "explanation": "There are eight values, so Q2 is the average of 13 and 17: (13 + 17) / 2 = 15.",
+      "points": 5
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "For the ordered data 5, 8, 11, 13, 17, 20, 24, 29, which values are Q1 and Q3?",
+      "options": [
+        "Q1 = 9.5 and Q3 = 22",
+        "Q1 = 8 and Q3 = 24",
+        "Q1 = 11 and Q3 = 20",
+        "Q1 = 15 and Q3 = 29"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The lower half is 5, 8, 11, 13, so Q1 = (8 + 11) / 2 = 9.5. The upper half is 17, 20, 24, 29, so Q3 = (20 + 24) / 2 = 22.",
+      "points": 5
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "For an odd number of data values, this lesson includes Q2 in both halves when finding Q1 and Q3.",
+      "correctAnswer": "false",
+      "explanation": "This lesson excludes Q2 from both halves when the total number of values is odd.",
+      "points": 5
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A data set of running times has Q3 = 18 minutes. Which interpretation is best?",
+      "options": [
+        "About 75% of the running times are at or below 18 minutes",
+        "Every runner finished in exactly 18 minutes",
+        "18 minutes is the longest running time",
+        "About 25% of the running times are at or below 18 minutes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Q3 marks the point where about three-fourths of the data are at or below that value.",
+      "points": 5
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "For the ordered data 2, 4, 6, 8, 10, 12, 14, what is Q1? Enter just the number.",
+      "correctAnswer": "4",
+      "explanation": "Q2 is 8, so exclude it. The lower half is 2, 4, 6, and its median is 4.",
+      "points": 5
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "question": "For the ordered data 2, 4, 6, 8, 10, 12, 14, what is Q3? Enter just the number.",
+      "correctAnswer": "12",
+      "explanation": "Q2 is 8, so exclude it. The upper half is 10, 12, 14, and its median is 12.",
+      "points": 5
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "Which error would most likely lead to incorrect quartiles?",
+      "options": [
+        "Finding Q1 and Q3 before ordering the data",
+        "Writing a sentence after calculating",
+        "Checking whether the number of values is odd or even",
+        "Labeling Q2 as the median"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Quartiles depend on ordered positions, so using unordered data can place the halves incorrectly.",
+      "points": 5
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "question": "A student says, \"Q1 is 42, so 42 is the smallest value.\" Explain the mistake.",
+      "correctAnswer": "Q1 is not the minimum; it is the median of the lower half, so about 25% of the data are at or below 42.",
+      "explanation": "The minimum is the smallest value. Q1 is a quartile boundary inside the ordered data set.",
+      "points": 10
+    },
+    {
+      "id": "q12",
+      "type": "short-answer",
+      "question": "Explain how to find Q1, Q2, and Q3 for a data set with an even number of values.",
+      "correctAnswer": "Order the data, average the two middle values to find Q2, then find the median of the lower half for Q1 and the median of the upper half for Q3.",
+      "explanation": "For an even number of values, the two halves are formed naturally after the middle pair is used to find Q2.",
+      "points": 10
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "question": "The five-number summary of a data set is 6, 11, 15, 23, 31. What is Q2?",
+      "options": [
+        "15",
+        "6",
+        "11",
+        "23"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A five-number summary is minimum, Q1, Q2, Q3, maximum. The third value is Q2.",
+      "points": 5
+    },
+    {
+      "id": "q14",
+      "type": "true-false",
+      "question": "If two data sets have the same median, they must also have the same Q1 and Q3.",
+      "correctAnswer": "false",
+      "explanation": "The median only describes the center. The lower and upper halves can differ, so Q1 and Q3 can be different.",
+      "points": 5
+    },
+    {
+      "id": "q15",
+      "type": "short-answer",
+      "question": "A set of project scores has Q1 = 68, Q2 = 80, and Q3 = 91. Write a complete interpretation of these quartiles.",
+      "correctAnswer": "About 25% of the project scores are at or below 68, about 50% are at or below 80, and about 75% are at or below 91.",
+      "explanation": "A complete interpretation connects each quartile to the approximate percent of project scores at or below that value.",
+      "points": 10
+    }
+  ]
+}

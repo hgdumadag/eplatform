@@ -1,0 +1,98 @@
+{
+  "examId": "grade-10-math-q2-statistics-lesson-4-outliers-practice",
+  "examType": "practice",
+  "title": "Statistics - Lesson 4: Outliers Practice",
+  "description": "Practice identifying possible outliers with the 1.5 x IQR rule and explaining their effect.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What is the interquartile range, or IQR?",
+      "options": [
+        "Q3 - Q1",
+        "Q1 - Q3",
+        "maximum - minimum",
+        "mean - median"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The IQR measures the spread of the middle half of the data and is found by subtracting Q1 from Q3.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which formula gives the upper fence?",
+      "options": [
+        "Q3 + 1.5(IQR)",
+        "Q1 - 1.5(IQR)",
+        "Q3 - Q1",
+        "maximum + minimum"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The upper fence is Q3 plus 1.5 times the IQR. Values above this fence are possible high outliers.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "If Q1 = 12 and Q3 = 20, what is the IQR? Enter just the number.",
+      "correctAnswer": "8",
+      "explanation": "IQR = Q3 - Q1 = 20 - 12 = 8.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "If Q1 = 10, Q3 = 18, and IQR = 8, what is the upper fence? Enter just the number.",
+      "correctAnswer": "30",
+      "explanation": "Upper fence = 18 + 1.5(8) = 18 + 12 = 30.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "For the data 5, 6, 7, 8, 9, 10, 30, the upper fence is 16. Which value is a possible outlier?",
+      "options": [
+        "30",
+        "10",
+        "7",
+        "5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Since 30 is greater than the upper fence of 16, it is a possible high outlier.",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "A value flagged as a possible outlier should always be deleted from the data set.",
+      "correctAnswer": "false",
+      "explanation": "A possible outlier should be investigated first. It might be an error, a special case, or an important real value.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which statistic is usually more resistant to one extremely high value?",
+      "options": [
+        "Median",
+        "Mean",
+        "Total",
+        "Maximum"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The median depends on position, so one extreme high value usually changes it less than it changes the mean.",
+      "points": 15
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A data set has one possible high outlier. In one or two sentences, explain how that outlier could affect a conclusion about a typical value.",
+      "correctAnswer": "A high outlier can pull the mean upward, making the typical value seem larger than most data values. The median or the main cluster may better describe the typical value.",
+      "explanation": "A strong answer mentions that a high outlier can raise the mean and that the median or cluster may better describe a typical value.",
+      "points": 20
+    }
+  ]
+}

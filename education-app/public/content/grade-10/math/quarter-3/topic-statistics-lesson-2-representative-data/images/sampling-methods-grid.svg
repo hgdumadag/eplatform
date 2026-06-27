@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" role="img" aria-labelledby="title desc">
+  <title id="title">Sampling methods grid</title>
+  <desc id="desc">Four sampling methods are shown with notes about evidence strength.</desc>
+  <rect width="900" height="480" fill="#f8fafc"/>
+  <text x="450" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1f2937">Sampling Method Matters</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="60" y="85" width="360" height="155" rx="14" fill="#e8f5e9" stroke="#2e7d32" stroke-width="3"/>
+    <text x="240" y="124" text-anchor="middle" font-size="22" font-weight="700" fill="#1b5e20">Random</text>
+    <text x="240" y="157" text-anchor="middle" font-size="17" fill="#1b5e20">names chosen by fair chance</text>
+    <text x="240" y="194" text-anchor="middle" font-size="16" font-weight="700" fill="#1b5e20">Usually stronger</text>
+    <circle cx="126" cy="205" r="10" fill="#43a047"/><circle cx="156" cy="184" r="10" fill="#43a047"/><circle cx="186" cy="205" r="10" fill="#43a047"/>
+    <rect x="480" y="85" width="360" height="155" rx="14" fill="#e3f2fd" stroke="#1976d2" stroke-width="3"/>
+    <text x="660" y="124" text-anchor="middle" font-size="22" font-weight="700" fill="#0d47a1">Stratified</text>
+    <text x="660" y="157" text-anchor="middle" font-size="17" fill="#0d47a1">sample from each important group</text>
+    <text x="660" y="194" text-anchor="middle" font-size="16" font-weight="700" fill="#0d47a1">Strong when groups differ</text>
+    <rect x="545" y="205" width="35" height="12" fill="#1976d2"/><rect x="600" y="205" width="35" height="12" fill="#43a047"/><rect x="655" y="205" width="35" height="12" fill="#f9a825"/><rect x="710" y="205" width="35" height="12" fill="#8e44ad"/>
+    <rect x="60" y="275" width="360" height="155" rx="14" fill="#fff8e1" stroke="#b7791f" stroke-width="3"/>
+    <text x="240" y="314" text-anchor="middle" font-size="22" font-weight="700" fill="#795000">Convenience</text>
+    <text x="240" y="347" text-anchor="middle" font-size="17" fill="#795000">ask whoever is nearby</text>
+    <text x="240" y="384" text-anchor="middle" font-size="16" font-weight="700" fill="#795000">Often weaker</text>
+    <path d="M120 400 H250" stroke="#b7791f" stroke-width="4"/><circle cx="128" cy="400" r="9" fill="#b7791f"/><circle cx="158" cy="400" r="9" fill="#b7791f"/><circle cx="188" cy="400" r="9" fill="#b7791f"/>
+    <rect x="480" y="275" width="360" height="155" rx="14" fill="#fce4ec" stroke="#ad1457" stroke-width="3"/>
+    <text x="660" y="314" text-anchor="middle" font-size="22" font-weight="700" fill="#880e4f">Voluntary Response</text>
+    <text x="660" y="347" text-anchor="middle" font-size="17" fill="#880e4f">people choose to answer</text>
+    <text x="660" y="384" text-anchor="middle" font-size="16" font-weight="700" fill="#880e4f">Often weaker</text>
+    <path d="M580 405 C610 365 705 365 735 405" fill="none" stroke="#ad1457" stroke-width="4"/>
+    <circle cx="580" cy="405" r="9" fill="#ad1457"/><circle cx="735" cy="405" r="9" fill="#ad1457"/>
+  </g>
+</svg>

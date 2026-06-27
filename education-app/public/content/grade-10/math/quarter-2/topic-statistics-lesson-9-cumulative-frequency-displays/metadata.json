@@ -1,0 +1,51 @@
+{
+  "id": "grade-10-math-q2-statistics-lesson-9-cumulative-frequency-displays",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Statistics - Lesson 9: Cumulative Frequency Displays",
+  "description": "Construct and interpret cumulative frequency tables, cumulative histograms, and ogives for grouped data.",
+  "learningObjectives": [
+    "Construct less-than cumulative frequency tables from grouped data",
+    "Plot and interpret ogives using class boundaries and running totals",
+    "Use cumulative displays to answer at most, at least, median, and percentile questions",
+    "Distinguish ordinary frequency from cumulative frequency",
+    "Write context-based conclusions from cumulative frequency displays"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "statistics",
+    "data-analysis",
+    "grade-10",
+    "data-and-probability",
+    "frequency",
+    "cumulative frequency",
+    "ogive",
+    "histogram",
+    "class interval",
+    "percentile"
+  ],
+  "lastUpdated": "2026-06-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/lesson-visual.svg",
+      "images/cumulative-table-flow.svg",
+      "images/ogive-score-curve.svg",
+      "images/cumulative-histogram.svg",
+      "images/median-read-ogive.svg",
+      "images/common-error-comparison.svg"
+    ]
+  },
+  "prerequisites": [
+    "Read frequency tables and simple graphs",
+    "Add whole-number frequencies accurately",
+    "Use fractions and percents to describe part of a group",
+    "Understand class intervals and ordered data",
+    "Write short conclusions using evidence"
+  ]
+}

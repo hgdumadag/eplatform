@@ -1,0 +1,92 @@
+{
+  "examId": "grade-10-math-q2-statistics-lesson-9-cumulative-frequency-displays-practice",
+  "examType": "practice",
+  "title": "Statistics - Lesson 9: Cumulative Frequency Displays Practice",
+  "description": "Practice building and reading cumulative frequency tables, cumulative histograms, and ogives.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "The frequencies for four class intervals are 3, 8, 6, and 5. What are the less-than cumulative frequencies?",
+      "options": [
+        "3, 11, 17, 22",
+        "3, 8, 6, 5",
+        "22, 19, 11, 5",
+        "11, 14, 11, 8"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cumulative frequency is a running total: 3, then 3+8=11, then 11+6=17, then 17+5=22.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "true-false",
+      "question": "In a less-than cumulative frequency table, the final cumulative frequency should equal the total frequency.",
+      "correctAnswer": "true",
+      "explanation": "The last row includes all classes, so the final cumulative frequency should match the total number of data values.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "For whole-number score interval 70-79, which value is usually used as the upper class boundary when plotting a less-than ogive?",
+      "options": [
+        "79.5",
+        "70",
+        "79",
+        "80.5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For whole-number intervals, boundaries are halfway between adjacent classes. The upper boundary for 70-79 is 79.5.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "A table has frequencies 4, 7, 9, and 5. What is the cumulative frequency after the third interval? Enter just the number.",
+      "correctAnswer": "20",
+      "explanation": "Add the first three frequencies: 4+7+9=20.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A cumulative table for test scores shows 6 at 59.5, 18 at 69.5, and 26 at 79.5. How many learners scored at most 69?",
+      "options": [
+        "18",
+        "12",
+        "26",
+        "69"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The cumulative frequency at the upper boundary 69.5 counts all scores at most 69, so the answer is 18 learners.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "A less-than ogive should rise or stay level as you move from left to right.",
+      "correctAnswer": "true",
+      "explanation": "Running totals cannot decrease. If the graph goes downward, a cumulative frequency was likely plotted incorrectly.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "In one sentence, explain the difference between frequency and cumulative frequency.",
+      "correctAnswer": "Frequency counts one class interval, while cumulative frequency counts that class interval and all previous intervals.",
+      "explanation": "A complete response should show that cumulative frequency is a running total, not just one class count.",
+      "points": 15
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A class has 30 learners. The cumulative frequency first reaches 15 in the 70-79 score interval. What does this suggest about the median score? Answer in one sentence.",
+      "correctAnswer": "The median score is in the 70-79 interval because the middle position is reached inside that class.",
+      "explanation": "For 30 learners, the median is around the 15th and 16th ordered values, so the class where cumulative frequency first reaches 15 contains the median position.",
+      "points": 15
+    }
+  ]
+}

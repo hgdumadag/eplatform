@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="260" viewBox="0 0 760 260" role="img" aria-labelledby="title desc">
+  <title id="title">Decile strip</title>
+  <desc id="desc">A strip divided into ten equal parts, labeled from D1 to D9.</desc>
+  <rect width="760" height="260" fill="#fff7ed"/>
+  <text x="40" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1f2937">Deciles split ordered positions into tenths</text>
+  <text x="40" y="72" font-family="Arial, sans-serif" font-size="15" fill="#4b5563">Each decile cut point matches a percentile counted by tens.</text>
+  <g transform="translate(70 120)" font-family="Arial, sans-serif">
+    <rect x="0" y="0" width="620" height="56" rx="8" fill="#fed7aa" stroke="#c2410c" stroke-width="2"/>
+    <g stroke="#c2410c" stroke-width="2">
+      <line x1="62" y1="0" x2="62" y2="56"/><line x1="124" y1="0" x2="124" y2="56"/><line x1="186" y1="0" x2="186" y2="56"/>
+      <line x1="248" y1="0" x2="248" y2="56"/><line x1="310" y1="0" x2="310" y2="56"/><line x1="372" y1="0" x2="372" y2="56"/>
+      <line x1="434" y1="0" x2="434" y2="56"/><line x1="496" y1="0" x2="496" y2="56"/><line x1="558" y1="0" x2="558" y2="56"/>
+    </g>
+    <g fill="#7c2d12" font-size="13" text-anchor="middle" font-weight="700">
+      <text x="62" y="-14">D1</text><text x="124" y="-14">D2</text><text x="186" y="-14">D3</text><text x="248" y="-14">D4</text><text x="310" y="-14">D5</text>
+      <text x="372" y="-14">D6</text><text x="434" y="-14">D7</text><text x="496" y="-14">D8</text><text x="558" y="-14">D9</text>
+    </g>
+    <g fill="#9a3412" font-size="12" text-anchor="middle">
+      <text x="62" y="82">P10</text><text x="124" y="82">P20</text><text x="186" y="82">P30</text><text x="248" y="82">P40</text><text x="310" y="82">P50</text>
+      <text x="372" y="82">P60</text><text x="434" y="82">P70</text><text x="496" y="82">P80</text><text x="558" y="82">P90</text>
+    </g>
+    <text x="0" y="34" font-size="13" fill="#7c2d12" text-anchor="middle">low</text>
+    <text x="620" y="34" font-size="13" fill="#7c2d12" text-anchor="middle">high</text>
+  </g>
+</svg>

@@ -1,0 +1,180 @@
+{
+  "examId": "grade-10-math-q3-statistics-lesson-9-independent-and-dependent-events-assessment",
+  "examType": "assessment",
+  "title": "Statistics - Lesson 9: Independent and Dependent Events Assessment",
+  "description": "Assessment for independent and dependent events, replacement language, and compound probability.",
+  "passingScore": 75,
+  "timeLimit": 40,
+  "totalQuestions": 15,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement best describes independent events?",
+      "options": [
+        "The first event does not change the probability of the second event.",
+        "The first event always makes the second event impossible.",
+        "The second event must happen before the first event.",
+        "The probabilities must be added instead of multiplied."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Independent events do not affect each other's probabilities.",
+      "points": 6
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which situation is most likely dependent?",
+      "options": [
+        "Drawing two cards from a deck without replacement",
+        "Rolling a die and flipping a coin",
+        "Spinning a spinner twice",
+        "Choosing a random day and then rolling a die"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Without replacement changes the deck after the first card is drawn.",
+      "points": 6
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "A fair coin is flipped twice. What is P(tails then heads)? Give the answer as a fraction.",
+      "correctAnswer": "1/4",
+      "explanation": "The flips are independent, so 1/2 x 1/2 = 1/4.",
+      "points": 6
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A jar has 5 green marbles and 7 orange marbles. Two marbles are drawn with replacement. What is P(green then orange)?",
+      "options": [
+        "35/144",
+        "35/132",
+        "12/35",
+        "5/12"
+      ],
+      "correctAnswer": 0,
+      "explanation": "With replacement, the jar resets: 5/12 x 7/12 = 35/144.",
+      "points": 7
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A jar has 5 green marbles and 7 orange marbles. Two marbles are drawn without replacement. What is P(green then orange)?",
+      "options": [
+        "35/144",
+        "35/132",
+        "12/35",
+        "35/121"
+      ],
+      "correctAnswer": 1,
+      "explanation": "After one green marble is removed, 7 orange marbles remain out of 11 total marbles, so 5/12 x 7/11 = 35/132.",
+      "points": 7
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "Events that happen in sequence are always dependent.",
+      "correctAnswer": "false",
+      "explanation": "Events can happen in sequence and still be independent, such as flipping a coin twice.",
+      "points": 6
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A card is drawn from 8 cards numbered 1 through 8, replaced, and then another card is drawn. What is P(odd then odd)?",
+      "options": [
+        "1/4",
+        "4/8",
+        "3/14",
+        "2/7"
+      ],
+      "correctAnswer": 0,
+      "explanation": "There are 4 odd cards out of 8. With replacement, 4/8 x 4/8 = 1/2 x 1/2 = 1/4.",
+      "points": 7
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A card is drawn from 8 cards numbered 1 through 8 and not replaced. What is P(odd then odd)?",
+      "options": [
+        "1/4",
+        "3/14",
+        "4/8",
+        "1/2"
+      ],
+      "correctAnswer": 1,
+      "explanation": "After one odd card is removed, 3 odd cards remain out of 7 total cards, so 4/8 x 3/7 = 12/56 = 3/14.",
+      "points": 7
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "question": "A bag has 2 red, 3 blue, and 5 yellow chips. Two chips are drawn without replacement. What denominator should be used for the second draw?",
+      "correctAnswer": "9",
+      "explanation": "There are 10 chips at first. After one chip is removed, 9 chips remain.",
+      "points": 6
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "Which setup correctly represents drawing two blue chips without replacement from a bag with 6 blue and 4 red chips?",
+      "options": [
+        "6/10 x 5/9",
+        "6/10 x 6/10",
+        "6/10 + 5/9",
+        "4/10 x 3/9"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After one blue chip is removed, 5 blue chips remain out of 9 total chips.",
+      "points": 7
+    },
+    {
+      "id": "q11",
+      "type": "true-false",
+      "question": "For independent events A and B, P(A and B) = P(A) x P(B).",
+      "correctAnswer": "true",
+      "explanation": "That is the multiplication rule for independent events.",
+      "points": 6
+    },
+    {
+      "id": "q12",
+      "type": "short-answer",
+      "question": "A student says, \"The events are independent because both draws come from the same bag.\" Explain the problem with this reasoning.",
+      "correctAnswer": "Coming from the same bag does not decide independence. The important question is whether the first draw changes the probability of the second draw, such as when an item is not replaced.",
+      "explanation": "A strong answer should focus on whether the sample space changes after the first event.",
+      "points": 8
+    },
+    {
+      "id": "q13",
+      "type": "short-answer",
+      "question": "A box has 3 black pens and 5 blue pens. Two pens are selected without replacement. Set up and solve P(black then blue).",
+      "correctAnswer": "3/8 x 5/7 = 15/56",
+      "explanation": "There are 3 black pens out of 8 first. After a black pen is removed, 5 blue pens remain out of 7 total pens.",
+      "points": 8
+    },
+    {
+      "id": "q14",
+      "type": "multiple-choice",
+      "question": "A password uses one letter from A, B, C followed by one digit from 1, 2, 3, 4. If each choice is equally likely, what is the probability of choosing B then 4?",
+      "options": [
+        "1/12",
+        "1/7",
+        "2/7",
+        "1/4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The letter choice and digit choice are independent, so 1/3 x 1/4 = 1/12.",
+      "points": 6
+    },
+    {
+      "id": "q15",
+      "type": "short-answer",
+      "question": "In one or two sentences, explain how you decide whether to keep the same second probability or update it.",
+      "correctAnswer": "I check whether the first event changes the sample space for the second event. If the situation resets, I keep the same probability; if an item is removed or a condition changes, I update the second probability.",
+      "explanation": "The answer should mention the sample space or event conditions changing after the first event.",
+      "points": 7
+    }
+  ]
+}

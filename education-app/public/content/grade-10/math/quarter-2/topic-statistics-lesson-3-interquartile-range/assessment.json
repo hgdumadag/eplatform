@@ -1,0 +1,172 @@
+{
+  "examId": "grade-10-math-q2-statistics-lesson-3-interquartile-range-assessment",
+  "examType": "assessment",
+  "title": "Statistics - Lesson 3: Interquartile Range Assessment",
+  "description": "Checkpoint assessment for calculating and interpreting interquartile range.",
+  "passingScore": 75,
+  "timeLimit": 45,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement best describes the interquartile range?",
+      "options": [
+        "The spread of the middle 50 percent of ordered data",
+        "The difference between the maximum and minimum",
+        "The middle value of the whole data set",
+        "The sum of all values divided by the number of values"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The IQR is Q3 - Q1, so it measures how spread out the middle half of the data is.",
+      "points": 5
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "Order the data 18, 12, 30, 24, 16, 21, 27 and enter the median only.",
+      "correctAnswer": "21",
+      "explanation": "The ordered data are 12, 16, 18, 21, 24, 27, 30. The middle value is 21.",
+      "points": 5
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Find the IQR of 12, 16, 18, 21, 24, 27, 30.",
+      "options": [
+        "11",
+        "18",
+        "21",
+        "8"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Leave out the median 21. The lower half is 12, 16, 18, so Q1 = 16. The upper half is 24, 27, 30, so Q3 = 27. IQR = 27 - 16 = 11.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Find the IQR of 6, 8, 10, 12, 14, 16, 18, 20.",
+      "options": [
+        "8",
+        "14",
+        "7",
+        "10"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lower half: 6, 8, 10, 12, so Q1 = 9. Upper half: 14, 16, 18, 20, so Q3 = 17. IQR = 17 - 9 = 8.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "For a data set with an odd number of values, this lesson's method leaves the median out of both halves when finding Q1 and Q3.",
+      "correctAnswer": "true",
+      "explanation": "That is the convention used in the lesson examples: the median splits the data, then each half is used to find Q1 and Q3.",
+      "points": 5
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A five-number summary is minimum 4, Q1 9, median 13, Q3 22, maximum 40. What is the IQR? Enter just the number.",
+      "correctAnswer": "13",
+      "explanation": "IQR = Q3 - Q1 = 22 - 9 = 13. The minimum and maximum are not used for IQR.",
+      "points": 5
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "A student says the IQR of 3, 4, 5, 8, 9, 10, 25 is 22 because 25 - 3 = 22. What did the student calculate?",
+      "options": [
+        "The range",
+        "The median",
+        "The first quartile",
+        "The third quartile"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Maximum minus minimum is the range. IQR uses Q3 - Q1.",
+      "points": 5
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Group A has Q1 = 12 and Q3 = 18. Group B has Q1 = 10 and Q3 = 25. Which group has the more consistent middle 50 percent?",
+      "options": [
+        "Group A",
+        "Group B",
+        "They are equally consistent",
+        "There is not enough information to find either IQR"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Group A has IQR 6. Group B has IQR 15. The smaller IQR shows Group A's middle 50 percent is more consistent.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "A larger IQR always means the data set is better.",
+      "correctAnswer": "false",
+      "explanation": "A larger IQR only means the middle 50 percent is more spread out. Whether that is good depends on the situation.",
+      "points": 5
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "The IQR of quiz scores is 14 points. Interpret this in one sentence.",
+      "correctAnswer": "The middle 50 percent of quiz scores vary by 14 points.",
+      "explanation": "A complete interpretation names the middle 50 percent, the spread, and the context or unit: quiz scores in points.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "question": "Why is IQR often useful when a data set has an unusually high maximum?",
+      "options": [
+        "It does not directly use the maximum value.",
+        "It changes the maximum into the median.",
+        "It makes the data set have no outliers.",
+        "It is always larger than the range."
+      ],
+      "correctAnswer": 0,
+      "explanation": "IQR uses Q1 and Q3, so an extreme maximum does not directly enter the calculation.",
+      "points": 5
+    },
+    {
+      "id": "q12",
+      "type": "fill-in",
+      "question": "Find Q1 for the ordered data 4, 6, 8, 10, 12, 14, 16. Enter just the number.",
+      "correctAnswer": "6",
+      "explanation": "The median is 10, so the lower half is 4, 6, 8. The median of the lower half is Q1 = 6.",
+      "points": 5
+    },
+    {
+      "id": "q13",
+      "type": "fill-in",
+      "question": "Find Q3 for the ordered data 4, 6, 8, 10, 12, 14, 16. Enter just the number.",
+      "correctAnswer": "14",
+      "explanation": "The median is 10, so the upper half is 12, 14, 16. The median of the upper half is Q3 = 14.",
+      "points": 5
+    },
+    {
+      "id": "q14",
+      "type": "short-answer",
+      "question": "Explain the difference between range and IQR in one or two sentences.",
+      "correctAnswer": "Range is maximum minus minimum and measures the spread of the whole data set. IQR is Q3 minus Q1 and measures the spread of the middle 50 percent.",
+      "explanation": "The key distinction is which values are used: range uses the extremes, while IQR uses the first and third quartiles.",
+      "points": 10
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "question": "For the data 10, 12, 12, 15, 18, 20, 22, 25, 28, what is the IQR?",
+      "options": [
+        "11.5",
+        "18",
+        "16",
+        "23.5"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The median is 18. The lower half is 10, 12, 12, 15, so Q1 = 12. The upper half is 20, 22, 25, 28, so Q3 = 23.5. IQR = 23.5 - 12 = 11.5.",
+      "points": 10
+    }
+  ]
+}

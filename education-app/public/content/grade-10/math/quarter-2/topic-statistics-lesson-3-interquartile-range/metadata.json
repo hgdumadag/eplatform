@@ -1,0 +1,50 @@
+{
+  "id": "grade-10-math-q2-statistics-lesson-3-interquartile-range",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Statistics - Lesson 3: Interquartile Range",
+  "description": "Calculate and interpret interquartile range as the spread of the middle 50 percent of data.",
+  "learningObjectives": [
+    "Order data and split it correctly to find quartiles.",
+    "Calculate interquartile range using IQR = Q3 - Q1.",
+    "Interpret IQR as the spread of the middle 50 percent of a data set.",
+    "Compare data sets using IQR and explain which middle half is more consistent.",
+    "Avoid confusing interquartile range with full range."
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "statistics",
+    "data-analysis",
+    "grade-10",
+    "data-and-probability",
+    "IQR",
+    "quartiles",
+    "middle 50 percent",
+    "spread",
+    "box plots"
+  ],
+  "lastUpdated": "2026-06-27",
+  "version": "1.1",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/lesson-visual.svg",
+      "images/quartile-split.svg",
+      "images/iqr-number-line.svg",
+      "images/middle-50-box.svg",
+      "images/compare-spread.svg",
+      "images/fence-outlier-preview.svg"
+    ]
+  },
+  "prerequisites": [
+    "Order numbers from least to greatest",
+    "Find the median of a data set",
+    "Find Q1 and Q3 from ordered data",
+    "Subtract decimals and whole numbers",
+    "Write a short explanation using evidence"
+  ]
+}

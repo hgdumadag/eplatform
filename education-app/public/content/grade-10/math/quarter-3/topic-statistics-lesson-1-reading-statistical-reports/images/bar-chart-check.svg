@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">Bar chart reading checklist</title>
+  <desc id="desc">A labeled bar chart with reminders to check title, axis labels, units, scale, categories, and source.</desc>
+  <rect width="760" height="360" fill="#fffdf7"/>
+  <text x="92" y="45" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0f172a">Preferred Review Format, Grade 10 Survey</text>
+  <line x1="100" y1="285" x2="438" y2="285" stroke="#475569" stroke-width="2"/>
+  <line x1="100" y1="88" x2="100" y2="285" stroke="#475569" stroke-width="2"/>
+  <g font-family="Arial, sans-serif" font-size="12" fill="#475569">
+    <text x="77" y="289">0</text>
+    <text x="70" y="241">10</text>
+    <text x="70" y="193">20</text>
+    <text x="70" y="145">30</text>
+    <text x="70" y="97">40</text>
+    <line x1="96" y1="237" x2="438" y2="237" stroke="#e2e8f0"/>
+    <line x1="96" y1="189" x2="438" y2="189" stroke="#e2e8f0"/>
+    <line x1="96" y1="141" x2="438" y2="141" stroke="#e2e8f0"/>
+    <line x1="96" y1="93" x2="438" y2="93" stroke="#e2e8f0"/>
+  </g>
+  <rect x="142" y="131" width="58" height="154" fill="#0ea5e9"/>
+  <rect x="244" y="232" width="58" height="53" fill="#f97316"/>
+  <rect x="346" y="251" width="58" height="34" fill="#14b8a6"/>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#334155" text-anchor="middle">
+    <text x="171" y="307">Video</text>
+    <text x="273" y="307">Print</text>
+    <text x="375" y="307">Group</text>
+    <text x="268" y="335">Review format</text>
+  </g>
+  <text x="28" y="196" transform="rotate(-90 28 196)" font-family="Arial, sans-serif" font-size="13" fill="#334155">Learners</text>
+  <text x="98" y="330" font-family="Arial, sans-serif" font-size="12" fill="#64748b">Source: sample survey, n = 50</text>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#0f172a">
+    <rect x="500" y="62" width="204" height="236" rx="12" fill="#ffffff" stroke="#cbd5e1"/>
+    <text x="602" y="92" text-anchor="middle" font-size="18" font-weight="700">Check the display</text>
+    <text x="526" y="126">1. Title</text>
+    <text x="526" y="158">2. Axis labels</text>
+    <text x="526" y="190">3. Units</text>
+    <text x="526" y="222">4. Scale</text>
+    <text x="526" y="254">5. Categories</text>
+    <text x="526" y="286">6. Source</text>
+  </g>
+</svg>

@@ -1,0 +1,100 @@
+{
+  "examId": "grade-10-math-q3-statistics-lesson-9-independent-and-dependent-events-practice",
+  "examType": "practice",
+  "title": "Statistics - Lesson 9: Independent and Dependent Events Practice",
+  "description": "Practice identifying independent and dependent events and multiplying probabilities.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which situation shows independent events?",
+      "options": [
+        "Flipping a coin, then rolling a die",
+        "Drawing two cards without replacement",
+        "Choosing two students from a list without returning the first name",
+        "Taking two marbles from a bag and keeping the first marble out"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The coin result does not change the die roll, so the events are independent.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "true-false",
+      "question": "If an item is selected with replacement, the second selection usually has the same sample space as the first selection.",
+      "correctAnswer": "true",
+      "explanation": "With replacement means the first item is put back, so the total and category counts reset.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A bag has 3 red counters and 5 blue counters. One counter is drawn, replaced, and another counter is drawn. What is P(red then red)?",
+      "options": [
+        "9/64",
+        "6/56",
+        "3/8",
+        "9/56"
+      ],
+      "correctAnswer": 0,
+      "explanation": "With replacement, the probability of red is 3/8 both times, so 3/8 x 3/8 = 9/64.",
+      "points": 15
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A bag has 3 red counters and 5 blue counters. Two counters are drawn without replacement. What is P(red then red)?",
+      "options": [
+        "9/64",
+        "3/8",
+        "3/28",
+        "6/64"
+      ],
+      "correctAnswer": 2,
+      "explanation": "After one red counter is removed, 2 red counters remain out of 7 total counters, so 3/8 x 2/7 = 6/56 = 3/28.",
+      "points": 15
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "A fair coin is flipped and a fair die is rolled. What is P(heads and 4)? Give the answer as a fraction.",
+      "correctAnswer": "1/12",
+      "explanation": "The events are independent, so multiply 1/2 by 1/6 to get 1/12.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Which phrase is the strongest clue that events are dependent?",
+      "options": [
+        "without replacement",
+        "with replacement",
+        "fair coin",
+        "spun twice"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Without replacement means the first result changes what remains for the second event.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "In one or two sentences, explain why drawing two marbles without replacement is usually a dependent-event situation.",
+      "correctAnswer": "The first marble is not returned, so the total number of marbles changes and the second probability must be updated.",
+      "explanation": "A good answer should mention that the sample space changes after the first draw.",
+      "points": 15
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "A student writes 4/10 x 4/10 for drawing two red tiles without replacement from a bag with 4 red and 6 blue tiles. What should be corrected?",
+      "correctAnswer": "The second fraction should be 3/9 because one red tile has been removed, so the correct setup is 4/10 x 3/9.",
+      "explanation": "Without replacement changes the total from 10 to 9 and the red count from 4 to 3 after a red tile is drawn first.",
+      "points": 15
+    }
+  ]
+}

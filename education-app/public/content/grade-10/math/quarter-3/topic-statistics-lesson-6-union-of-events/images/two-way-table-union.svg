@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="410" viewBox="0 0 760 410" role="img" aria-labelledby="title desc">
+  <title id="title">Two-Way Table Union</title>
+  <desc id="desc">A two-way table highlights cells for students who use a tablet or have home internet.</desc>
+  <rect width="760" height="410" fill="#f8fafc"/>
+  <rect x="30" y="26" width="700" height="356" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="380" y="64" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#0f172a">Tablet or Home Internet</text>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#0f172a">
+    <rect x="120" y="95" width="520" height="220" fill="#ffffff" stroke="#475569" stroke-width="2"/>
+    <path d="M120 150h520M120 205h520M120 260h520M250 95v220M380 95v220M510 95v220" stroke="#475569" stroke-width="2"/>
+    <rect x="250" y="150" width="130" height="55" fill="#bbf7d0"/>
+    <rect x="380" y="150" width="130" height="55" fill="#bbf7d0"/>
+    <rect x="250" y="205" width="130" height="55" fill="#bbf7d0"/>
+    <text x="315" y="130" text-anchor="middle" font-weight="700">Internet</text>
+    <text x="445" y="123" text-anchor="middle" font-weight="700">No</text>
+    <text x="445" y="145" text-anchor="middle" font-weight="700">Internet</text>
+    <text x="575" y="130" text-anchor="middle" font-weight="700">Total</text>
+    <text x="185" y="173" text-anchor="middle" font-weight="700">Tablet</text>
+    <text x="185" y="224" text-anchor="middle" font-weight="700">No</text>
+    <text x="185" y="247" text-anchor="middle" font-weight="700">Tablet</text>
+    <text x="185" y="293" text-anchor="middle" font-weight="700">Total</text>
+    <text x="315" y="184" text-anchor="middle" font-size="24" font-weight="700">18</text>
+    <text x="445" y="184" text-anchor="middle" font-size="24" font-weight="700">4</text>
+    <text x="575" y="184" text-anchor="middle" font-size="24">22</text>
+    <text x="315" y="239" text-anchor="middle" font-size="24" font-weight="700">6</text>
+    <text x="445" y="239" text-anchor="middle" font-size="24">12</text>
+    <text x="575" y="239" text-anchor="middle" font-size="24">18</text>
+    <text x="315" y="294" text-anchor="middle" font-size="24">24</text>
+    <text x="445" y="294" text-anchor="middle" font-size="24">16</text>
+    <text x="575" y="294" text-anchor="middle" font-size="24">40</text>
+  </g>
+  <text x="380" y="354" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#166534">Included cells: 18 + 4 + 6 = 28</text>
+</svg>

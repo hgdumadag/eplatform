@@ -1,0 +1,45 @@
+{
+  "id": "grade-10-math-q3-statistics-lesson-3-claims-and-displays",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Statistics - Lesson 3: Claims and Displays",
+  "description": "Judge whether statistical claims are supported by graphs, tables, and summary statistics.",
+  "learningObjectives": [
+    "Identify the claim, data source, sample size, scale, and labels in a statistical display.",
+    "Match claims to appropriate displays such as bar graphs, line graphs, tables, and summary statistics.",
+    "Use percentages, differences, and summary statistics as evidence for or against a claim.",
+    "Explain when a display or wording may exaggerate, understate, or overgeneralize the data."
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "statistics",
+    "grade-10",
+    "data-and-probability",
+    "claims",
+    "displays",
+    "graphs",
+    "evidence"
+  ],
+  "lastUpdated": "2026-06-27",
+  "version": "1.1",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/scale-comparison.svg",
+      "images/claim-check-routine.svg",
+      "images/graph-choice-guide.svg",
+      "images/survey-table-evidence.svg",
+      "images/truncated-axis-warning.svg"
+    ]
+  },
+  "prerequisites": [
+    "Read values from tables and simple graphs",
+    "Convert fractions and decimals to percents",
+    "Compare quantities using differences and percentages",
+    "Write short conclusions using evidence"
+  ]
+}
