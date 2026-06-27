@@ -1,0 +1,46 @@
+{
+  "id": "grade-10-math-q3-statistics-lesson-10-statistical-report-and-probability-critique",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Statistics - Lesson 10: Statistical Report and Probability Critique",
+  "description": "Critique statistical reports by checking claims, samples, displays, denominators, probability language, and evidence-based conclusions.",
+  "learningObjectives": [
+    "Identify the claim, evidence, population, sample, and possible bias in a statistical report.",
+    "Choose the correct denominator for basic, complement, and conditional probability statements.",
+    "Evaluate whether a graph or display uses fair labels, scales, categories, and context.",
+    "Write conclusions that are supported by the data without overgeneralizing."
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "statistics",
+    "probability",
+    "grade-10",
+    "data-and-probability",
+    "critique",
+    "statistical reports",
+    "conditional probability",
+    "evidence-based conclusions"
+  ],
+  "lastUpdated": "2026-06-27",
+  "version": "1.1",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/report-critique-checklist.svg",
+      "images/sample-population-map.svg",
+      "images/probability-denominator-tree.svg",
+      "images/misleading-display-alert.svg",
+      "images/evidence-conclusion-frame.svg"
+    ]
+  },
+  "prerequisites": [
+    "Convert fractions, decimals, and percents",
+    "Read two-way tables and simple bar graphs",
+    "Identify totals, parts, and categories",
+    "Write short conclusions using evidence"
+  ]
+}

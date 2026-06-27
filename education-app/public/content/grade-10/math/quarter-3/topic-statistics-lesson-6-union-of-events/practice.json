@@ -1,0 +1,101 @@
+{
+  "id": "grade-10-math-q3-statistics-lesson-6-union-of-events-practice",
+  "examId": "grade-10-math-q3-statistics-lesson-6-union-of-events-practice",
+  "examType": "practice",
+  "title": "Statistics - Lesson 6: Union of Events Practice",
+  "description": "Practice identifying and calculating the union of events from words, counts, probabilities, and simple displays.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "What does the union A union B include?",
+      "options": [
+        "Outcomes in A, in B, or in both",
+        "Only outcomes that are in both A and B",
+        "Only outcomes that are in A but not B",
+        "Only outcomes outside both A and B"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The union includes every outcome that belongs to A, B, or both events.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A class has 20 students who like music, 18 who like art, and 7 who like both. How many students like music or art?",
+      "options": [
+        "31",
+        "38",
+        "45",
+        "25"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Use n(M union A) = 20 + 18 - 7 = 31. The 7 students in both groups are subtracted once.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "If P(A) = 0.40, P(B) = 0.25, and P(A intersection B) = 0.10, what is P(A union B)? Enter a decimal.",
+      "correctAnswer": "0.55",
+      "explanation": "P(A union B) = 0.40 + 0.25 - 0.10 = 0.55.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "In probability, the word \"or\" usually includes outcomes where both events happen.",
+      "correctAnswer": "true",
+      "explanation": "Probability uses inclusive or unless a problem clearly says exactly one event.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Two events are mutually exclusive. Which formula can be used for their union?",
+      "options": [
+        "P(A union B) = P(A) + P(B)",
+        "P(A union B) = P(A) - P(B)",
+        "P(A union B) = P(A intersection B)",
+        "P(A union B) = 1 - P(A)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mutually exclusive events have no overlap, so P(A intersection B) = 0 and the union is found by adding.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "In a survey of 60 students, 28 play badminton, 22 play chess, and 8 play both. How many play badminton or chess? Enter just the number.",
+      "correctAnswer": "42",
+      "explanation": "The union count is 28 + 22 - 8 = 42 students.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "Why do we subtract the overlap when finding the union of two overlapping events?",
+      "correctAnswer": "The overlap is counted once in each event total, so subtracting it once makes those outcomes counted only once.",
+      "explanation": "A strong answer mentions double-counting: the shared outcomes appear in both event counts.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A table shows 15 students use a tablet, 19 have home internet, and 9 do both. There are 30 students total. What is the probability a student uses a tablet or has home internet?",
+      "options": [
+        "25/30",
+        "34/30",
+        "9/30",
+        "6/30"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The union count is 15 + 19 - 9 = 25, so the probability is 25/30.",
+      "points": 10
+    }
+  ]
+}

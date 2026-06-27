@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Ordered data split into quartiles</title>
+  <desc id="desc">Nine ordered values with the median removed and lower and upper halves used to find Q1 and Q3.</desc>
+  <rect width="960" height="420" fill="#f8fafc"/>
+  <text x="60" y="66" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#111827">Split ordered data around the median</text>
+  <text x="60" y="102" font-family="Arial, sans-serif" font-size="17" fill="#475569">For an odd number of values, leave the median out of both halves.</text>
+  <g font-family="Arial, sans-serif" font-size="24" font-weight="700" text-anchor="middle">
+    <rect x="70" y="160" width="76" height="64" rx="10" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="108" y="201" fill="#1e3a8a">10</text>
+    <rect x="160" y="160" width="76" height="64" rx="10" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="198" y="201" fill="#1e3a8a">12</text>
+    <rect x="250" y="160" width="76" height="64" rx="10" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="288" y="201" fill="#1e3a8a">12</text>
+    <rect x="340" y="160" width="76" height="64" rx="10" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="378" y="201" fill="#1e3a8a">15</text>
+    <rect x="442" y="146" width="76" height="92" rx="10" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+    <text x="480" y="199" fill="#334155">18</text>
+    <rect x="544" y="160" width="76" height="64" rx="10" fill="#dcfce7" stroke="#16a34a"/>
+    <text x="582" y="201" fill="#166534">20</text>
+    <rect x="634" y="160" width="76" height="64" rx="10" fill="#dcfce7" stroke="#16a34a"/>
+    <text x="672" y="201" fill="#166534">22</text>
+    <rect x="724" y="160" width="76" height="64" rx="10" fill="#dcfce7" stroke="#16a34a"/>
+    <text x="762" y="201" fill="#166534">25</text>
+    <rect x="814" y="160" width="76" height="64" rx="10" fill="#dcfce7" stroke="#16a34a"/>
+    <text x="852" y="201" fill="#166534">28</text>
+  </g>
+  <path d="M70 258 H416" stroke="#2563eb" stroke-width="3"/>
+  <path d="M544 258 H890" stroke="#16a34a" stroke-width="3"/>
+  <text x="242" y="298" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#1d4ed8">lower half finds Q1</text>
+  <text x="718" y="298" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#15803d">upper half finds Q3</text>
+  <text x="480" y="280" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#475569">median</text>
+</svg>

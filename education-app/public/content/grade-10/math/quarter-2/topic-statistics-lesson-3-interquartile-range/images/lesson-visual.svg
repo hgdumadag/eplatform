@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Interquartile range overview</title>
+  <desc id="desc">An ordered data set split into quartiles with the middle 50 percent highlighted.</desc>
+  <rect width="960" height="540" fill="#f8fafc"/>
+  <rect x="56" y="58" width="848" height="424" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="96" y="118" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#111827">Interquartile Range</text>
+  <text x="96" y="154" font-family="Arial, sans-serif" font-size="18" fill="#475569">IQR measures the spread of the middle 50 percent of ordered data.</text>
+  <line x1="150" y1="300" x2="810" y2="300" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <rect x="312" y="252" width="324" height="96" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+  <line x1="312" y1="232" x2="312" y2="372" stroke="#2563eb" stroke-width="4"/>
+  <line x1="474" y1="232" x2="474" y2="372" stroke="#64748b" stroke-width="3" stroke-dasharray="8 8"/>
+  <line x1="636" y1="232" x2="636" y2="372" stroke="#2563eb" stroke-width="4"/>
+  <text x="293" y="220" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1d4ed8">Q1</text>
+  <text x="437" y="220" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#475569">Median</text>
+  <text x="617" y="220" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1d4ed8">Q3</text>
+  <text x="384" y="310" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#166534">Middle 50%</text>
+  <path d="M312 400 C380 436 568 436 636 400" fill="none" stroke="#16a34a" stroke-width="4"/>
+  <polygon points="312,400 328,396 320,412" fill="#16a34a"/>
+  <polygon points="636,400 620,396 628,412" fill="#16a34a"/>
+  <text x="398" y="464" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#111827">IQR = Q3 - Q1</text>
+</svg>

@@ -1,0 +1,172 @@
+{
+  "examId": "grade-10-math-q3-statistics-lesson-1-reading-statistical-reports-assessment",
+  "examType": "assessment",
+  "title": "Statistics - Lesson 1: Reading Statistical Reports Assessment",
+  "description": "Checkpoint assessment on reading statistical reports and judging evidence.",
+  "passingScore": 75,
+  "timeLimit": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which set lists the main parts to check when reading a statistical report?",
+      "options": [
+        "Claim, source, display, statistic, conclusion",
+        "Compass, ruler, protractor, triangle, circle",
+        "Theme, plot, speaker, stanza, rhyme",
+        "Variable, exponent, coefficient, radical, factor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This lesson focuses on reading the claim, source, display, statistic, and conclusion together.",
+      "points": 5
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A report says, \"The average score rose from 21 to 26 points, so the review program helped.\" Which part is the statistic?",
+      "options": [
+        "The average score rose from 21 to 26 points",
+        "The word \"helped\"",
+        "The title of the report",
+        "The reader's opinion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The statistic is the numerical summary used as evidence: the average changed from 21 to 26.",
+      "points": 5
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "A survey asked 80 learners, and 52 chose practice quizzes. What percent chose practice quizzes? Enter the percent with the percent sign.",
+      "correctAnswer": "65%",
+      "explanation": "52/80 = 0.65 = 65%.",
+      "points": 5
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "If a survey is voluntary, it may overrepresent people who feel strongly about the topic.",
+      "correctAnswer": "true",
+      "explanation": "Voluntary response can introduce bias because people with strong opinions may be more likely to respond.",
+      "points": 5
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A graph has a title but no vertical-axis label. What is the best criticism?",
+      "options": [
+        "The units or meaning of the values are unclear.",
+        "The title makes all values false.",
+        "The graph must be a circle graph.",
+        "The data source is automatically representative."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Without an axis label, readers may not know whether the values are counts, percents, scores, pesos, or another unit.",
+      "points": 5
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A school-wide claim is based on 18 responses from one club. Which conclusion is most careful?",
+      "options": [
+        "The result may describe that club, but it is weak evidence for the whole school.",
+        "The result proves the school-wide claim.",
+        "The result is invalid because all surveys are invalid.",
+        "The result needs no source because it has a number."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The sample is narrow, so a careful conclusion limits the claim and raises a representativeness concern.",
+      "points": 5
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A report compares 42 learners in August with 45 learners in September. How many more learners attended in September? Enter just the number.",
+      "correctAnswer": "3",
+      "explanation": "45 - 42 = 3 more learners.",
+      "points": 5
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "question": "A cut-off vertical scale can make a small difference look large.",
+      "correctAnswer": "true",
+      "explanation": "When the scale starts near the data values instead of at zero, visual differences can appear exaggerated.",
+      "points": 5
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "Which sentence best uses evidence without exaggerating?",
+      "options": [
+        "In the surveyed group, 60% preferred printed modules, so most surveyed learners preferred printed modules.",
+        "Everyone prefers printed modules because 60% of one survey did.",
+        "Printed modules are always the best because the bar is tallest.",
+        "No conclusion can ever be written from survey data."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The sentence gives the statistic and limits the conclusion to the surveyed group.",
+      "points": 5
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A report says \"72% agreed\" but gives no sample size or question. Name two pieces of information you need before judging the claim.",
+      "correctAnswer": "I need to know how many people were surveyed and what exact question they answered.",
+      "explanation": "The sample size and survey question are needed to understand what the 72% actually means.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "question": "A table shows 24 learners prefer videos, 18 prefer printed modules, and 18 prefer group study. What claim is directly supported?",
+      "options": [
+        "Videos were the most selected option in this table.",
+        "All learners prefer videos.",
+        "Printed modules and videos are equally preferred.",
+        "Group study was chosen by more learners than videos."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Videos have the highest count, 24, so they were the most selected option in this table.",
+      "points": 5
+    },
+    {
+      "id": "q12",
+      "type": "fill-in",
+      "question": "In a table, 24 + 18 + 18 learners are counted. What is the total number of learners? Enter just the number.",
+      "correctAnswer": "60",
+      "explanation": "24 + 18 + 18 = 60 learners total.",
+      "points": 5
+    },
+    {
+      "id": "q13",
+      "type": "short-answer",
+      "question": "Explain why a statistical conclusion should not describe a larger population unless the sample supports it.",
+      "correctAnswer": "A limited or biased sample may not represent the larger population, so the conclusion could exaggerate what the data show.",
+      "explanation": "Statistical conclusions should match the group actually measured unless the sample was selected to represent a larger population.",
+      "points": 10
+    },
+    {
+      "id": "q14",
+      "type": "multiple-choice",
+      "question": "Which question best helps evaluate the data source of a report?",
+      "options": [
+        "Who was measured, how many were included, and how were they chosen?",
+        "Which font did the report use?",
+        "How long is the first paragraph?",
+        "Does the report have exactly four colors?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The group, sample size, and selection method are central source details.",
+      "points": 5
+    },
+    {
+      "id": "q15",
+      "type": "short-answer",
+      "question": "Write a careful conclusion: A survey of 100 Grade 10 learners found that 58 prefer review videos.",
+      "correctAnswer": "The data show that 58 of 100 surveyed Grade 10 learners, or 58%, prefer review videos, so a claim that most surveyed learners prefer review videos is supported.",
+      "explanation": "The conclusion names the statistic, identifies the surveyed group, and states the level of support without overgeneralizing.",
+      "points": 10
+    }
+  ]
+}

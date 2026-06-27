@@ -1,0 +1,172 @@
+{
+  "examId": "grade-10-math-q3-statistics-lesson-7-intersection-of-events-assessment",
+  "examType": "assessment",
+  "title": "Statistics - Lesson 7: Intersection of Events Assessment",
+  "description": "Assessment for solving and interpreting probability problems involving intersections and overlaps of events.",
+  "passingScore": 75,
+  "timeLimit": 45,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement best describes an intersection of events?",
+      "options": [
+        "Outcomes that are in both events",
+        "Outcomes that are in either event or both",
+        "Outcomes that are outside both events",
+        "Outcomes that are in the first event only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An intersection contains only outcomes that satisfy both event conditions.",
+      "points": 5
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A survey has 40 learners. The overlap of studied and passed is 18. Enter P(studied and passed) as a simplified fraction.",
+      "correctAnswer": "9/20",
+      "explanation": "The probability is 18/40, which simplifies to 9/20.",
+      "points": 5
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A Venn diagram shows 12 in A only, 5 in B only, 8 in both, and 15 in neither. What is P(A and B)?",
+      "options": [
+        "8/40",
+        "20/40",
+        "25/40",
+        "33/40"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The total is 12 + 5 + 8 + 15 = 40. The intersection count is 8, so P(A and B) = 8/40.",
+      "points": 5
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "In a two-way table, where do you usually find a joint frequency?",
+      "options": [
+        "In the cell where two categories meet",
+        "Only in the grand total",
+        "Only in the column heading",
+        "Outside the table"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A joint frequency counts outcomes that belong to a row category and a column category at the same time.",
+      "points": 5
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "For a basic intersection probability from a class survey, the overlap count is usually the numerator.",
+      "correctAnswer": "true",
+      "explanation": "The numerator should count the outcomes that are in both events.",
+      "points": 5
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "A spinner is numbered 1 to 8. Enter P(even and greater than 5) as a simplified fraction.",
+      "correctAnswer": "1/4",
+      "explanation": "The outcomes that are even and greater than 5 are 6 and 8. That is 2 out of 8, or 1/4.",
+      "points": 5
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Which probability is impossible for an intersection P(A and B)?",
+      "options": [
+        "1.2",
+        "0",
+        "1/4",
+        "1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "No probability can be greater than 1, so 1.2 is impossible.",
+      "points": 5
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A table of 80 learners shows 30 used a reviewer and passed, 10 used a reviewer and did not pass, 22 did not use a reviewer and passed, and 18 did not use a reviewer and did not pass. What is P(used reviewer and passed)?",
+      "options": [
+        "30/80",
+        "40/80",
+        "52/80",
+        "30/40"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The intersection count is the used-reviewer-and-passed cell, 30. The total is 80.",
+      "points": 10
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "The events 'select an even number' and 'select an odd number' from the numbers 1 to 10 are mutually exclusive.",
+      "correctAnswer": "true",
+      "explanation": "No number from 1 to 10 can be both even and odd.",
+      "points": 5
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "A student says P(A and B) = 20/50 because 20 outcomes are in A. What information is missing?",
+      "options": [
+        "How many of those A outcomes are also in B",
+        "The name of event A only",
+        "The color used in the diagram",
+        "Whether 50 is an even number"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The intersection needs the count that is in both A and B, not all outcomes in A.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "fill-in",
+      "question": "In a standard deck of 52 cards, enter P(red and face card) as a simplified fraction.",
+      "correctAnswer": "3/26",
+      "explanation": "There are 6 red face cards, so the probability is 6/52 = 3/26.",
+      "points": 5
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "question": "Which symbol represents intersection?",
+      "options": [
+        "A cap B",
+        "A cup B",
+        "A prime",
+        "A equals B"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Intersection is written as A cap B in plain-text wording, meaning A and B.",
+      "points": 5
+    },
+    {
+      "id": "q13",
+      "type": "short-answer",
+      "question": "A survey finds P(reviewed and passed) = 21/70. Write a complete sentence interpreting this probability.",
+      "correctAnswer": "In this survey, 21 out of 70 learners, or 30%, both reviewed and passed.",
+      "explanation": "A complete interpretation should name the group, both events, and the probability or equivalent percent.",
+      "points": 10
+    },
+    {
+      "id": "q14",
+      "type": "short-answer",
+      "question": "Explain the difference between union and intersection in one or two sentences.",
+      "correctAnswer": "Intersection counts only outcomes in both events. Union counts outcomes in A, in B, or in both.",
+      "explanation": "The answer should contrast 'and' with 'or' and make clear that intersection is only the overlap.",
+      "points": 10
+    },
+    {
+      "id": "q15",
+      "type": "short-answer",
+      "question": "A classmate adds 18 studied learners and 25 passed learners and gets 43/40 for P(studied and passed). Explain the error and give the correct setup if 18 learners both studied and passed out of 40.",
+      "correctAnswer": "The classmate added event totals instead of using the overlap. The correct setup is P(studied and passed) = 18/40 = 9/20.",
+      "explanation": "The main error is confusing intersection with adding separate event totals. The intersection numerator is the overlap count only.",
+      "points": 10
+    }
+  ]
+}

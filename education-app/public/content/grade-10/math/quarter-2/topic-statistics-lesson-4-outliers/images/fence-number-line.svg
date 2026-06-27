@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="320" viewBox="0 0 920 320" role="img" aria-labelledby="title desc">
+  <title id="title">Number line with outlier fences</title>
+  <desc id="desc">Lower fence at 13 and upper fence at 33 with safe middle region and outlier regions.</desc>
+  <rect width="920" height="320" fill="#f8fafc"/>
+  <text x="46" y="48" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">Fences are cutoffs</text>
+  <text x="46" y="78" font-family="Arial, sans-serif" font-size="16" fill="#475569">Values outside the fences are flagged as possible outliers.</text>
+  <line x1="80" y1="180" x2="840" y2="180" stroke="#334155" stroke-width="4"/>
+  <polygon points="840,180 824,170 824,190" fill="#334155"/>
+  <polygon points="80,180 96,170 96,190" fill="#334155"/>
+  <rect x="244" y="134" width="328" height="92" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <rect x="80" y="134" width="164" height="92" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <rect x="572" y="134" width="268" height="92" fill="#fee2e2" stroke="#ef4444" stroke-width="2"/>
+  <line x1="244" y1="112" x2="244" y2="248" stroke="#0f172a" stroke-width="4"/>
+  <line x1="572" y1="112" x2="572" y2="248" stroke="#0f172a" stroke-width="4"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="244" y="102" font-size="17" font-weight="700" fill="#0f172a">Lower fence = 13</text>
+    <text x="572" y="102" font-size="17" font-weight="700" fill="#0f172a">Upper fence = 33</text>
+    <text x="162" y="188" font-size="16" font-weight="700" fill="#991b1b">possible low outliers</text>
+    <text x="408" y="188" font-size="16" font-weight="700" fill="#166534">not flagged</text>
+    <text x="706" y="188" font-size="16" font-weight="700" fill="#991b1b">possible high outliers</text>
+    <text x="244" y="275" font-size="15" fill="#334155">13</text>
+    <text x="572" y="275" font-size="15" fill="#334155">33</text>
+  </g>
+  <circle cx="790" cy="180" r="13" fill="#dc2626" stroke="#991b1b" stroke-width="3"/>
+  <text x="790" y="223" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#991b1b" text-anchor="middle">55</text>
+</svg>

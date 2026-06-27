@@ -1,0 +1,50 @@
+{
+  "id": "grade-10-math-q2-statistics-lesson-1-measures-of-position-overview",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Statistics - Lesson 1: Measures of Position Overview",
+  "description": "Illustrate quartiles, deciles, and percentiles as values that locate positions in an ordered data set.",
+  "learningObjectives": [
+    "Arrange data from least to greatest before locating position measures",
+    "Describe quartiles, deciles, and percentiles as divisions of an ordered data set",
+    "Connect equivalent positions such as Q2, D5, and P50",
+    "Use locator formulas to identify approximate positions in an ordered list",
+    "Interpret a measure of position in the context of the data"
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "statistics",
+    "data-analysis",
+    "grade-10",
+    "data-and-probability",
+    "ordered-data",
+    "quartiles",
+    "deciles",
+    "percentiles",
+    "measures-of-position"
+  ],
+  "lastUpdated": "2026-06-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/lesson-visual.svg",
+      "images/quartile-map.svg",
+      "images/decile-ladder.svg",
+      "images/percentile-ruler.svg",
+      "images/locator-formula-flow.svg",
+      "images/interpretation-cards.svg"
+    ]
+  },
+  "prerequisites": [
+    "Order numbers from least to greatest",
+    "Count values in a data set",
+    "Find the median of an ordered list",
+    "Use fractions, decimals, and percents",
+    "Write a short explanation using evidence"
+  ]
+}

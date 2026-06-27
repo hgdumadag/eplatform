@@ -1,0 +1,47 @@
+{
+  "id": "grade-10-math-q3-statistics-lesson-1-reading-statistical-reports",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Statistics - Lesson 1: Reading Statistical Reports",
+  "description": "Identify claims, displays, statistics, and data sources in statistical reports.",
+  "learningObjectives": [
+    "Identify the claim, data source, display, statistic, and conclusion in a statistical report",
+    "Read tables and graphs by checking labels, units, categories, and scale",
+    "Compute and interpret simple percents used as evidence in reports",
+    "Judge whether a statistic supports, partly supports, or does not support a claim",
+    "Write careful conclusions that stay within the evidence from the data source"
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "statistics",
+    "data-and-probability",
+    "grade-10",
+    "statistical-reports",
+    "claims",
+    "data-source",
+    "graphs",
+    "evidence"
+  ],
+  "lastUpdated": "2026-06-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/report-anatomy.svg",
+      "images/source-to-claim.svg",
+      "images/bar-chart-check.svg",
+      "images/misleading-scale.svg",
+      "images/conclusion-triangle.svg"
+    ]
+  },
+  "prerequisites": [
+    "Convert fractions to decimals and percents",
+    "Read simple tables and bar graphs",
+    "Identify the total group in a percent statement",
+    "Write a short explanation using evidence"
+  ]
+}

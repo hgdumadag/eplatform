@@ -1,0 +1,180 @@
+{
+  "examId": "grade-10-math-q3-statistics-lesson-8-conditional-probability-assessment",
+  "examType": "assessment",
+  "title": "Statistics - Lesson 8: Conditional Probability Assessment",
+  "description": "Checkpoint assessment for conditional probability from contingency tables, Venn diagrams, formulas, and without-replacement situations.",
+  "passingScore": 75,
+  "timeLimit": 45,
+  "totalQuestions": 15,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which phrase most clearly signals a conditional probability question?",
+      "options": [
+        "among students who joined the club",
+        "all students in the school",
+        "total number surveyed",
+        "at least one student"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The word among restricts the sample space to a given group.",
+      "points": 5
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A table shows 30 learners passed a test. Of the learners who passed, 12 attended tutoring. What is P(attended tutoring | passed)?",
+      "options": [
+        "12/30",
+        "30/12",
+        "12/42",
+        "18/30"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Passed is the condition, so the denominator is 30. The favorable count is 12.",
+      "points": 7
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "A survey has 16 students in drama club. Six of them are also in choir. Find P(choir | drama club). Enter a simplified fraction.",
+      "correctAnswer": "3/8",
+      "explanation": "Drama club is the given group, so the probability is 6/16 = 3/8.",
+      "points": 7
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "In P(A | B), the numerator can be the count of outcomes that are in both A and B.",
+      "correctAnswer": "true",
+      "explanation": "For count-based conditional probability, P(A | B) uses the number in both A and B over the number in B.",
+      "points": 5
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A two-way table shows: Review and Passed = 18, Review and Did Not Pass = 6, No Review and Passed = 8, No Review and Did Not Pass = 8. What is P(passed | no review)?",
+      "options": [
+        "8/16",
+        "8/40",
+        "18/24",
+        "16/40"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The no-review row has 16 learners total, and 8 of them passed.",
+      "points": 7
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Using the same table, what is P(review | passed)?",
+      "options": [
+        "18/26",
+        "18/24",
+        "26/40",
+        "8/26"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Passed is the condition, so use all passed learners: 18 + 8 = 26. Of those, 18 attended review.",
+      "points": 7
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "If P(A and B) = 0.18 and P(B) = 0.45, find P(A | B). Enter a decimal.",
+      "correctAnswer": "0.4 or 0.40",
+      "explanation": "Divide 0.18 by 0.45 to get 0.40.",
+      "points": 7
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A bag contains 4 green and 5 yellow chips. A yellow chip is drawn and not replaced. What is P(second yellow | first yellow)?",
+      "options": [
+        "4/8",
+        "5/9",
+        "4/9",
+        "5/8"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After one yellow is removed, 4 yellow chips remain out of 8 total chips.",
+      "points": 7
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "In a Venn diagram, 9 students are in both soccer and band. There are 27 band students total. What is P(soccer | band)?",
+      "options": [
+        "1/3",
+        "9/36",
+        "27/9",
+        "18/27"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Band is the given group, so use 27 as the denominator. The overlap is 9, and 9/27 = 1/3.",
+      "points": 7
+    },
+    {
+      "id": "q10",
+      "type": "true-false",
+      "question": "When a conditional probability problem says \"given B,\" outcomes outside B are not counted in the denominator.",
+      "correctAnswer": "true",
+      "explanation": "The given condition restricts the sample space to B.",
+      "points": 5
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "question": "A student uses the grand total as the denominator for P(passed | attended review). Explain the mistake.",
+      "correctAnswer": "The student ignored the condition. The denominator should be the number who attended review, not the grand total.",
+      "explanation": "Conditional probability changes the denominator to the given group.",
+      "points": 8
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "question": "A school survey shows 50 students total. There are 22 athletes, 15 honor roll students, and 10 students who are both athletes and honor roll. What is P(honor roll | athlete)?",
+      "options": [
+        "10/22",
+        "10/15",
+        "22/50",
+        "15/50"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Athlete is the condition, so use the 22 athletes as the denominator. The overlap is 10.",
+      "points": 7
+    },
+    {
+      "id": "q13",
+      "type": "fill-in",
+      "question": "A table has 14 students who like science and math, and 35 students who like science in all. Find P(math | science). Enter a simplified fraction.",
+      "correctAnswer": "2/5",
+      "explanation": "Science is the given group, so the probability is 14/35 = 2/5.",
+      "points": 7
+    },
+    {
+      "id": "q14",
+      "type": "short-answer",
+      "question": "In one or two sentences, explain the difference between P(A and B) and P(A | B).",
+      "correctAnswer": "P(A and B) is the probability that both events happen. P(A | B) is the probability that A happens after the sample space is restricted to B.",
+      "explanation": "The key difference is that conditional probability divides the overlap by the given event.",
+      "points": 8
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "question": "Which answer best interprets P(absent | sick) = 0.75?",
+      "options": [
+        "Among students who were sick, 75% were absent.",
+        "Among students who were absent, 75% were sick.",
+        "75% of all students were sick.",
+        "75 students were absent."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The condition is sick, so the interpretation starts with the sick group.",
+      "points": 6
+    }
+  ]
+}

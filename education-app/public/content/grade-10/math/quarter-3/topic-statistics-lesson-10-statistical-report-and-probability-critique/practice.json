@@ -1,0 +1,94 @@
+{
+  "examId": "grade-10-math-q3-statistics-lesson-10-statistical-report-and-probability-critique-practice",
+  "examType": "practice",
+  "title": "Statistics - Lesson 10: Statistical Report and Probability Critique Practice",
+  "description": "Practice checking statistical claims, samples, displays, denominators, and probability language.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A report says, \"Most surveyed students chose online review.\" The table shows 24 chose online review, 18 chose printed review, and 8 chose no review. Which critique is best?",
+      "options": [
+        "The claim is supported because 24 out of 50 is more than half.",
+        "The claim is not supported because 24 out of 50 is less than half.",
+        "The claim is supported because online review is a technology choice.",
+        "The claim cannot be checked because no numbers were given."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The total is 24 + 18 + 8 = 50. Since 24/50 = 48%, online review is the largest category but not more than half, so \"most\" is too strong.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "In a survey of 40 students, 15 chose chess club. What denominator should be used for the probability that a randomly selected surveyed student chose chess club? Enter just the number.",
+      "correctAnswer": "40",
+      "explanation": "The event is about a randomly selected surveyed student, so the denominator is the total number surveyed: 40.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A survey asks only students in the robotics club about the whole Grade 10 class's favorite activity. What is the main concern?",
+      "options": [
+        "The sample may not represent the whole Grade 10 population.",
+        "The survey has too many answer choices.",
+        "The data must be written as a line graph.",
+        "The probability must always be 1."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A robotics-club-only sample may have different preferences from all Grade 10 students, so generalizing to the full population is risky.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "In the phrase \"among students who joined a club,\" the denominator should be the number of students who joined a club.",
+      "correctAnswer": "true",
+      "explanation": "The word \"among\" gives a condition and restricts the group being counted.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A bar graph compares 76% and 80%, but the vertical axis starts at 70%, making the 80% bar look much taller. What should a critique mention?",
+      "options": [
+        "The graph may exaggerate a small 4-percentage-point difference.",
+        "The graph proves the 80% group is twice as strong.",
+        "The graph is invalid because percentages cannot be graphed.",
+        "The graph should remove all labels."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Starting the axis at 70% can visually exaggerate the difference between 76% and 80%.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Use this table: 12 students chose quiz bee and 28 did not. What is the probability of NOT choosing quiz bee as a simplified fraction?",
+      "correctAnswer": "7/10",
+      "explanation": "The total is 12 + 28 = 40, and the complement count is 28. So 28/40 simplifies to 7/10.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "A report says, \"80% improved,\" but gives no sample size or source. In one or two sentences, explain why the report is incomplete.",
+      "correctAnswer": "The report is incomplete because we do not know how many people were studied or where the data came from. Without the sample size and source, it is hard to judge whether the result is reliable or representative.",
+      "explanation": "A strong critique should mention missing sample size and data source, because both affect whether the claim is trustworthy.",
+      "points": 16
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Write a fair conclusion for this result: In a survey of 30 students from one section, 21 preferred group review.",
+      "correctAnswer": "In this survey of 30 students from one section, 21 students, or 70%, preferred group review. This supports a conclusion about the surveyed section, not necessarily all Grade 10 students.",
+      "explanation": "The conclusion should include the statistic and limit the claim to the actual sample unless representativeness is shown.",
+      "points": 16
+    }
+  ]
+}

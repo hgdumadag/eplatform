@@ -1,0 +1,48 @@
+{
+  "id": "grade-10-math-q3-statistics-lesson-9-independent-and-dependent-events",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Statistics - Lesson 9: Independent and Dependent Events",
+  "description": "Distinguish independent and dependent events and solve related probability problems.",
+  "learningObjectives": [
+    "Distinguish independent events from dependent events.",
+    "Use replacement language to decide whether probabilities stay the same or change.",
+    "Solve compound probability problems using multiplication rules.",
+    "Explain probability results in context and identify common errors."
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "statistics",
+    "probability",
+    "grade-10",
+    "data-and-probability",
+    "independent events",
+    "dependent events",
+    "with replacement",
+    "without replacement",
+    "compound probability"
+  ],
+  "lastUpdated": "2026-06-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/event-decision-map.svg",
+      "images/replacement-comparison.svg",
+      "images/tree-independent.svg",
+      "images/tree-dependent.svg",
+      "images/formula-flow.svg"
+    ]
+  },
+  "prerequisites": [
+    "Write simple probabilities as fractions",
+    "Multiply fractions",
+    "Convert simple fractions, decimals, and percents",
+    "Read probability situations carefully",
+    "Write a short explanation using evidence"
+  ]
+}

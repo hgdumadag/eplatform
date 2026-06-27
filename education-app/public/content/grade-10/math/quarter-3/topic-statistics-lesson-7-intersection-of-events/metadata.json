@@ -1,0 +1,50 @@
+{
+  "id": "grade-10-math-q3-statistics-lesson-7-intersection-of-events",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Statistics - Lesson 7: Intersection of Events",
+  "description": "Solve probability problems involving intersections and overlaps of events.",
+  "learningObjectives": [
+    "Solve probability problems involving intersections and overlaps of events.",
+    "Use intersection, overlap, and joint frequency vocabulary accurately.",
+    "Read Venn diagrams and two-way tables to identify outcomes in both events.",
+    "Compute P(A and B) using the overlap count and correct denominator.",
+    "Explain intersection probabilities in context and avoid union/intersection mistakes."
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "statistics",
+    "probability",
+    "grade-10",
+    "data-and-probability",
+    "intersection",
+    "A and B",
+    "overlap",
+    "joint frequency",
+    "venn diagram",
+    "two-way table"
+  ],
+  "lastUpdated": "2026-06-27",
+  "version": "1.1",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/lesson-visual.svg",
+      "images/two-way-table-intersection.svg",
+      "images/card-deck-intersection.svg",
+      "images/intersection-formula-map.svg",
+      "images/union-vs-intersection.svg"
+    ]
+  },
+  "prerequisites": [
+    "Identify the total number of outcomes in a sample space",
+    "Read counts from tables and Venn diagrams",
+    "Use fractions, decimals, and percents",
+    "Recognize basic probability notation",
+    "Write a short explanation using evidence"
+  ]
+}

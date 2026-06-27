@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+  <title id="title">Percentile ruler</title>
+  <desc id="desc">A ruler from 0 to 100 percent with selected percentiles marked at P10, P25, P50, P75, and P90.</desc>
+  <rect width="960" height="360" fill="#eef2ff"/>
+  <text x="48" y="56" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#312e81">Percentiles divide ordered data into one hundred parts</text>
+  <text x="48" y="91" font-family="Arial, sans-serif" font-size="16" fill="#4338ca">A percentile is position language, not automatically a raw score.</text>
+  <g transform="translate(90 164)" font-family="Arial, sans-serif">
+    <line x1="0" y1="0" x2="780" y2="0" stroke="#3730a3" stroke-width="5" stroke-linecap="round"/>
+    <g stroke="#6366f1" stroke-width="2">
+      <line x1="0" y1="-24" x2="0" y2="24"/>
+      <line x1="78" y1="-14" x2="78" y2="14"/>
+      <line x1="195" y1="-30" x2="195" y2="30"/>
+      <line x1="390" y1="-34" x2="390" y2="34"/>
+      <line x1="585" y1="-30" x2="585" y2="30"/>
+      <line x1="702" y1="-14" x2="702" y2="14"/>
+      <line x1="780" y1="-24" x2="780" y2="24"/>
+    </g>
+    <g text-anchor="middle">
+      <text x="0" y="55" font-size="15" fill="#4338ca">0%</text>
+      <text x="78" y="-28" font-size="17" font-weight="700" fill="#312e81">P10</text>
+      <text x="195" y="58" font-size="17" font-weight="700" fill="#312e81">P25</text>
+      <text x="390" y="-42" font-size="19" font-weight="700" fill="#312e81">P50</text>
+      <text x="585" y="58" font-size="17" font-weight="700" fill="#312e81">P75</text>
+      <text x="702" y="-28" font-size="17" font-weight="700" fill="#312e81">P90</text>
+      <text x="780" y="55" font-size="15" fill="#4338ca">100%</text>
+    </g>
+    <rect x="305" y="78" width="170" height="54" rx="8" fill="#ffffff" stroke="#6366f1"/>
+    <text x="390" y="111" text-anchor="middle" font-size="16" font-weight="700" fill="#312e81">P50 = median</text>
+  </g>
+  <text x="480" y="315" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#312e81">At P90, about 90% of the data values are at or below that position.</text>
+</svg>

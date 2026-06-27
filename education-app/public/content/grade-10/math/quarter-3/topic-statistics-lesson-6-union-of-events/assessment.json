@@ -1,0 +1,175 @@
+{
+  "id": "grade-10-math-q3-statistics-lesson-6-union-of-events-assessment",
+  "examId": "grade-10-math-q3-statistics-lesson-6-union-of-events-assessment",
+  "examType": "assessment",
+  "title": "Statistics - Lesson 6: Union of Events Assessment",
+  "description": "Checkpoint assessment on union of events using Venn diagrams, two-way tables, probabilities, and contextual explanations.",
+  "passingScore": 75,
+  "timeLimit": 45,
+  "totalQuestions": 15,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement best describes A union B?",
+      "options": [
+        "All outcomes in A, in B, or in both",
+        "Only outcomes shared by A and B",
+        "All outcomes not in A",
+        "Only outcomes in exactly one of the two events"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The union of A and B includes A only, B only, and the overlap.",
+      "points": 6
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "In a survey of 80 learners, 34 chose science videos, 29 chose history videos, and 12 chose both. How many chose science or history videos? Enter just the number.",
+      "correctAnswer": "51",
+      "explanation": "The union count is 34 + 29 - 12 = 51.",
+      "points": 7
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "A survey has 50 students. There are 22 in drama, 17 in debate, and 6 in both. What is P(drama or debate)?",
+      "options": [
+        "33/50",
+        "39/50",
+        "6/50",
+        "45/50"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The union count is 22 + 17 - 6 = 33, so the probability is 33/50.",
+      "points": 7
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "If two events have an overlap, P(A) + P(B) counts the intersection twice.",
+      "correctAnswer": "true",
+      "explanation": "The overlap is included in both event totals, so it must be subtracted once for the union.",
+      "points": 6
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "If P(A) = 0.68, P(B) = 0.41, and P(A intersection B) = 0.22, find P(A union B). Enter a decimal.",
+      "correctAnswer": "0.87",
+      "explanation": "P(A union B) = 0.68 + 0.41 - 0.22 = 0.87.",
+      "points": 7
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Which pair of events is mutually exclusive for one roll of a standard die?",
+      "options": [
+        "Rolling a 1 and rolling a 6",
+        "Rolling an even number and rolling a number greater than 3",
+        "Rolling a number less than 5 and rolling an odd number",
+        "Rolling a prime number and rolling an odd number"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A single die roll cannot be both 1 and 6. The other pairs can overlap.",
+      "points": 6
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A two-way table shows 26 students take the bus, 31 bring lunch, and 14 do both. How many students take the bus or bring lunch? Enter just the number.",
+      "correctAnswer": "43",
+      "explanation": "Use 26 + 31 - 14 = 43.",
+      "points": 7
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A student says P(A union B) = 0.30 + 0.45 = 0.75, but the problem says P(A intersection B) = 0.18. What is the correct value?",
+      "options": [
+        "0.57",
+        "0.75",
+        "0.93",
+        "0.18"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Subtract the overlap once: 0.30 + 0.45 - 0.18 = 0.57.",
+      "points": 7
+    },
+    {
+      "id": "q9",
+      "type": "short-answer",
+      "question": "Explain in one or two sentences why the overlap belongs in the union but should not be counted twice.",
+      "correctAnswer": "The union includes outcomes that are in A or B, so outcomes in both events belong in the union. They should be counted once because they are the same outcomes, not two separate outcomes.",
+      "explanation": "A complete answer should show both ideas: the overlap is included, and double-counting must be corrected.",
+      "points": 8
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "A school raffle has 100 tickets. Event A is drawing a ticket ending in 0, and event B is drawing a ticket ending in 5. If the events are mutually exclusive and P(A) = 0.10 and P(B) = 0.10, what is P(A union B)?",
+      "options": [
+        "0.20",
+        "0.10",
+        "0.01",
+        "0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The events do not overlap, so P(A union B) = 0.10 + 0.10 = 0.20.",
+      "points": 6
+    },
+    {
+      "id": "q11",
+      "type": "fill-in",
+      "question": "In a class of 36 students, 20 joined sports, 18 joined music, and 11 joined both. What is the probability that a randomly selected student joined sports or music? Give a simplified fraction.",
+      "correctAnswer": "3/4",
+      "explanation": "The union count is 20 + 18 - 11 = 27. The probability is 27/36 = 3/4.",
+      "points": 7
+    },
+    {
+      "id": "q12",
+      "type": "true-false",
+      "question": "For any two events, P(A union B) is always equal to P(A) + P(B) without adjustment.",
+      "correctAnswer": "false",
+      "explanation": "This is only true when the events are mutually exclusive. Otherwise, subtract the intersection.",
+      "points": 6
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "question": "A two-way table has these counts: rides bike and has helmet = 16, rides bike and no helmet = 4, does not ride bike and has helmet = 10, does not ride bike and no helmet = 20. How many students ride a bike or have a helmet?",
+      "options": [
+        "30",
+        "20",
+        "26",
+        "50"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Include all cells except does not ride bike and no helmet: 16 + 4 + 10 = 30.",
+      "points": 7
+    },
+    {
+      "id": "q14",
+      "type": "short-answer",
+      "question": "A survey result says 70% of students joined a science activity or a math activity. Write one sentence interpreting this probability in context.",
+      "correctAnswer": "This means that about 70% of the surveyed students joined a science activity, a math activity, or both.",
+      "explanation": "The interpretation should mention the surveyed students and include science, math, or both.",
+      "points": 7
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "question": "Which question is asking for a union?",
+      "options": [
+        "What is the probability a student plays volleyball or basketball?",
+        "What is the probability a student plays both volleyball and basketball?",
+        "What is the probability a student does not play volleyball?",
+        "What is the probability a student plays volleyball given that the student plays basketball?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The word \"or\" signals a union: volleyball, basketball, or both.",
+      "points": 6
+    }
+  ]
+}

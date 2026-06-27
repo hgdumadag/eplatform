@@ -1,0 +1,174 @@
+{
+  "examId": "grade-10-math-q3-statistics-lesson-10-statistical-report-and-probability-critique-assessment",
+  "examType": "assessment",
+  "title": "Statistics - Lesson 10: Statistical Report and Probability Critique Assessment",
+  "description": "Checkpoint assessment on critiquing statistical reports and solving related probability questions.",
+  "passingScore": 75,
+  "timeLimit": 45,
+  "totalQuestions": 15,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A report claims, \"The new reading app helps Grade 10 students.\" It studied 16 students who volunteered to use the app. Which question should be asked first?",
+      "options": [
+        "Were the 16 volunteers representative of Grade 10 students?",
+        "Did the app use bright colors?",
+        "Can the claim be rewritten without numbers?",
+        "Was the report printed on paper?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The claim describes Grade 10 students broadly, so the sample's representativeness matters.",
+      "points": 6
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Use the table: 20 students chose sports day, 15 chose arts day, and 5 chose academic day. Which statement is accurate?",
+      "options": [
+        "Most students chose sports day.",
+        "Half of the surveyed students chose sports day.",
+        "All students chose sports day.",
+        "Sports day had fewer votes than arts day."
+      ],
+      "correctAnswer": 1,
+      "explanation": "The total is 40 students, and 20/40 = 1/2. Half chose sports day, but \"most\" would mean more than half.",
+      "points": 6
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "In a group of 75 students, 45 passed a diagnostic test. What percent passed? Enter a percent.",
+      "correctAnswer": "60%",
+      "explanation": "45/75 = 0.60, so 60% passed.",
+      "points": 6
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "A probability question says, \"Given that a student attended review, what is the chance the student passed?\" Which denominator should be used?",
+      "options": [
+        "The number of students who attended review",
+        "The number of students who passed",
+        "The number of students who failed",
+        "The number of students in the entire school"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Given that a student attended review\" restricts the denominator to students who attended review.",
+      "points": 6
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "A sample can be biased even if every percent in the report was calculated correctly.",
+      "correctAnswer": "true",
+      "explanation": "Correct arithmetic does not fix a sample that does not fairly represent the population.",
+      "points": 6
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A graph shows snack sales but does not label the vertical axis. What is the best critique?",
+      "options": [
+        "The graph is hard to interpret because the units or scale are unclear.",
+        "The graph is always correct if the bars are colorful.",
+        "The graph must be converted into a circle equation.",
+        "The missing axis label proves the data are fake."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Missing labels make it unclear what the values represent, even if the data might be real.",
+      "points": 6
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A table shows 18 students joined a club and 42 did not. What is the probability that a randomly selected student did NOT join a club as a simplified fraction?",
+      "correctAnswer": "7/10",
+      "explanation": "The total is 18 + 42 = 60. The probability is 42/60, which simplifies to 7/10.",
+      "points": 6
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Use this two-way table: 12 boys and 18 girls chose rice meal; 8 boys and 12 girls chose sandwich. What is P(rice meal | girl)?",
+      "options": [
+        "18/30",
+        "30/50",
+        "18/50",
+        "12/20"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Among girls, the denominator is 18 + 12 = 30. Girls who chose rice meal = 18, so the probability is 18/30.",
+      "points": 7
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "A headline says, \"Students hate the new schedule.\" The data show 11 of 40 surveyed students disliked it. Which replacement headline is fairest?",
+      "options": [
+        "In the survey, 11 of 40 students disliked the new schedule.",
+        "All students dislike the schedule.",
+        "The schedule failed completely.",
+        "No students like the schedule."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The fair headline states the actual result and keeps the claim limited to the survey.",
+      "points": 7
+    },
+    {
+      "id": "q10",
+      "type": "true-false",
+      "question": "If a category is the largest single category, it must be more than half of the total.",
+      "correctAnswer": "false",
+      "explanation": "The largest category can still be less than half when there are three or more categories.",
+      "points": 6
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "question": "A report gives a probability of 0.25 for choosing arts day. Which statement has the same meaning?",
+      "options": [
+        "The probability is 25%, or 1/4.",
+        "The probability is 2.5%.",
+        "The probability is 25 out of every 25.",
+        "The event is impossible."
+      ],
+      "correctAnswer": 0,
+      "explanation": "0.25 equals 25/100, or 25%, and simplifies to 1/4.",
+      "points": 6
+    },
+    {
+      "id": "q12",
+      "type": "short-answer",
+      "question": "A survey of 20 student council members finds that 17 support a new campus project. The report says, \"Grade 10 students support the project.\" Explain one strength and one limitation of the report.",
+      "correctAnswer": "A strength is that 17 out of 20 student council members is a clear majority in the surveyed group. A limitation is that student council members may not represent all Grade 10 students, so the broader claim needs more evidence.",
+      "explanation": "A good answer should recognize the strong result within the sample while questioning whether the sample represents the full population.",
+      "points": 9
+    },
+    {
+      "id": "q13",
+      "type": "short-answer",
+      "question": "A graph compares 92% and 95%, but the axis starts at 90% and the title says, \"One section is far better.\" Write a two-sentence critique.",
+      "correctAnswer": "The real difference is only 3 percentage points, so the title may exaggerate the result. Starting the axis at 90% can make the difference look much larger than it is.",
+      "explanation": "The critique should mention both the small numerical difference and the misleading effect of the truncated axis or exaggerated title.",
+      "points": 9
+    },
+    {
+      "id": "q14",
+      "type": "short-answer",
+      "question": "Use this result: Among 36 students who attended review, 27 passed the quiz. Write the conditional probability and interpret it in context.",
+      "correctAnswer": "P(passed | attended review) = 27/36 = 3/4 = 75%. Among students who attended review, 75% passed the quiz.",
+      "explanation": "The condition is attending review, so the denominator is 36 and the result should be interpreted for that group.",
+      "points": 9
+    },
+    {
+      "id": "q15",
+      "type": "short-answer",
+      "question": "A report says, \"The data prove the new homework policy works for every student,\" after 28 of 35 surveyed students improved. Write a fairer evidence-based conclusion.",
+      "correctAnswer": "In the surveyed group, 28 of 35 students, or 80%, improved after the new homework policy. This suggests the policy may help, but it does not prove that it works for every student.",
+      "explanation": "A fair conclusion includes the statistic, names the surveyed group, and avoids overgeneralizing to every student.",
+      "points": 5
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-labelledby="title desc">
+  <title id="title">Locator interpolation</title>
+  <desc id="desc">Position 6.5 marked halfway between the sixth value 71 and seventh value 75.</desc>
+  <rect width="760" height="300" fill="#f0fdf4"/>
+  <text x="40" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1f2937">When the locator is decimal, interpolate</text>
+  <text x="40" y="72" font-family="Arial, sans-serif" font-size="15" fill="#4b5563">The decimal part tells how far to move between two ordered values.</text>
+  <g transform="translate(105 140)" font-family="Arial, sans-serif">
+    <line x1="0" y1="0" x2="520" y2="0" stroke="#166534" stroke-width="4" stroke-linecap="round"/>
+    <g>
+      <circle cx="0" cy="0" r="20" fill="#dcfce7" stroke="#166534" stroke-width="3"/>
+      <circle cx="520" cy="0" r="20" fill="#dcfce7" stroke="#166534" stroke-width="3"/>
+      <circle cx="260" cy="0" r="23" fill="#bbf7d0" stroke="#15803d" stroke-width="4"/>
+    </g>
+    <g text-anchor="middle">
+      <text x="0" y="6" font-size="16" font-weight="700" fill="#14532d">71</text>
+      <text x="520" y="6" font-size="16" font-weight="700" fill="#14532d">75</text>
+      <text x="260" y="6" font-size="16" font-weight="700" fill="#14532d">73</text>
+      <text x="0" y="48" font-size="13" fill="#166534">6th value</text>
+      <text x="520" y="48" font-size="13" fill="#166534">7th value</text>
+      <text x="260" y="-42" font-size="15" font-weight="700" fill="#166534">L = 6.5</text>
+      <text x="260" y="78" font-size="14" fill="#166534">Halfway: 71 + 0.5(75 - 71) = 73</text>
+    </g>
+  </g>
+</svg>

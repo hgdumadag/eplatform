@@ -1,0 +1,166 @@
+{
+  "examId": "grade-10-math-q2-statistics-lesson-5-box-and-whisker-plots-assessment",
+  "examType": "assessment",
+  "title": "Statistics - Lesson 5: Box-and-Whisker Plots Assessment",
+  "description": "Assessment for constructing, reading, and interpreting box-and-whisker plots.",
+  "passingScore": 75,
+  "timeLimit": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement best describes the purpose of a box-and-whisker plot?",
+      "options": [
+        "It summarizes center and spread using the five-number summary.",
+        "It lists every data value in its original order.",
+        "It shows the exact frequency of each repeated value.",
+        "It converts all values into percentages."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A box-and-whisker plot uses the minimum, Q1, median, Q3, and maximum to summarize center and spread.",
+      "points": 5
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "Order the data 18, 12, 30, 24, 16, 21. What is the minimum? Enter just the number.",
+      "correctAnswer": "12",
+      "explanation": "The ordered data are 12, 16, 18, 21, 24, 30, so the minimum is 12.",
+      "points": 5
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "For the ordered data 3, 5, 7, 9, 11, 13, 15, what is the median? Enter just the number.",
+      "correctAnswer": "9",
+      "explanation": "There are seven values, so the fourth value, 9, is the median.",
+      "points": 5
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "For the ordered data 3, 5, 7, 9, 11, 13, 15, what are Q1 and Q3?",
+      "options": [
+        "Q1 = 5 and Q3 = 13",
+        "Q1 = 7 and Q3 = 11",
+        "Q1 = 3 and Q3 = 15",
+        "Q1 = 5 and Q3 = 11"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Leave out the median 9. The lower half is 3, 5, 7, so Q1 = 5. The upper half is 11, 13, 15, so Q3 = 13.",
+      "points": 5
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A five-number summary is 2, 7, 11, 15, 19. Which value is the median line inside the box?",
+      "options": [
+        "11",
+        "7",
+        "15",
+        "19"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The third value in the five-number summary is the median, so the median line is at 11.",
+      "points": 5
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "The box in a box-and-whisker plot represents the middle 50% of the data.",
+      "correctAnswer": "true",
+      "explanation": "The box stretches from Q1 to Q3, which contains the middle half of the ordered data.",
+      "points": 5
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A data set has Q1 = 14 and Q3 = 31. What is the IQR? Enter just the number.",
+      "correctAnswer": "17",
+      "explanation": "IQR = Q3 - Q1 = 31 - 14 = 17.",
+      "points": 5
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Which five-number summary would produce the widest box?",
+      "options": [
+        "4, 8, 10, 25, 30",
+        "4, 12, 18, 20, 30",
+        "4, 9, 15, 18, 30",
+        "4, 14, 16, 19, 30"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The box width is Q3 - Q1. The first option has IQR = 25 - 8 = 17, which is larger than the others.",
+      "points": 5
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "A longer whisker means that section of values is more spread out, not that it contains more data points.",
+      "correctAnswer": "true",
+      "explanation": "Each quartile section represents about 25% of the data, but the numerical distance can vary.",
+      "points": 5
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "A box plot has minimum 40, Q1 48, median 52, Q3 54, and maximum 70. Which interpretation is best?",
+      "options": [
+        "The upper whisker is long, so the high values are more spread out.",
+        "Most values are exactly 70.",
+        "The middle 50% runs from 40 to 70.",
+        "The median is closer to the maximum than to Q1."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The upper whisker runs from 54 to 70, which is much longer than the lower whisker from 40 to 48.",
+      "points": 5
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "question": "Find the five-number summary for 6, 8, 9, 12, 15, 18, 20. Show the values in order.",
+      "correctAnswer": "Minimum 6, Q1 8, median 12, Q3 18, maximum 20.",
+      "explanation": "The data are ordered. The median is 12, the lower half is 6, 8, 9 so Q1 = 8, and the upper half is 15, 18, 20 so Q3 = 18.",
+      "points": 10
+    },
+    {
+      "id": "q12",
+      "type": "short-answer",
+      "question": "Explain why a box plot should be drawn on a scaled number line.",
+      "correctAnswer": "A scaled number line makes the distances match the data values, so the spread is shown accurately.",
+      "explanation": "Without a scale, a plot can exaggerate or hide differences in spread.",
+      "points": 10
+    },
+    {
+      "id": "q13",
+      "type": "short-answer",
+      "question": "Two classes have medians of 82 and 82. Class A has IQR 6, and Class B has IQR 18. What does this tell you?",
+      "correctAnswer": "The classes have the same median, but Class B's middle 50% is more spread out. Class A's middle scores are more consistent.",
+      "explanation": "Equal medians mean equal centers, while the larger IQR for Class B means greater spread in the middle half.",
+      "points": 10
+    },
+    {
+      "id": "q14",
+      "type": "short-answer",
+      "question": "A student says, \"The right whisker is longer, so most of the data are on the right.\" Correct the statement.",
+      "correctAnswer": "A longer right whisker means the highest quarter of values is more spread out, not that most data are on the right.",
+      "explanation": "Box-plot sections represent quarters of the data. Length shows spread within that quarter.",
+      "points": 10
+    },
+    {
+      "id": "q15",
+      "type": "multiple-choice",
+      "question": "When constructing a box plot from the summary 10, 13.5, 20, 25, 30, where should the box be drawn?",
+      "options": [
+        "From 13.5 to 25",
+        "From 10 to 30",
+        "From 10 to 20",
+        "From 20 to 30"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The box is drawn from Q1 to Q3, so it runs from 13.5 to 25.",
+      "points": 5
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "examId": "grade-10-math-q2-statistics-lesson-1-measures-of-position-overview-assessment",
+  "examType": "assessment",
+  "title": "Statistics - Lesson 1: Measures of Position Overview Assessment",
+  "description": "Checkpoint assessment on ordering data, locating quartiles, deciles, and percentiles, and interpreting position measures in context.",
+  "passingScore": 75,
+  "timeLimit": 40,
+  "totalQuestions": 15,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement best describes a measure of position?",
+      "options": [
+        "A value that describes where a data value or cut point is located in an ordered data set",
+        "The difference between the greatest and least values",
+        "The sum of all values divided by the number of values",
+        "A graph that must always use bars"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Measures of position describe location in an ordered data set, such as quartile, decile, or percentile positions.",
+      "points": 6
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "Order this data set and give the smallest value: 31, 18, 24, 29, 16. Enter just the number.",
+      "correctAnswer": "16",
+      "explanation": "The ordered data are 16, 18, 24, 29, 31, so the smallest value is 16.",
+      "points": 6
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which list shows the values in ascending order?",
+      "options": [
+        "9, 12, 15, 21, 28",
+        "28, 21, 15, 12, 9",
+        "9, 15, 12, 28, 21",
+        "12, 9, 15, 21, 28"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ascending order means least to greatest: 9, 12, 15, 21, 28.",
+      "points": 6
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Which position is equivalent to Q1?",
+      "options": [
+        "P25",
+        "P50",
+        "P75",
+        "P100"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Q1 is the first quartile, which marks the 25th percentile position.",
+      "points": 6
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which position is equivalent to D7?",
+      "options": [
+        "P7",
+        "P10",
+        "P70",
+        "P75"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Each decile represents one tenth of the ordered data, so D7 corresponds to the 70th percentile.",
+      "points": 6
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "For the ordered data set 12, 16, 20, 24, 28, 32, 36, what is Q2? Enter just the number.",
+      "correctAnswer": "24",
+      "explanation": "Q2 is the median. With seven values, the median is the 4th value, 24.",
+      "points": 6
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "For n = 15, use L = k(n+1)/4 to find the locator for Q3. Enter just the number.",
+      "correctAnswer": "12",
+      "explanation": "For Q3, k = 3. L = 3(15 + 1)/4 = 3(16)/4 = 12.",
+      "points": 7
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "A locator value is 6.4. What does that tell you?",
+      "options": [
+        "The position lies between the 6th and 7th values",
+        "The data set has exactly 6.4 values",
+        "The answer must be 6.4 percent",
+        "The position is impossible to interpret"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A non-whole-number locator lies between two positions. A locator of 6.4 is between the 6th and 7th values.",
+      "points": 7
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "Percentile rank describes the percent of data values at or below a given value.",
+      "correctAnswer": "true",
+      "explanation": "Percentile rank is a position statement about the percent of values at or below a particular value.",
+      "points": 6
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "A learner is at the 90th percentile for a math contest. Which interpretation is best?",
+      "options": [
+        "The learner scored higher than or equal to about 90% of the group",
+        "The learner answered exactly 90 questions correctly",
+        "The learner's raw score must be 90",
+        "The learner is below about 90% of the group"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 90th percentile means the learner is at or above about 90% of the ordered group, depending on the convention used.",
+      "points": 7
+    },
+    {
+      "id": "q11",
+      "type": "multiple-choice",
+      "question": "Which is the best first step when asked to find P60 from a list of scores?",
+      "options": [
+        "Arrange the scores from least to greatest",
+        "Add 60 to the largest score",
+        "Divide every score by 60",
+        "Ignore repeated values"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Percentiles are based on position in an ordered list, so ordering is the first step.",
+      "points": 6
+    },
+    {
+      "id": "q12",
+      "type": "true-false",
+      "question": "The median is also Q2, D5, and P50.",
+      "correctAnswer": "true",
+      "explanation": "All four names describe the middle position of the ordered data set.",
+      "points": 6
+    },
+    {
+      "id": "q13",
+      "type": "short-answer",
+      "question": "A report says a student is at P75 in reading speed. Explain what that means without saying the student's raw speed must be 75.",
+      "correctAnswer": "It means the student is at the 75th percentile position, so about 75% of the group had reading speeds at or below that student's speed. The raw speed depends on the actual data values.",
+      "explanation": "A strong answer separates percentile position from the actual measured value.",
+      "points": 9
+    },
+    {
+      "id": "q14",
+      "type": "short-answer",
+      "question": "Why can using unordered data lead to a wrong quartile or percentile?",
+      "correctAnswer": "Quartiles and percentiles are based on position from least to greatest. If the data are not ordered, the numbered positions do not represent the correct low-to-high locations.",
+      "explanation": "Position measures depend on ordered locations, so original listing order can mislead the calculation.",
+      "points": 8
+    },
+    {
+      "id": "q15",
+      "type": "short-answer",
+      "question": "Use one or two sentences to compare quartiles, deciles, and percentiles.",
+      "correctAnswer": "Quartiles divide ordered data into four parts, deciles divide it into ten parts, and percentiles divide it into one hundred parts. All three describe relative position in an ordered data set.",
+      "explanation": "The comparison should name the number of parts and the shared idea of relative position.",
+      "points": 8
+    }
+  ]
+}

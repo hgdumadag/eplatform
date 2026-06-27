@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Tree diagram for drawing without replacement</title>
+  <desc id="desc">A probability tree for red and blue marble draws without replacement.</desc>
+  <rect width="960" height="540" fill="#f8fafc"/>
+  <text x="80" y="72" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#111827">Without replacement: update what is left</text>
+  <circle cx="160" cy="270" r="48" fill="#ffffff" stroke="#475569" stroke-width="3"/>
+  <text x="160" y="262" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#111827">Start</text>
+  <text x="160" y="286" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#475569">3R, 2B</text>
+  <path d="M210 246L400 150" stroke="#ef4444" stroke-width="5" stroke-linecap="round"/>
+  <path d="M210 294L400 390" stroke="#2563eb" stroke-width="5" stroke-linecap="round"/>
+  <text x="295" y="176" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#b91c1c">First red: 3/5</text>
+  <text x="295" y="374" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#1d4ed8">First blue: 2/5</text>
+  <rect x="400" y="104" width="170" height="92" rx="14" fill="#fee2e2" stroke="#ef4444" stroke-width="3"/>
+  <text x="485" y="140" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#991b1b">After red</text>
+  <text x="485" y="170" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#991b1b">2R, 2B left</text>
+  <rect x="400" y="344" width="170" height="92" rx="14" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+  <text x="485" y="380" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#1e3a8a">After blue</text>
+  <text x="485" y="410" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#1e3a8a">3R, 1B left</text>
+  <path d="M570 130L760 96M570 170L760 206M570 370L760 336M570 410L760 446" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+  <text x="684" y="94" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#b91c1c">Second red: 2/4</text>
+  <text x="684" y="214" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1d4ed8">Second blue: 2/4</text>
+  <text x="684" y="334" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#b91c1c">Second red: 3/4</text>
+  <text x="684" y="454" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1d4ed8">Second blue: 1/4</text>
+  <rect x="270" y="474" width="420" height="42" rx="10" fill="#ecfeff" stroke="#0891b2" stroke-width="2"/>
+  <text x="480" y="501" font-family="Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle" fill="#155e75">Given first red, P(second red) = 2/4 = 1/2.</text>
+</svg>

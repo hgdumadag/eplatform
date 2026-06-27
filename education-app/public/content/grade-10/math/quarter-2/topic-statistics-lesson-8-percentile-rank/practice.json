@@ -1,0 +1,98 @@
+{
+  "examId": "grade-10-math-q2-statistics-lesson-8-percentile-rank-practice",
+  "examType": "practice",
+  "title": "Statistics - Lesson 8: Percentile Rank Practice",
+  "description": "Practice calculating and interpreting percentile rank using ordered data.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Using the below-score convention, what does percentile rank measure?",
+      "options": [
+        "The percent of values below a given score",
+        "The percent correct on a test",
+        "The average of all scores",
+        "The difference between the highest and lowest scores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Percentile rank describes relative standing by finding the percent of data values below the given score.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "In the ordered data set 42, 48, 53, 59, 64, 70, how many values are below 64? Enter just the number.",
+      "correctAnswer": "4",
+      "explanation": "The values below 64 are 42, 48, 53, and 59, so there are 4 values below the score.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "In the ordered data set 10, 12, 15, 18, 20, what is the percentile rank of 18 using the below-score convention?",
+      "options": [
+        "40th percentile",
+        "60th percentile",
+        "80th percentile",
+        "90th percentile"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Three of the five values are below 18, so (3/5) x 100 = 60.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "A score at the 75th percentile is higher than about 75% of the values in the data set.",
+      "correctAnswer": "true",
+      "explanation": "A percentile rank compares one value with the rest of the data set; the 75th percentile means about 75% of values are below it.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A data set has 20 values. A score has 14 values below it. What is its percentile rank using the below-score convention?",
+      "options": [
+        "14th percentile",
+        "20th percentile",
+        "70th percentile",
+        "86th percentile"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Use (14/20) x 100 = 70, so the score is at the 70th percentile.",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "Which situation would make the at-or-below convention give a different answer from the below-score convention?",
+      "options": [
+        "The target score appears in the data set",
+        "The data are written in increasing order",
+        "The data set has an even number of values",
+        "The scores are all whole numbers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "At-or-below counts the target score itself, while below-score does not. That difference matters when the target score is included in the data set.",
+      "points": 15
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A score has 9 values below it out of 12 total values. What is the percentile rank? Enter the percent without the percent sign.",
+      "correctAnswer": "75",
+      "explanation": "(9/12) x 100 = 75, so the score is at the 75th percentile.",
+      "points": 15
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "In one sentence, interpret this result: A score of 88 is at the 80th percentile in a class quiz data set.",
+      "correctAnswer": "A score of 88 is higher than about 80% of the class quiz scores.",
+      "explanation": "A good interpretation names the score, the percentile rank, and the group being compared.",
+      "points": 15
+    }
+  ]
+}

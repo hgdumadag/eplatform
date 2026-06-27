@@ -1,0 +1,98 @@
+{
+  "examId": "grade-10-math-q3-statistics-lesson-7-intersection-of-events-practice",
+  "examType": "practice",
+  "title": "Statistics - Lesson 7: Intersection of Events Practice",
+  "description": "Practice identifying and calculating intersections of events from words, Venn diagrams, and tables.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which phrase usually signals an intersection of events?",
+      "options": [
+        "A and B",
+        "A or B",
+        "not A",
+        "A only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "An intersection asks for outcomes that satisfy both event conditions, so wording such as 'A and B' or 'both' is a strong signal.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A class has 40 learners. A Venn diagram shows 18 in the overlap of studied and passed. What is P(studied and passed)?",
+      "options": [
+        "18/40",
+        "22/40",
+        "40/18",
+        "18/22"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For a basic intersection probability, use the overlap count as the numerator and the total group as the denominator.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "In a group of 50 learners, 9 are both in sports and music. Enter P(sports and music) as a fraction.",
+      "correctAnswer": "9/50",
+      "explanation": "The intersection count is 9 and the total group is 50, so the probability is 9/50.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "The intersection of two events counts only outcomes that are in both events.",
+      "correctAnswer": "true",
+      "explanation": "That is the meaning of an intersection: the shared outcomes of the two events.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A table shows 30 learners used an online reviewer and passed out of 80 learners total. What is P(used reviewer and passed)?",
+      "options": [
+        "3/8",
+        "3/4",
+        "5/8",
+        "30/40"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Use 30 over the total 80. The fraction 30/80 simplifies to 3/8.",
+      "points": 15
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "In a standard deck of 52 cards, how many cards are both red and face cards?",
+      "options": [
+        "6",
+        "12",
+        "20",
+        "26"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The red face cards are jack, queen, and king in hearts and diamonds, for 6 cards total.",
+      "points": 15
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "If two events are mutually exclusive, their intersection probability is 0.",
+      "correctAnswer": "true",
+      "explanation": "Mutually exclusive events cannot happen at the same time, so there are no outcomes in the overlap.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "In one sentence, explain why P(A and B) should not be found by simply adding the number in A to the number in B.",
+      "correctAnswer": "Adding A and B finds too many outcomes; P(A and B) should count only outcomes that are in both events.",
+      "explanation": "The key idea is that an intersection uses only the overlap, while adding event totals is related to union reasoning and can double-count.",
+      "points": 20
+    }
+  ]
+}

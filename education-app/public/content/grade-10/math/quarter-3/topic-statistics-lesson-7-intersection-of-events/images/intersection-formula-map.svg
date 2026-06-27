@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Formula map for intersection probability</title>
+  <desc id="desc">A three-step map: identify events, count the overlap, divide by the total.</desc>
+  <rect width="960" height="520" fill="#f8fafc"/>
+  <text x="70" y="76" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#0f172a">How to compute \(P(A and B)\)</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="72" y="150" width="230" height="185" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="3"/>
+    <text x="187" y="194" text-anchor="middle" font-size="23" font-weight="700" fill="#1d4ed8">1. Name events</text>
+    <text x="187" y="241" text-anchor="middle" font-size="20" fill="#1e3a8a">A = studied</text>
+    <text x="187" y="275" text-anchor="middle" font-size="20" fill="#1e3a8a">B = passed</text>
+    <rect x="365" y="150" width="230" height="185" rx="10" fill="#fef3c7" stroke="#ca8a04" stroke-width="3"/>
+    <text x="480" y="194" text-anchor="middle" font-size="23" font-weight="700" fill="#854d0e">2. Count both</text>
+    <text x="480" y="247" text-anchor="middle" font-size="44" font-weight="700" fill="#92400e">18</text>
+    <text x="480" y="285" text-anchor="middle" font-size="18" fill="#854d0e">overlap outcomes</text>
+    <rect x="658" y="150" width="230" height="185" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="3"/>
+    <text x="773" y="194" text-anchor="middle" font-size="23" font-weight="700" fill="#047857">3. Divide total</text>
+    <text x="773" y="247" text-anchor="middle" font-size="44" font-weight="700" fill="#065f46">40</text>
+    <text x="773" y="285" text-anchor="middle" font-size="18" fill="#047857">all outcomes</text>
+    <path d="M314 243 H352" stroke="#64748b" stroke-width="5" stroke-linecap="round"/>
+    <path d="M342 231 L356 243 L342 255" fill="none" stroke="#64748b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M607 243 H645" stroke="#64748b" stroke-width="5" stroke-linecap="round"/>
+    <path d="M635 231 L649 243 L635 255" fill="none" stroke="#64748b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="225" y="386" width="510" height="70" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+    <text x="480" y="431" text-anchor="middle" font-size="27" font-weight="700" fill="#0f172a">P(A and B) = overlap / total = 18/40</text>
+  </g>
+</svg>

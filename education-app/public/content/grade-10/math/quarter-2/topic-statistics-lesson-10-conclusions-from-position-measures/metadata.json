@@ -1,0 +1,48 @@
+{
+  "id": "grade-10-math-q2-statistics-lesson-10-conclusions-from-position-measures",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Statistics - Lesson 10: Conclusions from Position Measures",
+  "description": "Use quartiles, percentile rank, IQR, and displays to draw evidence-based conclusions from statistical data.",
+  "learningObjectives": [
+    "Find and interpret quartiles, median, and interquartile range from ordered data.",
+    "Estimate percentile rank and explain relative standing in context.",
+    "Compare data sets using box plots, median, and IQR.",
+    "Write evidence-based conclusions that cite a statistic and explain its meaning."
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "statistics",
+    "data-analysis",
+    "grade-10",
+    "data-and-probability",
+    "quartiles",
+    "percentile-rank",
+    "iqr",
+    "box-plot",
+    "evidence-based conclusion"
+  ],
+  "lastUpdated": "2026-06-27",
+  "version": "1.1",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/ordered-scores-quartiles.svg",
+      "images/percentile-rank-model.svg",
+      "images/box-plot-comparison.svg",
+      "images/iqr-outlier-fence.svg",
+      "images/conclusion-builder.svg"
+    ]
+  },
+  "prerequisites": [
+    "Order numbers from least to greatest",
+    "Find the median of a data set",
+    "Use fractions, decimals, and percents",
+    "Read scales on simple statistical displays",
+    "Write a short explanation using evidence"
+  ]
+}

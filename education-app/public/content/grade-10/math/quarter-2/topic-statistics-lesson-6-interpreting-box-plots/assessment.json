@@ -1,0 +1,172 @@
+{
+  "examId": "grade-10-math-q2-statistics-lesson-6-interpreting-box-plots-assessment",
+  "examType": "assessment",
+  "title": "Statistics - Lesson 6: Interpreting Box Plots Assessment",
+  "description": "Assessment for interpreting and comparing box plots using center, spread, shape, outliers, and context.",
+  "passingScore": 75,
+  "timeLimit": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A box plot has minimum 8, Q1 = 12, median 17, Q3 = 25, and maximum 31. Which value is the median?",
+      "options": [
+        "17",
+        "12",
+        "25",
+        "31"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The median is the middle landmark in the five-number summary, so it is 17.",
+      "points": 5
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A box plot has Q1 = 42 and Q3 = 58. What is the IQR? Enter just the number.",
+      "correctAnswer": "16",
+      "explanation": "IQR = Q3 - Q1 = 58 - 42 = 16.",
+      "points": 5
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "A box plot has minimum 35 and maximum 92. What is the range? Enter just the number.",
+      "correctAnswer": "57",
+      "explanation": "Range = maximum - minimum = 92 - 35 = 57.",
+      "points": 5
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Section A has median 76 and Section B has median 81 on the same test. Which conclusion is supported?",
+      "options": [
+        "Section A has the higher typical score.",
+        "Section B must have the smaller IQR.",
+        "Section A must have a right-skewed distribution.",
+        "Section B has the higher typical score."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The median is used to compare typical values. Since 81 is greater than 76, Section B has the higher typical score.",
+      "points": 5
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which comparison best describes consistency?",
+      "options": [
+        "The group with the larger maximum is always more consistent.",
+        "The group with the smaller IQR is more consistent in the middle 50%.",
+        "The group with the longer title is more consistent.",
+        "The group with the higher minimum always has the larger range."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Consistency in the middle 50% is measured by IQR; smaller IQR means less spread.",
+      "points": 5
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "A box plot directly shows the mean of the data set.",
+      "correctAnswer": "false",
+      "explanation": "A standard box plot shows the five-number summary, including the median, but it does not directly show the mean.",
+      "points": 5
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Team A has five-number summary 20, 30, 45, 55, 70. Team B has 18, 28, 45, 62, 90. Which statement is most accurate?",
+      "options": [
+        "Team A has a higher median and greater spread.",
+        "Team B has a lower median and smaller spread.",
+        "The teams have the same range and same IQR.",
+        "The teams have the same median, but Team B has greater spread."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Both medians are 45. Team B's IQR is 62 - 28 = 34 and range is 90 - 18 = 72, both larger than Team A's IQR 25 and range 50.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Which situation is best described by a long right whisker?",
+      "options": [
+        "All values are exactly equal.",
+        "Most values are lower or moderate, with some high values stretching the data upward.",
+        "The data has no maximum.",
+        "The median must be the largest value."
+      ],
+      "correctAnswer": 1,
+      "explanation": "A long right whisker means values on the high side are more spread out, suggesting a right tail.",
+      "points": 5
+    },
+    {
+      "id": "q9",
+      "type": "true-false",
+      "question": "A larger range always means the middle 50% of the data is more spread out.",
+      "correctAnswer": "false",
+      "explanation": "Range uses only the minimum and maximum. The middle 50% is measured by IQR, which can be small even when the range is large.",
+      "points": 5
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "A student compares two box plots and says, \"Group C is better because its maximum is highest.\" What is the main weakness?",
+      "options": [
+        "The student used the median too much.",
+        "The student computed IQR before range.",
+        "The student mentioned context too clearly.",
+        "The student ignored median and spread."
+      ],
+      "correctAnswer": 3,
+      "explanation": "A maximum is only one value. A stronger comparison also considers typical value and variability.",
+      "points": 5
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "question": "Group A has median 68 and IQR 10. Group B has median 68 and IQR 24. Compare the two groups in one or two sentences.",
+      "correctAnswer": "The groups have the same typical value because both medians are 68. Group A is more consistent in the middle 50% because its IQR is smaller.",
+      "explanation": "The comparison should mention equal medians and different spreads.",
+      "points": 10
+    },
+    {
+      "id": "q12",
+      "type": "short-answer",
+      "question": "A box plot of commute times has a long right whisker. What does that suggest in context?",
+      "correctAnswer": "It suggests that some commute times are much longer than the rest, so the distribution may be right-skewed.",
+      "explanation": "The right side represents higher commute times, and a long whisker shows those values are spread out.",
+      "points": 10
+    },
+    {
+      "id": "q13",
+      "type": "multiple-choice",
+      "question": "Two classes have these summaries: Class 1: min 55, Q1 70, median 78, Q3 86, max 94. Class 2: min 50, Q1 68, median 82, Q3 90, max 98. Which statement is supported?",
+      "options": [
+        "Class 1 has the higher median and larger IQR.",
+        "Both classes have the same median and range.",
+        "Class 2 has the higher median and a slightly larger IQR.",
+        "Class 1 has no spread because its scores are high."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Class 2's median is 82 compared with Class 1's 78. Class 2's IQR is 22, slightly larger than Class 1's IQR of 16.",
+      "points": 10
+    },
+    {
+      "id": "q14",
+      "type": "short-answer",
+      "question": "Why should an interpretation of a box plot include the real context, not only numbers?",
+      "correctAnswer": "Context explains what the median and spread describe, such as scores, time, distance, or cost, so the conclusion is meaningful.",
+      "explanation": "Statistics become useful when the values are connected to the situation being measured.",
+      "points": 10
+    },
+    {
+      "id": "q15",
+      "type": "short-answer",
+      "question": "A box plot marks one high value as a separate point beyond the right whisker. How should you mention it in a careful conclusion?",
+      "correctAnswer": "I should say there appears to be a high outlier or unusually high value, and I should avoid letting that one value represent the whole group.",
+      "explanation": "A separate point can indicate an outlier, but careful interpretation still considers median and IQR.",
+      "points": 5
+    }
+  ]
+}

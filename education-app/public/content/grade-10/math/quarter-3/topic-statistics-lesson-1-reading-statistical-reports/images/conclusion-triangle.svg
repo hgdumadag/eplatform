@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">Evidence-based conclusion triangle</title>
+  <desc id="desc">A triangle showing that a careful conclusion balances statistic, source, and claim.</desc>
+  <rect width="760" height="360" fill="#f7fafc"/>
+  <polygon points="380,48 148,286 612,286" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+  <circle cx="380" cy="70" r="48" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+  <circle cx="164" cy="276" r="55" fill="#dcfce7" stroke="#15803d" stroke-width="2"/>
+  <circle cx="596" cy="276" r="55" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle" fill="#0f172a">
+    <text x="380" y="65" font-size="17" font-weight="700">Statistic</text>
+    <text x="380" y="87" font-size="12">What number?</text>
+    <text x="164" y="270" font-size="17" font-weight="700">Source</text>
+    <text x="164" y="292" font-size="12">Who measured?</text>
+    <text x="596" y="270" font-size="17" font-weight="700">Claim</text>
+    <text x="596" y="292" font-size="12">What is said?</text>
+    <text x="380" y="210" font-size="22" font-weight="700" fill="#334155">Careful</text>
+    <text x="380" y="238" font-size="22" font-weight="700" fill="#334155">Conclusion</text>
+  </g>
+  <rect x="178" y="306" width="404" height="34" rx="17" fill="#e2e8f0"/>
+  <text x="380" y="328" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#334155">Name the number, name the group, then judge the claim.</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Common cumulative frequency errors</title>
+  <desc id="desc">A comparison of ordinary frequency, less-than cumulative frequency, and more-than cumulative frequency.</desc>
+  <rect width="960" height="520" fill="#f8fafc"/>
+  <rect x="44" y="34" width="872" height="452" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="74" y="80" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Do Not Mix These Counts</text>
+  <text x="74" y="110" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#475569">The same interval can have three different counts depending on the question.</text>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="74" y="154" width="245" height="254" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+    <text x="98" y="190" font-size="21" font-weight="700" fill="#1e3a8a">Frequency</text>
+    <text x="98" y="225" font-size="17" fill="#0f172a">Question:</text>
+    <text x="98" y="250" font-size="17" fill="#0f172a">How many are in</text>
+    <text x="98" y="273" font-size="17" fill="#0f172a">70-79 only?</text>
+    <rect x="128" y="305" width="138" height="54" rx="6" fill="#dbeafe" stroke="#2563eb"/>
+    <text x="197" y="340" font-size="25" font-weight="700" text-anchor="middle" fill="#1e3a8a">10</text>
+    <text x="98" y="386" font-size="15" fill="#1e293b">One class interval.</text>
+
+    <rect x="358" y="154" width="245" height="254" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+    <text x="382" y="190" font-size="21" font-weight="700" fill="#065f46">Less-than CF</text>
+    <text x="382" y="225" font-size="17" fill="#0f172a">Question:</text>
+    <text x="382" y="250" font-size="17" fill="#0f172a">How many scored</text>
+    <text x="382" y="273" font-size="17" fill="#0f172a">at most 79?</text>
+    <rect x="412" y="305" width="138" height="54" rx="6" fill="#d1fae5" stroke="#059669"/>
+    <text x="481" y="340" font-size="25" font-weight="700" text-anchor="middle" fill="#065f46">22</text>
+    <text x="382" y="386" font-size="15" fill="#1e293b">This class and below.</text>
+
+    <rect x="642" y="154" width="245" height="254" rx="8" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+    <text x="666" y="190" font-size="21" font-weight="700" fill="#9a3412">More-than CF</text>
+    <text x="666" y="225" font-size="17" fill="#0f172a">Question:</text>
+    <text x="666" y="250" font-size="17" fill="#0f172a">How many scored</text>
+    <text x="666" y="273" font-size="17" fill="#0f172a">at least 70?</text>
+    <rect x="696" y="305" width="138" height="54" rx="6" fill="#ffedd5" stroke="#ea580c"/>
+    <text x="765" y="340" font-size="25" font-weight="700" text-anchor="middle" fill="#9a3412">18</text>
+    <text x="666" y="386" font-size="15" fill="#1e293b">This class and above.</text>
+  </g>
+  <text x="480" y="454" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#0f172a">Read the wording first: only, at most, and at least point to different counts.</text>
+</svg>

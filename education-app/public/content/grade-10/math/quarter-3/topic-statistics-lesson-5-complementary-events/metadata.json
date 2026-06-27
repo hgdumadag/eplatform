@@ -1,0 +1,45 @@
+{
+  "id": "grade-10-math-q3-statistics-lesson-5-complementary-events",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Statistics - Lesson 5: Complementary Events",
+  "description": "Identify complementary events, calculate complement probabilities, and explain results in context.",
+  "learningObjectives": [
+    "Identify an event and its complement in words and notation.",
+    "Use P(A) + P(not A) = 1 to calculate complement probabilities.",
+    "Find complement counts from a total group and event count.",
+    "Explain complement probabilities using correct context and boundary language."
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "statistics",
+    "probability",
+    "grade-10",
+    "data-and-probability",
+    "complement",
+    "not A",
+    "sample space"
+  ],
+  "lastUpdated": "2026-06-27",
+  "version": "1.1",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/complement-bar-model.svg",
+      "images/spinner-complement.svg",
+      "images/pass-not-pass-table.svg",
+      "images/complement-decision-flow.svg",
+      "images/complement-vs-overlap.svg"
+    ]
+  },
+  "prerequisites": [
+    "Convert among fractions, decimals, and percents",
+    "Read simple tables and counts",
+    "Identify a total group or sample space",
+    "Subtract decimals, fractions, and whole numbers"
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "examId": "grade-10-math-q3-statistics-lesson-2-representative-data-assessment",
+  "examType": "assessment",
+  "title": "Statistics - Lesson 2: Representative Data Assessment",
+  "description": "Checkpoint on representative data, sampling bias, and evidence-based conclusions.",
+  "passingScore": 75,
+  "timeLimit": 45,
+  "totalQuestions": 15,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A headline says, \"Most students in the school want more project days.\" What is the population named in the claim?",
+      "options": [
+        "All students in the school",
+        "Only students who like projects",
+        "Only the students surveyed",
+        "Only Grade 10 students"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The claim says students in the school, so the population is all students in the school.",
+      "points": 6
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A researcher randomly selects 10 learners from each Grade 10 section. Which method is this closest to?",
+      "options": [
+        "Stratified sampling",
+        "Voluntary response sampling",
+        "Convenience sampling",
+        "Asking friends"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The sample is taken from each section, which treats the sections as important subgroups.",
+      "points": 6
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A voluntary response poll may overrepresent people with strong opinions.",
+      "correctAnswer": "true",
+      "explanation": "People with strong feelings are often more likely to choose to respond.",
+      "points": 6
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "A sample includes 75 learners, and 45 support the proposal. What percent support the proposal? Enter the percent with the percent sign.",
+      "correctAnswer": "60%",
+      "explanation": "45 divided by 75 is 0.60, so 60% of the sample supports the proposal.",
+      "points": 6
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which detail most directly helps readers judge whether a sample is representative?",
+      "options": [
+        "How the sample was selected",
+        "The font used in the report",
+        "The color of the graph",
+        "Whether the title sounds exciting"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The selection method tells whether the sample had a fair chance to reflect the population.",
+      "points": 6
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A survey asks only students using the library at lunch whether the library needs more seats. Which conclusion is most careful?",
+      "options": [
+        "The data describe library users at lunch, but may not represent all students.",
+        "The data prove all students need more library seats.",
+        "The data cannot describe anyone at all.",
+        "The data prove that lunch should be cancelled."
+      ],
+      "correctAnswer": 0,
+      "explanation": "The sample is relevant to lunch library users but may be too narrow for a claim about all students.",
+      "points": 6
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "A neutral survey question avoids wording that pushes the respondent toward one answer.",
+      "correctAnswer": "true",
+      "explanation": "Neutral wording helps reduce response bias.",
+      "points": 6
+    },
+    {
+      "id": "q8",
+      "type": "multiple-choice",
+      "question": "Which question is worded most neutrally?",
+      "options": [
+        "Which schedule do you prefer: current or later start?",
+        "Do you agree that our terrible current schedule should change?",
+        "Wouldn't a later start be much better?",
+        "Why is the current schedule the best?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The first option presents choices without loaded words.",
+      "points": 6
+    },
+    {
+      "id": "q9",
+      "type": "fill-in",
+      "question": "In the claim \"Most Grade 10 learners prefer digital reviewers,\" the smaller group actually surveyed is called the _____.",
+      "correctAnswer": "sample",
+      "explanation": "The sample is the smaller group that is actually studied.",
+      "points": 6
+    },
+    {
+      "id": "q10",
+      "type": "multiple-choice",
+      "question": "A sample of 200 students comes only from one after-school robotics club. What is the best evaluation?",
+      "options": [
+        "The sample is large, but it may still be biased because it comes from one club.",
+        "The sample must be representative because 200 is always enough.",
+        "The sample is random because clubs meet after school.",
+        "The sample proves the claim for every school in the country."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A large sample from one narrow group can still fail to represent a wider population.",
+      "points": 7
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "question": "A student surveyed 30 classmates from one section and claims, \"All Grade 10 learners dislike oral reports.\" Explain why this claim is too strong.",
+      "correctAnswer": "The sample includes only one section, so it may not represent all Grade 10 learners. The conclusion should be limited to the surveyed classmates or supported by a broader sample.",
+      "explanation": "A strong answer identifies the mismatch between the narrow sample and the broad population claim.",
+      "points": 8
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "question": "Which report gives the strongest evidence?",
+      "options": [
+        "A random sample of 120 Grade 10 learners from all sections, with the exact question and date reported",
+        "A poll answered by 30 followers of one student's account",
+        "A survey of 50 students standing near one classroom door",
+        "A claim with no sample size or source"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The first report gives a fairer selection method, a clear sample size, and useful reporting details.",
+      "points": 7
+    },
+    {
+      "id": "q13",
+      "type": "short-answer",
+      "question": "Suggest one improvement for this sampling plan: Ask the first 20 students in the cafeteria about all students' preferred school event.",
+      "correctAnswer": "Randomly select students from different grade levels or sections instead of asking only the first 20 students in the cafeteria.",
+      "explanation": "The improvement should make the sample less dependent on one convenient location or group.",
+      "points": 8
+    },
+    {
+      "id": "q14",
+      "type": "multiple-choice",
+      "question": "A valid conclusion from a biased sample should usually do what?",
+      "options": [
+        "State the result but clearly limit what population it describes",
+        "Ignore the sampling method",
+        "Claim the result proves the opinion of everyone",
+        "Remove the sample size"
+      ],
+      "correctAnswer": 0,
+      "explanation": "When a sample is biased, the conclusion should be cautious and describe the limits of the evidence.",
+      "points": 6
+    },
+    {
+      "id": "q15",
+      "type": "short-answer",
+      "question": "In a random sample of 100 Grade 10 learners, 68 prefer digital reviewers. Write a careful conclusion about the claim \"Most Grade 10 learners prefer digital reviewers.\"",
+      "correctAnswer": "In this random sample, 68% of Grade 10 learners preferred digital reviewers, so the data give reasonable evidence that most Grade 10 learners prefer digital reviewers.",
+      "explanation": "A good conclusion includes the sample statistic, notes the random sample, and connects cautiously to the population claim.",
+      "points": 10
+    }
+  ]
+}

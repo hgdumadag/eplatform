@@ -1,0 +1,100 @@
+{
+  "examId": "grade-10-math-q2-statistics-lesson-1-measures-of-position-overview-practice",
+  "examType": "practice",
+  "title": "Statistics - Lesson 1: Measures of Position Overview Practice",
+  "description": "Practice ordering data, identifying quartile-decile-percentile language, and interpreting measures of position.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Why should a data set be ordered before finding quartiles, deciles, or percentiles?",
+      "options": [
+        "Measures of position depend on where values fall from least to greatest",
+        "Ordering always changes the values in the data set",
+        "The largest value must always become the median",
+        "Percentiles can only be found when all values are equal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Measures of position describe location in an ordered list, so the data must be arranged from least to greatest first.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which measure divides an ordered data set into four parts?",
+      "options": [
+        "Quartiles",
+        "Deciles",
+        "Percentiles",
+        "Range"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Quartiles split ordered data into four position groups using Q1, Q2, and Q3 as cut points.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which statement correctly connects equivalent positions?",
+      "options": [
+        "Q2, D5, and P50 all describe the median position",
+        "Q1, D1, and P1 all describe the median position",
+        "Q3 and P30 always describe the same position",
+        "D9 and P9 always describe the same position"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Q2 is the second quartile, D5 is the fifth decile, and P50 is the 50th percentile; all refer to the middle position.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "How many values are in this data set: 6, 8, 11, 15, 19, 22? Enter just the number.",
+      "correctAnswer": "6",
+      "explanation": "There are six listed data values, so n = 6.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "For the ordered data set 10, 14, 18, 20, 25, what is the median? Enter just the number.",
+      "correctAnswer": "18",
+      "explanation": "There are five values, so the median is the 3rd value, 18.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "What does P75 mean in a data set of test scores?",
+      "options": [
+        "About 75% of the scores are at or below that position",
+        "Every learner scored exactly 75%",
+        "The data set must contain exactly 75 scores",
+        "The lowest score is 75"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The 75th percentile describes a position: about 75% of values are at or below that point.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "true-false",
+      "question": "Q3 is the same position as P75.",
+      "correctAnswer": "true",
+      "explanation": "The third quartile marks the 75th percentile position because three fourths equals 75%.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "In one or two sentences, explain why P80 does not automatically mean a score of 80.",
+      "correctAnswer": "P80 is a position in the ordered data set, not necessarily the value 80. You must use the ordered data to find the score located at or near the 80th percentile.",
+      "explanation": "Percentile notation names a relative position; the actual data value depends on the ordered list.",
+      "points": 10
+    }
+  ]
+}

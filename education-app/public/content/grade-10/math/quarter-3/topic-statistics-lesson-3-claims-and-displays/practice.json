@@ -1,0 +1,94 @@
+{
+  "examId": "grade-10-math-q3-statistics-lesson-3-claims-and-displays-practice",
+  "examType": "practice",
+  "title": "Statistics - Lesson 3: Claims and Displays Practice",
+  "description": "Practice matching statistical claims to displays, evidence, and careful conclusions.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A claim says, \"Most students chose online review.\" Which information is most important to check first?",
+      "options": [
+        "The number who chose online review and the total number surveyed",
+        "The color used for the online review bar",
+        "Whether the graph has a decorative title",
+        "The order of the answer choices on the survey"
+      ],
+      "correctAnswer": 0,
+      "explanation": "\"Most\" means more than half, so you need both the part and the whole group.",
+      "points": 12
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "Which display is usually best for supporting a claim about quiz averages changing from Monday to Friday?",
+      "options": [
+        "Line graph",
+        "Pie chart",
+        "Circle diagram",
+        "Random list of scores"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A line graph is designed to show change over time or ordered intervals.",
+      "points": 12
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A graph can be technically accurate but still make a small difference look dramatic.",
+      "correctAnswer": "true",
+      "explanation": "A shortened or uneven scale can exaggerate visual differences even when the plotted values are accurate.",
+      "points": 12
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "In a survey of 50 learners, 30 preferred group review. What percent preferred group review? Enter a percent such as 60%.",
+      "correctAnswer": "60%",
+      "explanation": "30 divided by 50 is 0.60, which is 60%.",
+      "points": 12
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A bar graph compares 72% and 75%, but its vertical axis starts at 70%. What is the best warning?",
+      "options": [
+        "The 3-point difference may look larger than it really is",
+        "The percentages must be impossible",
+        "The graph proves there is no difference",
+        "The title is always false"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Starting the axis near the data can stretch the bars visually and make a small gap look large.",
+      "points": 12
+    },
+    {
+      "id": "q6",
+      "type": "true-false",
+      "question": "The largest category in a table is always more than half of the total.",
+      "correctAnswer": "false",
+      "explanation": "A category can be the largest and still be less than 50% if the responses are spread across several categories.",
+      "points": 12
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "A poster says, \"Grade 10 students love the new schedule,\" based on 9 students from one club. In one sentence, explain a weakness in the claim.",
+      "correctAnswer": "The sample is small and from only one club, so it may not represent all Grade 10 students.",
+      "explanation": "A strong response should mention the mismatch between the broad claim and the narrow sample.",
+      "points": 14
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Write a careful conclusion for this evidence: 18 out of 40 surveyed students preferred printed modules, while 16 preferred online review.",
+      "correctAnswer": "Printed modules were the most selected option in this sample, but the lead over online review was small.",
+      "explanation": "The conclusion should use the evidence and avoid overstating the 2-student difference.",
+      "points": 14
+    }
+  ]
+}

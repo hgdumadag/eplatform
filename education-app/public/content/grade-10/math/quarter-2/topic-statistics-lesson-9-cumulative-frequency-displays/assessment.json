@@ -1,0 +1,158 @@
+{
+  "examId": "grade-10-math-q2-statistics-lesson-9-cumulative-frequency-displays-assessment",
+  "examType": "assessment",
+  "title": "Statistics - Lesson 9: Cumulative Frequency Displays Assessment",
+  "description": "Assessment for constructing and interpreting cumulative frequency displays from grouped data.",
+  "passingScore": 75,
+  "timeLimit": 40,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A survey records daily reading time. The frequencies are 5, 9, 8, 6, and 2. Which list gives the correct less-than cumulative frequencies?",
+      "options": [
+        "5, 14, 22, 28, 30",
+        "5, 9, 8, 6, 2",
+        "30, 25, 16, 8, 2",
+        "14, 17, 14, 8, 2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Add in order: 5, 5+9=14, 14+8=22, 22+6=28, and 28+2=30.",
+      "points": 5
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "For frequencies 6, 4, 10, 7, and 3, what is the total frequency? Enter just the number.",
+      "correctAnswer": "30",
+      "explanation": "The total is 6+4+10+7+3=30.",
+      "points": 5
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Which point should be plotted on a less-than ogive for class interval 20-29 with cumulative frequency 17, assuming whole-number data?",
+      "options": [
+        "(29.5, 17)",
+        "(20, 17)",
+        "(24.5, 17)",
+        "(17, 29.5)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A less-than ogive uses the upper class boundary on the horizontal axis and the cumulative frequency on the vertical axis.",
+      "points": 5
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "A cumulative histogram should show bars whose heights are running totals, not the separate frequencies for each interval.",
+      "correctAnswer": "true",
+      "explanation": "A cumulative histogram displays cumulative totals, so each bar includes the current class and all earlier classes.",
+      "points": 5
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "A cumulative table shows 4 learners at most 49, 11 at most 59, 20 at most 69, and 28 at most 79. How many learners scored from 60 to 69?",
+      "options": [
+        "9",
+        "20",
+        "11",
+        "28"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The frequency in 60-69 is the difference between cumulative totals at 69 and 59: 20-11=9.",
+      "points": 5
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A class has 40 learners. Which cumulative frequency position is closest to the 75th percentile?",
+      "options": [
+        "30th value",
+        "20th value",
+        "10th value",
+        "40th value"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Seventy-five percent of 40 is 30, so the 75th percentile is near the 30th ordered value.",
+      "points": 5
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "A cumulative table shows 18 out of 30 learners scored at most 69. What percent of learners scored at most 69? Enter a percent.",
+      "correctAnswer": "60%",
+      "explanation": "18 divided by 30 is 0.6, which is 60%.",
+      "points": 5
+    },
+    {
+      "id": "q8",
+      "type": "true-false",
+      "question": "If a less-than cumulative frequency drops from 24 to 21 in the next interval, the table or graph has an error.",
+      "correctAnswer": "true",
+      "explanation": "Less-than cumulative frequencies are running totals, so they cannot decrease as intervals move upward.",
+      "points": 5
+    },
+    {
+      "id": "q9",
+      "type": "multiple-choice",
+      "question": "The cumulative frequencies for quiz scores are 3, 10, 18, 25, and 30. Which interval contains the median position for 30 scores?",
+      "options": [
+        "The third interval",
+        "The second interval",
+        "The fourth interval",
+        "The fifth interval"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For 30 scores, the median is around the 15th and 16th values. The cumulative total passes those positions in the third interval, rising from 10 to 18.",
+      "points": 5
+    },
+    {
+      "id": "q10",
+      "type": "short-answer",
+      "question": "A table says the cumulative frequency for 80-89 is 26. Write one sentence interpreting this value in context.",
+      "correctAnswer": "Twenty-six learners scored at most 89, meaning their scores were in 80-89 or any lower interval.",
+      "explanation": "A strong answer uses the phrase at most or less than or equal to and connects 26 to the score context.",
+      "points": 10
+    },
+    {
+      "id": "q11",
+      "type": "short-answer",
+      "question": "Explain how to find the ordinary frequency for one interval if you are given two neighboring cumulative frequencies.",
+      "correctAnswer": "Subtract the previous cumulative frequency from the current cumulative frequency to get the ordinary frequency for that interval.",
+      "explanation": "Each cumulative total equals the previous total plus the current class frequency, so the difference gives the class frequency.",
+      "points": 10
+    },
+    {
+      "id": "q12",
+      "type": "multiple-choice",
+      "question": "Which question is best answered by a less-than cumulative frequency display?",
+      "options": [
+        "How many learners scored at most 79?",
+        "Which score interval had the tallest ordinary frequency bar only?",
+        "What color should the graph use?",
+        "What is the exact score of every learner?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Less-than cumulative frequency displays are designed for questions that ask how many values are at or below a boundary.",
+      "points": 5
+    },
+    {
+      "id": "q13",
+      "type": "short-answer",
+      "question": "A learner says, \"The cumulative frequency for 70-79 is 8 because 8 learners are in that interval.\" Correct the mistake in one or two sentences.",
+      "correctAnswer": "The learner is using ordinary frequency. The cumulative frequency for 70-79 should add the 8 learners in that interval to all learners in the lower intervals.",
+      "explanation": "The key correction is that cumulative frequency is a running total, not the single interval count.",
+      "points": 10
+    },
+    {
+      "id": "q14",
+      "type": "short-answer",
+      "question": "Given cumulative frequencies 2, 7, 16, 24, and 30 for 30 learners, what can you conclude about the 80th percentile position? Explain briefly.",
+      "correctAnswer": "The 80th percentile is near the 24th value, so it falls in the fourth interval because the cumulative frequency reaches 24 there.",
+      "explanation": "Eighty percent of 30 is 24. The cumulative table reaches that position in the fourth interval, so that interval contains the approximate 80th percentile.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "examId": "grade-10-math-q3-statistics-lesson-5-complementary-events-practice",
+  "examType": "practice",
+  "title": "Statistics - Lesson 5: Complementary Events Practice",
+  "description": "Quick practice identifying complementary events and calculating complement probabilities.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which statement is the complement of \"the selected student is present\"?",
+      "options": [
+        "The selected student is absent",
+        "The selected student is late",
+        "The selected student is in Grade 10",
+        "The selected student is present and late"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The complement includes every outcome where the selected student is not present, so \"absent\" is the matching complement in this situation.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "If P(A) = 0.46, what is P(not A)?",
+      "options": [
+        "0.46",
+        "0.54",
+        "1.46",
+        "46"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Complement probabilities add to 1, so P(not A) = 1 - 0.46 = 0.54.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "Complementary events cannot overlap.",
+      "correctAnswer": "true",
+      "explanation": "An outcome is either in event A or in not A. It cannot be in both at the same time.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "If 23 out of 50 learners passed a quiz, how many did not pass? Enter just the number.",
+      "correctAnswer": "27",
+      "explanation": "Use total minus the event count: 50 - 23 = 27 learners did not pass.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "The complement of \"a score is greater than 80\" is:",
+      "options": [
+        "a score is less than 80",
+        "a score is at least 80",
+        "a score is less than or equal to 80",
+        "a score is equal to 80 only"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If a score is not greater than 80, it must be 80 or less. The boundary value 80 belongs in the complement.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "If P(rain) = 18%, what is P(no rain)?",
+      "options": [
+        "18%",
+        "72%",
+        "82%",
+        "118%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Use 100% - 18% = 82%. Rain and no rain are complements for the day described.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "fill-in",
+      "question": "If P(not B) = 0.31, what is P(B)? Enter a decimal.",
+      "correctAnswer": "0.69",
+      "explanation": "Since P(B) + P(not B) = 1, P(B) = 1 - 0.31 = 0.69.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "In one or two sentences, explain why \"likes volleyball\" is not automatically the complement of \"likes basketball.\"",
+      "correctAnswer": "They are not automatically complements because a student could like both sports, neither sport, or a different sport. The complement of likes basketball is does not like basketball.",
+      "explanation": "Complementary events must cover the whole sample space without overlap. Two different preferences may overlap or leave out other possibilities.",
+      "points": 10
+    }
+  ]
+}

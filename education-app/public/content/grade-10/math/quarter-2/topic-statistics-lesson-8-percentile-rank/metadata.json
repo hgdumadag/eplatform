@@ -1,0 +1,46 @@
+{
+  "id": "grade-10-math-q2-statistics-lesson-8-percentile-rank",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Statistics - Lesson 8: Percentile Rank",
+  "description": "Calculate percentile rank of a given score and explain what that rank means.",
+  "learningObjectives": [
+    "Calculate percentile rank of a given score and explain what that rank means.",
+    "Use percentile rank and related vocabulary accurately.",
+    "Show computations or evidence before writing a conclusion.",
+    "Identify common errors in statistical or probability reasoning."
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "statistics",
+    "data-analysis",
+    "grade-10",
+    "data-and-probability",
+    "percentile rank",
+    "below a score",
+    "at or below"
+  ],
+  "lastUpdated": "2026-06-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/lesson-visual.svg",
+      "images/percentile-rank-number-line.svg",
+      "images/below-vs-at-below.svg",
+      "images/score-table-count.svg",
+      "images/formula-flow.svg",
+      "images/interpretation-card.svg"
+    ]
+  },
+  "prerequisites": [
+    "Order numbers from least to greatest",
+    "Use fractions, decimals, and percents",
+    "Read tables and simple graphs",
+    "Write a short explanation using evidence"
+  ]
+}

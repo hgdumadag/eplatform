@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Probability bar model for complementary events</title>
+  <desc id="desc">A full probability bar split into event A and not A, showing the two parts add to one whole.</desc>
+  <rect width="900" height="360" fill="#f8fafc"/>
+  <text x="450" y="54" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#172033">Complements make one whole probability</text>
+  <rect x="90" y="118" width="720" height="92" rx="14" fill="#e2e8f0" stroke="#334155" stroke-width="3"/>
+  <rect x="90" y="118" width="504" height="92" rx="14" fill="#2f80ed"/>
+  <path d="M594 118v92" stroke="#172033" stroke-width="4"/>
+  <text x="342" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">Event A</text>
+  <text x="702" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#172033">not A</text>
+  <line x1="90" y1="245" x2="810" y2="245" stroke="#334155" stroke-width="3"/>
+  <line x1="90" y1="235" x2="90" y2="255" stroke="#334155" stroke-width="3"/>
+  <line x1="810" y1="235" x2="810" y2="255" stroke="#334155" stroke-width="3"/>
+  <text x="450" y="286" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" fill="#172033">P(A) + P(not A) = 1</text>
+  <text x="450" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#475569">Subtract from 1 to find the missing part.</text>
+</svg>

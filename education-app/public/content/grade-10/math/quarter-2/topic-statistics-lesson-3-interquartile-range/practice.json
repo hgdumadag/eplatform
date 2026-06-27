@@ -1,0 +1,98 @@
+{
+  "examId": "grade-10-math-q2-statistics-lesson-3-interquartile-range-practice",
+  "examType": "practice",
+  "title": "Statistics - Lesson 3: Interquartile Range Practice",
+  "description": "Quick practice for finding quartiles, calculating IQR, and interpreting the middle 50 percent of data.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "Which formula gives the interquartile range?",
+      "options": [
+        "IQR = Q3 - Q1",
+        "IQR = maximum - minimum",
+        "IQR = Q1 + Q3",
+        "IQR = median divided by 2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The interquartile range is the distance from the first quartile to the third quartile, so IQR = Q3 - Q1.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "fill-in",
+      "question": "A data set has Q1 = 9 and Q3 = 21. What is the IQR? Enter just the number.",
+      "correctAnswer": "12",
+      "explanation": "Use Q3 - Q1: 21 - 9 = 12.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "multiple-choice",
+      "question": "Find the IQR of 2, 4, 6, 8, 10, 12, 14.",
+      "options": [
+        "8",
+        "12",
+        "6",
+        "10"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The median is 8. The lower half is 2, 4, 6, so Q1 = 4. The upper half is 10, 12, 14, so Q3 = 12. IQR = 12 - 4 = 8.",
+      "points": 15
+    },
+    {
+      "id": "q4",
+      "type": "true-false",
+      "question": "The IQR measures the spread of the middle 50 percent of a data set.",
+      "correctAnswer": "true",
+      "explanation": "Q1 and Q3 mark the boundaries of the middle half, and the IQR measures the distance between them.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "For 5, 7, 9, 11, 13, which value is left out of both halves when finding Q1 and Q3?",
+      "options": [
+        "9",
+        "5",
+        "13",
+        "11"
+      ],
+      "correctAnswer": 0,
+      "explanation": "With an odd number of values, the median is left out of both halves. The median is 9.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "fill-in",
+      "question": "Find the IQR of 3, 5, 7, 9, 11, 13, 15. Enter just the number.",
+      "correctAnswer": "8",
+      "explanation": "The median is 9. Q1 is 5 and Q3 is 13, so IQR = 13 - 5 = 8.",
+      "points": 15
+    },
+    {
+      "id": "q7",
+      "type": "multiple-choice",
+      "question": "Data Set A has IQR 4. Data Set B has IQR 10. Which statement is best?",
+      "options": [
+        "Data Set A has a more consistent middle 50 percent.",
+        "Data Set B has a more consistent middle 50 percent.",
+        "Both data sets must have the same maximum.",
+        "The data set with IQR 10 has no spread."
+      ],
+      "correctAnswer": 0,
+      "explanation": "A smaller IQR means the middle half of the data is less spread out.",
+      "points": 15
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "In one sentence, explain why an IQR answer should include context.",
+      "correctAnswer": "Context tells what the middle 50 percent is measuring, such as scores, minutes, costs, or distances.",
+      "explanation": "The IQR is a spread, but the interpretation is incomplete unless it says what values are spreading and in what units or situation.",
+      "points": 15
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "examId": "grade-10-math-q3-statistics-lesson-2-representative-data-practice",
+  "examType": "practice",
+  "title": "Statistics - Lesson 2: Representative Data Practice",
+  "description": "Practice identifying populations, samples, bias, and careful conclusions.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 80,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A report claims, \"Most Grade 10 learners prefer digital notes.\" Which group is the population?",
+      "options": [
+        "All Grade 10 learners named in the claim",
+        "Only the learners who answered the survey",
+        "Only learners who prefer digital notes",
+        "Only the report writers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The population is the whole group the claim describes: all Grade 10 learners.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A teacher asks the first 15 students who enter the room about the whole class. What type of sample is this closest to?",
+      "options": [
+        "Convenience sample",
+        "Stratified sample",
+        "Census",
+        "Random sample from the full class list"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The first students to enter are easy to reach, so this is a convenience sample.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A large sample can still be biased if it is chosen from only one narrow group.",
+      "correctAnswer": "true",
+      "explanation": "Sample size helps, but a biased selection method can still fail to represent the population.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "fill-in",
+      "question": "In a sample of 40 learners, 28 prefer printed reviewers. What percent prefer printed reviewers? Enter the percent with the percent sign.",
+      "correctAnswer": "70%",
+      "explanation": "28 divided by 40 is 0.70, so 70% of the sample prefer printed reviewers.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "multiple-choice",
+      "question": "Which sampling plan is usually strongest for a claim about all Grade 10 learners?",
+      "options": [
+        "Randomly select learners from every Grade 10 section",
+        "Ask only math club officers",
+        "Use only volunteers from a social media post",
+        "Ask the first ten students seen after class"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Randomly selecting from every section gives different parts of the Grade 10 population a fair chance to appear.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A survey question says, \"Do you agree that our excellent library should stay open longer?\" What is the main problem?",
+      "options": [
+        "The wording is leading",
+        "The sample is automatically random",
+        "The population is too large to name",
+        "The percent cannot be calculated"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The word \"excellent\" pushes respondents toward a positive answer, so the wording is not neutral.",
+      "points": 10
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "A poll asks only basketball players about all students' favorite sport. Explain one reason the data may not be representative.",
+      "correctAnswer": "Basketball players may prefer basketball more than the general student population, so the sample may overrepresent one viewpoint.",
+      "explanation": "A good answer should connect the sample group to a likely bias in the conclusion about all students.",
+      "points": 10
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Write one careful sentence using this result: In a random sample of 80 Grade 10 learners, 52 said they prefer group study.",
+      "correctAnswer": "In this random Grade 10 sample, 52 out of 80 learners preferred group study, giving reasonable evidence that group study is popular among Grade 10 learners.",
+      "explanation": "The answer should mention the sample result and connect it carefully to the Grade 10 population.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "grade-10-math-q2-statistics-lesson-6-interpreting-box-plots",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 2,
+  "topicName": "Statistics - Lesson 6: Interpreting Box Plots",
+  "description": "Interpret box-and-whisker plots by comparing center, spread, shape, and possible outliers in context.",
+  "learningObjectives": [
+    "Read the median, quartiles, minimum, and maximum from a box plot.",
+    "Compare medians to describe typical values in context.",
+    "Compare IQRs and ranges to describe middle spread and overall spread.",
+    "Use whiskers, median position, and possible outliers to describe distribution shape carefully.",
+    "Write evidence-based conclusions from one or two box plots."
+  ],
+  "estimatedDuration": 45,
+  "difficulty": "intermediate",
+  "tags": [
+    "statistics",
+    "data-analysis",
+    "grade-10",
+    "box-plots",
+    "median",
+    "interquartile-range",
+    "range",
+    "skew",
+    "outliers"
+  ],
+  "lastUpdated": "2026-06-27",
+  "version": "1.1",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/lesson-visual.svg",
+      "images/five-number-summary-map.svg",
+      "images/spread-comparison.svg",
+      "images/skewed-box-plots.svg",
+      "images/outlier-context-check.svg",
+      "images/decision-flow.svg"
+    ]
+  },
+  "prerequisites": [
+    "Order numbers from least to greatest",
+    "Identify median and quartiles",
+    "Compute range and interquartile range",
+    "Read number scales on statistical displays",
+    "Write a short conclusion using evidence"
+  ]
+}

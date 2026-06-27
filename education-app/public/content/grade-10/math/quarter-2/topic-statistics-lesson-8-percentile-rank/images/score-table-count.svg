@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Ordered score table for counting below 82</title>
+  <desc id="desc">A table lists positions and scores, highlighting positions one through six as below 82 and position seven as the target score.</desc>
+  <rect width="960" height="420" fill="#f8fafc"/>
+  <text x="64" y="60" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#111827">Use an ordered table to count accurately</text>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <rect x="70" y="104" width="820" height="160" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <rect x="70" y="104" width="820" height="50" rx="8" fill="#1f2937"/>
+    <text x="111" y="136" font-size="16" font-weight="700" fill="#ffffff">Position</text>
+    <text x="111" y="204" font-size="16" font-weight="700" fill="#334155">Score</text>
+    <g font-size="17">
+      <text x="190" y="136" fill="#ffffff">1</text><text x="270" y="136" fill="#ffffff">2</text><text x="350" y="136" fill="#ffffff">3</text><text x="430" y="136" fill="#ffffff">4</text><text x="510" y="136" fill="#ffffff">5</text><text x="590" y="136" fill="#ffffff">6</text><text x="670" y="136" fill="#ffffff">7</text><text x="750" y="136" fill="#ffffff">8</text><text x="830" y="136" fill="#ffffff">9</text>
+      <text x="190" y="204" fill="#0f172a">60</text><text x="270" y="204" fill="#0f172a">64</text><text x="350" y="204" fill="#0f172a">68</text><text x="430" y="204" fill="#0f172a">70</text><text x="510" y="204" fill="#0f172a">75</text><text x="590" y="204" fill="#0f172a">78</text><text x="670" y="204" fill="#b91c1c" font-weight="700">82</text><text x="750" y="204" fill="#0f172a">86</text><text x="830" y="204" fill="#0f172a">90</text>
+    </g>
+    <text x="878" y="136" font-size="17" fill="#ffffff">10</text>
+    <text x="878" y="204" font-size="17" fill="#0f172a">94</text>
+    <rect x="156" y="170" width="472" height="54" rx="7" fill="#bbf7d0" opacity="0.65"/>
+    <rect x="649" y="165" width="42" height="64" rx="7" fill="none" stroke="#dc2626" stroke-width="3"/>
+    <path d="M392 242 V292" stroke="#16a34a" stroke-width="3" marker-end="url(#arrowGreen)"/>
+    <path d="M670 235 V292" stroke="#dc2626" stroke-width="3" marker-end="url(#arrowRed)"/>
+    <text x="392" y="324" font-size="22" font-weight="700" fill="#166534">6 values below</text>
+    <text x="670" y="324" font-size="22" font-weight="700" fill="#991b1b">target: 82</text>
+  </g>
+  <defs>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="5" refY="8" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 0 L5 10 Z" fill="#16a34a"/>
+    </marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="5" refY="8" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 0 L5 10 Z" fill="#dc2626"/>
+    </marker>
+  </defs>
+</svg>

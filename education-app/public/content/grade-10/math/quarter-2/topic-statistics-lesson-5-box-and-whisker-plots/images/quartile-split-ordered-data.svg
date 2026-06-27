@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Quartile split for ordered data</title>
+  <desc id="desc">Ordered data values split into lower half, median, and upper half to identify Q1 and Q3.</desc>
+  <rect width="900" height="360" fill="#f7fbff"/>
+  <text x="54" y="62" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#1f2937">Split ordered data to find quartiles</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="76" y="116" width="72" height="58" rx="8" fill="#e0f2fe" stroke="#0284c7"/>
+    <rect x="156" y="116" width="72" height="58" rx="8" fill="#e0f2fe" stroke="#0284c7"/>
+    <rect x="236" y="116" width="72" height="58" rx="8" fill="#e0f2fe" stroke="#0284c7"/>
+    <rect x="316" y="116" width="72" height="58" rx="8" fill="#e0f2fe" stroke="#0284c7"/>
+    <rect x="396" y="116" width="72" height="58" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+    <rect x="476" y="116" width="72" height="58" rx="8" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="556" y="116" width="72" height="58" rx="8" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="636" y="116" width="72" height="58" rx="8" fill="#dcfce7" stroke="#16a34a"/>
+    <rect x="716" y="116" width="72" height="58" rx="8" fill="#dcfce7" stroke="#16a34a"/>
+    <g font-size="22" font-weight="700" fill="#111827">
+      <text x="112" y="153">10</text>
+      <text x="192" y="153">12</text>
+      <text x="272" y="153">15</text>
+      <text x="352" y="153">18</text>
+      <text x="432" y="153">20</text>
+      <text x="512" y="153">21</text>
+      <text x="592" y="153">24</text>
+      <text x="672" y="153">26</text>
+      <text x="752" y="153">30</text>
+    </g>
+    <path d="M76 205 H388" stroke="#0284c7" stroke-width="4" stroke-linecap="round"/>
+    <path d="M476 205 H788" stroke="#16a34a" stroke-width="4" stroke-linecap="round"/>
+    <path d="M396 205 H468" stroke="#dc2626" stroke-width="4" stroke-linecap="round"/>
+    <g font-size="17" fill="#1f2937">
+      <text x="232" y="236">lower half</text>
+      <text x="432" y="236">median = 20</text>
+      <text x="632" y="236">upper half</text>
+      <text x="232" y="282">Q1 = (12 + 15) / 2 = 13.5</text>
+      <text x="632" y="282">Q3 = (24 + 26) / 2 = 25</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-labelledby="title desc">
+  <title id="title">Bias checklist</title>
+  <desc id="desc">Checklist for judging source, size, selection, wording, and match to claim.</desc>
+  <rect width="900" height="460" fill="#fffdf7"/>
+  <rect x="130" y="45" width="640" height="365" rx="20" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+  <text x="450" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1f2937">Before You Trust the Claim</text>
+  <g font-family="Arial, sans-serif" font-size="21" fill="#243447">
+    <rect x="185" y="125" width="34" height="34" rx="5" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/><path d="M193 142 l8 9 l16 -19" fill="none" stroke="#2e7d32" stroke-width="4"/><text x="242" y="149">Source is named and relevant</text>
+    <rect x="185" y="175" width="34" height="34" rx="5" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/><path d="M193 192 l8 9 l16 -19" fill="none" stroke="#2e7d32" stroke-width="4"/><text x="242" y="199">Sample size is clear</text>
+    <rect x="185" y="225" width="34" height="34" rx="5" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/><path d="M193 242 l8 9 l16 -19" fill="none" stroke="#2e7d32" stroke-width="4"/><text x="242" y="249">Selection method is fair</text>
+    <rect x="185" y="275" width="34" height="34" rx="5" fill="#fff8e1" stroke="#b7791f" stroke-width="2"/><path d="M194 292 H212" stroke="#b7791f" stroke-width="4"/><text x="242" y="299">Question wording is neutral</text>
+    <rect x="185" y="325" width="34" height="34" rx="5" fill="#fff8e1" stroke="#b7791f" stroke-width="2"/><path d="M194 342 H212" stroke="#b7791f" stroke-width="4"/><text x="242" y="349">Sample matches the population</text>
+  </g>
+  <text x="450" y="392" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#475569">The more boxes you can defend, the stronger the evidence.</text>
+</svg>

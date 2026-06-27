@@ -1,0 +1,48 @@
+{
+  "id": "grade-10-math-q3-statistics-lesson-4-mutually-exclusive-events",
+  "grade": 10,
+  "subject": "math",
+  "quarter": 3,
+  "topicName": "Statistics - Lesson 4: Mutually Exclusive Events",
+  "description": "Illustrate mutually exclusive and non-mutually exclusive events, then choose the correct addition rule for probability.",
+  "learningObjectives": [
+    "Illustrate mutually exclusive and non-mutually exclusive events using lists and Venn diagrams.",
+    "Identify whether two events can happen at the same time in one trial.",
+    "Use P(A or B) = P(A) + P(B) for mutually exclusive events.",
+    "Use P(A or B) = P(A) + P(B) - P(A and B) when events overlap.",
+    "Explain why checking for overlap prevents double-counting."
+  ],
+  "estimatedDuration": 50,
+  "difficulty": "intermediate",
+  "tags": [
+    "statistics",
+    "probability",
+    "grade-10",
+    "data-and-probability",
+    "event",
+    "sample-space",
+    "mutually-exclusive-events",
+    "venn-diagram",
+    "addition-rule"
+  ],
+  "lastUpdated": "2026-06-27",
+  "version": "1.0",
+  "resources": {
+    "contentFile": "content.md",
+    "practiceExam": "practice.json",
+    "assessmentExam": "assessment.json",
+    "images": [
+      "images/lesson-visual.svg",
+      "images/venn-mutually-exclusive.svg",
+      "images/venn-overlap-events.svg",
+      "images/spinner-overlap-model.svg",
+      "images/addition-rule-flow.svg"
+    ]
+  },
+  "prerequisites": [
+    "Identify outcomes in a sample space",
+    "Write simple probabilities as fractions",
+    "Read two-way counts or category descriptions",
+    "Interpret probability statements in context"
+  ]
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Conclusion builder</title>
+  <desc id="desc">A three-step flow showing measure, evidence, and conclusion in context.</desc>
+  <rect width="900" height="360" fill="#f8fafc"/>
+  <rect x="42" y="34" width="816" height="292" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="72" y="78" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Build an evidence-based conclusion</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="82" y="136" width="205" height="116" rx="8" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/>
+    <text x="184" y="174" font-size="22" font-weight="700" text-anchor="middle" fill="#0c4a6e">1. Measure</text>
+    <text x="184" y="207" font-size="16" text-anchor="middle" fill="#075985">Find median, quartile,</text>
+    <text x="184" y="229" font-size="16" text-anchor="middle" fill="#075985">IQR, or percentile rank.</text>
+    <path d="M303 194 H358" stroke="#334155" stroke-width="4" marker-end="url(#arrow)"/>
+    <rect x="376" y="136" width="205" height="116" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+    <text x="478" y="174" font-size="22" font-weight="700" text-anchor="middle" fill="#166534">2. Evidence</text>
+    <text x="478" y="207" font-size="16" text-anchor="middle" fill="#166534">State the value and</text>
+    <text x="478" y="229" font-size="16" text-anchor="middle" fill="#166534">what group it describes.</text>
+    <path d="M597 194 H652" stroke="#334155" stroke-width="4" marker-end="url(#arrow)"/>
+    <rect x="670" y="136" width="148" height="116" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="3"/>
+    <text x="744" y="174" font-size="22" font-weight="700" text-anchor="middle" fill="#92400e">3. Claim</text>
+    <text x="744" y="207" font-size="16" text-anchor="middle" fill="#92400e">Explain what</text>
+    <text x="744" y="229" font-size="16" text-anchor="middle" fill="#92400e">the data suggest.</text>
+  </g>
+  <text x="450" y="300" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#0f172a">Formula: statistic + context + supported meaning</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#334155"/>
+    </marker>
+  </defs>
+</svg>

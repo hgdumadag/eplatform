@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Cumulative histogram</title>
+  <desc id="desc">A cumulative histogram with increasing bar heights for grouped quiz scores.</desc>
+  <rect width="960" height="520" fill="#f8fafc"/>
+  <rect x="52" y="36" width="856" height="448" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="82" y="82" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Cumulative Histogram</text>
+  <text x="82" y="112" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#475569">Bar height shows the running total up to that interval.</text>
+  <line x1="145" y1="410" x2="835" y2="410" stroke="#334155" stroke-width="3"/>
+  <line x1="145" y1="410" x2="145" y2="145" stroke="#334155" stroke-width="3"/>
+  <g stroke="#e2e8f0" stroke-width="1">
+    <line x1="145" y1="365" x2="835" y2="365"/>
+    <line x1="145" y1="321" x2="835" y2="321"/>
+    <line x1="145" y1="276" x2="835" y2="276"/>
+    <line x1="145" y1="232" x2="835" y2="232"/>
+    <line x1="145" y1="187" x2="835" y2="187"/>
+  </g>
+  <g fill="#0ea5e9" stroke="#0369a1" stroke-width="2">
+    <rect x="185" y="392" width="80" height="18"/>
+    <rect x="290" y="356" width="80" height="54"/>
+    <rect x="395" y="303" width="80" height="107"/>
+    <rect x="500" y="214" width="80" height="196"/>
+    <rect x="605" y="161" width="80" height="249"/>
+    <rect x="710" y="143" width="80" height="267"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#0f172a" text-anchor="middle">
+    <text x="225" y="386">2</text>
+    <text x="330" y="350">6</text>
+    <text x="435" y="297">12</text>
+    <text x="540" y="208">22</text>
+    <text x="645" y="155">28</text>
+    <text x="750" y="137">30</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#334155">
+    <text x="128" y="415" text-anchor="end">0</text>
+    <text x="128" y="326" text-anchor="end">10</text>
+    <text x="128" y="237" text-anchor="end">20</text>
+    <text x="128" y="148" text-anchor="end">30</text>
+    <text x="225" y="438" text-anchor="middle">40-49</text>
+    <text x="330" y="438" text-anchor="middle">50-59</text>
+    <text x="435" y="438" text-anchor="middle">60-69</text>
+    <text x="540" y="438" text-anchor="middle">70-79</text>
+    <text x="645" y="438" text-anchor="middle">80-89</text>
+    <text x="750" y="438" text-anchor="middle">90-99</text>
+  </g>
+  <text x="490" y="474" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" text-anchor="middle" fill="#0f172a">Score interval</text>
+  <text x="85" y="288" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#0f172a" transform="rotate(-90 85 288)">Running total</text>
+</svg>

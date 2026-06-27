@@ -1,0 +1,98 @@
+{
+  "examId": "grade-10-math-q3-statistics-lesson-1-reading-statistical-reports-practice",
+  "examType": "practice",
+  "title": "Statistics - Lesson 1: Reading Statistical Reports Practice",
+  "description": "Practice identifying claims, sources, displays, statistics, and evidence-based conclusions.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "A report says, \"Most surveyed learners prefer video lessons.\" What part of the report is this sentence?",
+      "options": [
+        "Claim",
+        "Data source",
+        "Axis scale",
+        "Sample size"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The sentence is the main statement the report wants the reader to believe, so it is the claim.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A survey asked 50 learners, and 32 chose video lessons. What percent chose video lessons?",
+      "options": [
+        "32%",
+        "50%",
+        "64%",
+        "82%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Compute 32 divided by 50: 32/50 = 0.64 = 64%.",
+      "points": 10
+    },
+    {
+      "id": "q3",
+      "type": "true-false",
+      "question": "A conclusion should name the group or source that the statistic describes.",
+      "correctAnswer": "true",
+      "explanation": "Naming the group prevents the conclusion from describing more people than the data actually measured.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "Which detail is part of checking a graph display?",
+      "options": [
+        "The color of the classroom wall",
+        "The graph's title, labels, units, and scale",
+        "The reader's favorite subject",
+        "The length of the report title only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A graph should be read through its title, labels, units, categories, and scale.",
+      "points": 10
+    },
+    {
+      "id": "q5",
+      "type": "fill-in",
+      "question": "In the statement \"36 out of 60 learners chose option A,\" enter the total number of learners surveyed.",
+      "correctAnswer": "60",
+      "explanation": "The total surveyed is the denominator, 60 learners.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A report about all Grade 10 learners uses responses from only one section. What is the best concern to raise?",
+      "options": [
+        "The sample may not represent all Grade 10 learners.",
+        "The claim must be true because one section answered.",
+        "The display should not include numbers.",
+        "The report cannot use percentages."
+      ],
+      "correctAnswer": 0,
+      "explanation": "One section may differ from the whole grade level, so the sample may not represent the population named in the claim.",
+      "points": 15
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "A graph compares 51% and 54%, but the vertical axis starts at 50%. In one sentence, explain why the graph may be misleading.",
+      "correctAnswer": "Starting the axis at 50% can make a small 3 percentage-point difference look much larger than it is.",
+      "explanation": "Cut-off scales can exaggerate visual differences, so the exact values should be checked.",
+      "points": 15
+    },
+    {
+      "id": "q8",
+      "type": "short-answer",
+      "question": "Write a careful conclusion for this result: 28 out of 40 surveyed learners prefer group study.",
+      "correctAnswer": "The data show that 28 of 40 surveyed learners, or 70%, prefer group study, so the claim is supported for the surveyed group.",
+      "explanation": "A strong conclusion includes the statistic, the surveyed group, and whether the claim is supported.",
+      "points": 20
+    }
+  ]
+}

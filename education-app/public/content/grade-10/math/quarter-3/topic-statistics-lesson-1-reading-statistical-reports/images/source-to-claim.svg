@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-labelledby="title desc">
+  <title id="title">Path from data source to claim</title>
+  <desc id="desc">A flow diagram showing source, sample, statistic, and claim.</desc>
+  <rect width="760" height="300" fill="#f8fafc"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#475569"/>
+    </marker>
+  </defs>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="42" y="92" width="150" height="94" rx="12" fill="#dcfce7" stroke="#15803d" stroke-width="2"/>
+    <text x="117" y="124" font-size="18" font-weight="700" fill="#14532d">Source</text>
+    <text x="117" y="151" font-size="13" fill="#14532d">Who or what</text>
+    <text x="117" y="168" font-size="13" fill="#14532d">was measured?</text>
+    <rect x="226" y="92" width="150" height="94" rx="12" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+    <text x="301" y="124" font-size="18" font-weight="700" fill="#0c4a6e">Sample</text>
+    <text x="301" y="151" font-size="13" fill="#0c4a6e">How many?</text>
+    <text x="301" y="168" font-size="13" fill="#0c4a6e">How chosen?</text>
+    <rect x="410" y="92" width="150" height="94" rx="12" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+    <text x="485" y="124" font-size="18" font-weight="700" fill="#78350f">Statistic</text>
+    <text x="485" y="151" font-size="13" fill="#78350f">Count, percent,</text>
+    <text x="485" y="168" font-size="13" fill="#78350f">mean, or median</text>
+    <rect x="594" y="92" width="124" height="94" rx="12" fill="#fce7f3" stroke="#be185d" stroke-width="2"/>
+    <text x="656" y="124" font-size="18" font-weight="700" fill="#831843">Claim</text>
+    <text x="656" y="151" font-size="13" fill="#831843">What does it</text>
+    <text x="656" y="168" font-size="13" fill="#831843">try to prove?</text>
+  </g>
+  <g stroke="#475569" stroke-width="3" marker-end="url(#arrow)">
+    <line x1="194" y1="139" x2="218" y2="139"/>
+    <line x1="378" y1="139" x2="402" y2="139"/>
+    <line x1="562" y1="139" x2="586" y2="139"/>
+  </g>
+  <text x="380" y="238" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#334155">If one link is unclear, the conclusion becomes weaker.</text>
+</svg>

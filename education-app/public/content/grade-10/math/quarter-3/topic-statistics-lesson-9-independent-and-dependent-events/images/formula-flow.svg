@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Formula flow for multiplying event probabilities</title>
+  <desc id="desc">A four-step process for solving compound probability: identify events, decide relationship, write fractions, multiply and explain.</desc>
+  <rect width="960" height="420" fill="#f8fafc"/>
+  <text x="480" y="54" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Compound Probability Flow</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="60" y="124" width="180" height="132" rx="16" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/>
+    <text x="150" y="164" text-anchor="middle" font-size="21" font-weight="700" fill="#075985">1. Name</text>
+    <text x="150" y="194" text-anchor="middle" font-size="17" fill="#075985">Event A</text>
+    <text x="150" y="220" text-anchor="middle" font-size="17" fill="#075985">and Event B</text>
+    <rect x="280" y="124" width="180" height="132" rx="16" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+    <text x="370" y="164" text-anchor="middle" font-size="21" font-weight="700" fill="#166534">2. Decide</text>
+    <text x="370" y="194" text-anchor="middle" font-size="17" fill="#166534">Independent</text>
+    <text x="370" y="220" text-anchor="middle" font-size="17" fill="#166534">or dependent?</text>
+    <rect x="500" y="124" width="180" height="132" rx="16" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+    <text x="590" y="164" text-anchor="middle" font-size="21" font-weight="700" fill="#92400e">3. Write</text>
+    <text x="590" y="194" text-anchor="middle" font-size="17" fill="#92400e">First fraction</text>
+    <text x="590" y="220" text-anchor="middle" font-size="17" fill="#92400e">Second fraction</text>
+    <rect x="720" y="124" width="180" height="132" rx="16" fill="#ede9fe" stroke="#7c3aed" stroke-width="3"/>
+    <text x="810" y="164" text-anchor="middle" font-size="21" font-weight="700" fill="#5b21b6">4. Multiply</text>
+    <text x="810" y="194" text-anchor="middle" font-size="17" fill="#5b21b6">Simplify</text>
+    <text x="810" y="220" text-anchor="middle" font-size="17" fill="#5b21b6">Explain</text>
+  </g>
+  <path d="M244 190 H276" stroke="#334155" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M464 190 H496" stroke="#334155" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M684 190 H716" stroke="#334155" stroke-width="4" marker-end="url(#arrow)"/>
+  <rect x="196" y="302" width="568" height="56" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="3"/>
+  <text x="480" y="337" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">Independent: P(A) x P(B)    Dependent: P(A) x P(B after A)</text>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10 Z" fill="#334155"/></marker>
+  </defs>
+</svg>

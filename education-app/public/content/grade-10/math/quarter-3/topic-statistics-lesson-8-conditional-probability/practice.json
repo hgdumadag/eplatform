@@ -1,0 +1,100 @@
+{
+  "examId": "grade-10-math-q3-statistics-lesson-8-conditional-probability-practice",
+  "examType": "practice",
+  "title": "Statistics - Lesson 8: Conditional Probability Practice",
+  "description": "Practice identifying restricted denominators and solving conditional probability from tables, Venn diagrams, and short contexts.",
+  "passingScore": 70,
+  "timeLimit": 25,
+  "totalQuestions": 8,
+  "totalPoints": 100,
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multiple-choice",
+      "question": "In the expression P(A | B), which event gives the denominator?",
+      "options": [
+        "Event B, the given condition",
+        "Event A, the event being asked about",
+        "The event outside both A and B",
+        "The full sample space every time"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In P(A | B), B is the given condition. The denominator is restricted to outcomes in B.",
+      "points": 10
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "question": "A class survey shows 24 learners attended review. Of those, 18 passed the quiz. What is P(passed | attended review)?",
+      "options": [
+        "18/24",
+        "24/18",
+        "18/40",
+        "6/24"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The condition is attended review, so use 24 as the denominator and 18 as the favorable count.",
+      "points": 15
+    },
+    {
+      "id": "q3",
+      "type": "fill-in",
+      "question": "Simplify: If 9 of 15 learners in the given group chose robotics, what is the conditional probability? Enter a simplified fraction.",
+      "correctAnswer": "3/5",
+      "explanation": "The given group has 15 learners and 9 chose robotics, so 9/15 simplifies to 3/5.",
+      "points": 10
+    },
+    {
+      "id": "q4",
+      "type": "multiple-choice",
+      "question": "In a Venn diagram, 7 learners are in both music club and honor roll. There are 20 learners in music club altogether. What is P(honor roll | music club)?",
+      "options": [
+        "7/20",
+        "20/7",
+        "7/27",
+        "13/20"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Music club is the given group, so the denominator is 20. The overlap with honor roll is 7.",
+      "points": 15
+    },
+    {
+      "id": "q5",
+      "type": "true-false",
+      "question": "P(A | B) and P(B | A) always have the same value.",
+      "correctAnswer": "false",
+      "explanation": "They use different denominators unless A and B have the same size or a special relationship.",
+      "points": 10
+    },
+    {
+      "id": "q6",
+      "type": "multiple-choice",
+      "question": "A bag has 5 red and 3 blue counters. One red counter is removed and not replaced. What is P(second counter is red | first counter was red)?",
+      "options": [
+        "4/7",
+        "5/8",
+        "4/8",
+        "5/7"
+      ],
+      "correctAnswer": 0,
+      "explanation": "After a red counter is removed, 4 red counters remain out of 7 total counters.",
+      "points": 15
+    },
+    {
+      "id": "q7",
+      "type": "short-answer",
+      "question": "Explain in one sentence why the phrase \"among students who passed\" changes the denominator.",
+      "correctAnswer": "It restricts the sample space to only the students who passed, so the denominator is the number of students who passed.",
+      "explanation": "Conditional probability uses only the group named by the given condition.",
+      "points": 15
+    },
+    {
+      "id": "q8",
+      "type": "fill-in",
+      "question": "If P(A and B) = 0.21 and P(B) = 0.70, what is P(A | B)? Enter a decimal.",
+      "correctAnswer": "0.3 or 0.30",
+      "explanation": "Use P(A | B) = P(A and B) / P(B). Then 0.21 / 0.70 = 0.30.",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Five-number summary anatomy</title>
+  <desc id="desc">A box-and-whisker plot with labels for minimum, Q1, median, Q3, and maximum.</desc>
+  <rect width="900" height="360" fill="#fffdf7"/>
+  <rect x="40" y="38" width="820" height="284" rx="16" fill="#ffffff" stroke="#e5dcc8"/>
+  <text x="70" y="76" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#263238">The five landmarks</text>
+  <line x1="130" y1="248" x2="770" y2="248" stroke="#334155" stroke-width="3"/>
+  <g stroke="#334155" stroke-width="2">
+    <line x1="130" y1="240" x2="130" y2="256"/>
+    <line x1="290" y1="240" x2="290" y2="256"/>
+    <line x1="450" y1="240" x2="450" y2="256"/>
+    <line x1="610" y1="240" x2="610" y2="256"/>
+    <line x1="770" y1="240" x2="770" y2="256"/>
+  </g>
+  <line x1="130" y1="178" x2="290" y2="178" stroke="#0f766e" stroke-width="5" stroke-linecap="round"/>
+  <line x1="610" y1="178" x2="770" y2="178" stroke="#0f766e" stroke-width="5" stroke-linecap="round"/>
+  <rect x="290" y="136" width="320" height="84" rx="6" fill="#ccfbf1" stroke="#0f766e" stroke-width="4"/>
+  <line x1="450" y1="128" x2="450" y2="228" stroke="#dc2626" stroke-width="5"/>
+  <line x1="130" y1="148" x2="130" y2="208" stroke="#0f766e" stroke-width="5"/>
+  <line x1="770" y1="148" x2="770" y2="208" stroke="#0f766e" stroke-width="5"/>
+  <g font-family="Arial, sans-serif" fill="#243447" text-anchor="middle">
+    <text x="130" y="115" font-size="18" font-weight="700">Minimum</text>
+    <text x="290" y="115" font-size="18" font-weight="700">Q1</text>
+    <text x="450" y="105" font-size="18" font-weight="700">Median</text>
+    <text x="610" y="115" font-size="18" font-weight="700">Q3</text>
+    <text x="770" y="115" font-size="18" font-weight="700">Maximum</text>
+    <text x="450" y="260" font-size="14">scaled number line</text>
+    <text x="450" y="305" font-size="18" fill="#0f766e">The box spans Q1 to Q3: the middle 50% of the data.</text>
+  </g>
+</svg>
